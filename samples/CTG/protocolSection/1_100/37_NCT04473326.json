@@ -1,0 +1,110 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04473326",
+      "orgStudyIdInfo": {
+        "id": "2020P000846"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "P30AG064199-01",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/P30AG064199-01"
+        }
+      ],
+      "organization": {
+        "fullName": "Brigham and Women's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Reinforcement Learning in Diabetes Mellitus Trial",
+      "officialTitle": "Optimizing Message Framing for Healthy Habits for Patients With Type 2 Diabetes - Phase II (Pragmatic Trial)",
+      "acronym": "REINFORCE"
+    },
+    "descriptionModule": {
+      "briefSummary": "Reinforcement learning is an advanced analytic method that discovers each individual's pattern of responsiveness by observing their actions and then implements a personalized strategy to optimize individuals' behaviors using trial and error. The goal of this pilot study is to develop and test a novel reinforcement learning-enhanced text messaging program to support medication adherence in patients with type 2 diabetes. Type 2 diabetes is an optimal condition in which to test this program, as it is one of the most prevalent chronic conditions in the US adult population and requires most patients to be on daily or twice daily doses of medications. This pilot study will be a parallel randomized pragmatic trial comparing medication adherence and clinical outcomes for adults aged 18-84 with type 2 diabetes who are prescribed 1-3 daily oral medications for this disease. Participants will be randomized to one of two arms for the duration of the study period: (1) a reinforcement learning intervention arm with up to daily, tailored text messages based on time-varying treatment-response patterns; or (2) a control arm with up to daily, un-tailored text messages. Our outcomes of interest will be medication adherence, as measured by electronic pill bottles, and HbA1c levels.",
+      "detailedDescription": "The goal of this pilot study is to develop and test a novel reinforcement learning-enhanced text messaging program to support medication adherence in patients with type 2 diabetes. This pilot study will be a parallel randomized pragmatic trial comparing medication adherence and clinical outcomes for adults aged 18-84 with type 2 diabetes who are prescribed 1-3 daily oral medications for this disease. Participants will be randomized to one of two arms for the duration of the study period: 1) a reinforcement learning intervention arm with up to daily, tailored text messages based on time-varying treatment response patterns, or 2) a control arm with up to daily, untailored text messages. Our outcomes of interest will be medication adherence, as measured by electronic pill bottles, and HbA1c levels."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes Mellitus, Type 2",
+        "Medication Adherence"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Reinforcement Learning Intervention Arm",
+          "type": "EXPERIMENTAL",
+          "description": "Up to daily, tailored text messages.",
+          "interventionNames": [
+            "Behavioral: Reinforcement Learning"
+          ]
+        },
+        {
+          "label": "Control Arm",
+          "type": "NO_INTERVENTION",
+          "description": "Up to daily, untailored text messages."
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Reinforcement Learning",
+          "description": "Participants in the intervention arm will receive up to daily, tailored text messages based on their electronic pill bottle-measured adherence. Given the participants' baseline characteristics and time-varying responses to the messages, a reinforcement learning algorithm will deliver different text messages and adapt over time to determine which type of messaging works best for each individual participant.",
+          "armGroupLabels": [
+            "Reinforcement Learning Intervention Arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Medication Adherence",
+          "description": "Medication adherence to type 2 diabetes oral medications (averaged) as measured by the number of dates and times of pillbottle openings in the electronic pill bottles",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Glycemic Control",
+          "description": "Change in glycated hemoglobin A1c from baseline to end of the 6-month follow-up",
+          "timeFrame": "6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n* Age between 18-84 years\n* Diagnosed with type 2 diabetes mellitus (T2DM) and are prescribed between 1-3 daily oral medications for this disease\n* Currently have a smartphone with a data plan or WiFi at home\n* HbA1c level ≥7.5%\n* Basic working knowledge of English\n* Willing and able to set up the platform and adhere to study procedures\n* Either not currently using a pillbox or willing to use electronic pill bottles (EDMs) for diabetes medications for the duration of the study\n\nExclusion criteria:\n\n* Patients with active enrollment in another diabetes trial within Mass General Brigham\n* Patients who receive daily assistance with taking their medications at home\n* Patients who are unable to receive text messages for more than 3 days in a row during the study period",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "84 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

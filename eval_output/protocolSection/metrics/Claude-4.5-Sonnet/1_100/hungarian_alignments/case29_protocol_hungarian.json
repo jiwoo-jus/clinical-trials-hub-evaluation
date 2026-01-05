@@ -1,0 +1,353 @@
+{
+  "metadata": {
+    "case_id": 29,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T15:35:58.514062",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/29_NCT01966471.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/29_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.9
+        ],
+        [
+          0.9,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Invasive Disease-Free Survival (IDFS) in the Node-Positive Subpopulation",
+            "description": "IDFS event was defined as the time from randomization until the date of first occurrence of one of the following: Ipsilateral invasive breast tumor recurrence (an invasive breast cancer \\[bc\\] involving the same breast parenchyma as the original primary lesion); Ipsilateral local-regional invasive bc recurrence (an invasive bc in the axilla, regional lymph nodes, chest wall, and/or skin of the ipsilateral breast); Contralateral or ipsilateral second primary invasive bc; Distant recurrence (evidence of bc in any anatomic site \\[other than the three sites mentioned above\\]) that has either been histologically confirmed or clinically/radiographically diagnosed as recurrent invasive bc; Death attributable to any cause, including bc, non-bc, or unknown cause. 3-year IDFS event-free rate per randomized treatment arms in the ITT population was estimated using the Kaplan-Meier method and estimated the probability of a participant being event-free after 3 years after randomization.",
+            "timeFrame": "Last participant randomized to data cut-off date of 27 November 2019 (approximately 70 months). The 3 year IDFS event-free rate was assessed based on the data collected for each participant considering the cut-off date mentioned above."
+          },
+          "pred_item": {
+            "measure": "Invasive Disease-Free Survival (IDFS) in the Node-Positive Subpopulation",
+            "description": "IDFS was defined as the time from random assignment until the date of first occurrence of one of the following: ipsilateral invasive breast tumor recurrence, ipsilateral locoregional invasive breast cancer recurrence, contralateral or ipsilateral second primary invasive breast cancer, distant recurrence, or death because of any cause.",
+            "timeFrame": "From randomization until first IDFS event or end of follow-up (median follow-up approximately 57 months)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Invasive Disease-Free Survival (IDFS) in the Overall Population",
+            "description": "IDFS event was defined as the time from randomization until the date of first occurrence of one of the following: Ipsilateral invasive breast tumor recurrence (an invasive breast cancer \\[bc\\] involving the same breast parenchyma as the original primary lesion); Ipsilateral local-regional invasive bc recurrence (an invasive bc in the axilla, regional lymph nodes, chest wall, and/or skin of the ipsilateral breast); Contralateral or ipsilateral second primary invasive bc; Distant recurrence (evidence of bc in any anatomic site \\[other than the three sites mentioned above\\]) that has either been histologically confirmed or clinically/radiographically diagnosed as recurrent invasive bc; Death attributable to any cause, including bc, non-bc, or unknown cause. 3-year IDFS event-free rate per randomized treatment arms in the ITT population were estimated using the Kaplan-Meier method and estimated the probability of a patient being event-free after 3 years after randomization.",
+            "timeFrame": "First participant randomized up to approximately 7.5 years"
+          },
+          "pred_item": {
+            "measure": "Invasive Disease-Free Survival (IDFS) in the Overall Population",
+            "description": "IDFS was defined as the time from random assignment until the date of first occurrence of one of the following: ipsilateral invasive breast tumor recurrence, ipsilateral locoregional invasive breast cancer recurrence, contralateral or ipsilateral second primary invasive breast cancer, distant recurrence, or death because of any cause.",
+            "timeFrame": "From randomization until first IDFS event or end of follow-up (median follow-up approximately 57 months)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 9,
+      "pred_count": 13,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.94,
+          0.9,
+          0.86,
+          0.2,
+          0.4,
+          0.2,
+          0.2,
+          0.05,
+          0.09,
+          0.08,
+          0.05,
+          0.08
+        ],
+        [
+          0.78,
+          0.82,
+          0.96,
+          0.99,
+          0.62,
+          0.72,
+          0.6,
+          0.42,
+          0.15,
+          0.1,
+          0.25,
+          0.12,
+          0.18
+        ],
+        [
+          0.5,
+          0.3,
+          0.78,
+          0.78,
+          0.98,
+          0.96,
+          0.5,
+          0.35,
+          0.08,
+          0.15,
+          0.08,
+          0.12,
+          0.12
+        ],
+        [
+          0.28,
+          0.65,
+          0.55,
+          0.7,
+          0.3,
+          0.6,
+          0.98,
+          0.99,
+          0.12,
+          0.08,
+          0.15,
+          0.15,
+          0.1
+        ],
+        [
+          0.05,
+          0.05,
+          0.08,
+          0.1,
+          0.08,
+          0.08,
+          0.05,
+          0.08,
+          0.92,
+          0.3,
+          0.08,
+          0.08,
+          0.08
+        ],
+        [
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.02,
+          0.05,
+          0.05,
+          0.08,
+          0.74,
+          0.78,
+          0.08,
+          0.08
+        ],
+        [
+          0.03,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.06,
+          0.07,
+          0.08,
+          0.02,
+          0.08,
+          0.08,
+          0.86,
+          0.78
+        ],
+        [
+          0.02,
+          0.02,
+          0.05,
+          0.07,
+          0.08,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.1,
+          0.78,
+          0.92
+        ],
+        [
+          0.1,
+          0.08,
+          0.08,
+          0.18,
+          0.12,
+          0.12,
+          0.15,
+          0.18,
+          0.12,
+          0.12,
+          0.13,
+          0.88,
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "IDFS Plus Second Primary Non-Breast Cancer",
+            "description": "IDFS including second primary non-breast cancer was defined the same way as IDFS for the primary endpoint but including second primary non breast invasive cancer as an event (with the exception of non-melanoma skin cancers and carcinoma in situ (CIS) of any site).",
+            "timeFrame": "Baseline up to approximately 70 months"
+          },
+          "pred_item": {
+            "measure": "IDFS Plus Second Primary Nonbreast Cancer in the Overall Population",
+            "description": "Time from randomization to first occurrence of an IDFS event or second primary nonbreast cancer event.",
+            "timeFrame": "From randomization until first event or end of follow-up (median follow-up approximately 57 months)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 3,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Disease-Free Survival (DFS)",
+            "description": "DFS was defined as time between randomization and first occurrence of IDFS, second primary non-breast cancer and contralateral or ipsilateral ductal carcinoma in situ (DCIS).",
+            "timeFrame": "Baseline up to approximately 70 months"
+          },
+          "pred_item": {
+            "measure": "Disease-Free Survival (DFS) in the Overall Population",
+            "description": "Time between random assignment and first occurrence of an IDFS event, second primary nonbreast cancer event, and contralateral or ipsilateral ductal carcinoma in situ.",
+            "timeFrame": "From randomization until first event or end of follow-up (median follow-up approximately 57 months)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 4,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Distant Recurrence-Free Interval (DRFI)",
+            "description": "DRFI was defined as time between randomization and first occurrence of distant breast cancer recurrence.",
+            "timeFrame": "Baseline up to approximately 70 months"
+          },
+          "pred_item": {
+            "measure": "Distant Recurrence-Free Interval in the Node-Positive Subpopulation",
+            "description": "Time between random assignment and first occurrence of distant breast cancer recurrence.",
+            "timeFrame": "From randomization until first distant recurrence or end of follow-up (median follow-up approximately 57 months)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 6,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Overall Survival (OS)",
+            "description": "OS was defined as the time from randomization to death due to any cause.",
+            "timeFrame": "First participant randomized up to approximately 7.5 years"
+          },
+          "pred_item": {
+            "measure": "Overall Survival (OS) in the Node-Positive Subpopulation",
+            "description": "Time from random assignment to death because of any cause.",
+            "timeFrame": "From randomization until death or end of follow-up (median follow-up approximately 57 months)"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 8,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Adverse Events",
+            "description": "An adverse event is any untoward medical occurrence in a participant administered a pharmaceutical product and which does not necessarily have to have a causal relationship with the treatment. An adverse event can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding, for example), symptom, or disease temporally associated with the use of a pharmaceutical product, whether or not considered related to the pharmaceutical product. Preexisting conditions which worsen during a study are also considered as adverse events. AEs were reported based on the national cancer institute common terminology criteria for AEs, Version 4.0 (NCI-CTCAE, v4.0).",
+            "timeFrame": "From randomization to approximately 7.5 years"
+          },
+          "pred_item": {
+            "measure": "Adverse Events (AEs)",
+            "description": "Adverse events coded according to the Medical Dictionary for Regulatory Activities and graded according to the National Cancer Institute Common Terminology Criteria for AEs v4.0.",
+            "timeFrame": "From first dose of study treatment through end of treatment and follow-up (approximately 57 months)"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 10,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Decrease in Left Ventricular Ejection Fraction (LVEF) From Baseline Over Time",
+            "description": "LVEF was assessed using either echocardiogram (ECHO) or multiple-gated acquisition (MUGA) scans.",
+            "timeFrame": "First participant randomized up to approximately 7.5 years."
+          },
+          "pred_item": {
+            "measure": "Secondary Cardiac Event End Points",
+            "description": "Symptomatic left ventricular systolic dysfunction (LVSD; NYHA II) with significant LVEF decline and asymptomatic LVSD.",
+            "timeFrame": "From first dose of study treatment through end of treatment and follow-up (approximately 57 months)"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 11,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "European Organisation for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaire-Core 30 (QLQ-C30) Score",
+            "description": "The EORTC QLQ-C30 included global health status, functional scales (physical, role, emotional, cognitive, and social), symptom scales (fatigue, nausea/vomiting, and pain) and single items (dyspnoea, insomnia, appetite loss, constipation, diarrhea, and financial difficulties). Most questions used a 4-point scale (1 'Not at all' to 4 'Very much'; 2 questions used 7-point scale \\[1 'very poor' to 7 'Excellent'\\]). Scores were averaged and transformed to 0 - 100 scale, whereby higher scores indicate greater functioning, greater quality of life, or a greater degree of symptoms, with changes of 7 - 15 points considered to be a clinically meaningful detioration to participants. A positive value means an increase, while a negative value means a decrease, in score at the indicated time-point relative to the score at baseline (Cycle 1, Day 1).",
+            "timeFrame": "Baseline, Cycles 1, 2, 3, 4, 5, 9, 14, End of Treatment, Follow-up Month 6, Follow-up Month 12, Follow-up Month 18"
+          },
+          "pred_item": {
+            "measure": "Patient-Reported Outcomes (PROs) - EORTC QLQ-C30 Global Health Status/QOL",
+            "description": "Time to clinically meaningful deterioration in global health status/QOL, defined as a decrease in the baseline score of ≥ 10 points, assessed using the European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire–Core 30.",
+            "timeFrame": "From cycle 1 day 1 of HER2-targeted treatment through end of treatment (approximately 18 cycles)"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 12,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "EORTC Quality of Life Questionnaire-Breast Cancer 23 (QLQ-BR23) Score",
+            "description": "EORTC-QLQ-BR23 is a 23-item breast cancer-specific companion module to the EORTC-QLQ-C30. There are four functional scales (body image, sexual enjoyment, sexual functioning, future perspective \\[FP\\]) and four symptom scales (systemic side effects \\[SE\\], upset by hair loss, arm symptoms, breast symptoms). Questions used 4-point scale (1=not at all, 2=a little, 3=quite a bit, 4=very much). Scores averaged and transformed to 0-100 scale. High score for functional scale indicated high/better level of functioning/healthy functioning. Higher scores for symptom scales represent higher levels of symptoms/problems. For functional scales, positive change from baseline indicated improvement in quality of life (QOL) while negative change from baseline indicated a deterioration. For symptom scales, positive change from baseline indicated deterioration and negative change indicated improvement.",
+            "timeFrame": "Baseline, Cycles 1, 2, 3, 4, 5, 9, 14, End of Treatment, Follow-up Month 6, Follow-up Month 12, Follow-up Month 18"
+          },
+          "pred_item": {
+            "measure": "Patient-Reported Outcomes (PROs) - EORTC QLQ-BR23",
+            "description": "Deterioration in function and symptoms assessed using the modified EORTC Breast Cancer module (QLQ-BR23), defined by minimally important differences.",
+            "timeFrame": "From cycle 1 day 1 of HER2-targeted treatment through end of treatment (approximately 18 cycles)"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 7,
+          "score": 0.18,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time to Clinically Meaningful Deterioration in the Global Health Status/ Quality of Life and Functional (Physical, Role, and Cognitive) Subscales of the QLQ-C30 From First HER2-Targeted Treatment",
+            "description": "The time to clinically meaningful deterioration in the global health status/Quality of life and Functional (Physical, Role, and Cognitive) subscales of the the QLQ-C30 was assessed from the time of the HER2-Targeted treatment to the worsening in the respective scales. Clinically meaningful deterioration is defined as a decrease in score of 10 points in Physical functioning and HRQoL; decrease of 7 points in Cognitive functioning, and decrease of 14 points in Role functioning.",
+            "timeFrame": "From start of HER-2 targeted treatment up to 18 months after treatment discontinuation. The median time to clinically meaningful deterioration was assessed based on the data collection described above."
+          },
+          "pred_item": {
+            "measure": "Overall Survival (OS) in the Overall Population",
+            "description": "Time from random assignment to death because of any cause.",
+            "timeFrame": "From randomization until death or end of follow-up (median follow-up approximately 57 months)"
+          }
+        }
+      ]
+    }
+  ]
+}

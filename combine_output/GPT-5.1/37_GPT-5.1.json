@@ -1,0 +1,170 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04473326",
+      "orgStudyIdInfo": {
+        "id": null,
+        "type": null,
+        "link": null
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "P30AG064199",
+          "type": "NIH",
+          "domain": "National Institute on Aging of the National Institutes of Health",
+          "link": null
+        },
+        {
+          "id": "K01HL141538",
+          "type": "NIH",
+          "domain": "National Institutes of Health",
+          "link": null
+        }
+      ],
+      "organization": {
+        "fullName": "Brigham and Women's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "REINFORCE Trial: Reinforcement Learning-based Text Messaging to Improve Medication Adherence in Type 2 Diabetes",
+      "officialTitle": "REinforcement Learning to Improve Non-adherence For Diabetes Treatments by Optimising Response and Customising Engagement (REINFORCE) Trial",
+      "acronym": "REINFORCE"
+    },
+    "descriptionModule": {
+      "briefSummary": "This randomized clinical trial, called REINFORCE, is testing whether a personalized text messaging program based on reinforcement learning can improve how regularly adults with type 2 diabetes take their oral diabetes medications. Sixty patients with suboptimal diabetes control are randomly assigned either to receive electronic pill bottles plus tailored text messages that adapt over time to their daily adherence patterns, or to receive electronic pill bottles without these messages. The main goal is to see if the reinforcement learning text messaging program increases average medication adherence over 6 months. The study also examines whether this approach improves blood sugar control, measured by HbA1c, and self‑reported adherence, and explores how such a system could be scaled to support other long‑term self‑management behaviors.",
+      "detailedDescription": "The REinforcement learning to Improve Non-adherence For diabetes treatments by Optimising Response and Customising Engagement (REINFORCE) trial is a two-arm pragmatic randomized controlled trial designed to evaluate the impact of a reinforcement learning–based text messaging intervention on medication adherence among adults with type 2 diabetes.\n\nThe study is conducted at Brigham and Women’s Hospital (BWH), Boston, USA, within the Mass General Brigham system. Eligible participants are 18–84 years old with diagnosed type 2 diabetes, prescribed 1–3 daily oral diabetes medications, and with a most recent HbA1c ≥7.5%, indicating suboptimal glycemic control. Participants must have a smartphone with data or home Wi‑Fi and ability to receive text messages, be able to use electronic pill bottles in place of their usual pill containers, have basic English proficiency, and be independently responsible for taking their medications. Patients using insulin are eligible, but prior documented non-adherence is not required.\n\nAfter screening through the electronic health record and clinician approval, potentially eligible patients are invited by mail or electronic portal and then contacted by phone. Consented participants complete a baseline questionnaire via REDCap and are mailed Pillsy electronic pill bottles for their eligible oral diabetes medications. Adherence data are passively transmitted through a background smartphone app.\n\nParticipants are randomized 1:1 to the intervention or control arm, with block randomization based on baseline self-reported adherence (<1 vs ≥1 doses missed in the last 30 days) and baseline HbA1c (<9.0% vs ≥9.0%). All patients use electronic pill bottles for 6 months. The primary outcome is average medication adherence over the 6-month follow-up, calculated by averaging daily adherence (number of valid bottle openings divided by prescribed daily doses, capped at one opening per ~3 hours to avoid overcounting) across all study medications. Secondary outcomes include change in glycemic control (HbA1c) using routine EHR laboratory data near the 6‑month endpoint, and self-reported adherence at follow-up using a validated three-item scale.\n\nThe intervention arm receives a reinforcement learning–driven text messaging program designed to support medication-taking. Beginning the morning after randomization, a machine learning system (Microsoft Personalizer hosted on a HIPAA-compliant Microsoft Azure server) selects which message content is most likely to promote that patient’s medication-taking that day, based on prior daily adherence data from the pill bottles and patient characteristics (e.g., age, sex, number of medications, baseline HbA1c, and patient activation). Adherence from the prior day is treated as a continuous reward (0–1) for the algorithm, which applies a contextual bandit approach with Boltzmann sampling. The model also incorporates the recency of different message factor types and whether the patient took their dose “early” (before that morning’s prediction) and maintains some exploration (10% of daily predictions are random) to continue learning. If bottle data are temporarily unavailable, messages are generated from available history; reward events are withheld when bottles are obviously disconnected and assigned a default reward of 0 if still missing after 2 days.\n\nThe text messages are grounded in behavioral science and vary along five factor dimensions: (1) framing (neutral, positive, negative), (2) observed feedback (e.g., number of days adherent in the prior week), (3) social reinforcement (including references to loved ones), (4) content type (simple reminder vs information about medications or lifestyle), and (5) reflection (messages that prompt introspection or a reflective question). A library of 128 messages comprising 47 unique combinations of these factors was developed using prior trial experience, behavioral theory, and qualitative patient interviews. The reinforcement learning system chooses among these factor sets (and specific messages within them) and can also decide not to send a message on a given day. Messages are sent up to daily via Microsoft Dynamics 365 SMS Texting, a HIPAA-compliant platform. Two-way texting is technically possible, including allowing patients to stop reminders, but responses are not encouraged to preserve scalability.\n\nIn addition to algorithm-selected messages, intervention participants receive a standard introductory text at randomization, periodic texts prompting synchronization if their pill bottles are disconnected for over 7 days (repeated every 3 days up to 30 days), and an end-of-study text with a link to the follow-up questionnaire. If synchronization gaps exceed 14 and 28 days, study staff make one phone call at each time point. Control participants receive the same introductory, synchronization, and end-of-study texts and support calls but do not receive any reinforcement learning–driven adherence messages.\n\nThe primary analysis will use an intention-to-treat approach. Adherence and HbA1c outcomes will be modeled using generalized estimating equations with an identity link and normally distributed errors, adjusting for the block randomization. Missing HbA1c data (anticipated up to ~25%) will be addressed with multiple imputation if more than 10% of values are missing, with complete case analyses as a secondary approach. Self-reported adherence (proportion adherent) will be analyzed using Poisson models with a log link to estimate relative risks. Sensitivity analyses will include censoring participants who stop using their pill bottles for more than 30 days, assessing change in HbA1c from baseline, and examining each self-report adherence item separately. Planned subgroup analyses stratify by age, sex, race/ethnicity, baseline HbA1c, baseline self-reported adherence, and number of diabetes medications.\n\nThe sample size of 60 participants provides 80% power (α=0.05) to detect an absolute 10% difference in average adherence (assuming SD=12.5%), an HbA1c difference of 1.0% (assuming SD=1.3), and a 50% relative difference in self-reported adherence between arms.\n\nUpon trial completion, exploratory analyses will cluster intervention participants based on their response patterns to different message factor combinations. Baseline characteristics and additional post-hoc message features (e.g., quantitative content, explicit reference to the doctor, lifestyle content) will be used to predict cluster membership, with the aim of informing more accurate initial personalization strategies for future interventions.\n\nThe trial is approved by the Mass General Brigham Institutional Review Board and registered at ClinicalTrials.gov (NCT04473326). Results will be disseminated through peer-reviewed publications, conference presentations, and reporting to ClinicalTrials.gov and the funder. The overarching hypothesis is that a reinforcement learning–based, individually tailored text messaging program will improve medication adherence and glycemic control in type 2 diabetes compared with control, and that the approach will be scalable and adaptable to other self-management behaviors."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Medication Adherence",
+        "Glycemic Control"
+      ],
+      "keywords": [
+        "Type 2 Diabetes Mellitus",
+        "Diabetes Mellitus, Type 2",
+        "Medication Adherence",
+        "Patient Compliance",
+        "Self-Management",
+        "Reinforcement Learning",
+        "Machine Learning",
+        "Text Messaging",
+        "mHealth",
+        "Telemedicine",
+        "Electronic Medication Monitoring",
+        "Electronic Pill Bottles",
+        "Hemoglobin A1c",
+        "Glycated Hemoglobin",
+        "Behavioral Intervention",
+        "Pragmatic Clinical Trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Two-arm pragmatic randomised controlled trial with participants allocated 1:1 to a reinforcement learning–based text messaging programme versus control (no messaging beyond basic operational texts), analyzed over 6 months of follow-up.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Data analysts at the end of the study will be blinded to arm assignment; patients are not blinded due to the nature of the text messaging intervention.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Reinforcement learning text messaging programme",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive electronic pill bottles for their eligible oral diabetes medications plus a reinforcement learning-based text messaging programme for 6 months. Beginning the morning after randomisation, up to one text message per day is sent that is tailored by a reinforcement learning algorithm using daily adherence data from the electronic pill bottles and baseline patient characteristics. Messages vary in framing, feedback, social reinforcement, content (reminder vs information), and reflection, and the algorithm can also decide to send no message on a given day. Participants also receive standard introductory, pill-bottle synchronisation reminder, and end-of-study text messages.",
+          "interventionNames": [
+            "Reinforcement learning-based text messaging program",
+            "Electronic pill bottle adherence monitoring"
+          ]
+        },
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Patients receive electronic pill bottles for their eligible oral diabetes medications but do not receive the reinforcement learning-based text messaging programme. They receive only simple standard text messages: an introductory text at randomisation, periodic reminders to synchronise disconnected pill bottles, and a final text with a link to the follow-up questionnaire. No tailored adherence or lifestyle text messages are sent.",
+          "interventionNames": [
+            "Electronic pill bottle adherence monitoring"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Reinforcement learning-based text messaging program",
+          "description": "A 6‑month behavioural intervention in which a reinforcement learning algorithm personalises daily SMS text messages to improve adherence to oral diabetes medications. The system uses daily adherence data from electronic pill bottles (Pillsy), along with baseline characteristics (age, sex, number of medications, baseline HbA1c, patient activation), to select message characteristics (framing: neutral/positive/negative; inclusion of observed adherence feedback; social reinforcement; reminder vs informational content; reflective questions). Adherence (0–1 per day) serves as the reward signal to iteratively optimise future messages. Messages are sent via Microsoft Dynamics 365 SMS, up to once per day, with ~10% of selections randomized to maintain exploration; the algorithm may choose to send no message on a given day.",
+          "armGroupLabels": [
+            "Reinforcement learning text messaging programme"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Electronic pill bottle adherence monitoring",
+          "description": "Use of Pillsy electronic pill bottles for eligible oral diabetes medications over the 6‑month follow-up. Patients are instructed to use the electronic bottles in place of usual bottles/pillboxes. Bottle openings are captured via a smartphone-linked app and transmitted daily for adherence measurement. Adherence is calculated as the number of valid bottle openings per prescribed daily doses (capped at one opening per ~3 hours). In the experimental arm, these data feed the reinforcement learning algorithm; in both arms, they provide objective adherence measurement and may trigger simple synchronisation reminders when bottles are disconnected.",
+          "armGroupLabels": [
+            "Reinforcement learning text messaging programme",
+            "Control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Medication adherence over 6-month follow-up",
+          "description": "Average medication adherence assessed by electronic pill bottles, calculated by averaging daily adherence (number of times a patient opened the pill bottle divided by the number of prescribed daily doses for each medication) across all eligible oral diabetes medications for each patient.",
+          "timeFrame": "From the day after randomisation until 183 days after randomisation (6-month follow-up)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in glycaemic control (HbA1c)",
+          "description": "Change in glycated haemoglobin A1c (HbA1c) from baseline to follow-up, using routine clinical HbA1c measurements extracted from the electronic health record; the value closest to the patient’s 6-month end of follow-up, up to 1 month after randomisation, will be used.",
+          "timeFrame": "Baseline to approximately 6 months after randomisation (using HbA1c value closest to 6 months, up to 1 month after randomisation)"
+        },
+        {
+          "measure": "Self-reported medication adherence at end of follow-up",
+          "description": "Proportion of patients classified as adherent according to a validated three-item self-report adherence measure collected in the follow-up questionnaire.",
+          "timeFrame": "At end of 6-month follow-up"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Implementation outcomes based on RE-AIM framework",
+          "description": "Descriptive implementation metrics informed by the Reach, Effectiveness, Adoption, Implementation, Maintenance (RE-AIM) framework, including representativeness of enrolled patients, text messaging opt-out rates, patient feedback, and rates of pill bottle disconnectedness to inform scalability.",
+          "timeFrame": "During the 6-month trial period and at end of follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "- **Inclusion Criteria**\n  - Individuals 18–84 years of age.\n  - Diagnosed with type 2 diabetes.\n  - Prescribed 1–3 daily oral diabetes medications.\n  - Most recent glycated haemoglobin A1c (HbA1c) level ≥7.5%.\n  - Have a smartphone with a data plan or Wi-Fi at home with ability to receive text messages regularly (expected gaps in communication ≤3 days in a row).\n  - Have a basic working knowledge of English.\n  - Currently not using a pillbox **or** willing and able to use electronic pill bottles for their diabetes medications for the duration of the study.\n  - Independently responsible for taking their medications on a daily basis (do not have daily assistance with medication-taking at home).\n  - Patients using insulin are eligible to participate.\n  - Participants are not required to have prior evidence of non-adherence.\n\n- **Exclusion Criteria**\n  - Younger than 18 years of age.\n  - Older than 84 years of age.\n  - No diagnosis of type 2 diabetes.\n  - Not prescribed any daily oral diabetes medications or prescribed more than 3 daily oral diabetes medications.\n  - Most recent HbA1c <7.5%.\n  - Do not have a smartphone with a data plan or Wi-Fi at home, or unable to receive text messages regularly (expected gaps in communication >3 days in a row).\n  - Lack of basic working knowledge of English.\n  - Actively enrolled in another diabetes trial at Mass General Brigham.\n  - Currently using a pillbox and not willing or able to use electronic pill bottles for their diabetes medications for the duration of the study.\n  - Not independently responsible for taking their medications on a daily basis (have daily assistance with medication-taking at home).\n  - Lack of reliable access to a smartphone and/or wireless internet (as noted as a limitation to generalisability).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "84 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "",
+      "samplingMethod": ""
+    }
+  }
+}

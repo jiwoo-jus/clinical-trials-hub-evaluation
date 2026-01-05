@@ -1,0 +1,79 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04279392,NCT04279392,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,"Healthy Body, Healthy Bones After Bariatric Surgery Trial","Healthy body, healthy bones",True,0.8,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,"Feasibility of Bisphosphonate Use on Sleeve Gastrectomy Associated Bone Loss: Healthy Body, Healthy Bones Trial",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"One in three adults in the United States suffers from obesity. Bariatric surgery is an increasingly utilized and effective treatment for obesity and obesity-related comorbidities, however, the massive weight loss associated with bariatric surgery adversely affects bone leads to an increased risk of fracture. Bisphosphonate medications, such as zoledronic acid, are used to treat bone loss in patients with osteoporosis, and this study investigates whether this medication can prevent bone loss associated with surgical weight loss procedures.","Sleeve gastrectomy (SG) is an effective treatment for obesity but is associated with rapid weight loss that adversely affects bone metabolism, predisposing patients to skeletal fragility. This study is a 9-month, pilot randomized controlled trial (RCT) investigating the efficacy of a one-time infusion of zoledronic acid compared to placebo in combating SG-associated bone loss. Thirty adult SG patients will be randomized to receive either 5 mg of zoledronic acid or placebo 6 weeks following surgery, with the primary goal of assessing changes in areal bone mineral density (aBMD) at the total hip.",True,0.84,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"One in three adults in the United States suffers from obesity. Bariatric surgery is an increasingly utilized and effective treatment for obesity and obesity-related comorbidities, however, the massive weight loss associated with bariatric surgery adversely affects bone metabolism. Significant decreases in bone mineral density lead to an increased risk of fracture and subsequent reduction in physical function among bariatric surgery patients. Bisphosphonate medications, such as zoledronic acid, have been evaluated for safety and efficacy in combating bone loss in patients with osteoporosis, but their use in bariatric surgery-induced bone loss has not been explored. The primary goal of this study is to investigate whether bisphosphonate therapies are able to combat bone loss associated with surgical weight loss procedures. This research proposal is a 1-year, pilot randomized controlled trial (RCT) involving 30 adult sleeve gastrectomy patients randomized to receive either a one-time zoledronic acid infusion or placebo (n=15 per group). The investigators hypothesize that zoledronic acid, a standard treatment for low bone density, will be an effective intervention to reduce sleeve gastrectomy-induced bone loss. Bone loss is an unintended consequence of an otherwise life-saving procedure, with declining bone health potentially contributing to major morbidity in those undergoing a bariatric procedure. Identifying effective interventions to minimize bone loss is crucial for comprehensive treatment of patients who undergo bariatric surgery. Specific Aim 1: To determine the efficacy of zoledronic acid in preventing bone loss associated with sleeve gastrectomy (SG). Bone mineral density (BMD) and bone turnover markers will be measured at baseline and 9 months. The primary outcome is change in BMD as measured by Dual-energy x-ray absorptiometry (DXA). Secondary outcomes are change in BMD as measured by Quantitative Computed Tomography (QCT) and change in the serum bone turnover markers, urinary collagen type 1 cross-linked N-telopeptide (CTX; bone formation marker), serum type 1 procollagen N-terminal (P1NP; bone resorption marker), sclerostin, and osteocalcin. Specific Aim 2: To evaluate the feasibility of this trial in those who have undergone SG surgery. The feasibility will be assessed by documenting adverse events and compliance rates of the intervention at each study time point.","This research protocol outlines a comprehensive, quadruple-blinded, randomized controlled trial designed to evaluate the use of zoledronic acid to prevent bone loss following sleeve gastrectomy (SG). The study aims to determine efficacy and evaluate feasibility. Thirty adult participants meeting eligibility criteria (including weight <350 lbs, adequate baseline calcium/vitamin D, and absence of bone-impacting pathologies) will be enrolled. Participants will be randomized 1:1 to receive a one-time 100 mL infusion of 5 mg zoledronic acid or saline placebo 6–8 weeks post-surgery. 
+
+Specific Aim 1 focuses on efficacy. The primary outcome is the change in areal bone mineral density (aBMD) at the total hip measured by dual-energy X-ray absorptiometry (DXA) at 9 months compared to baseline. Secondary outcomes include change in aBMD of the femoral neck and lumbar spine, change in volumetric BMD and bone strength at the lumbar spine measured by quantitative CT (QCT) and finite element analysis, and changes in serum bone turnover markers (P1NP and NTX). 
+
+Specific Aim 2 assesses feasibility by documenting adverse events, side effects, and compliance rates. All participants will receive standardized nutritional supplementation (1200 mg calcium daily and vitamin D based on serum levels) throughout the study. Assessments include physical function testing, body composition analysis, and validated surveys.",True,0.9,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,"['Bariatric Surgery Candidate', 'Bone Loss', 'Bone Resorption']","['Obesity', 'Bone Loss', 'Skeletal Fragility']",False,0.3333333333333333,partial,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Sleeve Gastrectomy', 'Zoledronic Acid', 'Bisphosphonates', 'Bone Mineral Density', 'Bariatric Surgery', 'Osteoporosis Prevention']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,FP,"['PHASE1', 'PHASE2']",['NA'],False,0.0,disjoint,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,QUADRUPLE,QUADRUPLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']",True,1.0,exact,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,10,30,True,0.7,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].measure,EV,EV,,Change in serum type 1 procollagen N-terminal (P1NP),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].measure,EV,EV,,Change in urinary collagen type 1 cross-linked N-telopeptide (NTX),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[6].measure,EV,EV,,Change in lower extremity strength and function,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[8].measure,EV,EV,,"Change in functional mobility, gait, and vestibular function",,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[9].measure,EV,EV,,Feasibility,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].description,EV,EV,,Serum bone formation marker assessed via ELISA.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].description,EV,EV,,Urinary bone resorption marker assessed via ELISA.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[6].description,EV,EV,,Measured by the 5 Times Sit to Stand test.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[8].description,EV,EV,,Measured by the 4-metre walk test.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[9].description,EV,EV,,"Assessed by documenting adverse events, side effects, and compliance rates.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].timeFrame,EV,EV,,Baseline and 9 months,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].timeFrame,EV,EV,,Baseline and 9 months,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[6].timeFrame,EV,EV,,Baseline and 9 months,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[8].timeFrame,EV,EV,,Baseline and 9 months,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[9].timeFrame,EV,EV,,At each study time point through 9 months,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Subjects planning a sleeve gastrectomy procedure at the University of Nebraska Medical Center (UNMC) Bariatric Center
+* Agreement to all study procedures and assessments
+* Women must be postmenopausal (FSH blood level \> 30 mIU/m), or incapable of child-bearing
+
+Exclusion Criteria:
+
+* Prior bariatric surgery
+* \< 19 years of age
+* Weight ≥ 350lbs
+* Liver or renal disease
+* Hypercalcemia, hypocalcemia, or hypomagnesemia
+* Serum 25-OH vitamin D \< 20 ng/mL
+* History of bone-modifying disorders
+* Use of bone-active medications
+* Known sensitivity to bisphosphonates
+* Extensive dental work involving extraction or dental implant within the past 2 months or planned in the upcoming 6 months
+* Current diagnosis of type 1 diabetes
+* Current malignancy
+* Autoimmune disease impacting bone (ex: Rheumatoid Arthritis)","Inclusion Criteria:
+* Subjects planning a sleeve gastrectomy procedure at the study bariatric surgery centre.
+* Agreement to all study procedures and assessments.
+* Women must be postmenopausal (Follicle-stimulating hormone blood level >30 mIU/m), or incapable of childbearing (non-hormonal long-term birth control).
+
+Exclusion Criteria:
+* Prior bariatric surgery.
+* <19 years of age.
+* Weight >=350 lbs.
+* Liver or renal disease.
+* Hypercalcaemia, hypocalcaemia or hypomagnesaemia.
+* Serum 25-OH vitamin D <20 ng/mL.
+* History of bone-modifying disorders.
+* Use of bone-active medications.
+* Known sensitivity to bisphosphonates.
+* Extensive dental work involving extraction or dental implant within the past 2 months or planned in the upcoming 6 months.
+* Current diagnosis of type 1 diabetes.
+* Current malignancy.
+* Autoimmune disease impacting bone (eg, rheumatoid arthritis).",True,0.99,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,FP,True,False,False,0.0,success,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,19 Years,19 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

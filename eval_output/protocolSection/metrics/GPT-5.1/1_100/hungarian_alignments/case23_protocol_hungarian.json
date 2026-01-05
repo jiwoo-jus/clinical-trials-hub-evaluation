@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "case_id": 23,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:20:09.633580",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/23_NCT02487654.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/23_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.2,
+          0.97
+        ],
+        [
+          0.9,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "label": "Pulmonary vein isolation",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Conventional endocardial radiofrequency catheter ablation for pulmonary vein isolation.",
+            "interventionNames": [
+              "Procedure: Pulmonary vein isolation"
+            ]
+          },
+          "pred_item": {
+            "label": "Pulmonary Vein Isolation (PVI)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients with symptomatic drug‑refractory paroxysmal atrial fibrillation underwent standard catheter ablation consisting of wide antral circumferential radiofrequency pulmonary vein isolation. Contiguous point‑by‑point lesions were delivered around all pulmonary veins with confirmation of entrance and exit block. No ganglionated plexus mapping or targeted GP ablation was performed.",
+            "interventionNames": [
+              "Pulmonary vein isolation"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Ganglionated plexus ablation",
+            "type": "EXPERIMENTAL",
+            "description": "Endocardial radiofrequency catheter ablation of ganglionated plexus in the left atrium",
+            "interventionNames": [
+              "Procedure: Ganglionated plexus ablation"
+            ]
+          },
+          "pred_item": {
+            "label": "Ganglionated Plexus Ablation (GPA)",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with symptomatic drug‑refractory paroxysmal atrial fibrillation underwent selective endocardial ganglionated plexus ablation without pulmonary vein isolation. High frequency stimulation (HFS) mapping of the left atrium was performed to identify ectopy‑triggering ganglionated plexuses (ET‑GPs), and when needed atrioventricular dissociating GPs (AVD‑GPs). Identified GPs were ablated with point‑by‑point radiofrequency lesions until no autonomic response could be re‑elicited. Pulmonary veins were intentionally left electrically connected.",
+            "interventionNames": [
+              "Ganglionated plexus ablation without pulmonary vein isolation"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.35,
+          0.97
+        ],
+        [
+          0.93,
+          0.35
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "PROCEDURE",
+            "name": "Pulmonary vein isolation",
+            "description": "Conventional endocardial radiofrequency catheter ablation for pulmonary vein isolation.",
+            "armGroupLabels": [
+              "Pulmonary vein isolation"
+            ],
+            "otherNames": [
+              "PVI"
+            ]
+          },
+          "pred_item": {
+            "type": "PROCEDURE",
+            "name": "Pulmonary vein isolation",
+            "description": "Standard catheter ablation for paroxysmal atrial fibrillation performed under general anesthesia. Wide antral circumferential radiofrequency ablation was delivered around the pulmonary veins using contiguous point‑by‑point lesions, guided in >60% of patients by an ablation index. Entrance and exit block of all pulmonary veins were confirmed with a circular mapping catheter. No ganglionated plexus mapping or ablation was undertaken in this arm.",
+            "armGroupLabels": [
+              "Pulmonary Vein Isolation (PVI)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "type": "PROCEDURE",
+            "name": "Ganglionated plexus ablation",
+            "description": "Endocardial radiofrequency catheter ablation of ganglionated plexus in the left atrium",
+            "armGroupLabels": [
+              "Ganglionated plexus ablation"
+            ],
+            "otherNames": [
+              "GP ablation"
+            ]
+          },
+          "pred_item": {
+            "type": "PROCEDURE",
+            "name": "Ganglionated plexus ablation without pulmonary vein isolation",
+            "description": "Endocardial catheter ablation of intrinsic cardiac autonomic ganglionated plexuses in the left atrium, performed under general anesthesia. High frequency stimulation (HFS) (synchronized and continuous) was used to map ectopy‑triggering GPs (ET‑GPs) and, if atrial fibrillation became incessant, atrioventricular dissociating GPs (AVD‑GPs). Approximately 80–90 left atrial sites per patient were tested with HFS. For each positive GP site, clusters of radiofrequency lesions (30 W for 30 seconds, 25 W on the posterior wall; irrigation 17 mL/min; contact force >3 g) were delivered around the site. GPs were re‑tested with HFS and further ablated until nonfunctional. No pulmonary vein isolation was performed in this arm.",
+            "armGroupLabels": [
+              "Ganglionated Plexus Ablation (GPA)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Patients With no Evidence of >30s Recurrent Atrial Arrhythmia Post-index Procedure",
+            "description": "That is documented recurrent atrial arrhythmia lasting 30 seconds or more after a blanking period of 3 months; the outcome measure will be assessed up to 12 months of follow-up with 48hr halter monitors arranged every 3 months to investigate Arrhythmia recurrence .",
+            "timeFrame": "3 to 12 months post-ablation."
+          },
+          "pred_item": {
+            "measure": "Documented atrial arrhythmia recurrence (AF, AT, or atrial flutter) lasting ≥30 seconds",
+            "description": "Any documented atrial arrhythmia (atrial fibrillation, atrial tachycardia, or atrial flutter) lasting for at least 30 consecutive seconds, recorded on 48-hour Holter monitor, 12-lead ECG, pacemaker, loop recorder, or AliveCor Kardia ECG, occurring after a 90-day post-ablation blanking period.",
+            "timeFrame": "Assessed over 12 months after ablation, excluding the initial 90-day blanking period"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.4,
+          0.2,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.4,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Presenting a Reduction in the Usage of Antiarrhythmics Post-ablation",
+            "description": "The reduction was defined as either a decrease of dose or a cessation of a drug over a 12 month follow-up period post ablation.",
+            "timeFrame": "3 to 12 months post-ablation."
+          },
+          "pred_item": {
+            "measure": "Repeat ablation for atrial arrhythmia",
+            "description": "Proportion of patients requiring repeat catheter ablation for atrial fibrillation, atrial tachycardia, or atrial flutter after the 90-day blanking period.",
+            "timeFrame": "Within 12 months after the index ablation procedure, after a 90-day blanking period"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT02137499,NCT02137499,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Venous Insufficiency and Neuromuscular Stimulation,The VeINS Trial,True,0.8,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,Venous Insufficiency and Neuromuscular Stimulation,,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,The investigators will be evaluating the immediate and longer term effect of treatment with a medical device on the symptoms of chronic venous disease.,"In this pilot trial, the role of neuromuscular electrical stimulation (NMES) in both healthy subjects and patients with chronic venous disease (CVD) has been evaluated. The study investigated the effect of bilateral leg NMES on the symptoms of CVD, testing the hypothesis that repeated NMES use will enhance venous haemodynamic parameters, improve clinician disease scores, and increase patient-reported quality of life.",True,0.78,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"STUDY AIMS
+
+1. To obtain ultrasound blood flow and velocity measurements in the leg to compare the hemodynamic profiles obtained using a neuromuscular stimulation device with those obtained at rest.
+2. To ascertain if a 6 week protocol of electrical neurostimulation of the muscle pumps in the leg and foot can reduce clinical symptoms and improve quality of life.
+
+METHODS Controlled interventional trial. Group 1 (10 subjects) will be healthy subjects with no clinical venous disease. Subjects with venous incompetence to be recruited into one of three groups. Group 2 (10 subjects) will have superficial venous incompetence; Group 3 (10 subjects) will have deep venous incompetence; Group 4 (10 subjects) will have deep vein occlusion. These will be clinical diagnoses confirmed with duplex ultrasound.
+
+The device used in this study will be the geko™ T-1 device (Firstkind Ltd, UK). A geko™ device will be fitted to each leg. The device stimulation level is set to the minimum level that can achieve the desired response (outward and upward twitching of the foot when raised from the ground).
+
+ENDPOINTS Primary end-point
+
+* Increase in venous flow Secondary end points
+* Improvement in clinical symptoms at 6 weeks, as judged by questionnaire
+* Reduction in absolute leg diameter and volume at 6 weeks","Forty subjects were recruited from four groups: healthy, superficial insufficiency, deep insufficiency, and deep obstruction. The NMES device used was the geko™ T-1, applied transcutaneously to the common peroneal nerve at the knee to cause contractions of the anterior and lateral compartments of the leg. Devices were fitted bilaterally and worn for 4–6 hours, 5 days a week, for 6 weeks.
+
+Haemodynamic venous measurements were taken from the right femoral vein with ultrasound (measuring peak velocity, time averaged mean velocity, and volume flow) and laser Doppler fluximetry from the left hand and foot. Leg volume was calculated using ankle and calf diameters. Measurements were taken at baseline, during device activation (20 minutes after turn on), and repeated at week 6. Physician- and patient-reported quality of life assessments (Venous Clinical Severity Score, Venous Disability Score, Aberdeen Varicose Vein Questionnaire, EuroQol-5D, Center for Epidemiologic Studies Depression Scale, Short Form-12) were performed at weeks 0, 6, and 8.",True,0.97,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,"['Chronic Venous Disease', 'Venous Insufficiency', 'Deep Venous Obstruction']","['Chronic Venous Disease', 'Superficial Venous Insufficiency', 'Deep Venous Insufficiency', 'Deep Venous Obstruction', 'Leg Oedema']",False,0.6666666666666666,partial,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['Deep venous obstruction', 'Venous insufficiency']","['Neuromuscular Electrical Stimulation', 'NMES', 'Venous Haemodynamics', 'Laser Doppler Fluximetry', 'Quality of Life', 'Femoral Vein', 'Peroneal Nerve Stimulation']",False,0.0,disjoint,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,NON_RANDOMIZED,NON_RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Forty subjects were recruited from four groups: healthy, superficial insufficiency, deep insufficiency, and deep obstruction. Devices were fitted bilaterally, and worn for 4–6 hours, 5 days a week, for 6 weeks.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,40,40,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].measure,EV,EV,,Device Usage,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].description,EV,EV,,Adherence measured via an unsupervised diary of device usage completed by each participant.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].timeFrame,EV,EV,,Up to 6 weeks,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Group 1
+
+* Inclusion criteria - 18+ years old, 17\<BMI\<30
+* Exclusion criteria - Heart/lung/kidney failure, pregnancy, diagnosis of peripheral vascular disease, previous VTE, ABPI\<0.9, active infection, previous leg fracture or metal implant in leg
+
+Group 2
+
+* Inclusion criteria - 18+ years old, 17\<BMI\<30, clinical diagnosis of superficial venous insufficiency (CEAP C2-6) confirmed with duplex US
+* Exclusion criteria - Heart/lung/kidney failure, pregnancy, ABPI\<0.9, active infection, previous leg fracture or metal implant in leg
+
+Group 3
+
+* Inclusion criteria - 18+ years old, 17\<BMI\<30, clinical diagnosis of deep venous insufficiency (CEAP C2-6) confirmed with duplex US
+* Exclusion criteria - Heart/lung/kidney failure, pregnancy, ABPI\<0.9, active infection, previous leg fracture or metal implant in leg
+
+Group 4
+
+* Inclusion criteria - 18+ years old, 17\<BMI\<30, clinical diagnosis of deep venous obstruction confirmed with duplex US
+* Exclusion criteria - Heart/lung/kidney failure, pregnancy, ABPI\<0.9, active infection, previous leg fracture or metal implant in leg","Inclusion Criteria:
+* Subjects over 18 years old
+* Healthy subjects or patients with venous disease (superficial vein incompetence, deep vein incompetence, deep vein obstruction)
+* Clinically significant reflux defined as greater than 0.5s
+
+Exclusion Criteria:
+* History of peripheral arterial disease
+* Leg fracture or metallic implant
+* Other systemic causes of limb swelling (heart, lung or renal failure)",True,0.86,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

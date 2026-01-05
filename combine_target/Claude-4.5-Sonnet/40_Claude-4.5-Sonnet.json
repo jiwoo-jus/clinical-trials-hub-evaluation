@@ -1,0 +1,64 @@
+{
+  "protocolSection": {
+    "identificationModule": null,
+    "descriptionModule": null,
+    "conditionsModule": null,
+    "designModule": null,
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Immersive Virtual Reality",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will undergo a 20-minute session with immersive VR experience: theBlu (WEVR, Inc, Venice, California, USA) delivered via Oculus Rift headset. This immersive experience simulates the participant observing naturally relaxing and dynamic environment of a coral reef.",
+          "interventionNames": [
+            "DEVICE: Immersive Virtual Reality - theBlu via Oculus Rift"
+          ]
+        },
+        {
+          "label": "Non-immersive 2D Control",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants will undergo a 20-minute session with non-immersive two-dimensional mimic: Recording of theBlu experience delivered via video on a non-immersive 2-D Asus tablet.",
+          "interventionNames": [
+            "DEVICE: Non-immersive 2D tablet - theBlu video"
+          ]
+        },
+        {
+          "label": "VR Sensory Deprivation Control",
+          "type": "SHAM_COMPARATOR",
+          "description": "Participants will undergo a 20-minute session with VR sensory deprivation: delivered via a blank (ie, content-less) Oculus Rift headset to control for the external sensory deprivation of the VR system.",
+          "interventionNames": [
+            "DEVICE: VR Sensory Deprivation - blank Oculus Rift headset"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Immersive Virtual Reality - theBlu via Oculus Rift",
+          "description": "20-minute immersive VR experience using theBlu (WEVR, Inc) delivered via Oculus Rift headset. This simulates observing a naturally relaxing and dynamic coral reef environment.",
+          "armGroupLabels": [
+            "Immersive Virtual Reality"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Non-immersive 2D tablet - theBlu video",
+          "description": "20-minute session viewing a recording of the theBlu experience delivered via video on a non-immersive 2-D Asus tablet.",
+          "armGroupLabels": [
+            "Non-immersive 2D Control"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "VR Sensory Deprivation - blank Oculus Rift headset",
+          "description": "20-minute session with a blank (content-less) Oculus Rift headset to control for external sensory deprivation effects of the VR system.",
+          "armGroupLabels": [
+            "VR Sensory Deprivation Control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": null,
+    "eligibilityModule": null
+  }
+}

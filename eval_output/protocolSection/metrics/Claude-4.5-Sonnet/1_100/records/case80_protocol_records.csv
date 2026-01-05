@@ -1,0 +1,76 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,FN,FN,NCT02951156,,False,0.0,,NCTId,protocolSection.identificationModule.nctId,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,FN,FN,"Avelumab In Combination Regimens That Include An Immune Agonist, Epigenetic Modulator, CD20 Antagonist and/or Conventional Chemotherapy in Patients With Relapsed or Refractory Diffuse Large B-cell Lymphoma (R/R DLBCL)",,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,FN,FN,"PHASE 1B/PHASE 3 MULTICENTER STUDY OF AVELUMAB (MSB0010718C) IN COMBINATION REGIMENS THAT INCLUDE AN IMMUNE AGONIST, EPIGENETIC MODULATOR, CD20 ANTAGONIST AND/OR CONVENTIONAL CHEMOTHERAPY IN PATIENTS WITH RELAPSED OR REFRACTORY DIFFUSE LARGE B-CELL LYMPHOMA (DLBCL) JAVELIN DLBCL",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,TP,TP,"Study B9991011 is a multi-center, international, randomized, open label, 2 component (Phase 1b followed by Phase 3), parallel-arm study of avelumab in combination with various agents for the treatment of Relapsed/Refractory (R/R) Diffuse Large B-Cell Lymphoma (DLBCL).","This was a phase Ib study investigating avelumab (an anti-PD-L1 antibody) in combination with other agents in patients with relapsed/refractory diffuse large B-cell lymphoma (DLBCL). The study evaluated three combination regimens: avelumab with utomilumab and rituximab (arm A), avelumab with utomilumab and azacitidine (arm B), and avelumab with bendamustine and rituximab (arm C). The primary endpoints were dose-limiting toxicities and objective response rate. The study was designed to assess whether these combination therapies could augment and sustain the antitumor immunity of avelumab in relapsed/refractory DLBCL.",True,0.9,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.detailedDescription,TP,TP,"The target study population of this Phase 1b/3 registrational study is patients with R/R DLBCL who have completed at least 2 (but not more than 4) lines of prior rituximab-containing multi-agent chemotherapy, and/or in whom autologous stem cell transplant (ASCT) has failed, or who are not candidates for ASCT or who are not eligible for intensive chemotherapy. Patients who are ineligible for intensive second line chemotherapy must have received at least one prior rituximab-containing combination chemotherapy regimen. The study will assess the safety, efficacy, pharmacokinetics (PK), immunogenicity of the 3 avelumab-based combination regimens tested, and collect patient reported outcome (PRO) data.","JAVELIN DLBCL (NCT02951156) was a multicenter, randomized, open-label, seamless two-component (phase Ib planned to be followed by phase III), parallel-arm study of avelumab in various combinations for the treatment of relapsed/refractory DLBCL. Based on preclinical and clinical data suggesting potential synergy between PD-L1 inhibition and various immunomodulatory agents, three combination regimens were investigated. Arm A combined avelumab with utomilumab (an IgG2 4-1BB agonist) and rituximab, based on evidence that 4-1BB agonism and PD-L1 antagonism may be synergistic and that anti-4-1BB agonist mAbs can enhance rituximab's anti-lymphoma activity. Arm B combined avelumab with utomilumab and azacitidine, based on evidence that epigenetic priming by azacitidine might sensitize cancer cells to PD-1/PD-L1 axis blockade. Arm C combined avelumab with bendamustine and rituximab, given that bendamustine and rituximab is recommended for relapsed/refractory DLBCL. Key eligibility criteria included histologically confirmed DLBCL in patients at least 18 years of age with relapsed/refractory disease following two or more and up to four lines of rituximab-based multiagent chemotherapy. Patients were randomized 1:1:1 to the three treatment arms. Avelumab 10 mg/kg was administered intravenously every 2 weeks in all arms. Primary endpoints were dose-limiting toxicities and objective response assessed by investigator per Lugano Response Classification criteria. Secondary endpoints included PD-L1 expression, minimal residual disease, duration of response, time to tumor response, disease control, progression-free survival, overall survival, and safety. The study also included comprehensive biomarker analyses including cell of origin assessment, immunohistochemical analyses for PD-L1, CD4, CD8, CD68, and 4-1BB/CD137, and minimal residual disease assessment using serial blood samples. The phase Ib component was designed to determine the most active treatment regimen to advance to a planned phase III component; however, due to insufficient antitumor activity in arms A and B and infeasibility of expanding arm C, the study was discontinued before initiation of the phase III component.",True,0.86,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,TP,TP,['Diffuse Large B-Cell Lymphoma'],"['Diffuse Large B-Cell Lymphoma', 'Relapsed Diffuse Large B-Cell Lymphoma', 'Refractory Diffuse Large B-Cell Lymphoma', 'Non-Hodgkin Lymphoma']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,EV,EV,,"['Diffuse Large B-Cell Lymphoma', 'DLBCL', 'Relapsed/Refractory DLBCL', 'Avelumab', 'PD-L1 Inhibitor', 'Anti-PD-L1 Antibody', 'Utomilumab', '4-1BB Agonist', 'Rituximab', 'Azacitidine', 'Bendamustine', 'Immunotherapy', 'Checkpoint Inhibitor', 'Combination Therapy', 'B-Cell Lymphoma', 'Non-Hodgkin Lymphoma', 'Relapsed Lymphoma', 'Refractory Lymphoma']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,TP,['PHASE3'],"['PHASE1', 'PHASE3']",True,1.0,superset,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"This was a multicenter, randomized, open-label, seamless two-component (phase Ib planned to be followed by phase III), parallel-arm study. Patients were randomized 1:1:1 to receive avelumab in combination with utomilumab and rituximab (arm A), in combination with utomilumab and azacitidine (arm B), or in combination with bendamustine and rituximab (arm C).",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,This was an open-label study with no masking.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,TP,29,29,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Key Inclusion Criteria:
+
+-Any of the following as defined by the WHO, 2016 lymphoid neoplasm classifications and histologically confirmed:
+
+* Diffuse large B-cell lymphoma (DLBCL), Not Otherwise Specified (NOS): Germinal center B-cell type (GCB), Activated B-cell type (ABC)
+* High-grade B-cell lymphoma (HGBCL) NOS
+* HGBCL with MYC and BCL2 and/or BCL6 rearrangements
+* T-cell histocyte-rich large B-cell lymphoma
+* EBV+ DLBCL, NOS
+* HHV8+ DLBCL, NOS
+
+Relapsed or refractory disease following at least 2 lines (and a maximum of 4 lines) of prior rituximab containing multi-agent chemotherapy which may include an autologous stem cell transplantation unless patients are not considered suitable for intensive second-line chemotherapy or autologous stem cell transplantation. Patients who are ineligible for intensive second line chemotherapy,must have received at least one prior rituximab-containing combination chemotherapy regimen. Patients who are ineligible for intensive second line chemotherapy, must have received at least one prior rituximab-containing combination chemotherapy regimen.
+
+* Baseline measurable disease with at least 1 bi dimensional lesion with longest diameter (LDi) \>1.5cm on CT scan which is FDG avid on PET scan.
+* A biopsy (archived or Screening/recent) will be collected at Screening.
+* At least 18years of age (or ≥20 years in Japan).
+* Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) 0 or 1.
+
+Key Exclusion Criteria:
+
+* Active central nervous system (CNS) lymphoma.
+* Prior organ transplantation including prior allogeneic SCT.
+* Prior therapy with an anti PD 1, anti PD L1, anti PD L2, anti CD137, or anti cytotoxic T lymphocyte associated antigen 4 (CTLA 4) antibody (including ipilimumab, tremelimumab or any other antibody, or drug specifically targeting T cell co stimulatory or immune checkpoint pathways).","Inclusion Criteria:
+- Histologically confirmed diffuse large B-cell lymphoma (DLBCL)
+- Age at least 18 years
+- Relapsed/refractory disease following two or more and up to four lines of rituximab-based multiagent chemotherapy
+- Patients who were ineligible for intensive second-line chemotherapy must have received at least one prior rituximab-containing combination chemotherapy regimen
+- Patients previously treated with bendamustine must have experienced a response duration of ≥ 6 months
+- Documentation of baseline measurable disease with at least one bidimensional lesion with the longest diameter > 1.5 cm on a computerized tomography scan, which was fluorodeoxyglucose avid on positron emission tomography scan
+
+Exclusion Criteria:
+- Active central nervous system lymphoma
+- Prior organ transplant including prior allogeneic stem cell transplant
+- Prior therapy with an anti-PD-1, anti-PD-L1, anti-PD-L2, anti-4-1BB (anti-CD137), or anti-CTLA-4 antibody (including ipilimumab and tremelimumab or any other antibody or drug specifically targeting T-cell costimulatory or immune checkpoint pathways)
+- Use of any standard or experimental anticancer therapy within 2 weeks prior to the first dose of study treatment, including cytoreductive therapy and radiotherapy, immunotherapy, or cytokine therapy (except for erythropoietin)
+- Use of any nondrug anticancer therapy (including CAR T-cell therapy)",True,0.96,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.properties,FP,FP,,"{{
+  ""identificationModule"": {
+    ""nctId"": ""NCT02951156"",
+    ""orgStudyIdInfo"": {
+      ""id"": ""B9991015"",
+      ""type"": null,
+      ""link"": null
+    },
+    ""secondaryIdInfos"": [],
+    ""organization"": {
+      ""fullName"": ""Pfizer"",
+      ""class"": ""INDUSTRY""
+    },
+    ""briefTitle"": ""A Phase Ib/III Randomized Study of Avelumab in Combination with Utomilumab (PF-05082566), Azacitidine, Bendamustine, and/or Rituximab in Patients with Relapsed or Refractory Diffuse Large B-cell Lymphoma"",
+    ""officialTitle"": ""A Phase Ib/III Randomized Study of Avelumab in Combination with Utomilumab (PF-05082566), Azacitidine, Bendamustine, and/or Rituximab in Patients with Relapsed or Refractory Diffuse Large B-cell Lymphoma"",
+    ""acronym"": ""JAVELIN DLBCL""
+  }
+}}",False,0.0,,,protocolSection.identificationModule.properties,True,False,True,False,False,False

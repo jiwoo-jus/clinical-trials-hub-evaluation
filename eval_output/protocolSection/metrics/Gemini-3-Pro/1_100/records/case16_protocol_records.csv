@@ -1,0 +1,66 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04323800,NCT04323800,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].id,EV,EV,,W911QY2090012,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,3R01AI152078-01S1,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[2].id,EV,EV,,U24TR001609-S3,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[3].id,EV,EV,,UL1TR003098,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].type,EV,EV,,OTHER_GRANT,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[2].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[3].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,U.S. Department of Defense,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,National Institute of Allergy and Infectious Diseases,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[2].domain,EV,EV,,National Center for Advancing Translational Sciences,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[3].domain,EV,EV,,National Center for Advancing Translational Sciences,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,Convalescent Plasma to Stem Coronavirus (CSSC-001),,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,"Convalescent Plasma to Stem Coronavirus: A Randomized, Blinded Phase 2 Study Comparing the Efficacy and Safety Human Coronavirus Immune Plasma (HCIP) vs. Control (SARS-CoV-2 Non-immune Plasma) Among Adults Exposed to COVID-19",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,Evaluate the efficacy of treatment with high-titer Anti- SARS-CoV-2 plasma versus control (SARS-CoV-2 non-immune plasma) in subjects exposed to Coronavirus disease (COVID-19) at day 28.,"This double-blinded, phase 2 randomized, controlled trial evaluated the efficacy and safety of SARS-CoV-2 convalescent plasma (CCP) for preventing infection in exposed, uninfected individuals. The researchers hypothesized that CCP might prevent infection when administered before symptoms or laboratory evidence of infection appear. The study enrolled asymptomatic participants aged 18 years or older who had close contact exposure to a person with confirmed COVID-19 within the previous 120 hours.",True,0.93,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"This randomized, controlled, double-blinded phase 2 trial will assess the efficacy and safety of Anti- SARS-CoV-2 convalescent plasma as prophylaxis following exposure to COVID-19 (as defined in the inclusion criteria). Adults 18 years of age and older with high risk exposure as defined by CDC may participate. A total of 500 eligible subjects will be randomized in a 1:1 ratio to receive either high titer anti-SARS-CoV-2 plasma or control (SARS-CoV-2 non-immune plasma).","The study was conducted as a randomized, double-blind, placebo-controlled clinical trial to compare the safety and efficacy of transfusion of high titer (≥1:320) CCP (intervention) with SARS-CoV-2 non-immune control plasma. Participants were randomized 1:1 to receive 1 unit of CCP or 1 unit of control plasma using interactive web-based systems. The primary efficacy outcome was incident SARS-CoV-2 infection by study day 28, confirmed by positive RT-PCR testing on nasal swabs. Secondary efficacy outcomes included disease severity measured by a clinical event scale and efficacy based on donor antibody titer characterization. Safety assessments monitored adverse events, serious adverse events, and transfusion reactions. The trial aimed to determine the utility of CCP as post-exposure prophylaxis (PEP) in preventing SARS-CoV-2 infection and symptomatic COVID-19.",True,0.94,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,"['Coronavirus', 'Convalescence']","['COVID-19', 'SARS-CoV-2 Infection']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,TP,['COVID-19'],"['SARS-CoV-2', 'COVID-19', 'Convalescent Plasma', 'Post-exposure Prophylaxis', 'Passive Immunotherapy', 'Prevention']",True,1.0,superset,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,TRIPLE,DOUBLE,True,0.7,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"CCP and control plasma were in standard plasma bags, with identical labels. An independent safety monitor, masked to randomized assignment, reviewed all AEs.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR']","['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']",True,1.0,superset,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,180,180,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].measure,EV,EV,,Symptomatic COVID-19 infection,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].measure,EV,EV,,Efficacy based on donor antibody titer,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].measure,EV,EV,,Adverse Events (Safety),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].description,EV,EV,,Development of SARS-CoV-2 infection with symptoms (COVID-19).,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].description,EV,EV,,"Examination of efficacy for preventing infection based on donor IgG characterization, including end point titers and area under the curve (AUC).",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].description,EV,EV,,"Rates of severe transfusion reactions, adverse events (AEs), grade 3 or 4 AEs, and death.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].timeFrame,EV,EV,,Up to day 28,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].timeFrame,EV,EV,,Up to day 28,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].timeFrame,EV,EV,,Up to 90 days,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria
+
+1. Subjects must be 18 years of age or older
+2. Close contact exposure (as defined by CDC guidelines) to person with COVID-19 within 96 hours of randomization (and 120 hours of receipt of plasma)
+
+Exclusion Criteria
+
+1. Receipt of any blood product in past 120 days.
+2. Medical, psychiatric,cognitive illness or recreational drug/alcohol use that in the opinion of the principal investigator, would affect subject safety and/or compliance.
+3. Symptoms consistent with COVID-19 infection (fevers, acute onset cough, shortness of breath) at time of screening.
+4. Laboratory evidence of COVID-19 infection at time of screening.
+5. History or known laboratory evidence of previous COVID-19 infection.
+6. History of prior reactions to transfusion blood products.
+7. Inability to complete therapy with the study product within 24 hours after randomization.","Inclusion Criteria:
+- Asymptomatic participants
+- Aged ≥18 years
+- Close contact exposure to a person with confirmed COVID-19 in the previous 120 hours
+- Negative SARS-CoV-2 test within 24 hours before transfusion
+
+Exclusion Criteria:
+- SARS-CoV-2 vaccination
+- Past or active SARS-CoV-2 infection
+- Positive SARS-CoV-2 RT-PCR at screening",True,0.86,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

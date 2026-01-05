@@ -1,0 +1,168 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04324073",
+      "secondaryIdInfos": [
+        {
+          "id": "PHRC COVID-19–20–0151",
+          "type": "OTHER_GRANT",
+          "domain": "Ministry of Health"
+        },
+        {
+          "id": "PHRC COVID-19–20–0029",
+          "type": "OTHER_GRANT",
+          "domain": "Ministry of Health"
+        }
+      ],
+      "organization": {
+        "fullName": "Assistance publique—Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "Sarilumab in patients with moderate-to-severe COVID-19 pneumonia (CORIMUNO-SARI-1)",
+      "officialTitle": "Multicentric, open-label, Bayesian randomised, adaptive, phase 2/3 clinical trial, nested within the CORIMUNO-19 cohort, to test a superiority hypothesis of sarilumab in patients with moderate-to-severe COVID-19 pneumonia",
+      "acronym": "CORIMUNO-SARI-1"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a multicentric, open-label, Bayesian randomised, adaptive, phase 2/3 clinical trial, nested within the CORIMUNO-19 cohort. It aims to test the hypothesis that sarilumab, a high-affinity anti-IL-6 receptor antibody, might improve the outcome of patients hospitalised with moderate-to-severe COVID-19 pneumonia compared to usual care alone. Patients with COVID-19 pneumonia often present with increased inflammation and elevated cytokines, which sarilumab targets.",
+      "detailedDescription": "The trial enrolled patients 18 years or older hospitalised with COVID-19 in six French centres. Eligible participants required at least 3L/min of oxygen but without ventilation assistance and had a WHO Clinical Progression Scale [CPS] score of 5. Participants were randomly assigned (1:1) via a web-based system, stratified by centre, to receive usual care plus 400 mg of sarilumab intravenously on day 1 and on day 3 if clinically indicated (sarilumab group) or usual care alone (usual care group). \n\nThe primary outcomes were the proportion of patients with WHO-CPS scores greater than 5 on the 10-point scale on day 4 and survival without invasive or non-invasive ventilation at day 14. Secondary outcomes included clinical status assessed with the WHO-CPS at day 7 and day 14, overall survival, time to discharge, time to oxygen supply independence, and safety. This specific report covers the CORIMUNO-SARI-1 trial, focusing on patients with moderate-to-severe pneumonia (non-ICU)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19",
+        "Pneumonia",
+        "SARS-CoV-2 Infection",
+        "Respiratory Distress"
+      ],
+      "keywords": [
+        "Sarilumab",
+        "CORIMUNO-19",
+        "Interleukin-6",
+        "Anti-IL-6 receptor antibody",
+        "Moderate-to-severe pneumonia",
+        "Immunomodulation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Multicentric, open-label, Bayesian randomised, adaptive, phase 2/3 clinical trial, nested within the CORIMUNO-19 cohort.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Open-label study. Analyses were done by the study statisticians who were blinded to the actual randomisation groups."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 148,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Sarilumab group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received usual care plus 400 mg of sarilumab intravenously on day 1 and on day 3 if clinically indicated.",
+          "interventionNames": [
+            "Drug: Sarilumab",
+            "Other: Usual Care"
+          ]
+        },
+        {
+          "label": "Usual care group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients received usual care alone.",
+          "interventionNames": [
+            "Other: Usual Care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Sarilumab",
+          "description": "Administered intravenously at a fixed dose of 400 mg on day 1. Administration of an additional fixed dose of 400 mg intravenously on day 3 was recommended if oxygen requirement had not decreased by more than 50%, but the decision was left to the treating physician.",
+          "armGroupLabels": [
+            "Sarilumab group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Usual Care",
+          "description": "Standard of care provided at the discretion of the clinicians, including antibiotic agents, antiviral agents, corticosteroids, vasopressor support, and anticoagulants.",
+          "armGroupLabels": [
+            "Sarilumab group",
+            "Usual care group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of patients with WHO-CPS scores greater than 5",
+          "description": "Proportion of patients dead or needing non-invasive ventilation or mechanical ventilation on the 10-point WHO Clinical Progression Scale.",
+          "timeFrame": "Day 4"
+        },
+        {
+          "measure": "Survival without invasive or non-invasive ventilation",
+          "description": "Survival with no need for non-invasive ventilation (including high-flow oxygen) or mechanical ventilation.",
+          "timeFrame": "Day 14"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Clinical status assessed with the WHO-CPS",
+          "description": "Assessment of clinical status using the WHO Clinical Progression Scale (10-point ordinal scale).",
+          "timeFrame": "Day 7 and Day 14"
+        },
+        {
+          "measure": "Overall survival",
+          "description": "Mortality rates assessed at various time points.",
+          "timeFrame": "Day 14, Day 28, and Day 90"
+        },
+        {
+          "measure": "Time to discharge",
+          "description": "Time until patient is discharged from the hospital.",
+          "timeFrame": "Up to Day 28"
+        },
+        {
+          "measure": "Time to oxygen supply independence",
+          "description": "Time until the patient is weaned from oxygen support.",
+          "timeFrame": "Up to Day 28"
+        },
+        {
+          "measure": "Safety (Adverse Events)",
+          "description": "Occurrence of adverse events and serious adverse events.",
+          "timeFrame": "Through Day 90"
+        },
+        {
+          "measure": "Biological factors",
+          "description": "Measurement of biological markers such as C-reactive protein concentration.",
+          "timeFrame": "During follow-up"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Hospitalised patients\n* Confirmed SARS CoV-2 infection (positive on RT-PCR or typical chest CT scan)\n* Moderate-to-severe pneumonia\n* WHO Clinical Progression Scale [CPS] score of 5\n* Receiving at least 3L/min of oxygen\n* No ventilation assistance (including high-flow oxygen, non-invasive ventilation, or mechanical ventilation)\n\nExclusion Criteria:\n* Pregnant women",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

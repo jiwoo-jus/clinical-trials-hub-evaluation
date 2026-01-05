@@ -1,0 +1,484 @@
+{
+  "metadata": {
+    "case_id": 100,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T20:02:17.794753",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/100_NCT02341625.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/100_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.74,
+          0.62
+        ],
+        [
+          0.78,
+          0.78,
+          0.7
+        ],
+        [
+          0.7,
+          0.7,
+          0.84
+        ],
+        [
+          0.7,
+          0.6,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Part 1: Ascending dose of BMS-986148",
+            "type": "EXPERIMENTAL",
+            "description": "BMS-986148 Intravenous injection at increasing doses on specific days until the maximum tolerated dose is reached. Five cancers will be studied in this part: mesothelioma, pancreatic, ovarian, gastric, and non-small cell lung cancer. Alternate dose and schedules may be explored.",
+            "interventionNames": [
+              "Drug: BMS-986148"
+            ]
+          },
+          "pred_item": {
+            "label": "BMS-986148 Monotherapy (Every 3 Weeks)",
+            "type": "EXPERIMENTAL",
+            "description": "In the dose-escalation phase (Part 1A), patients received BMS-986148 intravenously (i.v.) every 3 weeks at dose levels of 0.1, 0.2, 0.4, 0.8, 1.2, or 1.6 mg/kg. In the dose-expansion phase (Part 2), patients received BMS-986148 1.2 mg/kg i.v. every 3 weeks.",
+            "interventionNames": [
+              "Drug: BMS-986148"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Part 2: Expansion dose of BMS-986148",
+            "type": "EXPERIMENTAL",
+            "description": "BMS-986148 Intravenous injection of Maximum tolerated dose (MTD) on specific days. Five cancers will be studied in this part: mesothelioma, pancreatic, ovarian, gastric, and non-small cell lung cancer.",
+            "interventionNames": [
+              "Drug: BMS-986148"
+            ]
+          },
+          "pred_item": {
+            "label": "BMS-986148 Monotherapy (Once Weekly)",
+            "type": "EXPERIMENTAL",
+            "description": "In the dose-escalation phase (Part 1B), patients received BMS-986148 intravenously (i.v.) once weekly for 3 weeks followed by 1 week off (28-day cycle) at dose levels of 0.4 or 0.6 mg/kg.",
+            "interventionNames": [
+              "Drug: BMS-986148"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Part 3A: Ascending dose of BMS-986148",
+            "type": "EXPERIMENTAL",
+            "description": "Set dose of nivolumab and BMS-986148 intravenous injection at increasing doses on specific days until the maximum tolerated dose is reached. Five cancers will be studied in this part: mesothelioma, pancreatic, ovarian, gastric, and non-small cell lung cancer.",
+            "interventionNames": [
+              "Drug: BMS-986148",
+              "Biological: Nivolumab"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Part 3B: Expansion dose of BMS-986148",
+            "type": "EXPERIMENTAL",
+            "description": "Set dose of nivolumab and BMS-986148 intravenous injection at or below maximum tolerated dose on specific days. Five cancers will be studied in this part: mesothelioma, pancreatic, ovarian, gastric, and non-small cell lung cancer.",
+            "interventionNames": [
+              "Drug: BMS-986148",
+              "Biological: Nivolumab"
+            ]
+          },
+          "pred_item": {
+            "label": "BMS-986148 + Nivolumab",
+            "type": "EXPERIMENTAL",
+            "description": "In the dose-escalation (Part 3A) and dose-expansion (Part 3B) phases, patients received BMS-986148 0.8 mg/kg i.v. every 3 weeks combined with nivolumab 360 mg i.v. every 3 weeks.",
+            "interventionNames": [
+              "Drug: BMS-986148",
+              "Drug: Nivolumab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.35
+        ],
+        [
+          0.4,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "BMS-986148",
+            "armGroupLabels": [
+              "Part 1: Ascending dose of BMS-986148",
+              "Part 2: Expansion dose of BMS-986148",
+              "Part 3A: Ascending dose of BMS-986148",
+              "Part 3B: Expansion dose of BMS-986148"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "BMS-986148",
+            "description": "A mesothelin-directed antibody–drug conjugate (ADC) containing a fully human IgG1 anti-mesothelin mAb conjugated to tubulysin.",
+            "armGroupLabels": [
+              "BMS-986148 Monotherapy (Every 3 Weeks)",
+              "BMS-986148 Monotherapy (Once Weekly)",
+              "BMS-986148 + Nivolumab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "armGroupLabels": [
+              "Part 3A: Ascending dose of BMS-986148",
+              "Part 3B: Expansion dose of BMS-986148"
+            ],
+            "otherNames": [
+              "Opdivo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": "An anti-programmed death-1 (PD-1) mAb checkpoint inhibitor.",
+            "armGroupLabels": [
+              "BMS-986148 + Nivolumab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.86
+        ],
+        [
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Adverse Events at Worst CTC Grade",
+            "description": "Number of participants with adverse events at worst CTC grade including any grade adverse events (AEs), serious adverse events (SAEs), adverse events leading to discontinuations, and deaths grouped by dose + dose regimen.",
+            "timeFrame": "From first dose to up to 100 days post last dose (Up to 6 months)"
+          },
+          "pred_item": {
+            "measure": "Safety and Tolerability (Adverse Events and Dose-Limiting Toxicities)",
+            "description": "Assessment of adverse events (AEs) according to NCI CTCAE v4.03. Determination of dose-limiting toxicities (DLTs) based on incidence, intensity, and duration of treatment-related AEs. Identification of Maximum Tolerated Dose (MTD) and Recommended Phase II Dose (RP2D).",
+            "timeFrame": "During treatment and for ≥ 100 days after the last dose; DLTs assessed during the first cycle (21 days for parts 1A/3A, 28 days for part 1B)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Laboratory Test Toxicity Grade Shifting From Baseline",
+            "description": "Number of participants with laboratory test toxicity grade (Grade 0, 1, 2, 3, and 4) in hematology and chemistry shifting from baseline. An increase in baseline indicates a shift of participant to a greater toxicity grade. A decrease in baseline indicates a shift of participant to a lesser toxicity grade. Participants are grouped by dose + dose regimen assessed by NCT CTCAE V 4.03.",
+            "timeFrame": "From first dose to up to 100 days post last dose (Up to 6 months)"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 13,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.05,
+          0.2
+        ],
+        [
+          0.82,
+          0.11,
+          0.2
+        ],
+        [
+          0.78,
+          0.1,
+          0.18
+        ],
+        [
+          0.7,
+          0.08,
+          0.18
+        ],
+        [
+          0.76,
+          0.07,
+          0.18
+        ],
+        [
+          0.82,
+          0.08,
+          0.13
+        ],
+        [
+          0.08,
+          0.78,
+          0.18
+        ],
+        [
+          0.1,
+          0.78,
+          0.32
+        ],
+        [
+          0.08,
+          0.7,
+          0.18
+        ],
+        [
+          0.06,
+          0.7,
+          0.12
+        ],
+        [
+          0.05,
+          0.7,
+          0.1
+        ],
+        [
+          0.08,
+          0.05,
+          0.12
+        ],
+        [
+          0.18,
+          0.12,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Maximum Observed Serum Concentration (Cmax)",
+            "description": "Maximum observed serum concentration (Cmax) of BMS-986148 grouped by dose + dose regimen.\n\nNote: The geometric CV was not calculated. Arithmetic % CV is reported instead.",
+            "timeFrame": "PK blood assessed on cycle 1, day 1"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetics (PK) Parameters",
+            "description": "Evaluation of concentrations of conjugated and unconjugated tubulysin. Parameters include maximum concentration (Cmax) and area under the curve (AUC) determined from serum and plasma concentration versus time data.",
+            "timeFrame": "At specified timepoints during treatment"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Time of Maximum Observed Serum Concentration (Tmax)",
+            "description": "Time of maximum observed serum concentration (Tmax) of BMS-986148 grouped by dose + dose regimen.",
+            "timeFrame": "PK blood assessed on cycle 1, day 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Concentration at the End of a Dosing Interval (Ctau)",
+            "description": "Concentration at the end of a dosing interval (Ctau) of BMS-986148 grouped by dose + dose regimen.\n\nNote: The geometric CV was not calculated. Arithmetic % CV is reported instead.",
+            "timeFrame": "PK blood assessed on cycle 1, day 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Trough Observed Serum Concentration (Ctrough)",
+            "description": "Trough observed serum concentration (Ctrough) of BMS-986148 grouped by dose + dose regimen.\n\nNote: The geometric CV was not calculated. Arithmetic % CV is reported instead.",
+            "timeFrame": "PK blood assessment include cycle 2-day 1 and cycle 1-day 8"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Area Under the Concentration-Time Curve From Time Zero to Time T (AUC(0-t))",
+            "description": "Area under the concentration-time curve from time Zero to time T (AUC(0-t)) of BMS-986148 grouped by dose + dose regimen.\n\nNote: The geometric CV was not calculated. Arithmetic % CV is reported instead.",
+            "timeFrame": "PK blood assessment include cycle 1-day 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Area Under the Concentration-Time Curve in One Dosing Interval (AUC[TAU])",
+            "description": "Area under the concentration-time curve in one dosing interval (AUC\\[TAU\\]) of BMS-986148 grouped by dose + dose regimen Note: The geometric CV was not calculated. Arithmetic % CV is reported instead",
+            "timeFrame": "PK blood assessment include cycle 1-day 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Best Overall Response (BOR)",
+            "description": "Best overall response is defined as the best response designation over the study as a whole, recorded between the dates of first dose until the last tumor assessment prior to subsequent therapy.\n\nComplete Response (CR): Disappearance of all target lesions. Any pathological lymph nodes must have reduction in short axis to \\< 10 mm.\n\nPartial Response (PR): At least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters.\n\nProgressive Disease (PD): At least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study. The sum must also demonstrate an absolute increase of at least 5 mm.\n\nStable Disease (SD): Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum diameters while on study.",
+            "timeFrame": "Up to 58 months"
+          },
+          "pred_item": {
+            "measure": "Preliminary Antitumor Activity",
+            "description": "Assessment of tumor response including Best Overall Response, Objective Response Rate (ORR), Duration of Response (DOR), and Progression-Free Survival (PFS) using RECIST v1.1 (or modified RECIST for malignant pleural mesothelioma).",
+            "timeFrame": "Baseline, every 2 cycles (6 weeks for every-3-weeks dosing, 8 weeks for once-weekly dosing) during treatment, then every 12 weeks during follow-up"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 2,
+          "score": 0.32,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Objective Response Rate (ORR)",
+            "description": "Objective response rate is defined as the total percentage of participants whose best overall response (BOR) is either a complete response or partial response divided by the total percentage of participants who are grouped by cohorts (Mesothelioma, Pancreatic, Ovarian, Non-smell Cell Lung (NSCL), and Gastric).\n\nComplete Response (CR): Disappearance of all target lesions. Any pathological lymph nodes must have reduction in short axis to \\< 10 mm.\n\nPartial Response (PR): At least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters.",
+            "timeFrame": "Up to 58 months"
+          },
+          "pred_item": {
+            "measure": "Pharmacodynamics",
+            "description": "Assessment of mesothelin expression levels at the plasma membrane by IHC on tumor samples (H-score) and evaluation of its association with tumor response.",
+            "timeFrame": "Baseline and during study analysis"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Duration of Response (DoR)",
+            "description": "Duration of response is defined as the time between the date of first response and the subsequent date of objectively documented disease progression or death, whichever occurs first. Participants are grouped by cohorts (Mesothelioma, Pancreatic, Ovarian, Non-smell Cell Lung (NSCL), and Gastric).",
+            "timeFrame": "Up to 58 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Progression Free Survival (PFS)",
+            "description": "Progression Free Survival is defined as the time from the first dose of study medication to the date of the first objective documentation of tumor progression or death due to any cause. Progression is defined with at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study and the sum must also demonstrate an absolute increase of at least 5 mm. Participants who did not progress nor died will be censored on the date of their last tumor assessment. Participants are grouped by cohorts (Mesothelioma, Pancreatic, Ovarian, Non-smell Cell Lung (NSCL), and Gastric).",
+            "timeFrame": "Up to 58 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Progression Free Survival Rate (PFSR) at Week t",
+            "description": "Progression free survival rate is defined as the proportion of participants who remain progression free and surviving at 't' weeks (t=4-12 months). The proportion will be calculated by the product-limit method (Kaplan-Meier estimate) which takes into account censored data. Participants are grouped by cohorts (Mesothelioma, Pancreatic, Ovarian, Non-smell Cell Lung (NSCL), and Gastric).",
+            "timeFrame": "Total PFS assessed between 4 and 12 months, PFSR at months 4 and 6 to be reported"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes in QT Corrected by the Fridericia Formula (QTcF) From Baseline, at Selected Times",
+            "description": "Changes of participants in QT corrected by the fridericia formula (QTcF) Interval from baseline at \\<= 30 msec, \\>30 - \\<= 60 msec, and \\> 60 msec grouped by dose + dose regimen",
+            "timeFrame": "Up to 58 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Anti-Drug Antibody (ADA)",
+            "description": "Number of participants with anti-drug antibody (ADA) status grouped by dose + dose regimen.\n\nData was not collected for this outcome measure.",
+            "timeFrame": "Up to 58 months"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

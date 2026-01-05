@@ -1,0 +1,352 @@
+{
+  "metadata": {
+    "case_id": 20,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:08:53.616276",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/20_NCT01302379.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/20_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.6,
+          0.2,
+          0.94,
+          0.7
+        ],
+        [
+          0.3,
+          0.7,
+          0.75,
+          0.95
+        ],
+        [
+          0.7,
+          0.2,
+          0.72,
+          0.42
+        ],
+        [
+          0.3,
+          0.78,
+          0.18,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Metformin + lifestyle intervention",
+            "type": "ACTIVE_COMPARATOR",
+            "interventionNames": [
+              "Drug: Metformin",
+              "Behavioral: Lifestyle intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Weight Loss plus Metformin",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received daily metformin therapy combined with a weight loss intervention program for 6 months. The phone-based program included a calorie intake goal and a moderate-intensity physical activity goal of 300 minutes per week.",
+            "interventionNames": [
+              "Metformin",
+              "Weight Loss Program"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 3,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo + lifestyle intervention",
+            "type": "ACTIVE_COMPARATOR",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Behavioral: Lifestyle intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Weight Loss plus Placebo",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received a daily placebo combined with a weight loss intervention program for 6 months. The phone-based program included a calorie intake goal and a moderate-intensity physical activity goal of 300 minutes per week.",
+            "interventionNames": [
+              "Placebo",
+              "Weight Loss Program"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "label": "Metformin + standard dietary guidelines",
+            "type": "ACTIVE_COMPARATOR",
+            "interventionNames": [
+              "Drug: Metformin",
+              "Behavioral: Standard printed dietary guidelines"
+            ]
+          },
+          "pred_item": {
+            "label": "Metformin Only",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received daily metformin therapy for 6 months without a structured weight loss behavioral program.",
+            "interventionNames": [
+              "Metformin",
+              "Weight Loss Program"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo + standard dietary guidelines",
+            "type": "PLACEBO_COMPARATOR",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Behavioral: Standard printed dietary guidelines"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo Only",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants received a daily placebo for 6 months without a structured weight loss behavioral program.",
+            "interventionNames": [
+              "Placebo",
+              "Weight Loss Program"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.2,
+          0.2
+        ],
+        [
+          0.18,
+          0.78,
+          0.25
+        ],
+        [
+          0.25,
+          0.1,
+          0.94
+        ],
+        [
+          0.1,
+          0.08,
+          0.35
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Metformin",
+            "description": "Week 1: 500 mg at dinner time Weeks 2-4: 1000 mg at dinner time Weeks 5+: 500 mg in morning; 1000 mg at dinner time",
+            "armGroupLabels": [
+              "Metformin + lifestyle intervention",
+              "Metformin + standard dietary guidelines"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Metformin",
+            "description": "Oral metformin administered daily for 6 months; used as an insulin-sensitizing agent and investigated here for potential effects on biological aging. Dose and exact schedule are not specified in the provided text but are described as similarly dosed to prior metformin trials.",
+            "armGroupLabels": [
+              "Metformin Only",
+              "Weight Loss plus Metformin"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Week 1: 1 pill at dinner time Weeks 2-4: 2 pills at dinner time Weeks 5+: 1 pill in morning; 2 pills at dinner time",
+            "armGroupLabels": [
+              "Placebo + lifestyle intervention",
+              "Placebo + standard dietary guidelines"
+            ],
+            "otherNames": [
+              "Sugar pill"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Oral placebo tablets administered daily for 6 months, matching metformin in appearance and schedule.",
+            "armGroupLabels": [
+              "Placebo Only",
+              "Weight Loss plus Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Lifestyle intervention",
+            "description": "Telephone-based lifestyle intervention (dietary change and physical activity) for weight loss.",
+            "armGroupLabels": [
+              "Metformin + lifestyle intervention",
+              "Placebo + lifestyle intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Weight Loss Program",
+            "description": "A 6‑month, phone-based behavioral weight loss intervention that included a calorie intake goal and a moderate-intensity physical activity goal of 300 minutes per week, targeting overweight/obese postmenopausal breast cancer survivors.",
+            "armGroupLabels": [
+              "Metformin Only",
+              "Placebo Only",
+              "Weight Loss plus Metformin",
+              "Weight Loss plus Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Standard printed dietary guidelines",
+            "description": "Set of standard health education materials provided to participants at single time point (immediately after randomization)",
+            "armGroupLabels": [
+              "Metformin + standard dietary guidelines",
+              "Placebo + standard dietary guidelines"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.2
+        ],
+        [
+          0.2
+        ],
+        [
+          0.2
+        ],
+        [
+          0.3
+        ],
+        [
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Insulin",
+            "description": "Insulin measured as percent change from baseline",
+            "timeFrame": "change from baseline to 6 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Glucose",
+            "description": "Glucose measured as percent change from baseline",
+            "timeFrame": "change from baseline to 6 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "C-reactive Protein",
+            "description": "C-reactive protein measured as percent change from baseline",
+            "timeFrame": "change from baseline to 6 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 0,
+          "score": 0.3,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Bioavailable Testosterone",
+            "description": "Bioavailable testosterone measured as percent change from baseline",
+            "timeFrame": "change from baseline to 6 months"
+          },
+          "pred_item": {
+            "measure": "Epigenetic age acceleration biomarkers",
+            "description": "Change from baseline to 6 months in nine leukocyte DNA methylation-based epigenetic age acceleration measures (residuals of epigenetic age regressed on chronological age): DNAmAge Hannum, DNAmAge Horvath, DNAmAge SkinBloodClock, DNAm PhenoAge, DNAm GrimAge, DNAm telomere length (age-adjusted), EpiTOC intrinsic rate, EpiTOC2 intrinsic rate, and MiAge intrinsic rate.",
+            "timeFrame": "Baseline and 6 months after randomization"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Serum Hormone Binding Globulin",
+            "description": "Serum hormone binding globulin measured as percent change from baseline",
+            "timeFrame": "change from baseline to 6 months"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

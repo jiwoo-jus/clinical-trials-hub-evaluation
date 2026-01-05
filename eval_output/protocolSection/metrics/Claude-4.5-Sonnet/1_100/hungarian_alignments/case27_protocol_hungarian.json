@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "case_id": 27,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T15:27:45.788916",
+    "total_alignments": 1,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/27_NCT03052517.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/27_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "id": "2016-001560-11",
+            "type": "EUDRACT_NUMBER"
+          },
+          "pred_item": {
+            "id": "2016-003329-30",
+            "type": "EUDRACT_NUMBER",
+            "domain": null,
+            "link": null
+          }
+        }
+      ]
+    }
+  ]
+}

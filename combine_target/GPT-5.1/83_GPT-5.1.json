@@ -1,0 +1,164 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02153944",
+      "orgStudyIdInfo": {
+        "id": "14-M-0114",
+        "type": "NIH",
+        "link": ""
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "National Institute of Mental Health",
+        "class": "NIH"
+      },
+      "briefTitle": "Methylphenidate Effects on Working Memory and Anxiety Under Threat of Shock",
+      "officialTitle": "Methylphenidate Modulation of Frontoparietal Control and Default Mode Networks During Working Memory Under Induced Anxiety",
+      "acronym": ""
+    },
+    "descriptionModule": {
+      "briefSummary": "This randomized, double-blind, placebo-controlled, parallel-group study examined how pharmacologically enhancing working memory with methylphenidate (MPH) modifies the interaction between anxiety and cognitive performance in healthy adults. Fifty right‑handed volunteers received a single oral dose of 20 mg immediate‑release MPH or placebo and then performed an N‑back working memory task (1‑back, 3‑back) during functional MRI under two conditions: safety and threat of unpredictable electric shock (induced anxiety). The main hypothesis was that MPH would alter the balance between the fronto‑parietal control network (FPCN) and default mode network (DMN), potentially expanding overall neural processing resources so that both demanding cognition and anxiety‑related processing could be supported without mutual interference. The study assessed working memory accuracy and reaction times, subjective anxiety, and task‑related BOLD activation to test whether cognitive enhancement can facilitate anxiety processing while preserving or improving cognitive performance.",
+      "detailedDescription": "This study investigated the neural mechanisms by which cognitive engagement can reduce or modulate anxiety, focusing on the interaction between anxiety and working memory and how this interaction is altered by a cognitive enhancer, methylphenidate (MPH). Prior behavioral work suggested that while anxiety typically impairs cognition, performing a demanding task can lessen anxiety, and that cognitive resources may be more expandable than traditional limited‑capacity models propose. The present experiment extended those findings to the neural level using functional MRI.\n\nSeventy healthy volunteers were initially recruited; after exclusions (missing fMRI data, incomplete behavioral data, excessive head motion), the final sample comprised 50 healthy, right‑handed adults without current or past Axis I psychiatric disorders or significant medical/neurological conditions and without family history of psychiatric disorders in first‑degree relatives. Participants were free of psychotropic medications, tobacco, and illicit drugs, and had IQ ≥ 80 and no prior chronic MPH use. All provided informed consent under a National Institute of Mental Health IRB‑approved protocol.\n\nThe study used a randomized, double‑blind, placebo‑controlled, between‑subjects design. Participants received a single oral dose of either 20 mg immediate‑release MPH (Ritalin) or placebo, in identical capsules, 90 minutes before beginning the experimental task in a 3 T MRI scanner. This dosing and timing were chosen based on prior work indicating cognitive effects at this dose and known pharmacokinetics (peak plasma levels at approximately 1–2 hours). Side effects were monitored with a clinician‑administered 34‑item Adverse Events Checklist.\n\nCognitive function was probed with an N‑back working memory (WM) task using visually presented letters. Two WM loads were tested: 1‑back (low load) and 3‑back (high load). In each block, letters were presented sequentially, and participants responded whether the current letter matched the letter N positions back. Approximately one‑third of trials were targets. An instruction screen indicated the upcoming load (1‑back or 3‑back) before each block.\n\nAnxiety was experimentally induced using the threat of unpredictable electric shocks. Task blocks occurred in two alternating contexts: \"Safe\" blocks (signaled by blue color around stimuli), during which participants were told no shocks would occur, and \"Threat\" blocks (orange color), during which unpredictable shocks could be delivered at any time. Participants received a total of six shocks during the task (three per run), with intensity calibrated individually beforehand. Thus, anxiety was manipulated independently of working memory load.\n\nThe task consisted of two runs separated by about 10 minutes. Each run included eight blocks of 45 seconds, with 18 letter trials per block. Within each run, there were two blocks of each condition: 1‑back/safe, 1‑back/threat, 3‑back/safe, and 3‑back/threat, with safe and threat blocks alternating. The order of runs (starting with safe vs. threat) was counterbalanced across participants. Run‑1 represented a context of relative task novelty, whereas Run‑2 reflected increased familiarity.\n\nFunctional MRI data were acquired on a 3 T Siemens Skyra system using multi‑echo EPI and high‑resolution multi‑echo T1‑weighted MPRAGE structural images. Preprocessing and analysis were conducted with AFNI and FreeSurfer, including optimal combination of multi‑echo images, skull stripping, nonlinear normalization to ICBM 2009c space, motion correction, and modeling of nuisance regressors (motion parameters, low‑frequency drifts, shock onsets). At the first level, separate regressors modeled each task condition (1‑back/safe, 1‑back/threat, 3‑back/safe, 3‑back/threat), and a general linear test contrasted 3‑back vs. 1‑back to isolate WM load effects. Second‑level analyses used mixed‑effects general linear models with Drug (MPH vs. placebo), Condition (safe vs. threat), Run (1 vs. 2), and Load contrast (3‑back vs. 1‑back) as fixed factors, Subjects as random factor, and sex and age as covariates. Whole‑brain correction for multiple comparisons used cluster‑level thresholding with 3dClustSim.\n\nBehavioral performance (accuracy and reaction times) was analyzed using linear mixed‑effects models with Drug, Load, Condition, and Run as fixed effects, Subjects as a random effect, and sex and age as covariates. General state anxiety was assessed via the STAI‑state scale at three time points: immediately after drug administration (before expected pharmacologic action), 45 minutes post‑dose, and after exiting the scanner. Additional anxiety measures during fMRI were collected but detailed in supplemental material.\n\nAs a quality‑control step, the 3‑back vs. 1‑back contrast reliably activated task‑positive regions (fronto‑parietal control network) and deactivated task‑negative regions (default mode network), consistent with past working memory literature. Behaviorally, higher WM load (3‑back) produced lower accuracy and slower reaction times than 1‑back, and performance improved from Run‑1 to Run‑2.\n\nMPH tended to improve overall working memory accuracy compared to placebo across conditions. The key hypotheses concerned how MPH would affect the functional balance between the fronto‑parietal control network (FPCN) and the default mode network (DMN) under anxiety and cognitive load. Three mechanistic scenarios were proposed: (A) MPH increases dissociation between FPCN and DMN (stronger FPCN activation with greater DMN deactivation); (B) MPH redistributes cognitive resources with greater efficiency (reduced FPCN activation, increased DMN activation); or (C) MPH expands overall neural resources, simultaneously enhancing FPCN and DMN engagement.\n\nNeuroimaging results during Run‑1 (when the task was novel and thus most demanding) under threat showed a Drug × Condition interaction. Under threat in Run‑1, the MPH group exhibited significantly stronger activation than placebo in parietal and cingulate regions, including left superior parietal lobule (a posterior FPCN node) and PCU/PCC, as well as in the right lateral orbitofrontal cortex and left lateral occipital cortex. Decomposition revealed that during Run‑1/safe, FPCN regions were activated and DMN regions were relatively unchanged in both groups. However, during Run‑1/threat, MPH preserved or increased activation in FPCN regions (e.g., SPL) while also maintaining or enhancing activation in DMN regions (PCU, PCC, lateral OFC), whereas placebo was associated with task‑related activation in FPCN under safe conditions but a loss of activation (or deactivation) in these and DMN regions under threat.\n\nThis pattern is consistent with the \"resource expansion\" hypothesis: in the most demanding context (high WM load, induced anxiety, novel task), MPH appears to expand available neural processing resources, allowing simultaneous robust recruitment of FPCN for cognitive performance and DMN for processing anxiety‑related, self‑referential or internally directed information, instead of enforcing a strict competition between the two networks. In contrast, placebo subjects showed more canonical task‑related activation/deactivation patterns that suggest limited capacity, with anxiety‑related demands reducing effective recruitment of these systems during high load.\n\nBy Run‑2, when the task was more familiar and presumably less demanding, the Drug × Condition interaction no longer yielded significant clusters at the whole‑brain level. Although there were trends for somewhat greater FPCN activation and less DMN deactivation with MPH, MPH and placebo did not significantly differ in neural or behavioral measures in this later run. This supports the idea that MPH effects are most evident under high task demand, high anxiety, and novelty.\n\nSubjective state anxiety increased over the course of the visit in both groups, with a significant Drug × Time interaction indicating a steeper increase in STAI‑state scores in the MPH group. Average anxiety levels did not differ between groups overall, but the time course suggested that MPH may facilitate awareness or processing of anxiety. Importantly, enhanced working memory performance in the MPH group occurred despite equal or greater subjective anxiety, consistent with the idea that expanded resources can support both cognitive demands and anxiety processing concurrently.\n\nThe authors interpret these findings as evidence that cognitive resources are not strictly limited but can be expanded pharmacologically under certain conditions. MPH seems to increase the capacity of networks supporting both executive control (FPCN) and self‑referential/emotion‑related processing (DMN), enabling more complete processing and potential regulation of anxiety without compromising ongoing cognitive performance. This challenges dominant limited‑resource models of anxiety–cognition interactions and suggests new avenues for therapeutic strategies that aim to enhance cognitive capacity or its flexible allocation in the context of anxiety disorders. The study is limited by its healthy volunteer sample, absence of plasma MPH measurements, lack of physiological anxiety measures in the scanner comparable to prior work, and the fact that stimulants are not clinical treatments for anxiety. Nonetheless, it provides proof‑of‑concept support for the neural expandability of processing resources relevant to anxiety regulation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Anxiety",
+        "Anxiety Disorders",
+        "Working Memory",
+        "Cognition",
+        "Stress, Psychological"
+      ],
+      "keywords": [
+        "Anxiety",
+        "Induced anxiety",
+        "Threat of shock",
+        "Working memory",
+        "N-Back task",
+        "Cognition",
+        "Methylphenidate",
+        "Ritalin",
+        "Psychostimulants",
+        "Frontoparietal control network",
+        "Default mode network",
+        "Functional magnetic resonance imaging",
+        "fMRI",
+        "Attention",
+        "Cognitive enhancement",
+        "Startle reflex",
+        "State-Trait Anxiety Inventory",
+        "STAI",
+        "Salience network",
+        "Executive function",
+        "Emotion regulation",
+        "Task-positive network",
+        "Task-negative network",
+        "Stress, Psychological"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized, double-blind, placebo-controlled, parallel-group study in which participants received a single oral dose of methylphenidate 20 mg or placebo and completed two fMRI runs of an N-back working memory task under alternating safety and threat-of-shock conditions.",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Double-blind design: participants and study staff were blinded to assignment of methylphenidate 20 mg vs. placebo, with drugs provided in identical-appearing capsules according to a pharmacy-generated randomization schedule.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Methylphenidate",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received a single oral dose of 20 mg immediate-release methylphenidate (Ritalin) 90 minutes prior to beginning the N-back working memory task performed during fMRI. They then completed two runs of an N-back task (1-back and 3-back) under alternating safety and threat-of-shock conditions in the MRI scanner.",
+          "interventionNames": [
+            "Methylphenidate 20 mg PO"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received a single oral dose of placebo in an identical-appearing capsule 90 minutes prior to beginning the N-back working memory task performed during fMRI. They then completed two runs of an N-back task (1-back and 3-back) under alternating safety and threat-of-shock conditions in the MRI scanner.",
+          "interventionNames": [
+            "Placebo capsule"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Methylphenidate 20 mg PO",
+          "description": "Immediate-release methylphenidate 20 mg (Ritalin, Novartis) administered as a single oral dose in a capsule. Plasma levels peak about 1–2 hours after administration, half-life 1–4 hours. Given 90 minutes before the start of the fMRI N-back working memory task.",
+          "armGroupLabels": [
+            "Methylphenidate"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo capsule",
+          "description": "Single oral dose of placebo in an identical-appearing capsule, administered 90 minutes before the start of the fMRI N-back working memory task, serving as a control for methylphenidate.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Working memory task performance accuracy on N-back task",
+          "description": "Response accuracy (proportion correct) during the N-back working memory task, analyzed as a function of Drug (methylphenidate vs. placebo), Load (1-Back vs. 3-Back), Condition (Safe vs. Threat of shock), and Run (Run-1 vs. Run-2) using linear mixed-effects models.",
+          "timeFrame": "During two fMRI runs of the N-back task performed approximately 90 minutes after drug administration in a single study visit"
+        },
+        {
+          "measure": "Working memory load-related BOLD activation (3-Back vs. 1-Back contrast)",
+          "description": "Blood-oxygen-level dependent (BOLD) fMRI signal contrast between high (3-Back) and low (1-Back) working memory load blocks, used to index recruitment of fronto-parietal control and default mode networks and to test Drug × Condition × Run interactions.",
+          "timeFrame": "During two fMRI runs of the N-back task performed approximately 90 minutes after drug administration in a single study visit"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Reaction time on N-back working memory task",
+          "description": "Mean reaction time for correct responses during 1-Back and 3-Back conditions under Safe and Threat contexts across Run-1 and Run-2, analyzed with linear mixed-effects models including Drug, Load, Condition, and Run as fixed factors.",
+          "timeFrame": "During two fMRI runs of the N-back task performed approximately 90 minutes after drug administration in a single study visit"
+        },
+        {
+          "measure": "General state anxiety (STAI-S)",
+          "description": "Self-reported general state anxiety assessed with the State-Trait Anxiety Inventory – state form (STAI-s), examining main and interaction effects of Drug and Time.",
+          "timeFrame": "Three time points during the study visit: immediately after drug administration (T1), 45 minutes post drug administration (T2), and immediately after removal from the scanner (T3)"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "- Inclusion Criteria:\n  - Age between 18 and 50 years\n  - Healthy volunteers recruited from the Washington DC metropolitan area\n  - No past or current Axis I psychiatric disorders (per SCID I/NP)\n  - No family history of psychiatric disorder in first-degree relatives\n  - No significant medical or neurological conditions that might interfere with participation in the study\n  - No use of psychotropic medications\n  - No use of tobacco\n  - No use of illicit drugs (negative urine screen)\n  - No contraindications to magnetic resonance imaging (MRI)\n  - Intelligence quotient (IQ) ≥ 80 as assessed using the vocabulary and matrix reasoning subscales of the Wechsler Abbreviated Scale of Intelligence (WASI)\n  - Not pregnant and negative pregnancy test (for women of childbearing potential)\n  - Right-handed\n  - Able and willing to provide written informed consent\n\n- Exclusion Criteria:\n  - Age younger than 18 years or older than 50 years\n  - Past or current Axis I psychiatric disorders\n  - Family history of psychiatric disorder in first-degree relatives\n  - Significant medical or neurological conditions that might interfere with participation in the study\n  - Current use of psychotropic medications\n  - Use of tobacco\n  - Use of illicit drugs (positive urine screen)\n  - Contraindications to MRI\n  - Prior chronic use of methylphenidate (e.g., Ritalin)\n  - IQ < 80 (WASI vocabulary and matrix reasoning subscales)\n  - Pregnancy or positive pregnancy test\n  - Left-handedness",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "50 Years",
+      "stdAges": [
+        "ADULT"
+      ],
+      "studyPopulation": "",
+      "samplingMethod": ""
+    }
+  }
+}

@@ -1,0 +1,763 @@
+{
+  "metadata": {
+    "case_id": 41,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T16:07:26.745589",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/41_NCT04652102.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/41_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          1.0,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "id": "2020-003998-22",
+            "type": "EUDRACT_NUMBER"
+          },
+          "pred_item": {
+            "id": "2020-003998-22",
+            "type": "EUDRACT_NUMBER",
+            "domain": "EudraCT",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.15
+        ],
+        [
+          0.18,
+          0.92
+        ],
+        [
+          0.94,
+          0.18
+        ],
+        [
+          0.3,
+          0.9
+        ],
+        [
+          0.28,
+          0.12
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Randomized Observer-blinded Phase 2b: CVnCoV vaccine",
+            "type": "EXPERIMENTAL",
+            "description": "Participants will be vaccinated with CVnCoV 12 µg vaccine on Day 1 and Day 29 in the deltoid area, preferably in the non-dominant arm.",
+            "interventionNames": [
+              "Biological: CVnCoV"
+            ]
+          },
+          "pred_item": {
+            "label": "CVnCoV 12 μg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received two 0.6 mL intramuscular injections of the CVnCoV SARS-CoV-2 mRNA vaccine candidate, each dose containing 12 μg of chemically unmodified mRNA formulated with the RNActive mRNA vaccine platform and lipid nanoparticles, administered in the deltoid muscle on days 1 and 29.",
+            "interventionNames": [
+              "CVnCoV SARS-CoV-2 mRNA vaccine 12 μg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Randomized Observer-blinded Phase 2b: Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants will be administered the matching placebo on Day 1 and Day 29 in the deltoid area, preferably in the non-dominant arm.",
+            "interventionNames": [
+              "Biological: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo 0.9% NaCl",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants received two 0.6 mL intramuscular injections of placebo consisting of 0.9% sodium chloride solution, administered in the deltoid muscle on days 1 and 29.",
+            "interventionNames": [
+              "0.9% NaCl placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Randomized Observer-blinded Phase 3: CVnCoV vaccine",
+            "type": "EXPERIMENTAL",
+            "description": "Participants will be vaccinated with CVnCoV 12 µg vaccine on Day 1 and Day 29 in the deltoid area, preferably in the non-dominant arm.",
+            "interventionNames": [
+              "Biological: CVnCoV"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Randomized Observer-blinded Phase 3: Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants will be administered the matching placebo on Day 1 and Day 29 in the deltoid area, preferably in the non-dominant arm.",
+            "interventionNames": [
+              "Biological: Placebo"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Open-label Phase",
+            "type": "EXPERIMENTAL",
+            "description": "After unblinding, the trial will shift from a randomized observer-blinded to an open-label design, and the following cohorts will be defined:\n\nCohort A: participants who received at least 1 dose of CVnCoV in the randomized observer-blinded phases and choose to receive an authorized/licensed vaccine for preventing COVID-19 (AV) as standard of care through their national vaccination program.\n\nCohort B: participants who received at least 1 dose of CVnCoV in the randomized observer-blinded phases and choose to remain in the trial without receiving any AV.\n\nParticipants on the placebo arm will be withdrawn.",
+            "interventionNames": [
+              "Biological: Authorized/licensed vaccines for preventing COVID-19 (AV) as standard of care through their national vaccination program"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.1
+        ],
+        [
+          0.18,
+          0.92
+        ],
+        [
+          0.62,
+          0.08
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "CVnCoV",
+            "description": "Intramuscular (IM) injection.",
+            "armGroupLabels": [
+              "Randomized Observer-blinded Phase 2b: CVnCoV vaccine",
+              "Randomized Observer-blinded Phase 3: CVnCoV vaccine"
+            ],
+            "otherNames": [
+              "CV07050101"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "CVnCoV SARS-CoV-2 mRNA vaccine 12 μg",
+            "description": "CVnCoV is a chemically unmodified mRNA vaccine candidate based on the RNActive mRNA vaccine platform, encoding the stabilised, full-length, native SARS-CoV-2 spike protein of the wild-type strain. The mRNA is formulated in lipid nanoparticles for delivery. In this trial, two 0.6 mL intramuscular doses containing 12 μg mRNA were administered on days 1 and 29.",
+            "armGroupLabels": [
+              "CVnCoV 12 μg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Placebo",
+            "description": "Intramuscular (IM) injection.",
+            "armGroupLabels": [
+              "Randomized Observer-blinded Phase 2b: Placebo",
+              "Randomized Observer-blinded Phase 3: Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "0.9% NaCl placebo",
+            "description": "Placebo control consisting of sterile 0.9% sodium chloride solution. Participants received two 0.6 mL intramuscular injections on days 1 and 29, matching the CVnCoV dosing schedule and administration site.",
+            "armGroupLabels": [
+              "Placebo 0.9% NaCl"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Authorized/licensed vaccines for preventing COVID-19 (AV) as standard of care through their national vaccination program",
+            "description": "Intramuscular (IM) injection will be received as standard of care (SoC) outside the study.",
+            "armGroupLabels": [
+              "Open-label Phase"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 12,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ],
+        [
+          0.08
+        ],
+        [
+          0.08
+        ],
+        [
+          0.05
+        ],
+        [
+          0.1
+        ],
+        [
+          0.02
+        ],
+        [
+          0.05
+        ],
+        [
+          0.05
+        ],
+        [
+          0.05
+        ],
+        [
+          0.08
+        ],
+        [
+          0.03
+        ],
+        [
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Who Experienced a First Episode of Virologically-confirmed {Reverse Transcription Polymerase Chain Reaction (RT-PCR) Positive} Case of COVID-19 of Any Severity",
+            "description": "A case of COVID-19 meeting the definition for primary efficacy analysis was defined as follows:\n\n* Virologically-confirmed case of COVID-19 (of any severity) defined as a positive SARS-CoV-2 specific RT-PCR test in a person with clinically symptomatic COVID-19.\n* Symptom onset ≥ 15 days after second trial vaccination.\n* First episode of virologically-confirmed COVID-19, i.e. the participant must not have had a history of virologically-confirmed COVID-19 illness at enrollment or have had developed a case of virologically-confirmed COVID-19 before 15 days after the second trial vaccination.\n* Participant was SARS-CoV-2 naïve at baseline and Day 43 (defined as seronegative to N protein in the blood samples collected at baseline and Day 43).\n* Primary efficacy cases were confirmed by an Adjudication Committee.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Day 44 to Day 393"
+          },
+          "pred_item": {
+            "measure": "Virologically confirmed symptomatic COVID-19 of any severity caused by any strain",
+            "description": "Occurrence of a first episode of virologically confirmed symptomatic COVID-19 (mild, moderate, or severe) caused by any SARS-CoV-2 strain in participants who were SARS-CoV-2–naive at baseline and day 43. COVID-19 cases were confirmed by central RT-PCR and adjudicated by a blinded central committee. Vaccine efficacy is estimated as 1 minus the ratio of attack rates (CVnCoV vs placebo) multiplied by 100.",
+            "timeFrame": "From 15 days after the second dose (day 43) up to 1 year after the second dose"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants Who Experienced One or More Medically-attended Adverse Events (AE)",
+            "description": "Medically-attended AEs were defined as AEs with medically-attended visits that were not routine visits for physical examination or vaccination, such as visits for hospitalization, an emergency room visit, or an otherwise unscheduled visit to or from medical personnel (medical doctor) for any reason. Clinic visits for COVID-19 testing resulting in negative test results were not considered as medically attended visits, if there is no confirmed diagnosis and no prescribed concomitant medication.\n\nThe Investigator assessed the relationship between trial vaccine and occurrence of each AE.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Day 1 to Day 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants Who Experienced One or More Serious AE (SAE)",
+            "description": "An SAE was defined as any untoward medical occurrence that, at any dose:\n\n* Resulted in death.\n* Was life-threatening.\n* Required inpatient hospitalization or prolongation of existing hospitalization.\n* Resulted in persistent disability/incapacity.\n* Was a congenital anomaly/birth defect in the offspring of the participant.\n* Was an important medical event.\n\nThe Investigator assessed the relationship between trial vaccine and occurrence of each SAE.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Day 1 to Day 393"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Intensity of SAEs as Per Investigator Assessment",
+            "description": "An SAE was defined as any untoward medical occurrence that, at any dose:\n\n* Resulted in death.\n* Was life-threatening.\n* Required inpatient hospitalization or prolongation of existing hospitalization.\n* Resulted in persistent disability/incapacity.\n* Was a congenital anomaly/birth defect in the offspring of the participant.\n* Was an important medical event.\n\nThe Investigator made an assessment of intensity of each SAE reported during the trial. Each SAE was graded from Mild (Grade 1) to Severe (Grade 3), where higher grades indicated a worse outcome.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Day 1 to Day 393"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants Who Experienced One or More Adverse Event of Special Interest (AESI)",
+            "description": "AESIs included:\n\n* AEs with a suspected immune-medicated etiology.\n* Other AEs relevant to SARS-CoV-2 vaccine development or the target disease.\n\nThe Investigator assessed the relationship between trial vaccine and occurrence of each AESI.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Day 1 to Day 393"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants Who Experienced a Fatal SAE",
+            "description": "A fatal SAE was defined as an SAE that resulted in death.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Day 1 to Day 393"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Phase 2b Participants Only: Number of Participants Who Experienced One or More Solicited AE",
+            "description": "Solicited local AEs (injection site pain, redness, swelling, and itching) and solicited systemic AEs (fever, headache, fatigue, chills, myalgia, arthralgia, nausea/vomiting, and diarrhea) were recorded on the day of vaccination and the following 7 days using an eDiary.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Up to 7 days after vaccination (Days 1 to 7 and Days 29 to 36)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Phase 2b Participants Only: Intensity of Solicited AEs as Per Investigator Assessment",
+            "description": "Solicited local AEs (injection site pain, redness, swelling, and itching) and solicited systemic AEs (fever, headache, fatigue, chills, myalgia, arthralgia, nausea/vomiting, and diarrhea) were recorded on the day of vaccination and the following 7 days using an eDiary.\n\nThe Investigator made an assessment of intensity of each solicited AE reported during the trial. Each solicited AE was graded from Mild (Grade 1) to Severe (Grade 3), where higher grades indicated a worse outcome.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Up to 7 days after vaccination (Days 1 to 7 and Days 29 to 36)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Phase 2b Participants Only: Duration of Solicited AEs",
+            "description": "Solicited local AEs (injection site pain, redness, swelling, and itching) and solicited systemic AEs (fever, headache, fatigue, chills, myalgia, arthralgia, nausea/vomiting, and diarrhea) were recorded on the day of vaccination and the following 7 days using an eDiary. Duration is calculated as consecutive days with a respective solicited AE regardless of the grade of the AE. AEs ongoing after Day 8 are included. In each case only the longest consecutive duration is displayed.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Up to 7 days after vaccination (Days 1 to 7 and Days 29 to 36)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Phase 2b Participants Only: Number of Participants Who Experienced One or More Unsolicited AE",
+            "description": "eDiaries were used for collection of unsolicited AEs on each vaccination day and the following 28 days. In addition, participants received a prompt (by e.g., a phone call or text message) to verify whether the participants had any health concerns since the last visit. The Investigator assessed the relationship between trial vaccine and each occurrence of each AE.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Up to 28 days after vaccination (Days 1 to 29 and Days 29 to 57)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Phase 2b Participants Only: Intensity of Unsolicited AEs as Per Investigator Assessment",
+            "description": "eDiaries were used for collection of unsolicited AEs on each vaccination day and the following 28 days. In addition, participants received a prompt (by e.g., a phone call or text message) to verify whether the participants had any health concerns since the last visit.\n\nThe Investigator made an assessment of intensity of each unsolicited AE reported during the trial. Each unsolicited AE was graded from Mild (Grade 1) to Severe (Grade 3), where higher grades indicated a worse outcome.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Up to 28 days after vaccination (Days 1 to 29 and Days 29 to 57)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants Who Experienced One or More AEs Leading to Vaccine Withdrawal or Trial Discontinuation",
+            "description": "Participants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Day 1 to Day 393"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 10,
+      "pred_count": 13,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.84,
+          0.68,
+          0.93,
+          0.86,
+          0.05,
+          0.05,
+          0.12,
+          0.18,
+          0.08,
+          0.22,
+          0.18,
+          0.1
+        ],
+        [
+          0.82,
+          0.97,
+          0.68,
+          0.72,
+          0.97,
+          0.08,
+          0.1,
+          0.05,
+          0.2,
+          0.05,
+          0.15,
+          0.18,
+          0.1
+        ],
+        [
+          0.82,
+          0.78,
+          0.82,
+          0.78,
+          0.82,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.05,
+          0.12,
+          0.05,
+          0.08
+        ],
+        [
+          0.78,
+          0.72,
+          0.93,
+          0.7,
+          0.73,
+          0.05,
+          0.05,
+          0.05,
+          0.19,
+          0.08,
+          0.15,
+          0.1,
+          0.07
+        ],
+        [
+          0.72,
+          0.72,
+          0.55,
+          0.7,
+          0.65,
+          0.12,
+          0.15,
+          0.05,
+          0.08,
+          0.07,
+          0.18,
+          0.18,
+          0.08
+        ],
+        [
+          0.62,
+          0.72,
+          0.55,
+          0.68,
+          0.7,
+          0.05,
+          0.08,
+          0.01,
+          0.28,
+          0.05,
+          0.18,
+          0.11,
+          0.12
+        ],
+        [
+          0.15,
+          0.22,
+          0.15,
+          0.18,
+          0.18,
+          0.08,
+          0.02,
+          0.05,
+          0.08,
+          0.05,
+          0.03,
+          0.05,
+          0.08
+        ],
+        [
+          0.25,
+          0.08,
+          0.15,
+          0.18,
+          0.18,
+          0.05,
+          0.03,
+          0.05,
+          0.05,
+          0.08,
+          0.05,
+          0.05,
+          0.05
+        ],
+        [
+          0.15,
+          0.22,
+          0.18,
+          0.21,
+          0.22,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ],
+        [
+          0.2,
+          0.1,
+          0.18,
+          0.28,
+          0.18,
+          0.05,
+          0.07,
+          0.08,
+          0.05,
+          0.12,
+          0.25,
+          0.05,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Who Experienced a First Episode of Virologically-confirmed (RT-PCR Positive) Moderate to Severe Case of COVID-19",
+            "description": "Moderate cases defined by any 1 of the following:\n\n* Shortness of breath/difficulty breathing\n* Respiratory rate ≥20 to \\<30 breaths per min\n* Abnormal SpO2 but still \\>93% on room air at sea level\n* Clinical/radiographic evidence of lower respiratory tract disease\n* Radiologic evidence of DVT\n\nSevere cases defined by any 1 of the following:\n\n* Clinical signs at rest indicative of severe systemic illness (respiratory rate ≥ 30breaths per minute, heart rate ≥125 per minute, SpO2 ≤93% on room air at sea level or PaO2/FIO2 \\<300 mm Hg)\n* Respiratory failure (defined as needing high flow-oxygen, noninvasive ventilation, mechanical ventilation or ECMO)\n* Evidence of shock (SBP \\<90mm Hg, DBP \\<60 mmHg or requiring vasopressors)\n* Significant renal, hepatic, or neurologic dysfunction\n* Admission to ICU\n* Death\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Day 44 to Day 393"
+          },
+          "pred_item": {
+            "measure": "Virologically confirmed moderate-to-severe COVID-19",
+            "description": "Occurrence of a first episode of virologically confirmed moderate-to-severe COVID-19 caused by any SARS-CoV-2 strain. Moderate and severe disease were defined using clinical criteria including respiratory signs, oxygen saturation, radiographic evidence, organ dysfunction, ICU admission, or death. Cases were centrally adjudicated. Vaccine efficacy is calculated as 1 minus the ratio of attack rates between CVnCoV and placebo.",
+            "timeFrame": "From 15 days after the second dose (day 43) up to 1 year after the second dose"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Who Experienced a First Episode of Virologically-confirmed (RT-PCR Positive) Severe Case of COVID-19",
+            "description": "Severe COVID-19 cases were defined by any one of the following:\n\n* Clinical signs at rest indicative of severe systemic illness (respiratory rate ≥ 30 breaths per minute, heart rate ≥ 125 per minute, SpO2 ≤ 93% on room air at sea level or PaO2/FIO2 \\< 300 mm Hg).\n* Respiratory failure (defined as needing high flow-oxygen, noninvasive ventilation, mechanical ventilation or ECMO).\n* Evidence of shock (SBP \\< 90mm Hg, DBP \\< 60 mmHg, or requiring vasopressors).\n* Significant renal, hepatic, or neurologic dysfunction\n* Admission to intensive care unit (ICU).\n* Death.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Day 44 to Day 393"
+          },
+          "pred_item": {
+            "measure": "Virologically confirmed severe COVID-19",
+            "description": "Occurrence of a first episode of virologically confirmed severe COVID-19 caused by any SARS-CoV-2 strain. Severe disease was defined by clinical signs of severe systemic illness (e.g., respiratory rate ≥30 breaths per min, heart rate ≥125 beats per min, altitude-adjusted SpO2 ≤93%, PaO2/FiO2 ratio <300 mmHg), respiratory failure, shock, major organ dysfunction, ICU admission, or death. Cases were centrally adjudicated. Vaccine efficacy is calculated as 1 minus the ratio of attack rates between CVnCoV and placebo.",
+            "timeFrame": "From 15 days after the second dose (day 43) up to 1 year after the second dose"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 4,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Who Experienced a First Episode of Virologically-confirmed (RT-PCR Positive) Case of COVID-19 of Any Severity Due to Infection With \"Wild Type\" and \"Alpha\" SARS-CoV-2 Strains in SARS-CoV-2 Naïve Participants",
+            "description": "The characterization of SARS-CoV-2 variants were implemented by viral whole genome sequencing of nasopharyngeal swab samples of participants followed by comparison with previously sequenced and typified genomes. The following phylogenetic clustering was applied:\n\n1. \"Wild type\" virus: WT/D614G, lineages A.1/B.1 without the variant of concerns (VOCs) (i.e., without B.1.1.7 \\[Alpha\\], B.1.351 \\[Beta\\], B.1.429 \\[Epsilon\\]).\n2. \"UK\" VOC: B.1.1.7 (Alpha).\n\nA case of COVID-19 was defined as follows:\n\n* Virologically-confirmed case of COVID-19 defined as a positive SARS-CoV-2 specific RT-PCR test in a person with clinically symptomatic COVID-19.\n* Symptom onset ≥ 15 days after second vaccination.\n* First episode of virologically-confirmed COVID-19.\n* Participant was SARS-CoV-2 naïve at baseline and Day 43.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Day 44 to Day 393"
+          },
+          "pred_item": {
+            "measure": "Virologically confirmed severe COVID-19 by age group",
+            "description": "Occurrence of a first episode of virologically confirmed severe COVID-19, analyzed separately for participants aged 18–60 years and those aged ≥61 years. Severe disease definitions follow the protocol clinical criteria. Vaccine efficacy is calculated as 1 minus the ratio of attack rates between CVnCoV and placebo within each age stratum.",
+            "timeFrame": "From 15 days after the second dose (day 43) up to 1 year after the second dose"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Aged ≥ 61 Who Experienced a First Episode of Virologically-confirmed (RT-PCR Positive) Case of COVID-19 of Any Severity",
+            "description": "A case of COVID-19 was defined as follows:\n\n* Virologically-confirmed case of COVID-19 (of any severity) defined as a positive SARS-CoV-2 specific RT-PCR test in a person with clinically symptomatic COVID-19.\n* Symptom onset ≥ 15 days after second trial vaccination.\n* First episode of virologically-confirmed COVID-19, i.e. the participant must not have had a history of virologically-confirmed COVID-19 illness at enrollment or have had developed a case of virologically-confirmed COVID-19 before 15 days after the second trial vaccination.\n* Participant was SARS-CoV-2 naïve at baseline and Day 43 (defined as seronegative to N protein in the blood samples collected at baseline and Day 43).\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Day 44 to Day 393"
+          },
+          "pred_item": {
+            "measure": "Virologically confirmed symptomatic COVID-19 by age group",
+            "description": "Occurrence of a first episode of virologically confirmed symptomatic COVID-19 of any severity, analyzed separately for participants aged 18–60 years and those aged ≥61 years. Cases were centrally adjudicated and vaccine efficacy is calculated as 1 minus the ratio of attack rates between CVnCoV and placebo within each age stratum.",
+            "timeFrame": "From 15 days after the second dose (day 43) up to 1 year after the second dose"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 3,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Burden of Disease (BoD) Score #1 Based on First Episodes of Virologically-confirmed (RT-PCR Positive) Cases of COVID-19",
+            "description": "Score #1 was defined as no disease (not infected or asymptomatic infection) = 0; mild or moderate disease = 1; severe disease = 2.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Day 44 to Day 393"
+          },
+          "pred_item": {
+            "measure": "Virologically confirmed moderate-to-severe COVID-19 by age group",
+            "description": "Occurrence of a first episode of virologically confirmed moderate-to-severe COVID-19, analyzed separately for participants aged 18–60 years and those aged ≥61 years. Moderate-to-severe disease definitions follow the protocol clinical criteria. Vaccine efficacy is calculated as 1 minus the ratio of attack rates between CVnCoV and placebo within each age stratum.",
+            "timeFrame": "From 15 days after the second dose (day 43) up to 1 year after the second dose"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 8,
+          "score": 0.28,
+          "status": "matched",
+          "ref_item": {
+            "measure": "BoD Score #2 Based on First Episodes of Virologically-confirmed (RT-PCR Positive) Cases of COVID-19",
+            "description": "Score #2 was defined as no disease (not infected or asymptomatic infection) = 0; disease without hospitalization = 1; disease with hospitalization = 2; death = 3.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+            "timeFrame": "Day 44 to Day 393"
+          },
+          "pred_item": {
+            "measure": "Serious adverse events",
+            "description": "Incidence, type, and investigator-assessed relationship to vaccination for serious adverse events, defined per standard regulatory criteria (e.g., death, life-threatening event, hospitalization or prolongation, significant disability, congenital anomaly, or other medically important condition).",
+            "timeFrame": "From first vaccination through up to 1 year after the second dose in phase 2b and phase 3 participants"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 5,
+          "score": 0.08,
+          "status": "matched",
+          "ref_item": {
+            "measure": "SARS-CoV-2 Receptor Binding Domain (RBD) of Spike (S) Protein Antibody Levels on Days 1, 29, 43, 120 and 211",
+            "description": "Titers of IgG antibodies directed against the SARS-CoV-2 RBD of Spike Protein antigen were measured by enzyme- linked immunosorbent assay (ELISA) and expressed as geometric mean of titers (GMT) with 95% confidence interval (CI), by group. Individual values below the lower limit of quantification (LLOQ) were set to half of the LLOQ. Only participants seronegative at baseline with evaluable samples at each visit are included. Participants who tested positive for SARS-CoV-2 via PCR or N-protein antibodies had their data included up to the point of positive test result or symptom onset.\n\nParticipants who received a licensed/authorized vaccine were censored at the day after receiving the licensed/authorized vaccine.",
+            "timeFrame": "Days 1 (baseline), 29, 43, 120 and 211"
+          },
+          "pred_item": {
+            "measure": "Solicited local adverse events",
+            "description": "Incidence, type, and severity grade of solicited local adverse events at the injection site (pain, redness, swelling, itching) recorded by participants in diaries. Events are graded 0–3 according to predefined criteria, and duration is summarized.",
+            "timeFrame": "Within 7 days after each dose (day 1 and day 29) in phase 2b participants"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 9,
+          "score": 0.08,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants Seroconverting to SARS-CoV-2 RBD of S Protein Antibodies on Days 29, 43, 120 and 211",
+            "description": "Titers of IgG antibodies directed against the SARS-CoV-2 RBD of Spike Protein antigen were measured by ELISA. Percentage with 95% CI of participants for whom a seroconversion was observed is presented by group. In participants who tested seronegative to the N protein for SARS-CoV-2 at baseline, seroconversion was defined as a fold increase above 1 in antibody titer against SARS-CoV-2 RBD of S protein. Only participants seronegative at baseline with evaluable samples at each visit are included. Participants who tested positive for SARS-CoV-2 via PCR or N-protein antibodies had their data included up to the point of positive test result or symptom onset. Participants who received a licensed/authorized vaccine were censored at the day after receiving the licensed/authorized vaccine.",
+            "timeFrame": "Baseline and Days 29, 43, 120 and 211"
+          },
+          "pred_item": {
+            "measure": "Adverse events of special interest",
+            "description": "Incidence, type, and investigator-assessed relationship to vaccination for predefined adverse events of special interest (AESIs) as listed in the protocol appendix (e.g., potential immune-mediated conditions and other events of regulatory concern).",
+            "timeFrame": "From first vaccination through up to 1 year after the second dose in phase 2b and phase 3 participants"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 6,
+          "score": 0.05,
+          "status": "matched",
+          "ref_item": {
+            "measure": "SARS-CoV-2 Viral Neutralizing Antibody Levels on Days 1, 29, 43, 120 and 211",
+            "description": "Titers of viral neutralizing antibodies were determined by an activity assay and expressed as GMT with 95% CI, by group. Individual values below the LLOQ were set to half of the LLOQ. Only participants seronegative at baseline with evaluable samples at each visit are included. Participants who have tested positive for SARS-CoV-2 via PCR or N-protein antibodies have their data included up to the point of positive test result or symptom onset. Participants who received a licensed/authorized vaccine were censored at the day after receiving the licensed/authorized vaccine.",
+            "timeFrame": "Days 1 (baseline), 29, 43, 120 and 211"
+          },
+          "pred_item": {
+            "measure": "Solicited systemic adverse events",
+            "description": "Incidence, type, and severity grade of solicited systemic adverse events (fever, headache, fatigue, chills, myalgia, arthralgia, nausea or vomiting, diarrhoea) recorded by participants in diaries. Events are graded 0–3 according to predefined criteria, and duration is summarized.",
+            "timeFrame": "Within 7 days after each dose (day 1 and day 29) in phase 2b participants"
+          }
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": 10,
+          "score": 0.25,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants Seroconverting to SARS-CoV-2 Viral Neutralizing Antibodies on Days 29, 43, 120 and 211",
+            "description": "Titers of viral neutralizing antibodies were determined by an activity assay. Percentage with 95% CI of participants for whom a seroconversion was observed is presented by group. In participants who tested seronegative to the N protein for SARS-CoV-2 at baseline, seroconversion was defined as a fold increase above 1 in antibody titer against SARS-CoV-2 neutralizing antibody titer. Only participants seronegative at baseline with evaluable samples at each visit are included. Participants who have tested positive for SARS-CoV-2 via PCR or N-protein antibodies have their data included up to the point of positive test result or symptom onset. Participants who received a licensed/authorized vaccine were censored at the day after receiving the licensed/authorized vaccine.",
+            "timeFrame": "Baseline and Days 29, 43, 120 and 211"
+          },
+          "pred_item": {
+            "measure": "Medically attended adverse events",
+            "description": "Incidence of adverse events requiring medical care (e.g., outpatient visits, emergency department visits, or hospitalization) regardless of severity or relationship to vaccination. These are collected for safety evaluation and will be fully reported at study end.",
+            "timeFrame": "From day 1 until 6 months after the second dose in all participants"
+          }
+        }
+      ]
+    }
+  ]
+}

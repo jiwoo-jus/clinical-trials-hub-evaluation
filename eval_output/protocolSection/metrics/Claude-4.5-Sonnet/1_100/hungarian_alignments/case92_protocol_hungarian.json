@@ -1,0 +1,155 @@
+{
+  "metadata": {
+    "case_id": 92,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T19:31:45.762272",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/92_NCT02981602.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/92_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.55,
+          0.6,
+          0.2,
+          0.68,
+          0.05
+        ],
+        [
+          0.2,
+          0.12,
+          0.52,
+          0.2,
+          0.72
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.68,
+          "status": "matched",
+          "ref_item": {
+            "label": "IONIS-HBVRx",
+            "type": "EXPERIMENTAL",
+            "description": "Ascending multiple doses of IONIS-HBVRx by subcutaneous (SC) injection",
+            "interventionNames": [
+              "Drug: IONIS-HBVRx"
+            ]
+          },
+          "pred_item": {
+            "label": "On-NA: Bepirovirsen 300 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with chronic hepatitis B already receiving stable nucleos(t)ide analog (NA) therapy (tenofovir disoproxil fumarate or entecavir for ≥12 months) received bepirovirsen 300 mg via subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8, 11) and once weekly during weeks 3 and 4 (days 15, 22). Patients continued their stable NA therapy throughout the study until end of study (day 211).",
+            "interventionNames": [
+              "DRUG: Bepirovirsen 300 mg",
+              "DRUG: Nucleos(t)ide analog (tenofovir disoproxil fumarate or entecavir)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 4,
+          "score": 0.72,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Sterile Normal Saline (0.9% NaCl) calculated volume to match active comparator",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "On-NA: Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Patients with chronic hepatitis B already receiving stable nucleos(t)ide analog (NA) therapy (tenofovir disoproxil fumarate or entecavir for ≥12 months) received placebo via subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8, 11) and once weekly during weeks 3 and 4 (days 15, 22). Patients continued their stable NA therapy throughout the study until end of study (day 211).",
+            "interventionNames": [
+              "DRUG: Placebo",
+              "DRUG: Nucleos(t)ide analog (tenofovir disoproxil fumarate or entecavir)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.94,
+          0.35,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.96,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "IONIS-HBVRx",
+            "description": "Ascending multiple doses of IONIS-HBVRx by subcutaneous (SC) injection",
+            "armGroupLabels": [
+              "IONIS-HBVRx"
+            ],
+            "otherNames": [
+              "ISIS 505358"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Bepirovirsen 300 mg",
+            "description": "Bepirovirsen (ISIS 505358; GSK3228836) is an antisense oligonucleotide targeting all hepatitis B virus (HBV) messenger RNAs. Administered as 300 mg subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8, 11) and once weekly during weeks 3 and 4 (days 15, 22).",
+            "armGroupLabels": [
+              "Treatment-naïve: Bepirovirsen 300 mg",
+              "On-NA: Bepirovirsen 300 mg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo administered via subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8, 11) and once weekly during weeks 3 and 4 (days 15, 22).",
+            "armGroupLabels": [
+              "Treatment-naïve: Placebo",
+              "On-NA: Placebo"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "case_id": 87,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T19:22:56.913108",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/87_NCT01068210.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/87_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.45,
+          0.6,
+          0.25
+        ],
+        [
+          0.55,
+          0.94,
+          0.6,
+          0.3
+        ],
+        [
+          0.68,
+          0.55,
+          0.96,
+          0.35
+        ],
+        [
+          0.3,
+          0.4,
+          0.2,
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "Aerobic Training",
+            "type": "EXPERIMENTAL",
+            "description": "A customized and supervised endurance exercise training program that will last 4 months (16 weeks). The regimen will be tailored to the individual fitness level. The exercise program will consist of three supervised sessions per week. During each session, the participant will cycle on a stationary bicycle at moderate intensity for approximately 30-60 minutes.",
+            "interventionNames": [
+              "Behavioral: Aerobic Training"
+            ]
+          },
+          "pred_item": {
+            "label": "Aerobic Training (AT)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received supervised aerobic training consisting of stationary cycle ergometry three times per week for 16 consecutive weeks (total 48 sessions). Intensity was individualized using ventilatory thresholds from cardiopulmonary exercise testing and prescribed at five levels (approximately 55%, 65%, 75%, 80%, and >95% of VO2peak). Sessions lasted 20–60 minutes, with some interval sessions consisting of 60–120 seconds at VO2peak followed by 120–180 seconds of active recovery for 4–10 intervals per session. The dose was sequenced and continually progressed using a non-linear (periodized) training approach.",
+            "interventionNames": [
+              "Aerobic Training"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Resistance Training",
+            "type": "EXPERIMENTAL",
+            "description": "A customized and supervised resistance exercise training program that will last 4 months (16 weeks). Resistance training will be performed on stationary weight machines, modification in equipment may be made by Exercise Physiologist. Patients will be progressively trained to perform two to three sets of 75-85% of maximal strength The participant will be trained to perform different resistance exercise, alternating between lower and upper body muscle groups. The exercise program will consist of three supervised sessions per week. Each session will last approximately 30-60 minutes.",
+            "interventionNames": [
+              "Behavioral: Resistance Training"
+            ]
+          },
+          "pred_item": {
+            "label": "Resistance Training (RT)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received supervised resistance training three times per week for 16 consecutive weeks (total 48 sessions). Training included 14 upper and lower extremity exercises (chest press, seated row, lateral pull down, pec deck, biceps curl, triceps extension, push-up, leg press, leg curl, leg extension, hip abduction, hip adduction, step up, and sit-to-stand), alternating upper and lower body for 30–60 minutes per session. Intensity was individualized based on one-repetition maximum (1-RM) measured at baseline and week 8. Weeks 1–2: 50–60% 1-RM, 2–3 sets of 10–15 repetitions. Weeks 3–8: one weekly session at 70–80% 1-RM (3×8–10 reps, upper body), one at 60–65% 1-RM (3×15–18 reps, lower body), and one combined session. Weeks 9–16: one weekly session at 75–85% 1-RM (3×6–10 reps, upper body), one at 70–75% 1-RM (2–3×10–12 reps, lower body), and one combined session. Dose was progressively increased over time.",
+            "interventionNames": [
+              "Resistance Training"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Combined Aerobic and Resistance Training",
+            "type": "EXPERIMENTAL",
+            "description": "A customized and supervised endurance exercise training program that will last 4 months (16 weeks). The regimen will be tailored to the individual fitness level, and will be a combination of Arm A and Arm B, described above. At each session, the participant will complete aerobic training on a stationary bicycle and also resistance training using stationary weight machines. The exercise program will consist of three supervised sessions per week. Each session will last approximately 30-90 minutes.",
+            "interventionNames": [
+              "Behavioral: Aerobic and Resistance Training"
+            ]
+          },
+          "pred_item": {
+            "label": "Combination Training (CT)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received a combination of aerobic and resistance training three times per week for 16 consecutive weeks (total 48 sessions). Each session lasted approximately 30–90 minutes. Aerobic training followed the same stationary cycle ergometry prescription as the AT arm; resistance training followed the same 14-exercise, 1-RM–based prescription as the RT arm. In weeks 1–8, participants performed three combined AT+RT sessions per week. In weeks 9–16, they performed two combined AT+RT sessions plus one interval-focused AT session per week. Within each session, AT was always performed first, followed by RT, with sequencing and dosing designed to maximize complementary central and peripheral adaptations.",
+            "interventionNames": [
+              "Aerobic Training",
+              "Resistance Training"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "Progressive Stretching Group (Attention-Control)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "A customized and supervised progressive stretching program that will last 4 months (16 weeks). The progressive stretching program will consist of a series of stretching exercises alternating between lower and upper body muscle groups/joints. This program will consist of three exercise sessions a week. Each session will last approximately 30-60 minutes.",
+            "interventionNames": [
+              "Behavioral: Progressive Stretching"
+            ]
+          },
+          "pred_item": {
+            "label": "Stretching Attention Control (AC)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants in the attention control group performed supervised stretching exercises three times per week for 16 consecutive weeks (total 48 sessions). Each session consisted of 12–20 different stretching positions held for 20–45 seconds per stretch, following a standardized progressive individualized prescription, for a total of 20–45 minutes per session. The intent was to provide time and attention comparable to the exercise arms without delivering structured aerobic or resistance training.",
+            "interventionNames": [
+              "Stretching Attention Control"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.7,
+          0.35
+        ],
+        [
+          0.4,
+          0.5,
+          0.9
+        ],
+        [
+          0.6,
+          0.92,
+          0.28
+        ],
+        [
+          0.78,
+          0.78,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Aerobic Training",
+            "description": "The overall goal for all the exercise training groups will be 3 supervised exercise sessions per week an intensity between 50 to 100% of the individually determined VO2peak for aerobic training and an intensity between 50% to 85% of 1-RM for resistance training. All the exercise interventions are designed such that participants begin exercising at a low intensity (\\~50%-60% VO2peak / 1RM) that is subsequently increased to more moderate to vigorous intensity (\\~70%-100% VO2peak / \\~70-85% 1RM) when appropriate. All interventions will be individually tailored to each patient following the principles of aerobic or resistance training prescription guidelines for adults.",
+            "armGroupLabels": [
+              "Aerobic Training"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Aerobic Training",
+            "description": "A supervised stationary cycle ergometry program delivered individually three times per week for 16 weeks (48 sessions). Intensity was prescribed based on ventilatory thresholds obtained from baseline and week 8 cardiopulmonary exercise tests. Five intensity levels (approximately 55%, 65%, 75%, 80%, and >95% of VO2peak) were used, with session duration ranging from 20 to 60 minutes. Interval sessions included 60–120 seconds at VO2peak followed by 120–180 seconds of active recovery for 4–10 intervals per session. Training dose was sequenced and progressed with a non-linear (periodized) approach, and dose modifications were permitted according to predefined criteria.",
+            "armGroupLabels": [
+              "Aerobic Training (AT)",
+              "Combination Training (CT)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Progressive Stretching",
+            "description": "The ultimate goal for the progressive stretching program is 3 individual stretching sessions. All sessions are required to be supervised. Duration of the stretching sessions is prescribed and implemented in accordance with standard stretching and flexibility training principles. This approach will be applied to guide each participant's prescribed stretching plan, with dose and scheduling modifications made by exercise physiologists, as required.",
+            "armGroupLabels": [
+              "Progressive Stretching Group (Attention-Control)"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Stretching Attention Control",
+            "description": "A supervised stretching program used as an attention control condition, delivered individually three times per week for 16 weeks (48 sessions). Sessions included 12–20 different stretching positions, each held for 20–45 seconds, for a total session duration of 20–45 minutes. Stretching followed a standardized, progressively individualized prescription designed to match the contact time and attention of the active exercise arms without providing structured aerobic or resistance training. Dose modification was permitted according to predefined guidelines.",
+            "armGroupLabels": [
+              "Stretching Attention Control (AC)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Resistance Training",
+            "description": "The ultimate goal for resistance training alone is 3 resistance training session/week at an intensity above 50% to 85% of 1-RM for 30-60 minutes/session. Resistance trainings will be performed on stationary weight machines, modification in equipment may be made by Exercise Physiologist. Participants will be progressively trained to perform two to three sets of 75-85% of maximal strength.",
+            "armGroupLabels": [
+              "Resistance Training"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Resistance Training",
+            "description": "A supervised, progressive resistance exercise program delivered individually three times per week for 16 weeks (48 sessions). Each 30–60-minute session included 14 exercises targeting upper and lower extremities (chest press, seated row, lateral pull down, pec deck, biceps curl, triceps extension, push-up, leg press, leg curl, leg extension, hip abduction, hip adduction, step up, sit-to-stand). Intensity was individualized using one-repetition maximum (1-RM) testing at baseline and week 8. Weeks 1–2: 50–60% of 1-RM, 2–3 sets of 10–15 reps. Weeks 3–8: one weekly session at 70–80% 1-RM (3×8–10 reps, upper body), one at 60–65% 1-RM (3×15–18 reps, lower body), and one combined day. Weeks 9–16: one weekly session at 75–85% 1-RM (3×6–10 reps, upper body), one at 70–75% 1-RM (2–3×10–12 reps, lower body), and one combined day. Dose modifications were allowed based on standardized criteria.",
+            "armGroupLabels": [
+              "Resistance Training (RT)",
+              "Combination Training (CT)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Aerobic and Resistance Training",
+            "description": "The ultimate goal will be three combined exercise sessions per week at an intensity above 50% VO2speak and above 50% 1-RM for aerobic and resistance training, respectively for 30-90 minutes/session.",
+            "armGroupLabels": [
+              "Combined Aerobic and Resistance Training"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Changes in VO2peak (on Exercise Capacity)",
+            "description": "To compare the efficacy of different types of exercise training modalities, relative to progressive stretching (attention control group)",
+            "timeFrame": "17 weeks"
+          },
+          "pred_item": {
+            "measure": "Change in cardiorespiratory fitness (VO2peak)",
+            "description": "Change in peak oxygen consumption (VO2peak), expressed as mL O2·kg−1·min−1, assessed via symptom-limited cardiopulmonary exercise testing (CPET) on an electronic cycle ergometer with breath-by-breath gas analysis.",
+            "timeFrame": "Change from pre-randomization baseline to post-intervention (Week 17)"
+          }
+        }
+      ]
+    }
+  ]
+}

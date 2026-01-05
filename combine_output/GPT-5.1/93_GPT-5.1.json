@@ -1,0 +1,173 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02313272",
+      "orgStudyIdInfo": {
+        "id": null,
+        "type": null,
+        "link": null
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "Moffitt Cancer Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Phase 1 Trial of Hypofractionated Stereotactic Radiotherapy With Bevacizumab and Pembrolizumab for Recurrent High-Grade Glioma",
+      "officialTitle": null,
+      "acronym": null
+    },
+    "descriptionModule": {
+      "briefSummary": "This modeling study used clinical and imaging data from 16 patients with recurrent high‑grade glioma enrolled on the phase I trial NCT02313272 to explore whether an alternative radiotherapy schedule could improve tumor control. In the original trial, patients received hypofractionated stereotactic radiotherapy (HFSRT; 6 Gy × 5 daily fractions) together with the drugs bevacizumab and pembrolizumab. The investigators built a simple mathematical model of tumor growth, response to radiation, and development of resistance to bevacizumab and pembrolizumab, and then simulated an alternative strategy called intermittent radiotherapy (iRT), where single high-dose radiation fractions (≥6 Gy) are given every 6 weeks, with an optional 3‑fraction boost at progression. They compared the time to tumor regrowth under HFSRT versus iRT and iRT plus boost. Simulations suggested that iRT plus boost was equal or superior to standard HFSRT in most modeled patients and could extend time to progression, especially in patients whose tumors remain sensitive to bevacizumab and pembrolizumab, supporting prospective clinical evaluation of iRT in recurrent high‑grade glioma.",
+      "detailedDescription": "This work is a hypothesis-generating mathematical modeling study based on patients with recurrent high‑grade glioma (rHGG), including glioblastoma, who were treated on the phase I trial NCT02313272 at Moffitt Cancer Center. In that trial, 32 patients received a combination of hypofractionated stereotactic radiotherapy (HFSRT; 6 Gy × 5 fractions over one week), the VEGF inhibitor bevacizumab, and the anti–PD‑1 antibody pembrolizumab. MRI‑based tumor volumes were measured approximately every 6 weeks and responses were assessed using RANO criteria. For the present analysis, the authors focused on 16 patients who had quantifiable tumor progression and sufficient longitudinal volumetric data (median of six post‑treatment data points).\n\nThe clinical problem is that patients with rHGG have a median overall survival under one year and no established standard of care. Localized treatments such as surgery and radiotherapy cannot eradicate diffuse, infiltrative disease, and systemic therapies (including bevacizumab and immune checkpoint inhibitors) commonly lead to eventual resistance. The original HFSRT schedule aims for maximal log cell kill in a short time but may promote competitive release of resistant subclones, limit opportunities for re‑irradiation, and provide only a single major immune stimulus when combined with PD‑1 blockade.\n\nTo explore alternative approaches, the investigators extended a previously published tumor growth inhibition model (Glazar et al.) to incorporate the effects of HFSRT. Tumor growth was modeled as exponential with a global growth rate (λ) across patients. The model includes: (1) a viable tumor compartment that grows at rate λ and shrinks with an effective kill rate γ(t) representing drug-induced volume reduction by bevacizumab and pembrolizumab; (2) an exponentially decaying effectiveness of the drug combination governed by a resistance evolution parameter ε, so that γ(t) decreases over time; and (3) a radiation component where, at each radiotherapy fraction, a fixed patient‑specific surviving fraction S of viable tumor remains, and the remainder is transferred to a dying compartment. The dying compartment decays at the same rate λ (mitotic catastrophe). The total observable tumor volume is the sum of the viable and dying compartments. To prevent overfitting given sparse data, λ was treated as a global parameter and γ0 was set equal to λ, leaving three main patient‑specific parameters: initial tumor volume V0, evolution of resistance rate ε, and radiation surviving fraction S.\n\nParameter fitting was performed in MATLAB using constrained optimization (fmincon) to minimize the discrepancy between measured and simulated volumes. A grid search over plausible doubling times (5–40 days) identified an optimal global growth rate λ ≈ 0.065 day⁻¹ (doubling time ≈11 days). The model fit the volumetric MRI data with reasonable accuracy (median RMSE ≈1.9 cm³; R² ≈0.83 on log-transformed volumes). Bootstrapping was used to assess parameter uncertainty, assuming up to 20% contouring variability.\n\nAfter model calibration to the actual HFSRT + bevacizumab + pembrolizumab data, the authors simulated alternative fractionation schedules while keeping patient‑specific parameters (ε, S, V0) fixed across schedules:\n\n1. Standard HFSRT: 6 Gy × 5 daily fractions (as in the trial), with concurrent bevacizumab and pembrolizumab.\n2. Intermittent radiotherapy (iRT): 5 fractions of ≥6 Gy each, delivered as single fractions every 6 weeks, with the same per‑fraction dose distribution (gEUD and D98% as in the original plans) and concurrent drugs.\n3. iRT plus boost: iRT as above, with an additional 3 daily fractions (boost) delivered at the time of modeled progression.\n\nProgression in the simulations was defined for iRT as tumor volume at 6‑weekly assessments exceeding the minimum post‑treatment volume by more than 20%, recognizing that RANO/RECIST criteria are not optimized for intermittent, tumor‑management strategies. To compare overall efficacy across schedules, time to progression was quantified as the time to reach the last clinically recorded tumor volume (considered a proxy for maximum tolerated tumor burden) or, for patients who discontinued for non‑progression reasons, time to a 20% increase over initial volume. Kaplan–Meier curves and log‑rank tests were used to compare schedules.\n\nIn the 5‑fraction comparison, population‑level Kaplan–Meier analyses showed no statistically significant difference between HFSRT, iRT, and iRT + boost, mainly due to small sample size. At the patient level, iRT alone was non‑inferior (equal or longer time to progression) to HFSRT in 11 of 16 cases. The 5 non‑responders to iRT were characterized by significantly higher ε, meaning faster loss of efficacy of bevacizumab and pembrolizumab. Adding a 3‑fraction boost at progression improved outcomes in 4 of these 5 patients, so that iRT + boost was non‑inferior to HFSRT in 15 of 16 patients. The remaining patient with inferior iRT + boost outcome had the highest estimated resistance evolution rate ε.\n\nThe authors then explored the theoretical benefit of allowing more than five iRT fractions, under the rationale that intermittent delivery may enable normal tissue repair and allow safe dose escalation in selected patients. They simulated up to 13 high‑dose fractions at 6‑week intervals, with the option of a boost. As the number of possible fractions increased, the simulated time to progression increased for many patients, and separation between the HFSRT and iRT + boost Kaplan–Meier curves grew. Statistically significant superiority of iRT + boost over HFSRT emerged only when up to 13 fractions were allowed (p≈0.045), and only a subset of patients (5 of 16) derived substantial benefit from more than 11 fractions, highlighting interpatient heterogeneity.\n\nBased on comparative simulations, four qualitative response groups were identified: (1) patients for whom standard HFSRT was best; (2) those for whom iRT was initially inferior but iRT + boost restored or improved outcomes; (3) those for whom iRT + boost clearly prolonged time to progression beyond either HFSRT or iRT alone; and (4) those for whom iRT (even without boost) was superior. Across these groups, the key discriminating factor was the resistance evolution rate ε for bevacizumab and pembrolizumab; tumors with lower ε (slower resistance development) were more likely to benefit from intermittent radiotherapy strategies. Radiosensitivity S did not significantly differ between groups and did not correlate with prescribed dose measures (gEUD, D98%), suggesting biological heterogeneity beyond simple dosimetric effects.\n\nThe authors discuss several hypothetical advantages of an intermittent radiotherapy strategy in rHGG: (i) potential for dose escalation with reduced normal tissue toxicity due to greater inter-fraction repair time; (ii) adaptive personalization, including adjusting fraction number, dose, and target volume based on serial imaging; (iii) repeated immune stimulation and antigen resampling that may synergize with immune checkpoint blockade; (iv) evolutionary management by maintaining a population of treatment‑sensitive cells to compete with resistant clones; and (v) alignment with the palliative goal of tumor burden control rather than attempted eradication in a setting with no curative options.\n\nThey also acknowledge important limitations. The model is intentionally simple, omitting explicit radiation‑induced immune effects and detailed pharmacokinetics/pharmacodynamics of bevacizumab and pembrolizumab. It assumes a shared exponential growth rate across patients and uses exponential growth even at larger tumor volumes, which may overestimate growth in some scenarios. Parameter identifiability is limited by small sample size and sparse data, and the simulations cannot predict toxicity or quality‑of‑life outcomes. Moreover, the work is purely theoretical; iRT has not yet been tested prospectively in this population.\n\nIn conclusion, under a conservative, worst‑case modeling framework, intermittent high‑dose radiotherapy with an optional 3‑fraction boost appears numerically non‑inferior to standard 5‑fraction HFSRT in most modeled rHGG patients treated with bevacizumab and pembrolizumab, and may meaningfully delay time to progression in selected individuals. These findings support further prospective clinical investigation of personalized intermittent radiotherapy schedules in recurrent high‑grade glioma."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Glioma",
+        "Glioblastoma",
+        "High-Grade Glioma",
+        "Recurrent Glioblastoma",
+        "Recurrent High-Grade Glioma",
+        "Brain Neoplasms"
+      ],
+      "keywords": [
+        "Recurrent high-grade glioma",
+        "Recurrent glioblastoma",
+        "Glioma",
+        "Brain tumor",
+        "Brain neoplasms",
+        "Hypofractionated stereotactic radiotherapy",
+        "HFSRT",
+        "Intermittent radiotherapy",
+        "iRT",
+        "Stereotactic radiosurgery",
+        "Radiotherapy fractionation",
+        "Bevacizumab",
+        "Pembrolizumab",
+        "VEGF inhibitor",
+        "Anti-PD1 antibody",
+        "Immune checkpoint inhibitors",
+        "Immunotherapy",
+        "Mathematical model",
+        "Tumor growth modeling",
+        "Evolution of resistance",
+        "Tumor resistance",
+        "Radiation resistance",
+        "Tumor volume",
+        "MRI volumetry",
+        "RANO criteria",
+        "Palliative treatment",
+        "Dose escalation",
+        "Boost irradiation",
+        "Kaplan-Meier analysis"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Modeling study using longitudinal tumor volume data from a single-arm phase I interventional trial (NCT02313272) to simulate alternative radiotherapy fractionation schedules (HFSRT vs intermittent RT ± boost). No prospective assignment to interventions occurred within this study itself.",
+        "primaryPurpose": "OTHER",
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Retrospective analysis of imaging and treatment data from a completed single-arm phase I trial; no blinding or masking is applicable.",
+          "whoMasked": []
+        }
+      },
+      "enrollmentInfo": {
+        "count": 16,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Hypofractionated stereotactic radiotherapy (HFSRT) + bevacizumab + pembrolizumab",
+          "type": "EXPERIMENTAL",
+          "description": "Recurrent high-grade glioma patients received hypofractionated stereotactic radiotherapy (HFSRT; 6 Gy × 5 fractions delivered over one week) with a prescribed dose of 30–35 Gy to the planning target volume (PTV) and a simultaneously integrated boost to the gross tumor volume (GTV) with D95% = 30–40 Gy. All patients also received intravenous bevacizumab (10 mg/kg every 2 weeks) and intravenous pembrolizumab (100 mg or 200 mg every 3 weeks) until progression.",
+          "interventionNames": [
+            "Hypofractionated stereotactic radiotherapy (HFSRT)",
+            "Bevacizumab",
+            "Pembrolizumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "RADIATION",
+          "name": "Hypofractionated stereotactic radiotherapy (HFSRT)",
+          "description": "Stereotactic radiotherapy delivered as 6 Gy × 5 consecutive daily fractions (total 30–35 Gy) to the planning target volume, with a simultaneously integrated boost to the gross tumor volume (GTV) to achieve D95% = 30–40 Gy. Plans were generated in iPlan and delivered as intensity-modulated radiotherapy using volumetric modulated arc therapy with image guidance.",
+          "armGroupLabels": [
+            "Hypofractionated stereotactic radiotherapy (HFSRT) + bevacizumab + pembrolizumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Bevacizumab",
+          "description": "Monoclonal antibody against vascular endothelial growth factor (VEGF), administered intravenously at 10 mg/kg every 2 weeks in combination with HFSRT and pembrolizumab until disease progression.",
+          "armGroupLabels": [
+            "Hypofractionated stereotactic radiotherapy (HFSRT) + bevacizumab + pembrolizumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Pembrolizumab",
+          "description": "Anti-PD-1 monoclonal antibody administered intravenously at 100 mg or 200 mg every 3 weeks in combination with HFSRT and bevacizumab until disease progression.",
+          "armGroupLabels": [
+            "Hypofractionated stereotactic radiotherapy (HFSRT) + bevacizumab + pembrolizumab"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Tumor volume dynamics and time to tumor progression under HFSRT with bevacizumab and pembrolizumab",
+          "description": "Mathematical modeling of longitudinal volumetric tumor growth in patients treated on trial NCT02313272 with hypofractionated stereotactic radiotherapy (6 Gy × 5), bevacizumab, and pembrolizumab, used to characterize tumor volume response and the time to tumor progression or regrowth.",
+          "timeFrame": "From pre-treatment baseline MRI through serial MRI assessments approximately every 6 weeks until radiographic progression or end of follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Modeled time to tumor progression for intermittent radiotherapy (iRT) and iRT plus boost compared with HFSRT",
+          "description": "Simulated time to progression, defined as the time to reach a patient-specific tumor volume cut-off (last recorded tumor volume or 20% above initial volume), for alternative fractionation schedules (iRT: ≥6 Gy × 1 every 6 weeks; iRT plus boost: ≥6 Gy × 1 every 6 weeks with an additional 3-fraction boost at progression), compared against HFSRT.",
+          "timeFrame": "From treatment initiation through modeled tumor growth trajectories up to approximately 550–900 days depending on the number of simulated fractions"
+        },
+        {
+          "measure": "Kaplan–Meier estimates of time to progression under different fractionation schedules",
+          "description": "Comparison of time-to-progression distributions for HFSRT, iRT, and iRT plus boost using Kaplan–Meier analysis and log-rank testing, assessing non-inferiority or superiority of intermittent schedules.",
+          "timeFrame": "Modeled follow-up from treatment start until simulated progression or censoring, with analyses repeated for up to 5, 7, 9, 11, and 13 intermittent fractions"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Radiographic progression by RANO criteria",
+          "description": "Radiographic progression defined as a ≥25% increase in the sum of the products of perpendicular diameters of the enhancing lesion on T1 post-contrast MRI compared with baseline or nadir, or significant increase in T2/FLAIR non-enhancing lesion on stable or increasing corticosteroid doses.",
+          "timeFrame": "Assessed approximately every 6 weeks by MRI during trial NCT02313272"
+        },
+        {
+          "measure": "Model-derived patient-specific parameters of treatment response",
+          "description": "Estimation of patient-specific parameters including radiation surviving fraction (S), rate of evolution of resistance to bevacizumab and pembrolizumab (ε), and initial tumor volume (V0), along with evaluation of their variability, correlations, and sensitivity in fitting observed tumor volume data.",
+          "timeFrame": "Based on all available MRI tumor volume measurements from pre-treatment through follow-up (median six post-RT data points per patient)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A",
+      "stdAges": [],
+      "studyPopulation": "",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    }
+  }
+}

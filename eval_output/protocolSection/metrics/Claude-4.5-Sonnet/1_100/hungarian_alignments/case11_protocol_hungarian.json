@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "case_id": 11,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-28T05:37:06.810162",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/11_NCT03679247.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/11_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 8,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.88,
+          0.9,
+          0.85,
+          0.9,
+          0.4,
+          0.6,
+          0.72
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "id": "R01DK116898",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/R01DK116898"
+          },
+          "pred_item": {
+            "id": "5R01DK116898-03",
+            "type": "NIH",
+            "domain": "National Institutes of Health",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.18
+        ],
+        [
+          0.18,
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Intervention",
+            "type": "EXPERIMENTAL",
+            "description": "Providers overseeing patients in the intervention arm will receive guidance within electronic health record from clinical decision support system.",
+            "interventionNames": [
+              "Other: Intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Intervention Arm",
+            "type": "EXPERIMENTAL",
+            "description": "Primary care physicians (PCPs) randomized to the intervention arm will receive a multicomponent intervention consisting of: (1) Clinical decision support system (Epic Best Practices Advisories/BPAs) that fires when patients with CKD and uncontrolled hypertension are seen, providing evidence-based recommendations for HTN management in CKD; (2) User-centered design features including display of patient-specific data explaining why the CDS fired and hyperlinks to clinical guidelines; (3) Behavioral economic components including a precommitment email asking PCPs to pledge to follow blood pressure management recommendations and accountable justification requirements when disagreeing with recommendations.",
+            "interventionNames": [
+              "DEVICE: Clinical Decision Support System (Best Practices Advisories)",
+              "BEHAVIORAL: Precommitment Email Pledge",
+              "BEHAVIORAL: Accountable Justification"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control",
+            "type": "EXPERIMENTAL",
+            "description": "Providers overseeing patients in the control arm will continue to provide usual care.",
+            "interventionNames": [
+              "Other: Control"
+            ]
+          },
+          "pred_item": {
+            "label": "Control Arm (Usual Care)",
+            "type": "NO_INTERVENTION",
+            "description": "PCPs randomized to the control arm will provide usual care for patients with CKD and uncontrolled hypertension. The CDS will run in 'silent mode' for control arm PCPs, identifying eligible patients in real time according to the same inclusion criteria as intervention patients for data collection purposes, but the BPAs will not be displayed to the PCPs and no intervention components will be delivered."
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.72,
+          0.6
+        ],
+        [
+          0.15,
+          0.3,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Intervention",
+            "description": "The intervention will be a clinical decision support (CDS) system that contains three main features: 1) methods to synthesize electronic health record (EHR) data in order to identify under-diagnosed chronic conditions (synthesize existing medical data to increase recognition of CKD and uncontrolled HTN in CKD patients and deliver management recommendations based on this evidence), 2) improve the design and content of the CDS using human factors methods, specifically usability testing, and 3) the use of two behavioral \"nudges\" (pre-checked default orders and an email to obtain commitment from PCPs to obtain their commitment to follow the CDS recommendations).",
+            "armGroupLabels": [
+              "Intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "Clinical Decision Support System (Best Practices Advisories)",
+            "description": "A series of Epic Best Practices Advisories (BPAs) utilizing computable phenotypes to identify five patient phenotypes: (1) CKD patients with uncontrolled SBP who should be prescribed an ACE inhibitor; (2) CKD patients with uncontrolled SBP who should be prescribed an ARB; (3) patients on suboptimal dose of ACEi; (4) patients on suboptimal dose of ARB; (5) patients maximized on ACEi or ARB but not on a diuretic. The CDS fires at chart opening and provides patient-specific data, clinical guidelines, and recommended actions with pre-populated orders.",
+            "armGroupLabels": [
+              "Intervention Arm"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.3,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Control",
+            "description": "Usual Care, PCP will receive an email with general information about CKD guidelines",
+            "armGroupLabels": [
+              "Control"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Precommitment Email Pledge",
+            "description": "A precommitment email sent to all participating PCPs in the intervention arm asking them to pledge to follow recommendations about blood pressure management. This incorporates behavioral economic principles showing that public commitment to a behavior increases adherence.",
+            "armGroupLabels": [
+              "Intervention Arm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Systolic Blood Pressure (SBP) From Baseline to 180 Days",
+            "description": "Difference in SBP from baseline to 180 days",
+            "timeFrame": "180 days"
+          },
+          "pred_item": {
+            "measure": "Change in mean systolic blood pressure (SBP)",
+            "description": "The change in mean systolic blood pressure between baseline and 6 months compared across intervention and control arms",
+            "timeFrame": "Baseline to 6 months"
+          }
+        }
+      ]
+    }
+  ]
+}

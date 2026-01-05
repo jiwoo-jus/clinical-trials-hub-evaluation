@@ -1,0 +1,156 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03052517",
+      "organization": {
+        "fullName": "Novartis Pharma AG",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "The SPIRIT study",
+      "acronym": "SPIRIT"
+    },
+    "descriptionModule": {
+      "briefSummary": "The SPIRIT study was a Phase 3, randomized, placebo-controlled clinical trial designed to assess the long-term safety of fevipiprant (150 mg and 450 mg once daily) when added to standard of care in patients aged 12 years and older with uncontrolled moderate-to-severe asthma. The study consisted of a 52-week double-blind period followed by an optional 104-week single-blind period. While the primary objective was to monitor adverse events and serious adverse events, exploratory analyses evaluated the drug's efficacy regarding asthma exacerbation rates and lung function. The study included both newly enrolled patients and those rolling over from previous fevipiprant trials (LUSTER and ZEAL). The trial was terminated early by the sponsor due to a lack of sufficient efficacy observed in the broader Phase 3 clinical program.",
+      "detailedDescription": "SPIRIT (NCT03052517) was a multicentre, parallel-group, 2-treatment period Phase 3 study. Treatment Period 1 was a 52-week, double-blind study, and Treatment Period 2 was an optional 104-week, single-blind study. The study aimed to evaluate the long-term safety of the oral prostaglandin D2 receptor 2 (DP2 receptor) antagonist fevipiprant in patients with uncontrolled asthma receiving treatment according to Global Initiative for Asthma (GINA) steps 3, 4, or 5.\n\nPatients were randomised in a 3:3:1 ratio to receive fevipiprant 150 mg, fevipiprant 450 mg, or placebo once daily. The study population included two cohorts: rollover patients who had completed a prior Phase 3 fevipiprant efficacy study (LUSTER-1, LUSTER-2, ZEAL-1, or ZEAL-2) and new patients who had not previously participated in a fevipiprant study. \n\nThe primary endpoints focused on safety, specifically the time-to-first treatment-emergent adverse event (AE), serious AE (SAE), and AE leading to study treatment discontinuation. Exploratory efficacy analyses assessed the rate of moderate-to-severe asthma exacerbations and the average change from baseline in pre-dose forced expiratory volume in one second (FEV1). Data from both treatment periods were combined for analyses due to the study's early termination on December 16, 2019."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Asthma",
+        "Uncontrolled Asthma",
+        "Moderate-to-severe Asthma"
+      ],
+      "keywords": [
+        "Fevipiprant",
+        "DP2 receptor antagonist",
+        "Prostaglandin D2",
+        "Long-term safety",
+        "Airway inflammation",
+        "Lung function"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "SPIRIT was a two-treatment period study: the first period was a 52-week, double-blind study followed by an optional 104-week, single-blind second period.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "The first period was a 52-week, double-blind study followed by an optional 104-week, single-blind second period."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2538,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Fevipiprant 150 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received fevipiprant 150 mg once daily (o.d.) added to standard of care (SoC) asthma therapy.",
+          "interventionNames": [
+            "Fevipiprant",
+            "Standard of Care"
+          ]
+        },
+        {
+          "label": "Fevipiprant 450 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received fevipiprant 450 mg once daily (o.d.) added to standard of care (SoC) asthma therapy.",
+          "interventionNames": [
+            "Fevipiprant",
+            "Standard of Care"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients received matching placebo once daily (o.d.) added to standard of care (SoC) asthma therapy.",
+          "interventionNames": [
+            "Placebo",
+            "Standard of Care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Fevipiprant",
+          "description": "An oral, non-steroidal, highly selective, reversible antagonist of the DP2 receptor administered at doses of 150 mg or 450 mg.",
+          "armGroupLabels": [
+            "Fevipiprant 150 mg",
+            "Fevipiprant 450 mg"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matching placebo administered once daily.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Standard of Care",
+          "description": "Existing asthma therapy according to GINA guidelines (Steps 3, 4, and 5).",
+          "armGroupLabels": [
+            "Fevipiprant 150 mg",
+            "Fevipiprant 450 mg",
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time-to-first treatment emergent adverse event (AE)",
+          "description": "AEs (including asthma exacerbations), starting on or after the time of the first intake of study drug and until the day after the last intake of study drug were classified as treatment emergent.",
+          "timeFrame": "From first dose up to 52 weeks (Period 1) and optional 104 weeks (Period 2)"
+        },
+        {
+          "measure": "Time-to-first treatment emergent serious adverse event (SAE)",
+          "description": "Assessment of serious adverse events starting on or after the time of the first intake of study drug and until the day after the last intake of study drug.",
+          "timeFrame": "From first dose up to 52 weeks (Period 1) and optional 104 weeks (Period 2)"
+        },
+        {
+          "measure": "Time-to-first AE leading to discontinuation from study treatment",
+          "description": "Assessment of adverse events leading to study treatment discontinuation starting on or after the time of the first intake of study drug and until the day after the last intake of study drug.",
+          "timeFrame": "From first dose up to 52 weeks (Period 1) and optional 104 weeks (Period 2)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Rate of moderate-to-severe asthma exacerbations",
+          "description": "Exploratory efficacy analysis. Moderate exacerbation: treatment with 'rescue' systemic corticosteroids for ≥ 3 days (outpatient or ER ≤ 24 h). Severe exacerbation: treatment with 'rescue' systemic corticosteroids for ≥ 3 days and hospitalization or ER > 24 h, or death due to asthma.",
+          "timeFrame": "Up to 52 weeks and optional 104 weeks"
+        },
+        {
+          "measure": "Average change from baseline in pre-dose FEV1",
+          "description": "Exploratory efficacy analysis assessing the change in pre-dose forced expiratory volume in one second (FEV1).",
+          "timeFrame": "Baseline and Week 52"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Male or female patients ≥ 12 years of age.\n- Diagnosis of moderate-to-severe asthma (GINA steps 3, 4, and 5) receiving asthma treatment according to GINA guidelines.\n- Two cohorts included: Rollover patients who had completed any of the four Phase 3 pivotal fevipiprant efficacy studies on active study treatment (LUSTER-1, LUSTER-2, ZEAL-1 or ZEAL-2) and new patients who had not previously participated in a fevipiprant study.\n- For new patients: Inadequately controlled asthma on treatment at GINA steps 4 and 5 for at least 3 months prior to screening.\n- For new patients: ACQ score ≥ 1.5 at inclusion.\n- For new patients: % predicted FEV1 ≤ 85% for patients aged ≥ 18 years, and ≤ 90% for patients aged 12 to < 18 years.\n\nExclusion Criteria:\n- Rollover patients: Excluded if they did not complete the prior study on blinded therapy or had a serious and drug-related adverse event (AE) during the prior study.\n- New patients: Excluded if they had an asthma exacerbation requiring systemic corticosteroids, hospitalisation, or an emergency room visit within six weeks.\n- New patients: Excluded if they had a respiratory tract infection or asthma worsening within four weeks of the first visit.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "12 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

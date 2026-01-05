@@ -1,0 +1,332 @@
+{
+  "metadata": {
+    "case_id": 51,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T16:42:20.836322",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/51_NCT00977431.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/51_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.93
+        ],
+        [
+          0.97,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Regimen U",
+            "type": "EXPERIMENTAL",
+            "description": "BIBW2992 + Radiotherapy",
+            "interventionNames": [
+              "Procedure: Radiotherapy",
+              "Drug: BIBW2992"
+            ]
+          },
+          "pred_item": {
+            "label": "Regimen U",
+            "type": "EXPERIMENTAL",
+            "description": "Patients receiving afatinib in combination with radiotherapy (RT) without temozolomide (TMZ). During the dose-finding phase, patients with unmethylated MGMT gene promoters were treated with this regimen. Afatinib was administered in dose escalation cohorts (20, 30, and 40 mg/day) during the RT phase, followed by maintenance.",
+            "interventionNames": [
+              "Drug: Afatinib",
+              "Radiation: Radiotherapy"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "label": "Regimen M",
+            "type": "EXPERIMENTAL",
+            "description": "BIBW2992 + Temozolomide + Radiotherapy",
+            "interventionNames": [
+              "Drug: Temozolomide",
+              "Drug: BIBW2992",
+              "Procedure: Radiotherapy"
+            ]
+          },
+          "pred_item": {
+            "label": "Regimen M",
+            "type": "EXPERIMENTAL",
+            "description": "Patients receiving afatinib + temozolomide (TMZ) in combination with radiotherapy (RT). During the dose-finding phase, patients with methylated MGMT status were treated with this regimen. Afatinib was administered in dose escalation cohorts (20, 30, and 40 mg/day) during the RT phase, followed by maintenance.",
+            "interventionNames": [
+              "Drug: Afatinib",
+              "Drug: Temozolomide",
+              "Radiation: Radiotherapy"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.35,
+          0.99,
+          0.3
+        ],
+        [
+          0.2,
+          0.2,
+          0.9
+        ],
+        [
+          0.9,
+          0.3,
+          0.18
+        ],
+        [
+          0.25,
+          0.15,
+          0.9
+        ],
+        [
+          0.94,
+          0.2,
+          0.15
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Temozolomide",
+            "description": "During RT: 75 mg/m2 daily , 4 weeks after RT: given days 1 to 5 of 28 day cycles (150 mg/m2 in cycle 1, 200 mg/m2 in cycle 2 up to cycle 6)",
+            "armGroupLabels": [
+              "Regimen M"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Temozolomide",
+            "description": "Administered 75 mg/m2 daily (single oral dose) during the RT phase. A 4-week TMZ-free phase followed the RT phase, after which TMZ was administered for up to six 28-day cycles (maintenance phase: TMZ single oral dose once daily on days 1–5; 150 mg/m2 in cycle 1 and 200 mg/m2 in cycles 2–6).",
+            "armGroupLabels": [
+              "Regimen M"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "PROCEDURE",
+            "name": "Radiotherapy",
+            "description": "Day 1 to day 42",
+            "armGroupLabels": [
+              "Regimen U"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "BIBW2992",
+            "description": "Escalating dose cohorts during Radiotherapy(RT) period, fixed dose after RT",
+            "armGroupLabels": [
+              "Regimen M"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "PROCEDURE",
+            "name": "Radiotherapy",
+            "description": "Day 1 to day 42",
+            "armGroupLabels": [
+              "Regimen M"
+            ]
+          },
+          "pred_item": {
+            "type": "RADIATION",
+            "name": "Radiotherapy",
+            "description": "Administered at a dose of 2 Grays (Gy) per fraction on 5 days per week for 6 weeks (total dose of 60 Gy) in an initial RT phase.",
+            "armGroupLabels": [
+              "Regimen M",
+              "Regimen U"
+            ]
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "BIBW2992",
+            "description": "Escalating dose cohorts during Radiotherapy(RT) period , fixed dose after RT",
+            "armGroupLabels": [
+              "Regimen U"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Afatinib",
+            "description": "Administered in dose escalation cohorts of 20, 30, and 40 mg/day (single oral dose) during the RT phase (days 1–42), and then at 40 mg/day following RT (maintenance phase) until investigator-assessed disease progression or undue adverse reaction.",
+            "armGroupLabels": [
+              "Regimen M",
+              "Regimen U"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ],
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Patients With Investigator Defined Dose Limiting Toxicities (DLT) During the RT Phase",
+            "description": "Adverse event (AE) related to afatinib with any one criteria; Hematological: Common terminology criteria for adverse events (CTCAE) Grade 4 neutropenia (Absolute neutrophil count, including bands \\<500/cubic millimeter (mm³)) for \\>7 days, CTCAE Grade 3 or 4 neutropenia of any duration associated with fever \\>38.3 Celsius, CTCAE Grade 3 thrombocytopenia (platelet count \\<50000 - 25000/mm³), All other toxicities of CTCAE Grade ≥3 leading interruption of treatment \\> 14 days.\n\nNon-hematological: CTCAE Grade ≥3 nausea or vomiting despite appropriate use of standard anti-emetics for ≥3 days, CTCAE Grade ≥3 diarrhea despite appropriate use of standard anti-diarrheal therapy for ≥3 days, CTCAE Grade ≥3 rash despite standard medical management and lasting \\>7 days, CTCAE Grade ≥2 cardiac left ventricular function, CTCAE Grade ≥2 worsening of renal function as measured by serum creatinine, newly developed proteinuria or decrease in glomerular filtration rate, All other toxicities of CTCAE Grade ≥3.",
+            "timeFrame": "6 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Maximum Tolerated Dose (MTD) of Afatinib",
+            "description": "The MTD was defined as the highest afatinib dose level, at which no more than 1 out of 6 patients experienced drug-related DLT, i.e. the highest afatinib dose with a DLT incidence ≤17%. A separate MTD was determined for afatinib and RT (Regimen U), and for afatinib, TMZ, and RT (Regimen M).",
+            "timeFrame": "6 weeks"
+          },
+          "pred_item": {
+            "measure": "Maximum Tolerated Dose (MTD) of continuous daily afatinib",
+            "description": "Defined as the highest afatinib dose level at which no more than one of six patients experienced a dose-limiting toxicity (DLT) (i.e., DLT incidence ≤ 17%) when given in combination with radiotherapy (RT), with or without concomitant temozolomide (TMZ).",
+            "timeFrame": "During the 6-week radiotherapy (RT) phase"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.05,
+          0.05
+        ],
+        [
+          0.05,
+          0.92,
+          0.02
+        ],
+        [
+          0.08,
+          0.1,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Incidence and Intensity of Adverse Events (AE) According to Common Terminology Criteria of Adverse Events (CTCAE v.3.0)",
+            "description": "Incidence and intensity of adverse events (AE) according to Common Terminology Criteria of Adverse Events (CTCAE v.3.0). The CTCAE grades are: 1 (mild AE), 2 (moderate AE), 3 (severe AE), 4 (life-threatening or disabling AE), 5 (death related to AE).",
+            "timeFrame": "From the first administration of trial medication until 4 weeks after the last administration of trial medication, up to approximately 338 weeks"
+          },
+          "pred_item": {
+            "measure": "Incidence and intensity of Adverse Events (AEs)",
+            "description": "Safety assessed by physical examination, hematologic and chemistry laboratory values, vital signs, and electrocardiography scans. AEs were graded by CTCAE version 3.0. Serious AEs (SAEs) were also monitored.",
+            "timeFrame": "Throughout the study"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "The Objective Tumour Response According to the Macdonald Criteria",
+            "description": "Objective response was defined as a best overall response of complete response (CR) or partial response (PR). The best overall response was the best overall response to trial medication according to the Macdonald criteria recorded since the first administration of trial medication and until the earliest of disease progression, death, or start of further anti-cancer treatment. Tumour response was assessed based on local radiological image evaluation by the investigators according to the Macdonald criteria: Complete Response (CR): Disappearance of all enhancing tumour on consecutive Magnetic resonance imaging (MRI) scans at least 28 days apart, off steroids, and neurologically stable or improved. Partial Response (PR): At least 50% reduction in size of enhancing tumour on consecutive MRI scans at least 28 days apart, steroids stable or reduced, and neurologically stable or improved.",
+            "timeFrame": "From the first administration of trial medication until 4 weeks after the last administration of trial medication, up to approximately 338 weeks"
+          },
+          "pred_item": {
+            "measure": "Objective tumor response rate",
+            "description": "Assessed by the investigator according to the Macdonald criteria, as measured by cerebral gadolinium-enhanced MRI. Objective response was defined as the best overall response (complete response or partial response) recorded since first treatment.",
+            "timeFrame": "Days 21–28 of cycles 1, 3, 5, 8, 10, and 12 (regimen M) and cycles 2, 4, 6, 8, 10, and 12 (regimen U); every 3 months in year 2; every 6 months thereafter"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Concentration of Afatinib in Plasma at Steady State Pre-dose on Days 8, 15 and 29",
+            "description": "Concentration of afatinib in plasma at steady state pre-dose (Cpre,ss) on days 8, 15 and 29.",
+            "timeFrame": "Pharmacokinetic blood sample were taken at 5 minutes before drug on days 8, 15 and 29 and 1, 3 and 6 hours after drug administration on day 15"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetics of afatinib",
+            "description": "Afatinib concentration at steady state, pre-dose.",
+            "timeFrame": "Days 8, 15, and 29"
+          }
+        }
+      ]
+    }
+  ]
+}

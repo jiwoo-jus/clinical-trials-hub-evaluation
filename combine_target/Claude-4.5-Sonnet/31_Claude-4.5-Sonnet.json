@@ -1,0 +1,50 @@
+{
+  "protocolSection": {
+    "identificationModule": null,
+    "descriptionModule": null,
+    "conditionsModule": null,
+    "designModule": null,
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Favipiravir plus Standard of Care",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received favipiravir 1800 mg orally twice daily on day 1, followed by 1000 mg twice daily for 13 days (800 mg twice daily for patients with Child-Pugh A liver disease), plus standard of care treatment. Treatment duration was 14 days total.",
+          "interventionNames": [
+            "Drug: Favipiravir",
+            "Other: Standard of Care"
+          ]
+        },
+        {
+          "label": "Standard of Care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients received standard of care treatment alone for COVID-19 as determined by each participating site. Beginning in July 2020, dexamethasone at 6 mg daily was permitted following the RECOVERY trial results.",
+          "interventionNames": [
+            "Other: Standard of Care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Favipiravir",
+          "description": "Favipiravir, a nucleoside analog with broad-spectrum antiviral activity against RNA viruses, administered orally at 1800 mg twice daily on day 1, followed by 1000 mg twice daily for 13 days (or 800 mg twice daily for patients with Child-Pugh A liver disease). For patients unable to swallow pills, the medication was provided as a slurry via nasogastric tube.",
+          "armGroupLabels": [
+            "Favipiravir plus Standard of Care"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Standard of Care",
+          "description": "Standard of care treatment for COVID-19 as determined by each participating site. Patients were excluded if they were taking other antivirals (including remdesivir), steroids (except topical or inhaled preparations or equivalent of >10 mg prednisone), immune plasma, or immunosuppressive/immunomodulatory drugs. Beginning in July 2020, dexamethasone at 6 mg daily was permitted.",
+          "armGroupLabels": [
+            "Favipiravir plus Standard of Care",
+            "Standard of Care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": null,
+    "eligibilityModule": null
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04776161",
+      "secondaryIdInfos": [
+        {
+          "id": "P30AG064199",
+          "type": "NIH",
+          "domain": "National Institute on Aging"
+        },
+        {
+          "id": "K23 AR071500",
+          "type": "NIH",
+          "domain": "NIH NIAMS"
+        }
+      ],
+      "organization": {
+        "fullName": "Brigham and Women’s Hospital",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This three-arm parallel randomised controlled trial tests an adaptive intervention designed to improve medication adherence in patients with gout using habit formation theory. The study leverages the cue-reward-repetition principle, where participants link medication taking to a daily routine (cue) and receive a charitable donation (reward) for adherence. The goal is to transform medication-taking into an automatic habit to improve long-term adherence to urate-lowering therapy.",
+      "detailedDescription": "Non-adherence to daily urate-lowering therapy (ULT) is a significant barrier to effective gout management. This pragmatic, prospective randomized controlled trial evaluates a habit formation intervention consisting of behavioral repetition, context cues, and rewards.\n\nParticipants are adult gout patients with elevated uric acid levels (>6 mg/dL) utilizing electronic pill bottles to track adherence. They are randomised into one of three arms:\n1. Arm 1 (Non-adaptive intervention): Participants select a specific daily cue to link with medication-taking. They receive a US$0.50 donation to a selected charity for every day of adherence. Text message reminders regarding the cue are sent if adherence falls below 75%.\n2. Arm 2 (Adaptive intervention): Participants start with a lower reward intensity (US$0.25 per adherent day) and no text reminders. If adherence is less than 75% at 6 weeks post-randomisation, the intervention intensifies to match Arm 1 (US$0.50 reward and text reminders).\n3. Arm 3 (Control): Participants use electronic pill bottles for monitoring but receive no habit formation intervention.\n\nThe study assesses the primary outcome of adherence to gout medications over an 18-week period. Secondary outcomes include changes in automaticity (Self-Report Behaviour Automaticity Index), routine integration, and intentions/perceptions of medication. Exploratory outcomes include changes in uric acid levels derived from electronic health records."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Gout",
+        "Medication Adherence",
+        "Hyperuricemia"
+      ],
+      "keywords": [
+        "Gout",
+        "Urate-lowering therapy",
+        "Habit formation",
+        "Medication adherence",
+        "Behavioral intervention",
+        "Cue-reward-repetition",
+        "Electronic pill bottles"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This three-arm parallel randomised controlled trial tests an adaptive intervention that leverages the repetition cue-reward principle. Arm 1 is non-adaptive, Arm 2 is adaptive based on adherence, and Arm 3 is control.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Data analysts at the end of the study will be blinded to arm assignment; however, patients are not blinded due to the nature of the interventions.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm 1: Non-adaptive intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will choose a lifestyle 'cue' to link to medication-taking and a charity for rewards. They receive a US$0.50 donation reward per adherent day. If adherence falls below 75% for the prior 4 days, they receive reminder text messages.",
+          "interventionNames": [
+            "Behavioral: Non-adaptive Habit Formation Intervention",
+            "Device: Electronic Pill Bottles"
+          ]
+        },
+        {
+          "label": "Arm 2: Adaptive intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive cues and rewards starting at US$0.25 per adherent day with no reminder texts. If adherence is <75% at 6 weeks, the intervention intensifies: the reward increases to US$0.50 per day and reminder texts are added.",
+          "interventionNames": [
+            "Behavioral: Adaptive Habit Formation Intervention",
+            "Device: Electronic Pill Bottles"
+          ]
+        },
+        {
+          "label": "Arm 3: Control",
+          "type": "NO_INTERVENTION",
+          "description": "Participants will not receive any habit formation intervention (cues, rewards, or texts) but will use electronic pill bottles to monitor adherence.",
+          "interventionNames": [
+            "Device: Electronic Pill Bottles"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Non-adaptive Habit Formation Intervention",
+          "description": "A 12-week intervention based on the cue-reward-repetition principle. Participants link medication taking to a daily habit (cue). Every adherent day results in a US$0.50 donation to a selected charity (reward). Reminder texts are sent if adherence drops below 75% calculated over a 4-day period.",
+          "armGroupLabels": [
+            "Arm 1: Non-adaptive intervention"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Adaptive Habit Formation Intervention",
+          "description": "A 12-week intervention starting with a US$0.25 charity reward per adherent day and no reminder texts. At 6 weeks, non-adherent participants (<75% adherence) receive an intensified intervention matching the non-adaptive arm (US$0.50 reward and reminder texts).",
+          "armGroupLabels": [
+            "Arm 2: Adaptive intervention"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Electronic Pill Bottles",
+          "description": "Pillsy electronic pill bottles used to record the date and time of each bottle opening via Bluetooth. Used in place of regular pill bottles. Alerts/reminders on the device are disabled to minimize bias.",
+          "armGroupLabels": [
+            "Arm 1: Non-adaptive intervention",
+            "Arm 2: Adaptive intervention",
+            "Arm 3: Control"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Adherence to gout medications",
+          "description": "Adherence is measured as the proportion of times a participant opened the electronic pill bottle out of the number of doses prescribed for each bottle in each day, averaged across the study medications using an average of averages approach.",
+          "timeFrame": "Over the 18-week follow-up period"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Habit formation (Change in automaticity and sense of routine)",
+          "description": "Assessed using the Self-Report Behaviour Automaticity Index and the routine assessment questionnaire developed by Heintzelman and King.",
+          "timeFrame": "Baseline and 18 weeks"
+        },
+        {
+          "measure": "Change in intention or perceptions of gout medications",
+          "description": "Assessed using a modified version of the HIV Intention and Knowledge scale.",
+          "timeFrame": "Baseline and 18 weeks"
+        },
+        {
+          "measure": "Feasibility and acceptability of the intervention",
+          "description": "Participant feedback regarding the usefulness, acceptability, and feasibility of the intervention obtained via questionnaire.",
+          "timeFrame": "18 weeks"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change in uric acid level",
+          "description": "Calculated using the uric acid level value available in the electronic health record (EHR) closest to each participant’s end of follow-up date compared to baseline.",
+          "timeFrame": "Baseline and up to 18 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n*   At least 18 years old\n*   Diagnosis of gout\n*   Receiving gout care at a rheumatology or primary care practice affiliated with Brigham and Women’s Hospital\n*   Receiving a stable dose of oral urate lowering therapy (ULT)\n*   Most recent uric acid level within the last 6 months is >6 mg/dL\n*   Have a smartphone with a data plan or WiFi at home\n*   Willing to use electronic pill bottles for gout medications for the duration of the study\n*   Basic working knowledge of English\n\nExclusion Criteria:\n*   Currently pregnant",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

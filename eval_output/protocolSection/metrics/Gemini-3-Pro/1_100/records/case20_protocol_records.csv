@@ -1,0 +1,62 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT01302379,NCT01302379,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,R03AG067064,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[2].id,EV,EV,,R01ES031259,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[2].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,National Institutes of Health,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,National Institutes of Health,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[2].domain,EV,EV,,National Institutes of Health,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Reach for Health Study: Obesity-related Mechanisms and Mortality in Breast Cancer Survivors,Reach for Health,True,0.82,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,FP,Obesity-related Mechanisms and Mortality in Breast Cancer Survivors,Metformin and weight loss relationships with epigenetic age measures—biological aging biomarkers—remain understudied,False,0.22,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"This objective of this randomized controlled trial is to conduct a 2x2 test of a lifestyle intervention and metformin (a drug used to treat diabetes) to investigate how these treatments, alone or in combination, affect biomarkers associated with breast cancer survival. The Reach for Health Study will enroll 340 overweight/obese, postmenopausal breast cancer survivors. After completing the screening process and baseline measures, participants will be randomized in equal numbers to: (1) placebo, (2) metformin, (3) lifestyle intervention and placebo, or (4) lifestyle intervention and metformin. The intervention was powered on the main effects and the planned analyses are to compare: Metformin to Placebo and a separate comparison of Lifestyle intervention to control. The interventions will last for 6 months. Concentrations of circulating biomarkers will be assessed at baseline and 6 months.","This study performed a post-hoc analysis of a randomized controlled trial (NCT01302379) among overweight/obese postmenopausal breast cancer survivors. The primary aim was to examine the relationships of metformin and weight loss therapy with nine epigenetic aging (EA) measures—DNA methylation-based biomarkers of biological aging. The hypothesis was that metformin and weight loss, either in combination or independently, would decelerate epigenetic aging, thereby reflecting decreased aging-associated disease risk. The analysis involved 192 participants assigned to metformin, placebo, weight loss with metformin, or weight loss with placebo interventions for 6 months.",True,0.78,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"Metformin and weight loss are potential strategies for promoting anti-aging processes, yet their relationship with epigenetic aging (EA) measures remains understudied. This study utilized data from a randomized controlled trial with a 2 × 2 factorial design involving overweight/obese breast cancer survivors (N=192 included in methylation analysis). Participants were randomly assigned to daily metformin, placebo, a weight loss intervention with metformin, or weight loss with placebo for 6 months.
+
+Fasting blood samples collected at baseline and the 6-month visit were analyzed. DNA methylation analyses were performed on blood samples using the Illumina Infinium MethylationEPIC BeadChip. The study examined nine EA measures: Hannum, Horvath, SkinBloodClock, PhenoAge, GrimAge, DNAm TL (telomere length), mitotic age (MiAge), and epigenetic time to cancer (EpiTOC/EpiTOC2).
+
+The researchers used unadjusted linear mixed effects regression models and adjusted models (accounting for days from randomization and leukocyte composition) to compare intervention arms to placebo. Sensitivity analyses were also performed for high adherence participants. The study aimed to determine if these interventions could decelerate epigenetic age, a marker for biological aging and disease risk.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,['Breast Neoplasms'],"['Breast Cancer', 'Obesity', 'Overweight']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['Obesity', 'Survival', 'Weight loss', 'Metformin', 'Biological markers']","['Metformin', 'Weight Loss', 'Epigenetic Aging', 'DNA Methylation', 'Breast Cancer Survivors', 'Biological Aging Biomarkers', 'Postmenopausal']",False,0.4,partial,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,FACTORIAL,FACTORIAL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,FN,FN,QUADRUPLE,,False,0.0,,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,FN,FN,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']",,False,0.0,,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,333,333,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[0].description,EV,EV,,Participants assigned to both the weight loss intervention and metformin.,,,,ArmGroupDescription,protocolSection.armsInterventionsModule.armGroups.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[1].description,EV,EV,,Participants assigned to a weight loss intervention (phone-based program with calorie goal and moderate-intensity physical activity goal of 300 min/week).,,,,ArmGroupDescription,protocolSection.armsInterventionsModule.armGroups.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[2].description,EV,EV,,Participants assigned to receive metformin.,,,,ArmGroupDescription,protocolSection.armsInterventionsModule.armGroups.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[3].description,EV,EV,,Participants assigned to receive a placebo.,,,,ArmGroupDescription,protocolSection.armsInterventionsModule.armGroups.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* BMI at least 25.0 kg/m2
+* Diagnosed with Stage I, II, or III breast cancer within past 5 years
+* Treatment with total mastectomy or breast-sparing surgical removal of cancer with clear macroscopic margins, and axillary dissection, followed by adjuvant breast radiation
+* Not scheduled for or currently undergoing chemotherapy
+* Accessible geographically and by telephone
+* Able to communicate dietary and physical activity data via telephone
+* If taking statins, tamoxifen, or aromatase inhibitors; able and willing to remain on treatment for 6-month study period
+* Post-menopausal at diagnosis
+
+Exclusion Criteria:
+
+* Preliminary bloodwork outside of specified ranges
+* Evidence of renal insufficiency, liver disease, or congestive heart failure
+* Currently taking corticosteroid pills or steroid hormone therapy (including vaginal estrogen creams)
+* Recent initiation (\< 3 months ago) of thiazides or β-blockers
+* Taking insulin or other antidiabetic drug
+* Other primary or recurrent invasive cancer in past 10 years
+* Unable to commit to study requirements","Inclusion Criteria:
+*   Overweight/obese
+*   Postmenopausal
+*   Breast cancer survivors
+
+Exclusion Criteria:
+*   (Not explicitly listed in this post-hoc analysis paper, though references to previous publications [1,4] are made for full details.)",True,0.82,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,FEMALE,FEMALE,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,EV,EV,,N/A,,,,MinimumAge,protocolSection.eligibilityModule.minimumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,FP,"['CHILD', 'ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",False,0.6666666666666666,partial,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

@@ -1,0 +1,136 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04181307",
+      "secondaryIdInfos": [
+        {
+          "id": "R21/R33 AG057382",
+          "type": "NIH",
+          "domain": "National Institute on Aging"
+        },
+        {
+          "id": "DERR1-10.2196/28723",
+          "type": "REGISTRY",
+          "domain": "International Registered Report Identifier (IRRID)"
+        }
+      ],
+      "organization": {
+        "fullName": "New York University Langone Health",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This paper presents the protocol for a study investigating the effectiveness of a Behavioral Economics-Electronic Health Record (BE-EHR) module intervention. The intervention leverages behavioral economics nudges within EHR technology and clinical decision support tools to reduce overtreatment of type 2 diabetes in adults aged 76 years and older, in accordance with the American Geriatrics Society Choosing Wisely (CW) guideline. The study is a pragmatic, investigator-blind, cluster randomized controlled trial comparing the BE-EHR module plus standard care against standard care alone.",
+      "detailedDescription": "A pragmatic, investigator-blind, cluster randomized controlled trial was designed to evaluate a 6-component BE-EHR module intervention. A total of 66 New York University Langone Health (NYULH) clinics were randomized 1:1 to receive for 18 months either (1) a 6-component BE-EHR module intervention plus standard care within the NYULH EHR, or (2) standard care only. The intervention is administered to clinicians during patient encounters (e.g., in person, telemedicine, medication refill). \n\nThe BE-EHR module consists of 6 components or \"nudges\" utilizing behavioral economics principles:\n1. Tailored Advisory: A noninterruptive alert describing appropriate treatment guidelines based on patient life expectancy.\n2. Refill Protocol: An alert suggesting metformin optimization or deprescribing during refill generation.\n3. Preference List: A system-level default list prioritizing metformin.\n4. Lab Result: An alert displaying guidelines when new HbA1c results are viewed.\n5. Peer Comparison: A monthly email comparing provider CW compliance rates.\n6. Campaign: A gamified educational email campaign regarding CW guidelines.\n\nThe primary outcome is patient-level CW compliance. Secondary outcomes measure the frequency of intervention component firings and provider utilization/interaction with the module components. The study specifically targets older adults (aged 76+) to promote less aggressive glycemic targets and reduction in pharmacologic therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes Mellitus"
+      ],
+      "keywords": [
+        "Behavioral Economics",
+        "Electronic Health Records",
+        "Clinical Decision Support",
+        "Choosing Wisely",
+        "Geriatrics",
+        "Deprescribing",
+        "Overtreatment",
+        "Cluster Randomized Controlled Trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "A pragmatic, investigator-blind, cluster randomized controlled trial where 66 NYULH clinics were randomized 1:1 to receive either a 6-component BE-EHR module intervention + standard care or standard care only.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "The study design is investigator-blind in that the principal investigators will be blinded to the assignment of clinics to either the intervention or control arm, and all interim analyses will be presented to the blinded study team labeled only as 'arm 1' and 'arm 2'. Only the study statistician and the Medical Center Information Technology Epic data management team will be unblinded, as will the clinicians receiving intervention-based alerts.",
+          "whoMasked": [
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "BE-EHR module + standard care",
+          "type": "EXPERIMENTAL",
+          "description": "Clinics randomized to this arm receive the 6-component BE-EHR module intervention in addition to standard care within the NYULH EHR for 18 months.",
+          "interventionNames": [
+            "BE-EHR module"
+          ]
+        },
+        {
+          "label": "Standard care only",
+          "type": "NO_INTERVENTION",
+          "description": "Clinics randomized to this arm receive standard care only for 18 months.",
+          "interventionNames": []
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "BE-EHR module",
+          "description": "A toolbox of nudges embedded within the EHR and utilizing CDS tools to promote appropriate diabetes management. The module consists of 6 components: 1) Tailored Advisory (alert during patient encounter), 2) Refill Protocol (alert in refills section), 3) Preference List (default medication list modification), 4) Lab Result (alert upon new HbA1c result), 5) Peer Comparison (monthly email), and 6) Campaign (gamified educational content).",
+          "armGroupLabels": [
+            "BE-EHR module + standard care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Patient-level Choosing Wisely (CW) compliance",
+          "description": "Compliance is measured by categorizing patients into 1 of 3 life expectancy groups (High, Medium, Low) and assessing their HbA1c relative to target ranges: High life expectancy (target 7%-7.5%), Medium life expectancy (target 7.5%-8%), and Low life expectancy (target 8%-9%).",
+          "timeFrame": "Up to 18 months (measured in 4-week intervals)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Frequency of intervention component firings",
+          "description": "Frequency of activation rates of the individual BE-EHR module components within the NYULH EHR.",
+          "timeFrame": "Up to 18 months"
+        },
+        {
+          "measure": "Provider utilization and interaction with BE-EHR module components",
+          "description": "Measured by frequency of clicks and workflow sequences with the BE-EHR module components within the NYULH EHR system.",
+          "timeFrame": "Up to 18 months"
+        },
+        {
+          "measure": "Email read receipts",
+          "description": "Collection of read receipts from the peer comparison and campaign nudges sent via email.",
+          "timeFrame": "Up to 18 months"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Safety Information (Hospitalizations, ED visits, Deaths)",
+          "description": "Frequency of in-patient hospitalizations, emergency department visits, and deaths across the control and intervention arms.",
+          "timeFrame": "Up to 18 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Patients aged 76 years or older\n* Type 2 diabetes as defined on the patient's \"problem list\" or \"encounter diagnosis\" within the EHR\n\nExclusion Criteria:\n* Not taking medication to treat diabetes\n* Allergy to the medication metformin\n* Estimated glomerular filtration rate of <30",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "76 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

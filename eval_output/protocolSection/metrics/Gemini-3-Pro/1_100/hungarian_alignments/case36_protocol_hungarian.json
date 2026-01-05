@@ -1,0 +1,198 @@
+{
+  "metadata": {
+    "case_id": 36,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T15:56:15.594571",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/36_NCT01590433.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/36_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.4
+        ],
+        [
+          0.35,
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Exenatide",
+            "type": "EXPERIMENTAL",
+            "description": "Subjects will be randomly assigned to the exenatide study treatment group or to the placebo study treatment group. Subjects will have a 33 percent chance of being assigned to the placebo study treatment group and a 66 percent chance of being assigned to exenatide study treatment. Subjects will not be able to choose the study group to which they will be assigned. All study participants will receive individualized dietary counseling based on food logs. Subjects who receive exenatide will not be assigned to follow a reduced-calorie diet in addition to study treatment. Subjects will not know whether they are receiving exenatide or placebo, but the unblinded members of study team will know which they are receiving.",
+            "interventionNames": [
+              "Drug: Exenatide"
+            ]
+          },
+          "pred_item": {
+            "label": "Exenatide",
+            "type": "EXPERIMENTAL",
+            "description": "Participants were treated with exenatide titrated to maximum dosing of 10mcg daily. Subjects self-administered twice daily subcutaneous injections.",
+            "interventionNames": [
+              "Drug: Exenatide"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Subjects will be randomly assigned to the exenatide study treatment group or to the placebo study treatment group. Subjects will have a 33 percent chance of being assigned to the placebo study treatment group and a 66 percent chance of being assigned to exenatide study treatment. Subjects will not be able to choose the study group to which they will be assigned. All study participants will receive individualized dietary counseling based on food logs. Subjects who receive placebo will be assigned to follow a reduced-calorie diet in addition to study treatment. Subjects will not know whether they are receiving exenatide or placebo, but the unblinded members of the study team will know which they are receiving.",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Behavioral: Dietary counseling"
+            ]
+          },
+          "pred_item": {
+            "label": "Hypocaloric Diet with Placebo",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received matched placebo injections plus nutrition counseling for a hypocaloric diet. Subjects self-administered twice daily subcutaneous injections of matched placebo.",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Behavioral: Hypocaloric Diet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.25,
+          0.1
+        ],
+        [
+          0.2,
+          0.94,
+          0.15
+        ],
+        [
+          0.1,
+          0.25,
+          0.88
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Exenatide",
+            "description": "Subjects will inject 5mcg of exenatide subcutaneously 15 minutes before the morning and evening meal for the first 2 weeks of the study. At study week 2, subjects will increase to 10mcg twice daily for the remainder of the study.",
+            "armGroupLabels": [
+              "Exenatide"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Exenatide",
+            "description": "Twice daily subcutaneous injections titrated to maximum dosing of 10mcg daily.",
+            "armGroupLabels": [
+              "Exenatide"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Subjects will inject 5mcg of identically dispensed placebo subcutaneously 15 minutes before the morning and evening meal for the first 2 weeks of the study. At study week 2, subjects will increase to 10mcg twice daily for the remainder of the study.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Matched placebo injections administered twice daily.",
+            "armGroupLabels": [
+              "Hypocaloric Diet with Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Dietary counseling",
+            "description": "All subjects will also receive individualized dietary counseling. Subjects in the placebo group will be counseled to follow a hypocaloric diet.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Hypocaloric Diet",
+            "description": "Nutrition counseling at every study visit, which included recommendations for a hypocaloric diet (500 kcal/day reduction, with total caloric requirement determined from measured resting metabolic rate).",
+            "armGroupLabels": [
+              "Hypocaloric Diet with Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.8
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.8,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Body Weight",
+            "description": "Change in body weight after 12 weeks of treatment with exenatide or placebo twice daily injections. This outcome compares baseline and 12 week body weight.",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Change in body weight",
+            "description": "Long-term change in body weight among early high responders (defined as individuals achieving ≥ 5% weight loss at 12 weeks) to either exenatide or hypocaloric diet treatment.",
+            "timeFrame": "Baseline to Week 52"
+          }
+        }
+      ]
+    }
+  ]
+}

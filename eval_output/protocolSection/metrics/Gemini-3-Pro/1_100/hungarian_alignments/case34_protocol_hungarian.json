@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "case_id": 34,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T15:54:05.682133",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/34_NCT02137499.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/34_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "id": "CR02072",
+            "type": "OTHER",
+            "domain": "Imperial College London"
+          },
+          "pred_item": {
+            "id": "13/WM/0027",
+            "type": "OTHER",
+            "domain": "National Research Ethics Committee"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.88,
+          0.3,
+          0.4,
+          0.4
+        ],
+        [
+          0.3,
+          0.96,
+          0.7,
+          0.7
+        ],
+        [
+          0.5,
+          0.7,
+          0.9,
+          0.85
+        ],
+        [
+          0.55,
+          0.6,
+          0.82,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "label": "Healthy subjects",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Healthy subjects, free from vascular disease",
+            "interventionNames": [
+              "Device: geko device"
+            ]
+          },
+          "pred_item": {
+            "label": "Healthy Subjects",
+            "type": "EXPERIMENTAL",
+            "description": "Healthy volunteers recruited by word of mouth (n=10).",
+            "interventionNames": [
+              "geko™ T-1 NMES device"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Superficial venous insufficiency",
+            "type": "EXPERIMENTAL",
+            "description": "Clinically symptomatic and ultrasound evidence of superficial venous insufficiency",
+            "interventionNames": [
+              "Device: geko device"
+            ]
+          },
+          "pred_item": {
+            "label": "Superficial Venous Insufficiency",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with superficial vein incompetence recruited from vascular clinic and imaging laboratory (n=10).",
+            "interventionNames": [
+              "geko™ T-1 NMES device"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Deep venous insufficiency",
+            "type": "EXPERIMENTAL",
+            "description": "Clinically symptomatic and ultrasound evidence of deep venous insufficiency",
+            "interventionNames": [
+              "Device: geko device"
+            ]
+          },
+          "pred_item": {
+            "label": "Deep Venous Insufficiency",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with deep vein incompetence recruited from vascular clinic and imaging laboratory (n=10).",
+            "interventionNames": [
+              "geko™ T-1 NMES device"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Deep venous obstruction",
+            "type": "EXPERIMENTAL",
+            "description": "Clinically symptomatic and ultrasound evidence of deep venous obstruction",
+            "interventionNames": [
+              "Device: geko device"
+            ]
+          },
+          "pred_item": {
+            "label": "Deep Venous Obstruction",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with deep vein obstruction recruited from vascular clinic and imaging laboratory (n=10).",
+            "interventionNames": [
+              "geko™ T-1 NMES device"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "geko device",
+            "description": "Small transcutaneous electrical stimulator. Manufactured in UK by Firstkind UK Ltd, and licensed for use in humans",
+            "armGroupLabels": [
+              "Deep venous insufficiency",
+              "Deep venous obstruction",
+              "Healthy subjects",
+              "Superficial venous insufficiency"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "geko™ T-1 NMES device",
+            "description": "Neuromuscular electrical stimulation (NMES) device applied transcutaneously to the common peroneal nerve at the knee. It delivers intermittent electrical pulses (27mA, 1 Hz) to cause contractions of the anterior and lateral compartments of the leg. Devices were worn bilaterally for 4–6 hours per day, 5 days a week, for 6 weeks.",
+            "armGroupLabels": [
+              "Healthy Subjects",
+              "Superficial Venous Insufficiency",
+              "Deep Venous Insufficiency",
+              "Deep Venous Obstruction"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.84
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.84,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage Change of Haemodynamic Flow",
+            "description": "Doppler ultrasound measurements of femoral venous blood flow. The volume flow rate in blood vessel can be calculated by multiplying the cross-sectional area of the blood vessel by the mean velocity of the blood within it.",
+            "timeFrame": "baseline, 20 minutes"
+          },
+          "pred_item": {
+            "measure": "Venous Haemodynamic Parameters",
+            "description": "Venous parameters including peak velocity (PV), time averaged mean velocity (TAMV), and volume flow (VF) were measured in the right femoral vein using ultrasound.",
+            "timeFrame": "Baseline (Week 0) and Week 6"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.3,
+          0.25,
+          0.82,
+          0.18
+        ],
+        [
+          0.4,
+          0.96,
+          0.2,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Improvement in Venous Symptoms",
+            "description": "Clinical symptoms will be measured using questionnaires (AVVQ, VCSS)",
+            "timeFrame": "6 weeks"
+          },
+          "pred_item": {
+            "measure": "Quality of Life and Clinical Severity Scores",
+            "description": "Assessments included Venous Clinical Severity Score (VCSS), Venous Disability Score (VDS), Aberdeen Varicose Vein Questionnaire (AVVQ), EuroQol-5D, Center for Epidemiologic Studies Depression (CESD) Scale, and Short Form-12 (SF-12).",
+            "timeFrame": "Week 0, Week 6, and Week 8"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Leg Volume",
+            "description": "Measured using ankle and calf circumference, and multiplying using \"inverted cone\" method",
+            "timeFrame": "6 weeks"
+          },
+          "pred_item": {
+            "measure": "Leg Volume",
+            "description": "Calculated by measuring ankle and maximal calf diameters, the vertical distance between the two points, and applying a truncated inverted cone model.",
+            "timeFrame": "Baseline (Week 0) and Week 6"
+          }
+        }
+      ]
+    }
+  ]
+}

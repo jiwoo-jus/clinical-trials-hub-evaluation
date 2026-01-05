@@ -1,0 +1,44 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT03571256,NCT03571256,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,TP,A Study to Test if TEV-50717 is Effective in Relieving Tics Associated With Tourette Syndrome (TS),Efficacy and Safety of Fixed-Dose Deutetrabenazine in Children and Adolescents for Tics Associated With Tourette Syndrome,True,0.82,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,TP,"A Well-Controlled, Fixed-Dose Study of TEV-50717 (Deutetrabenazine) for the Treatment of Tics Associated With Tourette Syndrome",Efficacy and Safety of Fixed-Dose Deutetrabenazine in Children and Adolescents for Tics Associated With Tourette Syndrome: A Randomized Clinical Trial,True,0.9,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,"Standard placebo-controlled, double-blind study design (TEV-50717 \[low dose and high dose\] vs. placebo in a 1:1:1 ratio) was chosen to determine whether study drug treatment results in a statistically significant effect on the tics in participants with TS.",,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,['Tourette Syndrome'],,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,TP,['PHASE3'],['PHASE3'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Participants were randomized (1:1:1) to receive high-dose deutetrabenazine (up to 48 mg/d), low-dose deutetrabenazine (up to 36 mg/d), or matching placebo. Participants were stratified by age at baseline (6-11 or 12-16 years).",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,QUADRUPLE,QUADRUPLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"This was a phase 3, randomized, double-blind, placebo-controlled, parallel-group, fixed-dose clinical trial. Participants received matching placebo or deutetrabenazine. CYP2D6 genotype assessment was blinded.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']",True,1.0,exact,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,TP,158,158,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,FN,FN,"Inclusion Criteria:
+
+* Participant weighs at least 44 pounds (20 kg) at baseline.
+* Participant meets the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-5™) diagnostic criteria for TS and, in the opinion of the investigator, participant, and parent/legal guardian, the participant's active tics are causing distress or impairment.
+* Participant has a TTS of 20 or higher on the YGTSS at screening and baseline.
+* Participant is able to swallow study medication whole.
+* -Additional criteria apply, please contact the investigator for more information
+
+Exclusion Criteria:
+
+* Participant has a neurologic disorder other than TS that could obscure the evaluation of tics.
+* The participant 's predominant movement disorder is stereotypy (coordinated movements that repeat continually and identically) associated with autism spectrum disorder.
+* Participant has clinically significant depression at screening or baseline.
+* Participant has a history of suicidal intent or related behaviors within 2 years of screening
+* Participant has a history of a previous actual, interrupted, or aborted suicide attempt.
+* Participant has a first-degree relative who has completed suicide.
+* Participant has a confirmed diagnosis of bipolar disorder, schizophrenia, or another psychotic disorder.
+* Participant has received Comprehensive Behavioral Intervention for Tics for TS or Cognitive Behavioral Therapy for obsessive-compulsive disorder (OCD) within 4 weeks of screening.
+* Participant has received treatment with deep brain stimulation, transmagnetic stimulation, or transcranial direct current stimulation within 4 weeks of the screening visit for reduction of tics.
+* Participant has a history of torsades de pointes, congenital long QT syndrome, bradyarrhythmias, or uncompensated heart failure.
+* Participant has participated in an investigational drug or device study and received investigational medicinal product (IMP)/intervention within 30 days or 5 drug half-lives of baseline, whichever is longer.
+* Participant is a pregnant or lactating female, or plans to be pregnant during the study.
+* -Additional criteria apply, please contact the investigator for more information",,False,0.0,,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,FN,FN,False,,False,0.0,,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,FN,FN,ALL,,False,0.0,,Sex,protocolSection.eligibilityModule.sex,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,FN,FN,6 Years,,False,0.0,,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,FN,FN,16 Years,,False,0.0,,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,FN,FN,['CHILD'],,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

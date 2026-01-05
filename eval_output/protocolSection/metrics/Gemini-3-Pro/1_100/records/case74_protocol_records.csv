@@ -1,0 +1,109 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT03959423,NCT03959423,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Safety Evaluation of the Advanced Hybrid Closed Loop (AHCL) System,Safety Evaluation of the Advanced Hybrid Closed Loop (AHCL) System in Type 1 Adult and Pediatric Subjects,True,0.97,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,Safety Evaluation of the Advanced Hybrid Closed Loop (AHCL) System in Type 1 Adult and Pediatric Subjects,Safety Evaluation of the Advanced Hybrid Closed Loop (AHCL) System in Type 1 Adult and Pediatric Subjects,True,1.0,exact,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.acronym,EV,EV,,AHCL,,,,Acronym,protocolSection.identificationModule.acronym,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,This study is a Safety Evaluation of the Advanced Hybrid Closed Loop (AHCL) System in Type 1 Adult and Pediatric Subjects.,This trial assessed the safety and effectiveness of an advanced hybrid closed-loop (AHCL) system with automated basal and automated bolus correction capabilities in adolescents and adults with type 1 diabetes. The study involved a run-in period followed by a study phase where participants used the MiniMed AHCL system with varying glucose targets.,True,0.88,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,FP,"The purpose of this study is to evaluate the safety of the Advanced Hybrid Closed Loop system (AHCL) in type 1 diabetes adult and pediatric subjects in a home setting. The main objective in conducting this research is to collect data from patients who use the AHCL system at home, at work, at school and everywhere else. Subjects will use 670G 4.0 system with Guardian Sensor 3 (GS3) during study period, and will be allowed to participate in continued access phase, and use 670G 4.0 system with GS3 and 780G system with Guardian 4 Sensor (G4S).","This multicenter single-arm study involved an intent-to-treat population of 157 individuals (39 adolescents aged 14–21 years and 118 adults aged ≥22–75 years) with type 1 diabetes (T1D). The study schedule included a run-in period (Visits 1–4) with sensor-augmented pump (SAP) with or without predictive low glucose management (PLGM) or automated basal (Auto Basal) use for approximately 14 days. This was followed by a study phase (Visits 5–18) where Auto Basal and automated bolus correction (Auto Correction) were enabled for approximately 90 days. A glucose target of 100 or 120 mg/dL was set during the first 45 ± 5 days of the study phase, followed by a switch to the other glucose target for the remaining 45 ± 5 days. Study endpoints included safety events and change in mean A1C, time in range (TIR, 70–180 mg/dL) and time below range (TBR, <70 mg/dL). Run-in and study phase values were compared using Wilcoxon signed-rank test or paired t-test. The AHCL system includes a meal detection module and provides options for setting different glucose targets.",False,0.68,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['Type 1 Diabetes Mellitus'],"['Type 1 Diabetes', 'Type 1 Diabetes Mellitus']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Advanced Hybrid Closed Loop', 'Automated Insulin Delivery', 'Artificial Pancreas', 'MiniMed AHCL', 'Continuous Glucose Monitoring', 'Insulin Pump Therapy', 'Glycemic Control']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,FP,NA,NON_RANDOMIZED,False,0.2,success,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,SINGLE_GROUP,SINGLE_GROUP,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"This multicenter open-label single-arm study involved an intent-to-treat population of 157 individuals. Participants used the MiniMed™ AHCL system during a baseline run-in period (sensor-augmented pump +/- predictive low glucose management or Auto Basal) for ~14 days. Thereafter, Auto Basal and Auto Correction were enabled for a study phase (~90 days), with glucose target set to 100 or 120 mg/dL for ~45 days, followed by the other target for ~45 days.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,This was an open-label study.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,FP,288,157,False,0.2,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[2].measure,EV,EV,,Safety events,,,,PrimaryOutcomeMeasure,protocolSection.outcomesModule.primaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[2].description,EV,EV,,"Incidence of serious adverse events (SAEs), serious adverse device effects (SADEs), unanticipated adverse device effects, severe hypoglycemia, and diabetic ketoacidosis (DKA).",,,,PrimaryOutcomeDescription,protocolSection.outcomesModule.primaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[2].timeFrame,EV,EV,,"Through study completion, an average of 3 months",,,,PrimaryOutcomeTimeFrame,protocolSection.outcomesModule.primaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].measure,EV,EV,,Insulin delivery metrics,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].description,EV,EV,,"Total daily dose of insulin (TDD), total basal [basal+microbolus] insulin, total bolus insulin, and Auto Correction in units/percentage.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].timeFrame,EV,EV,,From end of run-in period to end of study phase,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+1. Subject is age 7-75 years at time of Screening
+2. Subjects 14-75 years of age: A clinical diagnosis of type 1 diabetes for 2 years or more as determined via medical record or source documentation by an individual qualified to make a medical diagnosis
+3. Subjects 7-13 years of age: A clinical diagnosis of type 1 diabetes for 1 year or more as determined via medical record or source documentation by an individual qualified to make a medical diagnosis Study-specific inclusion criteria
+4. Subject is willing to perform ≥ 4 finger stick blood glucose measurements daily
+5. Subject is willing to perform required sensor calibrations
+6. Subject is willing to wear the system continuously throughout the study
+7. Subject must have a minimum daily insulin requirement (Total Daily Dose) of greater than or equal to 8 units
+8. Subject has a Glycosylated hemoglobin (HbA1c) less than 10% (as processed by Central Lab) at time of Screening visit Note: All HbA1c blood specimens will be sent to and tested by a NGSP certified Central Laboratory. HbA1c testing must follow National Glycohemoglobin Standardization Program (NGSP) standards.
+9. Subject has TSH in the normal range OR if the TSH is out of normal reference range the Free T3 is below or within the lab's reference range and Free T4 is within the normal reference range.
+10. Pump therapy for greater than 6 months prior to screening (with or without CGM experience)
+11. Subject must have a companion or caregiver available at night for the duration of the study period who resides (or will live) in in the same building (or home). A companion or caregiver should also be available during exercise challenges in the same building, home or location (if not at home). This requirement may be verified by subject report at screening visit.
+12. Subject willing to upload data from the study pump, must have Internet access and a computer system that meets the requirements for uploading the study pump
+13. If subject has celiac disease, it has been adequately treated as determined by the investigator
+14. Subject is willing to take one of the following insulins and can financially support the use of either of the 2 insulin preparations throughout the course of the study (i.e. co-payments for insulin with insurance or able to pay full amount)
+
+    * Humalog™\* (insulin lispro injection)
+    * NovoLog™\* (insulin aspart)
+15. Subjects with history of cardiovascular event 1 year or more from the time of screening must have an EKG within 6 months prior to screening or during screening. If subject has an abnormal EKG, participation is allowed if there is clearance from a cardiologist
+16. Subjects with the 3 or more cardiovascular risk factors listed below must have an EKG within 6 months prior to screening or during screening. If subject has an abnormal EKG, participation is allowed if there is clearance from a cardiologist
+
+    a. Cardiovascular risk factors include:
+    * Age \>35 years
+    * Type 1 diabetes of \>15 years' duration
+    * Presence of any additional risk factor for coronary artery disease
+    * Presence of microvascular disease (proliferative retinopathy or nephropathy, including microalbuminuria)
+    * Presence of peripheral vascular disease
+    * Presence of autonomic neuropathy
+17. Subjects with history of cardiovascular event 1 year or more from the time of screening must have a stress test within 6 months prior to screening or during run in period. If subject fails stress test, participation is allowed if there is clearance from a cardiologist
+
+Exclusion Criteria:
+
+1. Subject has a history of 1 or more episodes of severe hypoglycemia, which resulted in any the following during the 6 months prior to Screening:
+
+   1. Medical assistance (i.e. Paramedics, Emergency Room (ER) or Hospitalization)
+   2. Coma
+   3. Seizures
+2. Subject has been hospitalized or has visited the ER in the 6 months prior to Screening resulting in a primary diagnosis of uncontrolled diabetes
+3. Subject has had Diabetic Ketoacidosis (DKA) in the 6 months prior to Screening.
+4. Subject has Hypoglycemia Unawareness, as measured by the Gold questionnaire (Gold, MacLeod et al. 1994) at Screening
+5. Subject is unable to tolerate tape adhesive in the area of sensor placement
+6. Subject has any unresolved adverse skin condition in the area of sensor placement (e.g., psoriasis, dermatitis herpetiformis, rash, Staphylococcus infection)
+7. Women of child-bearing potential who have a positive pregnancy test at Screening or plan to become pregnant during the course of the study
+8. Females who are sexually active and able to conceive will be excluded if they are not using an effective method of contraception and do not agree to continue using an effective method of contraception for the duration of the study as determined by investigator.
+9. Subject has had any of the following cardiovascular events within 1 year of screening: myocardial infarction, unstable angina, coronary artery bypass surgery, coronary artery stenting, transient ischemic attack, cerebrovascular accident, angina, congestive heart failure, ventricular rhythm disturbances or thromboembolic disease
+10. Subject is being treated for hyperthyroidism at time of Screening
+11. Subject has a diagnosis of adrenal insufficiency
+12. Subject has taken any oral, injectable, or intravenous (IV) glucocorticoids within 8 weeks from time of Screening, or plans to take any oral, injectable, or IV glucocorticoids during the course of the study
+13. Subject is actively participating in an investigational study (drug or device) wherein he/she has received treatment from an investigational study drug or investigational study device in the last 2 weeks
+14. Subject is currently abusing illicit drugs
+15. Subject is currently abusing marijuana
+16. Subject is currently abusing prescription drugs
+17. Subject is currently abusing alcohol
+18. Subject is using pramlintide (Symlin), DPP-4 inhibitor, liraglutide (Victoza or other GLP-1 agonists), metformin, canagliflozin (Invokana or other SGLT2 inhibitors) at time of Screening
+19. Subject has a history of visual impairment which would not allow subject to participate in the study and perform all study procedures safely, as determined by the investigator
+20. Subject has elective surgery planned that requires general anesthesia during the course of the study
+21. Subject has a sickle cell disease, hemoglobinopathy; or has received red blood cell transfusion or erythropoietin within 3 months prior to time of Screening
+22. Subject plans to receive red blood cell transfusion or erythropoietin over the course of study participation
+23. Subject diagnosed with current eating disorder such as anorexia or bulimia
+24. Subject has been diagnosed with chronic kidney disease that results in chronic anemia
+25. Subject has a hematocrit that is below the normal reference range of lab used.
+26. Subject is on dialysis
+27. Subject has serum creatinine of \>2 mg/dL.
+28. Research staff involved with the study.","Inclusion Criteria:
+- Diagnosis of T1D at screening
+- Duration of T1D for at least 2 years
+- Minimum daily insulin requirement of at least 8 U
+- Hemoglobin A1C of <10% at screening
+- Use of pump therapy with or without CGM experience for >6 months before screening
+- Willingness to wear the system throughout the study and perform at least four daily self-monitoring of blood glucose measurements and required sensor calibrations
+- Ability to upload data from the study device to the CareLink™ clinical software
+- Caregiver available at night who resided (or lived) in the same building (or home), during the study
+
+Exclusion Criteria:
+- History of one or more episodes of severe hypoglycemia that resulted in a coma, seizure, or hospitalization during the 6 months before screening
+- Hospitalization or emergency room visit resulting in a primary diagnosis of uncontrolled diabetes in the 6 months before screening
+- DKA in the 6 months before screening
+- Hypoglycemia unawareness, as measured by the Gold questionnaire at screening
+- Inability to tolerate tape adhesive in the area of sensor placement or an unresolved adverse skin condition (e.g., psoriasis, dermatitis herpetiformis, rash, or staphylococcus infection) in the area of sensor placement",True,0.92,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,7 Years,14 Years,True,0.8,success,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,75 Years,75 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['CHILD', 'ADULT', 'OLDER_ADULT']","['CHILD', 'ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

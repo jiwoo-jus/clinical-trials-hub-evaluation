@@ -1,0 +1,107 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03781726",
+      "orgStudyIdInfo": {
+        "id": "2018P003140"
+      },
+      "organization": {
+        "fullName": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Multi-center Study to Transplant Hepatitis-C Infected Kidneys",
+      "officialTitle": "A Multi-Center, Open-Label Study of Glecaprevir/Pibrentasvir to Treat Recipients of Transplanted Kidneys From Deceased Donors With Hepatitis C Virus",
+      "acronym": "MYTHIC"
+    },
+    "descriptionModule": {
+      "briefSummary": "Open label multi center study for the donation of HCV positive kidneys to HCV negative recipients with interventional treatment to prevent HCV transmission upon transplantation.",
+      "detailedDescription": "The study objective is to determine if the administration of the direct acting antiviral glecaprevir/pibrentasvir for 8 weeks after kidney transplantation is both safe and effective at preventing the spread of HCV infection from donor kidney with known HCV infection (all genotypes) to an HCV negative recipient as evidenced by a negative HCV viral RNA at 12 weeks post treatment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Renal Failure Chronic",
+        "Hepatitis C"
+      ],
+      "keywords": [
+        "hemodialysis",
+        "renal failure",
+        "kidney transplant"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment with glecaprevir/pibrentasvir Fixed Dose Combination",
+          "type": "EXPERIMENTAL",
+          "description": "8 weeks of HCV treatment with combination tablet of glecaprevir and pibrentasvir",
+          "interventionNames": [
+            "Drug: glecaprevir/pibrentasvir treatment"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "glecaprevir/pibrentasvir treatment",
+          "description": "combination treatment with glecaprevir and pibrentasvir fixed dose tablet.",
+          "armGroupLabels": [
+            "Treatment with glecaprevir/pibrentasvir Fixed Dose Combination"
+          ],
+          "otherNames": [
+            "Mavyret treatment"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With Undetectable HCV",
+          "description": "HCV RNA \\< LLOQ 12 weeks after the last actual dose of G/P",
+          "timeFrame": "12 weeks post treatment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Subjects With On-treatment Virologic Failure",
+          "description": "HCV RNA \\> LLOQ during G/P treatment",
+          "timeFrame": "During 8 week treatment course"
+        },
+        {
+          "measure": "Percentage of Subjects With Post-treatment Virologic Relapse",
+          "description": "HCV RNA \\> LLOQ after completion of G/P treatment and prior HCV RNA \\< LLOQ while on treatment",
+          "timeFrame": "During 12 week post treatment follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Recipient Inclusion Criteria:\n\n* Estimated glomerular filtration rate(eGFR) \\< 15 ml/min/1.73 m2\n* Listed for an isolated kidney transplantation\n* Able to understand and adhere to the study visit schedule and all other protocol requirements, and must voluntarily sign and date an informed consent\n* No available medically acceptable, compatible living kidney donor\n* Subject must agree to use an effective method of birth control per protocol specifications\n\nRecipient Exclusion Criteria:\n\n* History of severe, life-threatening or other significant sensitivity to immunosuppressants utilized in kidney transplant\n* Female who is pregnant, breastfeeding, or is planning to become pregnant during the course of the study\n* History of HIV\n* HCV RNA positive\n* HBV surface Ag-positive or detectable HBV DNA\n* Primary focal segmental glomerulosclerosis (FSGS) or disease process with increased risk of causing early graft failure as assessed by the transplant nephrologist and/or investigator team\n* Presence of clinically significant liver disease\n* Transplant candidate requiring antibody desensitization protocol for transplantation\n* Most recent calculated panel reactive antibody (cPRA) \\>80%.\n* Prior recipient of a non-renal solid organ transplant\n\nDonor Organ Inclusion Criteria\n\n* Deceased donor organ with kidney donor profile index (KDPI) ≤0.85\n* HCV RNA-positive\n\nDonor Organ Exclusion Criteria\n\n* Known prior HCV treatment with direct acting antiviral medication\n* HIV RNA-positive\n* HBV Surface antigen-positive or HBV DNA-positive",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

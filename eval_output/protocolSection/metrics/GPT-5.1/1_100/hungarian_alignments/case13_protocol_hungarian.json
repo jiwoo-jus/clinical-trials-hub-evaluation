@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "case_id": 13,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-28T05:42:41.970180",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/13_NCT02542410.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/13_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.2
+        ],
+        [
+          0.3,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Norethindrone acetate 5 mg po daily x 6 months",
+            "interventionNames": [
+              "Drug: Norethindrone acetate"
+            ]
+          },
+          "pred_item": {
+            "label": "Norethindrone acetate",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received oral norethindrone acetate (NETA) 5 mg once daily plus matching placebo capsule twice weekly for 6 months.",
+            "interventionNames": [
+              "Norethindrone acetate",
+              "Twice-weekly placebo capsule"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Experimental",
+            "type": "EXPERIMENTAL",
+            "description": "cabergoline 0.5 mg PO twice weekly x 6 months",
+            "interventionNames": [
+              "Drug: Cabergoline"
+            ]
+          },
+          "pred_item": {
+            "label": "Cabergoline",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received oral cabergoline 0.5 mg twice weekly plus matching placebo tablet once daily for 6 months.",
+            "interventionNames": [
+              "Cabergoline",
+              "Daily placebo tablet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.2,
+          0.92,
+          0.2,
+          0.15
+        ],
+        [
+          0.9,
+          0.3,
+          0.68,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Cabergoline",
+            "armGroupLabels": [
+              "Experimental"
+            ],
+            "otherNames": [
+              "Dostinex"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Cabergoline",
+            "description": "Oral cabergoline 0.5 mg administered twice weekly for 6 months as a nonhormonal dopamine D2 receptor agonist and VEGF pathway inhibitor for endometriosis-associated pain.",
+            "armGroupLabels": [
+              "Cabergoline"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Norethindrone acetate",
+            "armGroupLabels": [
+              "Control"
+            ],
+            "otherNames": [
+              "Aygestin"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Norethindrone acetate",
+            "description": "Oral norethindrone acetate (NETA) 5 mg administered once daily for 6 months as standard hormonal therapy for endometriosis-associated pain.",
+            "armGroupLabels": [
+              "Norethindrone acetate"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.6
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.6,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Score in Worst Pain Over the Last Month",
+            "description": "visual analog scale, minimum=0 and maximum=10 Higher numbers are a worse outcome\n\nOutcome measures is calculated as the value at 6 months minus value at baseline.",
+            "timeFrame": "Baseline, 6 months"
+          },
+          "pred_item": {
+            "measure": "Brief Pain Inventory (BPI) interference scale",
+            "description": "Change in pain-related interference with functioning, measured by the 7-item BPI interference scale covering physical functioning, emotional functioning, sleep, and work. This was the primary outcome for assessing change in pelvic pain and its impact on daily activities.",
+            "timeFrame": "Baseline (pretreatment), 3 months, and 6 months"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 9,
+      "similarity_matrix": [
+        [
+          0.55,
+          0.6,
+          0.7,
+          0.35,
+          0.45,
+          0.02,
+          0.03,
+          0.1,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Changes in Pain Interference Scores",
+            "description": "Brief Pain Inventory Interference subscale is a 7-item self-report measure, designed to assess the extent to which pain interferes with various components of functioning, including physical and emotional functioning and sleep.The items in this scale can be grouped into those that assess physical functioning (general activity; walking ability; normal work, including both work outside the home and housework), those that assess emotional functioning (mood; relations with people; enjoyment of life), and a single item that assess the extent to which pain interferes with sleep. The arithmetic mean of the seven interference items is used as a measure of pain interference (i.e., how much a participant's pain interferes with her ability to complete activities of daily living and functioning). The score on the pain interference subscale ranges from 0-70. Higher scores are worse outcomes.\n\nOutcome measure calculated as the value at 6 months minus the value at baseline",
+            "timeFrame": "Baseline, 6 months"
+          },
+          "pred_item": {
+            "measure": "Functional Disability Inventory (FDI) score",
+            "description": "Change in functional disability assessed by the FDI, a self-report measure of the impact of physical health on performance of regular daily activities; scores range from 0 to 60, with higher scores indicating greater impairment.",
+            "timeFrame": "Baseline (pretreatment), 3 months, and 6 months"
+          }
+        }
+      ]
+    }
+  ]
+}

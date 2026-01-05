@@ -1,0 +1,231 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04088409",
+      "secondaryIdInfos": [
+        {
+          "id": "2019-000119-10",
+          "type": "EUDRACT_NUMBER",
+          "link": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=2019-000119-10"
+        }
+      ],
+      "organization": {
+        "fullName": "Eli Lilly and Company",
+        "class": "INDUSTRY"
+      },
+      "officialTitle": "Clinical effectiveness and safety of baricitinib for the treatment of juvenile idiopathic arthritis-associated uveitis or chronic anterior antinuclear antibody-positive uveitis: study protocol for an open-label, adalimumab active-controlled phase 3 clinical trial (JUVE-BRIGHT)",
+      "acronym": "JUVE-BRIGHT"
+    },
+    "descriptionModule": {
+      "briefSummary": "The JUVE-BRIGHT study is a multicenter, open-label, active-controlled phase 3 clinical trial designed to evaluate the efficacy and safety of baricitinib, an oral selective Janus kinase (JAK) 1 and 2 inhibitor, in pediatric patients aged 2 to less than 18 years. The study specifically targets patients with active juvenile idiopathic arthritis-associated uveitis (JIA-uveitis) or chronic anterior antinuclear antibody (ANA)-positive uveitis who have had an inadequate response to standard therapies such as methotrexate or biologic disease-modifying antirheumatic drugs (bDMARDs). The trial utilizes a Bayesian design to compare baricitinib against adalimumab (an active control) or to treat patients with baricitinib directly, aimed at addressing the unmet medical need in this population.",
+      "detailedDescription": "This multicenter, phase 3 trial employs an open-label Bayesian design to assess the clinical effectiveness and safety of baricitinib in children and adolescents with JIA-uveitis or chronic ANA-positive uveitis without systemic features. The study aims to enroll between 20 and 40 patients aged 2 to <18 years who have active anterior uveitis despite prior treatment with topical steroids and methotrexate (MTX). \n\nParticipants will be categorized based on their treatment history. At least 20 patients with an inadequate response or intolerance to methotrexate (MTX-IR), but who are naive to biologic DMARDs, will be randomized in a 1:1 ratio to receive either open-label baricitinib or adalimumab. Approximately 20 additional patients who are MTX-IR or have had an inadequate response to bDMARDs will be assigned to receive baricitinib treatment. \n\nInterventions are dosed as follows: \n1. Baricitinib: Administered orally once daily at a fixed dose by age group (2 mg for patients <6 years; 4 mg for patients ≥6 to <18 years). \n2. Adalimumab: Administered as a subcutaneous injection every 2 weeks (20 mg for patients weighing <30 kg; 40 mg for patients weighing ≥30 kg).\n\nThe study consists of two parts: Part A includes screening and a treatment period up to Week 24, and Part B is a long-term open-label extension (OLE) allowing treatment for up to 5 years. The primary endpoint is the proportion of patients achieving response at Week 24, defined according to the Standardization of Uveitis Nomenclature (SUN) criteria as a 2-step decrease in the level of inflammation (anterior chamber cells) or a decrease to zero in the most severely affected eye. Secondary endpoints include visual acuity changes, vitreous haze assessment, flare grades, and corticosteroid tapering capabilities. A Bayesian analysis will be conducted at interim analyses and the end of the study to determine efficacy or futility."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Juvenile Idiopathic Arthritis",
+        "Uveitis",
+        "JIA-associated Uveitis",
+        "Chronic Anterior Antinuclear Antibody-positive Uveitis"
+      ],
+      "keywords": [
+        "Baricitinib",
+        "Adalimumab",
+        "Juvenile Idiopathic Arthritis",
+        "Uveitis",
+        "JAK inhibitor",
+        "Pediatric Rheumatology",
+        "Open-label",
+        "Phase 3",
+        "Bayesian design"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Multicenter, open-label, active-controlled trial using a Bayesian design. It consists of two parts: Part A (screening and treatment up to week 24) and Part B (open-label extension up to 5 years). Patients who are MTX-IR are randomized (1:1) to baricitinib or adalimumab, while bDMARD-IR patients are assigned to baricitinib.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "This is an open-label study; no blinding occurs."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Baricitinib",
+          "type": "EXPERIMENTAL",
+          "description": "Patients aged 2 to <18 years treated with once daily oral baricitinib. The arm includes patients randomized (1:1) from the MTX-IR population and patients from the bDMARD-IR population.",
+          "interventionNames": [
+            "Baricitinib"
+          ]
+        },
+        {
+          "label": "Adalimumab",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients aged 2 to <18 years treated with adalimumab as a subcutaneous injection every 2 weeks. This arm serves as the active-control reference arm for randomized MTX-IR patients.",
+          "interventionNames": [
+            "Adalimumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Baricitinib",
+          "description": "Administered orally once daily (QD) as tablets or oral suspension. Dosing is fixed by age group: 4 mg for patients aged ≥6 to <18 years and 2 mg for patients <6 years.",
+          "armGroupLabels": [
+            "Baricitinib"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Adalimumab",
+          "description": "Administered as a subcutaneous injection every 2 weeks. Dosing is fixed by weight: 20 mg for patients weighing <30 kg and 40 mg for patients weighing ≥30 kg.",
+          "armGroupLabels": [
+            "Adalimumab"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of patients with response",
+          "description": "Response is defined according to the Standardization of Uveitis Nomenclature (SUN) criteria as a 2-step decrease in the level of inflammation (anterior chamber cells) or decrease to zero in the eye most severely affected at baseline.",
+          "timeFrame": "Week 24"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in SUN grade of cells in the anterior chamber in the most severely affected eye",
+          "description": "Assessment of inflammation level in the anterior chamber of the most severely affected eye.",
+          "timeFrame": "Through Week 24 (Part A) and through Week 284 (Part B)"
+        },
+        {
+          "measure": "Change in SUN grade of cells in the anterior chamber in the less severely affected eye",
+          "description": "Assessment of inflammation level in the anterior chamber of the less severely affected eye (if applicable).",
+          "timeFrame": "Through Week 24 and Week 284"
+        },
+        {
+          "measure": "Proportion of responders in patients with bilateral uveitis disease at baseline",
+          "description": "Defined according to the SUN criteria as a 2-step decrease in the level of anterior chamber cells in the most severely affected eye at baseline (or both eyes if the inflammation grade is the same in both eyes) and a 1-step decrease in the level of anterior chamber cells in the less severely affected eye at baseline.",
+          "timeFrame": "Week 24 and Week 284"
+        },
+        {
+          "measure": "Change in visual acuity",
+          "description": "Measured by age-appropriate logarithm of the minimum angle of resolution (LogMAR) test.",
+          "timeFrame": "Through Week 24"
+        },
+        {
+          "measure": "Change in vitreous haze",
+          "description": "Measured in each affected eye.",
+          "timeFrame": "Through Week 24"
+        },
+        {
+          "measure": "Change in grade of flare in the anterior chamber",
+          "description": "Measured in each affected eye.",
+          "timeFrame": "Through Week 24 and Week 284"
+        },
+        {
+          "measure": "Change in Patient Uveitis-related Disease Activity",
+          "description": "Measure of overall uveitis-related disability.",
+          "timeFrame": "Through Week 24"
+        },
+        {
+          "measure": "Change in Patient Uveitis-related Improvement",
+          "description": "Measure of overall uveitis-related disability.",
+          "timeFrame": "Week 12 and Week 24"
+        },
+        {
+          "measure": "Change in Patient Arthritis Disease Activity",
+          "description": "Measure of overall uveitis-related disability.",
+          "timeFrame": "Through Week 24"
+        },
+        {
+          "measure": "Change in Patient Arthritis Improvement",
+          "description": "Measure of overall uveitis-related disability.",
+          "timeFrame": "Week 12 and Week 24"
+        },
+        {
+          "measure": "Change in Ophthalmologist Uveitis-related Disease Activity",
+          "description": "Measure of overall uveitis-related disability.",
+          "timeFrame": "Through Week 24"
+        },
+        {
+          "measure": "Change in Ophthalmologist Uveitis-related Improvement",
+          "description": "Measure of overall uveitis-related disability.",
+          "timeFrame": "Week 12 and Week 24"
+        },
+        {
+          "measure": "Proportion of patients with inactive anterior uveitis",
+          "description": "Defined using SUN definition in each affected eye.",
+          "timeFrame": "Through Week 24 and Week 284"
+        },
+        {
+          "measure": "Time to inactive anterior uveitis disease",
+          "description": "Defined using SUN definition in each affected eye.",
+          "timeFrame": "Through Week 284"
+        },
+        {
+          "measure": "Proportion of patients who are able to taper concomitant corticosteroids",
+          "description": "Assessment of corticosteroid reduction.",
+          "timeFrame": "Through Week 284"
+        },
+        {
+          "measure": "Time to treatment response",
+          "description": "Response is defined by a 2-step decrease in the level of inflammation (anterior chamber cells) or decrease to zero in the eye most severely affected at baseline.",
+          "timeFrame": "Through Week 284"
+        },
+        {
+          "measure": "Proportion of responders",
+          "description": "Long-term assessment of response defined by a 2-step decrease in inflammation or decrease to zero.",
+          "timeFrame": "Week 284"
+        },
+        {
+          "measure": "Pediatric American College of Rheumatology (PediACR) response rates",
+          "description": "PediACR 30/50/70/90/100 response rates for patients with JIA-uveitis.",
+          "timeFrame": "Through Week 284"
+        },
+        {
+          "measure": "Adverse events (AEs)",
+          "description": "Includes serious adverse events.",
+          "timeFrame": "Through Week 284"
+        },
+        {
+          "measure": "Permanent discontinuation of investigational product due to AEs",
+          "description": "Assessment of tolerability and safety.",
+          "timeFrame": "Through Week 284"
+        },
+        {
+          "measure": "Temporary interruption of investigational product",
+          "description": "Assessment of tolerability and safety.",
+          "timeFrame": "Through Week 284"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Are at least 2 years and <18 years of age\n- Have a diagnosis of JIA-uveitis or chronic ANA-positive uveitis without systemic features\n- Have active anterior uveitis, defined as cellular infiltrate in the anterior chamber of SUN criteria grade ≥1+ at visit 1 (screening) and visit 2 (potential randomization), despite prior treatment with topical steroid therapy and MTX\n- Have an inadequate response or intolerance to MTX (minimum dose of 10 mg/m2/week, with a maximum dose of 25 mg/m2/week). Patients considered to have inadequate response must have received MTX for at least 12 weeks before an inadequate response may be determined and must have been on a stable dose for at least 4 weeks prior to screening if continuing MTX therapy during the study\n- Are receiving topical corticosteroid eye drops at a stable dose for at least 2 weeks prior to screening (maximum of 4 drops/day per eye at screening)\n- Parent or legal guardian and the patient (as appropriate) must sign their consent and assent, respectively\n- Male or nonpregnant, nonbreastfeeding female patients\n- Patients of child-bearing potential must agree to remain abstinent or use effective contraception practices throughout trial participation\n\nExclusion Criteria:\n- Have uveitis without a diagnosis of JIA or chronic anterior uveitis without positive ANA\n- Have a history or presence of any autoimmune inflammatory condition other than JIA, such as Crohn’s disease or ulcerative colitis\n- Have any contraindications to adalimumab as addressed in local product labeling or local clinical practice that would preclude the patient from participating in this study (Exception: Patients who have had an inadequate response or intolerance to bDMARDs (bDMARD-IR) with a contraindication to adalimumab may be enrolled, as they will be assigned to baricitinib)\n- Have increased intraocular pressure ≥25 mm Hg or that required treatment, including increases in medications, surgery, or hospitalization, within 4 weeks prior to baseline that, in the opinion of the investigator, would pose an unacceptable risk to the patient if participating in the study\n- Have had intraocular surgery within the 3 months prior to screening (such as for cataract[s], glaucoma, or vitrectomy)\n- Have had symptomatic herpes zoster infection within 12 weeks prior to baseline\n- Have a history of multidermatomal herpes zoster, or complicated herpes zoster (e.g., ocular or motor nerve involvement or disseminated herpes zoster such as systemic infection)\n- Have a history of a venous thromboembolic event (VTE) or are considered at high risk of VTE as deemed by the investigator\n- Have body temperature ≥38°C (100.5°F) at baseline (visit 2)\n- Have initiated or changed dosage of concomitant mycophenolate mofetil or csDMARDs (other than MTX) within 4 weeks prior to screening (such as, but not limited to, hydroxychloroquine, sulfasalazine, gold salts, cyclosporine, or azathioprine)\n- Are currently receiving concomitant treatment with combination of >2 csDMARDs (including MTX)\n- Have received prior bDMARDs for any indication <1 week prior to screening for anakinra, <4 weeks prior to screening for TNF inhibitors (e.g., etanercept, infliximab, certolizumab, adalimumab, golimumab), other IL-1 inhibitors, IL-6 inhibitors (e.g., tocilizumab), or abatacept, and <6 months prior to screening for rituximab\n- Have received an unstable dose of analgesics, including NSAIDs, within 1 week prior to visit 2\n- Have received treatment with any parenteral corticosteroid administered by intraarticular, intramuscular, or intravenous injection within 4 weeks prior to visit 2\n- Are using oral corticosteroids at average daily doses >10 mg/day or 0.2 mg/kg/day prednisone equivalent, whichever is less, or have done so within 2 weeks prior to screening. If continuing oral corticosteroids, must be on a stable dose for 4 weeks prior to baseline\n- Have received a depot periocular, periocular, or intraocular corticosteroid injection within 30 days prior to visit 2\n- Have received an intraocular steroid implant within 6 months (e.g., dexamethasone intravitreal implant) or 18 months (e.g., fluocinolone acetonide intravitreal implant) prior to visit 2\n- Have received intraocular disease-modifying agents, including anti-vascular endothelial growth factor injections, for 30 days prior to visit 2\n- Are being treated with a strong organic anion transporter 3 inhibitor, such as probenecid, that cannot be discontinued for the duration of the study\n- Have been treated with a JAK inhibitor\n- Have commenced thyroxine therapy or changed dosage within 12 weeks prior to baseline or have thyroid-stimulating hormone levels outside the laboratory’s reference range\n- Discontinued within 30 days of study entry from any other clinical study involving an investigational product or any other type of medical research judged not to be scientifically or medically compatible with this study (If the previous investigational product has a long half-life, 5 half-lives or 30 days (whichever is longer) should have passed)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "2 Years",
+      "maximumAge": "18 Years",
+      "stdAges": [
+        "CHILD"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

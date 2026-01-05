@@ -1,0 +1,402 @@
+{
+  "metadata": {
+    "case_id": 45,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T16:21:04.739864",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/45_NCT04324073.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/45_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.05
+        ],
+        [
+          0.32,
+          0.87
+        ],
+        [
+          0.96,
+          0.05
+        ],
+        [
+          0.35,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "SARILUMAB -- Severe COVID population (WHO Clinical Progression Scale =5 at baseline)",
+            "type": "EXPERIMENTAL",
+            "description": "Sarilumab (an IV dose of 400 mg of sarilumab in a 1 hour-infusion at Day 1). Administration of Sarilumab fixed dose on day 3 was recommended and left to the treating physician",
+            "interventionNames": [
+              "Drug: Sarilumab"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Standard of care -- Severe COVID population (WHO Clinical Progression Scale =5 at baseline)",
+            "type": "NO_INTERVENTION",
+            "description": "Usual care was provided at the discretion of the clinicians"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "SARILUMAB -- Critical COVID population (WHO Clinical Progression Scale >5 at baseline)",
+            "type": "EXPERIMENTAL",
+            "description": "Sarilumab (an IV dose of 400 mg of sarilumab in a 1 hour-infusion at Day 1). Administration of Sarilumab fixed dose on day 3 was recommended and left to the treating physician",
+            "interventionNames": [
+              "Drug: Sarilumab"
+            ]
+          },
+          "pred_item": {
+            "label": "Sarilumab group",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received usual care plus 400 mg of sarilumab intravenously on day 1 and on day 3 if clinically indicated.",
+            "interventionNames": [
+              "Drug: Sarilumab",
+              "Other: Usual Care"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Standard of care -- Critical COVID population (WHO Clinical Progression Scale >5)",
+            "type": "NO_INTERVENTION",
+            "description": "Usual care was provided at the discretion of the clinicians"
+          },
+          "pred_item": {
+            "label": "Usual care group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients received usual care alone.",
+            "interventionNames": [
+              "Other: Usual Care"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Sarilumab",
+            "description": "(an IV dose of 400 mg of sarilumab in a 1 hour-infusion at D1",
+            "armGroupLabels": [
+              "SARILUMAB -- Critical COVID population (WHO Clinical Progression Scale >5 at baseline)",
+              "SARILUMAB -- Severe COVID population (WHO Clinical Progression Scale =5 at baseline)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Sarilumab",
+            "description": "Administered intravenously at a fixed dose of 400 mg on day 1. Administration of an additional fixed dose of 400 mg intravenously on day 3 was recommended if oxygen requirement had not decreased by more than 50%, but the decision was left to the treating physician.",
+            "armGroupLabels": [
+              "Sarilumab group"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.99,
+          0.72
+        ],
+        [
+          0.8,
+          0.92
+        ],
+        [
+          0.72,
+          0.25
+        ],
+        [
+          0.3,
+          0.55
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With WHO Clinical Progression Scale > 5 at Day 4 -- Severe COVID Population (WHO Clinical Progression Scale =5 at Baseline)",
+            "description": "Percentage of participants who has died or needed non-invasive or mechanical ventilation by day 4 (WHO clinical progression scale \\> 5). A patient with new do-not-resuscitate order at day 4 will be considered as with a score \\> 5.\n\nWHO progression scale:\n\nUninfected; non viral RNA detected: 0 Asymptomatic; viral RNA detected: 1 Symptomatic; Independent: 2 Symptomatic; Assistance needed: 3 Hospitalized; No oxygen therapy: 4 Hospitalized; oxygen by mask or nasal prongs: 5 Hospitalized; oxygen by NIV or High flow: 6 Intubation and Mechanical ventilation, pO2/FIO2\\>=150 OR SpO2/FIO2\\>=200: 7 Mechanical ventilation, (pO2/FIO2\\<150 OR SpO2/FIO2\\<200) OR vasopressors (norepinephrine \\>0.3 microg/kg/min): 8 Mechanical ventilation, pO2/FIO2\\<150 AND vasopressors (norepinephrine \\>0.3 microg/kg/min), OR Dialysis OR ECMO: 9 Dead: 10",
+            "timeFrame": "4 days"
+          },
+          "pred_item": {
+            "measure": "Proportion of patients with WHO-CPS scores greater than 5",
+            "description": "Proportion of patients dead or needing non-invasive ventilation or mechanical ventilation on the 10-point WHO Clinical Progression Scale.",
+            "timeFrame": "Day 4"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Non-invasive Ventilation, Mechanical Ventilation or Death at Day 14 (WHO Clinical Progression Scale =5 at Baseline)",
+            "description": "Survival without needs of ventilator utilization (including non invasive ventilation and high flow) at day 14. Percentage of non-invasive ventilation, mechanical ventilation or death. Thus, events considered are needing ventilator utilization (mechanical or non-invasive ventilation including high flow oxygen), or death. New do-not-resuscitate (DNR) order (if given after the inclusion of the patient) will be considered as an event at the date of the DNR.",
+            "timeFrame": "Day 1 to Day 14"
+          },
+          "pred_item": {
+            "measure": "Survival without invasive or non-invasive ventilation",
+            "description": "Survival with no need for non-invasive ventilation (including high-flow oxygen) or mechanical ventilation.",
+            "timeFrame": "Day 14"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants With no Improvement in WHO Clinical Progression Scale at Day 4 -- Critical COVID Population ( WHO Clinical Progression Scale >5 at Baseline)",
+            "description": "Results are presented as the percentage not improved, so that an effective treatment would be associated with a decrease in percentage\n\nScale:\n\nUninfected; non viral RNA detected: 0 Asymptomatic; viral RNA detected: 1 Symptomatic; Independent: 2 Symptomatic; Assistance needed: 3 Hospitalized; No oxygen therapy: 4 Hospitalized; oxygen by mask or nasal prongs: 5 Hospitalized; oxygen by NIV or High flow: 6 Intubation and Mechanical ventilation, pO2/FIO2\\>=150 OR SpO2/FIO2\\>=200: 7 Mechanical ventilation, (pO2/FIO2\\<150 OR SpO2/FIO2\\<200) OR vasopressors (norepinephrine \\>0.3 microg/kg/min): 8 Mechanical ventilation, pO2/FIO2\\<150 AND vasopressors (norepinephrine \\>0.3 microg/kg/min), OR Dialysis OR ECMO: 9",
+            "timeFrame": "4 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Cumulative Incidence (Percentage of Participants) With Successful Tracheal Extubation at Day 14 -- Critical COVID Population (WHO Clinical Progression Scale >5 at Baseline)",
+            "description": "Cumulative incidence of successful tracheal extubation (defined as duration extubation \\> 48h) at day 14 if patients have been intubated before day 14 ; or removal of Non Invasive Ventilation or high flow (for \\> 48h) if they were included under oxygen by Non Invasive Ventilation or High flow (score 6) and remained without intubation. Death or new do-not-resuscitate order (if given after the inclusion of the patient) will be considered as a competing event.",
+            "timeFrame": "Day 1 to Day 14"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 7,
+      "pred_count": 6,
+      "similarity_matrix": [
+        [
+          0.35,
+          0.95,
+          0.2,
+          0.18,
+          0.2,
+          0.18
+        ],
+        [
+          0.93,
+          0.2,
+          0.12,
+          0.35,
+          0.2,
+          0.18
+        ],
+        [
+          0.52,
+          0.35,
+          0.3,
+          0.5,
+          0.2,
+          0.1
+        ],
+        [
+          0.4,
+          0.22,
+          0.35,
+          0.86,
+          0.18,
+          0.28
+        ],
+        [
+          0.3,
+          0.4,
+          0.93,
+          0.4,
+          0.2,
+          0.18
+        ],
+        [
+          0.55,
+          0.3,
+          0.6,
+          0.4,
+          0.2,
+          0.08
+        ],
+        [
+          0.3,
+          0.08,
+          0.05,
+          0.4,
+          0.05,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants Surviving (Overall Survival)",
+            "description": "Percentage of participants surviving at 14, 28 and 90 days",
+            "timeFrame": "14, 28 and 90 days"
+          },
+          "pred_item": {
+            "measure": "Overall survival",
+            "description": "Mortality rates assessed at various time points.",
+            "timeFrame": "Day 14, Day 28, and Day 90"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "WHO Progression Scale",
+            "description": "WHO progression scale:\n\nUninfected; non viral RNA detected: 0 Asymptomatic; viral RNA detected: 1 Symptomatic; Independent: 2 Symptomatic; Assistance needed: 3 Hospitalized; No oxygen therapy: 4 Hospitalized; oxygen by mask or nasal prongs: 5 Hospitalized; oxygen by NIV or High flow: 6 Intubation and Mechanical ventilation, pO2/FIO2\\>=150 OR SpO2/FIO2\\>=200: 7 Mechanical ventilation, (pO2/FIO2\\<150 OR SpO2/FIO2\\<200) OR vasopressors (norepinephrine \\>0.3 microg/kg/min): 8 Mechanical ventilation, pO2/FIO2\\<150 AND vasopressors (norepinephrine \\>0.3 microg/kg/min), OR Dialysis OR ECMO: 9 Dead: 10",
+            "timeFrame": "4, 7 and 14 days"
+          },
+          "pred_item": {
+            "measure": "Clinical status assessed with the WHO-CPS",
+            "description": "Assessment of clinical status using the WHO Clinical Progression Scale (10-point ordinal scale).",
+            "timeFrame": "Day 7 and Day 14"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Mean of Ventilator Free-days at Day 28 -- Critical COVID Population (WHO-clinical Progression Scale >5 at Baseline)",
+            "description": "28-day ventilator free-days",
+            "timeFrame": "28 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Cumulative Incidence (Percentage of Participants) of Oxygen Supply Independency",
+            "description": "Time to oxygen supply independency",
+            "timeFrame": "28, 90 days"
+          },
+          "pred_item": {
+            "measure": "Time to oxygen supply independence",
+            "description": "Time until the patient is weaned from oxygen support.",
+            "timeFrame": "Up to Day 28"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 2,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Cumulative Incidence (Percentage of Participants) of Discharge From Hospital",
+            "description": "Time to discharge from hospital",
+            "timeFrame": "28, 90 days"
+          },
+          "pred_item": {
+            "measure": "Time to discharge",
+            "description": "Time until patient is discharged from the hospital.",
+            "timeFrame": "Up to Day 28"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 4,
+          "score": 0.2,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Cumulative Incidence (Percentage of Participants) of Intensive Care Unit Discharge -- Critical COVID Population (WHO Clinical Progression Scale >5 at Baseline)",
+            "description": "Time to discharge from Intensive Care Unit",
+            "timeFrame": "28, 90 days"
+          },
+          "pred_item": {
+            "measure": "Safety (Adverse Events)",
+            "description": "Occurrence of adverse events and serious adverse events.",
+            "timeFrame": "Through Day 90"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 5,
+          "score": 0.18,
+          "status": "matched",
+          "ref_item": {
+            "measure": "PaO2/FiO2 Ratio -- Critical COVID Population (WHO-CPS >5)",
+            "description": "evolution of PaO2/FiO2 ratio PaO2 is partial pressure of arterial oxygen expressed in mmHg. FiO2 is fraction of inspired oxygen (for instance, 0.33 for 33% oxygen) with no units.\n\nPaO2/FiO2 ratio is expressed in mmHg.",
+            "timeFrame": "day 1 to day 14"
+          },
+          "pred_item": {
+            "measure": "Biological factors",
+            "description": "Measurement of biological markers such as C-reactive protein concentration.",
+            "timeFrame": "During follow-up"
+          }
+        }
+      ]
+    }
+  ]
+}

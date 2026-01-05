@@ -1,0 +1,1626 @@
+{
+  "metadata": {
+    "case_id": 22,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:16:17.663852",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/22_NCT04195594.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/22_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Nic's Keto Diet",
+            "type": "EXPERIMENTAL",
+            "interventionNames": [
+              "Other: Nic's Keto Diet"
+            ]
+          },
+          "pred_item": {
+            "label": "Very-Low-Carbohydrate Ketogenic Diet (Nic's Ketogenic Diet)",
+            "type": "OTHER",
+            "description": "Single-arm, open-label pilot study in which all enrolled participants followed a very-low-carbohydrate ketogenic diet, known as Nic's Ketogenic Diet, for 140 days. The diet provided approximately 5% of total daily calories from carbohydrates, 70% from fat, and 25% from protein. Daily calorie needs were estimated by a registered dietitian using the Harris–Benedict equation and then multiplied by 0.9 to provide about 90% of energy requirements for weight maintenance. Participants were counseled to avoid sweeteners, all fruits except berries, starchy vegetables, low-fat dairy products, soy, grains, beans, and alcohol, and to consume green leafy and cruciferous vegetables, avocado, eggs, meat, seafood, fermented foods, high-fat dairy products, and organic/grass‑fed fats and oils. Mindful eating and intermittent fasting were encouraged. Participants received ongoing nutrition counseling, completed regular 3‑day food records, and monitored daily blood glucose and ketone levels.",
+            "interventionNames": [
+              "Nic's Ketogenic Diet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Nic's Keto Diet",
+            "description": "Participants will be instructed to follow Nic's keto diet plan for 140 days. They will be asked to not exceed 20 g of carbohydrates (up to 5% caloric intake) and to consume the remaining 70% of calories from fat sources and 25% from protein sources.",
+            "armGroupLabels": [
+              "Nic's Keto Diet"
+            ]
+          },
+          "pred_item": {
+            "type": "OTHER",
+            "name": "Nic's Ketogenic Diet",
+            "description": "A structured very-low-carbohydrate ketogenic diet intervention implemented for 140 consecutive days. The prescribed macronutrient distribution was 5% of energy from carbohydrates, 70% from fat, and 25% from protein. Total daily energy intake was set at approximately 90% of each participant's estimated maintenance needs based on the Harris–Benedict equation adjusted for age, height, weight, sex, and activity level. The diet emphasized green leafy and cruciferous vegetables, avocado, eggs, meat, seafood, fermented foods, high-fat dairy products, and organic/grass-fed fats and oils. Participants were advised to avoid sweeteners, most fruits (except berries), starchy vegetables, low-fat dairy, soy, grains, beans, and alcohol. Mindful eating (avoiding distractions and stopping when full) and intermittent fasting were encouraged but not rigidly prescribed. Compliance was supported through an e-book, mini e-course, regular counseling by a registered dietitian, weekly review of 3-day food records via an online application, and daily self-monitoring of fasting blood glucose and ketone levels.",
+            "armGroupLabels": [
+              "Very-Low-Carbohydrate Ketogenic Diet (Nic's Ketogenic Diet)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 6,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.84
+        ],
+        [
+          0.82
+        ],
+        [
+          0.86
+        ],
+        [
+          0.78
+        ],
+        [
+          0.68
+        ],
+        [
+          0.72
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Body Fat Percentage as Assessed by DEXA Scan From Baseline to Day 70 Following Nic's Keto Diet",
+            "description": "The DEXA scan is a form of X-ray radiation that measures the body tissue density, which was reported at baseline and compared to day 70.",
+            "timeFrame": "70 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Muscle Mass Percentage as Assessed by DEXA Scan From Baseline to Day 70 Following Nic's Keto Diet",
+            "description": "The DEXA scan is a form of X-ray radiation that measures the body tissue density, which was reported at baseline and compared to day 70.",
+            "timeFrame": "70 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Changes to Body Fat Percentage as Assessed by DEXA Scan From Baseline to Day 140 Following Nic's Keto Diet",
+            "description": "The DEXA scan is a form of X-ray radiation that measures the body tissue density, which was reported at baseline and compared to day 140.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": {
+            "measure": "Change in body composition by DEXA",
+            "description": "Pre- to postintervention change in total body fat percentage, android fat percentage, gynoid fat percentage, android/gynoid fat ratio, and muscle mass percentage measured by dual-energy X-ray absorptiometry (DEXA).",
+            "timeFrame": "Baseline (Day 0) to Day 70 and Day 140"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Muscle Mass Percentage as Assessed by DEXA Scan From Baseline to Day 140 Following Nic's Keto Diet",
+            "description": "The DEXA scan is a form of X-ray radiation that measures the body tissue density, which was reported at baseline and compared to day 140.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Weight as Assessed by BMI From Baseline to Day 70 Following Nic's Keto Diet",
+            "description": "Changes to weight as assessed by BMI was reported at baseline and compared to day 70.",
+            "timeFrame": "70 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Weight as Assessed by BMI From Baseline to Day 140 Following Nic's Keto Diet",
+            "description": "Changes to weight as assessed by BMI was reported at baseline and compared to day 140.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 43,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.3,
+          0.2,
+          0.2,
+          0.25,
+          0.25,
+          0.25
+        ],
+        [
+          0.82,
+          0.3,
+          0.2,
+          0.35,
+          0.2,
+          0.3,
+          0.2
+        ],
+        [
+          0.15,
+          0.32,
+          0.08,
+          0.9,
+          0.72,
+          0.3,
+          0.25
+        ],
+        [
+          0.2,
+          0.4,
+          0.1,
+          0.88,
+          0.7,
+          0.3,
+          0.25
+        ],
+        [
+          0.2,
+          0.35,
+          0.1,
+          0.86,
+          0.68,
+          0.22,
+          0.18
+        ],
+        [
+          0.2,
+          0.3,
+          0.1,
+          0.93,
+          0.78,
+          0.3,
+          0.25
+        ],
+        [
+          0.2,
+          0.25,
+          0.1,
+          0.2,
+          0.25,
+          0.82,
+          0.15
+        ],
+        [
+          0.18,
+          0.18,
+          0.1,
+          0.2,
+          0.25,
+          0.78,
+          0.18
+        ],
+        [
+          0.2,
+          0.3,
+          0.18,
+          0.2,
+          0.18,
+          0.86,
+          0.15
+        ],
+        [
+          0.3,
+          0.35,
+          0.05,
+          0.3,
+          0.2,
+          0.78,
+          0.2
+        ],
+        [
+          0.15,
+          0.2,
+          0.15,
+          0.2,
+          0.25,
+          0.82,
+          0.2
+        ],
+        [
+          0.35,
+          0.35,
+          0.18,
+          0.25,
+          0.2,
+          0.35,
+          0.72
+        ],
+        [
+          0.3,
+          0.35,
+          0.2,
+          0.35,
+          0.15,
+          0.3,
+          0.73
+        ],
+        [
+          0.3,
+          0.35,
+          0.15,
+          0.35,
+          0.2,
+          0.22,
+          0.74
+        ],
+        [
+          0.34,
+          0.25,
+          0.15,
+          0.35,
+          0.2,
+          0.45,
+          0.72
+        ],
+        [
+          0.42,
+          0.35,
+          0.18,
+          0.3,
+          0.15,
+          0.4,
+          0.72
+        ],
+        [
+          0.3,
+          0.45,
+          0.22,
+          0.35,
+          0.3,
+          0.45,
+          0.7
+        ],
+        [
+          0.35,
+          0.4,
+          0.25,
+          0.2,
+          0.2,
+          0.35,
+          0.73
+        ],
+        [
+          0.35,
+          0.35,
+          0.18,
+          0.2,
+          0.3,
+          0.28,
+          0.82
+        ],
+        [
+          0.25,
+          0.25,
+          0.1,
+          0.3,
+          0.2,
+          0.35,
+          0.78
+        ],
+        [
+          0.35,
+          0.62,
+          0.2,
+          0.3,
+          0.2,
+          0.4,
+          0.72
+        ],
+        [
+          0.3,
+          0.35,
+          0.18,
+          0.4,
+          0.3,
+          0.3,
+          0.74
+        ],
+        [
+          0.35,
+          0.35,
+          0.2,
+          0.25,
+          0.2,
+          0.3,
+          0.78
+        ],
+        [
+          0.35,
+          0.3,
+          0.12,
+          0.25,
+          0.4,
+          0.55,
+          0.78
+        ],
+        [
+          0.4,
+          0.62,
+          0.2,
+          0.2,
+          0.35,
+          0.32,
+          0.72
+        ],
+        [
+          0.2,
+          0.2,
+          0.18,
+          0.25,
+          0.3,
+          0.3,
+          0.78
+        ],
+        [
+          0.45,
+          0.32,
+          0.15,
+          0.3,
+          0.2,
+          0.35,
+          0.78
+        ],
+        [
+          0.2,
+          0.4,
+          0.21,
+          0.35,
+          0.4,
+          0.35,
+          0.78
+        ],
+        [
+          0.3,
+          0.68,
+          0.3,
+          0.25,
+          0.4,
+          0.4,
+          0.78
+        ],
+        [
+          0.3,
+          0.4,
+          0.18,
+          0.55,
+          0.3,
+          0.4,
+          0.78
+        ],
+        [
+          0.35,
+          0.4,
+          0.25,
+          0.35,
+          0.3,
+          0.45,
+          0.78
+        ],
+        [
+          0.3,
+          0.87,
+          0.2,
+          0.35,
+          0.4,
+          0.3,
+          0.2
+        ],
+        [
+          0.35,
+          0.85,
+          0.2,
+          0.3,
+          0.3,
+          0.42,
+          0.2
+        ],
+        [
+          0.4,
+          0.25,
+          0.98,
+          0.2,
+          0.45,
+          0.25,
+          0.15
+        ],
+        [
+          0.15,
+          0.3,
+          0.2,
+          0.9,
+          0.82,
+          0.2,
+          0.2
+        ],
+        [
+          0.25,
+          0.35,
+          0.2,
+          0.96,
+          0.65,
+          0.35,
+          0.2
+        ],
+        [
+          0.2,
+          0.25,
+          0.18,
+          0.2,
+          0.2,
+          0.76,
+          0.2
+        ],
+        [
+          0.18,
+          0.2,
+          0.22,
+          0.32,
+          0.2,
+          0.72,
+          0.18
+        ],
+        [
+          0.15,
+          0.3,
+          0.15,
+          0.25,
+          0.35,
+          0.78,
+          0.2
+        ],
+        [
+          0.25,
+          0.2,
+          0.18,
+          0.4,
+          0.25,
+          0.78,
+          0.2
+        ],
+        [
+          0.18,
+          0.18,
+          0.15,
+          0.2,
+          0.2,
+          0.74,
+          0.2
+        ],
+        [
+          0.25,
+          0.2,
+          0.18,
+          0.15,
+          0.2,
+          0.78,
+          0.15
+        ],
+        [
+          0.25,
+          0.28,
+          0.22,
+          0.28,
+          0.2,
+          0.86,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "The Change in Inflammation, as Assessed by the Change in Erythrocyte Sedimentation Rate (ESR) Following Nic's Keto Diet for 140 Days",
+            "description": "The change in inflammation, as assessed by the change in erythrocyte sedimentation rate (ESR) following Nic's Keto Diet was reported at 140 days.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": {
+            "measure": "Change in inflammatory markers",
+            "description": "Pre- to postintervention change in erythrocyte sedimentation rate (ESR) and C-reactive protein (CRP) to assess inflammation.",
+            "timeFrame": "Baseline (Day 0) to Day 140"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "The Change in Inflammation, as Assessed by the Change in C-reactive Protein (CRP) Following Nic's Keto Diet for 140 Days",
+            "description": "The change in inflammation, as assessed by the change in C-reactive protein (CRP) following Nic's Keto Diet was reported at 140 days.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Weight From Baseline to Day 28 Following Nic's Keto Diet",
+            "description": "Changes to weight from baseline were reported and compared to day 28 following Nic's Keto Diet.",
+            "timeFrame": "28 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Weight From Baseline to Day 56 Following Nic's Keto Diet",
+            "description": "Changes to weight from baseline were reported and compared to day 56 following Nic's Keto Diet.",
+            "timeFrame": "56 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Weight From Baseline to Day 84 Following Nic's Keto Diet",
+            "description": "Changes to weight from baseline were reported and compared to day 84 following Nic's Keto Diet.",
+            "timeFrame": "84 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Weight From Baseline to Day 112 Following Nic's Keto Diet",
+            "description": "Changes to weight from baseline were reported and compared to day 112 following Nic's Keto Diet.",
+            "timeFrame": "112 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Systolic Blood Pressure From Baseline to Day 28 Following Nic's Keto Diet",
+            "description": "Changes to systolic blood pressure from baseline were reported and compared to day 28 following Nic's Keto Diet.",
+            "timeFrame": "28 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Systolic Blood Pressure From Baseline to Day 56 Following Nic's Keto Diet",
+            "description": "Changes to systolic blood pressure from baseline were reported and compared to day 56 following Nic's Keto Diet.",
+            "timeFrame": "56 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 5,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Changes to Systolic Blood Pressure From Baseline to Day 84 Following Nic's Keto Diet",
+            "description": "Changes to systolic blood pressure from baseline were reported and compared to day 84 following Nic's Keto Diet.",
+            "timeFrame": "84 days"
+          },
+          "pred_item": {
+            "measure": "Change in blood pressure",
+            "description": "Change in systolic and diastolic blood pressure measured in mmHg.",
+            "timeFrame": "Baseline (Day 0) and Days 28, 56, 70, 84, 112, and 140"
+          }
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Systolic Blood Pressure From Baseline to Day 112 Following Nic's Keto Diet",
+            "description": "Changes to systolic blood pressure from baseline were reported and compared to day 112 following Nic's Keto Diet.",
+            "timeFrame": "112 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Systolic Blood Pressure From Baseline to Day 140 Following Nic's Keto Diet",
+            "description": "Changes to systolic blood pressure from baseline were reported and compared to day 140 following Nic's Keto Diet.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Total Cholesterol From Baseline to Day 28 Following Nic's Keto Diet",
+            "description": "Changes to total cholesterol were reported from baseline and compared to day 28 following Nic's Keto diet using blood analysis (units in mmol/L)",
+            "timeFrame": "28 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Triglyceride Level From Baseline to Day 28 Following Nic's Keto Diet",
+            "description": "Changes to triglyceride level were reported from baseline and compared to day 28 following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "28 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to HDL-Cholesterol From Baseline to Day 28 Following Nic's Keto Diet",
+            "description": "Changes to HDL-cholesterol from baseline to day 28 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "28 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to LDL-Cholesterol From Baseline to Day 28 Following Nic's Keto Diet",
+            "description": "Changes to LDL-cholesterol from baseline to day 28 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "28 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Total Cholesterol From Baseline to Day 56 Following Nic's Keto Diet",
+            "description": "Changes to total cholesterol from baseline to day 56 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "56 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Triglyceride Level From Baseline to Day 56 Following Nic's Keto Diet",
+            "description": "Changes to triglyceride level from baseline to day 56 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "56 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to HDL-Cholesterol From Baseline to Day 56 Following Nic's Keto Diet",
+            "description": "Changes to HDL-Cholesterol from baseline to day 56 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "56 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": 6,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Changes to LDL-Cholesterol From Baseline to Day 56 Following Nic's Keto Diet",
+            "description": "Changes to LDL-Cholesterol from baseline to day 56 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "56 days"
+          },
+          "pred_item": {
+            "measure": "Change in lipid profile",
+            "description": "Change in plasma lipid parameters including total cholesterol, LDL cholesterol, HDL cholesterol, triglycerides, total cholesterol/HDL cholesterol ratio, and triglyceride/HDL cholesterol ratio.",
+            "timeFrame": "Baseline (Day 0) and Days 28, 56, 70, 84, 112, and 140"
+          }
+        },
+        {
+          "ref_idx": 19,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Total Cholesterol From Baseline to Day 84 Following Nic's Keto Diet",
+            "description": "Changes to total cholesterol from baseline to day 84 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "84 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 20,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Triglyceride Level From Baseline to Day 84 Following Nic's Keto Diet",
+            "description": "Changes to triglyceride level from baseline to day 84 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "84 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 21,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to HDL-Cholesterol From Baseline to Day 84 Following Nic's Keto Diet",
+            "description": "Changes to HDL-Cholesterol from baseline to day 84 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "84 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 22,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to LDL-Cholesterol From Baseline to Day 84 Following Nic's Keto Diet",
+            "description": "Changes to LDL-Cholesterol from baseline to day 84 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "84 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 23,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Total Cholesterol From Baseline to Day 112 Following Nic's Keto Diet",
+            "description": "Changes to total cholesterol from baseline to day 112 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "112 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 24,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Triglyceride Level From Baseline to Day 112 Following Nic's Keto Diet",
+            "description": "Changes to triglyceride level from baseline to day 112 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "112 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 25,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to HDL-Cholesterol From Baseline to Day 112 Following Nic's Keto Diet",
+            "description": "Changes to HDL-Cholesterol from baseline to day 112 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "112 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 26,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to LDL-Cholesterol From Baseline to Day 112 Following Nic's Keto Diet",
+            "description": "Changes to LDL-Cholesterol from baseline to day 112 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "112 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 27,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Total Cholesterol From Baseline to Day 140 Following Nic's Keto Diet",
+            "description": "Changes to total cholesterol from baseline to day 140 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 28,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Triglyceride Level From Baseline to Day 140 Following Nic's Keto Diet",
+            "description": "Changes to triglyceride level from baseline to day 140 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 29,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to HDL-Cholesterol From Baseline to Day 140 Following Nic's Keto Diet",
+            "description": "Changes to HDL-Cholesterol from baseline to day 140 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 30,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to LDL-Cholesterol From Baseline to Day 140 Following Nic's Keto Diet",
+            "description": "Changes to LDL-Cholesterol from baseline to day 140 were reported following Nic's Keto diet using blood analysis (units in mmol/L).",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 31,
+          "pred_idx": 1,
+          "score": 0.87,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Changes to HbA1c From Baseline to Day 140 Following Nic's Keto Diet",
+            "description": "Changes to HbA1c were reported at baseline and compared to day 140 following Nic's Keto Diet.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": {
+            "measure": "Change in glucose control markers",
+            "description": "Pre- to postintervention change in fasting glucose and glycated hemoglobin (HbA1c) to assess glucose control.",
+            "timeFrame": "Baseline (Day 0) to Day 140"
+          }
+        },
+        {
+          "ref_idx": 32,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Fasting Glucose From Baseline to Day 140 Following Nic's Keto Diet",
+            "description": "Changes to fasting glucose were reported at baseline and compared to day 140 following Nic's Keto Diet.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 33,
+          "pred_idx": 2,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Changes to Free Tri-iodothyronine (T3) From Baseline to Day 140 Following Nic's Keto Diet",
+            "description": "Changes to free tri-iodothyronine (T3) were reported at baseline and compared to day 140 following Nic's Keto Diet.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": {
+            "measure": "Change in thyroid hormone (free T3)",
+            "description": "Pre- to postintervention change in free triiodothyronine (T3) to assess thyroid function.",
+            "timeFrame": "Baseline (Day 0) to Day 140"
+          }
+        },
+        {
+          "ref_idx": 34,
+          "pred_idx": 4,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Changes to Weight From Baseline to Day 70 Following Nic's Keto Diet",
+            "description": "Changes to weight were reported from baseline and compared to day 70 following Nic's Keto Diet.",
+            "timeFrame": "70 days"
+          },
+          "pred_item": {
+            "measure": "Change in body mass index (BMI)",
+            "description": "Change in body mass index calculated from weight and height.",
+            "timeFrame": "Baseline (Day 0), Day 70, and Day 140"
+          }
+        },
+        {
+          "ref_idx": 35,
+          "pred_idx": 3,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Changes to Weight From Baseline to Day 140 Following Nic's Keto Diet",
+            "description": "Changes to weight were reported from baseline and compared to Day 140 following Nic's Keto Diet.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": {
+            "measure": "Change in body weight",
+            "description": "Change in body weight from baseline, measured in kilograms.",
+            "timeFrame": "Baseline (Day 0) and Days 28, 56, 70, 84, 112, and 140"
+          }
+        },
+        {
+          "ref_idx": 36,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Systolic Blood Pressure From Baseline to Day 70 Following Nic's Keto Diet",
+            "description": "Changes to systolic blood pressure were reported from baseline and compared to Day 70 following Nic's Keto Diet.",
+            "timeFrame": "70 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 37,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Diastolic Blood Pressure From Baseline to Day 28 Following Nic's Keto Diet",
+            "description": "Changes to diastolic blood pressure were reported from baseline and compared to Day 28 following Nic's Keto Diet.",
+            "timeFrame": "28 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 38,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Diastolic Blood Pressure From Baseline to Day 56 Following Nic's Keto Diet",
+            "description": "Changes to diastolic blood pressure were reported from baseline and compared to Day 56 following Nic's Keto Diet.",
+            "timeFrame": "56 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 39,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Diastolic Blood Pressure From Baseline to Day 70 Following Nic's Keto Diet",
+            "description": "Changes to diastolic blood pressure were reported from baseline and compared to Day 70 following Nic's Keto Diet.",
+            "timeFrame": "70 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 40,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Diastolic Blood Pressure From Baseline to Day 84 Following Nic's Keto Diet",
+            "description": "Changes to diastolic blood pressure were reported from baseline and compared to Day 84 following Nic's Keto Diet.",
+            "timeFrame": "84 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 41,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Diastolic Blood Pressure From Baseline to Day 112 Following Nic's Keto Diet",
+            "description": "Changes to diastolic blood pressure were reported from baseline and compared to Day 112 following Nic's Keto Diet.",
+            "timeFrame": "112 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 42,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Changes to Diastolic Blood Pressure From Baseline to Day 140 Following Nic's Keto Diet",
+            "description": "Changes to diastolic blood pressure were reported from baseline and compared to Day 140 following Nic's Keto Diet.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.otherOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 28,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.05,
+          0.02
+        ],
+        [
+          0.79,
+          0.18,
+          0.25
+        ],
+        [
+          0.68,
+          0.18,
+          0.32
+        ],
+        [
+          0.68,
+          0.2,
+          0.2
+        ],
+        [
+          0.08,
+          0.32,
+          0.35
+        ],
+        [
+          0.63,
+          0.2,
+          0.3
+        ],
+        [
+          0.68,
+          0.2,
+          0.3
+        ],
+        [
+          0.4,
+          0.2,
+          0.35
+        ],
+        [
+          0.35,
+          0.15,
+          0.2
+        ],
+        [
+          0.62,
+          0.3,
+          0.25
+        ],
+        [
+          0.58,
+          0.25,
+          0.2
+        ],
+        [
+          0.63,
+          0.35,
+          0.2
+        ],
+        [
+          0.42,
+          0.3,
+          0.2
+        ],
+        [
+          0.35,
+          0.18,
+          0.2
+        ],
+        [
+          0.35,
+          0.18,
+          0.2
+        ],
+        [
+          0.2,
+          0.18,
+          0.2
+        ],
+        [
+          0.18,
+          0.35,
+          0.35
+        ],
+        [
+          0.15,
+          0.18,
+          0.3
+        ],
+        [
+          0.25,
+          0.2,
+          0.25
+        ],
+        [
+          0.3,
+          0.25,
+          0.2
+        ],
+        [
+          0.25,
+          0.18,
+          0.2
+        ],
+        [
+          0.43,
+          0.2,
+          0.18
+        ],
+        [
+          0.18,
+          0.2,
+          0.18
+        ],
+        [
+          0.32,
+          0.3,
+          0.3
+        ],
+        [
+          0.3,
+          0.2,
+          0.35
+        ],
+        [
+          0.35,
+          0.15,
+          0.2
+        ],
+        [
+          0.32,
+          0.25,
+          0.2
+        ],
+        [
+          0.25,
+          0.32,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Pre-emergent and Post-emergent Adverse Events",
+            "description": "Number of pre-emergent and post-emergent adverse events (AEs)",
+            "timeFrame": "140 days"
+          },
+          "pred_item": {
+            "measure": "Safety outcomes",
+            "description": "Incidence of adverse events, changes in electrocardiogram (ECG), heart rate, clinical chemistry, hematology, electrolytes, and liver and kidney function markers to evaluate safety and tolerability.",
+            "timeFrame": "From baseline (Day 0) through Day 140"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Abnormal Electrocardiogram (ECG) Readings After 70 Days Following Nic's Keto Diet",
+            "description": "ECG reports will be analysed after 70 days of following Nic's Keto Diet and compared to baseline. All ECGs will be assessed by the Qualified Investigator on a case-by-case basis to determine if they were normal or abnormal based on the full clinical picture and patient details. Number of participants with clinically relevant abnormal ECGs will be recorded.",
+            "timeFrame": "70 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Abnormal Electrocardiogram (ECG) Readings After 140 Days Following Nic's Keto Diet",
+            "description": "ECG reports will be analysed after 140 days of following Nic's Keto Diet and compared to baseline. All ECGs will be assessed by the Qualified Investigator on a case-by-case basis to determine if they were normal or abnormal based on the full clinical picture and patient details. Number of participants with clinically relevant abnormal ECGs will be recorded.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Heart Rate After 140 Days of Following Nic's Keto Diet",
+            "description": "Changes in heart rate after 140 days of following Nic's Keto Diet and compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Body Mass Index (BMI) After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in Body Mass Index (BMI) after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Alanine Aminotransferase (ALT) After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in alanine aminotransferase (ALT) after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Aspartate Aminotransferase (AST) After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in aspartate aminotransferase (AST) after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Total Bilirubin After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in total bilirubin after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Creatinine After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in creatinine after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Sodium Electrolyte Levels After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in sodium electrolyte levels after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Potassium Electrolyte Levels After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in potassium electrolyte levels after 140 days of following Nic's Keto Diet",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": 1,
+          "score": 0.35,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Chloride Electrolyte Levels After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in chloride electrolyte levels after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": {
+            "measure": "Dietary intake and macronutrient composition",
+            "description": "Change in daily energy intake and distribution of macronutrients (percentage of calories from carbohydrates, fat, and protein) assessed via 3-day food records to evaluate compliance with the very-low-carbohydrate ketogenic diet.",
+            "timeFrame": "Preintervention (Week 0) and during intervention up to Day 140 (e.g., Week 20)"
+          }
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Phosphorus Electrolyte Levels After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in phosphorus electrolyte levels after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Estimated Glomerular Filtration Rate (eGFR) After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in estimated glomerular filtration rate (eGFR) after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Amount of Neutrophils After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in amount of neutrophils after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Amount of Lymphocytes After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in amount of lymphocytes after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Amount of Monocytes After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in amount of monocytes after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Amount of Eosinophils After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in amount of eosinophils after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Amount of Basophils After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in amount of basophils after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 19,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Red Blood Cell (RBC) Count After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in red blood cell (RBC) count after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 20,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Hemoglobin Levels After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in hemoglobin levels after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 21,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Hematocrit Levels After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in hematocrit levels after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 22,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Platelet Count After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in platelet count after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 23,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Mean Corpuscular Volume (MCV) After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in mean corpuscular volume (MCV) after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 24,
+          "pred_idx": 2,
+          "score": 0.35,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Mean Corpuscular Hemoglobin (MCH) After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in mean corpuscular hemoglobin (MCH) after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": {
+            "measure": "Ketosis markers",
+            "description": "Daily fasting blood ketone concentrations and glucose ketone index to assess degree of nutritional ketosis.",
+            "timeFrame": "Daily from baseline (Day 0) through Day 140"
+          }
+        },
+        {
+          "ref_idx": 25,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Mean Corpuscular Hemoglobin Concentration (MCHC) After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in mean corpuscular hemoglobin concentration (MCHC) after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 26,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Red Cell Distribution Width (RDW) After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in red cell distribution width (RDW) after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 27,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Mean Platelet Volume (MPV) After 140 Days of Following Nic's Keto Diet",
+            "description": "Change in mean platelet volume (MPV) after 140 days of following Nic's Keto Diet compared to baseline.",
+            "timeFrame": "140 days"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

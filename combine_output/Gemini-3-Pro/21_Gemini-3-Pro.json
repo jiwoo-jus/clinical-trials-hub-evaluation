@@ -1,0 +1,168 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02555254",
+      "orgStudyIdInfo": {
+        "id": "15-03-11",
+        "type": "OTHER",
+        "link": null
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "Centre Hospitalier Departement de la Vendée",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "ISOCRATe: Impact of Speed Of rewarming after CaRdiac ArresT(e)",
+      "officialTitle": "Impact of Speed Of rewarming after CaRdiac ArresT(e) trial: a single-center randomized controlled trial comparing rewarming at 0.50 °C/h versus 0.25 °C/h in patients coma after shockable OHCA",
+      "acronym": "ISOCRATE"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study, known as the ISOCRATE trial, evaluated whether the rate of rewarming after targeted temperature management (TTM) affects systemic inflammation in patients who remained comatose after shockable out-of-hospital cardiac arrest (OHCA). The researchers compared two rewarming rates: a slower rate of 0.25 °C/h versus a faster rate of 0.50 °C/h, after patients had been maintained at 33 °C for 24 hours. The primary hypothesis was that slower rewarming would lead to lower serum levels of interleukin-6 (IL6), a marker of inflammation.",
+      "detailedDescription": "The ISOCRATe (Impact of Speed Of rewarming after CaRdiac ArresT(e)) trial was a single-center, randomized controlled trial conducted in a medical-surgical ICU in France. It aimed to assess the impact of rewarming rates on post-cardiac arrest syndrome (PCAS) inflammation markers.\n\nParticipants were adults (18 years or older) who were unconscious (GCS score <= 8) after OHCA with a shockable rhythm and received TTM at 33 °C using a closed-loop cooling device (Artic Sun). Patients were randomized 18-24 hours after reaching 33 °C to ensure survival through the induction/maintenance phase. They were allocated in a 1:1 ratio to either the 0.25 °C/h or 0.50 °C/h rewarming rate group.\n\nThe primary outcome measured was the serum IL6 level (calculated as area-under-the-curve) 24–48 hours after reaching the target temperature of 33 °C. Secondary outcomes included day-90 Cerebral Performance Category (CPC) scores, neurofilament light-chain (NF-L) levels at 48 hours, neuron-specific enolase (NSE) levels, mortality, and other inflammatory biomarkers (IL2, IL4, IL8, IL10, GM-CSF, TNFα, CRP, and procalcitonin)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Out-of-Hospital Cardiac Arrest",
+        "Coma",
+        "Systemic Inflammation",
+        "Post-Cardiac Arrest Syndrome"
+      ],
+      "keywords": [
+        "Targeted Temperature Management",
+        "Rewarming rate",
+        "Interleukin-6",
+        "Hypothermia",
+        "Shockable rhythm"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Single-center randomized controlled trial comparing rewarming at 0.50 °C/h versus 0.25 °C/h. Patients were randomly allocated in a 1:1 ratio.",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Blinding of the staff providing patient care was not feasible. However, the psychologist who assessed the day-90 outcomes in all patients was blinded to group assignment.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention group: 0.25 °C/h rewarming rate",
+          "type": "EXPERIMENTAL",
+          "description": "Patients in this group received rewarming at a rate of 0.25 °C/h after targeted temperature management at 33 °C.",
+          "interventionNames": [
+            "Procedure: Slower Rewarming (0.25 °C/h)"
+          ]
+        },
+        {
+          "label": "Control group: 0.50 °C/h rewarming rate",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients in this group received rewarming at a rate of 0.50 °C/h after targeted temperature management at 33 °C.",
+          "interventionNames": [
+            "Procedure: Standard Rewarming (0.50 °C/h)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Slower Rewarming (0.25 °C/h)",
+          "description": "The rewarming rate on the closed-loop cooling device (Artic Sun) was set at 0.25 °C/h followed by maintenance at 37 °C for 24 h.",
+          "armGroupLabels": [
+            "Intervention group: 0.25 °C/h rewarming rate"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Standard Rewarming (0.50 °C/h)",
+          "description": "The rewarming rate on the closed-loop cooling device (Artic Sun) was set at 0.50 °C/h followed by maintenance at 37 °C for 24 h.",
+          "armGroupLabels": [
+            "Control group: 0.50 °C/h rewarming rate"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Serum IL6 level",
+          "description": "Area under the curve (AUC) of serum interleukin-6 (IL6) levels.",
+          "timeFrame": "24–48 hours after reaching 33 °C"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cerebral Performance Category (CPC) Score",
+          "description": "Proportion of patients with a favorable functional outcome, defined as a CPC score of 1 or 2 (CPC 1 = good performance, CPC 2 = moderate disability).",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "ICU Mortality",
+          "description": "Rate of death occurring within the Intensive Care Unit.",
+          "timeFrame": "Duration of ICU stay (up to discharge)"
+        },
+        {
+          "measure": "Day-90 Mortality",
+          "description": "Rate of death occurring by 90 days post-randomization.",
+          "timeFrame": "Day 90"
+        },
+        {
+          "measure": "ICU Stay Length",
+          "description": "Duration of stay in the Intensive Care Unit.",
+          "timeFrame": "Duration of ICU stay (up to discharge)"
+        },
+        {
+          "measure": "Duration of Mechanical Ventilation",
+          "description": "Length of time the patient required mechanical ventilation.",
+          "timeFrame": "Through study completion, average 4-6 days"
+        },
+        {
+          "measure": "Serum Biomarker Levels (Cytokines)",
+          "description": "Comparison of serum levels for IL2, IL4, IL8, IL10, granulocyte–macrophage colony-stimulating factor (GM-CSF), tumor necrosis factor alpha (TNFα), C-reactive protein (CRP), and procalcitonin.",
+          "timeFrame": "Achievement of 33 °C (H0) then 12, 24, 36, 40, and 48 hours later"
+        },
+        {
+          "measure": "Serum Neurofilament Light-chain (NF-L) Level",
+          "description": "Serum concentration of NF-L.",
+          "timeFrame": "48 hours after OHCA"
+        },
+        {
+          "measure": "Serum Neuron-specific Enolase (NSE) Level",
+          "description": "Serum concentration of NSE.",
+          "timeFrame": "48 hours and 72 hours after OHCA"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Adults (18 years of age or older)\n- Unconscious (Glasgow Coma Scale [GCS] score ≤ 8 at ICU admission) after OHCA in a shockable rhythm, due to any cause\n- Received TTM at 33 °C with a closed-loop cooling device (Artic Sun)\n\nExclusion Criteria:\n- No-flow time (from collapse to initiation of external cardiac massage) > 10 min\n- Low-flow time (from initiation of external cardiac massage to ROSC) > 60 min\n- Major hemodynamic instability (defined as a continuous epinephrine or norepinephrine infusion at a flow rate > 1 µg/Kg/min)\n- Time from cardiac arrest to study inclusion > 300 min\n- Moribund patient (patient deemed by the attending physician to be likely to die before the end of the TTM maintenance phase, i.e., before randomization)\n- Child–Pugh C cirrhosis of the liver\n- Treatment with an IL6 receptor antagonist (e.g., tocilizumab)\n- Treatment with > 5 mg prednisolone-equivalent at the time of cardiac arrest\n- Age < 18 years\n- Pregnancy or breastfeeding\n- Correctional facility inmate\n- Previous inclusion in another RCT on cardiac arrest with day-90 functional outcome as the primary endpoint\n- No coverage by the statutory French health insurance system\n- Refusal by next of kin",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

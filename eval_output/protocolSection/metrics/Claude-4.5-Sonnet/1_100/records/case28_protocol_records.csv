@@ -1,0 +1,50 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT02864381,NCT02864381,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,TP,Study to Evaluate the Efficacy and Safety of Andecaliximab Combined With Nivolumab Versus Nivolumab Alone in Adults With Unresectable or Recurrent Gastric or Gastroesophageal Junction Adenocarcinoma,"Randomized, open-label, phase 2 study of andecaliximab plus nivolumab versus nivolumab alone in advanced gastric cancer",True,0.94,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,TP,"A Phase 2, Open-Label, Randomized Study to Evaluate the Efficacy and Safety of GS-5745 Combined With Nivolumab Versus Nivolumab Alone in Subjects With Unresectable or Recurrent Gastric or Gastroesophageal Junction Adenocarcinoma","Randomized, open-label, phase 2 study of andecaliximab plus nivolumab versus nivolumab alone in advanced gastric cancer identifies biomarkers associated with survival",True,0.93,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,The primary objective of this study is to evaluate and compare the efficacy of andecaliximab (GS-5745) in combination with nivolumab versus nivolumab alone in adults with recurrent gastric or gastroesophageal junction (GEJ) adenocarcinoma.,,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,"['Gastric Adenocarcinoma', 'Gastroesophageal Junction Adenocarcinoma']",,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,Patients were randomized 1:1 (stratified by PD-L1 status (≥1% vs <1% TC staining)) to ADX+NIVO or NIVO alone,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,This was an open-label study,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,TP,144,144,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Blood-based and Tissue-based Biomarkers,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,"Exploratory assessment of baseline and change from baseline values of biomarkers including PD-L1 expression, CD8+ cell density, gene expression signatures (IFN-γ, T-effector, activated T cells, TGF-β fibrosis, EMT), tumor mutation burden (TMB), mismatch repair deficiency (dMMR), HER2 status, and chromosome instability signatures",,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,Baseline and on-treatment biopsies obtained between weeks 5 and 9 of treatment,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,FN,FN,"Key Inclusion Criteria:
+
+* Histologically confirmed inoperable locally advanced or metastatic adenocarcinoma of the stomach or GEJ which have progressed on at least 1 prior systemic therapy or line of treatment for unresectable/metastatic disease
+* Eastern Cooperative Oncology Group (ECOG) performance score of ≤ 1
+* Measurable disease according to Response Criteria in Solid Tumors (RECIST) v1.1
+* Tumor sites that can be accessed for repeat biopsies
+* Archival tumor tissue, preferably obtained from the most recent available biopsy; there must be adequate tissue for a Cochran-Mantel Haenszel (CMH) test stratified by programmed death ligand 1 (PD-L1) stratification test, as assessed by central pathologist
+* Individuals not receiving anticoagulant medication must have an international normalized ratio (INR) ≤ 1.5 and activated partial thromboplastin (aPTT) ≤ 1.5 x upper limit of normal (ULN)
+* Required baseline laboratory data as outlined in protocol
+
+Key Exclusion Criteria:
+
+* Individuals who have received only neoadjuvant or adjuvant therapy for gastric adenocarcinoma
+* Radiotherapy within 28 days of randomization
+* Uncontrolled intercurrent illness as outlined in protocol
+* History of a concurrent or second malignancy except for those outlined in protocol
+* Major surgery, within 28 days of first dose of study drug
+* Known positive status for human immunodeficiency virus (HIV)
+* Known acute or chronic-active infection with hepatitis B virus (HBV) or hepatitis C virus (HCV)
+* Chronic daily treatment with oral corticosteroids (dose of \> 10 mg/day prednisone equivalent) or other immunosuppressive medications within 14 days of randomization
+* Known or suspected central nervous system metastases
+* Documented myocardial infarction or unstable/uncontrolled cardiac disease within 6 months of randomization
+* Serious systemic fungal, bacterial, viral, or other infection that is not controlled or requires intravenous antibiotics
+* Current or history of pneumonitis or interstitial lung disease
+* Active known or suspected autoimmune disease with exceptions noted in protocol.
+* History of bone marrow, stem cell, or allogenic organ transplantation
+
+NOTE: Other protocol defined Inclusion/ Exclusion criteria may apply.",,False,0.0,,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,FN,FN,False,,False,0.0,,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,FN,FN,ALL,,False,0.0,,Sex,protocolSection.eligibilityModule.sex,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,FN,FN,18 Years,,False,0.0,,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,FN,FN,"['ADULT', 'OLDER_ADULT']",,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

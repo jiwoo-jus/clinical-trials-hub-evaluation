@@ -1,0 +1,202 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01999868",
+      "orgStudyIdInfo": {
+        "id": "DAIT ITN059AI"
+      },
+      "organization": {
+        "fullName": "National Institute of Allergy and Infectious Diseases (NIAID)",
+        "class": "NIH"
+      },
+      "briefTitle": "Efficacy of Ustekinumab Followed by Abatacept for the Treatment of Psoriasis Vulgaris",
+      "officialTitle": "Efficacy of Ustekinumab (Anti-IL-12/23) Followed by Abatacept (CTLA4-Ig) for the Treatment of Psoriasis Vulgaris (ITN059AI)",
+      "acronym": "PAUSE"
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to determine if the use of ustekinumab, followed by abatacept, will prevent relapse in people with moderate to severe plaque psoriasis.",
+      "detailedDescription": "Psoriasis is a chronic immune disease of the skin and joints that affects about 2% of the population. The most common form of psoriasis is plaque psoriasis, also called psoriasis vulgaris. A variety of drugs, including biologics, are available for treatment of moderate to severe psoriasis. When biologic agents are stopped, psoriasis can return (relapse) and often requires the biologic to be restarted and continued. No treatment program has been identified to prevent relapse of psoriasis.\n\nThe study design has a lead-in period of weight-based ustekinumab treatment, with all participants receiving either 45 mg ustekinumab (\\<= 100 kg) or 90 mg ustekinumab (\\> 100 kg) administered subcutaneously at weeks 0 and 4. At week 12, participants will be assessed for a Psoriasis Area and Severity Index (PASI) 75 response to ustekinumab. Participants who do not achieve a PASI 75 score will be discontinued from the investigation and permitted to seek standard therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Psoriasis"
+      ],
+      "keywords": [
+        "psoriasis vulgaris",
+        "ustekinumab",
+        "abatacept"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 108,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "UST, ABA/UST Placebo",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received 2 subcutaneous injections of open-label ustekinumab (UST) (45 mg for participants weighing \\<=100 kg at study entry or 90 mg for those weighing \\>100 kg at study entry), at Weeks 0 and 4 during the lead-in phase and were then randomized to receive blinded (masked) treatment of abatacept (ABA) (125 mg) subcutaneous injections weekly from Week 12 to 39, in addition to ustekinumab placebo subcutaneous injections at Weeks 16 and 28.",
+          "interventionNames": [
+            "Biological: Ustekinumab",
+            "Biological: Abatacept",
+            "Drug: UST Placebo"
+          ]
+        },
+        {
+          "label": "UST, UST/ABA Placebo",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received 2 subcutaneous injections of open-label ustekinumab (UST) (45 mg for participants weighing \\<=100 kg at study entry or 90 mg for those weighing \\>100 kg at study entry), at Weeks 0 and 4 during the lead-in phase and were then randomized to receive blinded (masked) treatment of ustekinumab (45 mg if \\<=100 kg or 90 mg if \\>100 kg at study entry) subcutaneous injections at Weeks 16 and 28, in addition to abatacept (ABA) placebo subcutaneous injections weekly from Week 12 to 39.",
+          "interventionNames": [
+            "Biological: Ustekinumab",
+            "Drug: ABA Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Ustekinumab",
+          "description": "Ustekinumab interferes with the actions of proteins, interleukin 12 (IL12) and interleukin 23 (IL23), which reduces inflammation (swelling) in the skin. Stelara™ is the trade name for ustekinumab and is approved by the U.S. Food and Drug Administration (FDA) to treat psoriasis.\n\nDose:\n\nParticipants who weigh \\<= 100 kg at study entry will receive 45 mg of ustekinumab.\n\nParticipants who weigh \\> 100 kg at study entry will receive 90 mg of ustekinumab.",
+          "armGroupLabels": [
+            "UST, ABA/UST Placebo",
+            "UST, UST/ABA Placebo"
+          ],
+          "otherNames": [
+            "anti-IL-12/23",
+            "Stelara"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Abatacept",
+          "description": "Abatacept (one form of the protein called CTLA4-Ig) interacts with the immune system, reducing the activity of T-cells and may prevent relapse. Orencia™ is the trade name for abatacept, and it is approved by the FDA to treat rheumatoid arthritis in adults.\n\nDose:\n\n125 mg sub-cutaneous injection",
+          "armGroupLabels": [
+            "UST, ABA/UST Placebo"
+          ],
+          "otherNames": [
+            "CTLA4-Ig",
+            "cytotoxic T lymphocyte antigen immunoglobulin fusion protein",
+            "Orencia"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "UST Placebo",
+          "description": "The abatacept treatment group will also receive subcutaneous placebo for ustekinumab (sterile normal saline) at week 16 and week 28, corresponding to the ustekinumab dosing regimen.",
+          "armGroupLabels": [
+            "UST, ABA/UST Placebo"
+          ],
+          "otherNames": [
+            "Placebo for Ustekinumab",
+            "Ustekinumab Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "ABA Placebo",
+          "description": "The ustekinumab treatment group will also receive weekly subcutaneous injections of placebo for abatacept from week 12 to week 39, corresponding to the abatacept dosing regimen.",
+          "armGroupLabels": [
+            "UST, UST/ABA Placebo"
+          ],
+          "otherNames": [
+            "Placebo for Abatacept",
+            "Abatacept Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants Who Experienced Psoriasis Relapse (Treating Drop-Outs as Relapse)",
+          "description": "The percentage of participants who experienced psoriasis relapse in the interval from Week 12 to 88. Psoriasis relapse is defined as loss of ≥ 50% of the initial Psoriasis Area and Severity Index (PASI) improvement measured at Week 12. This occurs if the participant obtains a PASI score at any evaluation during the specified time interval that is ≥ Week 12 PASI + \\[(Baseline PASI -Week 12 PASI)/2\\]). Participants who terminated early from the study (drop-outs) were considered to have experienced relapse at time of drop-out. PASI is an assessment for psoriasis severity based on 4 body areas: Head and Neck, Upper Extremities, Trunk, and Lower Extremities. Psoriasis severity within each body area is assessed for Redness (score 0-4), Thickness (score 0-4) and Scaling (score 0-4). Scores for each body area are summed and weighted by the affected Body Surface Area (score 0-6) to produce the total score. The score ranges from 0 (no psoriasis present) to 72 (very severe psoriasis).",
+          "timeFrame": "Post-randomization (Week 12 to 88)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Participants Who Experienced Psoriasis Relapse (Treating Drop-Outs as No Relapse)",
+          "description": "The percentage of participants who experienced psoriasis relapse in the interval from Week 12 to 88. Psoriasis relapse is defined as loss of ≥ 50% of the initial Psoriasis Area and Severity Index (PASI) improvement measured at Week 12 (Baseline PASI -Week 12 PASI). Participants who terminated early from the study due to reasons other than psoriasis relapse or worsening psoriasis (drop-outs) were considered to have not experienced relapse at time of drop-out. PASI is an assessment for psoriasis severity based on 4 body areas: Head and Neck, Upper Extremities, Trunk, and Lower Extremities. Psoriasis severity within each body area is assessed for Redness (score 0-4), Thickness (score 0-4) and Scaling (score 0-4). Scores for each body area are summed and weighted by the affected Body Surface Area (score 0-6) to produce the total score. The score ranges from 0 (no psoriasis present) to 72 (very severe psoriasis).",
+          "timeFrame": "Post-randomization (Week 12 to 88)"
+        },
+        {
+          "measure": "Percentage of Participants Who Experienced Psoriasis Relapse (Treating Drop-Outs as Missing Relapse Status)",
+          "description": "The percentage of participants who experienced psoriasis relapse in the interval from Week 12 to 88. Psoriasis relapse is defined as loss of ≥ 50% of the initial Psoriasis Area and Severity Index (PASI) improvement measured at Week 12 (Baseline PASI -Week 12 PASI). Participants who terminated early due to reasons other than psoriasis relapse or worsening psoriasis were considered to have a missing relapse status at time of drop-out and were excluded from the analyses. PASI is an assessment for psoriasis severity based on 4 body areas: Head and Neck, Upper Extremities, Trunk, and Lower Extremities. Psoriasis severity within each body area is assessed for Redness (score 0-4), Thickness (score 0-4) and Scaling (score 0-4). Scores for each body area are summed and weighted by the affected Body Surface Area (score 0-6) to produce the total score. The score ranges from 0 (no psoriasis present) to 72 (very severe psoriasis).",
+          "timeFrame": "Post-randomization (Week 12 to 88)"
+        },
+        {
+          "measure": "Time to Psoriasis Relapse (Treating Drop-Outs as Relapse)",
+          "description": "Time in weeks from Week 12 to psoriasis relapse. Psoriasis relapse is defined as loss of ≥ 50% of the initial Psoriasis Area and Severity Index (PASI) improvement measured at Week 12. This occurs if the participant obtains a PASI score at any evaluation during the specified time interval that is ≥ Week 12 PASI + \\[(Baseline PASI -Week 12 PASI)/2\\]). Participants who terminated early from the study (drop-outs) were considered to have experienced relapse at time of drop-out. PASI is an assessment for psoriasis severity based on 4 body areas: Head and Neck, Upper Extremities, Trunk, and Lower Extremities. Psoriasis severity within each body area is assessed for Redness (score 0-4), Thickness (score 0-4) and Scaling (score 0-4). Scores for each body area are summed and weighted by the affected Body Surface Area (score 0-6) to produce the total score. The score ranges from 0 (no psoriasis present) to 72 (very severe psoriasis).",
+          "timeFrame": "Post-randomization (Week 12 to 88)"
+        },
+        {
+          "measure": "Time to Psoriasis Relapse (Treating Drop-Outs as Censored)",
+          "description": "Time in weeks from Week 12 to psoriasis relapse. Psoriasis relapse is defined as loss of ≥ 50% of the initial Psoriasis Area and Severity Index (PASI) improvement measured at Week 12. This occurs if the participant obtains a PASI score at any evaluation during the specified time interval that is ≥ Week 12 PASI + \\[(Baseline PASI -Week 12 PASI)/2\\]). Participants who terminated early from the study due to reasons other than psoriasis relapse or worsening psoriasis (drop-outs) were censored at the time of drop-out. PASI is an assessment for psoriasis severity based on 4 body areas: Head and Neck, Upper Extremities, Trunk, and Lower Extremities. Psoriasis severity within each body area is assessed for Redness (score 0-4), Thickness (score 0-4) and Scaling (score 0-4). Scores for each body area are summed and weighted by the affected Body Surface Area (score 0-6) to produce the total score. The score ranges from 0 (no psoriasis present) to 72 (very severe psoriasis).",
+          "timeFrame": "Post-randomization (Week 12 to 88)"
+        },
+        {
+          "measure": "Percentage of Participants Who Were Cleared or Minimal in the Physician's Global Assessment (PGA)",
+          "description": "Percentage of participants who were classified as cleared or minimal in the Physician's Global Assessment (PGA) average score at the specified post-randomization time point. The PGA assesses the severity of the psoriasis in 3 components: induration, erythema and scaling. Each component is given a score ranging from 0 to 5 based on the majority of the participant's psoriasis lesions, with higher scores indicating worse disease. A PGA average score \\< 1.5 was classified as \"cleared or minimal.\"",
+          "timeFrame": "Week 40, Week 88"
+        },
+        {
+          "measure": "Change in Dermatology Life Quality Index (DLQI)",
+          "description": "Change in the Dermatology Life Quality Index (DLQI) score from Week 12 to the specified post-randomization time point. DLQI is a 10-question, participant-reported questionnaire that assesses quality of life with respect to skin conditions in the areas of symptoms and feelings, daily activities, leisure, work and school, personal relationships and treatment. Each question measures the level of effect that the skin condition has on quality of life, and responses range from 'Not at all' (score = 0) to 'Very much' (score = 3). The overall score is the sum of the scores for all 10 questions and ranges from 0-30, with higher scores indicating worse quality of life.",
+          "timeFrame": "Week 40, Week 88"
+        },
+        {
+          "measure": "Frequency and Severity of Adverse Events and Serious Adverse Events (By Participant, Lead-in Phase)",
+          "description": "Number of participants who experienced adverse events (AEs) during the lead-in phase (Week 0 to 12), classified by severity and type. AEs were classified by grade according to the National Cancer Institute's (NCI's) Common Toxicity Criteria for Adverse Events (CTCAE) version 4.03, and all Grade 2 or greater AEs were collected in the database. In addition, new onset or worsening psoriatic arthritis was separately collected and graded from 1 to 3 along a study-specific functional scale. AEs were also classified based on relatedness to study drug, whether they led to study drug discontinuation, and whether they were AEs of special interest as specified in the protocol.",
+          "timeFrame": "Lead-In Phase (Week 0 to 12)"
+        },
+        {
+          "measure": "Frequency and Severity of Adverse Events and Serious Adverse Events (By Event, Lead-in Phase)",
+          "description": "Number of adverse events (AEs) that occurred during the lead-in phase (Week 0 to 12), classified by severity and type. AEs were classified by grade according to the National Cancer Institute's (NCI's) Common Toxicity Criteria for Adverse Events (CTCAE) version 4.03, and all Grade 2 or greater AEs were collected in the database. In addition, new onset or worsening psoriatic arthritis was separately collected and graded from 1 to 3 along a study-specific functional scale. AEs were also classified based on relatedness to study drug, whether they led to study drug discontinuation, and whether they were AEs of special interest as specified in the protocol.",
+          "timeFrame": "Lead-In Phase (Week 0 to 12)"
+        },
+        {
+          "measure": "Frequency and Severity of Adverse Events and Serious Adverse Events (By Participant, Post-Randomization)",
+          "description": "Number of participants who experienced adverse events (AEs) during the post-randomization phase (Week 12 to 100), classified by severity and type. AEs were classified by grade according to the National Cancer Institute's (NCI's) Common Toxicity Criteria for Adverse Events (CTCAE) version 4.03, and all Grade 2 or greater AEs were collected in the database. In addition, new onset or worsening psoriatic arthritis was separately collected and graded from 1 to 3 along a study-specific functional scale. AEs were also classified based on relatedness to study drug, whether they led to study drug discontinuation, and whether they were AEs of special interest as specified in the protocol. AEs that started prior to randomization but became serious after randomization were included in the counts for the post-randomization time period.",
+          "timeFrame": "From randomization (Week 12) to last safety follow-up visit (up to Week 100)"
+        },
+        {
+          "measure": "Frequency and Severity of Adverse Events and Serious Adverse Events (By Event, Post-Randomization)",
+          "description": "Number of adverse events (AEs) that occurred during the post-randomization phase (Week 12 to 100), classified by severity and type. AEs were classified by grade according to the National Cancer Institute's (NCI's) Common Toxicity Criteria for Adverse Events (CTCAE) version 4.03, and all Grade 2 or greater AEs were collected in the database. In addition, new onset or worsening psoriatic arthritis was separately collected and graded from 1 to 3 along a study-specific functional scale. AEs were also classified based on relatedness to study drug, whether they led to study drug discontinuation, and whether they were AEs of special interest as specified in the protocol. AEs that started prior to randomization but became serious after randomization were included in the counts for the post-randomization time period.",
+          "timeFrame": "From randomization (Week 12) to last safety follow-up visit (up to Week 100)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* A diagnosis of plaque psoriasis for at least 6 months\n* Baseline Psoriasis Area and Severity Index (PASI) score \\>= 12\n* \\>=10% body surface area psoriasis involvement\n* Willingness to forgo other available psoriasis therapies, live vaccines, and pregnancy during the trial\n* Ability and willingness to provide informed consent and comply with study requirements\n\nExclusion Criteria:\n\n* Non-plaque forms of psoriasis\n* Grade 2 or 3 moderate to severe psoriatic arthritis not adequately managed with non-steroidal anti-inflammatory drugs (NSAIDs)\n* Myocardial infarction, unstable angina, cerebrovascular accident, or other significant cardiovascular event within the previous one year\n* Chronic obstructive pulmonary disease (COPD)\n* Comorbid condition that requires regular systemic corticosteroid treatment\n* History of malignancy, except treated basal cell skin carcinoma\n* Treated basal cell skin carcinoma within the previous 5 years\n* Severe, progressive, or uncontrolled renal, hepatic, hematological, gastrointestinal, pulmonary, cardiac, or neurological disease, or any other medical condition that, in the investigator's opinion, places the participant at risk by participating in this study\n* History of recent or ongoing uncontrolled bacterial, viral, fungal, or other opportunistic infections\n* Evidence of infection with Hepatitis B Virus (HBV), Hepatitis C Virus (HCV), or Human Immunodeficiency Virus (HIV)\n* Positive QuantiFERON-TB Gold test. Purified Protein Derivative (PPD) tuberculin test may be substituted for QuantiFERON-TB Gold test.\n* Severe reaction or anaphylaxis to any human monoclonal antibody\n* Any previous treatment with agents targeting Interleukin (IL)-12 or IL-23, including ustekinumab\n* Any previous treatment with abatacept\n* Treatment with biologic agents within previous 3 months, including adalimumab, etanercept, and infliximab\n* Treatment with immunosuppressive medications, including methotrexate, cyclosporine, oral retinoids, prednisone, or phototherapy within previous 4 weeks\n* Topical psoriasis treatment within previous 2 weeks, including topical corticosteroids, vitamin D analogues, retinoids, calcineurin inhibitors, salicylic acid, and coal tar\n* Investigational study medication within previous 6 months\n* Liver function test (aspartate aminotransferase \\[AST\\], alanine aminotransferase \\[ALT\\], or alkaline phosphatase) results that are \\>/= 2x the upper limit of normal (ULN).\n* Serum creatinine \\>= 2x the ULN.\n* Any of the following hematologic abnormalities, confirmed by repeat test at least 1 week apart:\n\n  1. White blood count \\<3,000/μL or \\>14,000/μL;\n  2. Lymphocyte count \\<1,000/μL;\n  3. Neutrophil count \\<1,500/μL;\n  4. Platelet count \\<150,000 /μL; or\n  5. Hemoglobin \\<10 g/dL.\n* Females who are pregnant, lactating, planning on pregnancy during the study period, or unwilling to use FDA-approved method of birth control\n* Receipt of a live vaccine (e.g., varicella, measles, mumps, rubella, cold-attenuated intranasal influenza vaccine, and smallpox) in the 6 weeks before enrollment\n* BCG (Bacillus Calmette-Guérin) vaccine one year prior to enrollment",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

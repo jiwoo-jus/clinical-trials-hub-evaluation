@@ -1,0 +1,554 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pmc-articleset xmlns:ns0="http://www.w3.org/1999/xlink">
+  <article xml:lang="en" article-type="research-article" dtd-version="1.4">
+    <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+      <restricted-by>pmc</restricted-by>
+    </processing-meta>
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">JMIR Res Protoc</journal-id>
+        <journal-id journal-id-type="iso-abbrev">JMIR Res Protoc</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2066</journal-id>
+        <journal-id journal-id-type="pmc-domain">resprot</journal-id>
+        <journal-id journal-id-type="publisher-id">ResProt</journal-id>
+        <journal-title-group>
+          <journal-title>JMIR Research Protocols</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">1929-0748</issn>
+        <publisher>
+          <publisher-name>JMIR Publications Inc.</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC8532014</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC8532014.1</article-id>
+        <article-id pub-id-type="pmcaid">8532014</article-id>
+        <article-id pub-id-type="pmcaiid">8532014</article-id>
+        <article-id pub-id-type="pmid">34617915</article-id>
+        <article-id pub-id-type="doi">10.2196/30947</article-id>
+        <article-id pub-id-type="publisher-id">v10i10e30947</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Protocol</subject>
+          </subj-group>
+          <subj-group subj-group-type="article-type">
+            <subject>Protocol</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>mHealth Messaging to Motivate Quitline Use and Quitting: Protocol for a Community-Based Randomized Controlled Trial in Rural Vietnam</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="editor">
+            <name name-style="western">
+              <surname>Derrick</surname>
+              <given-names initials="T">Thomas</given-names>
+            </name>
+          </contrib>
+        </contrib-group>
+        <contrib-group>
+          <contrib id="contrib1" contrib-type="author" corresp="yes">
+            <name name-style="western">
+              <surname>Larkin</surname>
+              <given-names initials="C">Celine</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2961-0585</contrib-id>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <address>
+              <institution>Department of Emergency Medicine</institution>
+              <institution>University of Massachusetts Medical School</institution>
+              <addr-line>55 Lake Avenue North</addr-line>
+              <addr-line>Worcester, MA, 01655</addr-line>
+              <country>United States</country>
+              <phone>1 5084211436</phone>
+              <email>celine.larkin@umassmed.edu</email>
+            </address>
+          </contrib>
+          <contrib id="contrib2" contrib-type="author">
+            <name name-style="western">
+              <surname>Wijesundara</surname>
+              <given-names initials="J">Jessica</given-names>
+            </name>
+            <degrees>MPH</degrees>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4578-9327</contrib-id>
+          </contrib>
+          <contrib id="contrib3" contrib-type="author">
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names initials="HL">Hoa L</given-names>
+            </name>
+            <degrees>MD, PhD</degrees>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4998-8510</contrib-id>
+          </contrib>
+          <contrib id="contrib4" contrib-type="author">
+            <name name-style="western">
+              <surname>Ha</surname>
+              <given-names initials="DA">Duc Anh</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff3" ref-type="aff">3</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3354-0957</contrib-id>
+          </contrib>
+          <contrib id="contrib5" contrib-type="author">
+            <name name-style="western">
+              <surname>Vuong</surname>
+              <given-names initials="A">Anh</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff4" ref-type="aff">4</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4502-4893</contrib-id>
+          </contrib>
+          <contrib id="contrib6" contrib-type="author">
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names initials="CK">Cuong Kieu</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff4" ref-type="aff">4</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1741-669X</contrib-id>
+          </contrib>
+          <contrib id="contrib7" contrib-type="author">
+            <name name-style="western">
+              <surname>Amante</surname>
+              <given-names initials="D">Daniel</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-1488-9624</contrib-id>
+          </contrib>
+          <contrib id="contrib8" contrib-type="author">
+            <name name-style="western">
+              <surname>Ngo</surname>
+              <given-names initials="CQ">Chau Quy</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff5" ref-type="aff">5</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6787-2757</contrib-id>
+          </contrib>
+          <contrib id="contrib9" contrib-type="author">
+            <name name-style="western">
+              <surname>Phan</surname>
+              <given-names initials="PT">Phuong Thu</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff5" ref-type="aff">5</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3525-4548</contrib-id>
+          </contrib>
+          <contrib id="contrib10" contrib-type="author">
+            <name name-style="western">
+              <surname>Pham</surname>
+              <given-names initials="QTL">Quyen Thi Le</given-names>
+            </name>
+            <degrees>MD</degrees>
+            <xref rid="aff5" ref-type="aff">5</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-9181-3626</contrib-id>
+          </contrib>
+          <contrib id="contrib11" contrib-type="author">
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names initials="BN">Binh Ngoc</given-names>
+            </name>
+            <degrees>MA</degrees>
+            <xref rid="aff4" ref-type="aff">4</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3588-5502</contrib-id>
+          </contrib>
+          <contrib id="contrib12" contrib-type="author">
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names initials="ATP">Anh Thi Phuong</given-names>
+            </name>
+            <degrees>BA</degrees>
+            <xref rid="aff4" ref-type="aff">4</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2267-3102</contrib-id>
+          </contrib>
+          <contrib id="contrib13" contrib-type="author">
+            <name name-style="western">
+              <surname>Nguyen</surname>
+              <given-names initials="PTT">Phuong Thi Thu</given-names>
+            </name>
+            <degrees>MD</degrees>
+            <xref rid="aff4" ref-type="aff">4</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-2669-1420</contrib-id>
+          </contrib>
+          <contrib id="contrib14" contrib-type="author">
+            <name name-style="western">
+              <surname>Person</surname>
+              <given-names initials="S">Sharina</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-9121-9566</contrib-id>
+          </contrib>
+          <contrib id="contrib15" contrib-type="author">
+            <name name-style="western">
+              <surname>Allison</surname>
+              <given-names initials="JJ">Jeroan J</given-names>
+            </name>
+            <degrees>MD</degrees>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4472-2112</contrib-id>
+          </contrib>
+          <contrib id="contrib16" contrib-type="author">
+            <name name-style="western">
+              <surname>Houston</surname>
+              <given-names initials="TK">Thomas K</given-names>
+            </name>
+            <degrees>MD</degrees>
+            <xref rid="aff6" ref-type="aff">6</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-2909-4018</contrib-id>
+          </contrib>
+          <contrib id="contrib17" contrib-type="author">
+            <name name-style="western">
+              <surname>Sadasivam</surname>
+              <given-names initials="R">Rajani</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8406-6207</contrib-id>
+          </contrib>
+        </contrib-group>
+        <aff id="aff1">
+          <label>1</label>
+          <institution>Department of Emergency Medicine</institution>
+          <institution>University of Massachusetts Medical School</institution>
+          <addr-line>Worcester, MA</addr-line>
+          <country>United States</country>
+        </aff>
+        <aff id="aff2">
+          <label>2</label>
+          <institution>Department of Population and Quantitative Health Sciences</institution>
+          <institution>University of Massachusetts Medical School</institution>
+          <addr-line>Worcester, MA</addr-line>
+          <country>United States</country>
+        </aff>
+        <aff id="aff3">
+          <label>3</label>
+          <institution>Vietnam Ministry of Health</institution>
+          <addr-line>Hanoi</addr-line>
+          <country>Vietnam</country>
+        </aff>
+        <aff id="aff4">
+          <label>4</label>
+          <institution>Institute of Population, Health and Development</institution>
+          <addr-line>Hanoi</addr-line>
+          <country>Vietnam</country>
+        </aff>
+        <aff id="aff5">
+          <label>5</label>
+          <institution>Respiratory Center</institution>
+          <institution>Bach Mai Hospital</institution>
+          <addr-line>Hanoi</addr-line>
+          <country>Vietnam</country>
+        </aff>
+        <aff id="aff6">
+          <label>6</label>
+          <institution>Wake Forest School of Medicine</institution>
+          <institution>Wake Forest University</institution>
+          <addr-line>Winston-Salem, NC</addr-line>
+          <country>United States</country>
+        </aff>
+        <author-notes>
+          <corresp>Corresponding Author: Celine Larkin <email>celine.larkin@umassmed.edu</email>
+          </corresp>
+        </author-notes>
+        <pub-date pub-type="collection">
+          <month>10</month>
+          <year>2021</year>
+        </pub-date>
+        <pub-date pub-type="epub">
+          <day>7</day>
+          <month>10</month>
+          <year>2021</year>
+        </pub-date>
+        <volume>10</volume>
+        <issue>10</issue>
+        <issue-id pub-id-type="pmc-issue-id">391411</issue-id>
+        <elocation-id>e30947</elocation-id>
+        <self-uri content-type="pmc-pdf" ns0:href="resprot_v10i10e30947.pdf" />
+        <self-uri ns0:href="https://www.researchprotocols.org/2021/10/e30947" />
+        <abstract>
+          <sec sec-type="background">
+            <title>Background</title>
+            <p>Tobacco kills more than 8 million people each year, mostly in low- and middle-income countries. In Vietnam, 1 in every 2 male adults smokes tobacco. Vietnam has set up telephone Quitline counseling that is available to all smokers, but it is underused. We previously developed an automated and effective motivational text messaging system to support smoking cessation among US smokers.</p>
+          </sec>
+          <sec sec-type="objective">
+            <title>Objective</title>
+            <p>The aim of this study is to adapt the aforementioned system for rural Vietnamese smokers to promote cessation of tobacco use, both directly and by increasing the use of telephone Quitline counseling services and nicotine replacement therapy. Moreover, we seek to enhance research and health service capacity in Vietnam.</p>
+          </sec>
+          <sec sec-type="methods">
+            <title>Methods</title>
+            <p>We are testing the effectiveness of our culturally adapted motivational text messaging system by using a community-based randomized controlled trial design (N=600). Participants were randomly allocated to the intervention (regular motivational and assessment text messages) or control condition (assessment text messages only) for a period of 6 months. Trial recruitment took place in four communes in the Hung Yen province in the Red River Delta region of Vietnam. Recruitment events were advertised to the local community, facilitated by community health workers, and occurred in the commune health center. We are assessing the impact of the texting system on 6-month self-reported and biochemically verified smoking cessation, as well as smoking self-efficacy, uptake of the Quitline, and use of nicotine replacement therapy. In addition to conducting the trial, the research team also provided ongoing training and consultation with the Quitline during the study period.</p>
+          </sec>
+          <sec sec-type="results">
+            <title>Results</title>
+            <p>Site preparation, staff training, intervention adaptation, participant recruitment, and baseline data collection were completed. The study was funded in August 2017; it was reviewed and approved by the University of Massachusetts Medical School Institutional Review Board in 2017. Recruitment began in November 2018. A total of 750 participants were recruited from four communes, and 700 (93.3%) participants completed follow-up by March 2021. An analysis of the trial results is in progress; results are expected to be published in late 2022.</p>
+          </sec>
+          <sec sec-type="conclusions">
+            <title>Conclusions</title>
+            <p>This study examines the effectiveness of mobile health interventions for smoking in rural areas in low- and middle-income countries, which can be implemented nationwide if proven effective. In addition, it also facilitates significant collaboration and capacity building among a variety of international partners, including researchers, policy makers, Quitline counselors, and community health workers.</p>
+          </sec>
+          <sec sec-type="trial registration">
+            <title>Trial Registration</title>
+            <p>ClinicalTrials.gov <ext-link ext-link-type="pmc:clinical-trial" ns0:href="NCT03567993">NCT03567993</ext-link>; https://clinicaltrials.gov/ct2/show/<ext-link ext-link-type="pmc:clinical-trial" ns0:href="NCT03567993">NCT03567993</ext-link>.</p>
+          </sec>
+          <sec sec-type="registered-report">
+            <title>International Registered Report Identifier (IRRID)</title>
+            <p>DERR1-10.2196/30947</p>
+          </sec>
+        </abstract>
+        <kwd-group>
+          <kwd>tobacco cessation</kwd>
+          <kwd>smoking cessation</kwd>
+          <kwd>mHealth</kwd>
+          <kwd>global health</kwd>
+          <kwd>Vietnam</kwd>
+          <kwd>randomized controlled trial</kwd>
+        </kwd-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-license-ref</meta-name>
+            <meta-value>CC BY</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>ext-peer-rev</meta-name>
+            <meta-value> This paper was peer reviewed by the National Cancer Institute Special Emphasis Panel - International Tobacco, and Health Research and Capacity Building Program (National Institutes of Health).</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec sec-type="introduction">
+        <title>Introduction</title>
+        <sec>
+          <title>Background</title>
+          <p>Tobacco is a leading preventable cause of mortality, killing more than eight million people each year, mostly in low- and middle-income countries [<xref rid="ref1" ref-type="bibr">1</xref>]. Although effective smoking cessation aids are available [<xref rid="ref2" ref-type="bibr">2</xref>], the use of pharmacological cessation aids combined with behavioral counseling doubles the chances of successfully achieving long-term cessation [<xref rid="ref3" ref-type="bibr">3</xref>]. Unfortunately, these treatments are often underutilized, especially in low- and middle-income countries, where the rates of tobacco use are high. In Vietnam, 44% of men and 1% of women smoke [<xref rid="ref4" ref-type="bibr">4</xref>]. Evidence-based interventions are underused in Vietnam: only 24% of smokers have used nicotine replacement therapy (NRT), patch, or chewing gum; less than 1% have used prescription medication to try and stop smoking; and only 3% of smokers attempting to quit in Vietnam report receiving counseling [<xref rid="ref5" ref-type="bibr">5</xref>]. Most smokers in rural Vietnam are thinking of quitting but are not ready to quit the next month [<xref rid="ref5" ref-type="bibr">5</xref>]. In 2015, the Vietnam Ministry of Health established two telephone <italic toggle="yes">Quitlines</italic>, based in northern Vietnam (the Bach Mai Hospital’s Quitline) and southern Vietnam (the Binh Dan Hospital’s Quitline) to engage and motivate Vietnamese individuals to quit smoking cigarettes. However, these services are underused, and interventions are needed to improve the uptake of these Quitlines and improve the quitting rate in Vietnam.</p>
+        </sec>
+        <sec>
+          <title>Objectives</title>
+          <p>The objectives of this study are as follows:</p>
+          <list list-type="bullet">
+            <list-item>
+              <p>To adapt an existing cessation texting system that has proven effective in the United States [<xref rid="ref6" ref-type="bibr">6</xref>] to the Vietnamese context, encouraging smokers in rural settings of northern Vietnam to accept counseling services from the existing Bach Mai Hospital Quitline and motivating smokers to quit.</p>
+            </list-item>
+            <list-item>
+              <p>To conduct a randomized controlled trial to test the effectiveness of the adapted motivational text messaging intervention in improving smoking cessation in a sample of 600 rural Vietnamese smokers.</p>
+            </list-item>
+            <list-item>
+              <p>To implement capacity building activities for staff at the Bach Mai Quitline.</p>
+            </list-item>
+          </list>
+          <p>We hypothesize that participants in the intervention arm will have higher rates of cessation and higher smoking self-efficacy and that they will engage more frequently with the Quitline counseling and NRT services. </p>
+        </sec>
+      </sec>
+      <sec sec-type="methods">
+        <title>Methods</title>
+        <sec>
+          <title>Intervention Development and Adaptation</title>
+          <sec>
+            <title>Intervention Overview</title>
+            <p>In this study, participants are randomized to receive either (1) motivation and assessment text messages that encouraged smoking cessation via Quitline service and NRT engagement (intervention group) or (2) assessment text messages only (comparison group). The text message system is intended to encourage the uptake of cessation services and is, hence, an augmentation of, not a replacement for, regular appropriate clinical services.</p>
+          </sec>
+          <sec>
+            <title>Message Content and Sequencing</title>
+            <p>Our message database from a prior study in the United States included both expert and peer-written messages. The expert-written motivational messages were iteratively developed through a group review, with content guided by current guidelines and social cognitive theory [<xref rid="ref7" ref-type="bibr">7</xref>]. The peer messages were advice messages written by smokers to other smokers. The combination of these messages increased smoking cessation rates in our prior US study. Expert-written messages provided important theory- and guideline-based health information to the participants. The peer messages touched on more social aspects (dealing with family and cost) than expert messages and increased longitudinal engagement of the intervention compared with the expert messages [<xref rid="ref7" ref-type="bibr">7</xref>].</p>
+            <p>We used a two-step process to develop a similar database for this study in the Vietnamese language. First, we adapted the expert-written motivational messages that were previously developed in English iteratively through a group review, with content guided by current guidelines and social cognitive theory. After the messages were professionally translated to Vietnamese, consultants (former smokers who had used the Bach Mai Quitline services) and professionals reviewed the existing messages and were asked to identify messages that they liked and disliked. Deriving culturally appropriate message content using peer messages was especially important in this study because it was the first time that the intervention had been implemented in Vietnam. Therefore, 10 consultants (former smokers who had used the Quitline in Vietnam) were invited to draft new text messages based on prompts such as “I called the Bach Mai Quitline when...” and “I quit smoking because...” The research team then eliminated messages that were incomplete, unclear, or clearly redundant and established a set of shortlisted messages. This process is outlined in the <italic toggle="yes">Results</italic> section.</p>
+            <p>In addition to these one-way motivational text messages, the research team developed a series of two-way assessment messages in Vietnamese. All participants (intervention and control arms) received the following text message every two weeks: “How many times have you smoked tobacco in the past 24 hours?” while intervention participants also received a Quitline-related question every other week: “Would you like a call from a Bach Mai Quitline smoking counselor?” If they replied with a “yes,” the Quitline would call them back. The final sequences of the messages were collaboratively reviewed and approved by the research team.</p>
+          </sec>
+          <sec>
+            <title>Bach Mai Quitline</title>
+            <p>Quitlines have been demonstrated to be an effective intervention for smoking cessation [<xref rid="ref8" ref-type="bibr">8</xref>]. Trained counselors can help callers select the appropriate cessation services for them and can offer call-back strategies to maximize adherence to NRT and help with relapse prevention. Interventions to increase the use of Quitlines have included connecting with clinics and email and text motivational reminders [<xref rid="ref9" ref-type="bibr">9</xref>]. The Bach Mai Quitline in Vietnam is staffed by certified tobacco treatment specialists (registered nurses and public health professionals) who have been trained in principles of motivational interviewing, evidence of the risks associated with tobacco, benefits of phone-based counseling, and strategies summarized in the 2008 US Treating Tobacco Use and Dependence guidelines [<xref rid="ref10" ref-type="bibr">10</xref>] including the <italic toggle="yes">5As</italic> (Ask, Advise, Assess, Assist, and Arrange) and the <italic toggle="yes">5Rs</italic> (Relevance, Risks, Rewards, Roadblocks, and Repetition). In this study, the team at the University of Massachusetts Medical School (UMMS) conducted site visits and additional training for the Bach Mai Quitline staff. This additional training totaled 10 hours, used a combination of didactics and role plays, and covered topics such as pharmacotherapy, behavioral interventions for smoking cessation, motivational interviewing, individual counseling, telephone counseling, and the association between tobacco use and COVID-19. During the trial, Quitline counselors were able to facilitate NRT for participants at no cost.</p>
+          </sec>
+        </sec>
+        <sec>
+          <title>Trial Design</title>
+          <sec>
+            <title>Trial Design Overview</title>
+            <p>The study design is a two-arm randomized controlled trial of 600 participants (300 participants in the intervention group and 300 in the comparison group) from Hung Yen province of Vietnam (<xref rid="figure1" ref-type="fig">Figure 1</xref>). The intervention group received one-way motivational text messages (seven in the first week, two per week in weeks 2-26) to promote cessation and provide encouragement to access Quitline and free NRT. They also received weekly two-way assessment text messages asking how many times they had smoked tobacco in the past 24 hours and whether they would like to receive a call from the Quitline, which is then provided. The control group received twice-monthly two-way assessment text messages asking how many times they have smoked tobacco in the past 24 hours. The study is being implemented by the Institute of Population, Health, and Development (PHAD), Hanoi, Vietnam, and is based on a long-term partnership between the Institute and UMMS.</p>
+            <fig position="float" id="figure1" orientation="portrait">
+              <label>Figure 1</label>
+              <caption>
+                <p>Study scheme. *The intervention group received one-way motivational text messages (seven in the first week, two per week in weeks 2-26) to promote cessation and provide encouragement to access Quitline and free nicotine replacement therapy. They also received weekly two-way assessment text messages asking how many times they had smoked tobacco in the past 24 hours and whether they would like to receive a call from the Quitline, which is then provided. **The control group received twice-monthly two-way assessment text messages asking how many times they have smoked tobacco in the past 24 hours. SEQ-12: 12-item Smoking Self-Efficacy Questionnaire.</p>
+              </caption>
+              <graphic position="float" orientation="portrait" ns0:href="resprot_v10i10e30947_fig1.jpg" />
+            </fig>
+          </sec>
+          <sec>
+            <title>Study Setting and Inclusion Criteria</title>
+            <p>Hung Yen province has a population of about 1.2 million, organized into 10 districts and 161 communes. In Hung Yen province, the vast majority of the residents have a mobile phone. Participants are recruited from four communities (communes) in Hung Yen province: Binh Minh, Viet Hung, Tan Viet, and Bach Sam. Each of the selected communes satisfy the following criteria: (1) have a community health center with a medical doctor; (2) are not currently participating in other studies for smoking cessation; and (3) have a minimum geographic separation of 12 km (7 miles) from all other study communes to minimize possible contamination. To be enrolled in this trial, consenting adult men and women need to fulfill each of the following criteria: (1) be a resident of the selected commune, (2) be a current smoker, (3) be able to receive text and read text (literate), (4) not be cognitively impaired, (5) not be a smoker who helped develop the motivational texts used in the intervention, and (6) not be a family member of another participant in the study. Sex is not an eligibility criterion, but rates of smoking among women are very low in Vietnam; therefore, the sample is likely to be overwhelmingly male.</p>
+          </sec>
+          <sec>
+            <title>Recruitment Approach</title>
+            <p>At the beginning of the study, all study personnel and community and Quitline collaborators were trained carefully about the study protocol and standard operational procedures. Advertising of the study is conducted by health workers at community health centers and community health workers. Recruitment events are held at the commune health center on an approximately monthly basis. Interested individuals are screened for eligibility by study staff, who then explain the study to them. If they are eligible and willing to participate, they receive further details about the purpose of the research; procedures involved; their right to decline to participate and withdraw from the research at any time; potential risks, discomfort, or adverse effects; prospective research benefits; incentives for participation; and research participants’ rights. Participants receive either a token of mobile telephone credit for participating or a basic phone that can be used for texting if they do not have a phone. The participants then sign a consent form and proceeded to the baseline assessment and random assignment. Protocol fidelity is determined by the Vietnam coinvestigators who directly monitor 20% (150/750) of all study enrollment and follow-up visits and complete a fidelity checklist.</p>
+          </sec>
+          <sec>
+            <title>Randomization</title>
+            <p>All participants are told that they will be randomized to either the intervention or the comparison group. The allocation of participants to study arms is based on a permuted block scheme in which treatment assignments are made within blocks so that the numbers assigned to each treatment arm are equal after a block has been filled. Blocks of various sizes (2, 4, and 6) are used in random order to facilitate allocation concealment. At the end of the baseline assessment survey, the research staff enter the participant ID and participant mobile phone number from the survey into our texting system, which references the next allocation within the table and adapts based on the allocation assignment. Using this technique, both participants and research staff are blinded to the allocation during the initial session. The research staff are blinded to allocation when assessing outcomes.</p>
+          </sec>
+          <sec>
+            <title>Intervention Condition</title>
+            <p>Participants who are randomized to the intervention arm receive one motivational text message per day in the first week of the trial and two motivational messages per week for the next 25 weeks. They also receive weekly two-way assessment messages (described above) that ask the participant whether they have smoked recently and if they would like to receive a call from the Quitline. If they say “yes,” the Quitline calls the patient and offers counseling and access to free NRT. Participants who are randomized to an intervention condition receive encouragement (eg, motivational texts) and the participants themselves choose whether and when to engage in some levels of the intervention (Quitline, NRT) either by texting back to request a call or by calling the Quitline directly. The advantages of this encouragement design are that it provides an indication of uptake or participation, allowing variability in uptake of intervention components and providing an assessment of intervention reach and effective dose.</p>
+          </sec>
+          <sec>
+            <title>Control Condition</title>
+            <p>Participants who are randomized to the comparison condition receive only a two-way assessment question every two weeks, asking if they have smoked recently. Participants in the comparison group are not specifically being encouraged by the research team to seek Quitline counseling or NRT, but they could proactively seek it from the local clinic or from the Quitline.</p>
+          </sec>
+        </sec>
+        <sec>
+          <title>Sample Size and Power</title>
+          <p>Our calculations are based on several assumptions. We have estimated the control cessation rate to be 10% in the comparison group, and based on our prior similar trials, we have derived a 9% difference in intervention and control. With a sample of 600 participants who are randomized 1:1 to the intervention and comparison conditions, we are able to detect a 10% difference between groups (two-sided chi-square test, α=.05) with 91% power. On the basis of previous studies, we estimate that there will be about 15%-20% attrition. Thus, although we require a sample size of 600 participants to complete a 6-month follow-up, we plan to randomize 750 participants at baseline (<xref rid="figure1" ref-type="fig">Figure 1</xref>). We will monitor recruitment and retention and inflate our sample as needed to achieve the resulting sample of 600 participants completing the 6-month follow-up.</p>
+        </sec>
+        <sec>
+          <title>Data Collection</title>
+          <p>All patient-facing documents are translated into Vietnamese by a certified and qualified translator. All translators are native speakers of Vietnamese and members of the American Translators Association. Once translated, the documents are edited by an accredited second language expert for readability, terminology, and accuracy. The materials are then proofed for completeness, formatting, and layout. All translated materials receive a certification of accuracy from the translation company.</p>
+          <p>Baseline data are collected by the research staff during commune-based enrollment events. Baseline data collection includes patient demographics, comorbidities, technology use, and Quitline use. Participants are asked about their level of readiness to quit (response options: not thinking about quitting, thinking about quitting, setting a quit date, quitting smoking today, and having already quit smoking), former quit attempts, and current smoking habits (how many cigarettes smoked per day, other tobacco products used, how soon after they smoke, how old they were when they first smoked, and how many years they smoked every day). Participants are asked how many of their immediate family members, extended family members, close friends, friends, acquaintances, and coworkers smoke. Social support for quitting is measured using the shortened partner interaction questionnaire [<xref rid="ref11" ref-type="bibr">11</xref>] for those who are married or partnered. Smoking cravings are assessed using the brief 10-item version [<xref rid="ref12" ref-type="bibr">12</xref>] of the Questionnaire of Smoking Urges [<xref rid="ref13" ref-type="bibr">13</xref>], which retains the two-factor structure of the original and has high internal consistency [<xref rid="ref12" ref-type="bibr">12</xref>]. At baseline, we also administer the 12-item Smoking Self-Efficacy Questionnaire (SEQ-12) [<xref rid="ref14" ref-type="bibr">14</xref>], a questionnaire with two subscales measuring confidence in the ability to refrain from smoking when facing internal and external stimuli, respectively. The scale has high test-retest reliability and is predictive of future cessation, and the subscales have good internal consistency [<xref rid="ref14" ref-type="bibr">14</xref>].</p>
+        </sec>
+        <sec>
+          <title>Study Outcomes</title>
+          <p>The primary outcome of the study is the tobacco cessation rate at 6-month follow-up. At the follow-up research visit, the research staff determines current smoking through self-report based on the following question, “Do you currently smoke tobacco (smoked even 1 puff of tobacco in the last 7 days)?” (yes or no), and then verify with a carbon monoxide breath monitor. Patients who respond “no” to smoking are now classified as nonsmokers if their carbon monoxide measurement is less than 10 ppm [<xref rid="ref15" ref-type="bibr">15</xref>]. Secondary outcomes are changes from the baseline in self-efficacy on the SEQ-12 and Quitline use. We will also report on follow-up measurements of the Brief Questionnaire on Smoking Urge, NRT use, details of quit attempts, and smoker perceptions of the intervention. Attendance at follow-up events is encouraged by community health workers, and those who do not appear are offered the opportunity to complete the measures by telephone. In similar studies in this region, retention has been very high.</p>
+          <p>Throughout the 6-month participation period, we will collect additional assessment data through the assessment texts, including measures of abstinence assessments, and interest in and use of the Quitline. Quitline staff record details of intake assessment (number of calls, smoking status, and method used to quit if applicable) and fidelity of follow-up call completion. They also document referrals for the NRT. Data are entered into a secure data management system, with double-data entry occurring on a subset of participants to ensure accuracy or data entry.</p>
+        </sec>
+        <sec>
+          <title>Adherence and Monitoring</title>
+          <p>Given that the intervention is low-risk, participants are unlikely to be withdrawn from the trial on the basis of safety concerns. Participants may withdraw at their own request. Participants are free to engage in other smoking cessation-related care and interventions during their participation. A number of actions are being taken to monitor and ensure adherence to intervention protocols. Research staff are trained on responsible conduct of the research. Consent materials are uploaded to a secure data capture system and reviewed by the project director. A sample of 20% (150/750) of enrollments are monitored by the site principal investigator, who then completes an adherence checklist. For the texting system, the programmer can monitor the texts being sent and received.</p>
+        </sec>
+        <sec>
+          <title>Data Analysis</title>
+          <p>All primary analyses will be conducted on an intention-to-treat basis. However, secondary analyses will explore dose-response effects among those with variable levels of adherence to the intervention. All analyses will be two-sided, and the α error will be set at .05. We begin the statistical analysis by examining the univariate statistics and distributions. We will examine the balance of participant characteristics by study groups and account for any imbalances in our multivariable analysis. As appropriate, group differences will be tested using chi-square tests of independence, Z-test or <italic toggle="yes">t</italic> test (two-tailed), or the equivalent nonparametric tests depending on the distribution of the variables. In accordance with best practice, differences in baseline characteristics of the intervention and comparison groups will be established based on standardized differences rather than on tests of statistical significance [<xref rid="ref16" ref-type="bibr">16</xref>,<xref rid="ref17" ref-type="bibr">17</xref>].</p>
+          <p>The primary outcome was the patient tobacco cessation rate (quit rate) at 6 months follow-up visit and will be compared using a two-sided chi-square test. We will include a multivariable logistic regression model to adjust for any potential confounding factors, if needed. As a secondary outcome, we will compare self-efficacy between intervention and control conditions: means on the SEQ-12 (and its subscales) will be compared between the intervention and control groups over time using repeated-measures analysis of variance and Student <italic toggle="yes">t</italic> test. A generalized linear model for repeated measures will be used to adjust for potential confounding factors, if needed. There are no planned interim analyses, but they may be requested or approved by the Data Safety and Monitoring Board.</p>
+        </sec>
+        <sec>
+          <title>Ethics and Confidentiality</title>
+          <p>The study has been approved by the institutional review board (IRB) at the UMMS (H00012953) and the Institute of Population, Health and Development, Vietnam (PHAD-2017/M2Q2-01). All important protocol modifications are approved by the IRB and registered with ClinicalTrials.gov. Research assistants provide a brief overview of the study, including the reason the study is being performed, a description of the study design, and the participant’s role in the investigation if he or she decides to participate. The participant is informed of the potential benefits of the study. The patient is also informed that the design of the study requires collection of personal identifiers of the safeguards in place to protect that information, and of his or her right to withdraw from the study at any time (at which point all personal identifier data collected will be destroyed). All participants provided written informed consent for study inclusion, administration of surveys, and carbon monoxide verification. At any time, participants may withdraw their consent.</p>
+          <p>All data are obtained by trained study staff and entered directly into electronic forms on a secure website designed for this purpose. We have created a texting service that is responsible for sending text messages, as well as receiving the assessment text responses (ratings and time to first quit). The software program we developed uses a secure application programmable interface to forward the patient’s phone number and send and receive the texts. The motivational messages do not contain any personal health information, and the texting service does not store the phone numbers (phone number data are not transferred to any site outside of Vietnam). Participants are informed of the potential risk of confidentiality of sending and receiving text messages during the informed consent process.</p>
+          <p>Participants are identified with a study number: the key is located centrally and securely and is accessible only to certified study personnel on an as-needed basis. All patient contact, including consent, interviews, and all study procedures with human subjects occurred onsite in Vietnam. All data are deidentified according to Health Insurance Portability and Accountability Act (HIPAA) standards before transfer to the investigators and staff for analytical purposes. Personal identifiers are abstracted onto separate confidential forms and are not transferred outside Vietnam. All records consisting of personal identifiers will be destroyed upon completion of the study. The data are stored in a HIPAA-compliant regulated environment and access will be only through a secure virtual private network. All the related identifiers of the participants are encrypted in the database.</p>
+        </sec>
+        <sec>
+          <title>Safety and Adverse Events</title>
+          <p>As this trial is a phase 3 study including NRT and our behavioral intervention, we have established a Data and Safety Monitoring Board (DSMB). The DSMB is charged with reviewing protocols and consent documents for this trial, monitoring safety issues throughout the study, and the quality of the accumulating data, providing guidance on interim analyses and stopping rules. The DSMB comprises persons with no direct involvement in the study or conflict of interest with the research team conducting the randomized trial and has the authority to halt the trial as needed.</p>
+          <p>Participants who call the Quitline may receive over-the-counter NRT in the form of nicotine lozenges at 4-mg doses. The risk of NRT has been evaluated in detail: as this treatment has less nicotine than cigarettes, it is in general a risk reduction from active smoking. All participants who had a Food and Drug Administration contraindication to nicotine lozenge are excluded. Patients may become uncomfortable when asked about psychosocial factors such as smoking cravings or urges and are reminded repeatedly that they are under no obligation to respond to any question, and interviewers are trained and supervised in appropriate interview techniques. The principal investigator monitors all adverse events; all adverse events, both serious and nonserious, are summarized in the report to the IRB committee for annual study review and renewal.</p>
+          <p>Patients are given up to 6 weeks of NRT if requested during the study period, and free NRT is not maintained beyond the study period; participants revert back to usual care at their community health centers after the end of their involvement in the study. Participants in the comparison condition are allowed (but not actively encouraged or facilitated) to engage with the Quitline if they choose.</p>
+        </sec>
+      </sec>
+      <sec sec-type="results">
+        <title>Results</title>
+        <sec>
+          <title>Intervention Development and Adaptation</title>
+          <p>After existing candidate messages were professionally translated to Vietnamese, 14 consultants (former smokers who had used the Bach Mai Quitline services) and 7 professionals (5 counselors and 2 doctors from the Bach Mai Quitline) reviewed the 126 existing messages and were asked to identify messages that they liked and disliked. Reconciling the two sets of messages through a group review, there were 20 text messages that were disliked by none of the consultants or Quitline counselors, and these were identified for inclusion in the message pool. The message writing exercise with 10 former smokers led to the creation of 238 new smoker-written messages. After eliminating messages that were incomplete, unclear, or clearly redundant, a set of shortlisted messages was reviewed independently by researchers for preference and the top 44 messages were identified for inclusion in the message pool. Between the expert-written messages and the smoker-written messages, a total of 57 messages were selected for the intervention: seven messages to be sent during week 0 of the intervention, and two messages per week to be sent during weeks 1-25 of the intervention. The messages reflected several themes: calling the Quitline and Quitline as helpful, knowledge and health risks, self-efficacy and motivators, role of family, and quitting tips. The final messages were reviewed by a researcher who sequenced them using a social cognitive approach, for example, messages related to knowledge and health risks occurred earlier in the sequence and quitting tips occurred later in the sequence. The following are examples of motivational text messages received by the intervention group. The text messages were translated from Vietnamese and the original text can be found in <xref rid="app1" ref-type="supplementary-material">Multimedia Appendix 1</xref>.</p>
+          <list list-type="bullet">
+            <list-item>
+              <p>“The following message was written by a smoker in your community...I felt like the counselors at the Bach Mai Quitline are close as family members, who want to help me to quit smoking.”</p>
+            </list-item>
+            <list-item>
+              <p>“The following message was written by a tobacco cessation expert...Most people make repeated quit attempts before they are successful. You can succeed. Your doctor is available with treatment options and support to help you.”</p>
+            </list-item>
+            <list-item>
+              <p>“The following message was written by a smoker in your community...Thinking about my family, my children, my grandchildren and people helped me stay focused on quitting.”</p>
+            </list-item>
+          </list>
+        </sec>
+        <sec>
+          <title>Trial Status</title>
+          <p>The study was funded in August 2017. The study was reviewed and approved by the University of Massachusetts Medical School IRB in 2017. Recruitment began in November 2018. As of March 2021, 750 participants have been recruited from four communes, and a total of 700 (93.3%) participants completed the follow-up. An analysis of the trial results is in progress; results are expected to be published in late 2022.</p>
+        </sec>
+      </sec>
+      <sec sec-type="discussion">
+        <title>Discussion</title>
+        <sec>
+          <title>Summary</title>
+          <p>Mobile health Messaging to Motivate Quitline Use and Quitting (M2Q2) will examine whether a motivational text messaging intervention is effective in promoting cessation and treatment uptake among Vietnamese smokers. It is a unique opportunity to engage a challenging population of rural Vietnamese smokers in a novel intervention. This study examines the effectiveness of a culturally tailored text messaging intervention to motivate tobacco cessation and connect smokers to underused Quitline and NRT.</p>
+        </sec>
+        <sec>
+          <title>Limitations</title>
+          <p>This study has several limitations. First, the study applies randomization at the individual level, allowing for ample power and a rigorous approach; however, it is possible that the close-knit nature of these rural communities causes participants to share information during the follow-up period, resulting in unintentional unblinding to allocation and contamination. Second, the global COVID-19 pandemic occurred during the trial, and Vietnam adopted stringent infection control measures in response. Recruitment was paused for a matter of weeks, but our original targets and retention rates did not appear to have been profoundly affected. COVID-19 rates were relatively low in Vietnam, but we will still test the potential confounding effect of the pandemic in our analyses, given the potential effect of COVID-19 on cessation rates in the comparison group. Finally, the study is limited to a moderate follow-up period of 6 months, rather than a longer follow-up period. In conclusion, this study examines the effectiveness of potential mobile health interventions that can be implemented nationwide in Vietnam and in other diverse populations that bear significant burdens from smoking.</p>
+        </sec>
+        <sec>
+          <title>Dissemination Plan</title>
+          <p>We will present our work at relevant scientific conferences and publish our results in peer-reviewed literature. Manuscripts and other products arising from the study will be produced by the research team and will not involve professional writers. In line with guidelines from the International Committee of Medical Journal Editors, authorship will be contingent on the following criteria:</p>
+          <list list-type="bullet">
+            <list-item>
+              <p>Substantial contributions to conception and design, or acquisition, analysis, or interpretation of data</p>
+            </list-item>
+            <list-item>
+              <p>Drafting of the study or critical revision for important intellectual content</p>
+            </list-item>
+            <list-item>
+              <p>Final approval of the version to be published</p>
+            </list-item>
+            <list-item>
+              <p>Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the article are appropriately investigated and resolved</p>
+            </list-item>
+          </list>
+          <p>In conclusion, mobile interventions for smoking cessation in low- and middle-income countries have been shown to be feasible and acceptable [<xref rid="ref18" ref-type="bibr">18</xref>,<xref rid="ref19" ref-type="bibr">19</xref>]. We anticipate that the culturally tailored M2Q2 intervention will promote tobacco cessation and treatment uptake in smokers in Vietnam.</p>
+        </sec>
+      </sec>
+    </body>
+  </article>
+</pmc-articleset>

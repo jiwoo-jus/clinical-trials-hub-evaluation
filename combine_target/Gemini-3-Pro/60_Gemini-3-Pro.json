@@ -1,0 +1,138 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04124536",
+      "secondaryIdInfos": [
+        {
+          "id": "R01 AI131060",
+          "type": "NIH",
+          "domain": "National Institute of Allergy and Infectious Diseases (NIAID)"
+        }
+      ],
+      "organization": {
+        "fullName": "University of North Carolina at Chapel Hill",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This study investigated a combination approach to increase HIV testing in male partners of HIV-positive and HIV-negative pregnant women in Lusaka, Zambia. Two parallel, unmasked randomized trials were conducted. The control groups received partner notification services only, while the intervention groups received partner notification services plus targeted education and the provision of oral HIV self-test kits. The primary objective was to assess reported male partner testing at a health facility within 30 days, with a secondary objective of assessing male partner HIV testing of any kind.",
+      "detailedDescription": "Background:\nTesting men for HIV during their partner’s pregnancy can guide couples-based HIV prevention and treatment, but testing rates remain low. This study evaluates a combination approach using evidence-based strategies—specifically partner notification and HIV self-testing—to increase HIV testing uptake among male partners.\n\nMethods:\nThe researchers conducted two parallel, unmasked randomized trials at the Chipata Level 1 Hospital in Lusaka, Zambia. Trial 1 enrolled pregnant women with a documented HIV-positive test result, and Trial 2 enrolled pregnant women with a documented HIV-negative test result. Participants were randomly assigned (1:1) to either a control or an intervention group.\n\nIntervention vs. Control:\n- Control Group: Received partner notification services only. This included options for client self-referral, provider contract referral, provider referral, and dual referral. The counseling was adapted for HIV-negative women in Trial 2.\n- Intervention Group: Received the same partner notification services as the control group, plus targeted education on the use of oral HIV self-test kits and provision of up to five oral HIV self-test kits (OraQuick) for their partners and themselves.\n\nOutcomes:\nThe primary outcome was reported male partner testing at a health facility within 30 days following randomization. This outcome emphasizes the importance of engagement with HIV services by trained personnel. A prespecified secondary outcome was male partner HIV testing of any kind (including self-testing at home) within 30 days. Information was collected via participant self-report at a 30-day follow-up visit."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HIV Infections",
+        "Pregnancy"
+      ],
+      "keywords": [
+        "HIV testing",
+        "HIV self-testing",
+        "Partner notification",
+        "Male partner involvement",
+        "Antenatal care",
+        "PMTCT",
+        "Zambia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Two parallel, unmasked, individual-level, randomised controlled trials. Trial 1 enrolled pregnant women who had an HIV-positive test result; Trial 2 enrolled women who had an HIV-negative test result.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Unmasked (Open Label)",
+          "whoMasked": null
+        }
+      },
+      "enrollmentInfo": {
+        "count": 326,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received partner notification services only. This included an adapted version for women who were HIV-negative. Participants were offered four options for male partner HIV testing: client self-referral, provider contract referral, provider referral, and dual referral.",
+          "interventionNames": [
+            "Partner Notification Services"
+          ]
+        },
+        {
+          "label": "Intervention Group",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received partner notification services (same options as Control) plus targeted education on the use of oral HIV self-test kits and secondary distribution of up to five oral HIV self-test kits.",
+          "interventionNames": [
+            "Partner Notification Services",
+            "HIV Self-Test Kits"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Partner Notification Services",
+          "description": "Assisted partner notification services offering four options: client self-referral, provider contract referral, provider referral, and dual referral. Messages were tailored based on the woman's HIV status.",
+          "armGroupLabels": [
+            "Control Group",
+            "Intervention Group"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "HIV Self-Test Kits",
+          "description": "Secondary distribution of up to five oral HIV self-test kits (OraQuick, Orasure Technologies) provided to the pregnant woman for use by her partner and herself, accompanied by targeted education on their use.",
+          "armGroupLabels": [
+            "Intervention Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of primary male partners reported to have tested for HIV at a health facility",
+          "description": "Testing at a health-care facility emphasizes the importance of HIV testing by trained personnel and the need for engaging with HIV services. The outcome relied on the female participant's report.",
+          "timeFrame": "Within 30 days of randomisation"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportion of primary male partners reported to have HIV testing of any kind",
+          "description": "Includes HIV self-testing in the household and other community-based venues.",
+          "timeFrame": "Within 30 days of randomisation"
+        },
+        {
+          "measure": "HIV test results of male partners",
+          "description": "For those women whose main partner had been tested for HIV, the results of the HIV test were reported.",
+          "timeFrame": "Within 30 days of randomisation"
+        },
+        {
+          "measure": "Incidence of social harms and intimate partner violence",
+          "description": "An affirmative response to any question on either the social harms or intimate partner violence instruments administered at follow-up was counted as an incident social harm or intimate partner violence event.",
+          "timeFrame": "At the 30 day follow-up visit"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* 18 years or older\n* Pregnant and seeking antenatal care at the time of enrolment\n* Documented HIV status in their antenatal record (Trial 1: HIV-positive; Trial 2: HIV-negative test result within the past 3 months during the current pregnancy)\n* At least one current male sex partner\n* Willingness to provide contact information\n* Ability and willingness to provide informed consent\n* Willingness to adhere to study procedures\n\nExclusion Criteria:\n* Already tested for HIV with their partner (e.g., received couples’ HIV testing) during the current pregnancy\n* Expressed concerns about intimate partner violence or social harms at screening",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT"
+      ]
+    }
+  }
+}

@@ -1,0 +1,92 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04195594,NCT04195594,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.orgStudyIdInfo.type,EV,EV,,OTHER,,,,OrgStudyIdType,protocolSection.identificationModule.orgStudyIdInfo.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,An Study Investigating Nic's Keto Diet on Cardiovascular Health in Healthy Adults With Mildly Elevated LDL Levels,Efficacy of Nic's Ketogenic Diet on Cardiometabolic Markers,True,0.86,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,An Open Label Study to Investigate the Efficacy of Nic's Keto Diet on Cardiovascular Health in Healthy Adults With Mildly Elevated LDL Levels,"The Efficacy of a Very-Low-Carbohydrate Ketogenic Diet (VLCKD), Known as Nic's Ketogenic Diet, on Cardiometabolic Markers in Healthy Adults With Mildly Elevated Low-Density Lipoprotein Cholesterol (LDL-C): An Open-Label Pilot Study",True,0.92,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"The present study will investigate the effects of Nic's Ketogenic diet, comprised of 70% fat, 5% carbohydrate, and 25% protein on middle-aged males and females with mid-range elevated LDL. With the mixed evidence on the causative effect of LDL cholesterol on increased cardiovascular health risk, further studies are warranted to examine the relation of elevated LDL and other biomarkers of cardiovascular health in response to a lifestyle intervention. Furthermore, this study will investigate weight loss and body composition changes with adherence to this dietary intervention over a 140-day period. In this study the efficacy of Nic's Ketogenic diet on weight loss and biomarkers of cardiovascular health will be examined.","This open-label pilot study investigated the efficacy and safety of a very-low-carbohydrate ketogenic diet (VLCKD), specifically known as Nic's Ketogenic Diet, over a period of 140 days. The study focused on healthy adults with mildly elevated low-density lipoprotein cholesterol (LDL-C). The primary objective was to assess changes in cardiometabolic markers, body composition, and weight loss. The hypothesis was that the diet would induce beneficial changes in these parameters without causing significant adverse effects.",True,0.94,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"The study involved 14 eligible participants aged 30 to 55 with a BMI of 20.0–29.9 kg/m2 and LDL-C levels between 2.5 and 4.1 mmol/L. Participants followed Nic's Ketogenic Diet, which provided 5% of calories from carbohydrates, 70% from fat, and 25% from protein, for 140 days. 
+
+Assessments were conducted at Day 0, 28, 56, 70, 84, 112, and 140. Key measurements included weight, blood pressure (BP), and fasting plasma lipids at all visits. Dual-energy X-ray absorptiometry (DEXA) scans for body composition (body fat %, android fat, gynoid fat, muscle mass) were performed on Day 0, 70, and 140. Additional blood markers such as glucose, glycated hemoglobin (HbA1c), C-reactive protein (CRP), free triiodothyronine (T3), and erythrocyte sedimentation rate (ESR) were measured at baseline and Day 140.
+
+Participants monitored compliance through weekly 3-day food records, daily ketone and glucose monitoring, and regular counseling with a Registered Dietitian. Safety was evaluated through adverse event reporting, electrocardiograms, and clinical chemistry panels.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,"['Ketogenic Dieting', 'Healthy']","['Overweight', 'Mildly Elevated LDL-Cholesterol', 'Cardiovascular Disease Risk']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['Ketogenic Diet', ""Nic's keto diet"", 'Cardiovascular health', 'Elevated LDL levels']","['Ketogenic diet', 'Very-low-carbohydrate diet', 'Cardiometabolic markers', 'Body composition', 'Weight Loss', 'Lipid profile', 'LDL-C', ""Nic's Ketogenic Diet""]",False,0.25,partial,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,FP,NA,NON_RANDOMIZED,False,0.2,success,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,SINGLE_GROUP,SINGLE_GROUP,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Open-label study,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,14,14,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[0].description,EV,EV,,"Participants followed a very-low-carbohydrate ketogenic diet (VLCKD), known as Nic's Ketogenic Diet, for 140 days.",,,,ArmGroupDescription,protocolSection.armsInterventionsModule.armGroups.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+1. Provided voluntary, written, informed consent to participate in study
+2. Males and females between 30 and 55 years of age
+3. BMI between 20.0 to 29.9 kg/m2, inclusive
+4. Female participant is not of child-bearing potential, defined as females who have undergone a sterilization procedure (e.g. hysterectomy, bilateral oophorectomy, bilateral tubal ligation, total endometrial ablation) Or,
+
+   Females of child-bearing potential must have a negative baseline urine pregnancy test and agree to use a medically approved method of birth control for the duration of the study. Acceptable methods of birth control include:
+   * Non hormonal contraceptives
+   * Double-barrier method
+   * Intrauterine devices
+   * Non-heterosexual lifestyle or agrees to use contraception if planning on changing to heterosexual partner(s)
+   * Vasectomy of partner at least 6 months prior to screening
+5. Subjects with mid-range (2.5-4.1mmol/L or 100-159 mg/dL) elevated LDL-C levels
+6. Agrees to maintain current level of physical activity throughout the study
+7. Willingness to complete all questionnaires, records, and diaries and assessments associated with the study and to complete all clinic visits.
+8. Healthy as determined by medical history, laboratory results, and as assessed by Qualified Investigator (QI)
+
+Exclusion Criteria:
+
+1. Women who are pregnant, breast feeding, or planning to become pregnant during the course of the trial
+2. Women who are menopausal or post-menopausal
+3. Currently following a diet (i.e. Ketogenic Diet, low-carbohydrate diet)
+4. Subjects with high TSH level (\>4.5mU/L) or Self reported pre-existing thyroid condition. Treatment on a stable dose of medication for at least 3 months will be considered by the QI
+5. Participants with type I or II Diabetes Mellitus
+6. Cancer, except skin cancers completely excised with no chemotherapy or radiation with a follow up that is negative. Volunteers with cancer in full remission for more than five years after diagnosis are acceptable.
+7. Participants with previous or current pathology of the pancreas
+8. Current or history of Gastroesophageal reflux disease (GERD) or any significant disease of the gastrointestinal tract
+9. Self reported hypertension or on hypertensives.
+10. Significant cardiovascular event in the past 6 months as assessed by the QI.
+11. Major surgery in the past 3 months or individuals who have planned surgery during the course of the trial. Participants with minor surgery will be considered on a case-by-case basis by the QI
+12. Gastric bypass surgery
+13. Individuals with an autoimmune disease or are immune-compromised
+14. Self reported HIV-, Hepatitis B- and/or C-positive diagnosis
+15. History of or current diagnosis with kidney and/or liver diseases as assessed by the QI on a case-by-case basis, with the exception of history of kidney stones symptom free for 6 months
+16. Self reported medical or neuropsychological condition and/or cognitive impairment that, in the QI's opinion, could interfere with study participation
+17. Self reported blood/bleeding disorders as per QI
+18. Current use of prescribed medications listed in Section 7.3.1
+19. Current use of over-the-counter medications, supplements, foods, and/or drinks listed in Section 7.3.2
+20. Alcohol or drug abuse within the last 12 months
+21. High alcohol intake (\>2 standard drinks per day or \>10 standard drinks per week)
+22. Clinically significant abnormal laboratory results at screening as assessed by the QI
+23. Metal implants that may affect the DEXA scan results will be assessed on case-by-case basis by the QI
+24. Blood donation 30 days prior to screening, during the study, or a planned donation within 30-days of the last study visit
+25. Participation in a clinical research trial within 30 days of study initiation
+26. Individuals who are unable to give informed consent
+27. Any other active or unstable medical condition, that, in the opinion of the QI, may adversely affect the participant's ability to complete the study or its measures or may pose significant risk to the participant","Inclusion Criteria:
+- Males and females ages of 30 to 55
+- Body mass index (BMI) 20.0–29.9 kg/m2
+- LDL-C levels between 2.5 and 4.1 mmol/L
+- Deemed healthy by medical history and laboratory results by the Medical Director (MD)
+- Participants were required to maintain current level of physical activity during the study
+
+Exclusion Criteria:
+- Unable to give informed consent
+- Women who were pregnant, breastfeeding, or planning to become pregnant, menopausal, postmenopausal
+- Following a diet
+- Diabetes or hypertension
+- Used hypertensive medication
+- A significant major cardiovascular event in the past 6 months assessed by the MD
+- Kidney or liver diseases assessed by the MD
+- Corticosteroids, opioid pain medications, beta-blockers and BP medications, statins, nonsteroidal anti-inflammatory drugs
+- Supplements known to affect weight and/or fat loss or lipid metabolism were considered after a washout period
+- Clinically significant physical examination or abnormal laboratory results
+- Had any other active or unstable medical condition, that, in the opinion of the MD, may have adversely affected the participant's ability to complete the study or may have posed significant risk",True,0.93,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,30 Years,30 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,55 Years,55 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,['ADULT'],['ADULT'],True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

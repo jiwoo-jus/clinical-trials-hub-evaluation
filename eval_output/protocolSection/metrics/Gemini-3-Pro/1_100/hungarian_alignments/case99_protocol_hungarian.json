@@ -1,0 +1,238 @@
+{
+  "metadata": {
+    "case_id": 99,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T19:59:53.951279",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/99_NCT03567993.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/99_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.8,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.8,
+          "status": "matched",
+          "ref_item": {
+            "id": "R01TW010647",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/R01TW010647"
+          },
+          "pred_item": {
+            "id": "R01TW010647",
+            "type": "NIH",
+            "domain": "John E Fogarty International Center of the National Institutes of Health"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.45,
+          0.82
+        ],
+        [
+          0.9,
+          0.6
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Comparison",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "The comparison condition is designed as a minimal intervention, and allows for blinding of the patients to randomization group.",
+            "interventionNames": [
+              "Behavioral: Comparison"
+            ]
+          },
+          "pred_item": {
+            "label": "Comparison Group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants receive twice-monthly two-way assessment text messages asking how many times they have smoked tobacco in the past 24 hours. They are not specifically encouraged to seek Quitline counseling or NRT but can proactively seek it from the local clinic or Quitline (usual care).",
+            "interventionNames": [
+              "Assessment text messages"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Intervention",
+            "type": "EXPERIMENTAL",
+            "description": "The intervention is designed to encourage and remind smokers of the availability of the Quitline services. In addition to the one-way motivational messages, the investigators will use two-way assessments. Two-way automated texting is the ability to push out a question, have the user respond with a brief, numeric or one-word answer, and based on that answer, provide immediate feedback. The goal of these brief assessments is two-fold: 1) to assess behavior (abstinence) and motivation to use services, and 2) to return feedback tailored to each individual smoker based on the answers of the user.",
+            "interventionNames": [
+              "Behavioral: Intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Intervention Group",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive one-way motivational text messages (seven in the first week, two per week in weeks 2-26) to promote cessation and provide encouragement to access Quitline and free NRT. They also receive weekly two-way assessment text messages asking about smoking habits and interest in a Quitline call.",
+            "interventionNames": [
+              "Motivational text messaging system",
+              "Assessment text messages",
+              "Quitline counseling",
+              "Nicotine lozenges"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.35,
+          0.78,
+          0.2,
+          0.2
+        ],
+        [
+          0.86,
+          0.82,
+          0.82,
+          0.35
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Comparison",
+            "description": "Participants randomized to the comparison arm will receive twice-monthly abstinence assessments from the text messaging system, with no motivational feedback. Those in the comparison arm are neither offered nor encouraged to participate in the intervention.",
+            "armGroupLabels": [
+              "Comparison"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Assessment text messages",
+            "description": "Two-way text messages asking: 'How many times have you smoked tobacco in the past 24 hours?'. Sent weekly to the intervention group (accompanied by a prompt offering a Quitline call) and twice-monthly to the comparison group.",
+            "armGroupLabels": [
+              "Intervention Group",
+              "Comparison Group"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Intervention",
+            "description": "Participants randomized to the intervention arm will receive:\n\n1. Motivational Messages\n2. Abstinence and Motivation to Use Services Assessments\n3. Encouragement to access the Quitline\n4. Encouragement to use Nicotine Replacement Therapy (NRT)\n5. Provision of NRT, if requested\n\nIntervention subjects are encouraged to access the Quitline and use NRT. However, these are not mandatory components of the intervention and subjects can choose if they would like to engage with the Quitline or use NRT.",
+            "armGroupLabels": [
+              "Intervention"
+            ],
+            "otherNames": [
+              "mHealth Intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Motivational text messaging system",
+            "description": "Culturally adapted one-way text messages sent to participants (daily in week 1, twice weekly in weeks 2-26). Messages include expert-written content based on social cognitive theory and peer-written advice messages. Themes cover Quitline help, health risks, self-efficacy, family, and quitting tips.",
+            "armGroupLabels": [
+              "Intervention Group"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Participant Tobacco Cessation Rate (Quit Rate) at 6 Months",
+            "description": "7 day point prevalence cessation per self-report with additional carbon monoxide monitor verification for those who report cessation.",
+            "timeFrame": "At 6 months post-randomization"
+          },
+          "pred_item": {
+            "measure": "Tobacco cessation rate",
+            "description": "Self-reported current smoking (smoked even 1 puff of tobacco in the last 7 days) verified with a carbon monoxide breath monitor. Participants responding 'no' are classified as nonsmokers if their carbon monoxide measurement is less than 10 ppm.",
+            "timeFrame": "6-month follow-up"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.15
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Self-efficacy Scores Using the Self Efficacy Questionnaire (SEQ-12)",
+            "description": "Study team will administer the Self Efficacy Questionnaire (SEQ-12), an 12-item questionnaire to measure self-reported confidence of current and former smokers in their ability to abstain from smoking in high-risk situations (e.g., when facing internal stimuli (e.g., feeling depressed) and external stimuli (e.g., being with smokers)). The SEQ-12 consists of 12 items; each item is rated on a 5-point Likert scale (1=not at all sure, 2=not very sure, 3=more or less sure, 4=fairly sure, and 5=absolutely sure). SEQ-12 scores range from 12 to 60, with higher scores indicating greater self-efficacy. Individual items are summed to compute the total score. The outcome will measure the change in SEQ-12 scores from baseline to 6 months post-randomization.",
+            "timeFrame": "From randomization to 6 months post-randomization"
+          },
+          "pred_item": {
+            "measure": "Change in Smoking Self-Efficacy",
+            "description": "Measured using the 12-item Smoking Self-Efficacy Questionnaire (SEQ-12) and its subscales measuring confidence in the ability to refrain from smoking.",
+            "timeFrame": "Baseline and 6-month follow-up"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,864 @@
+{
+  "metadata": {
+    "case_id": 80,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T18:49:29.864125",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/80_NCT02951156.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/80_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.7,
+          0.55
+        ],
+        [
+          0.72,
+          0.97,
+          0.6
+        ],
+        [
+          0.7,
+          0.55,
+          0.99
+        ],
+        [
+          0.7,
+          0.48,
+          0.7
+        ],
+        [
+          0.4,
+          0.2,
+          0.6
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Phase 1b Arm A",
+            "type": "EXPERIMENTAL",
+            "description": "avelumab/utomilumab/rituximab",
+            "interventionNames": [
+              "Biological: Avelumab",
+              "Biological: Utomilumab",
+              "Biological: Rituximab"
+            ]
+          },
+          "pred_item": {
+            "label": "Arm A: Avelumab + Utomilumab + Rituximab",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received avelumab 10 mg/kg intravenously every 2 weeks, utomilumab 100 mg fixed dose intravenously (on day 2 of cycles 1 and 2, then on day 1 of cycle 3 and subsequent cycles if well-tolerated), and rituximab 375 mg/m2 intravenously on day 1 of each cycle for a maximum of 8 cycles.",
+            "interventionNames": [
+              "BIOLOGICAL: Avelumab",
+              "BIOLOGICAL: Utomilumab",
+              "BIOLOGICAL: Rituximab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "label": "Phase 1b Arm B",
+            "type": "EXPERIMENTAL",
+            "description": "avelumab/utomilumab/azacitidine",
+            "interventionNames": [
+              "Biological: Avelumab",
+              "Biological: Utomilumab",
+              "Other: Azacitidine"
+            ]
+          },
+          "pred_item": {
+            "label": "Arm B: Avelumab + Utomilumab + Azacitidine",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received avelumab 10 mg/kg intravenously every 2 weeks, utomilumab 100 mg fixed dose intravenously (on day 2 of cycles 1 and 2, then on day 1 of cycle 3 and subsequent cycles if well-tolerated), and azacitidine 40 mg/m2 subcutaneously on days 1 to 5 of each cycle.",
+            "interventionNames": [
+              "BIOLOGICAL: Avelumab",
+              "BIOLOGICAL: Utomilumab",
+              "DRUG: Azacitidine"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "label": "Phase 1b Arm C",
+            "type": "EXPERIMENTAL",
+            "description": "avelumab/rituximab/bendamustine",
+            "interventionNames": [
+              "Biological: Avelumab",
+              "Biological: Rituximab",
+              "Drug: Bendamustine"
+            ]
+          },
+          "pred_item": {
+            "label": "Arm C: Avelumab + Bendamustine + Rituximab",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received avelumab 10 mg/kg intravenously every 2 weeks, bendamustine 90 mg/m2 intravenously on days 2 and 3 of cycles 1 and 2 (if well-tolerated, on day 1 and day 2 in cycle 3 and subsequent cycles) for a maximum of 6 cycles, and rituximab 375 mg/m2 intravenously on day 1 of each cycle for a maximum of 8 cycles.",
+            "interventionNames": [
+              "BIOLOGICAL: Avelumab",
+              "DRUG: Bendamustine",
+              "BIOLOGICAL: Rituximab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Phase 3 Arm D (selected from Phase 1b)",
+            "type": "EXPERIMENTAL",
+            "description": "Selected regimen from Phase 1b component which may be i) avelumab/utomilumab/rituximab OR ii) avelumab/rituximab/azacitidine OR iii) avelumab/rituximab/bendamustine",
+            "interventionNames": [
+              "Biological: Avelumab",
+              "Biological: Utomilumab",
+              "Biological: Rituximab",
+              "Other: Azacitidine",
+              "Drug: Bendamustine"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Phase 3 Arm E",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Investigator's Choice of either rituximab/bendamustine or rituximab/gemcitabine/oxaliplatin",
+            "interventionNames": [
+              "Biological: Rituximab",
+              "Drug: Bendamustine",
+              "Drug: Gemcitabine",
+              "Drug: Oxaliplatin"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 7,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.3,
+          0.3,
+          0.35,
+          0.3
+        ],
+        [
+          0.4,
+          0.97,
+          0.4,
+          0.2,
+          0.1
+        ],
+        [
+          0.45,
+          0.35,
+          0.9,
+          0.1,
+          0.3
+        ],
+        [
+          0.25,
+          0.18,
+          0.18,
+          0.92,
+          0.35
+        ],
+        [
+          0.25,
+          0.05,
+          0.45,
+          0.18,
+          0.9
+        ],
+        [
+          0.05,
+          0.08,
+          0.2,
+          0.25,
+          0.2
+        ],
+        [
+          0.11,
+          0.1,
+          0.18,
+          0.3,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Avelumab",
+            "description": "Investigational fully human anti-PD-L1 monoclonal antibody",
+            "armGroupLabels": [
+              "Phase 1b Arm A",
+              "Phase 1b Arm B",
+              "Phase 1b Arm C",
+              "Phase 3 Arm D (selected from Phase 1b)"
+            ],
+            "otherNames": [
+              "MSB0010718C"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "Avelumab",
+            "description": "Human anti-programmed death ligand 1 (anti-PD-L1) IgG1 monoclonal antibody administered at 10 mg/kg intravenously every 2 weeks with mandatory premedication (antihistamine and acetaminophen 30-60 min before each dose). Administered at least 1 hour after the end of other agents in the combination.",
+            "armGroupLabels": [
+              "Arm A: Avelumab + Utomilumab + Rituximab",
+              "Arm B: Avelumab + Utomilumab + Azacitidine",
+              "Arm C: Avelumab + Bendamustine + Rituximab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Utomilumab",
+            "description": "Investigational, fully human IgG2 CD 137/4-1BB agonist",
+            "armGroupLabels": [
+              "Phase 1b Arm A",
+              "Phase 1b Arm B",
+              "Phase 3 Arm D (selected from Phase 1b)"
+            ],
+            "otherNames": [
+              "PF-05082566"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "Utomilumab",
+            "description": "IgG2 4-1BB (CD137) agonist monoclonal antibody administered at 100 mg fixed dose intravenously on day 2 of each cycle in cycles 1 and 2, or if well-tolerated, on day 1 in cycle 3 and all subsequent cycles. Administered at least 1 hour after rituximab infusion was complete.",
+            "armGroupLabels": [
+              "Arm A: Avelumab + Utomilumab + Rituximab",
+              "Arm B: Avelumab + Utomilumab + Azacitidine"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Rituximab",
+            "description": "CD20-directed cytolytic antibody",
+            "armGroupLabels": [
+              "Phase 1b Arm A",
+              "Phase 1b Arm C",
+              "Phase 3 Arm D (selected from Phase 1b)",
+              "Phase 3 Arm E"
+            ],
+            "otherNames": [
+              "Rituxan"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "Rituximab",
+            "description": "Anti-CD20 monoclonal antibody administered at 375 mg/m2 intravenously on day 1 of each cycle for a maximum of 8 cycles.",
+            "armGroupLabels": [
+              "Arm A: Avelumab + Utomilumab + Rituximab",
+              "Arm C: Avelumab + Bendamustine + Rituximab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Azacitidine",
+            "description": "Antimetabolite antineoplastic agent and demethylation agent.",
+            "armGroupLabels": [
+              "Phase 1b Arm B",
+              "Phase 3 Arm D (selected from Phase 1b)"
+            ],
+            "otherNames": [
+              "Vidaza"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Azacitidine",
+            "description": "DNA methyltransferase inhibitor administered at 40 mg/m2 subcutaneously on days 1 to 5 of each cycle until the patient was no longer receiving clinical benefit.",
+            "armGroupLabels": [
+              "Arm B: Avelumab + Utomilumab + Azacitidine"
+            ]
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Bendamustine",
+            "description": "Alkylating drug",
+            "armGroupLabels": [
+              "Phase 1b Arm C",
+              "Phase 3 Arm D (selected from Phase 1b)",
+              "Phase 3 Arm E"
+            ],
+            "otherNames": [
+              "Treanda"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Bendamustine",
+            "description": "Chemotherapy agent administered at 90 mg/m2 intravenously on days 2 and 3 of cycles 1 and 2. If well-tolerated, administered on day 1 and day 2 in cycle 3 and all subsequent cycles for a maximum of 6 cycles.",
+            "armGroupLabels": [
+              "Arm C: Avelumab + Bendamustine + Rituximab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Gemcitabine",
+            "description": "Nucleoside analogue",
+            "armGroupLabels": [
+              "Phase 3 Arm E"
+            ],
+            "otherNames": [
+              "Gemzar"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Oxaliplatin",
+            "description": "Platinum-based drug",
+            "armGroupLabels": [
+              "Phase 3 Arm E"
+            ],
+            "otherNames": [
+              "Eloxatin"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.08
+        ],
+        [
+          0.15,
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Dose Limiting Toxicities (DLT)",
+            "description": "AEs occurring in first 4 weeks of treatment,attributable to 1 of study drugs. Hematology:1)Grade 4 neutropenia,2)Grade \\>=3 febrile neutropenia with single temperature of \\>38.3 degrees Celsius (C)/sustained temperature of \\>=38.0 degrees C for more than 1 hour with/without associated sepsis,3)Grade \\>=3 neutropenic infection,4)Grade 4 thrombocytopenia/Grade 3 thrombocytopenia with clinically significant bleeding,5)Grade 4 anemia 6)Any grade \\>=3 non-hematology toxicity except:transient Grade 3 flu like symptoms/fever controlled with standard medical management;transient Grade 3 fatigue,localized skin reactions/headache that resolves to Grade \\<=1;Grade 3 nausea,vomiting/diarrhea resolved to Grade \\<=1 in ˂72 hours after initiation of adequate medical management;Grade 3 skin toxicity resolved to Grade \\<=1 in ˂7 days;tumor flare;Single laboratory values that are out of normal range,that have no clinical correlate and resolve to Grade \\<=1 within 7 days with adequate medical management.",
+            "timeFrame": "Day 1 Cycle 1 up to 4 Weeks"
+          },
+          "pred_item": {
+            "measure": "Dose-limiting toxicities (DLTs)",
+            "description": "Dose-limiting toxicities were graded according to the National Cancer Institute Common Terminology Criteria for Adverse Events (CTCAE) version 4.03 and summarized by number and percentage of patients with DLTs, treatment group, primary system organ class (SOC), and preferred term (PT).",
+            "timeFrame": "During the DLT assessment period (cycles 1 and 2)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Objective Response Rate (ORR) as Assessed by Investigator Per Lugano Response Classification Criteria",
+            "description": "ORR was defined as percentage of participants with complete response (CR) or partial response (PR), as assessed by investigator per lugano response classification criteria. CR was defined as a score of 1 (no uptake above background), 2 (uptake less than or equal to \\[\\<=\\] mediastinum), or 3 (uptake less than \\[\\<\\] mediastinum but \\<=liver) with or without a residual mass on PET 5-point scale (5-PS), for lymph nodes and extralymphatic sites; no new lesions; no evidence of fluorodeoxyglucose (FDG)-avid disease in bone marrow. PR was defined as \\>=50% decrease in SPD of up to six of the largest dominant lymph nodes, no increase in size of other nodes, liver, or spleen volume, a \\>=50% decrease in sum of products of diameters (SPD) of hepatic and splenic nodules, absence of other organ involvement, and no new sites of disease.",
+            "timeFrame": "Randomization until date of PD, start of new anticancer therapy, discontinuation from study or death due to any cause, whichever occurred first (maximum up to 36 months)"
+          },
+          "pred_item": {
+            "measure": "Objective response (OR)",
+            "description": "Objective response assessed by investigator per Lugano Response Classification criteria. Objective response rate (ORR) was estimated by dividing the number of patients with OR (complete response [CR] or partial response [PR]) by the number of patients randomized to the respective treatment arm.",
+            "timeFrame": "From randomization until disease progression or end of study (approximately up to 2 years)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 17,
+      "pred_count": 8,
+      "similarity_matrix": [
+        [
+          0.05,
+          0.05,
+          0.08,
+          0.1,
+          0.08,
+          0.08,
+          0.08,
+          0.92
+        ],
+        [
+          0.08,
+          0.18,
+          0.08,
+          0.05,
+          0.08,
+          0.08,
+          0.05,
+          0.78
+        ],
+        [
+          0.03,
+          0.05,
+          0.08,
+          0.05,
+          0.1,
+          0.05,
+          0.05,
+          0.78
+        ],
+        [
+          0.05,
+          0.12,
+          0.96,
+          0.4,
+          0.35,
+          0.6,
+          0.18,
+          0.08
+        ],
+        [
+          0.05,
+          0.12,
+          0.42,
+          0.96,
+          0.32,
+          0.35,
+          0.1,
+          0.05
+        ],
+        [
+          0.08,
+          0.1,
+          0.45,
+          0.18,
+          0.95,
+          0.5,
+          0.1,
+          0.08
+        ],
+        [
+          0.05,
+          0.18,
+          0.62,
+          0.55,
+          0.45,
+          0.97,
+          0.55,
+          0.06
+        ],
+        [
+          0.05,
+          0.1,
+          0.42,
+          0.35,
+          0.25,
+          0.6,
+          0.92,
+          0.08
+        ],
+        [
+          0.05,
+          0.05,
+          0.08,
+          0.07,
+          0.05,
+          0.05,
+          0.05,
+          0.1
+        ],
+        [
+          0.08,
+          0.1,
+          0.05,
+          0.09,
+          0.05,
+          0.05,
+          0.02,
+          0.3
+        ],
+        [
+          0.08,
+          0.08,
+          0.05,
+          0.08,
+          0.05,
+          0.08,
+          0.05,
+          0.4
+        ],
+        [
+          0.08,
+          0.08,
+          0.05,
+          0.08,
+          0.08,
+          0.05,
+          0.06,
+          0.48
+        ],
+        [
+          0.1,
+          0.05,
+          0.2,
+          0.08,
+          0.18,
+          0.08,
+          0.08,
+          0.3
+        ],
+        [
+          0.08,
+          0.18,
+          0.1,
+          0.12,
+          0.08,
+          0.08,
+          0.01,
+          0.4
+        ],
+        [
+          0.12,
+          0.05,
+          0.08,
+          0.08,
+          0.08,
+          0.05,
+          0.05,
+          0.35
+        ],
+        [
+          0.97,
+          0.3,
+          0.05,
+          0.15,
+          0.08,
+          0.1,
+          0.08,
+          0.2
+        ],
+        [
+          0.2,
+          0.9,
+          0.25,
+          0.18,
+          0.3,
+          0.2,
+          0.15,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 7,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Treatment-Emergent Adverse Events (TEAEs) Greater Than or Equal to (>=) Grade 3, As Per National Cancer Institute Common Terminology Criteria For Adverse Events (NCI-CTCAE), Version 4.03",
+            "description": "AE was any untoward medical occurrence in a participant who received study drug without regard to possibility of causal relationship. As per NCI-CTCAE version 4.03,severity was graded as Grade 1:asymptomatic/mild symptoms,clinical/diagnostic observations only, intervention not indicated; Grade 2:moderate, minimal, local/noninvasive intervention indicated,limiting age-appropriate instrumental activities of daily life (ADL); Grade 3:severe/medically significant but not immediately life-threatening, hospitalization/prolongation of existing hospitalization indicated, disabling, limiting self-care ADL; Grade 4:life-threatening consequence, urgent intervention indicated; Grade 5:death related to AE. TEAE was defined as events which occurred during on-treatment period beginning with first dose of study treatment through minimum (30 days + last dose of study treatment or start of new anti-cancer drug therapy). In this outcome measure participant with any TEAE of Grade 3 or above are reported.",
+            "timeFrame": "From first dose of study treatment up to at least 30 days after the last dose of study treatment or initiation of new anti-cancer therapy (up to 36 months)"
+          },
+          "pred_item": {
+            "measure": "Safety",
+            "description": "Safety assessed by treatment-related adverse events (TRAEs) graded according to CTCAE version 4.03, summarized by system organ class, preferred term, and maximum grade during the on-treatment period.",
+            "timeFrame": "From first dose of study treatment through 90 days after last dose (approximately up to 2 years)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Laboratory Abnormalities As Per National Cancer Institute Common Toxicity Criteria for Adverse Events (NCI-CTCAE), Version 4.03",
+            "description": "Laboratory parameters included hematological and biochemistry: Hematological parameters included: anemia, haemoglobin increased, lymphocyte count decreased, lymphocyte count increased, neutrophil count decreased, platelet count decreased and white blood cells decreased. Biochemistry parameters included alanine aminotransferase increased, alkaline phosphatase increased, aspartate aminotransferase increased, blood bilirubin increased, cholesterol high, creatine kinase(cpk) increased, creatinine increased, gamma glutamyl transferase(ggt) increased, hypercalcemia, hyperglycemia, hyperkalemia, hypermagnesemia, hypernatremia, hypertriglyceridemia, hypoalbuminemia, hypocalcemia, hypoglycemia, hypokalemia, hypomagnesemia, hyponatremia, hypophosphatemia, lipase increased,serum amylase increased.Test abnormalities were graded by NCI CTCAE version 4.03 as Grade 1=mild; Grade 2=moderate; Grade 3/Grade 4=severe/life-threatening. Number of participants with abnormalities of any grade were reported.",
+            "timeFrame": "From first dose of study treatment up to at least 30 days after the last dose of study treatment or initiation of new anti-cancer therapy (up to 36 months)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Electrocardiogram (ECG) Abnormalities",
+            "description": "ECG abnormalities included: 1) QT interval, QT interval corrected using Bazett's formula (QTcB) and QT interval corrected using Fridericia's formula (QTcF): increase from baseline greater than (\\>) 30 millisecond (ms) or 60 ms; absolute value \\>450 ms, \\>480 ms and \\>500 ms; 2) heart rate (HR): absolute value \\<=50 beats per minute (bpm) and decrease from baseline \\>=20 bpm; absolute value \\>=120 bpm and increase from baseline \\>=20 bpm; 3) PR interval: absolute value \\>=220 ms and increase from baseline \\>=20 ms; 4) QRS interval: absolute value \\>=120 ms.",
+            "timeFrame": "From first dose of study treatment up to at least 30 days after the last dose of study treatment or initiation of new anti-cancer therapy (up to 36 months)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Duration of Response (DOR) as Assessed by Investigator Per Lugano Response Classification Criteria",
+            "description": "Investigator assessed DOR: was defined for participants with OR as time from first documentation of OR to time of first documentation of disease progression/death due to any cause, whichever occurred first. CR: score of 1(no uptake above background),2(uptake \\<=mediastinum),or 3(uptake \\<mediastinum but \\<=liver) with or without a residual mass on PET 5-PS,for lymph nodes extralymphatic sites;no new lesions;no evidence of FDG-avid disease in bone marrow. PR: \\>=50% decrease in SPD of up to 6 of largest dominant lymph nodes,no increase in size of other nodes,liver,spleen volume,\\>=50% decrease in SPD of hepatic splenic nodules,absence of other organ involvement,no new sites of disease. PD: appearance of new lesion more than 1.5 cm in any axis,at least a 50% increase from nadir in SPD/longest diameter of previous lesion/node. Data was censored on date of last adequate tumor assessment in participants with no event,started new anti-cancer therapy/had 2 or more missing assessments.",
+            "timeFrame": "First response (CR or PR) to date of PD, start of new anti-cancer therapy, discontinuation from the study, censoring date or death due to any cause, whichever occurred first (maximum up to 36 months)"
+          },
+          "pred_item": {
+            "measure": "Duration of response (DR)",
+            "description": "Duration of response was analyzed using the Kaplan-Meier method for patients who achieved a complete response (CR) or partial response (PR).",
+            "timeFrame": "From the time of first documented response until disease progression or death (approximately up to 2 years)"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 3,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time to Tumor Response (TTR) as Assessed by Investigator Per Lugano Response Classification Criteria",
+            "description": "TTR was defined for participants who achieved objective response as time from randomization to first documentation of objective tumor response (CR or PR) that was subsequently confirmed. CR was defined as a score of 1 (no uptake above background), 2 (uptake \\<= mediastinum), or 3 (uptake \\<mediastinum but \\<=liver) with or without a residual mass on PET 5-PS, for lymph nodes and extralymphatic sites; no new lesions; no evidence of FDG-avid disease in bone marrow. PR was defined as \\>=50% decrease in SPD of up to six of the largest dominant lymph nodes, no increase in size of other nodes, liver, or spleen volume, a \\>=50% decrease in SPD of hepatic and splenic nodules, absence of other organ involvement, and no new sites of disease.",
+            "timeFrame": "From the date of randomization to the first documentation of objective response (CR or PR) (maximum up to 36 months)"
+          },
+          "pred_item": {
+            "measure": "Time to tumor response (TTR)",
+            "description": "Time to tumor response was summarized using descriptive statistics for patients who achieved a response.",
+            "timeFrame": "From randomization to first documented response (approximately up to 2 years)"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 4,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Disease Control Rate as Assessed by the Investigator Per Lugano Response Classification Criteria",
+            "description": "Disease control rate was defined as percentage of participants with disease control. Disease Control (DC) was defined as the best overall response of CR, PR, or stable disease (SD). CR: score of 1 (no uptake above background), 2 (uptake \\<= mediastinum), or 3 (uptake less than \\<mediastinum but \\<=liver) with or without a residual mass on PET 5-PS, for lymph nodes and extralymphatic sites; no new lesions; no evidence of FDG-avid disease in bone marrow. PR: \\>=50% decrease in SPD of up to six of the largest dominant lymph nodes, no increase in size of other nodes, liver, or spleen volume, a \\>=50% decrease in SPD of hepatic and splenic nodules, absence of other organ involvement, and no new sites of disease. SD: \\<50% decrease in SDP of up to 6 dominant, measurable nodes and extranodal sites; no criteria for progressive disease met. To qualify as a best overall response of SD, at least one SD assessment must be observed \\>=6 weeks after start date and before disease progression.",
+            "timeFrame": "From the date of randomization to the first documentation of PD, study discontinuation, start of new anti-cancer therapy or death due to any cause, whichever occurred first (maximum up to 36 months)"
+          },
+          "pred_item": {
+            "measure": "Disease control (DC)",
+            "description": "Disease control defined as the sum of complete response (CR) + partial response (PR) + stable disease (SD). Disease control rate was summarized by frequency counts and percentages.",
+            "timeFrame": "From randomization until disease progression or end of study (approximately up to 2 years)"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 5,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Progression-Free Survival (PFS) as Assessed by the Investigator Per Lugano Response Classification Criteria",
+            "description": "Investigator assessed PFS was defined as time (in months) from date of randomization to the first documentation of disease progression or death (due to any cause), whichever occurred first. PFS data was censored on the date of the last adequate tumor assessment for participants who had no an event (PD or death), for participants who start a new anti-cancer therapy prior to an event or for participants with an event after 2 or more missing or inadequate post-baseline tumor assessment. Participants without an adequate baseline or post-baseline tumor assessment were censored on the date of randomization unless death occurred on or before the time of the second planned tumor assessment in which case the death was considered as an event.",
+            "timeFrame": "From the date of randomization to progression of disease, study discontinuation, censoring date or death due to any cause, whichever occurred first (up to 36 months)"
+          },
+          "pred_item": {
+            "measure": "Progression-free survival (PFS)",
+            "description": "Progression-free survival as assessed by the investigator per Lugano Response Classification criteria, analyzed using the Kaplan-Meier method.",
+            "timeFrame": "From randomization until disease progression or death from any cause (approximately up to 2 years)"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 6,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Overall Survival",
+            "description": "Overall survival was defined as the time (in months) from the date of randomization to the date of death due to any cause. Participants last known to be alive were censored at date of last contact. Analysis was performed using Kaplan-Meier method.",
+            "timeFrame": "From the date of randomization to discontinuation from the study or death, whichever occurred first (maximum up to 36 months)"
+          },
+          "pred_item": {
+            "measure": "Overall survival (OS)",
+            "description": "Overall survival analyzed using the Kaplan-Meier method.",
+            "timeFrame": "From randomization until death from any cause (approximately up to 2 years)"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Concentration Verses Time Summary of Avelumab",
+            "timeFrame": "1 hour Post dose Day 2 Cycle 1, 144 hour Post dose Day 8 of Cycle 1, 0 hour Post dose Day 16 of Cycle 1, Day 1 of Cycle 4 and Cycle 6"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Anti-Drug Antibodies (ADA) Against Avelumab by Never and Ever Positive Status",
+            "description": "ADA never-positive was defined as no positive ADA results at any time point. ADA ever-positive was defined as at least one positive ADA result at any time point.",
+            "timeFrame": "Baseline: 2 hours pre-dose of first dose of avelumab, Post baseline: post first dose up to up to 30 Days after the end of treatment (maximum up to 36 months)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Anti-Drug Antibodies (ADA) Against Rituximab by Never and Ever Positive Status",
+            "description": "ADA never-positive was defined as no positive ADA results at any time point. ADA ever-positive was defined as at least one positive ADA result at any time point.",
+            "timeFrame": "From the date of first study treatment up to 30 Days after the end of treatment (maximum up to 36 months)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Anti-Drug Antibodies (ADA) Against Utomilumab by Never and Ever Positive Status",
+            "description": "ADA never-positive was defined as no positive ADA results at any time point. ADA ever-positive was defined as at least one positive ADA result at any time point.",
+            "timeFrame": "From the date of first study treatment up to 30 Days after the end of treatment (maximum up to 36 months)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Neutralizing Antibodies (nAb) Against Avelumab by Never and Ever Positive Status",
+            "description": "nAb never-positive was defined as no positive nAb results at any time point and nAb ever-positive was defined as at least one positive nAb result at any time point.",
+            "timeFrame": "From the date of first study treatment up to 30 Days after the end of treatment (maximum up to 36 months)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Neutralizing Antibodies (nAb) Against Rituximab by Never and Ever Positive Status",
+            "description": "nAb never-positive was defined as no positive nAb results at any time point and nAb ever-positive was defined as at least one positive nAb result at any time point.",
+            "timeFrame": "From the date of first study treatment up to 30 Days after the end of treatment (maximum up to 36 months)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Neutralizing Antibodies (nAb) Against Utomilumab by Never and Ever Positive Status",
+            "description": "nAb never-positive was defined as no positive nAb results at any time point and nAb ever-positive was defined as at least one positive nAb result at any time point.",
+            "timeFrame": "From the date of first study treatment up to 30 Days after the end of treatment (maximum up to 36 months)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Programmed Death Receptor-1 Ligand-1 (PD-L1) Biomarker Expression in Tumor and Immune Cells as Assessed by Immunohistochemistry (IHC) at Baseline",
+            "description": "Percentage of Tumor and Immune Cells as Assessed by Immunohistochemistry at Baseline.",
+            "timeFrame": "Screening (prior to first dose of study treatment)"
+          },
+          "pred_item": {
+            "measure": "PD-L1 expression levels",
+            "description": "PD-L1 expression levels in tumor cells and cells of the tumor microenvironment at baseline, assessed by immunohistochemical analysis using SP263 (Ventana).",
+            "timeFrame": "Baseline"
+          }
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Minimal Residual Disease Burden (MRD) Positive, Negative and Not Evaluable (NE) Status",
+            "description": "Number of participants with MRD positive, negative and not evaluable status were reported in this outcome measure.",
+            "timeFrame": "Baseline, Day 1 of Cycle 3, 6, 9, 12 and 18"
+          },
+          "pred_item": {
+            "measure": "Minimal residual disease (MRD)",
+            "description": "Minimal residual disease assessed using serial blood samples. Tumor DNA was extracted and analyzed using the Adaptive ClonoSEQ Clinical Laboratory Improvement Amendments-regulated laboratory-developed test to determine DLBCL clonotypes that could then be followed in serial plasma samples.",
+            "timeFrame": "Serial assessments from baseline through treatment (approximately up to 2 years)"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "metadata": {
+    "case_id": 18,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T15:07:17.745600",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/18_NCT04916587.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/18_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "id": "R21MH123835",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/R21MH123835"
+          },
+          "pred_item": {
+            "id": "R21MH23835",
+            "type": "NIH",
+            "domain": "National Institute of Mental Health"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.42,
+          0.86
+        ],
+        [
+          0.93,
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "ACEs Screenings and a Multifaceted Implementation Strategy",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "\\[Update May/2024\\] ACEs pediatric screenings in primary care settings. This study will focus on screening children ages 0-5, in line with the partnering FQHC's ACEs screening priorities. The implementation strategy components are: 1) video-trainings for clinic personnel (care team staff and providers); 2) technical implementation support to increase inner context capacity, 3) use of a validated clinical screening tool - Pediatric Symptoms Checklist (PSC-17), used in pediatric settings to assess behavioral and social/emotional development. For this study, we use the PSC tools that are tailored to children ages 0 to 5 years old with the Baby Pediatric Symptomatology Checklist (BPSC) for ages 0 to 18 months, and the Preschool Pediatric Symptom Checklist (PPSC) for ages 18 to 60 months. This screening tool is needed as the PEARLS only assesses ACEs exposure; and 4) use of a technology-based tailored ACEs algorithm that incorporates multiple data sources.",
+            "interventionNames": [
+              "Other: Implementation Strategy of ACEs Screenings"
+            ]
+          },
+          "pred_item": {
+            "label": "Intervention Status (Implementation Strategy)",
+            "type": "EXPERIMENTAL",
+            "description": "Clinics implement standard care in addition to the multifaceted implementation strategy.",
+            "interventionNames": [
+              "Other: Multifaceted Implementation Strategy",
+              "Procedure: Standard Care (ACEs Aware Policy)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Standard Care",
+            "type": "OTHER",
+            "description": "Clinics provide standard care that includes unstructured conversations between clinicians and caregivers about the child(ren)'s needs and a service referral as needed.",
+            "interventionNames": [
+              "Other: Usual Care"
+            ]
+          },
+          "pred_item": {
+            "label": "Control Status (Standard Care)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Clinics use standard care to identify children’s mental health needs through developmental screenings, discussions with providers during wellness visits, and/or following the ACE state protocol.",
+            "interventionNames": [
+              "Procedure: Standard Care (ACEs Aware Policy)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.55
+        ],
+        [
+          0.22,
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Implementation Strategy of ACEs Screenings",
+            "description": "We will use implementation mapping, guided by the EPIS framework, to promote a co-created process and refine the strategy comprised of online training videos, a customized ACEs algorithm and use of technology to improve workflow efficiency, implementation technical assistance/coaching, and written implementation protocols.",
+            "armGroupLabels": [
+              "ACEs Screenings and a Multifaceted Implementation Strategy"
+            ]
+          },
+          "pred_item": {
+            "type": "OTHER",
+            "name": "Multifaceted Implementation Strategy",
+            "description": "A comprehensive strategy comprised of online training videos, a customized algorithm and use of technology (tablets/REDCap) to improve workflow efficiency, implementation training to internal FQHC personnel, clinic support and coaching (technical implementation support), written implementation protocols, and use of the Pediatric Symptoms Checklist (PSC).",
+            "armGroupLabels": [
+              "Intervention Status (Implementation Strategy)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Usual Care",
+            "description": "The ACEs Aware policy goal is to \"equip providers with training and clinical protocols to screen children and adults for ACEs, detect ACEs early, and connect patients to interventions, resources, and other support to improve patient health and well-being.\" ACEs screenings are comprised of: a) a 2-hour on-line provider training; b) the Pediatric ACEs and Related Life-events Screener or PEARLS tool; c) an ACEs associated health conditions checklist; and d) complete a wellness exam. The primary care provider uses multiple sources of information to identify a child's need for follow-up services.",
+            "armGroupLabels": [
+              "Standard Care"
+            ],
+            "otherNames": [
+              "ACEs Screenings"
+            ]
+          },
+          "pred_item": {
+            "type": "PROCEDURE",
+            "name": "Standard Care (ACEs Aware Policy)",
+            "description": "Adherence to the state-reimbursable ACE screening protocol, which requires clinics to: (a) complete a 2-h on-line provider training, (b) use the Pediatric ACEs and Related Life-events Screener (PEARLS) tool, (c) use an ACE-associated health conditions checklist, and (d) complete a wellness exam and provide follow-up education.",
+            "armGroupLabels": [
+              "Control Status (Standard Care)",
+              "Intervention Status (Implementation Strategy)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.55
+        ],
+        [
+          0.3,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "ACEs Screenings Reach",
+            "description": "The number of participants with ACEs screenings.",
+            "timeFrame": "Every 10 weeks during the study trial, up to 19 months"
+          },
+          "pred_item": {
+            "measure": "Reach of ACE screenings",
+            "description": "Proportion of eligible children participating in ACE screenings. The number of eligible children will be determined using the FQHC's EMR system.",
+            "timeFrame": "Week 10 of each 10-week time period"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Mental Health Service Referral",
+            "description": "Number of participants with a mental health referral (behavioral analysis, behavioral health, care coordinator, care management, child development/development center or social work)",
+            "timeFrame": "Every 10 weeks during the study trial, up to 19 months."
+          },
+          "pred_item": {
+            "measure": "Mental health referral rates",
+            "description": "Number of mental health referrals (behavioral analysis, behavioral health, care coordinator, care management, child development center or social work) divided by the total # of eligible children. This applies to children deemed at high risk for toxic stress and/or mental health needs.",
+            "timeFrame": "Week 10 of each 10-week time period"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.11,
+          0.08,
+          0.08,
+          0.76
+        ],
+        [
+          0.72,
+          0.96,
+          0.35,
+          0.15
+        ],
+        [
+          0.94,
+          0.78,
+          0.4,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.76,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Changes in Baby Pediatric Symptoms (BPSS) / Preschool PSC (PPSC)",
+            "description": "The percentage of children screening positive for BPSS or PPSC from the time of the ACEs screening. These data were collected on a subsample of study participants during ACEs screenings (n=414). From that group, a total of 50 caregivers provided follow up information on PSC scores (n=50).\n\nThis secondary outcome was collected as part of the strategy in the intervention group only (i.e., ACEs screenings plus the multifaceted implementation strategy group). The data were only collected from the \"ACEs Screenings and a Multifaceted Implementation Strategy\" Arm/Group.",
+            "timeFrame": "First score measure during ACEs screenings. Follow-up scores from 8 - 16 months"
+          },
+          "pred_item": {
+            "measure": "Changes in Pediatric Symptoms Checklist (PSC) scores",
+            "description": "Mean score differences from eligible screened children who were deemed at high or at intermediate risk. PSC is a caregiver-reported tool measuring children's psychosocial functioning.",
+            "timeFrame": "10 weeks after child's ACE screening"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Acceptability of the Strategy",
+            "description": "Self-reported 4-item instrument to evaluate acceptability of ACEs policy and implementation efforts. 5-pt Likert scale; average score of 4+ shows acceptability. Good internal consistency (α=0.83). Test-retest reliability r=0.83. At the end of the stepped-wedge schedule, clinical personnel were invited to participate in a survey to evaluate the acceptability of the strategy. These data were collected on a subsample of clinic personnel involved in the implementation of the ACEs screenings at the study clinical sites.\n\nThis self-reported 4-item instrument to evaluate acceptability used a 5-point Likert scale for each item, ranging from 1 (Completely Disagree) to 5 (Completely Agree). The total score is calculated by summing the responses across all four items, which range from 4 to 20, with higher scores indicating greater acceptability.",
+            "timeFrame": "End of data collection -End of period 7 in the stepped-wedge schedule"
+          },
+          "pred_item": {
+            "measure": "Implementation acceptability",
+            "description": "Self-reported 4-item survey evaluating acceptability of ACE policy and implementation efforts. 4-pt Likert scale; average score of 4+ shows acceptability. Good internal consistency (alpha= 0.83). Test-retest reliability r= 0.83.",
+            "timeFrame": "Week 10 of the intervention time period"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Feasibility of the Strategy",
+            "description": "Self-reported 4-item instrument to evaluate the feasibility of implementation efforts. 5-pt Likert scale; average score of 4+ shows ACEs policy and implementation strategy perceived as feasible. Good internal consistency (α=0.89). Test-retest reliability r=0.88. At the end of the stepped-wedge schedule, clinical personnel were invited to participate in a survey to evaluate the feasibility of the strategy. These data were collected on a subsample of clinic personnel involved in the implementation of the ACEs screenings at the study clinical sites.\n\nThis self-reported 4-item instrument to evaluate feasibility used a 5-point Likert scale for each item, ranging from 1 (Completely Disagree) to 5 (Completely Agree). The total score is calculated by summing the responses across all four items, which range from 4 to 20, with higher scores indicating greater feasibility.",
+            "timeFrame": "End of data collection- End of Period 7 based on the Stepped-Wedge Schedule"
+          },
+          "pred_item": {
+            "measure": "Implementation feasibility",
+            "description": "Self-reported 4-item survey evaluating feasibility of implementation efforts. 4-pt Likert scale; average score of 4+ shows ACE policy and implementation strategy perceived as feasible. Good internal consistency (alpha=0.89). Test-retest reliability r= 0.88.",
+            "timeFrame": "Week 10 of the intervention time period"
+          }
+        }
+      ]
+    }
+  ]
+}

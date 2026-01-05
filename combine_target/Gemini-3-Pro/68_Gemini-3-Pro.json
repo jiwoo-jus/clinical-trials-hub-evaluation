@@ -1,0 +1,170 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03346057",
+      "orgStudyIdInfo": null,
+      "secondaryIdInfos": [
+        {
+          "id": "145",
+          "type": "OTHER",
+          "domain": "Merck Sharp & Dohme Corp."
+        }
+      ],
+      "organization": {
+        "fullName": "Merck Sharp & Dohme Corp.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": null,
+      "officialTitle": null,
+      "acronym": null
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this randomized, double-blind trial was to evaluate the safety and tolerability profile, including cardiac safety, of sugammadex-mediated recovery from neuromuscular block in participants undergoing surgery who met the American Society of Anesthesiologists (ASA) Physical Class 3 or 4 criteria. Specifically, this study assessed the impact of sugammadex on cardiac adverse events (AEs) and other prespecified AEs of clinical interest compared to neostigmine/glycopyrrolate.",
+      "detailedDescription": "Participants meeting ASA Class 3 and 4 criteria were stratified by ASA Class and NMBA (rocuronium or vecuronium) then randomized to one of the following: 1) Moderate neuromuscular block, sugammadex 2 mg/kg; 2) Moderate neuromuscular block, neostigmine and glycopyrrolate (neostigmine/glycopyrrolate); 3) Deep neuromuscular block, sugammadex 4 mg/kg; 4) Deep neuromuscular block, sugammadex 16 mg/kg (rocuronium only). Primary endpoints included incidences of treatment-emergent (TE) sinus bradycardia, TE sinus tachycardia and other TE cardiac arrhythmias. Continuous electrocardiogram monitoring began ≥5 min before study medication administration and lasted ≥30 min after study medication administration. Events of clinical interest (ECI) included clinically relevant (CR) sinus bradycardia, CR sinus tachycardia, other CR cardiac arrhythmias, drug-induced liver injury, and adjudicated hypersensitivity and anaphylaxis."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Neuromuscular Blockade",
+        "Reversal of Neuromuscular Blockade"
+      ],
+      "keywords": [
+        "Sugammadex",
+        "Neostigmine",
+        "Glycopyrrolate",
+        "Rocuronium",
+        "Vecuronium",
+        "ASA Class 3",
+        "ASA Class 4",
+        "Cardiac Safety",
+        "Arrhythmia",
+        "Sinus Bradycardia",
+        "Sinus Tachycardia"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized, active comparator-controlled, multi-site, parallel-group, double-blind safety study.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "The anesthesiologist was blinded to the reversal agent in the moderate block arms. In the deep block arms, the anesthesiologist was blinded to the dose of sugammadex. The study had a safety assessor, separate from the anesthesiologist, who was blinded to study medication assignment, depth of neuromuscular block, and drug preparation record. Participants received the reversal agent intravenously via 2 syringes in masked fashion. An external clinical adjudication committee was blinded to treatment.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 331,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Sugammadex 2 mg/kg (Moderate Block)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants maintained in moderate neuromuscular block (targeting train-of-four counts between 1 and 3) received reversal with sugammadex 2 mg/kg intravenously.",
+          "interventionNames": [
+            "Drug: Sugammadex"
+          ]
+        },
+        {
+          "label": "Neostigmine/Glycopyrrolate (Moderate Block)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants maintained in moderate neuromuscular block (targeting train-of-four counts between 1 and 3) received reversal with neostigmine (50 μg/kg up to 5 mg maximum dose) plus glycopyrrolate (10 μg/kg up to 1 mg maximum dose).",
+          "interventionNames": [
+            "Drug: Neostigmine",
+            "Drug: Glycopyrrolate"
+          ]
+        },
+        {
+          "label": "Sugammadex 4 mg/kg (Deep Block)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants maintained in deep neuromuscular block (targeting post-tetanic counts < 5) received reversal with sugammadex 4 mg/kg intravenously.",
+          "interventionNames": [
+            "Drug: Sugammadex"
+          ]
+        },
+        {
+          "label": "Sugammadex 16 mg/kg (Deep Block)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants maintained in deep neuromuscular block (targeting post-tetanic counts < 5) received reversal with sugammadex 16 mg/kg intravenously. This arm included only participants in the rocuronium stratum.",
+          "interventionNames": [
+            "Drug: Sugammadex"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Sugammadex",
+          "description": "A modified cyclodextrin administered intravenously as a bolus to reverse neuromuscular blockade. Doses: 2 mg/kg, 4 mg/kg, or 16 mg/kg depending on treatment arm.",
+          "armGroupLabels": [
+            "Sugammadex 2 mg/kg (Moderate Block)",
+            "Sugammadex 4 mg/kg (Deep Block)",
+            "Sugammadex 16 mg/kg (Deep Block)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Neostigmine",
+          "description": "Administered intravenously at a dose of 50 μg/kg up to 5 mg maximum dose for reversal of moderate neuromuscular block.",
+          "armGroupLabels": [
+            "Neostigmine/Glycopyrrolate (Moderate Block)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Glycopyrrolate",
+          "description": "Administered intravenously at a dose of 10 μg/kg up to 1 mg maximum dose in combination with neostigmine.",
+          "armGroupLabels": [
+            "Neostigmine/Glycopyrrolate (Moderate Block)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of treatment-emergent (TE) cardiac arrhythmias",
+          "description": "The proportion of participants experiencing TE arrhythmias, specifically TE sinus bradycardia (heart rate < 60/min or > 20% decrease below baseline), TE sinus tachycardia (heart rate ≥ 100/min or > 20% increase above baseline), and other new or worsened arrhythmias sustained for ≥ 1 minute.",
+          "timeFrame": "Within 35 minutes after administration of study medication"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence of Events of Clinical Interest (ECI)",
+          "description": "Evaluation of selected non-serious and serious adverse events including clinically relevant (CR) arrhythmias (necessitating intervention), adjudicated hypersensitivity, adjudicated anaphylaxis, and drug-induced liver injury (defined liver transaminase elevations).",
+          "timeFrame": "From randomization through 14 days following cessation of treatment"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "General safety profile assessment",
+          "description": "Incidences of specific adverse events (AEs) by system organ classes, serious AEs, and laboratory/vital sign values assessed by predefined limits of changes.",
+          "timeFrame": "Up to 7 days post-treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Men and women 18 years or older\n- BMI < 40 m2/kg\n- ASA Physical Class 3 or 4 as determined by the investigator (independent of the BMI ≥40 kg/m2 criterion)\n- Planned surgical procedures involving moderate or deep neuromuscular block with either rocuronium or vecuronium\n\nExclusion Criteria:\n- Pacemaker or implantable cardioverter-defibrillator precluding assessment of bradycardia or arrhythmias\n- Plan not to reverse neuromuscular block at procedure end\n- Neuromuscular disorder affecting neuromuscular block or assessments\n- Severe renal insufficiency (defined as calculated CrCl < 30 mL/min by Cockroft-Gault)\n- History or family history of malignant hyperthermia\n- Known or suspected allergy to peri-operative medications\n- Toremifene application within 24 h (before or after) study drug administration\n- Pregnant, attempting to become pregnant, or lactating",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

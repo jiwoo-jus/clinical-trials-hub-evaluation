@@ -1,0 +1,96 @@
+{
+  "protocolSection": {
+    "identificationModule": null,
+    "descriptionModule": null,
+    "conditionsModule": null,
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Patients were randomized in a 2:1 ratio to receive either oral ipatasertib (400 mg daily on days 1–21) plus intravenous paclitaxel (80 mg/m² on days 1, 8 and 15) of a 28-day cycle, or placebo plus the same paclitaxel regimen. Randomization was stratified by three criteria: (neo)adjuvant chemotherapy (yes vs no), prior PI3K/mTOR inhibitor (yes vs no) and region (Asia–Pacific vs Europe vs North America vs rest of the world).",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "The study was a randomized, double-blind, placebo-controlled trial. Patients and investigators were blinded to treatment assignment (ipatasertib vs placebo), while paclitaxel was administered openly to both arms.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 222,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ipatasertib + Paclitaxel",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received oral ipatasertib 400 mg daily on days 1-21 plus intravenous paclitaxel 80 mg/m² on days 1, 8, and 15 of a 28-day cycle until disease progression or unacceptable toxicity",
+          "interventionNames": [
+            "Drug: Ipatasertib",
+            "Drug: Paclitaxel"
+          ]
+        },
+        {
+          "label": "Placebo + Paclitaxel",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients received oral placebo daily on days 1-21 plus intravenous paclitaxel 80 mg/m² on days 1, 8, and 15 of a 28-day cycle until disease progression or unacceptable toxicity",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Drug: Paclitaxel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ipatasertib",
+          "description": "Oral ATP-competitive small-molecule inhibitor of all three AKT isoforms, administered at 400 mg daily on days 1-21 of each 28-day cycle",
+          "armGroupLabels": [
+            "Ipatasertib + Paclitaxel"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Oral placebo administered daily on days 1-21 of each 28-day cycle",
+          "armGroupLabels": [
+            "Placebo + Paclitaxel"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "Intravenous paclitaxel administered at 80 mg/m² on days 1, 8, and 15 of each 28-day cycle",
+          "armGroupLabels": [
+            "Ipatasertib + Paclitaxel",
+            "Placebo + Paclitaxel"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": null,
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Hormone receptor-positive (≥1% staining) HER2-negative breast cancer\n- PIK3CA/AKT1/PTEN-altered tumor (activating alterations in PIK3CA and/or AKT1, and/or inactivating alterations in PTEN)\n- Unresectable locally advanced or metastatic breast cancer with measurable disease according to RECIST version 1.1\n- Inappropriate for endocrine-based therapy (demonstrated insensitivity to endocrine therapy or visceral crisis)\n- Candidate for taxane monotherapy\n- Eastern Cooperative Oncology Group performance status 0 or 1\n\nExclusion Criteria:\n- Prior chemotherapy for advanced/metastatic breast cancer\n- Diagnosis of advanced/metastatic breast cancer <1 year since last (neo)adjuvant chemotherapy\n- History of or known presence of brain or spinal cord metastases",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "28 Years",
+      "maximumAge": "81 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

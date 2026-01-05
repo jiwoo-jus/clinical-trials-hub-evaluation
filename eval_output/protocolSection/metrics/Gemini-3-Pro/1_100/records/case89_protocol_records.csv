@@ -1,0 +1,94 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04864691,NCT04864691,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].id,EV,EV,,2018AAA0102600,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,KY2020-114-02,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].type,EV,EV,,OTHER_GRANT,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,OTHER,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,National Key R&D Program,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,Beijing Tiantan Hospital,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,Endovascular Recanalization and Standard Medical Management for Symptomatic Nonacute Intracranial Artery Occlusion Trial,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,"Department of Interventional Neurology, Beijing Tiantan Hospital, Capital Medical University",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"Background The management of patients with symptomatic nonacute intracranial artery occlusion (sNA-ICAO), which is a special subset with high morbidity and a high probability of recurrent serious ischemic events despite standard medical therapy (SMT), has been clinically challenging. Some small-sample clinical studies have also discussed endovascular recanalization for sNA-ICAO; however, there is currently a lack of evidence from multicenter, prospective, large-sample cohort trials. The aim of our present study was to evaluate the technical feasibility and safety of endovascular recanalization for sNA-ICAO.
+
+Methods and analysis: Our group is currently undertaking a multisite, nonrandomized cohort, prospective registry study enrolling consecutive patients presenting with sNA-ICAO at 15 centers in China between May 1, 2020, and April 30, 2023. A cohort of patients who received SMT and a cohort of similar patients who received ER plus SMT were constructed and followed up for 2 years. The primary outcome is the composite of stroke/TIA within 2 years following enrollment and stroke/TIA ipsilateral to the target vessel. The secondary efficacy outcome includes the following two parts: 1) the incidence of stroke/TIA ipsilateral to the target vessel within 30 days and 90 days in both groups; 2) the all-cause mortality, mRS score, NIHSS score and cognitive function at 30 days, 90 days, 8 months, 12 months and 24 months for both groups, including the MRI, CTA/MRA, CTP or MRP results in patients with internal carotid artery or middle cerebral artery occlusion as well as CTA in patients with basilar or vertebral artery occlusion at 90 days, 12 months and 24 months. Descriptive statistics and linear/logistic multiple regression models will be generated. Clinical relevance will be measured as relative risk reduction, absolute risk reduction and the number needed to treat.
+
+Ethics and dissemination This study protocol was reviewed and approved primarily by Beijing Tiantan Hospital, the Capital Medical University Medical Ethics Committee, and the institutional review boards of all partner sites. The study is being externally monitored, and the results will be published in open-access peer-reviewed scientific journals and presented to academic and policy stakeholders.","This study is a multicenter, prospective registry designed to evaluate the technical feasibility and safety of endovascular recanalization (ER) for patients with symptomatic non-acute intracranial artery occlusion (sNA-ICAO). The trial aims to test whether ER combined with standard medical therapy (SMT) is superior to SMT alone in the primary prevention of stroke in this high-risk patient population.",True,0.96,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"This is a multisite, non-randomized cohort, prospective registry study enrolling consecutive patients presenting with symptomatic non-acute intracranial artery occlusion (sNA-ICAO) across 15 centers in China from January 2020 to December 2022. Participants are assigned to one of two cohorts based on clinical judgment and patient preference: a group receiving Standard Medical Therapy (SMT) alone and a group receiving Endovascular Recanalization (ER) plus SMT.
+
+SMT consists of a dual antiplatelet regimen (aspirin 100 mg/day and clopidogrel 75 mg/day) for 90 days, followed by lifelong monotherapy, alongside management of risk factors such as systolic blood pressure and LDL cholesterol. The ER protocol is performed under general anesthesia and involves crossing the occluded segment with a microcatheter, balloon dilation, and potential stent implantation if residual severe stenosis or dissection occurs. Successful revascularization is defined as modified TICI grade 2b or 3 with residual stenosis less than 50%.
+
+The primary outcome is any stroke occurring from enrollment to the 2-year follow-up. Secondary outcomes include all-cause mortality, modified Rankin Scale (mRS) score, NIHSS score, and cognitive function assessments (using ADAS-Cog, animal naming, letter fluency, and digit span) at 30 days, 3 months, 8 months, 12 months, 18 months, and 2 years. Propensity score matching will be used to compare the groups while adjusting for confounders.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,['Intracranial Artery Occlusion With Infarction'],"['Symptomatic Non-acute Intracranial Artery Occlusion', 'Ischemic Stroke', 'Intracranial Artery Diseases']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['standard medical therapy', 'symptomatic non-acute intracranial artery occlusion', 'endovascular recanalization']","['Endovascular Recanalization', 'Standard Medical Therapy', 'sNA-ICAO', 'Stroke Prevention', 'Intracranial Stenting']",False,0.6666666666666666,partial,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,FP,INTERVENTIONAL,OBSERVATIONAL,False,0.1,success,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,True,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.targetDuration,EV,EV,,2 Years,,,,TargetDuration,protocolSection.designModule.targetDuration,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,FP,['EARLY_PHASE1'],['NA'],False,0.0,disjoint,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,FP,NON_RANDOMIZED,NA,False,0.2,success,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,FN,FN,PARALLEL,,False,0.0,,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.observationalModel,EV,EV,,COHORT,,,,DesignObservationalModel,protocolSection.designModule.designInfo.observationalModel,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.timePerspective,EV,EV,,PROSPECTIVE,,,,DesignTimePerspective,protocolSection.designModule.designInfo.timePerspective,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,SINGLE,SINGLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Outcome will be determined by an adjudication committee that is unaware of the trial design and grouping.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,FP,['INVESTIGATOR'],['OUTCOMES_ASSESSOR'],False,0.0,disjoint,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,453,480,True,0.9,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[1].type,EV,EV,,DRUG,,,,InterventionType,protocolSection.armsInterventionsModule.interventions.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[1].name,EV,EV,,Standard Medical Therapy (SMT),,,,InterventionName,protocolSection.armsInterventionsModule.interventions.name,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[1].description,EV,EV,,"Consists of aspirin (100 mg/day) and clopidogrel (75 mg/day) for 90 days followed by lifelong aspirin or clopidogrel monotherapy. Includes blood pressure control (systolic <140 or 130 mmHg), LDL cholesterol control (<70 mg/dl with Atorvastatin), and a lifestyle modification program (INTERVENT).",,,,InterventionDescription,protocolSection.armsInterventionsModule.interventions.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[1].armGroupLabels,EV,EV,,"['SMT alone', 'ER plus SMT']",,,,InterventionArmGroupLabel,protocolSection.armsInterventionsModule.interventions.armGroupLabels,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].measure,EV,EV,,Cognitive function,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].description,EV,EV,,"Assessed using five tests covering four domains: word list learning test and delayed recall test from the ADAS-Cog, executive function/processing speed (animal naming and letter fluency), and attention/working memory (digit span).",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].timeFrame,EV,EV,,"30 days, 3 months, 8 months, 12 months, 18 months, and 2 years of follow-up",,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"inclusion criteria:
+
+1. Patient age ≥ 18 years old and life expectancy of 5 years or more.
+2. Symptomatic sNA-ICAO defined as:diagnosed by CTA or MRA and confirmed by angiography; Vascular occlusion time more than 24 hours;TIA or ischemic stroke (confirmed by CT or MRI) related to the LCAO despite SMT \< 90 days prior to enrollment.
+3. Modified Rankin scale score 0-2 at the time of informed consent.
+4. More than one risk factor for atherosclerosis.
+5. For patients with ICA or MCA M1 segment occlusion, ipsilateral hypoperfusion confirmed by CTP or MRI perfusion imaging prior to enrollment and analysis by the RAPID system.
+6. For patients with intracranial segment occlusion of the vertebral artery, severe stenosis or occlusion of the contralateral vertebral artery.
+7. Among women, no childbearing potential; or if a woman with childbearing potential, a negative pregnancy test result prior to randomization.
+8. Agreement of the patient to comply with all protocol-specified follow-up appointments.
+9. Signature by a patient of a consent form that has been approved by the local governing institutional review board (IRB)/medical ethics committee (MEC) of the respective clinical site.
+
+exclusion criteria:
+
+1. Intolerance or allergic reaction to a study medication without a suitable management alternative.
+2. No atherosclerotic intracranial vasculopathies, such as dissection, moyamoya disease and vasculitis.
+3. Concomitant intracranial aneurysms or any bleeding disorder.
+4. Life expectancy \<1 year due to other medical conditions.
+5. Large infarction core, defined as an ASPECTS \< 6 in anterior circulation and pc-ASPECTS \< 6 points in posterior circulation.
+6. For patients with MCA M1 segment occlusion, concomitant ≥50% stenosis of the proximal internal carotid artery or other intracranial arteries.
+7. For patients with intracranial segment occlusion of the vertebral artery, continuance of the occluded vertebral artery to the posterior inferior cerebellar artery with no stump.
+8. Incomplete clinical and imaging data.
+9. Coexistent cardioembolic source (e.g., atrial fibrillation, mitral stenosis, prosthetic valve, MI within six weeks, intracardiac clot, ventricular aneurysm and bacterial endocarditis).
+10. Occlusive lesions with severe calcification.
+11. Platelet count \<100,000/ml or history of heparin-induced thrombocytopenia.
+12. Left ventricular ejection fraction \<30% or admission for heart failure in the prior 6 months.
+13. Extreme morbid obesity that would compromise patient safety during the procedure or the periprocedural period.
+14. Coronary artery disease with two or more proximal or major diseased coronary arteries with 70% stenosis that have not or cannot be revascularized.
+15. Anticoagulation with Marcumar, warfarin or direct thrombin inhibitors or anti-XA drugs.
+16. Chronic atrial fibrillation.
+17. Any history of atrial fibrillation or paroxysmal atrial fibrillation in the past 6 months that is considered to require long-term anticoagulant therapy.
+18. Other high-risk cardiogenic embolisms, including left ventricular aneurysm, severe cardiomyopathy, aortic or mitral mechanical heart valve, severe calcified aortic stenosis (valve area \< 1.0 cm2), endocarditis, moderate to severe mitral stenosis, left atrial thrombus or any intracardiac mass or known paradoxical embolism of unrepaired PFO.
+19. Unstable angina defined as rest angina with ECG changes that is not amenable to revascularization (patients should undergo planned coronary revascularization at least 30 days before randomization).
+20. Any major surgery, major trauma, revascularization procedure or acute coronary syndrome within the past 1 month.
+21. serum creatinine \>2.5 mg/dl or estimated GFR \<30 cc/min.
+22. Major surgery planned within 3 months after enrollment.
+23. Currently listed or being evaluated for major organ transplantation (i.e., heart, lung, liver and kidney).
+24. Participation in other trials and may affect the results of this study.
+25. Inability to understand and cooperate with research procedures or provide informed consent.
+26. Endarterectomy, bypass or stent implantation performed on the proximal end of the occlusion vessel.","Inclusion Criteria:
+- Patients with imaging (MRA/CTA/DSA) and clinical diagnosis of symptomatic non-acute intracranial artery occlusion (sNA-ICAO).
+- sNA-ICAO defined as occlusion within 24 hours to 6 months.
+- For patients with ICA or MCA M1 segment occlusion, ipsilateral hypoperfusion confirmed by CTP or MRI perfusion imaging prior to enrollment.
+
+Exclusion Criteria:
+- (Detailed exclusion criteria were referenced in Table 2 but not provided in the text)",True,0.78,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,FP,18 Years,N/A,False,0.0,success,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,FN,FN,"['ADULT', 'OLDER_ADULT']",,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.studyPopulation,EV,EV,,"Consecutive patients presenting with symptomatic non-acute intracranial artery occlusion (sNA-ICAO) at 15 centers in China between January 1, 2020 and December 31, 2022.",,,,StudyPopulation,protocolSection.eligibilityModule.studyPopulation,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.samplingMethod,EV,EV,,NON_PROBABILITY_SAMPLE,,,,SamplingMethod,protocolSection.eligibilityModule.samplingMethod,True,False,True,False,False,False

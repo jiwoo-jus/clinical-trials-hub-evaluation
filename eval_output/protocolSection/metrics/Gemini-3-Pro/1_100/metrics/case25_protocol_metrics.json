@@ -1,0 +1,102 @@
+{
+  "case_id": 25,
+  "shard_range": "1_100",
+  "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/25_NCT04588480.json",
+  "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/25_Gemini-3-Pro.json",
+  "model": "Gemini-3-Pro",
+  "target_section": "protocolSection",
+  "target_pieces_count": 21,
+  "target_fields_count": 21,
+  "response_metadata": {
+    "prompt_tokens": 42152,
+    "completion_tokens": 1976,
+    "total_tokens": 44128,
+    "model": "gpt-5.1-2025-11-13"
+  },
+  "total": 23,
+  "key_precision": 1.0,
+  "key_recall": 1.0,
+  "key_f1": 1.0,
+  "value_precision": 0.8947368421052632,
+  "value_recall": 1.0,
+  "value_f1": 0.9444444444444444,
+  "key_counts": {
+    "TP": 19,
+    "FP": 0,
+    "FN": 0,
+    "TN": 0,
+    "EV": 4,
+    "NA": 0
+  },
+  "value_counts": {
+    "TP": 17,
+    "FP": 2,
+    "FN": 0,
+    "TN": 0,
+    "EV": 4,
+    "NA": 0
+  },
+  "key_EV_fields": [
+    "protocolSection.conditionsModule.keywords",
+    "protocolSection.designModule.patientRegistry",
+    "protocolSection.designModule.designInfo.interventionModelDescription",
+    "protocolSection.designModule.designInfo.maskingInfo.maskingDescription"
+  ],
+  "key_FN_fields": [],
+  "key_FP_fields": [],
+  "key_TP_fields": [
+    "protocolSection.identificationModule.nctId",
+    "protocolSection.identificationModule.briefTitle",
+    "protocolSection.identificationModule.officialTitle",
+    "protocolSection.descriptionModule.briefSummary",
+    "protocolSection.descriptionModule.detailedDescription",
+    "protocolSection.conditionsModule.conditions",
+    "protocolSection.designModule.studyType",
+    "protocolSection.designModule.phases",
+    "protocolSection.designModule.designInfo.allocation",
+    "protocolSection.designModule.designInfo.interventionModel",
+    "protocolSection.designModule.designInfo.maskingInfo.masking",
+    "protocolSection.designModule.designInfo.maskingInfo.whoMasked",
+    "protocolSection.designModule.enrollmentInfo.count",
+    "protocolSection.eligibilityModule.eligibilityCriteria",
+    "protocolSection.eligibilityModule.healthyVolunteers",
+    "protocolSection.eligibilityModule.sex",
+    "protocolSection.eligibilityModule.minimumAge",
+    "protocolSection.eligibilityModule.maximumAge",
+    "protocolSection.eligibilityModule.stdAges"
+  ],
+  "key_TN_fields": [],
+  "key_NA_fields": [],
+  "val_EV_fields": [
+    "protocolSection.conditionsModule.keywords",
+    "protocolSection.designModule.patientRegistry",
+    "protocolSection.designModule.designInfo.interventionModelDescription",
+    "protocolSection.designModule.designInfo.maskingInfo.maskingDescription"
+  ],
+  "val_FN_fields": [],
+  "val_FP_fields": [
+    "protocolSection.descriptionModule.detailedDescription",
+    "protocolSection.designModule.phases"
+  ],
+  "val_TP_fields": [
+    "protocolSection.identificationModule.nctId",
+    "protocolSection.identificationModule.briefTitle",
+    "protocolSection.identificationModule.officialTitle",
+    "protocolSection.descriptionModule.briefSummary",
+    "protocolSection.conditionsModule.conditions",
+    "protocolSection.designModule.studyType",
+    "protocolSection.designModule.designInfo.allocation",
+    "protocolSection.designModule.designInfo.interventionModel",
+    "protocolSection.designModule.designInfo.maskingInfo.masking",
+    "protocolSection.designModule.designInfo.maskingInfo.whoMasked",
+    "protocolSection.designModule.enrollmentInfo.count",
+    "protocolSection.eligibilityModule.eligibilityCriteria",
+    "protocolSection.eligibilityModule.healthyVolunteers",
+    "protocolSection.eligibilityModule.sex",
+    "protocolSection.eligibilityModule.minimumAge",
+    "protocolSection.eligibilityModule.maximumAge",
+    "protocolSection.eligibilityModule.stdAges"
+  ],
+  "val_TN_fields": [],
+  "val_NA_fields": []
+}

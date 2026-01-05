@@ -1,0 +1,91 @@
+# Variants configuration for generate_eval_stats.py
+# Specify which metrics subdirectories (inside each model/shard) to aggregate.
+# Example: original metrics plus two exclusion-based variants.
+
+################################################################################
+# Full configuration for generate_eval_stats.py (YAML-driven execution)
+# Run with:
+#   python eval/scripts/generate_eval_stats.py --variants-config eval/configs/config_eval_stats_variants.yaml
+# Only --variants-config is needed; all other args auto-populated from here.
+################################################################################
+
+# Required paths
+index_csv: /{YOURPATH}/eval_index_protocol.csv
+output_base: /{YOURPATH}/eval_output/protocolSection
+field_catalog_path: /{YOURPATH}/docs/data_definition.csv
+
+# Model list
+models:
+  - Gemini-3-Pro
+  - GPT-5.1
+  - Claude-4.5-Sonnet
+
+# Target fields (Piece names from DataDefinition)
+target_fields:
+  protocolSection:
+      - NCTId
+      - BriefTitle
+      - OfficialTitle
+      - BriefSummary
+      - DetailedDescription
+      - Condition
+      - Keyword
+      - StudyType
+      - Phase
+      - DesignAllocation
+      - DesignInterventionModel
+      - DesignObservationalModel
+      - DesignMasking
+      - DesignWhoMasked
+      - EnrollmentCount
+      - EligibilityCriteria
+      - HealthyVolunteers
+      - Sex
+      - MinimumAge
+      - MaximumAge
+      - StdAge
+
+# Section-based evaluation (generate separate results for each)
+evaluate_sections:
+  - protocol
+  # - results
+  # - both
+
+# Per-model metrics paths (each points to the model's metrics root with shard structure)
+model_metrics_paths: {}
+
+# More precise per-section metrics roots (directories that contain shard folders like 1_100 with a 'metrics' subdir)
+model_metrics_paths_by_section:
+  protocol:
+    Gemini-3-Pro: /{YOURPATH}/eval_output/protocolSection/metrics/Gemini-3-Pro
+    GPT-5.1: /{YOURPATH}/eval_output/protocolSection/metrics/GPT-5.1
+    Claude-4.5-Sonnet: /{YOURPATH}/eval_output/protocolSection/metrics/Claude-4.5-Sonnet
+
+# Variants (metrics subdirectories under each model/shard)
+variants:
+  - metrics
+
+# Limit cases (null or omit for all)
+limit: 100
+
+# Flags
+extended: true
+plots: true
+
+# Plot / style overrides (examples; adjust as needed)
+title_model_bar: "Model Value F1 (All Cases)"
+title_field_heatmap: "Field Performance Heatmap (Value F1)"
+plot_top_fields: 50
+cmap_heatmap: viridis
+style: whitegrid
+top_fields_bar: 30
+bottom_fields_bar: 20
+annotate_threshold: 0.3
+max_annotate: 25
+scatter_alpha: 0.75
+dpi: 150
+no_radar: false
+no_heatmap: false
+
+# Single variant fallback (ignored if variants list present)
+metrics_subdir: metrics

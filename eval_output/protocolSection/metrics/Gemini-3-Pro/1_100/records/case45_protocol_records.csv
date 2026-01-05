@@ -1,0 +1,77 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04324073,NCT04324073,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].id,EV,EV,,PHRC COVID-19–20–0151,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,PHRC COVID-19–20–0029,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].type,EV,EV,,OTHER_GRANT,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,OTHER_GRANT,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,Ministry of Health,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,Ministry of Health,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Cohort Multiple Randomized Controlled Trials Open-label of Immune Modulatory Drugs and Other Treatments in COVID-19 Patients - Sarilumab Trial - CORIMUNO-19 - SARI,Sarilumab in patients with moderate-to-severe COVID-19 pneumonia (CORIMUNO-SARI-1),True,0.82,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,Cohort Multiple Randomized Controlled Trials Open-label of Immune Modulatory Drugs and Other Treatments in COVID-19 Patients - Sarilumab Trial - CORIMUNO-19 - SARI,"Multicentric, open-label, Bayesian randomised, adaptive, phase 2/3 clinical trial, nested within the CORIMUNO-19 cohort, to test a superiority hypothesis of sarilumab in patients with moderate-to-severe COVID-19 pneumonia",True,0.83,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"The overall objective of the study is to determine the therapeutic effect and tolerance of Sarilumab in patients with moderate, severe pneumonia or critical pneumonia associated with Coronavirus disease 2019 (COVID-19). Sarilumab is a human IgG1 monoclonal antibody that binds specifically to both soluble and membrane-bound IL-6Rs (sIL-6Rα and mIL-6Rα) and has been shown to inhibit IL-6-mediated signaling through these receptors. The study has a cohort multiple Randomized Controlled Trials (cmRCT) design. Randomization will occur prior to offering Sarilumab administration to patients enrolled in the CORIMUNO-19 cohort. Sarilumab will be administered to consenting adult patients hospitalized with COVID-19 either diagnosed with moderate or severe pneumonia requiring no mechanical ventilation or critical pneumonia requiring mechanical ventilation. Patients who will chose not to receive Sarilumab will receive standard of care. Outcomes of Sarilumab-treated patients will be compared with outcomes of standard of care-treated patients as well as with outcomes of patients treated with other immune modulators.","This study is a multicentric, open-label, Bayesian randomised, adaptive, phase 2/3 clinical trial, nested within the CORIMUNO-19 cohort. It aims to test the hypothesis that sarilumab, a high-affinity anti-IL-6 receptor antibody, might improve the outcome of patients hospitalised with moderate-to-severe COVID-19 pneumonia compared to usual care alone. Patients with COVID-19 pneumonia often present with increased inflammation and elevated cytokines, which sarilumab targets.",True,0.95,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"The trial enrolled patients 18 years or older hospitalised with COVID-19 in six French centres. Eligible participants required at least 3L/min of oxygen but without ventilation assistance and had a WHO Clinical Progression Scale [CPS] score of 5. Participants were randomly assigned (1:1) via a web-based system, stratified by centre, to receive usual care plus 400 mg of sarilumab intravenously on day 1 and on day 3 if clinically indicated (sarilumab group) or usual care alone (usual care group). 
+
+The primary outcomes were the proportion of patients with WHO-CPS scores greater than 5 on the 10-point scale on day 4 and survival without invasive or non-invasive ventilation at day 14. Secondary outcomes included clinical status assessed with the WHO-CPS at day 7 and day 14, overall survival, time to discharge, time to oxygen supply independence, and safety. This specific report covers the CORIMUNO-SARI-1 trial, focusing on patients with moderate-to-severe pneumonia (non-ICU).",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,['Corona Virus Infection'],"['COVID-19', 'Pneumonia', 'SARS-CoV-2 Infection', 'Respiratory Distress']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Sarilumab', 'CORIMUNO-19', 'Interleukin-6', 'Anti-IL-6 receptor antibody', 'Moderate-to-severe pneumonia', 'Immunomodulation']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,"['PHASE2', 'PHASE3']","['PHASE2', 'PHASE3']",True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Open-label study. Analyses were done by the study statisticians who were blinded to the actual randomisation groups.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,239,148,True,0.8,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[3].interventionNames,EV,EV,,['Other: Usual Care'],,,,ArmGroupInterventionName,protocolSection.armsInterventionsModule.armGroups.interventionNames,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[1].type,EV,EV,,OTHER,,,,InterventionType,protocolSection.armsInterventionsModule.interventions.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[1].name,EV,EV,,Usual Care,,,,InterventionName,protocolSection.armsInterventionsModule.interventions.name,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[1].description,EV,EV,,"Standard of care provided at the discretion of the clinicians, including antibiotic agents, antiviral agents, corticosteroids, vasopressor support, and anticoagulants.",,,,InterventionDescription,protocolSection.armsInterventionsModule.interventions.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[1].armGroupLabels,EV,EV,,"['Sarilumab group', 'Usual care group']",,,,InterventionArmGroupLabel,protocolSection.armsInterventionsModule.interventions.armGroupLabels,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+1. Patients included in the CORIMUNO-19 cohort
+2. Patients belonging to one of the 2 following groups:
+
+   * Group 1: patients not requiring Intensive Care Unit at admission with moderate and severe pneumopathy according to the OMS Criteria of severity of COVID pneumopathy.
+
+Moderate cases :
+
+Cases meeting all of the following criteria:
+
+* Showing fever and respiratory symptoms with radiological findings of pneumonia.
+* Requiring between 3L/min and 5L/min of oxygen to maintain SpO2 \>97% Severe cases
+
+Cases meeting any of the following criteria:
+
+* Respiratory distress (≧30 breaths/ min);
+* Oxygen saturation≤93% at rest in ambient air; or Oxygen saturation ≤97 % with O2 \> 5L/min.
+* PaO2/FiO2≦300mmHg
+* Group 2: patients requiring Intensive Care Unit based on Criteria of severity of COVID pneumopathy.
+* Respiratory failure and requiring mechanical ventilation
+* No do-not-resuscitate order (DNR order)
+
+Exclusion Criteria:
+
+* Patients with exclusion criteria to the CORIMUNO-19 cohort.
+* Known hypersensitivity to Sarilumab or to any of their excipients.
+* Pregnancy
+* Current documented bacterial infection
+* Patient with any of following laboratory results out of the ranges detailed below at screening should be discussed depending of the medication:
+* Absolute neutrophil count (ANC) ≤ 1.0 x 109/L
+* Haemoglobin level: no limitation
+* Platelets (PLT) \< 50 G /L
+* SGOT or SGPT \> 5N","Inclusion Criteria:
+* Hospitalised patients
+* Confirmed SARS CoV-2 infection (positive on RT-PCR or typical chest CT scan)
+* Moderate-to-severe pneumonia
+* WHO Clinical Progression Scale [CPS] score of 5
+* Receiving at least 3L/min of oxygen
+* No ventilation assistance (including high-flow oxygen, non-invasive ventilation, or mechanical ventilation)
+
+Exclusion Criteria:
+* Pregnant women",True,0.78,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

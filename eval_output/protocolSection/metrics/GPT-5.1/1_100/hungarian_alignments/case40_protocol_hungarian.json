@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "case_id": 40,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T16:03:41.033652",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/40_NCT04356963.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/40_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.83
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.83,
+          "status": "matched",
+          "ref_item": {
+            "id": "1UL1TR003098",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/1UL1TR003098"
+          },
+          "pred_item": {
+            "id": "1UL1TR003098",
+            "type": "OTHER_GRANT",
+            "domain": "National Center for Advancing Translational Sciences (NCATS) Clinical Translational Science Award (CTSA)",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.7,
+          0.62
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "All patients",
+            "type": "EXPERIMENTAL",
+            "description": "All patients were intended to engage in three different 20-30 min sessions run by research coordinators and spaced a minimum of 4 hours apart to allow for washout of effects, including 1) a commercially available, immersive VR environment, theBlu (WEVR, Inc, Venice, California, USA) delivered via Oculus Rift (Oculus VR, Irvine, California, USA) headset (VR Blu), 2) a non-immersive two-dimensional mimic delivered via a tablet computer (Tablet Blu), and 3) a VR control session delivered via a content-less Oculus Rift headset (VR Blank). The three sessions were run by research coordinators and spaced a minimum of 4 hours apart. The intervention order was counterbalanced using a randomized sequence generator.",
+            "interventionNames": [
+              "Behavioral: Virtual Reality Session (VR Blu)",
+              "Behavioral: Tablet-based Session (Tablet Blu)",
+              "Behavioral: Use of Virtual Reality Head Mounted Display without Content (VR Blank)"
+            ]
+          },
+          "pred_item": {
+            "label": "Immersive VR Therapy",
+            "type": "OTHER",
+            "description": "Participants undergo a 20-minute immersive virtual reality experience using the Oculus Rift headset. The experience is theBlu (WEVR), which simulates observing a calming, dynamic coral reef environment with mild interaction and music. Sessions are administered during acute hospitalisation for traumatic injury (including mild TBI), with vital signs and pain-related measures collected pre- and post-session.",
+            "interventionNames": [
+              "Immersive Virtual Reality (theBlu via Oculus Rift)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.5,
+          0.4
+        ],
+        [
+          0.65,
+          0.94,
+          0.28
+        ],
+        [
+          0.72,
+          0.3,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Virtual Reality Session (VR Blu)",
+            "description": "20-30 minute session of virtual reality immersive content.",
+            "armGroupLabels": [
+              "All patients"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "Immersive Virtual Reality (theBlu via Oculus Rift)",
+            "description": "An immersive VR analgesic intervention delivered via the Oculus Rift head-mounted display. The software is theBlu (WEVR), a calming, dynamic coral reef experience with mild interaction and music, used for 20-minute sessions to reduce acute pain in hospitalised trauma patients, including those with mild TBI.",
+            "armGroupLabels": [
+              "Immersive VR Therapy"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Tablet-based Session (Tablet Blu)",
+            "description": "20-30 minute session of tablet-based content that mimics the content from virtual reality sessions.",
+            "armGroupLabels": [
+              "All patients"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Non-immersive 2D Tablet Version of theBlu",
+            "description": "A non-immersive behavioral control condition presenting a recording of theBlu virtual reality experience as a 2D video on an ASUS tablet for 20 minutes. It matches the content of the immersive VR experience without the immersive properties of a head-mounted display.",
+            "armGroupLabels": [
+              "Non-immersive 2D Tablet Control"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Use of Virtual Reality Head Mounted Display without Content (VR Blank)",
+            "description": "20-30 minutes session using head mounted display to reduce light and sound.",
+            "armGroupLabels": [
+              "All patients"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "Blank Oculus Rift Headset (Sensory Deprivation)",
+            "description": "A sham-like control condition in which participants wear the Oculus Rift headset for 20 minutes with no visual content displayed (blank screen), controlling for wearing the device and sensory deprivation without VR content.",
+            "armGroupLabels": [
+              "VR Sensory Deprivation Control"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Pain Score",
+            "description": "Pre- vs. Post-Intervention Ratings on Numeric Pain Rating Scale. Numeric Pain Rating scale range is from 0 (no pain) -10 (severe pain)",
+            "timeFrame": "Pre- and Post-Intervention (approximately 30 minutes)"
+          },
+          "pred_item": {
+            "measure": "Change in pain severity",
+            "description": "Reduction in pain severity for immersive VR sessions compared with control sessions, measured as the change in numerical rating scale pain scores from pre-session to post-session.",
+            "timeFrame": "Immediately before and immediately after each 20-minute intervention session during the inpatient hospitalization"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 12,
+      "similarity_matrix": [
+        [
+          0.28,
+          0.82,
+          0.3,
+          0.05,
+          0.1,
+          0.1,
+          0.12,
+          0.08,
+          0.12,
+          0.08,
+          0.05,
+          0.08
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Opioid Administration",
+            "description": "Change in amount of opioids received in the 4 hours post-intervention vs. the 4 hours pre-intervention in morphine equivalents",
+            "timeFrame": "4 hours post-intervention vs. 4 hours pre-intervention"
+          },
+          "pred_item": {
+            "measure": "Opioid usage",
+            "description": "In-hospital opioid consumption measured from chart review, including dosage and timing, to evaluate analgesic requirements during the study.",
+            "timeFrame": "From hospital admission through completion of the study protocol"
+          }
+        }
+      ]
+    }
+  ]
+}

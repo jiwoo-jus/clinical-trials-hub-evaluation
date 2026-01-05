@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "case_id": 56,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T17:12:03.424324",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/56_NCT03275350.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/56_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.2
+        ],
+        [
+          0.1,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "XR-NTX",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Extended-release naltrexone",
+            "interventionNames": [
+              "Drug: Naltrexone Injectable Suspension"
+            ]
+          },
+          "pred_item": {
+            "label": "Extended-release naltrexone (XR-NTX)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants randomized to receive HIV clinic-based extended-release naltrexone (XR-NTX). This treatment requires complete cessation of opioid use prior to induction.",
+            "interventionNames": [
+              "Drug: Extended-release naltrexone"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "TAU",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Treatment as usual",
+            "interventionNames": [
+              "Other: Treatment as usual"
+            ]
+          },
+          "pred_item": {
+            "label": "Treatment-as-usual (TAU)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants randomized to receive treatment-as-usual, consisting of opioid agonist therapy (i.e., buprenorphine, methadone).",
+            "interventionNames": [
+              "Drug: Treatment-as-usual (Buprenorphine or Methadone)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.15
+        ],
+        [
+          0.2,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Naltrexone Injectable Suspension",
+            "description": "Six monthly injections of extended-release naltrexone",
+            "armGroupLabels": [
+              "XR-NTX"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Extended-release naltrexone",
+            "description": "A deep muscle injection of an opioid antagonist that lasts 28 days and eliminates the need for daily dosing. Requires an opioid-free state several days prior to initiation.",
+            "armGroupLabels": [
+              "Extended-release naltrexone (XR-NTX)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Treatment as usual",
+            "description": "Standard treatment for opioid use disorder provided at each HIV clinic",
+            "armGroupLabels": [
+              "TAU"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Treatment-as-usual (Buprenorphine or Methadone)",
+            "description": "Opioid agonist therapy acting as partial (buprenorphine) or full (methadone) agonists at the opioid mu receptor, provided as standard care.",
+            "armGroupLabels": [
+              "Treatment-as-usual (TAU)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.05
+        ],
+        [
+          0.05
+        ],
+        [
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With HIV Viral Suppression, Missing Imputed as Unsuppressed",
+            "description": "HIV-1 RNA \\<200 copies/ml",
+            "timeFrame": "12 weeks and 24 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With HIV Viral Suppression, Complete Case",
+            "description": "HIV-1 RNA \\<200 copies/ml",
+            "timeFrame": "12 weeks and 24 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.1,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With HIV Viral Suppression, Per-protocol",
+            "description": "HIV-1 RNA \\<200 copies/ml",
+            "timeFrame": "12 weeks and 24 weeks"
+          },
+          "pred_item": {
+            "measure": "Qualitative themes regarding XR-NTX induction experiences and barriers",
+            "description": "Themes identified through semi-structured interviews and thematic analysis to assess participant experiences with successful and unsuccessful XR-NTX induction. Key themes included readiness for change, supportive environment, caring interactions, withdrawal anxiety, ambivalence, and medication preferences.",
+            "timeFrame": "Interviews conducted between July 2018 and November 2019"
+          }
+        }
+      ]
+    }
+  ]
+}

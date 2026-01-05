@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "case_id": 30,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T15:41:21.522599",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/30_NCT02823652.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/30_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 11,
+      "similarity_matrix": [
+        [
+          0.7,
+          0.46,
+          0.34,
+          0.34,
+          0.38,
+          0.42,
+          0.58,
+          0.5,
+          0.67,
+          0.3,
+          0.27
+        ],
+        [
+          0.4,
+          0.4,
+          0.4,
+          0.7,
+          0.8,
+          0.6,
+          0.6,
+          0.6,
+          0.4,
+          0.6,
+          0.7
+        ],
+        [
+          0.5,
+          0.4,
+          0.6,
+          0.7,
+          0.4,
+          0.73,
+          0.42,
+          0.4,
+          0.4,
+          0.74,
+          0.6
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "id": "NCI-2015-02253",
+            "type": "REGISTRY",
+            "domain": "CTRP (Clinical Trial Reporting Program)"
+          },
+          "pred_item": {
+            "id": "UG1CA189816",
+            "type": "NIH",
+            "domain": "National Cancer Institute",
+            "link": null
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 4,
+          "score": 0.8,
+          "status": "matched",
+          "ref_item": {
+            "id": "EAQ152",
+            "type": "OTHER",
+            "domain": "ECOG-ACRIN Cancer Research Group"
+          },
+          "pred_item": {
+            "id": "UG1CA189828",
+            "type": "NIH",
+            "domain": "National Cancer Institute",
+            "link": null
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 9,
+          "score": 0.74,
+          "status": "matched",
+          "ref_item": {
+            "id": "EAQ152",
+            "type": "OTHER",
+            "domain": "CTEP"
+          },
+          "pred_item": {
+            "id": "UG1CA233160",
+            "type": "NIH",
+            "domain": "National Cancer Institute",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 6,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.08,
+          0.18,
+          0.1,
+          0.18
+        ],
+        [
+          0.18,
+          0.73,
+          0.93,
+          0.4,
+          0.32
+        ],
+        [
+          0.25,
+          0.93,
+          0.5,
+          0.83,
+          0.62
+        ],
+        [
+          0.25,
+          0.72,
+          0.4,
+          0.35,
+          0.9
+        ],
+        [
+          0.18,
+          0.05,
+          0.07,
+          0.12,
+          0.12
+        ],
+        [
+          0.18,
+          0.18,
+          0.08,
+          0.05,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Cancer Genetic Knowledge Scale From Baseline to Post-genetic Education",
+            "description": "There are 14 items in the questionnaire of Cancer Genetic Knowledge Scale. The total score ranges between 14 and 70. Higher scores indicate more/better knowledge. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and compared between the two arms (arms A and B) at Step 1.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": {
+            "measure": "Genetic knowledge",
+            "description": "Evaluated with an adapted version of the ClinSeq knowledge scale modified for tumor genetic testing. Assessed at baseline (T0), post-education (T1), and post-disclosure (T2).",
+            "timeFrame": "Baseline (T0), post-education (T1, approximately 6-9 days after T0), and post-disclosure (T2, approximately 49 days after T0 or after result disclosure)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Patient-Reported Outcomes Measurement Information System (PROMIS) - Depression From Baseline to Post-genetic Education",
+            "description": "There are 4 items in the PROMIS - Depression questionnaire. The total score ranges between 4 and 20. Higher scores indicate more depression. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and compared between the two arms (arms A and B) at Step 1.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": {
+            "measure": "Depression",
+            "description": "Assessed with 4-item short forms of the Patient-Reported Outcomes Measurement Information System (PROMIS).",
+            "timeFrame": "Baseline (T0), post-education (T1, approximately 6-9 days after T0), and post-disclosure (T2, approximately 49 days after T0 or after result disclosure)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Patient-Reported Outcomes Measurement Information System (PROMIS) - Anxiety From Baseline to Post-genetic Education",
+            "description": "There are 4 items in the PROMIS - Anxiety questionnaire. The total score ranges between 4 and 20. Higher scores indicate more anxiety. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and compared between the two arms (arms A and B) at Step 1.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": {
+            "measure": "General anxiety",
+            "description": "Assessed with 4-item short forms of the Patient-Reported Outcomes Measurement Information System (PROMIS).",
+            "timeFrame": "Baseline (T0), post-education (T1, approximately 6-9 days after T0), and post-disclosure (T2, approximately 49 days after T0 or after result disclosure)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 4,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Impact of Events Scale (IES) From Baseline to Post-genetic Education",
+            "description": "There are 14 items in the questionnaire of Impact of Events Scale (IES). The total score ranges between 0 and 70. Higher scores indicate more stress. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and compared between the two arms (arms A and B) at Step 1.",
+            "timeFrame": "Assessed at baseline and up to 14 days post-baseline"
+          },
+          "pred_item": {
+            "measure": "Cancer-specific distress",
+            "description": "Measured with an adapted 14-item version of the Impact of Events Scale.",
+            "timeFrame": "Baseline (T0), post-education (T1, approximately 6-9 days after T0), and post-disclosure (T2, approximately 49 days after T0 or after result disclosure)"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 3,
+          "score": 0.12,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Participants Who Complete Remote Genetic Counseling in the Genetic Counseling Substudy (Step 2)",
+            "description": "Among participants who registered in the genetic counseling substudy (Step 2), the proportion of participants who completed remote genetic counseling will be reported. The proportion is defined as \"the number of participants who completed remote genetic counseling divided by the number of participants who agreed to participate in the genetic counseling study\".",
+            "timeFrame": "Assessed at baseline at Step 2"
+          },
+          "pred_item": {
+            "measure": "State anxiety",
+            "description": "Assessed with 20 items from the State-Trait Anxiety Inventory.",
+            "timeFrame": "Baseline (T0), post-education (T1, approximately 6-9 days after T0), and post-disclosure (T2, approximately 49 days after T0 or after result disclosure)"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Participants Who Complete Germline Testing in the Genetic Counseling Substudy (Step 2)",
+            "description": "Among participants who registered in the genetic counseling substudy (Step 2), the proportion of participants who completed remote genetic counseling will be reported. The proportion is defined as \"the number of participants who completed remote genetic counseling divided by the number of participants who agreed to participate in the genetic counseling study\".",
+            "timeFrame": "Assessed at baseline at Step 2"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.32,
+          0.28,
+          0.35,
+          0.18
+        ],
+        [
+          0.2,
+          0.18,
+          0.25,
+          0.18
+        ],
+        [
+          0.18,
+          0.38,
+          0.22,
+          0.12
+        ],
+        [
+          0.08,
+          0.32,
+          0.4,
+          0.21
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.32,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Cancer Genetic Knowledge Scale From Baseline to Post-genetic Education by Arm and Sex",
+            "description": "There are 14 items in the questionnaire of Cancer Genetic Knowledge Scale. The total score ranges between 14 and 70. Higher scores indicate more/better knowledge. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and interaction between arm and sex was evaluated.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": {
+            "measure": "Health literacy",
+            "description": "Assessed with a 3-item scale. Higher scores indicated lower health literacy. Evaluated as a moderator of changes in knowledge and distress.",
+            "timeFrame": "Baseline (T0)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 3,
+          "score": 0.18,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Patient-Reported Outcomes Measurement Information System (PROMIS) - Depression From Baseline to Post-genetic Education by Arm and Sex",
+            "description": "There are 4 items in the PROMIS - Depression questionnaire. The total score ranges between 4 and 20. Higher scores indicate more depression. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and interaction between arm and sex was evaluated.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": {
+            "measure": "Satisfaction with the disclosure of genetic results",
+            "description": "Assessed with an adapted 9-item scale used in related research.",
+            "timeFrame": "Post-disclosure (T2, approximately 49 days after T0 or after result disclosure)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.38,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Patient-Reported Outcomes Measurement Information System (PROMIS) - Anxiety From Baseline to Post-genetic Education by Arm and Sex",
+            "description": "There are 4 items in the PROMIS - Anxiety questionnaire. The total score ranges between 4 and 20. Higher scores indicate more anxiety. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and interaction between arm and sex was evaluated.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": {
+            "measure": "Uncertainty about tumor genetic testing",
+            "description": "Assessed with a 3-item scale adapted for tumor genetic testing from the uncertainty subscale of the Multi-Dimensional Impact of Cancer Risk Assessment questionnaire.",
+            "timeFrame": "Baseline (T0), post-education (T1, approximately 6-9 days after T0), and post-disclosure (T2, approximately 49 days after T0 or after result disclosure)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.4,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Impact of Events Scale (IES) From Baseline to Post-genetic Education by Arm and Sex",
+            "description": "There are 14 items in the questionnaire of Impact of Events Scale (IES). The total score ranges between 0 and 70. Higher scores indicate more stress. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and interaction between arm and sex was evaluated.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": {
+            "measure": "Perceived utility of tumor genetic testing",
+            "description": "Assessed with 10 items assessing patient perceptions of the utility of genetic information.",
+            "timeFrame": "Baseline (T0), post-education (T1, approximately 6-9 days after T0), and post-disclosure (T2, approximately 49 days after T0 or after result disclosure)"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1308 @@
+{
+  "metadata": {
+    "case_id": 67,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T18:07:36.823192",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/67_NCT03261401.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/67_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          1.0
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "id": "203481/Z/16/Z",
+            "type": "OTHER_GRANT",
+            "domain": "Wellcome Trust"
+          },
+          "pred_item": {
+            "id": "203481/Z/16/Z",
+            "type": "OTHER_GRANT",
+            "domain": "Wellcome Trust",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 13,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.32,
+          0.92,
+          0.28,
+          0.4,
+          0.3
+        ],
+        [
+          0.86,
+          0.2,
+          0.68,
+          0.68,
+          0.62
+        ],
+        [
+          0.86,
+          0.25,
+          0.72,
+          0.42,
+          0.6
+        ],
+        [
+          0.86,
+          0.28,
+          0.63,
+          0.63,
+          0.7
+        ],
+        [
+          0.9,
+          0.3,
+          0.68,
+          0.7,
+          0.63
+        ],
+        [
+          0.86,
+          0.25,
+          0.55,
+          0.62,
+          0.63
+        ],
+        [
+          0.86,
+          0.35,
+          0.64,
+          0.6,
+          0.68
+        ],
+        [
+          0.9,
+          0.35,
+          0.58,
+          0.66,
+          0.62
+        ],
+        [
+          0.86,
+          0.3,
+          0.68,
+          0.68,
+          0.66
+        ],
+        [
+          0.86,
+          0.2,
+          0.72,
+          0.68,
+          0.68
+        ],
+        [
+          0.74,
+          0.2,
+          0.92,
+          0.78,
+          0.82
+        ],
+        [
+          0.72,
+          0.18,
+          0.86,
+          0.86,
+          0.82
+        ],
+        [
+          0.68,
+          0.25,
+          0.72,
+          0.82,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Part A: Placebo (Pooled)",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants received capsules containing 50 milligram (mg) of placebo matched similar to M5717 on Day 1 after 8 hours fasting-period followed by a 4-hour post-dose.",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Single Ascending Dose Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Healthy adult volunteers received a single oral dose of placebo capsules matching M5717 in appearance, odour, and taste, administered with 250 mL of water after fasting for at least 8 hours; no food was allowed until 4 hours after dosing. Participants were followed for safety and pharmacokinetics.",
+            "interventionNames": [
+              "Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Part A: Cohort 1 SAD: M5717 50 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received single ascending dose (SAD) of 50 mg M5717 on Day 1 after 8 hours fasting-period followed by a 4-hour post-dose fast.",
+            "interventionNames": [
+              "Drug: M5717"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Part A: Cohort 2 SAD: M5717 100 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received SAD of 100 mg M5717 on Day 1 after 8 hours fasting-period followed by a 4-hour post-dose fast.",
+            "interventionNames": [
+              "Drug: M5717"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Part A: Cohort 3 SAD: M5717 200 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received SAD of 200 mg M5717 on Day 1 after 8 hours fasting-period followed by a 4-hour post-dose fast.",
+            "interventionNames": [
+              "Drug: M5717"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Part A: Cohort 4 SAD: M5717 400 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received SAD of 400 mg M5717 on Day 1 after 8 hours fasting-period followed by a 4-hour post-dose fast.",
+            "interventionNames": [
+              "Drug: M5717"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Part A: Cohort 5 SAD: M5717 600 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received SAD of 600 mg M5717 on Day 1 after 8 hours fasting-period followed by a 4-hour post-dose fast.",
+            "interventionNames": [
+              "Drug: M5717"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Part A: Cohort 6 SAD: M5717 1000 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received SAD of 1000 mg M5717 on Day 1 after 8 hours fasting-period followed by a 4-hour post-dose fast.",
+            "interventionNames": [
+              "Drug: M5717"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Part A: Cohort 7 SAD: M5717 1250 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants in SAD received an oral dose of 1250 mg M5717 on Day 1 after 8 hours fasting-period followed by a 4-hour post-dose fast.",
+            "interventionNames": [
+              "Drug: M5717"
+            ]
+          },
+          "pred_item": {
+            "label": "Single Ascending Dose M5717 50–2100 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Healthy adult volunteers received a single oral ascending dose of M5717 (50, 100, 200, 400, 600, 1000, 1250, 1800, or 2100 mg) as capsules with 250 mL of water after fasting for at least 8 hours; no food was allowed until 4 hours after dosing. Participants were followed for safety and pharmacokinetics.",
+            "interventionNames": [
+              "M5717"
+            ]
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Part A: Cohort 8 SAD: M5717 1800 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants in SAD received an oral dose of 1800 mg M5717 on Day 1 after 8 hours fasting-period followed by a 4-hour post-dose fast.",
+            "interventionNames": [
+              "Drug: M5717"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Part A: Cohort 9 SAD: M5717 2100 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants in SAD received an oral dose of 2100 mg M5717 on Day 1 after 8 hours fasting-period followed by a 4-hour post-dose fast.",
+            "interventionNames": [
+              "Drug: M5717"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": 2,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Part C: Challenge Cohort 2 M5717 150 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received single oral dose of 150 mg M5717 (eight days after the administration of intravenous malaria inoculum) on Day 1 after 8 hours fasting-period followed by a 4-hour post-dose fast.",
+            "interventionNames": [
+              "Drug: M5717"
+            ]
+          },
+          "pred_item": {
+            "label": "Volunteer Infection Study M5717 150 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Malaria-naive healthy adults were first inoculated intravenously on day −8 with Plasmodium falciparum-infected erythrocytes (approximately 2800 viable parasites). When parasitaemia reached at least 5000 parasites/mL, participants received a single oral dose of 150 mg M5717 as capsules with water after at least 8 hours fasting. Parasitaemia and pharmacokinetics were monitored.",
+            "interventionNames": [
+              "M5717",
+              "Plasmodium falciparum-infected erythrocyte inoculum",
+              "Artemether-lumefantrine"
+            ]
+          }
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": 3,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Part C: Challenge Cohort 1 M5717 400 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received single oral dose of 400 mg M5717 (eight days after the administration of intravenous malaria inoculum) on Day 1 after 8 hours fasting-period followed by a 4-hour post-dose fast.",
+            "interventionNames": [
+              "Drug: M5717"
+            ]
+          },
+          "pred_item": {
+            "label": "Volunteer Infection Study M5717 400 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Malaria-naive healthy adults were first inoculated intravenously on day −8 with Plasmodium falciparum-infected erythrocytes (approximately 2800 viable parasites). When parasitaemia reached at least 5000 parasites/mL, participants received a single oral dose of 400 mg M5717 as capsules with water after at least 8 hours fasting. Parasitaemia and pharmacokinetics were monitored.",
+            "interventionNames": [
+              "M5717",
+              "Plasmodium falciparum-infected erythrocyte inoculum",
+              "Artemether-lumefantrine"
+            ]
+          }
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": 4,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Part C: Challenge Cohort 3 M5717 800 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received single oral dose of 800 mg M5717 (eight days after the administration of intravenous malaria inoculum) on Day 1 after 8 hours fasting-period followed by a 4-hour post-dose fast.",
+            "interventionNames": [
+              "Drug: M5717"
+            ]
+          },
+          "pred_item": {
+            "label": "Volunteer Infection Study M5717 800 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Malaria-naive healthy adults were first inoculated intravenously on day −8 with Plasmodium falciparum-infected erythrocytes (approximately 2800 viable parasites). When parasitaemia reached at least 5000 parasites/mL, participants received a single oral dose of 800 mg M5717 as capsules with water after at least 8 hours fasting. Parasitaemia and pharmacokinetics were monitored.",
+            "interventionNames": [
+              "M5717",
+              "Plasmodium falciparum-infected erythrocyte inoculum",
+              "Artemether-lumefantrine"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.55,
+          0.35,
+          0.4
+        ],
+        [
+          0.05,
+          0.94,
+          0.1,
+          0.08
+        ],
+        [
+          0.9,
+          0.35,
+          0.4,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "M5717",
+            "description": "Participants received single ascending oral dose of M5717 after at least 8 hours of fasting together with water on Day 1, followed by a 4-hour post-dose fast",
+            "armGroupLabels": [
+              "Part A: Cohort 1 SAD: M5717 50 mg",
+              "Part A: Cohort 2 SAD: M5717 100 mg",
+              "Part A: Cohort 3 SAD: M5717 200 mg",
+              "Part A: Cohort 4 SAD: M5717 400 mg",
+              "Part A: Cohort 5 SAD: M5717 600 mg",
+              "Part A: Cohort 6 SAD: M5717 1000 mg",
+              "Part A: Cohort 7 SAD: M5717 1250 mg",
+              "Part A: Cohort 8 SAD: M5717 1800 mg",
+              "Part A: Cohort 9 SAD: M5717 2100 mg"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "M5717",
+            "description": "M5717 (formerly DDD107498) is a novel antimalarial compound that inhibits Plasmodium translation elongation factor 2. In this trial, it was administered orally as capsules in single ascending doses of 50, 100, 200, 400, 600, 1000, 1250, 1800, or 2100 mg in the single ascending dose part, and as single doses of 150, 400, or 800 mg in the volunteer infection study. Doses were given with 250 mL of water after at least 8 hours of fasting; no food was allowed until 4 hours after dosing.",
+            "armGroupLabels": [
+              "Single Ascending Dose M5717 50–2100 mg",
+              "Volunteer Infection Study M5717 150 mg",
+              "Volunteer Infection Study M5717 400 mg",
+              "Volunteer Infection Study M5717 800 mg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Participants received placebo matched to M5717",
+            "armGroupLabels": [
+              "Part A: Placebo (Pooled)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Oral placebo capsules matching M5717 in packaging, appearance, odour, and taste, administered as a single dose with 250 mL of water after at least 8 hours of fasting; no food was allowed until 4 hours after dosing.",
+            "armGroupLabels": [
+              "Single Ascending Dose Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.4,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "M5717",
+            "description": "Participants received single ascending oral dose of M5717 from Part A after at least 8 hours of fasting together with water on Day 1, followed by a 4-hour post-dose fast",
+            "armGroupLabels": [
+              "Part C: Challenge Cohort 1 M5717 400 mg",
+              "Part C: Challenge Cohort 2 M5717 150 mg",
+              "Part C: Challenge Cohort 3 M5717 800 mg"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "Plasmodium falciparum-infected erythrocyte inoculum",
+            "description": "Intravenous inoculation with human erythrocytes infected with Plasmodium falciparum, containing approximately 2800 viable parasites, administered on day −8 to malaria-naive volunteers to establish blood-stage infection in the induced blood-stage malaria model.",
+            "armGroupLabels": [
+              "Volunteer Infection Study M5717 150 mg",
+              "Volunteer Infection Study M5717 400 mg",
+              "Volunteer Infection Study M5717 800 mg"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 16,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.05,
+          0.05
+        ],
+        [
+          0.78,
+          0.08,
+          0.08
+        ],
+        [
+          0.7,
+          0.05,
+          0.1
+        ],
+        [
+          0.78,
+          0.08,
+          0.05
+        ],
+        [
+          0.18,
+          0.35,
+          0.96
+        ],
+        [
+          0.1,
+          0.78,
+          0.1
+        ],
+        [
+          0.2,
+          0.72,
+          0.18
+        ],
+        [
+          0.18,
+          0.86,
+          0.18
+        ],
+        [
+          0.1,
+          0.78,
+          0.15
+        ],
+        [
+          0.12,
+          0.78,
+          0.15
+        ],
+        [
+          0.15,
+          0.82,
+          0.15
+        ],
+        [
+          0.18,
+          0.82,
+          0.25
+        ],
+        [
+          0.08,
+          0.76,
+          0.15
+        ],
+        [
+          0.12,
+          0.78,
+          0.18
+        ],
+        [
+          0.1,
+          0.86,
+          0.45
+        ],
+        [
+          0.08,
+          0.78,
+          0.42
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part A: Number of Participants With Treatment Emergent Adverse Events (TEAEs), Serious TEAEs, and TEAEs Leading to Discontinuation of Study Treatment",
+            "description": "An adverse event (AE) was defined as any untoward medical occurrence in a participant administered with study drug which does not necessarily have a causal relationship with the treatment. An AE was any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with use of a medicinal product, whether or not considered related to the medicinal product. A serious adverse event (SAE) was an AE that resulted in any of the following outcomes: death; life threatening; persistent/significant disability/incapacity; initial or prolonged inpatient hospitalization; congenital anomaly/birth defect or was otherwise considered medically important. The term TEAE is defined as AEs starting or worsening after the first intake of the study drug. TEAEs included both Serious TEAEs and non-serious TEAEs.",
+            "timeFrame": "Baseline up to Day 55"
+          },
+          "pred_item": {
+            "measure": "Safety and tolerability in the single ascending dose study",
+            "description": "Nature, incidence, and severity of adverse events; incidence of clinically significant changes and abnormalities in safety laboratory parameters (haematology, coagulation, biochemistry, and urinalysis), vital signs (body temperature, blood pressure, heart rate, and respiratory rate), and 12-lead ECGs following single oral doses of M5717 or placebo.",
+            "timeFrame": "From dosing (day 1) through end of follow-up (up to day 44 or 55 depending on cohort) in the single ascending dose study"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Number of Participants With Clinically Significant Changes From Baseline in Laboratory Assessments",
+            "description": "Laboratory assessments included hematology, biochemistry, urinalysis, and coagulation. Number of participants with clinically significant change from baseline in laboratory parameters were reported. Clinical significance was decided by the investigator.",
+            "timeFrame": "Baseline up to Day 55"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Number of Participants With Clinically Significant Changes From Baseline in 12-lead Electrocardiograms (ECGs) Findings",
+            "description": "The 12-lead ECGs were recorded after the participants had rested for at least 5 minutes in supine position. Number of participants with clinically significant change from baseline in ECGs was reported. Clinical significance was decided by the investigator.",
+            "timeFrame": "Baseline up to Day 55"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Number of Participants With Clinically Significant Changes From Baseline in Vital Signs",
+            "description": "Vital signs included oral body temperature, systolic blood pressure, diastolic blood pressure, and pulse rate. Number of participants with clinically significant change from baseline in vital signs was reported. Clinical significance was decided by the investigator.",
+            "timeFrame": "Baseline up to Day 55"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part C: Parasite Reduction Ratio (PRR) Assessed Through Quantitative Polymerase Chain Reaction (qPCR) Analysis",
+            "description": "The parasite reduction ratio (PRR) of asexual parasites based on quantitative polymerase chain reaction (qPCR) after administration of M5717 is a mathematical representation of the ratio of the parasite density between drug administration and for a defined period of time. The PRR for asexual forms was estimated using the slope of the optimal fit of the log-linear relationship of the parasitemia decay; ie, the time point where steady exponential decay in parasitemia occurs which may happen after a lag-phase. Lag phase is defined as an initial period after dosing that precedes a steady exponential decline in the parasite count. It was observed that the decline of parasitemia had a biphasic profile, with the first phase, followed by a second phase (the main clearance phase).",
+            "timeFrame": "Day 1 to Day 22"
+          },
+          "pred_item": {
+            "measure": "Parasite clearance kinetics in the volunteer infection study",
+            "description": "Parasite reduction ratio over 48 hours (PRR48) and corresponding parasite clearance half-life, estimated from qPCR-derived parasitaemia using log-linear modelling with segmented piecewise regression to characterise initial slow clearance and subsequent rapid clearance phases.",
+            "timeFrame": "From M5717 dosing (day 1) until parasitaemia becomes undetectable or until initiation of rescue therapy in the volunteer infection study (up to day 21)"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Maximum Observed Plasma Concentration (Cmax) of M5717",
+            "description": "Cmax was obtained directly from the concentration versus time curve.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Time to Reach Maximum Observed Plasma Concentration (Tmax) of M5717",
+            "description": "The time to reach the maximum observed plasma concentration (tmax) was obtained directly from the concentration versus time curve.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Terminal Elimination Rate Constant (Lambda z) of M5717",
+            "description": "Lambda z determined from the terminal slope of the log-transformed concentration curve using linear regression on terminal data points of the curve.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Area Under the Plasma Concentration Time Curve From Time Zero to Infinity (AUC0-inf) of M5717",
+            "description": "The AUC from time zero (dosing time) extrapolated to infinity, based on the predicted value for the concentration at tlast, as estimated using the linear regression from the determination of the terminal first order (elimination) rate constant (lambda z). AUC0-inf = AUC0-t plus Clast pred/lambda z. Lambda Z was terminal elimination rate constant determined from the terminal slope of the log-transformed plasma concentration curve using linear regression on terminal data points of the curve. Clastpred was the last predicted quantifiable concentration.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Area Under the Plasma Concentration Time Curve From Time Zero to the Time of the Last Quantifiable Concentration (AUC0-t) of M5717",
+            "description": "The AUC from time zero (= dosing time) to the last sampling time (tlast) at which the concentration is at or above the lower limit of quantification (LLOQ), calculated using the mixed log-linear trapezoidal rule (linear up, log down).",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Area Under the Plasma Concentration-Time Curve From Time Zero to Time 144 Hours After Drug Administration (AUC0-144h) of M5717",
+            "description": "The area under the plasma concentration-time curve from time zero to 144 hours after dosing was reported. It is calculated using the mixed log-linear trapezoidal rule (linear up, log down).",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, and 144 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Apparent Terminal Half Life (t1/2) of M5717",
+            "description": "T1/2 was the time measured for the concentration to decrease by one half. T1/2 was calculated as natural log2 divided by lambda z. Lambda Z was terminal elimination rate constant determined from the terminal slope of the log-transformed plasma concentration curve.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Apparent Total Clearance (CL/f) of M5717",
+            "description": "Apparent total body clearance of drug from plasma following extravascular administration, calculated as dose/AUC0-infinity for M5717, whereas AUC0-infinity is area under the plasma concentration-time curve from time zero (dosing time) extrapolated to infinity of unchanged drug calculated as AUC0-t + AUCextra. AUCextra represents the extrapolated part of AUC0-infinity calculated by Clastpred/lambda z, where Clastpred is the predicted plasma concentration at the last sampling time point, calculated from the log linear regression line for lambda z determination at which the measured plasma concentration is at or above lower limit of quantification.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Apparent Volume of Distribution During Terminal Phase (VZ/f) of M5717",
+            "description": "Volume of distribution was defined as the theoretical volume in which the total amount of drug would need to be uniformly distributed to produce the desired plasma concentration of a drug. Apparent volume of distribution during the terminal phase, calculated as Vz/f = Dose/(AUC0-infinity multiply by Lambda z) following single dose.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part C: Time Above or Equal to the Predicted M5717 Minimum Inhibitory Concentration (MIC) of 3 ng/mL (t =>3 ng/mL)",
+            "description": "Minimal inhibitory concentration (MIC), defined as the concentration at which the relative rate of change in parasitemia is equal to zero.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetic profile of M5717 in the volunteer infection study",
+            "description": "Non-compartmental pharmacokinetic parameters of M5717 including Cmax, tmax, AUC0–t, AUC0–∞, AUC0–144h, apparent terminal half-life (t1/2), apparent total clearance (CL/F), apparent volume of distribution (Vz/F), time at or above the minimum inhibitory concentration (t≥3 ng/mL), and time at or above the minimum parasiticidal concentration (t≥10 ng/mL).",
+            "timeFrame": "From dosing (day 1) through the last pharmacokinetic sampling time point (up to at least 144 h and until concentrations fall below the lower limit of quantification) in the volunteer infection study"
+          }
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Time Above or Equal to the Predicted M5717 Minimum Parasiticidal Concentration (MPC) of 10 ng/mL (t =>10 ng/mL)",
+            "description": "Minimal parasiticidal concentration represents the lowest drug concentration value above which parasites decline at a maximal rate.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 26,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.18,
+          0.11,
+          0.08,
+          0.2
+        ],
+        [
+          0.76,
+          0.18,
+          0.12,
+          0.1,
+          0.32
+        ],
+        [
+          0.86,
+          0.1,
+          0.08,
+          0.1,
+          0.3
+        ],
+        [
+          0.82,
+          0.08,
+          0.08,
+          0.12,
+          0.38
+        ],
+        [
+          0.8,
+          0.12,
+          0.05,
+          0.08,
+          0.23
+        ],
+        [
+          0.82,
+          0.18,
+          0.12,
+          0.08,
+          0.3
+        ],
+        [
+          0.83,
+          0.18,
+          0.12,
+          0.08,
+          0.3
+        ],
+        [
+          0.82,
+          0.18,
+          0.09,
+          0.05,
+          0.18
+        ],
+        [
+          0.86,
+          0.08,
+          0.08,
+          0.08,
+          0.28
+        ],
+        [
+          0.82,
+          0.12,
+          0.1,
+          0.05,
+          0.18
+        ],
+        [
+          0.82,
+          0.08,
+          0.08,
+          0.08,
+          0.2
+        ],
+        [
+          0.73,
+          0.18,
+          0.1,
+          0.08,
+          0.4
+        ],
+        [
+          0.73,
+          0.08,
+          0.06,
+          0.05,
+          0.2
+        ],
+        [
+          0.84,
+          0.18,
+          0.05,
+          0.12,
+          0.25
+        ],
+        [
+          0.86,
+          0.08,
+          0.32,
+          0.18,
+          0.7
+        ],
+        [
+          0.78,
+          0.18,
+          0.38,
+          0.2,
+          0.78
+        ],
+        [
+          0.32,
+          0.08,
+          0.6,
+          0.65,
+          0.7
+        ],
+        [
+          0.28,
+          0.1,
+          0.45,
+          0.3,
+          0.68
+        ],
+        [
+          0.22,
+          0.25,
+          0.28,
+          0.32,
+          0.74
+        ],
+        [
+          0.08,
+          0.25,
+          0.86,
+          0.68,
+          0.3
+        ],
+        [
+          0.05,
+          0.41,
+          0.18,
+          0.96,
+          0.12
+        ],
+        [
+          0.7,
+          0.18,
+          0.3,
+          0.25,
+          0.78
+        ],
+        [
+          0.08,
+          0.86,
+          0.08,
+          0.18,
+          0.03
+        ],
+        [
+          0.1,
+          0.78,
+          0.18,
+          0.25,
+          0.12
+        ],
+        [
+          0.08,
+          0.62,
+          0.08,
+          0.19,
+          0.05
+        ],
+        [
+          0.02,
+          0.72,
+          0.03,
+          0.32,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Maximum Observed Plasma Concentration (Cmax) of M5717",
+            "description": "Cmax was obtained directly from the concentration versus time curve.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Time to Reach Maximum Observed Plasma Concentration (Tmax) of M5717",
+            "description": "The time to reach the maximum observed plasma concentration (tmax) was obtained directly from the concentration versus time curve.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part A: Terminal Elimination Rate Constant (Lambda z) of M5717",
+            "description": "Lambda z determined from the terminal slope of the log-transformed concentration curve using linear regression on terminal data points of the curve.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetic profile of M5717 in the single ascending dose study",
+            "description": "Non-compartmental pharmacokinetic parameters of M5717 including Cmax, tmax, AUC0–t, AUC0–∞, AUC0–144h, apparent terminal half-life (t1/2), apparent total clearance (CL/F), apparent volume of distribution (Vz/F), time at or above the minimum inhibitory concentration (t≥3 ng/mL), and time at or above the minimum parasiticidal concentration (t≥10 ng/mL).",
+            "timeFrame": "From dosing (day 1) through the last pharmacokinetic sampling time point (up to at least 144 h and until concentrations fall below the lower limit of quantification) in the single ascending dose study"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Apparent Terminal Half Life (t1/2) of M5717",
+            "description": "T1/2 was the time measured for the concentration to decrease by one half. T1/2 was calculated as natural log2 divided by lambda z. Lambda Z was terminal elimination rate constant determined from the terminal slope of the log-transformed plasma concentration curve.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Area Under the Plasma Concentration Time Curve From Time Zero to Infinity (AUC0-inf) of M5717",
+            "description": "The AUC from time zero (dosing time) extrapolated to infinity, based on the predicted value for the concentration at tlast, as estimated using the linear regression from the determination of the terminal first order (elimination) rate constant (lambda z). AUC0-inf = AUC0-t plus Clast pred/lambda z. Lambda Z was terminal elimination rate constant determined from the terminal slope of the log-transformed plasma concentration curve using linear regression on terminal data points of the curve. Clastpred was the last predicted quantifiable concentration.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Area Under the Plasma Concentration Time Curve From Time Zero to the Time of the Last Quantifiable Concentration (AUC0-t) of M5717",
+            "description": "The AUC from time zero (= dosing time) to the last sampling time (tlast) at which the concentration is at or above the lower limit of quantification (LLOQ), calculated using the mixed log-linear trapezoidal rule (linear up, log down).",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Area Under the Plasma Concentration-Time Curve From Time Zero to Time 144 Hours After Drug Administration (AUC0-144h) of M5717",
+            "description": "The area under the plasma concentration-time curve from time zero to 144 hours after dosing was reported. It is calculated using the mixed log-linear trapezoidal rule (linear up, log down).",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, and 144 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Extrapolated Area Under the Plasma Concentration Curve From Time of Last Quantifiable Sample to Infinity (AUCextra%) of M5717",
+            "description": "AUCextra% was calculated as area under the curve from time tlast extrapolated to infinity given as percentage of AUC 0-infinity. Here, tlast is the last sampling time at which the concentration is at or above the lower limit of quantification.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Apparent Total Clearance (CL/f) of M5717",
+            "description": "Apparent total body clearance of drug from plasma following extravascular administration, calculated as dose/AUC0-infinity for M5717, whereas AUC0-infinity is area under the plasma concentration-time curve from time zero (dosing time) extrapolated to infinity of unchanged drug calculated as AUC0-t + AUCextra. AUCextra represents the extrapolated part of AUC0-infinity calculated by Clastpred/lambda z, where Clastpred is the predicted plasma concentration at the last sampling time point, calculated from the log linear regression line for lambda z determination at which the measured plasma concentration is at or above lower limit of quantification.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Apparent Volume of Distribution During Terminal Phase (VZ/f) of M5717",
+            "description": "Volume of distribution was defined as the theoretical volume in which the total amount of drug would need to be uniformly distributed to produce the desired plasma concentration of a drug. Apparent volume of distribution during the terminal phase, calculated as Vz/f = Dose/(AUC0-infinity multiply by Lambda z) following single dose.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Dose Normalized AUC0-inf [AUC(0-inf/Dose)] of M5717",
+            "description": "The AUC from time zero (dosing time) extrapolated to infinity, based on the predicted value for the concentration at tlast, as estimated using the linear regression from the determination of the terminal first order (elimination) rate constant (lambda z). AUC0-inf = AUC0-t plus Clast pred/lambda z. Lambda Z was terminal elimination rate constant determined from the terminal slope of the log-transformed plasma concentration curve using linear regression on terminal data points of the curve. Clastpred was the last predicted quantifiable concentration. Dose normalized was calculated using actual dose, using the formula AUC0-inf/Dose.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Dose Normalized AUC0-144h [AUC(0-144hour/Dose)] of M5717",
+            "description": "The area under the plasma concentration-time curve from time zero to 144 hours after dosing was reported. It is calculated using the mixed log-linear trapezoidal rule (linear up, log down). Dose normalized was calculated using actual dose, using the formula AUC0-144h/Dose.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, and 144 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Dose Normalized AUC0-t [AUC( 0-t/Dose)] of M5717",
+            "description": "The AUC from time zero (= dosing time) to the last sampling time (tlast) at which the concentration is at or above the lower limit of quantification (LLOQ), calculated using the mixed log-linear trapezoidal rule (linear up, log down). Dose normalized was calculated using actual dose, using the formula AUC0-t/Dose.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Dose Normalized Maximum Observed Plasma Concentration (Cmax/Dose) of M5717",
+            "description": "Cmax was obtained directly from the concentration versus time curve. Dose normalized was calculated using actual dose, using the formula Cmax/Dose.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Time Above or Equal to the Predicted M5717 Minimum Inhibitory Concentration (MIC) of 3 ng/mL (t =>3 ng/mL)",
+            "description": "Minimal inhibitory concentration (MIC), defined as the concentration at which the relative rate of change in parasitemia is equal to zero.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Time Above or Equal to the Predicted M5717 Minimum Parasiticidal Concentration (MPC) of 10 ng/mL (t=>10 ng/mL)",
+            "description": "Minimal parasiticidal concentration represents the lowest drug concentration value above which parasites decline at a maximal rate.",
+            "timeFrame": "Pre-dose, 0.5, 1, 1.5, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36, 42, 48, 72, 96, 120, 144, 192, 240, 384, 504, 768 and 1032 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Parasite Clearance Time",
+            "description": "The parasite clearance time (PCT), defined as the time at which malaria parasite levels decline below detectable levels in blood after treatment, estimated as the time at which the linear portion of the optimal log parasitemia-versus-time relationship intersects the LLOQ concentration line.",
+            "timeFrame": "Day 1 up to Day 22"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Parasite Clearance Half-life (PCT 1/2)",
+            "description": "The parasite clearance half-life (PCt1/2), defined as the time needed for parasitemia to be reduced by half during the log-linear phase of parasite clearance, as derived using the slope of the optimal fit of the log-linear relationship of parasitemia decay. It was observed that the decline of parasitemia had a biphasic profile, with the first phase, followed by a second phase (the main clearance phase).",
+            "timeFrame": "Day 1 up to Day 22"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With Lag Phase",
+            "description": "Lag phase is defined as an initial period after dosing that precedes a steady exponential decline in the parasite count. Lag phase is categorized in lag of 4 hours, lag of 6 hours, lag of 12 hours and lag of 24 hours.",
+            "timeFrame": "Day 1 to Day 22"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 19,
+          "pred_idx": 2,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With Recrudescence",
+            "description": "Recrudescence is as defined as greater than and equal to 5000 blood stage parasites/milliliter (mL) and a 2-fold parasitemia increase within 48 hours, or re-occurrence of malaria symptoms with a malaria clinical score \\> 6. The malaria clinical score consists of 14 signs/symptoms frequently associated with malaria and graded using a 4-point scale with minimum score is 0 (no symptoms) and the maximum score is 42 (maximum symptoms).",
+            "timeFrame": "Day 1 to Day 22"
+          },
+          "pred_item": {
+            "measure": "Incidence of recrudescence of parasitaemia",
+            "description": "Number and proportion of participants with recrudescence of Plasmodium falciparum parasitaemia after initial clearance following a single oral dose of M5717.",
+            "timeFrame": "From M5717 dosing (day 1) up to day 28 in the volunteer infection study (with rescue treatment given at recrudescence or on day 21 if recrudescence not observed)"
+          }
+        },
+        {
+          "ref_idx": 20,
+          "pred_idx": 3,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part C: Malarial Clinical Score",
+            "description": "The malaria clinical score consists of 14 signs/symptoms frequently associated with malaria and graded using a 4-point scale (absent: 0; mild: 1; moderate: 2; severe: 3) and summed to generate a total malaria clinical score (maximum score possible is 42): headache, myalgia (muscle ache), arthralgia (joint ache), fatigue/lethargy, malaise (general discomfort/uneasiness), chills/shivering/rigors, sweating/hot spells, anorexia, nausea, vomiting, abdominal discomfort, fever, tachycardia and hypotension. Total scores are reported here. The minimum score is 0 (no symptoms) and the maximum score is 42 (maximum symptoms).",
+            "timeFrame": "Day 1, 2, 3, 4, 5, 6, 7, 9, 11, 13, 15 and 22"
+          },
+          "pred_item": {
+            "measure": "Malaria clinical score",
+            "description": "Composite malaria clinical score assessing signs and symptoms associated with malaria in participants of the volunteer infection study.",
+            "timeFrame": "From inoculation (day −8) through end of follow-up (day 44) in the volunteer infection study"
+          }
+        },
+        {
+          "ref_idx": 21,
+          "pred_idx": 4,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part C: Minimum Inhibitory Concentration (MIC) and Minimum Parasiticidal Concentration at 90% (MPC90)",
+            "description": "MIC is defined as the minimum concentration of a drug at which parasite counts continue to decrease and is equivalent to equating the rate in the change of parasite to 0. Parasiticidal concentration required for 90% killing (MPC90) is defined as the concentration at which the parasite clearance effect is at 90% of the maximum. The estimated MIC and MPC were derived from the final pharmacodynamics (PD) model and pharmacokinetic (PK)/PD relationship.",
+            "timeFrame": "Day 1 up to Day 22"
+          },
+          "pred_item": {
+            "measure": "MIC, minimum parasiticidal concentration, parasite clearance time, and lag phase",
+            "description": "Estimation of the minimum inhibitory concentration, minimum parasiticidal concentration, time to parasite clearance, and lag phase between dosing and onset of rapid parasite clearance, derived using pharmacokinetic–pharmacodynamic modelling.",
+            "timeFrame": "Across the full pharmacokinetic and parasitaemia sampling period from M5717 dosing (day 1) through end of follow-up in both the single ascending dose and volunteer infection studies"
+          }
+        },
+        {
+          "ref_idx": 22,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With Treatment Emergent Adverse Events (TEAEs), Serious TEAEs, TEAEs Leading to Discontinuation of Study Treatment",
+            "description": "An adverse event (AE) was defined as any untoward medical occurrence in a participant administered with study drug which does not necessarily had a causal relationship with the treatment. An AE was any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with use of a medicinal product, whether or not considered related to the medicinal product. A serious adverse event (SAE) was an AE that resulted in any of the following outcomes: death; life threatening; persistent/significant disability/incapacity; initial or prolonged inpatient hospitalization; congenital anomaly/birth defect or was otherwise considered medically important. The term TEAE is defined as AEs starting or worsening after the first intake of the study drug. TEAEs included both Serious TEAEs and non-serious TEAEs.",
+            "timeFrame": "Baseline up to Day 44"
+          },
+          "pred_item": {
+            "measure": "Safety and tolerability in the volunteer infection study",
+            "description": "Nature, incidence, and severity of adverse events; incidence of clinically significant changes and abnormalities in safety laboratory parameters (haematology, coagulation, biochemistry, and urinalysis), vital signs (body temperature, blood pressure, heart rate, and respiratory rate), and 12-lead ECGs following a single oral dose of M5717.",
+            "timeFrame": "From M5717 dosing (day 1) through end of follow-up (day 44) in the volunteer infection study"
+          }
+        },
+        {
+          "ref_idx": 23,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With Clinically Significant Changes From Baseline in Laboratory Assessments",
+            "description": "Laboratory assessments included hematology, biochemistry, urinalysis, and coagulation. Number of participants with clinically significant change from baseline in laboratory parameters were reported. Clinical significance was decided by the investigator.",
+            "timeFrame": "Baseline up to Day 44"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 24,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With Clinically Significant Changes From Baseline in 12-lead Electrocardiograms (ECGs) Findings",
+            "description": "The 12-lead ECGs were recorded after the participants have rested for at least 5 minutes in supine position. Number of participants with clinically significant change from baseline in ECG were reported. Clinical significance was decided by the investigator.",
+            "timeFrame": "Baseline up to Day 44"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 25,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With Clinically Significant Changes From Baseline in Vital Signs",
+            "description": "Vital signs included oral body temperature, systolic blood pressure, diastolic blood pressure, and pulse rate. Number of participants with clinically significant change from baseline in vital signs were reported. Clinical significance was decided by the investigator.",
+            "timeFrame": "Baseline up to Day 44"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

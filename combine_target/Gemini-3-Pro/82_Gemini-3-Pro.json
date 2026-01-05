@@ -1,0 +1,137 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03718871",
+      "secondaryIdInfos": [
+        {
+          "id": "K23MH111409",
+          "type": "NIH",
+          "domain": "National Institute of Mental Health"
+        },
+        {
+          "id": "P30 AI036214",
+          "type": "NIH",
+          "domain": "San Diego Center for AIDS Research"
+        }
+      ],
+      "organization": {
+        "fullName": "Weill Cornell Medicine",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "HIV counselling and testing are essential to control the HIV epidemic, yet uptake remains low in sub-Saharan Africa where many utilize traditional healers. This study hypothesized that uptake of HIV tests would increase if provided by traditional healers. The aim was to determine the effectiveness of traditional healers delivering HIV testing at point of care compared with referral to local clinics for HIV testing in rural southwestern Uganda.",
+      "detailedDescription": "This mixed-methods study included a cluster-randomised trial followed by individual qualitative interviews among a sample of participants in Mbarara, Uganda. Traditional healers aged 18 years or older were randomly assigned (1:1) as clusters to an intervention or a control group. Healers screened their clients for eligibility, and research assistants confirmed eligibility and enrolled clients who were aged 18 years or older, were receiving care from a participating healer, were sexually active, and self-reported not having received an HIV test in the previous 12 months. Intervention group healers provided counselling and offered point-of-care HIV tests to adult clients using oral swab kits. Control group healers provided referral for HIV testing at nearby clinics. The primary outcome was the individual receipt of an HIV test within 90 days of study enrolment. Secondary outcomes included new HIV diagnoses and linkage to HIV care."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HIV Infections"
+      ],
+      "keywords": [
+        "HIV testing",
+        "Traditional medicine",
+        "Point-of-care testing",
+        "Rural health",
+        "Uganda",
+        "Cluster-randomized trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Parallel-arm, cluster-randomised study design where the unit of randomisation was the traditional healer.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Blinding of participants and study staff was not possible due to the nature of the study intervention."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 500,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention Group",
+          "type": "EXPERIMENTAL",
+          "description": "Traditional healers provided counselling and offered point-of-care HIV tests to adult clients.",
+          "interventionNames": [
+            "Healer-delivered point-of-care HIV testing"
+          ]
+        },
+        {
+          "label": "Control Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Traditional healers provided referral for HIV testing at nearby clinics (usual care).",
+          "interventionNames": [
+            "Referral for HIV testing"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Healer-delivered point-of-care HIV testing",
+          "description": "Healers received training on pre-test and post-HIV test counselling and administration of Oraquick HIV testing kits. They provided counselling and offered point-of-care HIV tests (Oraquick) directly to adult clients.",
+          "armGroupLabels": [
+            "Intervention Group"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Referral for HIV testing",
+          "description": "Healers provided HIV education and referral envelopes containing a referral letter with information on nearby HIV testing locations to eligible clients.",
+          "armGroupLabels": [
+            "Control Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Individual receipt of an HIV test",
+          "description": "In the control group, the outcome was assessed via self-report at the time of the 90-day follow-up phone call. For the intervention group, the participating healer recorded whether an HIV test was accepted by the client at the time of the study visit. If accepted and delivered, the result was recorded.",
+          "timeFrame": "Within 90 days of study enrolment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "New HIV diagnoses",
+          "description": "Assessed via self-report during the 90-day follow-up phone call.",
+          "timeFrame": "Within 90 days of enrolment"
+        },
+        {
+          "measure": "Linkage to HIV care",
+          "description": "Assessed for clients who were newly diagnosed. Prespecified questions were posed via self-report to determine whether clients had received confirmatory testing and initiated antiretroviral therapy (ART).",
+          "timeFrame": "Within 90 days of enrolment"
+        },
+        {
+          "measure": "Safety and adverse events",
+          "description": "Recorded and defined on the basis of prespecified criteria.",
+          "timeFrame": "Through study completion"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nFor Traditional Healers (Clusters):\n- Aged 18 years or older\n- Located within 8 km of the Mbarara District HIV clinic\n- Identified in the 2018 population-level census of traditional healers in Mbarara District\n- Delivered care to at least seven clients per week\n\nFor Clients:\n- Aged 18 years or older\n- Receiving care from a participating healer\n- Sexually active (ever had intercourse)\n- Self-report of not having received an HIV test in the previous 12 months (considered to be of unknown serostatus)\n- Not previously diagnosed with HIV infection",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

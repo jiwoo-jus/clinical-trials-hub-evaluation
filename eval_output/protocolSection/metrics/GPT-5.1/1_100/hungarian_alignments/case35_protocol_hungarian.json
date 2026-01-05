@@ -1,0 +1,257 @@
+{
+  "metadata": {
+    "case_id": 35,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:54:38.188728",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/35_NCT03019588.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/35_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.4
+        ],
+        [
+          0.2,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Pembrolizumab 200 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive pembrolizumab 200 mg intravenous (IV) infusion on Day 1 of each 3-week cycle for up to 35 cycles (up to approximately 2 years).",
+            "interventionNames": [
+              "Biological: Pembrolizumab"
+            ]
+          },
+          "pred_item": {
+            "label": "Pembrolizumab",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received pembrolizumab 200 mg intravenously every 3 weeks for up to 35 cycles (approximately 2 years) or until disease progression, intolerable toxicity, investigator decision, or withdrawal of consent.",
+            "interventionNames": [
+              "Pembrolizumab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Paclitaxel 80 mg/m^2",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants receive paclitaxel 80 mg/m\\^2 IV infusion on Days 1, 8 and 15 of each 4-week cycle for up to approximately 2 years.",
+            "interventionNames": [
+              "Drug: Paclitaxel"
+            ]
+          },
+          "pred_item": {
+            "label": "Paclitaxel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients received paclitaxel 80 mg/m² intravenously on days 1, 8, and 15 of each 4‑week cycle until disease progression, intolerable toxicity, investigator decision, or withdrawal of consent.",
+            "interventionNames": [
+              "Paclitaxel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.15
+        ],
+        [
+          0.1,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Pembrolizumab",
+            "description": "IV infusion",
+            "armGroupLabels": [
+              "Pembrolizumab 200 mg"
+            ],
+            "otherNames": [
+              "MK-3475"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Pembrolizumab",
+            "description": "Pembrolizumab 200 mg administered as an intravenous infusion every 3 weeks for up to 35 cycles (approximately 2 years) in patients with PD‑L1–positive (CPS ≥1) advanced gastric or gastroesophageal junction adenocarcinoma.",
+            "armGroupLabels": [
+              "Pembrolizumab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Paclitaxel",
+            "description": "IV infusion",
+            "armGroupLabels": [
+              "Paclitaxel 80 mg/m^2"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Paclitaxel",
+            "description": "Paclitaxel 80 mg/m² administered intravenously on days 1, 8, and 15 of each 4‑week cycle in patients with PD‑L1–positive (CPS ≥1) advanced gastric or gastroesophageal junction adenocarcinoma.",
+            "armGroupLabels": [
+              "Paclitaxel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.6
+        ],
+        [
+          0.4,
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Overall Survival (OS)",
+            "description": "OS is defined as the time from randomization to death due to any cause. Participants without documented death at the time of the final analysis were censored at the date of the last follow-up.",
+            "timeFrame": "Up to approximately 50 months"
+          },
+          "pred_item": {
+            "measure": "Overall Survival (OS)",
+            "description": "Overall survival, defined as time from randomization to death from any cause.",
+            "timeFrame": "From randomization until death from any cause (up to approximately 2 years at database cutoff)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Progression-free Survival (PFS) Per Response Evaluation Criteria in Solid Tumors Version 1.1 (RECIST 1.1)",
+            "description": "PFS is defined as the time from randomization to the first documented disease progression or death due to any cause, whichever occurs first. Per RECIST 1.1, progressive disease was defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study. In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm. Note: The appearance of one or more new lesions was also considered progression. PFS as assessed by blinded independent central review will be presented.",
+            "timeFrame": "Up to approximately 50 months"
+          },
+          "pred_item": {
+            "measure": "Progression-Free Survival (PFS)",
+            "description": "Progression-free survival per RECIST v1.1, defined as time from randomization to the first documented disease progression or death from any cause, whichever occurred first.",
+            "timeFrame": "From randomization until documented disease progression or death (up to approximately 2 years at database cutoff)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.1
+        ],
+        [
+          0.1,
+          0.78
+        ],
+        [
+          0.08,
+          0.73
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Objective Response Rate (ORR) Per RECIST 1.1",
+            "description": "ORR was defined as the percentage of participants in the analysis population who had a Complete Response (CR: Disappearance of all target lesions) or a Partial Response (PR: At least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters) per RECIST 1.1.",
+            "timeFrame": "Up to approximately 50 months"
+          },
+          "pred_item": {
+            "measure": "Objective Response Rate (ORR)",
+            "description": "Objective response rate per RECIST v1.1, defined as the proportion of patients who experienced a confirmed complete or partial response by blinded central radiology review.",
+            "timeFrame": "From randomization until disease progression or death, assessed every 6 weeks up to approximately 2 years"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Who Experience an Adverse Event (AE)",
+            "description": "An adverse event is defined as any untoward medical occurrence in a participant administered a pharmaceutical product and which does not necessarily have to have a causal relationship with this treatment.",
+            "timeFrame": "Up to approximately 50 months"
+          },
+          "pred_item": {
+            "measure": "Safety and Tolerability",
+            "description": "Incidence, nature, and severity of adverse events, including treatment-related adverse events, graded according to NCI CTCAE v4.0.",
+            "timeFrame": "From first dose through 30 days after treatment discontinuation (90 days for serious adverse events)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants Who Discontinue Study Treatment Due to an AE",
+            "description": "An adverse event is defined as any untoward medical occurrence in a participant administered a pharmaceutical product and which does not necessarily have to have a causal relationship with this treatment.",
+            "timeFrame": "Up to approximately 25 months"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

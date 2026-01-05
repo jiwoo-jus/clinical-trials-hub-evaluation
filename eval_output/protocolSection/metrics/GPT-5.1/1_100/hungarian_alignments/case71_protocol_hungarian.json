@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "case_id": 71,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T18:23:45.248242",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/71_NCT04181307.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/71_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "id": "5R33AG057382",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/5R33AG057382"
+          },
+          "pred_item": {
+            "id": "R21/R33 AG057382",
+            "type": "NIH",
+            "domain": "National Institutes of Health – National Institute on Aging",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.2,
+          0.88
+        ],
+        [
+          0.92,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "label": "standard EPIC instantiation",
+            "type": "NO_INTERVENTION",
+            "description": "As per standard procedure at NewYorkUniversity Langone Health"
+          },
+          "pred_item": {
+            "label": "Standard care only",
+            "type": "NO_INTERVENTION",
+            "description": "Clinicians at these 33 NYULH primary care and endocrinology clinics provide usual care within the Epic EHR without access to the BE-EHR module nudges aimed at Choosing Wisely guideline adherence. No additional behavioral or CDS intervention is applied beyond standard practice.",
+            "interventionNames": []
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "standard EPIC instantiation plus the BE-EHR module.",
+            "type": "EXPERIMENTAL",
+            "description": "The BE-EHR module includes six components: 1) a tailored advisory for patients over 75 with diabetes, 2) medication refill protocol with information on Choosing Wisely guidelines, 3) pre-population of the medication preference list with metformin, 4) lab result protocol with information on Choosing Wisely guidelines, 5) peer comparisons regarding performance meeting guidelines, and 6) media campaign with information about Choosing Wisely guidelines. The set of nudges is referred to collectively as the BE-EHR module.",
+            "interventionNames": [
+              "Behavioral: BE-EHR module"
+            ]
+          },
+          "pred_item": {
+            "label": "BE-EHR module + standard care",
+            "type": "EXPERIMENTAL",
+            "description": "Clinicians at these 33 NYULH primary care and endocrinology clinics receive a 6-component Behavioral Economics–Electronic Health Record (BE-EHR) module in addition to usual care. The module consists of multiple EHR-embedded clinical decision support nudges and two email-based nudges, all designed to promote American Geriatrics Society Choosing Wisely guideline adherence and reduce overtreatment of type 2 diabetes in adults aged 76 years and older.",
+            "interventionNames": [
+              "BE-EHR module"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "BE-EHR module",
+            "description": "The BE-EHR module includes six components: 1) a tailored advisory for patients over 75 with diabetes, 2) medication refill protocol with information on Choosing Wisely guidelines, 3) pre-population of the medication preference list with metformin, 4) lab result protocol with information on Choosing Wisely guidelines, 5) peer comparisons regarding performance meeting guidelines, and 6) media campaign with information about Choosing Wisely guidelines. The set of nudges is referred to collectively as the BE-EHR module.",
+            "armGroupLabels": [
+              "standard EPIC instantiation plus the BE-EHR module."
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "BE-EHR module",
+            "description": "A 6-component Behavioral Economics–Electronic Health Record (BE-EHR) intervention delivered primarily through the Epic EHR as clinical decision support (CDS) tools to clinicians caring for adults aged ≥76 years with type 2 diabetes. It is designed to reduce overtreatment and promote Choosing Wisely guideline adherence by tailoring recommendations based on a life-expectancy algorithm. Components:\n\n1) Tailored Advisory: A noninterruptive in-encounter alert for Choosing Wisely–noncompliant patients that describes appropriate glycemic targets by life-expectancy category and suggests treatment changes. Clinicians may acknowledge by agreeing with the recommendation or indicating clinical inappropriateness with free-text justification, and can suppress future alerts for 182.5 days.\n\n2) Refill Protocol: An alert in the medication refills section whenever a diabetes medication refill is generated for eligible older adults. It suggests initiating metformin for those not on it or lowering/stopping refills for those already on metformin, with optional comments.\n\n3) Preference List: A system-level default medication order set in Epic where metformin is placed at the top of the \"First-line Type 2 Diabetes\" medication list, while preserving the ability to order other agents without restriction.\n\n4) Lab Result Nudge: An alert in the lab results section that appears when a new HbA1c result is available for a Choosing Wisely–noncompliant patient, showing appropriate treatment guidelines and highlighting out-of-range values. The alert remains active for 7 days after the result posts.\n\n5) Peer Comparison Email: A monthly secure email from the practice director’s account showing graphical peer-comparison feedback: the individual clinician’s Choosing Wisely compliance, their site’s compliance, and overall NYULH compliance. The message text is framed positively or negatively depending on whether the clinician’s performance is above or below their practice average.\n\n6) Campaign Email Toolkit: A monthly gamified educational campaign delivered outside the EHR (e.g., game-show–themed animations modeled on The Price is Right, Jeopardy, and Who Wants to Be a Millionaire, plus flashcards) that quizzes clinicians on Choosing Wisely best practices, tailored by life-expectancy category.",
+            "armGroupLabels": [
+              "BE-EHR module + standard care"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Who Are CW-Compliant and CW-Noncompliant",
+            "description": "In order to evaluate Choosing Wisely (CW) compliance status, the BE-EHR algorithm will capture information on demographics, diagnoses in the patient's problem list, prescription history, and relevant lab results (i.e. allergies and blood glucose (HbA1c)) The study team members will not collect this information directly; data will be collected in NYULH's EHR system, EPIC, and an EPIC Reporting analyst will extract the relevant parameters from the EHR into a report. The study team members only receive the ultimate determination from the algorithm that the patient is either CW-compliant or CW-noncompliant.",
+            "timeFrame": "Month 18"
+          },
+          "pred_item": {
+            "measure": "Patient-level Choosing Wisely (CW) compliance",
+            "description": "Binary indicator of whether a patient’s HbA1c is within the CW-recommended target range for their life expectancy category (high, medium, or low), as defined by age, comorbidities, and gender-based life expectancy tables. CW compliance is modeled as the ratio of eligible patients whose HbA1c values fall within the specified range for their category.",
+            "timeFrame": "Over the 18-month intervention period, assessed longitudinally in 4-week intervals following activation of the BE-EHR module"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.38,
+          0.35,
+          0.13
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.38,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Total Prescription Encounters",
+            "description": "The Refill Protocol nudge activates in Epic any time a medication refill for either Metformin or a non-Metformin diabetes medication is generated for a patient over 75",
+            "timeFrame": "Month 18"
+          },
+          "pred_item": {
+            "measure": "Frequency of activation of BE-EHR module components",
+            "description": "Counts of how often each of the 6 BE-EHR nudge components (tailored advisory, refill protocol, preference list, lab result, peer comparison, and campaign) is triggered within the NYULH EHR system.",
+            "timeFrame": "Throughout the 18-month intervention period"
+          }
+        }
+      ]
+    }
+  ]
+}

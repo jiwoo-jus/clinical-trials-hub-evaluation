@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "case_id": 57,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T17:12:23.546904",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/57_NCT01781637.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/57_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.74,
+          0.3
+        ],
+        [
+          0.2,
+          0.68
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.74,
+          "status": "matched",
+          "ref_item": {
+            "label": "omalizumab group",
+            "type": "EXPERIMENTAL",
+            "description": "Patients will receive omalizumab.",
+            "interventionNames": [
+              "Drug: Omalizumab"
+            ]
+          },
+          "pred_item": {
+            "label": "Omalizumab plus Peanut Oral Immunotherapy",
+            "type": "EXPERIMENTAL",
+            "description": "Highly peanut-allergic subjects first received omalizumab (anti-IgE) for 12 weeks, then underwent rapid escalation on the first day of desensitization to 250 mg peanut protein followed by weekly up-dosing over 8 weeks to a maximum maintenance dose of 2000 mg peanut protein; omalizumab or placebo was continued for a total of 19 weeks, after which only oral immunotherapy with peanut was continued through week 52.",
+            "interventionNames": [
+              "Omalizumab",
+              "Peanut Oral Immunotherapy"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.68,
+          "status": "matched",
+          "ref_item": {
+            "label": "placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Patients will receive placebo.",
+            "interventionNames": [
+              "Drug: placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo plus Peanut Oral Immunotherapy",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Highly peanut-allergic subjects received placebo instead of omalizumab for 12 weeks, then underwent rapid escalation on the first day of desensitization to 250 mg peanut protein followed by weekly up-dosing over 8 weeks to a maximum maintenance dose of 2000 mg peanut protein; placebo or omalizumab was continued for a total of 19 weeks, after which only oral immunotherapy with peanut was continued through week 52. Placebo subjects failing to reach the 250 mg dose at 19 weeks were given the option to switch to open-label omalizumab prior to completing oral immunotherapy.",
+            "interventionNames": [
+              "Placebo for Omalizumab",
+              "Peanut Oral Immunotherapy",
+              "Open-label Omalizumab (rescue)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.55,
+          0.82,
+          0.4
+        ],
+        [
+          0.2,
+          0.82,
+          0.2,
+          0.25
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Omalizumab",
+            "description": "subcutaneous injection",
+            "armGroupLabels": [
+              "omalizumab group"
+            ],
+            "otherNames": [
+              "Xolair"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Omalizumab",
+            "description": "Anti-IgE monoclonal antibody administered for 12 weeks before and during early peanut oral immunotherapy, with total omalizumab treatment lasting 19 weeks in the randomized active arm; used to facilitate desensitization in highly peanut-allergic subjects.",
+            "armGroupLabels": [
+              "Omalizumab plus Peanut Oral Immunotherapy",
+              "Placebo plus Peanut Oral Immunotherapy"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "placebo",
+            "description": "subcutaneous injection",
+            "armGroupLabels": [
+              "placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo for Omalizumab",
+            "description": "Placebo injection matching omalizumab, administered for 12 weeks and continued to week 19 in the placebo comparator arm before and during early peanut oral immunotherapy.",
+            "armGroupLabels": [
+              "Placebo plus Peanut Oral Immunotherapy"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

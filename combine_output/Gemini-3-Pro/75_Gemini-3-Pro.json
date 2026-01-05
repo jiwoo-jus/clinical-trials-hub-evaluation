@@ -1,0 +1,187 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04456634",
+      "organization": {
+        "fullName": "Medicines for Malaria Venture",
+        "class": "OTHER"
+      },
+      "officialTitle": "Safety, Tolerability, and Pharmacokinetics of the Janus Kinase Inhibitor Ruxolitinib in Combination with Artemether-Lumefantrine in Healthy Adults: A Phase 1 Study"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluated the safety, tolerability, and pharmacokinetic/pharmacodynamic profile of combining the Janus kinase (JAK1/2) inhibitor ruxolitinib with the approved antimalarial artemether-lumefantrine in healthy volunteers. The underlying hypothesis is that ruxolitinib could potentially disrupt parasite-induced dysfunctional immune responses in malaria when administered alongside antimalarial therapy. Eight healthy participants were randomized to receive either ruxolitinib or placebo 2 hours after artemether-lumefantrine twice daily for 3 days. The results indicated that the combination was well tolerated with no clinically relevant adverse events, and ruxolitinib demonstrated a predictable pharmacodynamic effect by significantly inhibiting pSTAT3 activity.",
+      "detailedDescription": "Malaria remains a significant global health challenge, partly due to poor host immunity against Plasmodium species and parasite-induced immunoregulatory mechanisms that lead to recurrent infections. Type I interferons (IFNs) are implicated in suppressing antiparasitic immune responses and promoting the expansion of regulatory T cells. Ruxolitinib, a JAK1/2 inhibitor, can block Type I IFN signaling and is proposed as a potential adjunct therapy to disrupt these dysfunctional immune responses.\n\nThis randomized, single-blind, placebo-controlled, single-center phase 1 trial investigated the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of ruxolitinib coadministered with artemether-lumefantrine. The study aimed to facilitate future research on the immune-enhancing potential of this combination in uncomplicated Plasmodium falciparum malaria.\n\nEight healthy male and female participants (ages 18-55) were randomized to receive either ruxolitinib (20 mg) or placebo, administered 2 hours after artemether-lumefantrine (80/480 mg) twice daily for 3 days. Safety endpoints included adverse events, vital signs, ECG, and laboratory assessments. PK profiles for artemether, dihydroartemisinin, lumefantrine, and ruxolitinib were characterized using noncompartmental methods. PD activity was assessed by measuring the inhibition of phosphorylation of signal transducer and activator of transcription 3 (pSTAT3) ex vivo after IL-6 stimulation.\n\nThe study found that adverse events were mild and similar between groups, with no serious adverse events reported. PK analysis showed that ruxolitinib did not affect the exposure of artemether, dihydroartemisinin, or lumefantrine, although artemether Cmax was lower on day 3 in the ruxolitinib group compared to placebo. Ruxolitinib coadministration resulted in a 3-fold greater pSTAT3 inhibition compared to placebo, with a direct relationship between ruxolitinib plasma concentrations and effect. These findings support further investigation of this drug combination in malaria-infected individuals."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Malaria",
+        "Plasmodium falciparum Infection"
+      ],
+      "keywords": [
+        "Ruxolitinib",
+        "Artemether-lumefantrine",
+        "Pharmacokinetics",
+        "Pharmacodynamics",
+        "Safety",
+        "Drug Interaction",
+        "Janus Kinase Inhibitor",
+        "pSTAT3 Inhibition",
+        "Host-Directed Therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Eight healthy male and female participants were randomized to either ruxolitinib (n=6) or placebo (n=2) administered 2 h after artemether-lumefantrine twice daily for 3 days.",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "This randomized, single-blind, placebo-controlled, single-center phase 1 trial...",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 8,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Artemether-lumefantrine + Ruxolitinib",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received standard artemether-lumefantrine orally twice daily for 3 days. Ruxolitinib (20 mg) was administered orally 2 hours after artemether-lumefantrine twice daily for 3 days.",
+          "interventionNames": [
+            "Drug: Artemether-lumefantrine",
+            "Drug: Ruxolitinib"
+          ]
+        },
+        {
+          "label": "Artemether-lumefantrine + Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received standard artemether-lumefantrine orally twice daily for 3 days. Placebo was administered orally 2 hours after artemether-lumefantrine twice daily for 3 days.",
+          "interventionNames": [
+            "Drug: Artemether-lumefantrine",
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Artemether-lumefantrine",
+          "description": "Four tablets (20/120 mg; Riamet; Novartis) administered orally with 250 mg of full-fat milk twice daily over three consecutive days (total dose 480/2880 mg).",
+          "armGroupLabels": [
+            "Artemether-lumefantrine + Ruxolitinib",
+            "Artemether-lumefantrine + Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ruxolitinib",
+          "description": "20 mg (Jakavi; Incyte) administered orally 2 hours after artemether-lumefantrine twice daily for 3 days (total dose 120 mg).",
+          "armGroupLabels": [
+            "Artemether-lumefantrine + Ruxolitinib"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo administered orally 2 hours after artemether-lumefantrine twice daily for 3 days.",
+          "armGroupLabels": [
+            "Artemether-lumefantrine + Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Frequency of adverse events and serious adverse events",
+          "description": "Safety and tolerability assessed by the frequency of adverse events and serious adverse events.",
+          "timeFrame": "Through study completion, up to Day 29"
+        },
+        {
+          "measure": "Clinically significant changes in vital signs",
+          "description": "Assessment of temperature, blood pressure, heart rate, and respiratory rate.",
+          "timeFrame": "Through study completion, up to Day 29"
+        },
+        {
+          "measure": "Clinically significant changes in 12-lead ECG",
+          "description": "Evaluation of electrocardiogram parameters including QTcF.",
+          "timeFrame": "Through study completion, up to Day 29"
+        },
+        {
+          "measure": "Clinically significant changes in laboratory assessments",
+          "description": "Evaluation of hematology, clinical biochemistry, coagulation, and urinalysis.",
+          "timeFrame": "Through study completion, up to Day 29"
+        },
+        {
+          "measure": "Clinically significant changes in physical examination",
+          "description": "Physical examination findings.",
+          "timeFrame": "Through study completion, up to Day 29"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Pharmacodynamic effect: %pSTAT3 inhibition",
+          "description": "Assessment of the effect of ruxolitinib in combination with artemether-lumefantrine on the inhibition of phosphorylation of signal transducer and activator of transcription 3 (pSTAT3) compared to placebo.",
+          "timeFrame": "Predose and up to 168 hours relative to first artemether-lumefantrine dose"
+        },
+        {
+          "measure": "Pharmacokinetic profile of artemether: Cmax",
+          "description": "Maximum observed plasma concentration for artemether.",
+          "timeFrame": "Day 1 and Day 3 (up to 78 hours post-dose)"
+        },
+        {
+          "measure": "Pharmacokinetic profile of artemether: Tmax",
+          "description": "Time to maximum observed plasma concentration for artemether.",
+          "timeFrame": "Day 1 and Day 3 (up to 78 hours post-dose)"
+        },
+        {
+          "measure": "Pharmacokinetic profile of artemether: AUC",
+          "description": "Area under the concentration-time curve (AUC0-t, AUC0-inf) for artemether.",
+          "timeFrame": "Day 1 and Day 3 (up to 78 hours post-dose)"
+        },
+        {
+          "measure": "Pharmacokinetic profile of dihydroartemisinin: Cmax, Tmax, AUC",
+          "description": "Pharmacokinetic parameters (Cmax, Tmax, AUC) for the metabolite dihydroartemisinin.",
+          "timeFrame": "Day 1 and Day 3 (up to 78 hours post-dose)"
+        },
+        {
+          "measure": "Pharmacokinetic profile of lumefantrine: Cmax, Tmax, AUC, t1/2",
+          "description": "Pharmacokinetic parameters (Cmax, Tmax, AUC, terminal half-life) for lumefantrine.",
+          "timeFrame": "Up to Day 29 (672 hours post-dose)"
+        },
+        {
+          "measure": "Pharmacokinetic profile of ruxolitinib: Cmax, Tmax, AUC",
+          "description": "Pharmacokinetic parameters (Cmax, Tmax, AUC) for ruxolitinib.",
+          "timeFrame": "Day 1 and Day 3 (up to 78 hours post-dose)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n*   Male or female healthy volunteers\n*   Aged 18 to 55 years inclusive\n*   Weighing at least 50 kg\n*   Body mass index (BMI) in the range of 18 to 32 kg/m2\n*   Certified as healthy by a comprehensive clinical assessment (normal vital signs, ECG, and laboratory assessments: hematology, clinical chemistry, and urinalysis)\n*   Women of childbearing potential and males with female partners of childbearing potential had to agree to reliable contraception\n\nExclusion Criteria:\n*   Pregnant and lactating women\n*   Known hypersensitivity to study drugs, food/drug allergies or anaphylaxis\n*   History of additional cardiac risk factors, convulsions, cancer, psychiatric illness, recurrent headache, or drug or alcohol abuse\n*   Received any investigational drug within five half-lives or 12 weeks of the study start (whichever was longer)\n*   Immunosuppressive therapy within the last year\n*   Use of systemic anti-inflammatory drugs within the past 3 months (2 weeks for nasal/ophthalmic or topical corticosteroids)\n*   Antidepressant medication within the last 12 months\n*   Any concomitant medication (except contraceptives) within 14 days or five half-lives prior to study drug administration (whichever longer)\n*   Blood sampling or donation within 8 weeks prior to study drug administration\n*   Currently smoking >5 cigarettes/day\n*   Any current chronic disease\n*   Any condition that might affect drug absorption\n*   Acute illness within 4 weeks prior to screening\n*   Positive tests for pregnancy, hepatitis B, hepatitis C, human immunodeficiency virus, Mycobacterium tuberculosis infection, and drugs of abuse and alcohol",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "55 Years",
+      "stdAges": [
+        "ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

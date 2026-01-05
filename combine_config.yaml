@@ -1,0 +1,76 @@
+# Module Restructuring Configuration
+
+# Input/Output paths
+input:
+  model_outputs_dir: "/{YOURPATH}/combine_target"
+  models:
+    - "GPT-5.1"
+    - "Claude-4.5-Sonnet"
+    - "Gemini-3-Pro"
+
+output:
+  csv_dir: "/{YOURPATH}/extract_output"
+  restructured_dir: "/{YOURPATH}/combine_output"
+
+# Module override CSVs (optional)
+# Specify CSV files to override specific modules for each model
+# These CSVs will take priority over the main model CSV
+module_overrides:
+  GPT-5.1:
+    identificationModule: "/{YOURPATH}/extract_output/GPT-5.1.csv"
+    descriptionModule: "/{YOURPATH}/extract_output/GPT-5.1.csv"
+    conditionsModule: "/{YOURPATH}/extract_output/GPT-5.1.csv"
+    designModule: "/{YOURPATH}/extract_output/GPT-5.1.csv"
+    armsInterventionsModule: "/{YOURPATH}/extract_output/GPT-5.1.csv"
+    outcomesModule: "/{YOURPATH}/extract_output/GPT-5.1.csv"
+    eligibilityModule: "/{YOURPATH}/extract_output/GPT-5.1.csv"
+  Claude-4.5-Sonnet:
+    identificationModule: "/{YOURPATH}/extract_output/Claude-4.5-Sonnet.csv"
+    descriptionModule: "/{YOURPATH}/extract_output/Claude-4.5-Sonnet.csv"
+    conditionsModule: "/{YOURPATH}/extract_output/Claude-4.5-Sonnet.csv"
+    designModule: "/{YOURPATH}/extract_output/Claude-4.5-Sonnet.csv"
+    armsInterventionsModule: "/{YOURPATH}/extract_output/Claude-4.5-Sonnet.csv"
+    outcomesModule: "/{YOURPATH}/extract_output/Claude-4.5-Sonnet.csv"
+    eligibilityModule: "/{YOURPATH}/extract_output/Claude-4.5-Sonnet.csv"
+  Gemini-3-Pro:
+    identificationModule: "/{YOURPATH}/extract_output/Gemini-3-Pro.csv"
+    descriptionModule: "/{YOURPATH}/extract_output/Gemini-3-Pro.csv"
+    conditionsModule: "/{YOURPATH}/extract_output/Gemini-3-Pro.csv"
+    designModule: "/{YOURPATH}/extract_output/Gemini-3-Pro.csv"
+    armsInterventionsModule: "/{YOURPATH}/extract_output/Gemini-3-Pro.csv"
+    outcomesModule: "/{YOURPATH}/extract_output/Gemini-3-Pro.csv"
+    eligibilityModule: "/{YOURPATH}/extract_output/Gemini-3-Pro.csv"
+
+# Module extraction specification (10 modules)
+modules:
+  - "identificationModule"
+  - "descriptionModule"
+  - "conditionsModule"
+  - "designModule"
+  - "armsInterventionsModule"
+  - "outcomesModule"
+  - "eligibilityModule"
+
+# Final JSON structure specification
+output_structure:
+  protocolSection:
+    - "identificationModule"
+    - "descriptionModule"
+    - "conditionsModule"
+    - "designModule"
+    - "armsInterventionsModule"
+    - "outcomesModule"
+    - "eligibilityModule"
+
+# Processing options
+options:
+  case_range:
+    start: 1
+    end: 100
+  
+  # Keep metadata in restructured JSON
+  include_metadata: true
+  
+  # CSV options
+  csv_encoding: "utf-8"
+  json_indent: 2

@@ -1,0 +1,87 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT03587207,NCT03587207,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,www.gsk-studyregister.com,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,Study to Assess Potential Immune Interference When GlaxoSmithKline (GSK) Biologicals' MenABCWY Vaccine is Administered to Healthy Subjects Aged 10-25 Years,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,"Immunogenicity and Safety of Meningococcal MenABCWY Vaccine, and of rMenB+OMV NZ and MenACWY Administered Concomitantly in the Same Arm or in 2 Different Arms, or Alone",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,The purpose of the current study is to evaluate whether there is immune interference when MenABCWY \[consisting of MenACWY lyophilized component and rMenB+OMV NZ (Bexsero) liquid component\] is administered to healthy adolescents and adults following a 2-dose vaccination schedule with MenABCWY administered 2 months apart.,"This phase 2, randomized, open-label study assessed the immunogenicity and safety of an investigational meningococcal ABCWY vaccine (MenABCWY) compared to licensed vaccines against meningococcal serogroup B (4CMenB) and serogroups ACWY (MenACWY). The study involved healthy participants aged 10 to 25 years to evaluate if the combined administration results in immunological interference against serogroup B test strains and to monitor the safety profile of the investigational vaccine.",True,0.86,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"Neisseria meningitidis is a leading cause of bacterial meningitis. This study evaluated an investigational vaccine (MenABCWY) combining MenACWY-CRM and 4CMenB antigens. A total of 500 healthy individuals aged 10 to 25 years were randomized into five groups. Four groups received two doses administered 2 months apart of either: (1) MenABCWY, (2) 4CMenB plus MenACWY administered concomitantly in the same arm, (3) 4CMenB plus MenACWY administered concomitantly in different arms, or (4) 4CMenB administered alone. A fifth group received a single dose of MenACWY. 
+
+The primary objective was to assess the immune response against pooled serogroup B test strains (for antigens fHbp, NadA, PorA, and NHBA) and serogroups A, C, W, and Y one month after the last vaccination, measured by serum bactericidal assay using human complement (hSBA). The study was specifically powered to assess immunological interference against pooled serogroup B test strains. Secondary objectives included the assessment of immune responses one month post-first vaccination and the evaluation of reactogenicity and safety (solicited and unsolicited adverse events) following vaccine administration.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,"['Meningitis, Meningococcal']","['Meningococcal Infections', 'Meningitis, Meningococcal', 'Invasive Meningococcal Disease']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['Meningitis', 'Concomitantly', 'Adolescent', 'Neisseria meningitidis', 'Healthy subjects', 'Adult']","['Neisseria meningitidis', 'MenABCWY vaccine', '4CMenB', 'MenACWY', 'Immunogenicity', 'Safety', 'Adolescents', 'Young Adults', 'Vaccine Interference']",False,0.16666666666666666,partial,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,Five study groups in a 1:1:1:1:1 ratio,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Open-label,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,520,520,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Subjects and/or subjects' parent(s)/Legally Acceptable Representative(s) (LARs) who, in the opinion of the investigator, can and will comply, with the requirements of the protocol (e.g. completion of the paper diary (pDiary), return for follow-up visits, availability for all visits scheduled in the study).
+* Written informed consent obtained from the subject and/or from the parent(s)/LAR(s) of the subject prior to performing any study specific procedure.
+* Written informed assent obtained from subjects below the legal age of consent prior to performing any study specific procedure.
+* A male or female between, and including, 10 to 25 years of age at the time of the first vaccination.
+* Healthy subjects as established by medical history and clinical examination before entering into the study.
+* Female subjects of non-childbearing potential may be enrolled in the study.
+
+  * Non-childbearing potential is defined as pre menarche, current bilateral tubal ligation or occlusion, hysterectomy, or bilateral ovariectomy.
+* Female subjects of childbearing potential may be enrolled in the study, if the subject:
+
+  * has practiced highly effective contraception for 30 days prior to vaccination, and
+  * has a negative pregnancy test on the day of vaccination, and
+  * has agreed to continue highly effective contraception during the entire treatment period and for 2 months after completion of the vaccination series.
+
+Exclusion Criteria:
+
+* Female planning to become pregnant or planning to discontinue contraceptive precautions
+* Pregnant or lactating female
+* Child in care
+* Current or previous, confirmed or suspected disease caused by N. meningitidis.
+* Known contact to an individual with any laboratory confirmed N. meningitidis infection within 60 days prior to enrolment.
+* Previous vaccination against N. meningitidis at any time prior to informed consent.
+* Progressive, unstable or uncontrolled clinical conditions.
+* Hypersensitivity, including allergy, to any component of vaccines, medicinal products or medical equipment whose use is foreseen in this study.
+* Clinical conditions representing a contraindication to IM vaccination and blood draws.
+* Abnormal function of the immune system resulting from:
+
+  * Clinical conditions.
+  * Systemic administration of corticosteroids (oral/intravenous/IM) for more than 14 consecutive days within 90 days prior to informed consent.
+  * Administration of antineoplastic and immune modulating agents or radiotherapy within 90 days prior to informed consent.
+* Received immunoglobulins or any blood products within 180 days prior to informed consent.
+* Received an investigational or non registered medicinal product within 30 days prior to informed consent.
+* Any other clinical condition that, in the opinion of the investigator, might interfere with the results of the study or pose additional risk to the subject due to participation in the study.
+* Concurrently participating in another clinical study, at any time during the study period, in which the subject has been or will be exposed to an investigational or a non investigational vaccine/product.
+* Acute or chronic, clinically significant pulmonary, cardiovascular, hepatic, or renal functional abnormality, as determined by physical examination.
+* Any confirmed or suspected immunosuppressive or immunodeficient condition, based on medical history and physical examination.
+* Are obese at screening.
+* Family history of congenital or hereditary immunodeficiency.
+* History of neuroinflammatory or autoimmune condition.
+* History of significant neurological disorder or seizure.
+* Serious chronic illness.
+* History of chronic alcohol consumption and/or drug abuse.
+* Any study personnel as an immediate family or household member.
+* Administration of a vaccine not foreseen by the study protocol in the period starting 14 days (for inactivated vaccines), 28 days (for live vaccines), or 7 days (for influenza vaccines) before each dose and ending 14 days (for inactivated vaccines), 28 days (for live vaccines), or 7 days (for influenza vaccines) after each dose of study vaccine(s) administration.
+* Thrombocytopenia, bleeding disorders, or be receiving anticoagulant therapy.","Inclusion Criteria:
+- Adolescents and young adults 10 to 25 years of age.
+- Subjects were healthy.
+
+Exclusion Criteria:
+- Received any meningococcal vaccine.
+- History of meningococcal disease.
+- Contact within 60 days of enrollment with an individual with meningococcal disease.
+- Immune system or blood disorders resulting from any cause or immune-mediated disease.
+- Known adverse reactions to vaccine components.
+- Receipt of immunoglobulins or blood products within 180 days before enrollment.
+- Receipt of an investigational product within 30 days before enrollment.
+- Any acute or chronic condition that could interfere with the results of the study.
+- History of significant neurological disorder or seizure.
+- Pregnant or breastfeeding women.
+- Women of child-bearing potential who did not commit to using birth control measures from 30 days before vaccination until 2 months after vaccination completion.",True,0.86,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,10 Years,10 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,25 Years,25 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['CHILD', 'ADULT']","['CHILD', 'ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

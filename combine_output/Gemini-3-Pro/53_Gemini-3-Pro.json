@@ -1,0 +1,174 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03995225",
+      "secondaryIdInfos": [
+        {
+          "id": "1R34AT010365-01",
+          "type": "NIH",
+          "domain": "National Center for Complementary and Integrative Health"
+        },
+        {
+          "id": "DERR1-10.2196/32521",
+          "type": "REGISTRY",
+          "domain": "International Registered Report Identifier (IRRID)"
+        }
+      ],
+      "organization": {
+        "fullName": "Yale University",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This pilot trial tests the feasibility of using a smartband and smartphone to monitor and detect smoking and deliver brief mindfulness interventions in real time to reduce smoking. Daily smokers wear a smartband for 60 days to monitor and detect smoking, notify them about their smoking events in real time, and deliver real-time brief mindfulness exercises triggered by detected smoking events or targeted at predicted smoking events.",
+      "detailedDescription": "This study tests a three-step intervention to reduce smoking among daily smokers (N=100, ≥5 cigarettes per day) over a 60-day period. Participants wear a smartband developed by Somatix, Inc., which uses a machine learning algorithm to identify hand-to-mouth gestures that characterize smoking. \n\nThe intervention proceeds in three phases: \n1. For the first 21 days, the smartband monitors and detects smoking, notifying participants of smoking events in real time to bring awareness to smoking behavior and triggers. Participants are asked to confirm or deny smoking events via the smartphone app.\n2. For the next 7 days (days 21-28), a 'mindful smoking' exercise is triggered by detected smoking events to bring a clear recognition of the actual effects of smoking (physical sensations, emotions, thoughts).\n3. Finally, after a set quit date at 30 days, a 'RAIN' (recognize, allow, investigate, nonidentification) mindfulness exercise is delivered to predicted smoking events (based on the initial 3 weeks of tracking smoking data) to help smokers learn to work mindfully with cravings rather than smoke for 30 days.\n\nThe primary outcomes are feasibility measures of treatment fidelity, adherence, and acceptability. Secondary outcomes include smoking rates and abstinence at the end of treatment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Smoking Cessation",
+        "Nicotine Dependence",
+        "Tobacco Use"
+      ],
+      "keywords": [
+        "Mindfulness",
+        "mHealth",
+        "Wearable Technology",
+        "Smartband",
+        "Smoking",
+        "Smartphone App",
+        "Ecological Momentary Assessment",
+        "RAIN"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "All participants will receive a smartband and smartphone app for the smartband and take part in a 60-day intervention. A three-step intervention to reduce smoking is tested.",
+        "primaryPurpose": "DEVICE_FEASIBILITY",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": null,
+          "whoMasked": null
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Smartband and Smartphone Intervention Group",
+          "type": "EXPERIMENTAL",
+          "description": "Daily smokers (N=100) wear a smartband for 60 days to monitor and detect smoking, notify them about smoking events in real time, and deliver real-time brief mindfulness exercises triggered by detected smoking events or targeted at predicted smoking events.",
+          "interventionNames": [
+            "Device: Smartband and Smartphone App",
+            "Behavioral: Brief Mindfulness Interventions"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Smartband and Smartphone App",
+          "description": "A smartband (Somatix, Inc) that uses a machine learning algorithm to identify hand-to-mouth gestures characterizing smoking (3-4 puffs). It pairs with a smartphone app to notify users of detected smoking events and deliver intervention content.",
+          "armGroupLabels": [
+            "Smartband and Smartphone Intervention Group"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Brief Mindfulness Interventions",
+          "description": "A three-step intervention adapted from the Craving to Quit app. Step 1 (Days 1-21): Real-time notifications of smoking events to bring awareness to behavior. Step 2 (Days 21-28): 'Mindful Smoking' exercises triggered by detected smoking events. Step 3 (Days 30-60): 'RAIN' (Recognize, Allow, Investigate, Nonidentification) exercises targeted to predicted smoking events based on individualized smoking profiles.",
+          "armGroupLabels": [
+            "Smartband and Smartphone Intervention Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Treatment Fidelity: Smoking Detection Accuracy",
+          "description": "Measured as the percent of smoking events detected and the rate of false alarms.",
+          "timeFrame": "First 21 days of the study"
+        },
+        {
+          "measure": "Treatment Fidelity: Mindful Smoking Delivery",
+          "description": "Determined by the percent of mindful smoking exercises correctly triggered by smoking events and the rate of false alarms.",
+          "timeFrame": "Days 21-28 of the study"
+        },
+        {
+          "measure": "Treatment Fidelity: RAIN Delivery to Predicted Events",
+          "description": "Measured as average timeliness ratings and craving ratings (proxy for targeting moments of high craving). Feasibility determined by 75% of participants rating an item as moderate or higher.",
+          "timeFrame": "Days 30-60 of the study"
+        },
+        {
+          "measure": "Adherence",
+          "description": "Measured as percent of days participants wear the smartband for 12 waking hours, percent of smoking notifications answered, percent of mindful smoking exercises completed (days 21-28), and percent of RAIN exercises completed (days 30-60).",
+          "timeFrame": "Through the 60-day intervention"
+        },
+        {
+          "measure": "Acceptability",
+          "description": "Measured as mean helpfulness ratings for exercises; User Experiences Questionnaires; and scores from the User Burden Scale, System Usability Scale, Mobile Application Rating Scale, and Acceptability of Intervention Measure.",
+          "timeFrame": "21, 28, and 60 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cigarettes Per Day (CPD)",
+          "description": "Measured by self-report, smartband detection, and the Timeline Followback.",
+          "timeFrame": "Baseline, 21, 28, and 60 days"
+        },
+        {
+          "measure": "1-week Point Prevalence Abstinence",
+          "description": "Measured by self-report, smartband detection (no smoking events for the past 7 days), and biochemical verification (<6 parts per million Carbon Monoxide).",
+          "timeFrame": "At 60 days"
+        },
+        {
+          "measure": "Continuous Abstinence",
+          "description": "Defined as <5 cigarettes since quit date, measured by self-report.",
+          "timeFrame": "At 60 days"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Smoking Characteristics (Dependence and Withdrawal)",
+          "description": "Assessed using the Fagerström Test for Nicotine Dependence and Minnesota Tobacco Withdrawal Scale.",
+          "timeFrame": "Baseline, 21, 28, and 60 days"
+        },
+        {
+          "measure": "Mindfulness Levels",
+          "description": "Assessed using the Five Facet Mindfulness Questionnaire short form.",
+          "timeFrame": "Baseline, 21, 28, and 60 days"
+        },
+        {
+          "measure": "Ecological Momentary Assessment (EMA) Ratings",
+          "description": "Ratings of craving and affect collected throughout the intervention.",
+          "timeFrame": "Throughout the 60-day intervention"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n*   18 years or older\n*   Smoke at least 5 cigarettes per day (CPD) for at least 2 years\n*   Own an iPhone or Android\n*   Fluent in English\n*   Motivated to quit as indicated by a score of at least 4 of 5 on one item of the Action subscale of the Readiness to Change Questionnaire (\"I am trying to smoke less than I used to\")",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

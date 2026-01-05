@@ -1,0 +1,70 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT02628093,NCT02628093,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,A ProspectiveTrial Comparing THUNDERBEAT to the Ligasure Energy Device During Laparoscopic Colon Surgery,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,A Randomized Controlled Trial Comparing THUNDERBEAT to the Ligasure Energy Device During Laparoscopic Colon Surgery,,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"Prospective randomized controlled study, at Colon and Rectal Surgery, WMC/NYPH. Subjects undergoing Laparoscopic Left Colectomy will be randomized into 1 of 2 groups based on the instrument used for tissue dissection and vessel ligation: Group 1 - THUNDERBEAT Group 2
+
+\- Ligasure Population","The THUNDERBEAT is a multi-functional energy device which delivers both ultrasonic and bipolar energy. The aim of this prospective randomized trial was to compare the clinical performance of the THUNDERBEAT energy device to the Maryland LigaSure device in patients undergoing left laparoscopic colectomy. The study evaluates dissection time to specimen removal, device versatility, and safety outcomes in patients with cancer or diverticulitis.",True,0.93,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"Prospective randomized controlled study, at Colon and Rectal Surgery, WMC/NYPH. Subjects undergoing Laparoscopic Left Colectomy will be randomized into 1 of 2 groups based on the instrument used for tissue dissection and vessel ligation: Group 1 - THUNDERBEAT Group 2
+
+\- Ligasure Population: 60 subjects, with colon neoplasm or diverticulitis will be invited in the study after surgery is deemed necessary Study Procedures: This project will consist only of prospective data collection. No interventions will be done for research purpose. Data will be collected prospectively on: -Patients (before, during and after surgery) -The THUNDERBEAT and LigaSure instruments Data will be collected on data collection sheets and entered in a password protected database Primary Outcomes/Definitions- Overall time for dissection of the soft tissues necessary for specimen removal during colon resection, measured in minutes, from the start of colon mobilization to specimen removal from the abdominal cavity.","This study was designed as a pilot prospective randomized trial in a single academic institution involving 60 patients undergoing elective left laparoscopic colectomy for neoplasm or diverticulitis. Subjects were randomized 1:1 into two groups: Group 1 using THUNDERBEAT and Group 2 using Maryland LigaSure. 
+
+The primary outcomes were dissection time to specimen removal (DTSR), defined as the time in minutes from the start of colon mobilization to specimen removal, and a versatility score. The versatility score was a weighted composite of five variables (hemostasis, sealing, cutting, dissection, and tissue manipulation) evaluated across six specific surgical segments. Secondary outcomes included the dryness of the surgical field, surgeon evaluation surveys regarding device handling and satisfaction, and intraoperative and postoperative complications such as bleeding, thermal spread, and recovery parameters. Patients were followed up for 30 days post-surgery.",True,0.94,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,['Colon Cancer'],"['Colorectal Neoplasms', 'Diverticulitis']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Laparoscopic Colectomy', 'THUNDERBEAT', 'LigaSure', 'Energy Devices', 'Dissection Time', 'Versatility Score', 'Colorectal Surgery']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,Group 1 THUNDERBEAT and Group 2 LigaSure,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,73,73,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Intraoperative complications and instrument performance,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].measure,EV,EV,,Postoperative complications,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[2].measure,EV,EV,,Length of hospital stay,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[3].measure,EV,EV,,Mortality,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,"Failure of the energy instruments to control bleeding, complications related to use of the instrument, visible thermal spread.",,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].description,EV,EV,,"Postoperative bleeding requiring intervention, thermal injuries manifestation after surgery, reoperation, readmission.",,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[2].description,EV,EV,,Duration of hospital stay from admission to discharge.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[3].description,EV,EV,,Death from any cause.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,Intraoperative,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].timeFrame,EV,EV,,Up to 30 days following surgery,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[2].timeFrame,EV,EV,,"Through hospital discharge, typically up to 30 days",,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[3].timeFrame,EV,EV,,Up to 30 days following surgery,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Patients that will be undergoing a Left Laparoscopic Colon Resection
+* Older than 18 years old
+* ASA 1 to 3
+* Elective surgeries
+* Patients who willingly provide informed consent
+
+Exclusion Criteria:
+
+* Morbidly obese patients (BMI \>35)
+* Patients with acute diverticulitis
+* Patients with multiple previous abdominal surgeries
+* Patients on anticoagulants
+* Patients who can not, tolerate a major surgery
+* Patients for whom electrosurgery is contraindicated
+* Patients who are pregnant
+* Patient with IBDs","Inclusion Criteria:
+- Male and female
+- Age 18 years and above
+- American Society of Anesthesiologists (ASA) class between 1 and 3
+- Undergoing elective left laparoscopic colectomy for neoplasm or diverticulitis
+- Provided research informed consent
+
+Exclusion Criteria:
+- Morbid obesity (body mass index, BMI > 35)
+- Multiple previous abdominal surgeries
+- On anticoagulants prior to surgery
+- Coagulopathy disorders
+- Pregnant women
+- Those to whom electrosurgery is contraindicated",True,0.95,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

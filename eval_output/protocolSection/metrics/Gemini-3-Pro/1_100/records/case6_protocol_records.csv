@@ -1,0 +1,80 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT02323854,NCT02323854,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,The EMPrint™ Ablate and RESect Study in Patients With Metastatic Lung Tumors (EMPRESS),,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,The EMPrint™ Ablate and RESect Study in Patients With Metastatic Lung Tumors (EMPRESS),EMPrint™ Ablate and RESect Study in Patients with Metastatic Lung Tumors,True,0.99,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"Post market prospective, non-randomized, single-arm, multicenter study, designed to demonstrate dose response of an ablation system using a percutaneous approach in patients with primary, metastatic, or recurrent primary lung tumors.","This prospective, non-randomized, single-arm, multicenter study evaluated the technical performance of the Emprint™ ablation system in predicting the size of ablation zones in patients with metastatic or primary lung tumors. Subjects scheduled for resection underwent preoperative percutaneous microwave ablation. The study compared ablation zones predicted by the system software against actual ablation zones measured via CT imaging immediately post-ablation. Secondary endpoints included histological assessment of complete ablation.",True,0.84,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"Primary Endpoint: Dose response as indicated by CT imaging, measurement of maximum diameter and volume.
+
+Secondary Endpoint: Assessment of complete tumor ablation immediately post-procedure.","The study utilized the Emprint™ procedure planning application, an interactive tool designed to predict microwave ablation zone size based on time, energy, and target tissue type. The primary objective was to evaluate the accuracy of these predictions in a clinical setting using an 'ablate and resect' methodology.
+
+Participants included adult subjects with at least one pulmonary metastasis or primary lung cancer (≤3.0 cm) eligible for surgical resection. Ablations were performed using a percutaneous approach. The primary endpoint was dose response, assessed by calculating the percentage difference between the predicted ablation zone dimensions (width, height, depth, volume, and shape) and the actual dimensions measured on CT images acquired immediately after ablation with the antenna still in place.
+
+Following the ablation and imaging, patients underwent surgical resection of the tumor. The secondary endpoint was complete ablation, defined as 100% non-viable tumor cells confirmed by nicotinamide adenine dinucleotide hydrogen (NADH) staining on the resected specimens. Safety endpoints tracked the type, incidence, and severity of adverse events from anesthesia administration through the first post-operative follow-up.",True,0.84,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['Lung Cancer'],"['Metastatic Lung Tumors', 'Primary Lung Tumors', 'Lung Cancer']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['primary, recurrent, metastatic lung tumor, ablation']","['Microwave Ablation', 'Percutaneous Image-Guided Thermal Ablation', 'Emprint Ablation System', 'Ablate and Resect', 'Lung Neoplasms']",False,0.0,disjoint,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,FP,NA,NON_RANDOMIZED,False,0.3,success,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,SINGLE_GROUP,SINGLE_GROUP,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Prospective, non-randomized, single-arm, multicenter study.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,NONE,SINGLE,False,0.2,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"A minimum of three board-certified radiologists were trained and assigned to review images for this study. During the processing of the images, all images were blinded so that radiologists did not have access to any patient confidential information and local site assessments. Histology was evaluated at a single center by blinded pathologists.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,EV,EV,,['OUTCOMES_ASSESSOR'],,,,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,15,15,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].measure,EV,EV,,Safety (Adverse Events),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].description,EV,EV,,"Type, incidence, and severity of adverse events and complications.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].timeFrame,EV,EV,,From initial administration of anesthesia until conclusion of the first post-operative follow-up visit,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Subject or authorized representative has provided informed consent.
+* Subject is ≥18 years of age.
+* At least one pulmonary metastasis ≤ 3.0 cm in maximum diameter resulting from distant primary cancers or at least one recurrence of primary lung cancer ≤ 3.0 cm in maximum diameter.
+* Subject has been confirmed by a thoracic surgeon to be a surgical candidate for resection of the tumor targeted for ablation.
+* Subject is willing and able to comply with all aspects of the treatment and evaluation schedule.
+* ≥1 cm of tumor-free lung parenchyma between target tumor and pleura or fissure.
+
+Exclusion Criteria:
+
+* Pre-procedure Exclusion Criteria
+* Contraindicated for surgery.
+* Prolonged chest infection, defined as lung consolidation that requires hospitalization and greater than 10 days of antibiotics 30 days prior to surgery.
+* Tumor abutting main stem bronchus, main pulmonary artery branches, esophagus and/or trachea.
+* Tumor with pleural contact.
+* Tumors located \< 3 cm of staple lines or other metal objects.
+* Patients diagnosed with GOLD Stage IV Emphysema.
+* Uncontrollable coagulopathy
+* Patients unable to tolerate discontinued use of anti-coagulants prior to and during the ablation procedure.
+* Subject is pregnant (documented by a positive pregnancy test according to hospital standard practices) or is actively breast-feeding.
+* Subject has participated in an investigational drug or device research study within 30 days of enrollment that would interfere with this study.
+* The investigator determines that participation in the study may jeopardize the safety or welfare of the subject.
+* Patients with implantable pacemakers and other electronic implants, in accordance with Instructions for Use (IFU).
+
+Intraprocedural Exclusion Criteria
+
+\*Incidental intraprocedural finding that the subject no longer meets the study eligibility criteria.","Inclusion Criteria:
+* Informed consent given by subject or authorized representative
+* Subject ≥18 years of age
+* There was at least one pulmonary metastasis ≤3.0 cm in maximum diameter from a distant primary cancer or one primary lung cancer ≤3.0 cm in maximum diameter
+* A thoracic surgeon determined the subject is a candidate for resection of the tumor targeted for ablation
+* Subject is willing and able to comply with all aspects of the treatment and evaluation schedule
+* ≥1 cm of tumor-free lung parenchyma between target tumor and pleura or fissure
+
+Exclusion Criteria:
+* Contraindicated for surgery
+* Prolonged infection of the chest, with the definition of this being lung consolidation that requires hospitalization and greater than 10 days of antibiotics 30 days prior to surgery
+* Tumor abutting mainstem bronchus, main pulmonary artery branches, esophagus and/or trachea
+* Tumor with pleural contact
+* Tumors located <3 cm from the staple lines/metal objects
+* Subjects with stage IV emphysema per GOLD criteria
+* Uncontrollable coagulopathy
+* Inability to tolerate discontinuation of anti-coagulants prior to and during the ablation
+* Pregnancy documented by a positive pregnancy test according to hospital standard practices or actively breast-feeding
+* Participation in an investigational drug or device research study within 30 days of enrollment that interferes with this protocol
+* The safety or welfare of the subject may be compromised by participation as determined by the investigator
+* Subjects with implantable pacemakers/other electronic implants
+* Intra-procedural exclusion criteria: an incidental finding that the subject no longer meets the study eligibility criteria",True,0.99,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

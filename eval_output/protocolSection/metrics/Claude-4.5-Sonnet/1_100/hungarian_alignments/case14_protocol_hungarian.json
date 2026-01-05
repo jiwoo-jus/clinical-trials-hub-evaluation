@@ -1,0 +1,257 @@
+{
+  "metadata": {
+    "case_id": 14,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-28T05:45:58.888233",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/14_NCT04973488.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/14_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.18
+        ],
+        [
+          0.2,
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Treatment arm",
+            "type": "EXPERIMENTAL",
+            "description": "In the treatment arm, Therapeutic plasma exchange will be conducted in the first 24 hours after being admitted into the intensive care unit, after which convalescent plasma from donors that have had COVID-19 will be transfused",
+            "interventionNames": [
+              "Other: Therapeutic plasma exchange"
+            ]
+          },
+          "pred_item": {
+            "label": "Treatment Group (TPE + CVP)",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received therapeutic plasma exchange (TPE) followed by convalescent plasma (CVP) transfusion in addition to standard treatment for COVID-19. TPE was initiated during the first 24 hours after ICU admission using 40 ml/kg fresh frozen plasma as substitute, followed immediately by transfusion of 500 ml ABO compatible CVP. Standard treatment included corticosteroids (dexamethasone 16 mg daily), antiretrovirals (lopinavir/ritonavir and/or remdesivir), anticoagulants (nadroparine), antimalarials (hydroxychloroquine), and antibiotics if deemed necessary.",
+            "interventionNames": [
+              "PROCEDURE: Therapeutic Plasma Exchange (TPE)",
+              "BIOLOGICAL: Convalescent Plasma (CVP) Transfusion",
+              "DRUG: Dexamethasone",
+              "DRUG: Lopinavir/Ritonavir",
+              "DRUG: Remdesivir",
+              "DRUG: Nadroparine",
+              "DRUG: Hydroxychloroquine",
+              "DRUG: Piperacillin/Tazobactam"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control arm",
+            "type": "NO_INTERVENTION",
+            "description": "In the control arm, patients will receive standard COVID-19 treatment"
+          },
+          "pred_item": {
+            "label": "Control Group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients received only standard treatment for COVID-19 according to hospital protocols, consisting of corticosteroids (dexamethasone 16 mg daily), antiretrovirals (lopinavir/ritonavir and/or remdesivir), anticoagulants (nadroparine), antimalarials (hydroxychloroquine), and antibiotics if deemed necessary.",
+            "interventionNames": [
+              "DRUG: Dexamethasone",
+              "DRUG: Lopinavir/Ritonavir",
+              "DRUG: Remdesivir",
+              "DRUG: Nadroparine",
+              "DRUG: Hydroxychloroquine",
+              "DRUG: Piperacillin/Tazobactam"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 8,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.85,
+          0.2,
+          0.1,
+          0.25,
+          0.2,
+          0.18,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.85,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Therapeutic plasma exchange",
+            "description": "The intervention is a combination between the procedure of Therapeutic plasma exchange and biological transfusion of convalescent plasma from donors that have have COVID-19",
+            "armGroupLabels": [
+              "Treatment arm"
+            ],
+            "otherNames": [
+              "Transfusion of convalescent plasma"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "Convalescent Plasma (CVP) Transfusion",
+            "description": "Upon completion of the TPE session, each patient from the treatment group was transfused with 500 ml of ABO compatible CVP. Antibody titre of the CVP transfused ranged from 1:80 to 1:160. CVP therapy uses blood from people who have recovered from COVID-19 to help others recover.",
+            "armGroupLabels": [
+              "Treatment Group (TPE + CVP)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Survival",
+            "description": "Number of Participants who Survived",
+            "timeFrame": "30 day period"
+          },
+          "pred_item": {
+            "measure": "Survival at 30 days",
+            "description": "The primary endpoint was survival at 30 days after ICU admission",
+            "timeFrame": "30 days"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.2,
+          0.18,
+          0.2
+        ],
+        [
+          0.2,
+          0.94,
+          0.55,
+          0.6
+        ],
+        [
+          0.18,
+          0.35,
+          0.9,
+          0.35
+        ],
+        [
+          0.2,
+          0.3,
+          0.4,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "P/F Ratio",
+            "description": "Average Partial pressure of arterial oxygen (PaO2) to fractional inspired oxygen (FiO2) ratio - P/F ratio calculated between the values from day 1 and day 7",
+            "timeFrame": "7 day period"
+          },
+          "pred_item": {
+            "measure": "Partial pressure of arterial oxygen to fractional inspired oxygen ratio (P/F ratio)",
+            "description": "Assessment of oxygenation status measured by P/F ratio (normal ratio >300) at the 7-day follow-up using ASTRUP analyses",
+            "timeFrame": "7 days"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "C Reactive Protein (CRP)",
+            "description": "Average value of CRP calculated using the values from day 1 and day 7",
+            "timeFrame": "7 day period"
+          },
+          "pred_item": {
+            "measure": "C reactive protein (CRP) levels",
+            "description": "Assessment of inflammatory marker CRP (normal range 0-5 mg/l) at the 7-day follow-up using blood tests",
+            "timeFrame": "7 days"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Lactate Dehydrogenase (LDH)",
+            "description": "Average value of LDH calculated using the values from day 1 and day 7",
+            "timeFrame": "7 day period"
+          },
+          "pred_item": {
+            "measure": "Lactate dehydrogenase (LDH) levels",
+            "description": "Assessment of inflammatory marker LDH (normal range 135-225 U/l) at the 7-day follow-up using blood tests",
+            "timeFrame": "7 days"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Ferritin",
+            "description": "Average value of ferritin calculated using the values from day 1 and day 7",
+            "timeFrame": "7 day period"
+          },
+          "pred_item": {
+            "measure": "Ferritin levels",
+            "description": "Assessment of inflammatory marker ferritin (normal range 30-400 µg/l) at the 7-day follow-up using blood tests",
+            "timeFrame": "7 days"
+          }
+        }
+      ]
+    }
+  ]
+}

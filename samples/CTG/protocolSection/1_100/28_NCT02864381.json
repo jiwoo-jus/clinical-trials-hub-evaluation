@@ -1,0 +1,138 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02864381",
+      "orgStudyIdInfo": {
+        "id": "GS-US-296-2013"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2016-001402-41",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Gilead Sciences",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study to Evaluate the Efficacy and Safety of Andecaliximab Combined With Nivolumab Versus Nivolumab Alone in Adults With Unresectable or Recurrent Gastric or Gastroesophageal Junction Adenocarcinoma",
+      "officialTitle": "A Phase 2, Open-Label, Randomized Study to Evaluate the Efficacy and Safety of GS-5745 Combined With Nivolumab Versus Nivolumab Alone in Subjects With Unresectable or Recurrent Gastric or Gastroesophageal Junction Adenocarcinoma"
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of this study is to evaluate and compare the efficacy of andecaliximab (GS-5745) in combination with nivolumab versus nivolumab alone in adults with recurrent gastric or gastroesophageal junction (GEJ) adenocarcinoma."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Gastric Adenocarcinoma",
+        "Gastroesophageal Junction Adenocarcinoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 144,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Andecaliximab + Nivolumab",
+          "type": "EXPERIMENTAL",
+          "description": "Andecaliximab 800 mg plus nivolumab 3 mg/kg administered every 2 weeks until disease progression, unacceptable toxicity, or withdrawal of consent (up to 34 weeks at the time of the primary efficacy analysis; up to 101 weeks at the time of the safety follow-up analysis).",
+          "interventionNames": [
+            "Drug: Andecaliximab",
+            "Drug: Nivolumab"
+          ]
+        },
+        {
+          "label": "Nivolumab",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Nivolumab 3 mg/kg administered every 2 weeks until disease progression, unacceptable toxicity, or withdrawal of consent (up to 41 weeks at the time of the primary efficacy analysis; up to 97 weeks at the time of the safety follow-up analysis).",
+          "interventionNames": [
+            "Drug: Nivolumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Andecaliximab",
+          "description": "800 mg administered via IV infusion",
+          "armGroupLabels": [
+            "Andecaliximab + Nivolumab"
+          ],
+          "otherNames": [
+            "GS-5745"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Nivolumab",
+          "description": "3 mg/kg administered via IV infusion",
+          "armGroupLabels": [
+            "Andecaliximab + Nivolumab",
+            "Nivolumab"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Objective Response Rate (ORR)",
+          "description": "ORR was defined as the percentage of participants with confirmed overall best response of complete response (CR) or partial response (PR) after starting study drug but before starting any new chemotherapy or radiotherapy as assessed by the investigator according to Response Criteria in Solid Tumors (RECIST) version 1.1. CR was defined as the disappearance of all target lesions and disappearance of all non-target lesions and normalization of tumor marker level. PR was defined as at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters.",
+          "timeFrame": "Up to 41 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Progression Free Survival (PFS)",
+          "description": "PFS was defined as the interval in months from the date of randomization to the earlier of the first documentation of definitive disease progression or death from any cause. The first definitive progressive disease (PD) was defined as the first radiation therapy, the first clinical PD, and the first confirmed imaging PD, whichever came first. Participants without PD or death and participants with PD after starting new anti-cancer therapy are censored at the last tumor assessment date.",
+          "timeFrame": "Andecaliximab + Nivolumab median follow-up time: 7.0 months; Nivolumab median follow-up time: 7.1 months"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "OS was defined as the interval from the date of randomization to death from any cause. Surviving participants are censored at the last date known alive.",
+          "timeFrame": "Andecaliximab + Nivolumab median follow-up time: 7.0 months; Nivolumab median follow-up time: 7.0 months"
+        },
+        {
+          "measure": "Duration of Response (DOR)",
+          "description": "DOR was defined as the interval from the date of the first response (complete or partial response) was achieved to the earlier of the first documentation of definitive disease progression or death from any cause.",
+          "timeFrame": "Andecaliximab + Nivolumab median follow-up time: 7.0 months; Nivolumab median follow-up time: 7.1 months"
+        },
+        {
+          "measure": "Percentage of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)",
+          "description": "An adverse event (AE) is any untoward medical occurrence in a clinical study participants administered a medicinal product, which does not necessarily have a causal relationship with the treatment. TEAEs are events that are defined as AEs with onset dates on or after the first dose of andecaliximab/nivolumab and up to 30 days after permanent discontinuation of andecaliximab or 5 months after permanent discontinuation of nivolumab, or led to premature discontinuation of andecaliximab or nivolumab.",
+          "timeFrame": "Andecaliximab: First dose date up to last dose (maximum: 101 weeks) + 30 days; Nivolumab: First dose date up to last dose (maximum: 101 weeks) + 5 months"
+        },
+        {
+          "measure": "Percentage of Participants Who Experienced Treatment-emergent Laboratory Abnormalities",
+          "description": "Treatment-emergent (Chemistry, Hematology, Coagulation, and Urinalysis) laboratory abnormalities were graded per Common Terminology Criteria for Adverse Events (CTCAE), Version 4.03 where: 0=None, 1=Mild, 2=Moderate, 3=Severe, 4=Potentially Life Threatening. Treatment-emergent laboratory abnormalities are defined as values that increase at least 1 toxicity grade from baseline at any postbaseline time point, up to and including the date of the last dose of andecaliximab plus 30 days or nivolumab plus 5 months. If the relevant baseline laboratory value is missing, any abnormality of at least Grade 1 observed within the time frame specified above will be considered treatment-emergent. Percentage of participants with any postbaseline Grade 1 or higher laboratory abnormality is reported.",
+          "timeFrame": "Andecaliximab: First dose date up to last dose (maximum: 101 weeks) + 30 days; Nivolumab: First dose date up to last dose (maximum: 101 weeks) + 5 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Histologically confirmed inoperable locally advanced or metastatic adenocarcinoma of the stomach or GEJ which have progressed on at least 1 prior systemic therapy or line of treatment for unresectable/metastatic disease\n* Eastern Cooperative Oncology Group (ECOG) performance score of ≤ 1\n* Measurable disease according to Response Criteria in Solid Tumors (RECIST) v1.1\n* Tumor sites that can be accessed for repeat biopsies\n* Archival tumor tissue, preferably obtained from the most recent available biopsy; there must be adequate tissue for a Cochran-Mantel Haenszel (CMH) test stratified by programmed death ligand 1 (PD-L1) stratification test, as assessed by central pathologist\n* Individuals not receiving anticoagulant medication must have an international normalized ratio (INR) ≤ 1.5 and activated partial thromboplastin (aPTT) ≤ 1.5 x upper limit of normal (ULN)\n* Required baseline laboratory data as outlined in protocol\n\nKey Exclusion Criteria:\n\n* Individuals who have received only neoadjuvant or adjuvant therapy for gastric adenocarcinoma\n* Radiotherapy within 28 days of randomization\n* Uncontrolled intercurrent illness as outlined in protocol\n* History of a concurrent or second malignancy except for those outlined in protocol\n* Major surgery, within 28 days of first dose of study drug\n* Known positive status for human immunodeficiency virus (HIV)\n* Known acute or chronic-active infection with hepatitis B virus (HBV) or hepatitis C virus (HCV)\n* Chronic daily treatment with oral corticosteroids (dose of \\> 10 mg/day prednisone equivalent) or other immunosuppressive medications within 14 days of randomization\n* Known or suspected central nervous system metastases\n* Documented myocardial infarction or unstable/uncontrolled cardiac disease within 6 months of randomization\n* Serious systemic fungal, bacterial, viral, or other infection that is not controlled or requires intravenous antibiotics\n* Current or history of pneumonitis or interstitial lung disease\n* Active known or suspected autoimmune disease with exceptions noted in protocol.\n* History of bone marrow, stem cell, or allogenic organ transplantation\n\nNOTE: Other protocol defined Inclusion/ Exclusion criteria may apply.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

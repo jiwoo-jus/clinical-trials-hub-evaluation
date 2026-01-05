@@ -1,0 +1,87 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT02137499,NCT02137499,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,FP,Venous Insufficiency and Neuromuscular Stimulation,The VeINS Trial,False,0.55,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,TP,Venous Insufficiency and Neuromuscular Stimulation,The effect of bilateral leg neuromuscular electrical stimulation on the symptoms of chronic venous disease,True,0.88,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,TP,TP,The investigators will be evaluating the immediate and longer term effect of treatment with a medical device on the symptoms of chronic venous disease.,"This pilot trial evaluated the role of neuromuscular electrical stimulation (NMES) in both healthy subjects and patients with chronic venous disease. The hypothesis was that repeated NMES use would enhance venous haemodynamic parameters, improve clinician disease scores, and increase patient-reported quality of life. Forty subjects were recruited from four groups: healthy, superficial insufficiency, deep insufficiency, and deep obstruction. Devices were worn for 4-6 hours per day, 5 days a week, for 6 weeks. Haemodynamic measurements were taken at baseline and week 6, and quality of life questionnaires were administered at weeks 0, 6, and 8.",True,0.82,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.detailedDescription,TP,TP,"STUDY AIMS
+
+1. To obtain ultrasound blood flow and velocity measurements in the leg to compare the hemodynamic profiles obtained using a neuromuscular stimulation device with those obtained at rest.
+2. To ascertain if a 6 week protocol of electrical neurostimulation of the muscle pumps in the leg and foot can reduce clinical symptoms and improve quality of life.
+
+METHODS Controlled interventional trial. Group 1 (10 subjects) will be healthy subjects with no clinical venous disease. Subjects with venous incompetence to be recruited into one of three groups. Group 2 (10 subjects) will have superficial venous incompetence; Group 3 (10 subjects) will have deep venous incompetence; Group 4 (10 subjects) will have deep vein occlusion. These will be clinical diagnoses confirmed with duplex ultrasound.
+
+The device used in this study will be the geko™ T-1 device (Firstkind Ltd, UK). A geko™ device will be fitted to each leg. The device stimulation level is set to the minimum level that can achieve the desired response (outward and upward twitching of the foot when raised from the ground).
+
+ENDPOINTS Primary end-point
+
+* Increase in venous flow Secondary end points
+* Improvement in clinical symptoms at 6 weeks, as judged by questionnaire
+* Reduction in absolute leg diameter and volume at 6 weeks","Neuromuscular stimulation (NMES) has been shown to improve peripheral blood flow in healthy people. This study investigated the effect of bilateral leg NMES on the symptoms of chronic venous disease. Forty subjects were recruited from four groups: healthy (n=10), superficial venous insufficiency (n=10), deep venous insufficiency (n=10), and deep venous obstruction (n=10). The NMES device used was the geko™ T-1, applied transcutaneously to the common peroneal nerve at the knee, causing intermittent electrical pulses (27mA, 1 Hz) that produce contractions of the anterior and lateral compartments of the leg.
+
+Haemodynamic venous measurements were taken from the right femoral vein using ultrasound, measuring peak velocity (PV), time averaged mean velocity (TAMV), and volume flow (VF). Laser Doppler fluximetry was performed on the left hand and foot. Leg volume was calculated using ankle and maximal calf diameters. All measurements were taken at baseline and repeated at week 6.
+
+Devices were worn bilaterally for 4-6 hours per day, 5 days a week, for 6 weeks. After week 6, NMES was discontinued. Quality of life assessments (Venous Clinical Severity Score, Venous Disability Score, Aberdeen Varicose Vein Questionnaire, EuroQol-5D, Center for Epidemiologic Studies Depression Scale, Short Form-12) were performed at weeks 0, 6, and 8.
+
+Results showed that NMES increased femoral vein peak velocity by 55%, TAMV by 20%, and volume flow by 36% at 20 minutes (all p<0.05), which was enhanced at week 6 (PV and TAMV p<0.05). Mean increases in arm and leg fluximetry were 71% and 194% (both p<0.01). Leg swelling was reduced by mean 252.7 mL (13%, p<0.05) overall and 338.9 mL (16%, p<0.05) in venous disease. For those with venous pathology, scores for disease-specific and generic quality of life questionnaires improved. Those with C4-6 disease benefitted the most, with improvements in VDS score of 1, AVVQ of 6, and SF-12 of 10.",True,0.96,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,TP,FP,"['Chronic Venous Disease', 'Venous Insufficiency', 'Deep Venous Obstruction']","['Chronic Venous Disease', 'Superficial Venous Insufficiency', 'Deep Venous Insufficiency', 'Deep Venous Obstruction', 'Venous Thromboembolism', 'Deep Vein Thrombosis', 'Varicose Veins', 'Venous Ulcers', 'Leg Edema']",False,0.6666666666666666,partial,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,TP,FP,"['Deep venous obstruction', 'Venous insufficiency']","['Neuromuscular electrical stimulation', 'NMES', 'Chronic venous disease', 'Venous insufficiency', 'Venous obstruction', 'Venous haemodynamics', 'Venous thromboembolism', 'Deep vein thrombosis', 'Varicose veins', 'Leg oedema', 'Quality of life', 'Laser Doppler fluximetry', 'Femoral vein', 'Venous return', 'Venous ulcers', 'Compression therapy', 'Intermittent pneumatic compression', 'Venous stasis']",False,0.5,partial,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,FP,NON_RANDOMIZED,NA,False,0.4,success,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,FP,PARALLEL,SINGLE_GROUP,False,0.1,success,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"All participants (healthy subjects and patients with chronic venous disease) received the same intervention: bilateral leg neuromuscular electrical stimulation (NMES) using the geko™ T-1 device worn for 4-6 hours per day, 5 days a week, for 6 weeks.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,This was an unmasked controlled interventional trial. All participants and investigators were aware of the intervention being administered.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,TP,40,40,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.primaryOutcomes[1].measure,EV,EV,,Change in femoral vein time averaged mean velocity (TAMV),,,,PrimaryOutcomeMeasure,protocolSection.outcomesModule.primaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.primaryOutcomes[1].description,EV,EV,,"Percentage change in femoral vein time averaged mean velocity measured by duplex ultrasound from baseline (device off) to device activation (device on) at 20 minutes, and at week 6",,,,PrimaryOutcomeDescription,protocolSection.outcomesModule.primaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.primaryOutcomes[1].timeFrame,EV,EV,,"Baseline (week 0) at 20 minutes of device activation, and week 6",,,,PrimaryOutcomeTimeFrame,protocolSection.outcomesModule.primaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[3].measure,EV,EV,,Change in Venous Disability Score (VDS),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[4].measure,EV,EV,,Change in Aberdeen Varicose Vein Questionnaire (AVVQ),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[5].measure,EV,EV,,Change in EuroQol-5D (EQ5D),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[6].measure,EV,EV,,Change in Short Form-12 (SF-12),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[7].measure,EV,EV,,Change in Center for Epidemiologic Studies Depression Scale (CES-D),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[3].description,EV,EV,,Physician-reported quality of life assessment measuring venous disability,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[4].description,EV,EV,,Patient-reported disease-specific quality of life questionnaire for varicose veins,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[5].description,EV,EV,,Patient-reported generic quality of life assessment,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[6].description,EV,EV,,Patient-reported generic quality of life assessment measuring physical and mental health,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[7].description,EV,EV,,Patient-reported assessment of depressive symptoms,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[3].timeFrame,EV,EV,,"Week 0, week 6, and week 8",,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[4].timeFrame,EV,EV,,"Week 0, week 6, and week 8",,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[5].timeFrame,EV,EV,,"Week 0, week 6, and week 8",,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[6].timeFrame,EV,EV,,"Week 0, week 6, and week 8",,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[7].timeFrame,EV,EV,,"Week 0, week 6, and week 8",,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Group 1
+
+* Inclusion criteria - 18+ years old, 17\<BMI\<30
+* Exclusion criteria - Heart/lung/kidney failure, pregnancy, diagnosis of peripheral vascular disease, previous VTE, ABPI\<0.9, active infection, previous leg fracture or metal implant in leg
+
+Group 2
+
+* Inclusion criteria - 18+ years old, 17\<BMI\<30, clinical diagnosis of superficial venous insufficiency (CEAP C2-6) confirmed with duplex US
+* Exclusion criteria - Heart/lung/kidney failure, pregnancy, ABPI\<0.9, active infection, previous leg fracture or metal implant in leg
+
+Group 3
+
+* Inclusion criteria - 18+ years old, 17\<BMI\<30, clinical diagnosis of deep venous insufficiency (CEAP C2-6) confirmed with duplex US
+* Exclusion criteria - Heart/lung/kidney failure, pregnancy, ABPI\<0.9, active infection, previous leg fracture or metal implant in leg
+
+Group 4
+
+* Inclusion criteria - 18+ years old, 17\<BMI\<30, clinical diagnosis of deep venous obstruction confirmed with duplex US
+* Exclusion criteria - Heart/lung/kidney failure, pregnancy, ABPI\<0.9, active infection, previous leg fracture or metal implant in leg","Inclusion Criteria:
+- Age over 18 years old
+
+Exclusion Criteria:
+- History of peripheral arterial disease
+- Leg fracture or metallic implant
+- Other systemic causes of limb swelling (heart, lung or renal failure)
+- Pregnancy (females underwent pregnancy testing)",True,0.86,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.studyPopulation,EV,EV,,"Forty subjects were recruited from four groups: healthy volunteers (n=10) recruited by word of mouth, and venous patients (n=30) recruited from vascular clinic and the imaging laboratory. Venous patients were stratified according to patterns of disease: superficial vein incompetence (n=10), deep vein incompetence (n=10), and deep vein obstruction (n=10).",,,,StudyPopulation,protocolSection.eligibilityModule.studyPopulation,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.samplingMethod,EV,EV,,NON_PROBABILITY_SAMPLE,,,,SamplingMethod,protocolSection.eligibilityModule.samplingMethod,True,False,True,False,False,False

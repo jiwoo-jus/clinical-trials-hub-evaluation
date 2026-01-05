@@ -1,0 +1,70 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT02864381,NCT02864381,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Study to Evaluate the Efficacy and Safety of Andecaliximab Combined With Nivolumab Versus Nivolumab Alone in Adults With Unresectable or Recurrent Gastric or Gastroesophageal Junction Adenocarcinoma,Andecaliximab in Combination With Nivolumab for the Treatment of Advanced Gastric Cancer,True,0.95,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,"A Phase 2, Open-Label, Randomized Study to Evaluate the Efficacy and Safety of GS-5745 Combined With Nivolumab Versus Nivolumab Alone in Subjects With Unresectable or Recurrent Gastric or Gastroesophageal Junction Adenocarcinoma","Phase 2, Open-Label, Randomized Multicenter Study Evaluating the Efficacy, Safety, and Pharmacodynamics of ADX+NIVO Versus NIVO in Patients With Pretreated Metastatic Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma",True,0.86,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,The primary objective of this study is to evaluate and compare the efficacy of andecaliximab (GS-5745) in combination with nivolumab versus nivolumab alone in adults with recurrent gastric or gastroesophageal junction (GEJ) adenocarcinoma.,"This Phase 2 study evaluated the efficacy, safety, and pharmacodynamics of andecaliximab (ADX), an inhibitor of matrix metalloproteinase-9 (MMP9), in combination with nivolumab (NIVO) versus nivolumab alone. The study targeted patients with pretreated metastatic gastric or gastroesophageal junction (GEJ) adenocarcinoma. The primary hypothesis was that targeting MMP9 in combination with an immune checkpoint inhibitor could lead to an improved antitumor immune response.",True,0.95,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"This was a phase 2, open-label, randomized multicenter study conducted at 34 sites across the USA, Europe, and Australia. The study compared ADX combined with nivolumab (NIVO) versus NIVO alone in patients with recurrent gastric or GEJ adenocarcinoma.
+
+Eligible patients were randomized 1:1 via an interactive web response system to ADX+NIVO or NIVO alone. Stratification was based on PD-L1 status (≥1% vs <1% tumor cell staining). Patients randomized to NIVO alone received 3 mg/kg NIVO via intravenous infusion every 2 weeks. Patients randomized to ADX+NIVO received 800 mg ADX every 2 weeks administered prior to NIVO (3 mg/kg). Treatment continued for up to 2 years until disease progression, unacceptable toxicity, or consent withdrawal.
+
+The primary endpoint was overall response rate (ORR) by investigator assessment according to RECIST v1.1. Secondary endpoints included overall survival (OS), progression-free survival (PFS), duration of response, and the occurrence of adverse events. The study also conducted exploratory analyses on blood-based and tissue-based biomarkers, including PD-L1 expression, mismatch repair deficiency (dMMR), intratumoral CD8+ cell density, gene signatures (such as TGF-β fibrosis and EMT), and tumor mutation burden (TMB), to assess their association with treatment response and survival.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,"['Gastric Adenocarcinoma', 'Gastroesophageal Junction Adenocarcinoma']","['Advanced Gastric Cancer', 'Metastatic Gastric Adenocarcinoma', 'Gastroesophageal Junction Adenocarcinoma', 'Recurrent Gastric Adenocarcinoma']",False,0.5,partial,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Andecaliximab', 'Nivolumab', 'MMP9 inhibitor', 'PD-L1', 'Immunotherapy', 'Tumor Mutation Burden', 'HER2', 'TGF-beta']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,144,144,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Exploratory Biomarkers,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,"Blood-based and tissue-based biomarkers (including PD-L1, Mismatch repair deficiency, Intratumoral CD8+ cell density, gene signatures, and Tumor mutation burden) assessed to evaluate association with response.",,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,Baseline and on-treatment (weeks 5 to 9),,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Key Inclusion Criteria:
+
+* Histologically confirmed inoperable locally advanced or metastatic adenocarcinoma of the stomach or GEJ which have progressed on at least 1 prior systemic therapy or line of treatment for unresectable/metastatic disease
+* Eastern Cooperative Oncology Group (ECOG) performance score of ≤ 1
+* Measurable disease according to Response Criteria in Solid Tumors (RECIST) v1.1
+* Tumor sites that can be accessed for repeat biopsies
+* Archival tumor tissue, preferably obtained from the most recent available biopsy; there must be adequate tissue for a Cochran-Mantel Haenszel (CMH) test stratified by programmed death ligand 1 (PD-L1) stratification test, as assessed by central pathologist
+* Individuals not receiving anticoagulant medication must have an international normalized ratio (INR) ≤ 1.5 and activated partial thromboplastin (aPTT) ≤ 1.5 x upper limit of normal (ULN)
+* Required baseline laboratory data as outlined in protocol
+
+Key Exclusion Criteria:
+
+* Individuals who have received only neoadjuvant or adjuvant therapy for gastric adenocarcinoma
+* Radiotherapy within 28 days of randomization
+* Uncontrolled intercurrent illness as outlined in protocol
+* History of a concurrent or second malignancy except for those outlined in protocol
+* Major surgery, within 28 days of first dose of study drug
+* Known positive status for human immunodeficiency virus (HIV)
+* Known acute or chronic-active infection with hepatitis B virus (HBV) or hepatitis C virus (HCV)
+* Chronic daily treatment with oral corticosteroids (dose of \> 10 mg/day prednisone equivalent) or other immunosuppressive medications within 14 days of randomization
+* Known or suspected central nervous system metastases
+* Documented myocardial infarction or unstable/uncontrolled cardiac disease within 6 months of randomization
+* Serious systemic fungal, bacterial, viral, or other infection that is not controlled or requires intravenous antibiotics
+* Current or history of pneumonitis or interstitial lung disease
+* Active known or suspected autoimmune disease with exceptions noted in protocol.
+* History of bone marrow, stem cell, or allogenic organ transplantation
+
+NOTE: Other protocol defined Inclusion/ Exclusion criteria may apply.","Inclusion Criteria:
+- Age ≥18 years
+- Adequate hematological and hepatic function
+- Creatinine clearance ≥60 mL/min
+- Histologically confirmed inoperable locally advanced or metastatic stomach or GEJ adenocarcinoma
+- Progressed on ≥1 prior systemic therapies or lines of treatment for unresectable/metastatic disease
+- Eastern Cooperative Oncology Group (ECOG) performance status ≤1
+- All toxicities attributed to prior anticancer therapy (other than alopecia and fatigue) must have resolved to baseline or grade 1
+- Measurable disease according to RECIST V.1.1
+- Tumor sites accessible for repeat biopsies
+- Adequate archival tumor tissue available for the central pathology PD-L1 stratification test
+
+Exclusion Criteria:
+- Previously received only neoadjuvant or adjuvant therapy for gastric adenocarcinoma
+- Received radiotherapy within 28 days of randomization; exceptions allowed if recovered from acute effects and radiated sites not used for response evaluation
+- Uncontrolled intercurrent illness (including active uncontrolled infection, active gastrointestinal bleeding, or uncontrolled cardiac arrhythmia)",True,0.9,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

@@ -1,0 +1,241 @@
+{
+  "metadata": {
+    "case_id": 81,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T19:02:20.189884",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/81_NCT01954082.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/81_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.08,
+          0.18,
+          0.08
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.18,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Unfavorable Outcome, Defined as Severe Retinopathy of Prematurity (ROP) or Death Prior to Reaching Acute/Final ROP Status",
+            "description": "Death is defined as from any cause before Acute/Final ROP status is determined. ROP was identified by routine ophthalmologic examinations beginning at the latter of 31 weeks PMA or 4-6 weeks chronologic age. The favorable ROP endpoint requires that no ROP, or only mild ROP has occurred in both eyes and the eyes have matured beyond the risk of developing Type 1 ROP (severity meeting criteria for surgical intervention). The unfavorable ROP endpoint requires that one or both eyes reach Type 1 ROP. When ROP did not resolve by the time of discharge, participants were followed as outpatients until reaching an ROP endpoint, up to 55 weeks PMA. Since incomplete follow up is more likely among participants with mild or no ROP than for those with aggressive ROP, an independent adjudication process assigned an ROP endpoint of 'most likely never had Type 1 ROP', or 'most likely developed Type 1 ROP' based on clinical and ROP data review to reduce possible missing data bias.",
+            "timeFrame": "by 55 weeks PMA"
+          },
+          "pred_item": {
+            "measure": "Bayley Scales of Infant and Toddler Development, 3rd Edition (Bayley-III) Composite Cognitive Score",
+            "description": "Composite cognitive score on the Bayley-III, with a mean score of 100 and standard deviation of 15. Children untestable due to severe developmental delay were assigned a cognitive score of 54.",
+            "timeFrame": "22-26 months' corrected age"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 6,
+      "pred_count": 13,
+      "similarity_matrix": [
+        [
+          0.02,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.02,
+          0.05,
+          0.08,
+          0.09,
+          0.1,
+          0.1,
+          0.05
+        ],
+        [
+          0.02,
+          0.01,
+          0.04,
+          0.03,
+          0.05,
+          0.01,
+          0.02,
+          0.0,
+          0.05,
+          0.05,
+          0.08,
+          0.02,
+          0.01
+        ],
+        [
+          0.11,
+          0.05,
+          0.08,
+          0.05,
+          0.13,
+          0.02,
+          0.08,
+          0.05,
+          0.02,
+          0.05,
+          0.1,
+          0.05,
+          0.05
+        ],
+        [
+          0.12,
+          0.05,
+          0.12,
+          0.12,
+          0.3,
+          0.18,
+          0.3,
+          0.05,
+          0.05,
+          0.08,
+          0.05,
+          0.08,
+          0.02
+        ],
+        [
+          0.18,
+          0.1,
+          0.08,
+          0.08,
+          0.15,
+          0.18,
+          0.28,
+          0.05,
+          0.05,
+          0.02,
+          0.05,
+          0.08,
+          0.02
+        ],
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.05,
+          0.08,
+          0.07,
+          0.12,
+          0.18,
+          0.12,
+          0.25,
+          0.19,
+          0.02,
+          0.12
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 11,
+          "score": 0.1,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Bronchopulmonary Dysplasia (BPD)",
+            "description": "BPD is defined as supplemental oxygen required to maintain an oxygenation saturation of \\>90% at 36 weeks postmenstrual age (PMA) (NICHD physiologic definition).",
+            "timeFrame": "36 weeks PMA"
+          },
+          "pred_item": {
+            "measure": "Hearing loss",
+            "description": "Presence of hearing loss at follow-up.",
+            "timeFrame": "22-26 months' corrected age"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 10,
+          "score": 0.08,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Bronchopulmonary Dysplasia (BPD) or Death From BPD",
+            "description": "BPD is defined as supplemental oxygen required to maintain an oxygenation saturation of \\>90% at 36 weeks PMA (NICHD physiologic definition). Death from BPD prior to 37 weeks postmenstrual age (PMA) is defined when the cause of death is certified by the Center PI as BPD being the primary cause, or a significant co-contributing cause of death.",
+            "timeFrame": "prior to 37 weeks PMA"
+          },
+          "pred_item": {
+            "measure": "Gross Motor Function Classification System (GMFCS) level",
+            "description": "Gross motor function classified using GMFCS: level ≤1 (no or mild CP), levels 2-3 (moderate CP), levels 4-5 (severe CP).",
+            "timeFrame": "22-26 months' corrected age"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.11,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With All Cause Death Before Retinopathy of Prematurity (ROP) Endpoint",
+            "description": "Defined as death from any cause following randomization through primary study follow-up (up to 55 weeks postmenstrual age (PMA))",
+            "timeFrame": "by 55 weeks PMA age"
+          },
+          "pred_item": {
+            "measure": "Strabismus",
+            "description": "Presence of strabismus (crossed eye) assessed during neurological examination at follow-up.",
+            "timeFrame": "22-26 months' corrected age"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 4,
+          "score": 0.3,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Any Retinopathy of Prematurity (ROP)",
+            "description": "ROP was identified by routine ophthalmologic examinations beginning at the latter of 31 weeks PMA or 4-6 weeks chronologic age. Any ROP is defined as ROP of any severity that is observed on at least 2 independent examinations in either eye through the time that Acute/Final ROP status is reached (up to 55 weeks postmenstrual age (PMA)).",
+            "timeFrame": "by 55 weeks PMA"
+          },
+          "pred_item": {
+            "measure": "Visual acuity",
+            "description": "Visual acuity obtained by history (parent report or medical record review) at follow-up.",
+            "timeFrame": "22-26 months' corrected age"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 6,
+          "score": 0.28,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Type 2 or More Severe Retinopathy of Prematurity (ROP)",
+            "description": "Defined as one or both eyes reaching Type 2 ROP (ETROP 2003) or the more severe Type 1 ROP (as defined previously) through the time that Acute/Final ROP status is reached (up to 55 weeks postmenstrual age (PMA)). Type 2 ROP is defined as (ETROP 2003): Stage 3 ROP without Plus Disease (i.e. Zone II) or Stage 1 or 2 ROP without Plus Disease (i.e. Zone I).",
+            "timeFrame": "by 55 weeks PMA"
+          },
+          "pred_item": {
+            "measure": "Eye surgery for non-ROP indication",
+            "description": "Whether the child underwent eye surgery for a non-ROP indication, obtained by history at follow-up.",
+            "timeFrame": "22-26 months' corrected age"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 9,
+          "score": 0.25,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Severe Intraventricular Hemorrhage (IVH)",
+            "description": "Severe IVH is defined as IVH Grades 3 or 4 on either side of the brain. The evaluation for IVH occurs early (within 28 days from birth) via a cranial sonogram and is classified as described by Papile.",
+            "timeFrame": "by 28 days PMA"
+          },
+          "pred_item": {
+            "measure": "Cerebral palsy",
+            "description": "Diagnosis of cerebral palsy at follow-up.",
+            "timeFrame": "22-26 months' corrected age"
+          }
+        }
+      ]
+    }
+  ]
+}

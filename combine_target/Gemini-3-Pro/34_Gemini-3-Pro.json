@@ -1,0 +1,156 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02137499",
+      "briefTitle": "The VeINS Trial",
+      "acronym": "VeINS",
+      "secondaryIdInfos": [
+        {
+          "id": "13/WM/0027",
+          "type": "OTHER",
+          "domain": "National Research Ethics Committee"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "In this pilot trial, the role of neuromuscular electrical stimulation (NMES) in both healthy subjects and patients with chronic venous disease (CVD) has been evaluated. The study investigated the effect of bilateral leg NMES on the symptoms of CVD, testing the hypothesis that repeated NMES use will enhance venous haemodynamic parameters, improve clinician disease scores, and increase patient-reported quality of life.",
+      "detailedDescription": "Forty subjects were recruited from four groups: healthy, superficial insufficiency, deep insufficiency, and deep obstruction. The NMES device used was the geko™ T-1, applied transcutaneously to the common peroneal nerve at the knee to cause contractions of the anterior and lateral compartments of the leg. Devices were fitted bilaterally and worn for 4–6 hours, 5 days a week, for 6 weeks.\n\nHaemodynamic venous measurements were taken from the right femoral vein with ultrasound (measuring peak velocity, time averaged mean velocity, and volume flow) and laser Doppler fluximetry from the left hand and foot. Leg volume was calculated using ankle and calf diameters. Measurements were taken at baseline, during device activation (20 minutes after turn on), and repeated at week 6. Physician- and patient-reported quality of life assessments (Venous Clinical Severity Score, Venous Disability Score, Aberdeen Varicose Vein Questionnaire, EuroQol-5D, Center for Epidemiologic Studies Depression Scale, Short Form-12) were performed at weeks 0, 6, and 8."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Venous Disease",
+        "Superficial Venous Insufficiency",
+        "Deep Venous Insufficiency",
+        "Deep Venous Obstruction",
+        "Leg Oedema"
+      ],
+      "keywords": [
+        "Neuromuscular Electrical Stimulation",
+        "NMES",
+        "Venous Haemodynamics",
+        "Laser Doppler Fluximetry",
+        "Quality of Life",
+        "Femoral Vein",
+        "Peroneal Nerve Stimulation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Forty subjects were recruited from four groups: healthy, superficial insufficiency, deep insufficiency, and deep obstruction. Devices were fitted bilaterally, and worn for 4–6 hours, 5 days a week, for 6 weeks.",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": null,
+          "whoMasked": null
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Healthy Subjects",
+          "type": "EXPERIMENTAL",
+          "description": "Healthy volunteers recruited by word of mouth (n=10).",
+          "interventionNames": [
+            "geko™ T-1 NMES device"
+          ]
+        },
+        {
+          "label": "Superficial Venous Insufficiency",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with superficial vein incompetence recruited from vascular clinic and imaging laboratory (n=10).",
+          "interventionNames": [
+            "geko™ T-1 NMES device"
+          ]
+        },
+        {
+          "label": "Deep Venous Insufficiency",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with deep vein incompetence recruited from vascular clinic and imaging laboratory (n=10).",
+          "interventionNames": [
+            "geko™ T-1 NMES device"
+          ]
+        },
+        {
+          "label": "Deep Venous Obstruction",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with deep vein obstruction recruited from vascular clinic and imaging laboratory (n=10).",
+          "interventionNames": [
+            "geko™ T-1 NMES device"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "geko™ T-1 NMES device",
+          "description": "Neuromuscular electrical stimulation (NMES) device applied transcutaneously to the common peroneal nerve at the knee. It delivers intermittent electrical pulses (27mA, 1 Hz) to cause contractions of the anterior and lateral compartments of the leg. Devices were worn bilaterally for 4–6 hours per day, 5 days a week, for 6 weeks.",
+          "armGroupLabels": [
+            "Healthy Subjects",
+            "Superficial Venous Insufficiency",
+            "Deep Venous Insufficiency",
+            "Deep Venous Obstruction"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Venous Haemodynamic Parameters",
+          "description": "Venous parameters including peak velocity (PV), time averaged mean velocity (TAMV), and volume flow (VF) were measured in the right femoral vein using ultrasound.",
+          "timeFrame": "Baseline (Week 0) and Week 6"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Laser Doppler Fluximetry",
+          "description": "Fluximetry recorded from the dorsum of the left hand and foot to assess peripheral blood flow.",
+          "timeFrame": "Baseline (Week 0) and Week 6"
+        },
+        {
+          "measure": "Leg Volume",
+          "description": "Calculated by measuring ankle and maximal calf diameters, the vertical distance between the two points, and applying a truncated inverted cone model.",
+          "timeFrame": "Baseline (Week 0) and Week 6"
+        },
+        {
+          "measure": "Quality of Life and Clinical Severity Scores",
+          "description": "Assessments included Venous Clinical Severity Score (VCSS), Venous Disability Score (VDS), Aberdeen Varicose Vein Questionnaire (AVVQ), EuroQol-5D, Center for Epidemiologic Studies Depression (CESD) Scale, and Short Form-12 (SF-12).",
+          "timeFrame": "Week 0, Week 6, and Week 8"
+        },
+        {
+          "measure": "Device Usage",
+          "description": "Adherence measured via an unsupervised diary of device usage completed by each participant.",
+          "timeFrame": "Up to 6 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Subjects over 18 years old\n* Healthy subjects or patients with venous disease (superficial vein incompetence, deep vein incompetence, deep vein obstruction)\n* Clinically significant reflux defined as greater than 0.5s\n\nExclusion Criteria:\n* History of peripheral arterial disease\n* Leg fracture or metallic implant\n* Other systemic causes of limb swelling (heart, lung or renal failure)",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

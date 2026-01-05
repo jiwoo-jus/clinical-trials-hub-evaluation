@@ -1,0 +1,98 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT02679807,NCT02679807,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.orgStudyIdInfo.type,EV,EV,,FDA,,,,OrgStudyIdType,protocolSection.identificationModule.orgStudyIdInfo.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].id,EV,EV,,15241,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].type,EV,EV,,FDA,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,FDA IND,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Effect of Probiotic on Rhinovirus Induced Colds,Efficacy of Bifidobacterium animalis ssp. lactis (Bl-04) for prevention of rhinovirus colds,True,0.92,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,Effect of Probiotic on Rhinovirus Induced Colds,Efficacy of Bifidobacterium animalis ssp. lactis (Bl-04) for prevention of rhinovirus colds,True,0.9,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"This is a randomized, double-blind placebo controlled trial to evaluate the effect of a probiotic (Bl-04) on the occurrence of rhinovirus-associated common cold illness in the experimental rhinovirus challenge model. A previous study documented that Bl-04 has significant effects on the innate immune response in the nose and this study will be powered to assess whether these effects translate into a demonstrable clinical benefit. Volunteers will be given Bl-04 or placebo for 28 days then challenged with rhinovirus. The primary analysis will be on the proportion of volunteers who develop a rhinovirus associated illness in the two treatment groups.","This study was designed to assess the efficacy of Bifidobacterium animalis ssp. lactis (Bl-04) for prevention of rhinovirus colds and to explore the interactions between the probiotic, the viral infection, the host response and the host microbiome.",True,0.94,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"The effect of ingestion of the probiotic Bl-04 was evaluated in a randomized, double-blinded rhinovirus (RV) challenge study. Healthy volunteers recruited from a university community in USA were randomized 1:1 using a computer generated code to ingest either Bl-04 (n=165) or placebo (n=169) for 28 days and were then challenged with RV-A39, and followed for 14 days. All study interactions and sample collection occurred in dedicated clinical research space. The primary analysis was the effect of the probiotic on the incidence of RV-associated illness.
+
+Volunteers were assigned sequential subject numbers as they enrolled in the study and then provided numbered study product corresponding to their subject number. On day -28 of the study, all eligible volunteers had specimens collected and were then randomized to active or placebo supplement to be taken daily through study day 14. Volunteers returned to the study site on days -21, -14, and -7 to replenish supplies of study product and to monitor compliance with the study protocol. During the supplementation period, days -28 to 14, the volunteers were instructed to avoid ingestion of other probiotics or probiotic containing foods and were prohibited from taking antibiotics or anti-inflammatory agents.
+
+The challenge virus used for this study was RV-A39. All subjects were inoculated with 20-100 tissue culture infectious dose 50 (TCID50) of virus by intranasal drops. Nasal lavage specimens collected on day 0, before virus challenge, were tested by multiplex PCR for the detection of unsuspected viral infections. Nasal lavage collected on study days 1-5 was cultured for RV by standard methods. Sera were tested for neutralizing antibody to RV-A39 by a standard microtiter assay.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['Common Cold'],"['Rhinovirus-associated illness', 'Rhinovirus Infection', 'Viral respiratory infection', 'Common Cold']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Bifidobacterium animalis ssp. Lactis', 'Bl-04', 'Probiotic', 'Rhinovirus', 'Viral respiratory infection', 'Host microbiome']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,TRIPLE,DOUBLE,True,0.7,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"All study personnel involved in the conduct and analysis of the study were blinded to the randomization scheme until the study database was locked. The placebo was provided as a sachet containing 1g of sucrose that was identical to the study product in appearance, smell, and taste.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,FP,"['PARTICIPANT', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'INVESTIGATOR']",False,0.6666666666666666,partial,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,380,334,True,0.9,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[0].description,EV,EV,,The daily dose of probiotic was provided in a sachet containing a minimum of 2 x 10^9 colony forming units of Bl-04 mixed with 1g of sucrose as a carrier.,,,,InterventionDescription,protocolSection.armsInterventionsModule.interventions.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[1].description,EV,EV,,"The placebo was provided as a sachet containing 1g of sucrose that was identical to the study product in appearance, smell, and taste.",,,,InterventionDescription,protocolSection.armsInterventionsModule.interventions.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[0].measure,EV,EV,,Duration of illness,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].measure,EV,EV,,Incidence of viral infection,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].measure,EV,EV,,Quantitative viral shedding,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].measure,EV,EV,,Shedding of virus in nasal lavage,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].measure,EV,EV,,Total symptom score (acute illness period),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].measure,EV,EV,,Total symptom score (total study period),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[0].description,EV,EV,,Measured in days for subjects who met the protocol definition of a RV-associated illness.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].description,EV,EV,,Defined as RV-A39 isolated from at least one post-challenge specimen or at least a 4-fold increase in serum neutralizing antibody to RV-A39.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].description,EV,EV,,Analyzed with a repeated measures analysis of variance model (RM-ANOVA).,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].description,EV,EV,,Presence of virus in nasal lavage specimens.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].description,EV,EV,,"Sum of scores for nasal obstruction, rhinorrhea, sore throat, cough, sneezing, headache, myalgia, and chilliness (scored 0-4). Analyzed with Poisson regression analysis models.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].description,EV,EV,,"Sum of scores for nasal obstruction, rhinorrhea, sore throat, cough, sneezing, headache, myalgia, and chilliness (scored 0-4).",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[0].timeFrame,EV,EV,,Through study day 14,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].timeFrame,EV,EV,,Through study day 14,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].timeFrame,EV,EV,,Days 1-5 post-challenge,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].timeFrame,EV,EV,,Days 1-5 post-challenge,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].timeFrame,EV,EV,,Study days 1-5,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].timeFrame,EV,EV,,Study days 1-14,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,"Changes in CXCL8, IFN-γ, IL-10, G-CSF, MCP-1, IP-10, IL-6, and IL-1β concentrations",,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,Analyzed with repeated measures analysis of covariance models (RM-ANCOVA).,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,From day -28 until virus challenge and from day 0 onwards,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+INCLUSION CRITERIA AT ENROLLMENT:
+
+* Subject must be 18-60 years of age.
+* Subject must read and sign a copy of the approved Consent Form
+* Subject must have a serum neutralizing antibody titer of less than or equal to 1:4 to rhinovirus type 39
+
+INCLUSION CRITERIA AT DAY -28
+
+• Female subjects must be using an effective birth control method.
+
+INCLUSION CRITERIA AT CHALLENGE:
+
+* Female subjects must be using an effective birth control method.
+
+Exclusion Criteria:
+
+* Antibiotic use within 3 months prior to day -28
+
+  * Female subjects with a positive urine pregnancy screen
+  * History of use of probiotics in the preceding two weeks
+  * Current cancer diagnosis or immunosuppressive therapy in the last 6 months
+  * Any clinically significant abnormalities of the upper respiratory tract
+  * Any clinically significant acute or chronic respiratory illness
+  * Any clinically significant bleeding tendency by history
+  * Hypertension that requires treatment with antihypertensive medications
+  * History of angina or other clinically significant cardiac disease
+  * Any medical condition that in the opinion of the Principal Investigator is cause for exclusion from the study
+  * History of regular use (more than 3 days in 7) of tobacco products within the preceding two weeks
+  * History of drug or alcohol abuse in the 6 months preceding the study
+
+EXCLUSION CRITERIA AT CHALLENGE:
+
+* Any upper respiratory infection or allergic rhinitis in the two weeks prior to the challenge
+* Female subjects with positive pregnancy screen prior to challenge
+* Any medical condition that in the opinion of the Principal Investigator is cause for exclusion from the study
+* Use of any anti-inflammatory (steroids or NSAIDs) or cough/cold or allergy preparation in the two weeks prior to the challenge","Inclusion Criteria:
+- Healthy adult volunteers recruited from the University of Virginia community.
+- Susceptible to RV type 39, as evidenced by a serum neutralizing antibody titer of ≤ 1:4.
+- Written informed consent obtained.
+
+Exclusion Criteria:
+- Significant underlying respiratory or gastrointestinal disease.
+- Acute illness.
+- Taking antibiotics or anti-inflammatory agents during the supplementation period.",True,0.84,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,60 Years,60 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,['ADULT'],['ADULT'],True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

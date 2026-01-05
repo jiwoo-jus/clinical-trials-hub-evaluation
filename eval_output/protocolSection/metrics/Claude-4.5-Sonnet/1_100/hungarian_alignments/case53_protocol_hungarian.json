@@ -1,0 +1,417 @@
+{
+  "metadata": {
+    "case_id": 53,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T16:51:32.347623",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/53_NCT03995225.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/53_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "id": "1R34AT010365-01",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/1R34AT010365-01"
+          },
+          "pred_item": {
+            "id": "1R34AT010365-01",
+            "type": "NIH",
+            "domain": "National Center for Complementary and Integrative Health",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Smokers",
+            "type": "EXPERIMENTAL",
+            "description": "This study involves wearing a smartband to monitor, record and notify smokers of smoking events and deliver real-time brief mindfulness exercises by smartphone app. There is only one arm.",
+            "interventionNames": [
+              "Behavioral: Smartband automatic smoking detection combined with brief mindfulness interventions"
+            ]
+          },
+          "pred_item": {
+            "label": "Single-Arm Feasibility Study",
+            "type": "EXPERIMENTAL",
+            "description": "All participants receive the same three-step intervention over 60 days: (1) 21 days of smartband-based smoking monitoring and real-time notification, (2) 7 days of mindful smoking exercises triggered by detected smoking events (days 21-28), and (3) 30 days of RAIN mindfulness exercises delivered to predicted smoking events after quit date (days 30-60). Participants set a quit date at day 30.",
+            "interventionNames": [
+              "Device: Smartband for smoking detection and monitoring",
+              "Behavioral: Real-time smoking notification",
+              "Behavioral: Mindful smoking exercise",
+              "Behavioral: RAIN mindfulness exercise"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.82,
+          0.86,
+          0.85
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Smartband automatic smoking detection combined with brief mindfulness interventions",
+            "description": "Smartband/smartphone based automatic smoking monitoring, notification and real-time brief mindfulness interventions and learn to work mindfully with cravings and triggers rather than smoke using RAIN prior to smoking episodes.This is a 3 step intervention.",
+            "armGroupLabels": [
+              "Smokers"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Mindful smoking exercise",
+            "description": "Brief mindfulness training introduced at day 21 survey using videos and animation to introduce mindfulness and habit formation, followed by a guided mindful smoking exercise. From days 21-28, a 2-minute audio-guided mindful smoking exercise with subtitles is automatically triggered by SMS text message whenever smoking is detected or manually reported. The exercise helps participants bring awareness to the present moment effects of smoking—physical sensations, emotions, and thoughts—to facilitate disenchantment with smoking.",
+            "armGroupLabels": [
+              "Single-Arm Feasibility Study"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 9,
+      "pred_count": 10,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.92,
+          0.72,
+          0.35,
+          0.42,
+          0.35,
+          0.2,
+          0.08,
+          0.05,
+          0.18
+        ],
+        [
+          0.78,
+          0.96,
+          0.82,
+          0.2,
+          0.5,
+          0.78,
+          0.45,
+          0.55,
+          0.2,
+          0.18
+        ],
+        [
+          0.3,
+          0.4,
+          0.86,
+          0.18,
+          0.25,
+          0.35,
+          0.52,
+          0.55,
+          0.78,
+          0.6
+        ],
+        [
+          0.18,
+          0.22,
+          0.18,
+          0.96,
+          0.62,
+          0.68,
+          0.72,
+          0.1,
+          0.1,
+          0.3
+        ],
+        [
+          0.4,
+          0.7,
+          0.55,
+          0.8,
+          0.98,
+          0.72,
+          0.7,
+          0.22,
+          0.08,
+          0.3
+        ],
+        [
+          0.15,
+          0.4,
+          0.4,
+          0.32,
+          0.78,
+          0.55,
+          0.6,
+          0.32,
+          0.25,
+          0.4
+        ],
+        [
+          0.2,
+          0.68,
+          0.3,
+          0.45,
+          0.78,
+          0.8,
+          0.9,
+          0.4,
+          0.4,
+          0.3
+        ],
+        [
+          0.12,
+          0.23,
+          0.3,
+          0.2,
+          0.2,
+          0.35,
+          0.45,
+          0.9,
+          0.9,
+          0.82
+        ],
+        [
+          0.18,
+          0.1,
+          0.4,
+          0.25,
+          0.25,
+          0.25,
+          0.35,
+          0.82,
+          0.83,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Fidelity of Detecting Smoking Episodes",
+            "description": "Percent of smoking episodes detected and the rate of false alarms in the first 60 days of the study during which smokers are wearing the smartband to monitor, detect and notify them of smoking episodes.",
+            "timeFrame": "60 days"
+          },
+          "pred_item": {
+            "measure": "Treatment Fidelity: Accurate Detection of Smoking Events",
+            "description": "Percent of smoking events detected and the rate of false alarms in the first 21 days of the study. Expected >80% detection and negligible false alarms.",
+            "timeFrame": "Days 1-21"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Fidelity of Delivering Mindful Smoking Exercises Triggered by Smoking",
+            "description": "Percent of mindful smoking exercises correctly triggered by detected smoking episodes and the rate of false alarms during which any detected and confirmed smoking event triggers the mindful smoking exercise.",
+            "timeFrame": "39 days"
+          },
+          "pred_item": {
+            "measure": "Treatment Fidelity: Delivery of Mindful Smoking Triggered by Smoking Events",
+            "description": "Percent of mindful smoking exercises correctly triggered by smoking events and the rate of false alarms. Expected >80% detection and negligible false alarms.",
+            "timeFrame": "Days 21-28"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Timeliness of Delivering RAIN Exercise",
+            "description": "Percent of participants and score range (very low, low, moderate, high, very high), with feasibility determined by 75% of participants rating timeliness of RAIN exercise as moderate or higher (via real-time ecological momentary assessment). Moderate or higher indicates a better (more timely) outcome.",
+            "timeFrame": "30 days"
+          },
+          "pred_item": {
+            "measure": "Treatment Fidelity: Delivery of RAIN to Predicted Smoking Events",
+            "description": "Average timeliness ratings and craving ratings (as proxy for targeting high craving moments) during the period when RAIN is delivered to predicted smoking events. Feasibility determined by 75% of participants rating timeliness and craving as moderate or higher.",
+            "timeFrame": "Days 30-60"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Adherence to Wearing the Smartband",
+            "description": "Percent of days spent wearing the smartband.",
+            "timeFrame": "60 days"
+          },
+          "pred_item": {
+            "measure": "Adherence: Smartband Wear",
+            "description": "Percent of days participants wear the smartband for 12 waking hours during the 60-day study.",
+            "timeFrame": "Days 1-60"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Adherence to Answering Smartband Notifications of Smoking Events",
+            "description": "Percent of smoking notifications answered",
+            "timeFrame": "60 days"
+          },
+          "pred_item": {
+            "measure": "Adherence: Smoking Notifications Answered",
+            "description": "Percent of smoking notifications answered (confirmed or denied) of those sent during the 60-day study.",
+            "timeFrame": "Days 1-60"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 5,
+          "score": 0.55,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Adherence to Answering Ecological Momentary Assessment Items",
+            "description": "Percentage of ecological momentary assessment (EMA) ratings (e.g., timeliness, helpfulness, craving, affect) answered when participants completed mindfulness exercises. That is, did the participant complete the EMA when they completed the mindfulness exercise. Measured separately for percentage of EMA answered when participants completed RAIN exercises, and percentage of EMA answered when participants completed mindful smoking exercises. Reported is the percentage of EMA answered out of the number of completed mindfulness exercises, separately for RAIN and mindful smoking.",
+            "timeFrame": "60 days"
+          },
+          "pred_item": {
+            "measure": "Adherence: Mindful Smoking Exercises Completed",
+            "description": "Percent of mindful smoking exercises completed of those sent. Adherence cut-off will be 80% of mindfulness exercises completed relative to the participant's baseline CPD.",
+            "timeFrame": "Days 21-28"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 6,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Adherence to Completing Mindfulness Exercises",
+            "description": "Percent of mindfulness exercises (RAIN, mindful smoking) completed",
+            "timeFrame": "60 days"
+          },
+          "pred_item": {
+            "measure": "Adherence: RAIN Exercises Completed",
+            "description": "Percent of RAIN exercises completed of those sent. Adherence cut-off will be 80% of mindfulness exercises completed relative to the participant's baseline CPD.",
+            "timeFrame": "Days 30-60"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 7,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Acceptability of Intervention - Helpfulness of Mindfulness Exercises",
+            "description": "Percent of participants and score range (very low, low, moderate, high, very high), with feasibility determined by 75% of participants rating helpfulness as moderate or higher of participants that completed at least one mindful smoking or RAIN exercise.",
+            "timeFrame": "60 days"
+          },
+          "pred_item": {
+            "measure": "Acceptability: Helpfulness Ratings of Mindful Smoking",
+            "description": "Mean helpfulness ratings for mindful smoking exercises. Feasibility determined by 75% of participants rating helpfulness as moderate or higher.",
+            "timeFrame": "Days 21-28"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 9,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Acceptability of Intervention - User Experiences Survey",
+            "description": "Feedback on user experiences survey (e.g., whether there were too many or not enough interventions) by theme- One survey with feasibility determined by 75% of participants rating the question as moderate or higher. Below are percentage of participants with ratings of moderate or higher for each question.",
+            "timeFrame": "up to 60 days"
+          },
+          "pred_item": {
+            "measure": "Acceptability: User Experiences Questionnaire",
+            "description": "Feedback on acceptability of technology and intervention including ease of use, technical support, and effects on awareness, craving, and smoking. Includes items from User Burden Scale, System Usability Scale, Mobile Application Rating Scale, and Acceptability of Intervention Measure. Feasibility determined by 75% of participants rating items as moderate or higher.",
+            "timeFrame": "Days 21, 28, and 60"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.6,
+          0.3,
+          0.32,
+          0.78,
+          0.62,
+          0.8,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 5,
+          "score": 0.8,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Self-reported Abstinence From Smoking",
+            "description": "As a secondary aim we will also evaluate self-reported one-week point prevalence abstinence from smoking and prolonged abstinence from smoking (≤5 cigarettes since quit date)",
+            "timeFrame": "7 days"
+          },
+          "pred_item": {
+            "measure": "1-Week Point Prevalence Abstinence - Biochemical Verification",
+            "description": "Abstinence verified by carbon monoxide (CO) breath test (<6 parts per million CO) in up to 30 participants reporting abstinence.",
+            "timeFrame": "60 days"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "case_id": 34,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T15:53:28.172321",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/34_NCT02137499.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/34_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.42,
+          0.3,
+          0.4
+        ],
+        [
+          0.4,
+          0.93,
+          0.7,
+          0.72
+        ],
+        [
+          0.5,
+          0.8,
+          0.9,
+          0.8
+        ],
+        [
+          0.6,
+          0.5,
+          0.82,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Healthy subjects",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Healthy subjects, free from vascular disease",
+            "interventionNames": [
+              "Device: geko device"
+            ]
+          },
+          "pred_item": {
+            "label": "Healthy Subjects",
+            "type": "EXPERIMENTAL",
+            "description": "Healthy subjects without venous disease (n=10). Subjects wore bilateral leg NMES devices (geko™ T-1) for 4-6 hours per day, 5 days a week, for 6 weeks.",
+            "interventionNames": [
+              "DEVICE: Neuromuscular Electrical Stimulation (NMES) - geko™ T-1"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Superficial venous insufficiency",
+            "type": "EXPERIMENTAL",
+            "description": "Clinically symptomatic and ultrasound evidence of superficial venous insufficiency",
+            "interventionNames": [
+              "Device: geko device"
+            ]
+          },
+          "pred_item": {
+            "label": "Superficial Venous Insufficiency",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with superficial venous insufficiency (n=10). Subjects wore bilateral leg NMES devices (geko™ T-1) for 4-6 hours per day, 5 days a week, for 6 weeks.",
+            "interventionNames": [
+              "DEVICE: Neuromuscular Electrical Stimulation (NMES) - geko™ T-1"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Deep venous insufficiency",
+            "type": "EXPERIMENTAL",
+            "description": "Clinically symptomatic and ultrasound evidence of deep venous insufficiency",
+            "interventionNames": [
+              "Device: geko device"
+            ]
+          },
+          "pred_item": {
+            "label": "Deep Venous Insufficiency",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with deep venous insufficiency (n=10). Subjects wore bilateral leg NMES devices (geko™ T-1) for 4-6 hours per day, 5 days a week, for 6 weeks.",
+            "interventionNames": [
+              "DEVICE: Neuromuscular Electrical Stimulation (NMES) - geko™ T-1"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Deep venous obstruction",
+            "type": "EXPERIMENTAL",
+            "description": "Clinically symptomatic and ultrasound evidence of deep venous obstruction",
+            "interventionNames": [
+              "Device: geko device"
+            ]
+          },
+          "pred_item": {
+            "label": "Deep Venous Obstruction",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with deep venous obstruction (n=10). Subjects wore bilateral leg NMES devices (geko™ T-1) for 4-6 hours per day, 5 days a week, for 6 weeks.",
+            "interventionNames": [
+              "DEVICE: Neuromuscular Electrical Stimulation (NMES) - geko™ T-1"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "geko device",
+            "description": "Small transcutaneous electrical stimulator. Manufactured in UK by Firstkind UK Ltd, and licensed for use in humans",
+            "armGroupLabels": [
+              "Deep venous insufficiency",
+              "Deep venous obstruction",
+              "Healthy subjects",
+              "Superficial venous insufficiency"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "Neuromuscular Electrical Stimulation (NMES) - geko™ T-1",
+            "description": "The geko™ T-1 device (Firstkind Ltd, UK) is a neuromuscular electrical stimulation device applied transcutaneously to the common peroneal nerve at the knee. It delivers intermittent electrical pulses (27mA, 1 Hz, pulse width 70-560μs) to cause contractions of the anterior and lateral compartments of the leg. Devices were fitted bilaterally and worn for 4-6 hours per day, 5 days a week, for 6 weeks. The minimum pulse width to achieve dorsiflexion was used and adjusted by the patient for comfort.",
+            "armGroupLabels": [
+              "Healthy Subjects",
+              "Superficial Venous Insufficiency",
+              "Deep Venous Insufficiency",
+              "Deep Venous Obstruction"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.9,
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage Change of Haemodynamic Flow",
+            "description": "Doppler ultrasound measurements of femoral venous blood flow. The volume flow rate in blood vessel can be calculated by multiplying the cross-sectional area of the blood vessel by the mean velocity of the blood within it.",
+            "timeFrame": "baseline, 20 minutes"
+          },
+          "pred_item": {
+            "measure": "Change in femoral vein volume flow (VF)",
+            "description": "Percentage change in femoral vein volume flow measured by duplex ultrasound from baseline (device off) to device activation (device on) at 20 minutes, and at week 6",
+            "timeFrame": "Baseline (week 0) at 20 minutes of device activation, and week 6"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 8,
+      "similarity_matrix": [
+        [
+          0.1,
+          0.3,
+          0.82,
+          0.73,
+          0.78,
+          0.3,
+          0.3,
+          0.3
+        ],
+        [
+          0.18,
+          0.92,
+          0.18,
+          0.2,
+          0.2,
+          0.1,
+          0.12,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Improvement in Venous Symptoms",
+            "description": "Clinical symptoms will be measured using questionnaires (AVVQ, VCSS)",
+            "timeFrame": "6 weeks"
+          },
+          "pred_item": {
+            "measure": "Change in Venous Clinical Severity Score (VCSS)",
+            "description": "Physician-reported quality of life assessment measuring venous clinical severity",
+            "timeFrame": "Week 0, week 6, and week 8"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Leg Volume",
+            "description": "Measured using ankle and calf circumference, and multiplying using \"inverted cone\" method",
+            "timeFrame": "6 weeks"
+          },
+          "pred_item": {
+            "measure": "Change in unilateral leg volume",
+            "description": "Change in leg volume calculated using truncated inverted cone model from ankle and maximal calf diameters measured bilaterally",
+            "timeFrame": "Baseline (week 0) and week 6"
+          }
+        }
+      ]
+    }
+  ]
+}

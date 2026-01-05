@@ -1,0 +1,125 @@
+{
+  "metadata": {
+    "case_id": 32,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T15:47:42.973008",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/32_NCT03047928.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/32_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.84
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.84,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Adverse Events",
+            "description": "Determine the safety of the combination therapy of Nivolumab and the PD-L1/IDO peptide vaccine for patients with metastatic melanoma by reporting adverse events according to CTCAE v. 4.0.",
+            "timeFrame": "0 - 75 weeks"
+          },
+          "pred_item": {
+            "measure": "Safety and feasibility",
+            "description": "Assessed based on changes in clinical laboratory analyses and reported adverse events according to Common Terminology Criteria for Adverse Events (version 5.0), graded from 1 to 5 for all treated patients up to 6 months after the last dose of the IDO/PD-L1 vaccine.",
+            "timeFrame": "Up to 6 months after the last dose of vaccine"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.1,
+          0.86
+        ],
+        [
+          0.05,
+          0.68
+        ],
+        [
+          0.08,
+          0.62
+        ],
+        [
+          0.86,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Objective Response Rate",
+            "description": "Clinical response will be evaluated by RECIST and PERCIST 1.1. Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by PET-CT scans: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), \\>=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.",
+            "timeFrame": "The patients were evaluated every 12 weeks until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 58 months"
+          },
+          "pred_item": {
+            "measure": "Clinical efficacy",
+            "description": "Assessed using FDG PET-CT scans and categorized into complete response (CR), partial response (PR), stable disease, or progressive disease (PD) according to RECIST version 1.1. Objective response rate (ORR), progression-free survival (PFS), and overall survival (OS) were calculated.",
+            "timeFrame": "Before treatment and every 3 months until progression, with median follow-up of 22.9 months"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Overall Survival",
+            "description": "Overall survival (OS) defined as the time from treatment until death or end of follow-up",
+            "timeFrame": "The patients were evaluated from the date of first study treatment until the date of death from any cause, assessed up to 58 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Progression Free Survival",
+            "description": "Progression free survival (PFS) defined as the time from treatment initiation to disease progression, relapse or death due to any cause, which ever comes first.\n\nProgression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.",
+            "timeFrame": "The patients were evaluated from date of first study treatment until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 58 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Evaluation of Vaccine-specific Responses in Peripheral Blood Mononuclear Cells (PBMCs)",
+            "description": "Number of patients with a significant increase of vaccine-specific T cells in the blood during vaccination, assessed by the presence of vaccine-specific responses in peripheral blood mononuclear cells (PBMCs) before, on and after vaccination using a modified interferon (IFN)-γ enzyme-linked immune absorbent spot (ELISPOT) assay.",
+            "timeFrame": "At baseline and up to 24 months after inclusion"
+          },
+          "pred_item": {
+            "measure": "Immunogenicity",
+            "description": "Assessed by detection of vaccine-specific T cell responses in peripheral blood mononuclear cells (PBMCs) using modified interferon-gamma ELISPOT assays, flow cytometry for phenotypic characterization, and T cell receptor sequencing to track vaccine-induced T cell clones in blood and tumor sites.",
+            "timeFrame": "Before treatment, before the third cycle, after the sixth, 12th, 18th and 24th cycles (on vaccination), and 3 and 6 months after the last vaccine"
+          }
+        }
+      ]
+    }
+  ]
+}

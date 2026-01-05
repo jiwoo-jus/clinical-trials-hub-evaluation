@@ -1,0 +1,152 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02341625",
+      "orgStudyIdInfo": {
+        "id": "CA008-002"
+      },
+      "organization": {
+        "fullName": "Bristol Myers Squibb",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Safety and Tolerability of BMS-986148 ± Nivolumab in Patients with Selected Tumors",
+      "officialTitle": "A Global, Phase I/IIa Trial Assessing Safety, Tolerability, and Preliminary Efficacy of BMS-986148 ± Nivolumab in Patients with Mesothelin-Expressing Tumors"
+    },
+    "descriptionModule": {
+      "briefSummary": "This phase I/IIa study assesses the safety, tolerability, and preliminary efficacy of BMS-986148, a mesothelin-directed antibody–drug conjugate (ADC), administered as a monotherapy or in combination with nivolumab. The trial targets patients with selected advanced solid tumors, including mesothelioma, ovarian, pancreatic, gastric, and non–small cell lung cancers.",
+      "detailedDescription": "CA008-002 is an open-label, international, multicohort phase I/IIa trial investigating the safety, pharmacokinetics, pharmacodynamics, and antitumor activity of BMS-986148 alone or in combination with the anti-PD-1 checkpoint inhibitor nivolumab. The study includes dose-escalation, dose-exploration, and dose-expansion phases involving patients with advanced (metastatic, recurrent, refractory, and/or unresectable) solid tumors of selected histologies: pleural or peritoneal mesothelioma, ovarian cancer, pancreatic cancer, gastric cancer, or non–small cell lung cancer (NSCLC).\n\nIn the dose-escalation phase, patients received BMS-986148 monotherapy intravenously either every 3 weeks (Part 1A) or once weekly for 3 weeks followed by 1 week off (Part 1B), or BMS-986148 combined with nivolumab every 3 weeks (Part 3A). Doses were escalated to determine the maximum tolerated dose (MTD) and recommended phase II dose. The primary endpoints are safety, tolerability, and dose-limiting toxicities (DLTs). \n\nDuring the dose-expansion phase (Parts 2 and 3B), patients with specific tumor types and confirmed high mesothelin expression (H-score ≥ 100) were treated at the recommended dose levels. Secondary objectives include the assessment of pharmacokinetics, immunogenicity, and preliminary clinical activity evaluated via RECIST v1.1 (or modified RECIST for mesothelioma)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Advanced Solid Tumors",
+        "Mesothelioma",
+        "Pleural Mesothelioma",
+        "Peritoneal Mesothelioma",
+        "Ovarian Cancer",
+        "Pancreatic Cancer",
+        "Gastric Cancer",
+        "Non–Small Cell Lung Cancer"
+      ],
+      "keywords": [
+        "BMS-986148",
+        "Nivolumab",
+        "Mesothelin",
+        "Antibody-Drug Conjugate",
+        "ADC",
+        "Immunotherapy",
+        "Phase I/IIa",
+        "Checkpoint Inhibitor"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This multicohort study comprises dose-escalation, dose-exploration, and dose-expansion phases that evaluate BMS-986148 alone or in combination with nivolumab.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 126,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "BMS-986148 Monotherapy (Every 3 Weeks)",
+          "type": "EXPERIMENTAL",
+          "description": "In the dose-escalation phase (Part 1A), patients received BMS-986148 intravenously (i.v.) every 3 weeks at dose levels of 0.1, 0.2, 0.4, 0.8, 1.2, or 1.6 mg/kg. In the dose-expansion phase (Part 2), patients received BMS-986148 1.2 mg/kg i.v. every 3 weeks.",
+          "interventionNames": [
+            "Drug: BMS-986148"
+          ]
+        },
+        {
+          "label": "BMS-986148 Monotherapy (Once Weekly)",
+          "type": "EXPERIMENTAL",
+          "description": "In the dose-escalation phase (Part 1B), patients received BMS-986148 intravenously (i.v.) once weekly for 3 weeks followed by 1 week off (28-day cycle) at dose levels of 0.4 or 0.6 mg/kg.",
+          "interventionNames": [
+            "Drug: BMS-986148"
+          ]
+        },
+        {
+          "label": "BMS-986148 + Nivolumab",
+          "type": "EXPERIMENTAL",
+          "description": "In the dose-escalation (Part 3A) and dose-expansion (Part 3B) phases, patients received BMS-986148 0.8 mg/kg i.v. every 3 weeks combined with nivolumab 360 mg i.v. every 3 weeks.",
+          "interventionNames": [
+            "Drug: BMS-986148",
+            "Drug: Nivolumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "BMS-986148",
+          "description": "A mesothelin-directed antibody–drug conjugate (ADC) containing a fully human IgG1 anti-mesothelin mAb conjugated to tubulysin.",
+          "armGroupLabels": [
+            "BMS-986148 Monotherapy (Every 3 Weeks)",
+            "BMS-986148 Monotherapy (Once Weekly)",
+            "BMS-986148 + Nivolumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Nivolumab",
+          "description": "An anti-programmed death-1 (PD-1) mAb checkpoint inhibitor.",
+          "armGroupLabels": [
+            "BMS-986148 + Nivolumab"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and Tolerability (Adverse Events and Dose-Limiting Toxicities)",
+          "description": "Assessment of adverse events (AEs) according to NCI CTCAE v4.03. Determination of dose-limiting toxicities (DLTs) based on incidence, intensity, and duration of treatment-related AEs. Identification of Maximum Tolerated Dose (MTD) and Recommended Phase II Dose (RP2D).",
+          "timeFrame": "During treatment and for ≥ 100 days after the last dose; DLTs assessed during the first cycle (21 days for parts 1A/3A, 28 days for part 1B)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Pharmacokinetics (PK) Parameters",
+          "description": "Evaluation of concentrations of conjugated and unconjugated tubulysin. Parameters include maximum concentration (Cmax) and area under the curve (AUC) determined from serum and plasma concentration versus time data.",
+          "timeFrame": "At specified timepoints during treatment"
+        },
+        {
+          "measure": "Preliminary Antitumor Activity",
+          "description": "Assessment of tumor response including Best Overall Response, Objective Response Rate (ORR), Duration of Response (DOR), and Progression-Free Survival (PFS) using RECIST v1.1 (or modified RECIST for malignant pleural mesothelioma).",
+          "timeFrame": "Baseline, every 2 cycles (6 weeks for every-3-weeks dosing, 8 weeks for once-weekly dosing) during treatment, then every 12 weeks during follow-up"
+        },
+        {
+          "measure": "Pharmacodynamics",
+          "description": "Assessment of mesothelin expression levels at the plasma membrane by IHC on tumor samples (H-score) and evaluation of its association with tumor response.",
+          "timeFrame": "Baseline and during study analysis"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n*   Patients ≥ 18 years old.\n*   Histologically confirmed selected advanced solid tumors: pleural or peritoneal mesothelioma (except sarcomatoid mesothelioma), ovarian cancer (except mucinous carcinoma), pancreatic cancer, gastric cancer, or NSCLC (adenocarcinoma only).\n*   ≥ 1 lesion of measurable disease per RECIST v1.1 (or modified RECIST for malignant pleural mesothelioma).\n*   Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n*   Patients must have progressed on or been intolerant of ≥ 1 standard treatment regimen; prior anticancer treatments (e.g., chemotherapy, radiotherapy, hormonal therapy, immunotherapy) were permitted.\n*   Patients with NSCLC must have received prior immunotherapy, if available.\n*   In the dose-expansion phase, patients were required to have an H-score of ≥ 100 for tumor-cell mesothelin expression.\n\nExclusion Criteria:\n\n*   Active metastases in the central nervous system or, if the central nervous system was the only site of disease, prior exposure to BMS-986148 or other mesothelin-directed mAbs or ADCs.\n*   Prior malignancy (except nonmelanoma skin cancers and in situ cancers).\n*   History of uncontrolled or significant cardiovascular disease.\n*   Chronic hepatitis.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

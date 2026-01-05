@@ -1,0 +1,280 @@
+{
+  "metadata": {
+    "case_id": 43,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T16:15:29.124427",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/43_NCT02380859.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/43_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 7,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.72,
+          0.86,
+          0.83,
+          0.7
+        ],
+        [
+          0.78,
+          0.92,
+          0.79,
+          0.68
+        ],
+        [
+          0.8,
+          0.9,
+          0.84,
+          0.62
+        ],
+        [
+          0.78,
+          0.78,
+          0.96,
+          0.7
+        ],
+        [
+          0.78,
+          0.9,
+          0.95,
+          0.78
+        ],
+        [
+          0.78,
+          0.78,
+          0.78,
+          0.97
+        ],
+        [
+          0.96,
+          0.78,
+          0.8,
+          0.74
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Postural Control - Reaction Time on the Limits of Stability Test (Smart Equitest Balance Master System)",
+            "description": "The participant stood on the platform in front of a monitor. Nine squares were presented on the monitor representing locations relative to the upright starting position: one in the centre of the screen (upright) and the remaining eight forming an ellipse around the central square. The participant's COG was indicated on the screen by the position of a stick figure avatar. At the beginning of each trial the participant was instructed to stand upright, keeping the COG cursor over the central target. A circular target appeared in one of eight other targets. The participant was required to move the COG cursor towards the second target as quickly and as accurately as possible by leaning their body while keeping their feet in the same location, and to then hold a position as close to the target as possible. Reacting times were recorded for 8 trials per location. Mean change (post-pre) in seconds",
+            "timeFrame": "Baseline (Day 0) and Day 15"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Postural Control - Maximum Velocity on the Limits of Stability Test (Smart Equitest Balance Master System)",
+            "description": "The participant stood on the platform in front of a monitor. Nine squares were presented on the monitor representing locations relative to the upright starting position: one in the centre of the screen (upright) and the remaining eight forming an ellipse around the central square. The participant's COG was indicated on the screen by the position of a stick figure avatar. At the beginning of each trial the participant was instructed to stand upright, keeping the COG cursor over the central target. A circular target appeared in one of eight other targets. The participant was required to move the COG cursor towards the second target as quickly and as accurately as possible by leaning their body while keeping their feet in the same location, and to then hold a position as close to the target as possible. Maximum velocity was recorded for 8 trials per location.",
+            "timeFrame": "Baseline (Day 0) and Day 15"
+          },
+          "pred_item": {
+            "measure": "Change in postural control measured by Limits of Stability test",
+            "description": "Measures ability to displace center of gravity relative to feet without losing balance or taking a step. Outcomes include reaction time, maximum movement velocity, and maximum extension of center of gravity over the feet.",
+            "timeFrame": "Baseline (Day 1) and 1 day post-treatment (Day 15)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Postural Control - Maximum Extension on the Limits of Stability Test (Smart Equitest Balance Master System)",
+            "description": "The participant stood on the platform in front of a monitor. Nine squares were presented on the monitor representing locations relative to the upright starting position: one in the centre of the screen (upright) and the remaining eight forming an ellipse around the central square. The participant's COG was indicated on the screen by the position of a stick figure avatar. At the beginning of each trial the participant was instructed to stand upright, keeping the COG cursor over the central target. A circular target appeared in one of eight other targets. The participant was required to move the COG cursor towards the second target as quickly and as accurately as possible by leaning their body while keeping their feet in the same location, and to then hold a position as close to the target as possible. Maximum extension of the COG over the feet was recorded for 8 trials per location.",
+            "timeFrame": "Baseline (Day 0) and Day 15"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Postural Control - Composite Score on the Sensory Organisation Test SMART EquiTest Balance Master",
+            "description": "The participant is asked to maintain an upright posture under six different conditions of sensory feedback:\n\n* Condition 1:Normal vision, fixed support\n* Condition 2:Absent vision, fixed support\n* Condition 3:Sway-referenced vision, fixed support\n* Condition 4:Normal vision, sway-referenced support\n* Condition 5:Absent vision, sway-referenced support\n* Condition 6:Sway-referenced vision, sway-referenced support\n\nThe equilibrium score for each condition compares the subject's anterior/posterior (AP) sway during each trial to the theoretical sway stability limit of 12.5 degrees. A composite equilibrium score (0-100, higher score indicates better outcome) quantifies the overall COG sway or postural stability across the sensory conditions and is calculated by:\n\n* Independently averaging the score for conditions 1 and 2;\n* Adding these two scores to the equilibrium scores from each trial of sensory conditions 3, 4, 5, and 6; and\n* Dividing that sum by the total number of trials.",
+            "timeFrame": "Baseline (Day 0) and Day 15"
+          },
+          "pred_item": {
+            "measure": "Change in postural control measured by Sensory Organization Test",
+            "description": "Measures postural control under different somatosensory, visual, and vestibular feedback conditions. Provides composite equilibrium score and center of gravity alignment in forward-backward plane.",
+            "timeFrame": "Baseline (Day 1) and 1 day post-treatment (Day 15)"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Postural Control - Forward-backward Displacement of Centre of Gravity on the Sensory Organisation Test SMART EquiTest Balance Master",
+            "description": "The participant is asked to maintain an upright posture under different conditions of sensory feedback. Proprioceptive feedback to the feet and joints is manipulated by allowing the platform to tilt to directly follow the participant's anteroposterior body sway (constant proprioception) or by maintaining the standing platform in a fixed horizontal position (normal proprioceptive feedback). Visual feedback is provided by asking the participant to close their eyes (no visual feedback), asking the participant to open their eyes and allowing the visual surround to tilt directly following the participant's anterioposterior body sway (constant visual feedback), or by asking the participant to keep their eyes open and maintaining the visual surround in a fixed position (normal visual feedback). Forward-backward displacement of COG is recorded in degrees.",
+            "timeFrame": "Baseline (Day 0) and Day 15"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 3,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Postural Control - Composite Latency Score on the Motor Control Test",
+            "description": "The MCT assesses the ability of the automatic motor system to quickly recover following an unexpected external disturbance. Sequences of small, medium or large platform translations (scaled to the patient's height) in forward and backward directions elicit automatic postural responses. Translation of the surface in one horizontal direction results in displacement of the COG away from center in the opposite direction relative to the base of support. To restore normal balance, a quick movement of the COG back to the center position is required. A composite latency value is provided as the time in milliseconds between the force plate translation and the patient's active corrective responses, averaged across all translation sizes and directions.",
+            "timeFrame": "Baseline (Day 0) and Day 15"
+          },
+          "pred_item": {
+            "measure": "Change in postural control measured by Motor Control Test",
+            "description": "Assesses ability of automatic motor system to recover following unexpected external disturbance. Provides composite latency value (time in milliseconds between force plate translation and corrective responses).",
+            "timeFrame": "Baseline (Day 1) and 1 day post-treatment (Day 15)"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Postural Control - Composite Latency Score on the Berg Balance Scale",
+            "description": "Berg Balance Scale. This 14-item test assesses balance during different tasks. Items consist of specific items such as standing with eyes closed, retrieving an object from the floor, and turning to look behind. The assessor rates the patient's performance from 0 (\"lowest level of function\") to 4 (\"highest level of function\") and a total is calculated out of a maximum score of 56.",
+            "timeFrame": "Baseline (Day 0) and Day 15"
+          },
+          "pred_item": {
+            "measure": "Change in postural control measured by Berg Balance Scale",
+            "description": "14-item test assessing static and dynamic balance. Performance on each item rated from 0 (lowest level of function) to 4 (highest level of function) with a total score out of 56.",
+            "timeFrame": "Baseline (Day 1) and 1 day post-treatment (Day 15)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 8,
+      "similarity_matrix": [
+        [
+          0.7,
+          0.74,
+          0.96,
+          0.42,
+          0.08,
+          0.3,
+          0.2,
+          0.32
+        ],
+        [
+          0.78,
+          0.78,
+          0.9,
+          0.4,
+          0.1,
+          0.3,
+          0.18,
+          0.3
+        ],
+        [
+          0.98,
+          0.86,
+          0.72,
+          0.6,
+          0.15,
+          0.4,
+          0.55,
+          0.25
+        ],
+        [
+          0.78,
+          0.98,
+          0.72,
+          0.7,
+          0.35,
+          0.4,
+          0.4,
+          0.35
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Gait - Step Length on the Walk Across Test (SMART Equitest Balance Master)",
+            "description": "The WA quantifies characteristics of gait as the patient walks across the length of the force plate. The test characterizes steady state gait by having the patient begin well behind and continuing beyond the force plate. Measured parameters are average step width, average step length, speed and step length symmetry.",
+            "timeFrame": "Baseline (Day 0) and Day 15"
+          },
+          "pred_item": {
+            "measure": "Change in gait measured by Walk Across test",
+            "description": "Quantifies characteristics of steady state gait as patient walks across force plate. Average step length and speed recorded.",
+            "timeFrame": "Baseline (Day 1) and 1 day post-treatment (Day 15)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Gait - Step Speed in the Walk Across (SMART Equitest Balance Master)",
+            "description": "The WA quantifies characteristics of gait as the patient walks across the length of the force plate. The test characterizes steady state gait by having the patient begin well behind and continuing beyond the force plate. Measured parameters are average step width, average step length, speed and step length symmetry.",
+            "timeFrame": "Baseline (Day 0) and Day 15"
+          },
+          "pred_item": {
+            "measure": "Change in gait measured by Functional Gait Assessment",
+            "description": "10-item test assessing dynamic balance and postural stability during gait. Performance scored from 0 (severe impairment) to 3 (normal) for each item with total out of 30.",
+            "timeFrame": "Baseline (Day 1) and 1 day post-treatment (Day 15)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Gait - Timed Up and Go Task",
+            "description": "Timed Up and Go Test (TUG). Patients are seated in a chair and instructed to stand up, walk three meters, turn around, walk back, and sit down. The time (in seconds) is recorded.",
+            "timeFrame": "Baseline (Day 0) and Day 15"
+          },
+          "pred_item": {
+            "measure": "Change in gait measured by Timed Up and Go test",
+            "description": "Time (in seconds) for patient to stand up from seated position, walk 3 meters, turn around, walk back, and sit down.",
+            "timeFrame": "Baseline (Day 1) and 1 day post-treatment (Day 15)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Gait - Functional Gait Assessment",
+            "description": "Functional Gait Assessment. This 10-item test assesses dynamic balance and postural stability during gait. Items consist of specific walking tasks such as stepping over an obstacle, changing speed of walking upon the assessor's instruction, and walking backwards. The assessor scores the patient's performance from 0 (\"severe impairment\") to 3 (\"normal\") and a total is calculated out of 30.",
+            "timeFrame": "Baseline (Day 0) and Day 15"
+          },
+          "pred_item": {
+            "measure": "Change in freezing of gait measured by New Freezing of Gait Questionnaire",
+            "description": "9-item questionnaire evaluating impact and severity of freezing of gait on locomotion and daily activities. Items scored from 0 or 1 to 3 or 4, with total out of 28.",
+            "timeFrame": "Baseline (Day 1), 1 day post (Day 15), 1 week post (Week 3), 1 month post (Week 7), and 3 months post (Week 15)"
+          }
+        }
+      ]
+    }
+  ]
+}

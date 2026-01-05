@@ -1,0 +1,121 @@
+{
+  "metadata": {
+    "case_id": 24,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:21:01.629091",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/24_NCT00195091.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/24_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.7,
+          0.4,
+          0.4,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "id": "0309006307",
+            "type": "OTHER",
+            "domain": "Weill Cornell Medical College"
+          },
+          "pred_item": {
+            "id": "0611008853",
+            "type": "NIH",
+            "domain": "Weill Cornell Medicine",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Tetrathiomolybdate (TM)",
+            "type": "EXPERIMENTAL",
+            "description": "Induction period - TM 40 mg is administered three x per day with meals and TM 60 mg at bedtime for a total of 4 doses (180 mg) per day.\n\nMaintenance Period - Total TM dose per day will be in 20 mg increments to tailor the therapy to individualized patient needs to maintain the Cp level at 5-17mg/dL. Thus all dose modifications will be dependent on individual patient Cp levels. TM 40 mg p.o. BID with meals and TM 20 mg at bedtime. Subjects who have no evidence of disease (NED) and are receiving a benefit of TM can continue taking the drug for up to 120 months.",
+            "interventionNames": [
+              "Drug: Tetrathiomolybdate"
+            ]
+          },
+          "pred_item": {
+            "label": "Tetrathiomolybdate",
+            "type": "EXPERIMENTAL",
+            "description": "Breast cancer patients at high risk for relapse (including stage 4 no evidence of disease) received oral copper chelation therapy with tetrathiomolybdate (TM). In the preclinical mouse models described, TM was administered in drinking water at a dose of 0.7 mg/day, starting one week prior to orthotopic tumor implantation and continued through primary tumor growth and into the post-resection period.",
+            "interventionNames": [
+              "Tetrathiomolybdate"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Tetrathiomolybdate",
+            "description": "Induction with Tetrathiomolybdate (TM) Tetrathiomolybdate 40 mg. p.o. TID with meals and tetrathiomolybdate 60 mg at bedtime for a total of 4 doses (180 mg) per day.\n\nInduction goal Total tetrathiomolybdate dose per day = 180 mg until serum ceruloplasmin (Cp) level decreases to 5-15mg/dL.\n\nWhen target Cp window is reached, then the maintenance phase begins.\n\nMaintenance with Tetrathiomolybdate Total tetrathiomolybdate dose per day = 100 mg\n\nTetrathiomolybdate 40 mg p.o. BID with meals and tetrathiomolybdate 20 mg at bedtime.",
+            "armGroupLabels": [
+              "Tetrathiomolybdate (TM)"
+            ],
+            "otherNames": [
+              "TM"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Tetrathiomolybdate",
+            "description": "First-in-class oral copper chelating drug used to deplete systemic and intracellular copper. In this work, TM was used as an anti-metastatic agent in high-risk breast cancer. In mouse models it was administered via drinking water at 0.7 mg/day; in vitro it was used at low micromolar or nanomolar concentrations (e.g., 0.5 μM) that deplete copper without affecting viability. In the referenced phase II clinical trial (NCT00195091), TM was given orally in repeated 4‑week cycles with dose titrated to reduce ceruloplasmin and maintain copper at ~30% of baseline.",
+            "armGroupLabels": [
+              "Tetrathiomolybdate"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

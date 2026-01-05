@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "case_id": 2,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-28T03:25:58.793736",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/2_NCT03378635.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/2_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.08,
+          0.72
+        ],
+        [
+          0.15,
+          0.98,
+          0.2
+        ],
+        [
+          0.65,
+          0.2,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "label": "Dasiglucagon",
+            "type": "EXPERIMENTAL",
+            "description": "Single fixed dose (s.c.injection) of dasiglucagon",
+            "interventionNames": [
+              "Drug: Dasiglucagon"
+            ]
+          },
+          "pred_item": {
+            "label": "Dasiglucagon",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received a single subcutaneous dose of 0.6 mg dasiglucagon (ready-to-use aqueous formulation).",
+            "interventionNames": [
+              "Dasiglucagon"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Single fixed dose (s.c.injection) of placebo",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants received a single subcutaneous dose of placebo (matching aqueous formulation).",
+            "interventionNames": [
+              "Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "GlucaGen®",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Single fixed dose (s.c.injection) of GlucaGen®",
+            "interventionNames": [
+              "Drug: GlucaGen"
+            ]
+          },
+          "pred_item": {
+            "label": "Reconstituted Glucagon",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received a single subcutaneous dose of 1.0 mg reconstituted lyophilized glucagon.",
+            "interventionNames": [
+              "Reconstituted Glucagon (GlucaGen)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.18,
+          0.6
+        ],
+        [
+          0.7,
+          0.4,
+          0.9
+        ],
+        [
+          0.15,
+          0.97,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Dasiglucagon",
+            "description": "Glucagon analog",
+            "armGroupLabels": [
+              "Dasiglucagon"
+            ],
+            "otherNames": [
+              "ZP4207"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Dasiglucagon",
+            "description": "Ready-to-use, next-generation glucagon analog in aqueous formulation provided in a prefilled syringe, administered as a 0.6 mg subcutaneous dose.",
+            "armGroupLabels": [
+              "Dasiglucagon"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "GlucaGen",
+            "description": "Native glucagon",
+            "armGroupLabels": [
+              "GlucaGen®"
+            ],
+            "otherNames": [
+              "GlucaGen HypoKit"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Reconstituted Glucagon (GlucaGen)",
+            "description": "Lyophilized powder requiring reconstitution (1 mg/mL glucagon for injection), administered as a 1.0 mg subcutaneous dose.",
+            "armGroupLabels": [
+              "Reconstituted Glucagon"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo for dasiglucagon",
+            "armGroupLabels": [
+              "Placebo"
+            ],
+            "otherNames": [
+              "Placebo for dasiglucagon"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Aqueous formulation matching dasiglucagon administered as a 0.6 mL subcutaneous dose.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time to Plasma Glucose Recovery",
+            "description": "Plasma glucose recovery is defined as first increase in plasma glucose of ≥20 mg/dL (1.1 mmol/L) from baseline without administration of rescue intravenous glucose. The outcome measure used a Kaplan-Meier estimate with 95% confidence interval. Treatment groups without censoring utilized a distribution free method to compute the confidence interval for median time.",
+            "timeFrame": "0-45 minutes after dosing"
+          },
+          "pred_item": {
+            "measure": "Time to plasma glucose recovery",
+            "description": "Defined as time from dosing to the first increase in plasma glucose of ≥20 mg/dL (1.1 mmol/L) from baseline (time of injection) without rescue intravenous glucose. Individuals were considered not to have recovered if rescue intravenous glucose was administered or if recovery was not achieved within 45 min.",
+            "timeFrame": "From dosing up to 45 minutes"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 11,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.99,
+          0.86
+        ],
+        [
+          0.82,
+          0.98
+        ],
+        [
+          0.6,
+          0.3
+        ],
+        [
+          0.75,
+          0.78
+        ],
+        [
+          0.18,
+          0.32
+        ],
+        [
+          0.2,
+          0.35
+        ],
+        [
+          0.25,
+          0.3
+        ],
+        [
+          0.15,
+          0.4
+        ],
+        [
+          0.1,
+          0.08
+        ],
+        [
+          0.4,
+          0.45
+        ],
+        [
+          0.5,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Plasma Glucose Recovery",
+            "description": "Plasma glucose recovery within 30 minutes, within 20 minutes, within 15 minutes, and within 10 minutes after study drug injection without administration of rescue IV glucose. Plasma glucose recovery was defined as the first increase in plasma glucose of ≥20 mg/dL (1.1 mmol/L) from baseline without administration of rescue intravenous glucose.",
+            "timeFrame": "0-30 minutes after dosing: assessed at 10, 15, 20 and 30 minutes after study drug injection"
+          },
+          "pred_item": {
+            "measure": "Proportion of participants achieving plasma glucose recovery",
+            "description": "The proportion of participants achieving plasma glucose recovery (increase of ≥20 mg/dL without rescue) within specified time points.",
+            "timeFrame": "At 10, 15, 20, and 30 minutes after dosing"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Plasma Glucose Changes From Baseline",
+            "description": "Plasma glucose changes from baseline at 30 minutes, 20 minutes, 15 minutes and 10 minutes after study drug injection without administration of rescue intravenous glucose",
+            "timeFrame": "0-30 minutes after dosing: assessed at 10, 15, 20 and 30 minutes after study drug injection"
+          },
+          "pred_item": {
+            "measure": "Plasma glucose change from baseline",
+            "description": "The absolute change in plasma glucose concentration from baseline at specified time points.",
+            "timeFrame": "At 10, 15, 20, and 30 minutes after dosing"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Time to Target",
+            "description": "Time to first plasma glucose concentration ≥70 mg/dL (3.9 mmol/L) without administration of rescue intravenous glucose. The outcome measure used a Kaplan-Meier estimate with 95% confidence interval. Treatment groups without censoring utilized a distribution free method to compute the confidence interval for median time.",
+            "timeFrame": "0-45 minutes after dosing"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Pharmacodynamics - Area Under the Effect Curve",
+            "description": "Plasma glucose response as area under the effect curve (AUE) above baseline from time zero to 30 minutes. Samples were collected pre-dose, and at 4, 6, 8, 10, 12, 15, 17, 20, 25 and 30 minutes after dosing.",
+            "timeFrame": "0-30 minutes after dosing"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Pharmacokinetics - Area Under the Plasma Concentration Curve",
+            "description": "Area under the drug concentration curve from time zero to 90 minutes, AUC0-90min. To calculate the AUC the standard trapezoidal method was used, based on actual rather than nominal time points. Samples were collected pre-dose, and at 15, 30, 35, 40, 50, 60, 90 and 120 minutes after dosing.",
+            "timeFrame": "0-90 minutes after dosing"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Pharmacokinetics - Area Under the Plasma Concentration Curve",
+            "description": "Area under the drug concentration curve from time zero to 120 minutes, AUC0-120min. To calculate the AUC the standard trapezoidal method was used, based on actual rather than nominal time points. Samples were collected pre-dose, and at 15, 30, 35, 40, 50, 60, 90 and 120 minutes after dosing.",
+            "timeFrame": "0-120 minutes after dosing"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Pharmacokinetics - Maximum Plasma Concentration",
+            "description": "Maximum plasma drug concentration (Cmax). Maximum plasma drug concentration was determined as the maximum of all valid plasma dasiglucagon/glucagon concentrations. Samples were collected pre-dose, and at 15, 30, 35, 40, 50, 60, 90 and 120 minutes after dosing.",
+            "timeFrame": "0-120 minutes after dosing"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Pharmacokinetics - Time to Maximum Plasma Concentration",
+            "description": "Time to maximum plasma drug concentration (tmax). Median Tmax was determined as the time point where the maximum of all valid plasma dasiglucagon/glucagon concentration measurements for each measurement series was observed. Samples were collected pre-dose, and at 15, 30, 35, 40, 50, 60, 90 and 120 minutes after dosing.",
+            "timeFrame": "0-120 minutes after dosing"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Immunogenicity - Occurence of Anti-drug Antibodies",
+            "description": "Occurence of antibodies against dasiglucagon/GlucaGen",
+            "timeFrame": "28 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Rescue Infusion of IV Glucose During the Hypoglycemic Clamp Procedure",
+            "description": "Number of patients receiving administration of rescue infusion of IV glucose during the hypoglycemic clamp procedure. IV = intravenous",
+            "timeFrame": "0-45 minutes after dosing"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Time to First Rescue Infusion of IV Glucose",
+            "description": "Time to first rescue administration of rescue infusion of IV glucose. IV = intravenous",
+            "timeFrame": "0-45 minutes after dosing"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

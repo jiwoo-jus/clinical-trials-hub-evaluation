@@ -1,0 +1,172 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01590433",
+      "secondaryIdInfos": [
+        {
+          "id": "UL 1TR002541",
+          "type": "NIH",
+          "domain": "National Institutes of Health"
+        }
+      ],
+      "organization": {
+        "fullName": "Beth Israel Deaconess Medical Center",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "The present study examines patterns of weight loss among overweight and obese women who demonstrated early robust response to twice daily exenatide treatment compared to those treated with hypocaloric diet and matched placebo injections. The primary outcome was long-term change in body weight among early high responders to either treatment. An exploratory metabolomic analysis was also performed to identify physiologic predictors of response.",
+      "detailedDescription": "This 52-week single-blind interventional trial randomized 182 women (BMI 25-48 kg/m2) to treatment with either exenatide alone (titrated to maximum dosing of 10mcg twice daily) or matched placebo injections plus a hypocaloric diet (500 kcal/day reduction based on measured resting metabolic rate). There was no run-in period. At 12 weeks, subjects in both groups who demonstrated ≥ 5% weight loss were characterized as high responders and continued participating in the study for up to 52 weeks. Those who did not achieve 5% weight loss were categorized as low responders and their participation ended. Participants who lost ≥10% body weight at any point were classified as \"super responders.\"\n\nBody weight, waist circumference, vital signs, and body composition (via bioelectrical impedance analysis) were assessed at each visit. Comprehensive metabolic visits occurred at weeks 0, 12, 24, and 52, including blood draws for hematology, electrolyte, and lipid panels, measurement of resting metabolic rate using indirect calorimetry, and assessment of the thermic effect of food via a liquid meal tolerance test. Additionally, a targeted liquid chromatography-mass spectrometry (LC-MS) method measuring ~150 known metabolites was utilized in an exploratory analysis to identify metabolites associated with treatment response."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Overweight",
+        "Obesity"
+      ],
+      "keywords": [
+        "Exenatide",
+        "Hypocaloric Diet",
+        "Weight Loss",
+        "Metabolomics",
+        "GLP-1 Receptor Agonist",
+        "Predictors of Response"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants were randomized 3:2 to treatment with either exenatide (n=127) titrated to maximum dosing of 10mcg daily or hypocaloric diet with placebo injections (n=55).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "52-week single-blind interventional trial. All subjects were blinded to study treatment. Body weight, waist circumference, vital signs and body composition were assessed at each visit by study staff who were blinded to study treatment.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 182,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Exenatide",
+          "type": "EXPERIMENTAL",
+          "description": "Participants were treated with exenatide titrated to maximum dosing of 10mcg daily. Subjects self-administered twice daily subcutaneous injections.",
+          "interventionNames": [
+            "Drug: Exenatide"
+          ]
+        },
+        {
+          "label": "Hypocaloric Diet with Placebo",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received matched placebo injections plus nutrition counseling for a hypocaloric diet. Subjects self-administered twice daily subcutaneous injections of matched placebo.",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Behavioral: Hypocaloric Diet"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Exenatide",
+          "description": "Twice daily subcutaneous injections titrated to maximum dosing of 10mcg daily.",
+          "armGroupLabels": [
+            "Exenatide"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matched placebo injections administered twice daily.",
+          "armGroupLabels": [
+            "Hypocaloric Diet with Placebo"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Hypocaloric Diet",
+          "description": "Nutrition counseling at every study visit, which included recommendations for a hypocaloric diet (500 kcal/day reduction, with total caloric requirement determined from measured resting metabolic rate).",
+          "armGroupLabels": [
+            "Hypocaloric Diet with Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in body weight",
+          "description": "Long-term change in body weight among early high responders (defined as individuals achieving ≥ 5% weight loss at 12 weeks) to either exenatide or hypocaloric diet treatment.",
+          "timeFrame": "Baseline to Week 52"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in waist circumference",
+          "description": "Assessment of changes in waist circumference.",
+          "timeFrame": "Weeks 0, 12, 24, and 52"
+        },
+        {
+          "measure": "Change in lipid parameters",
+          "description": "Assessment of lipid panels including total cholesterol, LDL cholesterol, HDL cholesterol, and triglycerides.",
+          "timeFrame": "Weeks 0, 12, 24, and 52"
+        },
+        {
+          "measure": "Change in resting energy expenditure",
+          "description": "Measured using indirect calorimeter.",
+          "timeFrame": "Weeks 0, 12, 24, and 52"
+        },
+        {
+          "measure": "Change in body composition",
+          "description": "Measured using bioelectrical impedance analysis.",
+          "timeFrame": "Weeks 0, 12, 24, and 52"
+        },
+        {
+          "measure": "Predictors of weight loss response",
+          "description": "Identification of metabolic characteristics (including age, weight, BMI, total cholesterol, resting energy expenditure, and waist circumference) that may predict robust weight loss response.",
+          "timeFrame": "Baseline"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Metabolomic analysis",
+          "description": "Exploratory analysis to identify metabolites associated with treatment response using targeted liquid chromatography-mass spectrometry (LC-MS) to measure ~150 known metabolites.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Thermic effect of food",
+          "description": "Assessment of the thermic effect of food with a liquid meal tolerance test.",
+          "timeFrame": "Weeks 0, 12, 24, and 52"
+        },
+        {
+          "measure": "Postprandial triglyceride and insulin levels",
+          "description": "Measured 1, 2, 3, and 4 hours following ingestion of a liquid meal (Boost).",
+          "timeFrame": "Weeks 0, 12, 24, and 52"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Age 18-70\n- BMI 25.0 - 48 kg/m2\n- No acute or poorly controlled chronic medical problems\n\nExclusion Criteria:\n- Diagnosis of diabetes\n- History of pancreatitis\n- Pregnancy\n- Lactation\n- Previous use of exenatide",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04492722",
+      "orgStudyIdInfo": null,
+      "secondaryIdInfos": [
+        {
+          "id": "2020-002263-54",
+          "type": "EUDRACT_NUMBER",
+          "domain": "EudraCT"
+        }
+      ],
+      "organization": {
+        "fullName": "AstraZeneca",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "FLAP Inhibition in Renal Disease",
+      "officialTitle": "A Phase 2b, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Evaluate the Efficacy and Safety of AZD5718 in Patients With Proteinuric CKD With or Without Type 2 Diabetes",
+      "acronym": "FLAIR"
+    },
+    "descriptionModule": {
+      "briefSummary": "FLAIR is a phase 2b, randomized, double-blind, placebo-controlled, multicenter study designed to evaluate the efficacy, safety, and pharmacokinetics of AZD5718 in patients with proteinuric chronic kidney disease (CKD), with or without type 2 diabetes. AZD5718 is a selective 5-lipoxygenase activating protein (FLAP) inhibitor that suppresses leukotriene production. The study assesses whether AZD5718 reduces albuminuria compared to placebo, both alone and when combined with dapagliflozin.",
+      "detailedDescription": "The study aims to evaluate the dose–response effect of AZD5718. Participants are randomized 1:1:1:1 to receive oral AZD5718 at 3 different doses or matching placebo tablets once daily for 12 weeks (first treatment period). This is followed by an 8-week extension (second treatment period) during which all participants receive dapagliflozin (10 mg/d) in addition to their assigned study drug (AZD5718 or placebo), representing an anticipated future standard of care. The primary efficacy objective is to evaluate the dose–response effect of AZD5718 plus dapagliflozin on the urinary albumin-to-creatinine ratio (UACR) after 20 weeks compared with placebo. Key secondary objectives include the dose–response effect of AZD5718 plus current standard of care on UACR at 12 weeks and acute effects on estimated glomerular filtration rate (eGFR). Exploratory objectives include assessing biomarkers of the 5-lipoxygenase pathway (e.g., leukotriene E4) and potential effects on diabetic retinopathy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Kidney Disease",
+        "Proteinuria",
+        "Diabetic Kidney Disease",
+        "Type 2 Diabetes Mellitus"
+      ],
+      "keywords": [
+        "AZD5718",
+        "FLAP inhibitor",
+        "Leukotrienes",
+        "Albuminuria",
+        "Dapagliflozin",
+        "SGLT2 inhibitor",
+        "Inflammation",
+        "Renal insufficiency"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants are randomized 1:1:1:1 to receive oral AZD5718 at 3 different doses or matching placebo tablets once daily for 12 weeks, followed by the same treatment plus dapagliflozin 10 mg/d for 8 weeks.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Participants and the study team are blinded to treatment assignments throughout the study. Investigators remain blinded unless they need to know a participant’s assigned treatment in a medical emergency.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 632,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "AZD5718 Dose 1",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive oral AZD5718 at Dose 1 once daily for 12 weeks. Followed by an 8-week extension where they receive the same AZD5718 dose plus dapagliflozin 10 mg/d.",
+          "interventionNames": [
+            "Drug: AZD5718",
+            "Drug: Dapagliflozin"
+          ]
+        },
+        {
+          "label": "AZD5718 Dose 2",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive oral AZD5718 at Dose 2 once daily for 12 weeks. Followed by an 8-week extension where they receive the same AZD5718 dose plus dapagliflozin 10 mg/d.",
+          "interventionNames": [
+            "Drug: AZD5718",
+            "Drug: Dapagliflozin"
+          ]
+        },
+        {
+          "label": "AZD5718 Dose 3",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive oral AZD5718 at Dose 3 once daily for 12 weeks. Followed by an 8-week extension where they receive the same AZD5718 dose plus dapagliflozin 10 mg/d.",
+          "interventionNames": [
+            "Drug: AZD5718",
+            "Drug: Dapagliflozin"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants receive matching placebo tablets once daily for 12 weeks. Followed by an 8-week extension where they receive placebo plus dapagliflozin 10 mg/d.",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Drug: Dapagliflozin"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "AZD5718",
+          "description": "A potent, selective, and reversible 5-lipoxygenase activating protein (FLAP) inhibitor administered orally once daily.",
+          "armGroupLabels": [
+            "AZD5718 Dose 1",
+            "AZD5718 Dose 2",
+            "AZD5718 Dose 3"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matching placebo tablets administered orally once daily.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Dapagliflozin",
+          "description": "Sodium-glucose cotransporter-2 (SGLT2) inhibitor administered at 10 mg/d during the 8-week extension period (weeks 13-20) to all participants.",
+          "armGroupLabels": [
+            "AZD5718 Dose 1",
+            "AZD5718 Dose 2",
+            "AZD5718 Dose 3",
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Urinary Albumin-to-Creatinine Ratio (UACR)",
+          "description": "Dose–response effect of AZD5718 plus dapagliflozin (anticipated future standard of care) on UACR. The geometric mean UACR is calculated from triplicate first morning urine samples collected for 3 consecutive days.",
+          "timeFrame": "Baseline to Week 20"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Urinary Albumin-to-Creatinine Ratio (UACR)",
+          "description": "Dose–response effect of AZD5718 plus current standard of care on UACR.",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Safety and Tolerability",
+          "description": "Assessment of adverse events, serious adverse events, physical examinations, vital signs (blood pressure, heart rate, respiratory rate, body temperature, pulse oximetry), electrocardiography, and clinical laboratory tests.",
+          "timeFrame": "Through study completion (approximately 24 weeks)"
+        },
+        {
+          "measure": "Change in Ambulatory Blood Pressure",
+          "description": "Assessment of the change in 24-hour mean systolic blood pressure.",
+          "timeFrame": "Baseline to Week 12"
+        },
+        {
+          "measure": "Pharmacokinetics of AZD5718",
+          "description": "Measurement of AZD5718 plasma concentrations. Includes pre-dose samples throughout study and post-dose samples (1-12 hours) in a subgroup.",
+          "timeFrame": "Throughout the study (Weeks 1 to 20)"
+        },
+        {
+          "measure": "Change in Estimated Glomerular Filtration Rate (eGFR)",
+          "description": "Effect of AZD5718 on kidney function with and without dapagliflozin, calculated using the Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) equation.",
+          "timeFrame": "Throughout the study (Weeks 1 to 20)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Leukotriene E4 Levels",
+          "description": "Dose–response effect of AZD5718 on urinary and plasma leukotriene E4 levels to assess inhibition of the 5-lipoxygenase pathway.",
+          "timeFrame": "Throughout the study"
+        },
+        {
+          "measure": "Biomarkers of Response",
+          "description": "Sample collection for investigation of biomarkers that respond to treatment with AZD5718 (including high-sensitivity C-reactive protein, interleukin-6, and PRO-C6).",
+          "timeFrame": "Throughout the study"
+        },
+        {
+          "measure": "Biomarkers Predicting Response",
+          "description": "Sample collection to investigate biomarkers that may predict response to treatment with AZD5718.",
+          "timeFrame": "Baseline"
+        },
+        {
+          "measure": "Diabetic Retinopathy Assessment",
+          "description": "Effect of AZD5718 on diabetic retinopathy in patients with diabetic kidney disease, assessed by visual acuity (ETDRS charts) and central subfield thickness (optical coherence tomography).",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Pharmacokinetics of Dapagliflozin",
+          "description": "Measurement of dapagliflozin plasma concentrations.",
+          "timeFrame": "After 8 weeks of dapagliflozin treatment (Week 20)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n*   Men and women 18 years of age or older\n*   Body mass index of 18–45 kg/m2\n*   Albuminuric CKD (estimated glomerular filtration rate [eGFR] of 20–75 ml/min per 1.73 m2 and albuminuria of 200–5000 mg albumin/g creatinine)\n*   Stable, reasonably controlled blood pressure\n*   Must be on stable doses of ACE inhibitors and/or ARBs for at least 4 weeks before randomization (if able to tolerate these medications)\n*   Patients already receiving SGLT2 inhibitors or glucagon-like peptide 1 receptor agonists must be on a stable dose for at least 4 weeks before randomization\n*   Confirmed diagnosis of type 2 diabetes mellitus or nondiabetic kidney disease\n*   Men must be surgically sterile or using highly effective contraceptives\n*   Women must be unable to have children (surgically sterile or postmenopausal)\n\nExclusion Criteria:\n\n*   Hepatitis B or C\n*   Polycystic kidney disease or anatomical causes of chronic kidney disease\n*   Type 1 diabetes mellitus\n*   Severe hepatic impairment (Child–Pugh class C)\n*   Severe comorbidities or history of disease or disorder that would put patient at risk, affect participation, or influence study results\n*   Confirmed COVID-19 in the past 4 weeks or severe COVID-19 at any point\n*   Ongoing use of any biologic drug and/or small molecule targeting the immune system\n*   Use of drugs that affect serum creatinine concentration in the past month\n*   Concomitant use of medications associated with torsades de pointes or strong inducers/inhibitors of cytochrome P450 3A4\n*   Treatment with zileuton, leukotriene receptor antagonists (e.g., montelukast) or cilastatin in the past month\n*   Treatment with simvastatin, lovastatin, or atorvastatin at doses more than 40 mg per day in the past month\n*   Hypersensitivity to drugs with a chemical structure or class similar to that of AZD5718\n*   Pregnancy or breastfeeding",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

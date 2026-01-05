@@ -1,0 +1,40 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,FN,FN,NCT03261401,,False,0.0,,NCTId,protocolSection.identificationModule.nctId,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,FN,FN,"First-in-Human Trial of Single Ascending Dose, Multiple Ascending Dose and Malaria Challenge Model in Healthy Participants",,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,FN,FN,"A Phase I, First-in-Human, Randomized, Double-Blind, Placebo-Controlled Trial of Single and Multiple Ascending Doses of M5717 to Assess the Safety, Tolerability and Pharmacokinetic Profile of Oral Doses, and to Assess the Antimalarial Activity of M5717 Against Plasmodium Falciparum in Healthy Male and Female Adult Subjects",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,The primary purpose of this study was to investigate the safety and tolerability of M5717 and to characterize the Pharmacokinetics (PK) /Pharmacodynamic relationship between M5717 PK and parasite clearance in healthy participants following infection with Plasmodium falciparum.,,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,['Healthy'],,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,FN,FN,"['Healthy Participants', 'M5717', 'Malaria', 'Plasmodium falciparum']",,False,0.0,,Keyword,protocolSection.conditionsModule.keywords,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,FN,FN,INTERVENTIONAL,,False,0.0,,StudyType,protocolSection.designModule.studyType,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,FN,FN,['PHASE1'],,False,0.0,,Phase,protocolSection.designModule.phases,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,FN,FN,RANDOMIZED,,False,0.0,,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,FN,FN,PARALLEL,,False,0.0,,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,FN,FN,DOUBLE,,False,0.0,,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.whoMasked,FN,FN,"['PARTICIPANT', 'INVESTIGATOR']",,False,0.0,,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,FN,FN,88,,False,0.0,,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Genetic mutations in recrudescent Plasmodium falciparum populations,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,DNA sequence analysis of the P. falciparum eEF2 gene in recrudescent parasites to investigate potential mutations conferring resistance to M5717,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,At time of recrudescence (up to day 28 after dosing),,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Adult men and women of non-childbearing potential, with total body weight greater than or equal to 50.0 kilogram and body mass index (BMI) between 19.0 kilogram per meter square(kg/m\^2) and 29.9 kg/m\^2.
+* Healthy as assessed by the Investigator with no clinically significant abnormality identified on physical examination or laboratory evaluation and no active clinically significant disorder, condition, infection or disease that would pose a risk to participant safety or interfere with the trial evaluation, procedures, or completion.
+* Other protocol defined inclusion criteria could apply.
+
+Exclusion Criteria:
+
+* Participants with history or presence of clinically relevant respiratory, gastrointestinal, renal, hepatic, hematological, lymphatic, neurological, cardiovascular, psychiatric, musculoskeletal, genitourinary, immunological dermatological, connective tissue diseases or disorders.
+* Participants with history of relevant drug hypersensitivity, ascertained or presumptive allergy/hypersensitivity to the active drug substance and/or formulation ingredients; history of serious allergic reactions leading to hospitalization or any other allergic reaction in general, which the Investigator considers may affect the safety of the participant and/or outcome of the trial.
+* Participants who have any history of malaria.
+* Participants who have participated in a previous malaria vaccine trial.
+* Participants who have participated in a previous human malaria challenge trial.","Inclusion Criteria:
+- Healthy men and women of non-childbearing potential aged 18–55 years
+- For volunteer infection study: participants were required to be malaria naive
+
+Exclusion Criteria:
+- For volunteer infection study: individuals who met exclusion criteria associated with previous or concomitant medications and travel to malaria-endemic regions",True,0.7,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,TP,TP,55 Years,55 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,TP,TP,['ADULT'],['ADULT'],True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

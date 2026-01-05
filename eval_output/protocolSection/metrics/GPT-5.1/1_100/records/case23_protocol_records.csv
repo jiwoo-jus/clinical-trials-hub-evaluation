@@ -1,0 +1,125 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+GPT-5.1,protocolSection.identificationModule.nctId,TP,TP,NCT02487654,NCT02487654,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.orgStudyIdInfo.type,EV,EV,,OTHER,,,,OrgStudyIdType,protocolSection.identificationModule.orgStudyIdInfo.type,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.orgStudyIdInfo.link,EV,EV,,,,,,OrgStudyIdLink,protocolSection.identificationModule.orgStudyIdInfo.link,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[0].id,EV,EV,,10.1016/j.hrthm.2021.12.010,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[0].type,EV,EV,,REGISTRY,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,Heart Rhythm Journal / Elsevier DOI,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[0].link,EV,EV,,https://doi.org/10.1016/j.hrthm.2021.12.010,,,,SecondaryIdLink,protocolSection.identificationModule.secondaryIdInfos.link,True,False,True,True,False,False
+GPT-5.1,protocolSection.identificationModule.briefTitle,TP,TP,Ectopy Triggering Ganglionated Plexus Ablation to Prevent Atrial Fibrillation,GANGLIA-AF Trial of Ganglionated Plexus Ablation vs Pulmonary Vein Isolation in Paroxysmal Atrial Fibrillation,True,0.76,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.officialTitle,TP,FP,Ectopy Triggering Ganglionated Plexus Ablation to Prevent Atrial Fibrillation,,False,0.0,empty,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+GPT-5.1,protocolSection.descriptionModule.briefSummary,TP,TP,"Atrial fibrillation (AF) is a common heart rhythm disorder which can significantly affect a patient's quality of life and cause strokes. Abnormal electrical activity from the pulmonary veins are thought to be the most common cause of this condition. Current ablative strategy in drug refractory AF is pulmonary vein isolation (PVI), where the pulmonary veins are electrically isolated from the body of the left atrium. However, success rate of this procedure remain \~50-70% for a single procedure despite advances in mapping and ablation techniques.
+
+Ganglionated plexuses (GP) are dense clusters of nerves in the atria that are implicated in AF. Endocardial high frequency stimulation (HFS) delivered within the local atrial refractory period can trigger ectopy and AF from specific GP sites (ET-GP). The aim of this study was to understand the role of ET-GP ablation in the treatment of AF by comparing two different strategies:
+
+1. Pulmonary vein isolation alone
+2. GP ablation alone","This multicenter, randomized, controlled clinical trial (GANGLIA-AF; NCT02487654) enrolled patients with symptomatic, drug‑refractory paroxysmal atrial fibrillation who were referred for catheter ablation. The study tested whether selectively ablating ectopy‑triggering intrinsic cardiac ganglionated plexuses (GPs) using high‑frequency stimulation mapping, without performing standard pulmonary vein isolation (PVI), could better prevent recurrent atrial fibrillation and other atrial arrhythmias than conventional PVI. Patients were randomized to GP ablation alone or PVI and followed for 12 months with regular Holter monitoring. The primary outcome was any documented atrial arrhythmia of at least 30 seconds after a 90‑day blanking period. The study found that GP ablation did not reduce atrial arrhythmia recurrence more than PVI, although it used less radiofrequency energy and was associated with a greater reduction in antiarrhythmic drug use.",True,0.94,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+GPT-5.1,protocolSection.descriptionModule.detailedDescription,TP,TP,"This is a prospective, multi-centre study recruiting patients with paroxysmal AF indicated for AF ablation.
+
+180 patients will be recruited. Patients are randomised to either GP ablation alone or to PVI. All antiarrhythmics are stopped for at least 48 hours prior to their procedures.
+
+All have general anaesthesia and CARTO system (Biosense Webster, inc.) are used for 3D electroanatomical mapping of the left atrium.
+
+Patients randomised to GP ablation will have high frequency mapping performed within the atrial refractory period to identify ectopy or AF triggering GP (ET-GP) sites in the left atrium. Patients in this group will only have GP ablation and will not have pulmonary veins isolated.
+
+The primary endpoint is any documented atrial arrhythmia 30 seconds or more after a 3 month blanking period. This will be assessed for up to 12 months post-procedure, using 48hr Holter monitors at 3, 6, 9 and 12 month intervals.
+
+Secondary endpoints include mortality, major complications and redo procedures.","GANGLIA-AF (NCT02487654) was a prospective, multicenter, randomized, single‑blinded clinical trial conducted at three UK centers in patients with symptomatic, drug‑refractory paroxysmal atrial fibrillation (AF) who were clinically indicated for catheter ablation. The trial investigated the role of the intrinsic cardiac autonomic nervous system—specifically ganglionated plexuses (GPs)—as upstream triggers of AF and evaluated whether selective GP ablation (GPA) could perform as well as or better than standard pulmonary vein isolation (PVI) without requiring concomitant PVI.
+
+Patients were randomized to either:
+1) Selective GP ablation without PVI, or
+2) Conventional wide antral PVI.
+
+Randomization used a permuted block ""sealed envelope"" approach, initially 2:1 (favoring GPA) and subsequently 1:1, and patients and their usual‑care cardiologists were blinded to treatment allocation. Ablation operators and outcome assessors were unblinded.
+
+In the GPA arm, high‑frequency stimulation (HFS) was applied endocardially across the left atrium to functionally map GPs. Two functional classes of GPs were targeted:
+- Ectopy‑triggering GPs (ET‑GPs), identified using synchronized HFS delivered within the local atrial refractory period during sinus rhythm to avoid myocardial capture and selectively stimulate autonomic fibers. A positive ET‑GP response was defined as reproducible induction of pulmonary vein or atrial ectopy, atrial fibrillation, or atrial tachycardia.
+- Atrioventricular dissociating GPs (AVD‑GPs), identified using continuous HFS during AF, defined by a ≥50% increase in the R‑R interval compared with baseline.
+
+The primary mapping focus was on ET‑GPs, but if synchronized HFS resulted in sustained or incessant AF that could not be terminated despite ET‑GP ablation, continuous HFS was used to identify AVD‑GPs, which were then ablated as well to facilitate restoration of sinus rhythm. Ablation consisted of clusters of point‑by‑point radiofrequency lesions around each GP site, with repeat HFS to confirm functional elimination. No intentional PVI was performed in the GPA arm, and pulmonary veins remained electrically connected unless affected by proximity of GP lesions.
+
+In the PVI arm, standard wide antral circumferential radiofrequency ablation was performed around the pulmonary veins, with confirmation of durable entry and exit block. In more than 60% of PVI cases, an ablation index was used to guide lesion delivery.
+
+All patients underwent general anesthesia, transseptal access, heparinization, and left atrial electroanatomic mapping. Antiarrhythmic drugs and beta‑blockers were stopped before the procedure, and amiodarone was discontinued at least two months prior. After ablation, patients were followed over 12 months with continuous clinical contact and 48‑hour Holter monitoring at 3, 6, 9, and 12 months. Additional Holters or device interrogations (pacemaker, loop recorder, or personal ECG devices) were performed if symptoms occurred.
+
+The primary endpoint was any documented atrial arrhythmia episode (AF, atrial tachycardia, or atrial flutter) lasting at least 30 seconds, recorded by Holter, surface ECG, or implanted/personal monitoring devices, occurring after a 90‑day post‑ablation blanking period. Secondary endpoints included the need for repeat AF ablation, procedural complications (e.g., tamponade, pericarditis, bleeding, thrombosis, phrenic nerve palsy), and mortality. Patients were encouraged, but not mandated, to discontinue antiarrhythmic drugs after the blanking period if asymptomatic.
+
+A total of 116 patients were randomized; after exclusions due to protocol violations and withdrawals, 102 patients (52 GPA, 50 PVI) were analyzed per protocol. The population had a mean age of approximately 63 years and was predominantly male. Baseline differences included a higher prevalence of antiarrhythmic drug use in the GPA group and a higher proportion of CHA2DS2‑VASc score of 1 in the PVI group.
+
+Procedurally, GPA required longer total procedure and fluoroscopy times due to extensive HFS mapping but used significantly less radiofrequency ablation time and total energy than PVI. On average, about 89 HFS sites per patient were tested in the GPA group, with roughly 18.5% of sites exhibiting ET‑GP responses.
+
+At 12‑month follow‑up, freedom from the primary endpoint was 50% (26/52) in the GPA group and 64% (32/50) in the PVI group, with no statistically significant difference between the groups by Kaplan‑Meier analysis. A GPA subgroup that underwent ET‑GP ablation only (without requiring AVD‑GP ablation for incessant AF) showed a numerically higher success rate of 58% freedom from recurrent atrial arrhythmia. The proportions of atrial flutter or atrial tachycardia as the index recurrent rhythm were similar between arms.
+
+The rate of repeat ablation was comparable between groups (about one‑third in GPA vs one‑quarter in PVI). Notably, GPA was associated with a significantly greater reduction in post‑ablation antiarrhythmic drug usage compared with PVI, despite lower total radiofrequency delivery. There was one case of periprocedural cardiac tamponade in the GPA arm that resolved with pericardiocentesis; there were no major complications in the PVI arm. Pericarditis‑like presentations were more frequent in the GPA group.
+
+Heart rate and heart rate variability analyses suggested modest autonomic changes after ablation. At 12 months, the standard deviation of R‑R intervals was higher in GPA than in PVI, but these autonomic markers did not clearly predict arrhythmia recurrence. Multivariate analysis indicated that in the GPA group, a history of hypertension was associated with better outcomes (reduced AF/AT recurrence), whereas the need for continuous HFS mapping due to incessant AF (requiring AVD‑GP ablation) was associated with higher recurrence. In the PVI group, longer total radiofrequency ablation time was associated with increased recurrence.
+
+In conclusion, selective GP ablation guided by functional HFS mapping did not outperform conventional PVI in preventing recurrent atrial arrhythmias in patients with paroxysmal AF and required longer procedure times. However, GPA achieved similar arrhythmia control with significantly less radiofrequency ablation and greater reduction in antiarrhythmic drug use. Patients with hypertension appeared to derive particular benefit from GPA. The findings support the concept that intrinsic cardiac autonomic structures contribute to AF pathophysiology but indicate that, in its current form, GPA is not a complete replacement for PVI. Further refinement of mapping technology and strategies to maintain sinus rhythm during mapping may improve the efficacy and practicality of GP‑targeted ablation.",True,0.86,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+GPT-5.1,protocolSection.conditionsModule.conditions,TP,TP,['Paroxysmal Atrial Fibrillation'],"['Atrial Fibrillation', 'Paroxysmal Atrial Fibrillation']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+GPT-5.1,protocolSection.conditionsModule.keywords,TP,FP,"['Paroxysmal atrial fibrillation', 'Pulmonary vein isolation', 'Ganglionated plexus', 'Radiofrequency ablation', 'Pulmonary vein ectopy', 'High frequency stimulation', 'autonomic nervous system', 'Ganglionated plexi', 'atrial fibrillation']","['Atrial Fibrillation', 'Paroxysmal Atrial Fibrillation', 'Pulmonary Vein Isolation', 'Ganglionated Plexus', 'Cardiac Autonomic Nervous System', 'Catheter Ablation', 'Radiofrequency Ablation', 'Atrial Tachycardia', 'Atrial Flutter', 'High-Frequency Stimulation', 'Autonomic Modulation', 'Hypertension']",False,0.5555555555555556,partial,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+GPT-5.1,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.targetDuration,EV,EV,,P12M,,,,TargetDuration,protocolSection.designModule.targetDuration,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Prospective, multicenter, randomized, controlled, 2-arm, parallel-group trial comparing ganglionated plexus ablation without pulmonary vein isolation versus pulmonary vein isolation in patients with paroxysmal atrial fibrillation.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.timePerspective,EV,EV,,PROSPECTIVE,,,,DesignTimePerspective,protocolSection.designModule.designInfo.timePerspective,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,DOUBLE,SINGLE,False,0.4,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"Single-blinded design: patients and their usual-care cardiologists were blinded to randomization; operators performing ablation, data collector, and analyst were unblinded.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,FP,"['PARTICIPANT', 'CARE_PROVIDER']",['PARTICIPANT'],False,0.5,partial,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.enrollmentInfo.count,TP,TP,116,102,True,0.7,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[1].measure,EV,EV,,Mortality,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[2].measure,EV,EV,,Significant procedure-related complications,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[1].description,EV,EV,,All-cause mortality occurring during the follow-up period after the index ablation procedure.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[2].description,EV,EV,,"Incidence of significant complications related to the ablation procedure, including bleeding, thrombosis, phrenic nerve palsy, and cardiac tamponade, requiring intervention.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[1].timeFrame,EV,EV,,Within 12 months after the index ablation procedure,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[2].timeFrame,EV,EV,,Periprocedural period and during the 12-month follow-up after the index ablation procedure,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Change in antiarrhythmic drug usage,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[1].measure,EV,EV,,Radiofrequency ablation exposure,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[2].measure,EV,EV,,Heart rate and heart rate variability changes,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,"Change in the proportion of patients using antiarrhythmic drugs (AADs) from baseline (index procedure) to after the 90-day blanking period, including reduction or discontinuation of AAD therapy.",,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[1].description,EV,EV,,Total radiofrequency ablation time and total RF energy delivered during the index ablation procedure.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[2].description,EV,EV,,"Changes in mean heart rate and heart rate variability parameters, including the standard deviation of R-R intervals over the entire analyzed Holter period, comparing pre-ablation values to follow-up values.",,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,"From baseline at index ablation to after the 90-day blanking period, assessed over 12 months of follow-up",,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[1].timeFrame,EV,EV,,During the index ablation procedure,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[2].timeFrame,EV,EV,,From pre-ablation baseline to 6-month and 12-month follow-up Holter recordings,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+GPT-5.1,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Males or females eighteen (18) to eighty five (85) years old
+* Paroxysmal atrial fibrillation
+* Suitable candidate for catheter ablation
+* Signed informed consent
+
+Exclusion Criteria:
+
+* Contraindication to catheter ablation
+* Presence of a cardiac thrombus
+* valvular disease that is grade moderate or greater
+* Any form of cardiomyopathy
+* On amiodarone therapy
+* Severe cerebrovascular disease
+* Active gastrointestinal bleeding
+* Renal failure (on dialysis or at risk of requiring dialysis)
+* Active infection or fever
+* Life expectancy shorter than the duration of the trial
+* Allergy to contrast
+* Intractable heart failure (NYHA Class IV)
+* Bleeding or clotting disorders or inability to receive heparin
+* Serum Creatinine \>200umol/L
+* Uncontrolled diabetes (HbA1c ≥73mmol/mol or HbA1c ≤64mmol/mol and Fasting Blood Glucose ≥9.2mmol/L)
+* Malignancy needing therapy
+* Pregnancy or women of childbearing potential not using a highly effective method of contraception
+* Patients in current research or have recently been involved in any research prior to recruitment will not be included in the trial.","- Inclusion Criteria:
+  - Patients with symptomatic drug-refractory paroxysmal atrial fibrillation (AF) indicated clinically for AF ablation
+  - Patients able and willing to provide written informed consent
+
+- Exclusion Criteria:
+  - Not fully specified in the provided text (summarized as being listed in Online Supplemental Table 1, which is not included here)",True,0.82,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+GPT-5.1,protocolSection.eligibilityModule.minimumAge,TP,FP,18 Years,N/A,False,0.0,success,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.maximumAge,TP,FP,85 Years,N/A,False,0.02,success,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False
+GPT-5.1,protocolSection.eligibilityModule.studyPopulation,EV,EV,,,,,,StudyPopulation,protocolSection.eligibilityModule.studyPopulation,True,False,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.samplingMethod,EV,EV,,,,,,SamplingMethod,protocolSection.eligibilityModule.samplingMethod,True,False,True,False,False,False

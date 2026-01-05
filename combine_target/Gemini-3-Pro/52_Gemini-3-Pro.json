@@ -1,0 +1,179 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03587207",
+      "secondaryIdInfos": [
+        {
+          "id": "208205",
+          "type": "REGISTRY",
+          "domain": "www.gsk-studyregister.com"
+        }
+      ],
+      "organization": {
+        "fullName": "GlaxoSmithKline Biologicals SA",
+        "class": "INDUSTRY"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This phase 2, randomized, open-label study assessed the immunogenicity and safety of an investigational meningococcal ABCWY vaccine (MenABCWY) compared to licensed vaccines against meningococcal serogroup B (4CMenB) and serogroups ACWY (MenACWY). The study involved healthy participants aged 10 to 25 years to evaluate if the combined administration results in immunological interference against serogroup B test strains and to monitor the safety profile of the investigational vaccine.",
+      "detailedDescription": "Neisseria meningitidis is a leading cause of bacterial meningitis. This study evaluated an investigational vaccine (MenABCWY) combining MenACWY-CRM and 4CMenB antigens. A total of 500 healthy individuals aged 10 to 25 years were randomized into five groups. Four groups received two doses administered 2 months apart of either: (1) MenABCWY, (2) 4CMenB plus MenACWY administered concomitantly in the same arm, (3) 4CMenB plus MenACWY administered concomitantly in different arms, or (4) 4CMenB administered alone. A fifth group received a single dose of MenACWY. \n\nThe primary objective was to assess the immune response against pooled serogroup B test strains (for antigens fHbp, NadA, PorA, and NHBA) and serogroups A, C, W, and Y one month after the last vaccination, measured by serum bactericidal assay using human complement (hSBA). The study was specifically powered to assess immunological interference against pooled serogroup B test strains. Secondary objectives included the assessment of immune responses one month post-first vaccination and the evaluation of reactogenicity and safety (solicited and unsolicited adverse events) following vaccine administration."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Meningococcal Infections",
+        "Meningitis, Meningococcal",
+        "Invasive Meningococcal Disease"
+      ],
+      "keywords": [
+        "Neisseria meningitidis",
+        "MenABCWY vaccine",
+        "4CMenB",
+        "MenACWY",
+        "Immunogenicity",
+        "Safety",
+        "Adolescents",
+        "Young Adults",
+        "Vaccine Interference"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Five study groups in a 1:1:1:1:1 ratio",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Open-label"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 520,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "MenABCWY Group",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received two doses of the investigational MenABCWY vaccine 2 months apart (on study days 1 and 61).",
+          "interventionNames": [
+            "MenABCWY vaccine"
+          ]
+        },
+        {
+          "label": "4CMenB+ACWY/S Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received two doses of 4CMenB plus MenACWY administered concomitantly in the same arm 2 months apart (on study days 1 and 61). 4CMenB was injected in the upper deltoid and MenACWY in the lower deltoid of the nondominant arm.",
+          "interventionNames": [
+            "4CMenB vaccine",
+            "MenACWY vaccine"
+          ]
+        },
+        {
+          "label": "4CMenB+ACWY/D Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received two doses of 4CMenB plus MenACWY administered concomitantly in different arms 2 months apart (on study days 1 and 61). 4CMenB was injected in the nondominant arm and MenACWY into the dominant arm.",
+          "interventionNames": [
+            "4CMenB vaccine",
+            "MenACWY vaccine"
+          ]
+        },
+        {
+          "label": "4CMenB Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received two doses of 4CMenB administered 2 months apart (on study days 1 and 61).",
+          "interventionNames": [
+            "4CMenB vaccine"
+          ]
+        },
+        {
+          "label": "MenACWY Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received a single dose of MenACWY on day 1 of the study.",
+          "interventionNames": [
+            "MenACWY vaccine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "MenABCWY vaccine",
+          "description": "Investigational vaccine prepared by reconstituting lyophilized powder containing CRM197-conjugated oligosaccharides of meningococcal serogroups A, C, W, and Y with a liquid suspension containing purified recombinant proteins from meningococcal serogroup B (NadA, fHbp, and NHBA) and outer membrane vesicle (OMV) components.",
+          "armGroupLabels": [
+            "MenABCWY Group"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "4CMenB vaccine",
+          "description": "Licensed vaccine (Bexsero) containing 50 μg of each recombinant MenB protein (NadA, fHbp, and NHBA), 1.5 mg aluminum hydroxide, and 25 μg of OMV.",
+          "armGroupLabels": [
+            "4CMenB+ACWY/S Group",
+            "4CMenB+ACWY/D Group",
+            "4CMenB Group"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "MenACWY vaccine",
+          "description": "Licensed vaccine (Menveo, MenACWY-CRM) containing 10 μg of MenA-CRM197 and 5 μg each of MenC-CRM197, MenW-CRM197, and MenY-CRM197.",
+          "armGroupLabels": [
+            "4CMenB+ACWY/S Group",
+            "4CMenB+ACWY/D Group",
+            "MenACWY Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Immune response against pooled serogroup B test strains and serogroups A, C, W, and Y",
+          "description": "Assessed by serum bactericidal assay using human complement (hSBA). Metrics include Geometric Mean Titers (GMTs), percentage of participants with hSBA titer greater than or equal to the lower limit of quantitation (≥LLOQ), and percentage with a 4-fold increase in hSBA titer.",
+          "timeFrame": "1 month after the last vaccination"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Immune response against pooled serogroup B test strains and serogroups A, C, W, and Y post-first dose",
+          "description": "Assessed by hSBA GMTs, percentage of participants with hSBA titer ≥LLOQ, and percentage with a 4-fold increase in hSBA titer.",
+          "timeFrame": "1 month post-first vaccination"
+        },
+        {
+          "measure": "Solicited local and systemic adverse events (AEs)",
+          "description": "Incidence of solicited local AEs (erythema, swelling, induration, and pain) and systemic AEs (arthralgia, fatigue, nausea, headache, myalgia, and fever).",
+          "timeFrame": "Within 7 days following each vaccine dose"
+        },
+        {
+          "measure": "Unsolicited adverse events (AEs)",
+          "description": "Incidence of unsolicited AEs reported by participants.",
+          "timeFrame": "30 days postvaccination period"
+        },
+        {
+          "measure": "Serious adverse events (SAEs), medically attended AEs, and AEs leading to withdrawal",
+          "description": "Incidence of SAEs, medically attended AEs, AEs leading to withdrawal, and adverse events of special interest (arthritis).",
+          "timeFrame": "Entire study period"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Adolescents and young adults 10 to 25 years of age.\n- Subjects were healthy.\n\nExclusion Criteria:\n- Received any meningococcal vaccine.\n- History of meningococcal disease.\n- Contact within 60 days of enrollment with an individual with meningococcal disease.\n- Immune system or blood disorders resulting from any cause or immune-mediated disease.\n- Known adverse reactions to vaccine components.\n- Receipt of immunoglobulins or blood products within 180 days before enrollment.\n- Receipt of an investigational product within 30 days before enrollment.\n- Any acute or chronic condition that could interfere with the results of the study.\n- History of significant neurological disorder or seizure.\n- Pregnant or breastfeeding women.\n- Women of child-bearing potential who did not commit to using birth control measures from 30 days before vaccination until 2 months after vaccination completion.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "10 Years",
+      "maximumAge": "25 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    }
+  }
+}

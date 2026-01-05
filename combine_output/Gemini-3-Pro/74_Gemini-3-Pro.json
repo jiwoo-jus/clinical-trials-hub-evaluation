@@ -1,0 +1,136 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03959423",
+      "organization": {
+        "fullName": "Medtronic",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Safety Evaluation of the Advanced Hybrid Closed Loop (AHCL) System in Type 1 Adult and Pediatric Subjects",
+      "officialTitle": "Safety Evaluation of the Advanced Hybrid Closed Loop (AHCL) System in Type 1 Adult and Pediatric Subjects",
+      "acronym": "AHCL"
+    },
+    "descriptionModule": {
+      "briefSummary": "This trial assessed the safety and effectiveness of an advanced hybrid closed-loop (AHCL) system with automated basal and automated bolus correction capabilities in adolescents and adults with type 1 diabetes. The study involved a run-in period followed by a study phase where participants used the MiniMed AHCL system with varying glucose targets.",
+      "detailedDescription": "This multicenter single-arm study involved an intent-to-treat population of 157 individuals (39 adolescents aged 14–21 years and 118 adults aged ≥22–75 years) with type 1 diabetes (T1D). The study schedule included a run-in period (Visits 1–4) with sensor-augmented pump (SAP) with or without predictive low glucose management (PLGM) or automated basal (Auto Basal) use for approximately 14 days. This was followed by a study phase (Visits 5–18) where Auto Basal and automated bolus correction (Auto Correction) were enabled for approximately 90 days. A glucose target of 100 or 120 mg/dL was set during the first 45 ± 5 days of the study phase, followed by a switch to the other glucose target for the remaining 45 ± 5 days. Study endpoints included safety events and change in mean A1C, time in range (TIR, 70–180 mg/dL) and time below range (TBR, <70 mg/dL). Run-in and study phase values were compared using Wilcoxon signed-rank test or paired t-test. The AHCL system includes a meal detection module and provides options for setting different glucose targets."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 1 Diabetes",
+        "Type 1 Diabetes Mellitus"
+      ],
+      "keywords": [
+        "Advanced Hybrid Closed Loop",
+        "Automated Insulin Delivery",
+        "Artificial Pancreas",
+        "MiniMed AHCL",
+        "Continuous Glucose Monitoring",
+        "Insulin Pump Therapy",
+        "Glycemic Control"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "This multicenter open-label single-arm study involved an intent-to-treat population of 157 individuals. Participants used the MiniMed™ AHCL system during a baseline run-in period (sensor-augmented pump +/- predictive low glucose management or Auto Basal) for ~14 days. Thereafter, Auto Basal and Auto Correction were enabled for a study phase (~90 days), with glucose target set to 100 or 120 mg/dL for ~45 days, followed by the other target for ~45 days.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "This was an open-label study."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 157,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "MiniMed AHCL System Group",
+          "type": "EXPERIMENTAL",
+          "description": "Participants with Type 1 Diabetes (adolescents and adults) participating in a single-arm study. They utilized the MiniMed AHCL system through a baseline run-in period followed by a study phase with automated features enabled.",
+          "interventionNames": [
+            "Device: MiniMed AHCL System"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "MiniMed AHCL System",
+          "description": "The system consisted of the MiniMed 670G insulin pump (version 4.0 algorithm) with the Guardian Sensor 3 glucose sensor and Guardian Link 3 transmitter. During the run-in period (~14 days), participants used the system as a sensor-augmented pump with or without predictive low glucose management or Auto Basal. During the study phase (~90 days), Auto Basal and automated bolus correction (Auto Correction) were enabled, with glucose targets set to 100 or 120 mg/dL for alternating periods.",
+          "armGroupLabels": [
+            "MiniMed AHCL System Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in mean Time in Range (TIR)",
+          "description": "Overall change in the mean TIR (sensor glucose 70–180 mg/dL)",
+          "timeFrame": "From end of run-in period (approx. 14 days) to end of study phase (approx. 90 days)"
+        },
+        {
+          "measure": "Change in mean Hemoglobin A1C",
+          "description": "Overall change in the mean A1C",
+          "timeFrame": "From end of run-in period (approx. 14 days) to end of study phase (approx. 90 days)"
+        },
+        {
+          "measure": "Safety events",
+          "description": "Incidence of serious adverse events (SAEs), serious adverse device effects (SADEs), unanticipated adverse device effects, severe hypoglycemia, and diabetic ketoacidosis (DKA).",
+          "timeFrame": "Through study completion, an average of 3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in mean Sensor Glucose (SG)",
+          "description": "Change in mean SG values",
+          "timeFrame": "From end of run-in period to end of study phase"
+        },
+        {
+          "measure": "Change in Coefficient of Variation (CV) of SG",
+          "description": "Change in glucose variability measured by CV of SG",
+          "timeFrame": "From end of run-in period to end of study phase"
+        },
+        {
+          "measure": "Time spent in hypoglycemic ranges",
+          "description": "Percentage of time spent at hypoglycemic ranges (<50, 54, and 70 mg/dL)",
+          "timeFrame": "From end of run-in period to end of study phase"
+        },
+        {
+          "measure": "Time spent in hyperglycemic ranges",
+          "description": "Percentage of time spent at hyperglycemic ranges (>180, 250, and 300 mg/dL)",
+          "timeFrame": "From end of run-in period to end of study phase"
+        },
+        {
+          "measure": "Insulin delivery metrics",
+          "description": "Total daily dose of insulin (TDD), total basal [basal+microbolus] insulin, total bolus insulin, and Auto Correction in units/percentage.",
+          "timeFrame": "From end of run-in period to end of study phase"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Diagnosis of T1D at screening\n- Duration of T1D for at least 2 years\n- Minimum daily insulin requirement of at least 8 U\n- Hemoglobin A1C of <10% at screening\n- Use of pump therapy with or without CGM experience for >6 months before screening\n- Willingness to wear the system throughout the study and perform at least four daily self-monitoring of blood glucose measurements and required sensor calibrations\n- Ability to upload data from the study device to the CareLink™ clinical software\n- Caregiver available at night who resided (or lived) in the same building (or home), during the study\n\nExclusion Criteria:\n- History of one or more episodes of severe hypoglycemia that resulted in a coma, seizure, or hospitalization during the 6 months before screening\n- Hospitalization or emergency room visit resulting in a primary diagnosis of uncontrolled diabetes in the 6 months before screening\n- DKA in the 6 months before screening\n- Hypoglycemia unawareness, as measured by the Gold questionnaire at screening\n- Inability to tolerate tape adhesive in the area of sensor placement or an unresolved adverse skin condition (e.g., psoriasis, dermatitis herpetiformis, rash, or staphylococcus infection) in the area of sensor placement",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "14 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "case_id": 99,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T19:58:59.424394",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/99_NCT03567993.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/99_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.12,
+          0.7
+        ],
+        [
+          0.92,
+          0.72
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "label": "Comparison",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "The comparison condition is designed as a minimal intervention, and allows for blinding of the patients to randomization group.",
+            "interventionNames": [
+              "Behavioral: Comparison"
+            ]
+          },
+          "pred_item": {
+            "label": "Assessment Text Messages Only",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants receive only two-way assessment text messages every two weeks for 6 months, asking how many times they have smoked tobacco in the past 24 hours. They do not receive motivational messages or proactive encouragement to use the Quitline or NRT but may seek Quitline counseling or NRT on their own through usual care.",
+            "interventionNames": [
+              "Two-way Assessment Text Messages"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Intervention",
+            "type": "EXPERIMENTAL",
+            "description": "The intervention is designed to encourage and remind smokers of the availability of the Quitline services. In addition to the one-way motivational messages, the investigators will use two-way assessments. Two-way automated texting is the ability to push out a question, have the user respond with a brief, numeric or one-word answer, and based on that answer, provide immediate feedback. The goal of these brief assessments is two-fold: 1) to assess behavior (abstinence) and motivation to use services, and 2) to return feedback tailored to each individual smoker based on the answers of the user.",
+            "interventionNames": [
+              "Behavioral: Intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Motivational Text Messaging Intervention",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive a culturally adapted motivational text messaging program for 6 months to promote smoking cessation and encourage use of the Bach Mai Hospital Quitline and free nicotine replacement therapy. They receive one motivational text message per day in the first week and two motivational messages per week for the following 25 weeks (weeks 2–26). In addition, they receive weekly two-way assessment text messages asking how many times they smoked in the past 24 hours and whether they would like a call from the Bach Mai Quitline counselor. If they respond yes, the Quitline initiates a call and may provide counseling and facilitate access to free nicotine lozenges (NRT) for up to 6 weeks.",
+            "interventionNames": [
+              "Motivational Text Messaging Program",
+              "Two-way Assessment Text Messages",
+              "Bach Mai Quitline Counseling and NRT Facilitation"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.15,
+          0.7,
+          0.55
+        ],
+        [
+          0.94,
+          0.83,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Comparison",
+            "description": "Participants randomized to the comparison arm will receive twice-monthly abstinence assessments from the text messaging system, with no motivational feedback. Those in the comparison arm are neither offered nor encouraged to participate in the intervention.",
+            "armGroupLabels": [
+              "Comparison"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Two-way Assessment Text Messages",
+            "description": "Automated SMS prompts used to assess smoking behavior during the 6‑month trial. For the intervention arm, weekly messages ask how many times the participant smoked in the past 24 hours and whether they would like a call from the Bach Mai Quitline. For the control arm, messages are sent every two weeks and only ask how many times the participant has smoked in the past 24 hours. Responses are used to monitor smoking and trigger Quitline call-backs in the intervention arm.",
+            "armGroupLabels": [
+              "Motivational Text Messaging Intervention",
+              "Assessment Text Messages Only"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Intervention",
+            "description": "Participants randomized to the intervention arm will receive:\n\n1. Motivational Messages\n2. Abstinence and Motivation to Use Services Assessments\n3. Encouragement to access the Quitline\n4. Encouragement to use Nicotine Replacement Therapy (NRT)\n5. Provision of NRT, if requested\n\nIntervention subjects are encouraged to access the Quitline and use NRT. However, these are not mandatory components of the intervention and subjects can choose if they would like to engage with the Quitline or use NRT.",
+            "armGroupLabels": [
+              "Intervention"
+            ],
+            "otherNames": [
+              "mHealth Intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Motivational Text Messaging Program",
+            "description": "A culturally adapted mobile health intervention consisting of one-way motivational SMS messages designed to encourage smoking cessation and uptake of Quitline counseling and nicotine replacement therapy. Participants receive 7 messages in the first week and 2 messages per week for weeks 2–26. Messages are based on social cognitive theory and current smoking cessation guidelines and include both expert-written and smoker-written (peer) content addressing health risks, self-efficacy, family roles, quitting tips, and calling the Bach Mai Quitline.",
+            "armGroupLabels": [
+              "Motivational Text Messaging Intervention"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Participant Tobacco Cessation Rate (Quit Rate) at 6 Months",
+            "description": "7 day point prevalence cessation per self-report with additional carbon monoxide monitor verification for those who report cessation.",
+            "timeFrame": "At 6 months post-randomization"
+          },
+          "pred_item": {
+            "measure": "Tobacco cessation rate",
+            "description": "Proportion of participants classified as nonsmokers based on self-report of no tobacco use (not even 1 puff in the last 7 days) verified by carbon monoxide breath monitor <10 ppm.",
+            "timeFrame": "6-month follow-up"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 6,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.08,
+          0.45,
+          0.12,
+          0.18,
+          0.25
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Self-efficacy Scores Using the Self Efficacy Questionnaire (SEQ-12)",
+            "description": "Study team will administer the Self Efficacy Questionnaire (SEQ-12), an 12-item questionnaire to measure self-reported confidence of current and former smokers in their ability to abstain from smoking in high-risk situations (e.g., when facing internal stimuli (e.g., feeling depressed) and external stimuli (e.g., being with smokers)). The SEQ-12 consists of 12 items; each item is rated on a 5-point Likert scale (1=not at all sure, 2=not very sure, 3=more or less sure, 4=fairly sure, and 5=absolutely sure). SEQ-12 scores range from 12 to 60, with higher scores indicating greater self-efficacy. Individual items are summed to compute the total score. The outcome will measure the change in SEQ-12 scores from baseline to 6 months post-randomization.",
+            "timeFrame": "From randomization to 6 months post-randomization"
+          },
+          "pred_item": {
+            "measure": "Smoking self-efficacy (SEQ-12)",
+            "description": "Change from baseline in self-efficacy scores on the 12-item Smoking Self-Efficacy Questionnaire, including its internal and external stimuli subscales.",
+            "timeFrame": "Baseline to 6-month follow-up"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02252588",
+      "secondaryIdInfos": [
+        {
+          "id": "150014",
+          "type": "OTHER_GRANT",
+          "domain": "Flight Attendant Medical Research Institute"
+        },
+        {
+          "id": "1IK2CX001095",
+          "type": "VA",
+          "domain": "Department of Veterans Affairs Office of Research and Development"
+        },
+        {
+          "id": "10.5061/dryad.m0cfxpp37",
+          "type": "REGISTRY",
+          "domain": "Dryad",
+          "link": "http://datadryad.org/"
+        }
+      ],
+      "organization": {
+        "fullName": "Minneapolis Veterans Affairs Medical Center",
+        "class": "FED"
+      },
+      "officialTitle": "The ChLorhexidine effect In the oral and lung MicroBiota study (CLIMB)",
+      "acronym": "CLIMB"
+    },
+    "descriptionModule": {
+      "briefSummary": "The ChLorhexidine effect In the oral and lung MicroBiota study (CLIMB) aims to determine the effect of twice-daily chlorhexidine oral rinses on oral and lung microbiota biomass and respiratory symptoms in participants with Chronic Obstructive Pulmonary Disease (COPD). The study hypothesizes that because the oral microbiota is a main source of lung microbiota, treating the oral cavity with an antiseptic may alter the lung microbiota and subsequently improve COPD-related symptoms.",
+      "detailedDescription": "This single-center, randomized, blind, placebo-controlled, parallel-group preliminary study investigates the effects of chlorhexidine oral rinses on COPD outcomes. Participants aged 40–85 with a diagnosis of COPD and chronic productive cough or COPD exacerbation within the last year were randomized 1:1 to receive either 15 mL of twice-daily 0.12% chlorhexidine oral rinses or matched placebo for 8 weeks.\n\nParticipants provided medical history, performed spirometry, and completed the St. George’s Respiratory Questionnaire (SGRQ) and daily Breathlessness, Cough and Sputum Scale (BCSS) diaries. Biological samples, including blood, oral rinse, and induced sputum, were collected at randomization and at the final visit (8 weeks later). \n\nThe primary outcome measure was the change in oral and sputum microbiota biomass assessed by 16S rRNA quantification. Secondary outcomes included changes in sputum and oral microbiota biodiversity (Shannon and Simpson indices) and taxonomy; systemic inflammatory markers (white cell count, fibrinogen, and C reactive protein); and health-related quality of life scores (BCSS and SGRQ)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Obstructive Pulmonary Disease (COPD)",
+        "Chronic Cough",
+        "COPD Exacerbation"
+      ],
+      "keywords": [
+        "Chlorhexidine",
+        "Oral Microbiota",
+        "Lung Microbiota",
+        "Sputum Microbiota",
+        "Oral Rinse",
+        "Microbiome Biomass",
+        "Respiratory Symptoms",
+        "Systemic Inflammation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomised, blind, placebo-controlled, parallel-group preliminary study.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "The pharmacist conducted the allocation and assignment and was the only staff member unblinded to study assignment.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 44,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Chlorhexidine",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received 15 mL of twice-daily 0.12% oral chlorhexidine rinses (PerioGard) for 8 weeks.",
+          "interventionNames": [
+            "Drug: Chlorhexidine"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received 15 mL of twice-daily matched placebo mouth rinses for 8 weeks.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Chlorhexidine",
+          "description": "15 mL of 0.12% oral chlorhexidine rinses (PerioGard) administered twice-daily for 8 weeks.",
+          "armGroupLabels": [
+            "Chlorhexidine"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matched placebo mouth rinses administered as 15 mL twice-daily for 8 weeks.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in oral and sputum microbiota biomass",
+          "description": "Assessed by 16S rRNA quantification.",
+          "timeFrame": "Baseline and 8 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in sputum and oral microbiota Shannon and Simpson diversity",
+          "description": "Biodiversity indices used to assess microbiota diversity.",
+          "timeFrame": "Baseline and 8 weeks"
+        },
+        {
+          "measure": "Change in sputum and oral microbiota taxonomy",
+          "description": "Assessment of specific bacterial taxa abundance.",
+          "timeFrame": "Baseline and 8 weeks"
+        },
+        {
+          "measure": "Change in inflammatory markers",
+          "description": "Includes White cell count (WBC), fibrinogen, and C reactive protein (CRP).",
+          "timeFrame": "Baseline and 8 weeks"
+        },
+        {
+          "measure": "Change in Breathlessness, Cough and Sputum Scale (BCSS) scores",
+          "description": "Assessed via daily diaries.",
+          "timeFrame": "Baseline and 8 weeks"
+        },
+        {
+          "measure": "Change in St. George’s Respiratory Questionnaire (SGRQ) score",
+          "description": "Assessment of respiratory health-related quality of life.",
+          "timeFrame": "Baseline and 8 weeks"
+        },
+        {
+          "measure": "Assessment of adverse events",
+          "description": "Monitoring for side effects.",
+          "timeFrame": "Up to 8 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Aged 40–85 years\n- Diagnosis of chronic obstructive pulmonary disease (COPD)\n- Chronic productive cough or COPD exacerbation within the last year\n- Presence or high likelihood of a chronic cough and sputum production\n\nExclusion Criteria:\n- Antibiotics in the previous 2 months\n- Less than four teeth\n- Not fully recovered for at least 30 days from a COPD exacerbation",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

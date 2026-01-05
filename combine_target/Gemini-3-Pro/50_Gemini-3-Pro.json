@@ -1,0 +1,177 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04150250",
+      "orgStudyIdInfo": {
+        "id": "DRG-032-PO-2-01-USA"
+      },
+      "organization": {
+        "fullName": "PATH",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "Cholera remains a major cause of diarrheal illness and death, particularly in settings with poor sanitation. This study evaluated a synthetic chemical named iOWH032, a potential oral treatment for cholera designed to block secretions from intestinal cells and prevent fluid loss (dehydration). The study utilized a cholera controlled human infection model (CHIM) where healthy volunteers were intentionally infected with Vibrio cholerae in an inpatient clinic setting. The trial aimed to determine if iOWH032 could safely reduce cholera illness and diarrheal symptoms compared to a placebo.",
+      "detailedDescription": "This was a randomized, double-blind, placebo-controlled, parallel, group-sequential Phase 2a study to assess the preliminary clinical efficacy and safety of the small molecule antisecretory drug candidate iOWH032. iOWH032 is a synthetic inhibitor of the cystic fibrosis transmembrane conductance regulator (CFTR) chloride channel, intended to counteract the hypersecretion caused by cholera toxin.\n\nForty-seven healthy adult subjects (aged 18 to 44 years) were experimentally challenged with 10^6 colony-forming units of Vibrio cholerae El Tor Inaba strain N16961. Participants were randomized to receive either 500 mg of iOWH032 or a matching placebo orally every 8 hours for 3 days, starting at the onset of diarrhea symptoms or 48 hours after the challenge. \n\nThe primary efficacy endpoint was the diarrheal stool output rate (total volume of diarrheal stools divided by the time between study drug initiation and antimicrobial therapy). Secondary endpoints included the proportion of subjects with moderate or severe cholera, total stool volume, duration of diarrhea, and microbiological shedding of the bacteria. Safety assessments monitored adverse events and vital signs throughout the inpatient containment period and follow-up."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cholera",
+        "Vibrio cholerae Infection",
+        "Acute Secretory Diarrhea"
+      ],
+      "keywords": [
+        "iOWH032",
+        "CFTR Inhibitor",
+        "Controlled Human Infection Model",
+        "CHIM",
+        "Antisecretory Therapeutic",
+        "Vibrio cholerae",
+        "Diarrhea"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized, double-blind, placebo-controlled, parallel, group-sequential Phase 2a study conducted in two sequential cohorts.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Except for the unblinded study site research pharmacist responsible for study drug preparation and dispensing, participants, clinical staff, the investigator, and sponsor personnel were blinded to the study treatment allocation.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 47,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "iOWH032",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received 500 mg iOWH032 (two 250 mg immediate-release tablets) by mouth every 8 hours for 3 days starting at the onset of diarrhea symptoms or 48 hours after cholera challenge.",
+          "interventionNames": [
+            "iOWH032"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received two matching placebo tablets by mouth every 8 hours for 3 days starting at the onset of diarrhea symptoms or 48 hours after cholera challenge.",
+          "interventionNames": [
+            "Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "iOWH032",
+          "description": "Synthetic small molecule CFTR inhibitor administered as two 250 mg immediate-release tablets orally every 8 hours for 3 days.",
+          "armGroupLabels": [
+            "iOWH032"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matching placebo tablets containing excipients (Pearlitol 160 C, Avicel PH-102, Kollidon CL-F, Kollidon 30, Aerosil 200 Pharma, and magnesium stearate) but not the active drug substance, administered orally every 8 hours for 3 days.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Diarrheal stool output rate",
+          "description": "Total volume of diarrheal stools (grade 3 and higher) divided by the number of hours between the start of study drug administration and the initiation of antimicrobial therapy.",
+          "timeFrame": "From start of study drug administration to initiation of antimicrobial therapy"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportion of participants with moderate or severe diarrhea",
+          "description": "Percentage of participants with moderate diarrhea (3 to 5 L cumulative stool output) or severe diarrhea (>5 L cumulative stool output).",
+          "timeFrame": "From challenge inoculation through discharge (up to Day 10)"
+        },
+        {
+          "measure": "Total diarrheal stool volume (AUC)",
+          "description": "Area under the curve of diarrheal stool volume.",
+          "timeFrame": "First 7 days"
+        },
+        {
+          "measure": "Time to first formed stool",
+          "description": "Time elapsed until the passage of the first formed stool.",
+          "timeFrame": "First 7 days"
+        },
+        {
+          "measure": "Number of loose stools",
+          "description": "Number of diarrheal stools (grades 3 through 5).",
+          "timeFrame": "First 7 days"
+        },
+        {
+          "measure": "Total vomitus volume",
+          "description": "Cumulative volume of vomitus.",
+          "timeFrame": "First 7 days"
+        },
+        {
+          "measure": "Number of vomiting episodes",
+          "description": "Count of vomiting episodes.",
+          "timeFrame": "First 7 days"
+        },
+        {
+          "measure": "Maximum temperature",
+          "description": "Highest recorded body temperature.",
+          "timeFrame": "First 7 days"
+        },
+        {
+          "measure": "Fluid replacement requirements",
+          "description": "Need for oral rehydration solution and/or intravenous fluid replacement therapy.",
+          "timeFrame": "During the inpatient containment period"
+        },
+        {
+          "measure": "V. cholerae shedding metrics",
+          "description": "Time to cessation of detectable cholera organisms in stool, area under the curve of shedding, and peak shedding.",
+          "timeFrame": "From challenge until cessation of shedding or discharge (up to Day 10)"
+        },
+        {
+          "measure": "Plasma concentration of iOWH032",
+          "description": "Concentration of the drug in plasma analyzed using liquid chromatography/mass spectrometry.",
+          "timeFrame": "7±1 hours after the first dose and 7±1 hours after the last dose (Dose 9)"
+        },
+        {
+          "measure": "Incidence of Adverse Events",
+          "description": "Frequency of treatment-emergent adverse events (TEAEs) and serious adverse events (SAEs).",
+          "timeFrame": "TEAEs through 28 days post challenge; SAEs through 6 months post challenge"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Healthy adults aged 18 to 44 years\n* Recruited from the greater Baltimore, Maryland, USA, area\n\nExclusion Criteria:\n* Clinically significant medical history, including history of cholera infection or vaccination within the past 10 years\n* Pregnant women\n* Women who were breastfeeding\n* Women planning to become pregnant while enrolled in the study",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "44 Years",
+      "stdAges": [
+        "ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

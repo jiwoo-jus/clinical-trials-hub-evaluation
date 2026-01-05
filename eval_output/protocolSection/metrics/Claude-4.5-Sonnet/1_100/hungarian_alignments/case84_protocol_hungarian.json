@@ -1,0 +1,324 @@
+{
+  "metadata": {
+    "case_id": 84,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T19:16:28.073576",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/84_NCT03170388.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/84_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.4,
+          0.5,
+          0.4,
+          0.2
+        ],
+        [
+          0.4,
+          0.6,
+          0.25,
+          0.7,
+          0.1
+        ],
+        [
+          0.6,
+          0.32,
+          0.35,
+          0.5,
+          0.1
+        ],
+        [
+          0.7,
+          0.3,
+          0.4,
+          0.45,
+          0.18
+        ],
+        [
+          0.7,
+          0.4,
+          0.3,
+          0.65,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "IDP-126 Gel",
+            "type": "EXPERIMENTAL",
+            "description": "Gel",
+            "interventionNames": [
+              "Drug: IDP-126 Gel"
+            ]
+          },
+          "pred_item": {
+            "label": "IDP-126 gel",
+            "type": "EXPERIMENTAL",
+            "description": "Clindamycin phosphate 1.2%/benzoyl peroxide 3.1%/adapalene 0.15% gel applied once daily to the face for 12 weeks",
+            "interventionNames": [
+              "DRUG: Clindamycin phosphate 1.2%/benzoyl peroxide 3.1%/adapalene 0.15% gel (IDP-126)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.6,
+          "status": "matched",
+          "ref_item": {
+            "label": "IDP-126 Component A",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Component A",
+            "interventionNames": [
+              "Drug: IDP-126 Component A"
+            ]
+          },
+          "pred_item": {
+            "label": "BPO/ADAP gel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Benzoyl peroxide 3.1%/adapalene 0.15% gel applied once daily to the face for 12 weeks",
+            "interventionNames": [
+              "DRUG: Benzoyl peroxide 3.1%/adapalene 0.15% gel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 3,
+          "score": 0.5,
+          "status": "matched",
+          "ref_item": {
+            "label": "IDP-126 Component B",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Component B",
+            "interventionNames": [
+              "Drug: IDP-126 Component B"
+            ]
+          },
+          "pred_item": {
+            "label": "CLIN/ADAP gel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Clindamycin phosphate 1.2%/adapalene 0.15% gel applied once daily to the face for 12 weeks",
+            "interventionNames": [
+              "DRUG: Clindamycin phosphate 1.2%/adapalene 0.15% gel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.4,
+          "status": "matched",
+          "ref_item": {
+            "label": "IDP-126 Component C",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Component C",
+            "interventionNames": [
+              "Drug: IDP-126 Component C"
+            ]
+          },
+          "pred_item": {
+            "label": "CLIN/BPO gel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Clindamycin phosphate 1.2%/benzoyl peroxide 3.1% gel applied once daily to the face for 12 weeks",
+            "interventionNames": [
+              "DRUG: Clindamycin phosphate 1.2%/benzoyl peroxide 3.1% gel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "IDP-126 Vehicle Gel",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Vehicle Gel",
+            "interventionNames": [
+              "Drug: IDP-126 Vehicle Gel"
+            ]
+          },
+          "pred_item": {
+            "label": "Vehicle gel",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Vehicle gel applied once daily to the face for 12 weeks",
+            "interventionNames": [
+              "DRUG: Vehicle gel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.99,
+          0.82,
+          0.7,
+          0.7,
+          0.6
+        ],
+        [
+          0.78,
+          0.4,
+          0.78,
+          0.72,
+          0.22
+        ],
+        [
+          0.72,
+          0.86,
+          0.82,
+          0.78,
+          0.08
+        ],
+        [
+          0.78,
+          0.82,
+          0.7,
+          0.65,
+          0.18
+        ],
+        [
+          0.22,
+          0.4,
+          0.3,
+          0.3,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "IDP-126 Gel",
+            "description": "Gel",
+            "armGroupLabels": [
+              "IDP-126 Gel"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Clindamycin phosphate 1.2%/benzoyl peroxide 3.1%/adapalene 0.15% gel (IDP-126)",
+            "description": "Triple-combination fixed-dose topical gel containing clindamycin phosphate 1.2%, benzoyl peroxide 3.1%, and adapalene 0.15% formulated in the same vehicle with micronized BPO and adapalene contained within a polymeric gel",
+            "armGroupLabels": [
+              "IDP-126 gel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "IDP-126 Component A",
+            "description": "Component A",
+            "armGroupLabels": [
+              "IDP-126 Component A"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Clindamycin phosphate 1.2%/benzoyl peroxide 3.1% gel",
+            "description": "Component dyad gel containing clindamycin phosphate 1.2% and benzoyl peroxide 3.1% formulated with the same active drug concentration and within the same vehicle as IDP-126",
+            "armGroupLabels": [
+              "CLIN/BPO gel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 3,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "IDP-126 Component B",
+            "description": "Component B",
+            "armGroupLabels": [
+              "IDP-126 Component B"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Clindamycin phosphate 1.2%/adapalene 0.15% gel",
+            "description": "Component dyad gel containing clindamycin phosphate 1.2% and adapalene 0.15% formulated with the same active drug concentration and within the same vehicle as IDP-126",
+            "armGroupLabels": [
+              "CLIN/ADAP gel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "IDP-126 Component C",
+            "description": "Component C",
+            "armGroupLabels": [
+              "IDP-126 Component C"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Benzoyl peroxide 3.1%/adapalene 0.15% gel",
+            "description": "Component dyad gel containing benzoyl peroxide 3.1% and adapalene 0.15% formulated with the same active drug concentration and within the same vehicle as IDP-126",
+            "armGroupLabels": [
+              "BPO/ADAP gel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "IDP-126 Vehicle Gel",
+            "description": "Vehicle Gel",
+            "armGroupLabels": [
+              "IDP-126 Vehicle Gel"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Vehicle gel",
+            "description": "Placebo gel with the same vehicle formulation as IDP-126 but without active ingredients",
+            "armGroupLabels": [
+              "Vehicle gel"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

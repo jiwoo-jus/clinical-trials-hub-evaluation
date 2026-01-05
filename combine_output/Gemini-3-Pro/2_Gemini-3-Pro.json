@@ -1,0 +1,145 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03378635",
+      "orgStudyIdInfo": null,
+      "secondaryIdInfos": null,
+      "organization": {
+        "fullName": "Zealand Pharma",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": null,
+      "officialTitle": "Efficacy and Safety of Dasiglucagon, a Ready-to-Use Glucagon Analog, for the Treatment of Severe Hypoglycemia in Adults With Type 1 Diabetes: A Randomized Phase 3 Clinical Trial",
+      "acronym": null
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates the efficacy and safety of dasiglucagon, a next-generation ready-to-use glucagon analog in an aqueous formulation, for the treatment of severe hypoglycemia in adults with type 1 diabetes. In this randomized, double-blind trial, 170 adult participants were assigned to receive either 0.6 mg dasiglucagon, placebo, or 1 mg reconstituted glucagon during insulin-induced hypoglycemia. The primary goal was to determine if dasiglucagon is superior to placebo in recovery time, defined as an increase of ≥20 mg/dL in plasma glucose without rescue intervention.",
+      "detailedDescription": "This phase 3 trial employed a multicenter, randomized, placebo-controlled, double-blind, parallel-group design conducted in an inpatient clinical research setting across Germany, Austria, the U.S., and Canada. Participants were adults (18-75 years) with type 1 diabetes on stable insulin therapy. The study aimed to demonstrate the superiority of a single subcutaneous dose of 0.6 mg dasiglucagon over placebo, with 1.0 mg reconstituted lyophilized glucagon included as a reference.\n\nParticipants underwent insulin induction to achieve controlled hypoglycemia (target plasma glucose of 55 mg/dL). Once glucose levels dropped below 60 mg/dL, trial medication was administered subcutaneously. The primary endpoint was time to plasma glucose recovery, defined as the first increase in plasma glucose of ≥20 mg/dL from baseline without rescue intravenous glucose. Key secondary endpoints included plasma glucose recovery within specific timeframes (10, 15, 20, and 30 minutes) and the magnitude of plasma glucose change from baseline. Safety assessments included monitoring for adverse events, specifically nausea and vomiting, and immunogenicity (anti-drug antibodies)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 1 Diabetes",
+        "Severe Hypoglycemia"
+      ],
+      "keywords": [
+        "Dasiglucagon",
+        "Glucagon analog",
+        "Hypoglycemia reversal",
+        "Ready-to-use glucagon",
+        "Subcutaneous injection"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This trial used a multicenter, randomized, placebo-controlled, double-blind, parallel-group design in a clinical research inpatient setting. It included three parallel treatment arms, with participants randomly assigned 2:1:1 to receive a single subcutaneous dose of 0.6 mg dasiglucagon, placebo, or 1.0 mg reconstituted lyophilized glucagon.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Because the medications were different in appearance, the preparation and administration of trial medication were performed by unblinded trial personnel who were not involved in any other trial procedures or assessments. The investigators and participants were blinded.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 170,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dasiglucagon",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received a single subcutaneous dose of 0.6 mg dasiglucagon (ready-to-use aqueous formulation).",
+          "interventionNames": [
+            "Dasiglucagon"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received a single subcutaneous dose of placebo (matching aqueous formulation).",
+          "interventionNames": [
+            "Placebo"
+          ]
+        },
+        {
+          "label": "Reconstituted Glucagon",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received a single subcutaneous dose of 1.0 mg reconstituted lyophilized glucagon.",
+          "interventionNames": [
+            "Reconstituted Glucagon (GlucaGen)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dasiglucagon",
+          "description": "Ready-to-use, next-generation glucagon analog in aqueous formulation provided in a prefilled syringe, administered as a 0.6 mg subcutaneous dose.",
+          "armGroupLabels": [
+            "Dasiglucagon"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Aqueous formulation matching dasiglucagon administered as a 0.6 mL subcutaneous dose.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Reconstituted Glucagon (GlucaGen)",
+          "description": "Lyophilized powder requiring reconstitution (1 mg/mL glucagon for injection), administered as a 1.0 mg subcutaneous dose.",
+          "armGroupLabels": [
+            "Reconstituted Glucagon"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time to plasma glucose recovery",
+          "description": "Defined as time from dosing to the first increase in plasma glucose of ≥20 mg/dL (1.1 mmol/L) from baseline (time of injection) without rescue intravenous glucose. Individuals were considered not to have recovered if rescue intravenous glucose was administered or if recovery was not achieved within 45 min.",
+          "timeFrame": "From dosing up to 45 minutes"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportion of participants achieving plasma glucose recovery",
+          "description": "The proportion of participants achieving plasma glucose recovery (increase of ≥20 mg/dL without rescue) within specified time points.",
+          "timeFrame": "At 10, 15, 20, and 30 minutes after dosing"
+        },
+        {
+          "measure": "Plasma glucose change from baseline",
+          "description": "The absolute change in plasma glucose concentration from baseline at specified time points.",
+          "timeFrame": "At 10, 15, 20, and 30 minutes after dosing"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Adults with type 1 diabetes receiving stable insulin therapy\n* HbA1c <10% (85.8 mmol/mol)\n\nExclusion Criteria:\n* Previously received dasiglucagon\n* Allergy to any trial product\n* Experienced hypoglycemia with seizure during the preceding year or severe hypoglycemia during the preceding month\n* Used β-blockers, indomethacin, warfarin, or anticholinergic drugs daily during the 28 days before screening",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

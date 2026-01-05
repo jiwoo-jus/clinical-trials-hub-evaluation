@@ -1,0 +1,74 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT03388164,NCT03388164,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].id,EV,EV,,U01DA041089,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,1P20GM121312,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,National Institute on Drug Abuse,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,National Institute of General Medical Sciences,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,Adherence to Antidepressant Treatment in Subjects With Depression,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,Adherence to Antidepressant Treatment in Subjects With Depression,,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"This study aims to determine whether a combination a first-line antidepressant plus ""RT2CK17"" in a capsule relative to a first-line antidepressant plus placebo in a capsule results in higher rates of medication adherence in individuals with moderate to severe depression. In this double-blind randomized placebo controlled trial, 100 individuals with a Quick Inventory of Depressive Symptomatology-Self Report (QIDS-SR) scale score ≥ 14 will be enrolled to participate in an 8 week treatment study. Participants will be randomized with a 1-1 ratio to receive 5 milligrams (mg) ""RT2CK17"" + 10 mg escitalopram or placebo + 10 mg escitalopram to be taken orally once per day. Participants will undergo a 3 hour baseline evaluation visit at week 0, two 30-minute office visits (week 2 and 4), one 60-minute office visit (week 8) and three 5-minute phone calls (weeks 1, 3, and 6) during which clinical assessments and measures will be obtained. The trial is designed with two stages: 20 participants in Stage 1 will be used to estimate the adherence effect size; Stage 2 is designed with an interim analysis to test our hypotheses.","The current study investigated the influence of pairing an acute positive reinforcing dopaminergic/noradrenergic effect (methylphenidate, MPH) with a standard antidepressant on the rates of adherence to medication treatment. The primary objective was to determine whether MPH + escitalopram resulted in higher rates of medication adherence relative to placebo + escitalopram in individuals with moderate to severe depression.",True,0.93,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"This Phase 2a randomized placebo-controlled clinical trial included two principal study arms, with an option to escalate the dose of escitalopram at week 4. Participants were 1–1 randomized to either (1) 5 mg placebo + 10 mg escitalopram (encapsulated into one capsule) or (2) 5 mg methylphenidate (MPH) + 10 mg escitalopram (encapsulated into one capsule). Participants randomized to either condition were prescribed medication over the course of 8 weeks, with in-person follow-up visits at weeks 0, 2, 4 and 8, and follow-up phone calls on weeks 1, 3 and 6.
+
+The pilot study was part of a two-stage design which aimed to enroll 100 subjects. However, the trial was terminated at the end of Stage 1 (n=20) due to the results showing the opposite direction to the hypothesis and low posterior probabilities that MPH is superior to the placebo. The primary endpoint for adherence was percent Pill count. The secondary endpoint for adherence was based on the Medication Electronic Monitoring System (MEMS). Exploratory endpoints included the Beliefs About Medicines Questionnaire (BMQ) and changes in the Quick Inventory of Depressive Symptomology (QIDS-SR).",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,['Depression'],"['Moderate to severe depression', 'Major Depressive Disorder (MDD)']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Adherence to treatment', 'Methylphenidate', 'Escitalopram', 'Depression', 'Medication adherence', 'Habit formation']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"This Phase 2a randomized placebo-controlled clinical trial included two principal study arms: (1) 5 mg placebo + 10 mg escitalopram and (2) 5 mg methylphenidate (MPH) + 10 mg escitalopram. The pilot study was part of a two-stage design which aimed to enroll 100 subjects, but was terminated at the end of Stage 1.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,QUADRUPLE,QUADRUPLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"Investigators and participants were kept blinded during the study window until data collection and analysis were completed. All study physicians, nurses and research assistants who worked directly with participants were blinded to treatment allocation. Only the study statistician and one additional staff member who was assigned to work with the compounding pharmacy were unblinded.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']",True,1.0,exact,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,23,20,True,0.9,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Beliefs About Medicines Questionnaire (BMQ),,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].measure,EV,EV,,Remission,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[2].measure,EV,EV,,Response,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,Assessment of accepting/ambivalent vs. indifferent/skeptical beliefs.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].description,EV,EV,,Defined by a score of 5 on the Quick Inventory of Depressive Symptomology (QIDS-SR).,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[2].description,EV,EV,,Defined by a 50% reduction in symptoms on the QIDS-SR.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,Up to Week 8,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].timeFrame,EV,EV,,"Weeks 0, 1, 2, 3, 4, 6, and 8",,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[2].timeFrame,EV,EV,,"Weeks 0, 1, 2, 3, 4, 6, and 8",,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Baseline QIDS-SR ≥ 14 (moderate depression)
+* Age 18 - 65
+* Written Informed Consent
+* Major Depressive Disorder, single-episode/recurrent, not in remission
+
+Exclusion Criteria:
+
+* RT2CK17-related exclusions
+* Uncontrolled hyperthyroidism
+* Glaucoma
+* Motor tics
+* Monoamine oxidase inhibitor treatment
+* Serious coronary artery disease, cardiomyopathy, serious cardiac arrhythmias
+* Uncontrolled hypertension
+* Peripheral vasculopathy
+* Pregnancy
+* Bipolar Disorder
+* Psychotic Disorder
+* History of intolerability of study medications
+* Currently taking psychiatric medications
+* Current Substance Use Disorder (other than nicotine)
+* Current Alcohol Use Disorder","Inclusion Criteria:
+* Baseline QIDS-SR ≥ 14 (moderate depression)
+* Age 18–65 years
+* Ability to give written informed consent
+* MDD single-episode/recurrent, not in remission
+
+Exclusion Criteria:
+* MPH-related exclusions (i.e. uncontrolled hyperthyroidism, glaucoma, motor tics, monoamine oxidase inhibitor treatment, serious coronary artery disease, cardiomyopathy, serious cardiac arrhythmias, uncontrolled hypertension, peripheral vasculopathy, pregnancy)
+* Diagnosis with the following mental health conditions: bipolar disorder, psychotic disorder, current substance use disorder (other than nicotine), current alcohol use disorder
+* History of intolerability of study medications
+* Currently taking psychiatric medications",True,0.99,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,65 Years,65 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

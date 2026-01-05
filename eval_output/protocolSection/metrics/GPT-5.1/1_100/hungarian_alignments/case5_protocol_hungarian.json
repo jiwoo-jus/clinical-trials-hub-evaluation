@@ -1,0 +1,513 @@
+{
+  "metadata": {
+    "case_id": 5,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-28T02:43:29.642766",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/5_NCT03547167.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/5_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          1.0
+        ],
+        [
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.84
+        ],
+        [
+          0.9,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.99,
+          0.9,
+          0.4
+        ],
+        [
+          0.9,
+          0.99,
+          0.7
+        ],
+        [
+          0.7,
+          0.78,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.99,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.98,
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.08
+        ],
+        [
+          0.08
+        ],
+        [
+          0.05
+        ],
+        [
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 18,
+      "pred_count": 11,
+      "similarity_matrix": [
+        [
+          0.09,
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.86,
+          0.68,
+          0.7,
+          0.96,
+          0.7,
+          0.82
+        ],
+        [
+          0.08,
+          0.15,
+          0.05,
+          0.1,
+          0.18,
+          0.78,
+          0.86,
+          0.76,
+          0.6,
+          0.98,
+          0.82
+        ],
+        [
+          0.05,
+          0.22,
+          0.25,
+          0.15,
+          0.08,
+          0.36,
+          0.32,
+          0.72,
+          0.52,
+          0.68,
+          0.82
+        ],
+        [
+          0.98,
+          0.7,
+          0.92,
+          0.6,
+          0.78,
+          0.18,
+          0.1,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ],
+        [
+          0.62,
+          0.82,
+          0.68,
+          0.94,
+          0.72,
+          0.18,
+          0.08,
+          0.12,
+          0.2,
+          0.08,
+          0.08
+        ],
+        [
+          0.82,
+          0.6,
+          0.86,
+          0.7,
+          0.9,
+          0.12,
+          0.08,
+          0.05,
+          0.12,
+          0.15,
+          0.08
+        ],
+        [
+          0.68,
+          0.68,
+          0.65,
+          0.86,
+          0.76,
+          0.18,
+          0.1,
+          0.08,
+          0.1,
+          0.08,
+          0.05
+        ],
+        [
+          0.83,
+          0.35,
+          0.68,
+          0.66,
+          0.86,
+          0.18,
+          0.2,
+          0.05,
+          0.1,
+          0.12,
+          0.1
+        ],
+        [
+          0.7,
+          0.9,
+          0.7,
+          0.7,
+          0.4,
+          0.08,
+          0.05,
+          0.05,
+          0.02,
+          0.1,
+          0.05
+        ],
+        [
+          0.92,
+          0.7,
+          0.86,
+          0.68,
+          0.7,
+          0.08,
+          0.12,
+          0.12,
+          0.2,
+          0.2,
+          0.12
+        ],
+        [
+          0.7,
+          0.86,
+          0.78,
+          0.94,
+          0.82,
+          0.09,
+          0.08,
+          0.05,
+          0.08,
+          0.12,
+          0.02
+        ],
+        [
+          0.78,
+          0.7,
+          0.82,
+          0.78,
+          0.94,
+          0.12,
+          0.18,
+          0.08,
+          0.08,
+          0.08,
+          0.08
+        ],
+        [
+          0.7,
+          0.82,
+          0.6,
+          0.88,
+          0.78,
+          0.08,
+          0.1,
+          0.13,
+          0.1,
+          0.18,
+          0.12
+        ],
+        [
+          0.78,
+          0.75,
+          0.78,
+          0.7,
+          0.88,
+          0.15,
+          0.15,
+          0.12,
+          0.05,
+          0.18,
+          0.12
+        ],
+        [
+          0.68,
+          0.82,
+          0.77,
+          0.9,
+          0.78,
+          0.18,
+          0.05,
+          0.05,
+          0.1,
+          0.08,
+          0.1
+        ],
+        [
+          0.82,
+          0.86,
+          0.9,
+          0.78,
+          0.86,
+          0.05,
+          0.08,
+          0.05,
+          0.08,
+          0.12,
+          0.1
+        ],
+        [
+          0.55,
+          0.82,
+          0.7,
+          0.83,
+          0.74,
+          0.12,
+          0.12,
+          0.08,
+          0.62,
+          0.08,
+          0.08
+        ],
+        [
+          0.72,
+          0.72,
+          0.82,
+          0.74,
+          0.9,
+          0.1,
+          0.1,
+          0.08,
+          0.12,
+          0.15,
+          0.11
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 5,
+          "score": 0.86,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 9,
+          "score": 0.98,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 10,
+          "score": 0.82,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 6,
+          "score": 0.2,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": 3,
+          "score": 0.94,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": 4,
+          "score": 0.94,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": 7,
+          "score": 0.13,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": 8,
+          "score": 0.62,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        }
+      ]
+    }
+  ]
+}

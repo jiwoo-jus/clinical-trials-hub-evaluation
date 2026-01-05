@@ -1,0 +1,188 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "organization": {
+        "fullName": "Takeda Pharmaceutical Company Ltd.",
+        "class": "INDUSTRY"
+      },
+      "officialTitle": "Phase I, randomized, double-blind, placebo-controlled, single- and multiple-ascending dose, parallel-group study evaluated the safety, tolerability, pharmacokinetics, and pharmacodynamics of trazpiroben in healthy Japanese men"
+    },
+    "descriptionModule": {
+      "briefSummary": "This Phase I, randomized, double-blind, placebo-controlled study evaluated the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of trazpiroben (TAK-906) in healthy Japanese men. Trazpiroben is a peripherally selective dopamine D2/D3 receptor antagonist being developed for the treatment of chronic gastroparesis. The study assessed single and multiple oral doses of the drug compared to placebo. Findings were compared with those from a prior US trial in healthy individuals to evaluate potential ethnic differences in the drug's disposition and safety profile.",
+      "detailedDescription": "This study was designed as a phase I, randomized, double-blind, placebo-controlled, single- and multiple-ascending dose, parallel-group analysis. The primary objective was to assess the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of trazpiroben administered as single and multiple doses in healthy male Japanese participants. The study design was consistent with a prior US study (AT-01C) to allow for informal comparison between the two populations.\n\nA total of 24 participants were enrolled and divided into three cohorts (n = 8 per cohort). In each cohort, 6 participants received trazpiroben and 2 received placebo. The dosing regimen was as follows:\n- Cohort 1: 50 mg\n- Cohort 2: 100 mg\n- Cohort 3: 10 mg\n\nParticipants received a single dose of the blinded study drug on Day 1 (single-dose phase). This was followed by multiple doses administered twice daily for 5 days from Day 3 through Day 7 (multiple-dose phase), with no evening dose on Day 7. Follow-up assessments occurred on Day 14.\n\nSafety evaluations included monitoring of adverse events (AEs), physical examinations, vital signs, and standard 12-lead ECG parameters. PK analysis involved the collection of blood and urine samples to quantify trazpiroben and its metabolite, M23, using LC-MS/MS methods. Parameters assessed included AUC, Cmax, tmax, and elimination half-life. PD analysis utilized serum prolactin concentrations as a biomarker for dopamine D2 receptor antagonism, measuring AUC and Cmax of prolactin levels."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Gastroparesis"
+      ],
+      "keywords": [
+        "Trazpiroben",
+        "TAK-906",
+        "Dopamine D2/D3 receptor antagonist",
+        "Pharmacokinetics",
+        "Pharmacodynamics",
+        "Safety",
+        "Healthy Japanese men"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Single- and multiple-ascending dose study.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Double-blind, placebo-controlled study. Dose escalation was based on a full blinded review of safety and tolerability data.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 24,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Trazpiroben 50 mg (Cohort 1)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in Cohort 1 received trazpiroben 50 mg orally once on day 1 (single-dose phase) and twice daily on days 3 through 7 (multiple-dose phase).",
+          "interventionNames": [
+            "Trazpiroben"
+          ]
+        },
+        {
+          "label": "Trazpiroben 100 mg (Cohort 2)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in Cohort 2 received trazpiroben 100 mg orally once on day 1 (single-dose phase) and twice daily on days 3 through 7 (multiple-dose phase).",
+          "interventionNames": [
+            "Trazpiroben"
+          ]
+        },
+        {
+          "label": "Trazpiroben 10 mg (Cohort 3)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in Cohort 3 received trazpiroben 10 mg orally once on day 1 (single-dose phase) and twice daily on days 3 through 7 (multiple-dose phase).",
+          "interventionNames": [
+            "Trazpiroben"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants in each cohort (1, 2, and 3) randomized to placebo received matching placebo orally once on day 1 (single-dose phase) and twice daily on days 3 through 7 (multiple-dose phase).",
+          "interventionNames": [
+            "Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Trazpiroben",
+          "description": "A peripherally selective dopamine D2/D3 receptor antagonist (TAK-906). Administered orally after a fast of at least 10 hours.",
+          "armGroupLabels": [
+            "Trazpiroben 50 mg (Cohort 1)",
+            "Trazpiroben 100 mg (Cohort 2)",
+            "Trazpiroben 10 mg (Cohort 3)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Blinded placebo matching the active study drug.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incidence of Treatment-Emergent Adverse Events (TEAEs)",
+          "description": "Safety and tolerability were evaluated by monitoring adverse events (AEs). AEs were continuously monitored and assessed.",
+          "timeFrame": "From informed consent until follow-up at Day 14"
+        },
+        {
+          "measure": "Vital Signs",
+          "description": "Assessment of vital signs (blood pressure, pulse rate, body temperature).",
+          "timeFrame": "Days 1, 2, 7, and 8 (pre-dose and 1, 2, 4, 6, 24 hours post-dose); Days 3-6 (pre-dose); Day 14"
+        },
+        {
+          "measure": "Electrocardiogram (ECG) Parameters",
+          "description": "Assessment of standard 12-lead ECG parameters (including QTc interval).",
+          "timeFrame": "Days 1, 2, 7, and 8 (pre-dose and 1, 2, 4, 6, 24 hours post-dose); Day 5 (pre-dose and 1, 2 hours post-dose)"
+        },
+        {
+          "measure": "Clinical Laboratory Evaluations",
+          "description": "Evaluation of laboratory values including transaminase, bilirubin, and creatinine.",
+          "timeFrame": "Screening through Day 14"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Plasma Pharmacokinetics: Area Under the Concentration-Time Curve (AUC)",
+          "description": "AUC parameters (AUC∞, AUCτ,ss, AUC24, AUClast) for trazpiroben and metabolite M23.",
+          "timeFrame": "Days 1, 2, 7, and 8 (pre-dose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 16, 24 hours post-dose); Days 3-6 (pre-dose)"
+        },
+        {
+          "measure": "Plasma Pharmacokinetics: Maximum Serum Concentration (Cmax)",
+          "description": "Cmax and Cmax at steady state (Cmax,ss) for trazpiroben and metabolite M23.",
+          "timeFrame": "Days 1, 2, 7, and 8 (pre-dose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 16, 24 hours post-dose); Days 3-6 (pre-dose)"
+        },
+        {
+          "measure": "Plasma Pharmacokinetics: Time to Maximum Concentration (tmax)",
+          "description": "Time to reach maximum concentration (tmax) for trazpiroben and metabolite M23.",
+          "timeFrame": "Days 1, 2, 7, and 8 (pre-dose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 16, 24 hours post-dose); Days 3-6 (pre-dose)"
+        },
+        {
+          "measure": "Plasma Pharmacokinetics: Elimination Half-Life (t1/2z)",
+          "description": "Elimination half-life for trazpiroben and metabolite M23.",
+          "timeFrame": "Days 1, 2, 7, and 8 (pre-dose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 16, 24 hours post-dose); Days 3-6 (pre-dose)"
+        },
+        {
+          "measure": "Urine Pharmacokinetics: Total Amount Excreted",
+          "description": "Total amount of drug excreted in urine.",
+          "timeFrame": "Days 1 and 2 (0-6, 6-12, 12-24 hours post-dose); Day 7 (0-6, 6-12 hours post-dose)"
+        },
+        {
+          "measure": "Urine Pharmacokinetics: Fraction of Administered Drug Excreted",
+          "description": "Fraction of the administered dose excreted in the urine.",
+          "timeFrame": "Days 1 and 2 (0-6, 6-12, 12-24 hours post-dose); Day 7 (0-6, 6-12 hours post-dose)"
+        },
+        {
+          "measure": "Urine Pharmacokinetics: Renal Clearance",
+          "description": "Renal clearance of the drug.",
+          "timeFrame": "Days 1 and 2 (0-6, 6-12, 12-24 hours post-dose); Day 7 (0-6, 6-12 hours post-dose)"
+        },
+        {
+          "measure": "Pharmacodynamics: Serum Prolactin Concentration",
+          "description": "Measurement of serum prolactin concentrations (AUC and Cmax) as a biomarker for dopamine D2 receptor antagonism.",
+          "timeFrame": "Days 1, 2, 7, and 8 (pre-dose and 1, 2, 4, 6, 24 hours post-dose); Days 3-6 (pre-dose); Day 14"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Healthy Japanese men\n- Aged 20 to 60 years inclusive\n- Body weight of 50 kg or higher\n- Body mass index (BMI) of 18.5 to 25 kg/m2\n\nExclusion Criteria:\n- History of seizure or tardive dyskinesia\n- Hyperprolactinemia\n- Pituitary adenoma\n- Hypothyroidism\n- Any gastrointestinal disease that would be expected to influence the absorption of drugs\n- Family history of prolonged QT interval\n- QTc using Fridericia's formula >450 milliseconds\n- Previous gastric bypass surgery or current gastric band fitted\n- Abnormal laboratory values of transaminase, bilirubin, or creatinine\n- Abnormal ECGs at screening or baseline before administration of the study drug",
+      "healthyVolunteers": true,
+      "sex": "MALE",
+      "minimumAge": "20 Years",
+      "maximumAge": "60 Years",
+      "stdAges": [
+        "ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

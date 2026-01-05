@@ -1,0 +1,279 @@
+{
+  "metadata": {
+    "case_id": 82,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T19:09:24.493297",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/82_NCT03718871.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/82_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.8
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "id": "K23MH111409",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/K23MH111409"
+          },
+          "pred_item": {
+            "id": "K23MH111409",
+            "type": "NIH",
+            "domain": "US National Institute of Mental Health",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.62
+        ],
+        [
+          0.67,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Healer HIV testing intervention",
+            "type": "EXPERIMENTAL",
+            "description": "We will follow Ugandan National protocols to administer voluntary HIV testing at 9 TH practice locations throughout Mbarara District over a 9 month period.",
+            "interventionNames": [
+              "Behavioral: HIV testing at traditional healer practices"
+            ]
+          },
+          "pred_item": {
+            "label": "Traditional healer-delivered point-of-care HIV testing",
+            "type": "EXPERIMENTAL",
+            "description": "Traditional healers provided HIV pre-test counselling and offered point-of-care HIV testing using OraQuick oral swab kits directly at the healer practice to adult clients of unknown HIV serostatus. Healers were trained in HIV transmission, prevention, counselling, and the use and interpretation of the OraQuick test. Clients with reactive tests were counselled and referred to local clinics for confirmatory testing and linkage to HIV care.",
+            "interventionNames": [
+              "Traditional healer-delivered point-of-care HIV testing with OraQuick",
+              "Traditional healer HIV education and counselling"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Healer control arm",
+            "type": "NO_INTERVENTION",
+            "description": "Patients will undergo protcolized usual TH care at 8 practices, which include HIV education and a referral to receive VCT through existing resources. Study staff will contact the client at 3 months following enrollment to assess for self-report of VCT."
+          },
+          "pred_item": {
+            "label": "Referral to clinic-based HIV testing (usual care)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Traditional healers provided standardized HIV education and written referrals to nearby clinics for voluntary HIV testing. Control-group healers were trained on HIV transmission, prevention, and the locations of HIV testing sites, and given prepackaged envelopes containing a referral letter to give to eligible clients, who were instructed to attend a clinic within 90 days for HIV testing.",
+            "interventionNames": [
+              "Traditional healer-facilitated referral to clinic-based HIV testing",
+              "Traditional healer HIV education and counselling (referral only)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.82,
+          0.68
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "HIV testing at traditional healer practices",
+            "description": "HIV 1/2 antigen-antibody POC test (Oraquick©) will be administered to those participants who agree to test. Pre-test counseling will be performed before results are delivered. Clients with positive tests will be provided with detailed contact information for the MUST ISS clinic, and given specific instructions to present to the clinic as soon as possible for confirmatory testing and linkage to care.",
+            "armGroupLabels": [
+              "Healer HIV testing intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "DIAGNOSTIC_TEST",
+            "name": "Traditional healer-delivered point-of-care HIV testing with OraQuick",
+            "description": "Use of OraQuick oral swab HIV antibody test kits by trained traditional healers at their practices. Healers provided pre-test and post-test counselling, collected oral samples, performed the test, interpreted results using the built-in control band, and advised clients with positive results to obtain confirmatory testing and link to HIV care.",
+            "armGroupLabels": [
+              "Traditional healer-delivered point-of-care HIV testing"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of TH Clients Who Received HIV Testing",
+            "description": "Primary study outcome was receipt of an HIV test within 90 days of enrollment. In the control arm, this was assessed via self-report at time of 90-day phone call follow up. For intervention arm, the participating healer recorded whether an HIV test was accepted by the participant at the time of the study visit. If the HIV test was accepted and delivered, the healer recorded the result of the test.",
+            "timeFrame": "within 3 months following study visit"
+          },
+          "pred_item": {
+            "measure": "Receipt of an HIV test",
+            "description": "Proportion of individual clients who received an HIV test among those enrolled, assessed as acceptance and completion of HIV testing (healer-recorded in the intervention group; self-reported in the control group).",
+            "timeFrame": "Within 90 days of enrolment"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.68,
+          0.2
+        ],
+        [
+          0.68,
+          0.97,
+          0.18
+        ],
+        [
+          0.4,
+          0.18,
+          0.18
+        ],
+        [
+          0.3,
+          0.22,
+          0.2
+        ],
+        [
+          0.3,
+          0.35,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of New HIV Diagnoses Among TH Clients",
+            "description": "For intervention arm participants, the healer recorded the result of the point-of-care HIV test for those participants who agreed to test during the study visit. In the control arm, this outcomes was assessed via self-report during the 90-day follow up phone call.",
+            "timeFrame": "within three months following enrollment."
+          },
+          "pred_item": {
+            "measure": "New HIV diagnoses",
+            "description": "Number and proportion of enrolled clients who had a new HIV-positive test result among those who received HIV testing.",
+            "timeFrame": "Within 90 days of enrolment"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Patients With +HIV Test Who Successfully Link to HIV Care",
+            "description": "This outcome was assessed via self-report during the 90-day follow up phone call. For participants newly testing HIV-positive, questions were posed to determine if they had received confirmatory testing, and initiated ART medication.",
+            "timeFrame": "at three months following enrollment."
+          },
+          "pred_item": {
+            "measure": "Linkage to HIV care among newly diagnosed clients",
+            "description": "Number and proportion of clients with a new HIV diagnosis who reported confirmatory HIV testing, linkage to HIV care, and initiation of antiretroviral therapy (if indicated).",
+            "timeFrame": "Within 90 days of enrolment"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Age in Years of Control Arm Subjects Who Received an HIV Test",
+            "description": "Participants in the control arm assessed for primary outcomes of receiving an HIV test within 3 months of study enrollment. Participant age in years at time of study enrollment, and association with primary outcome of receiving an HIV test",
+            "timeFrame": "3 months following study enrollment"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.2,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Gender of Control Arm Subjects Who Received an HIV Test",
+            "description": "Self-reported participant gender and association with primary study outcome of receiving an HIV test",
+            "timeFrame": "at 3 months following enrollment"
+          },
+          "pred_item": {
+            "measure": "Reasons for not receiving an HIV test",
+            "description": "Self-reported reasons cited by enrolled clients who did not receive an HIV test for why they did not undergo HIV testing at local clinics.",
+            "timeFrame": "Assessed at 90-day follow-up"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Highest Level of Education for Control Arm Subjects Who Received an HIV Test",
+            "description": "Participant self-reported highest level of education, and association with study primary outcome of receiving an HIV test",
+            "timeFrame": "at 3 months following study enrollment"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

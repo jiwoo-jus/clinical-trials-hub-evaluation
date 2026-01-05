@@ -1,0 +1,190 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04150250",
+      "orgStudyIdInfo": {
+        "id": "DRG-032-PO-2-01-USA"
+      },
+      "organization": {
+        "fullName": "PATH",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cholera Anti-Secretory Treatment Trial",
+      "officialTitle": "A Phase 2a Randomized, Single-Center, Double-Blind, Placebo Controlled Study to Evaluate the Safety and Preliminary Efficacy of Oral iOWH032 Against Cholera Diarrhea in a Controlled Human Infection Model",
+      "acronym": "CAST"
+    },
+    "descriptionModule": {
+      "briefSummary": "This trial was designed to assess safety and preliminary efficacy of oral doses of iOWH032 on diarrhea output and clinical symptoms after a cholera challenge in healthy adult participants.",
+      "detailedDescription": "The study consists of a screening phase, an inpatient containment period with challenge with Vibrio cholerae on Day 1 followed by treatment with iOWH032 or placebo and a post-challenge observation period until discharge, an outpatient follow-up period of at least 28 days, and a final follow-up (by telephone) 6 months post-challenge (Day 180) for the collection of serious adverse events.\n\nParticipants will be randomized 1:1 to receive either iOWH032 500 mg every 8 hours for three days or matching placebo. Blinded therapeutic dosing will start at the onset of diarrhea or by 48 hours after ingesting the challenge inoculum of V. cholerae. The observation and management of cholera diarrhea and symptomatology will occur on an inpatient isolation research ward over a duration of approximately 11 days, including a three-day course of antibiotics to treat all participants prior to discharge from the inpatient unit."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Cholera"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 47,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "iOWH032",
+          "type": "EXPERIMENTAL",
+          "description": "On Day 1, participants were challenged with 10\\^6 colony-forming units (CFU) of freshly-harvested wild-type V. cholerae. At the onset of diarrhea, or at 48 hours after challenge, whichever occurred first, participants received oral iOWH032 500 mg tablets every 8 hours for 3 days. Participants received a 3-day course of antibiotics starting 4 days post-challenge, or sooner if the participant met the criterion for severe cholera diarrhea.",
+          "interventionNames": [
+            "Drug: iOWH032",
+            "Other: V. cholerae Challenge",
+            "Drug: Antibiotics"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "On Day 1, participants were challenged with 10\\^6 CFU of freshly-harvested wild-type V. cholerae. At the onset of diarrhea, or at 48 hours after challenge, whichever occurred first, participants received oral matching iOWH032 placebo tablets every 8 hours for 3 days. Participants received a 3-day course of antibiotics starting 4 days post-challenge, or sooner if the participant met the criterion for severe cholera diarrhea.",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Other: V. cholerae Challenge",
+            "Drug: Antibiotics"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "iOWH032",
+          "description": "Anti-secretory synthetically manufactured small molecule designed to inhibit the cystic fibrosis transmembrane conductance regulator chloride channel.",
+          "armGroupLabels": [
+            "iOWH032"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Oral tablets matching iOWH032 on taste, appearance, dissolution time with the same excipients but no active ingredients.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "V. cholerae Challenge",
+          "description": "Freshly-harvested, wild-type Vibrio (V.) cholerae El Tor Inaba strain N16961,10\\^6 cfu suspended in 30 mL of sodium bicarbonate solution ingested orally.",
+          "armGroupLabels": [
+            "Placebo",
+            "iOWH032"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Antibiotics",
+          "description": "Antibiotic therapy may include:\n\n* Ciprofloxacin 500 mg, twice daily;\n* Azithromycin 500 mg, once daily (for those persons who are allergic to fluoroquinolones);\n* Doxycycline 300 mg, once daily (for those persons who are allergic to fluoroquinolones)",
+          "armGroupLabels": [
+            "Placebo",
+            "iOWH032"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Diarrheal Stool Output Rate",
+          "description": "Diarrheal stool output rate is defined as the total volume of diarrheal stools (in mL, Grade 3 and above) divided by the number of hours between initiation of study drug (iOWH032 or placebo) and initiation of antibiotic therapy.\n\nStools were graded based on consistency as follows:\n\n* Grade 1 - well formed (normal stool, does not take the shape of the container)\n* Grade 2 - soft (normal stool, does not take the shape of the container)\n* Grade 3 - thick liquid (diarrhea, takes the shape of the container readily)\n* Grade 4 - opaque watery diarrhea\n* Grade 5 - rice water diarrhea (clear watery)\n\nThe definition of diarrhea is a grade 3 or higher stool.",
+          "timeFrame": "Day 1 - Day 5 (up to first dose of antibiotic therapy)"
+        },
+        {
+          "measure": "Diarrheal Stool Output Rate Including Participants With Symptom Onset After 48 Hours",
+          "description": "Stools were graded based on consistency as follows:\n\n* Grade 1 - well formed (normal stool, does not take the shape of the container)\n* Grade 2 - soft (normal stool, does not take the shape of the container)\n* Grade 3 - thick liquid (diarrhea, takes the shape of the container readily)\n* Grade 4 - opaque watery diarrhea\n* Grade 5 - rice water diarrhea (clear watery)\n\nThe definition of diarrhea is a grade 3 or higher stool. For participants with symptom onset within 48 hours of challenge diarrheal stool output rate is defined as the total volume of diarrheal stools (mL, Grade 3 and above) divided by the number of hours between initiation of study product dosing and initiation of antibiotic therapy.\n\nFor participants with symptom onset after 48 hours diarrheal stool output rate is defined as the total volume of diarrheal stools (mL, Grade 3 and above) divided by the number of hours between onset of symptoms and initiation of antibiotic therapy.",
+          "timeFrame": "Day 1 - Day 5 (up to first dose of antibiotic therapy)"
+        },
+        {
+          "measure": "Number of Participants With Treatment-emergent Serious Adverse Events",
+          "description": "A serious adverse event (SAE) is any adverse event that resulted in any of the following outcomes:\n\n1. Death\n2. A life-threatening event.\n3. Required inpatient hospitalization or prolongation of existing hospitalization\n4. Resulted in persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions\n5. Congenital abnormality or birth defect\n6. Important medical event that may not result in one of the above outcomes but may jeopardize the health of the study participant and/or requires medical or surgical intervention to prevent one of the outcomes listed in the above definition of serious adverse event.",
+          "timeFrame": "Day 1 - Day 180"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With Moderate to Severe Diarrhea With Onset Within 48 Hours Following Cholera Challenge",
+          "description": "The percentage of participants with moderate to severe diarrhea with onset within 48 hours following cholera challenge.\n\nDiarrhea was defined as a grade 3 or higher stool based on the following scale:\n\n* Grade 1 - well formed (normal stool, does not take the shape of the container)\n* Grade 2 - soft (normal stool, does not take the shape of the container)\n* Grade 3 - thick liquid (diarrhea, takes the shape of the container readily)\n* Grade 4 - opaque watery diarrhea\n* Grade 5 - rice water diarrhea (clear watery)\n\nDiarrheal stools (Grade 3-5) were graded for severity according to the following: Mild: ≤ 3 liters loose stools; Moderate: \\> 3 liters loose stools; Severe: \\> 5 liters loose stools.",
+          "timeFrame": "Day 1 - Day 5 (up to first dose of antibiotic therapy)"
+        },
+        {
+          "measure": "Attack Rate of Any Diarrhea Following Cholera Challenge",
+          "description": "Attack rate of any diarrhea following cholera challenge is defined as the number of participants with 2 or more loose stools (Grade 3-5) totaling \\> 200 mL or 1 loose (Grade 3-5) stool \\> 300 mL, respectively, with onset within 48 hours of cholera challenge.",
+          "timeFrame": "Day 1 - Day 5 (up to first dose of antibiotic therapy)"
+        },
+        {
+          "measure": "Area Under the Curve (AUC) of Diarrheal Stool Volume Between Challenge Dose and Initiation of Antibiotics",
+          "description": "The AUC of diarrheal stool volume and cholera organisms was computed via the trapezoidal rule.",
+          "timeFrame": "Day 1 to Day 5 (prior to first dose of antibiotic)"
+        },
+        {
+          "measure": "Peak Shedding of Cholera Organisms",
+          "description": "Quantitative cultures were performed on the first two stool samples of each 24-hour period prior to the initiation of antibiotics to determine the number of cholera organisms per gram of stool. Peak shedding represents the highest colony-forming unit (CFU) counts observed for each participant.",
+          "timeFrame": "Day 1 to Day 5 (prior to first dose of antibiotic)"
+        },
+        {
+          "measure": "Duration of Diarrheal Episodes",
+          "description": "Duration of diarrheal episodes was calculated using Kaplan-Meier methods as the time from cholera challenge to the time of the first formed stool (Grade 1), after which all following stools were also formed.",
+          "timeFrame": "Day 1 to Day 5 (prior to first dose of antibiotics)"
+        },
+        {
+          "measure": "Total Number of Loose (Grade 3-5) Stools",
+          "description": "Total number of loose stools (Grade 3 and above) per participant during the interval immediately following challenge and prior to initiation of antibiotic therapy.",
+          "timeFrame": "Day 1 to Day 5 (prior to first dose of antibiotic therapy)"
+        },
+        {
+          "measure": "Percentage of Participants With Fever Following Cholera Challenge",
+          "description": "The presence of fever was defined as a body temperature of ≥ 39°C (102.1°F).",
+          "timeFrame": "Day 1 to Day 5, prior to first dose of antibiotics"
+        },
+        {
+          "measure": "Percentage of Participants With Vomiting Following Cholera Challenge",
+          "timeFrame": "Day 1 to Day 5, prior to first dose of antibiotics"
+        },
+        {
+          "measure": "Number of Participants With Solicited Adverse Effects",
+          "description": "Solicited adverse events (AEs) include nausea, abdominal discomfort and pain, abdominal cramps, headache, malaise, anorexia, pollakiuria, micturition urgency, sinus tachycardia, increased alertness, and were collected by interview through 7 days post-challenge (Days 1-8)",
+          "timeFrame": "Day 1 - Day 8"
+        },
+        {
+          "measure": "Number of Participants With Unsolicited Treatment-emergent Adverse Events (TEAE)",
+          "description": "Unsolicited AEs include any AEs reported spontaneously by the participant, observed by the study personnel during study visits or those identified during review of medical records or source documents. Investigators assigned causality of unsolicited AEs to either the study drug, cholera infection, or an alternate etiology.",
+          "timeFrame": "From first dose of study drug up to Day 29"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Willing and able to understand and provide written informed consent\n2. Healthy male and female adults, age 18 to 44 years (inclusive), without clinically significant medical history, physical or clinical laboratory abnormalities (as per protocol-defined acceptable ranges), and protocol-defined abnormal electrocardiogram results at screening\n3. All women must have a negative serum pregnancy test at screening and one day prior to challenge.\n4. Agreement by participants to use an adequate method of contraception\\* during the study and for 4 weeks before and after the challenge.\n5. Able to pass a written examination (comprehension assessment test) with a score of ≥ 70%, in order to demonstrate their comprehension of this study. If a participant scores at least 50%, then they will be given one more opportunity to re-test after further re-education.\n6. Willing and able to comply with the study requirements and procedures.\n\n   * Adequate contraception is defined as a contraceptive method with failure rate of less than 1% per year when used consistently and correctly and when applicable, in accordance with the product label; includes, but is not limited to, barrier with additional spermicidal foam or jelly, intrauterine device, hormonal contraception (started at least 4 weeks prior to study enrollment), or women who have intercourse limited to men who underwent vasectomy.\n\nExclusion Criteria:\n\n1. Clinically significant history of immunodeficiency, cardiovascular disease, respiratory disease, endocrine disorder, liver disease, renal disease, gastrointestinal disease, anal or rectal disorders, neurologic disease,\n2. Current nicotine use or drug, alcohol abuse within the past 6 months\n3. Recipient of bone marrow or solid organ transplant\n4. Use of systemic chemotherapy in the past 5 years\n5. Has a malignancy (excluding localized non-melanoma skin cancers) or lymphoproliferative disorders diagnosed or treated within the past 5 years\n6. Received or plans to receive systemic immunosuppressive therapy, radiation therapy, parenteral or high-dosage inhaled steroids (\\> 800 µg/day of beclomethasone dipropionate or equivalent) within 6 months prior to the enrollment through 28 days after challenge\n7. Have a history of hospitalization for psychiatric illness, suicide attempt, or confinement for danger to self or others, within the past 10 years. Participants with a psychiatric disorder (not meeting exclusion criteria, e.g., attention-deficit hyperactivity disorder) that is controlled for a minimum of 3 months and the investigator has determined that the participant's mental status will not compromise the participant's ability to comply with protocol requirements may be enrolled\n8. Have an elevated blood pressure, systolic ≥ 150 mmHg or diastolic ≥ 90 mmHg, before challenge\n9. Taking any of the the protocol-defined drugs that are metabolized by CYP2C9 or any of the following psychiatric medications: aripiprazole, carbamazepine, chlorpromazine, chlorprothixene, clozapine, divalproex sodium, fluphenazine, haloperidol, lithium carbonate, lithium citrate, loxapine, mesoridazine, molindone, olanzapine, perphenazine, pimozide, quetiapine, risperidone, thioridazine, thiothixene, trifluoperazine, triflupromazine, or ziprasidone\n10. History of Guillain-Barré Syndrome\n11. Too low or too high a body mass index (BMI \\< 18.5 or \\> 39)\n12. Has an abnormal stool pattern defined as fewer than 3 stools per week or more than 2 stools per day within the past 6 months, and any loose stools (grade 3 or higher) during the 1-2 day acclimation period before challenge\n13. Has regularly used laxatives in the past 6 months\n14. Has a history of eating disorders (e.g. anorexia or bulimia) within the past 10 years\n15. Known allergy or previous severe adverse effect to all of the following antibiotics: ciprofloxacin (or quinolones), azithromycin and doxycycline.\n16. Previously received a licensed or investigational cholera vaccine, within 10 years\n17. History of cholera or enterotoxigenic Escherichia coli (ETEC) infection (lab-confirmed natural infection or experimental challenge), within 10 years\n18. Travel to a cholera-endemic area in the past 5 years\n19. Pregnant or nursing\n20. Positive serology for human immunodeficiency virus (HIV), hepatitis B antigen, or hepatitis C antibody\n21. Protocol-defined clinically abnormal 12-lead electrocardiogram (ECG) at screening in the judgment of the Investigator, or based on the formal 12-lead ECG reading by a cardiologist; history of any cardiac abnormalities, including conduction abnormalities such as Wolff-Parkinson-White, dysrhythmias, or coronary artery disease\n22. Presence of a clinically significant abnormality on physical examination, including (but not limited to): pathologic heart murmur, lymphadenopathy, hepatosplenomegaly, large abdominal scar of unclear origin\n23. Has poor venous access, defined as the inability to obtain screening blood tests after three attempts\n24. Currently on, or plans to be on, antibiotics (e.g., doxycycline) within 14 days prior to challenge and through 28 days after challenge\n25. Presence of an acute illness or fever (\\> 100.4°F) within 72 hours of admission to the inpatient Clinical Research Unit\n26. Taking any prescription or over-the-counter medications that contain aspirin, non-steroidal anti-inflammatory drugs (NSAIDs), antacids, proton pump inhibitors (PPIs), anti-diarrheals, etc. within 72 hours prior to challenge\n27. Received an investigational product within 30 days prior to randomization (90 days prior to randomization for monoclonal antibodies) or planned to participate in another research study involving an investigational product during the conduct of this study\n28. Participants must not have donated blood in 8 weeks prior to study entry and agreed to not donate blood during and for 4 weeks following their active participation in this study\n29. Lack of ability to fully understand the informed consent\n30. Any other condition(s) that in the opinion of the investigator would jeopardize the safety or rights of a participant participating in the trial or would render the participant unable to comply with the protocol",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "44 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    }
+  }
+}

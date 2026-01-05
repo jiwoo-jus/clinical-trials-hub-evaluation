@@ -1,0 +1,153 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+GPT-5.1,protocolSection.identificationModule.nctId,TP,TP,NCT03959423,NCT03959423,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.briefTitle,TP,TP,Safety Evaluation of the Advanced Hybrid Closed Loop (AHCL) System,Safety Evaluation of the Advanced Hybrid Closed Loop (AHCL) System in Type 1 Adult and Pediatric Subjects,True,0.96,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.officialTitle,TP,TP,Safety Evaluation of the Advanced Hybrid Closed Loop (AHCL) System in Type 1 Adult and Pediatric Subjects,Medtronic Safety Evaluation of the Advanced Hybrid Closed Loop (AHCL) System in Type 1 Adult and Pediatric Subjects,True,0.98,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+GPT-5.1,protocolSection.descriptionModule.briefSummary,TP,TP,This study is a Safety Evaluation of the Advanced Hybrid Closed Loop (AHCL) System in Type 1 Adult and Pediatric Subjects.,"This multicenter, open-label, single-arm trial evaluated the safety and effectiveness of an advanced hybrid closed-loop (AHCL) insulin delivery system (MiniMed AHCL/MiniMed 780G algorithm) in adolescents and adults with type 1 diabetes. After a run‑in period using the system as a sensor-augmented pump with or without predictive low glucose management or automated basal delivery, participants used automated basal and automated correction bolus functions for about 3 months with glucose targets of 100 mg/dL and 120 mg/dL. The study assessed safety events, changes in hemoglobin A1C, time in range (70–180 mg/dL), time below range (<70 mg/dL), and other continuous glucose monitoring metrics, and explored how different glucose targets and active insulin time settings affect glycemic outcomes.",True,0.82,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+GPT-5.1,protocolSection.descriptionModule.detailedDescription,TP,TP,"The purpose of this study is to evaluate the safety of the Advanced Hybrid Closed Loop system (AHCL) in type 1 diabetes adult and pediatric subjects in a home setting. The main objective in conducting this research is to collect data from patients who use the AHCL system at home, at work, at school and everywhere else. Subjects will use 670G 4.0 system with Guardian Sensor 3 (GS3) during study period, and will be allowed to participate in continued access phase, and use 670G 4.0 system with GS3 and 780G system with Guardian 4 Sensor (G4S).","This pivotal trial was designed to assess the safety and glycemic impact of an advanced hybrid closed-loop (AHCL) insulin delivery system in adolescents (14–21 years) and adults (22–75 years) with type 1 diabetes (T1D). The AHCL system consists of a MiniMed 670G insulin pump running a next-generation version 4.0 algorithm (MiniMed 780G-type) integrated with the Guardian Sensor 3 continuous glucose monitoring (CGM) system and Guardian Link 3 transmitter. The algorithm provides automated basal insulin delivery (Auto Basal), automated correction boluses (Auto Correction) up to every 5 minutes, predictive low glucose management features, and a meal detection module that can intensify correction boluses when a meal is suspected. Users can choose a glucose target of 100 mg/dL or 120 mg/dL and may temporarily set a target of 150 mg/dL.
+
+The study employed a multicenter, open-label, single-arm design. Eligible participants had type 1 diabetes for at least 2 years, used insulin pump therapy for more than 6 months, required at least 8 units of insulin per day, and had screening hemoglobin A1C <10%. Exclusion criteria included recent severe hypoglycemia requiring assistance, diabetic ketoacidosis (DKA), recent hospitalization for uncontrolled diabetes, hypoglycemia unawareness, and significant skin issues preventing sensor use.
+
+Participants completed a baseline run-in period of approximately 14 days using the AHCL hardware as a sensor-augmented pump (SAP) with or without predictive low glucose management (PLGM) or with Auto Basal only; automated correction bolus (Auto Correction) was generally disabled during this phase. This run-in served as the comparator for subsequent closed-loop outcomes. Following run-in, participants entered a study phase of approximately 90 days in which both Auto Basal and Auto Correction were enabled. Each participant used one programmed glucose target (100 or 120 mg/dL) for about 45 ± 5 days, then switched to the alternate target for the remaining 45 ± 5 days, allowing within-subject comparison of different target settings. Active insulin time (AIT) settings were clinician- and user-selected and examined post hoc for their association with glycemic outcomes.
+
+The intent-to-treat cohort included 157 participants (39 adolescents and 118 adults); 152 completed the full study phase. The primary efficacy endpoints were exploratory and included change in mean time in range (TIR, 70–180 mg/dL) and mean hemoglobin A1C from the end of run-in to the end of the study phase. Additional glycemic endpoints included mean sensor glucose (SG), coefficient of variation (CV) of SG, time below range (TBR) at thresholds <70, <54, and <50 mg/dL, time above range (TAR) at thresholds >180, >250, and >300 mg/dL, and day (6 AM–12 AM) vs night (12 AM–6 AM) metrics. Insulin delivery endpoints included total daily insulin dose, basal (including microboluses), user-initiated boluses, and automated correction boluses in absolute units and as a proportion of total bolus insulin. Safety endpoints included serious adverse events (SAEs), serious adverse device effects (SADEs), unanticipated adverse device effects, severe hypoglycemia, and DKA.
+
+Analyses were performed primarily in the intent-to-treat population, with a per-protocol sensitivity analysis yielding similar results. Within-participant comparisons between run-in and study phase used Wilcoxon signed-rank tests or paired t-tests, and associations between AIT and glycemic metrics used Spearman correlations.
+
+During the study phase, participants spent on average about 95% of time in closed-loop mode, with roughly 1.2 exits per week. Compared with run-in therapy (SAP/PLGM/Auto Basal without Auto Correction), use of full AHCL (Auto Basal + Auto Correction) reduced mean A1C from 7.5% to 7.0%, increased 24-hour TIR from 68.8% to 74.5%, and reduced TBR (<70 mg/dL) from 3.3% to 2.3%, without severe hypoglycemia or DKA. Improvements were observed in both adolescents and adults and were more pronounced overnight, where TIR exceeded 80% and both TBR and TAR decreased. The fraction of participants achieving an A1C <7% and TIR >70% increased substantially, and a larger proportion met international consensus CGM targets for TIR and limited hypoglycemia (TBR <70 mg/dL <4% and TBR <54 mg/dL <1%).
+
+Subgroup analyses showed that setting the glucose target to 100 mg/dL yielded higher TIR than 120 mg/dL, and more aggressive AIT settings (as short as 2 hours) at the 100 mg/dL target further improved TIR without a meaningful increase in TBR. Automated correction boluses accounted for about 20–22% of total bolus insulin over the full day and more than 60% of bolus insulin overnight, indicating that the algorithm assumed a substantial part of corrective dosing burden, especially during sleep. Total insulin and total bolus doses increased modestly from run-in to the study phase, particularly in adolescents, while basal insulin decreased somewhat in adults over the full day and daytime.
+
+Across more than 20,000 device days in the entire study and more than 14,000 days with Auto Basal and Auto Correction enabled, the safety profile was favorable: no device-related SAEs, no SADEs or unanticipated device effects, and no DKA. One severe hypoglycemia event occurred during the run-in period (before full AHCL use) and was not attributed to the investigational device. The AHCL system performance and safety were consistent with, and extended, prior smaller randomized controlled trials and cross-over studies of this algorithm in camp, supervised, and at-home settings.
+
+Overall, the study demonstrates that the MiniMed AHCL system is safe and effective for improving glycemic control in adolescents and adults with type 1 diabetes who are already experienced pump users, enabling more users to attain international CGM-based targets for time in range and hypoglycemia. The findings suggest that appropriate selection of glucose target and active insulin time settings can further optimize glycemic outcomes and may reduce day-to-day management burden by shifting more corrective dosing to the automated system.",True,0.7,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+GPT-5.1,protocolSection.conditionsModule.conditions,TP,TP,['Type 1 Diabetes Mellitus'],['Type 1 Diabetes Mellitus'],True,1.0,exact,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+GPT-5.1,protocolSection.conditionsModule.keywords,EV,EV,,"['Type 1 Diabetes', 'Diabetes Mellitus, Type 1', 'Advanced Hybrid Closed-Loop', 'Hybrid Closed-Loop', 'Automated Insulin Delivery', 'Insulin Infusion Systems', 'Insulin Pump', 'Continuous Glucose Monitoring', 'Sensor-Augmented Pump', 'Predictive Low Glucose Management', 'Glycemic Control', 'Hemoglobin A1c', 'Time in Range', 'Time Below Range', 'Time Above Range', 'Adolescent', 'Adult']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.allocation,TP,FP,NA,NON_RANDOMIZED,False,0.3,success,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.interventionModel,TP,TP,SINGLE_GROUP,SINGLE_GROUP,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,Multicenter open-label single-arm study in which all enrolled adolescents and adults with type 1 diabetes used the same advanced hybrid closed-loop MiniMed AHCL system through a run-in period followed by a ~90-day study phase.,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.observationalModel,EV,EV,,COHORT,,,,DesignObservationalModel,protocolSection.designModule.designInfo.observationalModel,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.timePerspective,EV,EV,,PROSPECTIVE,,,,DesignTimePerspective,protocolSection.designModule.designInfo.timePerspective,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Open-label study with no blinding; participants and investigators were aware of treatment.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.enrollmentInfo.count,TP,FP,288,157,False,0.2,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[10].measure,EV,EV,,"Composite CGM target achievement (TIR, TBR <70 mg/dL, and TBR <54 mg/dL)",,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[12].measure,EV,EV,,Daytime and nighttime glycemic outcomes,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[4].measure,EV,EV,,"Change in time at hyperglycemic ranges (>180, >250, and >300 mg/dL)",,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[5].measure,EV,EV,,Change in insulin total daily dose and components,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[6].measure,EV,EV,,Auto Correction insulin as proportion of total bolus insulin,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[7].measure,EV,EV,,Time in closed loop and number of closed-loop exits,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[8].measure,EV,EV,,Effect of glucose target setting (100 vs 120 mg/dL) on TIR and TBR,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[9].measure,EV,EV,,Association of active insulin time (AIT) setting with TIR and TBR,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[10].description,EV,EV,,"Proportion of participants achieving a composite continuous glucose monitoring target of TIR >70%, TBR <70 mg/dL <4%, and TBR <54 mg/dL <1%, comparing run-in period and study phase.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[12].description,EV,EV,,"Change in TIR, TBR, time above range, mean sensor glucose, and glucose variability analyzed separately for daytime (6 AM–12 AM) and nighttime (12 AM–6 AM) periods.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[4].description,EV,EV,,"Change in the percentage of time sensor glucose is above 180 mg/dL, 250 mg/dL, and 300 mg/dL comparing the run-in period with the study phase.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[5].description,EV,EV,,"Change in total daily dose of insulin and its components (total insulin per period, total basal [basal + microbolus] insulin, total bolus insulin) between the run-in period and the study phase.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[6].description,EV,EV,,"Percentage of automated correction bolus insulin (Auto Correction) relative to total bolus insulin during the study phase, overall and by time-of-day periods.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[7].description,EV,EV,,"Percentage of time the system operates in closed-loop mode and the rate of exits from closed loop (per participant per week), overall and by age group.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[8].description,EV,EV,,Comparison of time in range (TIR) and time below range (TBR) when the system is programmed with a 100 mg/dL versus a 120 mg/dL glucose target.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[9].description,EV,EV,,Exploratory assessment of univariate associations between active insulin time settings and TIR and TBR using Spearman's rank-order correlation.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[10].timeFrame,EV,EV,,End of run-in period (~14 days) and end of study phase (~90 days),,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[12].timeFrame,EV,EV,,End of run-in period (~14 days) to end of study phase (~90 days),,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[4].timeFrame,EV,EV,,End of run-in period (~14 days) to end of study phase (~90 days),,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[5].timeFrame,EV,EV,,End of run-in period (~14 days) to end of study phase (~90 days),,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[6].timeFrame,EV,EV,,During study phase (~90 days),,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[7].timeFrame,EV,EV,,"During run-in period (~14 days) and study phase (~90 days), with primary reporting over the study phase",,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[8].timeFrame,EV,EV,,Within study phase: first ~45 days at one target and subsequent ~45 days at the alternate target,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[9].timeFrame,EV,EV,,During study phase (~90 days),,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Incidence of serious adverse events and device-related adverse events,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,"Incidence of serious adverse events (SAEs), serious adverse device effects (SADEs), unanticipated adverse device effects, severe hypoglycemia, and diabetic ketoacidosis during the run-in period and study phase.",,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,"From start of run-in period through end of study phase (>20,229 participant-days total)",,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+GPT-5.1,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+1. Subject is age 7-75 years at time of Screening
+2. Subjects 14-75 years of age: A clinical diagnosis of type 1 diabetes for 2 years or more as determined via medical record or source documentation by an individual qualified to make a medical diagnosis
+3. Subjects 7-13 years of age: A clinical diagnosis of type 1 diabetes for 1 year or more as determined via medical record or source documentation by an individual qualified to make a medical diagnosis Study-specific inclusion criteria
+4. Subject is willing to perform ≥ 4 finger stick blood glucose measurements daily
+5. Subject is willing to perform required sensor calibrations
+6. Subject is willing to wear the system continuously throughout the study
+7. Subject must have a minimum daily insulin requirement (Total Daily Dose) of greater than or equal to 8 units
+8. Subject has a Glycosylated hemoglobin (HbA1c) less than 10% (as processed by Central Lab) at time of Screening visit Note: All HbA1c blood specimens will be sent to and tested by a NGSP certified Central Laboratory. HbA1c testing must follow National Glycohemoglobin Standardization Program (NGSP) standards.
+9. Subject has TSH in the normal range OR if the TSH is out of normal reference range the Free T3 is below or within the lab's reference range and Free T4 is within the normal reference range.
+10. Pump therapy for greater than 6 months prior to screening (with or without CGM experience)
+11. Subject must have a companion or caregiver available at night for the duration of the study period who resides (or will live) in in the same building (or home). A companion or caregiver should also be available during exercise challenges in the same building, home or location (if not at home). This requirement may be verified by subject report at screening visit.
+12. Subject willing to upload data from the study pump, must have Internet access and a computer system that meets the requirements for uploading the study pump
+13. If subject has celiac disease, it has been adequately treated as determined by the investigator
+14. Subject is willing to take one of the following insulins and can financially support the use of either of the 2 insulin preparations throughout the course of the study (i.e. co-payments for insulin with insurance or able to pay full amount)
+
+    * Humalog™\* (insulin lispro injection)
+    * NovoLog™\* (insulin aspart)
+15. Subjects with history of cardiovascular event 1 year or more from the time of screening must have an EKG within 6 months prior to screening or during screening. If subject has an abnormal EKG, participation is allowed if there is clearance from a cardiologist
+16. Subjects with the 3 or more cardiovascular risk factors listed below must have an EKG within 6 months prior to screening or during screening. If subject has an abnormal EKG, participation is allowed if there is clearance from a cardiologist
+
+    a. Cardiovascular risk factors include:
+    * Age \>35 years
+    * Type 1 diabetes of \>15 years' duration
+    * Presence of any additional risk factor for coronary artery disease
+    * Presence of microvascular disease (proliferative retinopathy or nephropathy, including microalbuminuria)
+    * Presence of peripheral vascular disease
+    * Presence of autonomic neuropathy
+17. Subjects with history of cardiovascular event 1 year or more from the time of screening must have a stress test within 6 months prior to screening or during run in period. If subject fails stress test, participation is allowed if there is clearance from a cardiologist
+
+Exclusion Criteria:
+
+1. Subject has a history of 1 or more episodes of severe hypoglycemia, which resulted in any the following during the 6 months prior to Screening:
+
+   1. Medical assistance (i.e. Paramedics, Emergency Room (ER) or Hospitalization)
+   2. Coma
+   3. Seizures
+2. Subject has been hospitalized or has visited the ER in the 6 months prior to Screening resulting in a primary diagnosis of uncontrolled diabetes
+3. Subject has had Diabetic Ketoacidosis (DKA) in the 6 months prior to Screening.
+4. Subject has Hypoglycemia Unawareness, as measured by the Gold questionnaire (Gold, MacLeod et al. 1994) at Screening
+5. Subject is unable to tolerate tape adhesive in the area of sensor placement
+6. Subject has any unresolved adverse skin condition in the area of sensor placement (e.g., psoriasis, dermatitis herpetiformis, rash, Staphylococcus infection)
+7. Women of child-bearing potential who have a positive pregnancy test at Screening or plan to become pregnant during the course of the study
+8. Females who are sexually active and able to conceive will be excluded if they are not using an effective method of contraception and do not agree to continue using an effective method of contraception for the duration of the study as determined by investigator.
+9. Subject has had any of the following cardiovascular events within 1 year of screening: myocardial infarction, unstable angina, coronary artery bypass surgery, coronary artery stenting, transient ischemic attack, cerebrovascular accident, angina, congestive heart failure, ventricular rhythm disturbances or thromboembolic disease
+10. Subject is being treated for hyperthyroidism at time of Screening
+11. Subject has a diagnosis of adrenal insufficiency
+12. Subject has taken any oral, injectable, or intravenous (IV) glucocorticoids within 8 weeks from time of Screening, or plans to take any oral, injectable, or IV glucocorticoids during the course of the study
+13. Subject is actively participating in an investigational study (drug or device) wherein he/she has received treatment from an investigational study drug or investigational study device in the last 2 weeks
+14. Subject is currently abusing illicit drugs
+15. Subject is currently abusing marijuana
+16. Subject is currently abusing prescription drugs
+17. Subject is currently abusing alcohol
+18. Subject is using pramlintide (Symlin), DPP-4 inhibitor, liraglutide (Victoza or other GLP-1 agonists), metformin, canagliflozin (Invokana or other SGLT2 inhibitors) at time of Screening
+19. Subject has a history of visual impairment which would not allow subject to participate in the study and perform all study procedures safely, as determined by the investigator
+20. Subject has elective surgery planned that requires general anesthesia during the course of the study
+21. Subject has a sickle cell disease, hemoglobinopathy; or has received red blood cell transfusion or erythropoietin within 3 months prior to time of Screening
+22. Subject plans to receive red blood cell transfusion or erythropoietin over the course of study participation
+23. Subject diagnosed with current eating disorder such as anorexia or bulimia
+24. Subject has been diagnosed with chronic kidney disease that results in chronic anemia
+25. Subject has a hematocrit that is below the normal reference range of lab used.
+26. Subject is on dialysis
+27. Subject has serum creatinine of \>2 mg/dL.
+28. Research staff involved with the study.","- Inclusion Criteria:
+  - Diagnosis of type 1 diabetes (T1D) at screening
+  - Duration of T1D of at least 2 years
+  - Minimum daily insulin requirement of at least 8 units
+  - Hemoglobin A1C <10% at screening
+  - Use of insulin pump therapy with or without CGM experience for >6 months before screening
+  - Willingness to wear the study system throughout the study
+  - Willingness to perform at least four daily self-monitoring of blood glucose measurements
+  - Willingness to perform required sensor calibrations
+  - Ability to upload data from the study device to the CareLink clinical software
+  - Caregiver available at night who resided (or lived) in the same building (or home) during the study
+  - Age 14–75 years (adolescents 14–21 years; adults 22–75 years)
+
+- Exclusion Criteria:
+  - History of one or more episodes of severe hypoglycemia that resulted in a coma, seizure, or hospitalization during the 6 months before screening
+  - Hospitalization or emergency room visit resulting in a primary diagnosis of uncontrolled diabetes in the 6 months before screening
+  - Diabetic ketoacidosis (DKA) in the 6 months before screening
+  - Hypoglycemia unawareness, as measured by the Gold questionnaire at screening
+  - Inability to tolerate tape adhesive in the area of sensor placement
+  - Unresolved adverse skin condition in the area of sensor placement (e.g., psoriasis, dermatitis herpetiformis, rash, or staphylococcus infection)",True,0.96,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+GPT-5.1,protocolSection.eligibilityModule.minimumAge,TP,FP,7 Years,14 Years,False,0.6,success,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.maximumAge,TP,TP,75 Years,75 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.stdAges,TP,TP,"['CHILD', 'ADULT', 'OLDER_ADULT']","['CHILD', 'ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False
+GPT-5.1,protocolSection.eligibilityModule.studyPopulation,EV,EV,,,,,,StudyPopulation,protocolSection.eligibilityModule.studyPopulation,True,False,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.samplingMethod,EV,EV,,,,,,SamplingMethod,protocolSection.eligibilityModule.samplingMethod,True,False,True,False,False,False

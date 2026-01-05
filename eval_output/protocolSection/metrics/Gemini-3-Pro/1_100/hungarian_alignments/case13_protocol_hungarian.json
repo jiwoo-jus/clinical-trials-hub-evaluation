@@ -1,0 +1,213 @@
+{
+  "metadata": {
+    "case_id": 13,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-28T05:44:04.147874",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/13_NCT02542410.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/13_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.4
+        ],
+        [
+          0.2,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Norethindrone acetate 5 mg po daily x 6 months",
+            "interventionNames": [
+              "Drug: Norethindrone acetate"
+            ]
+          },
+          "pred_item": {
+            "label": "NETA Group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received 5 mg of oral NETA (Aygestin) daily + placebo tablet twice weekly for 6 months.",
+            "interventionNames": [
+              "Drug: Norethindrone acetate (NETA)",
+              "Drug: Placebo (twice weekly)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Experimental",
+            "type": "EXPERIMENTAL",
+            "description": "cabergoline 0.5 mg PO twice weekly x 6 months",
+            "interventionNames": [
+              "Drug: Cabergoline"
+            ]
+          },
+          "pred_item": {
+            "label": "Cabergoline Group",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received oral 0.5 mg of cabergoline twice weekly + placebo tablet daily for 6 months.",
+            "interventionNames": [
+              "Drug: Cabergoline",
+              "Drug: Placebo (daily)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.2,
+          0.9,
+          0.2,
+          0.18
+        ],
+        [
+          0.97,
+          0.2,
+          0.2,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Cabergoline",
+            "armGroupLabels": [
+              "Experimental"
+            ],
+            "otherNames": [
+              "Dostinex"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Cabergoline",
+            "description": "0.5 mg orally twice weekly.",
+            "armGroupLabels": [
+              "Cabergoline Group"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Norethindrone acetate",
+            "armGroupLabels": [
+              "Control"
+            ],
+            "otherNames": [
+              "Aygestin"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Norethindrone acetate (NETA)",
+            "description": "5 mg/day orally.",
+            "armGroupLabels": [
+              "NETA Group"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Score in Worst Pain Over the Last Month",
+            "description": "visual analog scale, minimum=0 and maximum=10 Higher numbers are a worse outcome\n\nOutcome measures is calculated as the value at 6 months minus value at baseline.",
+            "timeFrame": "Baseline, 6 months"
+          },
+          "pred_item": {
+            "measure": "Brief Pain Inventory (BPI) interference scale",
+            "description": "A 7-item, self-reported measure designed to assess the extent to which pain interferes with various components of functioning, including physical and emotional functioning and sleep.",
+            "timeFrame": "Baseline, 3 months, and 6 months"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 8,
+      "similarity_matrix": [
+        [
+          0.55,
+          0.4,
+          0.4,
+          0.78,
+          0.08,
+          0.05,
+          0.12,
+          0.06
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Changes in Pain Interference Scores",
+            "description": "Brief Pain Inventory Interference subscale is a 7-item self-report measure, designed to assess the extent to which pain interferes with various components of functioning, including physical and emotional functioning and sleep.The items in this scale can be grouped into those that assess physical functioning (general activity; walking ability; normal work, including both work outside the home and housework), those that assess emotional functioning (mood; relations with people; enjoyment of life), and a single item that assess the extent to which pain interferes with sleep. The arithmetic mean of the seven interference items is used as a measure of pain interference (i.e., how much a participant's pain interferes with her ability to complete activities of daily living and functioning). The score on the pain interference subscale ranges from 0-70. Higher scores are worse outcomes.\n\nOutcome measure calculated as the value at 6 months minus the value at baseline",
+            "timeFrame": "Baseline, 6 months"
+          },
+          "pred_item": {
+            "measure": "Functional Disability Inventory Scale",
+            "description": "Used to measure the impact of physical health on the performance of regular daily activities; scores ranged from 0 to 60, with a higher score indicating more impairment.",
+            "timeFrame": "Baseline, 3 months, and 6 months"
+          }
+        }
+      ]
+    }
+  ]
+}

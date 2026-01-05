@@ -1,0 +1,79 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT03201419,NCT03201419,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.orgStudyIdInfo.type,EV,EV,,,,,,OrgStudyIdType,protocolSection.identificationModule.orgStudyIdInfo.type,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.orgStudyIdInfo.link,EV,EV,,,,,,OrgStudyIdLink,protocolSection.identificationModule.orgStudyIdInfo.link,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,FP,"A Trial to Investigate Efficacy, Safety and Tolerability of FE 201836 for Nocturia Due to Nocturnal Polyuria in Adults",,False,0.0,empty,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,FP,"A Randomised, Double-blind, Placebo-controlled, Response-adaptive Dose-finding Trial Investigating the Efficacy, Safety and Tolerability of Oral Doses of FE 201836, With Desmopressin Orally Disintegrating Tablet as a Benchmark, During 12 Weeks of Treatment for Nocturia Due to Nocturnal Polyuria in Adults",Psychometric validation and interpretation of the Nocturia Impact Diary in a clinical trial setting,False,0.46,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.acronym,EV,EV,,DAWN,,,,Acronym,protocolSection.identificationModule.acronym,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,TP,FP,"The purpose of this trial was to investigate the efficacy, safety and tolerability of different oral doses of FE 201836, with desmopressin as a benchmark, during 12 weeks of treatment for nocturia due to nocturnal polyuria in adults","This study evaluated the psychometric properties of the Nocturia Impact (NI) Diary as part of a randomized, controlled Phase 2 clinical trial investigating a novel drug candidate for nocturnal polyuria. Adult nocturia patients completed the NI Diary and a voiding diary for three nights preceding clinic visits at Baseline and Weeks 1, 4, 8, and 12. Exit interviews were conducted to obtain patient impressions of the NI Diary. The study aimed to support the use of the NI Diary as a trial endpoint by demonstrating its reliability, validity, and interpretability in measuring the impact of nocturia on patient quality of life.",False,0.42,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.detailedDescription,EV,EV,,"Nocturia, or waking to pass urine during the main sleep period, is a highly prevalent lower urinary tract syndrome affecting men and women of all ages, with higher rates in older populations. The most common cause is nocturnal polyuria—overproduction of urine at night. Nocturia has a pronounced negative impact on patient quality of life (QoL) and is associated with reduced work productivity, more frequent physician visits, socioeconomic burden, sleep impairment, higher risk of falls and fractures, depression, and increased mortality. There has been an unmet need for a validated, reliable, and specific patient-reported instrument to assess the impact of nocturia on patient QoL.
+
+The 12-item Nocturia Impact (NI) Diary was developed in dialogue with the FDA to measure the daily symptom impact of nocturia, to be used in conjunction with a nocturnal voiding diary. The NI Diary has 11 core items assessing impacts such as sleep disturbance, emotional disturbance, and fatigue, and a single overall QoL item. This study extends previous work by investigating the reliability, validity, and interpretability of the NI Diary in a larger sample (N=302 participants) using a range of psychometric evaluations.
+
+The study was conducted as part of a randomized, double-blind, placebo-controlled, multicenter Phase 2 clinical trial (NCT03201419; DAWN) of patients with nocturia investigating the safety and efficacy of a novel drug for nocturnal polyuria. Patients completed the NI Diary and the nocturnal voiding diary for three nights preceding each visit at the clinic at Baseline, Week 1, 4, 8, and 12 (end of treatment). Exit interviews were conducted in 66 patients to obtain patient impressions of the NI Diary and what constitutes meaningful change.
+
+Psychometric analyses included: quality of completion, item distribution and floor/ceiling effects, inter-item and item-total correlations, item discrimination indices and curves, confirmatory factor analysis (CFA), internal consistency reliability, test-retest reliability, convergent validity, known-groups validity, and meaningful change threshold (MCT) determination using both anchor-based and distribution-based methods.
+
+Results demonstrated that the NI Diary is unidimensional with good model fit (CFI, TLI, and RMSEA meeting relevant thresholds), excellent internal consistency (Cronbach's α=0.941), and good test-retest reliability (ICC 0.730-0.880). Convergent validity was demonstrated with strong correlations (0.573-0.730) with reference measures. Known-groups validity was supported by significant differences between groups defined by number of night-time voids. Exit interviews indicated that a 1-point improvement on the item response scale and 1-void reduction per night constituted meaningful improvement. Anchor and distribution-based analyses identified a meaningful change threshold of -15 to -18 points on the NI Diary total score.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,TP,TP,['Nocturia'],"['Nocturia', 'Nocturnal Polyuria', 'Lower Urinary Tract Symptoms']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,EV,EV,,"['Nocturia', 'Nocturnal polyuria', 'Patient-reported outcome', 'Psychometric validation', 'Quality of life', 'Sleep disturbance', 'Nocturia Impact Diary', 'Meaningful change threshold', 'Clinical trial endpoint', 'Lower urinary tract syndrome']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,DOUBLE,DOUBLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.whoMasked,FN,FN,"['PARTICIPANT', 'INVESTIGATOR']",,False,0.0,,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,TP,302,302,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Adults ≥18 years of age (at the time of written consent)
+* Medical history of, or subject reported nocturia symptoms during the 6 months prior to Visit 1
+* ≥2 nocturnal voids (an average over 3 days) as documented in the 3-day e-Diary prior to Visit 2
+* The largest single voided volume must be ≥200 mL (at least 1 void ≥200 mL) as documented in the 3-day e-Diary prior to Visit 2
+* Nocturnal polyuria, defined as Nocturnal Polyuria index \>33%, a ratio of Nocturnal Urine Volume in excess of 33% of total daily (24-hour) urine volume as documented in the 3-day e-Diary prior to Visit 2
+* ≥20% decrease in the nocturnal diuresis rate (mL/min) (that was recorded at Visit 2) as documented in the 3-day e-Diary prior to Visit 3
+
+Exclusion Criteria:
+
+* Current diagnosis of Obstructive Sleep Apnoea (OSA)
+* Restless Legs Syndrome (RLS)
+* Bladder Outlet Obstruction (BOO) or urine flow \<5 mL/s, as confirmed by uroflowmetry upon suspicion during screening prior to Visit 2
+* Urinary incontinence defined as an average of \>1 episode/day in the 3-day e-Diary prior to Visit 2 (occasional urge incontinence during daytime or at night on the way to void is not necessarily exclusionary)
+* Any pelvic or lower urinary tract surgery and/or radio therapy or previous pelvic irradiation within the past 6 months prior to Visit 1. Including e.g., transurethral resection for Bladder Outlet Obstruction or Benign Prostatic Hyperplasia, hysterectomy or female incontinence procedures
+* Genito-urinary tract pathology that can in the investigator's opinion be responsible for urgency or urinary incontinence e.g., symptomatic or recurrent urinary tract infections, interstitial cystitis, bladder-related pain, chronic pelvic pain syndrome, or stone in the bladder or urethra causing symptoms
+* A history of cancer with the last date of disease activity/presence of malignancy within the last 12 months prior to Visit 1, except for adequately treated basal cell carcinoma of the skin
+* History of any neurological disease affecting bladder function or muscle strength (e.g., Multiple Sclerosis, Parkinson's, spinal cord injury, spina bifida)
+* Habitual (fluid intake \>3L per day) or psychogenic polydipsia
+* Uncontrolled hypertension, as judged by the investigator
+* Uncontrolled diabetes mellitus, as judged by the investigator
+* Central or nephrogenic diabetes insipidus
+* Known history of Syndrome of Inappropriate Antidiuretic Hormone (SIADH) secretion
+* History of gastric retention
+* Suspicion or evidence of congestive heart failure, (New York Heart Association (NYHA) class II, III, IV)
+* Hyponatraemia:
+
+  * Serum sodium level \<135 mmol/L at Visit 1(re-tested, with results available within 7 days)
+  * Serum sodium level \<130 mmol/L at Visit 3 (re-tested, with results available within 7 days)
+* Use of any prohibited therapy listed below:
+
+  * Current or former (within 3 months prior to screening) treatment with any other investigational medicinal product (IMP)
+  * Unstable electrostimulation or behavioural bladder training program less than 3 months prior to screening (stable electrostimulation or behavioural bladder training program started at least 3 months before screening are acceptable)
+  * Thiazide diuretics
+  * Antiarrhythmic agents
+  * V2-receptor antagonists/agonists (e.g., vaptans/desmopressin, vasopressin)
+  * Loperamide
+  * Botulinum toxin (cosmetic non-urological use is acceptable)
+  * Valproate","Inclusion Criteria:
+- Adult patients with nocturia
+- Participants enrolled in the randomized, controlled Phase 2 clinical trial (NCT03201419; DAWN)
+- Completed the Nocturia Impact (NI) Diary at baseline
+- Part of the intent-to-treat (ITT) population from the trial
+
+Exclusion Criteria:
+- Not explicitly stated in the provided paper content, but full details including inclusion/exclusion criteria are referenced in the Online Resource",True,0.78,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

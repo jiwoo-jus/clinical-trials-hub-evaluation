@@ -1,0 +1,65 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04124536,NCT04124536,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,National Institute of Allergy and Infectious Diseases (NIAID),,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,Combination Partner HIV Testing Strategies for HIV-positive and HIV-negative Pregnant Women,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,Z 31901 - Combination Partner HIV Testing Strategies for HIV-positive and HIV-negative Pregnant Women: A Pilot Study,,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"The overall objective of this study is to evaluate whether the addition of secondary distribution HIV self-test kits to existing partner notification guidelines increases the proportion of male partners who access facility-based HIV testing services, when compared to the partner notification strategy alone","This study investigated a combination approach to increase HIV testing in male partners of HIV-positive and HIV-negative pregnant women in Lusaka, Zambia. Two parallel, unmasked randomized trials were conducted. The control groups received partner notification services only, while the intervention groups received partner notification services plus targeted education and the provision of oral HIV self-test kits. The primary objective was to assess reported male partner testing at a health facility within 30 days, with a secondary objective of assessing male partner HIV testing of any kind.",True,0.93,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"Pregnant women 18 years of age or older who enter antenatal care at Chipata Level 1 Hospital in Lusaka, Zambia will participate.
+
+HIV-positive and HIV-negative pregnant women will be randomized to one of two groups: partner notification alone or partner notification plus secondary distribution of HIV self-test kits. Women will return to the clinic 30 days after enrollment for an exit visit during which time information about their experience with the partner notification strategies will be collected.
+
+A random sample of women and health care workers will also participate in qualitative interviews.","Background:
+Testing men for HIV during their partner’s pregnancy can guide couples-based HIV prevention and treatment, but testing rates remain low. This study evaluates a combination approach using evidence-based strategies—specifically partner notification and HIV self-testing—to increase HIV testing uptake among male partners.
+
+Methods:
+The researchers conducted two parallel, unmasked randomized trials at the Chipata Level 1 Hospital in Lusaka, Zambia. Trial 1 enrolled pregnant women with a documented HIV-positive test result, and Trial 2 enrolled pregnant women with a documented HIV-negative test result. Participants were randomly assigned (1:1) to either a control or an intervention group.
+
+Intervention vs. Control:
+- Control Group: Received partner notification services only. This included options for client self-referral, provider contract referral, provider referral, and dual referral. The counseling was adapted for HIV-negative women in Trial 2.
+- Intervention Group: Received the same partner notification services as the control group, plus targeted education on the use of oral HIV self-test kits and provision of up to five oral HIV self-test kits (OraQuick) for their partners and themselves.
+
+Outcomes:
+The primary outcome was reported male partner testing at a health facility within 30 days following randomization. This outcome emphasizes the importance of engagement with HIV services by trained personnel. A prespecified secondary outcome was male partner HIV testing of any kind (including self-testing at home) within 30 days. Information was collected via participant self-report at a 30-day follow-up visit.",True,0.86,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,['HIV'],"['HIV Infections', 'Pregnancy']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['Self Testing', 'Partner notification', 'Secondary Distribution']","['HIV testing', 'HIV self-testing', 'Partner notification', 'Male partner involvement', 'Antenatal care', 'PMTCT', 'Zambia']",False,0.3333333333333333,partial,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Two parallel, unmasked, individual-level, randomised controlled trials. Trial 1 enrolled pregnant women who had an HIV-positive test result; Trial 2 enrolled women who had an HIV-negative test result.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Unmasked (Open Label),,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,341,326,True,0.9,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[1].interventionNames,EV,EV,,['Partner Notification Services'],,,,ArmGroupInterventionName,protocolSection.armsInterventionsModule.armGroups.interventionNames,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria
+
+* 18 years of age or older
+* Pregnant at time of enrollment based on antenatal record
+* Documented HIV status (either positive or negative) in antenatal record
+* Reports at least one current sexual partner
+* Willingness to provide her own contact information
+* Ability and willingness to provide informed consent
+* Intent to remain in current geographical area of residence for the duration of follow-up activities
+* Willingness to adhere to study procedures
+
+Exclusion Criteria
+
+* Women who express concerns about IPV or social harms as a result of participation during the screening process will not be included.
+* Women who have previously enrolled in the study will not be permitted to enroll again.","Inclusion Criteria:
+* 18 years or older
+* Pregnant and seeking antenatal care at the time of enrolment
+* Documented HIV status in their antenatal record (Trial 1: HIV-positive; Trial 2: HIV-negative test result within the past 3 months during the current pregnancy)
+* At least one current male sex partner
+* Willingness to provide contact information
+* Ability and willingness to provide informed consent
+* Willingness to adhere to study procedures
+
+Exclusion Criteria:
+* Already tested for HIV with their partner (e.g., received couples’ HIV testing) during the current pregnancy
+* Expressed concerns about intimate partner violence or social harms at screening",True,0.82,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,FP,True,False,False,0.0,success,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,FEMALE,FEMALE,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,FP,50 Years,N/A,False,0.0,success,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,['ADULT'],['ADULT'],True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

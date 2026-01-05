@@ -1,0 +1,312 @@
+{
+  "metadata": {
+    "case_id": 33,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T15:50:49.689219",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/33_NCT04279392.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/33_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.88,
+          0.3
+        ],
+        [
+          0.15,
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "label": "Active Infusion",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "At 6 weeks post surgery, 5 mg of zoledronic acid in 100 ml of saline will be infused intravenously over a 15 minute time period.",
+            "interventionNames": [
+              "Drug: Zoledronic Acid 5 mg/Bag 100 ml Inj"
+            ]
+          },
+          "pred_item": {
+            "label": "Zoledronic Acid",
+            "type": "EXPERIMENTAL",
+            "description": "Participants randomized to receive a one-time 100 mL infusion of 5 mg zoledronic acid 6-8 weeks following sleeve gastrectomy. All participants also receive calcium (1200 mg daily), vitamin D (1000-2000 IU daily based on baseline levels), and ProCare Bariatric vitamins throughout the study duration.",
+            "interventionNames": [
+              "Drug: Zoledronic Acid",
+              "Dietary Supplement: Calcium",
+              "Dietary Supplement: Vitamin D",
+              "Dietary Supplement: ProCare Bariatric Vitamins"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Non-active Infusion",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "At 6 weeks post surgery, 100 ml of saline will be infused intravenously over a 15 minute time period.",
+            "interventionNames": [
+              "Drug: Placebos"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants randomized to receive a one-time 100 mL infusion of saline (placebo) 6-8 weeks following sleeve gastrectomy. All participants also receive calcium (1200 mg daily), vitamin D (1000-2000 IU daily based on baseline levels), and ProCare Bariatric vitamins throughout the study duration.",
+            "interventionNames": [
+              "Drug: Placebo (Saline)",
+              "Dietary Supplement: Calcium",
+              "Dietary Supplement: Vitamin D",
+              "Dietary Supplement: ProCare Bariatric Vitamins"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          1.0,
+          0.28,
+          0.08,
+          0.25,
+          0.18
+        ],
+        [
+          0.12,
+          0.98,
+          0.2,
+          0.2,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Zoledronic Acid 5 mg/Bag 100 ml Inj",
+            "description": "Zoledronic acid infusion",
+            "armGroupLabels": [
+              "Active Infusion"
+            ],
+            "otherNames": [
+              "Reclast"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Zoledronic Acid",
+            "description": "A one-time 100 mL infusion of 5 mg zoledronic acid delivered over 30 minutes (200 mL/hour) at 6-8 weeks following sleeve gastrectomy. Zoledronic acid is an intravenous bisphosphonate medication used to prevent bone loss.",
+            "armGroupLabels": [
+              "Zoledronic Acid"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebos",
+            "description": "Saline infusion",
+            "armGroupLabels": [
+              "Non-active Infusion"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo (Saline)",
+            "description": "A one-time 100 mL infusion of saline (placebo) delivered over 30 minutes (200 mL/hour) at 6-8 weeks following sleeve gastrectomy.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Hip Bone Mineral Density (BMD)",
+            "description": "Change in hip bone mineral density (BMD) measured by dual-energy x-ray absorptiometry (DXA) - g/cm2",
+            "timeFrame": "baseline and 10 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in areal bone mineral density (aBMD) at the total hip",
+            "description": "Change in total hip aBMD (g/cm²) measured by dual energy X-ray absorptiometry (DXA) from baseline to 9 months following sleeve gastrectomy",
+            "timeFrame": "Baseline (prior to surgery) and 9 months postoperatively"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 12,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.94,
+          0.82,
+          0.86,
+          0.42,
+          0.3,
+          0.5,
+          0.2,
+          0.25,
+          0.25,
+          0.12,
+          0.07
+        ],
+        [
+          0.4,
+          0.6,
+          0.55,
+          0.35,
+          0.3,
+          0.2,
+          0.72,
+          0.4,
+          0.65,
+          0.4,
+          0.08,
+          0.1
+        ],
+        [
+          0.4,
+          0.6,
+          0.5,
+          0.3,
+          0.35,
+          0.4,
+          0.78,
+          0.3,
+          0.5,
+          0.25,
+          0.08,
+          0.08
+        ],
+        [
+          0.15,
+          0.15,
+          0.25,
+          0.2,
+          0.3,
+          0.22,
+          0.72,
+          0.3,
+          0.2,
+          0.4,
+          0.1,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Lumbar Spine Bone Mineral Density (BMD)",
+            "description": "Change in lumbar spine bone mineral density (BMD) measured by dual-energy x-ray absorptiometry (DXA)/cm2 of L1-L4 lumbar vertebrae",
+            "timeFrame": "baseline and 10 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in bone strength at the lumbar spine",
+            "description": "Change in bone strength at the lumbar spine (L2 vertebra) assessed by finite element analysis from QCT scans from baseline to 9 months following sleeve gastrectomy",
+            "timeFrame": "Baseline (prior to surgery) and 9 months postoperatively"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 8,
+          "score": 0.65,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Trunk Lean Mass",
+            "description": "Change in trunk lean mass, measured in kg",
+            "timeFrame": "baseline and 9 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in upper body extremity strength",
+            "description": "Change in handgrip strength from baseline to 9 months following sleeve gastrectomy",
+            "timeFrame": "Baseline (prior to surgery) and 9 months postoperatively"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.6,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Trunk Fat Mass",
+            "description": "Change in Trunk fat mass, measured in kg",
+            "timeFrame": "baseline and 9 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in areal bone mineral density (aBMD) at the lumbar spine",
+            "description": "Change in lumbar spine (L1-L4) aBMD (g/cm²) measured by DXA from baseline to 9 months following sleeve gastrectomy",
+            "timeFrame": "Baseline (prior to surgery) and 9 months postoperatively"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 6,
+          "score": 0.72,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Weight",
+            "description": "Change in weight, measured in kgs",
+            "timeFrame": "baseline and 9 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in body composition",
+            "description": "Change in total fat mass, total lean mass, and appendicular lean mass measured by DXA from baseline to 9 months following sleeve gastrectomy",
+            "timeFrame": "Baseline (prior to surgery) and 9 months postoperatively"
+          }
+        }
+      ]
+    }
+  ]
+}

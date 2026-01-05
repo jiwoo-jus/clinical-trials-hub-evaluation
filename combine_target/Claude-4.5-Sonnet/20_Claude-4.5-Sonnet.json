@@ -1,0 +1,37 @@
+{
+  "protocolSection": {
+    "identificationModule": null,
+    "descriptionModule": null,
+    "conditionsModule": null,
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "interventionModelDescription": "2 × 2 factorial design with four arms: daily metformin, placebo, weight loss intervention with metformin, or weight loss with placebo",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Participants were randomly assigned to metformin or placebo in a blinded fashion, with weight loss intervention as an additional factor",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 333,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": null,
+    "outcomesModule": null,
+    "eligibilityModule": null
+  }
+}

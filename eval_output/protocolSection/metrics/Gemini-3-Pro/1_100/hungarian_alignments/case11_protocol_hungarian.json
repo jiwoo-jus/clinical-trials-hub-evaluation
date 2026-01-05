@@ -1,0 +1,185 @@
+{
+  "metadata": {
+    "case_id": 11,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-28T05:37:38.333896",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/11_NCT03679247.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/11_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "id": "R01DK116898",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/R01DK116898"
+          },
+          "pred_item": {
+            "id": "5R01DK116898-03",
+            "type": "NIH",
+            "domain": "National Institutes of Health"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.18
+        ],
+        [
+          0.3,
+          0.72
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "Intervention",
+            "type": "EXPERIMENTAL",
+            "description": "Providers overseeing patients in the intervention arm will receive guidance within electronic health record from clinical decision support system.",
+            "interventionNames": [
+              "Other: Intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Intervention Arm",
+            "type": "EXPERIMENTAL",
+            "description": "Primary Care Physicians (PCPs) in this cluster receive the multicomponent intervention including the active Clinical Decision Support (CDS) system.",
+            "interventionNames": [
+              "Other: Multicomponent Clinical Decision Support System"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.72,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control",
+            "type": "EXPERIMENTAL",
+            "description": "Providers overseeing patients in the control arm will continue to provide usual care.",
+            "interventionNames": [
+              "Other: Control"
+            ]
+          },
+          "pred_item": {
+            "label": "Control Arm",
+            "type": "NO_INTERVENTION",
+            "description": "PCPs in this cluster provide usual care. The CDS runs in 'silent mode' where it records when it would fire but is not displayed to the user.",
+            "interventionNames": []
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ],
+        [
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Intervention",
+            "description": "The intervention will be a clinical decision support (CDS) system that contains three main features: 1) methods to synthesize electronic health record (EHR) data in order to identify under-diagnosed chronic conditions (synthesize existing medical data to increase recognition of CKD and uncontrolled HTN in CKD patients and deliver management recommendations based on this evidence), 2) improve the design and content of the CDS using human factors methods, specifically usability testing, and 3) the use of two behavioral \"nudges\" (pre-checked default orders and an email to obtain commitment from PCPs to obtain their commitment to follow the CDS recommendations).",
+            "armGroupLabels": [
+              "Intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "OTHER",
+            "name": "Multicomponent Clinical Decision Support System",
+            "description": "A clinical decision support (CDS) system integrated into the Epic EHR as Best Practices Advisories (BPAs). It utilizes computable phenotypes to identify patients with CKD and uncontrolled hypertension. The intervention incorporates behavioral economic principles, including a precommitment pledge email sent to PCPs and an accountable justification requirement (asking PCPs to explicitly justify dismissing the advice). It synthesizes laboratory tests, medication orders, and vital signs to recommend evidence-based management (e.g., prescribing ACEis, ARBs, or diuretics).",
+            "armGroupLabels": [
+              "Intervention Arm"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Control",
+            "description": "Usual Care, PCP will receive an email with general information about CKD guidelines",
+            "armGroupLabels": [
+              "Control"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Systolic Blood Pressure (SBP) From Baseline to 180 Days",
+            "description": "Difference in SBP from baseline to 180 days",
+            "timeFrame": "180 days"
+          },
+          "pred_item": {
+            "measure": "Change in mean systolic blood pressure (SBP)",
+            "description": "The difference in mean systolic blood pressure compared across arms.",
+            "timeFrame": "Between baseline and 6 months"
+          }
+        }
+      ]
+    }
+  ]
+}

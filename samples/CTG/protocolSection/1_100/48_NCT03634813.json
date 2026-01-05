@@ -1,0 +1,123 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03634813",
+      "orgStudyIdInfo": {
+        "id": "2000023093"
+      },
+      "organization": {
+        "fullName": "Yale University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Perioperative Blood Pressure Screening to Improve Long-term Cardiovascular Health",
+      "officialTitle": "Perioperative Blood Pressure Screening to Improve Long-term Cardiovascular Health"
+    },
+    "descriptionModule": {
+      "briefSummary": "To explore in a pilot randomized clinical trial, the impact of Home Blood Pressure Monitoring with patient directed information as compared to usual care on the postoperative management of blood pressure.",
+      "detailedDescription": "The intervention and control groups will be defined by, 1) preoperative home blood pressure monitoring with a detailed report sent to the patient, and 2) usual standard of care including a suggestion during the pre-operative clinic appointment to follow up with Primary Care. Both groups will receive a brief questionnaire about their blood pressure treatment and medication adherence. We will examine the rate of primary care follow-up and changes in hypertension treatment at 60 days post-operative, through a telephone call. This information, along with information regarding patient acceptance of the intervention will be used to inform the design of a future clinical trial powered to outcomes, including follow-up visits and blood pressure management."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Blood Pressure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "2 cohort parallel",
+        "primaryPurpose": "DIAGNOSTIC",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "High Blood Pressure Monitoring and Counseling",
+          "type": "EXPERIMENTAL",
+          "description": "Enrolled patients will be fitted with a HBPM device and instructed in its use. Patients will be asked to return the HBPM device on the morning of surgery. At the same time they receive the HBPM device, they will also be provided with the National Institutes of Health (NIH) booklet called \"Your guide on lowering blood pressure\", which has several guidelines regarding diet, exercise and lifestyle changes that can be implemented to improve blood pressure control.",
+          "interventionNames": [
+            "Device: High Blood Pressure Monitor"
+          ]
+        },
+        {
+          "label": "Usual Care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The usual care group will receive brief counseling after the PAT visit which will review their blood pressure readings taken at the clinic and how they compare with the American Heart Association (AHA) blood pressure guidelines. They will be offered the suggestion that they should follow up with their primary care doctor 2-4 weeks after their surgical episode is completed, or at their earliest convenience.",
+          "interventionNames": [
+            "Procedure: Usual Care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "High Blood Pressure Monitor",
+          "description": "High Blood Pressure Monitoring device (Omron MX3 model BP742, Omron, Shaumberg, IL)",
+          "armGroupLabels": [
+            "High Blood Pressure Monitoring and Counseling"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Usual Care",
+          "description": "Usual Care",
+          "armGroupLabels": [
+            "Usual Care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Patients Reporting Primary Care Follow-up",
+          "description": "For the primary analysis, we will estimate the proportion of subjects that had a primary care follow-up visit within 60 days",
+          "timeFrame": "60 days"
+        },
+        {
+          "measure": "Patients Reporting New/Adjusted Hypertension Treatment.",
+          "description": "For the primary analysis, we will estimate the proportion reporting new/adjusted hypertension treatment within 60 days. The count of participants is the number of patients for whom it was determined that they had new or adjusted hypertension treatment.",
+          "timeFrame": "60 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Patient Acceptance/Satisfaction With Blood Pressure Care",
+          "description": "Patient Acceptance/Satisfaction With Blood Pressure Care. A questionnaire was provided to all participants, these data were not intended to be compared between treatment arms. The count of participants is the number of participants that reported they were moderately to very satisfied with their care.",
+          "timeFrame": "60 days"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Patients Demonstrating HBPM Elevation.",
+          "description": "The proportion of patients demonstrating HBPM elevation was measured. Specific cut-offs for the interpretation of home blood pressure are controversial. The mean home blood pressure threshold was \\> 135/85 mmHg as indicating hypertension, in-line with recommendations from the American Heart Association.",
+          "timeFrame": "1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* We propose to recruit patients who present for ambulatory surgery, aged \\>18 years, with a preoperative blood pressure \\> 140/90 mmHg taken as the mean of two readings during the pre-admission testing visit.\n\nExclusion Criteria:\n\n* Patients who are unable or unwilling to be contacted by telephone, are non-English speaking, or are unable to operate an automated home blood pressure monitor will also be excluded.\n* Healthy patients with blood pressure readings that fall within the American Heart Association (AHA) guidelines.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

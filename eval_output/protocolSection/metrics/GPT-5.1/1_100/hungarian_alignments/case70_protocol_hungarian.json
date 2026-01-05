@@ -1,0 +1,387 @@
+{
+  "metadata": {
+    "case_id": 70,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T18:21:39.621550",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/70_NCT03136861.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/70_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 7,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.3,
+          0.78,
+          0.76,
+          0.6,
+          0.7,
+          0.6
+        ],
+        [
+          0.3,
+          0.94,
+          0.18,
+          0.22,
+          0.15,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.25,
+          0.78,
+          0.78,
+          0.42,
+          0.78,
+          0.68
+        ],
+        [
+          0.4,
+          0.3,
+          0.73,
+          0.82,
+          0.35,
+          0.78,
+          0.7
+        ],
+        [
+          0.3,
+          0.2,
+          0.62,
+          0.5,
+          0.82,
+          0.65,
+          0.78
+        ],
+        [
+          0.6,
+          0.35,
+          0.78,
+          0.6,
+          0.32,
+          0.86,
+          0.6
+        ],
+        [
+          0.4,
+          0.18,
+          0.7,
+          0.6,
+          0.78,
+          0.6,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Secukinumab 150 mg (Group A)",
+            "type": "EXPERIMENTAL",
+            "description": "Treatment Period 1: Secukinumab 150 mg (1 x 1.0 mL) s.c. administered at Baseline, Week 1, 2, 3 and 4",
+            "interventionNames": [
+              "Biological: AIN457"
+            ]
+          },
+          "pred_item": {
+            "label": "Group A – Secukinumab 150 mg (Treatment Period 1)",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with active axial spondyloarthritis randomized 3:1 to receive secukinumab 150 mg during Treatment Period 1 (baseline to Week 8). Dosing at baseline and Weeks 1, 2, 3, and 4 by subcutaneous injection. At Week 8, patients were classified as responders (average spinal pain NRS <4) or non‑responders and then moved into Treatment Period 2 arms A1, A2, or A3.",
+            "interventionNames": [
+              "Secukinumab 150 mg",
+              "Placebo (matching secukinumab)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo (Group B)",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Treatment Period 1: Placebo (1 x 1.0 mL) s.c. administered at Baseline and Week 1, 2, 3 and 4",
+            "interventionNames": [
+              "Biological: AIN457",
+              "Drug: AIN457 Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Group B – Placebo (Treatment Period 1)",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Patients with active axial spondyloarthritis randomized to placebo during Treatment Period 1 (baseline to Week 8). Placebo administered at baseline and Weeks 1, 2, 3, and 4 by subcutaneous injection. At Week 8, patients were re-randomized to secukinumab 150 mg (Arm B1) or secukinumab 300 mg (Arm B2) for Treatment Period 2.",
+            "interventionNames": [
+              "Placebo (matching secukinumab)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Arm A1",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Treatment Period 2: Secukinumab 150 mg (1 x 1.0 mL) plus placebo (1 x 1.0 mL) administered at Week 8, 12, 16 and 20",
+            "interventionNames": [
+              "Biological: AIN457",
+              "Drug: AIN457 Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Arm A1 – Secukinumab 150 mg Responders",
+            "type": "EXPERIMENTAL",
+            "description": "Responders from Group A at Week 8 (average spinal pain NRS <4) re-assigned to continue secukinumab 150 mg every 4 weeks from Week 8 to Week 20 (Treatment Period 2), administered subcutaneously.",
+            "interventionNames": [
+              "Secukinumab 150 mg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Arm A2",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Treatment Period 2: Secukinumab 150 mg (1 x 1.0 mL) plus placebo (1 x 1.0 mL) administered at Week 8, 12, 16 and 20",
+            "interventionNames": [
+              "Biological: AIN457",
+              "Drug: AIN457 Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Arm A2 – Secukinumab 150 mg Non‑responders Continuing 150 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Non‑responders from Group A at Week 8 (average spinal pain NRS ≥4) re-randomized to continue secukinumab 150 mg every 4 weeks from Week 8 to Week 20 (Treatment Period 2), administered subcutaneously.",
+            "interventionNames": [
+              "Secukinumab 150 mg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Arm A3",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Treatment Period 2: Secukinumab 300 mg (2 x 1.0 mL) administered at Week 8, 12, 16, and 20",
+            "interventionNames": [
+              "Biological: AIN457"
+            ]
+          },
+          "pred_item": {
+            "label": "Arm A3 – Secukinumab 300 mg Non‑responders Up‑titrated to 300 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Non‑responders from Group A at Week 8 (average spinal pain NRS ≥4) re-randomized to escalate to secukinumab 300 mg every 4 weeks from Week 8 to Week 20 (Treatment Period 2), administered subcutaneously without an additional loading regimen.",
+            "interventionNames": [
+              "Secukinumab 300 mg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 5,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Arm B1",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Treatment Period 2: Secukinumab 150 mg (1 x 1.0 mL) plus placebo (1 x 1.0 mL) administered at Week 8, 12, 16 and 20",
+            "interventionNames": [
+              "Biological: AIN457",
+              "Drug: AIN457 Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Arm B1 – Secukinumab 150 mg After Placebo",
+            "type": "EXPERIMENTAL",
+            "description": "Patients initially randomized to placebo (Group B) in Treatment Period 1 and, at Week 8, re-randomized to receive secukinumab 150 mg every 4 weeks from Week 8 to Week 20 (Treatment Period 2), administered subcutaneously.",
+            "interventionNames": [
+              "Secukinumab 150 mg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 6,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Arm B2",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Treatment Period 2: Secukinumab 300 mg (2 x 1.0 mL) administered at Week 8, 12, 16, and 20",
+            "interventionNames": [
+              "Biological: AIN457"
+            ]
+          },
+          "pred_item": {
+            "label": "Arm B2 – Secukinumab 300 mg After Placebo",
+            "type": "EXPERIMENTAL",
+            "description": "Patients initially randomized to placebo (Group B) in Treatment Period 1 and, at Week 8, re-randomized to receive secukinumab 300 mg every 4 weeks from Week 8 to Week 20 (Treatment Period 2), administered subcutaneously.",
+            "interventionNames": [
+              "Secukinumab 300 mg"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.92,
+          0.4
+        ],
+        [
+          0.2,
+          0.05,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "AIN457",
+            "description": "anti IL-17a monoclonal antibody",
+            "armGroupLabels": [
+              "Arm A1",
+              "Arm A2",
+              "Arm A3",
+              "Arm B1",
+              "Arm B2",
+              "Placebo (Group B)",
+              "Secukinumab 150 mg (Group A)"
+            ],
+            "otherNames": [
+              "secukinumab"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Secukinumab 150 mg",
+            "description": "Secukinumab, a fully human monoclonal antibody targeting IL‑17A, administered as 150 mg subcutaneous injections. In Treatment Period 1, given at baseline and Weeks 1, 2, 3, and 4. In Treatment Period 2, administered every 4 weeks from Week 8 to Week 20 to: responders from Group A (Arm A1), non‑responders from Group A continuing 150 mg (Arm A2), and patients from Group B re-randomized to 150 mg (Arm B1).",
+            "armGroupLabels": [
+              "Group A – Secukinumab 150 mg (Treatment Period 1)",
+              "Arm A1 – Secukinumab 150 mg Responders",
+              "Arm A2 – Secukinumab 150 mg Non‑responders Continuing 150 mg",
+              "Arm B1 – Secukinumab 150 mg After Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "AIN457 Placebo",
+            "description": "Placebo matching AIN457",
+            "armGroupLabels": [
+              "Arm A1",
+              "Arm A2",
+              "Arm B1",
+              "Placebo (Group B)"
+            ],
+            "otherNames": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo (matching secukinumab)",
+            "description": "Placebo solution matched in packaging, labeling, schedule of administration, and appearance to secukinumab, administered subcutaneously at baseline and Weeks 1, 2, 3, and 4 during Treatment Period 1 in Group B. Used as the placebo comparator before patients switched to active secukinumab treatment at Week 8.",
+            "armGroupLabels": [
+              "Group A – Secukinumab 150 mg (Treatment Period 1)",
+              "Group B – Placebo (Treatment Period 1)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With a Spinal Pain Numerical Rating Scale (NRS) Score Below 4 at Week 8 (Treatment Period 1)",
+            "description": "The spinal pain numerical rating scale (NRS) is an 11-point scale to assess pain intensity in patients who are able to self-report. It is an 11-point scale from 0-10: 1) \"0\" = no pain. 2) \"10\" = the most intense pain imaginable. To calculate the average spinal pain, the patient was asked to answer 2 questions to get 2 pain ratings, the total spinal pain corresponding to the intensity of spinal pain experienced on an average over 24 hours during the previous week and the nocturnal back pain corresponding to the intensity of spinal pain experienced on an average over the night during the previous week.",
+            "timeFrame": "Week 8"
+          },
+          "pred_item": {
+            "measure": "Average spinal pain score <4 on a 0–10 numerical rating scale",
+            "description": "Proportion of patients achieving an average spinal pain score <4 on an 11‑point numerical rating scale (0–10), where the average spinal pain score is the mean of the total spinal pain score (pain at any time) and the nocturnal spinal pain score (pain during the night).",
+            "timeFrame": "Week 8"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With a Bath Ankylosing Spondylitis Disease Activity Index Score Below 4 at Week 8 (Treatment Period 1)",
+            "description": "The Bath ankylosing spondylitis disease activity index (BASDAI) consists of a 0 through 10 scale, which is used to answer 6 questions pertaining to the 5 major symptoms of ankylosing spondylitis. To give each symptom equal weighting, the mean (average) of the 2 scores relating to morning stiffness (questions 5 and 6) is taken. The mean of questions 5 and 6 is added to the scores from questions 1-4. The resulting 0 to 50 score is divided by 5 to give a final 0 - 10 BASDAI score.",
+            "timeFrame": "Week 8"
+          },
+          "pred_item": {
+            "measure": "BASDAI score <4",
+            "description": "Proportion of patients achieving a Bath Ankylosing Spondylitis Disease Activity Index (BASDAI) score <4 as a measure of active disease status.",
+            "timeFrame": "Week 8"
+          }
+        }
+      ]
+    }
+  ]
+}

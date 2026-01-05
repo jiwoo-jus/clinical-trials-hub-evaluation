@@ -1,0 +1,513 @@
+{
+  "metadata": {
+    "case_id": 90,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T19:27:00.360138",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/90_NCT04560075.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/90_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.48
+        ],
+        [
+          0.62,
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Text2Connect",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receiving Text2Connect (T2C) personalized messages will receive a monthly check-in text prompt. Based on their response, the participants then receive either general psychoeducational videos and prompts to continue to monitor mental health or are then prompted to endorse stressors and symptoms they are experiencing to prompt awareness of treatment targets in daily life.",
+            "interventionNames": [
+              "Behavioral: Text2Connect"
+            ]
+          },
+          "pred_item": {
+            "label": "MoST-MH",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received the Mobile Support Tool for Mental Health (MoST-MH), an automated, transdiagnostic digital mental health support program delivered primarily via text messaging with web-based follow-up check-ins. Over a 3‑month period starting at enrollment (around the transition to college), participants received periodic text message mental health check‑ins asking them to rate their emotional health in the past week. If emotional health was rated as excellent/very good/good, they received a positive feedback text and a link to a library of brief psychoeducational videos about mental health self‑care during college. If emotional health was rated as fair/poor, they were sent a link to a brief web-based check‑in to report current stressors, negative effects, and their self-efficacy in managing these issues. Based on these responses, the system sent tailored self‑management support messages drawn from positive psychology, cognitive behavioral therapy, and dialectical behavioral therapy skills, plus links to relevant psychoeducational videos. Check‑in frequency was adapted to need: high self‑efficacy led to less frequent (monthly) check‑ins, whereas low self‑efficacy triggered weekly follow‑ups, repeated tailoring, and prompts to consider seeking professional mental health care (with resource links) if low self‑efficacy persisted. Participants could opt out at any time by texting “Quit.” All participants in this arm also received access to the psychoeducational video library and completed monthly web-based outcome questionnaires.",
+            "interventionNames": [
+              "Mobile Support Tool for Mental Health (MoST-MH)",
+              "Psychoeducational video library",
+              "Monthly web-based assessment battery"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Psychoeducational Videos (PE) Only",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants will receive a web link to a library of 4 PE videos. These brief 2-minute videos include general information about self-care during college.",
+            "interventionNames": [
+              "Behavioral: Psychoeducational Videos (PE) Only"
+            ]
+          },
+          "pred_item": {
+            "label": "Enhanced Usual Care (eUC)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received enhanced usual care consisting of access to the same web-based psychoeducational video library about college mental health and self-care that was provided to the MoST-MH group. They did not receive any automated text message or web-based mental health check-ins or tailored digital support. As part of the study procedures, they were asked to complete the same monthly web-based assessment batteries (MHSES, CCAPS, and C-SRI) over 3 months but no additional digital intervention beyond the video library was delivered.",
+            "interventionNames": [
+              "Psychoeducational video library",
+              "Monthly web-based assessment battery"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.74,
+          0.68,
+          0.18
+        ],
+        [
+          0.4,
+          0.96,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.74,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Text2Connect",
+            "description": "The T2C intervention aims to increase mental health self-efficacy though psychoeducation, self-monitoring of symptoms and stressors, and cues to action for college-bound youth.",
+            "armGroupLabels": [
+              "Text2Connect"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Mobile Support Tool for Mental Health (MoST-MH)",
+            "description": "An automated, ecological momentary, transdiagnostic digital intervention designed to support mental health self‑management during the transition to college. It uses periodic SMS text message check‑ins to assess recent emotional health. When emotional health is rated as fair or poor, participants complete a brief web-based check‑in that records current stressors, negative effects, and perceived self‑efficacy in managing these issues. The system then delivers tailored self‑management strategies derived from positive psychology, cognitive behavioral therapy, and dialectical behavioral therapy, along with links to psychoeducational videos. Check‑in frequency is stepped up (weekly) for participants with low self‑efficacy and stepped down (monthly) for those with high self‑efficacy. Persistent low self‑efficacy and poor emotional health trigger prompts to consider contacting a health professional, with links to relevant resources. All content is fully automated and delivered over approximately 3 months, and participants can opt out by texting a stop keyword.",
+            "armGroupLabels": [
+              "MoST-MH"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Psychoeducational Videos (PE) Only",
+            "description": "Participants in this group will receive psychoeducation through the PE video library.",
+            "armGroupLabels": [
+              "Psychoeducational Videos (PE) Only"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Psychoeducational video library",
+            "description": "A set of brief (approximately 2‑minute), web-based psychoeducational videos created by the study team, focused on mental health, self-care, and coping during the transition to and experience of college. Videos provide information and simple strategies related to managing stress, anxiety, depression, and other college-related challenges. Access is provided via web links; there is no tailoring beyond whatever link is supplied. Both study arms received access to this video library.",
+            "armGroupLabels": [
+              "MoST-MH",
+              "Enhanced Usual Care (eUC)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 11,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.32
+        ],
+        [
+          0.94,
+          0.2
+        ],
+        [
+          0.92,
+          0.2
+        ],
+        [
+          0.35,
+          0.92
+        ],
+        [
+          0.22,
+          0.8
+        ],
+        [
+          0.18,
+          0.08
+        ],
+        [
+          0.2,
+          0.15
+        ],
+        [
+          0.18,
+          0.1
+        ],
+        [
+          0.08,
+          0.09
+        ],
+        [
+          0.12,
+          0.09
+        ],
+        [
+          0.12,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Engagement With Intervention: Text Message Check-ins",
+            "description": "Participant's engagement with the T2C intervention will be assessed via their response rate to SMS prompts, as the primary outcome of Text2Connect Phase 2. \"High\" engagement with T2C will be rated as \\>70% response rate.\n\nAll Intervention participants (n=34) received text-message check-ins with question: \"How would you rate your emotional health this past week?\" on a likert scale of: 1=excellent; 2=very good; 3=good;4=fair; 5=poor. Participants who did not respond to this message initially were sent a reminder with the same content each week of the intervention.",
+            "timeFrame": "Over 3 months after baseline"
+          },
+          "pred_item": {
+            "measure": "Engagement with MoST-MH",
+            "description": "Engagement with the Mobile Support Tool for Mental Health (MoST-MH) assessed by completion rates of automated text message mental health check-ins and web-based check-ins, with a priori hypothesis of >80% response rate.",
+            "timeFrame": "Over the 3-month study period following enrollment"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Engagement With Intervention: Web-based Check Ins",
+            "description": "Participant's engagement with the T2C intervention will be assessed via their response rate to prompts, as the primary outcome of Text2Connect Phase 2. \"High\" engagement with T2C will be rated as \\>70% response rate.\n\nParticipants received 1 text \"How would you rate our emotional health this last week\" on a likert scale of: 1 (excellent), 2 Very good, 3 good 4 fair 5 poor. If respondents answered \"fair\" or \"Poor\" they were routed to a website with psychoeducational videos and additional questions called a \"web-based check in.\" The questions inquired what type of stressors the participant experienced contributing to the \"Fair\" or \"Poor\" ratings, what types of symptoms the participants noticed as a result of the indicated stressor and if participants felt they could manage their stress.",
+            "timeFrame": "Over 3 months after baseline"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Engagement With Intervention: Drop Out Rate",
+            "description": "Participant's engagement with the T2C intervention will be assessed via their response rate to prompts, as the primary outcome of Text2Connect Phase 2. \"High\" engagement with T2C will be rated as \\>70% response rate. Participants are considered \"dropped out\" if they requested to be removed from the T2C intervention and all texts to be stopped.",
+            "timeFrame": "Over 3 months after baseline"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Usability & Satisfaction-PSSUQ",
+            "description": "Satisfaction with the technical components of interventions will be assessed through the certain questions from the Post System Satisfaction and Usability Questionnaire (PSSUQ), as the primary outcome of Text2Connect Phase 2. The PSSUQ utilize 16 items w/ response options ranging from 1-7 where 1=strongly disagree and 7=strongly agree. The PSSUQ has sub-scores derived from subsets of the questions which reflect system usefulness, information quality, and interface quality. Scores are added and range from 16-112, with higher score indicating less satisfaction. Questions 1 to 16 result in the Overall score; Questions 1 to 6 result in System Usefulness score; Questions 7 to 12 result in Information Quality score; Questions 13 to 16 result in Interface Quality.",
+            "timeFrame": "3 month follow up timepoint"
+          },
+          "pred_item": {
+            "measure": "Usability of MoST-MH",
+            "description": "System usability of the MoST-MH intervention measured by the Post-Study System Usability Scale (PSSUQ) total and subscale scores (system usefulness, information quality, interface quality), with a priori hypothesis of mean PSSUQ rating ≤2 (on a 1–7 scale; lower scores indicate higher usability).",
+            "timeFrame": "3 months after enrollment"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Usability & Satisfaction-CSQ",
+            "description": "Satisfaction with the technical components of interventions will be assessed through the certain questions from the Client Satisfaction Questionnaire (CSQ8). 8 items are scored on a likert scale of 1 to 4. Item 1 (reverse scored): scale 1(excellent)-4 (poor); Item 2: 1(definitely not)-4(definitely); item 3(reverse scored): 1(none of needs met)-4(all needs met); item 4: 1(definitely not)-4(definitely); item 5: 1(quite dissatisfied)-4(very satisfied); item 6(reverse scored): 1(made things worse)-4(helped a great deal); item 7 (reverse scored): 1(quite dissatisfied)-4(very satisfied); item 8: 1(definitely not)-4(definitely). Higher scores=higher satisfaction (score sum range is 8-32).",
+            "timeFrame": "3 month follow up timepoint"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Mental Health Self-Efficacy",
+            "description": "Mental health self-efficacy will be assessed via the Mental Health Self-Efficacy Scale (MHSES), as the primary outcome of Text2Connect Phase 2. The MHSES contains 6 items that are scored on a 10-point Likert Scale. Scores range from 6-60 with higher scores indicating greater confidence in participant's mental health self-efficacy.",
+            "timeFrame": "1 month timepoint"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Mental Health Self-Efficacy",
+            "description": "Mental health self-efficacy will be assessed via the Mental Health Self-Efficacy Scale (MHSES), as the primary outcome of Text2Connect Phase 2. The MHSES contains 6 items that are scored on a 10-point Likert Scale. Scores range from 6-60 with higher scores indicating greater confidence in participant's mental health self-efficacy.",
+            "timeFrame": "3 month timepoint"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Mental Health Self-Efficacy",
+            "description": "Mental health self-efficacy will be assessed via the Mental Health Self-Efficacy Scale (MHSES), as the primary outcome of Text2Connect Phase 2. The MHSES contains 6 items that are scored on a 10-point Likert Scale. Scores range from 6-60 with higher scores indicating greater confidence in participant's mental health self-efficacy.",
+            "timeFrame": "2 month timepoint"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "General Self-Efficacy",
+            "description": "Mental health self-efficacy will be assessed via the General Self-Efficacy Scale (GSE), as the primary outcome of Text2Connect Phase 2. The GSE contains 10 items scored on a 4-point Likert Scale, with scores ranging from 10-40. Higher scores indicate greater self-efficacy.",
+            "timeFrame": "1 month Timepoint"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "General Self-Efficacy",
+            "description": "Mental health self-efficacy will be assessed via the General Self-Efficacy Scale (GSE), as the primary outcome of Text2Connect Phase 2. The GSE contains 10 items scored on a 4-point Likert Scale, with scores ranging from 10-40. Higher scores indicate greater self-efficacy.",
+            "timeFrame": "2 month Timepoint"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "General Self-Efficacy",
+            "description": "Mental health self-efficacy will be assessed via the General Self-Efficacy Scale (GSE), as the primary outcome of Text2Connect Phase 2. The GSE contains 10 items scored on a 4-point Likert Scale, with scores ranging from 10-40. Higher scores indicate greater self-efficacy.",
+            "timeFrame": "3 month Timepoint"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 9,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.45,
+          0.42,
+          0.25
+        ],
+        [
+          0.42,
+          0.55,
+          0.28
+        ],
+        [
+          0.4,
+          0.63,
+          0.3
+        ],
+        [
+          0.42,
+          0.86,
+          0.2
+        ],
+        [
+          0.35,
+          0.82,
+          0.2
+        ],
+        [
+          0.38,
+          0.86,
+          0.32
+        ],
+        [
+          0.32,
+          0.42,
+          0.86
+        ],
+        [
+          0.3,
+          0.45,
+          0.82
+        ],
+        [
+          0.32,
+          0.3,
+          0.84
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.45,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Psychosocial Functioning",
+            "description": "Psychosocial functioning will be assessed via the College Adjustment Questionnaire (CAQ) The CAQ contains 14 questions \\& 3 subscales (Educational, Relational, \\& Psychological functioning) embedded within. Each subscale is scored on 1(very inaccurate)-5 (very accurate) likert scale. Educational Functioning items include: 1, 5, 7, 12, 13; Relational Functioning items include: 2, 4, 9, 10, 14; Psychological Functioning items include: 3, 6, 8, 11. Items 2 \\& 9 from Relational subscale, 13 from Educational subscale, \\& 8 \\& 11 from Psychological subscale are reversed scored on 5 (very inaccurate)-1(very accurate) likert scale.\n\nThe Educational functioning subscale score can be summed range from 5-25; the Relational functioning subscale score can be summed range from 5-25; the Psychological subscale can be summed range from 4-20. Total scores across all 3 subscales can be summed \\& range from 14-70. Higher scores indicate better functioning on each scale and across the total measure.",
+            "timeFrame": "1 month timepoint"
+          },
+          "pred_item": {
+            "measure": "Mental Health Self-Efficacy",
+            "description": "Self-reported mental health self-efficacy assessed using the 6-item Mental Health Self-Efficacy Scale (MHSES); each item rated from 1 (not at all confident) to 10 (totally confident), higher scores indicating greater self-efficacy.",
+            "timeFrame": "Baseline and monthly for 3 months"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Psychosocial Functioning",
+            "description": "Psychosocial functioning will be assessed via the College Adjustment Questionnaire (CAQ) The CAQ contains 14 questions \\& 3 subscales (Educational, Relational, \\& Psychological functioning) embedded within. Each subscale is scored on 1(very inaccurate)-5 (very accurate) likert scale. Educational Functioning items include: 1, 5, 7, 12, 13; Relational Functioning items include: 2, 4, 9, 10, 14; Psychological Functioning items include: 3, 6, 8, 11. Items 2 \\& 9 from Relational subscale, 13 from Educational subscale, \\& 8 \\& 11 from Psychological subscale are reversed scored on 5 (very inaccurate)-1(very accurate) likert scale.\n\nThe Educational functioning subscale score can be summed range from 5-25; the Relational functioning subscale score can be summed range from 5-25; the Psychological subscale can be summed range from 4-20. Total scores across all 3 subscales can be summed \\& range from 14-70. Higher scores indicate better functioning on each scale and across the total measure.",
+            "timeFrame": "2 month timepoint"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Psychosocial Functioning",
+            "description": "Psychosocial functioning will be assessed via the College Adjustment Questionnaire (CAQ) The CAQ contains 14 questions \\& 3 subscales (Educational, Relational, \\& Psychological functioning) embedded within. Each subscale is scored on 1(very inaccurate)-5 (very accurate) likert scale. Educational Functioning items include: 1, 5, 7, 12, 13; Relational Functioning items include: 2, 4, 9, 10, 14; Psychological Functioning items include: 3, 6, 8, 11. Items 2 \\& 9 from Relational subscale, 13 from Educational subscale, \\& 8 \\& 11 from Psychological subscale are reversed scored on 5 (very inaccurate)-1(very accurate) likert scale.\n\nThe Educational functioning subscale score can be summed range from 5-25; the Relational functioning subscale score can be summed range from 5-25; the Psychological subscale can be summed range from 4-20. Total scores across all 3 subscales can be summed \\& range from 14-70. Higher scores indicate better functioning on each scale and across the total measure.",
+            "timeFrame": "3 month timepoint"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Symptom Severity",
+            "description": "Symptom severity will be assessed via the CCAPS Mental Health Symptoms. The CCAPS is a 62-item instrument with 8 subscales (depression, general anxiety, social anxiety, academic distress, eating concerns, family distress, hostility, substance abuse) related to psychological symptoms \\& distress in college students. Scores are on a 5 point likert scale for each subscale: 0 (not at all like me), 1,2,3,4 (Extremely like me). Lower scores indicate greater severity of symptoms. Some items are reverse-scored. To score, average the items scores for each subscale to create the subscale raw score.",
+            "timeFrame": "1 month timepoint"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Symptom Severity",
+            "description": "Symptom severity will be assessed via the CCAPS Mental Health Symptoms. The CCAPS is a 62-item instrument with 8 subscales (depression, general anxiety, social anxiety, academic distress, eating concerns, family distress, hostility, substance abuse) related to psychological symptoms \\& distress in college students. Scores are on a 5 point likert scale for each subscale: 0 (not at all like me), 1,2,3,4 (Extremely like me). Lower scores indicate greater severity of symptoms. Some items are reverse-scored. To score, average the items scores for each subscale to create the subscale raw score.",
+            "timeFrame": "2 month timepoint"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Symptom Severity",
+            "description": "Symptom severity will be assessed via the CCAPS Mental Health Symptoms. The CCAPS is a 62-item instrument with 8 subscales (depression, general anxiety, social anxiety, academic distress, eating concerns, family distress, hostility, substance abuse) related to psychological symptoms \\& distress in college students. Scores are on a 5 point likert scale for each subscale: 0 (not at all like me), 1,2,3,4 (Extremely like me). Lower scores indicate greater severity of symptoms. Some items are reverse-scored. To score, average the items scores for each subscale to create the subscale raw score.",
+            "timeFrame": "3 month timepoint"
+          },
+          "pred_item": {
+            "measure": "Mental Health Symptom Severity",
+            "description": "Psychological symptom severity assessed using the 62-item College Counseling Center Assessment of Psychological Symptoms (CCAPS) subscales: depression, generalized anxiety, social anxiety, academic distress, eating concerns, family distress, hostility, and substance use; items scored 0–4 with higher scores indicating higher symptom severity.",
+            "timeFrame": "Baseline and monthly for 3 months"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 2,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Mental Health Service Follow-through",
+            "description": "Mental health service follow-through will be assessed via the Client Service Receipt Inventory (CSRI). Ratings of 4 questions are Yes or No indicating if participants received the type of service. Scores described below are count of participants indicating \"Yes\" on the scale.",
+            "timeFrame": "1 month timepoint"
+          },
+          "pred_item": {
+            "measure": "Mental Health Care Services Use",
+            "description": "Use of mental health services assessed with the brief Client Service Receipt Inventory for Mental Health (C-SRI), including outpatient, inpatient, and medication management services; reported as receipt of any mental health care and by service type in the prior month.",
+            "timeFrame": "Month prior to enrollment (baseline) and monthly for 3 months"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Mental Health Service Follow-through",
+            "description": "Mental health service follow-through will be assessed via the Client Service Receipt Inventory (CSRI). Ratings of 4 questions are Yes or No indicating if participants received the type of service. Scores described below are count of participants indicating \"Yes\" on the scale.",
+            "timeFrame": "2 month timepoint"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Mental Health Service Follow-through",
+            "description": "Mental health service follow-through will be assessed via the Client Service Receipt Inventory (CSRI). Ratings of 4 questions are Yes or No indicating if participants received the type of service. Scores described below are count of participants indicating \"Yes\" on the scale.",
+            "timeFrame": "3 month timepoint"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

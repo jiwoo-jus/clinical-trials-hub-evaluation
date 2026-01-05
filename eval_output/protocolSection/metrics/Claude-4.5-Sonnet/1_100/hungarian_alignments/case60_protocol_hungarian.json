@@ -1,0 +1,284 @@
+{
+  "metadata": {
+    "case_id": 60,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T17:41:39.661728",
+    "total_alignments": 6,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/60_NCT04124536.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/60_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.7,
+          0.7,
+          0.84,
+          0.7,
+          0.6,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "id": "R01AI131060",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/R01AI131060"
+          },
+          "pred_item": {
+            "id": "R01 AI131060",
+            "type": "NIH",
+            "domain": "National Institute of Allergy and Infectious Diseases"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.4,
+          0.9,
+          0.38,
+          0.75
+        ],
+        [
+          0.8,
+          0.35,
+          0.6,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Intervention",
+            "type": "EXPERIMENTAL",
+            "description": "In addition to standard partner notification services, the intervention arm will receive HIV self-test kits and structured counseling about HIVST, regardless of HIV status.",
+            "interventionNames": [
+              "Behavioral: HIV self-testing with partner notification."
+            ]
+          },
+          "pred_item": {
+            "label": "Trial 1 - Intervention Group (HIV-positive women)",
+            "type": "EXPERIMENTAL",
+            "description": "HIV-positive pregnant women receiving partner notification services plus targeted education on HIV self-testing and provision of up to five oral HIV self-test kits (OraQuick) for their male partners.",
+            "interventionNames": [
+              "BEHAVIORAL: Partner Notification Services for HIV-positive women",
+              "COMBINATION_PRODUCT: Partner Notification Services plus Secondary Distribution of HIV Self-Test Kits"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.8,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control",
+            "type": "NO_INTERVENTION",
+            "description": "Standard partner notification services, regardless of HIV status."
+          },
+          "pred_item": {
+            "label": "Trial 1 - Control Group (HIV-positive women)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "HIV-positive pregnant women receiving partner notification services only, including options for client self-referral, provider contract referral, provider referral, and dual referral for male partner HIV testing.",
+            "interventionNames": [
+              "BEHAVIORAL: Partner Notification Services for HIV-positive women"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.76,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "HIV self-testing with partner notification.",
+            "description": "HIV self-test kits are oral swabs. Partner notification will be offered to all women in the intervention arm, regardless of HIV status.",
+            "armGroupLabels": [
+              "Intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "COMBINATION_PRODUCT",
+            "name": "Partner Notification Services plus Secondary Distribution of HIV Self-Test Kits",
+            "description": "In addition to partner notification services, women received targeted education on the use of oral HIV self-test kits (OraQuick, Orasure Technologies) for their partners, along with up to five oral HIV self-test kits. Written instructions were provided in English, Bemba, and Nyanja using materials approved by the Zambia Ministry of Health. HIV testing at a health facility by a healthcare provider was recommended for confirmatory testing regardless of HIV self-test results.",
+            "armGroupLabels": [
+              "Trial 1 - Intervention Group (HIV-positive women)",
+              "Trial 2 - Intervention Group (HIV-negative women)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Who Reported Primary Male Partner Completed HIV Testing at a Healthcare Facility",
+            "description": "The number of participants who report their primary male partners getting tested for HIV at a healthcare facility when presented with partner notification plus secondary distribution of HIV self-test kits compared to partner notification alone",
+            "timeFrame": "Enrollment - 30 days post enrollment of study participant"
+          },
+          "pred_item": {
+            "measure": "Reported male partner testing at a health facility within 30 days",
+            "description": "The proportion of primary male partners reported by the pregnant woman to have tested for HIV at a health-care facility within 30 days following randomisation",
+            "timeFrame": "30 days following randomisation"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.82
+        ],
+        [
+          0.25
+        ],
+        [
+          0.25
+        ],
+        [
+          0.35
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Who Reported HIV Testing With Primary Male Partner at a Healthcare Facility",
+            "description": "The number of couples getting tested for HIV when presented with partner notification plus secondary distribution of HIV self-test kits will be compared to partner notification alone.",
+            "timeFrame": "Enrollment - 30 days post enrollment of study participant"
+          },
+          "pred_item": {
+            "measure": "Reported male partner HIV testing of any kind within 30 days",
+            "description": "The proportion of primary male partners reported by the pregnant woman to have undergone HIV testing of any kind (including HIV self-testing at home, testing at a health-care facility, or testing at any other facility) within 30 days of randomisation",
+            "timeFrame": "30 days following randomisation"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants Reporting Social Harms",
+            "description": "The number of participants reporting social harms associated with the HIV testing approaches. Participants were asked about social harms related to trial participation, including perceived stigma, discrimination, and intimate partner violence.",
+            "timeFrame": "Enrollment - 30 days post enrollment of study participant"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Healthcare Providers Describing Feasibility of Intervention Via In-depth Interviews (Qualitative)",
+            "description": "To gain deeper insights about the feasibility of male partner HIV testing strategies, healthcare workers from the study site were asked to participate in in-depth interviews. Participating healthcare workers were involved in different aspects of male partner HIV testing and included study staff members. Feasibility was defined as a positive rating about the intervention's potential performance in real-life conditions at the clinic and community levels.",
+            "timeFrame": "6 months after the start of enrollment"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants Describing Acceptability of Intervention Via In-depth Interviews (Qualitative)",
+            "description": "To gain deeper insights about the acceptability of the different male partner HIV testing strategies, subsamples of participants were selected based on study arm (intervention vs. control) and woman's HIV status (positive vs. negative). For the outcome measure, acceptability was defined as a positive rating of male partner HIV testing strategies from participants based on their experiences.",
+            "timeFrame": "In the first two months of enrollment"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.otherOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Who Reported Primary Male Partner HIV Testing Completed at Any Venue",
+            "description": "The number of participants who report their primary male partners getting tested for HIV at any venue when presented with partner notification plus secondary distribution of HIV self-test kits (SD-HIVST) compared to partner notification alone",
+            "timeFrame": "Enrollment - 30 days post enrollment of study participant"
+          },
+          "pred_item": {
+            "measure": "Reported male partner HIV test results",
+            "description": "HIV test results reported by the pregnant woman for the male partner who underwent HIV testing, including HIV-positive, HIV-negative, and indeterminate results, and subsequent linkage to care",
+            "timeFrame": "30 days following randomisation"
+          }
+        }
+      ]
+    }
+  ]
+}

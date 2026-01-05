@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "case_id": 10,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-28T05:35:08.056282",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/10_NCT02427958.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/10_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "label": "Leuprorelin",
+            "type": "EXPERIMENTAL",
+            "description": "Participants with body weight greater than or equal to (\\>=) 20 kilogram (kg) will receive the recommended dose of leuprorelin 3.75 milligram (mg), injection, subcutaneously, once every 4 weeks for 96 weeks. Participants with body weight less than (\\<) 20 kg will receive leuprorelin 1.88 mg, injection, subcutaneously, once every 4 weeks for 96 weeks.",
+            "interventionNames": [
+              "Drug: Leuprorelin"
+            ]
+          },
+          "pred_item": {
+            "label": "Leuprorelin Treatment Group",
+            "type": "EXPERIMENTAL",
+            "description": "Children diagnosed with central precocious puberty (CPP) received leuprorelin subcutaneously once every 4 weeks for 96 weeks. Patients with body mass ≥20 kg received 3.75 mg leuprorelin; patients with body mass <20 kg received 1.88 mg leuprorelin. Dose adjustments were made based on patient condition and investigator judgment.",
+            "interventionNames": [
+              "DRUG: Leuprorelin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Leuprorelin",
+            "description": "Suspension for injection.",
+            "armGroupLabels": [
+              "Leuprorelin"
+            ],
+            "otherNames": [
+              "Enantone"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Leuprorelin",
+            "description": "Leuprorelin is a gonadotropin-releasing hormone (GnRH) analog administered subcutaneously once every 4 weeks for a total of 96 weeks. Dosing: 3.75 mg for patients with body mass ≥20 kg, or 1.88 mg for patients with body mass <20 kg. The dose was adjusted based on patient condition and investigator judgment. The majority of patients (96.1%) received an initial dose ≥90 μg/kg of body mass.",
+            "armGroupLabels": [
+              "Leuprorelin Treatment Group"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Reporting One or More Treatment-emergent Adverse Events (TEAEs)",
+            "timeFrame": "Day 1 up to Week 100"
+          },
+          "pred_item": {
+            "measure": "Rate of occurrence of treatment-emergent adverse events (TEAEs)",
+            "description": "The primary endpoint was the rate of occurrence of adverse events (AEs) during the 96-week treatment period with leuprorelin.",
+            "timeFrame": "96 weeks"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.62,
+          0.78,
+          0.45,
+          0.42,
+          0.12,
+          0.12
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Regression or no Progression in Tanner Staging at Week 96",
+            "description": "Tanner assessment score was used to document the stage of development of puberty through the assessment of secondary sexual characteristics. Female pubertal development staged by pubic hair development and breast size; male pubertal development staged by size of the genitalia and development of pubic hair. Rated in 5 stages: stage 1 (no development) to 5 (adult-like development in quantity and size). Regression or no progression was defined as negative change (improvement) or no change in Tanner score at Week 96 compared to baseline.",
+            "timeFrame": "Week 96"
+          },
+          "pred_item": {
+            "measure": "Percentage of patients with regression or no progression in Tanner stage",
+            "description": "The main secondary endpoint was the percentage of patients that experienced regression or no progression in the Tanner stage at week 96 compared with the Tanner stage at baseline. The criteria for evaluating progress was an increase in the Tanner stage score for breast/genital or pubic hair, else it was assessed as being regressive or non-progressive.",
+            "timeFrame": "Week 96 compared to baseline"
+          }
+        }
+      ]
+    }
+  ]
+}

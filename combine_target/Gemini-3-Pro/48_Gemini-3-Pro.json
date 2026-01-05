@@ -1,0 +1,158 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03634813",
+      "secondaryIdInfos": [
+        {
+          "id": "UL1 RR024139",
+          "type": "NIH",
+          "domain": "National Center for Advancing Translational Sciences (NCATS)"
+        }
+      ],
+      "organization": {
+        "fullName": "Yale School of Medicine",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates the feasibility of a randomized trial for blood pressure intervention within a preoperative clinic setting. It compares two approaches for patients with elevated blood pressure: providing brief counseling and an educational brochure versus providing counseling, a brochure, and a home blood pressure monitor (HBPM). The study aims to assess the practicality of the protocol, including patient compliance with monitoring and the ability to obtain follow-up data, as well as to observe baseline rates of primary care follow-up and medication adjustments 60 days after surgery.",
+      "detailedDescription": "Poorly controlled hypertension is a significant risk factor for cardiovascular disease. This prospective randomized feasibility study was conducted at the Yale New Haven Hospital Preadmission Testing Clinic to assess the viability of incorporating hypertension screening and intervention into perioperative workflows. A cohort of 100 adult patients presenting with clinic-measured blood pressures in the hypertensive range (systolic ≥ 140 mmHg or diastolic ≥ 90 mmHg) were recruited and randomized 1:1.\n\nOne group received standard brief counseling regarding hypertension and an educational pamphlet titled 'Your guide on lowering blood pressure.' The second group received the same counseling and pamphlet but was also fitted with a validated home blood pressure monitor (HBPM) and instructed to perform morning and evening measurements until the day of surgery. HBPM participants later received a mailed report of their home readings.\n\nThe study's endpoints focused on the feasibility of executing the protocol, measured by the return rate of HBPM devices and the success rate of 60-day post-operative follow-up via telephone and Electronic Health Record (EHR) tracking. Secondary outcomes included the rate of patient follow-up with primary care providers, the initiation or adjustment of hypertension medications, and participant satisfaction with the study interventions."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypertension",
+        "Elevated Blood Pressure",
+        "Cardiovascular Diseases"
+      ],
+      "keywords": [
+        "Home blood pressure monitoring",
+        "Preoperative care",
+        "Feasibility studies",
+        "Hypertension screening",
+        "Patient education",
+        "Primary care follow-up"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants were randomly assigned to one of two groups in a 1:1 fashion stratified by gender. One group received brief counseling regarding their apparent hypertension and an educational pamphlet. The second group received the educational pamphlet and was fitted with a validated home blood pressure monitor (HBPM).",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": null,
+          "whoMasked": []
+        }
+      },
+      "enrollmentInfo": {
+        "count": 100,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Counseling Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received brief counseling regarding their apparent hypertension and the importance of blood pressure follow-up. They also received a follow-up letter and an educational pamphlet by mail.",
+          "interventionNames": [
+            "Behavioral: Brief Counseling",
+            "Behavioral: Educational Pamphlet"
+          ]
+        },
+        {
+          "label": "HBPM Group",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received the educational pamphlet and were fitted with a validated home blood pressure monitor (HBPM). They were instructed to conduct resting measurements morning and evening until surgery and received a summary report of their mean home blood pressure readings by mail.",
+          "interventionNames": [
+            "Device: Home Blood Pressure Monitor (HBPM)",
+            "Behavioral: Educational Pamphlet"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Brief Counseling",
+          "description": "Brief counseling regarding apparent hypertension and the importance of blood pressure follow-up, followed by a mailed follow-up letter.",
+          "armGroupLabels": [
+            "Counseling Group"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Educational Pamphlet",
+          "description": "An educational pamphlet published by the National Heart, Lung, and Blood Institute entitled 'Your guide on lowering blood pressure', which includes advice regarding diet, exercise, and lifestyle changes.",
+          "armGroupLabels": [
+            "Counseling Group",
+            "HBPM Group"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Home Blood Pressure Monitor (HBPM)",
+          "description": "Validated Omron MX3 model BP742 home blood pressure monitor. Participants were instructed to use the device for resting measurements in the morning and evening until the day of surgery. Participants received a mailed summary report of their mean home blood pressure readings.",
+          "armGroupLabels": [
+            "HBPM Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Feasibility of Home Blood Pressure Monitoring (HBPM) Protocol",
+          "description": "Feasibility was assessed by the percentage of participants who successfully returned the home blood pressure monitor and the number of blood pressure readings recorded.",
+          "timeFrame": "From enrollment to day of surgery (approximately 2 weeks)"
+        },
+        {
+          "measure": "Feasibility of Outcome Ascertainment",
+          "description": "The ability to reach participants for follow-up via telephone and Electronic Health Record (EHR) tracking to obtain outcome data.",
+          "timeFrame": "60 days post-surgery"
+        },
+        {
+          "measure": "Primary Care Follow-up Rate",
+          "description": "The percentage of patients who visited their primary care physician (PCP) post-operatively.",
+          "timeFrame": "60 days post-surgery"
+        },
+        {
+          "measure": "Modification of Hypertension Treatment",
+          "description": "The percentage of patients who received new or adjusted hypertension medications (dose increase, medication change, or new medication added).",
+          "timeFrame": "60 days post-surgery"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Participant Satisfaction",
+          "description": "Participants rated their satisfaction with the study participation, the NIH brochure, and the follow-up call using 5-point Likert scales ranging from 1 (not at all) to 5 (very much).",
+          "timeFrame": "60 days post-surgery"
+        },
+        {
+          "measure": "Implementation of Brochure Recommendations",
+          "description": "Participants were asked if they remembered the NIH brochure and had put in practice any recommendations (e.g., diet changes, exercise, smoking cessation).",
+          "timeFrame": "60 days post-surgery"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Patients scheduled for surgery recruited during their preadmission visit\n* Age > 18 years\n* The ability to understand English\n* A clinic-measured blood pressure of at least 140 mmHg systolic or 90 mmHg diastolic calculated as the mean of two successive measurements 5 min apart\n\nExclusion Criteria:\n* Participants who were unable or unwilling to independently operate a brachial artery home blood pressure monitor\n* Those who could not give proper consent\n* Those for whom the date of surgery was within 48 h of the preoperative visit",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

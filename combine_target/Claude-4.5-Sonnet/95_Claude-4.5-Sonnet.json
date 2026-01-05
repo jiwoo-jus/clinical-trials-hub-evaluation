@@ -1,0 +1,82 @@
+{
+  "protocolSection": {
+    "identificationModule": null,
+    "descriptionModule": {
+      "briefSummary": "Opioid-related overdoses and harms have been declared a public health emergency in the United States, highlighting an urgent need to implement evidence-based treatments. Contingency management (CM) is one of the most effective behavioral interventions when delivered in combination with medication for opioid use disorder, but its implementation in opioid treatment programs is woefully limited. Project MIMIC (Maximizing Implementation of Motivational Incentives in Clinics) was funded by the National Institute on Drug Abuse to identify effective strategies for helping opioid treatment programs improve CM implementation as an adjunct to medication. Specific aims will test the impact of two different strategies on implementation outcomes (primary aim) and patient outcomes (secondary aims), as well as test putative mediators of implementation effectiveness (exploratory aim).",
+      "detailedDescription": "A 3-cohort, cluster-randomized, type 3 hybrid effectiveness-implementation design is used with the opioid treatment programs as the unit of randomization. Thirty programs are randomized to one of two conditions. The control condition is the Addiction Technology Transfer Center (ATTC) Network implementation strategy, which consists of three core approaches: didactic training, performance feedback, and on-going consultation. The experimental condition is an enhanced ATTC strategy, with the same core ATTC elements plus two additional theory-driven elements. The two additional elements are Pay-for-Performance, which aims to increase implementing staff's extrinsic motivations, and Implementation & Sustainment Facilitation, which targets staff's intrinsic motivations. Data will be collected using a novel, CM Tracker tool to document CM session delivery, session audio recordings, provider surveys, and patient surveys. Implementation outcomes include CM Exposure (number of CM sessions delivered per patient), CM Skill (ratings of CM fidelity), and CM Sustainment (number of patients receiving CM after removal of support). Patient outcomes include self-reported opioid abstinence and opioid-related problems (both assessed at 3- and 6-months post-baseline). The study is guided by the Exploration, Preparation, Implementation, Sustainment (EPIS) model and tests two putative mediators (implementation climate and leadership engagement) to elucidate factors driving implementation effectiveness. The prize-based CM intervention uses the evidence-based, lower-cost prize model targeting attendance, with a customizable protocol in which each OTP can develop an organization-specific definition of patients' weekly attendance goals. Patients earn prize draws weekly for meeting the attendance target for up to 12 weeks."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Opioid Use Disorder",
+        "Opioid-Related Disorders",
+        "Substance-Related Disorders"
+      ],
+      "keywords": [
+        "Contingency management",
+        "Opioid use",
+        "Addiction",
+        "Implementation",
+        "Addiction technology transfer center",
+        "Motivational incentives",
+        "Medication for opioid use disorder",
+        "Methadone",
+        "Buprenorphine",
+        "Opioid treatment programs",
+        "Behavioral interventions"
+      ]
+    },
+    "designModule": null,
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ATTC Strategy (Control)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Opioid treatment programs receive the standard Addiction Technology Transfer Center (ATTC) implementation strategy consisting of three core components: (1) didactic training workshop on contingency management with training-to-criterion approach, (2) performance feedback using the CM Competence Scale on practice cases and monthly audio recordings, and (3) ongoing consultation via email support for prize selection and monthly virtual consultation meetings. Support is provided during a 5-month Preparation phase and 9-month Implementation phase, followed by a 6-month Sustainment phase with access to materials only.",
+          "interventionNames": [
+            "BEHAVIORAL: ATTC Implementation Strategy",
+            "BEHAVIORAL: Prize-based Contingency Management"
+          ]
+        },
+        {
+          "label": "Enhanced-ATTC Strategy (Experimental)",
+          "type": "EXPERIMENTAL",
+          "description": "Opioid treatment programs receive all components of the standard ATTC strategy plus two additional theory-driven elements: (1) Pay-for-Performance: counselors earn monetary bonuses ($200 per patient receiving 10+ CM sessions; $50 per month for achieving CM Competence Scale score ≥5.8) to increase extrinsic motivation, and (2) Implementation & Sustainment Facilitation: monthly 30-60 minute meetings with trained external facilitators using motivational interviewing principles to engage staff, focus on outcomes, evoke pros/cons of CM implementation, and plan for sustainment including financial support strategies to increase intrinsic motivation.",
+          "interventionNames": [
+            "BEHAVIORAL: Enhanced-ATTC Implementation Strategy",
+            "BEHAVIORAL: Prize-based Contingency Management"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "ATTC Implementation Strategy",
+          "description": "Multi-component implementation strategy including: (1) 7-hour didactic training workshop (or 4-hour virtual alternative) on CM principles with role-plays and knowledge testing (75% passing criterion); (2) Performance feedback on practice CM sessions using CM Competence Scale (adequate fidelity = 4.0/7.0 average score) with monthly audio recording submissions; (3) Ongoing consultation via email for operational support and monthly virtual consultation meetings; (4) Access to CM resources via centralized website including training videos, case vignettes, materials in English/Spanish, and weekly CM newsletter; (5) Use of CM Tracker web-based tool for weekly reporting and dashboard monitoring of CM delivery and fidelity.",
+          "armGroupLabels": [
+            "ATTC Strategy (Control)",
+            "Enhanced-ATTC Strategy (Experimental)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Enhanced-ATTC Implementation Strategy",
+          "description": "All components of ATTC strategy plus: (1) Pay-for-Performance: counselors earn $200 per patient completing 10+ CM sessions within 14 weeks and $50 per month for achieving average CM Competence Scale score ≥5.8, paid via check within 30 days; (2) Implementation & Sustainment Facilitation: monthly 30-60 minute virtual meetings with external facilitator beginning month 3 of Preparation phase through Implementation phase, using motivational interviewing principles (engage, focus, evoke, plan) with structured exercises (decisional balance, past implementation efforts, performance review, implementation climate evaluation) and 2-hour CM process walkthrough meeting, focused on maximizing implementation and planning for financial sustainment.",
+          "armGroupLabels": [
+            "Enhanced-ATTC Strategy (Experimental)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Prize-based Contingency Management",
+          "description": "Evidence-based prize model targeting attendance at opioid treatment program. Patients earn prize draws weekly for meeting organization-specific attendance targets (e.g., medication doses, individual/group counseling sessions). Draws start at 1 for first week meeting target and increase by 1 for each consecutive week (maximum 78 draws over 12 weeks). Patients draw from fishbowl containing 500 slips: 250 praise only, 209 small prizes ($1-2), 40 large prizes ($25), 1 jumbo prize ($100). Average draw value $2.83, maximum expected value ~$220 over 12 weeks. Protocol delivered over 14 weeks to accommodate absences. Can be delivered in-person or remotely via telehealth with virtual fishbowl and electronic prize menus.",
+          "armGroupLabels": [
+            "ATTC Strategy (Control)",
+            "Enhanced-ATTC Strategy (Experimental)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": null,
+    "eligibilityModule": null
+  }
+}

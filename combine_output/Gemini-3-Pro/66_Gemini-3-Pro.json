@@ -1,0 +1,164 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03803683",
+      "secondaryIdInfos": [
+        {
+          "id": "R01MH118151",
+          "type": "NIH",
+          "domain": "National Institute of Mental Health"
+        },
+        {
+          "id": "K24NR018621",
+          "type": "NIH",
+          "domain": "National Institute of Nursing Research"
+        },
+        {
+          "id": "18348",
+          "type": "FDA",
+          "domain": "IDE"
+        }
+      ],
+      "organization": {
+        "fullName": "Columbia University",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a three-arm randomized controlled trial evaluating the mLab App, a mobile health intervention designed to increase HIV testing rates and linkage to care among young men who have sex with men (YMSM) and young transgender women (YTGW). Focusing on Black and Latino youth in New York City and Chicago, the study compares the mLab App (which includes testing reminders and an image interpretation feature for at-home tests) against standard of care and a home-test-only control group.",
+      "detailedDescription": "The trial enrolls participants aged 18–29 years who are randomized into one of three arms: Arm 1 receives the mLab App, HIV home test kits, and standard of preventive care; Arm 2 receives standard of preventive care only; and Arm 3 receives HIV home test kits and standard of preventive care. The mLab App is an FDA-regulated investigational device that allows users to upload photos of OraQuick rapid home HIV self-tests for automated result interpretation and provides automated notifications to encourage testing every 3 months.\n\nThe study aims to address disparities in HIV testing caused by social and healthcare barriers, such as stigma and lack of access. Recruitment is conducted via social media and community partners. The primary outcome is the proportion of participants self-reporting HIV testing in the past 6 months. Secondary outcomes include linkage to care for those with reactive tests and the performance of the app's image processing algorithm. Data is collected at baseline, 6 months, and 12 months post-enrollment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HIV Infections",
+        "HIV Prevention"
+      ],
+      "keywords": [
+        "HIV",
+        "mHealth",
+        "YMSM",
+        "YTGW",
+        "Young Men who have Sex with Men",
+        "Young Transgender Women",
+        "Self-testing",
+        "Mobile Application",
+        "Linkage to Care",
+        "Minority Health"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Three-arm randomized controlled trial. Participants are randomized to either the mLab App intervention including HIV home test kits and standard of preventive care (Arm 1), standard of preventive care only (Arm 2), or HIV home test kits and standard of preventive care only (Arm 3).",
+        "primaryPurpose": "PREVENTION"
+      },
+      "enrollmentInfo": {
+        "count": 525,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "mLab App (Arm 1)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants are provided with the mLab App, 2 OraQuick tests (with 2 additional tests after 6 months), and standard of preventive care.",
+          "interventionNames": [
+            "Device: mLab App",
+            "Diagnostic Test: OraQuick HIV Home Test Kits",
+            "Other: Standard of Preventive Care"
+          ]
+        },
+        {
+          "label": "Standard of care (Arm 2)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants receive the standard of preventive care only.",
+          "interventionNames": [
+            "Other: Standard of Preventive Care"
+          ]
+        },
+        {
+          "label": "OraQuick tests (Arm 3)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants receive 2 OraQuick tests (with 2 additional tests after 6 months) and standard of preventive care.",
+          "interventionNames": [
+            "Diagnostic Test: OraQuick HIV Home Test Kits",
+            "Other: Standard of Preventive Care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "mLab App",
+          "description": "An FDA regulated investigational device (mobile app) that combines HIV prevention information with email and text notifications for testing, and a mobile phone imaging feature/algorithm for interpreting the visual results of the OraQuick rapid home HIV self-test.",
+          "armGroupLabels": [
+            "mLab App (Arm 1)"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "OraQuick HIV Home Test Kits",
+          "description": "Rapid home HIV self-test kits provided to participants to perform at-home testing.",
+          "armGroupLabels": [
+            "mLab App (Arm 1)",
+            "OraQuick tests (Arm 3)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Standard of Preventive Care",
+          "description": "Includes HIV testing education, condoms, and PrEP education. Participants also receive links to mobile-optimized online prevention information found on the CDC website.",
+          "armGroupLabels": [
+            "mLab App (Arm 1)",
+            "Standard of care (Arm 2)",
+            "OraQuick tests (Arm 3)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "HIV testing rate",
+          "description": "The proportion of participants who self-report being tested for HIV. For participants in the intervention arm, self-reported results are cross-referenced with uploaded photo images of the OraQuick test to assess bias.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Linkage to care",
+          "description": " measured by the percent of study participants who tested positive and attended a first HIV care appointment or provided documentation of care at another clinic, and the time linked to care after a positive result.",
+          "timeFrame": "6 and 12 months"
+        },
+        {
+          "measure": "Diagnostic accuracy (Sensitivity and Specificity)",
+          "description": "Comparison of user-submitted results, study team interpretation of uploaded images, and automated mLab App results against confirmatory testing (gold standard) to determine sensitivity and specificity.",
+          "timeFrame": "Up to 12 months"
+        },
+        {
+          "measure": "HIV testing rate (12 months)",
+          "description": "The proportion of participants who self-report being tested for HIV assessed at the 12-month follow-up.",
+          "timeFrame": "12 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* 18–29 years of age\n* Assigned male sex at birth of any current gender identification\n* Understand and read English\n* Sexually active and at risk for HIV infection per CDC guidance (e.g., YMSM or YTGW and recent anal sex with men)\n* Smartphone ownership\n* Self-report being HIV-negative or unknown status (verified via HIV testing at the enrollment visit)\n\nExclusion Criteria:\n* Known diagnosis of HIV\n* Investigators determine that participation may be detrimental to the participant or to the study",
+      "healthyVolunteers": true,
+      "sex": "MALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "29 Years",
+      "stdAges": [
+        "ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

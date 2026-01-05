@@ -1,0 +1,192 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02910583",
+      "organization": {
+        "fullName": "Pharmacyclics LLC, an AbbVie Company",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Ibrutinib Plus Venetoclax for First-Line Treatment of Chronic Lymphocytic Leukemia",
+      "officialTitle": "Ibrutinib Plus Venetoclax for First-Line Treatment of Chronic Lymphocytic Leukemia: Primary Analysis Results From the Minimal Residual Disease Cohort of the Randomized Phase II CAPTIVATE Study",
+      "acronym": "CAPTIVATE"
+    },
+    "descriptionModule": {
+      "briefSummary": "CAPTIVATE (NCT02910583) is a randomized phase II study evaluating minimal residual disease (MRD)-guided treatment discontinuation following completion of first-line ibrutinib plus venetoclax treatment in patients with chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL). The study investigates whether fixed-duration treatment with this all-oral, chemotherapy-free regimen is feasible based on deep remission status.",
+      "detailedDescription": "Eligible patients aged < 70 years with previously untreated CLL or SLL received three cycles of single-agent ibrutinib lead-in followed by 12 cycles of combined ibrutinib plus venetoclax. Following this treatment phase, patients in the MRD cohort were assessed for Confirmed undetectable MRD (uMRD). Patients meeting the stringent criteria for Confirmed uMRD were randomly assigned 1:1 to double-blind treatment with placebo or ibrutinib. Patients who did not meet Confirmed uMRD criteria (uMRD Not Confirmed) were randomly assigned 1:1 to open-label treatment with single-agent ibrutinib or continued ibrutinib plus venetoclax. The primary endpoint was the 1-year disease-free survival (DFS) rate with placebo versus ibrutinib in the Confirmed uMRD population. Secondary endpoints included undetectable MRD rates in peripheral blood and bone marrow, overall response rates, progression-free survival, overall survival, and safety."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Lymphocytic Leukemia",
+        "Small Lymphocytic Lymphoma"
+      ],
+      "keywords": [
+        "Ibrutinib",
+        "Venetoclax",
+        "Minimal Residual Disease",
+        "First-line treatment",
+        "MRD-guided treatment",
+        "Fixed-duration treatment",
+        "BCL-2 inhibitor",
+        "BTK inhibitor"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Patients received 3 cycles of ibrutinib lead-in followed by 12 cycles of combined ibrutinib plus venetoclax. Patients with Confirmed uMRD were randomly assigned 1:1 to double-blind placebo or ibrutinib; patients without Confirmed uMRD were randomly assigned 1:1 to open-label ibrutinib or ibrutinib plus venetoclax.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Patients with Confirmed uMRD were randomly assigned 1:1 to double-blinded treatment with placebo or ibrutinib. Patients with uMRD Not Confirmed were randomly assigned 1:1 to open-label treatment.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 164,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Confirmed uMRD: Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients with Confirmed undetectable minimal residual disease (uMRD) after 12 cycles of combined ibrutinib plus venetoclax were randomly assigned to receive double-blind placebo.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Confirmed uMRD: Ibrutinib",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients with Confirmed undetectable minimal residual disease (uMRD) after 12 cycles of combined ibrutinib plus venetoclax were randomly assigned to receive double-blind ibrutinib.",
+          "interventionNames": [
+            "Drug: Ibrutinib"
+          ]
+        },
+        {
+          "label": "uMRD Not Confirmed: Ibrutinib",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients without Confirmed uMRD (uMRD Not Confirmed) after 12 cycles of combined ibrutinib plus venetoclax were randomly assigned to receive open-label ibrutinib.",
+          "interventionNames": [
+            "Drug: Ibrutinib"
+          ]
+        },
+        {
+          "label": "uMRD Not Confirmed: Ibrutinib + Venetoclax",
+          "type": "EXPERIMENTAL",
+          "description": "Patients without Confirmed uMRD (uMRD Not Confirmed) after 12 cycles of combined ibrutinib plus venetoclax were randomly assigned to receive open-label ibrutinib plus venetoclax.",
+          "interventionNames": [
+            "Drug: Ibrutinib",
+            "Drug: Venetoclax"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ibrutinib",
+          "description": "Administered orally, 420 mg once daily.",
+          "armGroupLabels": [
+            "Confirmed uMRD: Ibrutinib",
+            "uMRD Not Confirmed: Ibrutinib",
+            "uMRD Not Confirmed: Ibrutinib + Venetoclax"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Venetoclax",
+          "description": "Administered orally, target dose 400 mg once daily.",
+          "armGroupLabels": [
+            "uMRD Not Confirmed: Ibrutinib + Venetoclax"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Double-blind placebo matching ibrutinib.",
+          "armGroupLabels": [
+            "Confirmed uMRD: Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "1-year Disease-Free Survival (DFS) Rate",
+          "description": "DFS rate with placebo versus ibrutinib in the Confirmed uMRD population. One-year DFS was defined as absence of MRD relapse, progression, or death.",
+          "timeFrame": "1 year after random assignment"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Undetectable Minimal Residual Disease (uMRD) Rates",
+          "description": "uMRD rates assessed in peripheral blood (PB) and bone marrow (BM).",
+          "timeFrame": "Throughout study"
+        },
+        {
+          "measure": "Overall Response Rate",
+          "description": "Assessed per investigator assessment using 2008 iwCLL criteria.",
+          "timeFrame": "Throughout study"
+        },
+        {
+          "measure": "Complete Response (CR) Rate",
+          "description": "Includes CR with incomplete BM recovery (CRi).",
+          "timeFrame": "Throughout study"
+        },
+        {
+          "measure": "Duration of Response",
+          "description": "Time from documentation of tumor response to disease progression or death.",
+          "timeFrame": "Throughout study"
+        },
+        {
+          "measure": "Tumor Lysis Syndrome (TLS) Risk Category Reduction",
+          "description": "Proportion of patients at high risk for TLS after ibrutinib lead-in versus baseline.",
+          "timeFrame": "Baseline and after 3 cycles of ibrutinib lead-in"
+        },
+        {
+          "measure": "Progression-Free Survival (PFS)",
+          "description": "Time from random assignment to disease progression or death.",
+          "timeFrame": "Throughout study (median follow-up 31.3 months)"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Time from random assignment to death from any cause.",
+          "timeFrame": "Throughout study"
+        },
+        {
+          "measure": "Pharmacokinetics of Ibrutinib and Venetoclax",
+          "description": "Pharmacokinetic sampling of ibrutinib and venetoclax in combination.",
+          "timeFrame": "During combination treatment"
+        },
+        {
+          "measure": "Safety and Tolerability",
+          "description": "Assessment of adverse events.",
+          "timeFrame": "Evaluated at every visit throughout the study"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Age ≥ 18 to < 70 years\n- Previously untreated chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL) requiring treatment per iwCLL criteria\n- Measurable nodal disease by computed tomography\n- Eastern Cooperative Oncology Group performance status 0-1\n- Adequate hepatic, renal, and hematologic function\n\nExclusion Criteria:\n- Known allergy to xanthine oxidase inhibitors and/or rasburicase",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "69 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

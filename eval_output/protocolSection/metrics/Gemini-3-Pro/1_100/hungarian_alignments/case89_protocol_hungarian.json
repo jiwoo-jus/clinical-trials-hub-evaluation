@@ -1,0 +1,197 @@
+{
+  "metadata": {
+    "case_id": 89,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T19:25:59.912275",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/89_NCT04864691.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/89_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.6,
+          0.92
+        ],
+        [
+          0.82,
+          0.5
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "endovascular recanalization plus standard medical treatment",
+            "type": "EXPERIMENTAL",
+            "description": "patients with symptomatic non-acute intracranial artery occlusion treated by endovascular recanalization and standard medical treatment after procedure",
+            "interventionNames": [
+              "Biological: endovascular recanalization"
+            ]
+          },
+          "pred_item": {
+            "label": "ER plus SMT",
+            "type": "EXPERIMENTAL",
+            "description": "Patients receive Endovascular Recanalization (ER) in addition to Standard Medical Therapy (SMT).",
+            "interventionNames": [
+              "Endovascular Recanalization (ER)",
+              "Standard Medical Therapy (SMT)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "standard medical treatment",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients take aspirin 100 mg/day or clopidogrel 75mg/day for the entire follow-up period (EVR patients take aspirin 100 mg/day and clopidogrel 75mg/day for 30-90 days after procedure)",
+            "interventionNames": [
+              "Biological: endovascular recanalization"
+            ]
+          },
+          "pred_item": {
+            "label": "SMT alone",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients receive Standard Medical Therapy (SMT) alone, comprising antiplatelet regimen, risk factor management, and lifestyle modification.",
+            "interventionNames": [
+              "Standard Medical Therapy (SMT)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "endovascular recanalization",
+            "description": "to recanalize the occlusion cerebral artery with intravascular intervention",
+            "armGroupLabels": [
+              "endovascular recanalization plus standard medical treatment",
+              "standard medical treatment"
+            ]
+          },
+          "pred_item": {
+            "type": "PROCEDURE",
+            "name": "Endovascular Recanalization (ER)",
+            "description": "Performed under general anesthesia. Consists of balloon dilation of the occluded segment. Stents are deployed in cases of residual severe stenosis, vascular dissection, or failure to maintain forward flow. Successful revascularization is defined as a modified TICI grade 2b or 3 and residual stenosis <50%.",
+            "armGroupLabels": [
+              "ER plus SMT"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Primary Outcome",
+            "description": "The primary outcome was a composite of any stroke or death within 30 days after enrollment or ischemic stroke in the territory of the qualifying artery from 30 days to 1 year after enrollment.",
+            "timeFrame": "One year"
+          },
+          "pred_item": {
+            "measure": "Any stroke",
+            "description": "Stroke is defined as rapidly developing clinical signs of focal disturbance of cerebral function lasting more than 24 h with no apparent cause other than that of vascular origin according to the World Health Organization.",
+            "timeFrame": "From enrollment to 2 years of follow-up"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.2,
+          0.25,
+          0.3,
+          0.08
+        ],
+        [
+          0.8,
+          0.78,
+          0.7,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.3,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Incidence of Stroke/ TIA Ipsilateral to the Target Vessel",
+            "description": "stroke/ TIA ipsilateral to the target vessel will be defined according to the World",
+            "timeFrame": "within 30 days and 90 days in both groups"
+          },
+          "pred_item": {
+            "measure": "NIHSS score",
+            "description": "National Institutes of Health Stroke Scale score to assess stroke severity.",
+            "timeFrame": "30 days, 3 months, 8 months, 12 months, 18 months, and 2 years of follow-up"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.8,
+          "status": "matched",
+          "ref_item": {
+            "measure": "All-cause Mortality, mRS Score, NIHSS Score and Cognitive Function",
+            "description": "to evaluate the change in all-cause mortality, mRS score, NIHSS score and cognitive function in the two groups",
+            "timeFrame": "t 30 days, 90 days, 8 months, 12 months and 24 months for both groups"
+          },
+          "pred_item": {
+            "measure": "All-cause mortality",
+            "description": "Assessment of death from any cause.",
+            "timeFrame": "30 days, 3 months, 8 months, 12 months, 18 months, and 2 years of follow-up"
+          }
+        }
+      ]
+    }
+  ]
+}

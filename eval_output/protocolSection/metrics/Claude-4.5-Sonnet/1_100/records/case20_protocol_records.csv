@@ -1,0 +1,39 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,FN,FN,NCT01302379,,False,0.0,,NCTId,protocolSection.identificationModule.nctId,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,FN,FN,Reach for Health Study: Obesity-related Mechanisms and Mortality in Breast Cancer Survivors,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,FN,FN,Obesity-related Mechanisms and Mortality in Breast Cancer Survivors,,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,"This objective of this randomized controlled trial is to conduct a 2x2 test of a lifestyle intervention and metformin (a drug used to treat diabetes) to investigate how these treatments, alone or in combination, affect biomarkers associated with breast cancer survival. The Reach for Health Study will enroll 340 overweight/obese, postmenopausal breast cancer survivors. After completing the screening process and baseline measures, participants will be randomized in equal numbers to: (1) placebo, (2) metformin, (3) lifestyle intervention and placebo, or (4) lifestyle intervention and metformin. The intervention was powered on the main effects and the planned analyses are to compare: Metformin to Placebo and a separate comparison of Lifestyle intervention to control. The interventions will last for 6 months. Concentrations of circulating biomarkers will be assessed at baseline and 6 months.",,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,['Breast Neoplasms'],,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,FN,FN,"['Obesity', 'Survival', 'Weight loss', 'Metformin', 'Biological markers']",,False,0.0,,Keyword,protocolSection.conditionsModule.keywords,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,FACTORIAL,FACTORIAL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,QUADRUPLE,DOUBLE,True,0.7,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"Participants were randomly assigned to metformin or placebo in a blinded fashion, with weight loss intervention as an additional factor",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,FP,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']",['PARTICIPANT'],False,0.25,partial,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,TP,333,333,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,FN,FN,"Inclusion Criteria:
+
+* BMI at least 25.0 kg/m2
+* Diagnosed with Stage I, II, or III breast cancer within past 5 years
+* Treatment with total mastectomy or breast-sparing surgical removal of cancer with clear macroscopic margins, and axillary dissection, followed by adjuvant breast radiation
+* Not scheduled for or currently undergoing chemotherapy
+* Accessible geographically and by telephone
+* Able to communicate dietary and physical activity data via telephone
+* If taking statins, tamoxifen, or aromatase inhibitors; able and willing to remain on treatment for 6-month study period
+* Post-menopausal at diagnosis
+
+Exclusion Criteria:
+
+* Preliminary bloodwork outside of specified ranges
+* Evidence of renal insufficiency, liver disease, or congestive heart failure
+* Currently taking corticosteroid pills or steroid hormone therapy (including vaginal estrogen creams)
+* Recent initiation (\< 3 months ago) of thiazides or β-blockers
+* Taking insulin or other antidiabetic drug
+* Other primary or recurrent invasive cancer in past 10 years
+* Unable to commit to study requirements",,False,0.0,,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,FN,FN,False,,False,0.0,,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,FN,FN,FEMALE,,False,0.0,,Sex,protocolSection.eligibilityModule.sex,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,FN,FN,"['CHILD', 'ADULT', 'OLDER_ADULT']",,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

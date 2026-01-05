@@ -1,0 +1,147 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04234984",
+      "orgStudyIdInfo": {
+        "id": "20/0005 U"
+      },
+      "organization": {
+        "fullName": "Hospital Oost-Limburg",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Retrospective Study on Patients With Chronic Knee Pain Treated With Ultrasound-Guided Radiofrequency of the Genicular Nerves (RECORGEN Trial)",
+      "officialTitle": "A Retrospective Study on Patients With Chronic Knee Pain Treated With Ultrasound-Guided Radiofrequency of the Genicular Nerves (RECORGEN Trial)",
+      "acronym": "RECORGEN"
+    },
+    "descriptionModule": {
+      "briefSummary": "The RECORGEN study is a retrospective single-center cohort study evaluating the effectiveness and safety of ultrasound-guided conventional radiofrequency (RF) treatment of the genicular nerves. The study focuses on patients suffering from chronic knee pain, specifically those with persistent postsurgical knee pain (PPSP) and degenerative knee pain (such as osteoarthritis) who have been refractory to conventional medical management. The primary goal is to assess treatment success, defined as a Global Perceived Effect (GPE) of at least 50% improvement, along with pain reduction and safety outcomes.",
+      "detailedDescription": "This retrospective observational study analyzes data from patients treated with ultrasound-guided conventional radiofrequency (RF) ablation of the genicular nerves at the Hospital Oost-Limburg, Genk, between September 2017 and June 2020. The cohort consists of patients with chronic anterior knee pain classified into two subgroups: those with persistent postsurgical pain (PPSP), primarily following total knee arthroplasty, and those with degenerative knee pain (DP), including osteoarthritis and soft tissue disease.\n\nThe intervention involved ultrasound-guided conventional RF treatment of the superomedial, inferomedial, and superolateral genicular nerves at 70°C for 90 seconds, performed after a confirmed positive diagnostic block. \n\nThe primary endpoint was the proportion of patients achieving treatment success at 6 weeks, defined as a Global Perceived Effect (GPE) score of ≥50% compared to baseline. Secondary objectives included evaluating treatment success at a later cross-sectional time point, reduction in Numeric Rating Scale (NRS) pain scores (≥50% reduction), subjective physical functioning, changes in the consumption of strong opioids, and the duration of the treatment effect. Safety and tolerability were assessed by monitoring adverse events at 6 weeks and at the second follow-up time point."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Knee Pain",
+        "Persistent Postsurgical Pain",
+        "Knee Osteoarthritis",
+        "Degenerative Knee Pain"
+      ],
+      "keywords": [
+        "Radiofrequency treatment",
+        "Genicular nerves",
+        "Ultrasound-guided",
+        "Chronic pain",
+        "Persistent postsurgical pain",
+        "Osteoarthritis",
+        "Knee functionality"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "observationalModel": "COHORT",
+        "timePerspective": "RETROSPECTIVE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 61,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "PPSP Group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients diagnosed with persistent post-surgical pain (PPSP), primarily after total knee arthroplasty (TKA), suffering from chronic anterior knee pain.",
+          "interventionNames": [
+            "Procedure: Ultrasound-guided conventional radiofrequency (RF) treatment of the genicular nerves"
+          ]
+        },
+        {
+          "label": "Degenerative Knee Pain (DP) Group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients suffering from chronic knee pain due to degenerative disease (osteoarthritis), soft tissue disease (e.g., ligament), or posttraumatic pain.",
+          "interventionNames": [
+            "Procedure: Ultrasound-guided conventional radiofrequency (RF) treatment of the genicular nerves"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Ultrasound-guided conventional radiofrequency (RF) treatment of the genicular nerves",
+          "description": "Ultrasound-guided conventional RF treatment of the three genicular nerves (superomedial, inferomedial, and superolateral) performed after a positive diagnostic block with lidocaine 2%. The RF was performed at a temperature of 70°C for 90 seconds per nerve using a 10 cm 21 G Cosman cannula with a 5-mm active tip.",
+          "armGroupLabels": [
+            "PPSP Group",
+            "Degenerative Knee Pain (DP) Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of patients with treatment success",
+          "description": "Treatment success defined as a Global Perceived Effect (GPE) of ≥50% compared to baseline.",
+          "timeFrame": "Week 6"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportion of patients with treatment success at follow-up",
+          "description": "Treatment success defined as a GPE of ≥50% compared to baseline.",
+          "timeFrame": "Second time point (variable follow-up, mean 17 months)"
+        },
+        {
+          "measure": "Numeric Rating Scale (NRS) reduction",
+          "description": "Proportion of patients with NRS reduction ≥50% compared to baseline.",
+          "timeFrame": "Week 6 and at the second time point"
+        },
+        {
+          "measure": "Subjective physical functioning",
+          "description": "Subjective functional outcome assessed via questionnaire.",
+          "timeFrame": "Second time point"
+        },
+        {
+          "measure": "Long-term treatment effect",
+          "description": "Defined as the period with pain reduction.",
+          "timeFrame": "Through follow-up period (up to 27 months)"
+        },
+        {
+          "measure": "Use of strong opioids",
+          "description": "Evaluation of the change in use of strong opioids.",
+          "timeFrame": "Week 6 and at the second time point"
+        },
+        {
+          "measure": "Rescue interventions",
+          "description": "The need for rescue therapy.",
+          "timeFrame": "Through follow-up period"
+        },
+        {
+          "measure": "Adverse events",
+          "description": "Number, type, and severity of adverse events.",
+          "timeFrame": "Week 6 and at the second time point"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- All consecutive patients with chronic knee pain who received RF treatment of the genicular nerves between September 1, 2017, and June 30, 2020.\n- Positive diagnostic block (defined as at least 50% pain reduction) with lidocaine 2% 1 ml at each of the genicular nerves.\n\nExclusion Criteria:\n- Chronic widespread pain.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "All patients treated with RF at the multidisciplinary chronic pain center in the Hospital Oost‐Limburg, Genk, between 1 September 2017 and 30 June 2020, divided into two subgroups: PPSP and degenerative knee pain.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    }
+  }
+}

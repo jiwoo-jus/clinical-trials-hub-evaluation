@@ -1,0 +1,190 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03679247",
+      "orgStudyIdInfo": {
+        "id": "5R01DK116898-03",
+        "type": "NIH",
+        "link": ""
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "Brigham and Women’s Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Behavioural Economics and User-Centred Clinical Decision Support for Uncontrolled Hypertension in Chronic Kidney Disease in Primary Care",
+      "officialTitle": "A Pragmatic, Cluster-Randomised Controlled Trial of a Multicomponent Intervention Incorporating Behavioural Economic and User-Centred Design Principles for the Management of Uncontrolled Hypertension in Chronic Kidney Disease in Primary Care",
+      "acronym": ""
+    },
+    "descriptionModule": {
+      "briefSummary": "This pragmatic, multicentre cluster-randomised controlled trial tests a multicomponent electronic health record–based clinical decision support (CDS) intervention to improve management of uncontrolled hypertension in adults with chronic kidney disease (CKD) in primary care. Primary care clinicians at 15 practices are randomised at the clinician (or clinician dyad) level to receive either an active Epic Best Practice Advisory CDS or usual care. The intervention uses computable phenotypes to identify CKD patients with uncontrolled systolic blood pressure and then provides tailored treatment recommendations, including initiation or up-titration of ACE inhibitors, angiotensin receptor blockers, and diuretics, along with guideline links and explanations. Behavioural economic components include pre-commitment emails asking clinicians to pledge adherence to blood pressure management recommendations and accountable justification text fields when they disagree with CDS suggestions. The primary outcome is change in mean systolic blood pressure from baseline to 6 months. Secondary outcomes include hypertension- and CKD-related process measures, adverse drug events, and hypotension, evaluated using the RE-AIM implementation science framework.",
+      "detailedDescription": "This study evaluates a multicomponent intervention designed to improve control of hypertension among adults with chronic kidney disease (CKD) in real-world primary care settings. The trial is conducted within the Brigham and Women’s Primary Care Practice-Based Research Network, which includes 15 diverse practices. The design is a pragmatic, cluster-randomised controlled trial, with randomisation at the clinician level (including solo primary care clinicians and co-management dyads) to minimise contamination and align with the clinician-focused nature of the intervention.\n\nEligible patients are adults (≥18 years) with CKD, defined by two prior estimated glomerular filtration rate (eGFR) values of 16–59 mL/min/1.73 m² or two urine albumin-to-creatinine ratios (UACR) >30 mg/g at least 90 days apart, who also have uncontrolled hypertension, defined as at least one systolic blood pressure (SBP) >140 mm Hg in the prior 2 years and SBP >140 mm Hg at the enrolment visit. Patients with very advanced kidney dysfunction (eGFR ≤20 most recent or two eGFRs ≤15 mL/min/1.73 m² separated by at least 90 days) are excluded. Patients are automatically enrolled at the time of qualifying primary care visits, with group assignment based on their clinician’s randomisation status.\n\nThe core of the intervention is a set of Epic Best Practice Advisories (BPAs) built on five computable phenotypes that identify CKD patients with uncontrolled SBP who would benefit from: (1) initiation of an ACE inhibitor (ACEi), (2) initiation of an angiotensin receptor blocker (ARB), (3) up-titration of a suboptimal ACEi dose, (4) up-titration of a suboptimal ARB dose, and (5) addition of a diuretic when ACEi or ARB therapy is maximised. When a qualifying patient’s chart is opened by an intervention clinician, the BPA displays patient-specific information explaining why it fired, structured treatment recommendations (for example, a suggested ACEi starting dose or ARB dose increase), and hyperlinks to relevant CKD and hypertension clinical guidelines.\n\nUser-centred design methods were used to develop and refine the CDS interface, including contextual inquiry of clinical workflows, group design sessions, and individual “think aloud” usability testing. These methods informed how data are displayed, how recommendations are framed, and how clinicians interact with the advisory. Behavioural economic principles are incorporated through default options, accountability, and public commitment: clinicians receive a pre-commitment email inviting them to pledge adherence to blood pressure treatment recommendations, and the BPA requires an ‘accountable justification’ if a clinician declines a recommendation, encouraging explicit documentation of the rationale. The CDS fires at the initial enrolment visit; follow-up firing occurs only if the clinician requests a reminder and if the patient still meets criteria (for example, persistent SBP >140/90 mm Hg and no newly documented contraindications or target medication use).\n\nImplementation was preceded by a silent-mode period and a short live pilot during which the CDS ran without being visible (for validation) and then was briefly activated to evaluate clinician interactions and uncover workflow issues and potential workarounds. Observed workarounds included selecting ‘other’ as a justification with non-informative text or initiating but not signing medication orders to dismiss the alert. These observations inform the assessment of real-world adoption and alert fatigue but did not lead to substantive modifications of the CDS logic for the main trial.\n\nOutcomes are evaluated within the Reach Effectiveness Adoption Implementation Maintenance (RE-AIM) framework. The primary clinical endpoint is the change in mean SBP from baseline (prior year mean SBP) to 6 months, comparing intervention and control arms using generalised estimating equations that account for patient clustering within clinicians. Secondary outcomes include hypertension management process measures (for example, initiation or intensification of ACEi/ARB or diuretics, ordering of basic metabolic panels), CKD quality-of-care processes (for example, annual urine albumin testing), adverse drug events, and hypotension. Additional RE-AIM outcomes include reach (number and types of clinicians and patients exposed to the CDS), adoption (patterns of BPA acceptance, rejection, and justification), implementation (fidelity, barriers, workarounds, unintended consequences), and maintenance (sustainability of CDS use and integration into workflow over time).\n\nSample size calculations assumed an expected clinically meaningful 3 mm Hg greater reduction in SBP in the intervention arm compared with usual care, an intra-cluster correlation coefficient of 0.1, and an average of six patients per clinician, yielding a requirement of approximately 497 evaluable patients per arm to achieve >80% power. Analyses will be primarily intent-to-intervene, with secondary analyses including multiple imputation for patients without follow-up visits, as-treated analyses based on actual clinician ordering behaviour, and clinician-level analyses. The trial received expedited ethical approval; patient-level informed consent was waived due to the pragmatic, clinician-level randomisation, and a Data Safety Monitoring Board oversees safety and potential harms such as hypotension and medication-related adverse events."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Kidney Disease",
+        "Hypertension",
+        "Uncontrolled Hypertension",
+        "Renal Insufficiency",
+        "Kidney Failure, Chronic"
+      ],
+      "keywords": [
+        "Chronic Kidney Disease",
+        "Hypertension",
+        "Uncontrolled Hypertension",
+        "Clinical Decision Support Systems",
+        "Electronic Health Records",
+        "Primary Health Care",
+        "ACE Inhibitors",
+        "Angiotensin Receptor Antagonists",
+        "Diuretics",
+        "Blood Pressure",
+        "Systolic Blood Pressure",
+        "Implementation Science",
+        "RE-AIM Framework",
+        "Behavioural Economics",
+        "User-Centered Design",
+        "Computable Phenotype",
+        "Best Practice Advisory",
+        "Epic Systems"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Pragmatic, multicentre, cluster-randomised controlled trial at the clinician level, with intervention vs usual care arms in parallel; outcomes measured at the patient level.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "No blinding; clinicians know their allocation (live vs silent clinical decision support), and outcomes are assessed using electronic health record data.",
+          "whoMasked": []
+        }
+      },
+      "enrollmentInfo": {
+        "count": 994,
+        "type": "ESTIMATED"
+      },
+      "targetDuration": null
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention Arm",
+          "type": "EXPERIMENTAL",
+          "description": "Primary care clinicians randomized to the intervention receive a multicomponent, clinician-level clinical decision support (CDS) package within the Epic electronic health record for patients with chronic kidney disease and uncontrolled hypertension. The intervention includes Epic Best Practice Advisories (BPAs) that fire at chart opening when computable phenotype rules are met, provide patient-specific data explaining why the alert fired, offer evidence-based medication and monitoring recommendations (e.g., start or titrate ACE inhibitor or ARB, add diuretic, order basic metabolic panel, urine albumin), require or invite accountable justification if recommendations are not followed, and include hyperlinks to supporting clinical guidelines. Clinicians also receive a precommitment email asking them to pledge to follow blood pressure management recommendations. The CDS typically fires at the initial enrollment visit, with optional deferral to the next visit, and is suppressed when blood pressure is controlled or recommended therapies are already in place.",
+          "interventionNames": [
+            "Behavioral Economics–Informed Clinical Decision Support for CKD and Uncontrolled Hypertension",
+            "Epic Best Practice Advisories for CKD and Uncontrolled Hypertension",
+            "Clinician Precommitment Pledge Email"
+          ]
+        },
+        {
+          "label": "Control Arm (Usual Care with Silent CDS)",
+          "type": "NO_INTERVENTION",
+          "description": "Primary care clinicians randomized to the control arm provide usual care for patients with chronic kidney disease and uncontrolled hypertension. The same computable phenotype rules are applied in the background to identify eligible patients in real time, but the Epic Best Practice Advisories (CDS alerts) run in 'silent mode' and are not displayed to clinicians. Clinicians do not receive the behavioral economics–informed decision support interface or the precommitment pledge email and manage hypertension and CKD according to their usual practice without visible CDS prompts.",
+          "interventionNames": []
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Behavioral Economics–Informed Clinical Decision Support for CKD and Uncontrolled Hypertension",
+          "description": "A multicomponent clinical decision support intervention implemented in the Epic electronic health record for management of uncontrolled hypertension in chronic kidney disease. It is based on behavioral economics (defaults, accountability, precommitment) and user-centred design. Using computable phenotypes, it identifies five patient types: (1) CKD with uncontrolled systolic blood pressure who are candidates to start an ACE inhibitor; (2) CKD with uncontrolled systolic blood pressure who are candidates to start an ARB; (3) CKD patients on an ACE inhibitor at a suboptimal dose; (4) CKD patients on an ARB at a suboptimal dose; and (5) CKD patients maximized on ACEi/ARB but not on a diuretic. For eligible encounters, a Best Practice Advisory appears at chart opening, displaying patient-specific data (labs, vitals, medications), explaining why the alert fired, suggesting evidence-based actions (e.g., start or uptitrate ACEi/ARB, add diuretic, order labs), and offering options to accept recommendations, defer to next visit, or document accountable justification when not following them. Hyperlinks to relevant hypertension and CKD guidelines are provided.",
+          "armGroupLabels": [
+            "Intervention Arm"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Epic Best Practice Advisories for CKD and Uncontrolled Hypertension",
+          "description": "A set of electronic alerts (Best Practice Advisories) in the Epic EHR that use predefined computable phenotypes to identify patients with chronic kidney disease and uncontrolled hypertension and to prompt clinicians with specific medication and monitoring recommendations. The advisories fire at the time of chart opening during a primary care visit, present tailored recommendations such as starting or titrating ACE inhibitors or ARBs, adding a diuretic when ACEi/ARB is maximized, and ordering relevant laboratory tests. The CDS typically fires once at the initial enrollment visit, with optional deferral to a subsequent visit, and is suppressed if hypertension becomes controlled, recommended medications are already prescribed, or new contraindications or allergies are recorded.",
+          "armGroupLabels": [
+            "Intervention Arm"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Clinician Precommitment Pledge Email",
+          "description": "An email sent to participating primary care clinicians in the intervention arm asking them to publicly or explicitly pledge to follow recommended blood pressure management guidelines for patients with chronic kidney disease and uncontrolled hypertension. The pledge is designed using behavioral economics principles of precommitment and accountability to increase adherence to CDS recommendations and to encourage clinicians to either follow the suggested actions or provide accountable justification when they choose alternative management.",
+          "armGroupLabels": [
+            "Intervention Arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in mean systolic blood pressure",
+          "description": "Change in mean systolic blood pressure between baseline and follow-up, compared across intervention and control arms.",
+          "timeFrame": "Baseline to 6 months (primary analysis at 180 days ±60 days)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Hypertension-specific process measures",
+          "description": "Process measures related to hypertension care, such as actions taken to manage uncontrolled blood pressure in chronic kidney disease patients.",
+          "timeFrame": "Up to 6 months after enrolment (assessed at 180 days ±60 days; reviewed monthly)"
+        },
+        {
+          "measure": "Chronic kidney disease quality of care process measures",
+          "description": "Process measures for quality of CKD care, including metrics such as performance of annual urine albumin tests and other CKD monitoring and treatment processes.",
+          "timeFrame": "Up to 6 months after enrolment (assessed at 180 days ±60 days; reviewed monthly)"
+        },
+        {
+          "measure": "Adverse drug events",
+          "description": "Occurrence of adverse drug events potentially related to changes in antihypertensive or CKD-related medications prompted by the intervention.",
+          "timeFrame": "Up to 6 months after enrolment (assessed at 180 days ±60 days; reviewed monthly)"
+        },
+        {
+          "measure": "Hypotension events",
+          "description": "Occurrence of hypotension episodes following blood pressure management interventions.",
+          "timeFrame": "Up to 6 months after enrolment (assessed at 180 days ±60 days; reviewed monthly)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Reach of the clinical decision support",
+          "description": "Extent of CDS use, including number and percentage of primary care clinicians and patients for whom the CKD CDS fires, and PCP interaction with the CDS (review, response to pledge email, signing of orders, or accountable justification documentation).",
+          "timeFrame": "Throughout the 12‑month enrolment period and up to 6 months of follow-up per patient (summarized monthly)"
+        },
+        {
+          "measure": "Adoption of the clinical decision support",
+          "description": "Percentage and types of settings and clinicians that embrace the CDS, patterns of BPA use (accepted, rejected, deferred), PCP follow-up actions, selected acknowledge reasons, and concordance between actions indicated in the BPA and actions documented in the chart.",
+          "timeFrame": "Throughout the 12‑month enrolment period and up to 6 months of follow-up per patient (summarized periodically)"
+        },
+        {
+          "measure": "Implementation outcomes of the clinical decision support",
+          "description": "Consistency of CDS use, barriers and enabling factors, workarounds, changes from preintervention to intervention periods, and unintended consequences to patient safety or workflows, as identified through BPA logs, contextual inquiry, interviews, and surveys.",
+          "timeFrame": "Pilot period prior to trial start and throughout the intervention period (qualitative and quantitative assessments over time)"
+        },
+        {
+          "measure": "Maintenance of the intervention and its effects",
+          "description": "Sustainability of CDS use and its effects over time, including longitudinal system performance, emerging workflow changes, long-term unintended consequences, and fit of the BPA within PCP workflow.",
+          "timeFrame": "Longitudinally during and after the active trial period (timing as captured in follow-up contextual inquiry sessions, interviews and surveys)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "- **Patient Inclusion Criteria:**\n  - Age over 18 years\n  - Has a visit with a primary care physician (PCP) at one of the intervention practices during the 2 years preceding the visit date\n  - Chronic kidney disease (CKD), defined as EITHER:\n    - Two prior estimated glomerular filtration rates (eGFRs) 16–59 mL/min/1.73 m² separated by 90 days (CKD-EPI), OR\n    - Two prior urine albumin-to-creatinine ratios (UACR) >30 mg/g separated by 90 days\n  - Uncontrolled hypertension (HTN), defined as:\n    - At least one systolic blood pressure (SBP) >140 mm Hg within the 2 years preceding the enrolment visit, AND\n    - SBP >140 mm Hg at the enrolment visit\n\n- **Patient Exclusion Criteria:**\n  - Most recent eGFR ≤20 mL/min/1.73 m², OR\n  - Two previous eGFRs within 2 years, separated by at least 90 days, ≤15 mL/min/1.73 m²\n\n- **Clinician Inclusion Criteria:**\n  - Primary care clinicians (physicians, physician assistants, nurse practitioners) in the Brigham and Women’s Primary Care Practice-Based Research Network (15 practices)\n  - Have a consistent panel of primary care patients\n\n- **Clinician Exclusion Criteria:**\n  - Clinicians who only see urgent care and walk-in patients\n  - Residents in training\n\n- **Additional Notes:**\n  - Network includes 220 PCPs; 184 were eligible, and the remainder were excluded based on the above clinician exclusion criteria.\n  - No PCPs opted out of the trial.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "",
+      "samplingMethod": ""
+    }
+  }
+}

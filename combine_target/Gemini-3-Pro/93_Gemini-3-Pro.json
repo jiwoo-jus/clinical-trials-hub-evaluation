@@ -1,0 +1,147 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02313272",
+      "orgStudyIdInfo": {
+        "id": "Pro00014674",
+        "type": "OTHER"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "00000971",
+          "type": "OTHER",
+          "domain": "IRB study #"
+        },
+        {
+          "id": "R21CA263911",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "U54CA143970",
+          "type": "NIH",
+          "domain": "Moffitt Physical Sciences Oncology Center"
+        },
+        {
+          "id": "190647",
+          "type": "OTHER_GRANT",
+          "domain": "Swiss National Science Foundation"
+        }
+      ],
+      "organization": {
+        "fullName": "Moffitt Cancer Center",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This study employs mathematical modeling based on data from a Phase 1 clinical trial (NCT02313272) to evaluate a novel intermittent radiation treatment (iRT) strategy for recurrent high-grade glioma. By comparing iRT against standard hypofractionated stereotactic radiotherapy (HFSRT), the study aims to determine if intermittent dosing can prolong time to tumor progression by managing evolutionary dynamics of treatment resistance.",
+      "detailedDescription": "Recurrent high-grade glioma (rHGG) patients often face poor prognoses with limited treatment options. This study utilizes a mathematical framework to simulate and compare treatment outcomes between standard Hypofractionated Stereotactic Radiotherapy (HFSRT) and a proposed intermittent Radiation Treatment (iRT) schedule. \n\nThe model was calibrated using tumor growth curves from 16 patients treated with HFSRT, bevacizumab, and pembrolizumab in the NCT02313272 trial. The study simulates iRT delivered every 6 weeks, with an optional boost upon progression, to assess if maintaining a sensitive tumor subpopulation can slow the expansion of resistant clones. The results analyze time to progression and the potential for personalized treatment adaptations, suggesting that iRT plus boost is equal or superior to HFSRT in the majority of simulated cases."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Recurrent High Grade Glioma",
+        "Glioblastoma"
+      ],
+      "keywords": [
+        "Hypofractionated stereotactic radiotherapy",
+        "Intermittent radiation treatment",
+        "Mathematical modeling",
+        "Bevacizumab",
+        "Pembrolizumab",
+        "Evolutionary dynamics",
+        "Tumor growth inhibition"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Hypofractionated stereotactic radiotherapy (HFSRT) combined with bevacizumab and pembrolizumab",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 16,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "HFSRT + Bevacizumab + Pembrolizumab",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with recurrent high-grade glioma treated with a combination of hypofractionated stereotactic radiotherapy (HFSRT), bevacizumab, and pembrolizumab.",
+          "interventionNames": [
+            "Radiation: HFSRT",
+            "Biological: Bevacizumab",
+            "Biological: Pembrolizumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "RADIATION",
+          "name": "HFSRT",
+          "description": "Hypofractionated stereotactic radiotherapy delivered as >= 6 Gy x 5 in five consecutive, daily fractions. Prescribed as 30–35 Gy to the planning target volume (PTV) with a simultaneously integrated boost to the gross tumor volume (GTV) of D95% = 30-40 Gy.",
+          "armGroupLabels": [
+            "HFSRT + Bevacizumab + Pembrolizumab"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Bevacizumab",
+          "description": "VEGF inhibitor administered at 10 mg/kg, intravenously delivered every 2 weeks.",
+          "armGroupLabels": [
+            "HFSRT + Bevacizumab + Pembrolizumab"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Pembrolizumab",
+          "description": "Anti PD1 antibody administered at 100 mg or 200 mg, intravenously applied every 3 weeks until progression.",
+          "armGroupLabels": [
+            "HFSRT + Bevacizumab + Pembrolizumab"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety (Adversarial side effects)",
+          "description": "Assessment of adversarial side effects for the protocol combining hypofractionated stereotactic radiotherapy (HFSRT) with bevacizumab and pembrolizumab.",
+          "timeFrame": "Not specified"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time to progression",
+          "description": "Radiographic progression defined as 25% or greater increase in the sum of the products of perpendicular diameters of the enhancing lesion in T1 post-contrast MRI compared with baseline or smallest tumor measurement (nadir), or significant increase in T2/FLAIR non-enhancing lesion, assessed per Response Assessment in Neuro-Oncology (RANO) criteria.",
+          "timeFrame": "Pre-treatment and approximately every 6 weeks (median 42 days)"
+        },
+        {
+          "measure": "Tumor volume",
+          "description": "Assessed using T1-weighted, contrast enhanced magnetic resonance imaging (T1 post). The region of hyperintensity was contoured as the Gross Tumor Volume (GTV).",
+          "timeFrame": "Pre-treatment and approximately every 6 weeks (median 42 days)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Patients with recurrent high-grade glioma (rHGG), such as glioblastoma.\n- Treated at the Moffitt Cancer Center, FL between August 2015 and March 2018 as part of a phase I clinical trial (NCT02313272).\n- Provided written consent.\n- Included in modeling analysis: Patients with tumor measurements beyond the time of progression (i.e. tumor regrowth).\n- Included in modeling analysis: Both bevacizumab naive and pretreated patients.\n\nExclusion Criteria:\n- Excluded from modeling analysis: Patients who left the trial due to reasons other than tumor progression.\n- Excluded from modeling analysis: Patients whose tumor regrowth was not quantified.",
+      "healthyVolunteers": false,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "Patients with recurrent high-grade glioma (rHGG) treated at the Moffitt Cancer Center, FL between August 2015 and March 2018 as part of a phase I clinical trial (NCT02313272).",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    }
+  }
+}

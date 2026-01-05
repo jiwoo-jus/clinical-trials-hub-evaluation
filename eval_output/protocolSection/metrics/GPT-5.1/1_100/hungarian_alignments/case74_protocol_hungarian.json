@@ -1,0 +1,237 @@
+{
+  "metadata": {
+    "case_id": 74,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T18:29:45.486386",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/74_NCT03959423.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/74_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Subjects 7-75 years of age",
+            "type": "EXPERIMENTAL",
+            "description": "Subjects who have been diagnosed with type 1 diabetes",
+            "interventionNames": [
+              "Device: AHCL insulin pump system"
+            ]
+          },
+          "pred_item": {
+            "label": "Advanced Hybrid Closed-Loop (AHCL) System",
+            "type": "EXPERIMENTAL",
+            "description": "Single-arm, open-label study in adolescents (14–21 years) and adults (22–75 years) with type 1 diabetes using the MiniMed advanced hybrid closed-loop (AHCL) insulin delivery system. All participants first completed a ~14-day run-in period using the study pump and CGM as a sensor-augmented pump (SAP) with or without predictive low glucose management (PLGM) or automated basal delivery (Auto Basal) only, without automated correction boluses. This was followed by a ~90-day study phase in which both automated basal insulin delivery (Auto Basal) and automated bolus correction (Auto Correction) were enabled. During the study phase, each participant used one glucose target (100 or 120 mg/dL) for approximately 45 days and then switched to the other target for approximately 45 days. Active insulin time (AIT) settings could be adjusted per protocol to explore optimization of glycemic control.",
+            "interventionNames": [
+              "MiniMed Advanced Hybrid Closed-Loop (AHCL) System"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "AHCL insulin pump system",
+            "description": "670G 4.0 system with GS3; 780G system with G4S (continued access phase);",
+            "armGroupLabels": [
+              "Subjects 7-75 years of age"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "MiniMed Advanced Hybrid Closed-Loop (AHCL) System",
+            "description": "An automated insulin delivery system comprising the MiniMed 670G insulin pump running the version 4.0 AHCL algorithm, integrated with the Guardian Sensor 3 continuous glucose monitor and Guardian Link 3 transmitter. The system provides automated basal insulin delivery (Auto Basal) and automated correction bolus insulin delivery (Auto Correction) every 5 minutes, including a meal detection module (DreaMed Diabetes technology) that can trigger more aggressive auto-correction boluses when appropriate. Users can select glucose targets of 100 or 120 mg/dL, with an optional temporary target of 150 mg/dL, and configure active insulin time (AIT). During the run-in period, the same hardware was used as a sensor-augmented pump with or without predictive low glucose management or Auto Basal only. During the study phase, both Auto Basal and Auto Correction were enabled for approximately 90 days.",
+            "armGroupLabels": [
+              "Advanced Hybrid Closed-Loop (AHCL) System"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.4,
+          0.98
+        ],
+        [
+          0.97,
+          0.48
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in HbA1c",
+            "description": "The overall mean difference of the change in HbA1c from baseline to end of 3-month Study Period.",
+            "timeFrame": "Baseline to End of 3-Month Study Period"
+          },
+          "pred_item": {
+            "measure": "Change in hemoglobin A1C",
+            "description": "Overall change in mean hemoglobin A1C from the end of the baseline run-in period to the end of the study phase while using the advanced hybrid closed-loop system.",
+            "timeFrame": "End of run-in period (~14 days) to end of study phase (~90 days)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Percentage of Euglycemia",
+            "description": "The overall mean change in % of time in euglycemia (70-180 mg/dL) from baseline to end of 3-month Study Period will be estimated.",
+            "timeFrame": "Baseline to End of 3-Month Study Period"
+          },
+          "pred_item": {
+            "measure": "Change in time in range (TIR, 70–180 mg/dL)",
+            "description": "Overall change in mean percentage of time sensor glucose is within 70–180 mg/dL (time in range, TIR) from the end of the baseline run-in period to the end of the study phase while using the advanced hybrid closed-loop system.",
+            "timeFrame": "End of run-in period (~14 days) to end of study phase (~90 days)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 13,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.15,
+          0.25,
+          0.6,
+          0.25,
+          0.18,
+          0.08,
+          0.2,
+          0.32,
+          0.18,
+          0.4,
+          0.1,
+          0.62
+        ],
+        [
+          0.12,
+          0.18,
+          0.08,
+          0.1,
+          0.18,
+          0.18,
+          0.1,
+          0.1,
+          0.18,
+          0.15,
+          0.18,
+          0.25,
+          0.2
+        ],
+        [
+          0.98,
+          0.4,
+          0.55,
+          0.92,
+          0.7,
+          0.2,
+          0.1,
+          0.3,
+          0.68,
+          0.4,
+          0.78,
+          0.35,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Severe Hypoglycemic Event",
+            "description": "Number of severe hypoglycemic events occurred during 3-month Study Period",
+            "timeFrame": "3-month Study Period"
+          },
+          "pred_item": {
+            "measure": "Change in time below range (TBR, <70 mg/dL)",
+            "description": "Change in the mean percentage of time sensor glucose is below 70 mg/dL (time below range, TBR) comparing baseline run-in period with the study phase.",
+            "timeFrame": "End of run-in period (~14 days) to end of study phase (~90 days)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 11,
+          "score": 0.25,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Diabetic Ketoacidosis (DKA) Event",
+            "description": "Number of Diabetic Ketoacidosis (DKA) event occurred during 3-month Study Period",
+            "timeFrame": "3-month Study Period"
+          },
+          "pred_item": {
+            "measure": "Proportion of participants achieving A1C <7.0%",
+            "description": "Change in the proportion of participants whose A1C is <7.0%, comparing baseline to end of study, overall and by glucose target setting.",
+            "timeFrame": "Baseline (screening/end of run-in) and end of study phase (~90 days)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 3,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Percent of Time in Hypoglycemic Range (<70 mg/dL)",
+            "description": "The overall mean change in % of time in hypoglycemic range (\\<70 mg/dL) from baseline to end of 3-month Study Period will be estimated.",
+            "timeFrame": "Baseline to End of 3-Month Study Period"
+          },
+          "pred_item": {
+            "measure": "Change in time at hypoglycemic ranges (<50, <54, and <70 mg/dL)",
+            "description": "Change in the percentage of time sensor glucose is spent at predefined hypoglycemic ranges (<50 mg/dL, <54 mg/dL, and <70 mg/dL) between the run-in period and the study phase.",
+            "timeFrame": "End of run-in period (~14 days) to end of study phase (~90 days)"
+          }
+        }
+      ]
+    }
+  ]
+}

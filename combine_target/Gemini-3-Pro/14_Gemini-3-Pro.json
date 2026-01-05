@@ -1,0 +1,151 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04973488",
+      "secondaryIdInfos": [
+        {
+          "id": "91/03.08.2020",
+          "type": "OTHER",
+          "domain": "Ethics Committee of ‘Pius Brinzeu’ Emergency Clinical County Hospital Timisoara"
+        }
+      ],
+      "organization": {
+        "fullName": "‘Pius Brinzeu’ Emergency Clinical County Hospital Timisoara",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "Therapeutic plasma exchange (TPE) has been proposed as a rescue therapy in critically ill COVID-19 patients. The aim of the present study was to determine whether combining TPE with convalescent plasma (CVP) transfusion early in the intensive care unit (ICU) stay improves survival among this heterogeneous population. The primary endpoint was survival at 30 days. Secondary endpoints included assessing the evolution of biomarkers, such as the partial pressure of arterial oxygen to fractional inspired oxygen ratio, and C reactive protein (CRP), lactate dehydrogenase (LDH) and ferritin levels at the 7-day follow-up.",
+      "detailedDescription": "This single centre, prospective, non-randomized controlled trial was conducted in an 8-bed COVID-19 ICU and included patients with severe COVID-19 pneumonia requiring intensive care treatment. A total of 38 Caucasian patients were included in the study, admitted between August 8, 2020, and January 9, 2021. All patients were adults (>18 years) presenting with acute respiratory failure and ARDS, with positive RT-PCR test results for SARS-CoV-2.\n\nPatients were divided equally into two groups: a treatment group administered sequential TPE and CVP transfusion in addition to standard treatment, and a control group administered only standard treatment according to hospital protocols. In the treatment group, TPE was initiated during the first 24 hours after ICU admission using an Infomed HF 440 machine with a plasma/blood separation ratio of 20% and 40 ml/kg fresh frozen plasma as the substitute. This was followed immediately by transfusion of 500 ml of ABO compatible CVP. Standard treatment for both groups consisted of corticosteroids (dexamethasone), antiretrovirals (lopinavir/ritonavir, remdesivir), anticoagulants (nadroparine), and antibiotics if deemed necessary.\n\nOutcomes monitored were survival at 30 days, oxygenation (P/F ratio), and inflammatory markers (CRP, LDH, and ferritin) at the 7-day follow-up."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19",
+        "Severe COVID-19 Pneumonia",
+        "Acute Respiratory Distress Syndrome (ARDS)",
+        "Critical Illness"
+      ],
+      "keywords": [
+        "Therapeutic plasma exchange",
+        "Convalescent plasma",
+        "SARS-CoV-2",
+        "Intensive Care Unit",
+        "Cytokine storm",
+        "Rescue therapy",
+        "Inflammation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Patients enrolled in the study were divided equally, non-randomized, into two groups as follows: A treatment group administered sequential TPE and CVP transfusion in addition to the standard treatment for COVID-19, and a control group administered only standard treatment for COVID-19.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 38,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment Group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients administered sequential therapeutic plasma exchange (TPE) and convalescent plasma (CVP) transfusion in addition to the standard treatment for COVID-19.",
+          "interventionNames": [
+            "Procedure: Therapeutic Plasma Exchange (TPE)",
+            "Biological: Convalescent Plasma (CVP)",
+            "Drug: Standard Treatment"
+          ]
+        },
+        {
+          "label": "Control Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients administered only standard treatment for COVID-19 according to hospital protocols.",
+          "interventionNames": [
+            "Drug: Standard Treatment"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Therapeutic Plasma Exchange (TPE)",
+          "description": "A single TPE session performed on the Infomed HF 440 machine, with a plasma/blood separation ratio of 20%, using 40 ml/kg fresh frozen plasma as the substitute. Initiated during the first 24 h after ICU admission.",
+          "armGroupLabels": [
+            "Treatment Group"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Convalescent Plasma (CVP)",
+          "description": "Transfusion of 500 ml of ABO compatible CVP immediately following the TPE session.",
+          "armGroupLabels": [
+            "Treatment Group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Standard Treatment",
+          "description": "Standard treatment according to hospital protocols consisting of corticosteroids (16 mg dexamethasone daily), antiretrovirals (lopinavir/ritonavir 300 mg b.i.d. and remdesivir), antimalarials (hydroxychloroquine), and anticoagulants (nadroparine). Antibiotics (piperacilin/tazobactam) were administered if deemed necessary.",
+          "armGroupLabels": [
+            "Treatment Group",
+            "Control Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Survival",
+          "description": "Survival rate of patients in the treatment and control groups.",
+          "timeFrame": "30 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Partial pressure of arterial oxygen to fractional inspired oxygen (P/F) ratio",
+          "description": "Assessment of the evolution of oxygenation.",
+          "timeFrame": "7-day follow-up"
+        },
+        {
+          "measure": "C reactive protein (CRP) levels",
+          "description": "Assessment of the evolution of inflammatory biomarkers.",
+          "timeFrame": "7-day follow-up"
+        },
+        {
+          "measure": "Lactate dehydrogenase (LDH) levels",
+          "description": "Assessment of the evolution of inflammatory biomarkers.",
+          "timeFrame": "7-day follow-up"
+        },
+        {
+          "measure": "Ferritin levels",
+          "description": "Assessment of the evolution of inflammatory biomarkers.",
+          "timeFrame": "7-day follow-up"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Adults (>18 years)\n* Presented with acute respiratory failure and ARDS\n* Positive reverse transcriptase-polymerase chain reaction (RT-PCR) test results for SARS-CoV-2 virus upon hospital admission\n* ARDS defined as acute-onset hypoxemia (P/F ratio <300) with >50% bilateral pulmonary opacities on chest imaging within 24-48 h that were not fully explained by congestive heart failure and that required ICU treatment and monitoring\n\nExclusion Criteria:\n* Pregnancy\n* Patients with suspected or confirmed pulmonary embolisms\n* Patients with terminal disease",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

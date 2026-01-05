@@ -1,0 +1,149 @@
+{
+  "metadata": {
+    "case_id": 95,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T19:36:05.897409",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/95_NCT03931174.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/95_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.55
+        ],
+        [
+          0.7,
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Addiction Technology Transfer Center (ATTC) Training",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Half of the opioid treatment centers will receive the ATTC training strategy.",
+            "interventionNames": [
+              "Behavioral: Addiction Technology Transfer Center (ATTC) Training Strategy"
+            ]
+          },
+          "pred_item": {
+            "label": "ATTC Strategy (Control)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Opioid treatment programs receive the standard Addiction Technology Transfer Center (ATTC) implementation strategy consisting of three core components: (1) didactic training workshop on contingency management with training-to-criterion approach, (2) performance feedback using the CM Competence Scale on practice cases and monthly audio recordings, and (3) ongoing consultation via email support for prize selection and monthly virtual consultation meetings. Support is provided during a 5-month Preparation phase and 9-month Implementation phase, followed by a 6-month Sustainment phase with access to materials only.",
+            "interventionNames": [
+              "BEHAVIORAL: ATTC Implementation Strategy",
+              "BEHAVIORAL: Prize-based Contingency Management"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Enhanced ATTC (E-ATTC) Training Strategy",
+            "type": "EXPERIMENTAL",
+            "description": "Half of the opioid treatment centers will receive the E-ATTC training strategy.",
+            "interventionNames": [
+              "Behavioral: Enhanced Addiction Technology Transfer Center (E-ATTC) Training Strategy"
+            ]
+          },
+          "pred_item": {
+            "label": "Enhanced-ATTC Strategy (Experimental)",
+            "type": "EXPERIMENTAL",
+            "description": "Opioid treatment programs receive all components of the standard ATTC strategy plus two additional theory-driven elements: (1) Pay-for-Performance: counselors earn monetary bonuses ($200 per patient receiving 10+ CM sessions; $50 per month for achieving CM Competence Scale score ≥5.8) to increase extrinsic motivation, and (2) Implementation & Sustainment Facilitation: monthly 30-60 minute meetings with trained external facilitators using motivational interviewing principles to engage staff, focus on outcomes, evoke pros/cons of CM implementation, and plan for sustainment including financial support strategies to increase intrinsic motivation.",
+            "interventionNames": [
+              "BEHAVIORAL: Enhanced-ATTC Implementation Strategy",
+              "BEHAVIORAL: Prize-based Contingency Management"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.78,
+          0.25
+        ],
+        [
+          0.88,
+          0.96,
+          0.35
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Addiction Technology Transfer Center (ATTC) Training Strategy",
+            "description": "Participating organizations will receive training consisting of 3 components: 1) didactic workshop - full-day workshop led by a contingency management (CM) expert for both CM staff and leaders, 2) performance feedback - submission of CM session recordings for review and performance feedback at least monthly for 9 months for CM staff, and 3) staff coaching - monthly provider coaching calls led by a CM expert for 9 months for both CM staff and leaders.",
+            "armGroupLabels": [
+              "Addiction Technology Transfer Center (ATTC) Training"
+            ],
+            "otherNames": [
+              "ATTC"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "ATTC Implementation Strategy",
+            "description": "Multi-component implementation strategy including: (1) 7-hour didactic training workshop (or 4-hour virtual alternative) on CM principles with role-plays and knowledge testing (75% passing criterion); (2) Performance feedback on practice CM sessions using CM Competence Scale (adequate fidelity = 4.0/7.0 average score) with monthly audio recording submissions; (3) Ongoing consultation via email for operational support and monthly virtual consultation meetings; (4) Access to CM resources via centralized website including training videos, case vignettes, materials in English/Spanish, and weekly CM newsletter; (5) Use of CM Tracker web-based tool for weekly reporting and dashboard monitoring of CM delivery and fidelity.",
+            "armGroupLabels": [
+              "ATTC Strategy (Control)",
+              "Enhanced-ATTC Strategy (Experimental)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Enhanced Addiction Technology Transfer Center (E-ATTC) Training Strategy",
+            "description": "Participating organizations will receive all of the elements of the ATTC control condition. In addition, organizations will receive two additional elements: 1) Implementation Sustainment Facilitation - monthly coaching calls for CM leaders and staff focused on sustainment, 2) Pay for Performance - participating CM staff will have the opportunity to earn monthly monetary bonuses for achieving pre-defined implementation goals for 9 months.",
+            "armGroupLabels": [
+              "Enhanced ATTC (E-ATTC) Training Strategy"
+            ],
+            "otherNames": [
+              "E-ATTC"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Enhanced-ATTC Implementation Strategy",
+            "description": "All components of ATTC strategy plus: (1) Pay-for-Performance: counselors earn $200 per patient completing 10+ CM sessions within 14 weeks and $50 per month for achieving average CM Competence Scale score ≥5.8, paid via check within 30 days; (2) Implementation & Sustainment Facilitation: monthly 30-60 minute virtual meetings with external facilitator beginning month 3 of Preparation phase through Implementation phase, using motivational interviewing principles (engage, focus, evoke, plan) with structured exercises (decisional balance, past implementation efforts, performance review, implementation climate evaluation) and 2-hour CM process walkthrough meeting, focused on maximizing implementation and planning for financial sustainment.",
+            "armGroupLabels": [
+              "Enhanced-ATTC Strategy (Experimental)"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,161 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04588480",
+      "organization": {
+        "fullName": "BioNTech",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Safety and Immunogenicity of BNT162b2 in Healthy Japanese Adults",
+      "officialTitle": "Randomized, Placebo-Controlled, Observer-Blind Phase 1/2 Study to Assess BNT162b2 Safety and Immunogenicity in Healthy Japanese Adults"
+    },
+    "descriptionModule": {
+      "briefSummary": "This report presents the interim safety and immunogenicity findings from an ongoing phase 1/2 study of the BNT162b2 vaccine in healthy Japanese adults. The study involves 160 participants randomized to receive either the vaccine or a placebo. The findings indicate that the vaccine is safe and produces a robust immune response in the Japanese population.",
+      "detailedDescription": "This is a randomized, placebo-controlled, observer-blind phase 1/2 study assessing the safety and immunogenicity of BNT162b2 in healthy Japanese adults aged 20–85 years. Participants were randomized 3:1 to receive two intramuscular injections of 30 μg BNT162b2 or placebo, administered 21 days apart. The study population included 160 individuals: 119 received the vaccine and 41 received the placebo. Participants were stratified into two age groups: 20–64 years and 65–85 years. The primary safety objectives focused on local reactions, systemic events, and adverse events. The primary immunogenicity objectives measured SARS-CoV-2 50% neutralizing geometric mean titers (GMTs) and geometric mean fold rises (GMFRs) one month after the second dose. The results show acceptable safety profiles with generally mild to moderate reactions and robust antibody induction regardless of age."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19",
+        "SARS-CoV-2 Infection"
+      ],
+      "keywords": [
+        "BNT162b2",
+        "Vaccine",
+        "Safety",
+        "Immunogenicity",
+        "Japanese adults",
+        "Phase 1/2 study"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants were randomized 3:1 to receive 2 intramuscular injections of 30 μg BNT162b2 or placebo 21 days apart.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "Participants, investigators and other study staff were blinded; staff who dispensed/administered study medication were unblinded.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "CARE_PROVIDER"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 160,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "BNT162b2",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received 2 doses of 30 μg BNT162b2 administered 21 days apart.",
+          "interventionNames": [
+            "Biological: BNT162b2"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received 2 doses of placebo (saline) administered 21 days apart.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "BNT162b2",
+          "description": "Lipid nanoparticle formulation that contains nucleoside-modified messenger RNA that encodes the conformationally stabilized full-length SARS-CoV-2 viral spike glycoprotein. Administered as 2 intramuscular injections of 30 μg, 21 days apart.",
+          "armGroupLabels": [
+            "BNT162b2"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Saline solution administered as 2 intramuscular injections, 21 days apart.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and Tolerability: Reactogenicity (Local reactions)",
+          "description": "Occurrence of local reactions (e.g., pain at injection site, redness, swelling) collected by electronic diary.",
+          "timeFrame": "Within 7 days after each dose"
+        },
+        {
+          "measure": "Safety and Tolerability: Reactogenicity (Systemic events)",
+          "description": "Occurrence of systemic events (e.g., fever, fatigue, headache, chills, vomiting, diarrhea, new or worsened muscle or joint pain) collected by electronic diary.",
+          "timeFrame": "Within 7 days after each dose"
+        },
+        {
+          "measure": "Safety and Tolerability: Adverse Events (AEs)",
+          "description": "Incidence of adverse events reported by participants without e-diary prompting.",
+          "timeFrame": "From dose 1 through 1 month after dose 2"
+        },
+        {
+          "measure": "Safety and Tolerability: Serious Adverse Events (SAEs)",
+          "description": "Incidence of serious adverse events.",
+          "timeFrame": "From dose 1 through 1 month after dose 2 (collected up to 12 months, but reported to 1 month in this interim analysis)"
+        },
+        {
+          "measure": "Safety and Tolerability: Clinical Laboratory Abnormalities",
+          "description": "Assessment of hematology and clinical chemistry laboratory parameters (evaluated in the clinical laboratory subset of the first 24 participants).",
+          "timeFrame": "Up to 7 days after dose 2"
+        },
+        {
+          "measure": "Immunogenicity: SARS-CoV-2 neutralization Geometric Mean Titers (GMTs)",
+          "description": "Geometric mean titers of SARS-CoV-2 50% neutralization.",
+          "timeFrame": "1 month after dose 2"
+        },
+        {
+          "measure": "Immunogenicity: SARS-CoV-2 neutralization Geometric Mean Fold Rises (GMFRs)",
+          "description": "Geometric mean fold rises of neutralizing titers from baseline.",
+          "timeFrame": "1 month after dose 2"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Immunogenicity: SARS-CoV-2 neutralization GMTs (Interim timepoints)",
+          "description": "Geometric mean titers of SARS-CoV-2 50% neutralization.",
+          "timeFrame": "7 and 14 days after dose 2"
+        },
+        {
+          "measure": "Immunogenicity: SARS-CoV-2 neutralization GMFRs (Interim timepoints)",
+          "description": "Geometric mean fold rises of neutralizing titers from before vaccination.",
+          "timeFrame": "7 and 14 days after dose 2"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Healthy Japanese adults 20–85 years of age, including those with stable preexisting disease.\n\nExclusion Criteria:\n- Known infection with hepatitis B virus or hepatitis C virus, or HIV.\n- History of severe allergic reactions associated with vaccination.\n- Previous confirmed COVID-19.\n- Diagnosis of an immunocompromising or immunodeficiency disorder.\n- Pregnant or breastfeeding.\n- Receipt of medicines intended to prevent COVID-19.\n- Previous vaccination with any coronavirus vaccine.\n- Treatment with immunosuppressive therapy.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "20 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

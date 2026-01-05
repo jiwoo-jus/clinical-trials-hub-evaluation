@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "case_id": 90,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T19:27:18.988839",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/90_NCT04560075.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/90_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.8,
+          0.4
+        ],
+        [
+          0.6,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.8,
+          "status": "matched",
+          "ref_item": {
+            "label": "Text2Connect",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receiving Text2Connect (T2C) personalized messages will receive a monthly check-in text prompt. Based on their response, the participants then receive either general psychoeducational videos and prompts to continue to monitor mental health or are then prompted to endorse stressors and symptoms they are experiencing to prompt awareness of treatment targets in daily life.",
+            "interventionNames": [
+              "Behavioral: Text2Connect"
+            ]
+          },
+          "pred_item": {
+            "label": "Mobile Support Tool for Mental Health (MoST-MH)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants randomized to MoST-MH received periodic text message mental health check-ins asking 'How would you rate your emotional health this past week?' If mental health was rated as suboptimal (fair or poor), participants received a web-based check-in link to assess stressors, negative effects, and self-efficacy. Based on responses, participants received tailored self-care support messages from a skills library, positive feedback, and links to a library of psychoeducational videos about mental health self-care during college. The frequency of check-ins adapted based on need, ranging from weekly (for those with poor mental health and low self-efficacy) to monthly (for those with good mental health or high self-efficacy). The intervention was fully automated and delivered over 3 months.",
+            "interventionNames": [
+              "BEHAVIORAL: Mobile Support Tool for Mental Health (MoST-MH)",
+              "BEHAVIORAL: Psychoeducational Videos"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Psychoeducational Videos (PE) Only",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants will receive a web link to a library of 4 PE videos. These brief 2-minute videos include general information about self-care during college.",
+            "interventionNames": [
+              "Behavioral: Psychoeducational Videos (PE) Only"
+            ]
+          },
+          "pred_item": {
+            "label": "Enhanced Usual Care (eUC)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants randomized to enhanced usual care (eUC) received a web link to a library of psychoeducational videos about mental health self-care during college. This was the same video library provided to the MoST-MH group. eUC participants did not receive any text message or web-based mental health check-ins, tailored support messages, or adaptive interactions.",
+            "interventionNames": [
+              "BEHAVIORAL: Psychoeducational Videos"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.78
+        ],
+        [
+          0.4,
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Text2Connect",
+            "description": "The T2C intervention aims to increase mental health self-efficacy though psychoeducation, self-monitoring of symptoms and stressors, and cues to action for college-bound youth.",
+            "armGroupLabels": [
+              "Text2Connect"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Mobile Support Tool for Mental Health (MoST-MH)",
+            "description": "An automated digital intervention that provides periodic text message and web-based mental health check-ins. Text messages assess emotional health; if rated as fair or poor, a web-based check-in is triggered to collect information on stressors, negative effects, and self-efficacy. Based on responses, tailored self-care support messages incorporating evidence-based strategies from positive psychology, cognitive behavioral therapy, and dialectical behavioral therapy are delivered. The intervention adapts frequency of check-ins (weekly to monthly) based on the participant's needs and risk level. Participants reporting poor mental health and low self-efficacy for 2 consecutive weeks are prompted to seek formal mental health care.",
+            "armGroupLabels": [
+              "Mobile Support Tool for Mental Health (MoST-MH)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Psychoeducational Videos (PE) Only",
+            "description": "Participants in this group will receive psychoeducation through the PE video library.",
+            "armGroupLabels": [
+              "Psychoeducational Videos (PE) Only"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Psychoeducational Videos",
+            "description": "A library of brief (approximately 2-minute) psychoeducational videos created by the study team about mental health self-care during college. Participants in both treatment arms received access to these videos via web links.",
+            "armGroupLabels": [
+              "Mobile Support Tool for Mental Health (MoST-MH)",
+              "Enhanced Usual Care (eUC)"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

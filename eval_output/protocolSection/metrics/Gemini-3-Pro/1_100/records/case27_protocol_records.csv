@@ -1,0 +1,87 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT03052517,NCT03052517,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,FP,Study of Safety of QAW039 in Patients With Asthma Inadequately Controlled on Standard-of-care Asthma Treatment,The SPIRIT study,False,0.38,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,"A 2-treatment Period, Randomized, Placebo-controlled, Multicenter Parallel-group Study to Assess the Safety of QAW039 When Added to Existing Asthma Therapy in GINA Steps 3, 4 and 5 Patients With Uncontrolled Asthma.",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.acronym,EV,EV,,SPIRIT,,,,Acronym,protocolSection.identificationModule.acronym,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"This study was a 2-treatment period, randomized, multicenter parallel-group study. The overall purpose of this study was to provide long- term safety data for fevipiprant (QAW039) (Dose 1 and Dose 2), compared with placebo, when added to the Global Initiative for Asthma (GINA) steps 3, 4, and 5 standard-of-care (SoC) asthma therapy (GINA 2016), in patients with moderate-to- severe asthma.
+
+The purpose of this study was to provide long-term safety data for QAW039 150 mg once daily and 450 mg once daily, compared with placebo, when added to GINA steps 3, 4, and 5 standard-of-care asthma therapy (GINA 2020) in adult and adolescent (≥12 years) patients with moderate-to-severe asthma. The study included 2 cohorts of patients:
+
+1. Rollover patients who had completed any of the four Phase 3 pivotal efficacy studies with QAW039 (QAW039A2307, QAW039A2314, QAW039A2316, or QAW039A2317, hereafter referred to as Studies A2307, A2314, A2316, and A2317), thus providing data for a longer duration of exposure, and
+2. New patients who had not previously participated in a study of QAW039, permitting an increase in the number of patients with long-term exposure to QAW039.
+
+By including these 2 categories of patients, the total number of patients treated with QAW039 as well as the duration of exposure to QAW039 treatment was substantially increased, supporting evaluation of the safety profile of QAW039.","The SPIRIT study was a Phase 3, randomized, placebo-controlled clinical trial designed to assess the long-term safety of fevipiprant (150 mg and 450 mg once daily) when added to standard of care in patients aged 12 years and older with uncontrolled moderate-to-severe asthma. The study consisted of a 52-week double-blind period followed by an optional 104-week single-blind period. While the primary objective was to monitor adverse events and serious adverse events, exploratory analyses evaluated the drug's efficacy regarding asthma exacerbation rates and lung function. The study included both newly enrolled patients and those rolling over from previous fevipiprant trials (LUSTER and ZEAL). The trial was terminated early by the sponsor due to a lack of sufficient efficacy observed in the broader Phase 3 clinical program.",True,0.97,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"The study comprised 2-treatment period. Treatment Period 1 was a 52-week, double-blind treatment period in which QAW039 450 mg or 150 mg or placebo was added to standard-of-care asthma therapy according to GINA guidelines. Treatment Period 2 was an optional 104-week, single-blind treatment period in which patients received QAW039 450 mg or 150 mg or placebo added to standard-of-care asthma therapy according to GINA guidelines.","SPIRIT (NCT03052517) was a multicentre, parallel-group, 2-treatment period Phase 3 study. Treatment Period 1 was a 52-week, double-blind study, and Treatment Period 2 was an optional 104-week, single-blind study. The study aimed to evaluate the long-term safety of the oral prostaglandin D2 receptor 2 (DP2 receptor) antagonist fevipiprant in patients with uncontrolled asthma receiving treatment according to Global Initiative for Asthma (GINA) steps 3, 4, or 5.
+
+Patients were randomised in a 3:3:1 ratio to receive fevipiprant 150 mg, fevipiprant 450 mg, or placebo once daily. The study population included two cohorts: rollover patients who had completed a prior Phase 3 fevipiprant efficacy study (LUSTER-1, LUSTER-2, ZEAL-1, or ZEAL-2) and new patients who had not previously participated in a fevipiprant study. 
+
+The primary endpoints focused on safety, specifically the time-to-first treatment-emergent adverse event (AE), serious AE (SAE), and AE leading to study treatment discontinuation. Exploratory efficacy analyses assessed the rate of moderate-to-severe asthma exacerbations and the average change from baseline in pre-dose forced expiratory volume in one second (FEV1). Data from both treatment periods were combined for analyses due to the study's early termination on December 16, 2019.",True,0.86,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['Asthma'],"['Asthma', 'Uncontrolled Asthma', 'Moderate-to-severe Asthma']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['Asthma', 'QAW039', 'allergic asthma', 'allergy triggered asthma', 'reactive asthma', 'asthma attack', 'difficulty breathing']","['Fevipiprant', 'DP2 receptor antagonist', 'Prostaglandin D2', 'Long-term safety', 'Airway inflammation', 'Lung function']",False,0.0,disjoint,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE3'],['PHASE3'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"SPIRIT was a two-treatment period study: the first period was a 52-week, double-blind study followed by an optional 104-week, single-blind second period.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,DOUBLE,DOUBLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"The first period was a 52-week, double-blind study followed by an optional 104-week, single-blind second period.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,FN,FN,"['PARTICIPANT', 'INVESTIGATOR']",,False,0.0,,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,2538,2538,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Rate of moderate-to-severe asthma exacerbations,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].measure,EV,EV,,Average change from baseline in pre-dose FEV1,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,"Exploratory efficacy analysis. Moderate exacerbation: treatment with 'rescue' systemic corticosteroids for ≥ 3 days (outpatient or ER ≤ 24 h). Severe exacerbation: treatment with 'rescue' systemic corticosteroids for ≥ 3 days and hospitalization or ER > 24 h, or death due to asthma.",,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].description,EV,EV,,Exploratory efficacy analysis assessing the change in pre-dose forced expiratory volume in one second (FEV1).,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,Up to 52 weeks and optional 104 weeks,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].timeFrame,EV,EV,,Baseline and Week 52,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+Patients completing a prior Phase 3 study of QAW039:
+
+* Informed consent and assent (if applicable).
+* Completion of the Treatment Period (on blinded study drug) of a prior Phase 3 study of QAW039.
+* Patient is able to safely continue into the study as judged by the investigator.
+
+Patients who have not previously participated in a study of QAW039:
+
+* Written informed consent.
+* A diagnosis of asthma,uncontrolled on GINA 3/4/5 asthma medication.
+* Evidence of airway reversibility or airway hyper- reactivity.
+* FEV1 of ≤85% of the predicted normal value.
+* An ACQ score ≥1.5 prior to entering the study.
+
+Exclusion Criteria:
+
+Patients completing a prior phase 3 study of QAW039:
+
+* Pregnant or nursing (lactating) women.
+* Women of child-bearing potential unless they are using basic methods of contraception during dosing of study drug
+* Patients who did not complete the Treatment Period on blinded study drug of the prior QAW039 study they participated in.
+* Inability to comply with all study requirements.
+* Patient who experienced a serious and drug-related AE in the prior QAW039 study they participated in.
+
+Patients who have not previously participated in a study of QAW039:
+
+* Use of other investigational drugs within 5 half-lives of study entry, or within 30 days, whichever is longer.
+* Subjects who have participated in another trial of QAW039 (i.e.-the patient was randomized in another study).
+* A QTcF (Fridericia) ≥450 msec (male) or ≥460 msec (female).
+* History of malignancy with the exception of local basal cell carcinoma of the skin
+* Pregnant or nursing (lactating) women.
+* Serious co-morbidities.
+* Patients on greater than 20 mg of simvastatin\> 40 mg of atorvastatin, \>40 mg of pravastatin, or \>2 mg of pitavastatin. Statin doses less than or equal to these doses as well as other statins will be permitted during the study.","Inclusion Criteria:
+- Male or female patients ≥ 12 years of age.
+- Diagnosis of moderate-to-severe asthma (GINA steps 3, 4, and 5) receiving asthma treatment according to GINA guidelines.
+- Two cohorts included: Rollover patients who had completed any of the four Phase 3 pivotal fevipiprant efficacy studies on active study treatment (LUSTER-1, LUSTER-2, ZEAL-1 or ZEAL-2) and new patients who had not previously participated in a fevipiprant study.
+- For new patients: Inadequately controlled asthma on treatment at GINA steps 4 and 5 for at least 3 months prior to screening.
+- For new patients: ACQ score ≥ 1.5 at inclusion.
+- For new patients: % predicted FEV1 ≤ 85% for patients aged ≥ 18 years, and ≤ 90% for patients aged 12 to < 18 years.
+
+Exclusion Criteria:
+- Rollover patients: Excluded if they did not complete the prior study on blinded therapy or had a serious and drug-related adverse event (AE) during the prior study.
+- New patients: Excluded if they had an asthma exacerbation requiring systemic corticosteroids, hospitalisation, or an emergency room visit within six weeks.
+- New patients: Excluded if they had a respiratory tract infection or asthma worsening within four weeks of the first visit.",True,0.9,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,12 Years,12 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['CHILD', 'ADULT', 'OLDER_ADULT']","['CHILD', 'ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

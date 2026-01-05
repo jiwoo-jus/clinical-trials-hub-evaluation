@@ -1,0 +1,155 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00977431",
+      "orgStudyIdInfo": {
+        "id": "1200.38"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2008-007284-17",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Boehringer Ingelheim",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Open Label Trial to Explore Safety of Combining Afatinib (BIBW 2992) and Radiotherapy With or Without Temozolomide in Newly Diagnosed Glioblastoma Multiform",
+      "officialTitle": "Phase I, Open Label Trial to Explore Safety of Combining BIBW 2992 and Radiotherapy With or Without Temozolomide in Newly Diagnosed GBM"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a phase I, open label trial to determine the Maximum Tolerated Dose (MTD), safety, pharmacokinetics, and efficacy of BIBW 2992 (an epidermal growth factor receptor(EGFR)inhibitor) to be used in combination with:\n\n* radiotherapy alone (in patients with an unmethylated (functioning) MGMT gene regulator) or\n* radiotherapy and Temozolomide (in patients with a methylated (silenced) O6-methylguanine-DNA methyltransferase gene (MGMT) to treat newly diagnosed patients with Grade IV Glioblastoma (primary brain cancer)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Glioblastoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 36,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Regimen U",
+          "type": "EXPERIMENTAL",
+          "description": "BIBW2992 + Radiotherapy",
+          "interventionNames": [
+            "Procedure: Radiotherapy",
+            "Drug: BIBW2992"
+          ]
+        },
+        {
+          "label": "Regimen M",
+          "type": "EXPERIMENTAL",
+          "description": "BIBW2992 + Temozolomide + Radiotherapy",
+          "interventionNames": [
+            "Drug: Temozolomide",
+            "Drug: BIBW2992",
+            "Procedure: Radiotherapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Temozolomide",
+          "description": "During RT: 75 mg/m2 daily , 4 weeks after RT: given days 1 to 5 of 28 day cycles (150 mg/m2 in cycle 1, 200 mg/m2 in cycle 2 up to cycle 6)",
+          "armGroupLabels": [
+            "Regimen M"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Radiotherapy",
+          "description": "Day 1 to day 42",
+          "armGroupLabels": [
+            "Regimen U"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "BIBW2992",
+          "description": "Escalating dose cohorts during Radiotherapy(RT) period, fixed dose after RT",
+          "armGroupLabels": [
+            "Regimen M"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Radiotherapy",
+          "description": "Day 1 to day 42",
+          "armGroupLabels": [
+            "Regimen M"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "BIBW2992",
+          "description": "Escalating dose cohorts during Radiotherapy(RT) period , fixed dose after RT",
+          "armGroupLabels": [
+            "Regimen U"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Patients With Investigator Defined Dose Limiting Toxicities (DLT) During the RT Phase",
+          "description": "Adverse event (AE) related to afatinib with any one criteria; Hematological: Common terminology criteria for adverse events (CTCAE) Grade 4 neutropenia (Absolute neutrophil count, including bands \\<500/cubic millimeter (mm³)) for \\>7 days, CTCAE Grade 3 or 4 neutropenia of any duration associated with fever \\>38.3 Celsius, CTCAE Grade 3 thrombocytopenia (platelet count \\<50000 - 25000/mm³), All other toxicities of CTCAE Grade ≥3 leading interruption of treatment \\> 14 days.\n\nNon-hematological: CTCAE Grade ≥3 nausea or vomiting despite appropriate use of standard anti-emetics for ≥3 days, CTCAE Grade ≥3 diarrhea despite appropriate use of standard anti-diarrheal therapy for ≥3 days, CTCAE Grade ≥3 rash despite standard medical management and lasting \\>7 days, CTCAE Grade ≥2 cardiac left ventricular function, CTCAE Grade ≥2 worsening of renal function as measured by serum creatinine, newly developed proteinuria or decrease in glomerular filtration rate, All other toxicities of CTCAE Grade ≥3.",
+          "timeFrame": "6 weeks"
+        },
+        {
+          "measure": "Maximum Tolerated Dose (MTD) of Afatinib",
+          "description": "The MTD was defined as the highest afatinib dose level, at which no more than 1 out of 6 patients experienced drug-related DLT, i.e. the highest afatinib dose with a DLT incidence ≤17%. A separate MTD was determined for afatinib and RT (Regimen U), and for afatinib, TMZ, and RT (Regimen M).",
+          "timeFrame": "6 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Incidence and Intensity of Adverse Events (AE) According to Common Terminology Criteria of Adverse Events (CTCAE v.3.0)",
+          "description": "Incidence and intensity of adverse events (AE) according to Common Terminology Criteria of Adverse Events (CTCAE v.3.0). The CTCAE grades are: 1 (mild AE), 2 (moderate AE), 3 (severe AE), 4 (life-threatening or disabling AE), 5 (death related to AE).",
+          "timeFrame": "From the first administration of trial medication until 4 weeks after the last administration of trial medication, up to approximately 338 weeks"
+        },
+        {
+          "measure": "The Objective Tumour Response According to the Macdonald Criteria",
+          "description": "Objective response was defined as a best overall response of complete response (CR) or partial response (PR). The best overall response was the best overall response to trial medication according to the Macdonald criteria recorded since the first administration of trial medication and until the earliest of disease progression, death, or start of further anti-cancer treatment. Tumour response was assessed based on local radiological image evaluation by the investigators according to the Macdonald criteria: Complete Response (CR): Disappearance of all enhancing tumour on consecutive Magnetic resonance imaging (MRI) scans at least 28 days apart, off steroids, and neurologically stable or improved. Partial Response (PR): At least 50% reduction in size of enhancing tumour on consecutive MRI scans at least 28 days apart, steroids stable or reduced, and neurologically stable or improved.",
+          "timeFrame": "From the first administration of trial medication until 4 weeks after the last administration of trial medication, up to approximately 338 weeks"
+        },
+        {
+          "measure": "Concentration of Afatinib in Plasma at Steady State Pre-dose on Days 8, 15 and 29",
+          "description": "Concentration of afatinib in plasma at steady state pre-dose (Cpre,ss) on days 8, 15 and 29.",
+          "timeFrame": "Pharmacokinetic blood sample were taken at 5 minutes before drug on days 8, 15 and 29 and 1, 3 and 6 hours after drug administration on day 15"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n\n1. Histologically-confirmed WHO Grade IV newly diagnosed malignant glioma.\n2. Proven MGMT gene promoter methylation status\n3. Available early postoperative Gd-enhanced MRI (within 72 hours after initial surgery). In case a patient did not perform a Gd-enhanced MRI within 72 hours post surgery, a Gd-MRI is to be performed prior to start of study treatment.\n4. Age more or equal to 18 years and less than 70 years at entry\n5. Karnofsky Performance Scale (KPS) more or equal to 70%\n6. Patients receiving corticosteroids have to receive a stable or decreasing dose for at least 14 days before start of treatment.\n7. Written informed consent that is consistent with local law and ICH- Good Clinical Practice (GCP) guidelines.\n\nExclusion criteria:\n\n1. Less than two weeks from surgical resection or other major surgical procedure at start of treatment.\n2. Planned surgery for other diseases\n3. Placement of Gliadel® wafer at surgery.\n4. Prior or planned radiotherapy of the cranium including brachytherapy and/or radiosurgery for GBM.\n5. Treatment with other investigational drugs; participation in another clinical study including exposure to the investigational product within the past 4 weeks before start of therapy or concomitantly with this study.\n6. Active infectious disease requiring intravenous therapy.\n7. Known human immunodeficiency virus (HIV) infection or chronic Hepatitis B or C.\n8. Gastrointestinal disorders that may interfere with the absorption of the study drug or chronic diarrhoea.\n9. Patients with known pre-existing interstitial lung disease\n10. Serious illness or concomitant non-oncological disease considered by the investigator to be incompatible with the protocol.\n11. Patient is less than 3 years free of another primary malignancy except: if the other primary malignancy is either not currently clinically significant or does not require active intervention (such as a basal cell skin cancer or a cervical carcinoma in situ). Existence of any other malignant disease is not allowed.\n12. Cardiac left ventricular function with resting ejection fraction less than 50%.\n13. Absolute neutrophil count (ANC) less than 1500/mm3.\n14. Platelet count less than 100,000/mm3.\n15. Bilirubin greater than 1.5 x upper limit of institutional norm.\n16. Aspartate amino transferase (AST) greater than 3 x upper limit of institutional norm.\n17. Serum creatinine greater than 1.5 x upper limit of institutional norm.\n18. Patients who are sexually active and unwilling to use a medically acceptable method of contraception.\n19. Pregnancy or breast-feeding.\n20. Patients unable to comply with the protocol.\n21. Known or suspected active drug or alcohol abuse.\n22. Known hypersensitivity to BIBW 2992 or the excipients of any of the trial drugs.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "69 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

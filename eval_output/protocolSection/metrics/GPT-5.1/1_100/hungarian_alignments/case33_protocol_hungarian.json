@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "case_id": 33,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:49:32.221907",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/33_NCT04279392.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/33_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.7
+        ],
+        [
+          0.4,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Active Infusion",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "At 6 weeks post surgery, 5 mg of zoledronic acid in 100 ml of saline will be infused intravenously over a 15 minute time period.",
+            "interventionNames": [
+              "Drug: Zoledronic Acid 5 mg/Bag 100 ml Inj"
+            ]
+          },
+          "pred_item": {
+            "label": "Zoledronic Acid",
+            "type": "EXPERIMENTAL",
+            "description": "Participants undergoing sleeve gastrectomy receive a one-time 100 mL intravenous infusion containing 5 mg zoledronic acid administered over 30 minutes (200 mL/hour) at 6–8 weeks following surgery, in addition to standard postoperative care and prescribed calcium and vitamin D supplementation.",
+            "interventionNames": [
+              "Zoledronic Acid 5 mg IV",
+              "Calcium and Vitamin D Supplementation"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Non-active Infusion",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "At 6 weeks post surgery, 100 ml of saline will be infused intravenously over a 15 minute time period.",
+            "interventionNames": [
+              "Drug: Placebos"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants undergoing sleeve gastrectomy receive a one-time 100 mL intravenous infusion of saline placebo administered over 30 minutes (200 mL/hour) at 6–8 weeks following surgery, in addition to standard postoperative care and prescribed calcium and vitamin D supplementation.",
+            "interventionNames": [
+              "Saline Placebo IV",
+              "Calcium and Vitamin D Supplementation"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.2,
+          0.05
+        ],
+        [
+          0.1,
+          0.96,
+          0.15
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Zoledronic Acid 5 mg/Bag 100 ml Inj",
+            "description": "Zoledronic acid infusion",
+            "armGroupLabels": [
+              "Active Infusion"
+            ],
+            "otherNames": [
+              "Reclast"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Zoledronic Acid 5 mg IV",
+            "description": "A single 5 mg dose of zoledronic acid administered as a 100 mL intravenous infusion over 30 minutes (200 mL/hour), given once at 6–8 weeks after sleeve gastrectomy to suppress bone turnover and mitigate bone loss.",
+            "armGroupLabels": [
+              "Zoledronic Acid"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebos",
+            "description": "Saline infusion",
+            "armGroupLabels": [
+              "Non-active Infusion"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Saline Placebo IV",
+            "description": "A 100 mL intravenous infusion of normal saline administered over 30 minutes (200 mL/hour), given once at 6–8 weeks after sleeve gastrectomy as a placebo control, matching the zoledronic acid infusion in volume and rate.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Hip Bone Mineral Density (BMD)",
+            "description": "Change in hip bone mineral density (BMD) measured by dual-energy x-ray absorptiometry (DXA) - g/cm2",
+            "timeFrame": "baseline and 10 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in total hip areal bone mineral density (aBMD)",
+            "description": "Change in total hip areal bone mineral density (g/cm^2) as measured by dual energy X-ray absorptiometry (DXA) to assess the effect of zoledronic acid versus placebo on sleeve gastrectomy-associated bone loss.",
+            "timeFrame": "Baseline (preoperative) to 9 months postoperatively"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 6,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.93,
+          0.9,
+          0.8,
+          0.7,
+          0.52
+        ],
+        [
+          0.4,
+          0.72,
+          0.35,
+          0.42,
+          0.25,
+          0.28
+        ],
+        [
+          0.4,
+          0.35,
+          0.4,
+          0.3,
+          0.25,
+          0.4
+        ],
+        [
+          0.2,
+          0.22,
+          0.18,
+          0.25,
+          0.25,
+          0.28
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Lumbar Spine Bone Mineral Density (BMD)",
+            "description": "Change in lumbar spine bone mineral density (BMD) measured by dual-energy x-ray absorptiometry (DXA)/cm2 of L1-L4 lumbar vertebrae",
+            "timeFrame": "baseline and 10 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in lumbar spine volumetric bone mineral density (vBMD)",
+            "description": "Change in volumetric bone mineral density of the lumbar spine as measured by quantitative CT (QCT).",
+            "timeFrame": "Baseline (preoperative) to 9 months postoperatively"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.72,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Trunk Lean Mass",
+            "description": "Change in trunk lean mass, measured in kg",
+            "timeFrame": "baseline and 9 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in lumbar spine (L1–L4) areal bone mineral density (aBMD)",
+            "description": "Change in lumbar spine (L1–L4) areal bone mineral density (g/cm^2) as measured by DXA.",
+            "timeFrame": "Baseline (preoperative) to 9 months postoperatively"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.4,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Trunk Fat Mass",
+            "description": "Change in Trunk fat mass, measured in kg",
+            "timeFrame": "baseline and 9 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in femoral neck areal bone mineral density (aBMD)",
+            "description": "Change in femoral neck areal bone mineral density (g/cm^2) as measured by DXA.",
+            "timeFrame": "Baseline (preoperative) to 9 months postoperatively"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 5,
+          "score": 0.28,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Weight",
+            "description": "Change in weight, measured in kgs",
+            "timeFrame": "baseline and 9 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in urinary type 1 collagen cross-linked N-telopeptide (NTX)",
+            "description": "Change in urinary NTX, a marker of bone resorption, measured via ELISA from collected samples.",
+            "timeFrame": "Baseline (preoperative) to 9 months postoperatively"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.otherOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 8,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.05,
+          0.6,
+          0.2,
+          0.22,
+          0.18,
+          0.2,
+          0.12
+        ],
+        [
+          0.84,
+          0.86,
+          0.2,
+          0.12,
+          0.08,
+          0.08,
+          0.07,
+          0.08
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Participants Completing 9 Month Study Visit Requirements",
+            "description": "Feasibility assessment: proportion of participants completing 9 Month study visit requirements",
+            "timeFrame": "9 Months"
+          },
+          "pred_item": {
+            "measure": "Feasibility of the trial",
+            "description": "Feasibility assessed by documenting adverse events, side effects, and compliance rates among participants receiving zoledronic acid or placebo following sleeve gastrectomy.",
+            "timeFrame": "At infusion visit (6–8 weeks postoperatively) and at each subsequent study time point through 9 months postoperatively"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Tolerance: Total Number of Adverse Events Reported by Participants in the Active and In-active Arms",
+            "description": "Comparison of the total number of adverse events reported by participants in the active and in-active arms",
+            "timeFrame": "9 Months"
+          },
+          "pred_item": {
+            "measure": "Adverse events and side effects",
+            "description": "Incidence and nature of adverse events and side effects related to zoledronic acid or placebo, including acute infusion reactions, hypocalcemia, and kidney function changes, assessed via clinical monitoring, comprehensive metabolic panel, and Side Effects Questionnaire.",
+            "timeFrame": "At infusion visit (6–8 weeks postoperatively), 24 hours and 2 months after infusion, and at 9 months postoperatively"
+          }
+        }
+      ]
+    }
+  ]
+}

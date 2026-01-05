@@ -1,0 +1,838 @@
+{
+  "metadata": {
+    "case_id": 58,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T17:29:57.592723",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/58_NCT02861014.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/58_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Ocrelizumab",
+            "type": "EXPERIMENTAL",
+            "description": "Ocrelizumab will be administered as two 300 mg IV infusions on Days 1 and 15 followed by one 600 mg IV infusions administered at Weeks 24, 48, and 72.",
+            "interventionNames": [
+              "Biological: Ocrelizumab"
+            ]
+          },
+          "pred_item": {
+            "label": "Ocrelizumab",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with RRMS and suboptimal response to prior DMT received intravenous ocrelizumab 600 mg every 24 weeks throughout the 96-week open-label treatment period.",
+            "interventionNames": [
+              "Ocrelizumab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Ocrelizumab",
+            "description": "Ocrelizumab will be administered as two 300 mg IV infusions on Days 1 and 15 followed by one 600 mg IV infusions administered at Weeks 24, 48, and 72.",
+            "armGroupLabels": [
+              "Ocrelizumab"
+            ],
+            "otherNames": [
+              "RO4964913"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Ocrelizumab",
+            "description": "Administered as an intravenous infusion of 600 mg every 24 weeks for a maximum of four doses. The first dose was administered as two 300-mg infusions, 14 days apart.",
+            "armGroupLabels": [
+              "Ocrelizumab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With No Evidence of Disease Activity (NEDA) as Per Protocol Defined Events During a 96-Week Period",
+            "description": "A protocol-defined event of disease activity was defined by the occurrence of at least one of the following while on treatment with ocrelizumab:\n\n* A protocol-defined relapse (PDR)\n* 24-week CDP based on increase in EDSS while on treatment with ocrelizumab\n* A T1 Gd-enhanced lesion after Week 8\n* A new and/or enlarging T2 hyperintense lesion on MRI after Week 8 compared to the Week 8 MRI scan",
+            "timeFrame": "Week 96"
+          },
+          "pred_item": {
+            "measure": "Proportion of patients with No Evidence of Disease Activity (NEDA)",
+            "description": "NEDA defined as absence of protocol-defined relapse (PDR), 24-week confirmed disability progression (CDP), T1-weighted contrast-enhancing lesions (CELs), and new and/or enlarging T2-weighted hyperintense lesions, with MRI re-baselining at Week 8.",
+            "timeFrame": "Week 96"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 26,
+      "pred_count": 12,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.83,
+          0.68,
+          0.48,
+          0.42,
+          0.22,
+          0.55,
+          0.35,
+          0.32,
+          0.32,
+          0.3,
+          0.12
+        ],
+        [
+          0.9,
+          0.82,
+          0.68,
+          0.55,
+          0.55,
+          0.42,
+          0.46,
+          0.25,
+          0.35,
+          0.35,
+          0.68,
+          0.08
+        ],
+        [
+          0.32,
+          0.9,
+          0.78,
+          0.55,
+          0.82,
+          0.2,
+          0.2,
+          0.25,
+          0.1,
+          0.25,
+          0.32,
+          0.18
+        ],
+        [
+          0.2,
+          0.3,
+          0.3,
+          0.52,
+          0.25,
+          0.9,
+          0.78,
+          0.15,
+          0.2,
+          0.22,
+          0.2,
+          0.2
+        ],
+        [
+          0.2,
+          0.25,
+          0.35,
+          0.78,
+          0.3,
+          0.86,
+          0.78,
+          0.08,
+          0.2,
+          0.2,
+          0.18,
+          0.2
+        ],
+        [
+          0.25,
+          0.2,
+          0.4,
+          0.35,
+          0.3,
+          0.6,
+          0.86,
+          0.12,
+          0.3,
+          0.2,
+          0.09,
+          0.18
+        ],
+        [
+          0.25,
+          0.5,
+          0.64,
+          0.18,
+          0.25,
+          0.2,
+          0.2,
+          0.93,
+          0.2,
+          0.2,
+          0.25,
+          0.05
+        ],
+        [
+          0.18,
+          0.62,
+          0.65,
+          0.96,
+          0.3,
+          0.42,
+          0.72,
+          0.08,
+          0.1,
+          0.19,
+          0.18,
+          0.08
+        ],
+        [
+          0.18,
+          0.78,
+          0.99,
+          0.35,
+          0.4,
+          0.18,
+          0.25,
+          0.3,
+          0.12,
+          0.1,
+          0.18,
+          0.08
+        ],
+        [
+          0.1,
+          0.7,
+          0.58,
+          0.14,
+          0.98,
+          0.12,
+          0.1,
+          0.07,
+          0.45,
+          0.6,
+          0.78,
+          0.2
+        ],
+        [
+          0.35,
+          0.3,
+          0.2,
+          0.12,
+          0.5,
+          0.2,
+          0.05,
+          0.25,
+          0.92,
+          0.55,
+          0.68,
+          0.2
+        ],
+        [
+          0.19,
+          0.15,
+          0.25,
+          0.13,
+          0.68,
+          0.4,
+          0.1,
+          0.18,
+          0.3,
+          0.95,
+          0.88,
+          0.4
+        ],
+        [
+          0.15,
+          0.22,
+          0.18,
+          0.18,
+          0.36,
+          0.2,
+          0.1,
+          0.1,
+          0.4,
+          0.9,
+          0.78,
+          0.55
+        ],
+        [
+          0.2,
+          0.3,
+          0.2,
+          0.1,
+          0.6,
+          0.2,
+          0.1,
+          0.18,
+          0.4,
+          0.82,
+          0.97,
+          0.25
+        ],
+        [
+          0.4,
+          0.32,
+          0.25,
+          0.1,
+          0.65,
+          0.4,
+          0.18,
+          0.2,
+          0.65,
+          0.7,
+          0.93,
+          0.2
+        ],
+        [
+          0.1,
+          0.2,
+          0.2,
+          0.2,
+          0.4,
+          0.35,
+          0.2,
+          0.05,
+          0.6,
+          0.73,
+          0.5,
+          0.3
+        ],
+        [
+          0.2,
+          0.15,
+          0.18,
+          0.2,
+          0.4,
+          0.3,
+          0.18,
+          0.12,
+          0.6,
+          0.52,
+          0.55,
+          0.3
+        ],
+        [
+          0.18,
+          0.2,
+          0.2,
+          0.18,
+          0.4,
+          0.4,
+          0.08,
+          0.18,
+          0.62,
+          0.42,
+          0.4,
+          0.4
+        ],
+        [
+          0.12,
+          0.12,
+          0.15,
+          0.1,
+          0.3,
+          0.3,
+          0.1,
+          0.08,
+          0.3,
+          0.4,
+          0.42,
+          0.9
+        ],
+        [
+          0.1,
+          0.18,
+          0.18,
+          0.18,
+          0.18,
+          0.4,
+          0.1,
+          0.09,
+          0.2,
+          0.42,
+          0.38,
+          0.82
+        ],
+        [
+          0.18,
+          0.18,
+          0.1,
+          0.1,
+          0.3,
+          0.32,
+          0.15,
+          0.02,
+          0.2,
+          0.65,
+          0.42,
+          0.8
+        ],
+        [
+          0.12,
+          0.12,
+          0.18,
+          0.1,
+          0.1,
+          0.25,
+          0.18,
+          0.05,
+          0.15,
+          0.18,
+          0.11,
+          0.2
+        ],
+        [
+          0.07,
+          0.09,
+          0.1,
+          0.05,
+          0.05,
+          0.2,
+          0.05,
+          0.08,
+          0.1,
+          0.12,
+          0.1,
+          0.22
+        ],
+        [
+          0.05,
+          0.08,
+          0.18,
+          0.08,
+          0.08,
+          0.18,
+          0.1,
+          0.05,
+          0.12,
+          0.05,
+          0.2,
+          0.32
+        ],
+        [
+          0.08,
+          0.08,
+          0.2,
+          0.1,
+          0.1,
+          0.15,
+          0.12,
+          0.05,
+          0.18,
+          0.09,
+          0.18,
+          0.25
+        ],
+        [
+          0.12,
+          0.12,
+          0.18,
+          0.05,
+          0.06,
+          0.08,
+          0.08,
+          0.2,
+          0.08,
+          0.08,
+          0.05,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants Free From a Protocol-Defined Event of Disease Activity During 24 Weeks Period",
+            "description": "A protocol-defined event of disease activity was defined by the occurrence of at least one of the following while on treatment with ocrelizumab:\n\n* A protocol-defined relapse (PDR)\n* 24-week CDP based on increase in EDSS while on treatment with ocrelizumab\n* A T1 Gd-enhanced lesion after Week 8\n* A new and/or enlarging T2 hyperintense lesion on MRI after Week 8 compared to the Week 8 MRI scan",
+            "timeFrame": "Baseline up to 24 weeks"
+          },
+          "pred_item": {
+            "measure": "Proportion of patients with NEDA",
+            "description": "Analysis of the proportion of patients with NEDA during the initial periods.",
+            "timeFrame": "Week 24 and Week 48"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants Free From a Protocol-Defined Event of Disease Activity During 48 Weeks Period",
+            "description": "A protocol-defined event of disease activity was defined by the occurrence of at least one of the following while on treatment with ocrelizumab:\n\n* A protocol-defined relapse (PDR)\n* 24-week CDP based on increase in EDSS while on treatment with ocrelizumab\n* A T1 Gd-enhanced lesion after Week 8\n* A new and/or enlarging T2 hyperintense lesion on MRI after Week 8 compared to the Week 8 MRI scan",
+            "timeFrame": "Baseline up to 48 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time to First Protocol-Defined Event of Disease Activity",
+            "description": "The definition of a protocol-defined event of disease activity is the occurrence of at least one of the following while on treatment with ocrelizumab:\n\n* A protocol-defined relapse defined as: Symptoms must persist for \\>24 hours and should not be attributable to confounding clinical factors; Symptoms should be preceded by neurological stability for at least 30 days; Symptoms should be accompanied by new objective neurological worsening determined with a timely EDSS/ Functional Systems Score (FSS) assessment\n* 24 weeks confirmed disability progression based on increases in EDSS while on treatment with ocrelizumab\n* A T1 Gd-enhanced lesion after Week 8\n* A new and/or enlarging T2 hyperintense lesion on MRI after Week 8 compared to the Week 8 MRI scan.",
+            "timeFrame": "Baseline up to 96 Weeks"
+          },
+          "pred_item": {
+            "measure": "Time to the first event of disease activity",
+            "description": "Defined as the occurrence of the first event on any NEDA component.",
+            "timeFrame": "Up to Week 96"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 5,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline to Week 96 in Expanded Disability Status Scale (EDSS)",
+            "description": "The EDSS is an ordinal clinical rating scale ranging from 0 (normal neurologic examination) to 10 (death due to MS) in half-point increments.",
+            "timeFrame": "Baseline, Weeks: 24, 48, 72, 96"
+          },
+          "pred_item": {
+            "measure": "Mean change in EDSS score",
+            "description": "Change in Expanded Disability Status Scale score from baseline.",
+            "timeFrame": "Baseline to Week 96"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Absolute Change From Baseline in EDSS Category at Week 96",
+            "description": "The EDSS is an ordinal clinical rating scale ranging from 0 (normal neurologic examination) to 10 (death due to MS) in half-point increments.",
+            "timeFrame": "Up to Week 96"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 6,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With a Baseline EDSS Score ≥2 With CDI at Week 96",
+            "description": "The EDSS is an ordinal clinical rating scale ranging from 0 (normal neurologic examination) to 10 (death due to MS) in half-point increments.",
+            "timeFrame": "Week 96"
+          },
+          "pred_item": {
+            "measure": "Proportion of patients with CDP, stable disability, or confirmed disability improvement (CDI)",
+            "description": "CDI defined as a reduction in EDSS score ≥ 1.0 point compared with baseline, in patients with a baseline EDSS score ≥ 2.",
+            "timeFrame": "Up to Week 96"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 7,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Annualized Protocol-defined Relapse Rate at Week 96",
+            "timeFrame": "Week 96"
+          },
+          "pred_item": {
+            "measure": "Annualized rate of PDRs (ARR)",
+            "description": "Calculated as the total number of PDRs for all patients divided by the total patient-years of exposure to treatment.",
+            "timeFrame": "Week 96"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 3,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time to Onset of 24-week Confirmed Disability Progression",
+            "timeFrame": "Baseline up to 96 Weeks"
+          },
+          "pred_item": {
+            "measure": "Time to onset of 24-week Confirmed Disability Progression (CDP)",
+            "description": "Time to an increase in EDSS score from baseline of at least 1.0 point confirmed for 24 weeks.",
+            "timeFrame": "Up to Week 96"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 2,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time to Onset of First Protocol-Defined Relapse",
+            "description": "A protocol-defined multiple sclerosis (MS) relapse is an occurrence of new or worsening neurological symptoms attributable to MS that meets the following criteria:\n\n* Symptoms must persist for \\>24 hours and should not be attributable to confounding clinical factors (e.g., fever, infection, injury, adverse reactions to medications)\n* Symptoms should be preceded by neurological stability for at least 30 days\n* Symptoms should be accompanied by new objective neurological worsening determined with a timely EDSS/ Functional Systems Score (FSS) assessment, consistent with an increase of at least:\n\n  * ≥ 0.5 points on EDSS scale\n  * or ≥ 2 points on one of the following FSS scales: pyramidal, ambulation, cerebellar, brainstem, sensory, or visual\n  * or ≥ 1 point on two or more of the following FSS scales: pyramidal, ambulation, cerebellar, brainstem, sensory, or visual",
+            "timeFrame": "Baseline up to 96 Weeks"
+          },
+          "pred_item": {
+            "measure": "Time to onset of the first protocol-defined relapse (PDR)",
+            "description": "Time to the first occurrence of new or worsening neurological symptoms attributable to MS.",
+            "timeFrame": "Up to Week 96"
+          }
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": 4,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time to Onset of First New and/or Enlarging T2 Lesion",
+            "timeFrame": "Baseline up to 96 Weeks"
+          },
+          "pred_item": {
+            "measure": "Time to onset of first new and/or enlarging T2-weighted hyperintense lesion",
+            "description": "Time to the first detection of new/enlarging T2 lesions on brain MRI.",
+            "timeFrame": "Up to Week 96"
+          }
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": 8,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Mean Number of T1 Gd-enhancing Lesions Per MRI Scan at Weeks 24, 48 and 96",
+            "description": "Mean number of T1 Gd-enhancing lesions per MRI scan: Total number of T1 Gd-enhanced lesions divided by the total number of interpretable MRI scans",
+            "timeFrame": "Weeks: 24, 48, 96"
+          },
+          "pred_item": {
+            "measure": "Total number of T1-weighted contrast-enhancing lesions (CELs)",
+            "description": "Count of T1-weighted contrast-enhancing lesions.",
+            "timeFrame": "Weeks 24, 48, and 96"
+          }
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": 9,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline to Week 96 in Total T2 Lesion Volume Detected by Brain MRI From",
+            "timeFrame": "Baseline, Week 96"
+          },
+          "pred_item": {
+            "measure": "Change in total T2-weighted hyperintense lesion volume",
+            "description": "Assessment of volume change in T2 lesions.",
+            "timeFrame": "Weeks 8–96"
+          }
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage Change From Baseline to Week 96 in Total T2 Lesion Volume Detected by Brain MRI",
+            "timeFrame": "Baseline, Week 96"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": 10,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Volume of New and/or Enlarging T2 Hyperintense Lesions Volume of Lesions Per MRI Scan at Weeks 24, 48, 96",
+            "description": "The number of new and/or enlarging T2 lesions at week 24, 48 and 96 is calculated as the sum of the individual number of new and/or enlarging lesions at each visit. Data from other unscheduled assessments is included in this summary or analysis.",
+            "timeFrame": "Weeks 24, 48, 96"
+          },
+          "pred_item": {
+            "measure": "Volume and number of new and/or enlarging T2-weighted hyperintense lesions",
+            "description": "Assessment of volume and count of new/enlarging T2 lesions relative to Week 8.",
+            "timeFrame": "Week 24, 48, and 96 (relative to Week 8)"
+          }
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Mean Number of New and/or Enlarging T2 Hyperintense Lesions Per MRI Scan",
+            "description": "Mean number of new and/or enlarging T2 hyperintense lesions per MRI scan: Total number of new and/or enlarging T2 hyperintense lesions divided by the total number of interpretable MRI scans",
+            "timeFrame": "Weeks 24, 48, 96"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline at Week 48 and 96 in T1 Hypointense Lesion Volume",
+            "timeFrame": "Weeks 48, 96"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage Change From Baseline at Week 48 and 96 in T1 Hypointense Lesion Volume",
+            "timeFrame": "Weeks 48, 96"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Adjusted Mean Change From Baseline at Week 48 and 96 in T1 Hypointense Lesion Volume",
+            "timeFrame": "Weeks 48, 96"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": 11,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Adjusted Mean Percentage Change From Baseline in Brain Volume",
+            "timeFrame": "Weeks 24, 48, 96"
+          },
+          "pred_item": {
+            "measure": "Percentage changes in cerebral whole-brain volume (WBV), white matter volume (WMV) and cortical gray matter volume (CGMV)",
+            "description": "Brain volume change assessed using percentage change from Week 8 in WBV using SIENA/X and percentage change in WMV and CGMV using paired Jacobian integration.",
+            "timeFrame": "Weeks 24, 48, and 96"
+          }
+        },
+        {
+          "ref_idx": 19,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Adjusted Mean Percentage Change From Baseline in Cortical Grey Matter Volume",
+            "timeFrame": "Weeks 48, 96"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 20,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Adjusted Mean Percentage Change From Baseline in White Matter Volume",
+            "timeFrame": "Weeks 48, 96"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 21,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Mean Change From Baseline in Cognitive Performance (Processing Speed/Working Memory) at Week 48 and Week 96 as Measured by the Brief International Cognitive Assessment for MS - Symbol Digit Modalities Test (SDMT) Score",
+            "description": "Brief International Cognitive Assessment for MS (BICAMS) is assessing cognitive processing speed and verbal and visual memory. Symbol Digits Modalities Test (SDMT) is assessing processing speed/working memory. The SDMT presents a series of nine symbols, each paired with a single digit in a key at the top of a standard sheet of paper. Participants are asked to voice the digit associated with each symbol as rapidly as possible for 90 sec. There is a single outcome measure - the number correct over the 90 sec time span. The higher the results, the better processing speed/working memory.",
+            "timeFrame": "Baseline, Weeks: 48, 96"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 22,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Cognitive Performance (Visuospatial Memory) at Week 48 and Week 96 as Measured by the Brief International Cognitive Assessment for MS - Brief Visuospatial Memory Test-Revised (BVMT-R) Score",
+            "description": "Brief International Cognitive Assessment for MS (BICAMS) is assessing cognitive processing speed and verbal and visual memory. Brief Visuospatial Memory Test-Revised (BVMT-R) is assessing visuospatial memory. In this test, six abstract designs are presented for 10 sec. The display is removed from view and patients render the stimuli via pencil on paper manual responses. Each design receives from 0 to 2 points representing accuracy and location. There are three learning trials, and the outcome measure is the total number of points earned over the three learning trials, thus the scale range is 0-36. The higher the result, the better visual/spatial memory.",
+            "timeFrame": "Baseline, Weeks 48, 96"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 23,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage Change From Baseline in Cognitive Performance (Processing Speed/Working Memory) at Week 48 and Week 96 as Measured by the Brief International Cognitive Assessment for MS - Symbol Digit Modalities Test (SDMT) Score",
+            "description": "Brief International Cognitive Assessment for MS (BICAMS) is assessing cognitive processing speed and verbal and visual memory. Symbol Digits Modalities Test (SDMT) is assessing processing speed/working memory. The SDMT presents a series of nine symbols, each paired with a single digit in a key at the top of a standard sheet of paper. Participants are asked to voice the digit associated with each symbol as rapidly as possible for 90 sec. There is a single outcome measure - the number correct over the 90 sec time span.",
+            "timeFrame": "Baseline, Weeks 48, 96"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 24,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage Change From Baseline in Cognitive Performance (Visuospatial Memory) at Week 48 and Week 96 as Measured by the Brief International Cognitive Assessment for MS - Brief Visuospatial Memory Test-Revised (BVMT-R) Score",
+            "description": "Brief International Cognitive Assessment for MS (BICAMS) is assessing cognitive processing speed and verbal and visual memory. Brief Visuospatial Memory Test-Revised (BVMT-R) is assessing visuospatial memory. In this test, six abstract designs are presented for 10 sec. The display is removed from view and patients render the stimuli via pencil on paper manual responses. Each design receives from 0 to 2 points representing accuracy and location. There are three learning trials, and the outcome measure is the total number of points earned over the three learning trials, thus the scale range is 0-36. The higher the result, the better visual/spatial memory.",
+            "timeFrame": "Baseline, Weeks: 48, 96"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 25,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+            "timeFrame": "Baseline up to to 96 weeks after the end of the Treatment Period"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

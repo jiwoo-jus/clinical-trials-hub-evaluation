@@ -1,0 +1,75 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04652102,NCT04652102,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,01KI20703,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,OTHER_GRANT,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,European Union Drug Regulating Authorities Clinical Trials Database,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,German Federal Ministry of Education and Research,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,"A Phase 2b/3, Randomized, Observer-Blinded, Placebo-Controlled, Multicenter Clinical Study Evaluating the Efficacy and Safety of Investigational SARS-CoV-2 mRNA Vaccine CVnCoV in Adults 18 Years of Age and Older",Efficacy and Safety of the CVnCoV SARS-CoV-2 mRNA Vaccine Candidate,True,0.95,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,"COVID-19: A Phase 2b/3, Randomized, Observer-Blinded, Placebo-Controlled, Multicenter Clinical Study Evaluating the Efficacy and Safety of Investigational SARS-CoV-2 mRNA Vaccine CVnCoV in Adults 18 Years of Age and Older","HERALD: A randomised, observer-blinded, placebo-controlled, phase 2b/3 clinical trial to analyse the efficacy and safety of the CVnCoV SARS-CoV-2 mRNA vaccine candidate",True,0.95,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.acronym,EV,EV,,HERALD,,,,Acronym,protocolSection.identificationModule.acronym,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,The primary objective of the randomized observer-blinded phase 2b/3 part of this trial is to demonstrate the efficacy of a 2-dose schedule of CVnCoV in the prevention of first episodes of virologically-confirmed cases of COVID-19 of any severity in SARS-CoV-2 naïve participants.,"HERALD is a randomised, observer-blinded, placebo-controlled, phase 2b/3 clinical trial conducted in 47 centres in ten countries in Europe and Latin America. The study aimed to analyse the efficacy and safety of the CVnCoV SARS-CoV-2 mRNA vaccine candidate. Adults with no history of virologically confirmed COVID-19 were randomly assigned (1:1) to receive intramuscularly either two 0.6 mL doses of CVnCoV containing 12 μg of mRNA or two 0.6 mL doses of 0.9% NaCl (placebo) on days 1 and 29. The primary efficacy endpoint was the occurrence of a first episode of virologically confirmed symptomatic COVID-19 of any severity from 15 days after the second dose.",True,0.92,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,FP,"This clinical trial information was submitted voluntarily under the applicable law and, therefore, certain submission deadlines may not apply. (That is, clinical trial information for this applicable clinical trial was submitted under section 402(j)(4)(A) of the Public Health Service Act and 42 CFR 11.60 and is not subject to the deadlines established by sections 402(j)(2) and (3) of the Public Health Service Act or 42 CFR 11.24 and 11.44.).","The trial utilized an interactive web response system with stratification by country and age group (18–60 years and ≥61 years). The initial phase 2b part of the trial was designed to characterise the safety, reactogenicity, and immunogenicity of the CVnCoV vaccine candidate, while the phase 3 part was designed to evaluate its efficacy and safety. CVnCoV is a chemically unmodified mRNA vaccine candidate based on the RNActive mRNA vaccine platform encoding the stabilised, full-length, native SARS-CoV-2 spike protein. Primary safety outcomes were solicited local and systemic adverse events within 7 days after each dose and unsolicited adverse events within 28 days after each dose in phase 2b participants, as well as serious adverse events and adverse events of special interest up to 1 year after the second dose in all participants. Key secondary endpoints included the occurrence of a first episode of virologically confirmed moderate-to-severe COVID-19, severe COVID-19, and COVID-19 of any severity by age group.",False,0.06,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,"['Covid19', 'SARS-CoV-2']","['COVID-19', 'SARS-CoV-2 Infection']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,TP,['Vaccine'],"['SARS-CoV-2', 'COVID-19', 'Vaccine', 'mRNA vaccine', 'CVnCoV', 'Efficacy', 'Safety', 'Phase 2b', 'Phase 3']",True,1.0,superset,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,"['PHASE2', 'PHASE3']","['PHASE2', 'PHASE3']",True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,DOUBLE,QUADRUPLE,False,0.5,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'INVESTIGATOR']","['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']",True,1.0,superset,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,39680,39680,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Occurrence of a first episode of virologically confirmed COVID-19 caused by an individual variant of concern or interest,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,Exploratory efficacy endpoint to assess cases caused by specific SARS-CoV-2 variants of concern or interest.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,From 15 days after the second dose up to 1 year,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Male or female participants 18 years of age or older.
+* Be willing and able to provide written informed consent prior to initiation of any trial procedures.
+* Expected compliance with protocol procedures and availability for clinical follow-up through the last planned visit.
+* Females of non-childbearing potential defined as follows: surgically sterile (history of bilateral tubal ligation/occlusion, bilateral oophorectomy or hysterectomy) or postmenopausal {defined as amenorrhea for ≥12 consecutive months prior to screening (Day 1) without an alternative medical cause}. A follicle-stimulating hormone (FSH) level may be measured at the discretion of the Investigator to confirm postmenopausal status.
+* Females of childbearing potential: negative pregnancy test (human chorionic gonadotropin \[hCG\]) within 24 hours prior to each trial vaccination on Day 1 and Day 29.
+* Females of childbearing potential must use highly effective methods of birth control from 2 weeks before the first administration of the trial vaccine until 3 months following the last administration. The following methods of birth control are considered highly effective when used consistently and correctly:
+
+  * Combined (estrogen and progestogen containing) hormonal contraception associated with inhibition of ovulation (oral, intravaginal or transdermal);
+  * Progestogen-only hormonal contraception associated with inhibition of ovulation (oral, injectable or implantable);
+  * Intrauterine devices;
+  * Intrauterine hormone-releasing systems;
+  * Bilateral tubal ligation;
+  * Vasectomized or infertile partner;
+  * Sexual abstinence {periodic abstinence (e.g., calendar, ovulation, symptothermal and post-ovulation methods) and withdrawal are not acceptable}.
+
+Exclusion Criteria:
+
+* History of virologically-confirmed COVID-19 illness.
+* For females: pregnancy or lactation.
+* Use of any investigational or non-registered product (vaccine or drug) within 28 days preceding the administration of trial vaccine or planned use during the trial.
+* Receipt of any licensed vaccines within 28 days (for live vaccines) or 14 days (for inactivated or any other vaccines) prior to administration of the first trial vaccine.
+* Prior administration of any investigational SARS-CoV-2 vaccine or another coronavirus (SARS-CoV, Middle East Respiratory Syndrome-CoV) vaccine or planned used during the trial.
+* Any treatment with immunosuppressants or other immune-modifying drugs (including but not limited to anabolic steroids, corticosteroids, biologicals and methotrexate) for \> 14 days total within 6 months preceding the administration of trial vaccine or planned use during the trial. For corticosteroid use, this means prednisone or equivalent, 0.5 mg/kg/day for 14 days or more. The use of inhaled, topical, or localized injections of corticosteroids (e.g., for joint pain/inflammation) is permitted.
+* Any medically diagnosed or suspected immunosuppressive or immunodeficient condition based on medical history and physical examination including known infection with human immunodeficiency virus (HIV), hepatitis B virus (HBV) or hepatitis C virus (HCV); current diagnosis of or treatment for cancer including leukemia, lymphoma, Hodgkin disease, multiple myeloma or generalized malignancy; chronic renal failure or nephrotic syndrome; and receipt of an organ or bone marrow transplant.
+* History of angioedema (hereditary or idiopathic) or history of any anaphylactic reaction.
+* History of potential immune-mediated disease (pIMD).
+* History of allergy to any component of CVnCoV.
+* Administration of immunoglobulins or any blood products within 3 months prior to the administration of trial vaccine or planned receipt during the trial.
+* Participants with a significant acute or chronic medical or psychiatric illness that, in the opinion of the Investigator, precludes trial participation (e.g., may increase the risk of trial participation, render the participant unable to meet the requirements of the trial, or may interfere with the participant's trial evaluations). These include severe and/or uncontrolled cardiovascular disease, gastrointestinal disease, liver disease, renal disease, respiratory disease, endocrine disorder, and neurological and psychiatric illnesses. However, those with controlled and stable cases can be included in the trial.
+* Participants with impaired coagulation or any bleeding disorder in whom an IM injection or a blood draw is contraindicated.
+* Foreseeable non-compliance with the trial procedure as judged by the Investigator.
+
+Roll-over Criteria for the Open-label Phase:
+
+* Participants must have received at least 1 dose of CVnCoV during the randomized observer blinded phase.
+* Participants must provide additional written informed consent to be eligible for the open label phase.","Inclusion Criteria:
+* Adults aged 18 years or older
+* No history of virologically confirmed COVID-19
+
+Exclusion Criteria:
+* Received (within 28 days before first administration of CVnCoV), or planned to receive, any investigational or non-registered vaccine or drug
+* Received any live vaccine within 28 days
+* Received any inactivated vaccine within 14 days
+* Received, or planned to receive, any investigational SARS-CoV-2 vaccine or other coronavirus vaccine before trial initiation or during the trial",True,0.78,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

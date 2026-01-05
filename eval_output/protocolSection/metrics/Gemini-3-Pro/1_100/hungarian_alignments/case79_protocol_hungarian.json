@@ -1,0 +1,227 @@
+{
+  "metadata": {
+    "case_id": 79,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T18:42:35.592488",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/79_NCT03303105.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/79_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.74
+        ],
+        [
+          0.78,
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "TEV-48125 (225 mg/1 month) group",
+            "type": "EXPERIMENTAL",
+            "description": "TEV-48125 will be administered subcutaneously once every 4 weeks for a total of 13 doses (at 225 mg once monthly \\[except for a loading dose of 675 mg in subjects with CM\\]).",
+            "interventionNames": [
+              "Drug: TEV-48125"
+            ]
+          },
+          "pred_item": {
+            "label": "Fremanezumab Monthly",
+            "type": "EXPERIMENTAL",
+            "description": "Fremanezumab was subcutaneously administered monthly. The regimen was 675 mg (three injections of 225 mg per 1.5 mL) for chronic migraine (CM) and 225 mg (one injection of 225 mg per 1.5 mL) for episodic migraine (EM) at baseline (Visit 2), followed by 225 mg monthly thereafter (month 1 to month 12).",
+            "interventionNames": [
+              "Drug: Fremanezumab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "label": "TEV-48125 (675 mg/3 month) group",
+            "type": "EXPERIMENTAL",
+            "description": "TEV-48125 will be administered subcutaneously once every 12 weeks for a total of 5 doses (at 675 mg once every 3 months).",
+            "interventionNames": [
+              "Drug: TEV-48125"
+            ]
+          },
+          "pred_item": {
+            "label": "Fremanezumab Quarterly",
+            "type": "EXPERIMENTAL",
+            "description": "Fremanezumab was subcutaneously administered quarterly. The dosing regimen was fremanezumab 675 mg (three injections of 225 mg per 1.5 mL) once every 3 months for both chronic migraine (CM) and episodic migraine (EM) groups (baseline, month 3, month 6, month 9, month 12).",
+            "interventionNames": [
+              "Drug: Fremanezumab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.92
+        ],
+        [
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "TEV-48125",
+            "description": "TEV-48125 will be administered subcutaneously once every 4 weeks.",
+            "armGroupLabels": [
+              "TEV-48125 (225 mg/1 month) group"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "TEV-48125",
+            "description": "TEV-48125 will be administered subcutaneously once every 12 weeks.",
+            "armGroupLabels": [
+              "TEV-48125 (675 mg/3 month) group"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Fremanezumab",
+            "description": "A fully humanized IgG2Δa/kappa monoclonal antibody administered subcutaneously.",
+            "armGroupLabels": [
+              "Fremanezumab Monthly",
+              "Fremanezumab Quarterly"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.78,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Subjects With at Least One Treatment-Emergent Adverse Event (TEAE)",
+            "description": "* TEAEs are defined as the AEs that started after trial investigational medicinal product (IMP) treatment. Multiple occurrences of TEAEs are counted once per MedDRA preferred term.\n* Specific AE terms are provided in the Adverse Event section.",
+            "timeFrame": "Baseline (Day 0) up to follow-up visit (Day 562)"
+          },
+          "pred_item": {
+            "measure": "Incidence of Treatment-Emergent Adverse Events (TEAEs)",
+            "description": "Assessment of long-term safety and tolerability, including injection-site reactions (erythema, induration, ecchymosis, and pain), drug-related hepatic TEAEs, ophthalmic TEAEs of at least moderate severity, anaphylaxis, severe hypersensitivity reactions, and cardiovascular-related TEAEs.",
+            "timeFrame": "From baseline through the 52-week treatment period"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 10,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.86,
+          0.82,
+          0.7,
+          0.12,
+          0.5,
+          0.7,
+          0.7,
+          0.3,
+          0.05
+        ],
+        [
+          0.78,
+          0.9,
+          0.86,
+          0.42,
+          0.15,
+          0.62,
+          0.72,
+          0.74,
+          0.55,
+          0.02
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Mean Change From Baseline in the Monthly (28 Day) Average Number of Migraine Days",
+            "description": "Headache-related efficacy endpoints were derived from headache variables collected using an eDiary. On each day, subjects entered headache data in the electronic headache diary for the previous 24-hour period. Subjects who had experienced headache on the previous day answered questions about the headache (ie, occurrence of headache, duration of headache, maximum severity of headache, presence/absence of associated symptoms, and use of acute headache medications). Overall headache duration was recorded numerically, in hours, as well as number of hours with headache of at least moderate severity. If headache was reported, then headache severity was subjectively rated by the subject as mild, moderate, or severe.\n\nSubjects also recorded the presence or absence of photophobia, phonophobia, nausea, or vomiting, and the status of use of any acute headache medications.",
+            "timeFrame": "Baseline, Month 12"
+          },
+          "pred_item": {
+            "measure": "Change from baseline in average monthly migraine days",
+            "description": "Efficacy outcome evaluating the reduction in migraine frequency.",
+            "timeFrame": "Baseline, Month 1, Month 3, Month 6, and Month 12"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Mean Change From Baseline in the Monthly (28 Day) Average Number of Headache Days of at Least Moderate Severity",
+            "description": "Headache-related efficacy endpoints were derived from headache variables collected using an eDiary. On each day, subjects entered headache data in the electronic headache diary for the previous 24-hour period. Subjects who had experienced headache on the previous day answered questions about the headache (ie, occurrence of headache, duration of headache, maximum severity of headache, presence/absence of associated symptoms, and use of acute headache medications). Overall headache duration was recorded numerically, in hours, as well as number of hours with headache of at least moderate severity. If headache was reported, then headache severity was subjectively rated by the subject as mild, moderate, or severe.\n\nSubjects also recorded the presence or absence of photophobia, phonophobia, nausea, or vomiting, and the status of use of any acute headache medications.",
+            "timeFrame": "Baseline, Month 12"
+          },
+          "pred_item": {
+            "measure": "Change from baseline in average monthly headache days of at least moderate severity",
+            "description": "Efficacy outcome evaluating the reduction in severe headache frequency.",
+            "timeFrame": "Baseline, Month 1, Month 3, Month 6, and Month 12"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "case_id": 46,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T16:22:47.387918",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/46_NCT04492722.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/46_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Reduction of Urine Albumin to Creatinine Ratio (ACR) to Week 20",
+            "description": "The dose response effect of AZD5718 on urine ACR at 20 weeks was evaluated. Values less than 1 indicate improvement from baseline.",
+            "timeFrame": "Week 1 (Baseline) to Week 20"
+          },
+          "pred_item": {
+            "measure": "Dose-response effect of AZD5718 on urinary albumin-to-creatinine ratio (UACR)",
+            "description": "Change in UACR from baseline to 20 weeks (on treatment with dapagliflozin as future standard of care). UACR is calculated as urine albumin (mg/dl) divided by urine creatinine (g/dl). The geometric mean UACR is calculated from triplicate first morning urine samples collected on 3 consecutive days before each study visit.",
+            "timeFrame": "Baseline to 20 weeks"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.22,
+          0.15,
+          0.15,
+          0.42
+        ],
+        [
+          0.08,
+          0.9,
+          0.1,
+          0.2,
+          0.18
+        ],
+        [
+          0.3,
+          0.23,
+          0.99,
+          0.15,
+          0.22
+        ],
+        [
+          0.15,
+          0.25,
+          0.2,
+          0.86,
+          0.25
+        ],
+        [
+          0.4,
+          0.2,
+          0.25,
+          0.18,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Reduction of Urine ACR to Week 12",
+            "description": "The dose response effect of AZD5718 on urine ACR at 12 weeks was evaluated. Values less than 1 indicate improvement from baseline.",
+            "timeFrame": "Week 1 (Baseline) to Week 12"
+          },
+          "pred_item": {
+            "measure": "Dose-response effect of AZD5718 on urinary albumin-to-creatinine ratio at 12 weeks",
+            "description": "Change in UACR from baseline to 12 weeks (on current standard of care without dapagliflozin)",
+            "timeFrame": "Baseline to 12 weeks"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Adverse Events and Serious Adverse Events",
+            "description": "The safety and tolerability profile of AZD5718 treatment was assessed",
+            "timeFrame": "From Screening (Week -4 to 0) to Week 24"
+          },
+          "pred_item": {
+            "measure": "Safety and tolerability of AZD5718",
+            "description": "Assessment includes monitoring of adverse events and serious adverse events, physical examinations, vital signs (blood pressure, heart rate, respiratory rate, body temperature, pulse oximetry), electrocardiography, and clinical laboratory tests (chemistry, hematology, coagulation, urinalysis)",
+            "timeFrame": "Throughout the study (up to 24 weeks including follow-up)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in 24-hours Mean Systolic Blood Pressure to Week 12",
+            "description": "The effect of AZD5718 on ambulatory blood pressure was assessed",
+            "timeFrame": "Week 1 (Baseline) to Week 12"
+          },
+          "pred_item": {
+            "measure": "Effect of AZD5718 on ambulatory blood pressure",
+            "description": "Change in 24-hour mean systolic blood pressure from baseline to week 12, using a noninferiority margin of 3 mm Hg",
+            "timeFrame": "Baseline to 12 weeks"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Plasma Concentrations of AZD5718",
+            "description": "The PK of AZD5718 after repeated oral dosing for 20 weeks was evaluated",
+            "timeFrame": "From Week 2 to Week 20"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetics of AZD5718",
+            "description": "Pre-dose plasma samples collected throughout the study to assess AZD5718 concentrations. A subgroup of at least 80 participants will provide 4 post-dose samples at 1-2, 2-5, 5-8, and 8-12 hours after receiving AZD5718 at week 4",
+            "timeFrame": "Throughout the study (up to 20 weeks)"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Estimated Glomerular Filtration Rate (eGFR) to Week 12",
+            "description": "The effect of AZD5718 on renal function was evaluated",
+            "timeFrame": "Week 1 (Baseline), Week 2, Week 4, Week 8, and Week 12"
+          },
+          "pred_item": {
+            "measure": "Effect of AZD5718 on kidney function with and without dapagliflozin",
+            "description": "Assessment of acute changes in estimated glomerular filtration rate (eGFR) calculated using the CKD-EPI equation",
+            "timeFrame": "Throughout the study (up to 20 weeks)"
+          }
+        }
+      ]
+    }
+  ]
+}

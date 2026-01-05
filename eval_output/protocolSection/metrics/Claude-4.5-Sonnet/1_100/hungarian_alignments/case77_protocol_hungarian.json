@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "case_id": 77,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T18:36:41.726070",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/77_NCT03697161.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/77_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.35,
+          0.62
+        ],
+        [
+          0.65,
+          0.88,
+          0.7
+        ],
+        [
+          0.78,
+          0.78,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "OV101 (gaboxadol) Regimen 1",
+            "type": "EXPERIMENTAL",
+            "description": "Once Daily",
+            "interventionNames": [
+              "Drug: OV101 (gaboxadol)"
+            ]
+          },
+          "pred_item": {
+            "label": "OV101 5 mg QD",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received OV101 (gaboxadol) 5 mg once daily (QD) for 12 weeks. All participants received study medication three times daily (morning, afternoon, and evening), with OV101 administered in the morning and placebo administered in the afternoon and evening.",
+            "interventionNames": [
+              "DRUG: OV101 (gaboxadol) 5 mg",
+              "DRUG: Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "label": "OV101 (gaboxadol) Regimen 2",
+            "type": "EXPERIMENTAL",
+            "description": "Twice Daily",
+            "interventionNames": [
+              "Drug: OV101 (gaboxadol)"
+            ]
+          },
+          "pred_item": {
+            "label": "OV101 5 mg BID",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received OV101 (gaboxadol) 5 mg twice daily (BID) for 12 weeks. All participants received study medication three times daily (morning, afternoon, and evening), with OV101 administered in the morning and afternoon, and placebo administered in the evening.",
+            "interventionNames": [
+              "DRUG: OV101 (gaboxadol) 5 mg",
+              "DRUG: Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "OV101 (gaboxadol) Regimen 3",
+            "type": "EXPERIMENTAL",
+            "description": "Three Times Daily",
+            "interventionNames": [
+              "Drug: OV101 (gaboxadol)"
+            ]
+          },
+          "pred_item": {
+            "label": "OV101 5 mg TID",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received OV101 (gaboxadol) 5 mg three times daily (TID) for 12 weeks. All participants received study medication three times daily (morning, afternoon, and evening), with OV101 administered at each dosing time.",
+            "interventionNames": [
+              "DRUG: OV101 (gaboxadol) 5 mg"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.28
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "OV101 (gaboxadol)",
+            "description": "OV101 (gaboxadol)",
+            "armGroupLabels": [
+              "OV101 (gaboxadol) Regimen 1",
+              "OV101 (gaboxadol) Regimen 2",
+              "OV101 (gaboxadol) Regimen 3"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "OV101 (gaboxadol) 5 mg",
+            "description": "OV101 (gaboxadol) is a δ-subunit–selective, extrasynaptic GABAA receptor agonist that enhances GABAergic tonic inhibition. Administered orally at a dose of 5 mg per administration, with frequency depending on the treatment arm (QD, BID, or TID) over a 12-week treatment period.",
+            "armGroupLabels": [
+              "OV101 5 mg QD",
+              "OV101 5 mg BID",
+              "OV101 5 mg TID"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.93,
+          0.7,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Treatment Emergent Adverse Events (TEAE)",
+            "description": "Number of Participants with Treatment Emergent Adverse Events",
+            "timeFrame": "Week 12"
+          },
+          "pred_item": {
+            "measure": "Treatment-Emergent Adverse Events (TEAEs)",
+            "description": "Number and percentage of participants experiencing treatment-emergent adverse events during the 12-week treatment period",
+            "timeFrame": "12 weeks"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.otherOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.62,
+          0.86,
+          0.42
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Clinical Global Impressions- Improvement (CGI-I)",
+            "timeFrame": "Week 12"
+          },
+          "pred_item": {
+            "measure": "Parent Global Impressions-Improvement (PGI-I) Score",
+            "description": "Caregiver-rated assessment of overall improvement, with scores of ≤3 (modest improvement or better) considered responders",
+            "timeFrame": "Week 12"
+          }
+        }
+      ]
+    }
+  ]
+}

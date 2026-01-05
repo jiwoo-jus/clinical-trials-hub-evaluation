@@ -1,0 +1,235 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01876212",
+      "orgStudyIdInfo": {
+        "id": "UPCI 12-048",
+        "type": null,
+        "link": null
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "BB-IND 15224",
+          "type": "FDA",
+          "domain": "FDA",
+          "link": null
+        },
+        {
+          "id": "R01 CA169118",
+          "type": "NIH",
+          "domain": "NIH",
+          "link": null
+        },
+        {
+          "id": "R01 CA204419",
+          "type": "NIH",
+          "domain": "NIH",
+          "link": null
+        },
+        {
+          "id": "P01 CA234212",
+          "type": "NIH",
+          "domain": "NIH",
+          "link": null
+        },
+        {
+          "id": "P30 CA047904",
+          "type": "NIH",
+          "domain": "NIH",
+          "link": null
+        }
+      ],
+      "organization": {
+        "fullName": "University of Pittsburgh Cancer Institute",
+        "class": "OTHER"
+      },
+      "briefTitle": "Autologous dendritic cell/tumor blood vessel antigen peptide vaccine combined with dasatinib in advanced melanoma",
+      "officialTitle": "A first-in-human, randomized pilot phase II clinical trial combining vaccines targeting overexpressed, non-mutated tumor blood vessel antigens (TBVA) and tyrosine kinase inhibitor dasatinib in HLA-A2+ patients with advanced melanoma",
+      "acronym": null
+    },
+    "descriptionModule": {
+      "briefSummary": "This first-in-human, randomized pilot phase II clinical trial evaluated the combination of dendritic cell (DC)-based vaccines targeting overexpressed, non-mutated tumor blood vessel antigens (TBVA) with the tyrosine kinase inhibitor dasatinib in HLA-A2+ patients with advanced melanoma. Autologous type-1-polarized dendritic cells (αDC1) were loaded with HLA-A2-presented peptides derived from TBVA (DLK1, EphA2, HBB, NRP1, RGS5, TEM1) and administered intradermally every other week. Patients were randomized to receive oral dasatinib (70 mg twice daily) starting in week 5 (Arm A) or week 1 (Arm B). The trial assessed safety, T cell responses to vaccine peptides, objective clinical response, and exploratory biomarkers in blood, serum, and tumor tissues.",
+      "detailedDescription": "Sixteen HLA-A2+ patients with advanced-stage (IIC-IV) cutaneous, mucosal, or uveal melanoma were enrolled, 15 of whom had previously progressed on programmed cell death protein 1 (PD-1) blockade. Fourteen patients received treatment, and 13 were evaluable for endpoint analyses. Patients received autologous αDC1/peptide vaccines targeting six tumor blood vessel antigens (DLK1, EphA2, HBB, NRP1, RGS5, TEM1) administered intradermally on days 1 and 15 of each monthly cycle. Dasatinib (70 mg twice daily) was initiated in week 5 for Arm A and week 1 for Arm B. The primary endpoint was peripheral blood T cell response to vaccine peptides measured by IFN-γ ELISPOT assay. Secondary endpoints included safety, objective clinical response per RECIST v1.1, progression-free survival (PFS), overall survival (OS), and exploratory analyses of regulatory immune cells, serum biomarkers, tumor transcriptional profiles, TCR repertoire, and tertiary lymphoid structure (TLS) formation. Of 13 evaluable patients, 6 developed specific CD8+ T cell responses against ≥3 vaccine peptides with evidence of epitope spreading. All six responders exhibited TCR convergence and had favorable clinical outcomes (4 PR, 2 SD). Arm B patients outperformed Arm A in immune response rate (66.7% vs 28.6%), objective response rate (66.7% vs 0%), overall survival (median 15.45 vs 3.47 months; p=0.0086), and PFS (median 7.87 vs 1.97 months; p=0.063). Female patients had higher response rates compared to males. Tumors from responders showed baseline inflammation, reduced hypoxia/acidosis/glycolysis on-treatment, increased immune infiltration, and TLS neogenesis. The combination was safe with no grade >3 treatment-related adverse events."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Melanoma",
+        "Advanced Melanoma",
+        "Cutaneous Melanoma",
+        "Mucosal Melanoma",
+        "Uveal Melanoma",
+        "Checkpoint-Refractory Melanoma"
+      ],
+      "keywords": [
+        "Tumor blood vessel antigens",
+        "Dendritic cell vaccine",
+        "Dasatinib",
+        "Immunotherapy",
+        "HLA-A2",
+        "Type-1-polarized dendritic cells",
+        "TBVA",
+        "DLK1",
+        "EphA2",
+        "HBB",
+        "NRP1",
+        "RGS5",
+        "TEM1",
+        "PD-1 blockade resistance",
+        "Epitope spreading",
+        "TCR convergence",
+        "Tertiary lymphoid structures",
+        "Tumor microenvironment",
+        "Vascular normalization",
+        "CD8+ T cell response",
+        "IFN-γ ELISPOT",
+        "Checkpoint blockade",
+        "Vaccine adjuvant"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Patients were randomized into one of two treatment arms. All treated patients received an autologous αDC1/peptide vaccine administered by a single intradermal injection on days 1 and 15 of each monthly therapy cycle. Patients on Arm A started dasatinib administration (70 mg orally two times per day) on cycle 2, day 1 (in week 5), while patients on Arm B began dasatinib administration on cycle 1, day 1 (in week 1).",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 16,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received autologous αDC1/TBVA peptide vaccine administered intradermally on days 1 and 15 of each monthly cycle (approximately 10^7 cells per injection). Oral dasatinib (70 mg two times per day) was initiated starting on cycle 2, day 1 (i.e., in week 5).",
+          "interventionNames": [
+            "BIOLOGICAL: Autologous αDC1/TBVA peptide vaccine",
+            "DRUG: Dasatinib (delayed initiation)"
+          ]
+        },
+        {
+          "label": "Arm B",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received autologous αDC1/TBVA peptide vaccine administered intradermally on days 1 and 15 of each monthly cycle (approximately 10^7 cells per injection). Oral dasatinib (70 mg two times per day) was initiated starting on cycle 1, day 1 (i.e., in week 1).",
+          "interventionNames": [
+            "BIOLOGICAL: Autologous αDC1/TBVA peptide vaccine",
+            "DRUG: Dasatinib (immediate initiation)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Autologous αDC1/TBVA peptide vaccine",
+          "description": "Autologous type-1-polarized dendritic cells (αDC1) loaded with HLA-A2-presented peptides derived from tumor blood vessel antigens (TBVA): DLK1, EphA2, HBB, NRP1, RGS5, and TEM1. Administered as a single intradermal injection of approximately 10^7 cells on days 1 and 15 of each monthly therapy cycle in the vicinity of the nodal drainage groups of the four extremities.",
+          "armGroupLabels": [
+            "Arm A",
+            "Arm B"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Dasatinib (delayed initiation)",
+          "description": "Oral dasatinib administered at 70 mg two times per day beginning on cycle 2, day 1 (week 5).",
+          "armGroupLabels": [
+            "Arm A"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Dasatinib (immediate initiation)",
+          "description": "Oral dasatinib administered at 70 mg two times per day beginning on cycle 1, day 1 (week 1).",
+          "armGroupLabels": [
+            "Arm B"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Patient peripheral blood T cell response to vaccine peptides",
+          "description": "Measured using interferon-γ enzyme-linked immunosorbent spot (ELISPOT) assays. A positive response was defined as a greater than twofold increase in spot-forming reactive T cells versus baseline and at least 10 specific spots (minus background) per 10^5 immune cells plated. Primary endpoint was considered positive if the patient responded positively against three or more peptides in the vaccine formulation at any time point on-treatment.",
+          "timeFrame": "Baseline and every 2 weeks while on study protocol"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Safety and adverse events",
+          "description": "Evaluated using the National Cancer Institute Common Terminology Criteria for Adverse Events Version 4.0.",
+          "timeFrame": "Throughout study treatment and follow-up (up to 1 year after removal from study treatment or until death)"
+        },
+        {
+          "measure": "Objective clinical response (OCR) and objective response rate (ORR)",
+          "description": "Investigator-assessed per Response Evaluation Criteria in Solid Tumors (RECIST) Version 1.1, including partial response (PR), stabilization of disease (SD), and progressive disease (PD).",
+          "timeFrame": "Baseline and approximately every 8–9 weeks until disease progression"
+        },
+        {
+          "measure": "Progression-free survival (PFS)",
+          "description": "Time from treatment initiation to disease progression or death, whichever occurred first.",
+          "timeFrame": "Up to 1 year after removal from study treatment or until death"
+        },
+        {
+          "measure": "Overall survival (OS)",
+          "description": "Time from treatment initiation to death from any cause.",
+          "timeFrame": "Up to 1 year after removal from study treatment or until death"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Changes in regulatory T cell (Treg) and myeloid-derived suppressor cell (MDSC) content in peripheral blood",
+          "description": "Exploratory analysis measuring frequencies of CD4+Foxp3+ Treg, HLA-DRneg CD3neg CD11b+ CD14+ CD15neg CD19neg CD33+ monocytic MDSC (M-MDSC), and HLA-DRneg CD3neg CD11b+ CD14neg CD15+ CD19neg CD33+ polymorphonuclear MDSC (PMN-MDSC) using flow cytometry.",
+          "timeFrame": "Baseline and at week 5 on-treatment"
+        },
+        {
+          "measure": "Tumor vascular structure and immune infiltration",
+          "description": "Exploratory analysis using quantitative real-time PCR (qRT-PCR) and transcriptional profiling platforms (Oncomine TCRB-LR Assay, Oncomine Immune Response Research Assay) on tumor biopsy tissues.",
+          "timeFrame": "Baseline and at week 5 on-treatment"
+        },
+        {
+          "measure": "Pro-inflammatory CXCL10 levels in serum",
+          "description": "Exploratory analysis measuring serum concentrations of the chemokine CXCL10.",
+          "timeFrame": "Baseline and at week 5 on-treatment"
+        },
+        {
+          "measure": "T cell receptor (TCR) repertoire diversity and convergence",
+          "description": "Exploratory analysis using Thermo Fisher Ion Torrent-based Oncomine TCRB-LR Assay to evaluate TCR clonotypic evenness and convergence in peripheral blood specimens.",
+          "timeFrame": "Baseline and on-treatment (approximately every 2 weeks)"
+        },
+        {
+          "measure": "Transcriptional profiling of vaccine dendritic cells (αDC1)",
+          "description": "Exploratory analysis using Affymetrix GeneChips and FACS analysis to identify biomarkers associated with immunologic and clinical response to vaccination.",
+          "timeFrame": "At time of vaccine generation (prior to treatment initiation)"
+        },
+        {
+          "measure": "Tertiary lymphoid structure (TLS) formation in tumor microenvironment",
+          "description": "Exploratory analysis using custom NanoString probe set for 23 TLS-associated genes to evaluate transcriptional biomarkers of TLS formation in tumor biopsy tissues.",
+          "timeFrame": "Baseline and at week 5 on-treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "**Inclusion Criteria:**\n\n• HLA-A2+ patients with advanced-stage (IIC-IV) cutaneous, mucosal or uveal melanoma\n• Patients for whom standard curative or palliative measures did not exist or were no longer effective\n• Patients with melanoma who had previously progressed on programmed cell death protein 1 (PD-1) blockade (15 of 16 patients enrolled)\n• Patients able to provide informed consent\n\n**Exclusion Criteria:**\n\n• (Specific exclusion criteria are described in online supplemental materials and are not detailed in the main text of the paper)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

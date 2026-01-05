@@ -1,0 +1,154 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02323854",
+      "orgStudyIdInfo": {
+        "id": "15-001772",
+        "type": null,
+        "link": null
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "Medtronic",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "EMPrint™ Ablate and RESect Study in Patients with Metastatic Lung Tumors",
+      "officialTitle": "A prospective, non-randomized, single-arm, multicenter study to evaluate the technical performance of the Emprint™ system in predicting the size of ablation zones",
+      "acronym": "EMPRESS"
+    },
+    "descriptionModule": {
+      "briefSummary": "This was a prospective, non-randomized, single-arm, multicenter study to evaluate the Emprint™ ablation system for percutaneous microwave ablation in patients with metastatic or primary lung tumors. Subjects scheduled for resection of lung nodules underwent preoperative percutaneous microwave ablation. The primary objective was to evaluate the technical performance of the Emprint™ system in predicting the size of ablation zones by comparing predicted ablation zones (as prescribed by the investigational system software) versus actual ablation zones measured via CT imaging immediately following ablation and before surgical resection. The secondary endpoint was complete ablation defined as 100% non-viable tumor cells based on NADH staining. Safety endpoints included type, incidence, and severity of adverse events.",
+      "detailedDescription": "This prospective, non-randomized, single-arm, multicenter study (ClinicalTrials.gov ID: NCT02323854) was conducted by Medtronic from January 2015 to March 2017 to evaluate the Emprint™ ablation system via a percutaneous approach in patients with metastatic or primary lung tumors. Fifteen patients (mean age 58.9 years; 67% male; 33% female) were enrolled, with 33.3% having previous thoracic surgery, 73% with metastatic tumors, and 27% with primary lung tumors.\n\nThe Emprint™ Procedure Planning Application, a commercially available software (Medtronic, Boulder, CO, USA), was used as an adjunct to assist with planning for the ablation procedure. The software utilizes pre-procedural CT images to visualize predicted ablation zones based on time, energy, and target tissue type. The predicted ablation zone displayed in the software is derived from lung-specific in vivo data collected in porcine models during product development.\n\nAll subjects underwent percutaneous microwave ablation using a single placed probe followed by surgical resection the same day. CT imaging was performed immediately after ablation with the antenna still in position. Time from antenna placement to removal was 23.7±13.1 minutes (median: 21.0; range: 6.0 to 48.0). CT assessment of the ablation was based on ground glass opacity and reviewed by a minimum of three board-certified radiologists in a blinded manner.\n\nThe primary endpoint was dose response, assessed by comparing predicted ablation zone size (from the Emprint™ procedure planning application) versus actual ablation zone size (observed on immediate post-ablation CT). Measurements included ablation zone width (X), height (Y), depth (Z), volume, and shape. The secondary endpoint was complete ablation for each target tumor, defined as 100% non-viable tumor cells on NADH viability staining. Histology was evaluated at a single center (National Jewish Health, Denver, CO, USA) by blinded pathologists. Safety endpoints included type, incidence, and severity of adverse events.\n\nResults showed that ablation zone volume was overestimated by the software in all patients. The percent difference in ablation zone volume (actual vs. predicted) was -63.5±26.3% (median: -67.3%; range: -94.9% to -5.5%). Complete ablation was detected in 54.5% (6/11) of subjects, incomplete ablation in 36.4% (4/11), and delayed necrosis in 9.1% (1/11). There were no device-related adverse events. Twenty-one adverse events were reported for 11 subjects, with 5 serious adverse events occurring in 3 subjects (20%), all either not related or unlikely to be related to the ablation procedure.\n\nThe study concluded that histologically complete ablation was observed in 55% of subjects. CT scanning less than an hour after ablation and tissue shrinkage (which can be as high as 75% by volume in lung tissue) may account for the smaller zone of ablation observed compared to that predicted by the investigational system software. The study confirmed the viability of an ablate and resect approach in the study of percutaneous ablation, but highlighted the need for future studies to account for tissue shrinkage when evaluating the accuracy of pre-procedure planning software."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Lung Neoplasms",
+        "Lung Metastases",
+        "Primary Lung Cancer",
+        "Metastatic Lung Tumors"
+      ],
+      "keywords": [
+        "Microwave ablation",
+        "Percutaneous ablation",
+        "Thermal ablation",
+        "Image-guided ablation",
+        "Lung tumors",
+        "Lung nodules",
+        "Ablation zone prediction",
+        "Emprint ablation system",
+        "Procedure planning software",
+        "NADH staining",
+        "Complete ablation",
+        "Dose response"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "This was a prospective, non-randomized, single-arm, multicenter study. Subjects scheduled for resection of metastatic or primary lung nodules underwent preoperative percutaneous microwave ablation followed by surgical resection the same day.",
+        "primaryPurpose": "DEVICE_FEASIBILITY",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "This was a single-arm study with no masking. However, during image processing, all images were blinded so that radiologists did not have access to any patient confidential information and local site assessments. Cases were reviewed by two independent radiologists.",
+          "whoMasked": []
+        }
+      },
+      "enrollmentInfo": {
+        "count": 19,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Percutaneous Microwave Ablation followed by Surgical Resection",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects scheduled for resection of metastatic or primary lung nodules underwent preoperative percutaneous microwave ablation using the Emprint™ Ablation System. The Emprint™ Procedure Planning Application software was used to predict ablation zone size based on time, energy, and target tissue type. Following ablation, immediate post-ablation CT imaging was performed with the antenna still in position, and then scheduled surgical tumor resection was performed the same day.",
+          "interventionNames": [
+            "Device: Emprint™ Ablation System with Procedure Planning Application",
+            "Procedure: Percutaneous Microwave Ablation",
+            "Procedure: Surgical Resection",
+            "Diagnostic Test: Post-ablation CT Imaging"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Emprint™ Ablation System with Procedure Planning Application",
+          "description": "The Emprint™ Ablation System was used for percutaneous microwave ablation of lung tumors. The Emprint™ Procedure Planning Application is an interactive software tool that predicts the size of a microwave ablation zone based on time, energy, and target tissue type and represents that data visually on pre- or intra-procedure CT images. Ablations were performed at variable power settings (45, 75, and 100 W) and time settings (ranging from 2:20 to 10:00 minutes). A single tumor was ablated using a single placed probe in each patient.",
+          "armGroupLabels": [
+            "Percutaneous Microwave Ablation followed by Surgical Resection"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Percutaneous Microwave Ablation",
+          "description": "Percutaneous image-guided microwave thermal ablation was performed on metastatic or primary lung tumors. The procedure was conducted under general anesthesia with single lung ventilation. A single probe was placed percutaneously under CT guidance, and ablation was performed at a dose (power and time setting) selected during procedure planning. Time from antenna placement to removal was 23.7±13.1 minutes (median: 21.0, range: 6.0 to 48.0).",
+          "armGroupLabels": [
+            "Percutaneous Microwave Ablation followed by Surgical Resection"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Surgical Resection",
+          "description": "Following completion of the ablation procedure, patients remained intubated on single lung ventilation and scheduled surgical tumor resection (wedge resection) was performed the same day. All 15 subjects underwent both ablation and resection procedures.",
+          "armGroupLabels": [
+            "Percutaneous Microwave Ablation followed by Surgical Resection"
+          ]
+        },
+        {
+          "type": "DIAGNOSTIC_TEST",
+          "name": "Post-ablation CT Imaging",
+          "description": "CT imaging was performed immediately following ablation while the antenna was still in position to assess ablation zone size. This imaging occurred after the ablation was finished but before antenna removal and surgical resection. A minimum of three board-certified radiologists reviewed the blinded images. Ablation zone assessment was based on ground glass opacity. A final CT image was also acquired after antenna removal to assess for any adverse events.",
+          "armGroupLabels": [
+            "Percutaneous Microwave Ablation followed by Surgical Resection"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Dose Response",
+          "description": "Dose response was assessed by comparing the predicted size of ablation zones as determined by the Emprint™ procedure planning application versus the actual ablation zone size as observed on immediate post-ablation CT. The percentage change [calculated as 100 × (A-P)/P] was calculated for each target tumor for ablation zone width (X), ablation zone height (Y), ablation zone depth (Z), ablation zone volume, and ablation zone shape. P represents predicted and A represents actual.",
+          "timeFrame": "Immediately post-ablation (CT scan obtained after ablation finished but with antenna still in position; median time from antenna placement to removal: 21.0 minutes, range 6.0 to 48.0 minutes)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Complete Ablation",
+          "description": "Complete ablation for each target tumor defined as 100% non-viable tumor cells based on nicotinamide adenine dinucleotide hydrogen (NADH) viability staining. The number and percentage of tumors that achieved complete tumor ablation, incomplete tumor ablation (delayed necrosis), and incomplete tumor ablation (positive margin) were assessed.",
+          "timeFrame": "Assessed on resected tissue samples obtained the same day as ablation procedure"
+        },
+        {
+          "measure": "Safety Endpoints: Type, Incidence, and Severity of Adverse Events",
+          "description": "Safety endpoints included type, incidence, and severity of adverse events. Adverse event data were collected starting from the initial administration of anesthesia until conclusion of the first post-operative follow-up visit.",
+          "timeFrame": "From initial administration of anesthesia until conclusion of the first post-operative follow-up visit"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Informed consent given by subject or authorized representative\n- Subject ≥18 years of age\n- At least one pulmonary metastasis ≤3.0 cm in maximum diameter from a distant primary cancer or one primary lung cancer ≤3.0 cm in maximum diameter\n- A thoracic surgeon determined the subject is a candidate for resection of the tumor targeted for ablation\n- Subject is willing and able to comply with all aspects of the treatment and evaluation schedule\n- ≥1 cm of tumor-free lung parenchyma between target tumor and pleura or fissure\n\nExclusion Criteria:\n\nPre-procedure exclusion criteria:\n- Contraindicated for surgery\n- Prolonged infection of the chest, with the definition of this being lung consolidation that requires hospitalization and greater than 10 days of antibiotics 30 days prior to surgery\n- Tumor abutting mainstem bronchus, main pulmonary artery branches, esophagus and/or trachea\n- Tumor with pleural contact\n- Tumors located <3 cm from the staple lines/metal objects\n- Subjects with stage IV emphysema per GOLD criteria\n- Uncontrollable coagulopathy\n- Inability to tolerate discontinuation of anti-coagulants prior to and during the ablation\n- Pregnancy documented by a positive pregnancy test according to hospital standard practices or actively breast-feeding\n- Participation in an investigational drug or device research study within 30 days of enrollment that interferes with this protocol\n- The safety or welfare of the subject may be compromised by participation as determined by the investigator\n- Subjects with implantable pacemakers/other electronic implants\n\nIntra-procedural exclusion criteria:\n- An incidental finding that the subject no longer meets the study eligibility criteria",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

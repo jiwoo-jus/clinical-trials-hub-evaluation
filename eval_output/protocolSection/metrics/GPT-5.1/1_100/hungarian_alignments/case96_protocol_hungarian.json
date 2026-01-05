@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "case_id": 96,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T19:37:29.574033",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/96_NCT04013529.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/96_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.3,
+          0.4
+        ],
+        [
+          0.25,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.3,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participate in technology-enabled care without regret lottery",
+            "interventionNames": [
+              "Behavioral: Way to Health technology enhanced care"
+            ]
+          },
+          "pred_item": {
+            "label": "Control arm",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Veterans with chronic non-malignant pain received a Fitbit activity tracker and daily text message reminders encouraging them to increase physical activity and to meet weekly activity goals (either a 5% increase in steps over the previous week, or achieving and maintaining 150% of baseline steps). No lottery-based financial incentives were provided.",
+            "interventionNames": [
+              "Activity tracker-based physical activity monitoring",
+              "Daily text message reminders"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Experimental",
+            "type": "EXPERIMENTAL",
+            "description": "Participate in technology-enabled care with regret lottery",
+            "interventionNames": [
+              "Behavioral: Regret lottery",
+              "Behavioral: Way to Health technology enhanced care"
+            ]
+          },
+          "pred_item": {
+            "label": "Regret lottery intervention arm",
+            "type": "EXPERIMENTAL",
+            "description": "Veterans with chronic non-malignant pain received the same Fitbit activity tracker and daily text message reminders as the control arm plus a weekly regret lottery. Participants who met their weekly activity goal (either a 5% increase in steps over the previous week, or achieving and maintaining 150% of baseline steps) had a chance to win a small ($30; 18% chance) or large ($100; 1% chance) gift card. Participants who did not meet their goal were sent a regret message indicating what they would have won had they achieved their goal.",
+            "interventionNames": [
+              "Activity tracker-based physical activity monitoring",
+              "Daily text message reminders",
+              "Regret lottery financial incentive"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.58,
+          0.4,
+          0.96
+        ],
+        [
+          0.78,
+          0.9,
+          0.65
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Regret lottery",
+            "description": "Subjects who achieve step goals are entered into a lottery in which they can win a financial incentive of $30 or $100.",
+            "armGroupLabels": [
+              "Experimental"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Regret lottery financial incentive",
+            "description": "A weekly behavioral economic intervention combining lottery incentives with loss aversion. Participants who met their weekly physical activity goal were entered into a regret lottery for a chance to win a small ($30; 18% probability) or large ($100; 1% probability) gift card. Participants who did not meet their goal received a regret message stating the amount they would have won had they met the goal, but did not receive payment.",
+            "armGroupLabels": [
+              "Regret lottery intervention arm"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Way to Health technology enhanced care",
+            "description": "Subjects receive text reminders to reach activity goals.",
+            "armGroupLabels": [
+              "Control",
+              "Experimental"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Daily text message reminders",
+            "description": "Automated daily text messages sent via the Way to Health platform reminding participants to engage in physical activity, work toward their weekly step goals (5% increase over previous week or 150% of baseline), and sync their activity trackers. Message content was standardized, with additional lottery-related content only for the intervention arm.",
+            "armGroupLabels": [
+              "Control arm",
+              "Regret lottery intervention arm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.68,
+          0.82
+        ],
+        [
+          0.9,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Activity Participation",
+            "description": "Stanford Exercise Questionnaire; min score = 0, max score = 180; higher scores = better outcome",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Physical activity (Stanford 7-Day Physical Activity Recall)",
+            "description": "Self-reported time spent engaged in stretching/strengthening activities and aerobic activities assessed using the Stanford 7-Day Physical Activity Recall Questionnaire (PAR). Combined stretching/strengthening scores and aerobic exercise scores were analyzed.",
+            "timeFrame": "Baseline and weekly during the 12-week intervention"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Increased Mobility",
+            "description": "steps per day measured by wearable step tracker at 12 weeks",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Physical activity (step counts)",
+            "description": "Number of steps recorded using a Fitbit activity tracker. Weekly step goals were defined as either a 5% increase in steps over the previous week or achieving and maintaining 150% of baseline step counts.",
+            "timeFrame": "Baseline 2-week run-in period and weekly during the 12-week intervention"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.11,
+          0.35,
+          0.05,
+          0.9,
+          0.78
+        ],
+        [
+          0.88,
+          0.4,
+          0.08,
+          0.12,
+          0.08
+        ],
+        [
+          0.62,
+          0.86,
+          0.18,
+          0.35,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Daily Opioid Use",
+            "description": "measured by opioid morphine mg equivalents used each day (MED)",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Opioid analgesic use (non-buprenorphine)",
+            "description": "Daily dose of opioid-containing analgesics other than buprenorphine, extracted from the electronic health record for the prior 24 hours and converted to daily morphine milligram equivalents (MME) when possible.",
+            "timeFrame": "Baseline and at completion of the 12-week study"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Physical Function",
+            "description": "measured by interference with walking on PROMIS (Patient-reported Outcomes Measurement Information System) pain interference tool, which is a 6-item self-report survey; each item is scored from 1 (not at all) to 5 (very much), thus scores ranged from 6 to 30, with higher score indicating more pain interference.",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Pain-related physical function",
+            "description": "Pain-related interference with walking, activities of daily living, vitality, negative affect, and fear of injury or re-injury measured with the Pain Outcomes Questionnaire, each item rated from 0 (not at all) to 10 (all the time).",
+            "timeFrame": "Baseline and at completion of the 12-week study"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Pain Severity",
+            "description": "measured by pain severity on PROMIS (Patient-reported Outcomes Measurement Information System) pain severity tool, which is a 3-item self-report survey; each item is scored from 1 (no pain at all) to 5 (very severity), thus scores ranged from 3 to 15, with higher score indicating more severe pain.",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Chronic pain severity",
+            "description": "Self-reported chronic pain severity measured with the Pain Outcomes Questionnaire on a scale from 0 (no pain at all) to 10 (worst possible pain).",
+            "timeFrame": "Baseline and at completion of the 12-week study"
+          }
+        }
+      ]
+    }
+  ]
+}

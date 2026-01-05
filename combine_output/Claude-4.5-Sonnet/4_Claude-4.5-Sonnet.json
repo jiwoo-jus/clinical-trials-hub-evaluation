@@ -1,0 +1,179 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03781726",
+      "orgStudyIdInfo": {
+        "id": "MYTHIC",
+        "type": null,
+        "link": null
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Multicenter Study to Transplant Hepatitis C-Infected Kidneys",
+      "officialTitle": "Multicenter Study to Transplant Hepatitis C-Infected Kidneys (MYTHIC)",
+      "acronym": "MYTHIC"
+    },
+    "descriptionModule": {
+      "briefSummary": "The MYTHIC (Multicenter Study to Transplant Hepatitis C-Infected Kidneys) study was a multicenter trial evaluating kidney transplantation from hepatitis C virus (HCV) viremic donors into HCV-negative recipients, followed by 8 weeks of glecaprevir/pibrentasvir (G/P) treatment initiated 2 to 5 days post-transplant. The study aimed to assess the probability of receiving a kidney transplant compared to matched waitlist comparators, and to evaluate 1-year safety outcomes, allograft function, and survival. The hypothesis was that opting-in to receive kidneys from HCV-viremic donors would increase the probability of transplantation with excellent outcomes when followed by early direct-acting antiviral therapy.",
+      "detailedDescription": "The MYTHIC trial was an open-label, multicenter (7 sites) clinical trial that enrolled 63 patients who were candidates for kidney transplantation. Of these, 30 patients underwent HCV donor-RNA-positive/recipient-negative kidney transplantation and received 8 weeks of oral glecaprevir/pibrentasvir (G/P) initiated between days 2 and 5 post-transplant. The remaining patients either received transplants from HCV antibody-positive/RNA-negative donors, received standard-of-care transplants, or remained on the waitlist.\n\nThe study included patients aged 21 to 65 years who were on dialysis or had an estimated glomerular filtration rate <15 ml/min per 1.73 m². Exclusion criteria included positive test results for HIV, hepatitis B virus, known liver disease, or liver stiffness >8 kPa by Fibroscan. Donors had a kidney donor profile index (KDPI) at allocation ≤85%.\n\nThe primary outcome was HCV cure, defined as undetectable plasma HCV RNA 12 weeks after completion of G/P (sustained virologic response at 12 weeks). The 1-year analyses compared the probability of transplant for the 63 MYTHIC participants versus 2055 matched comparators from the United Network for Organ Sharing (UNOS) registry who did not opt-in to receive kidneys from HCV-viremic donors. Additional outcomes included 1-year post-transplant safety events, liver function, BK virus and cytomegalovirus (CMV) viremia and clinical disease, allograft rejection, allograft function, HCV RNA levels, HCV antibody status, and survival.\n\nResults showed that the 1-year cumulative incidence of kidney transplantation was approximately 3.5-fold greater for the MYTHIC cohort versus matched UNOS comparators (68% vs. 19%, P<0.0001). All 30 HCV donor-RNA-positive/recipient-negative transplant recipients achieved HCV cure with no clinically significant liver disease or HCV-related kidney injury. One-year survival was 93% and graft function was excellent (median creatinine 1.17 mg/dl). However, there were 4 cases of CMV disease among 10 CMV-negative patients who received kidneys from HCV-viremic/CMV-positive donors. The study demonstrated that opting-in for HCV-viremic kidney transplant offers can increase the probability of transplantation with excellent 1-year outcomes in carefully selected patients when direct-acting antivirals are initiated early post-transplant."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hepatitis C",
+        "End Stage Renal Disease",
+        "Kidney Failure",
+        "Kidney Transplantation"
+      ],
+      "keywords": [
+        "Hepatitis C virus",
+        "HCV",
+        "Kidney transplantation",
+        "Direct-acting antivirals",
+        "Glecaprevir/pibrentasvir",
+        "HCV-viremic donors",
+        "Organ transplantation",
+        "Cytomegalovirus",
+        "CMV",
+        "BK virus",
+        "Allograft function",
+        "Sustained virologic response",
+        "Deceased donor transplantation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE4"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Open-label clinical trial where all 30 HCV D-RNA-positive/R-negative kidney transplant recipients received 8 weeks of oral glecaprevir/pibrentasvir (G/P) initiated between days 2 and 5 post-transplant",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Open-label trial with no masking"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "HCV D-RNA-positive/R-negative Kidney Transplant Recipients",
+          "type": "EXPERIMENTAL",
+          "description": "HCV-negative patients who received kidney transplants from HCV-viremic donors (HCV D-RNA-positive donors) followed by direct-acting antiviral treatment with glecaprevir/pibrentasvir initiated 2 to 5 days post-transplant. All patients received standard-of-care induction and maintenance immunosuppression and antiviral prophylaxis according to their center's protocol.",
+          "interventionNames": [
+            "Drug: Glecaprevir/Pibrentasvir",
+            "Procedure: Kidney Transplantation from HCV-viremic Donor",
+            "Drug: Valganciclovir (for CMV prophylaxis)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Glecaprevir/Pibrentasvir",
+          "description": "8 weeks of oral glecaprevir/pibrentasvir (G/P) treatment initiated between days 2 and 5 post-kidney transplantation for HCV cure",
+          "armGroupLabels": [
+            "HCV D-RNA-positive/R-negative Kidney Transplant Recipients"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Kidney Transplantation from HCV-viremic Donor",
+          "description": "Kidney transplantation from HCV RNA-positive deceased donors with kidney donor profile index (KDPI) ≤85% into HCV-negative recipients",
+          "armGroupLabels": [
+            "HCV D-RNA-positive/R-negative Kidney Transplant Recipients"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Valganciclovir (for CMV prophylaxis)",
+          "description": "6 months of valganciclovir prophylaxis administered to CMV donor-positive/recipient-negative patients according to each center's standard-of-care protocol",
+          "armGroupLabels": [
+            "HCV D-RNA-positive/R-negative Kidney Transplant Recipients"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "HCV cure rate",
+          "description": "Undetectable plasma HCV RNA 12 weeks after completion of glecaprevir/pibrentasvir treatment (sustained virologic response at 12 weeks)",
+          "timeFrame": "12 weeks after completion of G/P treatment"
+        },
+        {
+          "measure": "Probability of kidney transplantation",
+          "description": "Comparison of probability of transplant for participants enrolled in MYTHIC trial versus matched waitlist comparators",
+          "timeFrame": "1 year from enrollment/matching"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Severe adverse events",
+          "description": "Incidence and characterization of severe adverse events post-kidney transplantation",
+          "timeFrame": "1 year post-transplant"
+        },
+        {
+          "measure": "Liver function",
+          "description": "Assessment of liver biochemical indices and function following kidney transplantation from HCV-viremic donors",
+          "timeFrame": "1 year post-transplant"
+        },
+        {
+          "measure": "BK virus viremia and clinical disease",
+          "description": "Screening and monitoring for BK virus viremia according to each site's standard-of-care",
+          "timeFrame": "1 year post-transplant"
+        },
+        {
+          "measure": "CMV viremia and clinical disease",
+          "description": "Testing for cytomegalovirus viremia and adjudication of CMV disease cases (no disease, probable disease, or definite disease) using standard definitions",
+          "timeFrame": "1 year post-transplant"
+        },
+        {
+          "measure": "Allograft rejection",
+          "description": "Incidence and characterization of kidney allograft rejection episodes",
+          "timeFrame": "1 year post-transplant"
+        },
+        {
+          "measure": "Allograft function",
+          "description": "Assessment of kidney allograft function including estimated glomerular filtration rate and proteinuria",
+          "timeFrame": "1 year post-transplant"
+        },
+        {
+          "measure": "HCV RNA level post-treatment",
+          "description": "HCV RNA level measurement 24 weeks after completion of glecaprevir/pibrentasvir treatment",
+          "timeFrame": "24 weeks after G/P completion"
+        },
+        {
+          "measure": "HCV antibody status",
+          "description": "Presence or absence of HCV antibodies in previously HCV-negative recipients",
+          "timeFrame": "1 year post-transplant"
+        },
+        {
+          "measure": "Patient and allograft survival",
+          "description": "Patient survival and kidney allograft survival rates",
+          "timeFrame": "1 year post-transplant"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Aged 21 to 65 years\n- On dialysis or had an estimated glomerular filtration rate <15 ml/min per 1.73 m²\n- Liver stiffness ≤8 kPa by Fibroscan (no significant liver fibrosis)\n- Donors had a kidney donor profile index (KDPI) at allocation ≤85%\n- Transplant naive\n- Panel-reactive antibodies <80%\n\nExclusion Criteria:\n- Positive test results for HIV\n- Positive test results for hepatitis B virus\n- Known liver disease\n- Liver stiffness >8 kPa by Fibroscan\n- History of cancer\n- Highly sensitized patients\n- Immune-mediated end-stage kidney disease",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

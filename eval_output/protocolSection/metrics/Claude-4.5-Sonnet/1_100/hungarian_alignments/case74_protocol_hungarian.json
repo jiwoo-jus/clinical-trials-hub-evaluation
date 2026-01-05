@@ -1,0 +1,244 @@
+{
+  "metadata": {
+    "case_id": 74,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T18:30:48.577721",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/74_NCT03959423.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/74_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.22,
+          0.4,
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.4,
+          "status": "matched",
+          "ref_item": {
+            "label": "Subjects 7-75 years of age",
+            "type": "EXPERIMENTAL",
+            "description": "Subjects who have been diagnosed with type 1 diabetes",
+            "interventionNames": [
+              "Device: AHCL insulin pump system"
+            ]
+          },
+          "pred_item": {
+            "label": "Study Phase - 100 mg/dL Target (Visits 5-11 or 12-18)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants used the MiniMed AHCL system with both Auto Basal and Auto Correction enabled with a glucose target of 100 mg/dL for approximately 45 days. This could be the first or second half of the study phase depending on randomization.",
+            "interventionNames": [
+              "DEVICE: MiniMed AHCL System - Auto Basal + Auto Correction (100 mg/dL)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.86,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "AHCL insulin pump system",
+            "description": "670G 4.0 system with GS3; 780G system with G4S (continued access phase);",
+            "armGroupLabels": [
+              "Subjects 7-75 years of age"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "MiniMed AHCL System - Auto Basal + Auto Correction (120 mg/dL)",
+            "description": "The MiniMed AHCL system with automated basal insulin delivery (Auto Basal) and automated bolus correction (Auto Correction) every 5 minutes, with glucose target set to 120 mg/dL. The system includes the MiniMed 670G insulin pump (version 4.0 algorithm) with CGM system and a meal detection module developed by DreaMed Diabetes.",
+            "armGroupLabels": [
+              "Study Phase - 120 mg/dL Target (Visits 5-11 or 12-18)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.4,
+          0.95
+        ],
+        [
+          0.96,
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in HbA1c",
+            "description": "The overall mean difference of the change in HbA1c from baseline to end of 3-month Study Period.",
+            "timeFrame": "Baseline to End of 3-Month Study Period"
+          },
+          "pred_item": {
+            "measure": "Change in mean hemoglobin A1C",
+            "description": "Change in hemoglobin A1C (%) from the end of the run-in period to the end of the study phase",
+            "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Percentage of Euglycemia",
+            "description": "The overall mean change in % of time in euglycemia (70-180 mg/dL) from baseline to end of 3-month Study Period will be estimated.",
+            "timeFrame": "Baseline to End of 3-Month Study Period"
+          },
+          "pred_item": {
+            "measure": "Change in mean time in range (TIR, 70–180 mg/dL)",
+            "description": "Percentage of time spent in target glucose range of 70–180 mg/dL from the end of the run-in period to the end of the study phase, measured by continuous glucose monitoring (CGM)",
+            "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 14,
+      "similarity_matrix": [
+        [
+          0.2,
+          0.2,
+          0.6,
+          0.52,
+          0.55,
+          0.1,
+          0.12,
+          0.12,
+          0.1,
+          0.1,
+          0.18,
+          0.2,
+          0.1,
+          0.32
+        ],
+        [
+          0.18,
+          0.12,
+          0.1,
+          0.08,
+          0.12,
+          0.1,
+          0.22,
+          0.2,
+          0.2,
+          0.13,
+          0.1,
+          0.2,
+          0.1,
+          0.12
+        ],
+        [
+          0.72,
+          0.4,
+          0.97,
+          0.78,
+          0.82,
+          0.45,
+          0.6,
+          0.4,
+          0.18,
+          0.2,
+          0.2,
+          0.2,
+          0.2,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 4,
+          "score": 0.55,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Severe Hypoglycemic Event",
+            "description": "Number of severe hypoglycemic events occurred during 3-month Study Period",
+            "timeFrame": "3-month Study Period"
+          },
+          "pred_item": {
+            "measure": "Change in time below range (TBR) at <50 mg/dL",
+            "description": "Percentage of time spent below glucose range at <50 mg/dL measured by CGM from the end of the run-in period to the end of the study phase",
+            "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 6,
+          "score": 0.22,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Diabetic Ketoacidosis (DKA) Event",
+            "description": "Number of Diabetic Ketoacidosis (DKA) event occurred during 3-month Study Period",
+            "timeFrame": "3-month Study Period"
+          },
+          "pred_item": {
+            "measure": "Change in time above range (TAR) at >250 mg/dL",
+            "description": "Percentage of time spent above glucose range at >250 mg/dL measured by CGM from the end of the run-in period to the end of the study phase",
+            "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Percent of Time in Hypoglycemic Range (<70 mg/dL)",
+            "description": "The overall mean change in % of time in hypoglycemic range (\\<70 mg/dL) from baseline to end of 3-month Study Period will be estimated.",
+            "timeFrame": "Baseline to End of 3-Month Study Period"
+          },
+          "pred_item": {
+            "measure": "Change in time below range (TBR) at <70 mg/dL",
+            "description": "Percentage of time spent below glucose range at <70 mg/dL measured by CGM from the end of the run-in period to the end of the study phase",
+            "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+          }
+        }
+      ]
+    }
+  ]
+}

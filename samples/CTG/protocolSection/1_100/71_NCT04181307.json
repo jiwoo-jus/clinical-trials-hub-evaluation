@@ -1,0 +1,101 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04181307",
+      "orgStudyIdInfo": {
+        "id": "19-01464"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "5R33AG057382",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/5R33AG057382"
+        }
+      ],
+      "organization": {
+        "fullName": "NYU Langone Health",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Randomized Trial of a BE-EHR Module to Guide the Care of Older Adults With Diabetes",
+      "officialTitle": "A Randomized Trial of a BE-EHR Module to Guide the Care of Older Adults With Diabetes"
+    },
+    "descriptionModule": {
+      "briefSummary": "This RCT will test a new electronic health record module to improve guideline-compliant care of older adults with diabetes. The module incorporates effective behavioral economics (BE) principles to improve the degree to which care of older adults is compliant with Choosing Wisely (CW) guidelines; this generally involves less aggressive targets for HbA1c, and reductions of medications other than metformin. The implementation of the module is triggered by patient scheduling and medication prescribing in EPIC. The BE principles include suggesting alternatives to medications, requiring justification, setting of appropriate default order sets, and incorporation of anchoring and checklists to guide behavior."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Diabetes"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 7630,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "standard EPIC instantiation",
+          "type": "NO_INTERVENTION",
+          "description": "As per standard procedure at NewYorkUniversity Langone Health"
+        },
+        {
+          "label": "standard EPIC instantiation plus the BE-EHR module.",
+          "type": "EXPERIMENTAL",
+          "description": "The BE-EHR module includes six components: 1) a tailored advisory for patients over 75 with diabetes, 2) medication refill protocol with information on Choosing Wisely guidelines, 3) pre-population of the medication preference list with metformin, 4) lab result protocol with information on Choosing Wisely guidelines, 5) peer comparisons regarding performance meeting guidelines, and 6) media campaign with information about Choosing Wisely guidelines. The set of nudges is referred to collectively as the BE-EHR module.",
+          "interventionNames": [
+            "Behavioral: BE-EHR module"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "BE-EHR module",
+          "description": "The BE-EHR module includes six components: 1) a tailored advisory for patients over 75 with diabetes, 2) medication refill protocol with information on Choosing Wisely guidelines, 3) pre-population of the medication preference list with metformin, 4) lab result protocol with information on Choosing Wisely guidelines, 5) peer comparisons regarding performance meeting guidelines, and 6) media campaign with information about Choosing Wisely guidelines. The set of nudges is referred to collectively as the BE-EHR module.",
+          "armGroupLabels": [
+            "standard EPIC instantiation plus the BE-EHR module."
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants Who Are CW-Compliant and CW-Noncompliant",
+          "description": "In order to evaluate Choosing Wisely (CW) compliance status, the BE-EHR algorithm will capture information on demographics, diagnoses in the patient's problem list, prescription history, and relevant lab results (i.e. allergies and blood glucose (HbA1c)) The study team members will not collect this information directly; data will be collected in NYULH's EHR system, EPIC, and an EPIC Reporting analyst will extract the relevant parameters from the EHR into a report. The study team members only receive the ultimate determination from the algorithm that the patient is either CW-compliant or CW-noncompliant.",
+          "timeFrame": "Month 18"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Total Prescription Encounters",
+          "description": "The Refill Protocol nudge activates in Epic any time a medication refill for either Metformin or a non-Metformin diabetes medication is generated for a patient over 75",
+          "timeFrame": "Month 18"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient at NYULH primary care or endocrinology practice\n* Practices that have patients aged 75 or older\n* Practices that have a diagnosis of diabetes in the EHR chart\n\nExclusion Criteria:\n\n• Under age 75",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "75 Years",
+      "stdAges": [
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

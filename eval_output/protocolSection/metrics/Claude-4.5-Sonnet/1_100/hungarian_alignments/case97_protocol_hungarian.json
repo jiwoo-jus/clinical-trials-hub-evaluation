@@ -1,0 +1,482 @@
+{
+  "metadata": {
+    "case_id": 97,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T19:44:39.154151",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/97_NCT04088409.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/97_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part A: Percentage of Responders for Baricitinib at Week 24",
+            "description": "Response was defined according to the Standardization of Uveitis Nomenclature (SUN) criteria as a 2-step decrease in the level of inflammation (anterior chamber cells) or decrease to zero through week 24, in the eye most severely affected at baseline.",
+            "timeFrame": "Week 24"
+          },
+          "pred_item": {
+            "measure": "Proportion of patients with response at week 24",
+            "description": "Response is defined according to the SUN criteria as a 2-step decrease in the level of inflammation (anterior chamber cells) or decrease to zero through week 24 in the eye most severely affected at baseline.",
+            "timeFrame": "Week 24"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 11,
+      "pred_count": 21,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.86,
+          0.78,
+          0.1,
+          0.3,
+          0.76,
+          0.7,
+          0.52,
+          0.45,
+          0.3,
+          0.7,
+          0.72,
+          0.65,
+          0.62,
+          0.15,
+          0.72,
+          0.08,
+          0.2,
+          0.08,
+          0.05,
+          0.06
+        ],
+        [
+          0.78,
+          0.86,
+          0.7,
+          0.25,
+          0.3,
+          0.7,
+          0.72,
+          0.35,
+          0.28,
+          0.4,
+          0.55,
+          0.4,
+          0.68,
+          0.45,
+          0.1,
+          0.52,
+          0.07,
+          0.2,
+          0.05,
+          0.05,
+          0.08
+        ],
+        [
+          0.68,
+          0.66,
+          0.9,
+          0.18,
+          0.28,
+          0.68,
+          0.42,
+          0.55,
+          0.35,
+          0.35,
+          0.45,
+          0.4,
+          0.76,
+          0.42,
+          0.22,
+          0.78,
+          0.45,
+          0.63,
+          0.04,
+          0.08,
+          0.05
+        ],
+        [
+          0.4,
+          0.32,
+          0.4,
+          0.96,
+          0.25,
+          0.4,
+          0.6,
+          0.65,
+          0.18,
+          0.35,
+          0.68,
+          0.68,
+          0.25,
+          0.22,
+          0.03,
+          0.2,
+          0.15,
+          0.2,
+          0.05,
+          0.1,
+          0.05
+        ],
+        [
+          0.4,
+          0.4,
+          0.28,
+          0.45,
+          0.98,
+          0.6,
+          0.82,
+          0.72,
+          0.4,
+          0.35,
+          0.72,
+          0.48,
+          0.2,
+          0.2,
+          0.05,
+          0.4,
+          0.08,
+          0.18,
+          0.02,
+          0.02,
+          0.05
+        ],
+        [
+          0.78,
+          0.78,
+          0.5,
+          0.2,
+          0.5,
+          0.96,
+          0.78,
+          0.4,
+          0.3,
+          0.25,
+          0.6,
+          0.4,
+          0.4,
+          0.3,
+          0.07,
+          0.55,
+          0.15,
+          0.25,
+          0.05,
+          0.07,
+          0.04
+        ],
+        [
+          0.6,
+          0.7,
+          0.74,
+          0.1,
+          0.2,
+          0.6,
+          0.7,
+          0.3,
+          0.3,
+          0.2,
+          0.45,
+          0.38,
+          0.92,
+          0.7,
+          0.25,
+          0.65,
+          0.3,
+          0.32,
+          0.15,
+          0.05,
+          0.12
+        ],
+        [
+          0.45,
+          0.4,
+          0.6,
+          0.15,
+          0.18,
+          0.35,
+          0.6,
+          0.32,
+          0.18,
+          0.25,
+          0.45,
+          0.3,
+          0.7,
+          0.96,
+          0.2,
+          0.78,
+          0.08,
+          0.2,
+          0.08,
+          0.05,
+          0.06
+        ],
+        [
+          0.18,
+          0.18,
+          0.3,
+          0.08,
+          0.15,
+          0.22,
+          0.4,
+          0.4,
+          0.3,
+          0.3,
+          0.4,
+          0.4,
+          0.4,
+          0.35,
+          0.88,
+          0.35,
+          0.25,
+          0.35,
+          0.1,
+          0.08,
+          0.1
+        ],
+        [
+          0.35,
+          0.22,
+          0.32,
+          0.18,
+          0.28,
+          0.32,
+          0.35,
+          0.4,
+          0.72,
+          0.6,
+          0.42,
+          0.32,
+          0.25,
+          0.18,
+          0.2,
+          0.38,
+          0.4,
+          0.9,
+          0.08,
+          0.02,
+          0.05
+        ],
+        [
+          0.35,
+          0.38,
+          0.35,
+          0.25,
+          0.3,
+          0.35,
+          0.92,
+          0.9,
+          0.78,
+          0.7,
+          0.78,
+          0.86,
+          0.2,
+          0.4,
+          0.2,
+          0.43,
+          0.1,
+          0.2,
+          0.05,
+          0.08,
+          0.07
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in SUN Grade of Cells in the Anterior Chamber in the Most Severely Affected Eye",
+            "description": "Change from Baseline in SUN Grade of Cells in the Anterior Chamber in the Most Severely Affected Eye. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline, Week 24"
+          },
+          "pred_item": {
+            "measure": "Change in SUN grade of cells in the anterior chamber through week 24 (part A) and through week 284 (part B) in the most severely affected eye",
+            "description": "Change in SUN grade of cells in the anterior chamber from baseline",
+            "timeFrame": "Week 24 and week 284"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in SUN Grade of Cells in the Anterior Chamber in the Less Severely Affected Eye (If Applicable)",
+            "description": "Change from Baseline in SUN Grade of Cells in the Anterior Chamber in the Less Severely Affected Eye (If Applicable). Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline, Week 24"
+          },
+          "pred_item": {
+            "measure": "Change in SUN grade of cells in the anterior chamber through week 24 and week 284 in the less severely affected eye (if applicable)",
+            "description": "Change in SUN grade of cells in the anterior chamber from baseline in the less severely affected eye",
+            "timeFrame": "Week 24 and week 284"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Responders in Participants With Bilateral Uveitis Disease at Baseline",
+            "description": "Response is defined according to the SUN criteria as a 2-step decrease in the level of anterior chamber cells in the most severely affected eye at baseline (or both eyes if the inflammation grade is the same in both eyes) and a 1-step decrease in the level of anterior chamber cells in the less severely affected eye at baseline. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Week 24"
+          },
+          "pred_item": {
+            "measure": "Proportion of responders in patients with bilateral uveitis disease at baseline at weeks 24 and 284",
+            "description": "Defined according to the SUN criteria as a 2-step decrease in the level of anterior chamber cells in the most severely affected eye at baseline (or both eyes if the inflammation grade is the same in both eyes) and a 1-step decrease in the level of anterior chamber cells in the less severely affected eye at baseline",
+            "timeFrame": "Week 24 and week 284"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Visual Acuity Measured by Age-Appropriate Logarithm of the Minimum Angle of Resolution (LogMAR) Test",
+            "description": "Change from Baseline in Visual Acuity Measured by Age-Appropriate LogMAR Test. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline, Week 24"
+          },
+          "pred_item": {
+            "measure": "Change in visual acuity measured by age-appropriate logarithm of the minimum angle of resolution test through week 24",
+            "description": "Change in visual acuity from baseline",
+            "timeFrame": "Week 24"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Vitreous Haze",
+            "description": "Change from Baseline in Vitreous Haze. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline, Week 24"
+          },
+          "pred_item": {
+            "measure": "Change in vitreous haze through week 24 in each affected eye",
+            "description": "Change in vitreous haze from baseline",
+            "timeFrame": "Week 24"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 5,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Grade of Flare in the Anterior Chamber",
+            "description": "Change from Baseline in Grade of Flare in the Anterior Chamber. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline, Week 24"
+          },
+          "pred_item": {
+            "measure": "Change in grade of flare in the anterior chamber through week 24 and week 284 in each affected eye",
+            "description": "Change in grade of flare in the anterior chamber from baseline",
+            "timeFrame": "Week 24 and week 284"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 12,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Inactive Anterior Uveitis (Using SUN Definition)",
+            "description": "Percentage of Participants with Inactive Anterior Uveitis (using SUN Definition). Outcome data will be provided after the study is completed.",
+            "timeFrame": "Week 24"
+          },
+          "pred_item": {
+            "measure": "Proportion of patients with inactive anterior uveitis (using SUN definition) in each affected eye through week 24 and week 284",
+            "description": "Proportion of patients with inactive anterior uveitis according to SUN definition",
+            "timeFrame": "Week 24 and week 284"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 13,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time to Inactive Anterior Uveitis Disease (Using SUN Definition)",
+            "description": "Time to Inactive Anterior Uveitis Disease (Using SUN Definition). Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline through Week 24"
+          },
+          "pred_item": {
+            "measure": "Time to inactive anterior uveitis disease (using SUN definition) in each affected eye",
+            "description": "Time to inactive anterior uveitis disease according to SUN definition",
+            "timeFrame": "Up to week 284"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 14,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants Who Are Able to Taper Concomitant Topical Corticosteroids to <2 Drops Per Day",
+            "description": "Percentage of Participants who are Able to Taper Concomitant Topical Corticosteroids to \\<2 Drops Per Day. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Week 24"
+          },
+          "pred_item": {
+            "measure": "Proportion of patients who are able to taper concomitant corticosteroids",
+            "description": "Proportion of patients who are able to taper concomitant corticosteroids",
+            "timeFrame": "Up to week 284"
+          }
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": 17,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Pediatric American College of Rheumatology (PediACR30) Response Rate (For Participants With JIA-U)",
+            "description": "PediACR30 Response Rate (For Participants with JIA-U). Outcome data will be provided after the study is completed.",
+            "timeFrame": "Week 24"
+          },
+          "pred_item": {
+            "measure": "Pediatric American College of Rheumatology (PediACR) 30/50/70/90/100 response rates (for patients with JIA-uveitis)",
+            "description": "PediACR 30/50/70/90/100 response rates",
+            "timeFrame": "Up to week 284"
+          }
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": 6,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Overall Uveitis-Related Disability",
+            "description": "Change from Baseline in Overall Uveitis-Related Disability. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline, Week 24"
+          },
+          "pred_item": {
+            "measure": "Change in overall uveitis-related disability: Change in Patient Uveitis-related Disease Activity through week 24",
+            "description": "Change in Patient Uveitis-related Disease Activity from baseline",
+            "timeFrame": "Week 24"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04358549",
+      "orgStudyIdInfo": {
+        "id": "US201"
+      },
+      "organization": {
+        "fullName": "Fujifilm Pharmaceuticals USA, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Favipiravir in Hospitalized Patients With COVID-19",
+      "officialTitle": "A Phase 2, Randomized, Open-Label, Multicenter Trial of Favipiravir to Treat Adults Hospitalized for COVID-19"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a randomized, open-label, multicenter, phase 2 proof-of-concept trial evaluating the safety and efficacy of favipiravir in hospitalized adult patients with polymerase chain reaction (PCR)–positive coronavirus disease 2019 (COVID-19). Favipiravir, a nucleoside analog with antiviral activity against RNA viruses, was administered orally in addition to standard of care (SOC) and compared against SOC alone. The primary objective was to measure the time to viral clearance by day 29, assessing whether favipiravir accelerates the elimination of SARS-CoV-2 in hospitalized patients.",
+      "detailedDescription": "The trial was conducted at 7 US academic medical centers involving hospitalized adults (ages 18–80) with SARS-CoV-2 infection confirmed by PCR within 72 hours of hospitalization and symptom onset within 10 days. Patients were stratified by disease severity (critical, severe, or mild to moderate) and randomized to receive either standard of care (SOC) alone or favipiravir plus SOC. The favipiravir dosing regimen was 1800 mg orally twice a day (b.i.d.) on day 1, followed by 1000 mg b.i.d. for 13 days (total 14 days). Patients with Child-Pugh A liver disease received a reduced maintenance dose.\n\nThe primary endpoint was time to viral clearance, defined as the number of days from randomization to the first negative SARS-CoV-2 PCR result (or result below the lower limit of detection) from scheduled nasopharyngeal and oropharyngeal swabs, assessed up to day 29. Secondary endpoints included clinical recovery status measured by a study-specific 6-point ordinal scale, time to clinical recovery (normalization of fever, respiratory rate, oxygen saturation, and alleviation of cough), clinical effect via the NEWS2 system, all-cause mortality, frequency of respiratory progression, and safety profiles. Pharmacokinetic analyses were performed to assess plasma favipiravir levels. Post hoc analyses examined the impact of baseline neutralizing antibody status and time from symptom onset on viral clearance."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19",
+        "SARS-CoV-2 Infection"
+      ],
+      "keywords": [
+        "Favipiravir",
+        "Antiviral Agents",
+        "Viral Clearance",
+        "Nucleoside Analog",
+        "Pharmacokinetics",
+        "Hospitalized Patients"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Open-label"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Favipiravir Group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received 1800 mg of favipiravir per os b.i.d. on day 1, followed by 1000 mg b.i.d. (800 mg b.i.d. for patients with Child-Pugh A liver disease) for 13 days, in addition to Standard of Care (SOC).",
+          "interventionNames": [
+            "Favipiravir",
+            "Standard of Care (SOC)"
+          ]
+        },
+        {
+          "label": "Standard of Care (SOC) Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients received Standard of Care (SOC) alone.",
+          "interventionNames": [
+            "Standard of Care (SOC)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Favipiravir",
+          "description": "Administered orally. 1800 mg twice a day (b.i.d.) on Day 1, followed by 1000 mg b.i.d. (or 800 mg b.i.d. for Child-Pugh A liver disease) for Days 2 through 14. For patients unable to swallow, pills were provided as a slurry in a nasogastric tube.",
+          "armGroupLabels": [
+            "Favipiravir Group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Standard of Care (SOC)",
+          "description": "Standard medical management for hospitalized patients with COVID-19. Could include oxygen supplementation, noninvasive ventilation, and dexamethasone (permitted later in the study).",
+          "armGroupLabels": [
+            "Favipiravir Group",
+            "Standard of Care (SOC) Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time to viral clearance",
+          "description": "Defined as the time (in days) when negative (or below the lower limit of detection) PCR results for SARS-CoV-2 were obtained from scheduled nasopharyngeal and oropharyngeal swabs.",
+          "timeFrame": "Day 1 up to Day 29"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Status of clinical recovery",
+          "description": "Measured by the study-specific 6-point ordinal scale.",
+          "timeFrame": "Day 15"
+        },
+        {
+          "measure": "Time to clinical recovery",
+          "description": "Defined as (a) time (hours) from initiation of study treatment until normalization of fever, respiratory rate, and oxygen saturation, and alleviation of cough, sustained for at least 72 hours; or discharge; and (b) normalization and alleviation criteria.",
+          "timeFrame": "Up to 29 days"
+        },
+        {
+          "measure": "Clinical effect",
+          "description": "Measured by the National Early Warning Score 2 (NEWS2) system.",
+          "timeFrame": "Days 1, 2, 3, 8, 11, 15, 29, and 45"
+        },
+        {
+          "measure": "All-cause mortality",
+          "description": "Assessment of death from any cause.",
+          "timeFrame": "Up to Day 60"
+        },
+        {
+          "measure": "Frequency of respiratory progression",
+          "description": "Defined as SpO2 ≤94% on room air or partial pressure of oxygen/fraction of inspired oxygen <300 mmHg, and requirement for supplemental oxygen or more advanced ventilator support.",
+          "timeFrame": "Up to Day 29"
+        },
+        {
+          "measure": "Time to defervescence",
+          "description": "Time to resolution of fever in those with fever at enrollment.",
+          "timeFrame": "Up to Day 60"
+        },
+        {
+          "measure": "Time to cough reported as mild or absent",
+          "description": "Assessed in those with cough at enrollment rated severe or moderate.",
+          "timeFrame": "Up to Day 60"
+        },
+        {
+          "measure": "Time to dyspnea reported as mild or absent",
+          "description": "Assessed on a scale of severe, moderate, mild, or absent, in those with dyspnea at enrollment rated as severe or moderate.",
+          "timeFrame": "Up to Day 60"
+        },
+        {
+          "measure": "Frequency of requirement for supplemental oxygen or noninvasive ventilation",
+          "description": "Frequency of patients requiring supplemental oxygen or noninvasive ventilation.",
+          "timeFrame": "Up to Day 60"
+        },
+        {
+          "measure": "Time to SARS-CoV-2 RT-PCR-negative in upper respiratory tract specimen",
+          "description": "Time until negative RT-PCR result.",
+          "timeFrame": "Up to Day 29"
+        },
+        {
+          "measure": "Change in SARS-CoV-2 viral load in upper respiratory tract specimen",
+          "description": "Assessed by area under viral load curve.",
+          "timeFrame": "Up to Day 29"
+        },
+        {
+          "measure": "Frequency of requirement for mechanical ventilation",
+          "description": "Frequency of patients requiring mechanical ventilation.",
+          "timeFrame": "Up to Day 60"
+        },
+        {
+          "measure": "Safety of favipiravir+SOC vs SOC alone",
+          "description": "Assessment of adverse events and serious adverse events.",
+          "timeFrame": "Up to Day 60"
+        },
+        {
+          "measure": "C-reactive protein",
+          "description": "Measurement of C-reactive protein levels.",
+          "timeFrame": "Over time (up to Day 29)"
+        },
+        {
+          "measure": "Population PK analysis of favipiravir",
+          "description": "Assessment of maximum plasma concentration (Cmax), minimum plasma concentration (Cmin), and AUC(0-24h).",
+          "timeFrame": "Days 1, 2, 8, and 14"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Hospitalized adults (age 18–80 years)\n* SARS-CoV-2 PCR-positive nasopharyngeal or oropharyngeal test (within 72 hours of their hospitalization and within 7 days of the first positive PCR for SARS-CoV-2)\n* Symptom onset within 10 days of presentation\n\nExclusion Criteria:\n* Taking other antivirals (including remdesivir)\n* Taking steroids (except for a topical or inhaled preparation or the equivalent of >10mg of prednisone)\n* Receiving immune plasma\n* Taking immunosuppressive or immunomodulatory drugs (including anticancer drugs, interleukins, interleukin antagonists, or interleukin receptor blockers)\n* Serious chronic diseases, including moderate or severe hepatic disease, and/or unstable renal, cardiac, pulmonary, neurologic, vascular, or endocrinologic diseases requiring medication dose changes within the last 30 days\n* Glomerular filtration rates >20mL/min or requiring hemodialysis/continuous ambulatory peritoneal dialysis\n* Liver impairment greater than Child-Pugh A\n* Uncontrolled psychiatric disease\n* History of alcohol or drug abuse in the previous 6 months\n* Requiring mechanical ventilators at entry",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "80 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT03995225,NCT03995225,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,DERR1-10.2196/32521,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,REGISTRY,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,National Center for Complementary and Integrative Health,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,International Registered Report Identifier (IRRID),,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,Smartband Mindfulness Study,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,Smartband/Smartphone-based Automatic Smoking Detection and Real Time Mindfulness Intervention,,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"To determine treatment fidelity for a smartband/smartphone-based smoking monitoring, notification and brief mindfulness intervention.","This pilot trial tests the feasibility of using a smartband and smartphone to monitor and detect smoking and deliver brief mindfulness interventions in real time to reduce smoking. Daily smokers wear a smartband for 60 days to monitor and detect smoking, notify them about their smoking events in real time, and deliver real-time brief mindfulness exercises triggered by detected smoking events or targeted at predicted smoking events.",True,0.86,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"This study will test the feasibility of using a smartband to detect and track smoking and deliver brief smoking cessation interventions by smartphone app in real time. Smokers will wear a smartband to detect and notify them of smoking for 21 days and obtain individual smoking profiles; detected smoking will then trigger a ""mindful smoking"" exercise for the next 7 days leading up to their quit date at 30 days; after which another mindfulness exercise (""RAIN"": recognize, accept, investigate and note cravings rather than smoke) will be delivered prior to each predicted smoking episode according to their individual smoking profile for 30 days post-quit.","This study tests a three-step intervention to reduce smoking among daily smokers (N=100, ≥5 cigarettes per day) over a 60-day period. Participants wear a smartband developed by Somatix, Inc., which uses a machine learning algorithm to identify hand-to-mouth gestures that characterize smoking. 
+
+The intervention proceeds in three phases: 
+1. For the first 21 days, the smartband monitors and detects smoking, notifying participants of smoking events in real time to bring awareness to smoking behavior and triggers. Participants are asked to confirm or deny smoking events via the smartphone app.
+2. For the next 7 days (days 21-28), a 'mindful smoking' exercise is triggered by detected smoking events to bring a clear recognition of the actual effects of smoking (physical sensations, emotions, thoughts).
+3. Finally, after a set quit date at 30 days, a 'RAIN' (recognize, allow, investigate, nonidentification) mindfulness exercise is delivered to predicted smoking events (based on the initial 3 weeks of tracking smoking data) to help smokers learn to work mindfully with cravings rather than smoke for 30 days.
+
+The primary outcomes are feasibility measures of treatment fidelity, adherence, and acceptability. Secondary outcomes include smoking rates and abstinence at the end of treatment.",True,0.97,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['Smoking Cessation'],"['Smoking Cessation', 'Nicotine Dependence', 'Tobacco Use']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Mindfulness', 'mHealth', 'Wearable Technology', 'Smartband', 'Smoking', 'Smartphone App', 'Ecological Momentary Assessment', 'RAIN']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,NA,NA,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,SINGLE_GROUP,SINGLE_GROUP,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,All participants will receive a smartband and smartphone app for the smartband and take part in a 60-day intervention. A three-step intervention to reduce smoking is tested.,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,FP,155,100,False,0.5,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].measure,EV,EV,,Continuous Abstinence,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].description,EV,EV,,"Defined as <5 cigarettes since quit date, measured by self-report.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].timeFrame,EV,EV,,At 60 days,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Smoking Characteristics (Dependence and Withdrawal),,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].measure,EV,EV,,Mindfulness Levels,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[2].measure,EV,EV,,Ecological Momentary Assessment (EMA) Ratings,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,Assessed using the Fagerström Test for Nicotine Dependence and Minnesota Tobacco Withdrawal Scale.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].description,EV,EV,,Assessed using the Five Facet Mindfulness Questionnaire short form.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[2].description,EV,EV,,Ratings of craving and affect collected throughout the intervention.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,"Baseline, 21, 28, and 60 days",,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].timeFrame,EV,EV,,"Baseline, 21, 28, and 60 days",,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[2].timeFrame,EV,EV,,Throughout the 60-day intervention,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* At least 18 years of age
+* Daily smokers (≥ 5 cigarettes per day)
+* Daily smoker for at least 2 years
+* Own an Android phone or iPhone
+* Fluent in English as study content is currently only available in English
+* \>18 of 20 on the Action subscale of the Readiness to Change Questionnaire
+
+Exclusion Criteria:
+
+* E-cigarette use (some days/every day)","Inclusion Criteria:
+*   18 years or older
+*   Smoke at least 5 cigarettes per day (CPD) for at least 2 years
+*   Own an iPhone or Android
+*   Fluent in English
+*   Motivated to quit as indicated by a score of at least 4 of 5 on one item of the Action subscale of the Readiness to Change Questionnaire (""I am trying to smoke less than I used to"")",True,0.93,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,FP,True,False,False,0.0,success,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

@@ -1,0 +1,281 @@
+{
+  "metadata": {
+    "case_id": 64,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T17:58:50.815204",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/64_NCT04234984.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/64_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Conventional radiofrequency (RF) treatment",
+            "description": "All patients with chronic knee pain who qualify for a conventional RF treatment of the genicular nerves"
+          },
+          "pred_item": {
+            "label": "Degenerative Knee Pain Group (DP)",
+            "type": "OTHER",
+            "description": "Patients with chronic anterior knee pain due to degenerative disease (osteoarthritis), soft tissue disease, or post-traumatic pain, refractory to conservative treatment",
+            "interventionNames": [
+              "PROCEDURE: Ultrasound-guided conventional radiofrequency ablation of genicular nerves"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "The Number of Patients Reaching Treatment Succes at 6 Weeks Defined as Global Perceived Effect (GPE) of ≥ 50% Compared to Baseline.",
+            "description": "Treatment success is defined as a global perceived effect (GPE) of at least 50% at measurement time point compared to baseline.\n\nGlobal perceived effect (GPE) scales are used as an overall outcome measure for patients with pain, as they may cover additional aspects to pain relief and physical function that are important to the individual. Patients are asked to response on the question of how the treatment influenced the pain symptoms. The patients were asked to expres their answer in percentage where 0 % ( no improvement) to 100 (total improvement, the symptoms are gone).",
+            "timeFrame": "6 weeks after treatment"
+          },
+          "pred_item": {
+            "measure": "Proportion of patients with treatment success defined as Global Perceived Effect (GPE) ≥50%",
+            "description": "Treatment success at week 6 defined as a Global Perceived Effect (GPE) of ≥50% improvement compared to baseline. GPE was expressed as percentage of improvement, ranging from 0–100%.",
+            "timeFrame": "6 weeks post-intervention"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 8,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.45,
+          0.94,
+          0.18,
+          0.55,
+          0.4,
+          0.12,
+          0.1
+        ],
+        [
+          0.18,
+          0.78,
+          0.25,
+          0.4,
+          0.42,
+          0.18,
+          0.2
+        ],
+        [
+          0.78,
+          0.32,
+          0.92,
+          0.15,
+          0.1,
+          0.11,
+          0.22
+        ],
+        [
+          0.1,
+          0.27,
+          0.15,
+          0.12,
+          0.78,
+          0.15,
+          0.2
+        ],
+        [
+          0.25,
+          0.25,
+          0.25,
+          0.15,
+          0.86,
+          0.15,
+          0.32
+        ],
+        [
+          0.78,
+          0.7,
+          0.35,
+          0.32,
+          0.18,
+          0.13,
+          0.1
+        ],
+        [
+          0.18,
+          0.08,
+          0.18,
+          0.1,
+          0.18,
+          0.3,
+          0.9
+        ],
+        [
+          0.18,
+          0.1,
+          0.15,
+          0.2,
+          0.2,
+          0.3,
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "The Number of Participants With NRS Reduction ≥50% Compared to Baseline",
+            "description": "The numeric rating scale (NRS) is used to assess pain intensity varying from 0 (no pain) to 10 (intense pain). This scale was retrieved retrospectively out of the patient file.\n\nNRS reduction ≥50% is calculated using the NRS at 6 weeks compared to the NRS at baseline.",
+            "timeFrame": "6 weeks after treatment"
+          },
+          "pred_item": {
+            "measure": "Numeric Rating Scale (NRS) reduction ≥50% compared to baseline",
+            "description": "Proportion of patients achieving at least 50% reduction in NRS pain score compared to baseline, at 6 weeks and at the second time point.",
+            "timeFrame": "6 weeks post-intervention and at the second time point (variable, mean 17 months)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 3,
+          "score": 0.4,
+          "status": "matched",
+          "ref_item": {
+            "measure": "The Patient's NRS",
+            "description": "The numeric rating scale (NRS) is used to assess pain intensity varying from 0 (no pain) to 10 (intense pain). This scale will be asked telephonically to the patient.",
+            "timeFrame": "after retrieval of informed consent, ranging from 6 weeks to 2.5 years after the procedure"
+          },
+          "pred_item": {
+            "measure": "Long-term treatment effect duration",
+            "description": "Duration of pain reduction effect following radiofrequency treatment, measured in months.",
+            "timeFrame": "From treatment up to end of follow-up (maximum 27 months)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "The Number of Patients With Subjective Increase in Physical Functioning at the Second Time Point",
+            "description": "The question 'Do you experience at the moment functional improvement in comparison with before the treatment?' is asked telephonically to the patient. The possible answers are 'no increase in physical functioning' and ' yes, there was an increase in physical funcitoning'. An increase in physical functioning is the best outcome.",
+            "timeFrame": "after retrieval of informed consent, ranging from 6 weeks to 2.5 years after the procedure"
+          },
+          "pred_item": {
+            "measure": "Subjective physical functioning",
+            "description": "Subjective functional outcome reported by patients at the second follow-up time point.",
+            "timeFrame": "Second time point (variable, mean 17 months)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "The Number of Pariticipants Using Strong Opioids",
+            "description": "The change in use of strong opioids is retrieved retrospectively out of the patient file. The answer to the use of strong opioids is yes or no. No use of strong opioids is a better outcome.",
+            "timeFrame": "6 weeks after treatment"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Strong Opioid Use at the Second Time Point",
+            "description": "The change in use of strong opioids is asked telephonically to the patient.",
+            "timeFrame": "after retrieval of informed consent, ranging from 6 weeks to 2.5 years after the procedure"
+          },
+          "pred_item": {
+            "measure": "Use of strong opioids",
+            "description": "Consumption of strong opioid analgesics (all opioids excluding tramadol and codeine) at 6 weeks and at the second time point.",
+            "timeFrame": "Baseline, 6 weeks post-intervention, and at the second time point (variable, mean 17 months)"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "The Number of Participants Reaching Treatment Success After Retrieval of the Informed Consent Defined as GPE of ≥ 50% Compared to Baseline.",
+            "description": "Treatment success is defined as a global perceived effect (GPE) of at least 50% at measurement time point compared to baseline.\n\nGlobal perceived effect (GPE) scales are used as an overall outcome measure for patients with pain, as they may cover additional aspects to pain relief and physical function that are important to the individual. Patients are asked to response on the question of how the treatment influenced the pain symptoms. The patients were asked to expres their answer in percentage where 0 % ( no improvement) to 100 (total improvement, the symptoms are gone).",
+            "timeFrame": "after retrieval of informed consent, ranging from 6 weeks to 2.5 years after the procedure"
+          },
+          "pred_item": {
+            "measure": "Proportion of patients with treatment success at the second time point",
+            "description": "Treatment success (GPE ≥50%) assessed at a variable follow-up time point (mean 17 months) for patients who had treatment success at 6 weeks.",
+            "timeFrame": "Variable time point (mean 17 months, range up to 27 months)"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 5,
+          "score": 0.3,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Post-treatment Complications",
+            "description": "Adverse events related to the conventional radiofrequency therapy will be assessed. This will be assessed retrospectively in the patient file according to the standard of care consultation at 6 weeks after treatment.",
+            "timeFrame": "6 weeks after treatment."
+          },
+          "pred_item": {
+            "measure": "Rescue interventions",
+            "description": "Need for additional invasive treatments or interventions performed on the knee during the follow-up period.",
+            "timeFrame": "Up to end of follow-up (maximum 27 months)"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 6,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Post-treatment Complications",
+            "description": "Adverse events related to the conventional radiofrequency therapy will be assessed telephonically",
+            "timeFrame": "after retrieval of informed consent, ranging from 6 weeks to 2.5 years after the procedure"
+          },
+          "pred_item": {
+            "measure": "Adverse events",
+            "description": "Number, type, and severity of adverse events evaluated at 6 weeks and at the second time point after RF treatment.",
+            "timeFrame": "6 weeks post-intervention and at the second time point (variable, mean 17 months)"
+          }
+        }
+      ]
+    }
+  ]
+}

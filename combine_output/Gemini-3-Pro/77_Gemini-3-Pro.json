@@ -1,0 +1,187 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03697161",
+      "organization": {
+        "fullName": "Ovid Therapeutics, Inc.",
+        "class": "INDUSTRY"
+      },
+      "acronym": "ROCKET"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluates the safety, tolerability, and efficacy of Gaboxadol (OV101) in adolescent and adult males with Fragile X Syndrome (FXS). FXS is a genetic disorder associated with intellectual disability and behavioral challenges, potentially linked to a deficiency in the GABAergic neurotransmitter system. OV101 is an investigational drug designed to target specific GABAA receptors to restore tonic inhibition in the brain. In this 12-week, randomized, double-blind, Phase 2a trial, participants received OV101 either once, twice, or three times daily to assess its potential to improve neurobehavioral symptoms compared to baseline.",
+      "detailedDescription": "This 12-week, randomized (1:1:1), double-blind, parallel-group, Phase 2a study was conducted to investigate the safety profile and therapeutic potential of Gaboxadol (OV101) in treating Fragile X Syndrome (FXS). The pathophysiology of FXS involves the silencing of the FMR1 gene and a subsequent lack of Fragile X Mental Retardation Protein (FMRP), which leads to reduced expression of the GABAA receptor delta subunit and deficient GABAergic tonic inhibition. OV101 acts as a delta-subunit–selective, extrasynaptic GABAA receptor agonist aiming to enhance this inhibition.\n\nThe study enrolled adolescent and adult males (aged 13–22 years) with clinically and molecularly confirmed FXS and moderate-to-severe neurobehavioral phenotypes. Participants were randomized to receive OV101 5 mg once daily (QD), twice daily (BID), or three-times daily (TID). The primary objective was to assess safety and tolerability, measuring treatment-emergent adverse events (TEAEs), laboratory evaluations, and vital signs. The secondary objective focused on efficacy regarding problem behaviors associated with FXS.\n\nEfficacy endpoints included the Clinical Global Impressions-Improvement (CGI-I) scale, Clinical Global Impressions–Severity (CGI-S) scale, the Aberrant Behavior Checklist-Community Edition refactored for FXS (ABC-CFXS), and the Anxiety, Depression, and Mood Scales (ADAMS). Exploratory endpoints included the Repetitive Behavior Scale–Revised (RBS-R) and caregiver-identified top concerns via a Visual Analog Scale (VAS). This proof-of-concept study aimed to identify an optimal dosing regimen and provide an initial signal of efficacy for future larger-scale trials."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Fragile X Syndrome",
+        "Intellectual Disability",
+        "Autism Spectrum Disorder",
+        "Neurodevelopmental Disorders"
+      ],
+      "keywords": [
+        "Gaboxadol",
+        "OV101",
+        "GABAA receptor agonist",
+        "FMR1 gene",
+        "Tonic inhibition",
+        "GABAergic dysfunction",
+        "Adolescent",
+        "Adult"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This 12-weeks, randomized (1:1:1), double-blind, parallel-group, phase 2a study was designed to assess the safety, tolerability, efficacy, and optimal daily dose of OV101 5 mg [once (QD), twice (BID), or three-times daily (TID)] when administered for 12 weeks to adolescent and adult men with FXS. All patients received study medication TID (morning, afternoon, and evening), with OV101 administered to all participants in the morning and either OV101 or placebo administered in the afternoon and evening throughout the treatment period.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Double-blind. All patients received study medication TID (morning, afternoon, and evening), with OV101 administered to all participants in the morning and either OV101 or placebo administered in the afternoon and evening throughout the treatment period (including baseline)."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 23,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "OV101 5 mg QD",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received OV101 5 mg once daily (QD) in the morning. To maintain the blind for the three-times daily (TID) administration schedule, placebo was administered in the afternoon and evening.",
+          "interventionNames": [
+            "Drug: Gaboxadol (OV101)",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "OV101 5 mg BID",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received OV101 5 mg twice daily (BID). All participants received active drug in the morning, and either OV101 or placebo in the afternoon and evening to achieve the BID dose while maintaining the TID administration schedule.",
+          "interventionNames": [
+            "Drug: Gaboxadol (OV101)",
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "OV101 5 mg TID",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received OV101 5 mg three-times daily (TID) (morning, afternoon, and evening).",
+          "interventionNames": [
+            "Drug: Gaboxadol (OV101)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Gaboxadol (OV101)",
+          "description": "A delta-subunit–selective, extrasynaptic GABAA receptor agonist administered at a dose of 5 mg.",
+          "armGroupLabels": [
+            "OV101 5 mg QD",
+            "OV101 5 mg BID",
+            "OV101 5 mg TID"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matching placebo administered to maintain the blind for the three-times daily dosing schedule.",
+          "armGroupLabels": [
+            "OV101 5 mg QD",
+            "OV101 5 mg BID"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and Tolerability",
+          "description": "Assessment of treatment-emergent adverse events (TEAEs), treatment-related adverse events, TEAEs leading to study discontinuation, and serious adverse events (SAEs).",
+          "timeFrame": "Up to 12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Clinical Global Impressions-Improvement (CGI-I) scale score",
+          "description": "Clinician-rated assessment of improvement.",
+          "timeFrame": "Week 12"
+        },
+        {
+          "measure": "Clinical Global Impressions-Severity (CGI-S) total and subscale scores",
+          "description": "Change from baseline in clinician-rated symptom severity.",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Aberrant Behavior Checklist-Community Edition (ABC-C) total and subscale scores",
+          "description": "Change from baseline. Assesses a range of behaviors, including irritability, lethargy/social withdrawal, inappropriate speech, hyperactivity, and stereotypic behavior.",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "ABC-C refactored for FXS (ABC-CFXS) total and subscale scores",
+          "description": "Change from baseline. Includes evaluation on social avoidance, modified evaluations of irritability, hyperactivity, lethargy/withdrawal, and stereotypy.",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Anxiety, Depression, and Mood Scales (ADAMS) total and subscale scores",
+          "description": "Change from baseline. Screens for anxiety and depression (manic/hyperactive behavior, depressed mood, social avoidance, general anxiety, and obsessive behavior).",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Repetitive Behavior Scale–Revised (RBS-R) total and subscale scores",
+          "description": "Change from baseline. Assesses repetitive behaviors (stereotyped, ritualistic, self-injurious, compulsive, restricted, and sameness).",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Short Sensory Profile–2 total and subscale scores",
+          "description": "Change from baseline. Evaluates sensory processing patterns.",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Conners 3 subscale scores",
+          "description": "Change from baseline. Assessment of ADHD symptoms (inattention, hyperactivity/impulsivity, learning problems, executive functioning, defiance/aggression, peer relations).",
+          "timeFrame": "Baseline and Week 12"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Parent Global Impressions–Severity (PGI–S)",
+          "description": "Exploratory endpoint. Change from baseline in parent-rated severity.",
+          "timeFrame": "Baseline and Week 12"
+        },
+        {
+          "measure": "Parent Global Impressions–Improvement (PGI–I)",
+          "description": "Exploratory endpoint. Parent-rated improvement.",
+          "timeFrame": "Week 12"
+        },
+        {
+          "measure": "Caregiver Top 3 Concerns (VAS)",
+          "description": "Exploratory endpoint. Clinician-rated changes from baseline in the top 3 concerns identified by caregivers using a visual analog scale (VAS).",
+          "timeFrame": "Baseline and Week 12"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Adolescent and adult males aged 13–22 years inclusive\n* Clinically- and molecularly-confirmed full mutation of the FMR1 gene\n* Moderately-to-severely affected by FXS [score of ≥4 on the Clinical Global Impressions–Severity (CGI-S) scale]\n* Full Scale Intelligence Quotient score <75\n* Antiepileptic and/or psychoactive medication use was permitted if no more than 3 such medications were being used and the dose-regimen for each medication was stable for at least 4 weeks before randomization and then maintained throughout the study.\n\nExclusion Criteria:\n* Females were excluded from the study\n* History of uncontrolled seizure disorder or seizure episodes within 6 months of screening\n* Change in anticonvulsant pharmacotherapy within 3 months of screening\n* Use of a GABAergic agent on a regular schedule\n* Use of a cannabinoid derivative\n* History of suicidal behavior\n* Any clinically significant medical condition or laboratory finding at screening that could interfere with study conduct/participation or pose an unacceptable risk.",
+      "healthyVolunteers": false,
+      "sex": "MALE",
+      "minimumAge": "13 Years",
+      "maximumAge": "22 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

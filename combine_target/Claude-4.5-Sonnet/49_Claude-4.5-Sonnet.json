@@ -1,0 +1,173 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03388164",
+      "orgStudyIdInfo": {
+        "id": "Not specified",
+        "type": null,
+        "link": null
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "Laureate Institute for Brain Research",
+        "class": "OTHER"
+      },
+      "briefTitle": "Methylphenidate augmentation to increase adherence to antidepressant medication in individuals with moderate to severe depression",
+      "officialTitle": "A Phase 2a randomized placebo-controlled clinical trial to determine whether methylphenidate augmentation results in higher rates of medication adherence relative to placebo in individuals with moderate to severe depression",
+      "acronym": null
+    },
+    "descriptionModule": {
+      "briefSummary": "This Phase 2a randomized placebo-controlled clinical trial investigated whether combining methylphenidate (MPH) with escitalopram would improve medication adherence in individuals with moderate to severe depression. The hypothesis was that pairing an acute positive reinforcing dopaminergic/noradrenergic effect (MPH) with a standard antidepressant would increase rates of adherence to medication treatment by facilitating habit formation. The study aimed to determine whether MPH + escitalopram resulted in higher rates of medication adherence compared to placebo + escitalopram over an 8-week treatment period.",
+      "detailedDescription": "Adherence to antidepressant treatment is a critical challenge in mental health care, with only one out of five patients complying with treatment for over 4 months. Non-adherence leads to adverse consequences including increased relapse, recurrence, and significant healthcare costs. This study was based on the premise that forming new treatment-related habits requires a transition from reward-related to habit-based behavioral strategies. Depressed individuals face specific barriers to habit formation including reduced hedonic processing mediated by impaired dopaminergic function and compromised functioning of neural circuits involved in habit formation (hippocampus to basal ganglia transition).\n\nThe trial utilized a two-stage Bayesian design with Stage 1 enrolling 20 participants (1:1 randomization) to receive either (1) 5 mg MPH + 10 mg escitalopram or (2) placebo + 10 mg escitalopram, encapsulated together, with possible dose escalation to 20 mg escitalopram at week 4. Participants were followed for 8 weeks with in-person visits at weeks 0, 2, 4, and 8, and phone follow-ups at weeks 1, 3, and 6.\n\nThe primary endpoint was percent adherence measured by pill count. The secondary endpoint was percent of doses taken on schedule (within ±6 hours of usual time) measured by Medication Electronic Monitoring System (MEMS). Exploratory endpoints included the Beliefs About Medicines Questionnaire (BMQ), remission rates (QIDS-SR ≤5), and response rates (50% reduction in QIDS-SR scores).\n\nMethylphenidate was selected based on its mechanism as a monoaminergic reuptake inhibitor that blocks dopamine reuptake transporters and increases dopamine and norepinephrine availability. Unlike amphetamines or cocaine, MPH has relatively weak reinforcing properties and lower abuse liability. It has been used successfully in treating ADHD and has shown benefits in cognitive symptoms following brain injury.\n\nThe Bayesian statistical approach allowed for continuous evaluation of treatment effects using informative and weakly informative priors, with planned interim analysis to determine study continuation. Linear mixed-effects models evaluated treatment effects on adherence outcomes controlling for visit effects and treatment-by-visit interactions. Stage 2 (planned 80 additional participants) was not completed as Stage 1 results showed effects opposite to the hypothesis with low posterior probabilities (<25%) that MPH was superior to placebo."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Major Depressive Disorder",
+        "Depression, Moderate",
+        "Depression, Severe"
+      ],
+      "keywords": [
+        "Medication Adherence",
+        "Treatment Adherence",
+        "Antidepressant Agents",
+        "Escitalopram",
+        "Methylphenidate",
+        "Dopamine Uptake Inhibitors",
+        "Habit Formation",
+        "Reinforcement, Psychology",
+        "Depression",
+        "Medication Compliance",
+        "Electronic Medication Monitoring",
+        "Beliefs About Medicines"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Two principal study arms: (1) 5 mg placebo + 10 mg escitalopram and (2) 5 mg methylphenidate + 10 mg escitalopram, with option to escalate escitalopram dose to 20 mg at week 4 based on clinical improvement.",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Study medications were formulated into identical compound capsules. Bottles were labeled with 'Study Drug A', 'Study Drug B', 'Study Drug C' or 'Study Drug D'. The randomization sheet was provided by the primary statistician who was not involved in clinical assessments and given directly to the pharmacist. Investigators and participants were kept blinded during the study window until data collection and analysis were completed. All study physicians, nurses and research assistants who worked directly with participants were blinded to treatment allocation. Only the study statistician and one additional staff member assigned to work with the compounding pharmacy were unblinded.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo + Escitalopram",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "5 mg placebo + 10 mg escitalopram encapsulated into one capsule, with option to escalate escitalopram dose to 20 mg at week 4 based on lack of clinical improvement.",
+          "interventionNames": [
+            "Drug: Placebo + Escitalopram",
+            "Device: Medication Electronic Monitoring System (MEMS)"
+          ]
+        },
+        {
+          "label": "Methylphenidate + Escitalopram",
+          "type": "EXPERIMENTAL",
+          "description": "5 mg methylphenidate (MPH) + 10 mg escitalopram encapsulated into one capsule, with option to escalate escitalopram dose to 20 mg at week 4 based on lack of clinical improvement.",
+          "interventionNames": [
+            "Drug: Methylphenidate + Escitalopram",
+            "Device: Medication Electronic Monitoring System (MEMS)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Placebo + Escitalopram",
+          "description": "Participants received 5 mg placebo + 10 mg escitalopram daily for 8 weeks. Dose could be increased to placebo + 20 mg escitalopram at week 4 if clinically indicated.",
+          "armGroupLabels": [
+            "Placebo + Escitalopram"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Methylphenidate + Escitalopram",
+          "description": "Participants received 5 mg methylphenidate + 10 mg escitalopram daily for 8 weeks. Dose could be increased to 5 mg methylphenidate + 20 mg escitalopram at week 4 if clinically indicated.",
+          "armGroupLabels": [
+            "Methylphenidate + Escitalopram"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Medication Electronic Monitoring System (MEMS)",
+          "description": "Study medication bottles were equipped with MEMS caps to track adherence by recording the date and time of each bottle opening. This was used as the secondary endpoint for measuring adherence.",
+          "armGroupLabels": [
+            "Placebo + Escitalopram",
+            "Methylphenidate + Escitalopram"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percent Pill Count",
+          "description": "100 * [number of prescribed pills – number of pills remaining]/[number of days between dispensing date and return date]",
+          "timeFrame": "Week 8"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Medication Electronic Monitoring System (MEMS) Adherence",
+          "description": "Percentage of doses taken on schedule within 25% of the expected time interval, defined as ±6 hours from when the participant usually took the medication, estimated by fitting a line to their dosing times",
+          "timeFrame": "Week 8"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Beliefs About Medicines Questionnaire (BMQ) Score",
+          "description": "Categorization of participants into accepting/ambivalent vs. indifferent/skeptical groups based on their attitudes toward medication",
+          "timeFrame": "Weeks 0, 2, 4, and 8"
+        },
+        {
+          "measure": "Remission Rate",
+          "description": "Defined by a score of ≤5 on the Quick Inventory of Depressive Symptomatology-Self Report (QIDS-SR)",
+          "timeFrame": "Week 8"
+        },
+        {
+          "measure": "Response Rate",
+          "description": "Defined by a 50% reduction in symptoms on the QIDS-SR",
+          "timeFrame": "Week 8"
+        },
+        {
+          "measure": "Change in QIDS-SR Score",
+          "description": "Change from baseline (Week 0) in QIDS-SR score measuring depressive symptom severity",
+          "timeFrame": "Weeks 0, 1, 2, 3, 4, 6, and 8"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Baseline QIDS-SR ≥ 14 (moderate depression)\n- Age 18–65 years\n- Ability to give written informed consent\n- MDD single-episode/recurrent, not in remission\n\nExclusion Criteria:\n- MPH-related exclusions (i.e. uncontrolled hyperthyroidism, glaucoma, motor tics, monoamine oxidase inhibitor treatment, serious coronary artery disease, cardiomyopathy, serious cardiac arrhythmias, uncontrolled hypertension, peripheral vasculopathy, pregnancy)\n- Diagnosis with the following mental health conditions: bipolar disorder, psychotic disorder, current substance use disorder (other than nicotine), current alcohol use disorder\n- History of intolerability of study medications\n- Currently taking psychiatric medications",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

@@ -1,0 +1,69 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT02132247,NCT02132247,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,TP,Safety Study of Flector Patch in Children With Minor Soft Tissue Injuries,Safety and Efficacy of the FLECTOR (Diclofenac Epolamine) Topical System in Children with Minor Soft Tissue Injuries,True,0.9,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,TP,"An Open-label, Prospective, Uncontrolled Study of the Safety and Local Tolerability of the Diclofenac Epolamine Patch (Flector Patch) in Pediatric Patients With Minor Soft Tissue Injuries",Safety and Efficacy of the FLECTOR (Diclofenac Epolamine) Topical System in Children with Minor Soft Tissue Injuries: A Phase IV Non-randomized Clinical Trial,True,0.94,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,"The primary purpose of this study is to determine whether Flector Patch is safe for use in children. The secondary purpose is to assess blood levels of diclofenac, the active ingredient in Flector Patch.",,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,['Athletic Injuries'],,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,FN,FN,"['Minor athletic injuries', 'Pain', 'Diclofenac', 'Topical']",,False,0.0,,Keyword,protocolSection.conditionsModule.keywords,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,FN,FN,INTERVENTIONAL,,False,0.0,,StudyType,protocolSection.designModule.studyType,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,FN,FN,['PHASE4'],,False,0.0,,Phase,protocolSection.designModule.phases,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,FN,FN,NA,,False,0.0,,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,FN,FN,SINGLE_GROUP,,False,0.0,,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,FN,FN,NONE,,False,0.0,,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,FN,FN,104,,False,0.0,,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Age 6 to 16 years, either gender
+* Informed consent: 6-9 year olds must have their parent/legally authorized representative complete a Parental Permission Form; 10-16 year olds must complete a Children's Assent Form and have their parent/legally authorized representative complete a Parental Permission Form
+* Minor soft tissue injury within 96 hours of study entry
+* Spontaneous pain of at least moderate intensity (i.e. pain of at least 3 on the 6-point Wong- Baker Faces scale for pain severity assessment by patient)
+* Injury must be considered by the Investigator to be clinically significant
+* Negative urine pregnancy test at screening for female subjects of childbearing potential (started the menstrual cycle)
+* Able to read and speak English
+* Available with their parents for the immediate two week period following study enrollment
+
+Exclusion Criteria:
+
+* Major soft tissue injury (Fractures are only exclusionary if the injury is stabilized with a device, e.g. a hard cast, that cannot be removed to allow a patch to be applied to the site of injury)
+* Open skin lesion or any dermatological condition (e.g. skin infection, eczema) within the injured area
+* Injury is midline or involves the spine, digits or hands
+* Prior injury to the same site within the past 3 months
+* Three or more other prior injuries (minor or major) to the region in the past
+* Injury occurred more than 96 hours prior to study entry
+* Prior use of topical medication to involved area within 48 hours of study entry
+* Allergic disorders, including asthma or urticaria, but only if associated with exposure to aspirin or an NSAID
+* Coagulation defects
+* Prior use of over-the-counter (OTC) analgesics or short-acting non-steroidal anti-inflammatory drugs (NSAIDs \[ibuprofen, ketoprofen\]) within 6 hours of study entry (acetaminophen permitted up until the time of study entry)
+* Prior use of narcotic analgesics within 7 days of study entry
+* Prior use of systemic anti-inflammatory steroidal drugs within 60 days of study entry
+* Prior use of long-acting NSAIDs such as piroxicam or naproxen since injury
+* Concomitant use of drugs which may be susceptible to interactions with diclofenac, or affect safety if used concomitantly (serotonin-selective reuptake inhibitors (SSRI), lithium, digoxin, anticoagulants, antidiabetic agents, cyclosporin, methotrexate, quinolone antimicrobials, other NSAIDs, steroids and diuretics)
+* Subjects suffering from psychiatric disorders (including depression)
+* Handicapped patients, but only if the handicap prevents them from either assessing their pain or safely using the patch (e.g., pervasive developmental disorders such as autism, Asperger syndrome, Rett syndrome, Heller's syndrome, severe attention deficit hyperactivity disorders (ADHD), other severe mental retardation of traumatic, congenital or other origin)
+* History of current alcohol or drug abuse dated \< 1 year
+* Severe cardiac, renal or hepatic impairment
+* Severe systemic diseases (e.g. cancer, severe acute infection)
+* Any underlying disease or medication that severely compromise the patient's immune system
+* Prior history of any chronic pain disorder
+* Prior history of GI bleeds/ulcers, liver or kidney disease
+* Hypersensitivity to diclofenac or other NSAID drugs (including aspirin)
+* Females who are pregnant or breast feeding
+* Patients participating or having been involved in other clinical investigations during the three months preceding the entry of this study","Inclusion Criteria:
+- Children aged 6–16 years
+- Clinically significant minor soft tissue injury sustained within the preceding 96 hours
+- Spontaneous pain of at least moderate severity, defined as a score of ≥3 on the 6-point Wong-Baker FACES® Pain Rating Scale
+- Post-menarche girls required to have a negative pregnancy test
+- Informed consent required for all participants and/or their legal guardians
+
+Exclusion Criteria:
+- Injury was midline or major
+- Injury involved the spine, digits, or hands
+- Open skin lesions within the injured area
+- Severe cardiac, renal, or hepatic impairment
+- Use of a long-acting NSAID since sustaining the injury
+- Use of topical medication within the past 48 hours",True,0.9,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,TP,TP,6 Years,6 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,TP,TP,16 Years,16 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,TP,TP,['CHILD'],['CHILD'],True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

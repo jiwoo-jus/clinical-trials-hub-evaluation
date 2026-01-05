@@ -1,0 +1,171 @@
+{
+  "metadata": {
+    "case_id": 38,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T16:00:04.409307",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/38_NCT03337724.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/38_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.7
+        ],
+        [
+          0.6,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Ipatasertib + Paclitaxel",
+            "type": "EXPERIMENTAL",
+            "interventionNames": [
+              "Drug: Ipatasertib",
+              "Drug: Paclitaxel"
+            ]
+          },
+          "pred_item": {
+            "label": "Ipatasertib + Paclitaxel",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received oral ipatasertib 400 mg daily on days 1-21 plus intravenous paclitaxel 80 mg/m² on days 1, 8, and 15 of a 28-day cycle until disease progression or unacceptable toxicity",
+            "interventionNames": [
+              "Drug: Ipatasertib",
+              "Drug: Paclitaxel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo + Paclitaxel",
+            "type": "EXPERIMENTAL",
+            "interventionNames": [
+              "Drug: Paclitaxel",
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo + Paclitaxel",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Patients received oral placebo daily on days 1-21 plus intravenous paclitaxel 80 mg/m² on days 1, 8, and 15 of a 28-day cycle until disease progression or unacceptable toxicity",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Drug: Paclitaxel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.4,
+          0.35
+        ],
+        [
+          0.4,
+          0.3,
+          0.99
+        ],
+        [
+          0.4,
+          0.97,
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Ipatasertib",
+            "description": "Ipatasertib, 400 milligrams (mg), administered orally once a day (QD) on Days 1-21 of each 28-day cycle until disease progression, intolerable toxicity, elective withdrawal from the study, or study completion or termination.",
+            "armGroupLabels": [
+              "Ipatasertib + Paclitaxel"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Ipatasertib",
+            "description": "Oral ATP-competitive small-molecule inhibitor of all three AKT isoforms, administered at 400 mg daily on days 1-21 of each 28-day cycle",
+            "armGroupLabels": [
+              "Ipatasertib + Paclitaxel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Paclitaxel",
+            "description": "Paclitaxel, 80 mg/square meter (m\\^2), administered intravenously (IV) on Days 1, 8, and 15 of each 28-day cycle until disease progression, intolerable toxicity, elective withdrawal from the study, or study completion or termination.",
+            "armGroupLabels": [
+              "Ipatasertib + Paclitaxel",
+              "Placebo + Paclitaxel"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Paclitaxel",
+            "description": "Intravenous paclitaxel administered at 80 mg/m² on days 1, 8, and 15 of each 28-day cycle",
+            "armGroupLabels": [
+              "Ipatasertib + Paclitaxel",
+              "Placebo + Paclitaxel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Matching placebo, administered orally QD on Days 1-21 of each 28-day cycle until disease progression, intolerable toxicity, elective withdrawal from the study, or study completion or termination.",
+            "armGroupLabels": [
+              "Placebo + Paclitaxel"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Oral placebo administered daily on days 1-21 of each 28-day cycle",
+            "armGroupLabels": [
+              "Placebo + Paclitaxel"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

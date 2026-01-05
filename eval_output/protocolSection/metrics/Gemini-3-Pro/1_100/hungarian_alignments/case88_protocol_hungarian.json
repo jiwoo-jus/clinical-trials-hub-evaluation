@@ -1,0 +1,166 @@
+{
+  "metadata": {
+    "case_id": 88,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T19:24:39.274581",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/88_NCT03416920.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/88_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.15
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Wellframe",
+            "type": "EXPERIMENTAL",
+            "description": "Subjects in this arm will use the Wellframe application for 90 days",
+            "interventionNames": [
+              "Other: Wellframe"
+            ]
+          },
+          "pred_item": {
+            "label": "Intervention Group",
+            "type": "EXPERIMENTAL",
+            "description": "Patients enrolled between 02/2018 and 05/2019 who underwent PCI and utilized the smartphone-based application with live health coaches for 90 days post-discharge.",
+            "interventionNames": [
+              "Device: Smartphone App with Health Coaching"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Wellframe",
+            "description": "Wellframe mobile phone app",
+            "armGroupLabels": [
+              "Wellframe"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "Smartphone App with Health Coaching",
+            "description": "A digital health platform (Wellframe) customized for hospitalized patients receiving PCI. The app featured a personalized adaptive daily health checklist (medication reminders, health behaviors), interactive surveys, educational articles, and provided personalized feedback from non-clinician live health coaches. Patients had active accounts for 90 days.",
+            "armGroupLabels": [
+              "Intervention Group"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Readmission at 30 Days",
+            "description": "How many subjects were readmitted to the hospital",
+            "timeFrame": "30 Days"
+          },
+          "pred_item": {
+            "measure": "All-cause hospital readmission",
+            "description": "Used to assess safety. Defined as planned or unplanned hospitalization within an MGB hospital. Emergency department (ED) or urgent care (UC) visit with subsequent hospitalization was counted as a single readmission.",
+            "timeFrame": "30 days"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.35,
+          0.2
+        ],
+        [
+          0.18,
+          0.96,
+          0.15
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Readmission at 90 Days",
+            "description": "How many subjects were readmitted to the hospital",
+            "timeFrame": "90 Days"
+          },
+          "pred_item": {
+            "measure": "All-cause hospital readmission",
+            "description": "Planned or unplanned hospitalization within an MGB hospital.",
+            "timeFrame": "90 days"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Enrolled in Clinic-based Cardiac Rehab at 90 Days",
+            "description": "Percent of patients discharged after intervention who attend at least one session of clinic-based cardiac rehab",
+            "timeFrame": "90 days"
+          },
+          "pred_item": {
+            "measure": "Cardiac rehabilitation (CR) enrollment",
+            "description": "Enrollment in cardiac rehabilitation at an MGB site.",
+            "timeFrame": "90 days"
+          }
+        }
+      ]
+    }
+  ]
+}

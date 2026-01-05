@@ -1,0 +1,156 @@
+{
+  "metadata": {
+    "case_id": 39,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T16:02:52.347194",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/39_NCT03970590.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/39_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.93
+        ],
+        [
+          0.22
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "CTC",
+            "type": "EXPERIMENTAL",
+            "description": "An integrated peer narrative-based intervention (VIEW \\> SELECT \\> GET), beginning with VIEW In-person viewing of VA Stories narratives, followed by SELECT a favorite Veteran Storyteller, and then GET favorite Storyteller \"narrative-aligned\" text messages over 6 months",
+            "interventionNames": [
+              "Behavioral: CTC Intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Text-messaging intervention group",
+            "type": "EXPERIMENTAL",
+            "description": "African American Veterans with hypertension who watch 5 storyteller videos, select a preferred storyteller, and participate in the 6-month text-messaging protocol.",
+            "interventionNames": [
+              "Continuing the Conversation text-messaging protocol"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Control",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "6-month HTN management assessment text messages without narrative component",
+            "interventionNames": [
+              "Behavioral: Control"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ],
+        [
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "CTC Intervention",
+            "description": "An integrated peer narrative-based intervention (VIEW \\> SELECT \\> GET), beginning with VIEW In-person viewing of VA Stories narratives, followed by SELECT a favorite Veteran\\] Storyteller, and then GET favorite Storyteller \"narrative-aligned\" text messages over 6 months",
+            "armGroupLabels": [
+              "CTC"
+            ],
+            "otherNames": [
+              "CTC"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Continuing the Conversation text-messaging protocol",
+            "description": "A 6-month culturally sensitive text-messaging protocol delivered via the VA Annie system. The intervention consists of watching video-recorded stories from African American Veterans about hypertension self-management, followed by a texting protocol corresponding to a selected storyteller. The protocol includes cycles of three text message types: narrative messages (quotes/microstories from the veteran), nonnarrative educational messages, and 2-way interactive messages assessing self-efficacy and behavior.",
+            "armGroupLabels": [
+              "Text-messaging intervention group"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Control",
+            "description": "6-month HTN management assessment text messages without narrative component",
+            "armGroupLabels": [
+              "Control"
+            ],
+            "otherNames": [
+              "Active Comparator"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.55
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "BP Measurement Change at Follow-up",
+            "description": "Blood Pressure (H1), will be calculated / performed to detect a difference in the change in both Diastolic and Systolic BP, comparing intervention and control.",
+            "timeFrame": "From enrollment to the time of follow-up, up to 8 months"
+          },
+          "pred_item": {
+            "measure": "Blood pressure",
+            "description": "Impact on blood pressure control.",
+            "timeFrame": "6 months"
+          }
+        }
+      ]
+    }
+  ]
+}

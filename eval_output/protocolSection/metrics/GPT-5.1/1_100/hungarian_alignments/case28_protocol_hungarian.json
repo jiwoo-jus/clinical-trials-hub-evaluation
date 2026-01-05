@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "case_id": 28,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:29:12.512456",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/28_NCT02864381.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/28_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.6
+        ],
+        [
+          0.7,
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Andecaliximab + Nivolumab",
+            "type": "EXPERIMENTAL",
+            "description": "Andecaliximab 800 mg plus nivolumab 3 mg/kg administered every 2 weeks until disease progression, unacceptable toxicity, or withdrawal of consent (up to 34 weeks at the time of the primary efficacy analysis; up to 101 weeks at the time of the safety follow-up analysis).",
+            "interventionNames": [
+              "Drug: Andecaliximab",
+              "Drug: Nivolumab"
+            ]
+          },
+          "pred_item": {
+            "label": "Andecaliximab plus Nivolumab",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received andecaliximab (ADX) 800 mg by intravenous infusion over approximately 30 minutes on day 1 and every 2 weeks thereafter, administered prior to nivolumab 3 mg/kg by intravenous infusion over approximately 60 minutes on day 1 and every 2 weeks thereafter, for up to 2 years or until disease progression, unacceptable toxicity, or consent withdrawal.",
+            "interventionNames": [
+              "Andecaliximab",
+              "Nivolumab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "Nivolumab",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Nivolumab 3 mg/kg administered every 2 weeks until disease progression, unacceptable toxicity, or withdrawal of consent (up to 41 weeks at the time of the primary efficacy analysis; up to 97 weeks at the time of the safety follow-up analysis).",
+            "interventionNames": [
+              "Drug: Nivolumab"
+            ]
+          },
+          "pred_item": {
+            "label": "Nivolumab Alone",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients received nivolumab 3 mg/kg by intravenous infusion over approximately 60 minutes on day 1 and every 2 weeks thereafter, for up to 2 years or until disease progression, unacceptable toxicity, or consent withdrawal.",
+            "interventionNames": [
+              "Nivolumab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.6
+        ],
+        [
+          0.6,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Andecaliximab",
+            "description": "800 mg administered via IV infusion",
+            "armGroupLabels": [
+              "Andecaliximab + Nivolumab"
+            ],
+            "otherNames": [
+              "GS-5745"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Andecaliximab",
+            "description": "Andecaliximab (ADX) is a recombinant monoclonal antibody inhibitor of matrix metalloproteinase-9 (MMP9). In this study, it was administered at a flat dose of 800 mg by intravenous infusion over approximately 30 minutes on day 1 and every 2 weeks thereafter, given prior to nivolumab in the combination arm.",
+            "armGroupLabels": [
+              "Andecaliximab plus Nivolumab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": "3 mg/kg administered via IV infusion",
+            "armGroupLabels": [
+              "Andecaliximab + Nivolumab",
+              "Nivolumab"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": "Nivolumab (NIVO) is an anti–PD-1 immune checkpoint inhibitor. In this study, it was administered at 3 mg/kg by intravenous infusion over approximately 60 minutes on day 1 and every 2 weeks thereafter, for up to 2 years or until disease progression or unacceptable toxicity, either alone or following andecaliximab in the combination arm.",
+            "armGroupLabels": [
+              "Andecaliximab plus Nivolumab",
+              "Nivolumab Alone"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Objective Response Rate (ORR)",
+            "description": "ORR was defined as the percentage of participants with confirmed overall best response of complete response (CR) or partial response (PR) after starting study drug but before starting any new chemotherapy or radiotherapy as assessed by the investigator according to Response Criteria in Solid Tumors (RECIST) version 1.1. CR was defined as the disappearance of all target lesions and disappearance of all non-target lesions and normalization of tumor marker level. PR was defined as at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters.",
+            "timeFrame": "Up to 41 weeks"
+          },
+          "pred_item": {
+            "measure": "Objective Response Rate (ORR)",
+            "description": "Proportion of patients with a best overall response of complete response (CR) or partial response (PR) per investigator assessment using RECIST v1.1 after starting study drug and before starting any new anticancer therapy.",
+            "timeFrame": "From treatment start until disease progression or initiation of new anticancer therapy (up to 2 years)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.6,
+          0.94,
+          0.7,
+          0.05
+        ],
+        [
+          0.95,
+          0.72,
+          0.4,
+          0.02
+        ],
+        [
+          0.3,
+          0.62,
+          0.96,
+          0.05
+        ],
+        [
+          0.08,
+          0.05,
+          0.08,
+          0.9
+        ],
+        [
+          0.08,
+          0.1,
+          0.08,
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Progression Free Survival (PFS)",
+            "description": "PFS was defined as the interval in months from the date of randomization to the earlier of the first documentation of definitive disease progression or death from any cause. The first definitive progressive disease (PD) was defined as the first radiation therapy, the first clinical PD, and the first confirmed imaging PD, whichever came first. Participants without PD or death and participants with PD after starting new anti-cancer therapy are censored at the last tumor assessment date.",
+            "timeFrame": "Andecaliximab + Nivolumab median follow-up time: 7.0 months; Nivolumab median follow-up time: 7.1 months"
+          },
+          "pred_item": {
+            "measure": "Progression-Free Survival (PFS)",
+            "description": "Time from the date of randomization to death (any cause) or first definitive progressive disease (clinical progression, radiographic progression, or need for radiation therapy), analyzed using Cox proportional hazards models adjusted for age and sex.",
+            "timeFrame": "From randomization until progression or death, with tumor assessments every 8 weeks during treatment (treatment up to 2 years)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Overall Survival (OS)",
+            "description": "OS was defined as the interval from the date of randomization to death from any cause. Surviving participants are censored at the last date known alive.",
+            "timeFrame": "Andecaliximab + Nivolumab median follow-up time: 7.0 months; Nivolumab median follow-up time: 7.0 months"
+          },
+          "pred_item": {
+            "measure": "Overall Survival (OS)",
+            "description": "Time from the date of randomization to death from any cause, analyzed using Cox proportional hazards models adjusted for age and sex.",
+            "timeFrame": "From randomization until death or end of survival follow-up (approximately every 3 months for up to 5 years)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Duration of Response (DOR)",
+            "description": "DOR was defined as the interval from the date of the first response (complete or partial response) was achieved to the earlier of the first documentation of definitive disease progression or death from any cause.",
+            "timeFrame": "Andecaliximab + Nivolumab median follow-up time: 7.0 months; Nivolumab median follow-up time: 7.1 months"
+          },
+          "pred_item": {
+            "measure": "Duration of Response",
+            "description": "Time from first documented complete or partial response to disease progression or death, as assessed by RECIST v1.1.",
+            "timeFrame": "From first documented CR or PR until progression or death (up to 2 years of treatment plus follow-up)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)",
+            "description": "An adverse event (AE) is any untoward medical occurrence in a clinical study participants administered a medicinal product, which does not necessarily have a causal relationship with the treatment. TEAEs are events that are defined as AEs with onset dates on or after the first dose of andecaliximab/nivolumab and up to 30 days after permanent discontinuation of andecaliximab or 5 months after permanent discontinuation of nivolumab, or led to premature discontinuation of andecaliximab or nivolumab.",
+            "timeFrame": "Andecaliximab: First dose date up to last dose (maximum: 101 weeks) + 30 days; Nivolumab: First dose date up to last dose (maximum: 101 weeks) + 5 months"
+          },
+          "pred_item": {
+            "measure": "Adverse Events (AEs) and Laboratory Abnormalities",
+            "description": "Incidence, nature, and severity of treatment-emergent adverse events and laboratory abnormalities, including grade and seriousness, during treatment.",
+            "timeFrame": "From first dose through 30 days after last dose of andecaliximab and 5 months after last dose of nivolumab"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants Who Experienced Treatment-emergent Laboratory Abnormalities",
+            "description": "Treatment-emergent (Chemistry, Hematology, Coagulation, and Urinalysis) laboratory abnormalities were graded per Common Terminology Criteria for Adverse Events (CTCAE), Version 4.03 where: 0=None, 1=Mild, 2=Moderate, 3=Severe, 4=Potentially Life Threatening. Treatment-emergent laboratory abnormalities are defined as values that increase at least 1 toxicity grade from baseline at any postbaseline time point, up to and including the date of the last dose of andecaliximab plus 30 days or nivolumab plus 5 months. If the relevant baseline laboratory value is missing, any abnormality of at least Grade 1 observed within the time frame specified above will be considered treatment-emergent. Percentage of participants with any postbaseline Grade 1 or higher laboratory abnormality is reported.",
+            "timeFrame": "Andecaliximab: First dose date up to last dose (maximum: 101 weeks) + 30 days; Nivolumab: First dose date up to last dose (maximum: 101 weeks) + 5 months"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

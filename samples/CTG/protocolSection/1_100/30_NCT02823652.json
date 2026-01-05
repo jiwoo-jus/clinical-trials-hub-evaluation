@@ -1,0 +1,244 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02823652",
+      "orgStudyIdInfo": {
+        "id": "EAQ152"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCI-2015-02253",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trial Reporting Program)"
+        },
+        {
+          "id": "EAQ152",
+          "type": "OTHER",
+          "domain": "ECOG-ACRIN Cancer Research Group"
+        },
+        {
+          "id": "EAQ152",
+          "type": "OTHER",
+          "domain": "CTEP"
+        }
+      ],
+      "organization": {
+        "fullName": "Eastern Cooperative Oncology Group",
+        "class": "NETWORK"
+      },
+      "briefTitle": "Pre-Test Genetic Education and Remote Genetic Counseling in Communicating Tumor Profiling Results to Patients With Advanced Cancer",
+      "officialTitle": "COMET - Communication and Education in Tumor Profiling: A Randomized Study of Pre-Disclosure Genetic Education v. Usual Care in Tumor Profiling for Advanced Cancer and a Pilot Study of Remote Genetic Counseling for Participants With Potential Germline Mutations Identified on Tumor Profiling"
+    },
+    "descriptionModule": {
+      "briefSummary": "This research trial studies how well pre-test genetic education and remote genetic counseling works in communicating tumor profiling results to patients with advanced cancer. Web-based genetic education before receiving tumor profiling results and remote genetic counseling for patients with potential germline mutations may increase genetic knowledge and reduce distress for patients with advanced cancer.",
+      "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. To evaluate the efficacy of web-based pre-disclosure genetic education (i.e. before receipt of tumor profile results) to increase knowledge (genetic knowledge and knowledge of test benefits and limitations). (Step 1)\n\nII. To evaluate the efficacy of web-based pre-disclosure genetic education (i.e. before receipt of tumor profile results) to decrease distress (anxiety, depression and cancer specific worry) compared to usual care services in patients undergoing tumor profiling for advanced cancer. (Step 1)\n\nIII. To evaluate the uptake of remote genetic counseling (Step 2)\n\nIV. To evaluate the uptake of germline testing among advanced cancer patients with a potential clinically significant incidental germline mutation identified through tumor profiling in the Molecular Analysis for Therapy Choice (MATCH) trial. (Step 2)\n\nSECONDARY OBJECTIVES:\n\nI. To evaluate potential moderators suggested by the self-regulation theory of health behavior (SRTHB) (e.g. test result, sociodemographic factors, health literacy, baseline knowledge or distress) to changes in knowledge of genetic disease and test benefits and limitations. (Step 1)\n\nII. To evaluate potential moderators suggested by the SRTHB (e.g test result, sociodemographic factors, health literacy, baseline knowledge or distress) to changes in distress in patients undergoing tumor profiling for advanced cancer. (Step 1)\n\nIII. To evaluate factors associated with uptake of genetic counseling and germline testing. (Step 2)\n\nIV. To evaluate cognitive, affective and behavioral (communication to relatives) responses to confirmatory germline testing in advanced cancer patients with potential clinically significant incidental germline mutation identified in tumor profiling. (Step 2)\n\nOUTLINE:\n\nSTEP I (PRIMARY INTERVENTION STUDY): Participants are randomized to 1 of 2 arms.\n\nARM A: Patients receive web-based genetic education consisting of general information about testing tumors for genetic mutations.\n\nARM B: Patients receive standard genetic education consisting of conversations with the treating physicians, interaction with and information from the clinical staff, and information from usual resources about testing for genetic mutations.\n\nSTEP II (SECONDARY GENETIC COUNSELING SUBSTUDY):\n\nPatients who meet the criteria for the remote counseling substudy will receive genetic counseling over the telephone and undergo germline testing.\n\nAfter completion of study treatment, patients are followed up periodically."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Advanced Malignant Neoplasm",
+        "Locally Advanced Malignant Neoplasm"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 601,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A (Step 1: internet-based intervention)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive web-based genetic education consisting of general information about testing tumors for genetic mutations.",
+          "interventionNames": [
+            "Other: Internet-Based Intervention",
+            "Other: Survey Administration"
+          ]
+        },
+        {
+          "label": "Arm B (Step 1: usual care control)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients receive standard genetic education consisting of conversations with the treating physicians, interaction with and information from the clinical staff, and information from usual resources about testing for genetic mutations.",
+          "interventionNames": [
+            "Other: standard genetic education",
+            "Other: Survey Administration"
+          ]
+        },
+        {
+          "label": "Step 2 - genetic counseling",
+          "type": "EXPERIMENTAL",
+          "description": "Patients who meet the criteria for the remote counseling substudy will receive genetic counseling over the telephone and undergo germline testing.",
+          "interventionNames": [
+            "Other: Genetic Counseling",
+            "Other: Genetic Testing",
+            "Other: Survey Administration"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "standard genetic education",
+          "description": "Undergo usual care",
+          "armGroupLabels": [
+            "Arm B (Step 1: usual care control)"
+          ],
+          "otherNames": [
+            "counseling",
+            "Counseling Intervention"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Genetic Counseling",
+          "description": "Complete remote counseling",
+          "armGroupLabels": [
+            "Step 2 - genetic counseling"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Genetic Testing",
+          "description": "Undergo germline testing",
+          "armGroupLabels": [
+            "Step 2 - genetic counseling"
+          ],
+          "otherNames": [
+            "genetic analysis",
+            "Genetic Examination",
+            "Genetic Test"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Internet-Based Intervention",
+          "description": "Complete on-line genetic education",
+          "armGroupLabels": [
+            "Arm A (Step 1: internet-based intervention)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Survey Administration",
+          "description": "Ancillary studies",
+          "armGroupLabels": [
+            "Arm A (Step 1: internet-based intervention)",
+            "Arm B (Step 1: usual care control)",
+            "Step 2 - genetic counseling"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change of Scores on Cancer Genetic Knowledge Scale From Baseline to Post-genetic Education",
+          "description": "There are 14 items in the questionnaire of Cancer Genetic Knowledge Scale. The total score ranges between 14 and 70. Higher scores indicate more/better knowledge. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and compared between the two arms (arms A and B) at Step 1.",
+          "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+        },
+        {
+          "measure": "Change of Scores on Patient-Reported Outcomes Measurement Information System (PROMIS) - Depression From Baseline to Post-genetic Education",
+          "description": "There are 4 items in the PROMIS - Depression questionnaire. The total score ranges between 4 and 20. Higher scores indicate more depression. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and compared between the two arms (arms A and B) at Step 1.",
+          "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+        },
+        {
+          "measure": "Change of Scores on Patient-Reported Outcomes Measurement Information System (PROMIS) - Anxiety From Baseline to Post-genetic Education",
+          "description": "There are 4 items in the PROMIS - Anxiety questionnaire. The total score ranges between 4 and 20. Higher scores indicate more anxiety. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and compared between the two arms (arms A and B) at Step 1.",
+          "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+        },
+        {
+          "measure": "Change of Scores on Impact of Events Scale (IES) From Baseline to Post-genetic Education",
+          "description": "There are 14 items in the questionnaire of Impact of Events Scale (IES). The total score ranges between 0 and 70. Higher scores indicate more stress. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and compared between the two arms (arms A and B) at Step 1.",
+          "timeFrame": "Assessed at baseline and up to 14 days post-baseline"
+        },
+        {
+          "measure": "Proportion of Participants Who Complete Remote Genetic Counseling in the Genetic Counseling Substudy (Step 2)",
+          "description": "Among participants who registered in the genetic counseling substudy (Step 2), the proportion of participants who completed remote genetic counseling will be reported. The proportion is defined as \"the number of participants who completed remote genetic counseling divided by the number of participants who agreed to participate in the genetic counseling study\".",
+          "timeFrame": "Assessed at baseline at Step 2"
+        },
+        {
+          "measure": "Proportion of Participants Who Complete Germline Testing in the Genetic Counseling Substudy (Step 2)",
+          "description": "Among participants who registered in the genetic counseling substudy (Step 2), the proportion of participants who completed remote genetic counseling will be reported. The proportion is defined as \"the number of participants who completed remote genetic counseling divided by the number of participants who agreed to participate in the genetic counseling study\".",
+          "timeFrame": "Assessed at baseline at Step 2"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change of Scores on Cancer Genetic Knowledge Scale From Baseline to Post-genetic Education by Arm and Sex",
+          "description": "There are 14 items in the questionnaire of Cancer Genetic Knowledge Scale. The total score ranges between 14 and 70. Higher scores indicate more/better knowledge. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and interaction between arm and sex was evaluated.",
+          "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+        },
+        {
+          "measure": "Change of Scores on Patient-Reported Outcomes Measurement Information System (PROMIS) - Depression From Baseline to Post-genetic Education by Arm and Sex",
+          "description": "There are 4 items in the PROMIS - Depression questionnaire. The total score ranges between 4 and 20. Higher scores indicate more depression. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and interaction between arm and sex was evaluated.",
+          "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+        },
+        {
+          "measure": "Change of Scores on Patient-Reported Outcomes Measurement Information System (PROMIS) - Anxiety From Baseline to Post-genetic Education by Arm and Sex",
+          "description": "There are 4 items in the PROMIS - Anxiety questionnaire. The total score ranges between 4 and 20. Higher scores indicate more anxiety. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and interaction between arm and sex was evaluated.",
+          "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+        },
+        {
+          "measure": "Change of Scores on Impact of Events Scale (IES) From Baseline to Post-genetic Education by Arm and Sex",
+          "description": "There are 14 items in the questionnaire of Impact of Events Scale (IES). The total score ranges between 0 and 70. Higher scores indicate more stress. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and interaction between arm and sex was evaluated.",
+          "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Factors Associated With Uptake of Remote Genetic Counseling in the Genetic Counseling Substudy (Step 2)",
+          "description": "The associations between patient characteristics and whether a patient receives genetic counseling will be evaluated.",
+          "timeFrame": "Assessed at baseline in Step 2"
+        },
+        {
+          "measure": "Cognitive and Affective Responses to Confirmatory Germline Testing (Step 2)",
+          "description": "Cognitive and affective responses to confirmatory germline testing in advanced cancer patients with potential clinically significant incidental germline mutation identified in tumor profiling will be evaluated.",
+          "timeFrame": "Assessed at baseline, within 3 days of remote genetic counseling, within 3 days of germline testing results received, and 3 months after germline testing results received in Step 2"
+        },
+        {
+          "measure": "Satisfaction and Regret/Disappointment Related to Tumor Genetic Test Results",
+          "description": "Satisfaction and regret/disappointment related to tumor genetic test results will be evaluated.",
+          "timeFrame": "Assessed within 3 days of tumor test results received"
+        },
+        {
+          "measure": "How to Better Deliver Tumor Genetic Test Results and Germline Information in the Future",
+          "description": "How to better deliver tumor genetic test results and germline information in the future will be evaluated.",
+          "timeFrame": "Assessed at baseline, within 3 days of genetic test results received, within 3 days of germline testing results received"
+        },
+        {
+          "measure": "Behavioral Responses to Confirmatory Germline Testing",
+          "description": "Behavioral responses (communication to others) to confirmatory germline testing in advanced cancer patients with potential clinically significant incidental germline mutation identified in tumor profiling will be evaluated.",
+          "timeFrame": "Assessed at baseline, within 3 days of remote genetic counseling, within 3 days of germline testing results received, and 3 months after germline testing results received in Step 2"
+        },
+        {
+          "measure": "Satisfaction and Regret/Disappointment Related to Genetic Counseling Service or Germline Genetic Test Results",
+          "description": "Satisfaction and regret/disappointment related to genetic counseling service or germline genetic test results will be evaluated",
+          "timeFrame": "Assessed at baseline, within 3 days of remote genetic counseling, within 3 days of germline testing results received, and 3 months after germline testing results received in Step 2"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* (STEP 1) - PRIMARY INTERVENTION STUDY (RANDOMIZED CONTROLLED TRIAL \\[RCT\\]):\n* Patients must be registered to the first screening step (Step 0) for the National Cancer Institute (NCI)-MATCH trial (EAY131)\n* Patients must speak English and have an adequate ability to view a website (primary intervention study)\n* (STEP 2) - SECONDARY GENETIC COUNSELING SUBSTUDY:\n* Patients must have a potential germline mutation, as determined by the NCI-MATCH tumor profiling assay\n* Patients must be able to speak English and hear by phone",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

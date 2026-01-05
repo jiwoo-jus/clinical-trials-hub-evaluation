@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "case_id": 94,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T19:34:35.921903",
+    "total_alignments": 1,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/94_NCT03408730.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/94_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          1.0
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "id": "2017-001820-22",
+            "type": "EUDRACT_NUMBER"
+          },
+          "pred_item": {
+            "id": "2017-001820-22",
+            "type": "EUDRACT_NUMBER",
+            "domain": "EU Clinical Trials Register",
+            "link": null
+          }
+        }
+      ]
+    }
+  ]
+}

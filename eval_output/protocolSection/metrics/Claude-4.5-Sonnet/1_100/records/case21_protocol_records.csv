@@ -1,0 +1,55 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT02555254,NCT02555254,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,TP,Impact of Speed Of Rewarming After CaRdiac Arrest and ThErapeutic Hypothermia,Impact of rewarming rate on interleukin-6 levels in patients with shockable cardiac arrest receiving targeted temperature management at 33 °C,True,0.93,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,TP,Impact of Speed Of Rewarming After CaRdiac Arrest and ThErapeutic Hypothermia. A Randomized Controlled Pilot Study,Impact of rewarming rate on interleukin-6 levels in patients with shockable cardiac arrest receiving targeted temperature management at 33 °C: the ISOCRATE pilot randomized controlled trial,True,0.96,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,Comparing the production of interleukin 6 (inflammatory cytokine) in two heating speed (slow rewarming rate: 0.25 ° C / h or fast rewarming rate 0.50 ° C / h) at the completion of a period of targeted temperature at 33°C after cardiac arrest supported by shockable rhythm and successfully resuscitated.,,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.detailedDescription,FN,FN,"Cardiac arrest (CA) is at present a major cause of mortality as well as a cause of disability for the surviving victims. In France, every year counts as 50,000 cardiac arrests responsible for 40 000 deaths. Thus, less than 20% of patients with heart failure discharged home. Then these patients had impaired quality of life associated with symptoms of fatigue, stress, anxiety hindering the resumption of business activity including. The prognosis is related in part to the initial cardiac rhythm present at the establishment of specialized resuscitation.
+
+Recent progress in improving mortality and neurological outcome has been achieved over the last decade with systematic implementation of a period of targeted temperature management between 32 and 34 ° C (TTM 32-34) in patients with cardiac arrest and who benefited from the completion of at least one external electrical shock when help arrived. The mechanisms underlying this improvement of neurological prognosis are many, but mainly related to an attenuation of post resuscitation syndrome that combines in one hand an inflammatory response (mediated by pro-inflammatory cytokines including interleukin 6) and secondly the formation of reperfusion injury related to the production of radical oxygen species (free radicals).
+
+While some studies have shown the feasibility of induction of this TTM 32-34 in prehospital conditions, no prospective study has evaluated the significant speed of warming in the end. An observational study in which the heating was carried passively, found that patients with an extended heating period (600 minutes) had a worse neurological outcome than patients with a duration of shorter warming (479 minutes) while a second retrospective study concluded the opposite in case of active warming . Besides the fact that these studies were observational, in the two originals randomized studies on TTM 32-34 in CA, the rate of warming was not like:
+
+* Objective 6 hours with active warming is 0.5 ° C / h in the Australian study with an OR of 5.25 (1.47 - 18.76) for the neurological prognosis
+* Objective 8 hours with passive warming of 0.37 ° C / h in the European study with an OR of 1.4 (1.08 - 1.81) for the neurological prognosis Although populations of two studies are obviously not comparable, it is possible that suboptimal speed of rewarming could mitigate some of the gain related to the implementation of TTM 32-34.
+
+In this context, investigators propose to conduct a randomized, single-center pilot study comparing a fast warming in a slow warming when performing a TTM 33 patients presented with a shockable cardiac arrest.",,False,0.0,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,"['Heart Arrest', 'Cardiac Arrest', 'Hypothermia']",,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,FN,FN,"['cardiac arrest', 'targeted temperature management', 'hypothermia induced', 'shockable rhythm']",,False,0.0,,Keyword,protocolSection.conditionsModule.keywords,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Investigator-initiated, blinded-outcome-assessor, parallel-group, two-arm, pragmatic, single-center, RCT. Patients were randomly allocated in a 1:1 ratio to either a 0.25 °C/h or 0.50 °C/h rewarming rate, using a web-based system accessible 24 h a day. The randomization sequence was generated with permuted blocks of varying sizes and without stratification.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,SINGLE,SINGLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"Blinding of the staff providing patient care was not feasible. However, the psychologist who assessed the day-90 outcomes in all patients was blinded to group assignment.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,['OUTCOMES_ASSESSOR'],['OUTCOMES_ASSESSOR'],True,1.0,exact,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,TP,58,50,True,0.8,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,FN,FN,"Inclusion Criteria:
+
+* Patient has been supported for a shockable cardiac arrest with successful resuscitation.
+* Coma persistent at ICU admission (Glasgow score less than or equal to 8) in the absence of sedation. If the patient is sedated in ICU admission, the glasgow score will be held the last evaluated by the doctor who provided the pre-hospital care of the patient score.
+* Body temperature\> 33 ° C
+* Specific device used to targeted temperature management at 33°C
+
+Exclusion Criteria:
+
+* Lack of witness of cardiac arrest.
+* Duration of no-flow\> 10 minutes (time between the onset of cardiac arrest and the start of external cardiac massage).
+* Duration of low-flow\> 60 minutes (the period between the start of external cardiac massage and recovery of an effective cardiac activity).
+* Major hemodynamic instability (dose norepinephrine and / or epinephrine \> 1 µg / kg / min to maintain MAP\> 65 mmHg).
+* Time between cardiac arrest and more than 480 minutes inclusion
+* Moribund.
+* Presence of histologically confirmed cirrhosis of Child class C.
+* Patient treatment in blocking the production of Il6 (Ro-tocilizumab or Actemra ®)
+* Patient under corticosteroid treatment (dose\> 5 mg of prednisolone equivalent)
+* Pregnant woman, parturient or lactating.
+* Inpatient without consent and / or deprived of liberty by a court decision.
+* Patient under guardianship
+* Inclusion in advance a research protocol with the draw, and whose primary endpoint is on interleukin-6.
+* Lack of social security.
+* Refusal of the trusted person or patient.",,False,0.0,,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,FN,FN,False,,False,0.0,,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,FN,FN,ALL,,False,0.0,,Sex,protocolSection.eligibilityModule.sex,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,FN,FN,18 Years,,False,0.0,,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,FN,FN,"['ADULT', 'OLDER_ADULT']",,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

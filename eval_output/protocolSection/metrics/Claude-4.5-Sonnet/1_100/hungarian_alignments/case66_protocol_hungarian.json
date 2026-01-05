@@ -1,0 +1,429 @@
+{
+  "metadata": {
+    "case_id": 66,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T18:02:47.999450",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/66_NCT03803683.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/66_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.85
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "id": "R01MH118151",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/R01MH118151"
+          },
+          "pred_item": {
+            "id": "R01MH118151",
+            "type": "NIH",
+            "domain": "National Institute of Mental Health",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.2,
+          0.78
+        ],
+        [
+          0.62,
+          0.93,
+          0.63
+        ],
+        [
+          0.82,
+          0.3,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "mLab App Intervention",
+            "type": "EXPERIMENTAL",
+            "description": "Youth randomized to the intervention arm (arm 1) will be provided with the mLab App, 2 OraQuick tests (including the package insert), and a box of condoms to take home at baseline. They will receive 2 more OraQuick tests at their 6 month visit. At their baseline appointment, youth will also be sent an email or text with links to mobile-optimized online prevention information, including PrEP and HIV testing information that is found on the CDC website. They will also receive a study information card listing the Columbia University School of Nursing / Lurie Children's study teams' contact information.",
+            "interventionNames": [
+              "Device: mLab App",
+              "Behavioral: HIV Prevention Information",
+              "Device: HIV Home Tests"
+            ]
+          },
+          "pred_item": {
+            "label": "mLab App (Arm 1)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive the mLab App intervention, HIV home test kits (OraQuick tests), and standard of preventive care. The mLab App includes HIV prevention information, automated testing reminders every 3 months, and a mobile phone imaging feature with algorithm for real-time interpretation of OraQuick rapid home HIV self-test results. Participants receive 2 OraQuick tests at baseline and an additional 2 tests after their 6-month visit. Standard of care includes HIV testing education, condoms, PrEP education, and access to online prevention information.",
+            "interventionNames": [
+              "DEVICE: mLab App",
+              "DEVICE: OraQuick HIV Home Test Kits",
+              "BEHAVIORAL: Standard of Preventive Care"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Standard of Care HIV Information Control Arm",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Youth randomized to the Standard of Care HIV information control arm (arm 2) will receive standard-of-care HIV/STI testing-related risk reduction counseling, a box of condoms, PrEP assessment, and referral information for clinics that provide PrEP during their first visit. Youth randomized to the standard of care will be sent an email with links to mobile-optimized online prevention information, including pre-exposure prophylaxis (PrEP) and HIV testing information that is found on the CDC website.They will also receive a study information card listing the Columbia University School of Nursing / Lurie Children's study teams' contact information.",
+            "interventionNames": [
+              "Behavioral: HIV Prevention Information"
+            ]
+          },
+          "pred_item": {
+            "label": "Standard of Care Only (Arm 2)",
+            "type": "NO_INTERVENTION",
+            "description": "Participants receive standard of preventive care only, which includes standard HIV testing and education at baseline visits, email or text with links to mobile-optimized online prevention information (including PrEP and HIV testing information from CDC website), study information card with contact information, and condoms. No home test kits or mLab App access provided.",
+            "interventionNames": [
+              "BEHAVIORAL: Standard of Preventive Care"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "HIV Home Tests",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Youth randomized to the HIV home testing arm (arm 3) will be provided with the 2 OraQuick tests (including the package insert), and a box of condoms to take home at baseline. They will receive 2 more OraQuick tests at the 6 month visit. At their baseline appointment, youth will also be sent an email or text with links to mobile-optimized online prevention information, including PrEP and HIV testing information that is found on the CDC website. They will also receive a study information card listing the Columbia University School of Nursing / Lurie Children's study teams' contact information.",
+            "interventionNames": [
+              "Behavioral: HIV Prevention Information",
+              "Device: HIV Home Tests"
+            ]
+          },
+          "pred_item": {
+            "label": "OraQuick Tests (Arm 3)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants receive HIV home test kits (OraQuick tests) and standard of preventive care only, without access to the mLab App. Participants receive 2 OraQuick tests at baseline and an additional 2 tests after their 6-month visit. They also receive standard HIV testing education, condoms, PrEP education, and access to online prevention information.",
+            "interventionNames": [
+              "DEVICE: OraQuick HIV Home Test Kits",
+              "BEHAVIORAL: Standard of Preventive Care"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.4,
+          0.15
+        ],
+        [
+          0.3,
+          0.25,
+          0.82
+        ],
+        [
+          0.65,
+          0.95,
+          0.25
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "mLab App",
+            "description": "The mLab App is a web application that uses an image processing algorithm to interpret the results of the OraQuick® In-Home HIV Test.",
+            "armGroupLabels": [
+              "mLab App Intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "mLab App",
+            "description": "An FDA regulated investigational device (IDE #18348) that is a mobile health technology combining HIV prevention information with automated notification reminders for HIV testing every 3 months and a mobile phone imaging feature with algorithm for interpreting visual results of OraQuick rapid home HIV self-test. The app provides real-time feedback on HIV test results, automated data collection and results reporting, and triggers messages to encourage repeat testing for non-reactive results or linkage to confirmatory testing and treatment for reactive results. Users access the app with a login and password, can monitor their progress on a timeline, and read daily HIV prevention facts.",
+            "armGroupLabels": [
+              "mLab App (Arm 1)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "HIV Prevention Information",
+            "description": "Youth randomized to the standard of care will be sent an email with links to mobile-optimized online prevention information, including PrEP and HIV testing information that is found on the Centers for Disease Control and Prevention (CDC) website.",
+            "armGroupLabels": [
+              "HIV Home Tests",
+              "Standard of Care HIV Information Control Arm",
+              "mLab App Intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Standard of Preventive Care",
+            "description": "Standard HIV prevention care provided to all participants regardless of arm assignment. Includes standard HIV testing and education at baseline visits, email or text with links to mobile-optimized online prevention information (including PrEP and HIV testing information from CDC website), study information card listing study team contact information, and condoms. Participants have scheduled 6-month and 12-month post-baseline visits with study staff, with brief check-ins via text-message at 2-months, 4-months, 8-months, and 10-months post-baseline.",
+            "armGroupLabels": [
+              "mLab App (Arm 1)",
+              "Standard of Care Only (Arm 2)",
+              "OraQuick Tests (Arm 3)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "HIV Home Tests",
+            "description": "Youth randomized into this arm will receive OraQuick® In-Home HIV Test.",
+            "armGroupLabels": [
+              "HIV Home Tests",
+              "mLab App Intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "OraQuick HIV Home Test Kits",
+            "description": "OraQuick rapid home HIV self-test kits provided to participants for at-home HIV testing. Participants in Arms 1 and 3 receive 2 OraQuick tests at baseline and an additional 2 tests after their 6-month visit, for a total of 4 tests over the 12-month study period. The OraQuick test is a rapid oral HIV test that provides results within 20-40 minutes.",
+            "armGroupLabels": [
+              "mLab App (Arm 1)",
+              "OraQuick Tests (Arm 3)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.82
+        ],
+        [
+          0.6
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Total Number of Youth Tested for HIV",
+            "description": "Total number of youth tested for HIV at 6 months",
+            "timeFrame": "6 months"
+          },
+          "pred_item": {
+            "measure": "Proportion of participants tested for HIV in the past 6 months",
+            "description": "The primary outcome is the proportion of participants who self-report being tested for HIV in the past 6 months. For participants in the intervention arm (arm 1), visual results from uploaded OraQuick test images will be cross-referenced with self-report to assess any bias in self-reported HIV testing.",
+            "timeFrame": "6 months post-baseline"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Total Number of Youth Tested for HIV",
+            "description": "Total number of youth tested for HIV at 12 months",
+            "timeFrame": "12 months"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 8,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.25,
+          0.32
+        ],
+        [
+          0.35,
+          0.25
+        ],
+        [
+          0.9,
+          0.05
+        ],
+        [
+          0.88,
+          0.08
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.12,
+          0.11
+        ],
+        [
+          0.1,
+          0.05
+        ],
+        [
+          0.05,
+          0.03
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.32,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Total Number of HIV Negative/ Positive Results",
+            "description": "Total number of HIV negative/ positive results at 6 months",
+            "timeFrame": "6 months"
+          },
+          "pred_item": {
+            "measure": "mLab App test interpretation performance",
+            "description": "Sensitivity and specificity of test interpretation methods will be compared using McNemar's test. Four methods of result reporting will be compared: (1) user-submitted results, (2) study team interpretation of uploaded images, (3) automated mLab App results, and (4) confirmatory testing (treated as the gold standard). Comparisons will assess: user vs. study team, user vs. mLab, study team vs. mLab, and each method vs. confirmatory testing.",
+            "timeFrame": "Throughout the 12-month study period"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Total Number of HIV Negative/ Positive Results",
+            "description": "Total number of HIV negative/ positive results at 12 months",
+            "timeFrame": "12 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Total Number of Youth Who Link to HIV Care Services",
+            "description": "Total number of youth who link to HIV care services at 6 months",
+            "timeFrame": "6 months"
+          },
+          "pred_item": {
+            "measure": "Linkage to care for HIV-positive participants",
+            "description": "Linkage to care is measured by the percent of study participants who tested positive and attended a first HIV care appointment at NYP/Columbia or Lurie or who provide documentation of care at another clinic, and the time linked to care after positive result. Follow-up surveys for HIV positive participants will include questions regarding positive diagnosis, such as disclosure and seeking care.",
+            "timeFrame": "Up to 12 months post-baseline"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Total Number of Youth Who Link to HIV Care Services",
+            "description": "Total number of youth who link to HIV care services at 12 months",
+            "timeFrame": "12 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Sexual Partners in the Past 3 Months",
+            "description": "Number of Sexual Partners in the past 3 months collected at the 6 month mark",
+            "timeFrame": "6 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Sexual Partners in the Past 3 Months",
+            "description": "Number of Sexual Partners in the past 3 months collected at the 12 month mark",
+            "timeFrame": "12 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Condomless Anal Sex Acts",
+            "description": "Number of condomless anal sex acts in the past 3 months at 6 months",
+            "timeFrame": "6 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Condomless Anal Sex Acts",
+            "description": "Number of condomless anal sex acts in the past 3 months at 12 months",
+            "timeFrame": "12 months"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

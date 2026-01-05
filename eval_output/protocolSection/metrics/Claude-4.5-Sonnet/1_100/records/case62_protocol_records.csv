@@ -1,0 +1,70 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT02628093,NCT02628093,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,TP,A ProspectiveTrial Comparing THUNDERBEAT to the Ligasure Energy Device During Laparoscopic Colon Surgery,Comparison of THUNDERBEAT and Maryland LigaSure Energy Devices in Laparoscopic Left Colectomy,True,0.93,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,TP,A Randomized Controlled Trial Comparing THUNDERBEAT to the Ligasure Energy Device During Laparoscopic Colon Surgery,Prospective Randomized Trial Comparing the Clinical Performance of THUNDERBEAT Energy Device to Maryland LigaSure in Patients Undergoing Left Laparoscopic Colectomy,True,0.93,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,TP,TP,"Prospective randomized controlled study, at Colon and Rectal Surgery, WMC/NYPH. Subjects undergoing Laparoscopic Left Colectomy will be randomized into 1 of 2 groups based on the instrument used for tissue dissection and vessel ligation: Group 1 - THUNDERBEAT Group 2
+
+\- Ligasure Population","This prospective randomized trial compared the clinical performance of THUNDERBEAT, a multi-functional energy device delivering both ultrasonic and bipolar energy, to Maryland LigaSure, a bipolar energy device, in patients undergoing laparoscopic left colectomy. The hypothesis was that THUNDERBEAT would demonstrate superior or comparable performance in terms of dissection time and versatility in soft tissue dissection and vessel sealing compared to LigaSure.",True,0.92,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.detailedDescription,TP,TP,"Prospective randomized controlled study, at Colon and Rectal Surgery, WMC/NYPH. Subjects undergoing Laparoscopic Left Colectomy will be randomized into 1 of 2 groups based on the instrument used for tissue dissection and vessel ligation: Group 1 - THUNDERBEAT Group 2
+
+\- Ligasure Population: 60 subjects, with colon neoplasm or diverticulitis will be invited in the study after surgery is deemed necessary Study Procedures: This project will consist only of prospective data collection. No interventions will be done for research purpose. Data will be collected prospectively on: -Patients (before, during and after surgery) -The THUNDERBEAT and LigaSure instruments Data will be collected on data collection sheets and entered in a password protected database Primary Outcomes/Definitions- Overall time for dissection of the soft tissues necessary for specimen removal during colon resection, measured in minutes, from the start of colon mobilization to specimen removal from the abdominal cavity.","This was a pilot prospective randomized trial conducted at a single academic institution to evaluate the clinical performance of THUNDERBEAT versus Maryland LigaSure energy devices in laparoscopic left colectomy. Sixty patients undergoing elective laparoscopic left colectomy for neoplasm or diverticulitis were randomized with equal allocation into two groups: Group 1 (THUNDERBEAT, n=31) and Group 2 (LigaSure, n=29). The primary outcomes were dissection time to specimen removal (DTSR), measured from the start of colon mobilization to specimen removal, and versatility score, a composite measure of five variables (hemostasis, sealing, cutting, dissection, and tissue manipulation) evaluated across six surgical segments using a 1-5 scoring system, adjusted by coefficient of importance. Secondary outcomes included dryness of surgical field, ease of use (surgeon survey), intraoperative and postoperative complications, estimated blood loss, and 30-day postoperative outcomes including gastrointestinal recovery, length of hospital stay, readmission, reoperation, and mortality. All surgeries were video recorded, and participating surgeons were trained on both devices prior to the trial. The study aimed to provide rigorous evaluation of the clinical performance and safety of these energy-based devices in colorectal surgery, particularly focusing on their effectiveness in vessel sealing, tissue dissection, and overall surgical versatility during different phases of left colectomy.",True,0.94,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,TP,TP,['Colon Cancer'],"['Colorectal Neoplasms', 'Diverticulitis', 'Colon Cancer', 'Colonic Diseases']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,EV,EV,,"['Laparoscopic colectomy', 'Energy devices', 'THUNDERBEAT', 'LigaSure', 'Ultrasonic surgery', 'Bipolar electrosurgery', 'Vessel sealing', 'Tissue dissection', 'Colorectal surgery', 'Minimally invasive surgery', 'Left colectomy', 'Surgical instrumentation', 'Hemostasis', 'Electrosurgery']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.targetDuration,EV,EV,,30 days,,,,TargetDuration,protocolSection.designModule.targetDuration,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,Prospective randomized trial with two parallel groups: Group 1 THUNDERBEAT and Group 2 LigaSure. Patients undergoing laparoscopic left colectomy were randomized with equal chances into one of two groups using blocked randomization method with random permuted blocks of four and a 1:1 allocation ratio.,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Open-label study. Surgeons and patients were aware of the energy device being used during surgery.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,TP,73,60,True,0.8,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[10].measure,EV,EV,,Mortality,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[5].measure,EV,EV,,Postoperative bleeding requiring intervention,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[7].measure,EV,EV,,Reoperation,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[8].measure,EV,EV,,Readmission,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[10].description,EV,EV,,Number of patient deaths.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[5].description,EV,EV,,Number of patients with postoperative bleeding requiring intervention.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[7].description,EV,EV,,Number of patients requiring reoperation.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[8].description,EV,EV,,Number of patients readmitted to hospital.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[10].timeFrame,EV,EV,,30 days post-surgery,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[5].timeFrame,EV,EV,,30 days post-surgery,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[7].timeFrame,EV,EV,,30 days post-surgery,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[8].timeFrame,EV,EV,,30 days post-surgery,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Patients that will be undergoing a Left Laparoscopic Colon Resection
+* Older than 18 years old
+* ASA 1 to 3
+* Elective surgeries
+* Patients who willingly provide informed consent
+
+Exclusion Criteria:
+
+* Morbidly obese patients (BMI \>35)
+* Patients with acute diverticulitis
+* Patients with multiple previous abdominal surgeries
+* Patients on anticoagulants
+* Patients who can not, tolerate a major surgery
+* Patients for whom electrosurgery is contraindicated
+* Patients who are pregnant
+* Patient with IBDs","Inclusion Criteria:
+- Age 18 years and above
+- Male and female patients
+- American Society of Anesthesiologists (ASA) class between 1 and 3
+- Undergoing elective left laparoscopic colectomy for neoplasm or diverticulitis
+- Provided research informed consent
+
+Exclusion Criteria:
+- Morbid obesity (body mass index, BMI > 35)
+- Multiple previous abdominal surgeries
+- On anticoagulants prior to surgery
+- Coagulopathy disorders
+- Pregnant women
+- Those to whom electrosurgery is contraindicated",True,0.94,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

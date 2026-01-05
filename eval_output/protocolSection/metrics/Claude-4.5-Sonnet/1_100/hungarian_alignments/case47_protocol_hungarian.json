@@ -1,0 +1,529 @@
+{
+  "metadata": {
+    "case_id": 47,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T16:28:11.181415",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/47_NCT04796909.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/47_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.68
+        ],
+        [
+          0.78,
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "Parent coaching",
+            "type": "EXPERIMENTAL",
+            "description": "The parent-coaching intervention consists of up to 8 weekly/fortnightly sessions, and each session will last up to one hour.",
+            "interventionNames": [
+              "Behavioral: Occupational Performance coaching"
+            ]
+          },
+          "pred_item": {
+            "label": "Intervention Group",
+            "type": "EXPERIMENTAL",
+            "description": "Parents will receive Occupational Performance Coaching (OPC) consisting of 4-8 weekly or fortnightly sessions, each lasting 30 minutes to 1 hour. OPC comprises three enabling domains: connect (building trust), structure (building competence through problem-solving framework), and share (building autonomy through reciprocal information exchange). Sessions will be delivered in person or via telephone/communication applications. Children will continue to receive usual early intervention care during the study period.",
+            "interventionNames": [
+              "Behavioral: Occupational Performance Coaching",
+              "Other: Usual Care"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Parent consultation",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "The parent consultations are given for up to 8 weekly/fortnightly sessions, and each session may last up to one hour.",
+            "interventionNames": [
+              "Behavioral: Parent consultation"
+            ]
+          },
+          "pred_item": {
+            "label": "Control Group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Parents will receive consultation regarding community resources from occupational therapists or occupational therapy students not involved in OPC training. Consultation will consist of 4-8 weekly or fortnightly sessions, each lasting 30 minutes to 1 hour. A toolbox of community resources will be used to provide information about available environmental resources and supportive strategies using a direct informing approach. Sessions will be delivered in person or in tele-format. Children will continue to receive usual early intervention care during the study period.",
+            "interventionNames": [
+              "Behavioral: Parent Consultation",
+              "Other: Usual Care"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.99,
+          0.68,
+          0.18
+        ],
+        [
+          0.72,
+          0.96,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Occupational Performance coaching",
+            "description": "The OPC intervention comprises three components: (1) connect - building parents' trust in the coach by using verbal and nonverbal strategies; (2) structure - building parents' competence by adopting a problem-solving framework of setting goals, exploring options, planning action, carrying out plans, checking performance, and generalizing; and (3) share - building parents' autonomy by reciprocally exchanging information between the coach and parents with an emphasis on eliciting parents existing knowledge. During the exploration of the options for a particular goal, collaborative performance analysis is used. The coach follows the four steps to (a) identify parents' perception of what currently happens, (b) identify what they would like to happen, (c) explore barriers and bridges to the desired performance, and (d) identify their needs for taking actions to achieve goals. Parents are guided to find strategies to facilitate their child's performance to support goal achievement.",
+            "armGroupLabels": [
+              "Parent coaching"
+            ],
+            "otherNames": [
+              "OPC"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Occupational Performance Coaching",
+            "description": "OPC is a parent coaching intervention grounded in self-determination theory that aims to facilitate children's participation in life situations through coaching parents. The intervention comprises three enabling domains: (1) connect - building parents' trust through listening, empathizing, and partnering; (2) structure - building parents' competence by adopting a problem-solving framework including setting goals, exploring options, planning action, carrying out plans, checking performance, and generalizing; and (3) share - building parents' autonomy through reciprocal information exchange. Collaborative performance analysis is used to explore options for achieving goals by identifying current situation, desired outcomes, barriers and bridges, and action steps. Sessions are delivered by trained occupational therapists with at least 24 hours of OPC training.",
+            "armGroupLabels": [
+              "Intervention Group"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Parent consultation",
+            "description": "The parent consultation consists of the use of the toolbox to provide parents with available environmental resources and strategies to enhance community participation of their child with developmental disability, followed by the understanding of current situation and the identification of problems encountered by parents. Direct informing approach will be used to instruct parents about the availability of environmental resources close to their living areas and what they can plan to do by using possible supportive strategies. In addition, information about child disability and/or developmental milestone may be provided if needed.",
+            "armGroupLabels": [
+              "Parent consultation"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Parent Consultation",
+            "description": "Parent consultation involves providing parents with information about community resources and supportive strategies using a direct informing approach. A toolbox of community resources including public playgrounds, play groups, and sports programs, as well as generic supportive strategies for parents of children with disabilities, is used. Occupational therapists or occupational therapy students provide parents with available environmental resources close to their living areas and possible supportive strategies, along with information about child disability and developmental milestones if needed. The OPC key elements such as action-reflection process and collaborative performance analysis are avoided in this consultation approach.",
+            "armGroupLabels": [
+              "Control Group"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.96,
+          0.4,
+          0.72
+        ],
+        [
+          0.82,
+          0.45,
+          0.9,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Participation-related Goal Performance and Satisfaction",
+            "description": "Performance and satisfaction scores (1-10) of the Canadian Occupational Performance Measure (COPM). Higher scores mean a better outcome.",
+            "timeFrame": "T0=5-6 weeks before intervention; T1=1-2 weeks before intervention; T2=1-2 weeks after intervention; T3=8-9 weeks after the intervention"
+          },
+          "pred_item": {
+            "measure": "Canadian Occupational Performance Measure (COPM) - Performance Score",
+            "description": "Parents rate their child's performance in specific community participation activities on a 10-point Likert scale (1=not good at all, 10=optimal performance). Higher scores indicate greater children's participation performance.",
+            "timeFrame": "Baseline (time 0: 5-6 weeks before intervention), Pre-intervention (time 1: 1-2 weeks before intervention), Post-intervention (time 2: 1-2 weeks after intervention), Follow-up (time 3: 8-9 weeks after intervention)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 3,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Children's Community Participation Frequency and Involvement",
+            "description": "Frequency scores (0-7) and involvement scores (1-5) of the community section of the Young Children's Participation and Environment Measure (YC-PEM). Higher scores mean a better outcome.",
+            "timeFrame": "T0=5-6 weeks before intervention; T1=1-2 weeks before intervention; T2=1-2 weeks after intervention; T3=8-9 weeks after the intervention"
+          },
+          "pred_item": {
+            "measure": "Young Children's Participation and Environment Measure (YC-PEM) - Community Participation Involvement",
+            "description": "Parent-reported level of child's involvement during community participation, rated on a 5-point Likert scale (1=not very involved, 5=very involved). Total score is generated by averaging all items, with higher scores indicating greater involvement.",
+            "timeFrame": "Baseline (time 0: 5-6 weeks before intervention), Pre-intervention (time 1: 1-2 weeks before intervention), Post-intervention (time 2: 1-2 weeks after intervention), Follow-up (time 3: 8-9 weeks after intervention)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 6,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.97,
+          0.2,
+          0.35,
+          0.4,
+          0.35
+        ],
+        [
+          0.4,
+          0.6,
+          0.9,
+          0.96,
+          0.9,
+          0.42
+        ],
+        [
+          0.18,
+          0.35,
+          0.32,
+          0.32,
+          0.2,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Parenting Efficacy and Satisfaction",
+            "description": "Efficacy scores (7-42) and satisfaction scores (9-56) of the Parenting Sense of Competence Scale (PSOC). Higher scores mean a better outcome.",
+            "timeFrame": "T0=5-6 weeks before intervention; T1=1-2 weeks before intervention; T2=1-2 weeks after intervention; T3=8-9 weeks after the intervention"
+          },
+          "pred_item": {
+            "measure": "Parenting Sense of Competence Scale (PSOC) - Efficacy Subscale",
+            "description": "Parent self-report of perceived efficacy in the parenting role, consisting of 8 items rated on a 6-point Likert scale (1=strongly agree, 6=strongly disagree). Higher total scores indicate greater parenting competence.",
+            "timeFrame": "Baseline (time 0: 5-6 weeks before intervention), Pre-intervention (time 1: 1-2 weeks before intervention), Post-intervention (time 2: 1-2 weeks after intervention), Follow-up (time 3: 8-9 weeks after intervention)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 3,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Parents' Negative Emotional States",
+            "description": "The scores (0-42 for each subscale) of the Depression, Anxiety and Stress Scale-21 (DASS-21). Higher scores mean a worse outcome.",
+            "timeFrame": "T0=5-6 weeks before intervention; T1=1-2 weeks before intervention; T2=1-2 weeks after intervention; T3=8-9 weeks after the intervention"
+          },
+          "pred_item": {
+            "measure": "Depression Anxiety Stress Scale-21 (DASS-21) - Anxiety Subscale",
+            "description": "Parent self-report of anxiety symptoms over the past week, consisting of 7 items rated on a 4-point Likert scale (0=did not apply to me at all, 3=applied to me very much or most of the time). Higher total scores indicate greater anxiety.",
+            "timeFrame": "Baseline (time 0: 5-6 weeks before intervention), Pre-intervention (time 1: 1-2 weeks before intervention), Post-intervention (time 2: 1-2 weeks after intervention), Follow-up (time 3: 8-9 weeks after intervention)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 5,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Children's Psychosocial Health",
+            "description": "Psychosocial health score (0-100) of the KINDL questionnaire. Higher scores mean a better outcome.",
+            "timeFrame": "T0=5-6 weeks before intervention; T1=1-2 weeks before intervention; T2=1-2 weeks after intervention; T3=8-9 weeks after the intervention"
+          },
+          "pred_item": {
+            "measure": "KINDL Questionnaire (Kiddy-KINDL) - Psychosocial Health Score",
+            "description": "Parent-reported child health-related quality of life focusing on psychosocial health, derived by summing item scores from emotional, self-esteem, family, and social contacts domains (16 items total) rated on a 5-point Likert scale (0=never, 4=all the time) over the past month. Higher scores indicate greater psychosocial health.",
+            "timeFrame": "Baseline (time 0: 5-6 weeks before intervention), Pre-intervention (time 1: 1-2 weeks before intervention), Post-intervention (time 2: 1-2 weeks after intervention), Follow-up (time 3: 8-9 weeks after intervention)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.otherOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 10,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.96,
+          0.28,
+          0.08,
+          0.12,
+          0.55,
+          0.12
+        ],
+        [
+          0.32,
+          0.45,
+          0.96,
+          0.18,
+          0.25,
+          0.6,
+          0.19
+        ],
+        [
+          0.08,
+          0.18,
+          0.08,
+          0.98,
+          0.45,
+          0.18,
+          0.68
+        ],
+        [
+          0.08,
+          0.12,
+          0.28,
+          0.4,
+          0.95,
+          0.18,
+          0.18
+        ],
+        [
+          0.3,
+          0.32,
+          0.45,
+          0.25,
+          0.42,
+          0.99,
+          0.2
+        ],
+        [
+          0.08,
+          0.11,
+          0.08,
+          0.08,
+          0.12,
+          0.07,
+          0.06
+        ],
+        [
+          0.07,
+          0.08,
+          0.03,
+          0.05,
+          0.08,
+          0.12,
+          0.02
+        ],
+        [
+          0.1,
+          0.08,
+          0.12,
+          0.28,
+          0.18,
+          0.2,
+          0.3
+        ],
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.05,
+          0.1,
+          0.2,
+          0.08
+        ],
+        [
+          0.09,
+          0.12,
+          0.08,
+          0.25,
+          0.2,
+          0.18,
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Stability in Children's Daily Activity and Social/Cognitive Function",
+            "description": "Scaled scores (0-100) of the daily activity and social/cognitive domains of the Pediatric Evaluation of Disability Inventory computer-adaptive tests (PEDI-CAT). Higher scores mean a better outcome.",
+            "timeFrame": "T0=5-6 weeks before intervention; T1=1-2 weeks before intervention; T2=1-2 weeks after intervention; T3=8-9 weeks after the intervention"
+          },
+          "pred_item": {
+            "measure": "Pediatric Evaluation of Disability Inventory Computer-Adaptive Test (PEDI-CAT) - Social/Cognitive Function Domain",
+            "description": "Parent-report of child's social and cognitive functional performance, using a speedy feature (10-15 items) rated on a 4-point Likert scale (1=unable, 4=easy). Scaled scores (20-80 metric) are derived using item-response theory, with higher scores indicating better performance.",
+            "timeFrame": "Baseline (time 0: 5-6 weeks before intervention), Pre-intervention (time 1: 1-2 weeks before intervention), Post-intervention (time 2: 1-2 weeks after intervention), Follow-up (time 3: 8-9 weeks after intervention)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Stability in Perceived Impact of Environmental Support on Children's Community Participation",
+            "description": "Perceived environmental support scores (0-100) of the community section of the Young Children's Participation and Environment Measure. Higher scores mean a better outcome.",
+            "timeFrame": "T0=5-6 weeks before intervention; T1=1-2 weeks before intervention; T2=1-2 weeks after intervention; T3=8-9 weeks after the intervention"
+          },
+          "pred_item": {
+            "measure": "Young Children's Participation and Environment Measure (YC-PEM) - Environmental Support Scale",
+            "description": "Parent-reported perceived impact of environmental features (10 items) and resources (7 items) on child's community participation, rated on a 3-point Likert scale (1=usually makes it harder, 3=no impact/usually helps for features; 1=usually no, 3=not needed/usually yes for resources). Total score is averaged across all items, with higher scores indicating greater environmental support.",
+            "timeFrame": "Baseline (time 0: 5-6 weeks before intervention), Pre-intervention (time 1: 1-2 weeks before intervention), Post-intervention (time 2: 1-2 weeks after intervention), Follow-up (time 3: 8-9 weeks after intervention)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 3,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Level of Therapeutic Alliance During Coaching Session",
+            "description": "Total scores (0-40) of the Session Rating Scale (SRS). Higher average scores mean a better outcome.",
+            "timeFrame": "Immediate after each of the coaching sessions during the intervention period"
+          },
+          "pred_item": {
+            "measure": "Session Rating Scale (SRS)",
+            "description": "Parent-rated therapeutic alliance after each coaching session, consisting of 4 items (respect and understanding, relevance of goals/topics, approach used, overall alliance) using visual analog scales (0-10 cm lines). Total score is the sum of marks measured to the nearest centimeter, with higher scores indicating greater alliance.",
+            "timeFrame": "After each coaching/consultation session during the intervention period (4-8 weekly or fortnightly sessions)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 4,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Level of Perceptions of Health Care Practitioners' Autonomy Support",
+            "description": "Total scores (1-7) of the Health Care Climate Questionnaire (HCCQ). Higher scores mean a better outcome.",
+            "timeFrame": "T1=1-2 weeks before intervention; T2=1-2 weeks after intervention"
+          },
+          "pred_item": {
+            "measure": "Health Care Climate Questionnaire (HCCQ)",
+            "description": "Parent-perceived autonomy support from the coach, consisting of 15 items rated on a 7-point Likert scale (1=strongly disagree, 7=strongly agree). Total score is the average of all items, with higher scores indicating greater autonomy support.",
+            "timeFrame": "Post-intervention (time 2: 1-2 weeks after intervention)"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 5,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Level of Parents' Global Impression on the Improvement of Their Child's Community Participation",
+            "description": "The item score (1-7) of the Patient Global Impression of Change. Higher scores mean a worse outcome.",
+            "timeFrame": "T2=1-2 weeks after intervention"
+          },
+          "pred_item": {
+            "measure": "Patient Global Impression of Change (PGIC)",
+            "description": "Parent-rated global impression of change in child's community participation since the start of intervention, consisting of 1 item rated on a 7-point Likert scale (1=very much improved, 7=very much worse).",
+            "timeFrame": "Post-intervention (time 2: 1-2 weeks after intervention)"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants Recruited",
+            "description": "The percentage of eligible families agreeing to participate in the study",
+            "timeFrame": "T0=5-6 weeks before intervention"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Retention Rate of Participants Who Complete the Trial",
+            "description": "The percentage of participants who complete the trial (i.e., all assessments)",
+            "timeFrame": "T3=8-9 weeks after the intervention"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 0,
+          "score": 0.1,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Adherence Rate of Participants Who Attend the Coaching Sessions",
+            "description": "The percentage of coaching sessions attended by parents who are randomized to the intervention group",
+            "timeFrame": "T2=1-2 weeks after intervention"
+          },
+          "pred_item": {
+            "measure": "Pediatric Evaluation of Disability Inventory Computer-Adaptive Test (PEDI-CAT) - Daily Activity Domain",
+            "description": "Parent-report of child's functional performance in daily activities, using a speedy feature (10-15 items) rated on a 4-point Likert scale (1=unable, 4=easy). Scaled scores (20-80 metric) are derived using item-response theory, with higher scores indicating better performance.",
+            "timeFrame": "Baseline (time 0: 5-6 weeks before intervention), Pre-intervention (time 1: 1-2 weeks before intervention), Post-intervention (time 2: 1-2 weeks after intervention), Follow-up (time 3: 8-9 weeks after intervention)"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Blinding Success",
+            "description": "The percentage of parents who guess treatment allocation correctly after the study",
+            "timeFrame": "T2=1-2 weeks after intervention"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": 6,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Fidelity of Coaches Who Conduct the Occupational Performance Coaching",
+            "description": "Percentage score of the Occupational Performance Coaching Fidelity Measure. This measure consists of 18 items across five domains: relationship, goal, reflection, analysis and action, client response, and distinguishing. Each item is rated on a three-point Likert scale (1 = low and 3 = high). The percentage score can be calculated by dividing the total score by the possible maximum score. Higher percentage scores indicate higher fidelity, and the cut-off of sufficient fidelity of coaching per session is set at 80%.",
+            "timeFrame": "T2=1-2 weeks after intervention"
+          },
+          "pred_item": {
+            "measure": "Occupational Performance Coaching Fidelity Measure Version 3.0",
+            "description": "Fidelity assessment of OPC delivery by coaches, consisting of 18 items across 5 domains (relationship, goal, reflection, analysis and action, client response, distinguishing), each rated on a 3-point Likert scale (1=low, 3=high). Percentage score calculated by dividing total score by maximum possible score; ≥80% indicates sufficient fidelity.",
+            "timeFrame": "Throughout intervention period, assessed from audio recordings of 8 selected coaching sessions per coach"
+          }
+        }
+      ]
+    }
+  ]
+}

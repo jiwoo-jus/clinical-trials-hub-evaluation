@@ -1,0 +1,190 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01966471",
+      "organization": {
+        "fullName": "F. Hoffmann-La Roche Ltd",
+        "class": "INDUSTRY"
+      },
+      "officialTitle": "Trastuzumab Emtansine Plus Pertuzumab Versus Taxane Plus Trastuzumab Plus Pertuzumab After Anthracycline for High-Risk Human Epidermal Growth Factor Receptor 2–Positive Early Breast Cancer: The Phase III KAITLIN Study",
+      "acronym": "KAITLIN"
+    },
+    "descriptionModule": {
+      "briefSummary": "The phase III KAITLIN study aimed to improve efficacy and reduce toxicity in high-risk human epidermal growth factor receptor 2 (HER2)–positive early breast cancer (EBC) by evaluating a treatment regimen replacing taxanes and trastuzumab with trastuzumab emtansine (T-DM1). Following surgery and anthracycline-based chemotherapy, patients were randomized to receive either T-DM1 plus pertuzumab (AC-KP) or the standard regimen of taxane plus trastuzumab plus pertuzumab (AC-THP).",
+      "detailedDescription": "KAITLIN (NCT01966471) is a randomized, multinational, open-label phase III study designed to compare the efficacy and safety of trastuzumab emtansine (T-DM1) plus pertuzumab versus trastuzumab plus pertuzumab and taxane as adjuvant therapy for high-risk HER2-positive early breast cancer.\n\nParticipants included adults with excised HER2-positive EBC who were either node-positive (any tumor size/hormone status) or node-negative (tumor > 2.0 cm and hormone receptor-negative). Patients were randomized 1:1 to one of two arms:\n1. AC-THP Arm: Anthracycline-based chemotherapy (3-4 cycles) followed by taxane (3-4 cycles) plus trastuzumab and pertuzumab. Trastuzumab plus pertuzumab were continued to complete 1 year of HER2-targeted therapy.\n2. AC-KP Arm: Anthracycline-based chemotherapy (3-4 cycles) followed by 18 cycles of T-DM1 plus pertuzumab.\n\nThe coprimary endpoints were invasive disease-free survival (IDFS) in the node-positive subpopulation and the overall intention-to-treat population. Secondary endpoints included overall survival (OS), distant recurrence-free interval, disease-free survival, and safety assessments including cardiac events and patient-reported outcomes (EORTC QLQ-C30 and QLQ-BR23)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "HER2-positive Early Breast Cancer",
+        "Breast Cancer"
+      ],
+      "keywords": [
+        "Trastuzumab emtansine",
+        "T-DM1",
+        "Pertuzumab",
+        "Trastuzumab",
+        "Taxane",
+        "Anthracycline",
+        "Adjuvant therapy",
+        "Early Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "This is an open-label study. However, an independent clinical events committee adjudicated prespecified safety events of interest (cardiac and hepatic dysfunction events) in a blinded fashion."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1846,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "AC-KP",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received anthracycline-based chemotherapy (three to four cycles) followed by 18 cycles of trastuzumab emtansine (T-DM1) plus pertuzumab.",
+          "interventionNames": [
+            "Drug: Trastuzumab emtansine",
+            "Drug: Pertuzumab",
+            "Drug: Anthracycline chemotherapy"
+          ]
+        },
+        {
+          "label": "AC-THP",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients received anthracycline-based chemotherapy (three to four cycles) followed by taxane (three to four cycles) plus trastuzumab plus pertuzumab. Trastuzumab plus pertuzumab was continued for at least 1 year.",
+          "interventionNames": [
+            "Drug: Trastuzumab",
+            "Drug: Taxane",
+            "Drug: Pertuzumab",
+            "Drug: Anthracycline chemotherapy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Trastuzumab emtansine",
+          "description": "Dosed at 3.6 mg/kg intravenously once every 3 weeks.",
+          "armGroupLabels": [
+            "AC-KP"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Pertuzumab",
+          "description": "Dosed at 420 mg intravenously once every 3 weeks after an 840-mg loading dose.",
+          "armGroupLabels": [
+            "AC-KP",
+            "AC-THP"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Trastuzumab",
+          "description": "Dosed at 6 mg/kg intravenously once every 3 weeks after an 8-mg/kg loading dose.",
+          "armGroupLabels": [
+            "AC-THP"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Taxane",
+          "description": "Investigator's choice of docetaxel or paclitaxel administered concurrently with trastuzumab and pertuzumab.",
+          "armGroupLabels": [
+            "AC-THP"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Anthracycline chemotherapy",
+          "description": "Investigator's choice of doxorubicin or epirubicin-based regimens (FEC, AC, or EC) administered for 3-4 cycles prior to HER2-targeted therapy.",
+          "armGroupLabels": [
+            "AC-KP",
+            "AC-THP"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Invasive Disease-Free Survival (IDFS) in the Node-Positive Subpopulation",
+          "description": "Time from random assignment until the date of first occurrence of one of the following: ipsilateral invasive breast tumor recurrence, ipsilateral locoregional invasive breast cancer recurrence, contralateral or ipsilateral second primary invasive breast cancer, distant recurrence, or death because of any cause.",
+          "timeFrame": "Median follow-up of approximately 57 months"
+        },
+        {
+          "measure": "Invasive Disease-Free Survival (IDFS) in the Overall Population",
+          "description": "Time from random assignment until the date of first occurrence of one of the following: ipsilateral invasive breast tumor recurrence, ipsilateral locoregional invasive breast cancer recurrence, contralateral or ipsilateral second primary invasive breast cancer, distant recurrence, or death because of any cause.",
+          "timeFrame": "Median follow-up of approximately 57 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "IDFS plus Second Primary Nonbreast Cancer",
+          "description": "Time from random assignment until the first occurrence of an IDFS event or a second primary nonbreast cancer.",
+          "timeFrame": "Median follow-up of approximately 57 months"
+        },
+        {
+          "measure": "Disease-Free Survival (DFS)",
+          "description": "Time between random assignment and first occurrence of an IDFS event, second primary nonbreast cancer event, and contralateral or ipsilateral ductal carcinoma in situ.",
+          "timeFrame": "Median follow-up of approximately 57 months"
+        },
+        {
+          "measure": "Distant Recurrence-Free Interval (DRFI)",
+          "description": "Time between random assignment and first occurrence of distant breast cancer recurrence.",
+          "timeFrame": "Median follow-up of approximately 57 months"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Time from random assignment to death because of any cause.",
+          "timeFrame": "Median follow-up of approximately 57 months"
+        },
+        {
+          "measure": "Primary Adjudicated Cardiac Safety Endpoint",
+          "description": "Incidence of severe heart failure (New York Heart Association [NYHA] classification III or IV) and significant LVEF decline (decline of ≥ 10 percentage points to a value < 50%) or cardiac death.",
+          "timeFrame": "Through study completion, median follow-up approx 57 months"
+        },
+        {
+          "measure": "Secondary Cardiac Events",
+          "description": "Incidence of symptomatic left ventricular systolic dysfunction (LVSD; NYHA II) with significant LVEF decline and asymptomatic LVSD.",
+          "timeFrame": "Through study completion, median follow-up approx 57 months"
+        },
+        {
+          "measure": "Time to Clinically Meaningful Deterioration in Global Health Status/Quality of Life",
+          "description": "Assessed using the EORTC QLQ-C30. Clinically meaningful deterioration defined as a decrease in the baseline score of ≥ 10 points.",
+          "timeFrame": "From cycle 1 day 1 of HER2-targeted treatment through follow-up"
+        },
+        {
+          "measure": "Adverse Events (AEs)",
+          "description": "Incidence and severity of adverse events coded according to MedDRA and graded according to NCI CTCAE v4.0.",
+          "timeFrame": "Through study completion"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Adults with excised HER2-positive early breast cancer (EBC)\n* Newly diagnosed, nonmetastatic, histologically confirmed, operable primary invasive breast carcinoma\n* Node-positive disease (pN >= 1), with any tumor size except T0 and any hormone receptor status, or node-negative disease (pN0) with the pathologic tumor size > 2.0 cm by local assessment and negative for estrogen receptor (ER) and progesterone receptor (PgR)\n* HER2-positive status defined as an immunohistochemistry (IHC) score of 3+ and/or an in situ hybridization HER2:chromosome 17 ratio of >= 2.0\n* Baseline left ventricular ejection fraction (LVEF) of >= 55% (by echocardiogram or multigated acquisition scans)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

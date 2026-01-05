@@ -1,0 +1,76 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04356963,NCT04356963,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,National Center for Advancing Translational Sciences,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,Adjunct VR Pain Management in Acute Brain Injury,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,Adjunct Virtual Reality Pain Management in Acute Brain Injury,,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"Severe and refractory pain after acute injury is a known-risk factor for chronic opioid use disorder. In this study, the investigators will use Virtual Reality (VR) immersion as a non-pharmacological adjunct to treat pain associated with acute traumatic injuries, including traumatic brain injury. The investigators hypothesize that VR therapy will decrease pain and reduce opioid use in patients with acute traumatic injuries, including TBI.","This randomized within-subjects clinical study aims to establish the safety and efficacy of virtual reality (VR) therapy as a pain management intervention for patients with acute traumatic injuries, including traumatic brain injury (TBI). The study compares immersive VR therapy against two control conditions (a non-immersive tablet display and a blank VR headset) to evaluate reductions in pain intensity, as well as changes in affective and physiological measures, thereby assessing VR's potential as a non-pharmacological analgesic to reduce opioid reliance.",True,0.86,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"Each participant will undergo one VR session and two control sessions. The VR session will take place in a commercially available VR environment, the Blu, and last 20-30 minutes (VR Blu). The control sessions will include a 2D-tablet based session that mimics the VR content (Tablet Blu) and a content-less placement of the VR headset (VR Blank). The order of these sessions will be randomized across participants are intended to complete all sessions.
+
+Each participant will complete a pre-study questionnaire to elicit their prior experience with the virtual reality as well as measures of gaming addiction/engagement, boredom, and expectancy. These scales will help us determine which patient-level factors predict response to VR. Before and after each session, participants will complete validated scales of pain, nausea, and anxiety.. Pre- and Post-VR opioid use will be recorded. Basic vital signs including heart rate, blood pressure, and respiratory rate, will be recorded before and after each session to monitor autonomic response. Advanced measures of autonomic response will include heart rate variability,,and pupillometry metrics. At the conclusion of all sessions, participants will complete another questionnaire to document their subjective experience of using VR (perceived effectiveness)","This study utilizes a randomized, within-subject, crossover design to evaluate the use of immersive VR in an inpatient trauma setting. Sixty participants with traumatic injuries, including mild TBI, will be recruited at the R. Adams Cowley Shock Trauma Center. Participants will undergo three 20-minute sessions in a randomized order, separated by at least 4 hours: 1) Immersive VR experience using 'theBlu' on an Oculus Rift; 2) Non-immersive two-dimensional mimic displaying the same content on a tablet; and 3) VR sensory deprivation using a content-less headset.
+
+The primary outcome is the reduction in pain severity measured by pre- and post-session numerical rating scales. Exploratory secondary outcomes include opioid usage, pain durability, affective measures (such as anxiety via STAI, depression via HADS, and pain catastrophizing), and autonomic measures (heart rate, heart rate variability, and pupillometry). The study also aims to validate the safety and feasibility of VR in TBI patients by monitoring for adverse events like seizures or motion sickness. Furthermore, it seeks to identify patient characteristics—such as gaming engagement, boredom, and suggestibility—that may predict a favorable response to VR therapy.",True,0.98,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,"['Traumatic Brain Injury', 'Headaches Posttraumatic', 'Trauma', 'Pain, Acute']","['Traumatic Injury', 'Traumatic Brain Injury', 'Acute Pain']",False,0.25,partial,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Virtual Reality', 'Pain Management', 'Non-pharmacological Analgesics', 'Opioid Sparing', 'Inpatient Care', 'Digital Therapeutics']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,FP,NA,RANDOMIZED,False,0.15,success,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,FP,SINGLE_GROUP,CROSSOVER,False,0.3,success,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,NONE,SINGLE,False,0.2,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,EV,EV,,['INVESTIGATOR'],,,,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,60,60,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[1].label,EV,EV,,Non-immersive 2D mimic,,,,ArmGroupLabel,protocolSection.armsInterventionsModule.armGroups.label,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[2].label,EV,EV,,VR sensory deprivation,,,,ArmGroupLabel,protocolSection.armsInterventionsModule.armGroups.label,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[1].type,EV,EV,,ACTIVE_COMPARATOR,,,,ArmGroupType,protocolSection.armsInterventionsModule.armGroups.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[2].type,EV,EV,,SHAM_COMPARATOR,,,,ArmGroupType,protocolSection.armsInterventionsModule.armGroups.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[1].description,EV,EV,,Participants undergo a 20-minute session viewing a recording of 'theBlu' experience delivered via video on a non-immersive 2-D Asus tablet.,,,,ArmGroupDescription,protocolSection.armsInterventionsModule.armGroups.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[2].description,EV,EV,,Participants undergo a 20-minute session wearing a blank (content-less) Oculus Rift headset to control for external sensory deprivation.,,,,ArmGroupDescription,protocolSection.armsInterventionsModule.armGroups.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[1].interventionNames,EV,EV,,['Device: Non-immersive 2-D Tablet'],,,,ArmGroupInterventionName,protocolSection.armsInterventionsModule.armGroups.interventionNames,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[2].interventionNames,EV,EV,,['Device: Blank VR Headset'],,,,ArmGroupInterventionName,protocolSection.armsInterventionsModule.armGroups.interventionNames,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].measure,EV,EV,,Pain durability,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].measure,EV,EV,,Affective measures (Anxiety),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].measure,EV,EV,,Autonomic measures,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].measure,EV,EV,,Subjective experience measures,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[6].measure,EV,EV,,Safety and Feasibility,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].description,EV,EV,,Assessment of pain durability post-session.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].description,EV,EV,,Anxiety levels measured using the Spielberger State-Trait Anxiety Inventory (STAI).,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].description,EV,EV,,"Physiological measures including pupillary maximum constriction velocity, relative constriction amplitude, heart rate variability, heart rate, blood pressure, and respiratory rate.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].description,EV,EV,,"Measures of immersion, flow, and absorption assessed using the Brockmyer Gaming Engagement Questionnaire.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[6].description,EV,EV,,"Incidence of seizure, increased dizziness (self-reported), nausea levels, or patients being unable to tolerate sessions.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].timeFrame,EV,EV,,Post-session,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].timeFrame,EV,EV,,Pre-session and post-session,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].timeFrame,EV,EV,,"Pre-session, post-session, and continuous monitoring during each session",,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].timeFrame,EV,EV,,Post-session,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[6].timeFrame,EV,EV,,During and after each session,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Diagnosis of Traumatic Injury (including but not limited to traumatic brain injury)
+* Age greater than or equal to 18 years-old
+* Endorsing at least moderate pain as defined by documentation of at least one numeric rating pain scale score of 3 or more in the last 24 hours.
+* Glasgow Coma Scale of 15
+* Expected to stay in the hospital for at least 12 hours after enrollment
+
+Exclusion Criteria:
+
+* Seizure prior to enrollment
+* Pregnancy
+* non-English speaking
+* Known intolerance of Virtual Reality
+* Patient unable to consent for themselves","Inclusion Criteria:
+- Diagnosis of traumatic injury
+- At least 18 years of age
+- Glasgow Coma Score of 15
+- Report a numerical pain score of at least 3/10 within 24 hours of enrolment
+- Expected to remain hospitalised for at least 12 hours after enrolment to complete the study protocol
+
+Exclusion Criteria:
+- Cannot consent for themselves
+- Medical history of seizure or a known intolerance of VR
+- Pregnant
+- Non-English-speaking
+- Past acute stress disorder or seizure secondary to immersive VR",True,0.99,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

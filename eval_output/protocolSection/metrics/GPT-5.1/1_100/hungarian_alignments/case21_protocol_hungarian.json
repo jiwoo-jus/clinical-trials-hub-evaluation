@@ -1,0 +1,175 @@
+{
+  "metadata": {
+    "case_id": 21,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:10:00.965925",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/21_NCT02555254.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/21_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.7
+        ],
+        [
+          0.8,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Low speed of rewarming",
+            "type": "EXPERIMENTAL",
+            "description": "Patients will be placed in targeted temperature controlled at 33°C for 24 hours. Then, intervention will be proceeded after randomization: slowly rewarmed (0.25°C/h) to targeted temperature controlled at 37°C for 24 hours.",
+            "interventionNames": [
+              "Procedure: Low Speed of Rewarming"
+            ]
+          },
+          "pred_item": {
+            "label": "0.25 °C/h rewarming rate",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with coma after shockable out-of-hospital cardiac arrest treated with targeted temperature management at 33 °C using a closed-loop surface cooling device. After approximately 24 h maintenance at 33 °C, rewarming was actively performed at a programmed rate of 0.25 °C per hour up to 37 °C, followed by active maintenance at 37 °C for 24 h. Sedation with midazolam and sufentanil, and shivering control including neuromuscular blockade, were protocolized and identical to the control arm.",
+            "interventionNames": [
+              "Targeted temperature management with 0.25 °C/h rewarming",
+              "Standardized sedation and shivering management",
+              "Closed-loop cooling device (Artic Sun)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Fast speed of rewarming",
+            "type": "EXPERIMENTAL",
+            "description": "Patients will be placed in targeted temperature controlled at 33°C for 24 hours. hen, intervention will be proceeded after randomization: fastly rewarmed (0.50°C/h) for targeted temperature controlled at 37°C for 24 hours.",
+            "interventionNames": [
+              "Procedure: High Speed of Rewarming"
+            ]
+          },
+          "pred_item": {
+            "label": "0.50 °C/h rewarming rate",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients with coma after shockable out-of-hospital cardiac arrest treated with targeted temperature management at 33 °C using a closed-loop surface cooling device. After approximately 24 h maintenance at 33 °C, rewarming was actively performed at a programmed rate of 0.50 °C per hour up to 37 °C, followed by active maintenance at 37 °C for 24 h. Sedation with midazolam and sufentanil, and shivering control including neuromuscular blockade, were protocolized and identical to the experimental arm.",
+            "interventionNames": [
+              "Targeted temperature management with 0.50 °C/h rewarming",
+              "Standardized sedation and shivering management",
+              "Closed-loop cooling device (Artic Sun)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.82,
+          0.2,
+          0.82
+        ],
+        [
+          0.7,
+          0.96,
+          0.3,
+          0.84
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "PROCEDURE",
+            "name": "Low Speed of Rewarming",
+            "description": "Speed of rewarming will be at 0.25°C/h with specific temperature controlled external device",
+            "armGroupLabels": [
+              "Low speed of rewarming"
+            ]
+          },
+          "pred_item": {
+            "type": "PROCEDURE",
+            "name": "Targeted temperature management with 0.25 °C/h rewarming",
+            "description": "Targeted temperature management protocol for comatose patients after shockable out-of-hospital cardiac arrest: induction and rapid achievement of a core body temperature of 33 °C using a closed-loop surface cooling device (Artic Sun), maintenance at 33 °C for 24 h, then active rewarming at a programmed rate of 0.25 °C per hour until 37 °C is reached, followed by active maintenance at 37 °C for 24 h.",
+            "armGroupLabels": [
+              "0.25 °C/h rewarming rate"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "PROCEDURE",
+            "name": "High Speed of Rewarming",
+            "description": "Speed of rewarming will be at 0.50°C/h with specific temperature controlled external device",
+            "armGroupLabels": [
+              "Fast speed of rewarming"
+            ]
+          },
+          "pred_item": {
+            "type": "PROCEDURE",
+            "name": "Targeted temperature management with 0.50 °C/h rewarming",
+            "description": "Targeted temperature management protocol for comatose patients after shockable out-of-hospital cardiac arrest: induction and rapid achievement of a core body temperature of 33 °C using a closed-loop surface cooling device (Artic Sun), maintenance at 33 °C for 24 h, then active rewarming at a programmed rate of 0.50 °C per hour until 37 °C is reached, followed by active maintenance at 37 °C for 24 h.",
+            "armGroupLabels": [
+              "0.50 °C/h rewarming rate"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Changes in Serum Il6 Levels Over the 48 Hours Following Achievement of the Thermal Target",
+            "description": "Median AUC for serum IL6 levels over time",
+            "timeFrame": "48 hours"
+          },
+          "pred_item": {
+            "measure": "Serum interleukin-6 (IL6) level",
+            "description": "Systemic inflammation assessed by the area under the curve (AUC) of serum IL6 levels, considering only IL6 values measured after randomization during the rewarming phase.",
+            "timeFrame": "Between 24 and 48 hours after reaching the target temperature of 33 °C"
+          }
+        }
+      ]
+    }
+  ]
+}

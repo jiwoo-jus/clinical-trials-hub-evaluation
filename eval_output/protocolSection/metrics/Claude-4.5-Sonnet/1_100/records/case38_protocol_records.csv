@@ -1,0 +1,71 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,FN,FN,NCT03337724,,False,0.0,,NCTId,protocolSection.identificationModule.nctId,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,FN,FN,"A Study of Ipatasertib in Combination With Paclitaxel as a Treatment for Participants With PIK3CA/AKT1/PTEN-Altered, Locally Advanced or Metastatic, Triple-Negative Breast Cancer or Hormone Receptor-Positive, HER2-Negative Breast Cancer",,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,FN,FN,"A Double-Blind, Placebo-Controlled, Randomized Phase III Study of Ipatasertib in Combination With Paclitaxel as a Treatment for Patients With PIK3CA/AKT1/PTEN-Altered, Locally Advanced or Metastatic, Triple-Negative Breast Cancer or Hormone Receptor-Positive, HER2-Negative Breast Cancer",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,"This study will evaluate the efficacy of ipatasertib + paclitaxel versus placebo + paclitaxel in participants with histologically confirmed, locally advanced or metastatic triple-negative breast cancer (TNBC) and in participants with locally advanced or metastatic hormone receptor positive (HR+)/ human epidermal growth factor receptor 2 negative (HER2-) breast adenocarcinoma who are not suitable for endocrine therapy.",,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,['Breast Cancer'],,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,TP,['PHASE3'],['PHASE3'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Patients were randomized in a 2:1 ratio to receive either oral ipatasertib (400 mg daily on days 1–21) plus intravenous paclitaxel (80 mg/m² on days 1, 8 and 15) of a 28-day cycle, or placebo plus the same paclitaxel regimen. Randomization was stratified by three criteria: (neo)adjuvant chemotherapy (yes vs no), prior PI3K/mTOR inhibitor (yes vs no) and region (Asia–Pacific vs Europe vs North America vs rest of the world).",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,TRIPLE,DOUBLE,True,0.7,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"The study was a randomized, double-blind, placebo-controlled trial. Patients and investigators were blinded to treatment assignment (ipatasertib vs placebo), while paclitaxel was administered openly to both arms.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,FP,"['PARTICIPANT', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'INVESTIGATOR']",False,0.6666666666666666,partial,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,FP,579,222,False,0.4,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.armGroups[0].description,EV,EV,,"Patients received oral ipatasertib 400 mg daily on days 1-21 plus intravenous paclitaxel 80 mg/m² on days 1, 8, and 15 of a 28-day cycle until disease progression or unacceptable toxicity",,,,ArmGroupDescription,protocolSection.armsInterventionsModule.armGroups.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.armGroups[1].description,EV,EV,,"Patients received oral placebo daily on days 1-21 plus intravenous paclitaxel 80 mg/m² on days 1, 8, and 15 of a 28-day cycle until disease progression or unacceptable toxicity",,,,ArmGroupDescription,protocolSection.armsInterventionsModule.armGroups.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Women or men aged =\>18 years with histologically documented triple-negative breast cancer (TNBC) or HR+/HER2- adenocarcinoma of the breast that is locally advanced or metastatic and is not amenable to resection with curative intent
+* Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1
+* Adequate hematologic and organ function within 14 days prior to treatment initiation
+* Histologically documented TNBC or HR+/HER2- adenocarcinoma of the breast that is locally advanced or metastatic and is not amenable to resection with curative intent
+* Measurable disease according to Response Evaluation Criteria in Solid Tumors (RECIST) v1.1
+* Eligible for taxane monotherapy, as per local investigator assessment (e.g., absence of rapid clinical progression, life-threatening visceral metastases, or the need for rapid symptom and/or disease control which may require combination chemotherapy)
+* HR+/HER2- breast cancer that is not considered appropriate for endocrine-based therapy and meets one of the following: patient has recurrent disease \<=5 years of being on adjuvant endocrine therapy or if patient with de novo metastatic disease have progressed within 6 months of being on first line endocrine therapy.
+* Consent to submit a formalin-fixed, paraffin-embedded tumor (FFPE) tissue block or freshly cut unstained, serial tumor slides from the most recently collected tumor tissue for central molecular analysis
+* Confirmation of biomarker eligibility using an appropriately validated molecular assay at a diagnostic laboratory, Clinically Laboratory Improvement Amendments (CLIA) or equivalently accredited i.e., valid results from either central testing or local testing of tumor tissue or blood demonstrating PIK3CA/AKT1/PTEN-altered status
+* For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraception and agreement to refrain from donating eggs
+* For men: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive methods and agreement to refrain from donating sperm
+
+Exclusion Criteria:
+
+* Treatment with approved or investigational cancer therapy within 14 days prior to treatment initiation
+* Any previous chemotherapy for inoperable locally advanced or metastatic TNBC or HR+/HER2- adenocarcinoma of the breast (patients receiving neo/adjuvant chemotherapy eligible provided they have at least a 12 month disease-free interval)
+* History of or known presence of brain or spinal cord metastases
+* Malignancies other than breast cancer within 5 years prior to treatment initiation (except for appropriately treated carcinoma in situ of the cervix, non-melanoma skin carcinoma, or Stage I uterine cancer)
+* Prior treatment with an Akt inhibitor (prior PI3K or mTOR inhibitors are allowed)
+* History of malabsorption syndrome or other condition that would interfere with enteral absorption or results in the inability or unwillingness to swallow pills
+* Active infection requiring systemic anti-microbial treatment (including antibiotics, anti-fungals, and anti-viral agents)
+* Known human immunodeficiency virus (HIV) infection
+* Known clinically significant history of liver disease consistent with Child-Pugh Class B or C, including active viral or other hepatitis, current drug or alcohol abuse, or cirrhosis
+* Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to initiation of treatment (or anticipated need during study)
+* Pregnant or breastfeeding, or intending to become pregnant during the study
+* Clinically significant cardiac dysfunction (including NYHA Class II/III/IV heart failure, left ventricular ejection fraction \[LVEF\] \<50%, active ventricular arrhythmia requiring medication, history of myocardial infarction within 6 months of treatment initiation, clinically significant electrocardiogram \[ECG\] abnormalities).
+* Need for chronic corticosteroid therapy of \>=10 mg of prednisone per day or an equivalent dose of other anti-inflammatory corticosteroids or immunosuppressants for a chronic disease
+* Unresolved, clinically significant toxicity from prior therapy, except for alopecia and Grade 1 peripheral neuropathy
+* Uncontrolled clinical symptoms including pleural effusion, pericardial effusion, or ascites, tumor-related pain, hypercalcemia (or symptomatic hypercalcemia requiring continued use of bisphosphonate therapy)
+* History of Type I or Type II diabetes mellitus requiring insulin
+* Grade \>=2 uncontrolled or untreated hypercholesterolemia or hypertriglyceridemia
+* History of or active inflammatory bowel disease or active bowel inflammation
+* Clinically significant lung disease (including pneumonitis, interstitial lung disease, idiopathic pulmonary fibrosis, cystic fibrosis, active infection/ history of opportunistic infections)
+* Treatment with strong CYP3A inhibitors or strong CYP3A inducers within 2 weeks or 5 drug-elimination half-lives, whichever is longer, prior to initiation of treatment
+* Grade \>=2 peripheral neuropathy","Inclusion Criteria:
+- Hormone receptor-positive (≥1% staining) HER2-negative breast cancer
+- PIK3CA/AKT1/PTEN-altered tumor (activating alterations in PIK3CA and/or AKT1, and/or inactivating alterations in PTEN)
+- Unresectable locally advanced or metastatic breast cancer with measurable disease according to RECIST version 1.1
+- Inappropriate for endocrine-based therapy (demonstrated insensitivity to endocrine therapy or visceral crisis)
+- Candidate for taxane monotherapy
+- Eastern Cooperative Oncology Group performance status 0 or 1
+
+Exclusion Criteria:
+- Prior chemotherapy for advanced/metastatic breast cancer
+- Diagnosis of advanced/metastatic breast cancer <1 year since last (neo)adjuvant chemotherapy
+- History of or known presence of brain or spinal cord metastases",True,0.82,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,28 Years,True,0.85,success,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,EV,EV,,81 Years,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

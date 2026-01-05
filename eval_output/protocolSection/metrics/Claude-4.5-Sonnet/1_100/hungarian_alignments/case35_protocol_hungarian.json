@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "case_id": 35,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T15:54:52.341169",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/35_NCT03019588.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/35_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.3
+        ],
+        [
+          0.4,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Pembrolizumab 200 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive pembrolizumab 200 mg intravenous (IV) infusion on Day 1 of each 3-week cycle for up to 35 cycles (up to approximately 2 years).",
+            "interventionNames": [
+              "Biological: Pembrolizumab"
+            ]
+          },
+          "pred_item": {
+            "label": "Pembrolizumab",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received 200 mg of pembrolizumab intravenously every 3 weeks for up to 35 cycles (approximately 2 years) or until disease progression, intolerable toxicity, investigator decision, or patient withdrawal of consent.",
+            "interventionNames": [
+              "DRUG: Pembrolizumab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Paclitaxel 80 mg/m^2",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants receive paclitaxel 80 mg/m\\^2 IV infusion on Days 1, 8 and 15 of each 4-week cycle for up to approximately 2 years.",
+            "interventionNames": [
+              "Drug: Paclitaxel"
+            ]
+          },
+          "pred_item": {
+            "label": "Paclitaxel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients received 80 mg/m² of paclitaxel intravenously on days 1, 8, and 15 of each 4-week cycle until disease progression, intolerable toxicity, investigator decision, or patient withdrawal of consent.",
+            "interventionNames": [
+              "DRUG: Paclitaxel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.2
+        ],
+        [
+          0.18,
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Pembrolizumab",
+            "description": "IV infusion",
+            "armGroupLabels": [
+              "Pembrolizumab 200 mg"
+            ],
+            "otherNames": [
+              "MK-3475"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Pembrolizumab",
+            "description": "200 mg administered intravenously every 3 weeks for up to 35 cycles (approximately 2 years)",
+            "armGroupLabels": [
+              "Pembrolizumab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Paclitaxel",
+            "description": "IV infusion",
+            "armGroupLabels": [
+              "Paclitaxel 80 mg/m^2"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Paclitaxel",
+            "description": "80 mg/m² administered intravenously on days 1, 8, and 15 of each 4-week cycle",
+            "armGroupLabels": [
+              "Paclitaxel"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

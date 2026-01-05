@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "case_id": 79,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T18:41:56.773898",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/79_NCT03303105.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/79_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.4,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Subjects With at Least One Treatment-Emergent Adverse Event (TEAE)",
+            "description": "* TEAEs are defined as the AEs that started after trial investigational medicinal product (IMP) treatment. Multiple occurrences of TEAEs are counted once per MedDRA preferred term.\n* Specific AE terms are provided in the Adverse Event section.",
+            "timeFrame": "Baseline (Day 0) up to follow-up visit (Day 562)"
+          },
+          "pred_item": {
+            "measure": "Treatment-emergent adverse events (TEAEs)",
+            "description": "Safety was assessed by monitoring of treatment-emergent adverse events, including injection-site reactions, laboratory and vital sign assessments. TEAEs were recorded based on patient reports using Medical Dictionary for Regulatory Activities version 22.0 by system organ class and preferred term and summarized according to severity, seriousness, and relationship to the study drug and treatment discontinuation.",
+            "timeFrame": "52-week treatment period plus 225-day follow-up period (approximately 84 weeks total)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 11,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.82,
+          0.76,
+          0.68,
+          0.6,
+          0.6,
+          0.42,
+          0.74,
+          0.42,
+          0.55,
+          0.13
+        ],
+        [
+          0.9,
+          0.97,
+          0.78,
+          0.63,
+          0.42,
+          0.72,
+          0.6,
+          0.65,
+          0.68,
+          0.4,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Mean Change From Baseline in the Monthly (28 Day) Average Number of Migraine Days",
+            "description": "Headache-related efficacy endpoints were derived from headache variables collected using an eDiary. On each day, subjects entered headache data in the electronic headache diary for the previous 24-hour period. Subjects who had experienced headache on the previous day answered questions about the headache (ie, occurrence of headache, duration of headache, maximum severity of headache, presence/absence of associated symptoms, and use of acute headache medications). Overall headache duration was recorded numerically, in hours, as well as number of hours with headache of at least moderate severity. If headache was reported, then headache severity was subjectively rated by the subject as mild, moderate, or severe.\n\nSubjects also recorded the presence or absence of photophobia, phonophobia, nausea, or vomiting, and the status of use of any acute headache medications.",
+            "timeFrame": "Baseline, Month 12"
+          },
+          "pred_item": {
+            "measure": "Change from baseline in average monthly migraine days",
+            "description": "The average monthly migraine days were calculated based on patient-reported data from electronic headache diaries. Headache-related data were normalized to 28 days of data when the number of evaluation days of the electronic headache diary in each month was 10 days or more.",
+            "timeFrame": "Baseline, Month 1, Month 2, Month 3, Month 6, and Month 12"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Mean Change From Baseline in the Monthly (28 Day) Average Number of Headache Days of at Least Moderate Severity",
+            "description": "Headache-related efficacy endpoints were derived from headache variables collected using an eDiary. On each day, subjects entered headache data in the electronic headache diary for the previous 24-hour period. Subjects who had experienced headache on the previous day answered questions about the headache (ie, occurrence of headache, duration of headache, maximum severity of headache, presence/absence of associated symptoms, and use of acute headache medications). Overall headache duration was recorded numerically, in hours, as well as number of hours with headache of at least moderate severity. If headache was reported, then headache severity was subjectively rated by the subject as mild, moderate, or severe.\n\nSubjects also recorded the presence or absence of photophobia, phonophobia, nausea, or vomiting, and the status of use of any acute headache medications.",
+            "timeFrame": "Baseline, Month 12"
+          },
+          "pred_item": {
+            "measure": "Change from baseline in average monthly headache days of at least moderate severity",
+            "description": "The average monthly headache days of at least moderate severity were calculated based on patient-reported data from electronic headache diaries. Headache-related data were normalized to 28 days of data when the number of evaluation days of the electronic headache diary in each month was 10 days or more.",
+            "timeFrame": "Baseline, Month 1, Month 2, Month 3, Month 6, and Month 12"
+          }
+        }
+      ]
+    }
+  ]
+}

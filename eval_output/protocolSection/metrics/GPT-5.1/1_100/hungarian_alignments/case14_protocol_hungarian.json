@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "case_id": 14,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-28T05:44:58.463144",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/14_NCT04973488.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/14_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.25
+        ],
+        [
+          0.3,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Treatment arm",
+            "type": "EXPERIMENTAL",
+            "description": "In the treatment arm, Therapeutic plasma exchange will be conducted in the first 24 hours after being admitted into the intensive care unit, after which convalescent plasma from donors that have had COVID-19 will be transfused",
+            "interventionNames": [
+              "Other: Therapeutic plasma exchange"
+            ]
+          },
+          "pred_item": {
+            "label": "TPE plus Convalescent Plasma plus Standard Treatment",
+            "type": "EXPERIMENTAL",
+            "description": "Critically ill adults with severe COVID-19 pneumonia admitted to ICU who received a single therapeutic plasma exchange session within the first 24 hours after ICU admission followed immediately by transfusion of 500 ml ABO-compatible convalescent plasma, in addition to standard COVID-19 treatment (corticosteroids, antiretrovirals, anticoagulants, and antibiotics if needed).",
+            "interventionNames": [
+              "Therapeutic Plasma Exchange",
+              "Convalescent Plasma Transfusion",
+              "Standard COVID-19 Treatment"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control arm",
+            "type": "NO_INTERVENTION",
+            "description": "In the control arm, patients will receive standard COVID-19 treatment"
+          },
+          "pred_item": {
+            "label": "Standard Treatment Only",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Critically ill adults with severe COVID-19 pneumonia admitted to ICU who received standard COVID-19 treatment alone according to hospital protocols, including corticosteroids, antiretrovirals, anticoagulants, and antibiotics if deemed necessary.",
+            "interventionNames": [
+              "Standard COVID-19 Treatment"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.8,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Therapeutic plasma exchange",
+            "description": "The intervention is a combination between the procedure of Therapeutic plasma exchange and biological transfusion of convalescent plasma from donors that have have COVID-19",
+            "armGroupLabels": [
+              "Treatment arm"
+            ],
+            "otherNames": [
+              "Transfusion of convalescent plasma"
+            ]
+          },
+          "pred_item": {
+            "type": "PROCEDURE",
+            "name": "Therapeutic Plasma Exchange",
+            "description": "A single session of therapeutic plasma exchange performed within the first 24 hours after ICU admission using an Infomed HF 440 machine with a plasma/blood separation ratio of 20%. Vascular access was via a dual lumen 14 French dialysis catheter placed in the femoral vein under ultrasound guidance. Fresh frozen plasma was used as replacement fluid at 40 ml/kg, with unfractionated heparin anticoagulation of the circuit.",
+            "armGroupLabels": [
+              "TPE plus Convalescent Plasma plus Standard Treatment"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Survival",
+            "description": "Number of Participants who Survived",
+            "timeFrame": "30 day period"
+          },
+          "pred_item": {
+            "measure": "Survival at 30 days",
+            "description": "Proportion of patients alive 30 days after ICU admission, comparing the group receiving therapeutic plasma exchange followed by convalescent plasma transfusion plus standard care versus the group receiving standard care alone.",
+            "timeFrame": "30 days after ICU admission"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.2,
+          0.35,
+          0.2
+        ],
+        [
+          0.2,
+          0.86,
+          0.35,
+          0.65
+        ],
+        [
+          0.2,
+          0.25,
+          0.9,
+          0.45
+        ],
+        [
+          0.1,
+          0.5,
+          0.4,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "P/F Ratio",
+            "description": "Average Partial pressure of arterial oxygen (PaO2) to fractional inspired oxygen (FiO2) ratio - P/F ratio calculated between the values from day 1 and day 7",
+            "timeFrame": "7 day period"
+          },
+          "pred_item": {
+            "measure": "Change in oxygenation (P/F ratio)",
+            "description": "Evolution of the partial pressure of arterial oxygen to fractional inspired oxygen (P/F) ratio from ICU admission to day 7, used to assess improvement in oxygenation between treatment and control groups.",
+            "timeFrame": "From ICU admission to 7-day follow-up"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "C Reactive Protein (CRP)",
+            "description": "Average value of CRP calculated using the values from day 1 and day 7",
+            "timeFrame": "7 day period"
+          },
+          "pred_item": {
+            "measure": "Change in C reactive protein (CRP)",
+            "description": "Evolution of serum CRP levels from ICU admission to day 7, used as a marker of systemic inflammation, comparing treatment and control groups.",
+            "timeFrame": "From ICU admission to 7-day follow-up"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Lactate Dehydrogenase (LDH)",
+            "description": "Average value of LDH calculated using the values from day 1 and day 7",
+            "timeFrame": "7 day period"
+          },
+          "pred_item": {
+            "measure": "Change in lactate dehydrogenase (LDH)",
+            "description": "Evolution of serum LDH levels from ICU admission to day 7, used as a marker of tissue injury and inflammation, comparing treatment and control groups.",
+            "timeFrame": "From ICU admission to 7-day follow-up"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Ferritin",
+            "description": "Average value of ferritin calculated using the values from day 1 and day 7",
+            "timeFrame": "7 day period"
+          },
+          "pred_item": {
+            "measure": "Change in ferritin",
+            "description": "Evolution of serum ferritin levels from ICU admission to day 7, used as a marker of inflammation and disease severity, comparing treatment and control groups.",
+            "timeFrame": "From ICU admission to 7-day follow-up"
+          }
+        }
+      ]
+    }
+  ]
+}

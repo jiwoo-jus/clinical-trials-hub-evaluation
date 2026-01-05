@@ -1,0 +1,161 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03931174",
+      "orgStudyIdInfo": {
+        "id": "R01DA046941",
+        "type": "NIH",
+        "link": ""
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "Brown University School of Public Health",
+        "class": "OTHER"
+      },
+      "briefTitle": "Project MIMIC (Maximizing Implementation of Motivational Incentives in Clinics)",
+      "officialTitle": "Project MIMIC (Maximizing Implementation of Motivational Incentives in Clinics): A cluster-randomized type 3 hybrid effectiveness-implementation trial",
+      "acronym": "MIMIC"
+    },
+    "descriptionModule": {
+      "briefSummary": "Project MIMIC (Maximizing Implementation of Motivational Incentives in Clinics) is a cluster-randomized, type 3 hybrid trial funded by the National Institute on Drug Abuse. The study aims to identify effective strategies for helping opioid treatment programs improve the implementation of Contingency Management (CM) as an adjunct to medication for opioid use disorder. It compares the standard Addiction Technology Transfer Center (ATTC) Network implementation strategy against an enhanced ATTC strategy that includes additional theory-driven elements like Pay-for-Performance and Implementation & Sustainment Facilitation.",
+      "detailedDescription": "Background:\nOpioid-related overdoses represent a public health emergency, necessitating evidence-based treatments like Contingency Management (CM). Despite its efficacy when combined with medication for opioid use disorder, CM implementation in opioid treatment programs is limited. Project MIMIC utilizes the Exploration, Preparation, Implementation, Sustainment (EPIS) model to guide the study.\n\nMethods:\nThe study employs a 3-cohort, cluster-randomized, type 3 hybrid design with opioid treatment programs as the unit of randomization. Thirty programs are randomized to one of two conditions:\n1. Control Condition: The Addiction Technology Transfer Center (ATTC) Network implementation strategy, consisting of didactic training, performance feedback, and on-going consultation.\n2. Experimental Condition: An enhanced ATTC strategy, comprising the core ATTC elements plus Pay-for-Performance (targeting staff's extrinsic motivations) and Implementation & Sustainment Facilitation (targeting staff's intrinsic motivations).\n\nObjectives:\n- Specific Aim 1 (Primary): Compare the effectiveness of the two strategies on implementation outcomes, specifically CM Exposure (number of sessions delivered), CM Skill (fidelity ratings), and CM Sustainment (delivery after support removal).\n- Specific Aim 2 (Secondary): Compare the effectiveness on patient outcomes, including self-reported opioid abstinence and opioid-related problems assessed at 3- and 6-months post-baseline.\n- Specific Aim 3 (Exploratory): Evaluate putative mediators of implementation effectiveness, such as implementation climate and leadership engagement.\n\nIntervention:\nThe prize-based CM intervention targets attendance and verified clinical encounters. Patients earn prize draws weekly for meeting attendance targets, with draws increasing for consecutive weeks of success."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Opioid Use Disorder",
+        "Opioid Related Disorders"
+      ],
+      "keywords": [
+        "Contingency Management",
+        "Implementation Science",
+        "Opioid Treatment Programs",
+        "Motivational Incentives",
+        "Pay-for-Performance",
+        "Hybrid Type 3 Design",
+        "EPIS Framework"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "A 3-cohort, cluster-randomized, type 3 hybrid design is used with the opioid treatment programs as the unit of randomization. Thirty programs are randomized to one of two conditions.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "OTPs, OTP staff, and CM trainers will not be blinded to study condition, but OTP patients and CM rating staff will be.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 960,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Standard-ATTC Strategy",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "The control condition is the Addiction Technology Transfer Center (ATTC) Network implementation strategy, which consists of three core approaches: didactic training, performance feedback, and on-going consultation.",
+          "interventionNames": [
+            "Behavioral: ATTC Implementation Strategy"
+          ]
+        },
+        {
+          "label": "Enhanced-ATTC Strategy",
+          "type": "EXPERIMENTAL",
+          "description": "The experimental condition is an enhanced ATTC strategy, with the same core ATTC elements plus two additional theory-driven elements: Pay-for-Performance (targeting extrinsic motivations) and Implementation & Sustainment Facilitation (targeting intrinsic motivations).",
+          "interventionNames": [
+            "Behavioral: Enhanced-ATTC Implementation Strategy"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "ATTC Implementation Strategy",
+          "description": "Strategies include didactic training (workshop), performance feedback (on CM fidelity), and on-going consultation to support the implementation of Contingency Management.",
+          "armGroupLabels": [
+            "Standard-ATTC Strategy"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Enhanced-ATTC Implementation Strategy",
+          "description": "Includes the core ATTC strategy components plus Pay-for-Performance (monetary bonuses for staff based on CM exposure and competence) and Implementation & Sustainment Facilitation (monthly facilitation meetings).",
+          "armGroupLabels": [
+            "Enhanced-ATTC Strategy"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "CM Exposure",
+          "description": "Patient-level measure of the number of CM sessions delivered per patient. Data extracted from the CM Tracker records the number of sessions completed during the first 14 weeks of treatment (range 0-12) and attainment of target exposure (10+ sessions).",
+          "timeFrame": "During the 9-month Implementation phase (specifically first 14 weeks of patient treatment)"
+        },
+        {
+          "measure": "CM Skill (CM Competence)",
+          "description": "Staff-level measure of CM quality assessed using the CM Competence Scale. Audio recordings of sessions are rated on nine items (scored 1 to 7), with higher scores indicating higher competence.",
+          "timeFrame": "Monthly during the 9-month Implementation phase"
+        },
+        {
+          "measure": "CM Sustainment",
+          "description": "Patient-level measure of the number of CM sessions received after removal of active support. Indicators include a count of patients receiving CM, number of counselors delivering CM, and number of sessions delivered per patient.",
+          "timeFrame": "During the 6-month Sustainment phase"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Opioid Abstinence",
+          "description": "Assessed via patient self-report using the Timeline Followback Interview regarding days of abstinence from opioids, painkillers, and heroin in the past 30 days. Corroborated by weekly urine screen results.",
+          "timeFrame": "3- and 6-months post-baseline"
+        },
+        {
+          "measure": "Opioid-Related Problems",
+          "description": "Assessed using the Opioid Problem Index, a count of 11 DSM-5 symptoms of an opioid use disorder experienced over the past month.",
+          "timeFrame": "3- and 6-months post-baseline"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Implementation Climate",
+          "description": "Putative mediator: A 6-item measure of perceptions regarding the extent to which the innovation being implemented (CM) is expected, supported, and rewarded within the OTP.",
+          "timeFrame": "Start of Preparation phase and midpoint of Implementation phase"
+        },
+        {
+          "measure": "Leadership Engagement",
+          "description": "Putative mediator: A 4-item measure of perceptions regarding whether leadership is committed to, involved in, engaged in, and accountable for implementation of the innovation.",
+          "timeFrame": "Start of Preparation phase and midpoint of Implementation phase"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nOpioid Treatment Programs (OTPs):\n* Dispense either methadone or buprenorphine\n* Employ at least two counselors\n* Enroll at least one new patient per week on average\n\nOTP Counselors:\n* Have active caseloads of patients on medication\n* Willing to engage in CM implementation support\n\nOTP Leaders:\n* Supervise OTP counselors with active caseloads\n* Willing to oversee counselor engagement in CM training and implementation support\n\nOTP Patients:\n* Adults (18 years of age or older)\n* Newly inducted on medication for opioid use disorder within the past 30 days\n* Currently receiving treatment at a partner OTP",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

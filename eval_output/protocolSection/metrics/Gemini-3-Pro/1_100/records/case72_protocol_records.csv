@@ -1,0 +1,130 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT00976573,NCT00976573,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[3].id,EV,EV,,U10CA180790,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[4].id,EV,EV,,UG1CA189825,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[3].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[4].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[3].domain,EV,EV,,National Cancer Institute,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[4].domain,EV,EV,,National Cancer Institute,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,FP,"Carboplatin, Paclitaxel, and Bevacizumab With or Without Everolimus in Treating Patients With Metastatic Malignant Melanoma",NCCTG N0879 Randomized Phase 2 Clinical Trial,False,0.18,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,FP,"A Randomized Phase II Trial of Carboplatin, Paclitaxel, Bevacizumab, With or Without Everolimus for Therapy of Metastatic Malignant Melanoma",North Central Cancer Treatment Group/Alliance N0879 Randomized Phase 2 Clinical Trial,False,0.32,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,FP,"This randomized phase II trial is studying how well carboplatin, paclitaxel, and bevacizumab work when given with or without everolimus in treating patients with malignant melanoma that has spread from where it started to other places in the body. Drugs used in chemotherapy, such as carboplatin and paclitaxel, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as bevacizumab, may block the ability of tumor cells to grow and spread. Everolimus may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth and by blocking blood flow to the tumor. It is not yet known whether combination chemotherapy given together with bevacizumab is more effective with or without everolimus in treating patients with metastatic melanoma.","This study evaluated the prognostic significance of detectable circulating cell-free DNA (cfDNA) BRAFV600E/K mutations in patients with advanced melanoma. Utilizing samples from the North Central Cancer Treatment Group/Alliance N0879 randomized phase 2 clinical trial, researchers compared BRAF mutation status in archived tissue against pretreatment stored plasma. The study aimed to determine if the presence of detectable cfDNA mutations correlates with Progression-Free Survival (PFS) and Overall Survival (OS) in a population receiving chemotherapy without BRAF-targeted therapy.",False,0.35,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,FP,"OBJECTIVES:
+
+Primary
+
+* To assess whether there is sufficient promise of an impact of the addition of everolimus to the combination of carboplatin, paclitaxel, and bevacizumab on progression-free survival that it would be recommended for further testing in patients with metastatic malignant melanoma.
+
+Secondary
+
+* To estimate the confirmed tumor response rate of each of the treatment regimens.
+* To estimate the distribution of overall survival (OS) time for each of the treatment regimens.
+* To assess the impact on the safety profile of the addition of everolimus to the combination of carboplatin, paclitaxel, and bevacizumab.
+
+OUTLINE: This is a multicenter study. Patients are stratified according to elevated LDH (above upper limit of normal) at baseline (yes vs no), location of metastatic disease (M1a \[skin, subcutaneous tissue, or lymph node only\] vs M1b \[lung\] vs M1c \[other visceral sites\]) and prior chemotherapy for metastatic disease (yes vs no). Patients are randomized to 1 of 2 treatment arms.
+
+OUTLINE: Patients are randomized to 1 of 2 treatment arms.
+
+ARM I: Patients receive bevacizumab intravenously (IV) over 30-90 minutes on days 1 and 15, paclitaxel IV over 60 minutes on days 1, 8, and 15, and carboplatin IV over 30 minutes on day 1. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.
+
+ARM II: Patients receive bevacizumab, paclitaxel, and carboplatin as in Arm I. Patients also receive everolimus orally (PO) once daily (QD) 3 times weekly. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.
+
+After completion of study treatment, patients are followed up every 3-6 months for up to 5 years.","The study population consisted of 149 patients with unresectable stage IV melanoma enrolled in the NCCTG N0879 trial between May 2010 and May 2014. The original trial assessed a regimen of carboplatin, paclitaxel, and bevacizumab with or without everolimus. In this retrospective analysis, BRAFV600E/K mutation status was established using archived formalin-fixed paraffin-embedded (FFPE) tumor tissue via a 50-gene hotspot PCR-based MiSeq panel. This was compared to cfDNA extracted from stored frozen plasma samples using a validated digital droplet PCR (ddPCR) assay on the RainDrop Digital PCR System.
+
+The analysis focused on the concordance between tissue and plasma results, reporting sensitivity, specificity, positive predictive value, and negative predictive value. Furthermore, the study assessed the prognostic implications of cfDNA status by analyzing Progression-Free Survival (PFS) and Overall Survival (OS) using the Kaplan-Meier method. The study specifically investigated whether detectable cfDNA BRAFV600E/K mutations in patients with tissue-diagnosed mutant BRAF were associated with poorer clinical outcomes.",False,0.64,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,['Melanoma (Skin)'],"['Advanced Melanoma', 'Unresectable Stage IV Melanoma', 'Metastatic Melanoma']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['Stage IV Skin Melanoma', 'recurrent melanoma']","['Cell-free DNA', 'cfDNA', 'BRAFV600E/K mutations', 'Digital droplet PCR', 'ddPCR', 'Prognosis', 'Liquid biopsy']",False,0.0,disjoint,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"2-arm randomized trial of patients with stage IV melanoma that assessed the chemotherapy regimen of carboplatin, paclitaxel, and bevacizumab with or without everolimus.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,NONE,SINGLE,False,0.1,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Baseline blood samples were obtained for cfDNA and analyzed for BRAF mutations in a blinded fashion. Individuals performing the laboratory work and analyzing experimental data were blinded to all clinical variables.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,EV,EV,,['OUTCOMES_ASSESSOR'],,,,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,149,149,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[1].measure,EV,EV,,Overall Survival (OS),,,,PrimaryOutcomeMeasure,protocolSection.outcomesModule.primaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[1].description,EV,EV,,Assessed for patients with and without detectable BRAF mutation. Time-to-event end points were explored using the Kaplan-Meier method.,,,,PrimaryOutcomeDescription,protocolSection.outcomesModule.primaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[1].timeFrame,EV,EV,,Follow-up occurred over 43 months,,,,PrimaryOutcomeTimeFrame,protocolSection.outcomesModule.primaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Histologic proof of stage IV malignant melanoma not amenable to surgery; (biopsy can be of locoregional disease in setting of clinically evident stage IV disease, but primary tumor alone will not qualify)
+* At most one prior chemotherapy based regimen for metastatic melanoma (no prior taxane-based regimens allowed); note: prior adjuvant non-taxane based chemotherapy and/or adjuvant immunotherapy are allowed; no limit on the number of prior biologic, immunologic or targeted therapies
+* Measurable disease defined as at least one lesion whose longest diameter can be accurately measured as \>= 2.0 cm with chest x-ray, or as \>= 1.0 cm with computed tomography (CT) scan, CT component of a positron emission tomography (PET)/CT, or magnetic resonance imaging (MRI) scan; note: disease that is measurable by physical examination only is not eligible
+* Life expectancy \>= 4 months
+* Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1
+* Absolute neutrophil count (ANC) \>= 1500/mL
+* Platelets (PLT) \>= 100,000 x 10\^9/L
+* Hemoglobin (Hgb) \>= 9 g/dL (patients may be transfused to meet this requirement)
+* Total cholesterol =\< 300 mg/dL and; (note: serum levels of cholesterol or triglycerides found to be elevated may be lowered with anti-lipid therapy, but must be documented to be below these levels prior to enrollment)
+* Triglycerides =\< 2.5 X upper limit of normal (ULN); (note: serum levels of cholesterol or triglycerides found to be elevated may be lowered with anti-lipid therapy, but must be documented to be below these levels prior to enrollment)
+* Creatinine =\< 1.5 x ULN
+* Total bilirubin =\< 1.5 mg/dL (exception: patients with documented Gilbert's syndrome are allowed to participate despite elevated bilirubin)
+* Serum glutamic oxaloacetic transaminase (SGOT) (aspartate aminotransferase \[AST\]) =\< 2.5 x ULN
+* Alkaline phosphatase =\< 2.5 x ULN
+* Urine protein:creatinine (UPC) ratio \< 1.0 at screening OR
+* Urine dipstick for proteinuria \< 2+ (patients discovered to have \>= 2+ proteinuria on dipstick urinalysis at baseline should undergo a 24 hour urine collection and must demonstrate =\< 1 g of protein in 24 hours to be eligible)
+* Negative pregnancy test done =\< 7 days prior to registration/randomization, for women of childbearing potential only
+* Ability to understand and the willingness to sign a written informed consent document
+* Willing to return to a North Central Cancer Treatment Group (NCCTG) institution for follow-up
+* Willing to provide mandatory blood samples for research purposes
+* Willing to follow a diet low in fat and cholesterol while taking everolimus
+* Willing to abstain from eating grapefruit or drinking grapefruit juice for the duration of the study
+
+Exclusion Criteria
+
+* Prior treatment with agents disrupting vascular endothelial growth factor (VEGF) activity (i.e., bevacizumab, VEGF-trap, anti-VEGF receptor \[R\] monoclonal antibody \[Mab\]) or targeting VEGFR (e.g. sunitinib, sorafenib)
+* Prior treatment with an mTOR inhibitor for melanoma (sirolimus, temsirolimus, everolimus)
+* Brain metastases per MRI or CT at any time prior to registration; note: patients that have had primary therapy for brain metastasis (i.e. surgical resection, whole brain radiation, or stereotactic radiation therapy \[SRT\] even if stable) are not eligible
+* Other investigational agents =\< 4 weeks prior to registration/randomization
+* Chemotherapy treatment =\< 3 weeks prior to registration/randomization
+* Any biologic, immunologic or targeted therapy =\< 2 weeks prior to registration/randomization
+* Major surgical procedure, open biopsy, or significant traumatic injury =\< 4 weeks prior to registration/randomization
+* Fine needle aspirations or core biopsies =\< 7 days prior to registration/randomization
+* Planned/or anticipated major surgical procedure during the course of the study
+* Other medical conditions including but not limited to:
+
+  * History of liver disease such as cirrhosis, chronic active hepatitis, chronic persistent hepatitis or hepatitis B or C
+  * Active infection requiring parenteral antibiotics
+  * Poorly controlled high blood pressure (\>=150 mm Hg systolic and/or 100 mmHg diastolic) despite treatment
+  * New York Heart Association class II-IV congestive heart failure
+  * Serious cardiac arrhythmia requiring medication
+  * Myocardial infarction or unstable angina =\< 6 months prior to registration/randomization
+  * Clinically significant peripheral vascular disease
+  * Deep venous thrombosis or pulmonary embolus =\< 1 year of registration/randomization and/or ongoing need for full-dose oral or parenteral anticoagulation
+  * Ongoing anti-platelet treatment other than low-dose aspirin (i.e., aspirin 81 mg orally \[p.o.\] daily)
+  * Active bleeding or pathological conditions that carry high risk of bleeding (e.g., known esophageal varices, etc.)
+  * Serious, non-healing wound (including wounds healing by secondary intention), ulcer or bone fracture
+  * History of abdominal fistula, gastrointestinal perforation or intra-abdominal abscess =\< 6 months prior to registration/randomization
+  * History of central nervous system (CNS) disease (e.g., primary brain tumor, vascular abnormalities, etc.), clinically significant stroke or transient ischemic attack (TIA) =\< 6 months prior to registration/randomization, seizures not controlled with standard medical therapy
+  * Radiographically documented tumor invading major blood vessels
+  * History of hypertensive crisis or hypertensive encephalopathy
+  * Uncontrolled diabetes as defined by fasting serum glucose \> 1.5 x ULN
+  * Severely impaired lung function as defined as spirometry and diffusing capacity of the lung for carbon monoxide (DLCO) that is 50% of the normal predicted value and/or 02 saturation that is 88% or less at rest on room air
+  * A known history of human immunodeficiency virus (HIV) seropositivity
+* Any of the following as this regimen may be harmful to a developing fetus or nursing child:
+
+  * Pregnant women
+  * Nursing women
+  * Men and women of reproductive potential who are not using effective birth control methods must use highly effective contraception throughout the trail and for 6 months after last study treatment
+* Existence of peripheral sensory neuropathy \>= grade 2
+* History of other malignancy =\< 5 years with the exception of basal cell or squamous cell carcinoma of the skin, treated with local resection only, or carcinoma in situ (e.g. of the cervix, breast, prostate, etc.)
+* =\< 4 weeks since last day of adjuvant radiation therapy prior to registration or =\< 2 weeks since last day of palliative radiation therapy; NOTE: patients who have had \> 25% of their functional bone marrow irradiated are not eligible for this trial
+* Active or recent history of hemoptysis (\>= 1/2 teaspoon of bright red blood per episode) =\< 30 days prior to registration
+* Known hypersensitivity to any of the components of the everolimus, bevacizumab, carboplatin, or paclitaxel
+* Current use of drugs that are known to be strong inhibitors or inducers of cytochrome P450, family 3, subfamily A, polypeptide 4 (CYP3A4); note: if these agents are discontinued, everolimus therapy can begin \>= 7 days after discontinuation of such agent
+* Positive hepatitis B antigen (HBsAg) or hepatitis C serology (HCV) tests
+* Planned immunization with attenuated live vaccines =\< 7 days prior to registration or during study period; note: close contact with those who have received attenuated live vaccines should be avoided during treatment with everolimus; examples of live vaccines include intranasal influenza, measles, mumps, rubella, oral polio, Bacillus Calmette-Guérin (BCG), yellow fever, varicella and TY21a typhoid vaccines","Inclusion Criteria:
+* Histologic proof of stage IV melanoma
+* 1 or fewer prior chemotherapy regimen
+
+Exclusion Criteria:
+* Prior treatment with taxane-based chemotherapy or anti–vascular endothelial growth factor agents
+* Brain metastases before study enrollment
+* Other significant medical comorbid conditions or malignancies",True,0.82,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,FP,18 Years,N/A,False,0.0,success,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,FN,FN,"['ADULT', 'OLDER_ADULT']",,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

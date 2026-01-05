@@ -1,0 +1,215 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02823652",
+      "orgStudyIdInfo": {
+        "id": "EAQ152"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "UG1CA189816",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "UG1CA189819",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "UG1CA189828",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "UG1CA189830",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "UG1CA189863",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "UG1CA189956",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "UG1CA190140",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "UG1CA233160",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "UG1CA233180",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "UG1CA189809",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "U10CA180821",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        }
+      ],
+      "organization": {
+        "fullName": "ECOG-ACRIN Cancer Research Group",
+        "class": "NETWORK"
+      },
+      "briefTitle": "Communication and Education in Tumor Profiling",
+      "officialTitle": "A randomized study of genetic education versus usual care in tumor profiling for advanced cancer in the ECOG‐ACRIN Cancer Research Group (EAQ152)",
+      "acronym": "COMET"
+    },
+    "descriptionModule": {
+      "briefSummary": "The Communication and Education in Tumor Profiling (COMET) study evaluates the efficacy of a web-based genetic education intervention compared to usual care for patients with advanced cancer undergoing tumor-only genetic sequencing. The study aims to determine if the intervention increases genetic knowledge and decreases distress, specifically anxiety, depression, and cancer-specific distress, prior to the receipt of sequencing results.",
+      "detailedDescription": "Precision oncology utilizes tumor genetic sequencing to identify targeted therapies, yet guidelines for pretest counseling in this context are lacking compared to germline testing. This randomized trial (EAQ152) assesses a theoretically informed, web-based genetic education intervention designed to enhance patient understanding and manage psychosocial outcomes.\n\nPatients with advanced cancer enrolled in the National Cancer Institute Molecular Analysis for Therapy Choice (NCI-MATCH) trial or undergoing site-based tumor sequencing were randomized to the web intervention or usual care. The intervention utilizes a tiered-binned model offering 'indispensable' core information and optional in-depth content regarding the differences between tumor and germline genetics, potential test results, and implications for treatment and family.\n\nPrimary endpoints include changes in genetic knowledge (measured by an adapted ClinSeq scale) and distress outcomes (general anxiety, depression, state anxiety, and cancer-specific distress) assessed at baseline, post-education, and post-result disclosure. Secondary objectives evaluate moderators such as health literacy, gender, and satisfaction with result disclosure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Advanced Cancer"
+      ],
+      "keywords": [
+        "Tumor Profiling",
+        "Genetic Education",
+        "Precision Oncology",
+        "Psychosocial Distress",
+        "Genetic Knowledge",
+        "Tumor Sequencing",
+        "Web-based Intervention",
+        "Health Literacy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants were randomly assigned 1:1 (stratified by gender, race, age, and education level) to the intervention or usual‐care arm via a permuted block design.",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 594,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A (intervention)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received an email to log in to the web-based genetic education intervention and to access a posteducation survey (T1) after completion.",
+          "interventionNames": [
+            "Web-based genetic education intervention"
+          ]
+        },
+        {
+          "label": "Arm B (usual care)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Intended as a real‐world comparison group and consisted of any usual‐care education from providers or information sought through usual resources.",
+          "interventionNames": [
+            "Usual Care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Web-based genetic education intervention",
+          "description": "A theoretically informed, user‐tested, self‐directed, mobile‐ready genetic education intervention (COMET). Based on a tiered‐binned model, it includes 'indispensable' tier 1 information and tier 2 information providing additional material. The linear intervention includes 6 modules and 4 optional videos.",
+          "armGroupLabels": [
+            "Arm A (intervention)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Usual Care",
+          "description": "Standard care consisting of any usual‐care education from providers or information sought through usual resources.",
+          "armGroupLabels": [
+            "Arm B (usual care)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Genetic knowledge",
+          "description": "Evaluated with an adapted version of the ClinSeq knowledge scale modified for tumor genetic testing.",
+          "timeFrame": "Baseline (T0), Posteducation (T1), After Results (T2)"
+        },
+        {
+          "measure": "General anxiety",
+          "description": "Assessed with 4-item short forms of the Patient-Reported Outcomes Measurement Information System (PROMIS).",
+          "timeFrame": "Baseline (T0), Posteducation (T1), After Results (T2)"
+        },
+        {
+          "measure": "Depression",
+          "description": "Assessed with 4-item short forms of the Patient-Reported Outcomes Measurement Information System (PROMIS).",
+          "timeFrame": "Baseline (T0), Posteducation (T1), After Results (T2)"
+        },
+        {
+          "measure": "State anxiety",
+          "description": "Assessed with 20 items from the State-Trait Anxiety Inventory.",
+          "timeFrame": "Baseline (T0), Posteducation (T1), After Results (T2)"
+        },
+        {
+          "measure": "Cancer-specific distress",
+          "description": "Measured with an adapted 14-item version of the Impact of Events Scale.",
+          "timeFrame": "Baseline (T0), Posteducation (T1), After Results (T2)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Health literacy",
+          "description": "Assessed with a 3-item scale. Higher scores indicated lower health literacy.",
+          "timeFrame": "Baseline (T0)"
+        },
+        {
+          "measure": "Uncertainty about tumor genetic testing",
+          "description": "Assessed with a 3-item scale adapted for tumor genetic testing from the uncertainty subscale of the Multi-Dimensional Impact of Cancer Risk Assessment questionnaire.",
+          "timeFrame": "Baseline (T0), Posteducation (T1), After Results (T2)"
+        },
+        {
+          "measure": "Perceived utility of tumor genetic testing",
+          "description": "Assessed with 10 items assessing patient perceptions of the utility of genetic information.",
+          "timeFrame": "Baseline (T0), Posteducation (T1), After Results (T2)"
+        },
+        {
+          "measure": "Satisfaction with the disclosure of genetic results",
+          "description": "Assessed with an adapted 9-item scale used in related research.",
+          "timeFrame": "After Results (T2 only)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Patients with advanced cancer undergoing tumor-only genetic sequencing\n- Enrolled in the National Cancer Institute Molecular Analysis for Therapy Choice (NCI-MATCH) trial or met NCI-MATCH eligibility criteria and consented to site-based tumor sequencing\n- English-speaking adults\n- Must have email and web access\n- Must not have received tumor genetic test results at the time of enrollment\n\nExclusion Criteria:\n- Patients who received their sequencing results before enrollment\n- Patients without internet access",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

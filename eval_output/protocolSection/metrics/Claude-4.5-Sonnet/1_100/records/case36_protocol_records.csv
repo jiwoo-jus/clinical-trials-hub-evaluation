@@ -1,0 +1,82 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,FN,FN,NCT01590433,,False,0.0,,NCTId,protocolSection.identificationModule.nctId,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,FN,FN,Weight Loss With Exenatide Treatment,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,FN,FN,"A Prospective Study of Patterns, Predictors, and Mechanisms of Weight Loss With Exenatide Treatment in Overweight and Obese Women Without Diabetes",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,"The investigators are conducting a study that will investigate the possible mechanisms of weight loss associated with exenatide treatment and the metabolic characteristics of high responders (i.e. subjects who achieve greater than 5% weight loss) to exenatide treatment. The investigators will also examine the magnitude and duration of weight loss among a cohort of high responders over 52 weeks of treatment, and at 3 and 6 months following treatment.
+
+Hypothesis:
+
+The mechanisms of weight loss with exenatide are not fully understood, and weight loss responses to exenatide are highly variable, possibly reflecting distinct metabolic parameters. By identifying and following a group of obese women who lose greater than 5% body weight after short-term exenatide treatment, the investigators can gain insights into the possible mechanisms of weight loss and assess long-term weight loss with this pharmacotherapeutic intervention.",,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.detailedDescription,FN,FN,"Primary Outcomes
+
+The primary objectives of this study is:
+
+\- To investigate possible mechanisms and patterns of weight loss with exenatide treatment, especially among individuals who have robust early weight loss (greater than 5% weight loss in 12 weeks) with exenatide.
+
+Secondary Outcomes
+
+Our secondary objective is to identify metabolic characteristics that predict robust response to exenatide treatment.
+
+Outcome measurements:
+
+* Weight
+* Body composition
+* Resting energy expenditure (REE)
+* Mixed meal test
+* Thermic effect of food
+* Serum metabolic parameters
+* Hunger/Nausea/Satiety visual analog scales (VAS)
+* Physical activity monitoring
+
+Study Population
+
+The study population will be generally healthy, non-diabetic women age 18-70 years with BMI 28-48 kg/m\^2.",,False,0.0,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,['Obesity'],,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,FN,FN,"['Obesity', 'Overweight', 'Exenatide', 'Diet', 'Women']",,False,0.0,,Keyword,protocolSection.conditionsModule.keywords,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,FP,['PHASE4'],['NA'],False,0.0,disjoint,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,Participants were randomized 3:2 to treatment with either exenatide (n=127) titrated to maximum dosing of 10mcg daily or hypocaloric diet with placebo injections (n=55). There was no run-in period.,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,SINGLE,SINGLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"All subjects were blinded to study treatment. This was a single-blind interventional trial where participants did not know whether they received exenatide or placebo injections. Study staff who measured body weight, waist circumference, vital signs and body composition were also blinded to study treatment.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,['PARTICIPANT'],"['PARTICIPANT', 'OUTCOMES_ASSESSOR']",True,1.0,superset,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,FP,249,182,False,0.3,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,FN,FN,"Inclusion Criteria:
+
+* Females age 18-70
+* BMI 28-48 kg/m\^2
+* Stable weight (greater than 3 kg weight gain or loss within 6 months of screening visit).
+* Ability to give informed consent and follow verbal and written instructions in English.
+
+Exclusion Criteria:
+
+* Type 1 or type 2 diabetes mellitus diagnosed according to American Diabetes Association criteria
+* Unstable heart disease as evidenced by ongoing angina
+* Congestive heart failure
+* Uncontrolled hypertension (BP greater than 170/100 mmHg on or off antihypertensive medication)
+* Uncontrolled dyslipidemia (LDL greater than 200 or TG greater than 400 on or off lipid lowering medication)
+* Tobacco, marijuana, cocaine, or intravenous drug use
+* Shift workers (night shift or alternating day/night shifts)
+* Gastroparesis
+* Inflammatory bowel disease or irritable bowel syndrome
+* Malignancy treated with chemotherapy within the past 3 years
+* History of pancreatitis
+* Depression requiring hospitalization or diagnosis of psychosis
+* Renal insufficiency (eGFR less than 50)
+* Transaminases greater than 2 times above the normal range
+* Pregnancy within 6 months of the screening visit
+* Lactation
+* Failure to use medically approved contraceptive methods (monophasic oral contraception, intra uterine device, surgical sterilization or 2 combined barrier methods)
+* History of an eating disorder (anorexia, bulimia or laxative abuse)
+* Treatment with FDA-approved or over-the-counter weight loss medication within 6 months, with the exception of Xenical if there was no weight loss
+* History of gastric bypass surgery or gastric stapling
+* Biochemical evidence of hyper or hypothyroidism, or new diagnosis of hypo or hyperthyroidism within 3 months of screening visit
+* Previous treatment with exenatide
+* Discretion of the PI",,False,0.0,,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,FN,FN,True,,False,0.0,,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,FN,FN,FEMALE,,False,0.0,,Sex,protocolSection.eligibilityModule.sex,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,FN,FN,18 Years,,False,0.0,,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,FN,FN,70 Years,,False,0.0,,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,FN,FN,"['ADULT', 'OLDER_ADULT']",,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

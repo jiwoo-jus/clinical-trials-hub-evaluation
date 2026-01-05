@@ -1,0 +1,164 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03275350",
+      "orgStudyIdInfo": {
+        "id": "Clinical Trials Network-0067"
+      },
+      "organization": {
+        "fullName": "Oregon Health and Science University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Comparing Treatments for HIV-Infected Opioid Users in an Integrated Care Effectiveness Study (CHOICES) Scale-Up",
+      "officialTitle": "Comparing Treatments for HIV-Infected Opioid Users in an Integrated Care Effectiveness Study (CHOICES) Scale-Up"
+    },
+    "descriptionModule": {
+      "briefSummary": "The Primary Objective of this study is to compare the effectiveness of HIV clinic-based extended-release Naltrexone (XR-NTX) in decreasing substance use and increasing HIV viral suppression in HIV-infected participants with opioid use disorder to Treatment as Usual in this population.",
+      "detailedDescription": "The CTN-0055 CHOICES pilot study demonstrated the feasibility of extended-release naltrexone (XR-NTX) for treatment of opioid use disorder in HIV primary care. The CTN-0067 CHOICES scale-up study builds on lessons learned from the pilot and uses the Consolidated Framework for Implementation Research to advance understanding of XR-NTX adoption in HIV primary care clinics. The study is an open-label, randomized, comparative effectiveness trial of office-based XR-NTX for 24 weeks (6 monthly injections) versus treatment as usual (TAU) in HIV-infected participants with untreated opioid use disorder. Each participant will be engaged in the overall study for 25 to 28 weeks, depending on the speed of screening and enrollment procedures."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Opioid-use Disorder",
+        "Hiv"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 114,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "XR-NTX",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Extended-release naltrexone",
+          "interventionNames": [
+            "Drug: Naltrexone Injectable Suspension"
+          ]
+        },
+        {
+          "label": "TAU",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Treatment as usual",
+          "interventionNames": [
+            "Other: Treatment as usual"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Naltrexone Injectable Suspension",
+          "description": "Six monthly injections of extended-release naltrexone",
+          "armGroupLabels": [
+            "XR-NTX"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Treatment as usual",
+          "description": "Standard treatment for opioid use disorder provided at each HIV clinic",
+          "armGroupLabels": [
+            "TAU"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With HIV Viral Suppression, Missing Imputed as Unsuppressed",
+          "description": "HIV-1 RNA \\<200 copies/ml",
+          "timeFrame": "12 weeks and 24 weeks"
+        },
+        {
+          "measure": "Number of Participants With HIV Viral Suppression, Complete Case",
+          "description": "HIV-1 RNA \\<200 copies/ml",
+          "timeFrame": "12 weeks and 24 weeks"
+        },
+        {
+          "measure": "Number of Participants With HIV Viral Suppression, Per-protocol",
+          "description": "HIV-1 RNA \\<200 copies/ml",
+          "timeFrame": "12 weeks and 24 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Veterans Aging Cohort Study (VACS) Index",
+          "description": "Absolute value of participant VACS Index at baseline and 24 weeks\n\nVeterans Aging Cohort Study Index Minimum value: 0 Maximum value: 164 A higher score means a worse outcome.",
+          "timeFrame": "Baseline and 24 weeks"
+        },
+        {
+          "measure": "CD4 Count",
+          "description": "Cluster of Differentiation 4\n\nAbsolute value of CD4 count at baseline and 24 weeks.",
+          "timeFrame": "Baseline and 24 weeks"
+        },
+        {
+          "measure": "Engagement in HIV Care: Antiretroviral Therapy Prescribed",
+          "description": "Absolute value of participants prescribed ART at baseline and within 24 weeks following randomization. Each individual can be scored 0 (not prescribed ART) or 1 (prescribed ART) at both baseline and follow-up, after which his or her outcome score will be the follow-up score minus the baseline score. Outcomes will be analyzed via rank-based methods such as Wilcoxon rank-sum tests.",
+          "timeFrame": "Baseline and 24 weeks"
+        },
+        {
+          "measure": "Engagement in HIV Care: 100% Antiretroviral Therapy Adherence",
+          "description": "Number of participants taking 100% of prescribed ART doses in the past month at 24 weeks for those prescribed ART at any point during the 24 week trial (proportion; self-reported medication adherence measure). Chi-squared test comparing proportion to treatment assignment, for those prescribed ART.",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Number of Participants With at Least 1 HIV Care Visit in Past 12 Weeks",
+          "description": "At least 1 HIV care visit in past 12 weeks",
+          "timeFrame": "24 weeks"
+        },
+        {
+          "measure": "Number of Participants Who Had Unprotected Sex in Past 30 Days",
+          "description": "Past 30 day unprotected sex, as measured by the Risk Assessment Battery at baseline and week 24 (binary; self-report).",
+          "timeFrame": "Baseline and 24 weeks"
+        },
+        {
+          "measure": "Number of Participants With Multiple Sex Partners in Past 30 Days",
+          "description": "Past 30 day multiple sex partners, as measured by the Risk Assessment Battery at baseline and week 24 (binary; self-report).",
+          "timeFrame": "Baseline and 24 weeks"
+        },
+        {
+          "measure": "Engagement in HIV Care: Quality of Life",
+          "description": "Past 30 day health-related quality of life as measured by the EQ-5D questionnaire at baseline and week 24.\n\nMinimum value: 0 Maximum value: 100 Higher scores mean a better outcome",
+          "timeFrame": "Baseline and 24 weeks"
+        },
+        {
+          "measure": "Average Number of Self-Reported Days of Opioid Use in Last 30 Days",
+          "description": "Average number of days of opioid use between baseline and 24 weeks, measured by the Timeline Follow-Back (count; self-report), will be used to compare opioid use by treatment group. Confirmatory analysis will assess opioid use by the average number of days of opioid use in the last 30 days of the study (by Addiction Severity Index-lite; count; self-report) and the number of monthly urine drug screen (UDS) negative for opioids between baseline and 24 weeks (count; laboratory data).",
+          "timeFrame": "Between baseline and 24 weeks"
+        },
+        {
+          "measure": "Number of Participants Who Test Positive for Opioids at 24 Weeks",
+          "description": "Number and percent of participants with UDS positive for opioids at 24 weeks.",
+          "timeFrame": "24 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Participant is at least 18 years old\n* Participant has provided written informed consent and HIPAA for medical record abstraction\n* Participant meets Diagnostic and Statistical (DSM)-5 criteria for moderate or severe opioid use disorder\n* Willing to be randomized to antagonist-based therapy or TAU for treatment of opioid use disorder\n* Has an HIV viral RNA count of greater than 200 copies/ml (not clinically suppressed)\n* Willing to establish ongoing HIV care at the site if not already receiving ongoing care\n* If female, willing to take at least one evidence-based measure to avoid becoming pregnant\n\nExclusion Criteria:\n\n* Participant has a serious medical, psychiatric, or substance use disorder that, in the opinion of the study physician, would make participation hazardous to the participant, compromise study findings, or prevent participant from completing the study. Examples include:\n* Acutely life-threatening medical illnesses (e.g., active opportunistic infection, uncompensated heart failure, end-stage liver disease, acute hepatitis and moderate to severe renal impairment) as assessed by medical history, review of symptoms, physical exam and/or laboratory assessments\n* Severe, inadequately treated mental health disorder (e.g., active psychosis, uncontrolled manic-depressive illness) as assessed by history and/or clinical interview\n* Suicidal or homicidal ideation requiring immediate attention\n* Participant has aspartate aminotransferase (AST) or alanine aminotransferase (ALT) liver enzymes greater than five times the upper limit of normal on screening phlebotomy\n* Participant has an international normalized ratio (INR) \\> 1.5 or platelet count \\<100k\n* Participant has a known allergy or sensitivity to naloxone, naltrexone, polyactide-co-glycolide, carboxymethylcellulose, or other components of the Vivitrol diluent\n* Anticipate undergoing surgery during study participation\n* Have chronic pain requiring ongoing pain management with opioid analgesics\n* If female, currently (at time of consent) pregnant or breastfeeding or planning on conceiving in the coming months\n* Body habitus that, in the judgment of the study physician, precludes safe intramuscular injection on XR-NTX (e.g., excess fat tissue over the buttocks)\n* Received methadone of buprenorphine maintenance therapy for treatment of opioid dependence in the 4 weeks prior to screening\n* Have taken an investigational drug in another study within 30 days of study consent\n* Have had treatment with XR-NTX for opioid or alcohol dependence in the 4 weeks prior to consent\n* Are currently in jail, prison or have a pending legal action which may prevent an individual from completing the study",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

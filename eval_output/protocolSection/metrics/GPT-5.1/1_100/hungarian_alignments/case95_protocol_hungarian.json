@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "case_id": 95,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T19:35:49.536500",
+    "total_alignments": 6,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/95_NCT03931174.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/95_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.88
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "id": "R01DA046941",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/R01DA046941"
+          },
+          "pred_item": {
+            "id": "R01DA046941",
+            "type": "OTHER_GRANT",
+            "domain": "National Institute on Drug Abuse (NIDA)",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.72
+        ],
+        [
+          0.72,
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Addiction Technology Transfer Center (ATTC) Training",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Half of the opioid treatment centers will receive the ATTC training strategy.",
+            "interventionNames": [
+              "Behavioral: Addiction Technology Transfer Center (ATTC) Training Strategy"
+            ]
+          },
+          "pred_item": {
+            "label": "ATTC implementation strategy",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Opioid treatment programs (OTPs) assigned to this arm receive the standard Addiction Technology Transfer Center (ATTC) Network implementation strategy to support delivery of prize-based contingency management (CM) for patients receiving medication for opioid use disorder. The strategy is delivered during a 5‑month Preparation phase and a 9‑month Implementation phase, followed by a 6‑month Sustainment phase without active support. Core components include: (1) Didactic CM training (typically a 7‑hour workshop, or equivalent virtual series) covering CM principles, exemplar videos, and role plays; (2) Performance feedback using the CM Competence Scale, based on audio‑recorded practice CM sessions to ensure providers reach knowledge and skills criteria prior to CM delivery; and (3) On‑going consultation focused on concrete CM setup (e.g., prize lists, prize cabinet, attendance target). During the Implementation phase, providers also receive access to recorded training materials and resources on an ATTC website, a weekly CM newsletter, and performance feedback via the CM Tracker tool (self‑rated CM fidelity and automated summaries). Monthly CM consultation calls are provided, but without higher‑level implementation facilitation. In the Sustainment phase, no active project supports are provided beyond continued access to previously supplied materials. All OTPs in this arm implement a standardized, prize‑based CM protocol targeting attendance as an adjunct to methadone or buprenorphine treatment.",
+            "interventionNames": [
+              "ATTC implementation strategy",
+              "Prize-based contingency management"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Enhanced ATTC (E-ATTC) Training Strategy",
+            "type": "EXPERIMENTAL",
+            "description": "Half of the opioid treatment centers will receive the E-ATTC training strategy.",
+            "interventionNames": [
+              "Behavioral: Enhanced Addiction Technology Transfer Center (E-ATTC) Training Strategy"
+            ]
+          },
+          "pred_item": {
+            "label": "Enhanced-ATTC implementation strategy",
+            "type": "EXPERIMENTAL",
+            "description": "Opioid treatment programs (OTPs) assigned to this arm receive all components of the standard ATTC implementation strategy to support delivery of prize-based contingency management (CM) plus two added, theory‑driven implementation elements: Pay‑for‑Performance and Implementation & Sustainment Facilitation. As in the control arm, the Preparation phase (5 months) and Implementation phase (9 months) include didactic CM training, performance feedback, consultation, access to CM resources and CM Tracker-based feedback; the Sustainment phase (6 months) occurs without active support. The enhanced elements are: (1) Pay‑for‑Performance: during the Implementation phase, CM counselors earn monetary bonuses contingent on achieving performance benchmarks, specifically US $200 for each newly admitted study patient who receives 10 or more CM sessions within 14 weeks (CM Exposure) and US $50 per month when their mean CM Competence Scale score is ≥ 5.8 (stretch goal for high CM skill). (2) Implementation & Sustainment Facilitation: starting in month 3 of Preparation and continuing through Implementation, OTP leaders and CM counselors participate in monthly 30–60‑minute facilitated strategy meetings (plus an optional 2‑hour CM process walkthrough). A trained external facilitator uses a structured workbook and exercises (e.g., decisional balance, implementation climate evaluation, performance review and planning) to engage staff, address barriers, strengthen implementation climate and leadership engagement, and develop plans for sustaining CM, including strategies to secure financial support for incentives. All OTPs in this arm implement the same prize‑based CM attendance protocol as an adjunct to methadone or buprenorphine treatment.",
+            "interventionNames": [
+              "Enhanced-ATTC implementation strategy",
+              "ATTC implementation strategy",
+              "Pay-for-Performance",
+              "Implementation & Sustainment Facilitation",
+              "Prize-based contingency management"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.78,
+          0.55,
+          0.72,
+          0.32
+        ],
+        [
+          0.86,
+          0.96,
+          0.78,
+          0.82,
+          0.32
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Addiction Technology Transfer Center (ATTC) Training Strategy",
+            "description": "Participating organizations will receive training consisting of 3 components: 1) didactic workshop - full-day workshop led by a contingency management (CM) expert for both CM staff and leaders, 2) performance feedback - submission of CM session recordings for review and performance feedback at least monthly for 9 months for CM staff, and 3) staff coaching - monthly provider coaching calls led by a CM expert for 9 months for both CM staff and leaders.",
+            "armGroupLabels": [
+              "Addiction Technology Transfer Center (ATTC) Training"
+            ],
+            "otherNames": [
+              "ATTC"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "ATTC implementation strategy",
+            "description": "A multi-component implementation strategy developed and delivered by the Addiction Technology Transfer Center (ATTC) network to promote adoption and high-fidelity delivery of contingency management (CM) in opioid treatment programs. It is structured by the Exploration, Preparation, Implementation, Sustainment (EPIS) framework and, in this trial, is delivered during a 5‑month Preparation and a 9‑month Implementation phase. Core elements: (1) Didactic CM training using a training-to-criterion approach (7‑hour in-person or equivalent virtual format) with instruction in CM principles, exemplar videos, role plays, and a CM Knowledge test requiring ≥75% correct; (2) Performance feedback on CM skills using the CM Competence Scale, based on audio‑recorded practice role-play sessions to ensure providers meet an a priori fidelity threshold (mean ≥4/7) before delivering CM; leaders receive summary reports to support supervision; (3) On‑going consultation via email in Preparation to aid in developing prize menus, stocking prize cabinets, and defining verifiable attendance targets; and (4) During Implementation, continued access to training videos and CM resources on an ATTC website (including telehealth adaptations), a weekly CM newsletter with tips and trivia, and automated performance feedback via the CM Tracker. Monthly CM consultation calls focus on improving CM technique, not broader organizational change. No active implementation support is provided in the Sustainment phase beyond continued access to materials.",
+            "armGroupLabels": [
+              "ATTC implementation strategy",
+              "Enhanced-ATTC implementation strategy"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Enhanced Addiction Technology Transfer Center (E-ATTC) Training Strategy",
+            "description": "Participating organizations will receive all of the elements of the ATTC control condition. In addition, organizations will receive two additional elements: 1) Implementation Sustainment Facilitation - monthly coaching calls for CM leaders and staff focused on sustainment, 2) Pay for Performance - participating CM staff will have the opportunity to earn monthly monetary bonuses for achieving pre-defined implementation goals for 9 months.",
+            "armGroupLabels": [
+              "Enhanced ATTC (E-ATTC) Training Strategy"
+            ],
+            "otherNames": [
+              "E-ATTC"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Enhanced-ATTC implementation strategy",
+            "description": "A multi-level implementation strategy that augments the standard ATTC strategy with two additional components designed to address both extrinsic and intrinsic motivators for staff and organizational-level determinants. In addition to all ATTC elements (didactic training, performance feedback, on-going consultation, CM Tracker-based feedback, and CM resources), it includes: (1) Pay-for-Performance incentives for CM counselors tied to CM Exposure and CM Competence benchmarks; and (2) Implementation & Sustainment Facilitation, consisting of monthly structured facilitation meetings led by an external facilitator, plus an optional 2‑hour CM process walkthrough, to strengthen implementation climate, leadership engagement, and sustainment planning. This enhanced strategy is delivered throughout the 5‑month Preparation and 9‑month Implementation phases, with only passive sustainment thereafter.",
+            "armGroupLabels": [
+              "Enhanced-ATTC implementation strategy"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.6,
+          0.4,
+          0.72
+        ],
+        [
+          0.35,
+          0.95,
+          0.2
+        ],
+        [
+          0.25,
+          0.15,
+          0.84
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.6,
+          "status": "matched",
+          "ref_item": {
+            "measure": "CM Exposure (Implementation Outcome)",
+            "description": "Provider-level measure of whether the provider delivered the target number of CM sessions (at least 10 sessions) to at least one patient based on based on electronic medical record review and data entered into a study-specific CM tracker tool for up to 25 charts per site (25 charts\\*30 sites = 750 charts). Providers will report on patient encounters in the electronic medical record and the study-specific CM tracker tool, and for each encounter will report if CM was provided. Using patient level data, providers will be classified as 1 (delivered 10 or more sessions to at least 1 patient) or 0 (did not deliver 10 or more CM sessions to any patients).\n\n\\*This measure was initially defined as a patient-level outcome. We altered the level at which CM Exposure was assessed because our initial approach excluded providers who were trained but never delivered CM. To follow intent-to-treat principles, we aggregate CM Exposure data at the provider-level in a manner that uses all available data.",
+            "timeFrame": "From baseline to 9 months post-baseline"
+          },
+          "pred_item": {
+            "measure": "CM Exposure",
+            "description": "Number of contingency management (CM) sessions delivered per patient during the Implementation phase; recorded for each patient as the number of CM sessions completed during their first 14 weeks of treatment (0–12) and whether they received the target level of exposure (10 or more sessions).",
+            "timeFrame": "During the 9-month Implementation phase (first 14 weeks of each patient’s treatment)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Contingency Management Competence Scale for Reinforcing Attendance (Implementation Outcome)",
+            "description": "Provider scores on the Contingency Management Competence Scale for Reinforcing Attendance (CMCS; Petry \\& Ledgerwood, 2010). Coders blind to treatment condition rate audio recorded CM sessions using the CMCS, which measures provider skill in CM delivery. CMCS contains 6 CM-specific skill items and 3 general skill items that are scored on a scale from 0 to 7. For each item, a score of 0 indicates an audio recording was not submitted, a score of 1 indicates the lowest possible skill and a score of 7 indicates the highest possible skill. Possible scale scores range from a minimum of 0 to 63. An average score will be calculated for each provider, with a minimum of 0 and maximum of 7. Providers will submit one audio recording per month for the duration of the 9-month Implementation phase. Each provider's highest CMCS score will be used in analysis. Higher scores indicate higher skill, which is a better outcome.",
+            "timeFrame": "From baseline to 9 months post-baseline"
+          },
+          "pred_item": {
+            "measure": "CM Competence",
+            "description": "Provider skill in CM implementation, assessed using the 9-item CM Competence Scale (items scored 1–7; higher scores indicate higher competence). Monthly scores are created for each provider who submits a CM session recording, including whether the provider met the target competence level (mean score ≥ 5.8).",
+            "timeFrame": "Monthly during the 9-month Implementation phase"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.84,
+          "status": "matched",
+          "ref_item": {
+            "measure": "CM Sustainment (Implementation Outcome)",
+            "description": "Proportion of programs delivering any CM after removal of active support. This is calculated based on review of all patient charts over a 6-month interval. Providers report on patient encounters in the medical record, and for each encounter report if CM was provided. Programs are classified as 1 (reported delivering CM to at least 1 patient) or 0 (did not deliver CM to any patients). The proportion of programs delivering CM is then calculated; a higher proportion is a better outcome.\n\n\\*The level at which CM Sustainment was assessed was altered from provider-level to program-level because of the frequency of programs failing to report applying CM among any patients, across any of its providers. In addition, there was such high staff turnover we could not assess at the provider-level using original provider IDs. To be able to use all available data from all programs' medical records, we report on the proportion of any programs delivering CM after removal of active support.",
+            "timeFrame": "6-month time interval following Implementation time period"
+          },
+          "pred_item": {
+            "measure": "CM Sustainment",
+            "description": "Organizational-level sustainment of CM, measured by counts of the number of patients who received CM, the number of counselors delivering CM, and the number of CM sessions delivered per patient after removal of active project support.",
+            "timeFrame": "During the 6-month Sustainment phase following the Implementation phase"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.5
+        ],
+        [
+          0.78,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Opioid Abstinence: Past Month (Patient Outcome)",
+            "description": "Days of abstinence as reported using calendar-based recall based on the Timeline Followback Interview method (Sobell \\& Sobell, 1992). Days of opioid abstinence will be calculated from 0 to 30 for each patient, with higher numbers indicating more days of abstinence (which is a better outcome). This will be calculated for all patients who complete follow-up.",
+            "timeFrame": "Assessed at 3 and 6-months from patient baseline assessment"
+          },
+          "pred_item": {
+            "measure": "Opioid Abstinence",
+            "description": "Patient self-reported days abstinent from opioids, assessed with questions modeled after the Timeline Followback Interview (number of days using opioids, painkillers, or other analgesics excluding prescribed methadone/buprenorphine, and number of days using heroin in the past 30 days). Self-report is corroborated by weekly urine screen results (negative vs. positive for opioids) entered by providers in the CM Tracker.",
+            "timeFrame": "Baseline, 3 months, and 6 months post-baseline (self-report over the past 30 days at each time point; urine screens recorded weekly during treatment)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Global Appraisal of Individual Needs Opioid-Related Problem Scale: Past Month (Patient Outcome)",
+            "description": "Count of problems as reported using an adapted version of the Global Appraisal of Needs Substance Problems Scale (Dennis et al., 2002), which has been adapted to focus specifically on problems related to opioids. The scale contains 16 items that correspond to problems related to opioid use. Patients are asked the last time they had each problem with responses including past month, past year, lifetime, or never. A count of problems experienced over the past month will be calculated for each patient. The minimum possible score is 0 and the maximum possible score is 16. Higher scores indicate higher problems, which is a worse outcome. This will be calculated for all patients who complete follow-up.",
+            "timeFrame": "Assessed at 3 and 6-months from patient baseline assessment"
+          },
+          "pred_item": {
+            "measure": "Opioid-Related Problems",
+            "description": "Count of opioid-related problems using the Opioid Problem Index, based on 11 DSM-5 symptoms of opioid use disorder experienced over the past month, adapted from the Substance Problem Index of the Global Appraisal of Individual Needs.",
+            "timeFrame": "3 months and 6 months post-baseline (past 30 days at each assessment)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.otherOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.47,
+          0.23
+        ],
+        [
+          0.62,
+          0.9,
+          0.08
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Implementation Climate Scale",
+            "description": "Implementation climate scale (Jacobs et al., 2014). This scale contains 6 items scored on a 1 to 5 scale. An average score across the 6 items will be calculated per provider. Possible scores on this outcome range from a minimum of 1 to a maximum of 6. Higher scores indicate a more positive implementation climate, which is a better outcome.",
+            "timeFrame": "From baseline to 9 months post baseline"
+          },
+          "pred_item": {
+            "measure": "Implementation Climate",
+            "description": "Provider perceptions of the extent to which contingency management is expected, supported, and rewarded within the opioid treatment program, assessed with a 6-item implementation climate measure (5-point Likert scale; mean score calculated per respondent, with potential aggregation to the organizational level).",
+            "timeFrame": "Start of the Preparation phase and midpoint of the Implementation phase"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Leadership Engagement Scale",
+            "description": "Measure of leadership engagement (Garner, unpublished data). The scale contains 4 items scored on a 1 to 5 scale. An average perceived leadership engagement scale will be calculated for each provider. Possible scores on this outcome range from a minimum score of 1 to a maximum score of 5. Higher scores indicate higher perceived leadership engagement, which is a better outcome.",
+            "timeFrame": "From baseline to 9 months post baseline"
+          },
+          "pred_item": {
+            "measure": "Leadership Engagement",
+            "description": "Provider perceptions of leadership commitment to, involvement in, engagement in, and accountability for CM implementation at their program, assessed with a 4-item leadership engagement scale (7-point Likert scale; mean score calculated per respondent, with potential aggregation to the organizational level).",
+            "timeFrame": "Start of the Preparation phase and midpoint of the Implementation phase"
+          }
+        }
+      ]
+    }
+  ]
+}

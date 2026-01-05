@@ -1,0 +1,98 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+GPT-5.1,protocolSection.identificationModule.nctId,TP,TP,NCT04501952,NCT04501952,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.orgStudyIdInfo.type,EV,EV,,FDA,,,,OrgStudyIdType,protocolSection.identificationModule.orgStudyIdInfo.type,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.orgStudyIdInfo.link,EV,EV,,,,,,OrgStudyIdLink,protocolSection.identificationModule.orgStudyIdInfo.link,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,EudraCT,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[0].link,EV,EV,,,,,,SecondaryIdLink,protocolSection.identificationModule.secondaryIdInfos.link,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.briefTitle,TP,TP,Study to Evaluate the Efficacy and Safety of Remdesivir (GS-5734™) Treatment of Coronavirus Disease 2019 (COVID-19) in an Outpatient Setting,A 3-Day Course of Remdesivir for High-Risk Nonhospitalized Patients With Covid-19 (PINETREE),True,0.91,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.officialTitle,TP,FP,"A Phase 3 Randomized, Double-Blind Placebo-Controlled Trial to Evaluate the Efficacy and Safety of Remdesivir (GS-5734™) Treatment of COVID-19 in an Outpatient Setting",,False,0.0,empty,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.acronym,EV,EV,,PINETREE,,,,Acronym,protocolSection.identificationModule.acronym,True,False,True,False,False,False
+GPT-5.1,protocolSection.descriptionModule.briefSummary,TP,TP,The primary objectives of this study are to evaluate the efficacy of remdesivir (RDV) in reducing the rate of of coronavirus disease 2019 (COVID-19) related hospitalization or all-cause death in non-hospitalized participants with early stage COVID-19 and to evaluate the safety of RDV administered in an outpatient setting.,"This randomized, double-blind, placebo-controlled trial evaluated whether a short 3‑day course of intravenous remdesivir can prevent hospitalization or death in nonhospitalized patients with symptomatic COVID‑19 who are at high risk for disease progression. Eligible participants were at least 12 years old, had confirmed SARS‑CoV‑2 infection, symptom onset within the previous 7 days, and at least one risk factor such as age ≥60 years, obesity, diabetes, hypertension, or other chronic medical conditions. Patients received either remdesivir (200 mg on day 1 and 100 mg on days 2 and 3) or placebo. The main outcome was COVID‑19–related hospitalization or death by day 28, with additional assessments of medically attended visits, symptoms, viral load, and safety.",True,0.94,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+GPT-5.1,protocolSection.descriptionModule.detailedDescription,EV,EV,,"This phase 3, randomized, double‑blind, placebo‑controlled trial (GS‑US‑540‑9012, PINETREE) investigated the efficacy and safety of a 3‑day course of intravenous remdesivir in nonhospitalized patients with coronavirus disease 2019 (COVID‑19) who were at high risk for progression to severe disease. The trial was conducted at 64 sites in the United States, Spain, Denmark, and the United Kingdom between September 18, 2020, and April 8, 2021. Trial sites included outpatient infusion centers, skilled nursing facilities, and home‑infusion settings.
+
+Eligible patients were 12 years of age or older with laboratory‑confirmed SARS‑CoV‑2 infection by molecular assay within 4 days prior to screening and with onset of at least one COVID‑19 symptom within the previous 7 days. Participants also had to have at least one predefined risk factor for severe COVID‑19 (e.g., age ≥60 years, obesity with BMI ≥30, hypertension, cardiovascular or cerebrovascular disease, diabetes mellitus, chronic lung disease, chronic liver disease, chronic mild or moderate kidney disease, immunocompromised state, current cancer, or sickle cell disease) or be ≥60 years of age regardless of other conditions.
+
+Key exclusion criteria included current or anticipated need for supplemental oxygen or hospital care at screening, prior hospitalization for COVID‑19, prior receipt of COVID‑19–directed therapy (including investigational agents), and prior receipt of a SARS‑CoV‑2 vaccine.
+
+Participants were randomly assigned in a 1:1 ratio to receive either remdesivir or placebo, stratified by residence in a skilled nursing facility (yes/no), age (<60 vs. ≥60 years), and country (United States vs. outside the United States). Remdesivir was administered intravenously as 200 mg on day 1 followed by 100 mg on days 2 and 3; the control group received matching placebo infusions. Patients, investigators, and trial staff were blinded to treatment assignment.
+
+The primary efficacy endpoint was a composite of hospitalization related to COVID‑19 (defined as ≥24 hours of acute care) or death from any cause through day 28. The primary safety endpoint was the occurrence of any adverse event. Key secondary endpoints included a composite of COVID‑19–related medically attended visits (e.g., emergency department, urgent care, or other unscheduled visits for COVID‑19) or death from any cause by days 14 and 28, COVID‑19–related hospitalization by days 14 and 28, time‑weighted average change from baseline in nasopharyngeal SARS‑CoV‑2 viral load through day 7, and time to alleviation of baseline COVID‑19 symptoms as measured by the FLU‑PRO Plus patient‑reported outcome instrument. Post hoc analyses included hospitalization for any cause by day 28 and alternative definitions of time to symptom alleviation.
+
+Physical examinations, laboratory testing (including renal and hepatic function), adverse event monitoring, and nasopharyngeal swabs for SARS‑CoV‑2 viral load by RT‑PCR were performed at prespecified intervals. Patients completed the electronic FLU‑PRO Plus questionnaire daily through day 14 to capture patient‑reported respiratory and systemic symptoms.
+
+The trial originally planned to enroll 1264 patients, providing >90% power to detect a hazard ratio of 0.55 for COVID‑19–related hospitalization or death, assuming a 9.3% event rate and 5% dropout. Enrollment was stopped early for administrative and ethical reasons (declining incidence, increased availability of emergency‑use–authorized therapies, and rising vaccination among high‑risk populations), resulting in 562 patients who underwent randomization and received at least one infusion (279 remdesivir; 283 placebo). No interim efficacy analyses were performed before study discontinuation, and blinding was maintained until database lock.
+
+Baseline characteristics were well balanced between groups. The mean age was 50 years; 30.2% of patients were ≥60 years; 47.9% were women; 41.8% were Hispanic or Latinx. The most prevalent comorbidities were diabetes mellitus (61.6%), obesity (55.2%), and hypertension (47.7%). The median time from symptom onset to first infusion was 5 days, and from positive SARS‑CoV‑2 test to screening was 2 days.
+
+By day 28, COVID‑19–related hospitalization or death from any cause occurred in 2 of 279 patients (0.7%) in the remdesivir group and 15 of 283 (5.3%) in the placebo group, yielding a hazard ratio of 0.13 (95% CI, 0.03–0.59; P=0.008), corresponding to an 87% relative risk reduction. All COVID‑19–related hospitalizations occurred by day 14, and no deaths occurred in either group by day 28. In prespecified subgroup analyses (e.g., by diabetes, obesity, sex, hypertension, and ethnicity), remdesivir consistently reduced the risk of the primary endpoint relative to placebo.
+
+For the secondary composite endpoint of COVID‑19–related medically attended visits or death by day 28, 4 of 246 patients (1.6%) in the remdesivir group and 21 of 252 (8.3%) in the placebo group had an event (hazard ratio, 0.19; 95% CI, 0.07–0.56). By day 14, the corresponding proportions were 0.8% vs. 7.9%. A post hoc analysis of hospitalization for any cause by day 28 found events in 5 of 279 patients (1.8%) in the remdesivir group and 18 of 283 (6.4%) in the placebo group (hazard ratio, 0.28; 95% CI, 0.10–0.75).
+
+Nasopharyngeal viral load declined over time in both groups, but there was no substantial between‑group difference in time‑weighted average change from baseline to day 7 (−1.24 log10 copies/mL with remdesivir vs. −1.14 log10 copies/mL with placebo; least‑squares mean difference, 0.07; 95% CI, −0.10 to 0.24). This suggests that clinical benefit may not correlate directly with reductions in upper respiratory tract viral RNA levels.
+
+Remdesivir demonstrated an acceptable safety profile in the outpatient setting. By day 28, any adverse event occurred in 42.3% of remdesivir recipients and 46.3% of placebo recipients. The most frequent nonserious adverse events (≥5% in both groups) were nausea, headache, and cough. Adverse events judged related to study drug were reported in 12.2% of patients in the remdesivir group and 8.8% in the placebo group. Serious adverse events were less frequent with remdesivir (1.8%) than with placebo (6.7%). Grade 3 or higher laboratory abnormalities occurred in 10.4% vs. 8.1% of patients, respectively, and mean changes in creatinine clearance and alanine aminotransferase by day 14 were minimal and similar between groups.
+
+The investigators conclude that a 3‑day course of intravenous remdesivir, initiated within 7 days of symptom onset, significantly reduces the risk of hospitalization among high‑risk, nonhospitalized patients with COVID‑19 and has an acceptable safety profile. These findings extend the known benefits of remdesivir from hospitalized patients with moderate‑to‑severe disease to earlier, outpatient treatment of high‑risk individuals and support its role as an additional therapeutic option for preventing progression of COVID‑19, particularly in settings with limited access to monoclonal antibodies or among patients unlikely to respond adequately to vaccination.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+GPT-5.1,protocolSection.conditionsModule.conditions,TP,TP,['COVID-19'],"['COVID-19', 'SARS-CoV-2 Infection', 'Coronavirus Infections', 'Viral Pneumonia']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+GPT-5.1,protocolSection.conditionsModule.keywords,EV,EV,,"['COVID-19', 'SARS-CoV-2', 'Coronavirus Infections', 'Remdesivir', 'Antiviral Agents', 'Outpatients', 'Hospitalization', 'Disease Progression', 'High-Risk Patients', 'Obesity', 'Diabetes Mellitus', 'Hypertension']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.phases,TP,TP,['PHASE3'],['PHASE3'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Two-arm, randomized, double-blind, placebo-controlled trial comparing a 3-day course of intravenous remdesivir with placebo in nonhospitalized high-risk Covid-19 patients.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,DOUBLE,QUADRUPLE,False,0.6,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"Double-blind trial in which all patients and trial personnel were unaware of treatment assignments; masking applies to participants, care providers, investigators, and outcomes assessors.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'INVESTIGATOR']","['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']",True,1.0,superset,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.enrollmentInfo.count,TP,TP,584,562,True,0.9,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Key Inclusion Criteria:
+
+* Willing and able to provide written informed consent, (individuals ≥ 18 years of age) or assent (individuals ≥ 12 and \< 18 years of age) prior to performing study procedures. Individuals age ≥ 18 years may be enrolled with the consent of a legal representative where permitted according to local law and approved nationally and by the relevant institutional review board (IRB) or independent ethics committee (IEC). For individuals ≥ 12 and \< 18 years of age, a parent or legal guardian must be willing and able to provide written informed consent prior to performing study procedures
+* Either:
+
+  * Age ≥ 18 years (at all sites) or aged ≥ 12 and \< 18 years of age weighing ≥ 40 kg (where permitted according to local law and approved nationally and by the relevant IRB or IEC with at least 1 pre-existing risk factor for progression to hospitalization (chronic lung disease, hypertension, cardiovascular or cerebrovascular disease, diabetes, obesity (body mass index ≥ 30), immunocompromised, chronic mild or moderate kidney disease, chronic liver disease, current cancer, or sickle cell disease)
+  * Or aged ≥ 60 years
+* Severe acute respiratory syndrome (SARS)-coronavirus (CoV)-2 infection confirmed by molecular diagnosis (nucleic acid (polymerase chain reaction (PCR) or antigen testing) ≤ 4 days prior to screening
+* Presence of ≥ 1 symptom(s) consistent with COVID-19 for ≤ 7 days prior to randomization
+* Not currently requiring hospitalization (hospitalization defined as ≥ 24 hours of acute care)
+
+Key Exclusion Criteria:
+
+* Participation in any other clinical trial of an experimental treatment and prevention for COVID-19
+* Prior hospitalization for COVID-19
+* Treatment with other agents with actual or possible direct antiviral activity against SARS-CoV-2 or administration of any SARS-CoV-2 (or COVID-19) vaccine
+* Requiring oxygen supplementation
+
+Note: Other protocol defined Inclusion/Exclusion criteria may apply.","- **Inclusion Criteria**
+  - Age 12 years or older
+  - At least one ongoing symptom consistent with Covid-19
+  - Onset of the first Covid-19 symptom within 7 days before randomization
+  - SARS-CoV-2 infection confirmed by a molecular diagnostic assay within 4 days before screening
+  - At least one preexisting risk factor for progression to severe Covid-19 **or** age 60 years or older regardless of other risk factors
+  - Eligible risk factors for progression to severe Covid-19 included:
+    - Hypertension
+    - Cardiovascular or cerebrovascular disease
+    - Diabetes mellitus
+    - Obesity (body-mass index 30 kg/m b2)
+    - Immune compromise
+    - Chronic mild or moderate kidney disease
+    - Chronic liver disease
+    - Chronic lung disease
+    - Current cancer
+    - Sickle cell disease
+  - Nonhospitalized at the time of enrollment
+  - Able to provide written informed consent (with assent and parental/guardian consent for patients younger than 18 years of age)
+
+- **Exclusion Criteria**
+  - Receiving or expected to receive supplemental oxygen at the time of screening
+  - Receiving or expected to receive hospital care at the time of screening
+  - Previous hospitalization for Covid-19
+  - Previous treatment for Covid-19 (including investigational agents)
+  - Receipt of any SARS-CoV-2 vaccine prior to enrollment",True,0.98,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+GPT-5.1,protocolSection.eligibilityModule.minimumAge,TP,TP,12 Years,12 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.stdAges,TP,TP,"['CHILD', 'ADULT', 'OLDER_ADULT']","['CHILD', 'ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False
+GPT-5.1,protocolSection.eligibilityModule.studyPopulation,EV,EV,,,,,,StudyPopulation,protocolSection.eligibilityModule.studyPopulation,True,False,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.samplingMethod,EV,EV,,,,,,SamplingMethod,protocolSection.eligibilityModule.samplingMethod,True,False,True,False,False,False

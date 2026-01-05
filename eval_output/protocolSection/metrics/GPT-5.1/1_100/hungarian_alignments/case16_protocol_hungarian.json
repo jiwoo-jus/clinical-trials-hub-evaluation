@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "case_id": 16,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-28T06:00:11.946527",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/16_NCT04323800.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/16_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.2
+        ],
+        [
+          0.7,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "High titer anti-SARS-CoV-2 plasma",
+            "type": "EXPERIMENTAL",
+            "description": "Participants with High titer anti-SARS-CoV-2 plasma.",
+            "interventionNames": [
+              "Biological: Anti- SARS-CoV-2 Plasma"
+            ]
+          },
+          "pred_item": {
+            "label": "Convalescent Plasma",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received a single transfusion of 1 unit of high-titer SARS-CoV-2 convalescent plasma (CCP). CCP donors had prior SARS-CoV-2 infection and met standard blood donor criteria. Plasma units were required to have SARS-CoV-2 antibody levels ≥1:320 titer by Euroimmun ELISA; after the FDA EUA (Feb 4, 2021), units also had to meet an arbitrary unit threshold of 3.5 at 1:101 dilution by Euroimmun IgG ELISA. Donor units generally had high anti-spike IgG titers; most were EUA high titer and many had measurable neutralizing antibody titers.",
+            "interventionNames": [
+              "SARS-CoV-2 Convalescent Plasma"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "SARS-CoV-2 non-immune plasma",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants with SARS-CoV-2 non-immune plasma.",
+            "interventionNames": [
+              "Biological: SARS-CoV-2 non-immune Plasma"
+            ]
+          },
+          "pred_item": {
+            "label": "Control Plasma",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants received a single transfusion of 1 unit of standard SARS-CoV-2 non-immune control plasma. Control plasma was collected before January 1, 2020, or was confirmed seronegative for SARS-CoV-2 antibodies. It was provided in standard plasma bags with labeling identical to CCP to maintain double blinding.",
+            "interventionNames": [
+              "Non-immune Control Plasma"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.6
+        ],
+        [
+          0.6,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Anti- SARS-CoV-2 Plasma",
+            "description": "SARS-CoV-2 convalescent plasma (1 unit; \\~200-250 mL collected by pheresis from a volunteer who recovered from COVID-19 disease and has SARS-CoV-2 antibody titers ≥ 1:320",
+            "armGroupLabels": [
+              "High titer anti-SARS-CoV-2 plasma"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "SARS-CoV-2 Convalescent Plasma",
+            "description": "A single-unit transfusion of high-titer COVID-19 convalescent plasma collected from donors with a history of SARS-CoV-2 infection. Donors met standard blood donation criteria and had SARS-CoV-2 antibody levels ≥1:320 titer by Euroimmun ELISA. After issuance of the FDA EUA on February 4, 2021, units also had to meet an arbitrary unit level of 3.5 at a 1:101 dilution by Euroimmun IgG ELISA. Neutralizing antibody titers in tested donors ranged from 1:20 to 1:640, with high anti-spike IgG titers in most units.",
+            "armGroupLabels": [
+              "Convalescent Plasma"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "SARS-CoV-2 non-immune Plasma",
+            "description": "Normal human plasma collected prior to December 2019",
+            "armGroupLabels": [
+              "SARS-CoV-2 non-immune plasma"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "Non-immune Control Plasma",
+            "description": "A single-unit transfusion of standard plasma lacking SARS-CoV-2 antibodies, used as placebo control. Plasma was collected before January 1, 2020, or was confirmed seronegative for SARS-CoV-2. Packaged in standard plasma bags with labels identical to those for convalescent plasma to preserve blinding.",
+            "armGroupLabels": [
+              "Control Plasma"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ],
+        [
+          0.15
+        ],
+        [
+          0.22
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Efficacy of Treatment at Day 28 as Assessed by Number of Participants Who Develop SARS-Cov-2 Infection",
+            "description": "Comparison of proportions of cumulative incidence of development of SARS-Cov-2 infection (symptoms compatible with infection and/or + molecular testing) regardless of disease severity, following high-titer Anti- SARS-CoV-2 plasma versus control (SARS-CoV-2 non-immune plasma) in subjects exposed to COVID-19.",
+            "timeFrame": "Day 28"
+          },
+          "pred_item": {
+            "measure": "Incident SARS-CoV-2 infection",
+            "description": "Development of SARS-CoV-2 infection defined as a positive RT-PCR test for SARS-CoV-2 RNA on nasal swabs collected by the study or by clinical RT-PCR testing conducted outside the study, analyzed using time-to-event methods as restricted mean infection free time.",
+            "timeFrame": "From transfusion (day 0) through day 28"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Safety of Treatment With High-titer Anti- SARS-CoV-2 Plasma Versus Control as Assessed by Number of Participants With \"Serious Adverse Events\"",
+            "description": "Number of participants with serious adverse events categorized as either severe infusion reactions or Acute Respiratory Distress Syndrome during the study period.",
+            "timeFrame": "Up to Day 28"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Safety of Treatment With High-titer Anti- SARS-CoV-2 Plasma Versus Control as Assessed by Cumulative Incidence of Grade 3 and 4 Adverse Events",
+            "description": "Cumulative incidence of grade 3 and 4 adverse events during the study period evaluated as events per 100 person-years will be used to assess safety of the intervention.",
+            "timeFrame": "Up to Day 28"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.5,
+          0.88,
+          0.58,
+          0.82,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Severe Disease",
+            "description": "Number of participants with severe disease between the anti-SARS-CoV-2 convalescent plasma and control groups. Severity of disease will be measured using the number of participants with any of the disease severity categories below:\n\n1. Death\n2. Requiring mechanical ventilation and/or in ICU\n3. non-ICU hospitalization, requiring supplemental oxygen\n4. non-ICU hospitalization, not requiring supplemental oxygen",
+            "timeFrame": "Up to 28 days"
+          },
+          "pred_item": {
+            "measure": "Disease severity by clinical event scale",
+            "description": "Most severe clinical status up to day 28 on a predefined clinical event scale ranging from no infection to death, analyzed using an ordinal logistic model and TMLE estimator for ordinal outcomes.",
+            "timeFrame": "From transfusion (day 0) through day 28"
+          }
+        }
+      ]
+    }
+  ]
+}

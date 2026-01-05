@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "case_id": 6,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-28T03:50:03.560708",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/6_NCT02323854.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/6_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Ablation and Surgical Resection",
+            "type": "OTHER",
+            "description": "Ablation of lung tumor; followed by surgical resection of the ablation zone.",
+            "interventionNames": [
+              "Device: Ablation",
+              "Procedure: Surgical Resection"
+            ]
+          },
+          "pred_item": {
+            "label": "Single Arm",
+            "type": "EXPERIMENTAL",
+            "description": "Subjects with metastatic or primary lung tumors scheduled for resection underwent preoperative percutaneous microwave ablation followed by surgical resection.",
+            "interventionNames": [
+              "Device: Emprint™ Ablation System",
+              "Procedure: Surgical Resection"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.5
+        ],
+        [
+          0.35,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "Ablation",
+            "description": "Percutaneous antenna will be placed into the target tumor under CT image guidance. Target tumor will be ablated and the antenna will be removed.",
+            "armGroupLabels": [
+              "Ablation and Surgical Resection"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "Emprint™ Ablation System",
+            "description": "Percutaneous microwave ablation using the Emprint™ Ablation System. The Emprint™ Procedure Planning Application was used as an adjunct to assist with planning for the ablation procedure.",
+            "armGroupLabels": [
+              "Single Arm"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "PROCEDURE",
+            "name": "Surgical Resection",
+            "description": "The planned surgical resection of the lung tumor will be conducted as scheduled post ablation procedure.",
+            "armGroupLabels": [
+              "Ablation and Surgical Resection"
+            ]
+          },
+          "pred_item": {
+            "type": "PROCEDURE",
+            "name": "Surgical Resection",
+            "description": "Scheduled surgical tumor resection performed immediately following the ablation procedure.",
+            "armGroupLabels": [
+              "Single Arm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.93
+        ],
+        [
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Dose Response",
+            "description": "Dose response was assessed by comparing actual ablation zone size and volume to predicted ablation zone size and volume prescribed by the physician using the Emprint™ Procedure Planning Application. Dose response was measured for each ablation zone using CT imaging immediately post ablation and prior to the surgical resection.",
+            "timeFrame": "1 Day"
+          },
+          "pred_item": {
+            "measure": "Dose response (Percentage change between predicted and actual ablation zone size)",
+            "description": "Defined as the percentage change from the predicted outcome (derived from Emprint procedure planning application) to the actual outcome (measured via CT imaging) for ablation zone width (X), height (Y), depth (Z), volume, and shape. Calculated as 100 × (Actual - Predicted) / Predicted.",
+            "timeFrame": "Immediately post-ablation (with antenna in position) and before surgical resection"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Ablation Zone Shape",
+            "description": "Ablation width (X) / height (Y), ratio of 1 indicates spherical ablation zone shape",
+            "timeFrame": "Same day"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Complete or Incomplete Tumor Ablation",
+            "description": "The secondary endpoint was complete tumor ablation immediately post-procedure for each target tumor using histologic analysis. Complete ablation was defined as 100% nonviable tumor cells.",
+            "timeFrame": "Same Day"
+          },
+          "pred_item": {
+            "measure": "Complete tumor ablation",
+            "description": "Histological assessment defined as 100% non-viable tumor cells based on nicotinamide adenine dinucleotide hydrogen (NADH) staining. Also assessed were incomplete tumor ablation (delayed necrosis) and incomplete tumor ablation (positive margin).",
+            "timeFrame": "Post-surgical resection (performed the same day as ablation)"
+          }
+        }
+      ]
+    }
+  ]
+}

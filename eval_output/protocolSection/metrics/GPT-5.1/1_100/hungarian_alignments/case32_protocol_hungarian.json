@@ -1,0 +1,276 @@
+{
+  "metadata": {
+    "case_id": 32,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:47:22.730002",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/32_NCT03047928.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/32_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Patient group",
+            "type": "EXPERIMENTAL",
+            "description": "All patients receive the same treatment. Patients included in the protocol are treated with Nivolumab according to usual guidelines, implying outpatient IV infusions of 3 mg/kg biweekly until progression.\n\nThe vaccine is administered on the same day as the administration start of Nivolumab. The vaccination is given biweekly for a total of 6 times, then every fourth week up to week 47, whereupon no additional vaccines will be given. In total, 15 vaccines will be administered. A vaccine consist of 100 μg IDO long peptide, 100 μg PD-L1 long1 peptide and 500 microliters Montanide as adjuvant.\n\nPatients who complete all vaccines will continue Nivolumab treatment after standard guidelines.",
+            "interventionNames": [
+              "Drug: Nivolumab",
+              "Biological: PD-L1/IDO peptide vaccine"
+            ]
+          },
+          "pred_item": {
+            "label": "IO102/IO103 IDO/PD-L1 Vaccine plus Nivolumab (Cohort A, anti-PD-1–naive metastatic melanoma)",
+            "type": "EXPERIMENTAL",
+            "description": "Single-arm, open-label phase 1/2 cohort of 30 anti-PD-1–naive patients with metastatic melanoma (MM) treated with a first‑in‑class IDO/PD-L1–targeting peptide vaccine (IO102/IO103) in combination with nivolumab. The vaccine was administered subcutaneously every 2 weeks for the first 6 injections, then every 4 weeks, for a maximum of 15 vaccinations. Nivolumab was administered intravenously in parallel at 3 mg/kg every 2 weeks for 24 cycles; after the 15th vaccine (given with the 24th nivolumab 3 mg/kg dose), responding patients could continue nivolumab as standard of care at 6 mg/kg every 4 weeks for up to a total of 2 years of nivolumab treatment or until progression, maximum benefit, or unacceptable toxicity.",
+            "interventionNames": [
+              "IO102 IDO peptide vaccine",
+              "IO103 PD-L1 peptide vaccine",
+              "Montanide ISA-51 adjuvant",
+              "Nivolumab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.62,
+          0.28,
+          0.1,
+          0.9
+        ],
+        [
+          0.96,
+          0.94,
+          0.72,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": "Nivolumab 3 mg/kg is administered biweekly as long as there is clinical benefit.",
+            "armGroupLabels": [
+              "Patient group"
+            ],
+            "otherNames": [
+              "Opdivo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": "Human monoclonal anti–PD-1 antibody administered intravenously in combination with the IO102/IO103 vaccine. Dosing was 3 mg/kg every 2 weeks for 24 cycles, given in parallel with the vaccine (the 15th vaccine coincided with the 24th 3 mg/kg dose). Responding patients could then continue nivolumab monotherapy at 6 mg/kg every 4 weeks as standard of care for up to a total of 2 years of nivolumab treatment or until disease progression, maximum clinical benefit, or unacceptable toxicity.",
+            "armGroupLabels": [
+              "IO102/IO103 IDO/PD-L1 Vaccine plus Nivolumab (Cohort A, anti-PD-1–naive metastatic melanoma)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "PD-L1/IDO peptide vaccine",
+            "description": "The vaccine is administered biweekly for a total of 6 times, then every fourth week up to 47 weeks, whereupon no additional vaccinations will be given. A total of 15 vaccines will be administered. A vaccine consists of 100 μg PD-L1 long1 peptide, 100 μg IDO long peptide and 500 μl Montande as adjuvant.",
+            "armGroupLabels": [
+              "Patient group"
+            ],
+            "otherNames": [
+              "IO102/IO103 peptide vaccine"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "IO102 IDO peptide vaccine",
+            "description": "A 21–amino acid peptide (sequence: DTLLKALLEIASCLEKALQVF) derived from indoleamine 2,3-dioxygenase (IDO). For each vaccination, 100 µg IO102 was dissolved in 50 µl DMSO, then mixed shortly before administration with IO103 and Montanide ISA‑51 to form a 1‑ml water‑in‑oil emulsion for subcutaneous injection. Administered every 2 weeks for the first 6 injections and then every 4 weeks, for a maximum of 15 injections, in combination with nivolumab.",
+            "armGroupLabels": [
+              "IO102/IO103 IDO/PD-L1 Vaccine plus Nivolumab (Cohort A, anti-PD-1–naive metastatic melanoma)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Adverse Events",
+            "description": "Determine the safety of the combination therapy of Nivolumab and the PD-L1/IDO peptide vaccine for patients with metastatic melanoma by reporting adverse events according to CTCAE v. 4.0.",
+            "timeFrame": "0 - 75 weeks"
+          },
+          "pred_item": {
+            "measure": "Safety and feasibility of the IDO/PD-L1 (IO102/IO103) peptide vaccine combined with nivolumab",
+            "description": "Assessment of systemic toxicity, treatment-related adverse events including grade and type (for example, immune-related events, local injection site reactions), laboratory abnormalities, and feasibility of administering the planned vaccination and nivolumab schedule.",
+            "timeFrame": "From first dose of study treatment through up to 6 months after the last dose of the IDO/PD-L1 vaccine"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 10,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.7,
+          0.4,
+          0.3,
+          0.12,
+          0.12,
+          0.05,
+          0.08,
+          0.08,
+          0.1
+        ],
+        [
+          0.3,
+          0.18,
+          0.4,
+          0.6,
+          0.98,
+          0.05,
+          0.08,
+          0.1,
+          0.08,
+          0.08
+        ],
+        [
+          0.3,
+          0.2,
+          0.7,
+          0.97,
+          0.6,
+          0.05,
+          0.1,
+          0.05,
+          0.05,
+          0.08
+        ],
+        [
+          0.15,
+          0.08,
+          0.05,
+          0.03,
+          0.05,
+          0.92,
+          0.65,
+          0.82,
+          0.78,
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Objective Response Rate",
+            "description": "Clinical response will be evaluated by RECIST and PERCIST 1.1. Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by PET-CT scans: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), \\>=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.",
+            "timeFrame": "The patients were evaluated every 12 weeks until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 58 months"
+          },
+          "pred_item": {
+            "measure": "Objective response rate (ORR)",
+            "description": "Proportion of patients with a best overall response of complete response or partial response according to RECIST 1.1, by investigator review; responses also assessed by blinded independent external review.",
+            "timeFrame": "From first dose of treatment until disease progression or last tumor assessment, up to approximately 35 months of follow-up"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 4,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Overall Survival",
+            "description": "Overall survival (OS) defined as the time from treatment until death or end of follow-up",
+            "timeFrame": "The patients were evaluated from the date of first study treatment until the date of death from any cause, assessed up to 58 months"
+          },
+          "pred_item": {
+            "measure": "Overall survival (OS)",
+            "description": "Time from first day of treatment to death from any cause.",
+            "timeFrame": "From first day of treatment until death or last follow-up (data cutoff 5 October 2020; follow-up up to 35 months)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 3,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Progression Free Survival",
+            "description": "Progression free survival (PFS) defined as the time from treatment initiation to disease progression, relapse or death due to any cause, which ever comes first.\n\nProgression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.",
+            "timeFrame": "The patients were evaluated from date of first study treatment until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 58 months"
+          },
+          "pred_item": {
+            "measure": "Progression-free survival (PFS)",
+            "description": "Time from first day of treatment to radiographic disease progression per RECIST 1.1 or death from any cause.",
+            "timeFrame": "From first day of treatment until progression, death, or last follow-up (data cutoff 5 October 2020; median follow-up 22.9 months)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 5,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Evaluation of Vaccine-specific Responses in Peripheral Blood Mononuclear Cells (PBMCs)",
+            "description": "Number of patients with a significant increase of vaccine-specific T cells in the blood during vaccination, assessed by the presence of vaccine-specific responses in peripheral blood mononuclear cells (PBMCs) before, on and after vaccination using a modified interferon (IFN)-γ enzyme-linked immune absorbent spot (ELISPOT) assay.",
+            "timeFrame": "At baseline and up to 24 months after inclusion"
+          },
+          "pred_item": {
+            "measure": "Immunogenicity: vaccine-specific T cell responses in peripheral blood",
+            "description": "Detection and quantification of IDO- and PD-L1-specific T cell responses in PBMCs using IFN-γ ELISPOT (in vitro expanded and ex vivo assays) and flow cytometry (CD4/CD8 phenotype, expression of CD107a, CD137, IFN-γ, TNF-α).",
+            "timeFrame": "At baseline; before cycle 3; after cycles 6, 12, 18 and 24; and 3 and 6 months after the last vaccine"
+          }
+        }
+      ]
+    }
+  ]
+}

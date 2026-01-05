@@ -1,0 +1,105 @@
+{
+  "case_id": 80,
+  "shard_range": "1_100",
+  "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/80_NCT02951156.json",
+  "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/80_Claude-4.5-Sonnet.json",
+  "model": "Claude-4.5-Sonnet",
+  "target_section": "protocolSection",
+  "target_pieces_count": 21,
+  "target_fields_count": 21,
+  "response_metadata": {
+    "prompt_tokens": 59303,
+    "completion_tokens": 3051,
+    "total_tokens": 62354,
+    "model": "gpt-5.1-2025-11-13"
+  },
+  "total": 23,
+  "key_precision": 0.9333333333333333,
+  "key_recall": 0.8235294117647058,
+  "key_f1": 0.8749999999999999,
+  "value_precision": 0.9333333333333333,
+  "value_recall": 0.8235294117647058,
+  "value_f1": 0.8749999999999999,
+  "key_counts": {
+    "TP": 14,
+    "FP": 1,
+    "FN": 3,
+    "TN": 0,
+    "EV": 5,
+    "NA": 0
+  },
+  "value_counts": {
+    "TP": 14,
+    "FP": 1,
+    "FN": 3,
+    "TN": 0,
+    "EV": 5,
+    "NA": 0
+  },
+  "key_EV_fields": [
+    "protocolSection.conditionsModule.keywords",
+    "protocolSection.designModule.patientRegistry",
+    "protocolSection.designModule.designInfo.interventionModelDescription",
+    "protocolSection.designModule.designInfo.maskingInfo.maskingDescription",
+    "protocolSection.eligibilityModule.maximumAge"
+  ],
+  "key_FN_fields": [
+    "protocolSection.identificationModule.nctId",
+    "protocolSection.identificationModule.briefTitle",
+    "protocolSection.identificationModule.officialTitle"
+  ],
+  "key_FP_fields": [
+    "protocolSection.identificationModule.properties"
+  ],
+  "key_TP_fields": [
+    "protocolSection.descriptionModule.briefSummary",
+    "protocolSection.descriptionModule.detailedDescription",
+    "protocolSection.conditionsModule.conditions",
+    "protocolSection.designModule.studyType",
+    "protocolSection.designModule.phases",
+    "protocolSection.designModule.designInfo.allocation",
+    "protocolSection.designModule.designInfo.interventionModel",
+    "protocolSection.designModule.designInfo.maskingInfo.masking",
+    "protocolSection.designModule.enrollmentInfo.count",
+    "protocolSection.eligibilityModule.eligibilityCriteria",
+    "protocolSection.eligibilityModule.healthyVolunteers",
+    "protocolSection.eligibilityModule.sex",
+    "protocolSection.eligibilityModule.minimumAge",
+    "protocolSection.eligibilityModule.stdAges"
+  ],
+  "key_TN_fields": [],
+  "key_NA_fields": [],
+  "val_EV_fields": [
+    "protocolSection.conditionsModule.keywords",
+    "protocolSection.designModule.patientRegistry",
+    "protocolSection.designModule.designInfo.interventionModelDescription",
+    "protocolSection.designModule.designInfo.maskingInfo.maskingDescription",
+    "protocolSection.eligibilityModule.maximumAge"
+  ],
+  "val_FN_fields": [
+    "protocolSection.identificationModule.nctId",
+    "protocolSection.identificationModule.briefTitle",
+    "protocolSection.identificationModule.officialTitle"
+  ],
+  "val_FP_fields": [
+    "protocolSection.identificationModule.properties"
+  ],
+  "val_TP_fields": [
+    "protocolSection.descriptionModule.briefSummary",
+    "protocolSection.descriptionModule.detailedDescription",
+    "protocolSection.conditionsModule.conditions",
+    "protocolSection.designModule.studyType",
+    "protocolSection.designModule.phases",
+    "protocolSection.designModule.designInfo.allocation",
+    "protocolSection.designModule.designInfo.interventionModel",
+    "protocolSection.designModule.designInfo.maskingInfo.masking",
+    "protocolSection.designModule.enrollmentInfo.count",
+    "protocolSection.eligibilityModule.eligibilityCriteria",
+    "protocolSection.eligibilityModule.healthyVolunteers",
+    "protocolSection.eligibilityModule.sex",
+    "protocolSection.eligibilityModule.minimumAge",
+    "protocolSection.eligibilityModule.stdAges"
+  ],
+  "val_TN_fields": [],
+  "val_NA_fields": []
+}

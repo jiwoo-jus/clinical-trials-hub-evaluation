@@ -1,0 +1,427 @@
+{
+  "metadata": {
+    "case_id": 46,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T16:23:58.760125",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/46_NCT04492722.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/46_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "id": "2020-002263-54",
+            "type": "EUDRACT_NUMBER"
+          },
+          "pred_item": {
+            "id": "2020-002263-54",
+            "type": "EUDRACT_NUMBER",
+            "domain": "EudraCT"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.9,
+          0.9,
+          0.35
+        ],
+        [
+          0.92,
+          0.97,
+          0.92,
+          0.3
+        ],
+        [
+          0.9,
+          0.9,
+          0.98,
+          0.35
+        ],
+        [
+          0.78,
+          0.8,
+          0.6,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "AZD5718 Dose 1 + Dapagliflozin 10 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants will receive once daily oral dose 1 of AZD5718 for 12 weeks, thereafter add-on therapy of 10 mg dapagliflozin for 8 weeks.",
+            "interventionNames": [
+              "Drug: AZD5718",
+              "Drug: Dapagliflozin 10 mg"
+            ]
+          },
+          "pred_item": {
+            "label": "AZD5718 Dose 1",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive oral AZD5718 at Dose 1 once daily for 12 weeks. Followed by an 8-week extension where they receive the same AZD5718 dose plus dapagliflozin 10 mg/d.",
+            "interventionNames": [
+              "Drug: AZD5718",
+              "Drug: Dapagliflozin"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "label": "AZD5718 Dose 2 + Dapagliflozin 10 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants will receive once daily oral dose 2 of AZD5718 for 12 weeks, thereafter add-on therapy of 10 mg dapagliflozin for 8 weeks.",
+            "interventionNames": [
+              "Drug: AZD5718",
+              "Drug: Dapagliflozin 10 mg"
+            ]
+          },
+          "pred_item": {
+            "label": "AZD5718 Dose 2",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive oral AZD5718 at Dose 2 once daily for 12 weeks. Followed by an 8-week extension where they receive the same AZD5718 dose plus dapagliflozin 10 mg/d.",
+            "interventionNames": [
+              "Drug: AZD5718",
+              "Drug: Dapagliflozin"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "AZD5718 Dose 3 + Dapagliflozin 10 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants will receive once daily oral dose 3 of AZD5718 for 12 weeks, thereafter add-on therapy of 10 mg dapagliflozin for 8 weeks.",
+            "interventionNames": [
+              "Drug: AZD5718",
+              "Drug: Dapagliflozin 10 mg"
+            ]
+          },
+          "pred_item": {
+            "label": "AZD5718 Dose 3",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive oral AZD5718 at Dose 3 once daily for 12 weeks. Followed by an 8-week extension where they receive the same AZD5718 dose plus dapagliflozin 10 mg/d.",
+            "interventionNames": [
+              "Drug: AZD5718",
+              "Drug: Dapagliflozin"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo + Dapagliflozin 10 mg",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants will receive once daily oral dose of placebo matched to AZD5718 for 12 weeks, thereafter add-on therapy of 10 mg dapagliflozin for 8 weeks.",
+            "interventionNames": [
+              "Drug: Dapagliflozin 10 mg",
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants receive matching placebo tablets once daily for 12 weeks. Followed by an 8-week extension where they receive placebo plus dapagliflozin 10 mg/d.",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Drug: Dapagliflozin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.88,
+          0.3,
+          0.35
+        ],
+        [
+          0.4,
+          0.25,
+          0.9
+        ],
+        [
+          0.4,
+          0.92,
+          0.35
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "AZD5718",
+            "description": "Participants will receive once daily oral dose of AZD5718 as per the arms they are randomised, and will continue until Week 20.",
+            "armGroupLabels": [
+              "AZD5718 Dose 1 + Dapagliflozin 10 mg",
+              "AZD5718 Dose 2 + Dapagliflozin 10 mg",
+              "AZD5718 Dose 3 + Dapagliflozin 10 mg"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "AZD5718",
+            "description": "A potent, selective, and reversible 5-lipoxygenase activating protein (FLAP) inhibitor administered orally once daily.",
+            "armGroupLabels": [
+              "AZD5718 Dose 1",
+              "AZD5718 Dose 2",
+              "AZD5718 Dose 3"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Dapagliflozin 10 mg",
+            "description": "Participants will receive once daily oral dose of 10 mg dapagliflozin for 8 weeks as an add-on therapy.",
+            "armGroupLabels": [
+              "AZD5718 Dose 1 + Dapagliflozin 10 mg",
+              "AZD5718 Dose 2 + Dapagliflozin 10 mg",
+              "AZD5718 Dose 3 + Dapagliflozin 10 mg",
+              "Placebo + Dapagliflozin 10 mg"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Dapagliflozin",
+            "description": "Sodium-glucose cotransporter-2 (SGLT2) inhibitor administered at 10 mg/d during the 8-week extension period (weeks 13-20) to all participants.",
+            "armGroupLabels": [
+              "AZD5718 Dose 1",
+              "AZD5718 Dose 2",
+              "AZD5718 Dose 3",
+              "Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Participants will receive once daily oral dose of placebo matched to AZD5718, and will continue until Week 20.",
+            "armGroupLabels": [
+              "Placebo + Dapagliflozin 10 mg"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Matching placebo tablets administered orally once daily.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Reduction of Urine Albumin to Creatinine Ratio (ACR) to Week 20",
+            "description": "The dose response effect of AZD5718 on urine ACR at 20 weeks was evaluated. Values less than 1 indicate improvement from baseline.",
+            "timeFrame": "Week 1 (Baseline) to Week 20"
+          },
+          "pred_item": {
+            "measure": "Change in Urinary Albumin-to-Creatinine Ratio (UACR)",
+            "description": "Dose–response effect of AZD5718 plus dapagliflozin (anticipated future standard of care) on UACR. The geometric mean UACR is calculated from triplicate first morning urine samples collected for 3 consecutive days.",
+            "timeFrame": "Baseline to Week 20"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.1,
+          0.25,
+          0.2,
+          0.6
+        ],
+        [
+          0.1,
+          0.9,
+          0.05,
+          0.12,
+          0.1
+        ],
+        [
+          0.35,
+          0.18,
+          0.96,
+          0.2,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.15,
+          0.9,
+          0.2
+        ],
+        [
+          0.4,
+          0.18,
+          0.3,
+          0.2,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Reduction of Urine ACR to Week 12",
+            "description": "The dose response effect of AZD5718 on urine ACR at 12 weeks was evaluated. Values less than 1 indicate improvement from baseline.",
+            "timeFrame": "Week 1 (Baseline) to Week 12"
+          },
+          "pred_item": {
+            "measure": "Change in Urinary Albumin-to-Creatinine Ratio (UACR)",
+            "description": "Dose–response effect of AZD5718 plus current standard of care on UACR.",
+            "timeFrame": "Baseline to Week 12"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Adverse Events and Serious Adverse Events",
+            "description": "The safety and tolerability profile of AZD5718 treatment was assessed",
+            "timeFrame": "From Screening (Week -4 to 0) to Week 24"
+          },
+          "pred_item": {
+            "measure": "Safety and Tolerability",
+            "description": "Assessment of adverse events, serious adverse events, physical examinations, vital signs (blood pressure, heart rate, respiratory rate, body temperature, pulse oximetry), electrocardiography, and clinical laboratory tests.",
+            "timeFrame": "Through study completion (approximately 24 weeks)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in 24-hours Mean Systolic Blood Pressure to Week 12",
+            "description": "The effect of AZD5718 on ambulatory blood pressure was assessed",
+            "timeFrame": "Week 1 (Baseline) to Week 12"
+          },
+          "pred_item": {
+            "measure": "Change in Ambulatory Blood Pressure",
+            "description": "Assessment of the change in 24-hour mean systolic blood pressure.",
+            "timeFrame": "Baseline to Week 12"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Plasma Concentrations of AZD5718",
+            "description": "The PK of AZD5718 after repeated oral dosing for 20 weeks was evaluated",
+            "timeFrame": "From Week 2 to Week 20"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetics of AZD5718",
+            "description": "Measurement of AZD5718 plasma concentrations. Includes pre-dose samples throughout study and post-dose samples (1-12 hours) in a subgroup.",
+            "timeFrame": "Throughout the study (Weeks 1 to 20)"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Estimated Glomerular Filtration Rate (eGFR) to Week 12",
+            "description": "The effect of AZD5718 on renal function was evaluated",
+            "timeFrame": "Week 1 (Baseline), Week 2, Week 4, Week 8, and Week 12"
+          },
+          "pred_item": {
+            "measure": "Change in Estimated Glomerular Filtration Rate (eGFR)",
+            "description": "Effect of AZD5718 on kidney function with and without dapagliflozin, calculated using the Chronic Kidney Disease Epidemiology Collaboration (CKD-EPI) equation.",
+            "timeFrame": "Throughout the study (Weeks 1 to 20)"
+          }
+        }
+      ]
+    }
+  ]
+}

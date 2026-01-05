@@ -1,0 +1,212 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04468321",
+      "orgStudyIdInfo": {
+        "id": "U01FD006292-01",
+        "type": "FDA",
+        "link": ""
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "U01FD006292-01",
+          "type": "FDA",
+          "domain": "US Food and Drug Administration",
+          "link": ""
+        },
+        {
+          "id": "1U01FD006292-01",
+          "type": "OTHER_GRANT",
+          "domain": "US Food and Drug Administration",
+          "link": ""
+        }
+      ],
+      "organization": {
+        "fullName": "Medical Device Innovation Consortium (MDIC) as part of the National Evaluation System for health Technology (NEST)",
+        "class": "OTHER"
+      },
+      "briefTitle": "Heart Watch Study: Impact of Apple Watch on Quality of Life and Healthcare Utilization in Patients with Atrial Fibrillation/Flutter Undergoing Cardioversion",
+      "officialTitle": "Heart Watch Study: A Prospective, Open-Label Multicentre Pragmatic Randomised Clinical Trial to Determine the Impact of the Heart Rate Measurement, Irregular Rhythm Notification, and ECG Features of the Apple Watch on Quality of Life and Healthcare Utilisation Among Patients with Atrial Fibrillation and/or Atrial Flutter Undergoing Cardioversion",
+      "acronym": "Heart Watch"
+    },
+    "descriptionModule": {
+      "briefSummary": "Personal digital devices that provide health information, such as the Apple Watch, have developed an increasing array of cardiopulmonary tracking features which have received regulatory clearance and are directly marketed to consumers. Despite their widespread and increasing use, data about the impact of personal digital device use on patient-reported outcomes and healthcare utilisation are sparse. Among a population of patients with atrial fibrillation and/or atrial flutter undergoing cardioversion, the primary aim is to determine the impact of the heart rate measurement, irregular rhythm notification, and ECG features of the Apple Watch on quality of life and healthcare utilisation.",
+      "detailedDescription": "This is a prospective, open-label multicentre pragmatic randomised clinical trial, leveraging a unique patient-centred health data sharing platform (Hugo) for enrolment and follow-up. A total of 150 patients undergoing cardioversion for atrial fibrillation or atrial flutter will be randomised 1:1 to receive the Apple Watch Series 6 or Withings Move at the time of cardioversion. The primary outcome is the difference in the Atrial Fibrillation Effect on QualiTy-of-life (AFEQT) global score at 6 months postcardioversion. Secondary outcomes include inpatient and outpatient healthcare utilisation, including emergency department visits, observation stays, hospitalisations, outpatient visits, and rhythm-related diagnostic testing. Additional secondary outcomes include a comparison of the Apple Watch ECG and pulse oximeter features with gold-standard data obtained in routine clinical care settings. The study will enrol patients at three academic health systems: Yale New Haven Health, Mayo Clinic, and Duke Health. Patients are followed through the Hugo platform, which aggregates electronic health data from multiple sources including electronic health records, personal digital devices, and patient-reported outcome measures delivered via text or email. The study began patient screening in July 2021 with anticipated completion by December 31, 2022. The trial will provide important data to policymakers, clinicians and patients about the impact of the heart rate, irregular rhythm notification, and ECG features of widely used personal digital devices on patient quality of life and healthcare utilisation."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atrial Fibrillation",
+        "Atrial Flutter"
+      ],
+      "keywords": [
+        "Atrial Fibrillation",
+        "Atrial Flutter",
+        "Cardioversion",
+        "Digital Health",
+        "Wearable Devices",
+        "Apple Watch",
+        "Quality of Life",
+        "Healthcare Utilization",
+        "Electrocardiography",
+        "Heart Rate Monitoring",
+        "Irregular Rhythm Notification",
+        "Patient-Reported Outcomes",
+        "Pulse Oximetry"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "A prospective, open-label multicentre pragmatic randomised clinical trial. Patients undergoing cardioversion for atrial fibrillation or atrial flutter are randomised 1:1 to receive the Apple Watch Series 6 or Withings Move at the time of cardioversion.",
+        "primaryPurpose": "OTHER",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "This is an open-label trial where participants and care providers are not masked. However, data analysts will be blinded to treatment assignment during analysis.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 150,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Apple Watch Series 6",
+          "type": "EXPERIMENTAL",
+          "description": "Patients randomized to receive the Apple Watch Series 6 (GPS), a smartwatch that can obtain multiple physiologic measurements including activity, sleep, and cardiopulmonary parameters. Cardiac features include heart rate (at rest and with activity), heart rate variability, optional notifications for low and high heart rates and irregular rhythms, single-lead ECG capability, and pulse oximetry measurement. Activity features include steps taken, flights of stairs climbed, walking and running distance, energy expenditure, and time spent standing. Patients link their Apple HealthKit account to the Hugo platform for data sharing.",
+          "interventionNames": [
+            "Device: Apple Watch Series 6"
+          ]
+        },
+        {
+          "label": "Withings Move",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients randomized to receive the Withings Move, a smartwatch that enables tracking of activity and sleep. Activity features include steps taken, distance travelled, and energy expenditure. Sleep features include details about light and deep sleep phases, as well as sleep interruptions. This device does not have cardiopulmonary monitoring features such as ECG, irregular rhythm notifications, or pulse oximetry. Patients share data using a Withings Health Mate account linked to the Hugo platform. Patients in this arm receive an additional $80 stipend for time contributed to study participation and survey completion due to the lower cost of this device.",
+          "interventionNames": [
+            "Device: Withings Move"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Apple Watch Series 6",
+          "description": "Apple Watch Series 6 (GPS) smartwatch with cardiopulmonary monitoring features including heart rate measurement, irregular rhythm notifications, single-lead ECG capability, and pulse oximetry, in addition to activity and sleep tracking. Patients are asked to wear the device for as many hours during the day as able, except for time spent charging or in suboptimal environments. Data are aggregated through the Hugo platform via Apple HealthKit account.",
+          "armGroupLabels": [
+            "Apple Watch Series 6"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Withings Move",
+          "description": "Withings Move smartwatch with activity and sleep tracking features including steps taken, distance travelled, energy expenditure, and sleep phase monitoring. This device does not include cardiopulmonary monitoring features such as ECG, irregular rhythm notifications, or pulse oximetry. Patients are asked to wear the device for as many hours during the day as able, except for time spent charging or in suboptimal environments. Data are aggregated through the Hugo platform via Withings Health Mate account.",
+          "armGroupLabels": [
+            "Withings Move"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Difference in Atrial Fibrillation Effect on QualiTy-of-life (AFEQT) global score",
+          "description": "The AFEQT questionnaire is a validated, 20-item questionnaire with a composite overall score ranging from 0 to 100 calculated from symptoms, daily activities, and treatment concern domains; higher values suggest better quality of life. A change of approximately 5 indicates a clinically meaningful difference.",
+          "timeFrame": "6 months post-cardioversion compared with baseline"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in AFEQT global score at multiple time points",
+          "description": "Change in AFEQT global questionnaire score (ranging from 0 to 100) compared with baseline",
+          "timeFrame": "1, 2, 3, 4, 5, and 12 months"
+        },
+        {
+          "measure": "Change in individual AFEQT domain scores",
+          "description": "Change within individual domains of the AFEQT questionnaire: symptoms, daily activities, treatment concern, and treatment satisfaction. Each domain subscale score ranges from 0 to 100.",
+          "timeFrame": "1, 2, 3, 4, 5, 6, and 12 months"
+        },
+        {
+          "measure": "Anticoagulation persistence",
+          "description": "Determined through the Brief Medication Questionnaire, asking patients if they have taken their anticoagulant and for how many days in the past 1 week",
+          "timeFrame": "1, 2, 3, 4, 5, 6, and 12 months"
+        },
+        {
+          "measure": "Personal digital device usage and discontinuation",
+          "description": "Patients are asked if they have stopped using the personal digital device to which they were assigned (and reason if so) and if they have used a different personal digital device (and which device)",
+          "timeFrame": "1, 2, 3, 4, 5, 6, and 12 months"
+        },
+        {
+          "measure": "Device notifications and physician contact",
+          "description": "Patients are asked if they received any abnormal or worrisome notifications from their wearable device and, if so, if they contacted their physician and the result of the contact. Among Apple Watch patients, also asked if they used the device to examine heart rhythm for symptoms.",
+          "timeFrame": "1, 2, 3, 4, 5, 6, and 12 months"
+        },
+        {
+          "measure": "Patient experience with technology and health-related reassurance/worry",
+          "description": "Patient experience with technology; reassurance or worry about overall health; reassurance or worry about atrial fibrillation; and confidence about atrial fibrillation, physical activity and usual activities. Apple Watch patients also asked about amount of notifications.",
+          "timeFrame": "6 and 12 months"
+        },
+        {
+          "measure": "Rhythm control intervention",
+          "description": "Composite of at least one additional cardioversion, initiation of antiarrhythmic medical therapy, dose escalation of antiarrhythmic medication, change to another antiarrhythmic medication, or ablation for atrial fibrillation or atrial flutter",
+          "timeFrame": "6 and 12 months"
+        },
+        {
+          "measure": "Acute care use",
+          "description": "Composite of emergency department visits, observation stays, and all hospitalizations",
+          "timeFrame": "6 and 12 months"
+        },
+        {
+          "measure": "Outpatient care use",
+          "description": "Composite of outpatient primary care visits, outpatient cardiology or cardiac electrophysiology visits, and scheduled telephone encounters",
+          "timeFrame": "6 and 12 months"
+        },
+        {
+          "measure": "Rhythm-related diagnostic testing",
+          "description": "Composite of total ECGs and total outpatient heart rhythm monitors",
+          "timeFrame": "6 and 12 months"
+        },
+        {
+          "measure": "Total number of notifications (Apple Watch arm only)",
+          "description": "Total number of notifications for irregular rhythm, high and low heart rates among patients randomized to the Apple Watch",
+          "timeFrame": "Throughout study period up to 12 months"
+        },
+        {
+          "measure": "Apple Watch ECG accuracy (Apple Watch arm only)",
+          "description": "Comparison between Apple Watch ECG (using 10 s interval with highest resolution and free from artifact) vs 12-lead ECG obtained in routine clinical practice. Parameters compared include heart rhythm (identical or different), rate (difference in beats per minute), and intervals: PR, QRS and QT (difference in milliseconds). Includes interobserver and intraobserver reliability.",
+          "timeFrame": "As close to simultaneous as possible, ideally within a maximum window of 30 minutes"
+        },
+        {
+          "measure": "Apple Watch pulse oximeter accuracy (Apple Watch arm only)",
+          "description": "Comparison of pulse oximeter readings from the Apple Watch Blood Oxygen measurement to a standard, medical grade pulse oximeter in clinical practice",
+          "timeFrame": "During or after enrollment when research coordinator is present"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Age >22 years at the time of enrolment\n- English-speaking\n- Planned for direct current cardioversion for atrial fibrillation or atrial flutter\n- Lives independently and does not require continuous care\n- Has an email account (or is willing to create one)\n- Has a compatible smartphone (iPhone 6s or later)\n- Willing to wear only the device to which they are randomised to receive for the study period for as many hours during the day as able, except for time spent charging the device or in environments that may be suboptimal for the device\n- Willing to use the Hugo Health platform\n- Receives cardiology care at one of the study centres\n- Receives primary care at a health system that can be linked to the Hugo Health platform\n\nExclusion Criteria:\n- Not able to independently adhere to study protocol, including read and sign consent\n- Enrolment in another study protocol",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "22 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

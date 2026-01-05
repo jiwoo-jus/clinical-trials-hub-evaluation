@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "case_id": 85,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T19:19:15.853509",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/85_NCT02740231.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/85_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.35,
+          0.6,
+          0.41,
+          0.83
+        ],
+        [
+          0.86,
+          0.82,
+          0.78,
+          0.3
+        ],
+        [
+          0.82,
+          0.82,
+          0.86,
+          0.58
+        ],
+        [
+          0.9,
+          0.78,
+          0.82,
+          0.32
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.83,
+          "status": "matched",
+          "ref_item": {
+            "label": "Reference product",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Hylan G-F 20",
+            "interventionNames": [
+              "Device: Reference product intra-articular injection"
+            ]
+          },
+          "pred_item": {
+            "label": "Reference",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Group of patients receiving a single intra-articular injection of the reference treatment (hylan G-F 20, Synvisc-One®) containing 48 mg sodium hyaluronate in 6 ml volume",
+            "interventionNames": [
+              "BIOLOGICAL: Hylan G-F 20"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "JTA-004 50 (2 ml)",
+            "type": "EXPERIMENTAL",
+            "description": "Sodium hyaluronate, plasma proteins and clonidine",
+            "interventionNames": [
+              "Drug: JTA-004 intra-articular injection"
+            ]
+          },
+          "pred_item": {
+            "label": "JTA-200/2",
+            "type": "EXPERIMENTAL",
+            "description": "Group of patients receiving a single intra-articular injection of JTA-004 formulation containing 200 μg clonidine and 20 mg hyaluronic acid in 2 ml volume",
+            "interventionNames": [
+              "BIOLOGICAL: JTA-200/2"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "JTA-004 50 (4 ml)",
+            "type": "EXPERIMENTAL",
+            "description": "Sodium hyaluronate, plasma proteins and clonidine",
+            "interventionNames": [
+              "Drug: JTA-004 intra-articular injection"
+            ]
+          },
+          "pred_item": {
+            "label": "JTA-200/4",
+            "type": "EXPERIMENTAL",
+            "description": "Group of patients receiving a single intra-articular injection of JTA-004 formulation containing 200 μg clonidine and 40 mg hyaluronic acid in 4 ml volume",
+            "interventionNames": [
+              "BIOLOGICAL: JTA-200/4"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "JTA-004 100 (2 ml)",
+            "type": "EXPERIMENTAL",
+            "description": "Sodium hyaluronate, plasma proteins and clonidine",
+            "interventionNames": [
+              "Drug: JTA-004 intra-articular injection"
+            ]
+          },
+          "pred_item": {
+            "label": "JTA-100/2",
+            "type": "EXPERIMENTAL",
+            "description": "Group of patients receiving a single intra-articular injection of JTA-004 formulation containing 100 μg clonidine and 20 mg hyaluronic acid in 2 ml volume",
+            "interventionNames": [
+              "BIOLOGICAL: JTA-100/2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.88,
+          0.86,
+          0.88,
+          0.62
+        ],
+        [
+          0.7,
+          0.4,
+          0.5,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "JTA-004 intra-articular injection",
+            "description": "Each patient will undergo a single injection of JTA-004 into the knee joint",
+            "armGroupLabels": [
+              "JTA-004 100 (2 ml)",
+              "JTA-004 50 (2 ml)",
+              "JTA-004 50 (4 ml)"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "JTA-100/2",
+            "description": "Single intra-articular injection of JTA-004 formulation containing 2.04 g plasma protein solution (1.02 g/ml concentration), 100 μg clonidine (50 μg/ml concentration), and 20 mg hyaluronic acid (10 mg/ml concentration) in 2 ml volume. Provided as freeze-dried powder for solution to be reconstituted with sterile water before injection.",
+            "armGroupLabels": [
+              "JTA-100/2"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 3,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "Reference product intra-articular injection",
+            "description": "Each patient will undergo a single injection of Reference product into the knee joint",
+            "armGroupLabels": [
+              "Reference product"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "Hylan G-F 20",
+            "description": "Single intra-articular injection of hylan G-F 20 (Synvisc-One®, Sanofi, France) containing 48 mg sodium hyaluronate in 6 ml volume. Provided as a sterile viscoelastic solution in a ready-to-use syringe.",
+            "armGroupLabels": [
+              "Reference"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

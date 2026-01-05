@@ -1,0 +1,640 @@
+{
+  "metadata": {
+    "case_id": 29,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T15:38:02.819585",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/29_NCT01966471.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/29_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.62,
+          0.97
+        ],
+        [
+          0.97,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "label": "Anthracycline Followed by Trastuzumab, Pertuzumab, and Taxane",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Trastuzumab and pertuzumab will be administered concurrently for up to a total duration of 1 year (up to 18 cycles \\[1 Cycle = 21 days\\]) with the taxane (docetaxel or paclitaxel) component of chemotherapy following anthracycline \\[5 fluorouracil, epirubicin, and cyclophosphamide (FEC) or epirubicin and cyclophosphamide (EC) or doxorubicin and cyclophosphamide (AC)\\] based chemotherapy.",
+            "interventionNames": [
+              "Drug: Trastuzumab",
+              "Drug: Pertuzumab",
+              "Drug: Paclitaxel",
+              "Drug: Epirubicin",
+              "Drug: Doxorubicin",
+              "Drug: Docetaxel",
+              "Drug: Cyclophosphamide",
+              "Drug: 5-Fluorouracil"
+            ]
+          },
+          "pred_item": {
+            "label": "AC-THP",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients received anthracycline-based chemotherapy (three to four cycles) followed by taxane (three to four cycles) plus trastuzumab plus pertuzumab. Trastuzumab plus pertuzumab was continued for at least 1 year.",
+            "interventionNames": [
+              "Drug: Trastuzumab",
+              "Drug: Taxane",
+              "Drug: Pertuzumab",
+              "Drug: Anthracycline chemotherapy"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "label": "Anthracycline Followed by Trastuzumab Emtansine and Pertuzumab",
+            "type": "EXPERIMENTAL",
+            "description": "Trastuzumab emtansine and pertuzumab will continue for up to a total duration of 1 year (up to 18 cycles \\[1 Cycle = 21 days\\]) following anthracycline \\[5 fluorouracil, epirubicin, and cyclophosphamide (FEC) or epirubicin and cyclophosphamide (EC) or doxorubicin and cyclophosphamide (AC)\\] based chemotherapy.",
+            "interventionNames": [
+              "Drug: Trastuzumab Emtansine",
+              "Drug: Epirubicin",
+              "Drug: Doxorubicin",
+              "Drug: Cyclophosphamide",
+              "Drug: 5-Fluorouracil"
+            ]
+          },
+          "pred_item": {
+            "label": "AC-KP",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received anthracycline-based chemotherapy (three to four cycles) followed by 18 cycles of trastuzumab emtansine (T-DM1) plus pertuzumab.",
+            "interventionNames": [
+              "Drug: Trastuzumab emtansine",
+              "Drug: Pertuzumab",
+              "Drug: Anthracycline chemotherapy"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 9,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.48,
+          0.78,
+          0.35,
+          0.2
+        ],
+        [
+          0.7,
+          0.42,
+          0.96,
+          0.6,
+          0.2
+        ],
+        [
+          0.4,
+          0.97,
+          0.4,
+          0.44,
+          0.2
+        ],
+        [
+          0.3,
+          0.65,
+          0.4,
+          0.78,
+          0.3
+        ],
+        [
+          0.35,
+          0.22,
+          0.12,
+          0.4,
+          0.86
+        ],
+        [
+          0.25,
+          0.2,
+          0.18,
+          0.35,
+          0.86
+        ],
+        [
+          0.25,
+          0.35,
+          0.2,
+          0.82,
+          0.55
+        ],
+        [
+          0.3,
+          0.25,
+          0.1,
+          0.4,
+          0.7
+        ],
+        [
+          0.15,
+          0.2,
+          0.15,
+          0.25,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Trastuzumab Emtansine",
+            "description": "Trastuzumab emtansine IV infusion (duration 90 minutes) will be administered at 3.6 mg/kg q3w for up to 18 cycles (1 cycle = 21 days).",
+            "armGroupLabels": [
+              "Anthracycline Followed by Trastuzumab Emtansine and Pertuzumab"
+            ],
+            "otherNames": [
+              "Kadcyla"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Trastuzumab emtansine",
+            "description": "Dosed at 3.6 mg/kg intravenously once every 3 weeks.",
+            "armGroupLabels": [
+              "AC-KP"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Trastuzumab",
+            "description": "Trastuzumab IV infusion (duration 90 minutes) will be administered at 8 mg/kg loading dose followed by 6 mg/kg IV q3w for up to 18 cycles (1 cycle = 21 days).",
+            "armGroupLabels": [
+              "Anthracycline Followed by Trastuzumab, Pertuzumab, and Taxane"
+            ],
+            "otherNames": [
+              "Herceptin"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Trastuzumab",
+            "description": "Dosed at 6 mg/kg intravenously once every 3 weeks after an 8-mg/kg loading dose.",
+            "armGroupLabels": [
+              "AC-THP"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Pertuzumab",
+            "description": "Pertuzumab infusion (duration 60 minutes) will be administered at 840 mg loading dose followed by 420 mg IV q3w for up to 18 cycles (1 cycle = 21 days).",
+            "armGroupLabels": [
+              "Anthracycline Followed by Trastuzumab, Pertuzumab, and Taxane"
+            ],
+            "otherNames": [
+              "Perjeta"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Pertuzumab",
+            "description": "Dosed at 420 mg intravenously once every 3 weeks after an 840-mg loading dose.",
+            "armGroupLabels": [
+              "AC-KP",
+              "AC-THP"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Paclitaxel",
+            "description": "IV infusion of paclitaxel 80 mg/m\\^2 once weekly may be administered concurrently with trastuzumab in combination with pertuzumab for 12 weeks.",
+            "armGroupLabels": [
+              "Anthracycline Followed by Trastuzumab, Pertuzumab, and Taxane"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Epirubicin",
+            "description": "3 to 4 cycles (1 cycle = 21 days) of standard of care anthracycline-based chemotherapy using epirubicin may be administered in both Arms 1 and 2 as per discretion of the investigator and local prescribing information/institutional guidelines.",
+            "armGroupLabels": [
+              "Anthracycline Followed by Trastuzumab Emtansine and Pertuzumab",
+              "Anthracycline Followed by Trastuzumab, Pertuzumab, and Taxane"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Anthracycline chemotherapy",
+            "description": "Investigator's choice of doxorubicin or epirubicin-based regimens (FEC, AC, or EC) administered for 3-4 cycles prior to HER2-targeted therapy.",
+            "armGroupLabels": [
+              "AC-KP",
+              "AC-THP"
+            ]
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Doxorubicin",
+            "description": "3 to 4 cycles (1 cycle = 21 days) of standard of care anthracycline-based chemotherapy using doxorubicin may be administered in both Arms 1 and 2 as per discretion of the investigator and local prescribing information/institutional guidelines.",
+            "armGroupLabels": [
+              "Anthracycline Followed by Trastuzumab Emtansine and Pertuzumab",
+              "Anthracycline Followed by Trastuzumab, Pertuzumab, and Taxane"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 3,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Docetaxel",
+            "description": "IV infusion either docetaxel every 3 weeks (q3w) (at 100 milligram per square meter \\[mg/m\\^2\\] for 3 cycles (1 cycle = 21 days); at 75 mg/m2 for 4 cycles; or start at 75 mg/m\\^2 in the first cycle and escalate to 100 mg/m\\^2 if no dose limiting toxicity occurs, for a total of 3 cycles at minimum) may be administered concurrently with trastuzumab in combination with pertuzumab.",
+            "armGroupLabels": [
+              "Anthracycline Followed by Trastuzumab, Pertuzumab, and Taxane"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Taxane",
+            "description": "Investigator's choice of docetaxel or paclitaxel administered concurrently with trastuzumab and pertuzumab.",
+            "armGroupLabels": [
+              "AC-THP"
+            ]
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Cyclophosphamide",
+            "description": "3 to 4 cycles (1 cycle = 21 days) of standard of care anthracycline-based chemotherapy using cyclophosphamide (FEC) may be administered in both Arms 1 and 2 as per discretion of the investigator and local prescribing information/institutional guidelines.",
+            "armGroupLabels": [
+              "Anthracycline Followed by Trastuzumab Emtansine and Pertuzumab",
+              "Anthracycline Followed by Trastuzumab, Pertuzumab, and Taxane"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "5-Fluorouracil",
+            "description": "3 to 4 cycles (1 cycle = 21 days) of standard of care anthracycline-based chemotherapy using 5-fluorouracil, may be administered in both Arms 1 and 2 as per discretion of the investigator and local prescribing information/institutional guidelines.",
+            "armGroupLabels": [
+              "Anthracycline Followed by Trastuzumab Emtansine and Pertuzumab",
+              "Anthracycline Followed by Trastuzumab, Pertuzumab, and Taxane"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.9
+        ],
+        [
+          0.92,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Invasive Disease-Free Survival (IDFS) in the Node-Positive Subpopulation",
+            "description": "IDFS event was defined as the time from randomization until the date of first occurrence of one of the following: Ipsilateral invasive breast tumor recurrence (an invasive breast cancer \\[bc\\] involving the same breast parenchyma as the original primary lesion); Ipsilateral local-regional invasive bc recurrence (an invasive bc in the axilla, regional lymph nodes, chest wall, and/or skin of the ipsilateral breast); Contralateral or ipsilateral second primary invasive bc; Distant recurrence (evidence of bc in any anatomic site \\[other than the three sites mentioned above\\]) that has either been histologically confirmed or clinically/radiographically diagnosed as recurrent invasive bc; Death attributable to any cause, including bc, non-bc, or unknown cause. 3-year IDFS event-free rate per randomized treatment arms in the ITT population was estimated using the Kaplan-Meier method and estimated the probability of a participant being event-free after 3 years after randomization.",
+            "timeFrame": "Last participant randomized to data cut-off date of 27 November 2019 (approximately 70 months). The 3 year IDFS event-free rate was assessed based on the data collected for each participant considering the cut-off date mentioned above."
+          },
+          "pred_item": {
+            "measure": "Invasive Disease-Free Survival (IDFS) in the Node-Positive Subpopulation",
+            "description": "Time from random assignment until the date of first occurrence of one of the following: ipsilateral invasive breast tumor recurrence, ipsilateral locoregional invasive breast cancer recurrence, contralateral or ipsilateral second primary invasive breast cancer, distant recurrence, or death because of any cause.",
+            "timeFrame": "Median follow-up of approximately 57 months"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Invasive Disease-Free Survival (IDFS) in the Overall Population",
+            "description": "IDFS event was defined as the time from randomization until the date of first occurrence of one of the following: Ipsilateral invasive breast tumor recurrence (an invasive breast cancer \\[bc\\] involving the same breast parenchyma as the original primary lesion); Ipsilateral local-regional invasive bc recurrence (an invasive bc in the axilla, regional lymph nodes, chest wall, and/or skin of the ipsilateral breast); Contralateral or ipsilateral second primary invasive bc; Distant recurrence (evidence of bc in any anatomic site \\[other than the three sites mentioned above\\]) that has either been histologically confirmed or clinically/radiographically diagnosed as recurrent invasive bc; Death attributable to any cause, including bc, non-bc, or unknown cause. 3-year IDFS event-free rate per randomized treatment arms in the ITT population were estimated using the Kaplan-Meier method and estimated the probability of a patient being event-free after 3 years after randomization.",
+            "timeFrame": "First participant randomized up to approximately 7.5 years"
+          },
+          "pred_item": {
+            "measure": "Invasive Disease-Free Survival (IDFS) in the Overall Population",
+            "description": "Time from random assignment until the date of first occurrence of one of the following: ipsilateral invasive breast tumor recurrence, ipsilateral locoregional invasive breast cancer recurrence, contralateral or ipsilateral second primary invasive breast cancer, distant recurrence, or death because of any cause.",
+            "timeFrame": "Median follow-up of approximately 57 months"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 9,
+      "pred_count": 8,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.74,
+          0.3,
+          0.08,
+          0.05,
+          0.05,
+          0.12,
+          0.08
+        ],
+        [
+          0.82,
+          0.98,
+          0.6,
+          0.3,
+          0.2,
+          0.15,
+          0.18,
+          0.05
+        ],
+        [
+          0.68,
+          0.72,
+          0.99,
+          0.3,
+          0.08,
+          0.25,
+          0.18,
+          0.1
+        ],
+        [
+          0.4,
+          0.3,
+          0.45,
+          0.98,
+          0.2,
+          0.2,
+          0.22,
+          0.12
+        ],
+        [
+          0.08,
+          0.08,
+          0.1,
+          0.05,
+          0.3,
+          0.18,
+          0.13,
+          0.93
+        ],
+        [
+          0.08,
+          0.08,
+          0.05,
+          0.05,
+          0.7,
+          0.85,
+          0.08,
+          0.08
+        ],
+        [
+          0.02,
+          0.1,
+          0.08,
+          0.05,
+          0.05,
+          0.05,
+          0.88,
+          0.08
+        ],
+        [
+          0.07,
+          0.07,
+          0.05,
+          0.05,
+          0.05,
+          0.1,
+          0.58,
+          0.05
+        ],
+        [
+          0.08,
+          0.18,
+          0.08,
+          0.15,
+          0.12,
+          0.05,
+          0.86,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "IDFS Plus Second Primary Non-Breast Cancer",
+            "description": "IDFS including second primary non-breast cancer was defined the same way as IDFS for the primary endpoint but including second primary non breast invasive cancer as an event (with the exception of non-melanoma skin cancers and carcinoma in situ (CIS) of any site).",
+            "timeFrame": "Baseline up to approximately 70 months"
+          },
+          "pred_item": {
+            "measure": "IDFS plus Second Primary Nonbreast Cancer",
+            "description": "Time from random assignment until the first occurrence of an IDFS event or a second primary nonbreast cancer.",
+            "timeFrame": "Median follow-up of approximately 57 months"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Disease-Free Survival (DFS)",
+            "description": "DFS was defined as time between randomization and first occurrence of IDFS, second primary non-breast cancer and contralateral or ipsilateral ductal carcinoma in situ (DCIS).",
+            "timeFrame": "Baseline up to approximately 70 months"
+          },
+          "pred_item": {
+            "measure": "Disease-Free Survival (DFS)",
+            "description": "Time between random assignment and first occurrence of an IDFS event, second primary nonbreast cancer event, and contralateral or ipsilateral ductal carcinoma in situ.",
+            "timeFrame": "Median follow-up of approximately 57 months"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Distant Recurrence-Free Interval (DRFI)",
+            "description": "DRFI was defined as time between randomization and first occurrence of distant breast cancer recurrence.",
+            "timeFrame": "Baseline up to approximately 70 months"
+          },
+          "pred_item": {
+            "measure": "Distant Recurrence-Free Interval (DRFI)",
+            "description": "Time between random assignment and first occurrence of distant breast cancer recurrence.",
+            "timeFrame": "Median follow-up of approximately 57 months"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Overall Survival (OS)",
+            "description": "OS was defined as the time from randomization to death due to any cause.",
+            "timeFrame": "First participant randomized up to approximately 7.5 years"
+          },
+          "pred_item": {
+            "measure": "Overall Survival (OS)",
+            "description": "Time from random assignment to death because of any cause.",
+            "timeFrame": "Median follow-up of approximately 57 months"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 7,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Adverse Events",
+            "description": "An adverse event is any untoward medical occurrence in a participant administered a pharmaceutical product and which does not necessarily have to have a causal relationship with the treatment. An adverse event can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding, for example), symptom, or disease temporally associated with the use of a pharmaceutical product, whether or not considered related to the pharmaceutical product. Preexisting conditions which worsen during a study are also considered as adverse events. AEs were reported based on the national cancer institute common terminology criteria for AEs, Version 4.0 (NCI-CTCAE, v4.0).",
+            "timeFrame": "From randomization to approximately 7.5 years"
+          },
+          "pred_item": {
+            "measure": "Adverse Events (AEs)",
+            "description": "Incidence and severity of adverse events coded according to MedDRA and graded according to NCI CTCAE v4.0.",
+            "timeFrame": "Through study completion"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 5,
+          "score": 0.85,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Decrease in Left Ventricular Ejection Fraction (LVEF) From Baseline Over Time",
+            "description": "LVEF was assessed using either echocardiogram (ECHO) or multiple-gated acquisition (MUGA) scans.",
+            "timeFrame": "First participant randomized up to approximately 7.5 years."
+          },
+          "pred_item": {
+            "measure": "Secondary Cardiac Events",
+            "description": "Incidence of symptomatic left ventricular systolic dysfunction (LVSD; NYHA II) with significant LVEF decline and asymptomatic LVSD.",
+            "timeFrame": "Through study completion, median follow-up approx 57 months"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 6,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "measure": "European Organisation for Research and Treatment of Cancer (EORTC) Quality of Life Questionnaire-Core 30 (QLQ-C30) Score",
+            "description": "The EORTC QLQ-C30 included global health status, functional scales (physical, role, emotional, cognitive, and social), symptom scales (fatigue, nausea/vomiting, and pain) and single items (dyspnoea, insomnia, appetite loss, constipation, diarrhea, and financial difficulties). Most questions used a 4-point scale (1 'Not at all' to 4 'Very much'; 2 questions used 7-point scale \\[1 'very poor' to 7 'Excellent'\\]). Scores were averaged and transformed to 0 - 100 scale, whereby higher scores indicate greater functioning, greater quality of life, or a greater degree of symptoms, with changes of 7 - 15 points considered to be a clinically meaningful detioration to participants. A positive value means an increase, while a negative value means a decrease, in score at the indicated time-point relative to the score at baseline (Cycle 1, Day 1).",
+            "timeFrame": "Baseline, Cycles 1, 2, 3, 4, 5, 9, 14, End of Treatment, Follow-up Month 6, Follow-up Month 12, Follow-up Month 18"
+          },
+          "pred_item": {
+            "measure": "Time to Clinically Meaningful Deterioration in Global Health Status/Quality of Life",
+            "description": "Assessed using the EORTC QLQ-C30. Clinically meaningful deterioration defined as a decrease in the baseline score of ≥ 10 points.",
+            "timeFrame": "From cycle 1 day 1 of HER2-targeted treatment through follow-up"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "EORTC Quality of Life Questionnaire-Breast Cancer 23 (QLQ-BR23) Score",
+            "description": "EORTC-QLQ-BR23 is a 23-item breast cancer-specific companion module to the EORTC-QLQ-C30. There are four functional scales (body image, sexual enjoyment, sexual functioning, future perspective \\[FP\\]) and four symptom scales (systemic side effects \\[SE\\], upset by hair loss, arm symptoms, breast symptoms). Questions used 4-point scale (1=not at all, 2=a little, 3=quite a bit, 4=very much). Scores averaged and transformed to 0-100 scale. High score for functional scale indicated high/better level of functioning/healthy functioning. Higher scores for symptom scales represent higher levels of symptoms/problems. For functional scales, positive change from baseline indicated improvement in quality of life (QOL) while negative change from baseline indicated a deterioration. For symptom scales, positive change from baseline indicated deterioration and negative change indicated improvement.",
+            "timeFrame": "Baseline, Cycles 1, 2, 3, 4, 5, 9, 14, End of Treatment, Follow-up Month 6, Follow-up Month 12, Follow-up Month 18"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 4,
+          "score": 0.12,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time to Clinically Meaningful Deterioration in the Global Health Status/ Quality of Life and Functional (Physical, Role, and Cognitive) Subscales of the QLQ-C30 From First HER2-Targeted Treatment",
+            "description": "The time to clinically meaningful deterioration in the global health status/Quality of life and Functional (Physical, Role, and Cognitive) subscales of the the QLQ-C30 was assessed from the time of the HER2-Targeted treatment to the worsening in the respective scales. Clinically meaningful deterioration is defined as a decrease in score of 10 points in Physical functioning and HRQoL; decrease of 7 points in Cognitive functioning, and decrease of 14 points in Role functioning.",
+            "timeFrame": "From start of HER-2 targeted treatment up to 18 months after treatment discontinuation. The median time to clinically meaningful deterioration was assessed based on the data collection described above."
+          },
+          "pred_item": {
+            "measure": "Primary Adjudicated Cardiac Safety Endpoint",
+            "description": "Incidence of severe heart failure (New York Heart Association [NYHA] classification III or IV) and significant LVEF decline (decline of ≥ 10 percentage points to a value < 50%) or cardiac death.",
+            "timeFrame": "Through study completion, median follow-up approx 57 months"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04435795",
+      "secondaryIdInfos": [
+        {
+          "id": "239123",
+          "type": "OTHER",
+          "domain": "Health Canada"
+        },
+        {
+          "id": "2021-6696",
+          "type": "OTHER",
+          "domain": "McGill University Health Centre"
+        }
+      ],
+      "organization": {
+        "fullName": "McGill University Health Centre",
+        "class": "OTHER"
+      },
+      "briefTitle": "Inhaled Ciclesonide for the Treatment of COVID-19 in Nonhospitalized Adults",
+      "officialTitle": "Inhaled and Intranasal Ciclesonide for the Treatment of COVID-19 in Nonhospitalized Adults (CONTAIN)",
+      "acronym": "CONTAIN"
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this study was to determine if inhaled and intranasal ciclesonide are superior to placebo at decreasing respiratory symptoms in adult outpatients with COVID-19. Based on in vitro data showing antiviral activity against SARS-CoV-2 and the known anti-inflammatory effect of ciclesonide, the investigators hypothesized that ciclesonide administered early in the course of COVID-19 could decrease symptom burden in adults presenting with prominent respiratory symptoms.",
+      "detailedDescription": "This randomized, double-blind, placebo-controlled trial (CONTAIN) enrolled adults aged 18 years and older with polymerase chain reaction confirmed COVID-19, presenting with fever, cough, or dyspnoea. Participants were recruited from Quebec, Ontario, and British Columbia. Participants were randomized in a 1:1 ratio to receive either inhaled ciclesonide (600 μg twice daily) and intranasal ciclesonide (200 μg daily) or metered dose inhaler and nasal saline placebos for 14 days. \n\nThe primary outcome measure was symptom resolution at day 7. Key secondary outcomes included hospital admission or death with COVID-19, symptom resolution at day 14, and improvement in overall feeling. Analyses were conducted on the modified intention-to-treat population (participants who took at least one dose of study drug and completed one follow-up survey) and adjusted for stratified randomization by sex. The trial was stopped early due to expected futility to meet total enrollment targets amidst rising vaccination rates and declining case numbers."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19",
+        "SARS-CoV-2 Infection"
+      ],
+      "keywords": [
+        "Ciclesonide",
+        "Inhaled Corticosteroids",
+        "Intranasal Corticosteroids",
+        "Respiratory Symptoms",
+        "Outpatients",
+        "Fever",
+        "Cough",
+        "Dyspnoea"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants were randomly assigned in a 1:1 ratio to receive either inhaled and intranasal ciclesonide or inhaled and intranasal placebo.",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Investigators, participants, and statisticians were blinded to treatment allocation.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 215,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Inhaled and Intranasal Ciclesonide",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received inhaled ciclesonide (600 μg twice daily) and intranasal ciclesonide (200 μg daily) for 14 days.",
+          "interventionNames": [
+            "Inhaled and Intranasal Ciclesonide"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received a saline placebo metered dose inhaler and intranasal saline of a similar appearance to ciclesonide at the same dosing schedule for 14 days.",
+          "interventionNames": [
+            "Saline Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Inhaled and Intranasal Ciclesonide",
+          "description": "Inhaled ciclesonide (1200 µg total daily dose, divided twice daily) along with intranasal ciclesonide (200 µg/day) administered for 14 days.",
+          "armGroupLabels": [
+            "Inhaled and Intranasal Ciclesonide"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Saline Placebo",
+          "description": "Metered dose inhaler and nasal saline placebos administered for 14 days.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Resolution of self-reported fever and all respiratory symptoms",
+          "description": "Respiratory symptoms included cough (wet or dry) or dyspnoea (which included the description of shortness of breath, chest congestion, or chest tightness as synonyms).",
+          "timeFrame": "Day 7"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Hospital admission or death with covid-19",
+          "description": "Assessment of clinical deterioration requiring hospitalization or resulting in death.",
+          "timeFrame": "Up to Day 14"
+        },
+        {
+          "measure": "Resolution of self-reported fever and all respiratory symptoms",
+          "description": "Evaluation of the primary outcome endpoint at a later time point.",
+          "timeFrame": "Day 14"
+        },
+        {
+          "measure": "Improvement in overall feeling",
+          "description": "Self-reported feeling much or very much better.",
+          "timeFrame": "Days 7 and 14"
+        },
+        {
+          "measure": "Resolution of dyspnoea",
+          "description": "Defined as the absence of shortness of breath, chest tightness, or chest congestion in the subset who reported a dyspnoea equivalent at baseline.",
+          "timeFrame": "Days 7 and 14"
+        },
+        {
+          "measure": "Improvement in cough",
+          "description": "Defined as a 2 point decrease or a decrease to 0 on a visual analogue scale that ranged from 0 for no symptoms to 10 for severe symptoms in those who had cough at baseline.",
+          "timeFrame": "Days 7 and 14"
+        },
+        {
+          "measure": "Improvement in shortness of breath",
+          "description": "Measured by the PROMIS (patient reported outcomes measurement information system) dyspnoea score.",
+          "timeFrame": "Days 7 and 14"
+        },
+        {
+          "measure": "Improvement in sleep",
+          "description": "Measured by the PROMIS sleep disturbance score 4a.",
+          "timeFrame": "Days 7 and 14"
+        },
+        {
+          "measure": "Improvement in anxiety",
+          "description": "Measured by the PROMIS emotional distress anxiety score 7a (with meaningful improvement defined as a >=3 point change on the T score).",
+          "timeFrame": "Days 7 and 14"
+        },
+        {
+          "measure": "Adverse events",
+          "description": "Collection of open ended free text questions about perceived side effects as well as specific questions about the presence of thrush, throat irritation, voice change, wheeze, nausea, and headache.",
+          "timeFrame": "Up to Day 14"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Adults aged 18 years and older\n- Polymerase chain reaction confirmed covid-19 at enrolment\n- Presenting with at least one of the symptoms of fever, cough (wet or dry), or shortness of breath (including dyspnoea, chest congestion, or chest tightness as synonyms)\n- Symptom duration within five to six days\n\nExclusion Criteria:\n- Admitted to hospital\n- Had only non-respiratory symptoms (eg, nasal congestion, myalgias, or gastrointestinal symptoms)\n- Had already been prescribed an inhaled steroid\n- Vaccinated participants (excluded after 28 January 2021)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

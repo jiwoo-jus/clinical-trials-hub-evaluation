@@ -1,0 +1,166 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03136861",
+      "organization": {
+        "fullName": "Novartis Pharma AG",
+        "class": "INDUSTRY"
+      },
+      "officialTitle": "Rapid improvement in spinal pain in patients with axial spondyloarthritis treated with secukinumab: primary results from a randomized controlled phase-IIIb trial",
+      "acronym": "SKIPPAIN"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study, titled SKIPPAIN, evaluated the efficacy and safety of secukinumab 150 mg compared with placebo in the management of spinal pain and disease activity in patients with active axial spondyloarthritis (axSpA). The primary goal was to assess the superiority of secukinumab in achieving a significant reduction in spinal pain (average spinal pain score <4) by Week 8, with further evaluation of sustained improvement and safety up to Week 24.",
+      "detailedDescription": "SKIPPAIN is a randomized, double-blind, placebo-controlled, multicenter study designed to assess secukinumab in patients with axial spondyloarthritis (axSpA), including both radiographic (r-axSpA) and non-radiographic (nr-axSpA) forms. Eligible patients were adults with active spinal disease defined by a BASDAI score ≥4 and an average spinal pain score >4, who had an inadequate response to NSAIDs.\n\nThe study consisted of two periods. In Treatment Period 1 (TP1), patients were randomized (3:1) to receive either secukinumab 150 mg (Group A) or placebo (Group B) from baseline to Week 8. At Week 8, patients entered Treatment Period 2 (TP2). Responders in Group A (average spinal pain score <4) continued on secukinumab 150 mg. Non-responders in Group A were re-randomized to either continue secukinumab 150 mg or escalate to 300 mg (up-titration). Patients in the placebo group were re-randomized to receive secukinumab 150 mg or 300 mg. The primary endpoint was the proportion of patients achieving an average spinal pain score <4 on a 0–10 numerical rating scale (NRS) at Week 8. Secondary endpoints included BASDAI scores and safety assessments."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Axial Spondyloarthritis",
+        "Ankylosing Spondylitis",
+        "Non-radiographic Axial Spondyloarthritis",
+        "Spinal Pain"
+      ],
+      "keywords": [
+        "Secukinumab",
+        "axSpA",
+        "Spinal pain",
+        "Biological DMARDs",
+        "IL-17 inhibitor",
+        "BASDAI",
+        "Placebo-controlled",
+        "Inflammation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The study consisted of two treatment periods: a double-blind, placebo-controlled period from baseline to Week 8 (TP1) and a double-blind secukinumab treatment period from Week 8 to Week 24 (TP2). Eligible patients were randomized (3:1) to receive either secukinumab 150 mg or placebo in TP1. At Week 8, patients were re-randomized or re-assigned to one of five treatment arms based on response status.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "The study is described as double-blind. The identity of the treatments was concealed using study drugs (active and placebo) that were all identical in packaging, labelling, schedule of administration, and appearance."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 380,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group A: Secukinumab 150 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Patients randomized to receive secukinumab 150 mg in Treatment Period 1 (baseline to Week 8). At Week 8, responders (average spinal pain score <4) continued with secukinumab 150 mg (Arm A1), whereas non-responders were re-randomized either to secukinumab 150 mg (Arm A2) or to secukinumab 300 mg (Arm A3) using an up-titration approach for Treatment Period 2.",
+          "interventionNames": [
+            "Drug: Secukinumab 150 mg",
+            "Drug: Secukinumab 300 mg"
+          ]
+        },
+        {
+          "label": "Group B: Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients randomized to receive placebo in Treatment Period 1 (baseline to Week 8). At Week 8, patients were re-randomized to either secukinumab 150 mg (Arm B1) or secukinumab 300 mg (Arm B2) in a 1:1 ratio for Treatment Period 2.",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Drug: Secukinumab 150 mg",
+            "Drug: Secukinumab 300 mg"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Secukinumab 150 mg",
+          "description": "Administered by subcutaneous injections using 1 mL pre-filled syringes.",
+          "armGroupLabels": [
+            "Group A: Secukinumab 150 mg",
+            "Group B: Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Secukinumab 300 mg",
+          "description": "Administered by subcutaneous injections using 1 mL pre-filled syringes.",
+          "armGroupLabels": [
+            "Group A: Secukinumab 150 mg",
+            "Group B: Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Administered by subcutaneous injections using 1 mL pre-filled syringes. Identical in packaging, labelling, schedule of administration, and appearance to the active drug.",
+          "armGroupLabels": [
+            "Group B: Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of patients achieving an average spinal pain score of <4",
+          "description": "Assessed using a 0–10 numerical rating scale (NRS). The average spinal pain score is the average of the total score (pain at any time) and the nocturnal score (pain during the night).",
+          "timeFrame": "Week 8"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportion of patients achieving a BASDAI score of <4",
+          "description": "Bath Ankylosing Spondylitis Disease Activity Index (BASDAI) score of less than 4.",
+          "timeFrame": "Week 8"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Proportion of patients achieving a spinal pain score of <4 (NRS)",
+          "description": "Average spinal pain score measured on a 0–10 numerical rating scale.",
+          "timeFrame": "Weeks 1, 2, 3, 4, and 24"
+        },
+        {
+          "measure": "Proportion of patients achieving a BASDAI score of <4",
+          "description": "Bath Ankylosing Spondylitis Disease Activity Index (BASDAI) score of less than 4.",
+          "timeFrame": "Week 24"
+        },
+        {
+          "measure": "Proportion of patients achieving ASDAS <2.1 and ASDAS <1.3",
+          "description": "Ankylosing Spondylitis Disease Activity Score (ASDAS) indicating low disease activity (<2.1) and inactive disease (<1.3).",
+          "timeFrame": "Week 8 and Week 24"
+        },
+        {
+          "measure": "Mean change from baseline in FACIT-Fatigue score",
+          "description": "Functional Assessment of Chronic Illness Therapy-Fatigue score.",
+          "timeFrame": "Week 8 and Week 24"
+        },
+        {
+          "measure": "ASAS health index (ASAS-HI)",
+          "description": "Assessment of SpondyloArthritis international Society health index.",
+          "timeFrame": "Week 24"
+        },
+        {
+          "measure": "Incidence of Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+          "description": "Assessment of overall safety and tolerability including AEs, SAEs, and AEs of special interest.",
+          "timeFrame": "From baseline through Week 24 (TP1 and TP2) and up to 12 weeks after last study treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Male and female patients of >=18 years with a diagnosis of axSpA, classified as nr-axSpA or r-axSpA according to the Assessment of SpondyloArthritis international Society (ASAS) criteria.\n- Active spinal disease defined by the Bath Ankylosing Spondylitis Disease Activity Index (BASDAI) score of >=4 and average spinal pain score of >4.\n- Inadequate response to the highest recommended dose of at least two NSAIDs over a period of >=4 weeks; in the case of toxicity, intolerance, or contraindications, this period was shorter.\n- Patients on regular NSAIDs as part of their axSpA therapy were required to be on a stable dose for >=2 weeks before randomization.\n- Patients previously on a TNFi were also allowed to enter the trial but should have had an appropriate washout period prior to randomization.\n\nExclusion Criteria:\n- Previous treatment or exposure to any biological immunomodulating agents, except one TNF-alpha inhibitor agent.\n- Current and active inflammatory diseases other than axSpA.\n- Any mechanical disease that affects the spine.\n- Any active systemic infections.\n- History of chronic or recurrent infectious disease.\n- History of any known malignancy within the past 5 years.\n- Serious medical conditions, such as uncontrolled hypertension or congestive heart failure.\n- Any underlying conditions that could compromise the immune system.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

@@ -1,0 +1,104 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT00195091,NCT00195091,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.orgStudyIdInfo.type,EV,EV,,NIH,,,,OrgStudyIdType,protocolSection.identificationModule.orgStudyIdInfo.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,18-023,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[2].id,EV,EV,,U54CA210184,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[3].id,EV,EV,,R01 CA257254-01A1,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,OTHER,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[2].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[3].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,Memorial Sloan Kettering Cancer Center protocol,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[2].domain,EV,EV,,National Cancer Institute,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[3].domain,EV,EV,,National Cancer Institute,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Phase II Study of Tetrathiomolybdate (TM) in Patients With Breast Cancer,Copper Depletion Reduces Mitochondrial Oxidative Phosphorylation to Impair Triple Negative Breast Cancer Metastasis,True,0.82,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,A Phase II Study of Tetrathiomolybdate (TM) in Patients With Breast Cancer at Moderate to High Risk of Recurrence,Copper Depletion Reduces Mitochondrial Oxidative Phosphorylation to Impair Triple Negative Breast Cancer Metastasis,True,0.7,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"Patients with moderate to high risk primary breast cancer (Stage II with more than 4 lymph nodes involved with cancer) III or Stage IV (without evidence of disease) will take tetrathiomolybdate (TM) pills for two years.
+
+The objectives of the study are to:
+
+* Assess the safety and tolerability of tetrathiomolybdate in patients with breast cancer at high risk of tumor recurrence.
+* Observe the disease-free survival of patients in this trial.
+* Conduct background scientific experiments on tumor tissue and blood of patients in this study","This study investigates the mechanisms by which copper depletion, achieved through the copper chelating agent tetrathiomolybdate (TM), impacts metastasis in triple-negative breast cancer (TNBC). Building on clinical observations that copper depletion improves survival in high-risk TNBC patients, the researchers identified a subpopulation of highly metastatic cancer cells characterized by SOX2/OCT4 expression and elevated intracellular copper. The study demonstrates that copper depletion specifically inactivates mitochondrial Complex IV in these cells, leading to reduced oxidative phosphorylation. This metabolic stress activates the AMPK/mTORC1 pathway, ultimately inhibiting tumor invasion and metastasis.",True,0.74,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,FP,"Patients with moderate to high risk primary breast cancer -Stage III, Triple negative (T= 4 cm N0, any N+), Stage IV (without evidence of disease) will take tetrathiomolydbate (TM) pills for two years.
+
+Extension study 1 - If patients are shown to be copper depleted, they are given the option to continue to receive TM for an additional 2 years.
+
+Extension study 2 - Open to patients who are stage 4 NED, 10 involved lymph nodes or triple negative molecular subtype and candidates will continue for months 49-72.
+
+Extension study 3 - Open to patients who are stage 4 NED receiving a benefit from TM. These subjects can continue receiving TM for 73-96 months.
+
+Extension study 4 - Open to patients who are stage 4 NED receiving a benefit from TM. These subject can continue receiving TM for 97-120 months.","Triple-negative breast cancer (TNBC) is an aggressive subtype with limited therapeutic options and high metastatic rates. Previous clinical trials indicated that the copper chelator tetrathiomolybdate (TM) significantly benefits high-risk TNBC patients, yet the underlying biological mechanisms remained unclear. This study utilizes two independent TNBC models (human LM2 and murine EO771.ML1) to elucidate these mechanisms.
+
+The researchers employed a SOX2/OCT4-GFP promoter reporter system to lineage trace a specific subpopulation of cancer cells exhibiting stem cell phenotypes and high metastatic potential. These SOX2/OCT4+ cells were found to possess elevated intracellular copper levels and a distinct sensitivity to copper depletion compared to the bulk tumor population. Global proteomic and metabolomic profiling revealed that TM treatment specifically targeted the mitochondrial electron transport chain in these cells, causing the degradation of Complex IV subunits. This resulted in a disruption of mitochondrial structure (cristae morphology), reduced cytochrome c oxidation, and a shift in bioenergetics characterized by decreased oxidative phosphorylation and ATP production.
+
+Mechanistically, the reduction in mitochondrial ATP production triggered the activation of the energy sensor AMPK. Activated AMPK subsequently inhibited the mTORC1 signaling pathway (evidenced by reduced phosphorylation of P70S6K and increased phosphorylation of 4E-BP1). The study shows that pharmacologic activation of AMPK mimics the anti-invasive effects of TM, while AMPK inhibition rescues the loss of invasion induced by TM. Additionally, genetic knockdown of the mitochondria-specific copper chaperone COX17 phenocopied the metabolic and anti-metastatic effects of global copper chelation, confirming the critical role of mitochondrial copper availability.
+
+These findings establish a direct link between copper metabolism, mitochondrial function, and metastasis, identifying a 'copper-metabolism-metastasis' axis. The study suggests that targeting this axis via copper depletion reprograms the metabolism of specific metastatic cell populations, providing a rationale for future randomized clinical trials and patient selection strategies.",False,0.32,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,['Breast Cancer'],"['Triple Negative Breast Cancer', 'Breast Cancer Metastasis', 'Mitochondrial Diseases']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Copper depletion', 'Tetrathiomolybdate', 'Mitochondrial respiration', 'Complex IV', 'AMPK signaling', 'Metastasis', 'SOX2/OCT4', 'Oxidative phosphorylation', 'Metabolic reprogramming', 'COX17']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,FN,FN,NA,,False,0.0,,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,SINGLE_GROUP,SINGLE_GROUP,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,FP,16,75,False,0.2,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[1].measure,EV,EV,,Overall Survival (OS),,,,PrimaryOutcomeMeasure,protocolSection.outcomesModule.primaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[0].description,EV,EV,,"Defined as the time from study entry to the first documentation of disease progression, new metastatic lesions, or death from any cause.",,,,PrimaryOutcomeDescription,protocolSection.outcomesModule.primaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[1].description,EV,EV,,Defined as the time from study entry to death from any cause.,,,,PrimaryOutcomeDescription,protocolSection.outcomesModule.primaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[1].timeFrame,EV,EV,,Median follow-up of 6.3 years and 9.4 years,,,,PrimaryOutcomeTimeFrame,protocolSection.outcomesModule.primaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[0].measure,EV,EV,,Lung metastatic burden,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].measure,EV,EV,,Invasion,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].measure,EV,EV,,Intracellular copper levels,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].measure,EV,EV,,Mitochondrial Respiration (Oxygen Consumption Rate),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].measure,EV,EV,,Complex IV Activity,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[0].description,EV,EV,,Measured by whole-body bioluminescence imaging (BLI) and/or quantification of metastatic nodules.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].description,EV,EV,,Assessed using Matrigel-coated transwell assays to measure the invasive potential of cancer cells.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].description,EV,EV,,Measured using graphite furnace atomic absorption spectrometry (GFAAS) to determine the effectiveness of copper depletion.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].description,EV,EV,,"Measured using Seahorse XF bioanalyzer to assess basal respiration, ATP-linked respiration, and other mitochondrial parameters.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].description,EV,EV,,Enzymatic activity of cytochrome c oxidase measured colorimetrically.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[0].timeFrame,EV,EV,,2 weeks after primary tumor resection,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].timeFrame,EV,EV,,24 to 72 hours,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].timeFrame,EV,EV,,24 to 48 hours,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].timeFrame,EV,EV,,48 to 72 hours,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].timeFrame,EV,EV,,72 hours,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,FN,FN,"Inclusion Criteria:
+
+1. Patients must have histologically confirmed breast malignancy that is:
+
+   * High risk stage II breast cancer (≥4 positive lymph nodes),
+   * Stage III breast cancer, including inflammatory breast cancer
+   * Stage IV breast cancer in a complete remission (bone only not allowed unless the bone scan is normal).
+2. The patient must have had what is considered standard adjuvant systemic therapy that may include chemotherapy, hormonal therapy and radiation therapy. They may have undergone high dose chemotherapy with stem cell support as part of their therapy in the adjuvant or metastatic setting. The patient is allowed to continue to take adjuvant hormonal therapy (for high risk adjuvant patients) and may be allowed to be on hormonal consolidation post transplant if they are without evidence of disease after a transplant for metastatic breast cancer. The patient cannot be actively receiving chemotherapy or any biologic agent to treat their breast cancer.
+3. Six weeks must elapse from last chemotherapy or radiation therapy.
+4. The patient must have had definitive surgical therapy for their breast cancer. This includes lumpectomy and axillary dissection or mastectomy.
+5. No clinical or radiologic evidence of disease after surgery and/or systemic treatment (by CT scan of chest, abdomen and pelvis and bone scan or PET scan prior to enrollment)
+6. Because no dosing or adverse event data are currently available on the use of TM in patients \< 18 years of age, children are excluded from this study.
+7. ECOG performance status \< 1
+8. Life expectancy of greater than 3 months.
+9. Patients must have normal organ and marrow function as defined below:
+
+   * hemoglobin \>10mg/dL
+   * absolute neutrophil count \>1,500/mL
+   * platelets \>100,000/mL
+   * total bilirubin \< 1.5 x normal institutional limits
+   * AST(SGOT)/ALT(SGPT) \<1.5 X institutional upper limit of normal
+10. Erythropoietin alpha is allowed, as indicated.
+11. Bisphosphonates may be administered if they were started prior to starting this therapy.
+12. Patients must be on stable medical therapy for at least 2 weeks if they are being treated medically for their peripheral neuropathy.
+13. Concurrent herceptin is not allowed.
+14. The effects of TM on the developing human fetus are unknown. For this reason, women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately.
+15. Ability to understand and the willingness to sign a written informed consent document.
+
+Exclusion Criteria:
+
+1. Patients who have had chemotherapy or radiotherapy within 6 weeks prior to entering the study.
+2. Objective evidence of breast cancer.
+3. Carcinomatous meningitis or history of neoplastic parenchymal brain disease.
+4. Serum creatinine \>1.5 x normal.
+5. History of allergic reactions attributed to compounds of similar chemical or biologic composition to TM.
+6. Pregnant women are excluded from this study because TM has the potential to have teratogenic or abortifacient effects. Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with TM, breastfeeding should be discontinued if the mother is treated with TM.
+7. Because patients with immune deficiency are at increased risk of lethal infections when treated with marrow-suppressive therapy, HIV-positive patients receiving combination anti-retroviral therapy are excluded from the study because of possible pharmacokinetic interactions with TM.",,False,0.0,,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,FN,FN,False,,False,0.0,,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,FN,FN,FEMALE,,False,0.0,,Sex,protocolSection.eligibilityModule.sex,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,FN,FN,18 Years,,False,0.0,,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,FN,FN,"['ADULT', 'OLDER_ADULT']",,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

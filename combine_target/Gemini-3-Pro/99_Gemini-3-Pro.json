@@ -1,0 +1,184 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03567993",
+      "secondaryIdInfos": [
+        {
+          "id": "R01TW010647",
+          "type": "NIH",
+          "domain": "John E Fogarty International Center of the National Institutes of Health"
+        },
+        {
+          "id": "DERR1-10.2196/30947",
+          "type": "REGISTRY",
+          "domain": "International Registered Report Identifier (IRRID)"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Massachusetts Medical School",
+        "class": "OTHER"
+      },
+      "briefTitle": "Mobile Health Messaging to Motivate Quitline Use and Quitting",
+      "officialTitle": "Mobile Health Messaging to Motivate Quitline Use and Quitting",
+      "acronym": "M2Q2"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study aims to adapt an automated motivational text messaging system, previously developed for US smokers, to support smoking cessation among rural Vietnamese smokers. The primary objective is to promote cessation directly and by increasing the use of telephone Quitline counseling services and nicotine replacement therapy (NRT). The researchers hypothesize that participants in the intervention arm receiving motivational texts and assessment messages will have higher rates of cessation, higher smoking self-efficacy, and will engage more frequently with Quitline counseling and NRT services compared to a control group receiving assessment messages only.",
+      "detailedDescription": "We are testing the effectiveness of a culturally adapted motivational text messaging system (M2Q2) using a community-based randomized controlled trial design. Participants were recruited from four communes in the Hung Yen province in the Red River Delta region of Vietnam. The study involves adapting an existing cessation texting system proven effective in the United States to the Vietnamese context.\n\nParticipants (N=750 recruited; target N=600 for completion) were randomly allocated to one of two conditions for a period of 6 months:\n1. Intervention Group: Receives regular motivational text messages (one per day in the first week, two per week in weeks 2-26) derived from expert sources based on social cognitive theory and peer messages from Vietnamese smokers. They also receive weekly two-way assessment messages asking about smoking frequency and offering a callback from the Bach Mai Quitline. Affirmative responses result in a Quitline call offering counseling and access to free Nicotine Replacement Therapy (NRT).\n2. Control Group: Receives only two-way assessment text messages every two weeks asking about smoking frequency in the past 24 hours. They do not receive specific encouragement to use the Quitline but may independently seek care.\n\nThe primary outcome is the tobacco cessation rate at the 6-month follow-up, determined by self-report and verified with a carbon monoxide breath monitor (less than 10 ppm). Secondary outcomes include changes in smoking self-efficacy measured by the 12-item Smoking Self-Efficacy Questionnaire (SEQ-12), uptake of the Quitline, and use of nicotine replacement therapy. The study also aims to enhance research and health service capacity in Vietnam through training and collaboration with the Bach Mai Quitline."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Smoking Cessation",
+        "Tobacco Use Cessation"
+      ],
+      "keywords": [
+        "Mobile Health",
+        "mHealth",
+        "Text Messaging",
+        "Vietnam",
+        "Quitline",
+        "Nicotine Replacement Therapy",
+        "Rural Population",
+        "Telemedicine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The study design is a two-arm randomized controlled trial of 600 participants (300 participants in the intervention group and 300 in the comparison group). The allocation of participants to study arms is based on a permuted block scheme.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Using a permuted block scheme technique, both participants and research staff are blinded to the allocation during the initial session. The research staff are blinded to allocation when assessing outcomes.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 750,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention Group",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive one-way motivational text messages (seven in the first week, two per week in weeks 2-26) to promote cessation and provide encouragement to access Quitline and free NRT. They also receive weekly two-way assessment text messages asking about smoking habits and interest in a Quitline call.",
+          "interventionNames": [
+            "Motivational text messaging system",
+            "Assessment text messages",
+            "Quitline counseling",
+            "Nicotine lozenges"
+          ]
+        },
+        {
+          "label": "Comparison Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants receive twice-monthly two-way assessment text messages asking how many times they have smoked tobacco in the past 24 hours. They are not specifically encouraged to seek Quitline counseling or NRT but can proactively seek it from the local clinic or Quitline (usual care).",
+          "interventionNames": [
+            "Assessment text messages"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Motivational text messaging system",
+          "description": "Culturally adapted one-way text messages sent to participants (daily in week 1, twice weekly in weeks 2-26). Messages include expert-written content based on social cognitive theory and peer-written advice messages. Themes cover Quitline help, health risks, self-efficacy, family, and quitting tips.",
+          "armGroupLabels": [
+            "Intervention Group"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Assessment text messages",
+          "description": "Two-way text messages asking: 'How many times have you smoked tobacco in the past 24 hours?'. Sent weekly to the intervention group (accompanied by a prompt offering a Quitline call) and twice-monthly to the comparison group.",
+          "armGroupLabels": [
+            "Intervention Group",
+            "Comparison Group"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Quitline counseling",
+          "description": "Telephone counseling provided by Bach Mai Quitline staff (certified tobacco treatment specialists). Staff are trained in motivational interviewing, 5As, and 5Rs. Intervention participants are actively offered calls; calls cover cessation strategies and NRT facilitation.",
+          "armGroupLabels": [
+            "Intervention Group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Nicotine lozenges",
+          "description": "Over-the-counter nicotine lozenges at 4-mg doses. Participants in the intervention group can receive free NRT for up to 6 weeks if requested during the study period.",
+          "armGroupLabels": [
+            "Intervention Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Tobacco cessation rate",
+          "description": "Self-reported current smoking (smoked even 1 puff of tobacco in the last 7 days) verified with a carbon monoxide breath monitor. Participants responding 'no' are classified as nonsmokers if their carbon monoxide measurement is less than 10 ppm.",
+          "timeFrame": "6-month follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Smoking Self-Efficacy",
+          "description": "Measured using the 12-item Smoking Self-Efficacy Questionnaire (SEQ-12) and its subscales measuring confidence in the ability to refrain from smoking.",
+          "timeFrame": "Baseline and 6-month follow-up"
+        },
+        {
+          "measure": "Quitline use",
+          "description": "Assessment of interest in and use of the Quitline counseling services, including details of intake assessment (number of calls).",
+          "timeFrame": "Throughout the 6-month participation period"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Smoking Urge",
+          "description": "Measured using the brief 10-item version of the Questionnaire of Smoking Urges.",
+          "timeFrame": "6-month follow-up"
+        },
+        {
+          "measure": "Nicotine Replacement Therapy (NRT) use",
+          "description": "Documentation of referrals for and uptake of nicotine replacement therapy.",
+          "timeFrame": "Throughout the 6-month participation period"
+        },
+        {
+          "measure": "Details of quit attempts",
+          "description": "Information regarding attempts made by participants to quit smoking.",
+          "timeFrame": "6-month follow-up"
+        },
+        {
+          "measure": "Smoker perceptions of the intervention",
+          "description": "Participant perceptions and feedback regarding the motivational text messaging system.",
+          "timeFrame": "6-month follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Resident of the selected commune (Binh Minh, Viet Hung, Tan Viet, and Bach Sam)\n- Current smoker\n- Able to receive text and read text (literate)\n- Consenting adult\n\nExclusion Criteria:\n- Cognitively impaired\n- Smoker who helped develop the motivational texts used in the intervention\n- Family member of another participant in the study\n- Food and Drug Administration contraindication to nicotine lozenge",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

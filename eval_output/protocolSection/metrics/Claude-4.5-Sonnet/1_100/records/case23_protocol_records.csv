@@ -1,0 +1,68 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,FN,FN,NCT02487654,,False,0.0,,NCTId,protocolSection.identificationModule.nctId,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,FN,FN,Ectopy Triggering Ganglionated Plexus Ablation to Prevent Atrial Fibrillation,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,FN,FN,Ectopy Triggering Ganglionated Plexus Ablation to Prevent Atrial Fibrillation,,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,"Atrial fibrillation (AF) is a common heart rhythm disorder which can significantly affect a patient's quality of life and cause strokes. Abnormal electrical activity from the pulmonary veins are thought to be the most common cause of this condition. Current ablative strategy in drug refractory AF is pulmonary vein isolation (PVI), where the pulmonary veins are electrically isolated from the body of the left atrium. However, success rate of this procedure remain \~50-70% for a single procedure despite advances in mapping and ablation techniques.
+
+Ganglionated plexuses (GP) are dense clusters of nerves in the atria that are implicated in AF. Endocardial high frequency stimulation (HFS) delivered within the local atrial refractory period can trigger ectopy and AF from specific GP sites (ET-GP). The aim of this study was to understand the role of ET-GP ablation in the treatment of AF by comparing two different strategies:
+
+1. Pulmonary vein isolation alone
+2. GP ablation alone",,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.detailedDescription,FN,FN,"This is a prospective, multi-centre study recruiting patients with paroxysmal AF indicated for AF ablation.
+
+180 patients will be recruited. Patients are randomised to either GP ablation alone or to PVI. All antiarrhythmics are stopped for at least 48 hours prior to their procedures.
+
+All have general anaesthesia and CARTO system (Biosense Webster, inc.) are used for 3D electroanatomical mapping of the left atrium.
+
+Patients randomised to GP ablation will have high frequency mapping performed within the atrial refractory period to identify ectopy or AF triggering GP (ET-GP) sites in the left atrium. Patients in this group will only have GP ablation and will not have pulmonary veins isolated.
+
+The primary endpoint is any documented atrial arrhythmia 30 seconds or more after a 3 month blanking period. This will be assessed for up to 12 months post-procedure, using 48hr Holter monitors at 3, 6, 9 and 12 month intervals.
+
+Secondary endpoints include mortality, major complications and redo procedures.",,False,0.0,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,['Paroxysmal Atrial Fibrillation'],,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,FN,FN,"['Paroxysmal atrial fibrillation', 'Pulmonary vein isolation', 'Ganglionated plexus', 'Radiofrequency ablation', 'Pulmonary vein ectopy', 'High frequency stimulation', 'autonomic nervous system', 'Ganglionated plexi', 'atrial fibrillation']",,False,0.0,,Keyword,protocolSection.conditionsModule.keywords,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,FN,FN,INTERVENTIONAL,,False,0.0,,StudyType,protocolSection.designModule.studyType,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,FN,FN,['NA'],,False,0.0,,Phase,protocolSection.designModule.phases,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,FN,FN,RANDOMIZED,,False,0.0,,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,FN,FN,PARALLEL,,False,0.0,,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,FN,FN,DOUBLE,,False,0.0,,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.whoMasked,FN,FN,"['PARTICIPANT', 'CARE_PROVIDER']",,False,0.0,,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,FN,FN,116,,False,0.0,,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[1].measure,EV,EV,,Mortality,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[2].measure,EV,EV,,Procedure-related complications,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[1].description,EV,EV,,All-cause mortality during the follow-up period,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[2].description,EV,EV,,"Any significant complications related to the procedure (bleeding, thrombosis, phrenic nerve palsy, and cardiac tamponade) requiring intervention",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[1].timeFrame,EV,EV,,12 months,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[2].timeFrame,EV,EV,,12 months,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,FN,FN,"Inclusion Criteria:
+
+* Males or females eighteen (18) to eighty five (85) years old
+* Paroxysmal atrial fibrillation
+* Suitable candidate for catheter ablation
+* Signed informed consent
+
+Exclusion Criteria:
+
+* Contraindication to catheter ablation
+* Presence of a cardiac thrombus
+* valvular disease that is grade moderate or greater
+* Any form of cardiomyopathy
+* On amiodarone therapy
+* Severe cerebrovascular disease
+* Active gastrointestinal bleeding
+* Renal failure (on dialysis or at risk of requiring dialysis)
+* Active infection or fever
+* Life expectancy shorter than the duration of the trial
+* Allergy to contrast
+* Intractable heart failure (NYHA Class IV)
+* Bleeding or clotting disorders or inability to receive heparin
+* Serum Creatinine \>200umol/L
+* Uncontrolled diabetes (HbA1c ≥73mmol/mol or HbA1c ≤64mmol/mol and Fasting Blood Glucose ≥9.2mmol/L)
+* Malignancy needing therapy
+* Pregnancy or women of childbearing potential not using a highly effective method of contraception
+* Patients in current research or have recently been involved in any research prior to recruitment will not be included in the trial.",,False,0.0,,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,FN,FN,False,,False,0.0,,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,FN,FN,ALL,,False,0.0,,Sex,protocolSection.eligibilityModule.sex,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,FN,FN,18 Years,,False,0.0,,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,FN,FN,85 Years,,False,0.0,,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,FN,FN,"['ADULT', 'OLDER_ADULT']",,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

@@ -1,0 +1,107 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+GPT-5.1,protocolSection.identificationModule.nctId,TP,TP,NCT03261401,NCT03261401,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.briefTitle,TP,TP,"First-in-Human Trial of Single Ascending Dose, Multiple Ascending Dose and Malaria Challenge Model in Healthy Participants",First-in-human evaluation of the antimalarial M5717 including a volunteer infection study using the Plasmodium falciparum induced blood-stage malaria model,True,0.79,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.officialTitle,FN,FN,"A Phase I, First-in-Human, Randomized, Double-Blind, Placebo-Controlled Trial of Single and Multiple Ascending Doses of M5717 to Assess the Safety, Tolerability and Pharmacokinetic Profile of Oral Doses, and to Assess the Antimalarial Activity of M5717 Against Plasmodium Falciparum in Healthy Male and Female Adult Subjects",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+GPT-5.1,protocolSection.descriptionModule.briefSummary,TP,TP,The primary purpose of this study was to investigate the safety and tolerability of M5717 and to characterize the Pharmacokinetics (PK) /Pharmacodynamic relationship between M5717 PK and parasite clearance in healthy participants following infection with Plasmodium falciparum.,"This first-in-human, two-part clinical trial evaluated M5717, a novel antimalarial that inhibits Plasmodium translation elongation factor 2, in healthy adult volunteers. Part A was a double-blind, randomized, placebo-controlled, single ascending dose study assessing safety, tolerability, and pharmacokinetics across oral doses from 50 to 2100 mg. Part C was an open-label, induced blood-stage Plasmodium falciparum volunteer infection study assessing safety, pharmacokinetics, parasite clearance dynamics, and recrudescence after single oral doses of 150, 400, or 800 mg M5717. The study found that M5717 was generally well tolerated up to 1250 mg, exhibited a long half-life (approximately 146–193 hours at doses ≥200 mg), and cleared blood-stage P. falciparum with a characteristic biphasic parasite clearance profile. Recrudescence at lower doses was associated with emergent mutations in the parasite eEF2 gene, supporting further development of M5717 in combination regimens or for prophylaxis.",True,0.86,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+GPT-5.1,protocolSection.descriptionModule.detailedDescription,EV,EV,,"This study was a first-in-human clinical trial designed to characterise the safety, tolerability, pharmacokinetics, and antimalarial activity of M5717 (formerly DDD107498), a novel inhibitor of Plasmodium translation elongation factor 2 (eEF2). M5717 has shown potent in vitro and in vivo activity against multiple Plasmodium species life-cycle stages and favourable preclinical pharmacokinetics.
+
+The trial, conducted at a single centre in Brisbane, Australia, comprised two executed parts:
+
+Part A: Single Ascending Dose (SAD) Study
+- Design: Double-blind, randomised, placebo-controlled, single ascending dose study.
+- Population: Healthy men and women of non-childbearing potential, 18–55 years; in practice, all enrolled were male.
+- Randomisation: Within each cohort, participants were randomised 3:1 to a single oral dose of M5717 or matching placebo, with sentinel dosing (one active and one placebo) per cohort before dosing the remainder.
+- Dosing cohorts: 50, 100, 200, 400, 600, 1000, 1250, 1800, and 2100 mg. The 2100 mg cohort was limited to the two sentinel participants due to emerging transient neurological adverse events.
+- Procedures: Participants fasted ≥8 hours before dosing and received M5717 or placebo capsules with water, then remained inpatient for intensive safety and pharmacokinetic sampling, followed by outpatient follow-up.
+- Primary outcome: Safety and tolerability, including frequency and severity of adverse events, and changes in vital signs, ECGs, and clinical laboratory parameters.
+- Secondary outcomes: Pharmacokinetic parameters (Cmax, tmax, AUC, t1/2, CL/F, Vz/F, and time above preclinically predicted MIC [3 ng/mL] and minimum parasiticidal concentration [10 ng/mL]).
+
+Part C: Volunteer Infection Study (VIS) Using Induced Blood-Stage Malaria
+- Design: Open-label, non-randomised study employing the Plasmodium falciparum induced blood-stage malaria model.
+- Population: Healthy, malaria-naive adults (all enrolled were male) aged 18–55 years.
+- Malaria challenge: Participants were inoculated intravenously with P. falciparum–infected erythrocytes (approximately 2800 viable parasites). Parasitaemia was monitored by qPCR for P. falciparum 18S rRNA.
+- Dosing cohorts: Following safety and PK review from the SAD part, three dose cohorts were selected—400 mg (first VIS cohort), 150 mg (second cohort, to refine exposure–response), and 800 mg (third cohort, to further define the exposure–response relationship). Each participant received a single oral dose of M5717 when parasitaemia was expected to be at least 5000 parasites/mL (actual baseline parasitaemia varied by cohort).
+- Rescue therapy: All participants subsequently received artemether–lumefantrine either upon recrudescence or at day 21 after M5717 dosing if no recrudescence occurred.
+- Primary VIS outcomes: Pharmacokinetics of M5717 and parasite clearance kinetics, quantified by the parasite reduction ratio over 48 hours (PRR48) and parasite clearance half-life, with explicit modelling of a biphasic clearance pattern using segmented (piecewise) regression and random-effects meta-analysis.
+- Secondary VIS outcomes: Safety and tolerability; incidence and timing of recrudescence up to day 28; malaria clinical score (to be reported elsewhere); and estimation of MIC, minimum parasiticidal concentration, parasite clearance time, and lag phase using pharmacokinetic–pharmacodynamic modelling.
+- Exploratory outcomes: Sequencing of the parasite PfeEF2 gene in recrudescent isolates to detect resistance-associated mutations.
+
+Key Findings
+
+Safety and Tolerability:
+- No serious adverse events occurred, and no participant discontinued due to adverse events. All treatment-related events were mild or moderate and transient.
+- In the SAD study, 76% of M5717 recipients and 76% of placebo recipients experienced at least one adverse event. M5717-related events were infrequent up to 1250 mg. No treatment-related events were reported at 50, 100, or 200 mg; low rates were observed at 400–1250 mg; all participants receiving 1800 or 2100 mg reported at least one M5717-related event.
+- The most common M5717-related adverse events were headache, blurred vision, dizziness, and oral hypoesthesia. Transient oral hypoesthesia and blurred vision occurred only at 1800 and 2100 mg and were considered previously unrecognised, concentration-related neurological risks, prompting suspension of further escalation beyond the sentinel 2100 mg cohort.
+- In the VIS, almost all participants experienced adverse events, predominantly mild-to-moderate malaria-like symptoms (e.g., fever, chills, myalgias) that diminished over about 7 days after dosing. Only one VIS participant (400 mg cohort) had an event assessed as related to M5717 (mild, self-limiting rhinorrhoea).
+
+Pharmacokinetics:
+- Following single oral dosing, M5717 was rapidly absorbed, with median tmax between 1 and 7 hours across dose groups.
+- Blood concentration–time profiles showed an initial peak around 2 hours, followed by a biexponential decline with secondary peaks (around 6–10 hours and ~30 hours), suggesting complex absorption or distribution processes.
+- Exposure (AUC and Cmax) increased approximately dose-proportionally, with slight greater-than-proportionality suggested by formal assessment.
+- The apparent terminal half-life was long: at doses >200 mg it ranged approximately 146–193 hours, confirming a substantially longer half-life in humans than in preclinical species. At lower doses, t1/2 estimates were less reliable due to early fall of concentrations below the assay lower limit of quantification.
+- The apparent volume of distribution was large (approximately 6–9 L/kg equivalent), and clearance was low relative to typical hepatic blood flow.
+- Time above the mouse-estimated MIC (3 ng/mL) and minimum parasiticidal concentration (10 ng/mL) increased with dose; at doses ≥150 mg, all participants had concentrations ≥3 ng/mL for at least 7 days; at doses ≥400 mg, all had concentrations ≥10 ng/mL for at least 7 days.
+
+Antimalarial Activity (VIS):
+- All participants in the VIS achieved initial clearance of asexual blood-stage P. falciparum parasitaemia after a single M5717 dose. Parasite clearance followed a biphasic pattern in all dose groups: an initial slow clearance phase lasting approximately 35–55 hours, followed by a faster clearance phase.
+- The breakpoint between slow and fast phases occurred later at higher doses (approximately 36 hours at 150 mg vs about 54–56 hours at 400–800 mg). Parasite clearance was substantially faster in the second phase in all cohorts.
+- In the 800 mg cohort, the first-phase parasite clearance half-life was estimated at 24.7 hours, with PRR48 of 3.86; the second-phase half-life was 5.5 hours with much higher PRR48, indicating a potent killing phase once the lag was overcome.
+- Recrudescence occurred in 3 of 6 participants at 150 mg and 2 of 8 at 400 mg, with onset around 10–19 days after dosing; no recrudescence was observed up to 21 days in the 800 mg cohort.
+- All recrudescent infections were successfully treated with artemether–lumefantrine, and all participants were aparasitaemic by end of study.
+
+Resistance Findings:
+- Sequencing of the full-length PfeEF2 gene in recrudescent parasite populations revealed single-nucleotide polymorphisms in four of the five cases (two at 150 mg and two at 400 mg), producing amino acid substitutions at positions 134, 183, 474, and 754. These positions coincide with or are near mutations previously associated with M5717 resistance in vitro and were generally linked to reduced susceptibility (5–40-fold increases in inhibitory concentrations) and some fitness cost.
+- The emergence of PfeEF2 mutations under single-dose exposure supports the need for combination therapy with a fast-acting partner drug to limit resistance selection.
+
+Conclusions and Implications:
+- M5717 is generally well tolerated as a single oral dose in healthy adults up to 1250 mg and has an exceptionally long half-life, supporting potential single-dose use.
+- A single 800 mg dose effectively cleared low-density induced blood-stage P. falciparum infections in malaria-naive adults without recrudescence over 21 days and with a characteristic biphasic clearance pattern reflecting the compound’s mode of action (inhibition of protein synthesis and possible lag before functional parasite death).
+- The observed emergence of resistance-associated PfeEF2 mutations in recrudescent parasites following lower-dose monotherapy highlights the importance of deploying M5717 in combination with a rapidly acting antimalarial partner with a distinct target.
+- Future studies are warranted to evaluate M5717-containing combinations in patients with clinical malaria, as well as its potential roles in chemoprotection, prophylaxis, and transmission blocking, including evaluation across sexes and diverse endemic populations, and assessment of food effects and drug–drug interactions (particularly via CYP3A4).",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+GPT-5.1,protocolSection.conditionsModule.conditions,TP,FP,['Healthy'],"['Malaria', 'Malaria, Falciparum', 'Plasmodium falciparum infection']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+GPT-5.1,protocolSection.conditionsModule.keywords,TP,TP,"['Healthy Participants', 'M5717', 'Malaria', 'Plasmodium falciparum']","['M5717', 'DDD107498', 'Malaria', 'Malaria, Falciparum', 'Plasmodium falciparum', 'Plasmodium infections', 'Antimalarials', 'Drug Resistance, Parasite', 'Protozoan Proteins', 'Elongation Factor 2', 'Protein Synthesis Inhibitors', 'Chemoprevention', 'Malaria Prophylaxis', 'Volunteer infection study', 'Induced blood-stage malaria', 'Pharmacokinetics', 'Parasite Clearance', 'Parasite Reduction Ratio', 'Recrudescence']",True,0.75,partial,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+GPT-5.1,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.phases,TP,TP,['PHASE1'],['PHASE1'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"First-in-human two-part trial: Part A was a double-blind, randomized, placebo-controlled, single ascending oral dose study with parallel M5717 vs placebo groups within nine dose cohorts; Part C was an open-label, non-randomized, single-group volunteer infection study using the induced blood-stage malaria model with three sequential M5717 dose cohorts.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.observationalModel,EV,EV,,COHORT,,,,DesignObservationalModel,protocolSection.designModule.designInfo.observationalModel,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.timePerspective,EV,EV,,PROSPECTIVE,,,,DesignTimePerspective,protocolSection.designModule.designInfo.timePerspective,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,DOUBLE,DOUBLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Part A used double-blind masking with participants and investigators blinded to M5717 vs placebo; treatment identity concealed by identical packaging and appearance. Part C was open-label with no masking.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'INVESTIGATOR']","['PARTICIPANT', 'INVESTIGATOR']",True,1.0,exact,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.enrollmentInfo.count,TP,TP,88,88,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+GPT-5.1,protocolSection.armsInterventionsModule.interventions[3].type,EV,EV,,DRUG,,,,InterventionType,protocolSection.armsInterventionsModule.interventions.type,True,False,True,False,False,False
+GPT-5.1,protocolSection.armsInterventionsModule.interventions[3].name,EV,EV,,Artemether-lumefantrine,,,,InterventionName,protocolSection.armsInterventionsModule.interventions.name,True,False,True,False,False,False
+GPT-5.1,protocolSection.armsInterventionsModule.interventions[3].description,EV,EV,,"A standard curative antimalarial regimen consisting of six oral doses of artemether–lumefantrine taken over 60 hours (total dose 480 mg artemether and 2.88 g lumefantrine), administered to volunteer infection study participants upon recrudescence of parasitaemia or on day 21 after M5717 dosing if recrudescence had not occurred.",,,,InterventionDescription,protocolSection.armsInterventionsModule.interventions.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.armsInterventionsModule.interventions[3].armGroupLabels,EV,EV,,"['Volunteer Infection Study M5717 150 mg', 'Volunteer Infection Study M5717 400 mg', 'Volunteer Infection Study M5717 800 mg']",,,,InterventionArmGroupLabel,protocolSection.armsInterventionsModule.interventions.armGroupLabels,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Genetic mutations in recrudescent Plasmodium falciparum populations conferring resistance to M5717,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,Detection of single-nucleotide polymorphisms in the Plasmodium falciparum eEF2 gene from DNA extracted from recrudescent parasite populations to identify amino acid substitutions associated with resistance to M5717.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+GPT-5.1,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,At time of parasite recrudescence (up to day 28 after M5717 dosing) in the volunteer infection study,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+GPT-5.1,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Adult men and women of non-childbearing potential, with total body weight greater than or equal to 50.0 kilogram and body mass index (BMI) between 19.0 kilogram per meter square(kg/m\^2) and 29.9 kg/m\^2.
+* Healthy as assessed by the Investigator with no clinically significant abnormality identified on physical examination or laboratory evaluation and no active clinically significant disorder, condition, infection or disease that would pose a risk to participant safety or interfere with the trial evaluation, procedures, or completion.
+* Other protocol defined inclusion criteria could apply.
+
+Exclusion Criteria:
+
+* Participants with history or presence of clinically relevant respiratory, gastrointestinal, renal, hepatic, hematological, lymphatic, neurological, cardiovascular, psychiatric, musculoskeletal, genitourinary, immunological dermatological, connective tissue diseases or disorders.
+* Participants with history of relevant drug hypersensitivity, ascertained or presumptive allergy/hypersensitivity to the active drug substance and/or formulation ingredients; history of serious allergic reactions leading to hospitalization or any other allergic reaction in general, which the Investigator considers may affect the safety of the participant and/or outcome of the trial.
+* Participants who have any history of malaria.
+* Participants who have participated in a previous malaria vaccine trial.
+* Participants who have participated in a previous human malaria challenge trial.","- Inclusion Criteria:
+  - Healthy men and women of non-childbearing potential
+  - Aged 18–55 years
+  - (For the volunteer infection study/part C) Malaria-naive
+
+- Exclusion Criteria:
+  - Not explicitly detailed in the provided text (full eligibility criteria referenced as available in the appendix, page 12)",True,0.72,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+GPT-5.1,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.maximumAge,TP,TP,55 Years,55 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.stdAges,TP,TP,['ADULT'],['ADULT'],True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False
+GPT-5.1,protocolSection.eligibilityModule.studyPopulation,EV,EV,,,,,,StudyPopulation,protocolSection.eligibilityModule.studyPopulation,True,False,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.samplingMethod,EV,EV,,,,,,SamplingMethod,protocolSection.eligibilityModule.samplingMethod,True,False,True,False,False,False

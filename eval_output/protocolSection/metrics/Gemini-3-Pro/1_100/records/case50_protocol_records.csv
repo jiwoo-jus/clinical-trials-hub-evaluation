@@ -1,0 +1,81 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04150250,NCT04150250,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,Cholera Anti-Secretory Treatment Trial,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,"A Phase 2a Randomized, Single-Center, Double-Blind, Placebo Controlled Study to Evaluate the Safety and Preliminary Efficacy of Oral iOWH032 Against Cholera Diarrhea in a Controlled Human Infection Model",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,This trial was designed to assess safety and preliminary efficacy of oral doses of iOWH032 on diarrhea output and clinical symptoms after a cholera challenge in healthy adult participants.,"Cholera remains a major cause of diarrheal illness and death, particularly in settings with poor sanitation. This study evaluated a synthetic chemical named iOWH032, a potential oral treatment for cholera designed to block secretions from intestinal cells and prevent fluid loss (dehydration). The study utilized a cholera controlled human infection model (CHIM) where healthy volunteers were intentionally infected with Vibrio cholerae in an inpatient clinic setting. The trial aimed to determine if iOWH032 could safely reduce cholera illness and diarrheal symptoms compared to a placebo.",True,0.96,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"The study consists of a screening phase, an inpatient containment period with challenge with Vibrio cholerae on Day 1 followed by treatment with iOWH032 or placebo and a post-challenge observation period until discharge, an outpatient follow-up period of at least 28 days, and a final follow-up (by telephone) 6 months post-challenge (Day 180) for the collection of serious adverse events.
+
+Participants will be randomized 1:1 to receive either iOWH032 500 mg every 8 hours for three days or matching placebo. Blinded therapeutic dosing will start at the onset of diarrhea or by 48 hours after ingesting the challenge inoculum of V. cholerae. The observation and management of cholera diarrhea and symptomatology will occur on an inpatient isolation research ward over a duration of approximately 11 days, including a three-day course of antibiotics to treat all participants prior to discharge from the inpatient unit.","This was a randomized, double-blind, placebo-controlled, parallel, group-sequential Phase 2a study to assess the preliminary clinical efficacy and safety of the small molecule antisecretory drug candidate iOWH032. iOWH032 is a synthetic inhibitor of the cystic fibrosis transmembrane conductance regulator (CFTR) chloride channel, intended to counteract the hypersecretion caused by cholera toxin.
+
+Forty-seven healthy adult subjects (aged 18 to 44 years) were experimentally challenged with 10^6 colony-forming units of Vibrio cholerae El Tor Inaba strain N16961. Participants were randomized to receive either 500 mg of iOWH032 or a matching placebo orally every 8 hours for 3 days, starting at the onset of diarrhea symptoms or 48 hours after the challenge. 
+
+The primary efficacy endpoint was the diarrheal stool output rate (total volume of diarrheal stools divided by the time between study drug initiation and antimicrobial therapy). Secondary endpoints included the proportion of subjects with moderate or severe cholera, total stool volume, duration of diarrhea, and microbiological shedding of the bacteria. Safety assessments monitored adverse events and vital signs throughout the inpatient containment period and follow-up.",True,0.86,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['Cholera'],"['Cholera', 'Vibrio cholerae Infection', 'Acute Secretory Diarrhea']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['iOWH032', 'CFTR Inhibitor', 'Controlled Human Infection Model', 'CHIM', 'Antisecretory Therapeutic', 'Vibrio cholerae', 'Diarrhea']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Randomized, double-blind, placebo-controlled, parallel, group-sequential Phase 2a study conducted in two sequential cohorts.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,QUADRUPLE,QUADRUPLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"Except for the unblinded study site research pharmacist responsible for study drug preparation and dispensing, participants, clinical staff, the investigator, and sponsor personnel were blinded to the study treatment allocation.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']",True,1.0,exact,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,47,47,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[7].description,EV,EV,,Count of vomiting episodes.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+1. Willing and able to understand and provide written informed consent
+2. Healthy male and female adults, age 18 to 44 years (inclusive), without clinically significant medical history, physical or clinical laboratory abnormalities (as per protocol-defined acceptable ranges), and protocol-defined abnormal electrocardiogram results at screening
+3. All women must have a negative serum pregnancy test at screening and one day prior to challenge.
+4. Agreement by participants to use an adequate method of contraception\* during the study and for 4 weeks before and after the challenge.
+5. Able to pass a written examination (comprehension assessment test) with a score of ≥ 70%, in order to demonstrate their comprehension of this study. If a participant scores at least 50%, then they will be given one more opportunity to re-test after further re-education.
+6. Willing and able to comply with the study requirements and procedures.
+
+   * Adequate contraception is defined as a contraceptive method with failure rate of less than 1% per year when used consistently and correctly and when applicable, in accordance with the product label; includes, but is not limited to, barrier with additional spermicidal foam or jelly, intrauterine device, hormonal contraception (started at least 4 weeks prior to study enrollment), or women who have intercourse limited to men who underwent vasectomy.
+
+Exclusion Criteria:
+
+1. Clinically significant history of immunodeficiency, cardiovascular disease, respiratory disease, endocrine disorder, liver disease, renal disease, gastrointestinal disease, anal or rectal disorders, neurologic disease,
+2. Current nicotine use or drug, alcohol abuse within the past 6 months
+3. Recipient of bone marrow or solid organ transplant
+4. Use of systemic chemotherapy in the past 5 years
+5. Has a malignancy (excluding localized non-melanoma skin cancers) or lymphoproliferative disorders diagnosed or treated within the past 5 years
+6. Received or plans to receive systemic immunosuppressive therapy, radiation therapy, parenteral or high-dosage inhaled steroids (\> 800 µg/day of beclomethasone dipropionate or equivalent) within 6 months prior to the enrollment through 28 days after challenge
+7. Have a history of hospitalization for psychiatric illness, suicide attempt, or confinement for danger to self or others, within the past 10 years. Participants with a psychiatric disorder (not meeting exclusion criteria, e.g., attention-deficit hyperactivity disorder) that is controlled for a minimum of 3 months and the investigator has determined that the participant's mental status will not compromise the participant's ability to comply with protocol requirements may be enrolled
+8. Have an elevated blood pressure, systolic ≥ 150 mmHg or diastolic ≥ 90 mmHg, before challenge
+9. Taking any of the the protocol-defined drugs that are metabolized by CYP2C9 or any of the following psychiatric medications: aripiprazole, carbamazepine, chlorpromazine, chlorprothixene, clozapine, divalproex sodium, fluphenazine, haloperidol, lithium carbonate, lithium citrate, loxapine, mesoridazine, molindone, olanzapine, perphenazine, pimozide, quetiapine, risperidone, thioridazine, thiothixene, trifluoperazine, triflupromazine, or ziprasidone
+10. History of Guillain-Barré Syndrome
+11. Too low or too high a body mass index (BMI \< 18.5 or \> 39)
+12. Has an abnormal stool pattern defined as fewer than 3 stools per week or more than 2 stools per day within the past 6 months, and any loose stools (grade 3 or higher) during the 1-2 day acclimation period before challenge
+13. Has regularly used laxatives in the past 6 months
+14. Has a history of eating disorders (e.g. anorexia or bulimia) within the past 10 years
+15. Known allergy or previous severe adverse effect to all of the following antibiotics: ciprofloxacin (or quinolones), azithromycin and doxycycline.
+16. Previously received a licensed or investigational cholera vaccine, within 10 years
+17. History of cholera or enterotoxigenic Escherichia coli (ETEC) infection (lab-confirmed natural infection or experimental challenge), within 10 years
+18. Travel to a cholera-endemic area in the past 5 years
+19. Pregnant or nursing
+20. Positive serology for human immunodeficiency virus (HIV), hepatitis B antigen, or hepatitis C antibody
+21. Protocol-defined clinically abnormal 12-lead electrocardiogram (ECG) at screening in the judgment of the Investigator, or based on the formal 12-lead ECG reading by a cardiologist; history of any cardiac abnormalities, including conduction abnormalities such as Wolff-Parkinson-White, dysrhythmias, or coronary artery disease
+22. Presence of a clinically significant abnormality on physical examination, including (but not limited to): pathologic heart murmur, lymphadenopathy, hepatosplenomegaly, large abdominal scar of unclear origin
+23. Has poor venous access, defined as the inability to obtain screening blood tests after three attempts
+24. Currently on, or plans to be on, antibiotics (e.g., doxycycline) within 14 days prior to challenge and through 28 days after challenge
+25. Presence of an acute illness or fever (\> 100.4°F) within 72 hours of admission to the inpatient Clinical Research Unit
+26. Taking any prescription or over-the-counter medications that contain aspirin, non-steroidal anti-inflammatory drugs (NSAIDs), antacids, proton pump inhibitors (PPIs), anti-diarrheals, etc. within 72 hours prior to challenge
+27. Received an investigational product within 30 days prior to randomization (90 days prior to randomization for monoclonal antibodies) or planned to participate in another research study involving an investigational product during the conduct of this study
+28. Participants must not have donated blood in 8 weeks prior to study entry and agreed to not donate blood during and for 4 weeks following their active participation in this study
+29. Lack of ability to fully understand the informed consent
+30. Any other condition(s) that in the opinion of the investigator would jeopardize the safety or rights of a participant participating in the trial or would render the participant unable to comply with the protocol","Inclusion Criteria:
+* Healthy adults aged 18 to 44 years
+* Recruited from the greater Baltimore, Maryland, USA, area
+
+Exclusion Criteria:
+* Clinically significant medical history, including history of cholera infection or vaccination within the past 10 years
+* Pregnant women
+* Women who were breastfeeding
+* Women planning to become pregnant while enrolled in the study",True,0.82,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,44 Years,44 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,['ADULT'],['ADULT'],True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

@@ -1,0 +1,498 @@
+{
+  "metadata": {
+    "case_id": 68,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T18:17:08.646853",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/68_NCT03346057.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/68_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.5,
+          0.74,
+          0.78,
+          0.8,
+          0.4,
+          0.7
+        ],
+        [
+          0.7,
+          0.6,
+          0.9,
+          0.72,
+          0.72,
+          0.55,
+          0.8
+        ],
+        [
+          0.72,
+          0.5,
+          0.72,
+          0.93,
+          0.7,
+          0.4,
+          0.6
+        ],
+        [
+          0.4,
+          0.88,
+          0.5,
+          0.68,
+          0.3,
+          0.9,
+          0.55
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Sugammadex 2 mg/kg",
+            "type": "EXPERIMENTAL",
+            "description": "Sugammadex 2 mg/kg administered as a single intravenous (IV) dose",
+            "interventionNames": [
+              "Drug: Sugammadex 2 mg/kg",
+              "Drug: Rocuronium",
+              "Drug: Vecuronium"
+            ]
+          },
+          "pred_item": {
+            "label": "Moderate neuromuscular block, sugammadex 2 mg/kg (Rocuronium)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receiving rocuronium for moderate neuromuscular block were reversed with sugammadex 2 mg/kg administered intravenously as a bolus.",
+            "interventionNames": [
+              "DRUG: Sugammadex 2 mg/kg",
+              "DRUG: Rocuronium"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Sugammadex 4 mg/kg",
+            "type": "EXPERIMENTAL",
+            "description": "Sugammadex 4 mg/kg administered as a single IV dose",
+            "interventionNames": [
+              "Drug: Sugammadex 4 mg/kg",
+              "Drug: Rocuronium",
+              "Drug: Vecuronium"
+            ]
+          },
+          "pred_item": {
+            "label": "Deep neuromuscular block, sugammadex 4 mg/kg (Rocuronium)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receiving rocuronium for deep neuromuscular block were reversed with sugammadex 4 mg/kg administered intravenously as a bolus.",
+            "interventionNames": [
+              "DRUG: Sugammadex 4 mg/kg",
+              "DRUG: Rocuronium"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 3,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Sugammadex 16 mg/kg",
+            "type": "EXPERIMENTAL",
+            "description": "Sugammadex 16 mg/kg administered as a single IV dose",
+            "interventionNames": [
+              "Drug: Sugammadex 16 mg/kg",
+              "Drug: Rocuronium"
+            ]
+          },
+          "pred_item": {
+            "label": "Deep neuromuscular block, sugammadex 16 mg/kg (Rocuronium)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receiving rocuronium for deep neuromuscular block were reversed with sugammadex 16 mg/kg administered intravenously as a bolus.",
+            "interventionNames": [
+              "DRUG: Sugammadex 16 mg/kg",
+              "DRUG: Rocuronium"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 5,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Neostigmine + Glycopyrrolate",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Neostigmine 50 μg/kg (up to 5 mg maximum dose) plus glycopyrrolate 10 μg/kg (up to 1 mg maximum dose) administered as a single IV dose",
+            "interventionNames": [
+              "Drug: Neostigmine + Glycopyrrolate",
+              "Drug: Rocuronium",
+              "Drug: Vecuronium"
+            ]
+          },
+          "pred_item": {
+            "label": "Moderate neuromuscular block, neostigmine/glycopyrrolate (Vecuronium)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants receiving vecuronium for moderate neuromuscular block were reversed with neostigmine (50 μg/kg up to 5 mg maximum dose) plus glycopyrrolate (10 μg/kg up to 1 mg maximum dose) administered intravenously as a bolus.",
+            "interventionNames": [
+              "DRUG: Neostigmine/Glycopyrrolate",
+              "DRUG: Vecuronium"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 6,
+      "pred_count": 6,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.78,
+          0.7,
+          0.8,
+          0.38,
+          0.65
+        ],
+        [
+          0.78,
+          0.99,
+          0.8,
+          0.4,
+          0.4,
+          0.38
+        ],
+        [
+          0.82,
+          0.78,
+          0.98,
+          0.4,
+          0.32,
+          0.35
+        ],
+        [
+          0.5,
+          0.3,
+          0.45,
+          1.0,
+          0.35,
+          0.55
+        ],
+        [
+          0.35,
+          0.4,
+          0.3,
+          0.35,
+          0.96,
+          0.7
+        ],
+        [
+          0.32,
+          0.28,
+          0.15,
+          0.32,
+          0.72,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Sugammadex 2 mg/kg",
+            "description": "Following administration of NMBA (Rocuronium or Vecuronium) to achieve moderate NMB, participants received a single i.v. bolus of Sugammadex 2 mg/kg for reversal of moderate NMB. Moderate block is a level of NMB in which peripheral nerve stimulation elicits one to four muscle twitches.",
+            "armGroupLabels": [
+              "Sugammadex 2 mg/kg"
+            ],
+            "otherNames": [
+              "MK-8616",
+              "Bridion"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Sugammadex 2 mg/kg",
+            "description": "Sugammadex 2 mg/kg administered intravenously as a bolus to reverse moderate neuromuscular block induced by rocuronium or vecuronium.",
+            "armGroupLabels": [
+              "Moderate neuromuscular block, sugammadex 2 mg/kg (Rocuronium)",
+              "Moderate neuromuscular block, sugammadex 2 mg/kg (Vecuronium)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Sugammadex 4 mg/kg",
+            "description": "Following administration of NMBA (Rocuronium or Vecuronium) to achieve deep NMB, participants received a single i.v. bolus of Sugammadex 4 mg/kg for reversal of deep NMB. Deep block is a level of NMB in which peripheral nerve stimulation elicits no muscle twitches and high-frequency muscle stimulation elicits minimal levels of muscle contraction.",
+            "armGroupLabels": [
+              "Sugammadex 4 mg/kg"
+            ],
+            "otherNames": [
+              "MK-8616",
+              "Bridion"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Sugammadex 4 mg/kg",
+            "description": "Sugammadex 4 mg/kg administered intravenously as a bolus to reverse deep neuromuscular block induced by rocuronium or vecuronium.",
+            "armGroupLabels": [
+              "Deep neuromuscular block, sugammadex 4 mg/kg (Rocuronium)",
+              "Deep neuromuscular block, sugammadex 4 mg/kg (Vecuronium)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Sugammadex 16 mg/kg",
+            "description": "Following administration of NMBA (Rocuronium) to achieve deep NMB, participants received a single i.v. bolus of Sugammadex 16 mg/kg for reversal of deep NMB. Deep block is a level of NMB in which peripheral nerve stimulation elicits no muscle twitches and high-frequency muscle stimulation elicits minimal levels of muscle contraction.",
+            "armGroupLabels": [
+              "Sugammadex 16 mg/kg"
+            ],
+            "otherNames": [
+              "MK-8616",
+              "Bridion"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Sugammadex 16 mg/kg",
+            "description": "Sugammadex 16 mg/kg administered intravenously as a bolus to reverse deep neuromuscular block induced by rocuronium in an urgent setting.",
+            "armGroupLabels": [
+              "Deep neuromuscular block, sugammadex 16 mg/kg (Rocuronium)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Neostigmine + Glycopyrrolate",
+            "description": "Following administration of NMBA (Rocuronium or Vecuronium) to achieve moderate NMB, participants received a single i.v. bolus of Neostigmine (50 μg/kg; 5 mg maximum) and Glycopyrrolate (10 μg/kg; 1 mg maximum) for reversal of moderate NMB. Moderate block is a level of NMB in which peripheral nerve stimulation elicits one to four muscle twitches.",
+            "armGroupLabels": [
+              "Neostigmine + Glycopyrrolate"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Neostigmine/Glycopyrrolate",
+            "description": "Neostigmine (50 μg/kg up to 5 mg maximum dose) plus glycopyrrolate (10 μg/kg up to 1 mg maximum dose) administered intravenously as a bolus to reverse moderate neuromuscular block induced by rocuronium or vecuronium.",
+            "armGroupLabels": [
+              "Moderate neuromuscular block, neostigmine/glycopyrrolate (Rocuronium)",
+              "Moderate neuromuscular block, neostigmine/glycopyrrolate (Vecuronium)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Rocuronium",
+            "description": "To achieve NMB, participants received steroidal NMBA Rocuronium Bromide administered via IV infusion and dosed according to participant body weight. NMBAs were concomitant medications used per label and at Investigator's discretion as an adjunct to general anesthesia.",
+            "armGroupLabels": [
+              "Neostigmine + Glycopyrrolate",
+              "Sugammadex 16 mg/kg",
+              "Sugammadex 2 mg/kg",
+              "Sugammadex 4 mg/kg"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Rocuronium",
+            "description": "Rocuronium neuromuscular blocking agent administered to induce moderate or deep neuromuscular block as per standard clinical practice.",
+            "armGroupLabels": [
+              "Moderate neuromuscular block, sugammadex 2 mg/kg (Rocuronium)",
+              "Moderate neuromuscular block, neostigmine/glycopyrrolate (Rocuronium)",
+              "Deep neuromuscular block, sugammadex 4 mg/kg (Rocuronium)",
+              "Deep neuromuscular block, sugammadex 16 mg/kg (Rocuronium)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 5,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Vecuronium",
+            "description": "To achieve NMB, participants received steroidal NMBA Vecuronium Bromide administered via IV infusion and dosed according to participant body weight. NMBAs were concomitant medications used per label and at Investigator's discretion as an adjunct to general anesthesia.",
+            "armGroupLabels": [
+              "Neostigmine + Glycopyrrolate",
+              "Sugammadex 2 mg/kg",
+              "Sugammadex 4 mg/kg"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Vecuronium",
+            "description": "Vecuronium neuromuscular blocking agent administered to induce moderate or deep neuromuscular block as per standard clinical practice.",
+            "armGroupLabels": [
+              "Moderate neuromuscular block, sugammadex 2 mg/kg (Vecuronium)",
+              "Moderate neuromuscular block, neostigmine/glycopyrrolate (Vecuronium)",
+              "Deep neuromuscular block, sugammadex 4 mg/kg (Vecuronium)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 6,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.7,
+          0.7
+        ],
+        [
+          0.7,
+          0.98,
+          0.74
+        ],
+        [
+          0.65,
+          0.62,
+          0.98
+        ],
+        [
+          0.38,
+          0.32,
+          0.32
+        ],
+        [
+          0.18,
+          0.12,
+          0.18
+        ],
+        [
+          0.4,
+          0.28,
+          0.28
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Treatment-Emergent Sinus Bradycardia Events",
+            "description": "The percentage of participants experiencing treatment-emergent sinus bradycardia events was identified with continuous electrocardiogram (ECG) monitoring. Treatment-emergent sinus bradycardia were defined as a heart rate \\<60 bpm that has also decreased more than 20% compared to participant baseline heart rate value, sustained for at least 1 minute after administration of study intervention. Treatment-emergent sinus bradycardia events may or may not have been considered an adverse event (AE), as determined by investigator judgment.",
+            "timeFrame": "Up to approximately 35 minutes post-administration"
+          },
+          "pred_item": {
+            "measure": "Incidence of treatment-emergent (TE) sinus bradycardia",
+            "description": "Sinus bradycardia defined as heart rate < 60/min or any decrease by more than 20% below baseline, sustained for ≥1 min after administration of study medication",
+            "timeFrame": "Within 35 min after administration of study medication"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Treatment-Emergent Sinus Tachycardia Events",
+            "description": "The percentage of participants experiencing treatment-emergent sinus tachycardia events was identified with continuous ECG monitoring. Treatment-emergent sinus tachycardia is defined as a heart rate ≥100 bpm that has also increased more than 20% compared to participant baseline heart rate value, sustained for at least 1 minute after administration of study intervention. Treatment-emergent sinus tachycardia events may or may not have been considered an AE, as determined by investigator judgment.",
+            "timeFrame": "Up to approximately 35 minutes post-administration"
+          },
+          "pred_item": {
+            "measure": "Incidence of treatment-emergent (TE) sinus tachycardia",
+            "description": "Sinus tachycardia defined as heart rate ≥100/min or any increase by more than 20% above baseline, sustained for ≥1 min after administration of study medication",
+            "timeFrame": "Within 35 min after administration of study medication"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Other Treatment-Emergent Cardiac Arrhythmia Events",
+            "description": "The percentage of participants experiencing other treatment-emergent cardiac arrhythmia events was identified with continuous ECG monitoring. Other treatment-emergent cardiac arrhythmias were defined as new or worsening arrhythmias (e.g., atrial fibrillation, atrial tachycardia, ventricular fibrillation, or ventricular tachyarrhythmia), sustained for at least 1 minute after administration of study intervention. Worsening arrhythmia events may or may not have been considered an AE, as determined by investigator judgment.",
+            "timeFrame": "Up to approximately 35 minutes post-administration"
+          },
+          "pred_item": {
+            "measure": "Incidence of other treatment-emergent (TE) cardiac arrhythmias",
+            "description": "Other arrhythmias defined as new or worsened arrhythmia (e.g., atrial tachycardia or fibrillation), sustained for ≥1 min after administration of study medication",
+            "timeFrame": "Within 35 min after administration of study medication"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants Experiencing an Adverse Event (AE) Up To 7 Days After Administration of Study Intervention",
+            "description": "As per the protocol primary analysis, the percentage of participants experiencing an AE up to 7 days after administration of study intervention was reported. An AE was defined as any untoward medical occurrence in a participant which did not necessarily have a causal relationship with this treatment. An AE could therefore be any unfavourable and unintended sign, symptom, or disease temporally associated with the use of a medicinal product or protocol-specified procedure, whether or not considered related to the medicinal product or protocol-specified procedure. Any worsening (i.e., any clinically significant adverse change in frequency and/or intensity) of a pre-existing condition that was temporally associated with the use of the Sponsor's product was also an AE.",
+            "timeFrame": "Up to 7 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants Experiencing a Serious Adverse Event (SAE) Up To 7 Days After Administration of Study Intervention",
+            "description": "As per the protocol primary analysis, the percentage of participants experiencing an SAE up to 7 days after administration of study intervention was reported. An SAE was an adverse event that: resulted in death; was life threatening; resulted in persistent or significant disability or incapacity; resulted in or prolonged an existing inpatient hospitalization; was a congenital anomaly or birth defect; was an other important medical event, was a cancer; or was associated with an overdose.",
+            "timeFrame": "Up to 7 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants Experiencing an Event of Clinical Interest (ECI) Up To 7 Days After Administration of Study Intervention",
+            "description": "As per the protocol primary analysis, the percentage of participants experiencing an ECI up to 7 days after administration of study intervention was reported. ECIs were a discrete set of both AEs and SAEs, specifically designated as such for the trial. For the purposes of this investigation, ECIs included 1) drug-induced liver injury; 2) clinically-relevant arrhythmias, inclusive of bradycardia and tachycardia defined as events necessitating intervention, as determined by investigator judgment; and 3) instances of hypersensitivity and/or anaphylaxis adjudicated by an external expert Adjudication Committee. A participant could have experienced more than one type of ECI.",
+            "timeFrame": "Up to 7 days"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

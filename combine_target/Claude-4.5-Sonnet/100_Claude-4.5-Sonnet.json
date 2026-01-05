@@ -1,0 +1,134 @@
+{
+  "protocolSection": {
+    "identificationModule": null,
+    "descriptionModule": {
+      "briefSummary": "This is a phase I/IIa, open-label, multicenter study evaluating the safety, tolerability, pharmacokinetics, pharmacodynamics, and preliminary antitumor activity of BMS-986148, a mesothelin-directed antibody-drug conjugate (ADC), administered alone or in combination with nivolumab in patients with advanced solid tumors. The study enrolled patients with selected tumor types predicted to express high levels of mesothelin, including pleural or peritoneal mesothelioma, ovarian cancer, pancreatic cancer, gastric cancer, and non-small cell lung cancer (NSCLC). The primary objective was to determine the safety, tolerability, dose-limiting toxicities, maximum tolerated dose, and recommended phase II dose of BMS-986148 with or without nivolumab.",
+      "detailedDescription": "This international phase I/IIa trial (NCT02341625, CA008-002) investigated BMS-986148, a mesothelin-directed antibody-drug conjugate containing a fully human IgG1 anti-mesothelin monoclonal antibody conjugated to tubulysin via a valine-citrulline linker. The study was conducted at 17 sites across Australia, Belgium, Canada, Italy, the Netherlands, the United Kingdom, and the United States.\n\nThe study comprised dose-escalation, dose-exploration, and dose-expansion phases evaluating BMS-986148 alone or in combination with nivolumab. In the dose-escalation phase, patients received BMS-986148 at doses ranging from 0.1 to 1.6 mg/kg intravenously every 3 weeks (part 1A), 0.4 or 0.6 mg/kg once weekly for 3 weeks followed by 1 week off (part 1B), or BMS-986148 0.8 mg/kg every 3 weeks plus nivolumab 360 mg every 3 weeks (part 3A). During the dose-expansion phase, patients with mesothelioma, NSCLC, pancreatic, ovarian, or gastric cancer and tumor mesothelin expression (H-score ≥100) received BMS-986148 1.2 mg/kg every 3 weeks (part 2) or BMS-986148 0.8 mg/kg plus nivolumab 360 mg every 3 weeks (part 3B).\n\nEligible patients were ≥18 years old with histologically confirmed advanced solid tumors, ≥1 measurable lesion per RECIST v1.1 (or modified RECIST for malignant pleural mesothelioma), and ECOG performance status of 0 or 1. Patients must have progressed on or been intolerant of ≥1 standard treatment regimen. In the dose-expansion phase, patients were required to have an H-score ≥100 for tumor-cell mesothelin expression.\n\nBetween May 2015 and April 2019, 126 patients were treated: 96 received BMS-986148 monotherapy (84 every 3 weeks, 12 once weekly) and 30 received BMS-986148 plus nivolumab. The maximum tolerated dose of BMS-986148 was determined to be 1.2 mg/kg every 3 weeks. Safety assessments included adverse event monitoring according to NCI CTCAE v4.03. Pharmacokinetic parameters were evaluated from serum and plasma samples. Tumor response was assessed by CT/MRI every 2 cycles using RECIST v1.1 or modified RECIST for mesothelioma. Mesothelin expression was evaluated by immunohistochemistry on formalin-fixed, paraffin-embedded tumor samples using mesothelin mouse monoclonal antibody (clone 5B2)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Mesothelioma",
+        "Ovarian Cancer",
+        "Pancreatic Cancer",
+        "Gastric Cancer",
+        "Non-Small Cell Lung Cancer",
+        "Advanced Solid Tumors"
+      ],
+      "keywords": [
+        "Mesothelin",
+        "Antibody-Drug Conjugate",
+        "BMS-986148",
+        "Nivolumab",
+        "Immunotherapy",
+        "Checkpoint Inhibitor",
+        "PD-1",
+        "Tubulysin",
+        "Phase I",
+        "Phase IIa",
+        "Dose Escalation",
+        "Mesothelioma",
+        "Ovarian Neoplasms",
+        "Pancreatic Neoplasms",
+        "Stomach Neoplasms",
+        "Carcinoma, Non-Small-Cell Lung"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "This multicohort study comprises dose-escalation, dose-exploration, and dose-expansion phases that evaluate BMS-986148 alone or in combination with nivolumab. Patients received BMS-986148 monotherapy at various dose levels (0.1-1.6 mg/kg i.v. every 3 weeks or 0.4-0.6 mg/kg i.v. once weekly) or BMS-986148 0.8 mg/kg + nivolumab 360 mg i.v. every 3 weeks.",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Open-label study",
+          "whoMasked": []
+        }
+      },
+      "enrollmentInfo": {
+        "count": 126,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "BMS-986148 monotherapy every 3 weeks (dose escalation)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received BMS-986148 at doses of 0.1, 0.2, 0.4, 0.8, 1.2, or 1.6 mg/kg intravenously every 3 weeks (21-day cycle) during the dose-escalation phase (part 1A).",
+          "interventionNames": [
+            "Drug: BMS-986148"
+          ]
+        },
+        {
+          "label": "BMS-986148 monotherapy once weekly (dose escalation)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received BMS-986148 at doses of 0.4 or 0.6 mg/kg intravenously once weekly for 3 weeks followed by 1 week off (28-day cycle) during the dose-escalation phase (part 1B).",
+          "interventionNames": [
+            "Drug: BMS-986148"
+          ]
+        },
+        {
+          "label": "BMS-986148 monotherapy every 3 weeks (dose expansion)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with mesothelioma, NSCLC, pancreatic, ovarian, or gastric cancer and tumor mesothelin expression (H-score ≥100) received BMS-986148 at 1.2 mg/kg intravenously every 3 weeks during the dose-expansion phase (part 2).",
+          "interventionNames": [
+            "Drug: BMS-986148"
+          ]
+        },
+        {
+          "label": "BMS-986148 + nivolumab every 3 weeks (dose escalation)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received BMS-986148 at 0.8 mg/kg intravenously every 3 weeks plus nivolumab at 360 mg intravenously every 3 weeks during the dose-escalation phase (part 3A).",
+          "interventionNames": [
+            "Drug: BMS-986148",
+            "Drug: Nivolumab"
+          ]
+        },
+        {
+          "label": "BMS-986148 + nivolumab every 3 weeks (dose expansion)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with mesothelioma, NSCLC, pancreatic, ovarian, or gastric cancer and tumor mesothelin expression (H-score ≥100) received BMS-986148 at 0.8 mg/kg intravenously every 3 weeks plus nivolumab at 360 mg intravenously every 3 weeks during the dose-expansion phase (part 3B).",
+          "interventionNames": [
+            "Drug: BMS-986148",
+            "Drug: Nivolumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "BMS-986148",
+          "description": "BMS-986148 is a mesothelin-directed antibody-drug conjugate (ADC) containing a fully human IgG1 anti-mesothelin monoclonal antibody conjugated to tubulysin (a cytotoxic compound that disrupts microtubule assembly) via a valine-citrulline linker. It was administered intravenously at various doses and schedules depending on the study arm.",
+          "armGroupLabels": [
+            "BMS-986148 monotherapy every 3 weeks (dose escalation)",
+            "BMS-986148 monotherapy once weekly (dose escalation)",
+            "BMS-986148 monotherapy every 3 weeks (dose expansion)",
+            "BMS-986148 + nivolumab every 3 weeks (dose escalation)",
+            "BMS-986148 + nivolumab every 3 weeks (dose expansion)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Nivolumab",
+          "description": "Nivolumab is an anti-programmed death-1 (PD-1) monoclonal antibody that blocks the PD-1 pathway to restore and enhance antitumor T-cell function. It was administered intravenously at 360 mg every 3 weeks in combination with BMS-986148.",
+          "armGroupLabels": [
+            "BMS-986148 + nivolumab every 3 weeks (dose escalation)",
+            "BMS-986148 + nivolumab every 3 weeks (dose expansion)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": null,
+    "eligibilityModule": null
+  }
+}

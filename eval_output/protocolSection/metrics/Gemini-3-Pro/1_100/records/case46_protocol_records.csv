@@ -1,0 +1,114 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04492722,NCT04492722,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,EudraCT,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,A Study to Evaluate the Safety and Efficacy of AZD5718 in Participants With Proteinuric Chronic Kidney Disease,FLAP Inhibition in Renal Disease,True,0.83,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,"A Phase 2b Randomised, Double-Blind, Placebo-Controlled, Multi-Centre, Dose-Ranging Study of AZD5718 in Participants With Proteinuric Chronic Kidney Disease","A Phase 2b, Randomized, Double-Blind, Placebo-Controlled, Multicenter Study to Evaluate the Efficacy and Safety of AZD5718 in Patients With Proteinuric CKD With or Without Type 2 Diabetes",True,0.95,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.acronym,EV,EV,,FLAIR,,,,Acronym,protocolSection.identificationModule.acronym,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"The purpose of the study is to evaluate the dose-response efficacy, safety, and pharmacokinetics (PK) of AZD5718 in participants with proteinuric chronic kidney disease.","FLAIR is a phase 2b, randomized, double-blind, placebo-controlled, multicenter study designed to evaluate the efficacy, safety, and pharmacokinetics of AZD5718 in patients with proteinuric chronic kidney disease (CKD), with or without type 2 diabetes. AZD5718 is a selective 5-lipoxygenase activating protein (FLAP) inhibitor that suppresses leukotriene production. The study assesses whether AZD5718 reduces albuminuria compared to placebo, both alone and when combined with dapagliflozin.",True,0.9,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"The study will be conducted in approximately 118 study centers across 12 countries. The overall study period will be around 28 weeks. Approximately 632 participants comprising of 67% diabetic kidney disease (DKD) and 33% non-DKD participants will be enrolled. After a screening period of up to 4 weeks, the participants will be randomised in a 1:1:1:1 ratio to receive one of the doses of AZD5718 and/or placebo for the first 12 weeks (Day 85 \[treatment period 1\]), with an add-on therapy of 8 weeks of dapagliflozin for all participants from Week 12 to 20 (Day 85 to 141 \[treatment period 2\]). Only participants still taking their assigned treatment from treatment period 1 will progress to treatment period 2. Any participant with urine albumin to creatinine ratio (ACR) \< 30 mg/g at Week 12 will be excluded from treatment period 2. The eligibility check to enter treatment period 2 will be done at Visit 7 (Week 12) using the last available urine ACR result. The final analysis will be done after all participants have completed follow-up period of up to 4 weeks. The expected total study duration, including the Screening Period, for each participant will be at least 28 weeks.","The study aims to evaluate the dose–response effect of AZD5718. Participants are randomized 1:1:1:1 to receive oral AZD5718 at 3 different doses or matching placebo tablets once daily for 12 weeks (first treatment period). This is followed by an 8-week extension (second treatment period) during which all participants receive dapagliflozin (10 mg/d) in addition to their assigned study drug (AZD5718 or placebo), representing an anticipated future standard of care. The primary efficacy objective is to evaluate the dose–response effect of AZD5718 plus dapagliflozin on the urinary albumin-to-creatinine ratio (UACR) after 20 weeks compared with placebo. Key secondary objectives include the dose–response effect of AZD5718 plus current standard of care on UACR at 12 weeks and acute effects on estimated glomerular filtration rate (eGFR). Exploratory objectives include assessing biomarkers of the 5-lipoxygenase pathway (e.g., leukotriene E4) and potential effects on diabetic retinopathy.",True,0.78,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['Chronic Kidney Disease'],"['Chronic Kidney Disease', 'Proteinuria', 'Diabetic Kidney Disease', 'Type 2 Diabetes Mellitus']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['Nephrology', 'Chronic kidney disease', 'Proteinuria', 'Diabetic kidney disease', 'Diabetes mellitus']","['AZD5718', 'FLAP inhibitor', 'Leukotrienes', 'Albuminuria', 'Dapagliflozin', 'SGLT2 inhibitor', 'Inflammation', 'Renal insufficiency']",False,0.0,disjoint,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Participants are randomized 1:1:1:1 to receive oral AZD5718 at 3 different doses or matching placebo tablets once daily for 12 weeks, followed by the same treatment plus dapagliflozin 10 mg/d for 8 weeks.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,QUADRUPLE,DOUBLE,False,0.6,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR']",True,0.75,partial,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,613,632,True,0.9,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Leukotriene E4 Levels,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].measure,EV,EV,,Biomarkers of Response,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[2].measure,EV,EV,,Biomarkers Predicting Response,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[3].measure,EV,EV,,Diabetic Retinopathy Assessment,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[4].measure,EV,EV,,Pharmacokinetics of Dapagliflozin,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,Dose–response effect of AZD5718 on urinary and plasma leukotriene E4 levels to assess inhibition of the 5-lipoxygenase pathway.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].description,EV,EV,,"Sample collection for investigation of biomarkers that respond to treatment with AZD5718 (including high-sensitivity C-reactive protein, interleukin-6, and PRO-C6).",,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[2].description,EV,EV,,Sample collection to investigate biomarkers that may predict response to treatment with AZD5718.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[3].description,EV,EV,,"Effect of AZD5718 on diabetic retinopathy in patients with diabetic kidney disease, assessed by visual acuity (ETDRS charts) and central subfield thickness (optical coherence tomography).",,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[4].description,EV,EV,,Measurement of dapagliflozin plasma concentrations.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,Throughout the study,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].timeFrame,EV,EV,,Throughout the study,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[2].timeFrame,EV,EV,,Baseline,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[3].timeFrame,EV,EV,,Baseline and Week 12,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[4].timeFrame,EV,EV,,After 8 weeks of dapagliflozin treatment (Week 20),,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Capable of giving signed informed consent form.
+* Male or female adults, \>= 18 years of age at study entry.
+* For participants who haven't reached the age of maturity according to local regulations in their country, a written informed consent should be obtained from the participant and participants legally acceptable representative.
+* Body weight within 50-150 kg and body mass index within the range 18 to 45 kg/m\^2.
+* Participants with proteinuric CKD defined as:
+
+  * eGFR 20 - 75 mL/min/1.73m\^2 based on Chronic Kidney Disease Epidemiology Collaboration equation at Screening Visit 1.
+  * Albuminuria defined as 200 -5000 mg albumin/g creatinine based on the geometric mean of the replicated measurements using 3 sequential first morning void urine at Visit 2.
+  * Participants with diagnosis of Type 2 Diabetes Mellitus (DM) \[for DKD sub-group only\].
+* Females of non-childbearing potential must have been surgically sterilized or be postmenopausal, and all female participants must have a negative pregnancy test at screening and prior to study drug administration.
+* Male participants must be surgically sterile or agree to use highly effective contraceptives. Non-sterilized male participants who are sexually active with a female partner of childbearing potential must use a male condom with spermicide from Day 1 to 3 months after the last dose of the study drug. Approved/Certified measurements in Japan are as Vasectomy, tubal occlusion, intrauterine device (provided coils are copper banded), levonorgestrel intrauterine system (eg, Mirena®). These measurements are acceptable forms of highly effective birth control in Japan. Not Approved/Certified measurements in Japan are as: Cerazette® (desogestrel) pills, medroxyprogesterone injections (eg, Depo-Provera®), etonogestrel implants (eg, Implanon®, Norplan®), normal and low dose combined oral pills, norelgestromin/ethinylestradiol transdermal system (eg, Evra® Patch), intravaginal device (eg, NuvaRing®).
+* Provision of signed and dated written Optional Genetic Research Information informed consent prior to collection of samples for optional exploratory genetic research.
+* Participants should have: a) stable blood pressure (BP \[BP \<= 150/100 mmHg at Visit 1, and 3\]); b)stable dose of angiotensin converting enzyme inhibitor (ACEi) or angiotensin receptor blockers (ARB) for at least 4 weeks prior to Screening Visit 1; c) participants who have been unable to tolerate ACEi or ARB therapy may be enrolled.
+* Participants must have been on a stable dose for at least 4 weeks prior to Screening Visit 1, who have been on additional antihypertensives (including diuretics); on treatment with drugs with potential to influence albuminuria eg., non-steroidal anti-inflammatory drug; on renin inhibitor or an aldosterone antagonist in combination with an ACEi or an ARB.
+* Participants on Sodium-glucose co-transporter-2 inhibitors (SGLT2i) or Glucagon-like peptide-1 receptor agonist (GLP1-RA) treatment, the participants must have been on a stable dose for at least 4 weeks prior to randomization visit.
+
+Exclusion Criteria:
+
+* Participants with recent positive hepatitis B or hepatitis C.
+* Diagnosis of polycystic kidney disease or anatomical causes of CKD.
+* Diagnosis of Type 1 DM.
+* Participants with severe hepatic impairment (Child-Pugh class C).
+* Abnormal laboratory findings at Screening Visit 1.
+* Any of the following concomitant conditions or diseases at Screening Visit 1:
+
+  1. History of QT prolongation associated with other medications that required discontinuation of that medication, and congenital long QT syndrome.
+  2. Acute coronary syndrome, percutaneous coronary intervention, coronary artery bypass grafting within 6 months.
+  3. High degree atrioventricular block II-III, sinus node dysfunction.
+  4. Stroke within 3 months, heart failure, and anticipated dialysis or renal transplantation within 1 year.
+  5. Any other condition or clinically relevant abnormal findings in physical examination, laboratory results or ECG during screening period.
+  6. History of substance dependence or a positive screen for drugs or alcohol abuse. Alcohol and drug screening to be completed for all participants locally with laboratory kits provided by the central laboratory.
+* Participant who had severe course of COVID-19 (extracorporeal membrane oxygenation, mechanically ventilated), and/or had a confirmed case of COVID-19 within 4 weeks of Screening Visit 1.
+* Ongoing use of any biologic drug and/or small molecule targeting the immune system.
+* Any serum creatinine-altering drugs within 1 month prior to Screening Visit 1.
+* Treatment with any concomitant medications known to be associated with Torsades de Pointes or potent inducers/inhibitors of cytochrome P450 3A4 within 4 weeks of Visit 3 (Randomization).
+* Treatment with zileuton, cilastatin (dipeptidase-1 \[DPEP1\] inhibitor), or leukotriene receptor antagonists (eg, montelukast) within 4 weeks of Screening Visit 1.
+* Treatment with simvastatin, lovastatin, and atorvastatin at doses \> 40 mg per day within 1 month prior to Screening Visit 1.
+* Concurrent enrollment in another clinical study involving an investigational treatment or drug or participation in a device study within 3 months prior to Screening Visit 1.
+* Participants with a known hypersensitivity to AZD5718 or any of the excipients of the product. Participants with a known hypersensitivity to dapagliflozin or any of the excipients of the product.
+* Donation of blood or significant blood loss in excess of 500 mL within 3 months prior to Day 1 (or \> 1200 mL in the year prior to Day 1).
+* Plasma donation within 60 days prior to Day 1.
+* Involvement in the planning and/or conduct of the study (applies to both AstraZeneca staff and/or staff at the study center).
+* Judgement by the Investigator that the participant should not participate in the study if the participant is unlikely to comply with study procedures, restrictions, and requirements.
+* For women only - currently pregnant (a negative serum pregnancy test is required at Screening Visit 1 and urine pregnancy test at Day 1 \[Visit 3\]) or breast-feeding.
+* An employee, or close relative of an employee, of AstraZeneca, the Contract Research Organisation, or the study site, regardless of the employee's role.
+* Participants who are legally institutionalized.
+* Participants working night shifts, and who cannot avoid strenuous manual labour during the study.","Inclusion Criteria:
+
+*   Men and women 18 years of age or older
+*   Body mass index of 18–45 kg/m2
+*   Albuminuric CKD (estimated glomerular filtration rate [eGFR] of 20–75 ml/min per 1.73 m2 and albuminuria of 200–5000 mg albumin/g creatinine)
+*   Stable, reasonably controlled blood pressure
+*   Must be on stable doses of ACE inhibitors and/or ARBs for at least 4 weeks before randomization (if able to tolerate these medications)
+*   Patients already receiving SGLT2 inhibitors or glucagon-like peptide 1 receptor agonists must be on a stable dose for at least 4 weeks before randomization
+*   Confirmed diagnosis of type 2 diabetes mellitus or nondiabetic kidney disease
+*   Men must be surgically sterile or using highly effective contraceptives
+*   Women must be unable to have children (surgically sterile or postmenopausal)
+
+Exclusion Criteria:
+
+*   Hepatitis B or C
+*   Polycystic kidney disease or anatomical causes of chronic kidney disease
+*   Type 1 diabetes mellitus
+*   Severe hepatic impairment (Child–Pugh class C)
+*   Severe comorbidities or history of disease or disorder that would put patient at risk, affect participation, or influence study results
+*   Confirmed COVID-19 in the past 4 weeks or severe COVID-19 at any point
+*   Ongoing use of any biologic drug and/or small molecule targeting the immune system
+*   Use of drugs that affect serum creatinine concentration in the past month
+*   Concomitant use of medications associated with torsades de pointes or strong inducers/inhibitors of cytochrome P450 3A4
+*   Treatment with zileuton, leukotriene receptor antagonists (e.g., montelukast) or cilastatin in the past month
+*   Treatment with simvastatin, lovastatin, or atorvastatin at doses more than 40 mg per day in the past month
+*   Hypersensitivity to drugs with a chemical structure or class similar to that of AZD5718
+*   Pregnancy or breastfeeding",True,0.98,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,FP,130 Years,N/A,False,0.1,success,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

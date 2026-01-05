@@ -1,0 +1,128 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04973488",
+      "orgStudyIdInfo": {
+        "id": "STUDYTPECVP20"
+      },
+      "organization": {
+        "fullName": "University of Medicine and Pharmacy \"Victor Babes\" Timisoara",
+        "class": "OTHER"
+      },
+      "briefTitle": "Therapeutic Plasma Exchange Followed by Convalescent Plasma Transfusion in Severe and Critically Ill COVID-19 Patients",
+      "officialTitle": "Therapeutic Plasma Exchange Followed by Convalescent Plasma Transfusion in Severe and Critically Ill COVID-19 Patients"
+    },
+    "descriptionModule": {
+      "briefSummary": "Therapeutic plasma exchange (TPE) has been proposed as a rescue therapy in critically ill COVID-19 patients. The aim of this study is to determine whether combining TPE with convalescent plasma (CVP) transfusion early during the intensive care unit (ICU) stay, improves survival among this heterogeneous population.",
+      "detailedDescription": "This single centre prospective, non-randomised controlled trial will be conducted in an 8 bed COVID-19 ICU and will include patients with severe COVID-19 pneumonia requiring ICU monitoring and therapy. 19 patients will be treated performing TPE followed by CVP transfusion while for 19 patients will receive standard treatment according to hospital protocols. TPE will be initiated during the first 24 hours after ICU admission, followed immediately by transfusion of CVP. The primary endpoint is survival at 30 days. Secondary endpoints include assessing the evolution of biomarkers, such as the partial pressure of arterial oxygen (PaO2) to fractional inspired oxygen (FiO2) ratio (P/F ratio), C reactive protein (CRP), lactate dehydrogenase (LDH) and ferritin at the 7-day follow-up."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19 Pneumonia",
+        "COVID-19 Respiratory Infection",
+        "Acute Respiratory Failure",
+        "Acute Respiratory Distress Syndrome"
+      ],
+      "keywords": [
+        "Therapeutic Plasma Exchange",
+        "Convalescent Plasma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Single group, that is divided into two arms",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Not masked",
+          "whoMasked": [
+            "CARE_PROVIDER",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 38,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment arm",
+          "type": "EXPERIMENTAL",
+          "description": "In the treatment arm, Therapeutic plasma exchange will be conducted in the first 24 hours after being admitted into the intensive care unit, after which convalescent plasma from donors that have had COVID-19 will be transfused",
+          "interventionNames": [
+            "Other: Therapeutic plasma exchange"
+          ]
+        },
+        {
+          "label": "Control arm",
+          "type": "NO_INTERVENTION",
+          "description": "In the control arm, patients will receive standard COVID-19 treatment"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Therapeutic plasma exchange",
+          "description": "The intervention is a combination between the procedure of Therapeutic plasma exchange and biological transfusion of convalescent plasma from donors that have have COVID-19",
+          "armGroupLabels": [
+            "Treatment arm"
+          ],
+          "otherNames": [
+            "Transfusion of convalescent plasma"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Survival",
+          "description": "Number of Participants who Survived",
+          "timeFrame": "30 day period"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "P/F Ratio",
+          "description": "Average Partial pressure of arterial oxygen (PaO2) to fractional inspired oxygen (FiO2) ratio - P/F ratio calculated between the values from day 1 and day 7",
+          "timeFrame": "7 day period"
+        },
+        {
+          "measure": "C Reactive Protein (CRP)",
+          "description": "Average value of CRP calculated using the values from day 1 and day 7",
+          "timeFrame": "7 day period"
+        },
+        {
+          "measure": "Lactate Dehydrogenase (LDH)",
+          "description": "Average value of LDH calculated using the values from day 1 and day 7",
+          "timeFrame": "7 day period"
+        },
+        {
+          "measure": "Ferritin",
+          "description": "Average value of ferritin calculated using the values from day 1 and day 7",
+          "timeFrame": "7 day period"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* positive reverse transcriptase PCR test for COVID 19\n* COVID-19 pneumonia\n* All patients included were adults (\\>18 years)\n* Acute respiratory failure\n\nExclusion Criteria:\n\n* pregnant women\n* patients with suspected or confirmed pulmonary embolism\n* patients with terminal disease",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "90 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "metadata": {
+    "case_id": 93,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T19:33:27.325642",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/93_NCT02313272.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/93_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "HFSRT with Pembrolizumab and Bevacizumab",
+            "type": "EXPERIMENTAL",
+            "description": "Hypofractionated Stereotactic Irradiation (HFSRT). Pembrolizumab intravenous (IV) infusion every 3 weeks. Bevacizumab administered intravenously every 2 weeks.",
+            "interventionNames": [
+              "Radiation: Hypofractionated Stereotactic Irradiation (HFSRT)",
+              "Drug: Pembrolizumab",
+              "Drug: Bevacizumab"
+            ]
+          },
+          "pred_item": {
+            "label": "Hypofractionated stereotactic radiotherapy (HFSRT) + bevacizumab + pembrolizumab",
+            "type": "EXPERIMENTAL",
+            "description": "Recurrent high-grade glioma patients received hypofractionated stereotactic radiotherapy (HFSRT; 6 Gy × 5 fractions delivered over one week) with a prescribed dose of 30–35 Gy to the planning target volume (PTV) and a simultaneously integrated boost to the gross tumor volume (GTV) with D95% = 30–40 Gy. All patients also received intravenous bevacizumab (10 mg/kg every 2 weeks) and intravenous pembrolizumab (100 mg or 200 mg every 3 weeks) until progression.",
+            "interventionNames": [
+              "Hypofractionated stereotactic radiotherapy (HFSRT)",
+              "Bevacizumab",
+              "Pembrolizumab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.4,
+          0.62
+        ],
+        [
+          0.3,
+          0.78,
+          0.95
+        ],
+        [
+          0.18,
+          0.96,
+          0.5
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "RADIATION",
+            "name": "Hypofractionated Stereotactic Irradiation (HFSRT)",
+            "description": "Radiation therapy treatment (FSRT) which will be given to participants over 5 days.",
+            "armGroupLabels": [
+              "HFSRT with Pembrolizumab and Bevacizumab"
+            ]
+          },
+          "pred_item": {
+            "type": "RADIATION",
+            "name": "Hypofractionated stereotactic radiotherapy (HFSRT)",
+            "description": "Stereotactic radiotherapy delivered as 6 Gy × 5 consecutive daily fractions (total 30–35 Gy) to the planning target volume, with a simultaneously integrated boost to the gross tumor volume (GTV) to achieve D95% = 30–40 Gy. Plans were generated in iPlan and delivered as intensity-modulated radiotherapy using volumetric modulated arc therapy with image guidance.",
+            "armGroupLabels": [
+              "Hypofractionated stereotactic radiotherapy (HFSRT) + bevacizumab + pembrolizumab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Pembrolizumab",
+            "description": "Dose Escalation: The dose of pembrolizumab will be escalated per schema in a 3+3 fashion. The starting dose (i.e., dose level 1) will be 100 mg.\n\nDose Expansion: The pembrolizumab dose used in the dose expansion cohort will be maximum tolerated dose (MTD) determined from the dose escalation phase.",
+            "armGroupLabels": [
+              "HFSRT with Pembrolizumab and Bevacizumab"
+            ],
+            "otherNames": [
+              "Keytruda®",
+              "MK-3475"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Pembrolizumab",
+            "description": "Anti-PD-1 monoclonal antibody administered intravenously at 100 mg or 200 mg every 3 weeks in combination with HFSRT and bevacizumab until disease progression.",
+            "armGroupLabels": [
+              "Hypofractionated stereotactic radiotherapy (HFSRT) + bevacizumab + pembrolizumab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Bevacizumab",
+            "description": "Initial cycle of bevacizumab must start within 10 days of registering to the trial. It will be given concurrent with radiation therapy. Bevacizumab will be administered intravenously at a dose of 10 mg/kg every 2 weeks. Doses will be adjusted if there is a \\> 10% change in weight.",
+            "armGroupLabels": [
+              "HFSRT with Pembrolizumab and Bevacizumab"
+            ],
+            "otherNames": [
+              "Avastin®"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Bevacizumab",
+            "description": "Monoclonal antibody against vascular endothelial growth factor (VEGF), administered intravenously at 10 mg/kg every 2 weeks in combination with HFSRT and pembrolizumab until disease progression.",
+            "armGroupLabels": [
+              "Hypofractionated stereotactic radiotherapy (HFSRT) + bevacizumab + pembrolizumab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.15
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.15,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Maximum Tolerated Dose (MTD)",
+            "description": "The pembrolizumab dose used in the dose expansion cohort will be MTD determined from the dose escalation phase. Dose Escalation: The maximum tolerated dose (MTD) is the highest dose of pembrolizumab in combination with bevacizumab after radiation therapy that does not cause unacceptable toxicity in more than one of six patients at that dose level. The MTD is defined as one dose level below the highest toxic dose (i.e., the Dose Limiting Toxicity (DLT) dose).",
+            "timeFrame": "Up to 24 months"
+          },
+          "pred_item": {
+            "measure": "Tumor volume dynamics and time to tumor progression under HFSRT with bevacizumab and pembrolizumab",
+            "description": "Mathematical modeling of longitudinal volumetric tumor growth in patients treated on trial NCT02313272 with hypofractionated stereotactic radiotherapy (6 Gy × 5), bevacizumab, and pembrolizumab, used to characterize tumor volume response and the time to tumor progression or regrowth.",
+            "timeFrame": "From pre-treatment baseline MRI through serial MRI assessments approximately every 6 weeks until radiographic progression or end of follow-up"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.21,
+          0.22
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.22,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Response Rate (RR)",
+            "description": "Response rate of pembrolizumab given in combination with bevacizumab and hypofractionated stereotactic re-irradiation of recurrent high grade gliomas. Response to treatment will be assessed by the investigator and according to the Response Assessment Criteria for High-Grade Gliomas (RANO Criteria). Brain MRI will be performed every 6 weeks beginning at the end of Week 6 (± 1 week) for 3 cycles and then every 12 weeks (± 1 week) until disease progression or treatment discontinuation, whichever occurs later.",
+            "timeFrame": "Up to 24 months"
+          },
+          "pred_item": {
+            "measure": "Kaplan–Meier estimates of time to progression under different fractionation schedules",
+            "description": "Comparison of time-to-progression distributions for HFSRT, iRT, and iRT plus boost using Kaplan–Meier analysis and log-rank testing, assessing non-inferiority or superiority of intermittent schedules.",
+            "timeFrame": "Modeled follow-up from treatment start until simulated progression or censoring, with analyses repeated for up to 5, 7, 9, 11, and 13 intermittent fractions"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "case_id": 26,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T15:26:18.526403",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/26_NCT02252588.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/26_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.4
+        ],
+        [
+          0.3,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Chlorhexidine",
+            "type": "EXPERIMENTAL",
+            "description": "Oral Rinse",
+            "interventionNames": [
+              "Drug: Chlorhexidine",
+              "Other: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Chlorhexidine",
+            "type": "EXPERIMENTAL",
+            "description": "Participants randomized to receive 15 mL of twice-daily 0.12% oral chlorhexidine rinses (PerioGard) for 8 weeks",
+            "interventionNames": [
+              "DRUG: 0.12% Chlorhexidine oral rinse"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Oral Rinse",
+            "interventionNames": [
+              "Drug: Chlorhexidine",
+              "Other: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants randomized to receive matched placebo mouth rinses twice daily for 8 weeks",
+            "interventionNames": [
+              "DRUG: Placebo oral rinse"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.7
+        ],
+        [
+          0.2,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Chlorhexidine",
+            "description": "Oral Rinse",
+            "armGroupLabels": [
+              "Chlorhexidine",
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "0.12% Chlorhexidine oral rinse",
+            "description": "15 mL of 0.12% chlorhexidine oral rinse (PerioGard) administered twice daily for 8 weeks. Chlorhexidine is a topical antiseptic that binds to bacterial cell walls and exerts bacteriostatic and bacteriocidal effects; it is broadly active against Gram positive and Gram negative bacteria as well as yeasts.",
+            "armGroupLabels": [
+              "Chlorhexidine"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Placebo",
+            "description": "Oral Rinse",
+            "armGroupLabels": [
+              "Chlorhexidine",
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo oral rinse",
+            "description": "15 mL of matched placebo mouth rinse administered twice daily for 8 weeks",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Sputum Bacteria Biomass",
+            "description": "Samples underwent DNA extraction and 16S rRNA quantification and 16S rRNA V4 MiSeq sequencing was performed at the University of Minnesota Genomics Center. The biomass was the number of bacteria as measured by 16S rRNA copy number. To adjust biomass for the size of the sputum sample, raw counts were normalized by dividing by the sample volume or mass.",
+            "timeFrame": "Baseline, 8 weeks"
+          },
+          "pred_item": {
+            "measure": "Change in sputum microbiota biomass",
+            "description": "Change in sputum microbiota biomass after 8 weeks of chlorhexidine versus placebo use, compared with baseline values as assessed by 16S rRNA quantification",
+            "timeFrame": "Baseline and 8 weeks"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 12,
+      "similarity_matrix": [
+        [
+          0.1,
+          0.18,
+          0.05,
+          0.02,
+          0.18,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.86,
+          0.72,
+          0.05
+        ],
+        [
+          0.13,
+          0.1,
+          0.09,
+          0.05,
+          0.2,
+          0.15,
+          0.18,
+          0.08,
+          0.1,
+          0.82,
+          0.95,
+          0.12
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 9,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Breathlessness, Cough, and Sputum Scale (BCSS)",
+            "description": "The Breathlessness, Cough, and Sputum Scale (BCSS) is a brief, three-item, patient-reported outcome measure in which each of the three symptoms assessed by the measure is represented by a single item. Patients are asked to evaluate each symptom/item on a 5-point Likert-type scale, ranging from 0 to 4. Total scores range from 0 to 12 with higher scores indicating a more severe manifestation of the symptom.",
+            "timeFrame": "Baseline, 8 weeks"
+          },
+          "pred_item": {
+            "measure": "Change in Breathlessness, Cough and Sputum Scale (BCSS) scores",
+            "description": "Change in BCSS scores after 8 weeks of chlorhexidine versus placebo use, compared with baseline values. BCSS assesses daily respiratory symptoms.",
+            "timeFrame": "Baseline and 8 weeks (daily diaries)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 10,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in St George Respiratory Quotient (SGRQ)",
+            "description": "The St George Respiratory Quotient (SGRQ) contains 50 items measuring symptoms of and activities affected by obstructive airway disease. Total score is a sum of item scores and ranges from 0 to 100, with higher scores indicating more limitations. The minimally significant difference is 4.",
+            "timeFrame": "baseline, 8 weeks"
+          },
+          "pred_item": {
+            "measure": "Change in St. George's Respiratory Questionnaire (SGRQ) score",
+            "description": "Change in SGRQ total score after 8 weeks of chlorhexidine versus placebo use, compared with baseline values. SGRQ assesses respiratory health-related quality of life.",
+            "timeFrame": "Baseline and 8 weeks"
+          }
+        }
+      ]
+    }
+  ]
+}

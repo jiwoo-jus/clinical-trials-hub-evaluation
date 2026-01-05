@@ -1,0 +1,89 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04358549,NCT04358549,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Study of the Use of Favipiravir in Hospitalized Subjects With COVID-19,Favipiravir in Hospitalized Patients With COVID-19,True,0.98,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,"Open Label, Randomized, Controlled Phase 2 Proof-of-Concept Study of the Use of Favipiravir Compared to Standard of Care in Hospitalized Subjects With COVID-19","A Phase 2, Randomized, Open-Label, Multicenter Trial of Favipiravir to Treat Adults Hospitalized for COVID-19",True,0.96,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,To determine the effect of favipiravir + SOC v. SOC on COVID-19 viral clearance.,"This study is a randomized, open-label, multicenter, phase 2 proof-of-concept trial evaluating the safety and efficacy of favipiravir in hospitalized adult patients with polymerase chain reaction (PCR)–positive coronavirus disease 2019 (COVID-19). Favipiravir, a nucleoside analog with antiviral activity against RNA viruses, was administered orally in addition to standard of care (SOC) and compared against SOC alone. The primary objective was to measure the time to viral clearance by day 29, assessing whether favipiravir accelerates the elimination of SARS-CoV-2 in hospitalized patients.",True,0.95,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"This is an open label, randomized, controlled, multicenter Phase 2 proof-of-concept study of favipiravir in hospitalized subjects with Corona Virus Disease (COVID) -19. Subjects will be randomized within their study site and stratified by the severity of their disease to receive either favipiravir + standard of care (SOC) or SOC alone.
+
+The dose regimen will be 1800 mg favipiravir bis in die (BID) plus SOC or SOC alone on Day 1 followed by 1000 mg BID favipiravir (800 mg BID for subjects with Child-Pugh A liver impairment) plus SOC or SOC for the next 13 days.
+
+The study will have 14 days of treatment and 46 days of follow-up.
+
+Approximately 50 patients are planned to be enrolled in the trial at approximately 8 study sites in the US.","The trial was conducted at 7 US academic medical centers involving hospitalized adults (ages 18–80) with SARS-CoV-2 infection confirmed by PCR within 72 hours of hospitalization and symptom onset within 10 days. Patients were stratified by disease severity (critical, severe, or mild to moderate) and randomized to receive either standard of care (SOC) alone or favipiravir plus SOC. The favipiravir dosing regimen was 1800 mg orally twice a day (b.i.d.) on day 1, followed by 1000 mg b.i.d. for 13 days (total 14 days). Patients with Child-Pugh A liver disease received a reduced maintenance dose.
+
+The primary endpoint was time to viral clearance, defined as the number of days from randomization to the first negative SARS-CoV-2 PCR result (or result below the lower limit of detection) from scheduled nasopharyngeal and oropharyngeal swabs, assessed up to day 29. Secondary endpoints included clinical recovery status measured by a study-specific 6-point ordinal scale, time to clinical recovery (normalization of fever, respiratory rate, oxygen saturation, and alleviation of cough), clinical effect via the NEWS2 system, all-cause mortality, frequency of respiratory progression, and safety profiles. Pharmacokinetic analyses were performed to assess plasma favipiravir levels. Post hoc analyses examined the impact of baseline neutralizing antibody status and time from symptom onset on viral clearance.",True,0.86,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['COVID-19'],"['COVID-19', 'SARS-CoV-2 Infection']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Favipiravir', 'Antiviral Agents', 'Viral Clearance', 'Nucleoside Analog', 'Pharmacokinetics', 'Hospitalized Patients']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Open-label,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,50,50,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[11].measure,EV,EV,,Frequency of requirement for mechanical ventilation,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[12].measure,EV,EV,,Safety of favipiravir+SOC vs SOC alone,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].measure,EV,EV,,Time to defervescence,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[6].measure,EV,EV,,Time to cough reported as mild or absent,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[7].measure,EV,EV,,Time to dyspnea reported as mild or absent,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[8].measure,EV,EV,,Frequency of requirement for supplemental oxygen or noninvasive ventilation,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[9].measure,EV,EV,,Time to SARS-CoV-2 RT-PCR-negative in upper respiratory tract specimen,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[11].description,EV,EV,,Frequency of patients requiring mechanical ventilation.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[12].description,EV,EV,,Assessment of adverse events and serious adverse events.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].description,EV,EV,,Time to resolution of fever in those with fever at enrollment.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[6].description,EV,EV,,Assessed in those with cough at enrollment rated severe or moderate.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[7].description,EV,EV,,"Assessed on a scale of severe, moderate, mild, or absent, in those with dyspnea at enrollment rated as severe or moderate.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[8].description,EV,EV,,Frequency of patients requiring supplemental oxygen or noninvasive ventilation.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[9].description,EV,EV,,Time until negative RT-PCR result.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[11].timeFrame,EV,EV,,Up to Day 60,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[12].timeFrame,EV,EV,,Up to Day 60,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].timeFrame,EV,EV,,Up to Day 60,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[6].timeFrame,EV,EV,,Up to Day 60,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[7].timeFrame,EV,EV,,Up to Day 60,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[8].timeFrame,EV,EV,,Up to Day 60,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[9].timeFrame,EV,EV,,Up to Day 29,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+1\) Adults (18 to 80 years old):
+
+1. within 72 hours of their hospitalization for infection with Severe Acute Respiratory Syndrome - Corona Virus - 2 (SARS-CoV-2), AND,
+2. within 72 hours of the latest Polymerase Chain Reaction (PCR) positive result and within 7 days of the 1st PCR positive result for SARS-CoV-2. (The latest PCR could be the only PCR result.), AND,
+3. within 10 days of onset of any COVID-19 symptoms.
+
+Exclusion Criteria:
+
+1. Subject has a concomitant bacterial respiratory infection unless cleared by the Sponsor
+2. Subject has a history of abnormalities of uric acid metabolism unless cleared by the Sponsor.
+3. Subject has a history of hypersensitivity to an anti-viral nucleoside analog drug targeting a viral RNA polymerase
+4. Subject is using adrenocorticosteroids (except topical or inhaled preparations or oral preparations equivalent to or less than 10 mg of oral prednisone) or immunosuppressive or immunomodulatory drugs (e.g., immunosuppressants, anticancer drugs, interleukins, interleukin antagonists or interleukin receptor blockers). Dexamethasone 6 mg daily (PO or IV) for 10 days is permitted.
+5. Subject has a serious chronic disease (e.g., human immunodeficiency virus (HIV), cancer requiring chemotherapy within the preceding 6 months, moderate or severe hepatic insufficiency and/or unstable renal, cardiac, pulmonary, neurologic, vascular, or endocrinologic disease states requiring medication dose adjustments within the last 30 days).
+6. Has previously received favipiravir within the past 30 days
+7. Has renal insufficiency requiring hemodialysis or continuous ambulatory peritoneal dialysis (CAPD) or glomerular filtration rate of less than 20 mL/min.
+8. Has liver impairment greater than Child-Pugh A.
+9. Has a history of alcohol or drug abuse in the previous 6 months.
+10. Has a psychiatric disease that is not well controlled where controlled is defined as: stable on a regimen for more than one year.
+11. Has taken another investigational drug within the past 30 days.
+12. Is on another antiviral or is participating in another clinical trial for the treatment of COVID-19
+13. Subject is on a ventilator at the time of study entry
+14. Is deemed by the Investigator to be ineligible for any reason.","Inclusion Criteria:
+* Hospitalized adults (age 18–80 years)
+* SARS-CoV-2 PCR-positive nasopharyngeal or oropharyngeal test (within 72 hours of their hospitalization and within 7 days of the first positive PCR for SARS-CoV-2)
+* Symptom onset within 10 days of presentation
+
+Exclusion Criteria:
+* Taking other antivirals (including remdesivir)
+* Taking steroids (except for a topical or inhaled preparation or the equivalent of >10mg of prednisone)
+* Receiving immune plasma
+* Taking immunosuppressive or immunomodulatory drugs (including anticancer drugs, interleukins, interleukin antagonists, or interleukin receptor blockers)
+* Serious chronic diseases, including moderate or severe hepatic disease, and/or unstable renal, cardiac, pulmonary, neurologic, vascular, or endocrinologic diseases requiring medication dose changes within the last 30 days
+* Glomerular filtration rates >20mL/min or requiring hemodialysis/continuous ambulatory peritoneal dialysis
+* Liver impairment greater than Child-Pugh A
+* Uncontrolled psychiatric disease
+* History of alcohol or drug abuse in the previous 6 months
+* Requiring mechanical ventilators at entry",True,0.9,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,80 Years,80 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

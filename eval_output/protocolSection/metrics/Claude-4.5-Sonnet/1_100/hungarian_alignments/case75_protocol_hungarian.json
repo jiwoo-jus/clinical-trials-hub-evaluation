@@ -1,0 +1,253 @@
+{
+  "metadata": {
+    "case_id": 75,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T18:32:29.222647",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/75_NCT04456634.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/75_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.55
+        ],
+        [
+          0.55,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "AL&RUX",
+            "type": "EXPERIMENTAL",
+            "description": "Oral administration of:\n\n• 20 mg/120 mg artemether-lumefantrine (AL) + 20 mg ruxolitinib phosphate (Rux)",
+            "interventionNames": [
+              "Drug: 20 mg/120 mg artemether-lumefantrine (AL) + 20 mg ruxolitinib phosphate (Rux)"
+            ]
+          },
+          "pred_item": {
+            "label": "Artemether-lumefantrine plus Ruxolitinib",
+            "type": "EXPERIMENTAL",
+            "description": "Six healthy participants received artemether-lumefantrine (80/480 mg) twice daily for 3 days plus ruxolitinib (20 mg) administered 2 hours after artemether-lumefantrine twice daily for 3 days.",
+            "interventionNames": [
+              "DRUG: Artemether-lumefantrine",
+              "DRUG: Ruxolitinib"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "AL& Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "20 mg/120 mg artemether-lumefantrine (AL) + Placebo",
+            "interventionNames": [
+              "Other: 20 mg/120 mg artemether-lumefantrine (AL) + Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Artemether-lumefantrine plus Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Two healthy participants received artemether-lumefantrine (80/480 mg) twice daily for 3 days plus placebo administered 2 hours after artemether-lumefantrine twice daily for 3 days.",
+            "interventionNames": [
+              "DRUG: Artemether-lumefantrine",
+              "DRUG: Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.96,
+          0.45
+        ],
+        [
+          0.86,
+          0.2,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "20 mg/120 mg artemether-lumefantrine (AL) + 20 mg ruxolitinib phosphate (Rux)",
+            "description": "Rux administered 2 hours after AL administration, twice daily (b.i.d) for 3 consecutive days (6 doses in total).",
+            "armGroupLabels": [
+              "AL&RUX"
+            ],
+            "otherNames": [
+              "Sentinel Group 1 a and 1 b"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Ruxolitinib",
+            "description": "Ruxolitinib (20 mg; Jakavi; Incyte) administered orally 2 hours after artemether-lumefantrine twice daily for 3 days (total dose, 120 mg ruxolitinib). Ruxolitinib is a JAK1/2 inhibitor approved for treatment of myelofibrosis and polycythemia vera.",
+            "armGroupLabels": [
+              "Artemether-lumefantrine plus Ruxolitinib"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "20 mg/120 mg artemether-lumefantrine (AL) + Placebo",
+            "description": "Placebo administered 2 hours after AL administration, twice daily (b.i.d) for 3 consecutive days (6 doses in total).",
+            "armGroupLabels": [
+              "AL& Placebo"
+            ],
+            "otherNames": [
+              "Sentinel Group 1 a and 1 b"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Artemether-lumefantrine",
+            "description": "Four artemether-lumefantrine tablets (20/120 mg; Riamet; Novartis) administered orally with 250 mg of full-fat milk twice daily over three consecutive days (total dose, 24 tablets: 480/2,880 mg artemether-lumefantrine) at the recommended dose for acute uncomplicated malaria.",
+            "armGroupLabels": [
+              "Artemether-lumefantrine plus Ruxolitinib",
+              "Artemether-lumefantrine plus Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ],
+        [
+          0.73
+        ],
+        [
+          0.68
+        ],
+        [
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participant With Treatment-Related Adverse Events as Assessed by CTCAE V4.03, All of Observed and Self-reported AEs Affected, by Treatment Regimen.",
+            "description": "Incidence, severity and relationship of observed and self-reported adverse events (AEs) were reported during the study up to 28 days after AL+Rux and AL+Placebo administration in all participants by treatment regimens.",
+            "timeFrame": "up to 28 days after AL+Rux and AL+placebo administration"
+          },
+          "pred_item": {
+            "measure": "Frequency of adverse events and serious adverse events",
+            "description": "Safety and tolerability assessed by the frequency of adverse events and serious adverse events, and abnormal vital signs, 12-lead ECG, hematology, clinical biochemistry, coagulation, urinalysis, and physical examination.",
+            "timeFrame": "Day -1 to Day 29"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Changes of Systolic and Diastolic Blood Pressure",
+            "description": "Safety signals, trends or significant differences in blood pressure between treatment groups were were reported during the study up to 28 days after AL+Rux and AL+Placebo administration in all participants by treatment regimens.",
+            "timeFrame": "up to 28 days after AL+Rux and AL+placebo administration"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Changes in Heart Rate",
+            "description": "Safety signals, trends or significant differences in heart rate ( beats / min)between treatment groups were were reported during the study up to 28 days after AL+Rux and AL+Placebo administration in all participants by treatment regimens.",
+            "timeFrame": "up to 28 days after AL+Rux and AL+placebo administration"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With ECG Changes",
+            "description": "Safety signals, trends or significant differences in QT, QTcB and QTcF, QRS between treatment groups were were reported during the study up to 28 days after AL+Rux and AL+Placebo administration in all participants by treatment regimens.",
+            "timeFrame": "up to 28 days after AL+Rux and AL+placebo administration"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "AUECt of pSTAT3 Inhibition",
+            "description": "Area under the effect curve (AUECt) of pSTAT3 inhibition levels",
+            "timeFrame": "up to 28 days after AL+Rux and AL+placebo administration"
+          },
+          "pred_item": {
+            "measure": "Area under the pharmacodynamic effect versus time curve (AUECT) for %pSTAT3 inhibition",
+            "description": "Assessment of the effect of artemether-lumefantrine plus ruxolitinib or placebo on pSTAT3 inhibition by measuring the area under the pharmacodynamic effect versus time profile over the ruxolitinib/placebo dosing interval on day 1.",
+            "timeFrame": "Predose and at t = -2, -1, 0, 2, 3, 4, 6, 10, and 166 hours relative to artemether-lumefantrine dosing"
+          }
+        }
+      ]
+    }
+  ]
+}

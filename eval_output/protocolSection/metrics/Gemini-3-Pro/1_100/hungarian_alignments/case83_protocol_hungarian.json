@@ -1,0 +1,735 @@
+{
+  "metadata": {
+    "case_id": 83,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T19:13:37.881861",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/83_NCT02153944.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/83_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.4,
+          "status": "matched",
+          "ref_item": {
+            "id": "14-M-0114"
+          },
+          "pred_item": {
+            "id": "ZIAMH002798-14",
+            "type": "NIH",
+            "domain": "National Institute of Mental Health"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.1
+        ],
+        [
+          0.15,
+          0.96
+        ],
+        [
+          0.35,
+          0.2
+        ],
+        [
+          0.94,
+          0.2
+        ],
+        [
+          0.28,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Behavioral: Drug challenge with methylphenidate",
+            "type": "EXPERIMENTAL",
+            "description": "Participant received methylphenidate 20 mg orally during study visit",
+            "interventionNames": [
+              "Drug: Methylphenidate"
+            ]
+          },
+          "pred_item": {
+            "label": "Methylphenidate (MPH)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants in this group received a single oral dose of immediate-release MPH 20 mg (Ritalin) 90 minutes prior to the experimental task.",
+            "interventionNames": [
+              "Methylphenidate"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Behavioral: Drug challenge with placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participant received placebo orally during study visit",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo (PLA)",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants in this group received a single oral dose of placebo in an identical-appearing capsule 90 minutes prior to the experimental task.",
+            "interventionNames": [
+              "Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Behavioral: Drug challenge with propranolol",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received propranolol 40mg orally during study visit",
+            "interventionNames": [
+              "Drug: Propranolol"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "fMRI: Drug challenge with methylphenidate",
+            "type": "EXPERIMENTAL",
+            "description": "Participant received methylphenidate 20 mg orally during study visit",
+            "interventionNames": [
+              "Drug: Methylphenidate"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "fMRI: Drug challenge with placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participant received placebo orally during study visit",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.2,
+          0.05
+        ],
+        [
+          0.96,
+          0.1
+        ],
+        [
+          0.18,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Propranolol",
+            "description": "Propranolol 40 mg was given orally during study visit",
+            "armGroupLabels": [
+              "Behavioral: Drug challenge with propranolol"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Methylphenidate",
+            "description": "Methylphenidate 20mg was given orally during study visit",
+            "armGroupLabels": [
+              "Behavioral: Drug challenge with methylphenidate",
+              "fMRI: Drug challenge with methylphenidate"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Methylphenidate",
+            "description": "20 mg immediate-release methylphenidate (Ritalin, Novartis), acting as a cognitive enhancer.",
+            "armGroupLabels": [
+              "Methylphenidate (MPH)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo was given orally during study visit",
+            "armGroupLabels": [
+              "Behavioral: Drug challenge with placebo",
+              "fMRI: Drug challenge with placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Identical-appearing capsule containing an inert substance.",
+            "armGroupLabels": [
+              "Placebo (PLA)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 24,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.25,
+          0.32
+        ],
+        [
+          0.4,
+          0.32
+        ],
+        [
+          0.45,
+          0.96
+        ],
+        [
+          0.4,
+          0.94
+        ],
+        [
+          0.28,
+          0.96
+        ],
+        [
+          0.45,
+          0.96
+        ],
+        [
+          0.32,
+          0.96
+        ],
+        [
+          0.33,
+          0.96
+        ],
+        [
+          0.3,
+          0.94
+        ],
+        [
+          0.35,
+          0.9
+        ],
+        [
+          0.55,
+          0.94
+        ],
+        [
+          0.4,
+          0.94
+        ],
+        [
+          0.22,
+          0.6
+        ],
+        [
+          0.32,
+          0.65
+        ],
+        [
+          0.42,
+          0.4
+        ],
+        [
+          0.32,
+          0.6
+        ],
+        [
+          0.42,
+          0.5
+        ],
+        [
+          0.3,
+          0.72
+        ],
+        [
+          0.38,
+          0.62
+        ],
+        [
+          0.35,
+          0.65
+        ],
+        [
+          0.86,
+          0.6
+        ],
+        [
+          0.88,
+          0.73
+        ],
+        [
+          0.9,
+          0.6
+        ],
+        [
+          0.9,
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Magnitude of Startle Reflex During Safe Condition",
+            "description": "The magnitude of the startle reflex during working memory tasks (n-back) while undergoing alternating periods of safety and threat of shock. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. The participant holds each stimulus in short-term memory while new stimuli are presented. For each new item presented, the participant's task is to decide if it is the same as the stimulus presented one time before (1Back), two times before (2Back) or three times before (3Back) by responding \"yes\" if the stimulus currently presented matches the stimulus presented earlier. Participants responded with a button press. The startle reflex was elicited with a 102 decibel (dB) white noise (40-ms duration) delivered via headphone. The eyeblink component of the startle reflex was recorded binaurally with two silver chloride (AgCl) electrodes placed under one eye.",
+            "timeFrame": "20-120 milliseconds following the onset of the startle stimulus"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Magnitude of Startle Reflex During Threat Condition",
+            "description": "The magnitude of the startle reflex during working memory tasks (n-back) while undergoing alternating periods of safety and threat of shock. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. The participant holds each stimulus in short-term memory while new stimuli are presented. For each new item presented, the participant's task is to decide if it is the same as the stimulus presented one time before (1Back), two times before (2Back) or three times before (3Back) by responding \"yes\" if the stimulus currently presented matches the stimulus presented earlier. Participants responded with a button press. The startle reflex was elicited with a 102 decibel (dB) white noise (40-ms duration) delivered via headphone. The eyeblink component of the startle reflex was recorded binaurally with two silver chloride (AgCl) electrodes placed under one eye.",
+            "timeFrame": "20-120 milliseconds following the onset of the startle stimulus"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Correct Responses in the Working Memory Task (N-back) - Safe Condition",
+            "description": "Stimuli were presented one at a time on a screen. Participants were instructed to remember (working memory) one, two, or three stimuli back (N-back) from the current stimulus on the screen while undergoing alternating periods of safety and threat of shock i.e. while anticipating unpleasant electric shocks or no shock (safe). The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. The participant holds each stimulus in short-term memory while new stimuli are presented. For each new item presented, the participant's task is to decide if it is the same as the stimulus presented one time before (1Back), two times before (2Back) or three times before (3Back)\" by responding \"yes\" if the stimulus currently presented matches the stimulus presented earlier. Performance on working memory task (n-back) accuracy was measured across condition (threat and safe) x Load (1Back, 2Back, 3Back) using repeated measures ANOVA.",
+            "timeFrame": "Task started 90 minutes post drug admin up to max of 125 mins post drug admin (max total is 35 mins) during a 6-hour single day visit"
+          },
+          "pred_item": {
+            "measure": "Working Memory Accuracy",
+            "description": "Behavioral performance on the N-Back Working Memory task, measured by response accuracy (percentage of correct responses) across different loads (1-Back, 3-Back) and contexts (Safety, Threat).",
+            "timeFrame": "During the fMRI scanning session, starting 90 minutes post-drug administration"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Correct Responses in the Working Memory Task (N-back) - Threat Condition",
+            "description": "Stimuli were presented one at a time on a screen. Participants were instructed to remember (working memory) one, two, or three stimuli back (N-back) from the current stimulus on the screen while undergoing alternating periods of safety and threat of shock i.e. while anticipating unpleasant electric shocks or no shock (safe). The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. The participant holds each stimulus in short-term memory while new stimuli are presented. For each new item presented, the participant's task is to decide if it is the same as the stimulus presented one time before (1Back), two times before (2Back) or three times before (3Back)\" by responding \"yes\" if the stimulus currently presented matches the stimulus presented earlier. Performance on working memory task (n-back) accuracy was measured across condition (threat and safe) x Load (1Back, 2Back, 3Back) using repeated measures ANOVA.",
+            "timeFrame": "task started 90 minutes post drug admin up to max of 125 mins post drug admin (max total is 35 mins) during a 6-hour single day visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Correct Responses in the Working Memory Task (N-Back): Safe Condition - 1BACK - Run 1",
+            "description": "Stimuli were presented one at a time on a screen. Participants were instructed to remember (working memory) one or three stimuli back (N-back) from the current stimulus on the screen while undergoing alternating periods of safety and threat of shock i.e. while anticipating unpleasant electric shocks or no shock (safe).Two levels of difficulties were tested: 1- and 3-back. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Participants indicated whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task included 3 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block represented a given level of difficulty, i.e., 1- and 3-back. Performance on working memory task (n-back) accuracy was measured across condition (threat and safe) x Load (1-back, 3-back) using repeated measures ANOVA.",
+            "timeFrame": "90 minutes post drug admin plus zero seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Correct Responses in the Working Memory Task (N-back): Threat Condition - 1BACK - Run 1",
+            "description": "Stimuli were presented one at a time on a screen. Participants were instructed to remember (working memory) one or three stimuli back (N-back) from the current stimulus on the screen while undergoing alternating periods of safety and threat of shock i.e. while anticipating unpleasant electric shocks or no shock (safe). Two levels of difficulties were tested: 1- and 3-back. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Participants indicated whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task included 3 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block represented a given level of difficulty, i.e., 1- and 3-back. Performance on working memory task (n-back) accuracy was measured across condition (threat and safe) x Load (1-back, 3-back) using repeated measures ANOVA.",
+            "timeFrame": "90 minutes plus 90 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Correct Responses in the Working Memory Task (N-back): Safe Condition - 1BACK - Run 2",
+            "description": "Stimuli were presented one at a time on a screen. Participants were instructed to remember (working memory) one or three stimuli back (N-back) from the current stimulus on the screen while undergoing alternating periods of safety and threat of shock i.e. while anticipating unpleasant electric shocks or no shock (safe). Two levels of difficulties were tested: 1- and 3-back. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Participants indicated whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task included 3 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block represented a given level of difficulty, i.e., 1- and 3-back. Performance on working memory task (n-back) accuracy was measured across condition (threat and safe) x Load (1-back, 3-back) using repeated measures ANOVA.",
+            "timeFrame": "90 minutes plus 180 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Correct Responses in the Working Memory Task (N-back): Threat Condition - 1BACK - Run 2",
+            "description": "Stimuli were presented one at a time on a screen. Participants were instructed to remember (working memory) one or three stimuli back (N-back) from the current stimulus on the screen while undergoing alternating periods of safety and threat of shock i.e. while anticipating unpleasant electric shocks or no shock (safe). Two levels of difficulties were tested: 1- and 3-back. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Participants indicated whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task included 3 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block represented a given level of difficulty, i.e., 1- and 3-back. Performance on working memory task (n-back) accuracy was measured across condition (threat and safe) x Load (1-back, 3-back) using repeated measures ANOVA.",
+            "timeFrame": "90 minutes plus 260 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Correct Responses in the Working Memory Task (N-back): Safe Condition - 3BACK - Run 1",
+            "description": "Stimuli were presented one at a time on a screen. Participants were instructed to remember (working memory) one or three stimuli back (N-back) from the current stimulus on the screen while undergoing alternating periods of safety and threat of shock i.e. while anticipating unpleasant electric shocks or no shock (safe). Two levels of difficulties were tested: 1- and 3-back. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Participants indicated whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task included 3 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block represented a given level of difficulty, i.e., 1- and 3-back. Performance on working memory task (n-back) accuracy was measured across condition (threat and safe) x Load (1-back, 3-back) using repeated measures ANOVA.",
+            "timeFrame": "90 minutes post drug admin plus 45 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Correct Responses in the Working Memory Task (N-back): Threat Condition - 3BACK - Run 1",
+            "description": "Stimuli were presented one at a time on a screen. Participants were instructed to remember (working memory) one or three stimuli back (N-back) from the current stimulus on the screen while undergoing alternating periods of safety and threat of shock i.e. while anticipating unpleasant electric shocks or no shock (safe). Two levels of difficulties were tested: 1- and 3-back. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Participants indicated whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task included 3 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block represented a given level of difficulty, i.e., 1- and 3-back. Performance on working memory task (n-back) accuracy was measured across condition (threat and safe) x Load (1-back, 3-back) using repeated measures ANOVA.",
+            "timeFrame": "90 minutes plus 135 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Correct Responses in the Working Memory Task (N-back): Safe Condition - 3BACK - Run 2",
+            "description": "Stimuli were presented one at a time on a screen. Participants were instructed to remember (working memory) one or three stimuli back (N-back) from the current stimulus on the screen while undergoing alternating periods of safety and threat of shock i.e. while anticipating unpleasant electric shocks or no shock (safe). Two levels of difficulties were tested: 1- and 3-back. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Participants indicated whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task included 3 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block represented a given level of difficulty, i.e., 1- and 3-back. Performance on working memory task (n-back) accuracy was measured across condition (threat and safe) x Load (1-back, 3-back) using repeated measures ANOVA.",
+            "timeFrame": "90 minutes plus 215 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Correct Responses in the Working Memory Task (N-back): Threat Condition - 3BACK - Run 2",
+            "description": "Stimuli were presented one at a time on a screen. Participants were instructed to remember (working memory) one or three stimuli back (N-back) from the current stimulus on the screen while undergoing alternating periods of safety and threat of shock i.e. while anticipating unpleasant electric shocks or no shock (safe). Two levels of difficulties were tested: 1- and 3-back. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Participants indicated whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task included 3 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block represented a given level of difficulty, i.e., 1- and 3-back. Performance on working memory task (n-back) accuracy was measured across condition (threat and safe) x Load (1-back, 3-back) using repeated measures ANOVA.",
+            "timeFrame": "90 minutes plus 305 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Reaction Time to Stimuli: Safe Condition - 1BACK - Run 1",
+            "description": "Reaction time (RT) is the time it takes to respond to stimuli. Participants RTs were measured while undergoing alternating periods of safety and shock threat conditions i.e. while anticipating unpleasant electric shocks (threat) or no shock (safe) during the n-back paradigm task. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Two levels of difficulties were tested: 1Back and 3Back (n-back). Participants were instructed to indicate whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task was organized in 2 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block (threat or safe) corresponded to 2 tasks, 1- and 3-back tasks. RT was analyzed using condition( threat, safe) x Load (1Back, 3Back) repeated-measures ANOVA.",
+            "timeFrame": "90 minutes post drug admin plus zero seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Reaction Time to Stimuli: Threat Condition - 1BACK - Run 1",
+            "description": "Reaction time (RT) is the time it takes to respond to stimuli. Participants RTs were measured while undergoing alternating periods of safety and shock threat conditions i.e. while anticipating unpleasant electric shocks (threat) or no shock (safe) during the n-back paradigm task. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Two levels of difficulties were tested: 1Back and 3Back (n-back). Participants were instructed to indicate whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task was organized in 2 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block (threat or safe) corresponded to 2 tasks, 1- and 3-back tasks. RT was analyzed using condition (threat, safe) x Load (1Back, 3Back) repeated-measures ANOVA.",
+            "timeFrame": "90 minutes plus 90 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Reaction Time to Stimuli: Safe Condition - 1BACK - Run 2",
+            "description": "Reaction time (RT) is the time it takes to respond to stimuli. Participants RTs were measured while undergoing alternating periods of safety and shock threat conditions i.e. while anticipating unpleasant electric shocks (threat) or no shock (safe) during the n-back paradigm task. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Two levels of difficulties were tested: 1Back and 3Back (n-back). Participants were instructed to indicate whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task was organized in 2 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block (threat or safe) corresponded to 2 tasks, 1- and 3-back tasks. RT was analyzed using condition (threat, safe) x Load (1Back, 3Back) repeated-measures ANOVA.",
+            "timeFrame": "90 minutes plus 180 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Reaction Time to Stimuli: Threat Condition - 1BACK - Run 2",
+            "description": "Reaction time (RT) is the time it takes to respond to stimuli. Participants RTs were measured while undergoing alternating periods of safety and shock threat conditions i.e. while anticipating unpleasant electric shocks (threat) or no shock (safe) during the n-back paradigm task. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Two levels of difficulties were tested: 1Back and 3Back (n-back). Participants were instructed to indicate whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task was organized in 2 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block (threat or safe) corresponded to 2 tasks, 1- and 3-back tasks. RT was analyzed using condition (threat, safe) x Load (1Back, 3Back) repeated-measures ANOVA.",
+            "timeFrame": "90 minutes plus 260 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Reaction Time to Stimuli: Safe Condition - 3BACK - Run 1",
+            "description": "Reaction time (RT) is the time it takes to respond to stimuli. Participants RTs were measured while undergoing alternating periods of safety and shock threat conditions i.e. while anticipating unpleasant electric shocks (threat) or no shock (safe) during the n-back paradigm task. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Two levels of difficulties were tested: 1Back and 3Back (n-back). Participants were instructed to indicate whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task was organized in 2 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block (threat or safe) corresponded to 2 tasks, 1- and 3-back tasks. RT was analyzed using condition (threat, safe) x Load (1Back, 3Back) repeated-measures ANOVA.",
+            "timeFrame": "90 minutes post drug admin plus 45 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Reaction Time to Stimuli: Threat Condition - 3BACK - Run 1",
+            "description": "Reaction time (RT) is the time it takes to respond to stimuli. Participants RTs were measured while undergoing alternating periods of safety and shock threat conditions i.e. while anticipating unpleasant electric shocks (threat) or no shock (safe) during the n-back paradigm task. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Two levels of difficulties were tested: 1Back and 3Back (n-back). Participants were instructed to indicate whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task was organized in 2 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block (threat or safe) corresponded to 2 tasks, 1- and 3-back tasks. RT was analyzed using condition (threat, safe) x Load (1Back, 3Back) repeated-measures ANOVA.",
+            "timeFrame": "90 minutes plus 135 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Reaction Time to Stimuli: Safe Condition - 3BACK - Run 2",
+            "description": "Reaction time (RT) is the time it takes to respond to stimuli. Participants RTs were measured while undergoing alternating periods of safety and shock threat conditions i.e. while anticipating unpleasant electric shocks (threat) or no shock (safe) during the n-back paradigm task. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Two levels of difficulties were tested: 1Back and 3Back (n-back). Participants were instructed to indicate whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task was organized in 2 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block (threat or safe) corresponded to 2 tasks, 1- and 3-back tasks. RT was analyzed using condition (threat, safe) x Load (1Back, 3Back) repeated-measures ANOVA.",
+            "timeFrame": "90 minutes plus 215 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 19,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Reaction Time to Stimuli: Threat Condition - 3BACK - Run 2",
+            "description": "Reaction time (RT) is the time it takes to respond to stimuli. Participants RTs were measured while undergoing alternating periods of safety and shock threat conditions i.e. while anticipating unpleasant electric shocks (threat) or no shock (safe) during the n-back paradigm task. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Two levels of difficulties were tested: 1Back and 3Back (n-back). Participants were instructed to indicate whether the letter currently displayed was the same as the letter presented 1 or 3 letters back. The task was organized in 2 runs, 8 blocks per run (4 safe and 4 threat presented alternatively), 18 sequential letters per block. Each block (threat or safe) corresponded to 2 tasks, 1- and 3-back tasks. RT was analyzed using condition (threat, safe) x Load (1Back, 3Back) repeated-measures ANOVA.",
+            "timeFrame": "90 minutes plus 305 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 20,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Measure of BOLD Response in Brain Clusters - Safe Condition - 1BACK",
+            "description": "The blood-oxygen-level dependent (BOLD) responses were measured using an fMRI scanner. The cerebral fMRI BOLD uses magnetic fields to measure localized changes in brain blood flow and blood oxygenation in activated regions-of-interest (ROI). Participants BOLD responses were measured while undergoing alternating periods of safety and shock threat conditions i.e. while anticipating unpleasant electric shocks or no shock (safe) during the n-back task. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Two levels of difficulties were tested: 1Back and 3Back (n-back). Participants were instructed to indicate whether the letter currently displayed was the same as the letter presented 1 or 3 letters back.",
+            "timeFrame": "started 90 minutes post drug administration plus 90 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 21,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Measure of BOLD Response in Brain Cluster - Threat Condition - 1BACK",
+            "description": "The blood-oxygen-level dependent (BOLD) responses were measured using an fMRI scanner. The cerebral fMRI BOLD uses magnetic fields to measure localized changes in brain blood flow and blood oxygenation in activated regions-of-interest (ROI). Participants BOLD responses were measured while undergoing alternating periods of safety and shock threat conditions i.e. while anticipating unpleasant electric shocks or no shock (safe) during the n-back task. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Two levels of difficulties were tested: 1Back and 3Back (n-back). Participants were instructed to indicate whether the letter currently displayed was the same as the letter presented 1 or 3 letters back.",
+            "timeFrame": "started 90 minutes post drug administration plus up to 360 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 22,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Measure of BOLD Response in Brain Clusters - Safe Condition - 3BACK",
+            "description": "The blood-oxygen-level dependent (BOLD) responses were measured using an fMRI scanner. The cerebral fMRI BOLD uses magnetic fields to measure localized changes in brain The blood-oxygen-level dependent (BOLD) responses were measured using an fMRI scanner. The cerebral fMRI BOLD uses magnetic fields to measure localized changes in brain blood flow and blood oxygenation in activated regions-of-interest (ROI). Participants BOLD responses were measured while undergoing alternating periods of safety and shock threat conditions i.e. while anticipating unpleasant electric shocks or no shock (safe) during the n-back task. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Two levels of difficulties were tested: 1Back and 3Back (n-back). Participants were instructed to indicate whether the letter currently displayed was the same as the letter presented 1 or 3 letters back.",
+            "timeFrame": "started 90 minutes post drug administration plus up to 270 seconds within a 6-hour study visit"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 23,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Measure of BOLD Response in Brain Cluster - Threat Condition - 3BACK",
+            "description": "The blood-oxygen-level dependent (BOLD) responses were measured using an fMRI scanner. The cerebral fMRI BOLD uses magnetic fields to measure localized changes in brain blood flow and blood oxygenation in activated regions-of-interest (ROI). Participants BOLD responses were measured while undergoing alternating periods of safety and shock threat conditions i.e. while anticipating unpleasant electric shocks or no shock (safe) during the n-back task. The n-back is a paradigm used to assess working memory function by presenting sequential stimuli individually. Two levels of difficulties were tested: 1Back and 3Back (n-back). Participants were instructed to indicate whether the letter currently displayed was the same as the letter presented 1 or 3 letters back.",
+            "timeFrame": "started 90 minutes post drug administration plus up to 450 seconds within a 6-hour study visit"
+          },
+          "pred_item": {
+            "measure": "Neural activation (BOLD signal)",
+            "description": "Blood-oxygen-level dependent (BOLD) responses assessed via fMRI, specifically focusing on the recruitment of the fronto-parietal control network (FPCN) and the default mode network (DMN). Comparisons were made between drug groups (MPH vs. Placebo) during the N-Back task (3-Back vs. 1-Back) under conditions of safety and threat.",
+            "timeFrame": "During the fMRI scanning session, starting 90 minutes post-drug administration"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.06,
+          0.9,
+          0.7
+        ],
+        [
+          0.08,
+          0.86,
+          0.7
+        ],
+        [
+          0.05,
+          0.08,
+          0.15
+        ],
+        [
+          0.05,
+          0.1,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Measure of Level of Anxiety",
+            "description": "The level of anxiety was assessed using the State Anxiety Inventory questionnaire. The State Anxiety Scale (S-Anxiety) evaluates the current state of anxiety. The State Anxiety Scale has 20 items. All items are rated on a 4-point scale ranging from \"1 = not at all\" to \"4 = very much so\". The scale has a minimum score of 20 and a maximum score of 80. Higher score indicates greater anxiety. State Anxiety score was measured at different time points during the study.",
+            "timeFrame": "20 minutes after arrival for study; 80, 100, & 125 minutes post drug administration"
+          },
+          "pred_item": {
+            "measure": "General State Anxiety (STAI-s)",
+            "description": "Subjective ratings of general anxiety state assessed using the State-Trait Anxiety Inventory (STAI-s).",
+            "timeFrame": "Time 1 (right after drug administration), Time 2 (45 min post administration), and Time 3 (immediately after scanner)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Measure of Level of Anxiety",
+            "description": "The level of anxiety was assessed using the State Anxiety Inventory questionnaire. The State Anxiety Scale (S-Anxiety) evaluates the current state of anxiety. The State Anxiety Scale has 20 items. All items are rated on a 4-point scale ranging from \"1 = not at all\" to \"4 = very much so\". The scale has a minimum score of 20 and a maximum score of 80. Higher score indicates greater anxiety. State Anxiety score was measured at different time points during the study.",
+            "timeFrame": "20 minutes after arrival for study; 10 minutes & 145 minutes post drug administration"
+          },
+          "pred_item": {
+            "measure": "Subjective Anxiety during fMRI",
+            "description": "Self-reported ratings of anxiety specifically linked to task performance within the scanner.",
+            "timeFrame": "During the fMRI scanning session"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Measure of Heart Rate",
+            "description": "The heart rate was monitored with two disposable electrodes on the ribcage midway between the waist and the armpit.",
+            "timeFrame": "20 minutes after arrival for study; 80 minutes & 125 minutes post drug administration"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 0,
+          "score": 0.05,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Measure of Heart Rate",
+            "description": "The heart rate was monitored with two disposable electrodes on the ribcage midway between the waist and the armpit.",
+            "timeFrame": "20 minutes after arrival for study; 10 minutes & 145 minutes post drug administration"
+          },
+          "pred_item": {
+            "measure": "Working Memory Reaction Time (RT)",
+            "description": "Speed of response measured in milliseconds during the N-Back Working Memory task across different loads and contexts.",
+            "timeFrame": "During the fMRI scanning session, starting 90 minutes post-drug administration"
+          }
+        }
+      ]
+    }
+  ]
+}

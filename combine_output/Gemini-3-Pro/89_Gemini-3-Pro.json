@@ -1,0 +1,146 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04864691",
+      "secondaryIdInfos": [
+        {
+          "id": "2018AAA0102600",
+          "type": "OTHER_GRANT",
+          "domain": "National Key R&D Program"
+        },
+        {
+          "id": "KY2020-114-02",
+          "type": "OTHER",
+          "domain": "Beijing Tiantan Hospital"
+        }
+      ],
+      "organization": {
+        "fullName": "Beijing Tiantan Hospital",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This study is a multicenter, prospective registry designed to evaluate the technical feasibility and safety of endovascular recanalization (ER) for patients with symptomatic non-acute intracranial artery occlusion (sNA-ICAO). The trial aims to test whether ER combined with standard medical therapy (SMT) is superior to SMT alone in the primary prevention of stroke in this high-risk patient population.",
+      "detailedDescription": "This is a multisite, non-randomized cohort, prospective registry study enrolling consecutive patients presenting with symptomatic non-acute intracranial artery occlusion (sNA-ICAO) across 15 centers in China from January 2020 to December 2022. Participants are assigned to one of two cohorts based on clinical judgment and patient preference: a group receiving Standard Medical Therapy (SMT) alone and a group receiving Endovascular Recanalization (ER) plus SMT.\n\nSMT consists of a dual antiplatelet regimen (aspirin 100 mg/day and clopidogrel 75 mg/day) for 90 days, followed by lifelong monotherapy, alongside management of risk factors such as systolic blood pressure and LDL cholesterol. The ER protocol is performed under general anesthesia and involves crossing the occluded segment with a microcatheter, balloon dilation, and potential stent implantation if residual severe stenosis or dissection occurs. Successful revascularization is defined as modified TICI grade 2b or 3 with residual stenosis less than 50%.\n\nThe primary outcome is any stroke occurring from enrollment to the 2-year follow-up. Secondary outcomes include all-cause mortality, modified Rankin Scale (mRS) score, NIHSS score, and cognitive function assessments (using ADAS-Cog, animal naming, letter fluency, and digit span) at 30 days, 3 months, 8 months, 12 months, 18 months, and 2 years. Propensity score matching will be used to compare the groups while adjusting for confounders."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Symptomatic Non-acute Intracranial Artery Occlusion",
+        "Ischemic Stroke",
+        "Intracranial Artery Diseases"
+      ],
+      "keywords": [
+        "Endovascular Recanalization",
+        "Standard Medical Therapy",
+        "sNA-ICAO",
+        "Stroke Prevention",
+        "Intracranial Stenting"
+      ]
+    },
+    "designModule": {
+      "studyType": "OBSERVATIONAL",
+      "patientRegistry": true,
+      "targetDuration": "2 Years",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "observationalModel": "COHORT",
+        "timePerspective": "PROSPECTIVE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Outcome will be determined by an adjudication committee that is unaware of the trial design and grouping.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 480,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "SMT alone",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients receive Standard Medical Therapy (SMT) alone, comprising antiplatelet regimen, risk factor management, and lifestyle modification.",
+          "interventionNames": [
+            "Standard Medical Therapy (SMT)"
+          ]
+        },
+        {
+          "label": "ER plus SMT",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive Endovascular Recanalization (ER) in addition to Standard Medical Therapy (SMT).",
+          "interventionNames": [
+            "Endovascular Recanalization (ER)",
+            "Standard Medical Therapy (SMT)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Endovascular Recanalization (ER)",
+          "description": "Performed under general anesthesia. Consists of balloon dilation of the occluded segment. Stents are deployed in cases of residual severe stenosis, vascular dissection, or failure to maintain forward flow. Successful revascularization is defined as a modified TICI grade 2b or 3 and residual stenosis <50%.",
+          "armGroupLabels": [
+            "ER plus SMT"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Standard Medical Therapy (SMT)",
+          "description": "Consists of aspirin (100 mg/day) and clopidogrel (75 mg/day) for 90 days followed by lifelong aspirin or clopidogrel monotherapy. Includes blood pressure control (systolic <140 or 130 mmHg), LDL cholesterol control (<70 mg/dl with Atorvastatin), and a lifestyle modification program (INTERVENT).",
+          "armGroupLabels": [
+            "SMT alone",
+            "ER plus SMT"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Any stroke",
+          "description": "Stroke is defined as rapidly developing clinical signs of focal disturbance of cerebral function lasting more than 24 h with no apparent cause other than that of vascular origin according to the World Health Organization.",
+          "timeFrame": "From enrollment to 2 years of follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "All-cause mortality",
+          "description": "Assessment of death from any cause.",
+          "timeFrame": "30 days, 3 months, 8 months, 12 months, 18 months, and 2 years of follow-up"
+        },
+        {
+          "measure": "mRS score",
+          "description": "Modified Rankin Scale score to assess disability.",
+          "timeFrame": "30 days, 3 months, 8 months, 12 months, 18 months, and 2 years of follow-up"
+        },
+        {
+          "measure": "NIHSS score",
+          "description": "National Institutes of Health Stroke Scale score to assess stroke severity.",
+          "timeFrame": "30 days, 3 months, 8 months, 12 months, 18 months, and 2 years of follow-up"
+        },
+        {
+          "measure": "Cognitive function",
+          "description": "Assessed using five tests covering four domains: word list learning test and delayed recall test from the ADAS-Cog, executive function/processing speed (animal naming and letter fluency), and attention/working memory (digit span).",
+          "timeFrame": "30 days, 3 months, 8 months, 12 months, 18 months, and 2 years of follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Patients with imaging (MRA/CTA/DSA) and clinical diagnosis of symptomatic non-acute intracranial artery occlusion (sNA-ICAO).\n- sNA-ICAO defined as occlusion within 24 hours to 6 months.\n- For patients with ICA or MCA M1 segment occlusion, ipsilateral hypoperfusion confirmed by CTP or MRI perfusion imaging prior to enrollment.\n\nExclusion Criteria:\n- (Detailed exclusion criteria were referenced in Table 2 but not provided in the text)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A",
+      "stdAges": [],
+      "studyPopulation": "Consecutive patients presenting with symptomatic non-acute intracranial artery occlusion (sNA-ICAO) at 15 centers in China between January 1, 2020 and December 31, 2022.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    }
+  }
+}

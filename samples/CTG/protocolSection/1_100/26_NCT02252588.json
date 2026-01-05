@@ -1,0 +1,126 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02252588",
+      "orgStudyIdInfo": {
+        "id": "4526"
+      },
+      "organization": {
+        "fullName": "University of Minnesota",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Effect of Chlorhexidine on the Oral and Lung Microbiota in Chronic Obstructive Pulmonary Disease",
+      "officialTitle": "The Effect of Chlorhexidine on the Oral and Lung Microbiota in Chronic Obstructive",
+      "acronym": "CLIMB"
+    },
+    "descriptionModule": {
+      "briefSummary": "Determine the effect of twice-daily chlorhexidine oral rinse on oral and lung microbiota biomass in subjects with chronic obstructive pulmonary disease (COPD) with chronic bronchitis. Our primary outcome will be to compare the microbiota biomass (number of bacteria as measured by 16S rRNA copy number) of induced sputum and the oral cavity before and after 8 weeks of twice-daily chlorhexidine oral rinse (n=25) compared to controls (n=25) using qPCR and next-generation sequencing of the bacterial 16S rRNA gene comparing total bacterial biomass",
+      "detailedDescription": "Our hypothesis is that 8 weeks of chlorhexidine oral rinse will decrease microbiota biomass compared to baseline and those on placebo. Furthermore, we hypothesize that chlorhexidine treatment will: i) decrease lung and oral microbiota diversity; ii) alter microbiota taxonomic composition in the lung and oral cavity; iii) decrease systemic inflammation as measured by blood high sensitivity C-reactive protein (hsCRP), fibrinogen and leukocyte count; and iv) demonstrate a trend towards improvement in respiratory health status as measured by the Breathlessness, Cough, and Sputum Scale (BCSS)\\[1, 2\\] and St. George's Respiratory Questionnaire (SGRQ).\n\nSubaim 1: Determine if chlorhexidine alters the lung and oral rinse microbiota diversity and taxonomic composition. Our hypothesis is that chlorhexidine oral rinse will decrease the diversity (Shannon and inverse Simpson diversity indices) and taxonomic composition of both oral and lung microbiota compared to those on placebo as determined by next-generation sequencing of the bacterial 16S rRNA gene.\n\nSubaim 2: Determine the impact of chlorhexidine on systemic inflammation. Our hypothesis is that the decrease in lung microbiota biomass is associated with a decrease in systemic inflammation as measured by blood hsCRP, fibrinogen, and leukocyte count.\n\nSubaim 3: Determine if respiratory symptoms associate with the lung microbiota biomass. Our hypothesis is that chlorhexidine will demonstrate improved respiratory health status as measured by the BCSS and SGRQ."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Obstructive Pulmonary Disease"
+      ],
+      "keywords": [
+        "COPD",
+        "Bacteria"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 44,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Chlorhexidine",
+          "type": "EXPERIMENTAL",
+          "description": "Oral Rinse",
+          "interventionNames": [
+            "Drug: Chlorhexidine",
+            "Other: Placebo"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Oral Rinse",
+          "interventionNames": [
+            "Drug: Chlorhexidine",
+            "Other: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Chlorhexidine",
+          "description": "Oral Rinse",
+          "armGroupLabels": [
+            "Chlorhexidine",
+            "Placebo"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Placebo",
+          "description": "Oral Rinse",
+          "armGroupLabels": [
+            "Chlorhexidine",
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Sputum Bacteria Biomass",
+          "description": "Samples underwent DNA extraction and 16S rRNA quantification and 16S rRNA V4 MiSeq sequencing was performed at the University of Minnesota Genomics Center. The biomass was the number of bacteria as measured by 16S rRNA copy number. To adjust biomass for the size of the sputum sample, raw counts were normalized by dividing by the sample volume or mass.",
+          "timeFrame": "Baseline, 8 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Breathlessness, Cough, and Sputum Scale (BCSS)",
+          "description": "The Breathlessness, Cough, and Sputum Scale (BCSS) is a brief, three-item, patient-reported outcome measure in which each of the three symptoms assessed by the measure is represented by a single item. Patients are asked to evaluate each symptom/item on a 5-point Likert-type scale, ranging from 0 to 4. Total scores range from 0 to 12 with higher scores indicating a more severe manifestation of the symptom.",
+          "timeFrame": "Baseline, 8 weeks"
+        },
+        {
+          "measure": "Change in St George Respiratory Quotient (SGRQ)",
+          "description": "The St George Respiratory Quotient (SGRQ) contains 50 items measuring symptoms of and activities affected by obstructive airway disease. Total score is a sum of item scores and ranges from 0 to 100, with higher scores indicating more limitations. The minimally significant difference is 4.",
+          "timeFrame": "baseline, 8 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Willingness to undergo sputum induction\n* Capability to provide written informed consent\n* Age ≥ 40 years and ≤ 85 years\n* FEV1/FVC ratio (post bronchodilator) ≤70%\n* FEV1 (post bronchodilator) ≤ 65%\n* Presence or high likelihood of chronic cough and sputum production defined as one of the following:\n\nPresence of chronic cough and sputum will be defined by responses to the first two questions on the SGRQ. Subjects who respond positively to both question 1 (cough) and question 2 (sputum) on the SGRQ as either \"several days per week\" or \"almost every day\" will be eligible.\n\nCOPD exacerbation within the previous 12 months defined as taking antibiotics and/or prednisone for respiratory symptoms, hospitalization or emergency department visit for respiratory illness.\n\n* Current or former smoker with lifetime cigarette consumption of \\> 10 pack-years\n* Negative serum pregnancy test at the baseline visit if patient is a pre-menopausal female (menopause defined as absence of a menstrual cycle in the last 12 months)\n* Must be fluent in speaking the English language\n* Have a minimum of four teeth\n\nExclusion Criteria:\n\n* Not fully recovered for at least 30 days from a COPD exacerbation.\n* Treated with antibiotics in the last 2 months.\n* The presence of dentures (full plate).\n* Active oral infection being treated by health care professional.\n* Current use of chlorhexidine or over-the-counter mouth washes in the last 2 months.\n* Known allergy or sensitivity to chlorhexidine\n* Unstable cardiac disease\n* Clinical diagnosis of asthma, bronchiectasis, cystic fibrosis, or severe alpha-1 antitrypsin deficiency\n* Active lung cancer or history of lung cancer if it has been less than 2 years since lung resection or other treatment. If history of lung cancer, must have no evidence of recurrence in the 2 years preceding the baseline visit.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "40 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

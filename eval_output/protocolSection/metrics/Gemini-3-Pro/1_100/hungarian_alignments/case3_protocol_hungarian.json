@@ -1,0 +1,771 @@
+{
+  "metadata": {
+    "case_id": 3,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-28T03:32:37.631087",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/3_NCT04468321.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/3_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.3,
+          "status": "matched",
+          "ref_item": {
+            "id": "6292-2020-R2TC-T12T13",
+            "type": "OTHER_GRANT",
+            "domain": "Medical Device Innovation Consortium, on behalf of the NESTcc"
+          },
+          "pred_item": {
+            "id": "1U01FD006292-01",
+            "type": "FDA",
+            "domain": "US Food and Drug Administration"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.7
+        ],
+        [
+          0.74,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Apple Watch",
+            "type": "EXPERIMENTAL",
+            "description": "Patients will be provided with the Apple Watch Series 6 with Irregular Rhythm Detection and ECG capabilities.",
+            "interventionNames": [
+              "Device: Apple Watch"
+            ]
+          },
+          "pred_item": {
+            "label": "Apple Watch Series 6",
+            "type": "EXPERIMENTAL",
+            "description": "Patients randomized to receive the Apple Watch Series 6 (Global Positioning System [GPS]).",
+            "interventionNames": [
+              "Device: Apple Watch Series 6"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "label": "Withings Move",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Patients will be provided with the Withings Move with activity tracking.",
+            "interventionNames": [
+              "Device: Withings Move"
+            ]
+          },
+          "pred_item": {
+            "label": "Withings Move",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients randomized to receive the Withings Move.",
+            "interventionNames": [
+              "Device: Withings Move"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.7
+        ],
+        [
+          0.7,
+          0.8
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "Apple Watch",
+            "description": "Participants will be assigned to the Apple Watch arm to assess the impact of individual use of the Apple Watch on patient-reported and clinical utilization outcomes using Hugo.",
+            "armGroupLabels": [
+              "Apple Watch"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "Apple Watch Series 6",
+            "description": "A smartwatch that can obtain multiple physiologic measurements, including activity, sleep, heart rate, heart rate variability, irregular rhythm notifications, single-lead ECG, and pulse oximetry.",
+            "armGroupLabels": [
+              "Apple Watch Series 6"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.8,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "Withings Move",
+            "description": "Participants will be assigned to the Withings Move arm to assess the impact of individual use of the Withings Move on patient-reported and clinical utilization outcomes using Hugo.",
+            "armGroupLabels": [
+              "Withings Move"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "Withings Move",
+            "description": "A smartwatch that enables tracking of activity and sleep (steps, distance, energy expenditure, sleep phases) but does not perform ECGs, offer irregular rhythm notifications, or measure pulse oximetry.",
+            "armGroupLabels": [
+              "Withings Move"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Quality-of-life (Atrial Fibrillation Effect on QualiTy-of-life)",
+            "description": "Change in the Atrial Fibrillation Effect on QualiTy-of-life (AFEQT) questionnaire global score at 6 months compared to baseline between the Apple Watch and patients randomized to the Withings Move arm at 6 months compared to baseline. Reported on a scale from 0 to 100 with a higher score indicating a better outcome.",
+            "timeFrame": "baseline and 6 months"
+          },
+          "pred_item": {
+            "measure": "Difference in Atrial Fibrillation Effect on QualiTy-of-life (AFEQT) global score",
+            "description": "A composite overall score that ranges from 0 to 100 calculated from the symptoms, daily activities, and treatment concern domains; higher values suggest better quality of life.",
+            "timeFrame": "6 months compared with baseline"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 19,
+      "pred_count": 13,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.86,
+          0.05,
+          0.15,
+          0.08,
+          0.78,
+          0.18,
+          0.05,
+          0.08,
+          0.05,
+          0.22,
+          0.12,
+          0.15
+        ],
+        [
+          0.7,
+          0.82,
+          0.2,
+          0.22,
+          0.22,
+          0.7,
+          0.15,
+          0.18,
+          0.08,
+          0.1,
+          0.18,
+          0.18,
+          0.08
+        ],
+        [
+          0.72,
+          0.82,
+          0.18,
+          0.35,
+          0.23,
+          0.72,
+          0.18,
+          0.12,
+          0.07,
+          0.18,
+          0.1,
+          0.18,
+          0.05
+        ],
+        [
+          0.78,
+          0.78,
+          0.1,
+          0.2,
+          0.18,
+          0.76,
+          0.15,
+          0.08,
+          0.12,
+          0.08,
+          0.05,
+          0.08,
+          0.08
+        ],
+        [
+          0.78,
+          0.82,
+          0.12,
+          0.2,
+          0.12,
+          0.78,
+          0.11,
+          0.13,
+          0.08,
+          0.08,
+          0.18,
+          0.08,
+          0.08
+        ],
+        [
+          0.82,
+          0.82,
+          0.22,
+          0.15,
+          0.2,
+          0.78,
+          0.15,
+          0.08,
+          0.13,
+          0.18,
+          0.12,
+          0.08,
+          0.08
+        ],
+        [
+          0.7,
+          0.76,
+          0.18,
+          0.22,
+          0.18,
+          0.78,
+          0.18,
+          0.08,
+          0.11,
+          0.08,
+          0.25,
+          0.08,
+          0.1
+        ],
+        [
+          0.8,
+          0.78,
+          0.18,
+          0.25,
+          0.32,
+          0.76,
+          0.1,
+          0.08,
+          0.12,
+          0.12,
+          0.2,
+          0.08,
+          0.08
+        ],
+        [
+          0.82,
+          0.78,
+          0.25,
+          0.32,
+          0.29,
+          0.86,
+          0.15,
+          0.11,
+          0.12,
+          0.05,
+          0.2,
+          0.12,
+          0.08
+        ],
+        [
+          0.25,
+          0.18,
+          0.86,
+          0.15,
+          0.25,
+          0.18,
+          0.2,
+          0.1,
+          0.2,
+          0.15,
+          0.28,
+          0.08,
+          0.05
+        ],
+        [
+          0.2,
+          0.2,
+          0.82,
+          0.15,
+          0.32,
+          0.18,
+          0.3,
+          0.19,
+          0.12,
+          0.2,
+          0.12,
+          0.08,
+          0.05
+        ],
+        [
+          0.1,
+          0.13,
+          0.08,
+          0.15,
+          0.3,
+          0.18,
+          0.2,
+          0.92,
+          0.4,
+          0.25,
+          0.12,
+          0.08,
+          0.05
+        ],
+        [
+          0.18,
+          0.18,
+          0.1,
+          0.25,
+          0.3,
+          0.22,
+          0.2,
+          0.92,
+          0.55,
+          0.15,
+          0.18,
+          0.13,
+          0.05
+        ],
+        [
+          0.08,
+          0.18,
+          0.18,
+          0.18,
+          0.4,
+          0.25,
+          0.18,
+          0.3,
+          0.9,
+          0.3,
+          0.12,
+          0.05,
+          0.05
+        ],
+        [
+          0.19,
+          0.18,
+          0.18,
+          0.2,
+          0.45,
+          0.2,
+          0.25,
+          0.4,
+          0.96,
+          0.2,
+          0.2,
+          0.06,
+          0.05
+        ],
+        [
+          0.2,
+          0.18,
+          0.18,
+          0.2,
+          0.68,
+          0.25,
+          0.45,
+          0.2,
+          0.55,
+          0.88,
+          0.35,
+          0.32,
+          0.08
+        ],
+        [
+          0.2,
+          0.18,
+          0.25,
+          0.15,
+          0.7,
+          0.08,
+          0.4,
+          0.2,
+          0.4,
+          0.9,
+          0.32,
+          0.32,
+          0.15
+        ],
+        [
+          0.15,
+          0.18,
+          0.22,
+          0.08,
+          0.32,
+          0.25,
+          0.95,
+          0.13,
+          0.2,
+          0.28,
+          0.18,
+          0.12,
+          0.08
+        ],
+        [
+          0.18,
+          0.22,
+          0.32,
+          0.19,
+          0.23,
+          0.18,
+          0.96,
+          0.18,
+          0.2,
+          0.42,
+          0.18,
+          0.13,
+          0.07
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Quality-of-life (Atrial Fibrillation Effect on QualiTy-of-life)",
+            "description": "Change in the Atrial Fibrillation Effect on QualiTy-of-life (AFEQT) questionnaire global score at 12 months compared to baseline between the Apple Watch and patients randomized to the Withings Move arm at 12 months compared to baseline. Reported on a scale from 0 to 100 with a higher score indicating a better outcome.",
+            "timeFrame": "baseline and 12 months"
+          },
+          "pred_item": {
+            "measure": "Change in AFEQT global score",
+            "description": "Assessment of the global score at additional time points to provide insight into changes.",
+            "timeFrame": "1, 2, 3, 4, 5 and 12 months"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 11,
+          "score": 0.18,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Quality-of-life (Atrial Fibrillation Effect on QualiTy-of-life) Domain- Symptoms",
+            "description": "Difference within individual Symptoms domain of the Atrial Fibrillation Effect on QualiTy-of-life questionnaire between patients randomized to the Apple Watch and patients randomized to the Withings Move arm over the 6-month period. Reported on a scale from 0 to 100 with a higher score indicating a better outcome",
+            "timeFrame": "6 months"
+          },
+          "pred_item": {
+            "measure": "Accuracy of Apple Watch ECG",
+            "description": "Comparison between Apple Watch ECG vs 12-lead ECG regarding heart rhythm, rate, and intervals (PR, QRS, QT).",
+            "timeFrame": "Simultaneous (within 30 min) during study period"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 3,
+          "score": 0.35,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Quality-of-life (Atrial Fibrillation Effect on QualiTy-of-life) Domain- Symptoms",
+            "description": "Difference within individual Symptom domain of the Atrial Fibrillation Effect on QualiTy-of-life questionnaire between patients randomized to the Apple Watch and patients randomized to the Withings Move arm over the 12-month period. Reported on a scale from 0 to 100 with a higher score indicating a better outcome",
+            "timeFrame": "12 months"
+          },
+          "pred_item": {
+            "measure": "Device usage and discontinuation",
+            "description": "Assessment of whether patients stopped using the assigned device (and reason) or used a different personal digital device.",
+            "timeFrame": "1, 2, 3, 4, 5, 6 and 12 months"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Quality-of-life (Atrial Fibrillation Effect on QualiTy-of-life) Domain- Daily Activities",
+            "description": "Difference within individual Daily Activities domain of the Atrial Fibrillation Effect on QualiTy-of-life questionnaire between patients randomized to the Apple Watch and patients randomized to the Withings Move arm over the 6-month period. Reported on a scale from 0 to 100 with a higher score indicating a better outcome",
+            "timeFrame": "6 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Quality-of-life (Atrial Fibrillation Effect on QualiTy-of-life) Domain- Daily Activities",
+            "description": "Difference within individual Daily Activities domain of the Atrial Fibrillation Effect on QualiTy-of-life questionnaire between patients randomized to the Apple Watch and patients randomized to the Withings Move arm over the 12-month period. Reported on a scale from 0 to 100 with a higher score indicating a better outcome",
+            "timeFrame": "12 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Quality-of-life (Atrial Fibrillation Effect on QualiTy-of-life) Domain- Treatment Concern",
+            "description": "Difference within individual Treatment Concern domain of the Atrial Fibrillation Effect on QualiTy-of-life questionnaire between patients randomized to the Apple Watch and patients randomized to the Withings Move arm over the 6-month period. Reported on a scale from 0 to 100 with a higher score indicating a better outcome",
+            "timeFrame": "6 months"
+          },
+          "pred_item": {
+            "measure": "Change in individual domains of the AFEQT questionnaire",
+            "description": "Assessment of specific domains: symptoms, daily activities, treatment concern, and treatment satisfaction.",
+            "timeFrame": "1, 2, 3, 4, 5, 6 and 12 months"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 12,
+          "score": 0.1,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Quality-of-life (Atrial Fibrillation Effect on QualiTy-of-life) Domain- Treatment Concern",
+            "description": "Difference within individual Treatment Concern domain of the Atrial Fibrillation Effect on QualiTy-of-life questionnaire between patients randomized to the Apple Watch and patients randomized to the Withings Move arm over the 12-month period. Reported on a scale from 0 to 100 with a higher score indicating a better outcome",
+            "timeFrame": "12 months"
+          },
+          "pred_item": {
+            "measure": "Accuracy of Apple Watch Pulse Oximeter",
+            "description": "Comparison of Apple Watch Blood Oxygen measurement to a standard, medical grade pulse oximeter.",
+            "timeFrame": "Simultaneous during study period"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Quality-of-life (Atrial Fibrillation Effect on QualiTy-of-life) Domain- Treatment Satisfaction",
+            "description": "Difference within individual Treatment Satisfaction domain of the Atrial Fibrillation Effect on QualiTy-of-life questionnaire between patients randomized to the Apple Watch and patients randomized to the Withings Move arm over the 6-month period. Reported on a scale from 0 to 100 with a higher score indicating a better outcome",
+            "timeFrame": "6 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 5,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Quality-of-life (Atrial Fibrillation Effect on QualiTy-of-life) Domain- Treatment Satisfaction",
+            "description": "Difference within individual Treatment Satisfaction domain of the Atrial Fibrillation Effect on QualiTy-of-life questionnaire between patients randomized to the Apple Watch and patients randomized to the Withings Move arm over the 12-month period. Reported on a scale from 0 to 100 with a higher score indicating a better outcome",
+            "timeFrame": "12 months"
+          },
+          "pred_item": {
+            "measure": "Patient experience and psychological impact",
+            "description": "Assessment of experience with technology; reassurance or worry about overall health; reassurance or worry about atrial fibrillation; and confidence about atrial fibrillation, physical activity, and usual activities.",
+            "timeFrame": "6 and 12 months"
+          }
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": 10,
+          "score": 0.28,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Patients Taking Anticoagulants",
+            "description": "Anticoagulation use will be assessed at 6 months using the Brief Medication Questionnaire to trend patients' monthly responses about anticoagulation use",
+            "timeFrame": "6 months"
+          },
+          "pred_item": {
+            "measure": "Total number of notifications (Apple Watch arm)",
+            "description": "Total number of notifications for irregular rhythm, high and low heart rates.",
+            "timeFrame": "Through 12 months"
+          }
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": 2,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Patients Taking Anticoagulants",
+            "description": "Anticoagulation use will be assessed at 12 months using the Brief Medication Questionnaire to trend patients' monthly responses about anticoagulation use",
+            "timeFrame": "12 months"
+          },
+          "pred_item": {
+            "measure": "Anticoagulation persistence",
+            "description": "Assessed using the Brief Medication Questionnaire asking if patients have taken their anticoagulant and for how many days in the past 1 week.",
+            "timeFrame": "1, 2, 3, 4, 5, 6 and 12 months"
+          }
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": 7,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Participants With Acute Care Use at 6 Months",
+            "description": "Acute care use will be compared between the two groups at 6 months. Acute care is defined as an emergency department visits, observation stays, and all hospitalizations over the 6 month period.",
+            "timeFrame": "6 months"
+          },
+          "pred_item": {
+            "measure": "Acute care use",
+            "description": "Composite of emergency department visits, observation stays, and all hospitalizations.",
+            "timeFrame": "6 and 12 months"
+          }
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Participants With Acute Care Use at 12 Months",
+            "description": "Acute care use will be compared between the two groups at 12 months. Acute care is defined as an emergency department visits, observation stays, and all hospitalizations over the 12 month period.",
+            "timeFrame": "12 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Participants With Outpatient Care Use at 6 Months",
+            "description": "Outpatient care use will be compared between the two groups at 6 months. Outpatient care is defined as outpatient primary care visits, outpatient cardiology or cardiac electrophysiology visits, and scheduled telephone encounters.",
+            "timeFrame": "6 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": 8,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Participants With Outpatient Care Use at 12 Months",
+            "description": "Outpatient care use will be compared between the two groups at 12 months. Outpatient care is defined as outpatient primary care visits, outpatient cardiology or cardiac electrophysiology visits, and scheduled telephone encounters.",
+            "timeFrame": "12 months"
+          },
+          "pred_item": {
+            "measure": "Outpatient care use",
+            "description": "Composite of outpatient primary care visits, outpatient cardiology or cardiac electrophysiology visits, and scheduled telephone encounters.",
+            "timeFrame": "6 and 12 months"
+          }
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": 4,
+          "score": 0.68,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Participants With Rhythm-related Diagnostic Testing at 6 Months",
+            "description": "Rhythm-related diagnostic testing will be assessed at 6 month including total ECGs and total outpatient heart rhythm monitors",
+            "timeFrame": "6 months"
+          },
+          "pred_item": {
+            "measure": "Abnormal notifications and physician contact",
+            "description": "Assessment of receipt of abnormal/worrisome notifications, subsequent physician contact, and result. For Apple Watch arm, includes use of device to examine heart rhythm for symptoms.",
+            "timeFrame": "1, 2, 3, 4, 5, 6 and 12 months"
+          }
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": 9,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Participants With Rhythm-related Diagnostic Testing at 12 Months",
+            "description": "Rhythm-related diagnostic testing will be assessed at 12 month including total ECGs and total outpatient heart rhythm monitors",
+            "timeFrame": "12 months"
+          },
+          "pred_item": {
+            "measure": "Rhythm-related diagnostic testing",
+            "description": "Composite of total ECGs and total outpatient heart rhythm monitors.",
+            "timeFrame": "6 and 12 months"
+          }
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Participants With Clinical Treatment for Atrial Fibrillation or Flutter",
+            "description": "A composite outcome of rhythm control intervention, which is defined as at least one additional cardioversion, initiation of antiarrhythmic medical therapy, dose escalation of antiarrhythmic medication, change to another antiarrhythmic medication, or ablation for atrial fibrillation over the 6 month period. The medication data will be obtained primarily from electronic health record data.",
+            "timeFrame": "6 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": 6,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Participants With Clinical Treatment for Atrial Fibrillation or Flutter",
+            "description": "A composite outcome of rhythm control intervention, which is defined as at least one additional cardioversion, initiation of antiarrhythmic medical therapy, dose escalation of antiarrhythmic medication, change to another antiarrhythmic medication, or ablation for atrial fibrillation over the 12 month period. The medication data will be obtained primarily from electronic health record data.",
+            "timeFrame": "12 months"
+          },
+          "pred_item": {
+            "measure": "Additional clinical treatment for atrial fibrillation or flutter",
+            "description": "Composite of rhythm control intervention: at least one additional cardioversion, initiation of antiarrhythmic medical therapy, dose escalation, change to another antiarrhythmic medication, or ablation.",
+            "timeFrame": "6 and 12 months"
+          }
+        }
+      ]
+    }
+  ]
+}

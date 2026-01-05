@@ -1,0 +1,159 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01302379",
+      "orgStudyIdInfo": null,
+      "secondaryIdInfos": [
+        {
+          "id": "U54CA155435",
+          "type": "NIH",
+          "domain": "National Institutes of Health",
+          "link": null
+        },
+        {
+          "id": "R03AG067064",
+          "type": "NIH",
+          "domain": "National Institutes of Health",
+          "link": null
+        },
+        {
+          "id": "R01ES031259",
+          "type": "NIH",
+          "domain": "National Institutes of Health",
+          "link": null
+        }
+      ],
+      "organization": {
+        "fullName": "University of California, San Diego",
+        "class": "OTHER"
+      },
+      "briefTitle": "Reach for Health",
+      "officialTitle": "Metformin and weight loss relationships with epigenetic age measures—biological aging biomarkers—remain understudied",
+      "acronym": null
+    },
+    "descriptionModule": {
+      "briefSummary": "This study performed a post-hoc analysis of a randomized controlled trial (NCT01302379) among overweight/obese postmenopausal breast cancer survivors. The primary aim was to examine the relationships of metformin and weight loss therapy with nine epigenetic aging (EA) measures—DNA methylation-based biomarkers of biological aging. The hypothesis was that metformin and weight loss, either in combination or independently, would decelerate epigenetic aging, thereby reflecting decreased aging-associated disease risk. The analysis involved 192 participants assigned to metformin, placebo, weight loss with metformin, or weight loss with placebo interventions for 6 months.",
+      "detailedDescription": "Metformin and weight loss are potential strategies for promoting anti-aging processes, yet their relationship with epigenetic aging (EA) measures remains understudied. This study utilized data from a randomized controlled trial with a 2 × 2 factorial design involving overweight/obese breast cancer survivors (N=192 included in methylation analysis). Participants were randomly assigned to daily metformin, placebo, a weight loss intervention with metformin, or weight loss with placebo for 6 months.\n\nFasting blood samples collected at baseline and the 6-month visit were analyzed. DNA methylation analyses were performed on blood samples using the Illumina Infinium MethylationEPIC BeadChip. The study examined nine EA measures: Hannum, Horvath, SkinBloodClock, PhenoAge, GrimAge, DNAm TL (telomere length), mitotic age (MiAge), and epigenetic time to cancer (EpiTOC/EpiTOC2).\n\nThe researchers used unadjusted linear mixed effects regression models and adjusted models (accounting for days from randomization and leukocyte composition) to compare intervention arms to placebo. Sensitivity analyses were also performed for high adherence participants. The study aimed to determine if these interventions could decelerate epigenetic age, a marker for biological aging and disease risk."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Obesity",
+        "Overweight"
+      ],
+      "keywords": [
+        "Metformin",
+        "Weight Loss",
+        "Epigenetic Aging",
+        "DNA Methylation",
+        "Breast Cancer Survivors",
+        "Biological Aging Biomarkers",
+        "Postmenopausal"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "interventionModelDescription": "post-hoc analysis of a randomized controlled trial with a 2 × 2 factorial design",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": null,
+          "maskingDescription": null,
+          "whoMasked": []
+        }
+      },
+      "enrollmentInfo": {
+        "count": 333,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Metformin",
+          "type": "EXPERIMENTAL",
+          "description": "Participants assigned to receive metformin.",
+          "interventionNames": [
+            "Drug: Metformin"
+          ]
+        },
+        {
+          "label": "Weight Loss",
+          "type": "EXPERIMENTAL",
+          "description": "Participants assigned to a weight loss intervention (phone-based program with calorie goal and moderate-intensity physical activity goal of 300 min/week).",
+          "interventionNames": [
+            "Behavioral: Weight Loss Intervention"
+          ]
+        },
+        {
+          "label": "Weight Loss with Metformin",
+          "type": "EXPERIMENTAL",
+          "description": "Participants assigned to both the weight loss intervention and metformin.",
+          "interventionNames": [
+            "Drug: Metformin",
+            "Behavioral: Weight Loss Intervention"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants assigned to receive a placebo.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Metformin",
+          "description": "Daily metformin administration for 6 months.",
+          "armGroupLabels": [
+            "Metformin",
+            "Weight Loss with Metformin"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Weight Loss Intervention",
+          "description": "A weight loss program including a phone-based program with a calorie goal component and a moderate-intensity physical activity goal of 300 min/week for 6 months.",
+          "armGroupLabels": [
+            "Weight Loss",
+            "Weight Loss with Metformin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Daily placebo administration for 6 months.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": null,
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n*   Overweight/obese\n*   Postmenopausal\n*   Breast cancer survivors\n\nExclusion Criteria:\n*   (Not explicitly listed in this post-hoc analysis paper, though references to previous publications [1,4] are made for full details.)",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

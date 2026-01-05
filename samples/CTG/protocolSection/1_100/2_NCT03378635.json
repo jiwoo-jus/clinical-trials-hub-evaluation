@@ -1,0 +1,194 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03378635",
+      "orgStudyIdInfo": {
+        "id": "ZP4207-16137"
+      },
+      "organization": {
+        "fullName": "Zealand Pharma",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Trial to Confirm the Efficacy and Safety of Dasiglucagon in the Treatment of Hypoglycemia in Type 1 Diabetes Subjects",
+      "officialTitle": "A Phase 3, Randomized, Double-blind, Parallel Trial to Confirm the Clinical Efficacy and Safety of Dasiglucagon in Rescue Treatment of Hypoglycemia in Subjects With Type 1 Diabetes Mellitus Compared to Placebo and With Reference to GlucaGen"
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of the trial is to demonstrate superiority of dasiglucagon compared to placebo following a single subcutaneous dose administered to subjects with type 1 diabetes mellitus (T1DM) with insulin-induced hypoglycemia. Additionally to compare the glycemic response observed after administration dasiglucagon with that of GlucaGen®.",
+      "detailedDescription": "This was a global, multicenter, randomized, parallel, and double-blind clinical trial confirming the efficacy and safety of dasiglucagon for insulin-induced hypoglycemia in patients with T1DM. The patients were randomized 2:1:1 to receive a single subcutaneous 0.6 mg dose of dasiglucagon, placebo, or a 1 mg dose of GlucaGen and followed for at least 28 days after receiving treatment."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypoglycemia",
+        "Diabetes Mellitus, Type 1"
+      ],
+      "keywords": [
+        "Dasiglucagon",
+        "Glucagon analog"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 170,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Dasiglucagon",
+          "type": "EXPERIMENTAL",
+          "description": "Single fixed dose (s.c.injection) of dasiglucagon",
+          "interventionNames": [
+            "Drug: Dasiglucagon"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Single fixed dose (s.c.injection) of placebo",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "GlucaGen®",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Single fixed dose (s.c.injection) of GlucaGen®",
+          "interventionNames": [
+            "Drug: GlucaGen"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Dasiglucagon",
+          "description": "Glucagon analog",
+          "armGroupLabels": [
+            "Dasiglucagon"
+          ],
+          "otherNames": [
+            "ZP4207"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "GlucaGen",
+          "description": "Native glucagon",
+          "armGroupLabels": [
+            "GlucaGen®"
+          ],
+          "otherNames": [
+            "GlucaGen HypoKit"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo for dasiglucagon",
+          "armGroupLabels": [
+            "Placebo"
+          ],
+          "otherNames": [
+            "Placebo for dasiglucagon"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Time to Plasma Glucose Recovery",
+          "description": "Plasma glucose recovery is defined as first increase in plasma glucose of ≥20 mg/dL (1.1 mmol/L) from baseline without administration of rescue intravenous glucose. The outcome measure used a Kaplan-Meier estimate with 95% confidence interval. Treatment groups without censoring utilized a distribution free method to compute the confidence interval for median time.",
+          "timeFrame": "0-45 minutes after dosing"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Plasma Glucose Recovery",
+          "description": "Plasma glucose recovery within 30 minutes, within 20 minutes, within 15 minutes, and within 10 minutes after study drug injection without administration of rescue IV glucose. Plasma glucose recovery was defined as the first increase in plasma glucose of ≥20 mg/dL (1.1 mmol/L) from baseline without administration of rescue intravenous glucose.",
+          "timeFrame": "0-30 minutes after dosing: assessed at 10, 15, 20 and 30 minutes after study drug injection"
+        },
+        {
+          "measure": "Plasma Glucose Changes From Baseline",
+          "description": "Plasma glucose changes from baseline at 30 minutes, 20 minutes, 15 minutes and 10 minutes after study drug injection without administration of rescue intravenous glucose",
+          "timeFrame": "0-30 minutes after dosing: assessed at 10, 15, 20 and 30 minutes after study drug injection"
+        },
+        {
+          "measure": "Time to Target",
+          "description": "Time to first plasma glucose concentration ≥70 mg/dL (3.9 mmol/L) without administration of rescue intravenous glucose. The outcome measure used a Kaplan-Meier estimate with 95% confidence interval. Treatment groups without censoring utilized a distribution free method to compute the confidence interval for median time.",
+          "timeFrame": "0-45 minutes after dosing"
+        },
+        {
+          "measure": "Pharmacodynamics - Area Under the Effect Curve",
+          "description": "Plasma glucose response as area under the effect curve (AUE) above baseline from time zero to 30 minutes. Samples were collected pre-dose, and at 4, 6, 8, 10, 12, 15, 17, 20, 25 and 30 minutes after dosing.",
+          "timeFrame": "0-30 minutes after dosing"
+        },
+        {
+          "measure": "Pharmacokinetics - Area Under the Plasma Concentration Curve",
+          "description": "Area under the drug concentration curve from time zero to 90 minutes, AUC0-90min. To calculate the AUC the standard trapezoidal method was used, based on actual rather than nominal time points. Samples were collected pre-dose, and at 15, 30, 35, 40, 50, 60, 90 and 120 minutes after dosing.",
+          "timeFrame": "0-90 minutes after dosing"
+        },
+        {
+          "measure": "Pharmacokinetics - Area Under the Plasma Concentration Curve",
+          "description": "Area under the drug concentration curve from time zero to 120 minutes, AUC0-120min. To calculate the AUC the standard trapezoidal method was used, based on actual rather than nominal time points. Samples were collected pre-dose, and at 15, 30, 35, 40, 50, 60, 90 and 120 minutes after dosing.",
+          "timeFrame": "0-120 minutes after dosing"
+        },
+        {
+          "measure": "Pharmacokinetics - Maximum Plasma Concentration",
+          "description": "Maximum plasma drug concentration (Cmax). Maximum plasma drug concentration was determined as the maximum of all valid plasma dasiglucagon/glucagon concentrations. Samples were collected pre-dose, and at 15, 30, 35, 40, 50, 60, 90 and 120 minutes after dosing.",
+          "timeFrame": "0-120 minutes after dosing"
+        },
+        {
+          "measure": "Pharmacokinetics - Time to Maximum Plasma Concentration",
+          "description": "Time to maximum plasma drug concentration (tmax). Median Tmax was determined as the time point where the maximum of all valid plasma dasiglucagon/glucagon concentration measurements for each measurement series was observed. Samples were collected pre-dose, and at 15, 30, 35, 40, 50, 60, 90 and 120 minutes after dosing.",
+          "timeFrame": "0-120 minutes after dosing"
+        },
+        {
+          "measure": "Immunogenicity - Occurence of Anti-drug Antibodies",
+          "description": "Occurence of antibodies against dasiglucagon/GlucaGen",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Rescue Infusion of IV Glucose During the Hypoglycemic Clamp Procedure",
+          "description": "Number of patients receiving administration of rescue infusion of IV glucose during the hypoglycemic clamp procedure. IV = intravenous",
+          "timeFrame": "0-45 minutes after dosing"
+        },
+        {
+          "measure": "Time to First Rescue Infusion of IV Glucose",
+          "description": "Time to first rescue administration of rescue infusion of IV glucose. IV = intravenous",
+          "timeFrame": "0-45 minutes after dosing"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Female or male subjects with type 1 diabetes mellitus (T1DM) for at least 1 year, diagnostic criteria as defined by the American Diabetes Association\n* Treated with insulin for T1DM for at least 1 year and with stable insulin treatment (defined as no more than a 10-unit daily variation in total daily insulin dose) 30 days prior to screening\n* Hemoglobin A1c \\<10%\n\nExclusion Criteria:\n\n* Previously treated with dasiglucagon (previously referred to as ZP4207)\n* Known or suspected allergy to trial product(s) or related products\n* Females who are pregnant according to a positive pregnancy test, are actively attempting to get pregnant, or are lactating.\n* History of hypoglycemic events associated with seizures in the last year prior to screening\n* History of severe hypoglycemia in the last month prior to screening\n* Active malignancy within the last 5 years\n* Current bleeding disorder, including anti-coagulant treatment\n* Known presence or history of pheochromocytoma (i.e. adrenal gland tumor) or insulinoma (i.e. insulin secreting pancreas tumor)\n* Use of a daily systemic beta-blocker drug, indomethacin, warfarin or anticholinergic drugs in the previous 28 days before Day 1 of this trial\n* Clinically significant abnormal ECG at screening as judged by the investigator\n* Donation of blood or plasma in the past month, or in excess of 500 mL within 12 weeks prior to screening\n* Surgery or trauma with significant blood loss within the last 2 months prior to screening\n* A positive result in the alcohol and/or urine drug screen at the screening visit. Significant history of alcoholism or drug abuse as judged by the investigator or consuming more than 24 g alcohol per day for men, or more than 12 g alcohol per day for women",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "metadata": {
+    "case_id": 86,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T19:21:19.275130",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/86_NCT03571256.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/86_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.1,
+          "status": "matched",
+          "ref_item": {
+            "id": "2017-002976-24",
+            "type": "EUDRACT_NUMBER"
+          },
+          "pred_item": {
+            "id": "ARTISTS 2",
+            "type": "OTHER",
+            "domain": "Teva Pharmaceutical Industries Ltd / Nuvelution TS Pharma",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.7,
+          0.3
+        ],
+        [
+          0.6,
+          0.94,
+          0.3
+        ],
+        [
+          0.15,
+          0.15,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "TEV-50717 High-Dose",
+            "type": "EXPERIMENTAL",
+            "description": "TEV-50717 tablets twice daily (BID) up to 48 milligrams (mg)/day orally for a total of 8 weeks",
+            "interventionNames": [
+              "Drug: TEV-50717",
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "High-dose deutetrabenazine",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received high-dose deutetrabenazine, titrated over 4 weeks to a fixed target dose up to 48 mg/day based on body weight and CYP2D6 impairment status, followed by a 4-week maintenance period.",
+            "interventionNames": [
+              "Deutetrabenazine"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "TEV-50717 Low-Dose",
+            "type": "EXPERIMENTAL",
+            "description": "TEV-50717 tablets BID up to 36 mg/day orally for a total of 8 weeks",
+            "interventionNames": [
+              "Drug: TEV-50717",
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Low-dose deutetrabenazine",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received low-dose deutetrabenazine, titrated over 4 weeks to a fixed target dose up to 36 mg/day based on body weight and CYP2D6 impairment status, followed by a 4-week maintenance period.",
+            "interventionNames": [
+              "Deutetrabenazine"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo matched to TEV-50717 for a total of 8 weeks",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants received a matching placebo tablet, titrated over 4 weeks to a target schedule mirroring the active drug dosing based on body weight and CYP2D6 status, followed by a 4-week maintenance period.",
+            "interventionNames": [
+              "Placebo tablet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.3
+        ],
+        [
+          0.4,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "TEV-50717",
+            "description": "6-, 9-, 12-, 15-, and 18 mg oral tablets",
+            "armGroupLabels": [
+              "TEV-50717 High-Dose",
+              "TEV-50717 Low-Dose"
+            ],
+            "otherNames": [
+              "AUSTEDO, Deutetrabenazine"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Deutetrabenazine",
+            "description": "Oral deutetrabenazine, a vesicular monoamine transporter type 2 (VMAT2) inhibitor. In this trial it was administered in fixed-dose regimens: a high-dose arm up to 48 mg/day and a low-dose arm up to 36 mg/day. Doses were titrated over 4 weeks to a predefined target based on baseline body weight (≥40 kg, 30 to <40 kg, or 20 to <30 kg) and CYP2D6 impairment status, then maintained for 4 weeks.",
+            "armGroupLabels": [
+              "High-dose deutetrabenazine",
+              "Low-dose deutetrabenazine"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo matched to TEV-50717 tablets will be taken BID.",
+            "armGroupLabels": [
+              "Placebo",
+              "TEV-50717 High-Dose",
+              "TEV-50717 Low-Dose"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo tablet",
+            "description": "Oral placebo tablet matching deutetrabenazine in appearance and dosing schedule. Participants underwent a 4-week titration to a target schedule corresponding to active drug dosing based on body weight and CYP2D6 status, followed by a 4-week maintenance period.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the TTS of the YGTSS at Week 8 Between High-Dose TEV-50717-Treated Participants and Placebo-Treated Participants",
+            "description": "YGTSS rating scale is a semi-structured clinician rating instrument that provides an evaluation of the number, frequency, intensity, complexity, and interference of motor and phonic tics. YGTSS is composed of 11 items: 5 items for motor tic severity, 5 items for vocal tic severity, and 1 item for impairment. Each item for motor tic severity and vocal is rated on a 6-point scale (0 for none to 5 to severe). MTSS is the sum of the 5 items for motor tic severity and VTSS is the sum of the 5 items for vocal tic severity. TTS is the sum of MTSS and VTSS, ranges from 0 (none/absent) to 50 (severe). Higher scores indicate greater severity/worse outcome. Least square (LS) mean and standard error (SE) was calculated using mixed-model repeated-measures (MMRM) with treatment group, week (3 levels: Weeks 2, 4, and 8), and the treatment group by week interaction as fixed effects; and baseline TTS, region, and age group at baseline (2 levels: 6 to 11 years, 12 to 16 years) as covariates.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": {
+            "measure": "Change in Yale Global Tic Severity Scale–Total Tic Score (YGTSS-TTS)",
+            "description": "Clinician-administered semistructured rating of motor and phonic tics; total tic score (0-50) derived by summing Motor Tic Severity Score (0-25) and Vocal Tic Severity Score (0-25). Primary endpoint is the change from baseline in YGTSS-TTS comparing high-dose deutetrabenazine to placebo.",
+            "timeFrame": "Baseline to Week 8"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 9,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.72,
+          0.96,
+          0.65,
+          0.62,
+          0.72,
+          0.7
+        ],
+        [
+          0.4,
+          0.99,
+          0.4,
+          0.72,
+          0.28,
+          0.4,
+          0.28
+        ],
+        [
+          0.96,
+          0.6,
+          0.97,
+          0.62,
+          0.78,
+          0.7,
+          0.72
+        ],
+        [
+          0.72,
+          0.35,
+          0.72,
+          1.0,
+          0.9,
+          0.6,
+          0.72
+        ],
+        [
+          0.62,
+          0.68,
+          0.7,
+          0.92,
+          0.97,
+          0.76,
+          0.68
+        ],
+        [
+          0.72,
+          0.38,
+          0.52,
+          0.58,
+          0.62,
+          0.98,
+          0.98
+        ],
+        [
+          0.62,
+          0.52,
+          0.32,
+          0.68,
+          0.48,
+          0.96,
+          0.98
+        ],
+        [
+          0.18,
+          0.18,
+          0.18,
+          0.18,
+          0.12,
+          0.25,
+          0.32
+        ],
+        [
+          0.15,
+          0.12,
+          0.08,
+          0.08,
+          0.08,
+          0.12,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the Tourette Syndrome-Clinical Global Impression (TS-CGI) Score at Week 8 Between High-Dose TEV-50717-Treated Participants and Placebo-Treated Participants",
+            "description": "The TS-CGI scale is a 7-point Likert scale that allows the clinician to use all available information to assess the impact of tics on the participant's quality of life. The TS-CGI is rated as follows: 1 (normal or no tics at all), 2 (borderline), 3 (mild), 4 (moderate), 5 (marked), 6 (severe), and 7 (extreme, incapacitating tics). Lower scores indicate better quality of life. LS mean and SE was calculated using MMRM with treatment group, week (3 levels: Weeks 2, 4, and 8), and the treatment group by week interaction as fixed effects; and baseline TTS, region, and age group at baseline (2 levels: 6 to 11 years, 12 to 16 years) as covariates.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": {
+            "measure": "Change in Tourette Syndrome Clinical Global Impression (TS-CGI) score for high-dose deutetrabenazine",
+            "description": "Clinician-rated global impact of tics on the patient’s quality of life on a 7-point Likert scale from 1 (normal) to 7 (extreme). Key secondary endpoint is the change from baseline in TS-CGI comparing high-dose deutetrabenazine to placebo.",
+            "timeFrame": "Baseline to Week 8"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the TTS of the YGTSS at Week 8 Between Low-Dose TEV-50717-Treated Participants and Placebo-Treated Participants",
+            "description": "YGTSS rating scale is a semi-structured clinician rating instrument that provides an evaluation of the number, frequency, intensity, complexity, and interference of motor and phonic tics. YGTSS is composed of 11 items: 5 items for motor tic severity, 5 items for vocal tic severity, and 1 item for impairment. Each item for motor tic severity and vocal is rated on a 6-point scale (0 for none to 5 to severe). MTSS is the sum of the 5 items for motor tic severity and VTSS is the sum of the 5 items for vocal tic severity. TTS is the sum of MTSS and VTSS, ranges from 0 (none/absent) to 50 (severe). Higher scores indicate greater severity/worse outcome. LS mean and SE was calculated using MMRM with treatment group, week (3 levels: Weeks 2, 4, and 8), and the treatment group by week interaction as fixed effects; and baseline TTS, region, and age group at baseline (2 levels: 6 to 11 years, 12 to 16 years) as covariates.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": {
+            "measure": "Change in Yale Global Tic Severity Scale–Total Tic Score (YGTSS-TTS) for low-dose deutetrabenazine",
+            "description": "Change from baseline in the YGTSS total tic score (0-50), comparing low-dose deutetrabenazine to placebo.",
+            "timeFrame": "Baseline to Week 8"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the TS-CGI Score at Week 8 Between Low-Dose TEV-50717-Treated Participants and Placebo-Treated Participants",
+            "description": "The TS-CGI scale is a 7-point Likert scale that allows the clinician to use all available information to assess the impact of tics on the participant's quality of life. The TS-CGI is rated as follows: 1 (normal or no tics at all), 2 (borderline), 3 (mild), 4 (moderate), 5 (marked), 6 (severe), and 7 (extreme, incapacitating tics). Lower scores indicate better quality of life. LS mean and SE was calculated using MMRM with treatment group, week (3 levels: Weeks 2, 4, and 8), and the treatment group by week interaction as fixed effects; and baseline TTS, region, and age group at baseline (2 levels: 6 to 11 years, 12 to 16 years) as covariates.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": {
+            "measure": "Change in Tourette Syndrome Clinical Global Impression (TS-CGI) score for low-dose deutetrabenazine",
+            "description": "Change from baseline in clinician-rated TS-CGI score (1-7), comparing low-dose deutetrabenazine to placebo.",
+            "timeFrame": "Baseline to Week 8"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the Tourette Syndrome-Patient Global Impression of Impact (TS-PGII) Score at Week 8 Between High-Dose TEV-50717-Treated Participants and Placebo-Treated Participants",
+            "description": "The TS-PGII is a single-item questionnaire that asks the participant to assess the degree of impact due to current tics (How much do your current tics disrupt things in your life?). The TS-PGII uses a 5-point scale, ranging from not at all (1) to very much (5), to assess overall response to therapy.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": {
+            "measure": "Change in Tourette Syndrome Patient Global Impression of Impact (TS-PGII) for high-dose deutetrabenazine",
+            "description": "Patient-reported single-item rating: “How much do your current tics disrupt things in your life?” scored from 1 (not at all) to 5 (very much). Key secondary endpoint is the change from baseline comparing high-dose deutetrabenazine to placebo.",
+            "timeFrame": "Baseline to Week 8"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the TS-PGII Score at Week 8 Between Low-Dose TEV-50717-Treated Participants and Placebo-Treated Participants",
+            "description": "The TS-PGII is a single-item questionnaire that asks the participant to assess the degree of impact due to current tics (How much do your current tics disrupt things in your life?). The TS-PGII uses a 5-point scale, ranging from not at all (1) to very much (5), to assess overall response to therapy.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": {
+            "measure": "Change in Tourette Syndrome Patient Global Impression of Impact (TS-PGII) for low-dose deutetrabenazine",
+            "description": "Change from baseline in patient-reported TS-PGII score (1-5), comparing low-dose deutetrabenazine to placebo.",
+            "timeFrame": "Baseline to Week 8"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 5,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the Child and Adolescent Gilles de la Tourette Syndrome - Quality of Life (C&A-GTS-QOL) Activities of Daily Living (ADL) Subscale Score at Week 8 Between High-Dose TEV-50717-Treated Participants and Placebo-Treated Participants",
+            "description": "C\\&A-GTS-QOL is a 27-item questionnaire that asks participant to assess the extent to which their quality of life is impacted by their symptoms. C\\&A-GTS-QOL contains 6 subscales (cognitive, coprophenomena, psychological, physical, obsessive-compulsive, and ADL) and uses a 5-point Likert scale ranging from no problem to extreme problem. Following 3 questions from 27-item questionnaire were assessed in ADL C\\&A-GTS-QOL subscale: Question 2 (Had difficulty with school or sport activities?), 24 (Felt you needed more help or support from other people?), and 26 (Had difficulty going out with other people?). Total score of ADL subscale ranged from 0 (no problem) to 12 (extreme problem). Lower score indicated better quality of life. LS mean and SE was calculated using MMRM with treatment group, week (3 levels: Weeks 2, 4, and 8), and treatment group by week interaction as fixed effects; and baseline TTS, region, and age group at baseline (2 levels: 6-11 years, 12-16 years) as covariates.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": {
+            "measure": "Change in Child and Adolescent Gilles de la Tourette Syndrome–Quality of Life Activities of Daily Living (CA-GTS-QOL ADL) subscale score for high-dose deutetrabenazine",
+            "description": "Three-item patient-reported subscale assessing the impact of Tourette syndrome symptoms on activities of daily living; scores range from 0 to 100 with higher scores indicating worse quality of life. Key secondary endpoint is the change from baseline comparing high-dose deutetrabenazine to placebo.",
+            "timeFrame": "Baseline to Week 8"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 6,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the C&A-GTS-QOL ADL Subscale Score at Week 8 Between Low-Dose TEV-50717-Treated Participants and Placebo-Treated Participants",
+            "description": "C\\&A-GTS-QOL is a 27-item questionnaire that asks participant to assess the extent to which their quality of life is impacted by their symptoms. C\\&A-GTS-QOL contains 6 subscales (cognitive, coprophenomena, psychological, physical, obsessive-compulsive, and ADL) and uses a 5-point Likert scale ranging from no problem to extreme problem. Following 3 questions from 27-item questionnaire were assessed in ADL C\\&A-GTS-QOL subscale: Question 2 (Had difficulty with school or sport activities?), 24 (Felt you needed more help or support from other people?), and 26 (Had difficulty going out with other people?). Total score of ADL subscale ranged from 0 (no problem) to 12 (extreme problem). Lower score indicated better quality of life. LS mean and SE was calculated using MMRM with treatment group, week (3 levels: Weeks 2, 4, and 8), and treatment group by week interaction as fixed effects; and baseline TTS, region, and age group at baseline (2 levels: 6-11 years, 12-16 years) as covariates.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": {
+            "measure": "Change in Child and Adolescent Gilles de la Tourette Syndrome–Quality of Life Activities of Daily Living (CA-GTS-QOL ADL) subscale score for low-dose deutetrabenazine",
+            "description": "Change from baseline in CA-GTS-QOL ADL subscale score (0-100), comparing low-dose deutetrabenazine to placebo.",
+            "timeFrame": "Baseline to Week 8"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in the Children's Depression Inventory Second Edition (CDI-2; Parent Version and Self-reported Version) Total Score at Week 9",
+            "description": "CDI-2 self-report: 28-item questionnaire assessing depressive symptoms in children 7 to 17 years of age with basic reading and comprehension skills. Children were asked to choose 1 of 3 statements that most closely aligns with their feelings in past 2 weeks. It contains 6 subscales (emotional problem, negative mood/physical symptoms, negative self-esteem, functional problems, ineffectiveness, interpersonal problems). Total score: sum of all subscales scores, ranging from 0 to 56, with higher score indicating greater depression severity.CDI-2 parent: 17-item questionnaire administered to parents to assess depression-related behaviors observed in their children. Parents were asked to rate their child's behaviors in past 2 weeks on a 4-point Likert scale from \"not at all\" to \"much or most of the time.\" It contains 2 subscales (emotional problems and functional problem). Total score: sum of 2 subscales, ranging from 0 to 51, with higher score indicating more depression-related behaviors.",
+            "timeFrame": "Baseline, Week 9"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants at Baseline and Week 9 With Any Suicidal Ideation or Suicidal Behavior According to the Columbia Suicide Severity Rating Scale (C-SSRS)",
+            "description": "C-SSRS included responses for Suicidal Ideation or Suicidal Behavior in following 10 categories: 1 = Wish to be dead; 2 = Non-specific active suicidal thoughts; 3 = Active suicidal ideation with any methods (not plan) without intent to act; 4 = Active suicidal ideation with some intent to act, without specific plan; 5 = Active suicidal ideation with specific plan and intent; 6 = Preparatory acts or behavior; 7 = Aborted attempt; 8 = Interrupted attempt; 9 = Non-fatal suicide attempt; and 10 = Completed suicide. Number of participants with any suicidal ideation or suicidal behavior are reported. Any Suicidal ideation or Suicidal Behavior events reported as TEAEs along with all other reported TEAEs are included in the AE module.",
+            "timeFrame": "Baseline, Week 9"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

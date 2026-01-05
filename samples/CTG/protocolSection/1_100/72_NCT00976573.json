@@ -1,0 +1,157 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00976573",
+      "orgStudyIdInfo": {
+        "id": "NCCTG-N0879"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "NCI-2011-01968",
+          "type": "REGISTRY",
+          "domain": "CTRP (Clinical Trials Reporting System)"
+        },
+        {
+          "id": "CDR0000654465",
+          "type": "REGISTRY",
+          "domain": "PDQ (Physician Data Query)"
+        }
+      ],
+      "organization": {
+        "fullName": "Alliance for Clinical Trials in Oncology",
+        "class": "OTHER"
+      },
+      "briefTitle": "Carboplatin, Paclitaxel, and Bevacizumab With or Without Everolimus in Treating Patients With Metastatic Malignant Melanoma",
+      "officialTitle": "A Randomized Phase II Trial of Carboplatin, Paclitaxel, Bevacizumab, With or Without Everolimus for Therapy of Metastatic Malignant Melanoma"
+    },
+    "descriptionModule": {
+      "briefSummary": "This randomized phase II trial is studying how well carboplatin, paclitaxel, and bevacizumab work when given with or without everolimus in treating patients with malignant melanoma that has spread from where it started to other places in the body. Drugs used in chemotherapy, such as carboplatin and paclitaxel, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as bevacizumab, may block the ability of tumor cells to grow and spread. Everolimus may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth and by blocking blood flow to the tumor. It is not yet known whether combination chemotherapy given together with bevacizumab is more effective with or without everolimus in treating patients with metastatic melanoma.",
+      "detailedDescription": "OBJECTIVES:\n\nPrimary\n\n* To assess whether there is sufficient promise of an impact of the addition of everolimus to the combination of carboplatin, paclitaxel, and bevacizumab on progression-free survival that it would be recommended for further testing in patients with metastatic malignant melanoma.\n\nSecondary\n\n* To estimate the confirmed tumor response rate of each of the treatment regimens.\n* To estimate the distribution of overall survival (OS) time for each of the treatment regimens.\n* To assess the impact on the safety profile of the addition of everolimus to the combination of carboplatin, paclitaxel, and bevacizumab.\n\nOUTLINE: This is a multicenter study. Patients are stratified according to elevated LDH (above upper limit of normal) at baseline (yes vs no), location of metastatic disease (M1a \\[skin, subcutaneous tissue, or lymph node only\\] vs M1b \\[lung\\] vs M1c \\[other visceral sites\\]) and prior chemotherapy for metastatic disease (yes vs no). Patients are randomized to 1 of 2 treatment arms.\n\nOUTLINE: Patients are randomized to 1 of 2 treatment arms.\n\nARM I: Patients receive bevacizumab intravenously (IV) over 30-90 minutes on days 1 and 15, paclitaxel IV over 60 minutes on days 1, 8, and 15, and carboplatin IV over 30 minutes on day 1. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nARM II: Patients receive bevacizumab, paclitaxel, and carboplatin as in Arm I. Patients also receive everolimus orally (PO) once daily (QD) 3 times weekly. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.\n\nAfter completion of study treatment, patients are followed up every 3-6 months for up to 5 years."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Melanoma (Skin)"
+      ],
+      "keywords": [
+        "Stage IV Skin Melanoma",
+        "recurrent melanoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 149,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm I (bevacizumab, paclitaxel, and carboplatin)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive bevacizumab IV over 30-90 minutes on days 1 and 15, paclitaxel IV over 60 minutes on days 1, 8, and 15, and carboplatin IV over 30 minutes on day 1. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.",
+          "interventionNames": [
+            "Biological: bevacizumab",
+            "Drug: carboplatin",
+            "Drug: paclitaxel"
+          ]
+        },
+        {
+          "label": "Arm II(bevacizumab, paclitaxel, carboplatin, and everolimus)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive bevacizumab, paclitaxel, and carboplatin as in Arm I. Patients also receive everolimus PO QD on 3 days a week. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.",
+          "interventionNames": [
+            "Biological: bevacizumab",
+            "Drug: carboplatin",
+            "Drug: everolimus",
+            "Drug: paclitaxel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "bevacizumab",
+          "description": "Given IV",
+          "armGroupLabels": [
+            "Arm I (bevacizumab, paclitaxel, and carboplatin)",
+            "Arm II(bevacizumab, paclitaxel, carboplatin, and everolimus)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "carboplatin",
+          "description": "Given IV",
+          "armGroupLabels": [
+            "Arm I (bevacizumab, paclitaxel, and carboplatin)",
+            "Arm II(bevacizumab, paclitaxel, carboplatin, and everolimus)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "everolimus",
+          "description": "Given orally",
+          "armGroupLabels": [
+            "Arm II(bevacizumab, paclitaxel, carboplatin, and everolimus)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "paclitaxel",
+          "description": "Given IV",
+          "armGroupLabels": [
+            "Arm I (bevacizumab, paclitaxel, and carboplatin)",
+            "Arm II(bevacizumab, paclitaxel, carboplatin, and everolimus)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Progression-free Survival",
+          "description": "The primary endpoint is progression-free survival (PFS) defined as the time from randomization to documentation of disease progression or death without documentation of progression. The distribution of PFS times will be estimated using the Kaplan-Meier method. Progression is defined using the RECIST Criteria as at least a 20% increase in the sum of diameters of target lesions taking as reference the smallest sum of diameters recorded on study (this includes the baseline sum if that is the smallest on study) or the appearance of one or more new lesions. In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm of target lesions, or the appearance of one or more new lesions, unequivocal progression of existing non-target lesions, although unequivocal progression should not normally trump target lesion status. It must be representative of overall disease status change, not a single lesion increase.",
+          "timeFrame": "Time from randomization to documentation of disease progression or death without documentation of progression;Up to 5 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Toxicity",
+          "description": "For this secondary endpoint, toxicity is defined as a grade 3 or higher adverse events that is classified as either possibly, probably, or definitely related to study treatment. The assignment of attribution to study treatment and grade (or degree of severity) of the adverse event are classified using the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version 4.0. The percentage of participants reporting a grade 3 or higher toxicity is reported. For a list of all reported adverse events, please refer to the Adverse Events Section below.",
+          "timeFrame": "Up to 5 years"
+        },
+        {
+          "measure": "Confirmed Tumor Response Rate (Complete Response [CR] or Partial Response [PR]) According to Response Evaluation Criteria in Solid Tumors (RECIST) Criteria",
+          "description": "Confirmed Tumor Response: A confirmed tumor response is defined to be a CR or PR (by the RECIST criteria) noted as the objective status on 2 consecutive evaluations at least 8 weeks apart. The proportion of tumor responses will be estimated by the number of confirmed tumor responses divided by the total number of evaluable patients. A ninety percent confidence interval for the true proportion of confirmed tumor responses will be calculated assuming that the number of confirmed tumor responses follows a binomial distribution.",
+          "timeFrame": "Up to 5 years"
+        },
+        {
+          "measure": "Overall Survival Time",
+          "description": "Overall survival time is defined as the time from registration to death due to any cause. The distribution of survival times will be estimated using the method of Kaplan-Meier.",
+          "timeFrame": "up to 5 years"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologic proof of stage IV malignant melanoma not amenable to surgery; (biopsy can be of locoregional disease in setting of clinically evident stage IV disease, but primary tumor alone will not qualify)\n* At most one prior chemotherapy based regimen for metastatic melanoma (no prior taxane-based regimens allowed); note: prior adjuvant non-taxane based chemotherapy and/or adjuvant immunotherapy are allowed; no limit on the number of prior biologic, immunologic or targeted therapies\n* Measurable disease defined as at least one lesion whose longest diameter can be accurately measured as \\>= 2.0 cm with chest x-ray, or as \\>= 1.0 cm with computed tomography (CT) scan, CT component of a positron emission tomography (PET)/CT, or magnetic resonance imaging (MRI) scan; note: disease that is measurable by physical examination only is not eligible\n* Life expectancy \\>= 4 months\n* Eastern Cooperative Oncology Group (ECOG) performance status 0 or 1\n* Absolute neutrophil count (ANC) \\>= 1500/mL\n* Platelets (PLT) \\>= 100,000 x 10\\^9/L\n* Hemoglobin (Hgb) \\>= 9 g/dL (patients may be transfused to meet this requirement)\n* Total cholesterol =\\< 300 mg/dL and; (note: serum levels of cholesterol or triglycerides found to be elevated may be lowered with anti-lipid therapy, but must be documented to be below these levels prior to enrollment)\n* Triglycerides =\\< 2.5 X upper limit of normal (ULN); (note: serum levels of cholesterol or triglycerides found to be elevated may be lowered with anti-lipid therapy, but must be documented to be below these levels prior to enrollment)\n* Creatinine =\\< 1.5 x ULN\n* Total bilirubin =\\< 1.5 mg/dL (exception: patients with documented Gilbert's syndrome are allowed to participate despite elevated bilirubin)\n* Serum glutamic oxaloacetic transaminase (SGOT) (aspartate aminotransferase \\[AST\\]) =\\< 2.5 x ULN\n* Alkaline phosphatase =\\< 2.5 x ULN\n* Urine protein:creatinine (UPC) ratio \\< 1.0 at screening OR\n* Urine dipstick for proteinuria \\< 2+ (patients discovered to have \\>= 2+ proteinuria on dipstick urinalysis at baseline should undergo a 24 hour urine collection and must demonstrate =\\< 1 g of protein in 24 hours to be eligible)\n* Negative pregnancy test done =\\< 7 days prior to registration/randomization, for women of childbearing potential only\n* Ability to understand and the willingness to sign a written informed consent document\n* Willing to return to a North Central Cancer Treatment Group (NCCTG) institution for follow-up\n* Willing to provide mandatory blood samples for research purposes\n* Willing to follow a diet low in fat and cholesterol while taking everolimus\n* Willing to abstain from eating grapefruit or drinking grapefruit juice for the duration of the study\n\nExclusion Criteria\n\n* Prior treatment with agents disrupting vascular endothelial growth factor (VEGF) activity (i.e., bevacizumab, VEGF-trap, anti-VEGF receptor \\[R\\] monoclonal antibody \\[Mab\\]) or targeting VEGFR (e.g. sunitinib, sorafenib)\n* Prior treatment with an mTOR inhibitor for melanoma (sirolimus, temsirolimus, everolimus)\n* Brain metastases per MRI or CT at any time prior to registration; note: patients that have had primary therapy for brain metastasis (i.e. surgical resection, whole brain radiation, or stereotactic radiation therapy \\[SRT\\] even if stable) are not eligible\n* Other investigational agents =\\< 4 weeks prior to registration/randomization\n* Chemotherapy treatment =\\< 3 weeks prior to registration/randomization\n* Any biologic, immunologic or targeted therapy =\\< 2 weeks prior to registration/randomization\n* Major surgical procedure, open biopsy, or significant traumatic injury =\\< 4 weeks prior to registration/randomization\n* Fine needle aspirations or core biopsies =\\< 7 days prior to registration/randomization\n* Planned/or anticipated major surgical procedure during the course of the study\n* Other medical conditions including but not limited to:\n\n  * History of liver disease such as cirrhosis, chronic active hepatitis, chronic persistent hepatitis or hepatitis B or C\n  * Active infection requiring parenteral antibiotics\n  * Poorly controlled high blood pressure (\\>=150 mm Hg systolic and/or 100 mmHg diastolic) despite treatment\n  * New York Heart Association class II-IV congestive heart failure\n  * Serious cardiac arrhythmia requiring medication\n  * Myocardial infarction or unstable angina =\\< 6 months prior to registration/randomization\n  * Clinically significant peripheral vascular disease\n  * Deep venous thrombosis or pulmonary embolus =\\< 1 year of registration/randomization and/or ongoing need for full-dose oral or parenteral anticoagulation\n  * Ongoing anti-platelet treatment other than low-dose aspirin (i.e., aspirin 81 mg orally \\[p.o.\\] daily)\n  * Active bleeding or pathological conditions that carry high risk of bleeding (e.g., known esophageal varices, etc.)\n  * Serious, non-healing wound (including wounds healing by secondary intention), ulcer or bone fracture\n  * History of abdominal fistula, gastrointestinal perforation or intra-abdominal abscess =\\< 6 months prior to registration/randomization\n  * History of central nervous system (CNS) disease (e.g., primary brain tumor, vascular abnormalities, etc.), clinically significant stroke or transient ischemic attack (TIA) =\\< 6 months prior to registration/randomization, seizures not controlled with standard medical therapy\n  * Radiographically documented tumor invading major blood vessels\n  * History of hypertensive crisis or hypertensive encephalopathy\n  * Uncontrolled diabetes as defined by fasting serum glucose \\> 1.5 x ULN\n  * Severely impaired lung function as defined as spirometry and diffusing capacity of the lung for carbon monoxide (DLCO) that is 50% of the normal predicted value and/or 02 saturation that is 88% or less at rest on room air\n  * A known history of human immunodeficiency virus (HIV) seropositivity\n* Any of the following as this regimen may be harmful to a developing fetus or nursing child:\n\n  * Pregnant women\n  * Nursing women\n  * Men and women of reproductive potential who are not using effective birth control methods must use highly effective contraception throughout the trail and for 6 months after last study treatment\n* Existence of peripheral sensory neuropathy \\>= grade 2\n* History of other malignancy =\\< 5 years with the exception of basal cell or squamous cell carcinoma of the skin, treated with local resection only, or carcinoma in situ (e.g. of the cervix, breast, prostate, etc.)\n* =\\< 4 weeks since last day of adjuvant radiation therapy prior to registration or =\\< 2 weeks since last day of palliative radiation therapy; NOTE: patients who have had \\> 25% of their functional bone marrow irradiated are not eligible for this trial\n* Active or recent history of hemoptysis (\\>= 1/2 teaspoon of bright red blood per episode) =\\< 30 days prior to registration\n* Known hypersensitivity to any of the components of the everolimus, bevacizumab, carboplatin, or paclitaxel\n* Current use of drugs that are known to be strong inhibitors or inducers of cytochrome P450, family 3, subfamily A, polypeptide 4 (CYP3A4); note: if these agents are discontinued, everolimus therapy can begin \\>= 7 days after discontinuation of such agent\n* Positive hepatitis B antigen (HBsAg) or hepatitis C serology (HCV) tests\n* Planned immunization with attenuated live vaccines =\\< 7 days prior to registration or during study period; note: close contact with those who have received attenuated live vaccines should be avoided during treatment with everolimus; examples of live vaccines include intranasal influenza, measles, mumps, rubella, oral polio, Bacillus Calmette-Guérin (BCG), yellow fever, varicella and TY21a typhoid vaccines",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

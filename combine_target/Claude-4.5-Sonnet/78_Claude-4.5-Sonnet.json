@@ -1,0 +1,94 @@
+{
+  "protocolSection": {
+    "identificationModule": null,
+    "descriptionModule": null,
+    "conditionsModule": null,
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Adults were stratified into two age cohorts: 18–55 years and ≥56 years. The ≥56-year-old cohort was further divided into subcohorts aged 56–69 years and ≥70 years. Participants in each cohort were randomized (3:1) to receive either AZD1222 or placebo (saline).",
+        "primaryPurpose": "PREVENTION",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "AZD1222 and placebo were prepared by an unblinded pharmacist, in accordance with local and institutional regulations at each site. Participants, clinical investigators and sponsor staff were blinded to the study vaccination received until completion of safety data lock at Day 57.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 256,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": null,
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Immunogenicity measured by anti-SARS-CoV-2 spike seroresponse",
+          "description": "Anti-SARS-CoV-2 spike seroresponse defined as ≥4-fold rise in titre from Day 1 baseline value at Day 57 following vaccination with AZD1222",
+          "timeFrame": "Day 57 (28 days after second dose)"
+        },
+        {
+          "measure": "Safety measured by occurrence of solicited local and systemic reactogenicity signs/symptoms",
+          "description": "Occurrence of solicited local (pain, tenderness, redness, swelling, induration at injection site) and systemic (fever, chills, muscle pain, fatigue, headache, malaise, nausea, vomiting) reactogenicity signs/symptoms",
+          "timeFrame": "6 days after each dose (Days 1-7 and Days 29-35)"
+        },
+        {
+          "measure": "Safety measured by occurrence of unsolicited adverse events",
+          "description": "Occurrence of unsolicited adverse events (AEs), serious adverse events (SAEs), and adverse events of special interest (AESIs)",
+          "timeFrame": "28 days after each dose (Days 1-29 and Days 29-57)"
+        },
+        {
+          "measure": "Safety measured by change from baseline in safety laboratory measures",
+          "description": "Change from baseline in safety laboratory measures including haemoglobin concentration, leukocyte count, platelet count and clinical chemistry parameters",
+          "timeFrame": "Days 1, 8, 29, 36 and 57"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportion of participants with seroresponse for RBD antigen",
+          "description": "Proportion of participants with a seroresponse (≥4-fold rise in titre from Day 1 baseline value) for the receptor-binding domain (RBD) antigen",
+          "timeFrame": "Day 57 (28 days after second dose)"
+        },
+        {
+          "measure": "Proportion of participants with SARS-CoV-2 neutralizing antibody seroresponse",
+          "description": "Proportion of participants with a seroresponse (≥4-fold rise in titre from Day 1 baseline value) for SARS-CoV-2 neutralizing antibodies",
+          "timeFrame": "Day 57 (28 days after second dose)"
+        },
+        {
+          "measure": "Geometric mean titre (GMT) of immunogenicity against SARS-CoV-2 spike antigen",
+          "description": "GMT and geometric mean fold rise of immunogenicity against SARS-CoV-2 spike antigen at each time point",
+          "timeFrame": "Up to Day 365"
+        },
+        {
+          "measure": "Geometric mean titre (GMT) of immunogenicity against SARS-CoV-2 RBD antigen",
+          "description": "GMT and geometric mean fold rise of immunogenicity against SARS-CoV-2 RBD antigen at each time point",
+          "timeFrame": "Up to Day 365"
+        },
+        {
+          "measure": "Geometric mean titre (GMT) of SARS-CoV-2 neutralizing antibodies",
+          "description": "GMT and geometric mean fold rise of SARS-CoV-2 neutralizing antibodies at each time point",
+          "timeFrame": "Up to Day 365"
+        },
+        {
+          "measure": "Long-term safety: occurrence of serious adverse events",
+          "description": "Occurrence of serious adverse events (SAEs) and adverse events of special interest (AESIs)",
+          "timeFrame": "Up to Day 365"
+        }
+      ]
+    },
+    "eligibilityModule": null
+  }
+}

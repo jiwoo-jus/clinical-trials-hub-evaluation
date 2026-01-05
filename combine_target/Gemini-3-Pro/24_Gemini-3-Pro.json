@@ -1,0 +1,149 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00195091",
+      "orgStudyIdInfo": {
+        "id": "0309006307",
+        "type": "NIH",
+        "link": null
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "0611008853",
+          "type": "OTHER",
+          "domain": "Weill Cornell Medicine protocol",
+          "link": null
+        },
+        {
+          "id": "18-023",
+          "type": "OTHER",
+          "domain": "Memorial Sloan Kettering Cancer Center protocol",
+          "link": null
+        },
+        {
+          "id": "U54CA210184",
+          "type": "NIH",
+          "domain": "National Cancer Institute",
+          "link": null
+        },
+        {
+          "id": "R01 CA257254-01A1",
+          "type": "NIH",
+          "domain": "National Cancer Institute",
+          "link": null
+        }
+      ],
+      "organization": {
+        "fullName": "Weill Cornell Medicine",
+        "class": "OTHER"
+      },
+      "briefTitle": "Copper Depletion Reduces Mitochondrial Oxidative Phosphorylation to Impair Triple Negative Breast Cancer Metastasis",
+      "officialTitle": "Copper Depletion Reduces Mitochondrial Oxidative Phosphorylation to Impair Triple Negative Breast Cancer Metastasis"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study investigates the mechanisms by which copper depletion, achieved through the copper chelating agent tetrathiomolybdate (TM), impacts metastasis in triple-negative breast cancer (TNBC). Building on clinical observations that copper depletion improves survival in high-risk TNBC patients, the researchers identified a subpopulation of highly metastatic cancer cells characterized by SOX2/OCT4 expression and elevated intracellular copper. The study demonstrates that copper depletion specifically inactivates mitochondrial Complex IV in these cells, leading to reduced oxidative phosphorylation. This metabolic stress activates the AMPK/mTORC1 pathway, ultimately inhibiting tumor invasion and metastasis.",
+      "detailedDescription": "Triple-negative breast cancer (TNBC) is an aggressive subtype with limited therapeutic options and high metastatic rates. Previous clinical trials indicated that the copper chelator tetrathiomolybdate (TM) significantly benefits high-risk TNBC patients, yet the underlying biological mechanisms remained unclear. This study utilizes two independent TNBC models (human LM2 and murine EO771.ML1) to elucidate these mechanisms.\n\nThe researchers employed a SOX2/OCT4-GFP promoter reporter system to lineage trace a specific subpopulation of cancer cells exhibiting stem cell phenotypes and high metastatic potential. These SOX2/OCT4+ cells were found to possess elevated intracellular copper levels and a distinct sensitivity to copper depletion compared to the bulk tumor population. Global proteomic and metabolomic profiling revealed that TM treatment specifically targeted the mitochondrial electron transport chain in these cells, causing the degradation of Complex IV subunits. This resulted in a disruption of mitochondrial structure (cristae morphology), reduced cytochrome c oxidation, and a shift in bioenergetics characterized by decreased oxidative phosphorylation and ATP production.\n\nMechanistically, the reduction in mitochondrial ATP production triggered the activation of the energy sensor AMPK. Activated AMPK subsequently inhibited the mTORC1 signaling pathway (evidenced by reduced phosphorylation of P70S6K and increased phosphorylation of 4E-BP1). The study shows that pharmacologic activation of AMPK mimics the anti-invasive effects of TM, while AMPK inhibition rescues the loss of invasion induced by TM. Additionally, genetic knockdown of the mitochondria-specific copper chaperone COX17 phenocopied the metabolic and anti-metastatic effects of global copper chelation, confirming the critical role of mitochondrial copper availability.\n\nThese findings establish a direct link between copper metabolism, mitochondrial function, and metastasis, identifying a 'copper-metabolism-metastasis' axis. The study suggests that targeting this axis via copper depletion reprograms the metabolism of specific metastatic cell populations, providing a rationale for future randomized clinical trials and patient selection strategies."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Triple Negative Breast Cancer",
+        "Breast Cancer Metastasis",
+        "Mitochondrial Diseases"
+      ],
+      "keywords": [
+        "Copper depletion",
+        "Tetrathiomolybdate",
+        "Mitochondrial respiration",
+        "Complex IV",
+        "AMPK signaling",
+        "Metastasis",
+        "SOX2/OCT4",
+        "Oxidative phosphorylation",
+        "Metabolic reprogramming",
+        "COX17"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 75,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Tetrathiomolybdate (TM) Treatment Group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with breast cancer at high risk for relapse receiving oral copper chelating drug tetrathiomolybdate (TM).",
+          "interventionNames": [
+            "Drug: Tetrathiomolybdate (TM)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Tetrathiomolybdate (TM)",
+          "description": "An oral copper chelating agent administered to deplete copper levels to approximately 30% of baseline.",
+          "armGroupLabels": [
+            "Tetrathiomolybdate (TM) Treatment Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Event-free survival (EFS)",
+          "description": "Defined as the time from study entry to the first documentation of disease progression, new metastatic lesions, or death from any cause.",
+          "timeFrame": "Median follow-up of 6.3 years and 9.4 years"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Defined as the time from study entry to death from any cause.",
+          "timeFrame": "Median follow-up of 6.3 years and 9.4 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Lung metastatic burden",
+          "description": "Measured by whole-body bioluminescence imaging (BLI) and/or quantification of metastatic nodules.",
+          "timeFrame": "2 weeks after primary tumor resection"
+        },
+        {
+          "measure": "Invasion",
+          "description": "Assessed using Matrigel-coated transwell assays to measure the invasive potential of cancer cells.",
+          "timeFrame": "24 to 72 hours"
+        },
+        {
+          "measure": "Intracellular copper levels",
+          "description": "Measured using graphite furnace atomic absorption spectrometry (GFAAS) to determine the effectiveness of copper depletion.",
+          "timeFrame": "24 to 48 hours"
+        },
+        {
+          "measure": "Mitochondrial Respiration (Oxygen Consumption Rate)",
+          "description": "Measured using Seahorse XF bioanalyzer to assess basal respiration, ATP-linked respiration, and other mitochondrial parameters.",
+          "timeFrame": "48 to 72 hours"
+        },
+        {
+          "measure": "Complex IV Activity",
+          "description": "Enzymatic activity of cytochrome c oxidase measured colorimetrically.",
+          "timeFrame": "72 hours"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": null
+  }
+}

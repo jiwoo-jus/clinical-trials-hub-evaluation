@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "case_id": 44,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T16:17:33.537962",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/44_NCT04776161.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/44_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          1.0
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Rate of Medication Adherence",
+            "description": "Medication adherence will be measured as the percentage of times a patient opened the electronic pill bottle out of the number of doses prescribed for each bottle in each day, averaged across the study medications and over follow-up.",
+            "timeFrame": "18 weeks"
+          },
+          "pred_item": {
+            "measure": "Adherence to gout medications",
+            "description": "Medication adherence measured as the proportion of times a participant opened the electronic pill bottle out of the number of doses prescribed for each bottle in each day, averaged across the study medications and over the follow-up period using an average of averages approach",
+            "timeFrame": "18 weeks after randomisation"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.12,
+          0.09,
+          0.17,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.17,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Uric Acid Level From Baseline",
+            "description": "Change in uric acid level from baseline",
+            "timeFrame": "18 weeks"
+          },
+          "pred_item": {
+            "measure": "Change in intention and perceptions of gout medications",
+            "description": "Change in intentions and perceptions regarding medications from baseline measured using a modified version of the HIV Intention and Knowledge scale",
+            "timeFrame": "Baseline to end of 18-week follow-up period"
+          }
+        }
+      ]
+    }
+  ]
+}

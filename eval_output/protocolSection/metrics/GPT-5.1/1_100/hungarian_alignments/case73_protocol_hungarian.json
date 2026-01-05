@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "case_id": 73,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T18:27:45.924305",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/73_NCT03228836.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/73_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.88
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "label": "Sintilimab (IBI308)",
+            "type": "EXPERIMENTAL",
+            "interventionNames": [
+              "Drug: Sintilimab"
+            ]
+          },
+          "pred_item": {
+            "label": "Sintilimab Monotherapy",
+            "type": "EXPERIMENTAL",
+            "description": "Single-arm, phase 2 study in which patients with relapsed/refractory extranodal NK/T cell lymphoma who had failed at least one prior asparaginase-based regimen received sintilimab 200 mg intravenously every 3 weeks for up to 24 months. Treatment was continued until disease progression, death, intolerable toxicity, withdrawal of consent, or completion of 24 months; treatment beyond progression was allowed at the investigator's discretion.",
+            "interventionNames": [
+              "Sintilimab 200 mg IV Q3W"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Sintilimab",
+            "description": "Sintilimab (IBI308) 200mg IV Q3W",
+            "armGroupLabels": [
+              "Sintilimab (IBI308)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Sintilimab 200 mg IV Q3W",
+            "description": "Sintilimab, a recombinant humanized anti-PD-1 monoclonal antibody, administered as a 200 mg intravenous infusion every 3 weeks. Patients were treated for up to 24 months or until disease progression, death, intolerable toxicity, or withdrawal of consent; treatment beyond progression was permitted based on investigator judgment.",
+            "armGroupLabels": [
+              "Sintilimab Monotherapy"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Objective Response Rate (ORR) Before First PD",
+            "description": "The tumor assessment is according to Lugano 2014 Criteria and then International Working Group (IWG) 2007 Criteria after 24 weeks. Objective response is defined as best overall response (CR or PR) across all assessment time points during the period from enrollment to termination of trial treatment (per Lugano 2014 criteria during intial 24 weeks, per IWG 2007 criteria after 24 weeks). The primary efficacy endpoint is ORR evaluated using the 2014 Lugano Criteria before first progression disease (PD).",
+            "timeFrame": "Up to ~30 months (through database cut-off date of 28-February-2020)"
+          },
+          "pred_item": {
+            "measure": "Objective response rate (ORR)",
+            "description": "Proportion of patients achieving a complete response (CR) or partial response (PR) to sintilimab monotherapy, assessed according to the Lugano 2014 criteria.",
+            "timeFrame": "From start of treatment until progression/relapse or data cut-off; response imaging planned at baseline and weeks 6, 15, 24, 36, 48, and every 24 weeks thereafter."
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 10,
+      "similarity_matrix": [
+        [
+          0.3,
+          0.45,
+          0.52,
+          0.3,
+          0.7,
+          0.3,
+          0.05,
+          0.08,
+          0.05,
+          0.08
+        ],
+        [
+          0.55,
+          0.5,
+          0.3,
+          0.65,
+          0.96,
+          0.1,
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.52,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Progression Free Survival (PFS)",
+            "description": "PFS was defined as the time from the first dose to the first documented progressive disease (PD) per Lugano 2014 or death due to any cause, whichever occurred first. Participates who neither progress nor die were censored at the date of their last tumor imaging evaluation. Participates who did not have any tumor imaging evaluation after baseline were censored on the date of enrollment.",
+            "timeFrame": "Up to ~30 months (through database cut-off date of 28-February-2020)"
+          },
+          "pred_item": {
+            "measure": "Disease control rate (DCR)",
+            "description": "Proportion of patients achieving complete response (CR), partial response (PR), or stable disease (SD) to sintilimab monotherapy, assessed according to the Lugano 2014 criteria.",
+            "timeFrame": "From start of treatment until progression/relapse or data cut-off; imaging at baseline and weeks 6, 15, 24, 36, 48, and every 24 weeks thereafter."
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 4,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Duration of Response (DOR)",
+            "description": "DOR was defined as the time from first date of response to first PD per Lugano 2014 or death. Subjects who neither progress nor die were censored at the date of their last tumor imaging evaluation.",
+            "timeFrame": "Up to ~30 months (through database cut-off date of 28-February-2020)"
+          },
+          "pred_item": {
+            "measure": "Duration of response (DOR)",
+            "description": "Time from the first documented complete response (CR) or partial response (PR) until disease progression, relapse, or death, whichever occurs first.",
+            "timeFrame": "From first documented CR or PR until progression, relapse, death, or data cut-off (median follow-up approximately 30 months)."
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04652102",
+      "secondaryIdInfos": [
+        {
+          "id": "2020–003998–22",
+          "type": "EUDRACT_NUMBER",
+          "domain": "European Union Drug Regulating Authorities Clinical Trials Database"
+        },
+        {
+          "id": "01KI20703",
+          "type": "OTHER_GRANT",
+          "domain": "German Federal Ministry of Education and Research"
+        }
+      ],
+      "organization": {
+        "fullName": "CureVac",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Efficacy and Safety of the CVnCoV SARS-CoV-2 mRNA Vaccine Candidate",
+      "officialTitle": "HERALD: A randomised, observer-blinded, placebo-controlled, phase 2b/3 clinical trial to analyse the efficacy and safety of the CVnCoV SARS-CoV-2 mRNA vaccine candidate",
+      "acronym": "HERALD"
+    },
+    "descriptionModule": {
+      "briefSummary": "HERALD is a randomised, observer-blinded, placebo-controlled, phase 2b/3 clinical trial conducted in 47 centres in ten countries in Europe and Latin America. The study aimed to analyse the efficacy and safety of the CVnCoV SARS-CoV-2 mRNA vaccine candidate. Adults with no history of virologically confirmed COVID-19 were randomly assigned (1:1) to receive intramuscularly either two 0.6 mL doses of CVnCoV containing 12 μg of mRNA or two 0.6 mL doses of 0.9% NaCl (placebo) on days 1 and 29. The primary efficacy endpoint was the occurrence of a first episode of virologically confirmed symptomatic COVID-19 of any severity from 15 days after the second dose.",
+      "detailedDescription": "The trial utilized an interactive web response system with stratification by country and age group (18–60 years and ≥61 years). The initial phase 2b part of the trial was designed to characterise the safety, reactogenicity, and immunogenicity of the CVnCoV vaccine candidate, while the phase 3 part was designed to evaluate its efficacy and safety. CVnCoV is a chemically unmodified mRNA vaccine candidate based on the RNActive mRNA vaccine platform encoding the stabilised, full-length, native SARS-CoV-2 spike protein. Primary safety outcomes were solicited local and systemic adverse events within 7 days after each dose and unsolicited adverse events within 28 days after each dose in phase 2b participants, as well as serious adverse events and adverse events of special interest up to 1 year after the second dose in all participants. Key secondary endpoints included the occurrence of a first episode of virologically confirmed moderate-to-severe COVID-19, severe COVID-19, and COVID-19 of any severity by age group."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19",
+        "SARS-CoV-2 Infection"
+      ],
+      "keywords": [
+        "SARS-CoV-2",
+        "COVID-19",
+        "Vaccine",
+        "mRNA vaccine",
+        "CVnCoV",
+        "Efficacy",
+        "Safety",
+        "Phase 2b",
+        "Phase 3"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": null,
+        "primaryPurpose": "PREVENTION",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Due to the difference in appearance and presentation between the CVnCoV vaccine candidate and placebo, site personnel involved in preparing the vaccine masked the content of the syringe with a label and were not involved in further conduct of the trial. Investigators, site personnel, and others directly involved in the conduct of the trial were masked to participant allocation for the duration of the trial. The statisticians analysing the data were masked to group assignment until the final analyses.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 39680,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "CVnCoV",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received two 0.6 mL doses of CVnCoV containing 12 μg of mRNA administered by intramuscular injection in the deltoid area on days 1 and 29.",
+          "interventionNames": [
+            "CVnCoV"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received two 0.6 mL doses of 0.9% NaCl administered by intramuscular injection in the deltoid area on days 1 and 29.",
+          "interventionNames": [
+            "Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "CVnCoV",
+          "description": "A chemically unmodified mRNA vaccine candidate based on the RNActive mRNA vaccine platform encoding the stabilised, full-length, native SARS-CoV-2 spike protein. Administered as two 0.6 mL doses containing 12 μg of mRNA.",
+          "armGroupLabels": [
+            "CVnCoV"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "0.9% NaCl solution administered as two 0.6 mL doses.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Occurrence of a first episode of virologically confirmed symptomatic COVID-19 of any severity",
+          "description": "Virologically confirmed symptomatic COVID-19 of any severity caused by any strain.",
+          "timeFrame": "From 15 days after the second dose up to 1 year"
+        },
+        {
+          "measure": "Solicited local and systemic adverse events",
+          "description": "Solicited local adverse events (injection-site pain, redness, swelling, and itching) and solicited systemic adverse events (fever, headache, fatigue, chills, myalgia, arthralgia, nausea or vomiting, and diarrhoea) recorded in diaries.",
+          "timeFrame": "Within 7 days after each dose"
+        },
+        {
+          "measure": "Unsolicited adverse events",
+          "description": "Unsolicited adverse events recorded in diaries for phase 2b participants.",
+          "timeFrame": "Within 28 days after each dose"
+        },
+        {
+          "measure": "Serious adverse events and adverse events of special interest",
+          "description": "Collection of serious adverse events and adverse events of special interest in phase 2b and phase 3 participants.",
+          "timeFrame": "Up to 1 year after the second dose"
+        },
+        {
+          "measure": "Medically attended adverse events",
+          "description": "Collection of medically attended adverse events.",
+          "timeFrame": "From day 1 until 6 months after the second dose"
+        },
+        {
+          "measure": "Fatal serious adverse events",
+          "description": "Collection of fatal serious adverse events.",
+          "timeFrame": "Up to 1 year after the second dose"
+        },
+        {
+          "measure": "Adverse events leading to vaccine withdrawal or trial discontinuation",
+          "description": "Adverse events leading to vaccine withdrawal or trial discontinuation.",
+          "timeFrame": "Up to 1 year after the second dose"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Occurrence of a first episode of virologically confirmed moderate-to-severe COVID-19",
+          "description": "Virologically confirmed moderate-to-severe COVID-19 caused by any strain.",
+          "timeFrame": "From 15 days after the second dose up to 1 year"
+        },
+        {
+          "measure": "Occurrence of a first episode of virologically confirmed severe COVID-19",
+          "description": "Virologically confirmed severe COVID-19 caused by any strain, assessed overall and by age group.",
+          "timeFrame": "From 15 days after the second dose up to 1 year"
+        },
+        {
+          "measure": "Occurrence of virologically confirmed COVID-19 of any severity by age group",
+          "description": "First episode of virologically confirmed COVID-19 of any severity stratified by age group (18–60 years and ≥61 years).",
+          "timeFrame": "From 15 days after the second dose up to 1 year"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Occurrence of a first episode of virologically confirmed COVID-19 caused by an individual variant of concern or interest",
+          "description": "Exploratory efficacy endpoint to assess cases caused by specific SARS-CoV-2 variants of concern or interest.",
+          "timeFrame": "From 15 days after the second dose up to 1 year"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Adults aged 18 years or older\n* No history of virologically confirmed COVID-19\n\nExclusion Criteria:\n* Received (within 28 days before first administration of CVnCoV), or planned to receive, any investigational or non-registered vaccine or drug\n* Received any live vaccine within 28 days\n* Received any inactivated vaccine within 14 days\n* Received, or planned to receive, any investigational SARS-CoV-2 vaccine or other coronavirus vaccine before trial initiation or during the trial",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

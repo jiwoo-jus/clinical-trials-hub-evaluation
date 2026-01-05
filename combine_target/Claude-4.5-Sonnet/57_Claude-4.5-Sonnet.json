@@ -1,0 +1,209 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01781637",
+      "orgStudyIdInfo": {
+        "id": "PRROTECT",
+        "type": null,
+        "link": "https://www.clinicaltrials.gov"
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "Multiple institutions (multicenter randomized placebo-controlled study)",
+        "class": "NETWORK"
+      },
+      "briefTitle": "Oral Peanut Desensitization Under Cover of Anti-IgE (Omalizumab) in Highly Allergic Subjects",
+      "officialTitle": "PRROTECT: A Multicenter Randomized Placebo-Controlled Study of Oral Peanut Desensitization Under Cover of Anti-IgE (Omalizumab) in Highly Allergic Subjects",
+      "acronym": "PRROTECT"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study investigates the changes in peanut-specific immunoglobulin E (IgE) and immunoglobulin G (IgG) antibody repertoires in peanut-allergic children undergoing oral immunotherapy (OIT). Using a novel phage-display-based method called AllerScan, researchers mapped the epitope targets of peanut-specific antibodies with high resolution. The study analyzed sera from 15 peanut-allergic participants in the PRROTECT clinical trial before (week 0) and after (week 52) OIT, as well as samples from 54 non-allergic control donors. The hypothesis is that OIT induces protective IgG responses that overlap with pre-existing IgE specificities, which may explain the mechanism of desensitization.",
+      "detailedDescription": "Peanut allergy is a major public health concern that can result in life-threatening anaphylactic reactions. Oral immunotherapy (OIT) has emerged as a promising treatment approach that involves administering gradually increasing doses of peanut allergen to induce desensitization. However, the mechanisms underlying successful OIT remain incompletely understood. This study develops and applies AllerScan, a phage immunoprecipitation sequencing method that leverages phage-display and next-generation sequencing to comprehensively identify and map IgE and IgG epitopes within peanut allergens at single amino acid resolution.\n\nThe AllerScan library consists of 397 20-mer peptides tiling across all 12 WHO/IUIS-listed peanut allergen proteins, including genetic and splice variants, as well as saturation mutagenesis versions of each peptide. This design enables high-resolution mapping of critical residues within antibody epitopes. Sera were analyzed from participants in PRROTECT, a multicenter randomized placebo-controlled study of oral peanut desensitization under cover of omalizumab (anti-IgE) in highly allergic subjects.\n\nKey findings include: (1) identification of highly shared public epitopes in Ara h 1, 2, 3, and 7 recognized by IgE in up to 87% of allergic patients; (2) striking diversification and boosting of peanut-specific IgG repertoire after OIT, with patients recognizing an average of 15 peptides post-OIT compared to 7 pre-OIT; (3) reduction in pre-existing epitope-specific IgE levels during OIT; (4) extensive overlap between OIT-induced IgG specificities and pre-existing IgE repertoires, with remarkably similar antibody footprints suggesting clonal relationships or convergent evolution; (5) marked induction of Ara h 7-specific IgG by OIT, with 12/15 patients developing these responses post-treatment.\n\nHigh-resolution epitope mapping through saturation mutagenesis reveals that different allergic individuals often recognize the same epitopes with highly similar critical residue patterns, suggesting structural and sequence similarity of public epitope-specific antibodies. The study demonstrates that AllerScan provides a powerful tool for investigating antibody repertoires in allergic subjects and tracking their evolution during immunotherapy. These findings suggest that individual differences in epitope recognition identified via AllerScan could inform safer and more effective personalized immunotherapy approaches, potentially through peptide vaccines targeting missing public epitopes to elicit protective IgG responses without triggering IgE-mediated reactions."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Peanut Allergy",
+        "Food Hypersensitivity",
+        "Immediate Hypersensitivity",
+        "Anaphylaxis"
+      ],
+      "keywords": [
+        "Oral immunotherapy",
+        "OIT",
+        "Immunoglobulin E",
+        "IgE",
+        "Immunoglobulin G",
+        "IgG",
+        "Epitope mapping",
+        "Phage display",
+        "AllerScan",
+        "Peanut allergens",
+        "Ara h 1",
+        "Ara h 2",
+        "Ara h 3",
+        "Ara h 7",
+        "Desensitization",
+        "B cell repertoire",
+        "Antibody footprints",
+        "Saturation mutagenesis",
+        "Food allergy",
+        "Personalized immunotherapy",
+        "Public epitopes"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Multicenter randomized placebo-controlled study of oral peanut desensitization under cover of anti-IgE (omalizumab). Patients were randomized 3.5:1 to receive either omalizumab or placebo for 12 weeks followed by rapid escalation to 250 mg of peanut protein on the first day of desensitization. Patients underwent weekly up-dosing over the next 8 weeks to a maximum dose of 2000 mg. Patients continued omalizumab or placebo for a total of 19 weeks, at which time drug was discontinued and OIT was continued. Placebo subjects failing to reach the 250 mg dose at 19 weeks were given the option to switch to open-label omalizumab.",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Placebo-controlled study with omalizumab or placebo administered for 19 weeks. The study was conducted as a double-blind trial during the placebo-controlled phase.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Omalizumab + Oral Immunotherapy (OIT)",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects received omalizumab for 12 weeks followed by rapid escalation to 250 mg of peanut protein on the first day of desensitization. Patients underwent weekly up-dosing over the next 8 weeks to a maximum dose of 2000 mg. Omalizumab was continued for a total of 19 weeks, after which it was discontinued and OIT continued.",
+          "interventionNames": [
+            "BIOLOGICAL: Omalizumab",
+            "BIOLOGICAL: Peanut Oral Immunotherapy"
+          ]
+        },
+        {
+          "label": "Placebo + Oral Immunotherapy (OIT)",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Subjects received placebo for 12 weeks followed by rapid escalation to 250 mg of peanut protein on the first day of desensitization. Patients underwent weekly up-dosing over the next 8 weeks to a maximum dose of 2000 mg. Placebo was continued for a total of 19 weeks. Subjects failing to reach the 250 mg dose at 19 weeks were given the option to switch to open-label omalizumab and all but one opted to cross over to treatment with omalizumab prior to completing OIT.",
+          "interventionNames": [
+            "DRUG: Placebo",
+            "BIOLOGICAL: Peanut Oral Immunotherapy"
+          ]
+        },
+        {
+          "label": "Non-Allergic (NA) Controls",
+          "type": "NO_INTERVENTION",
+          "description": "Healthy control donors without peanut allergy who did not receive any intervention. Serum samples were collected and analyzed for comparison with allergic subjects.",
+          "interventionNames": []
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Omalizumab",
+          "description": "Humanized monoclonal anti-IgE antibody administered for 12 weeks, then continued for a total of 19 weeks during the initial phase of oral immunotherapy.",
+          "armGroupLabels": [
+            "Omalizumab + Oral Immunotherapy (OIT)"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Peanut Oral Immunotherapy",
+          "description": "Gradually increasing daily doses of peanut protein administered over several months. Rapid escalation to 250 mg on the first day of desensitization, followed by weekly up-dosing over 8 weeks to a maximum dose of 2000 mg, with continued maintenance dosing up to week 52.",
+          "armGroupLabels": [
+            "Omalizumab + Oral Immunotherapy (OIT)",
+            "Placebo + Oral Immunotherapy (OIT)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo administered in place of omalizumab for 12 weeks, then continued for a total of 19 weeks during the initial phase of oral immunotherapy.",
+          "armGroupLabels": [
+            "Placebo + Oral Immunotherapy (OIT)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Characterization of IgE and IgG peanut epitope repertoires in peanut-allergic patients undergoing oral immunotherapy",
+          "description": "Identification and quantification of linear epitopes within peanut allergens recognized by IgE and IgG antibodies using AllerScan (phage immunoprecipitation sequencing). Z-scores represent enrichment of peptides compared to mock immunoprecipitation reactions. High-resolution epitope mapping achieved via saturation mutagenesis.",
+          "timeFrame": "Baseline (week 0) and post-oral immunotherapy (week 52)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in IgE epitope diversity during oral immunotherapy",
+          "description": "Number of peanut peptides recognized by IgE antibodies before and after OIT. Assessed by counting wild-type peptides with Z-score > 3.5, excluding homologous peptides from protein variants.",
+          "timeFrame": "Baseline (week 0) and post-oral immunotherapy (week 52)"
+        },
+        {
+          "measure": "Changes in IgG epitope diversity during oral immunotherapy",
+          "description": "Number of peanut peptides recognized by IgG antibodies before and after OIT. Assessed by counting wild-type peptides with Z-score > 3.5, excluding homologous peptides from protein variants.",
+          "timeFrame": "Baseline (week 0) and post-oral immunotherapy (week 52)"
+        },
+        {
+          "measure": "Changes in epitope-specific IgE antibody abundance during oral immunotherapy",
+          "description": "Peptide-specific IgE Z-scores (reflecting antibody abundance) for pre-existing epitopes before and after OIT. Mean log2 fold change of Z-scores calculated for each patient.",
+          "timeFrame": "Baseline (week 0) and post-oral immunotherapy (week 52)"
+        },
+        {
+          "measure": "Changes in epitope-specific IgG antibody abundance during oral immunotherapy",
+          "description": "Peptide-specific IgG Z-scores (reflecting antibody abundance) for pre-existing epitopes before and after OIT. Mean log2 fold change of Z-scores calculated for each patient.",
+          "timeFrame": "Baseline (week 0) and post-oral immunotherapy (week 52)"
+        },
+        {
+          "measure": "Overlap between IgE and IgG epitope repertoires",
+          "description": "Jaccard index calculated to represent the overlap between IgE and IgG epitope specificities at baseline and post-OIT. Fraction of epitopes exclusively recognized by IgE, IgG, or both.",
+          "timeFrame": "Baseline (week 0) and post-oral immunotherapy (week 52)"
+        },
+        {
+          "measure": "Identification of public peanut epitopes",
+          "description": "Frequency of recognition (seroprevalence) of individual peanut peptides among peanut-allergic patients. Public epitopes defined as peptides recognized by >30% of patients (Z-score > 3.5).",
+          "timeFrame": "Baseline (week 0)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "High-resolution mapping of critical residues within peanut epitopes",
+          "description": "Identification of critical amino acid residues for antibody binding through saturation mutagenesis. Substitution effect calculated as mean depletion of mutants relative to wild-type peptide. Residue considered critical if median enrichment of 19 mutants is <40% of wild-type.",
+          "timeFrame": "Baseline (week 0) and post-oral immunotherapy (week 52)"
+        },
+        {
+          "measure": "Similarity of IgE and IgG antibody footprints within individuals",
+          "description": "Pearson correlation coefficient between high-resolution antibody footprints of IgE (week 0) and IgG (week 52) for shared epitopes within the same patient. Correlation >0.75 indicates similar footprints.",
+          "timeFrame": "Baseline IgE (week 0) versus post-OIT IgG (week 52)"
+        },
+        {
+          "measure": "Induction of Ara h 7-specific IgG responses during oral immunotherapy",
+          "description": "Change in IgG Z-scores for Ara h 7 peptides before and after OIT. Seroprevalence of Ara h 7-specific IgG among patients pre- and post-OIT.",
+          "timeFrame": "Baseline (week 0) and post-oral immunotherapy (week 52)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Patients reacting to < 50 mg peanut protein at baseline\n- Participants enrolled in PRROTECT clinical trial (NCT01781637)\n- Highly allergic subjects eligible for oral peanut desensitization\n\nExclusion Criteria:\n- Not explicitly detailed in the provided paper content",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ],
+      "studyPopulation": "Peanut-allergic individuals enrolled in PRROTECT multicenter randomized placebo-controlled study and healthy non-allergic control donors",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04588480,NCT04588480,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,"Study to Evaluate the Safety, Tolerability, and Immunogenicity of an RNA Vaccine Candidate Against COVID-19 in Healthy Japanese Adults",Safety and Immunogenicity of BNT162b2 in Healthy Japanese Adults,True,0.9,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,"A PHASE 1/2, PLACEBO-CONTROLLED, RANDOMIZED, AND OBSERVER-BLIND STUDY TO EVALUATE THE SAFETY, TOLERABILITY, AND IMMUNOGENICITY OF A SARS-COV-2 RNA VACCINE CANDIDATE AGAINST COVID-19 IN HEALTHY JAPANESE ADULTS","Randomized, Placebo-Controlled, Observer-Blind Phase 1/2 Study to Assess BNT162b2 Safety and Immunogenicity in Healthy Japanese Adults",True,0.92,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"This is a Phase 1/2, randomized, placebo-controlled, and observer-blind study in healthy Japanese adults.
+
+The study will evaluate the safety, tolerability, and immunogenicity of the SARS-CoV-2 RNA vaccine candidate against COVID-19:
+
+* As 2 doses, separated by 21 days
+* At a single dose level
+* In adults 20 to 85 years of age",This report presents the interim safety and immunogenicity findings from an ongoing phase 1/2 study of the BNT162b2 vaccine in healthy Japanese adults. The study involves 160 participants randomized to receive either the vaccine or a placebo. The findings indicate that the vaccine is safe and produces a robust immune response in the Japanese population.,True,0.94,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,FP,"From protocol amendment 3, this study is transitioned from a clinical trial to a postmarketing study (Phase 4) according to the Japanese regulation, because BNT162b2 was approved by the Ministry of Health, Labour and Welfare on 14 February 2021.","This is a randomized, placebo-controlled, observer-blind phase 1/2 study assessing the safety and immunogenicity of BNT162b2 in healthy Japanese adults aged 20–85 years. Participants were randomized 3:1 to receive two intramuscular injections of 30 μg BNT162b2 or placebo, administered 21 days apart. The study population included 160 individuals: 119 received the vaccine and 41 received the placebo. Participants were stratified into two age groups: 20–64 years and 65–85 years. The primary safety objectives focused on local reactions, systemic events, and adverse events. The primary immunogenicity objectives measured SARS-CoV-2 50% neutralizing geometric mean titers (GMTs) and geometric mean fold rises (GMFRs) one month after the second dose. The results show acceptable safety profiles with generally mild to moderate reactions and robust antibody induction regardless of age.",False,0.08,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,"['SARS-CoV-2 Infection', 'COVID-19']","['COVID-19', 'SARS-CoV-2 Infection']",True,1.0,exact,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['BNT162b2', 'Vaccine', 'Safety', 'Immunogenicity', 'Japanese adults', 'Phase 1/2 study']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,FP,['PHASE4'],"['PHASE1', 'PHASE2']",False,0.0,disjoint,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,Participants were randomized 3:1 to receive 2 intramuscular injections of 30 μg BNT162b2 or placebo 21 days apart.,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,DOUBLE,TRIPLE,True,0.7,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"Participants, investigators and other study staff were blinded; staff who dispensed/administered study medication were unblinded.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'INVESTIGATOR']","['PARTICIPANT', 'INVESTIGATOR', 'CARE_PROVIDER']",True,1.0,superset,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,160,160,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Japanese male or female participants between the ages of 20 and 85 years, inclusive, at randomization.
+* Participants who are willing and able to comply with all scheduled visits, vaccination plan, laboratory tests, lifestyle considerations, and other study procedures.
+* Healthy participants who are determined by medical history, physical examination, and clinical judgment of the investigator to be eligible for inclusion in the study.
+* Capable of giving personal signed informed consent.
+
+Exclusion Criteria:
+
+* Other medical or psychiatric condition including recent (within the past year) or active suicidal ideation/behavior or laboratory abnormality that may increase the risk of study participation or, in the investigator's judgment, make the participant inappropriate for the study.
+* Known infection with human immunodeficiency virus (HIV), hepatitis C virus (HCV), or hepatitis B virus (HBV).
+* History of severe adverse reaction associated with a vaccine and/or severe allergic reaction (eg, anaphylaxis) to any component of the study intervention(s).
+* Receipt of medications intended to prevent COVID-19.
+* Previous confirmed diagnosis of COVID-19.
+* Immunocompromised individuals with known or suspected immunodeficiency, as determined by history and/or laboratory/physical examination.
+* Bleeding diathesis or condition associated with prolonged bleeding that would, in the opinion of the investigator, contraindicate intramuscular injection.
+* Women who are pregnant or breastfeeding.
+* Previous vaccination with any coronavirus vaccine.
+* Individuals who receive treatment with immunosuppressive therapy, including cytotoxic agents or systemic corticosteroids, eg, for cancer or an autoimmune disease, or planned receipt throughout the study.
+* Receipt of blood/plasma products or immunoglobulin, from 60 days before study intervention administration or planned receipt throughout the study.
+* Participation in other studies involving study intervention within 28 days prior to study entry and/or during study participation.
+* Previous participation in other studies involving study intervention containing lipid nanoparticles.
+* Subset only: Any screening hematology and/or blood chemistry laboratory value that meets the definition of a ≥ Grade 1 abnormality.
+* Investigator site staff or Pfizer employees directly involved in the conduct of the study, site staff otherwise supervised by the investigator, and their respective family members.","Inclusion Criteria:
+- Healthy Japanese adults 20–85 years of age, including those with stable preexisting disease.
+
+Exclusion Criteria:
+- Known infection with hepatitis B virus or hepatitis C virus, or HIV.
+- History of severe allergic reactions associated with vaccination.
+- Previous confirmed COVID-19.
+- Diagnosis of an immunocompromising or immunodeficiency disorder.
+- Pregnant or breastfeeding.
+- Receipt of medicines intended to prevent COVID-19.
+- Previous vaccination with any coronavirus vaccine.
+- Treatment with immunosuppressive therapy.",True,0.92,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,20 Years,20 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,85 Years,85 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

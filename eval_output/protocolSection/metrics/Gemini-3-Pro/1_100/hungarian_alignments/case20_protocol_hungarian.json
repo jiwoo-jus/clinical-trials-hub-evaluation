@@ -1,0 +1,289 @@
+{
+  "metadata": {
+    "case_id": 20,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T15:09:34.923263",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/20_NCT01302379.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/20_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.7,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "id": "U54CA155435-01",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U54CA155435-01"
+          },
+          "pred_item": {
+            "id": "U54CA155435",
+            "type": "NIH",
+            "domain": "National Institutes of Health",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.7,
+          0.42,
+          0.94,
+          0.15
+        ],
+        [
+          0.15,
+          0.5,
+          0.4,
+          0.7
+        ],
+        [
+          0.62,
+          0.38,
+          0.7,
+          0.12
+        ],
+        [
+          0.2,
+          0.25,
+          0.2,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Metformin + lifestyle intervention",
+            "type": "ACTIVE_COMPARATOR",
+            "interventionNames": [
+              "Drug: Metformin",
+              "Behavioral: Lifestyle intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Weight Loss with Metformin",
+            "type": "EXPERIMENTAL",
+            "description": "Participants assigned to both the weight loss intervention and metformin.",
+            "interventionNames": [
+              "Drug: Metformin",
+              "Behavioral: Weight Loss Intervention"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.5,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo + lifestyle intervention",
+            "type": "ACTIVE_COMPARATOR",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Behavioral: Lifestyle intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Weight Loss",
+            "type": "EXPERIMENTAL",
+            "description": "Participants assigned to a weight loss intervention (phone-based program with calorie goal and moderate-intensity physical activity goal of 300 min/week).",
+            "interventionNames": [
+              "Behavioral: Weight Loss Intervention"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.62,
+          "status": "matched",
+          "ref_item": {
+            "label": "Metformin + standard dietary guidelines",
+            "type": "ACTIVE_COMPARATOR",
+            "interventionNames": [
+              "Drug: Metformin",
+              "Behavioral: Standard printed dietary guidelines"
+            ]
+          },
+          "pred_item": {
+            "label": "Metformin",
+            "type": "EXPERIMENTAL",
+            "description": "Participants assigned to receive metformin.",
+            "interventionNames": [
+              "Drug: Metformin"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo + standard dietary guidelines",
+            "type": "PLACEBO_COMPARATOR",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Behavioral: Standard printed dietary guidelines"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants assigned to receive a placebo.",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.2,
+          0.1
+        ],
+        [
+          0.2,
+          0.15,
+          0.78
+        ],
+        [
+          0.35,
+          0.95,
+          0.2
+        ],
+        [
+          0.15,
+          0.4,
+          0.15
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Metformin",
+            "description": "Week 1: 500 mg at dinner time Weeks 2-4: 1000 mg at dinner time Weeks 5+: 500 mg in morning; 1000 mg at dinner time",
+            "armGroupLabels": [
+              "Metformin + lifestyle intervention",
+              "Metformin + standard dietary guidelines"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Metformin",
+            "description": "Daily metformin administration for 6 months.",
+            "armGroupLabels": [
+              "Metformin",
+              "Weight Loss with Metformin"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Week 1: 1 pill at dinner time Weeks 2-4: 2 pills at dinner time Weeks 5+: 1 pill in morning; 2 pills at dinner time",
+            "armGroupLabels": [
+              "Placebo + lifestyle intervention",
+              "Placebo + standard dietary guidelines"
+            ],
+            "otherNames": [
+              "Sugar pill"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Daily placebo administration for 6 months.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Lifestyle intervention",
+            "description": "Telephone-based lifestyle intervention (dietary change and physical activity) for weight loss.",
+            "armGroupLabels": [
+              "Metformin + lifestyle intervention",
+              "Placebo + lifestyle intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Weight Loss Intervention",
+            "description": "A weight loss program including a phone-based program with a calorie goal component and a moderate-intensity physical activity goal of 300 min/week for 6 months.",
+            "armGroupLabels": [
+              "Weight Loss",
+              "Weight Loss with Metformin"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Standard printed dietary guidelines",
+            "description": "Set of standard health education materials provided to participants at single time point (immediately after randomization)",
+            "armGroupLabels": [
+              "Metformin + standard dietary guidelines",
+              "Placebo + standard dietary guidelines"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02323854",
+      "organization": {
+        "fullName": "Medtronic",
+        "class": "INDUSTRY"
+      },
+      "officialTitle": "EMPrint™ Ablate and RESect Study in Patients with Metastatic Lung Tumors",
+      "acronym": "EMPRESS"
+    },
+    "descriptionModule": {
+      "briefSummary": "This prospective, non-randomized, single-arm, multicenter study evaluated the technical performance of the Emprint™ ablation system in predicting the size of ablation zones in patients with metastatic or primary lung tumors. Subjects scheduled for resection underwent preoperative percutaneous microwave ablation. The study compared ablation zones predicted by the system software against actual ablation zones measured via CT imaging immediately post-ablation. Secondary endpoints included histological assessment of complete ablation.",
+      "detailedDescription": "The study utilized the Emprint™ procedure planning application, an interactive tool designed to predict microwave ablation zone size based on time, energy, and target tissue type. The primary objective was to evaluate the accuracy of these predictions in a clinical setting using an 'ablate and resect' methodology.\n\nParticipants included adult subjects with at least one pulmonary metastasis or primary lung cancer (≤3.0 cm) eligible for surgical resection. Ablations were performed using a percutaneous approach. The primary endpoint was dose response, assessed by calculating the percentage difference between the predicted ablation zone dimensions (width, height, depth, volume, and shape) and the actual dimensions measured on CT images acquired immediately after ablation with the antenna still in place.\n\nFollowing the ablation and imaging, patients underwent surgical resection of the tumor. The secondary endpoint was complete ablation, defined as 100% non-viable tumor cells confirmed by nicotinamide adenine dinucleotide hydrogen (NADH) staining on the resected specimens. Safety endpoints tracked the type, incidence, and severity of adverse events from anesthesia administration through the first post-operative follow-up."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Lung Tumors",
+        "Primary Lung Tumors",
+        "Lung Cancer"
+      ],
+      "keywords": [
+        "Microwave Ablation",
+        "Percutaneous Image-Guided Thermal Ablation",
+        "Emprint Ablation System",
+        "Ablate and Resect",
+        "Lung Neoplasms"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Prospective, non-randomized, single-arm, multicenter study.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "A minimum of three board-certified radiologists were trained and assigned to review images for this study. During the processing of the images, all images were blinded so that radiologists did not have access to any patient confidential information and local site assessments. Histology was evaluated at a single center by blinded pathologists.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Single Arm",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects with metastatic or primary lung tumors scheduled for resection underwent preoperative percutaneous microwave ablation followed by surgical resection.",
+          "interventionNames": [
+            "Device: Emprint™ Ablation System",
+            "Procedure: Surgical Resection"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Emprint™ Ablation System",
+          "description": "Percutaneous microwave ablation using the Emprint™ Ablation System. The Emprint™ Procedure Planning Application was used as an adjunct to assist with planning for the ablation procedure.",
+          "armGroupLabels": [
+            "Single Arm"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Surgical Resection",
+          "description": "Scheduled surgical tumor resection performed immediately following the ablation procedure.",
+          "armGroupLabels": [
+            "Single Arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Dose response (Percentage change between predicted and actual ablation zone size)",
+          "description": "Defined as the percentage change from the predicted outcome (derived from Emprint procedure planning application) to the actual outcome (measured via CT imaging) for ablation zone width (X), height (Y), depth (Z), volume, and shape. Calculated as 100 × (Actual - Predicted) / Predicted.",
+          "timeFrame": "Immediately post-ablation (with antenna in position) and before surgical resection"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Complete tumor ablation",
+          "description": "Histological assessment defined as 100% non-viable tumor cells based on nicotinamide adenine dinucleotide hydrogen (NADH) staining. Also assessed were incomplete tumor ablation (delayed necrosis) and incomplete tumor ablation (positive margin).",
+          "timeFrame": "Post-surgical resection (performed the same day as ablation)"
+        },
+        {
+          "measure": "Safety (Adverse Events)",
+          "description": "Type, incidence, and severity of adverse events and complications.",
+          "timeFrame": "From initial administration of anesthesia until conclusion of the first post-operative follow-up visit"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Informed consent given by subject or authorized representative\n* Subject ≥18 years of age\n* There was at least one pulmonary metastasis ≤3.0 cm in maximum diameter from a distant primary cancer or one primary lung cancer ≤3.0 cm in maximum diameter\n* A thoracic surgeon determined the subject is a candidate for resection of the tumor targeted for ablation\n* Subject is willing and able to comply with all aspects of the treatment and evaluation schedule\n* ≥1 cm of tumor-free lung parenchyma between target tumor and pleura or fissure\n\nExclusion Criteria:\n* Contraindicated for surgery\n* Prolonged infection of the chest, with the definition of this being lung consolidation that requires hospitalization and greater than 10 days of antibiotics 30 days prior to surgery\n* Tumor abutting mainstem bronchus, main pulmonary artery branches, esophagus and/or trachea\n* Tumor with pleural contact\n* Tumors located <3 cm from the staple lines/metal objects\n* Subjects with stage IV emphysema per GOLD criteria\n* Uncontrollable coagulopathy\n* Inability to tolerate discontinuation of anti-coagulants prior to and during the ablation\n* Pregnancy documented by a positive pregnancy test according to hospital standard practices or actively breast-feeding\n* Participation in an investigational drug or device research study within 30 days of enrollment that interferes with this protocol\n* The safety or welfare of the subject may be compromised by participation as determined by the investigator\n* Subjects with implantable pacemakers/other electronic implants\n* Intra-procedural exclusion criteria: an incidental finding that the subject no longer meets the study eligibility criteria",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

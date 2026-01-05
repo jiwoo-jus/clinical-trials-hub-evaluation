@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "case_id": 42,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T16:12:19.336734",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/42_NCT02132247.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/42_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Flector Patch",
+            "type": "EXPERIMENTAL",
+            "description": "Flector Patch is a transdermal delivery system containing 180 mg of diclofenac hydroxyethylpyrrolidine. The patch will be used twice-a-day for up to two weeks, or until pain resolution, whichever comes first.",
+            "interventionNames": [
+              "Drug: Diclofenac hydroxyethylpyrrolidine"
+            ]
+          },
+          "pred_item": {
+            "label": "FLECTOR diclofenac epolamine topical system",
+            "type": "EXPERIMENTAL",
+            "description": "Open-label, single-arm phase IV study in which all pediatric patients aged 6–16 years with minor soft tissue injuries received the FLECTOR diclofenac epolamine topical system (FDETS) applied to the site of injury twice daily until pain resolution or up to Day 14.",
+            "interventionNames": [
+              "Diclofenac epolamine topical system (FLECTOR)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Diclofenac hydroxyethylpyrrolidine",
+            "armGroupLabels": [
+              "Flector Patch"
+            ],
+            "otherNames": [
+              "Flector Patch"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Diclofenac epolamine topical system (FLECTOR)",
+            "description": "FLECTOR diclofenac epolamine topical system (FDETS), a medicated patch containing 1.3% diclofenac epolamine (180 mg; equivalent to 140 mg diclofenac sodium) in an adhesive matrix on a 10 × 14 cm non-woven polyester backing. Study personnel applied the first patch in clinic, then patients/guardians applied one patch to the injury site in the morning and one approximately 12 hours later each day, with use continued until pain resolution or Day 14. Patches could be trimmed to avoid overlap and replaced if removed due to water exposure; a third patch per day was allowed in such cases.",
+            "armGroupLabels": [
+              "FLECTOR diclofenac epolamine topical system"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Dermatologic Assessment at the Patch Application Site",
+            "description": "None - 0; Faint redness - 1; Moderate redness - 2; Intense redness - 3; Redness with edema or papules - 4; Redness with weeping vesicles, blisters or bullae - 5; Redness with extension of effect beyond margin of contact site - 6.",
+            "timeFrame": "Up to 2 weeks, depending upon pain resolution"
+          },
+          "pred_item": {
+            "measure": "Local tolerability at the application site",
+            "description": "Local tolerability (redness, swelling and other skin changes) at the FDETS application site, assessed using a 7-point application-site scoring scheme: 0 = no skin changes; 1 = faint redness; 2 = moderate redness; 3 = intense redness; 4 = redness with edema and papules; 5 = redness with weeping vesicles, blisters, or bullae; 6 = redness with an extension of effect beyond the margin of the contact site.",
+            "timeFrame": "At each clinic visit from Day 0 (screening/baseline) through the final visit (pain resolution or up to Day 14)."
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.1,
+          0.6,
+          0.99
+        ],
+        [
+          0.1,
+          0.96,
+          0.72
+        ],
+        [
+          0.9,
+          0.08,
+          0.08
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Investigator Assessment of the Global Response to Therapy on a 5-point Scale",
+            "description": "5-point scale: No clinical improvement in pain intensity and/or functional performance - 1; Slight clinical improvement in pain intensity and/or functional performance - 2; Moderate clinical improvement in pain intensity and/or functional performance - 3; Marked clinical improvement in pain intensity and/or functional performance - 4; Restoration of normal functional performance in the absence of any pain - 5.",
+            "timeFrame": "Up to 2 weeks, depending upon pain resolution"
+          },
+          "pred_item": {
+            "measure": "Physician global assessment of response to therapy",
+            "description": "Investigator-rated global response to FDETS on a 5-point ordinal scale from 1 = no clinical improvement in pain intensity and/or functional performance to 5 = restoration of normal functional performance in the absence of any pain.",
+            "timeFrame": "At the final visit (on the day of pain resolution or at Day 14 if pain persisted)."
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Patient Assessment of Pain on a 6-point Scale",
+            "description": "Wong-Baker FACES Scale 6-point scale:\n\nNo Hurt - 0; Hurts Little Bit - 1; Hurts Little More - 2; Hurts Even More - 3; Hurts Whole Lot - 4; Hurts Worst - 5.",
+            "timeFrame": "Up to 2 weeks, depending upon pain resolution"
+          },
+          "pred_item": {
+            "measure": "Analgesic efficacy by patient-reported pain score",
+            "description": "Change in pain intensity from baseline, assessed using the Wong-Baker FACES Pain Rating Scale (0 = no hurt to 5 = hurts worst), including twice-daily home diary scores and in-clinic assessments, analyzed as absolute scores and as proportion of pre-treatment pain score.",
+            "timeFrame": "Baseline (pre-treatment, Day 1 in clinic) and twice daily (morning and evening) from Day 1 through up to Day 14, with clinic assessments at scheduled visits (Days 2, 4, 7, and 14 or until pain resolution)."
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Plasma Concentration of Diclofenac",
+            "timeFrame": "Day 2 and either Day 4, 7 or 14, depending upon pain resolution"
+          },
+          "pred_item": {
+            "measure": "Diclofenac plasma concentration",
+            "description": "Plasma levels of diclofenac following FDETS application, quantified using validated HPLC–MS/MS, and compared between age groups (6–11 vs 12–16 years) and with historical adult FDETS and oral diclofenac data.",
+            "timeFrame": "Approximately 24 hours after first FDETS application (Visit 2, Day 2) and at the final visit (pain resolution or up to Day 14)."
+          }
+        }
+      ]
+    }
+  ]
+}

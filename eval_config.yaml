@@ -1,0 +1,94 @@
+################################################################################
+# Index-based Evaluation Configuration (index_lines mode)
+# This pared-down config keeps ONLY what the new evaluator actually uses.
+# Extend safely by adding new keys under 'evaluation'.
+################################################################################
+
+version: 1
+mode: index_lines
+
+environment:
+  conda_env: {YOURS}
+  activate_command: "conda activate {YOURS}"
+
+processing:
+  index_file: "/{YOURPATH}/eval_index_protocol.csv"  # CSV with case_id + ctg_path (ground truth)
+  case_id_start: 1     # inclusive start case_id
+  case_id_end: 100     # inclusive end case_id
+
+output:
+  root: "/{YOURPATH}/eval_output/{config_name}"
+
+evaluation:
+  # Specify target section explicitly (protocolSection or resultsSection)
+  target_section: protocolSection
+  
+  # Models with their inference output paths
+  models:
+    - name: GPT-5.1
+      path_pattern: "/{YOURPATH}/combine_output/GPT-5.1/"
+    - name: Claude-4.5-Sonnet
+      path_pattern: "/{YOURPATH}/combine_output/Claude-4.5-Sonnet/"
+    - name: Gemini-3-Pro
+      path_pattern: "/{YOURPATH}/combine_output/Gemini-3-Pro/"
+  
+  # Field definitions for evaluation (mapped to Piece names in DataDefinition)
+  # Ground truth paths are now read from index CSV's ctg_path column
+  target_fields:
+    protocolSection:
+      - NCTId
+      - BriefTitle
+      - OfficialTitle
+      - BriefSummary
+      - DetailedDescription
+      - Condition
+      - Keyword
+      - StudyType
+      - Phase
+      - DesignAllocation
+      - DesignInterventionModel
+      - DesignObservationalModel
+      - DesignMasking
+      - DesignWhoMasked
+      - EnrollmentCount
+      - EligibilityCriteria
+      - HealthyVolunteers
+      - Sex
+      - MinimumAge
+      - MaximumAge
+      - StdAge
+  
+  # Field keys to ignore entirely (removed before flatten)
+  ignore_field_keys:
+    - error
+  
+  # Evaluate only TargetYN=Y leaf fields
+  target_only: true
+
+doc_paths:
+  data_definition_csv: "/{YOURPATH}/docs/data_definition.csv"
+  enums_json: "/{YOURPATH}/docs/enums.json"
+
+judge:
+  litellm_base_url: {YOURS}
+  litellm_api_key: {YOURS}
+  model: {YOURS}
+
+wandb:
+  enabled: false
+  project: {YOURS}
+  entity: {YOURS}
+  api_key: {YOURS}
+  tags: {YOURS}
+  group: {YOURS}
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  detailed_logging: true
+
+performance:
+  # Reserved for future evaluator tuning
+  retry_attempts: 3
+  retry_delay_seconds: 5
+  timeout_seconds: 300

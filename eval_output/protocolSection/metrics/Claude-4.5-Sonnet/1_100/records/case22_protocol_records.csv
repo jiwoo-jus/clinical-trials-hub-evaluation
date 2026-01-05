@@ -1,0 +1,85 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT04195594,NCT04195594,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,TP,An Study Investigating Nic's Keto Diet on Cardiovascular Health in Healthy Adults With Mildly Elevated LDL Levels,Examining the Efficacy of a Very-Low-Carbohydrate Ketogenic Diet on Cardiovascular Health in Adults with Mildly Elevated Low-Density Lipoprotein Cholesterol,True,0.89,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,TP,An Open Label Study to Investigate the Efficacy of Nic's Keto Diet on Cardiovascular Health in Healthy Adults With Mildly Elevated LDL Levels,Examining the Efficacy of a Very-Low-Carbohydrate Ketogenic Diet on Cardiovascular Health in Adults with Mildly Elevated Low-Density Lipoprotein Cholesterol in an Open-Label Pilot Study,True,0.93,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,"The present study will investigate the effects of Nic's Ketogenic diet, comprised of 70% fat, 5% carbohydrate, and 25% protein on middle-aged males and females with mid-range elevated LDL. With the mixed evidence on the causative effect of LDL cholesterol on increased cardiovascular health risk, further studies are warranted to examine the relation of elevated LDL and other biomarkers of cardiovascular health in response to a lifestyle intervention. Furthermore, this study will investigate weight loss and body composition changes with adherence to this dietary intervention over a 140-day period. In this study the efficacy of Nic's Ketogenic diet on weight loss and biomarkers of cardiovascular health will be examined.",,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,"['Ketogenic Dieting', 'Healthy']",,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,FN,FN,"['Ketogenic Diet', ""Nic's keto diet"", 'Cardiovascular health', 'Elevated LDL levels']",,False,0.0,,Keyword,protocolSection.conditionsModule.keywords,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,NA,NA,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,SINGLE_GROUP,SINGLE_GROUP,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,This was an open-label study with no masking. All participants and investigators were aware of the dietary intervention being administered.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,TP,14,14,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+1. Provided voluntary, written, informed consent to participate in study
+2. Males and females between 30 and 55 years of age
+3. BMI between 20.0 to 29.9 kg/m2, inclusive
+4. Female participant is not of child-bearing potential, defined as females who have undergone a sterilization procedure (e.g. hysterectomy, bilateral oophorectomy, bilateral tubal ligation, total endometrial ablation) Or,
+
+   Females of child-bearing potential must have a negative baseline urine pregnancy test and agree to use a medically approved method of birth control for the duration of the study. Acceptable methods of birth control include:
+   * Non hormonal contraceptives
+   * Double-barrier method
+   * Intrauterine devices
+   * Non-heterosexual lifestyle or agrees to use contraception if planning on changing to heterosexual partner(s)
+   * Vasectomy of partner at least 6 months prior to screening
+5. Subjects with mid-range (2.5-4.1mmol/L or 100-159 mg/dL) elevated LDL-C levels
+6. Agrees to maintain current level of physical activity throughout the study
+7. Willingness to complete all questionnaires, records, and diaries and assessments associated with the study and to complete all clinic visits.
+8. Healthy as determined by medical history, laboratory results, and as assessed by Qualified Investigator (QI)
+
+Exclusion Criteria:
+
+1. Women who are pregnant, breast feeding, or planning to become pregnant during the course of the trial
+2. Women who are menopausal or post-menopausal
+3. Currently following a diet (i.e. Ketogenic Diet, low-carbohydrate diet)
+4. Subjects with high TSH level (\>4.5mU/L) or Self reported pre-existing thyroid condition. Treatment on a stable dose of medication for at least 3 months will be considered by the QI
+5. Participants with type I or II Diabetes Mellitus
+6. Cancer, except skin cancers completely excised with no chemotherapy or radiation with a follow up that is negative. Volunteers with cancer in full remission for more than five years after diagnosis are acceptable.
+7. Participants with previous or current pathology of the pancreas
+8. Current or history of Gastroesophageal reflux disease (GERD) or any significant disease of the gastrointestinal tract
+9. Self reported hypertension or on hypertensives.
+10. Significant cardiovascular event in the past 6 months as assessed by the QI.
+11. Major surgery in the past 3 months or individuals who have planned surgery during the course of the trial. Participants with minor surgery will be considered on a case-by-case basis by the QI
+12. Gastric bypass surgery
+13. Individuals with an autoimmune disease or are immune-compromised
+14. Self reported HIV-, Hepatitis B- and/or C-positive diagnosis
+15. History of or current diagnosis with kidney and/or liver diseases as assessed by the QI on a case-by-case basis, with the exception of history of kidney stones symptom free for 6 months
+16. Self reported medical or neuropsychological condition and/or cognitive impairment that, in the QI's opinion, could interfere with study participation
+17. Self reported blood/bleeding disorders as per QI
+18. Current use of prescribed medications listed in Section 7.3.1
+19. Current use of over-the-counter medications, supplements, foods, and/or drinks listed in Section 7.3.2
+20. Alcohol or drug abuse within the last 12 months
+21. High alcohol intake (\>2 standard drinks per day or \>10 standard drinks per week)
+22. Clinically significant abnormal laboratory results at screening as assessed by the QI
+23. Metal implants that may affect the DEXA scan results will be assessed on case-by-case basis by the QI
+24. Blood donation 30 days prior to screening, during the study, or a planned donation within 30-days of the last study visit
+25. Participation in a clinical research trial within 30 days of study initiation
+26. Individuals who are unable to give informed consent
+27. Any other active or unstable medical condition, that, in the opinion of the QI, may adversely affect the participant's ability to complete the study or its measures or may pose significant risk to the participant","Inclusion Criteria:
+- Males and females ages 30 to 55 years
+- Body mass index (BMI) 20.0–29.9 kg/m²
+- LDL-C levels between 2.5 and 4.1 mmol/L
+- Deemed healthy by medical history and laboratory results by the Medical Director
+- Participants were required to maintain current level of physical activity during the study
+
+Exclusion Criteria:
+- Unable to give informed consent
+- Women who were pregnant, breastfeeding, or planning to become pregnant, menopausal, postmenopausal
+- Following a diet
+- Diabetes or hypertension
+- Used hypertensive medication
+- A significant major cardiovascular event in the past 6 months assessed by the MD
+- Kidney or liver diseases assessed by the MD
+- Corticosteroids, opioid pain medications, beta-blockers and BP medications, statins, nonsteroidal anti-inflammatory drugs
+- Supplements known to affect weight and/or fat loss or lipid metabolism (considered after a washout period)
+- Clinically significant physical examination or abnormal laboratory results
+- Had any other active or unstable medical condition that, in the opinion of the MD, may have adversely affected the participant's ability to complete the study or may have posed significant risk",True,0.93,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,TP,TP,30 Years,30 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,TP,TP,55 Years,55 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,TP,TP,['ADULT'],['ADULT'],True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

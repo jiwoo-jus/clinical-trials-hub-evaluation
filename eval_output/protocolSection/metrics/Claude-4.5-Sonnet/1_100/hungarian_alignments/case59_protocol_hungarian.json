@@ -1,0 +1,841 @@
+{
+  "metadata": {
+    "case_id": 59,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T17:36:53.336642",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/59_NCT03947983.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/59_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "id": "R21NR018229",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/R21NR018229"
+          },
+          "pred_item": {
+            "id": "R21NR018229",
+            "type": "NIH",
+            "domain": "National Institute of Nursing Research",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.4
+        ],
+        [
+          0.6,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Intervention Group",
+            "type": "EXPERIMENTAL",
+            "description": "The intervention group will receive a sensor-controlled digital game (SCDG) app and weight monitoring and physical activity sensors",
+            "interventionNames": [
+              "Behavioral: Sensor-controlled digital game (SCDG)"
+            ]
+          },
+          "pred_item": {
+            "label": "Intervention Group (IG)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received sensors (Withings Go activity tracker and Withings Body smart weighing scale) to track weight monitoring and physical activity, along with the Heart Health Mountain sensor-controlled digital game (SCDG) app on their smartphones. The SCDG app synchronized with the sensors to provide game rewards, progress, and feedback based on real-time behaviors. Standardized HF education was embedded within the SCDG.",
+            "interventionNames": [
+              "DEVICE: Withings Go Activity Tracker",
+              "DEVICE: Withings Body Smart Weighing Scale",
+              "BEHAVIORAL: Heart Health Mountain Sensor-Controlled Digital Game (SCDG)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "The control group will receive only the weight monitoring and physical activity sensors",
+            "interventionNames": [
+              "Behavioral: Sensor Only"
+            ]
+          },
+          "pred_item": {
+            "label": "Control Group (CG)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received sensors (Withings Go activity tracker and Withings Body smart weighing scale) to track weight monitoring and physical activity only, without the SCDG app. They received the same standardized HF education in written format.",
+            "interventionNames": [
+              "DEVICE: Withings Go Activity Tracker",
+              "DEVICE: Withings Body Smart Weighing Scale",
+              "BEHAVIORAL: Standardized HF Education (Written Format)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.42,
+          0.25,
+          0.96,
+          0.4
+        ],
+        [
+          0.78,
+          0.4,
+          0.62,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Sensor-controlled digital game (SCDG)",
+            "description": "The SCDG will involve a narrative, the goal of which is to help an avatar in the game avoid rehospitalization by using game points, earned via the participant's real-time behaviors, in game tasks that help maintain the avatar's optimal HF health status. Real-time behaviors of weight-monitoring and physical activity will be tracked by an off-the-shelf sensors and app (Withings). The data from the Withings sensors will then be routed to our SCDG app.\n\nThe digital game paired with sensors will enable objective tracking of real-time behaviors such as physical activity, and weight monitoring, and provide personalized, contextually relevant feedback (e.g., reduce fluid intake or call doctor for weight gain) to motivate engagement in and generate habit formation of heart failure related self-management behaviors.",
+            "armGroupLabels": [
+              "Intervention Group"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Heart Health Mountain Sensor-Controlled Digital Game (SCDG)",
+            "description": "A mobile digital game app played on smartphones that integrates data from the activity tracker and weighing scale to trigger game rewards, progress, and personalized feedback based on real-time weight monitoring and physical activity behaviors. The game narrative involves helping an avatar climb a mountain while avoiding hospitalization. The SCDG incorporates the Fogg behavioral model with elements of motivation (e.g., positive feedback, competition, game rewards), ability (e.g., HF self-management knowledge in bite-sized chunks, quizzes), and triggers (e.g., game alerts, avatar health status messages, incentives tailored to real-time behaviors). Step goals ranged from 3,000 to 15,000 steps and were tailored to individual players. Standardized HF education was embedded within the game.",
+            "armGroupLabels": [
+              "Intervention Group (IG)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Sensor Only",
+            "description": "Real-time behaviors of weight-monitoring and physical activity will be tracked by an off-the-shelf sensors and app (Withings). This group will also be provided with standardized evidence-based HF educational material.However, the data from the Withings sensors will not be routed to the SCDG.",
+            "armGroupLabels": [
+              "Control group"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "Withings Go Activity Tracker",
+            "description": "A wearable activity tracker with long battery life, waterproof, used to measure daily physical activity steps. Data was transmitted to the Withings Health Mate app via Bluetooth.",
+            "armGroupLabels": [
+              "Intervention Group (IG)",
+              "Control Group (CG)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.88,
+          0.45
+        ],
+        [
+          0.96,
+          0.5
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.45,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Days With Weight-monitoring on Sensor Logs at 6 Weeks",
+            "description": "This outcome will be measured by collecting number of days with weight-monitoring data. This measure will be collected from sensor logs within the apps for both intervention group (IG) and control group (CG).",
+            "timeFrame": "6 weeks"
+          },
+          "pred_item": {
+            "measure": "Physical Activity Behavior",
+            "description": "Cumulative steps for each day derived from the Withings Go sensor logs within the Health Mate app, averaging the steps for each participant",
+            "timeFrame": "6 and 12 weeks"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Days With Weight-monitoring on Sensor Logs at 12 Weeks",
+            "description": "This outcome will be measured by collecting number of days with weight-monitoring data. This measure will be collected from sensor logs within the apps for both intervention group (IG) and control group (CG).",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Weight Monitoring Behavior",
+            "description": "Number of days with weight monitoring data collected from sensor logs within the Health Mate app, with each day of weighing measured dichotomously (yes or no)",
+            "timeFrame": "12 weeks"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 26,
+      "pred_count": 8,
+      "similarity_matrix": [
+        [
+          0.3,
+          0.2,
+          0.07,
+          0.22,
+          0.1,
+          0.2,
+          0.1,
+          0.08
+        ],
+        [
+          0.4,
+          0.2,
+          0.08,
+          0.18,
+          0.08,
+          0.18,
+          0.12,
+          0.08
+        ],
+        [
+          0.3,
+          0.12,
+          0.09,
+          0.15,
+          0.07,
+          0.18,
+          0.2,
+          0.08
+        ],
+        [
+          0.3,
+          0.12,
+          0.08,
+          0.22,
+          0.15,
+          0.15,
+          0.18,
+          0.08
+        ],
+        [
+          0.5,
+          0.4,
+          0.82,
+          0.94,
+          0.78,
+          0.78,
+          0.28,
+          0.08
+        ],
+        [
+          0.35,
+          0.25,
+          0.78,
+          0.95,
+          0.78,
+          0.68,
+          0.21,
+          0.08
+        ],
+        [
+          0.6,
+          0.38,
+          0.62,
+          0.93,
+          0.78,
+          0.7,
+          0.18,
+          0.08
+        ],
+        [
+          0.72,
+          0.95,
+          0.32,
+          0.6,
+          0.45,
+          0.25,
+          0.2,
+          0.15
+        ],
+        [
+          0.7,
+          0.94,
+          0.3,
+          0.38,
+          0.5,
+          0.32,
+          0.25,
+          0.15
+        ],
+        [
+          0.7,
+          0.92,
+          0.3,
+          0.6,
+          0.5,
+          0.32,
+          0.18,
+          0.08
+        ],
+        [
+          0.92,
+          0.72,
+          0.3,
+          0.4,
+          0.42,
+          0.2,
+          0.2,
+          0.1
+        ],
+        [
+          0.95,
+          0.78,
+          0.3,
+          0.38,
+          0.4,
+          0.22,
+          0.15,
+          0.05
+        ],
+        [
+          0.96,
+          0.72,
+          0.2,
+          0.38,
+          0.38,
+          0.2,
+          0.29,
+          0.05
+        ],
+        [
+          0.3,
+          0.25,
+          0.2,
+          0.28,
+          0.18,
+          0.12,
+          0.82,
+          0.05
+        ],
+        [
+          0.4,
+          0.25,
+          0.18,
+          0.3,
+          0.22,
+          0.18,
+          0.8,
+          0.05
+        ],
+        [
+          0.3,
+          0.18,
+          0.27,
+          0.25,
+          0.12,
+          0.05,
+          0.82,
+          0.1
+        ],
+        [
+          0.3,
+          0.28,
+          0.23,
+          0.2,
+          0.15,
+          0.18,
+          0.86,
+          0.05
+        ],
+        [
+          0.25,
+          0.2,
+          0.97,
+          0.6,
+          0.62,
+          0.35,
+          0.15,
+          0.08
+        ],
+        [
+          0.4,
+          0.3,
+          0.96,
+          0.6,
+          0.55,
+          0.4,
+          0.2,
+          0.05
+        ],
+        [
+          0.4,
+          0.25,
+          0.96,
+          0.7,
+          0.6,
+          0.5,
+          0.2,
+          0.08
+        ],
+        [
+          0.5,
+          0.4,
+          0.6,
+          0.7,
+          0.97,
+          0.78,
+          0.15,
+          0.05
+        ],
+        [
+          0.42,
+          0.3,
+          0.6,
+          0.82,
+          0.96,
+          0.78,
+          0.18,
+          0.05
+        ],
+        [
+          0.38,
+          0.32,
+          0.55,
+          0.72,
+          0.98,
+          0.7,
+          0.15,
+          0.1
+        ],
+        [
+          0.32,
+          0.27,
+          0.35,
+          0.4,
+          0.45,
+          0.93,
+          0.12,
+          0.08
+        ],
+        [
+          0.32,
+          0.28,
+          0.3,
+          0.42,
+          0.55,
+          0.92,
+          0.1,
+          0.18
+        ],
+        [
+          0.3,
+          0.25,
+          0.35,
+          0.6,
+          0.4,
+          0.9,
+          0.05,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Days With Physical Activity on Sensor Logs at 6 Weeks",
+            "description": "This outcome measure will be measured by collecting number of days with physical activity data. These measures will be collected from sensor logs within the apps for both IG and CG.",
+            "timeFrame": "6 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Days With Physical Activity on Sensor Logs at 12 Weeks",
+            "description": "This outcome measure will be measured by collecting number of days with physical activity data. These measures will be collected from sensor logs within the apps for both IG and CG.",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Mean of Daily Steps on Physical Activity Sensor Logs at 6 Weeks",
+            "description": "This outcome measure will be measured by calculating the average daily steps at end of 6 weeks. These measures will be collected from sensor logs within the apps for both IG and CG.",
+            "timeFrame": "6 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Mean of Daily Steps on Physical Activity Sensor Logs at 12 Weeks",
+            "description": "This outcome measure will be measured by calculating the average daily steps at end of 12 weeks. These measures will be collected from sensor logs within the apps for both IG and CG.",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure Self-management Behaviors as Measured by the European Heart Failure Self-care Behavior Scale at 6 Weeks",
+            "description": "The instrument used will be 9-item European Heart Failure Self-care Behavior Scale (HSBS; standardized score from 0 to 100 (every item is given an equal weight) with a higher score meaning better self-care). Items are on a Likert scale of 1 - 5. For calculating the standardized score, each item is reverse coded and then computed using the formula: (Sum of all ever-coded items - 9)\\*2.7777",
+            "timeFrame": "Baseline, 6 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 3,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure Self-management Behaviors as Measured by the European Heart Failure Self-care Behavior Scale at 12 Weeks",
+            "description": "The instrument used will be 9-item European Heart Failure Self-care Behavior Scale (HSBS; standardized score from 0 to 100 (every item is given an equal weight) with a higher score meaning better self-care. Items are on a Likert scale of 1 - 5. For calculating the standardized score, each item is reverse coded and then computed using the formula: (Sum of all ever-coded items - 9)\\*2.7777",
+            "timeFrame": "Baseline, 12 weeks"
+          },
+          "pred_item": {
+            "measure": "Self-reported HF Self-care Behaviors",
+            "description": "Measured using the 9-item European Heart Failure Self-care Behavior Scale. Standardized scores range from 0 to 100, with higher scores indicating better self-care. Cronbach α = .80",
+            "timeFrame": "Baseline, 6, 12, and 24 weeks"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure Self-management Behaviors as Measured by the European Heart Failure Self-care Behavior Scale at 24 Weeks",
+            "description": "The instrument used will be 9-item European Heart Failure Self-care Behavior Scale (HSBS; standardized score from 0 to 100 (every item is given an equal weight) with a higher score meaning better self-care). Items are on a Likert scale of 1 - 5. For calculating the standardized score, each item is reverse coded and then computed using the formula: (Sum of all ever-coded items - 9)\\*2.7777",
+            "timeFrame": "Baseline, 24 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure-related Quality of Life (QOL) on Kansas City Cardiomyopathy Questionnaire (KCCQ) at 6 Weeks",
+            "description": "The instrument used will be items 13 - 15 on the KCCQ. Values for the QoL domain range from 0 to 100 with higher scores indicating better quality of life. Domain score will be transformed to a 0 to 100 range by subtracting the lowest possible scale score, dividing by the range of the scale and multiplying by 100.",
+            "timeFrame": "Baseline, 6 weeks"
+          },
+          "pred_item": {
+            "measure": "Quality of Life",
+            "description": "Measured with items 13-15 from the KCCQ. Summary values range from 0 to 100, with higher scores indicating better quality of life. Cronbach α = .78",
+            "timeFrame": "Baseline, 6, 12, and 24 weeks"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure-related Quality of Life (QOL) on Kansas City Cardiomyopathy Questionnaire (KCCQ) at 12 Weeks",
+            "description": "The instrument used will be items 13 - 15 on the KCCQ. Values for the QoL domain range from 0 to 100 with higher scores indicating better quality of life. Domain score will be transformed to a 0 to 100 range by subtracting the lowest possible scale score, dividing by the range of the scale and multiplying by 100.",
+            "timeFrame": "Baseline, 12 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure-related Quality of Life (QOL) on Kansas City Cardiomyopathy Questionnaire (KCCQ) at 24 Weeks",
+            "description": "The instrument used will be items 13 - 15 on the KCCQ. Values for the QoL domain range from 0 to 100 with higher scores indicating better quality of life. Domain score will be transformed to a 0 to 100 range by subtracting the lowest possible scale score, dividing by the range of the scale and multiplying by 100.",
+            "timeFrame": "Baseline, 24 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure-related Functional Status on Kansas City Cardiomyopathy Questionnaire (KCCQ) at 6 Weeks",
+            "description": "The instrument used will be items 1-12 on the KCCQ. Values for the functional status summary score from 0 to 100 with higher scores indicating better quality of life. Summary score will be transformed to a 0 to 100 range by subtracting the lowest possible scale score, dividing by the range of the scale and multiplying by 100.",
+            "timeFrame": "Baseline, 6 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure-related Functional Status on Kansas City Cardiomyopathy Questionnaire (KCCQ) at 12 Weeks",
+            "description": "The instrument used will be items 1-12 on the KCCQ. Values for the functional status summary score from 0 to 100 with higher scores indicating better quality of life. Summary score will be transformed to a 0 to 100 range by subtracting the lowest possible scale score, dividing by the range of the scale and multiplying by 100.",
+            "timeFrame": "Baseline, 12 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure-related Functional Status on Kansas City Cardiomyopathy Questionnaire (KCCQ) at 24 Weeks",
+            "description": "The instrument used will be items 1-12 on the KCCQ. Values for the functional status summary score from 0 to 100 with higher scores indicating better quality of life. Summary score will be transformed to a 0 to 100 range by subtracting the lowest possible scale score, dividing by the range of the scale and multiplying by 100.",
+            "timeFrame": "Baseline, 24 weeks"
+          },
+          "pred_item": {
+            "measure": "HF-Related Functional Status",
+            "description": "Measured using items 1-12 from the Kansas City Cardiomyopathy Questionnaire (KCCQ). Summary scores range from 0 to 100, with higher scores indicating better functional status. Cronbach α = .93",
+            "timeFrame": "Baseline, 6, 12, and 24 weeks"
+          }
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Heart Failure Hospitalizations in the Past 6 Months at End of 24 Weeks as Assessed by Self-report",
+            "description": "This measure of number of cardiac hospitalizations in the past 6 months was obtained through participant self-report",
+            "timeFrame": "Baseline, 24 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Heart Failure Hospitalizations in the Past Month at End of 12 Weeks as Assessed by Self-report",
+            "description": "This measure will be obtained through participant self-report",
+            "timeFrame": "Baseline, 12 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Heart Failure Hospitalizations in the Past Month at End of 6 Weeks as Assessed by Self-report",
+            "description": "This measure will be obtained through participant self-report",
+            "timeFrame": "Baseline, 6 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": 6,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Heart Failure Hospitalizations in the Past Month at End of 24 Weeks as Assessed by Self-report",
+            "description": "This measure will be obtained through participant self-report",
+            "timeFrame": "Baseline, 24 weeks"
+          },
+          "pred_item": {
+            "measure": "HF Hospitalization",
+            "description": "Obtained through participants' self-report (yes or no) and confirmed with hospitalization discharge summaries or communication with health care providers",
+            "timeFrame": "6, 12, and 24 weeks"
+          }
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": 2,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure Self-management Knowledge on Atlanta Heart Failure Knowledge Test (AHKT) at 6 Weeks",
+            "description": "The instrument used will be 30-item Atlanta Heart Failure Knowledge Test (AHFKT). Each correct answer is scored as 1 point, with no additional weighting of items; correct responses are then summed. Incorrect or skipped questions are awarded 0 points. Total scores range from 0 to 30. Higher scores indicate better HF knowledge",
+            "timeFrame": "Baseline, 6 weeks"
+          },
+          "pred_item": {
+            "measure": "HF Self-management Knowledge",
+            "description": "Measured using the 30-item Atlanta Heart Failure Knowledge Test. Total scores range from 0 to 30, with higher scores indicating better HF knowledge. Cronbach α = .84",
+            "timeFrame": "Baseline, 6, 12, and 24 weeks"
+          }
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure Self-management Knowledge on Atlanta Heart Failure Knowledge Test (AHKT) at 12 Weeks",
+            "description": "The instrument used will be 30-item Atlanta Heart Failure Knowledge Test (AHFKT). Each correct answer is scored as 1 point, with no additional weighting of items; correct responses are then summed. Incorrect or skipped questions are awarded 0 points. Total scores range from 0 to 30. Higher scores indicate better HF knowledge",
+            "timeFrame": "Baseline, 12 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 19,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure Self-management Knowledge on Atlanta Heart Failure Knowledge Test (AHKT) at 24 Weeks",
+            "description": "The instrument used will be 30-item Atlanta Heart Failure Knowledge Test (AHFKT). Each correct answer is scored as 1 point, with no additional weighting of items; correct responses are then summed. Incorrect or skipped questions are awarded 0 points. Total scores range from 0 to 30. Higher scores indicate better HF knowledge",
+            "timeFrame": "Baseline,24 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 20,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure Self-efficacy on Self-efficacy Section of Self-care of Heart Failure Index at 24 Weeks",
+            "description": "The instrument used will be 6-item Section C Self-efficacy section of Self-care of heart failure Index (SCHFI). Scores on the self-efficacy scale will range from 0 to 100, with higher scores reflecting better self-efficacy. To standardize scores the formula: (sum of Section C items - 6) \\* 5.56 will be used.",
+            "timeFrame": "Baseline, 24 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 21,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure Self-efficacy on Self-efficacy Section of Self-care of Heart Failure Index at 12 Weeks",
+            "description": "The instrument used will be 6-item Section C Self-efficacy section of Self-care of heart failure Index (SCHFI). Scores on the self-efficacy scale will range from 0 to 100, with higher scores reflecting better self-efficacy. To standardize scores the formula: (sum of Section C items - 6) \\* 5.56 will be used.",
+            "timeFrame": "Baseline, 12 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 22,
+          "pred_idx": 4,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Heart Failure Self-efficacy on Self-efficacy Section of Self-care of Heart Failure Index at 6 Weeks",
+            "description": "The instrument used will be 6-item Section C Self-efficacy section of Self-care of heart failure Index (SCHFI). Scores on the self-efficacy scale will range from 0 to 100, with higher scores reflecting better self-efficacy. To standardize scores the formula: (sum of Section C items - 6) \\* 5.56 will be used.",
+            "timeFrame": "Baseline, 6 weeks"
+          },
+          "pred_item": {
+            "measure": "HF Self-efficacy",
+            "description": "Measured using the 6-item Section C (self-efficacy section) of the Self-Care of Heart Failure Index. Scores range from 0 to 100, with higher scores reflecting better self-efficacy. Cronbach α = .88",
+            "timeFrame": "Baseline, 6, 12, and 24 weeks"
+          }
+        },
+        {
+          "ref_idx": 23,
+          "pred_idx": 5,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Relative Autonomy Index (RAI) as Measured on Treatment Self-Regulation Questionnaire (TSRQ) at 6 Weeks",
+            "description": "In the 19-item Treatment Self-Regulation Questionnaire (TSRQ) adapted for heart failure, each item can receive a value ranging from 1 - 7, as selected by the participant. The scale has 2 sub-scales: autonomous and controlled motivation. Calculating the scores for the sub-scales will consist of averaging the items on that subscale. They are:\n\nAutonomous Regulation: 2, 3, 7, 10, 13, 16, 18, 19. Scores for Autonomous Regulation can range from 8 to 56. High scores indicate high autonomous motivation or intrinsic motivation for behavior engagement.\n\nControlled Regulation: 1, 4, 5, 6, 8, 9, 11, 12, 14, 15, 17. Scores for Controlled Regulation can range from 8 to 56. High scores indicate high controlled motivation or extrinsic motivation for behavior engagement.\n\nScoring for RAI will consist of subtracting the average for Controlled Regulation from the average for Autonomous Regulation. Higher RAI scores indicate higher autonomous or intrinsic motivation for behavior engagement.",
+            "timeFrame": "Baseline, 6 weeks"
+          },
+          "pred_item": {
+            "measure": "Motivation for HF Self-management Behaviors",
+            "description": "Measured using the 19-item Treatment Self-Regulation Questionnaire adapted for HF. Relative Autonomy Index calculated from autonomous and controlled regulation subscales. Cronbach α ranged from .83 to .87",
+            "timeFrame": "Baseline, 6, 12, and 24 weeks"
+          }
+        },
+        {
+          "ref_idx": 24,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Relative Autonomy Index (RAI) as Measured on Treatment Self-Regulation Questionnaire (TSRQ) at 12 Weeks",
+            "description": "In the 19-item Treatment Self-Regulation Questionnaire (TSRQ) adapted for heart failure, each item can receive a value ranging from 1 - 7, as selected by the participant. The scale has 2 sub-scales: autonomous and controlled motivation. Calculating the scores for the sub-scales will consist of averaging the items on that subscale. They are:\n\nAutonomous Regulation: 2, 3, 7, 10, 13, 16, 18, 19. Scores for Autonomous Regulation can range from 8 to 56. High scores indicate high autonomous motivation or intrinsic motivation for behavior engagement.\n\nControlled Regulation: 1, 4, 5, 6, 8, 9, 11, 12, 14, 15, 17. Scores for Controlled Regulation can range from 8 to 56. High scores indicate high controlled motivation or extrinsic motivation for behavior engagement.\n\nScoring for RAI will consist of subtracting the average for Controlled Regulation from the average for Autonomous Regulation. Higher RAI scores indicate higher autonomous or intrinsic motivation for behavior engagement.",
+            "timeFrame": "Baseline, 12 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 25,
+          "pred_idx": 7,
+          "score": 0.18,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Relative Autonomy Index (RAI) as Measured on Treatment Self-Regulation Questionnaire (TSRQ) at 24 Weeks",
+            "description": "In the 19-item Treatment Self-Regulation Questionnaire (TSRQ) adapted for heart failure, each item can receive a value ranging from 1 - 7, as selected by the participant. The scale has 2 sub-scales: autonomous and controlled motivation. Calculating the scores for the sub-scales will consist of averaging the items on that subscale. They are:\n\nAutonomous Regulation: 2, 3, 7, 10, 13, 16, 18, 19. Scores for Autonomous Regulation can range from 8 to 56. High scores indicate high autonomous motivation or intrinsic motivation for behavior engagement.\n\nControlled Regulation: 1, 4, 5, 6, 8, 9, 11, 12, 14, 15, 17. Scores for Controlled Regulation can range from 8 to 56. High scores indicate high controlled motivation or extrinsic motivation for behavior engagement.\n\nScoring for RAI will consist of subtracting the average for Controlled Regulation from the average for Autonomous Regulation. Higher RAI scores indicate higher autonomous or intrinsic motivation for behavior engagement.",
+            "timeFrame": "Baseline, 24 weeks"
+          },
+          "pred_item": {
+            "measure": "Depressive Symptoms",
+            "description": "Measured using the 2-item Patient Health Questionnaire (PHQ-2)",
+            "timeFrame": "Baseline, 6, 12, and 24 weeks"
+          }
+        }
+      ]
+    }
+  ]
+}

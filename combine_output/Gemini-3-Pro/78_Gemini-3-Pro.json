@@ -1,0 +1,149 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04568031",
+      "organization": {
+        "fullName": "AstraZeneca K.K.",
+        "class": "INDUSTRY"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This ongoing phase 1/2, randomized, double-blind, parallel-group, placebo-controlled, multi-centre trial evaluated the immunogenicity and safety of the AZD1222 (ChAdOx1 nCoV-19) vaccine in Japanese adults. Participants aged 18 years and older, stratified into cohorts including elderly individuals (≥70 years), were randomized to receive two intramuscular doses of AZD1222 or placebo administered 4 weeks apart. The study reports on immunogenicity responses and safety data collected up to Day 57.",
+      "detailedDescription": "The study enrolled 256 adults seronegative for SARS-CoV-2, stratified by age into 18–55 (n=128), 56–69 (n=86), and ≥70-year-old cohorts (n=42). Participants were randomized in a 3:1 ratio to receive either AZD1222 (5 × 10^10 viral particles/dose) or saline placebo on Days 1 and 29. Coprimary endpoints included immunogenicity, measured by anti-SARS-CoV-2 spike seroresponse (≥4-fold rise in titre from baseline) at Day 57, and safety, measured by solicited local and systemic adverse events (AEs) for 6 days post-dose and unsolicited AEs for 28 days post-dose. Secondary endpoints included seroresponse for the receptor-binding domain (RBD) antigen and SARS-CoV-2 neutralizing antibody (nAb) titres. The trial aimed to assess the vaccine's profile in the Japanese population, particularly in older age groups at higher risk for severe COVID-19."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19",
+        "SARS-CoV-2 Infection"
+      ],
+      "keywords": [
+        "AZD1222",
+        "ChAdOx1 nCoV-19",
+        "COVID-19 Vaccine",
+        "Immunogenicity",
+        "Safety",
+        "Japanese adults",
+        "Elderly",
+        "Randomized Controlled Trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants were stratified by age into 18–55-, 56–69- and ≥70-year-old cohorts, and randomized 3:1 to receive AZD1222 or placebo (two intramuscular injections 4 weeks apart).",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "AZD1222 and placebo were prepared by an unblinded pharmacist. Participants, clinical investigators and sponsor staff were blinded to the study vaccination received until completion of safety data lock at Day 57.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "CARE_PROVIDER"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 256,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "AZD1222",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received two doses of AZD1222 (5 × 10^10 viral particles/dose) on Days 1 and 29, administered as intramuscular injections into the deltoid muscle.",
+          "interventionNames": [
+            "AZD1222"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received two doses of placebo (saline; 0.9% weight/volume) on Days 1 and 29, administered as intramuscular injections into the deltoid muscle.",
+          "interventionNames": [
+            "Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "AZD1222",
+          "description": "Also known as ChAdOx1 nCoV-19. A replication-deficient simian adenovirus-vectored vaccine encoding the full-length SARS-CoV-2 spike protein.",
+          "armGroupLabels": [
+            "AZD1222"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Saline (0.9% weight/volume).",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Anti-SARS-CoV-2 spike seroresponse",
+          "description": "Measured by anti-SARS-CoV-2 spike seroresponse, defined as a ≥4-fold rise in titre from Day 1 baseline value.",
+          "timeFrame": "Day 57"
+        },
+        {
+          "measure": "Solicited local and systemic reactogenicity",
+          "description": "Occurrence of solicited local and systemic reactogenicity signs/symptoms.",
+          "timeFrame": "6 days after each dose"
+        },
+        {
+          "measure": "Unsolicited Adverse Events (AEs), Serious AEs (SAEs), and AEs of Special Interest (AESIs)",
+          "description": "Occurrence of unsolicited AEs, SAEs, and AESIs.",
+          "timeFrame": "28 days after each dose"
+        },
+        {
+          "measure": "Safety laboratory measures",
+          "description": "Change from baseline in safety laboratory measures including haemoglobin concentration, leukocyte count, platelet count and clinical chemistry.",
+          "timeFrame": "Days 1, 8, 29, 36 and 57"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Seroresponse for RBD antigen and SARS-CoV-2 nAb",
+          "description": "Proportion of participants with a seroresponse for the receptor-binding domain (RBD) antigen and SARS-CoV-2 neutralizing antibody (nAb).",
+          "timeFrame": "Day 57 (28 days after the second dose)"
+        },
+        {
+          "measure": "Geometric Mean Titre (GMT) and Geometric Mean Fold Rise of immunogenicity",
+          "description": "GMT and geometric mean fold rise of immunogenicity against SARS-CoV-2 spike and RBD antigens and SARS-CoV-2 nAb.",
+          "timeFrame": "At each time point up to Day 365"
+        },
+        {
+          "measure": "Occurrence of SAEs and AESIs",
+          "description": "Long-term monitoring of Serious Adverse Events (SAEs) and Adverse Events of Special Interest (AESIs).",
+          "timeFrame": "Up to Day 365"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Adults aged ≥18 years\n* Seronegative for SARS-CoV-2 at screening\n* Negative reverse-transcriptase polymerase chain reaction test for SARS-CoV-2\n\nExclusion Criteria:\n* History of laboratory-confirmed SARS-CoV-2 infection\n* Pregnant women\n* New onset of fever\n* Any confirmed or suspected immunodeficient state\n* Receipt of any vaccine within 30 days before or after each study dose\n* Prior or planned receipt of an investigational or licensed vaccine or product that may impact interpretation of trial data (e.g. adenovirus-vectored vaccines or coronavirus vaccines)\n* Severe and/or uncontrolled cardiovascular, respiratory, gastrointestinal, hepatic or renal disease, endocrine disorder or neurologic illness",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

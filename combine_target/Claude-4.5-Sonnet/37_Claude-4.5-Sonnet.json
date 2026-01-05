@@ -1,0 +1,31 @@
+{
+  "protocolSection": {
+    "identificationModule": null,
+    "descriptionModule": {
+      "briefSummary": "Achieving optimal diabetes control requires several daily self-management behaviors, especially adherence to medication. Evidence supports the use of text messages to support adherence, but there remains much opportunity to improve their effectiveness. One key limitation is that message content has been generic. By contrast, reinforcement learning is a machine learning method that can be used to identify individuals' patterns of responsiveness by observing their response to cues and then optimizing them accordingly. Despite its demonstrated benefits outside of healthcare, its application to tailoring communication for patients has received limited attention. The objective of this trial is to test the impact of a reinforcement learning-based text messaging program on adherence to medication for patients with type 2 diabetes.",
+      "detailedDescription": "In the REINFORCE trial, 60 patients with suboptimal diabetes control treated with oral diabetes medications are being randomized to receive a reinforcement learning intervention or control. Subjects in both arms receive electronic pill bottles to use, and those in the intervention arm receive up to daily text messages. The messages are individually adapted using a reinforcement learning prediction algorithm based on daily adherence measurements from the pill bottles. The core component of the intervention is a reinforcement learning program that personalizes daily text message outreach based on data from the electronic pill bottles. Beginning the morning after randomization, the program predicts which text message will be most likely to cause a patient to take their medications; the corresponding text message is then sent. The effectiveness of each message is assessed the next morning based on whether the medication doses were actually taken. The text messages are based on existing behavioral science principles and incorporate five factors: (1) framing (neutral, positive or negative), (2) observed feedback (number of days in the previous week that patients had evidence of medication-taking), (3) social reinforcement (mentioning loved ones), (4) nature of content (medication reminder or information about medications or lifestyle), and (5) reflection (designed to invoke introspection). The reinforcement learning algorithm is hosted on a HIPAA-compliant Microsoft Azure server and integrates electronic pill bottle data, patient data from REDCap, and the reinforcement learning prediction model algorithm housed by Microsoft Personalizer. The trial's primary outcome is average adherence to medication over the 6-month follow-up period. Secondary outcomes include diabetes control measured by glycated hemoglobin A1c and self-reported adherence. The trial is designed to maximize both internal validity and generalizability and uses routinely-collected data to evaluate outcomes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Medication Non-Adherence"
+      ],
+      "keywords": [
+        "diabetes & endocrinology",
+        "clinical trials",
+        "public health",
+        "medication adherence",
+        "reinforcement learning",
+        "text messaging",
+        "machine learning",
+        "behavioral intervention",
+        "glycemic control",
+        "personalized medicine"
+      ]
+    },
+    "designModule": null,
+    "armsInterventionsModule": null,
+    "outcomesModule": null,
+    "eligibilityModule": null
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "case_id": 49,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T16:33:09.438649",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/49_NCT03388164.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/49_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.7,
+          0.6
+        ],
+        [
+          0.95,
+          0.55
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.6,
+          "status": "matched",
+          "ref_item": {
+            "label": "Escitalopram + RT2CK17",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "10mg escitalopram + 5mg RT2CK17 will be given orally and encapsulated into one capsule, once per day for 8 weeks. The capsules will be produced in the same manner as the placebo comparator by a local compounding pharmacy in Tulsa, Oklahoma.",
+            "interventionNames": [
+              "Drug: Escitalopram + RT2CK17"
+            ]
+          },
+          "pred_item": {
+            "label": "MPH + Escitalopram",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received 5 mg methylphenidate (MPH) + 10 mg escitalopram (encapsulated into one capsule). At the 4-week visit, participants had the option to increase the escitalopram dose to 20 mg (formulated as 5 mg MPH + 20 mg escitalopram).",
+            "interventionNames": [
+              "Drug: Methylphenidate",
+              "Drug: Escitalopram"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "Escitalopram + Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "10mg escitalopram + 5mg placebo will be given orally and encapsulated into one capsule, once per day for 8 weeks. The capsules will be produced in the same manner as the active comparator by a local compounding pharmacy in Tulsa, Oklahoma.",
+            "interventionNames": [
+              "Drug: Escitalopram + Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo + Escitalopram",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants received 5 mg placebo + 10 mg escitalopram (encapsulated into one capsule). At the 4-week visit, participants had the option to increase the escitalopram dose to 20 mg (formulated as placebo + 20 mg of escitalopram).",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Drug: Escitalopram"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.35,
+          0.68,
+          0.32
+        ],
+        [
+          0.3,
+          0.82,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.68,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Escitalopram + RT2CK17",
+            "description": "Participants randomized to active or placebo condition will be prescribed medication over the course of 8 weeks, with in-person follow-up visits at weeks 0, 2, 4 and 8, with follow-up phone calls on weeks 1, 3 and 6.",
+            "armGroupLabels": [
+              "Escitalopram + RT2CK17"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Escitalopram",
+            "description": "10 mg escitalopram, a standard antidepressant. Dose could be increased to 20 mg at week 4.",
+            "armGroupLabels": [
+              "Placebo + Escitalopram",
+              "MPH + Escitalopram"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Escitalopram + Placebo",
+            "description": "Participants randomized to active or placebo condition will be prescribed medication over the course of 8 weeks, with in-person follow-up visits at weeks 0, 2, 4 and 8, with follow-up phone calls on weeks 1, 3 and 6.",
+            "armGroupLabels": [
+              "Escitalopram + Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "5 mg placebo matching the methylphenidate component.",
+            "armGroupLabels": [
+              "Placebo + Escitalopram"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Rate of Adherence",
+            "description": "To determine whether RT2CK17 + escitalopram results in higher rates of medication adherence relative to placebo + escitalopram as measured by percentage pill count",
+            "timeFrame": "8 weeks"
+          },
+          "pred_item": {
+            "measure": "Percent (%) Pill count",
+            "description": "Defined as 100 * [number of prescribed pills – number of pills remaining]/[number of days between dispensing date and return date].",
+            "timeFrame": "Weeks 2, 4, and 8"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Adherence Consistency",
+            "description": "To determine whether RT2CK17 + escitalopram results in greater consistency of adherence relative to placebo + escitalopram as measured by percentage of doses taken on schedule within 25% of the expected time interval, defined as +/- 6 hours from the participant's breakfast time",
+            "timeFrame": "8 weeks"
+          },
+          "pred_item": {
+            "measure": "Medication Electronic Monitoring System (MEMS) adherence",
+            "description": "The % of doses taken on schedule within 25% of the expected time interval, defined as ±6 h from when the participant usually took the medication, estimated by fitting a line to their dosing times.",
+            "timeFrame": "Weeks 2, 4, and 8"
+          }
+        }
+      ]
+    }
+  ]
+}

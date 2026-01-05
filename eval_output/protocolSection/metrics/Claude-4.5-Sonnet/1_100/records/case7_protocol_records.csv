@@ -1,0 +1,107 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT03544229,NCT03268941,True,1.0,success,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,FP,A Study to Evaluate the Efficacy and Safety of TAK-906 in Adult Participants With Symptomatic Idiopathic or Diabetic Gastroparesis,"Evaluating the Safety, Tolerability, and Disposition of Trazpiroben, a D2/D3 Receptor Antagonist: Phase I Single- and Multiple-Ascending Dose Studies in Healthy Japanese Participants",False,0.42,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,TP,"A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group, Phase 2b Study to Evaluate the Efficacy and Safety of Twice-Daily Oral Administration of a Peripherally Acting Dopamine Receptor D2/D3 Antagonist, TAK-906 for the Treatment of Adult Subjects With Symptomatic Idiopathic or Diabetic Gastroparesis","Evaluating the Safety, Tolerability, and Disposition of Trazpiroben, a D2/D3 Receptor Antagonist: Phase I Single- and Multiple-Ascending Dose Studies in Healthy Japanese Participants",True,0.72,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,TP,FP,The purpose of this study is to assess the efficacy and safety of treatment with 2 dose levels of TAK-906 in adult participants with gastroparesis compared with placebo during 12 weeks of treatment.,"This phase I, randomized, double-blind, placebo-controlled, single- and multiple-ascending dose, parallel-group study evaluated the safety, tolerability, pharmacokinetics, and pharmacodynamics of trazpiroben (TAK-906) in healthy Japanese men. Overall, 24 participants were enrolled into 3 cohorts (each n = 8). Per cohort, 6 participants received trazpiroben (cohort 1, 50 mg; cohort 2, 100 mg; cohort 3, 10 mg) once on day 1 and twice daily on days 3 through 7, and two received placebo. The study aimed to compare findings with those from a prior US trial in healthy individuals to assess potential ethnic differences in drug disposition and safety profile.",False,0.32,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.detailedDescription,TP,FP,"The drug being tested in this study is called TAK-906. TAK-906 is being tested to treat people who have symptomatic idiopathic or diabetic gastroparesis.
+
+The study will enroll approximately 205 patients. Participants will be randomly assigned (by chance, like flipping a coin) to one of the three treatment groups (in 1:1:1:1 ratio) which will remain undisclosed to the patient and study doctor during the study (unless there is an urgent medical need):
+
+* TAK-906 Maleate 5 mg (After implementation of Amendment 8, participants will not be further randomized to this arm)
+* TAK-906 Maleate 25 mg
+* TAK-906 Maleate 50 mg Placebo (dummy inactive pill) - this is a capsule that looks like the study drug but has no active ingredient
+
+Prior to Amendment 8, participants were randomized to receive TAK-906 5 mg. After implementation of Amendment 8, participants will not be further randomized to this dose arm. All participants will be asked to take one capsule twice daily, at approximately the same time each day throughout the study.
+
+This multi-center trial will be conducted worldwide. The overall study duration is approximately 17 weeks. Participants will make multiple visits to the clinic, and will be contacted by telephone 30 days after receiving their last dose of study drug for a follow-up assessment.","Trazpiroben (TAK-906) is a peripherally selective dopamine D2/D3 receptor antagonist being developed to treat chronic gastroparesis. This study was conducted to evaluate the safety and tolerability, and the pharmacokinetics (PK) and pharmacodynamics (PD) of single and multiple oral doses of trazpiroben in healthy Japanese men. The study design was made consistent with that of the US AT-01C study to allow informal comparison of intrinsic similarities and differences between the 2 populations.
+
+After a 27-day screening period, participants received a single dose of blinded study drug on day 1 (single-dose phase), followed by multiple doses of blinded study drug twice daily for 5 days from day 3 through day 7 (multiple-dose phase), without an evening dose on day 7. Follow-up assessments occurred on day 14 (7 days after the completion of the last treatment dose). The study drug in the single-dose phase and all morning doses in the multiple-dose phase were orally administered after a fast of at least 10 hours that continued for at least 4 hours after dosing, with water intake prohibited for at least 1 hour before and after dosing. The evening dose was administered 12 hours after the morning dose and at least 2 hours after the evening meal.
+
+Safety measures evaluated included adverse events (AEs), physical and vital signs, and ECG parameters. Blood samples for trazpiroben and its metabolite M23 were collected at multiple time points for PK analysis. Serum prolactin concentrations were measured as a biomarker for dopamine D2 receptor antagonism for PD analysis.
+
+Trazpiroben was well tolerated, with no clinically meaningful adverse events observed. Following single- and multiple-dose administration, trazpiroben was rapidly absorbed and eliminated (mean elimination half-life, 1.89-6.45 hours; median time to maximum serum concentration [steady state], 1.00-1.25 hours). Serum prolactin increased with trazpiroben treatment, illustrating receptor target engagement. Results reflected those from healthy US participants, indicating a lack of differences between these ethnic populations in trazpiroben disposition and safety profile.",False,0.38,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,TP,FP,"['Diabetic Gastroparesis', 'Idiopathic Gastroparesis']","['Gastroparesis', 'Healthy Volunteers']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,TP,FP,['Drug Therapy'],"['Trazpiroben', 'TAK-906', 'Dopamine D2/D3 receptor antagonist', 'Pharmacokinetics', 'Pharmacodynamics', 'Safety', 'Tolerability', 'Japanese population', 'Healthy volunteers', 'Phase I', 'Single ascending dose', 'Multiple ascending dose', 'Gastroparesis', 'Prolactin', 'Ethnic differences']",False,0.0,disjoint,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,FP,['PHASE2'],['PHASE1'],False,0.0,disjoint,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Phase I, randomized, double-blind, placebo-controlled, single- and multiple-ascending dose, parallel-group study. 24 participants were enrolled into 3 cohorts (each n = 8). Per cohort, 6 participants received trazpiroben (cohort 1, 50 mg; 2, 100 mg; 3, 10 mg) once on day 1 and twice daily on days 3 through 7, and two received placebo.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,QUADRUPLE,DOUBLE,False,0.5,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"Double-blind, placebo-controlled study where participants received blinded study drug (trazpiroben or placebo)",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,FP,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'INVESTIGATOR']",False,0.5,partial,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,TP,242,24,True,0.8,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.armGroups[5].label,EV,EV,,Cohort 3: Placebo,,,,ArmGroupLabel,protocolSection.armsInterventionsModule.armGroups.label,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.armGroups[5].type,EV,EV,,PLACEBO_COMPARATOR,,,,ArmGroupType,protocolSection.armsInterventionsModule.armGroups.type,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.armGroups[5].description,EV,EV,,"2 participants received placebo as a single dose on day 1, followed by twice daily dosing on days 3 through 7 (no evening dose on day 7)",,,,ArmGroupDescription,protocolSection.armsInterventionsModule.armGroups.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.armGroups[5].interventionNames,EV,EV,,['DRUG: Placebo'],,,,ArmGroupInterventionName,protocolSection.armsInterventionsModule.armGroups.interventionNames,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[2].type,EV,EV,,DRUG,,,,InterventionType,protocolSection.armsInterventionsModule.interventions.type,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[2].name,EV,EV,,Trazpiroben 10 mg,,,,InterventionName,protocolSection.armsInterventionsModule.interventions.name,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[2].description,EV,EV,,"Trazpiroben (TAK-906) 10 mg administered orally. Single dose on day 1 after at least 10-hour fast, then twice daily (morning and evening) on days 3-7, with morning doses after at least 10-hour fast and evening doses 12 hours after morning dose and at least 2 hours after evening meal. No evening dose on day 7.",,,,InterventionDescription,protocolSection.armsInterventionsModule.interventions.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[2].armGroupLabels,EV,EV,,['Cohort 3: Trazpiroben 10 mg'],,,,InterventionArmGroupLabel,protocolSection.armsInterventionsModule.interventions.armGroupLabels,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.primaryOutcomes[1].measure,EV,EV,,Safety and tolerability: Clinical laboratory evaluations,,,,PrimaryOutcomeMeasure,protocolSection.outcomesModule.primaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.primaryOutcomes[2].measure,EV,EV,,Safety and tolerability: Vital signs,,,,PrimaryOutcomeMeasure,protocolSection.outcomesModule.primaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.primaryOutcomes[1].description,EV,EV,,"Changes from baseline in clinical laboratory parameters including hematology, chemistry, and urinalysis",,,,PrimaryOutcomeDescription,protocolSection.outcomesModule.primaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.primaryOutcomes[2].description,EV,EV,,"Changes from baseline in vital signs including blood pressure, heart rate, and body temperature",,,,PrimaryOutcomeDescription,protocolSection.outcomesModule.primaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.primaryOutcomes[1].timeFrame,EV,EV,,From baseline through follow-up (Day 14),,,,PrimaryOutcomeTimeFrame,protocolSection.outcomesModule.primaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.primaryOutcomes[2].timeFrame,EV,EV,,From baseline through follow-up (Day 14),,,,PrimaryOutcomeTimeFrame,protocolSection.outcomesModule.primaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,TP,FP,"Inclusion Criteria:
+
+1. Should have experienced symptoms of gastroparesis (e.g., postprandial fullness, nausea, vomiting, upper abdominal pain, and early satiety for at least 3 months before screening as assessed by a physician.
+2. Must have confirmed delayed gastric emptying by meeting 1 of the following criteria:
+
+   1. Confirmed by an accepted diagnostic testing method (Gastric Emptying Breath Test \[GEBT\], scintigraphy, or wireless motility capsule) that is documented in the participant's medical records prior to screening; OR
+   2. Participants without previous confirmation of delayed gastric emptying prior to screening will undergo a GEBT after they have stopped taking prohibited medications.
+3. Must have an average composite ANMS GCSI-DD symptom score ≥2 during the 7 days before randomization. The predominant symptom experienced by participants must not be abdominal pain.
+4. Must experience nausea: nausea subscale (of ANMS GCSI-DD) symptom score ≥2 at least 4 of 7 days or an average nausea subscale symptom score ≥2 during the 7 days before randomization. Nausea symptoms must not be attributable to a central disorder (e.g. motion sickness, glaucoma, menstrual cycles, migraine headache).
+5. Has a body mass index (BMI) of ≥18 to ≤40 kg/m\^2 inclusive.
+6. Participant with diabetes mellitus must have glycosylated hemoglobin (HbA1c) ≤11% at screening and before randomization.
+7. Absence of gastric outlet obstruction confirmed by upper GI, computed tomography or endoscopy.
+
+Exclusion Criteria:
+
+1. Known secondary causes of gastroparesis including but not limited to Parkinson disease, cancer, viral illness, or connective tissue diseases.
+2. Predominant gastroparetic symptom is epigastric pain, diffuse abdominal pain, or pain associated with bowel movement.
+3. Is taking medications that affect gastric emptying including opioids, glucagon-like peptide-1 analogs (e.g., exenatide, liraglutide), amylin analogs (e.g., pramlintide), and cannabinoids.
+4. Prior history of gastric surgery, including but not limited to gastrectomy, gastric bypass, gastric banding, bariatric surgery, pyloroplasty, vagotomy, or fundoplication, which has manipulated the natural anatomy of the stomach.
+5. History of intra-pyloric botulinum toxin injection within 3 months of Screening or currently has functioning implantable electric stimulator.
+6. Nasogastric, percutaneous endoscopic gastrostomy, or percutaneous endoscopic jejunostomy feeding tube or inpatient hospitalization for gastroparesis within 2 weeks before the Screening Visit.
+7. Required parenteral nutrition for treatment of gastroparesis within 2 months before the Screening Visit.
+8. Previous diagnosis of gastric bezoar (the presence of retained liquid, bile, or small amounts of poorly organized food residue is permitted).
+9. Poor control of diabetes within 30 days prior to randomization, including diabetic ketoacidosis, hypoglycemia requiring medical intervention, admission for control of diabetes or diabetic complications.
+10. Elevated serum prolactin (\>upper limit of normal \[ULN\]) at Screening.
+11. Has concurrent hypogonadism, current clinically significant menstrual abnormalities, such as amenorrhea or oligomenorrhea, or other clinical features of hyperprolactinemia such as galactorrhea or gynecomastia.
+12. Has acute or chronic liver disease meeting any of the criteria described below:
+
+    * Has an alanine aminotransferase (ALT), aspartate aminotransferase (AST) or total bilirubin \>2.0 times the ULN.
+    * Has pre-existing liver cirrhosis that meets Child-Pugh Class B (moderate; total score 7 to 9 points) or C (severe; total score 10 to 15 points) (see Appendix B).
+    * Has acute or chronic hepatitis B or C virus infection, manifesting as one of the following at screening:
+    * Positive hepatitis B surface antigen (HBsAg) or hepatitis B core antibody (HBcAb). NOTE: if a participants tests negative for HBsAg, but positive for HBcAb, the participant would be eligible if the Investigator has documentation of other test results showing that the participant does not have active hepatitis B infection.
+    * Participants with positive hepatitis C antibody (HCV IgG) and quantitative HCV polymerase chain reaction (PCR). HCV PCR is performed only if HCV IgG is positive.
+13. Has renal impairment, defined as a lower limit of (estimated glomerular filtration rate \[eGFR\]) \<30 mL/min at screening visit.
+14. Has active neoplastic disease or history of neoplastic disease within 5 years of screening visit (except for basal or squamous cell carcinoma of the skin or carcinoma in situ of the uterine cervix that has been definitively treated with standard of care approaches).
+15. Uncontrolled or poorly controlled medical or psychiatric comorbidities which might affect their ability to participate in the study.
+16. Has known COVID-19 infection, or suspected COVID-19 infection (as assessed by the investigator).
+17. Signs/symptoms or history of extrapyramidal system disease and other clinically relevant CNS or neuropsychiatric disease including but not limited to tardive dyskinesia, neuroleptic malignant syndrome, acute dystonia, parkinsonian like symptoms, severe mental depression, and history of suicide attempt.","Inclusion Criteria:
+- Healthy Japanese men
+- Aged 20 to 60 years inclusive
+- Body weight of 50 kg or higher
+- Body mass index (BMI) of 18.5 to 25 kg/m²
+
+Exclusion Criteria:
+- History of seizure or tardive dyskinesia
+- History of hyperprolactinemia
+- History of pituitary adenoma
+- History of hypothyroidism
+- Any gastrointestinal disease that would be expected to influence the absorption of drugs
+- Family history of prolonged QT interval
+- QTc using Fridericia's formula >450 milliseconds
+- Previous gastric bypass surgery or current gastric band fitted
+- Abnormal laboratory values of transaminase, bilirubin, or creatinine
+- Abnormal ECGs at screening or baseline before administration of the study drug",False,0.18,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,TP,FP,False,True,False,0.0,success,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,TP,FP,ALL,MALE,False,0.4,success,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,20 Years,True,0.9,success,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,TP,TP,85 Years,60 Years,True,1.0,success,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,TP,FP,"['ADULT', 'OLDER_ADULT']",['ADULT'],False,0.5,partial,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

@@ -1,0 +1,99 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT03781726,NCT03781726,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,TP,Multi-center Study to Transplant Hepatitis-C Infected Kidneys,Multicenter Study to Transplant Hepatitis C-Infected Kidneys,True,1.0,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,TP,"A Multi-Center, Open-Label Study of Glecaprevir/Pibrentasvir to Treat Recipients of Transplanted Kidneys From Deceased Donors With Hepatitis C Virus",Multicenter Study to Transplant Hepatitis C-Infected Kidneys (MYTHIC),True,0.93,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,TP,TP,Open label multi center study for the donation of HCV positive kidneys to HCV negative recipients with interventional treatment to prevent HCV transmission upon transplantation.,"The MYTHIC (Multicenter Study to Transplant Hepatitis C-Infected Kidneys) study was a multicenter trial evaluating kidney transplantation from hepatitis C virus (HCV) viremic donors into HCV-negative recipients, followed by 8 weeks of glecaprevir/pibrentasvir (G/P) treatment initiated 2 to 5 days post-transplant. The study aimed to assess the probability of receiving a kidney transplant compared to matched waitlist comparators, and to evaluate 1-year safety outcomes, allograft function, and survival. The hypothesis was that opting-in to receive kidneys from HCV-viremic donors would increase the probability of transplantation with excellent outcomes when followed by early direct-acting antiviral therapy.",True,0.9,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.detailedDescription,TP,TP,The study objective is to determine if the administration of the direct acting antiviral glecaprevir/pibrentasvir for 8 weeks after kidney transplantation is both safe and effective at preventing the spread of HCV infection from donor kidney with known HCV infection (all genotypes) to an HCV negative recipient as evidenced by a negative HCV viral RNA at 12 weeks post treatment.,"The MYTHIC trial was an open-label, multicenter (7 sites) clinical trial that enrolled 63 patients who were candidates for kidney transplantation. Of these, 30 patients underwent HCV donor-RNA-positive/recipient-negative kidney transplantation and received 8 weeks of oral glecaprevir/pibrentasvir (G/P) initiated between days 2 and 5 post-transplant. The remaining patients either received transplants from HCV antibody-positive/RNA-negative donors, received standard-of-care transplants, or remained on the waitlist.
+
+The study included patients aged 21 to 65 years who were on dialysis or had an estimated glomerular filtration rate <15 ml/min per 1.73 m². Exclusion criteria included positive test results for HIV, hepatitis B virus, known liver disease, or liver stiffness >8 kPa by Fibroscan. Donors had a kidney donor profile index (KDPI) at allocation ≤85%.
+
+The primary outcome was HCV cure, defined as undetectable plasma HCV RNA 12 weeks after completion of G/P (sustained virologic response at 12 weeks). The 1-year analyses compared the probability of transplant for the 63 MYTHIC participants versus 2055 matched comparators from the United Network for Organ Sharing (UNOS) registry who did not opt-in to receive kidneys from HCV-viremic donors. Additional outcomes included 1-year post-transplant safety events, liver function, BK virus and cytomegalovirus (CMV) viremia and clinical disease, allograft rejection, allograft function, HCV RNA levels, HCV antibody status, and survival.
+
+Results showed that the 1-year cumulative incidence of kidney transplantation was approximately 3.5-fold greater for the MYTHIC cohort versus matched UNOS comparators (68% vs. 19%, P<0.0001). All 30 HCV donor-RNA-positive/recipient-negative transplant recipients achieved HCV cure with no clinically significant liver disease or HCV-related kidney injury. One-year survival was 93% and graft function was excellent (median creatinine 1.17 mg/dl). However, there were 4 cases of CMV disease among 10 CMV-negative patients who received kidneys from HCV-viremic/CMV-positive donors. The study demonstrated that opting-in for HCV-viremic kidney transplant offers can increase the probability of transplantation with excellent 1-year outcomes in carefully selected patients when direct-acting antivirals are initiated early post-transplant.",True,0.82,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,TP,FP,"['Renal Failure Chronic', 'Hepatitis C']","['Hepatitis C', 'End Stage Renal Disease', 'Kidney Failure', 'Kidney Transplantation']",False,0.5,partial,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,TP,FP,"['hemodialysis', 'renal failure', 'kidney transplant']","['Hepatitis C virus', 'HCV', 'Kidney transplantation', 'Direct-acting antivirals', 'Glecaprevir/pibrentasvir', 'HCV-viremic donors', 'Organ transplantation', 'Cytomegalovirus', 'CMV', 'BK virus', 'Allograft function', 'Sustained virologic response', 'Deceased donor transplantation']",False,0.0,disjoint,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,TP,['PHASE4'],['PHASE4'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,NA,NA,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,SINGLE_GROUP,SINGLE_GROUP,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,Open-label clinical trial where all 30 HCV D-RNA-positive/R-negative kidney transplant recipients received 8 weeks of oral glecaprevir/pibrentasvir (G/P) initiated between days 2 and 5 post-transplant,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Open-label trial with no masking,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,TP,30,30,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[1].type,EV,EV,,PROCEDURE,,,,InterventionType,protocolSection.armsInterventionsModule.interventions.type,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[2].type,EV,EV,,DRUG,,,,InterventionType,protocolSection.armsInterventionsModule.interventions.type,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[1].name,EV,EV,,Kidney Transplantation from HCV-viremic Donor,,,,InterventionName,protocolSection.armsInterventionsModule.interventions.name,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[2].name,EV,EV,,Valganciclovir (for CMV prophylaxis),,,,InterventionName,protocolSection.armsInterventionsModule.interventions.name,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[1].description,EV,EV,,Kidney transplantation from HCV RNA-positive deceased donors with kidney donor profile index (KDPI) ≤85% into HCV-negative recipients,,,,InterventionDescription,protocolSection.armsInterventionsModule.interventions.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[2].description,EV,EV,,6 months of valganciclovir prophylaxis administered to CMV donor-positive/recipient-negative patients according to each center's standard-of-care protocol,,,,InterventionDescription,protocolSection.armsInterventionsModule.interventions.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[1].armGroupLabels,EV,EV,,['HCV D-RNA-positive/R-negative Kidney Transplant Recipients'],,,,InterventionArmGroupLabel,protocolSection.armsInterventionsModule.interventions.armGroupLabels,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[2].armGroupLabels,EV,EV,,['HCV D-RNA-positive/R-negative Kidney Transplant Recipients'],,,,InterventionArmGroupLabel,protocolSection.armsInterventionsModule.interventions.armGroupLabels,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.primaryOutcomes[1].measure,EV,EV,,Probability of kidney transplantation,,,,PrimaryOutcomeMeasure,protocolSection.outcomesModule.primaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.primaryOutcomes[1].description,EV,EV,,Comparison of probability of transplant for participants enrolled in MYTHIC trial versus matched waitlist comparators,,,,PrimaryOutcomeDescription,protocolSection.outcomesModule.primaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.primaryOutcomes[1].timeFrame,EV,EV,,1 year from enrollment/matching,,,,PrimaryOutcomeTimeFrame,protocolSection.outcomesModule.primaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[2].measure,EV,EV,,BK virus viremia and clinical disease,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[4].measure,EV,EV,,Allograft rejection,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[5].measure,EV,EV,,Allograft function,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[7].measure,EV,EV,,HCV antibody status,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[8].measure,EV,EV,,Patient and allograft survival,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[2].description,EV,EV,,Screening and monitoring for BK virus viremia according to each site's standard-of-care,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[4].description,EV,EV,,Incidence and characterization of kidney allograft rejection episodes,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[5].description,EV,EV,,Assessment of kidney allograft function including estimated glomerular filtration rate and proteinuria,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[7].description,EV,EV,,Presence or absence of HCV antibodies in previously HCV-negative recipients,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[8].description,EV,EV,,Patient survival and kidney allograft survival rates,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[2].timeFrame,EV,EV,,1 year post-transplant,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[4].timeFrame,EV,EV,,1 year post-transplant,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[5].timeFrame,EV,EV,,1 year post-transplant,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[7].timeFrame,EV,EV,,1 year post-transplant,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[8].timeFrame,EV,EV,,1 year post-transplant,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Recipient Inclusion Criteria:
+
+* Estimated glomerular filtration rate(eGFR) \< 15 ml/min/1.73 m2
+* Listed for an isolated kidney transplantation
+* Able to understand and adhere to the study visit schedule and all other protocol requirements, and must voluntarily sign and date an informed consent
+* No available medically acceptable, compatible living kidney donor
+* Subject must agree to use an effective method of birth control per protocol specifications
+
+Recipient Exclusion Criteria:
+
+* History of severe, life-threatening or other significant sensitivity to immunosuppressants utilized in kidney transplant
+* Female who is pregnant, breastfeeding, or is planning to become pregnant during the course of the study
+* History of HIV
+* HCV RNA positive
+* HBV surface Ag-positive or detectable HBV DNA
+* Primary focal segmental glomerulosclerosis (FSGS) or disease process with increased risk of causing early graft failure as assessed by the transplant nephrologist and/or investigator team
+* Presence of clinically significant liver disease
+* Transplant candidate requiring antibody desensitization protocol for transplantation
+* Most recent calculated panel reactive antibody (cPRA) \>80%.
+* Prior recipient of a non-renal solid organ transplant
+
+Donor Organ Inclusion Criteria
+
+* Deceased donor organ with kidney donor profile index (KDPI) ≤0.85
+* HCV RNA-positive
+
+Donor Organ Exclusion Criteria
+
+* Known prior HCV treatment with direct acting antiviral medication
+* HIV RNA-positive
+* HBV Surface antigen-positive or HBV DNA-positive","Inclusion Criteria:
+- Aged 21 to 65 years
+- On dialysis or had an estimated glomerular filtration rate <15 ml/min per 1.73 m²
+- Liver stiffness ≤8 kPa by Fibroscan (no significant liver fibrosis)
+- Donors had a kidney donor profile index (KDPI) at allocation ≤85%
+- Transplant naive
+- Panel-reactive antibodies <80%
+
+Exclusion Criteria:
+- Positive test results for HIV
+- Positive test results for hepatitis B virus
+- Known liver disease
+- Liver stiffness >8 kPa by Fibroscan
+- History of cancer
+- Highly sensitized patients
+- Immune-mediated end-stage kidney disease",True,0.82,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,TP,TP,21 Years,21 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,TP,TP,65 Years,65 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

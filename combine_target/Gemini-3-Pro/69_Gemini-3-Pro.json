@@ -1,0 +1,179 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04098276",
+      "secondaryIdInfos": [
+        {
+          "id": "R01MD013863",
+          "type": "NIH",
+          "domain": "National Institute on Minority Health and Health Disparities (NIMHD)"
+        }
+      ],
+      "organization": {
+        "fullName": "Johns Hopkins University",
+        "class": "OTHER"
+      },
+      "briefTitle": "weWomen plus SMART trial"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study employs a sequential, multiple assignment, randomized trial (SMART) design to evaluate \"weWomen Plus,\" an adaptive, trauma-informed, culturally tailored technology-delivered intervention for immigrant women who have experienced Intimate Partner Violence (IPV). In the first stage, participants are randomized to an online safety decision and planning tool (culturally adapted myPlan app) or a usual care control arm. Women who do not report significant improvements in safety and empowerment at the 3-month follow-up (non-responders) are re-randomized to receive either supportive text messaging alone or a combination of text messaging and phone calls with trained advocates. The study hypothesizes that adding text and phone interventions will improve outcomes for non-responders regarding safety, mental health, and empowerment.",
+      "detailedDescription": "The weWomen Plus study utilizes a SMART design to optimize an intervention protocol for immigrant women survivors of IPV. The study recruits foreign-born immigrant women in the US aged 18-64 who have experienced IPV in the past 12 months.\n\nPhase 1 Intervention:\nParticipants are randomized to either the weWomen Plus online/web-based component or a control group. The intervention group utilizes a culturally adapted version of the \"myPlan\" app. This evidence-based tool assists users in assessing the severity of violence using the Danger Assessment (DA), identifying safety priorities, and generating a tailored safety plan with links to resources. The control group receives usual safety planning resources modeled on national and state domestic violence online resources.\n\nPhase 2 Adaptive Intervention:\nOutcomes are assessed at 3 months post-baseline. Participants defined as \"non-responders\" (those showing no significant reduction in IPV severity/frequency or improvement in empowerment) in both the initial intervention and control arms are re-randomized to one of two augmented intervention arms:\n1. Text Messaging Intervention: Tailored weekly messages sent for 4 weeks. Content is based on an empowerment framework and psychosocial readiness model, covering safety awareness, risk assessment, barrier identification, and self-care.\n2. Text + Phone Intervention: In addition to the text regimen, participants receive two phone sessions with trained facilitators. These sessions utilize motivational enhancement and solution-focused techniques to build rapport, identify strengths, and develop attainable safety goals.\n\nParticipants identified as responders continue in their originally assigned arms. Assessments of safety, mental health (depression and PTSD), and empowerment occur at 3, 6, and 12 months post-baseline. The study aims to identify predictors of response and determine the relative effectiveness of the adaptive components for improving safety and health outcomes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Intimate Partner Violence",
+        "Depression",
+        "Post-traumatic Stress Disorder"
+      ],
+      "keywords": [
+        "Immigrant women",
+        "Safety planning",
+        "Technology-based intervention",
+        "SMART design",
+        "Adaptive intervention",
+        "mHealth",
+        "Empowerment",
+        "Trauma-informed care"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "interventionModelDescription": "This study uses a sequential, multiple assignment, randomized trial (SMART) design. In the first stage randomization, participants are randomly assigned to an online safety decision and planning or a usual care control arm. For the second stage randomization, women who do not report significant improvements in safety and empowerment from baseline to 3 months follow up (i.e., non-responders) are re-randomized to safety and empowerment strategies delivered via text only or a combination of text and phone calls with trained advocates.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Study team members are masked for the first stage randomization status. Randomization for the second sequence of the intervention is also computer generated but study team members are not masked to second stage randomization status of participants.",
+          "whoMasked": [
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1266,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Online/Web-based Intervention (weWomen Plus/myPlan)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants are randomized to receive the culturally adapted, online/web-based safety decision and planning tool (weWomen Plus/myPlan). Responders continue in this arm; non-responders at 3 months are re-randomized.",
+          "interventionNames": [
+            "BEHAVIORAL: weWomen Plus / myPlan App"
+          ]
+        },
+        {
+          "label": "Usual Care Control",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants receive usual safety planning resources modeled on national and state domestic violence online resources. Responders continue in this arm; non-responders at 3 months are re-randomized.",
+          "interventionNames": [
+            "OTHER: Usual Care"
+          ]
+        },
+        {
+          "label": "Text Messaging Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Non-responders (women who do not report significant improvements in safety and empowerment at 3 months) from the first stage are re-randomized to receive tailored safety and empowerment strategies delivered via text messages.",
+          "interventionNames": [
+            "BEHAVIORAL: Text Messaging"
+          ]
+        },
+        {
+          "label": "Text Messaging + Phone Intervention",
+          "type": "EXPERIMENTAL",
+          "description": "Non-responders (women who do not report significant improvements in safety and empowerment at 3 months) from the first stage are re-randomized to receive a combination of tailored text messages and phone calls with trained advocates.",
+          "interventionNames": [
+            "BEHAVIORAL: Text Messaging",
+            "BEHAVIORAL: Phone Calls"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "weWomen Plus / myPlan App",
+          "description": "An adaptive, trauma-informed, culturally tailored technology-delivered intervention. It includes an on-boarding section, a Danger Assessment (DA) to evaluate risk, a priority-setting activity, and generates a tailored safety plan with links to resources.",
+          "armGroupLabels": [
+            "Online/Web-based Intervention (weWomen Plus/myPlan)"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Usual Care",
+          "description": "Standard safety planning information and resources modeled on national and state domestic violence online resources. Participants complete risk assessment questions but are not provided with DA-informed tailored safety planning.",
+          "armGroupLabels": [
+            "Usual Care Control"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Text Messaging",
+          "description": "Tailored weekly messages sent once a week for 4 weeks based on a strengths-based, empowerment framework. Sessions address safety planning, community services, risk assessment, and self-efficacy.",
+          "armGroupLabels": [
+            "Text Messaging Intervention",
+            "Text Messaging + Phone Intervention"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Phone Calls",
+          "description": "Two trauma-informed, empowerment-focused phone sessions with a trained facilitator. Strategies include motivational enhancement and solution-focused techniques. The first call occurs 1 week after the text intervention ends, and the second call occurs 1 week later.",
+          "armGroupLabels": [
+            "Text Messaging + Phone Intervention"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Severity and frequency of Intimate Partner Violence (IPV)",
+          "description": "Assessed using the adapted version of the Revised Conflict Tactics Scale (CTS2). Subscales include physical aggression, injury, psychological aggression, and sexual coercion. Response categories range from 0 = never to 6 = more than 20 times within the past 12 months. Items are scored using the severity-times-frequency weighted score; higher values indicate severe or more frequent experiences of violence.",
+          "timeFrame": "Baseline, 3, 6, and 12 months follow-up"
+        },
+        {
+          "measure": "Overall Empowerment",
+          "description": "Assessed using the Personal Progress Scale-Revised (PPS-R), a 28-item self-report measure assessing areas such as positive self-evaluation, self-esteem, and self-efficacy. Responses are rated on a 7-point scale ranging from 1 (Almost Never) to 7 (Almost Always). Items are summed to create a total score ranging from 28–196, with higher scores indicating a greater degree of empowerment.",
+          "timeFrame": "Baseline, 3, 6, and 12 months follow-up"
+        },
+        {
+          "measure": "Empowerment related to safety",
+          "description": "Assessed by the Measure of Victim Empowerment Related to Safety (MOVERS) scale, a 13-item scale measuring empowerment within the domain of safety. Participants respond to each item using a five-point scale from 1 = never true to 5 = always true. Scores are summed and averaged to produce a total score ranging from 13 to 65, with higher scores indicating a greater degree of empowerment related to safety.",
+          "timeFrame": "Baseline, 3, 6, and 12 months follow-up"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Depression",
+          "description": "Measured using the Patient Health Questionnaire (PHQ-9), a 9-item measure assessing past 2 weeks depression symptoms based on DSM-IV criteria. Items are scored from 0 (not at all) to 3 (nearly every day). A total score is computed by summing the items; higher scores indicate more severe depression symptoms.",
+          "timeFrame": "Baseline, 3, 6, and 12 months follow-up"
+        },
+        {
+          "measure": "Post-traumatic stress disorder (PTSD)",
+          "description": "Measured using the Harvard Trauma Questionnaire (16 items) to assess past week symptoms of PTSD derived from DSM-IIR/DSM-IV criteria. Response options range from 1 (Not at all) to 4 (Extremely). Items represent intrusion/re-experiencing, avoidance/numbing, and hypervigilance/arousal. Higher scores indicate more severe PTSD symptoms.",
+          "timeFrame": "Baseline, 3, 6, and 12 months follow-up"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Be 18 to 64 years of age\n- Identify as a woman (assigned female at birth or have a gender identity as a woman)\n- Have been in an intimate relationship in the past 12 months\n- Report having experienced IPV (physical, sexual or psychological) in the past 12 months\n- Be a foreign-born immigrant living in the US\n- Have access to a safe computer or a smartphone and be comfortable using it to access the study internet site\n- Be willing and able to be contacted by phone or text\n\nExclusion Criteria:\n- No experience of IPV within the past year\n- US-born\n- Younger than 18 or older than 64\n- Cannot access or use internet or phone\n- Not willing to be contacted by phone or text",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "64 Years",
+      "stdAges": [
+        "ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

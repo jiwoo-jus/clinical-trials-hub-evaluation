@@ -1,0 +1,465 @@
+{
+  "metadata": {
+    "case_id": 63,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T17:54:15.967493",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/63_NCT04084392.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/63_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.12,
+          0.82
+        ],
+        [
+          0.82,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Usual Care",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants randomized to this arm will receive care as usual.",
+            "interventionNames": [
+              "Other: Usual Care"
+            ]
+          },
+          "pred_item": {
+            "label": "Usual Care",
+            "type": "NO_INTERVENTION",
+            "description": "Patients randomized to usual care receive traditional care provided by the inpatient medical team's assigned social worker. The addiction consult service social worker completes an electronic pass-off to the primary team social worker, who meets with the patient for additional assessment and makes referrals appropriate to the individual patient's transportation and insurance needs. The addiction consult service continues to work with the patient to initiate MOUD and address comorbidity during their hospital admission. Patients are referred to community MOUD providers."
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Bridge Clinic",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants randomized to this arm will be referred to the Bridge Clinic to facilitate identification and referral to an outpatient provider for addiction treatment.",
+            "interventionNames": [
+              "Other: Bridge Clinic"
+            ]
+          },
+          "pred_item": {
+            "label": "Bridge Clinic",
+            "type": "EXPERIMENTAL",
+            "description": "Patients randomized to the bridge clinic arm are offered referral to a co-located, transitional, multidisciplinary bridge clinic. The clinic provides wraparound services including addiction psychiatry, internal medicine, infectious diseases, pain-anesthesia, psychiatric nurse practitioner, licensed social workers, nurse case manager, and recovery coaches. Patients are asked to present weekly for the first 8 weeks, then twice monthly, with a target stabilization period of no more than 3 months. Services include medication management (MOUD), case management, psychotherapeutic interventions, urine toxicology testing at each visit, and facilitated referrals to appropriate long-term care.",
+            "interventionNames": [
+              "OTHER: Bridge Clinic Referral"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.94
+        ],
+        [
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Bridge Clinic",
+            "description": "Referral to the Bridge Clinic for temporary outpatient addiction treatment while the bridge clinic identifies an outpatient addiction treatment provider to accept the patient for long term treatment.",
+            "armGroupLabels": [
+              "Bridge Clinic"
+            ]
+          },
+          "pred_item": {
+            "type": "OTHER",
+            "name": "Bridge Clinic Referral",
+            "description": "A transitional, multidisciplinary bridge clinic providing comprehensive addiction treatment services including: weekly visits for first 8 weeks (then twice monthly), medication management for opioid use disorder (buprenorphine-naloxone or naltrexone), multispecialty medical care (addiction psychiatry, internal medicine, infectious diseases, pain-anesthesia), case management and psychosocial support from social workers and recovery coaches, urine toxicology testing at each visit, prescription refills at each visit (7-day supplies initially), and facilitated transition to long-term treatment programs within 3 months. The clinic operates all day Friday and serves uninsured patients through institutional support.",
+            "armGroupLabels": [
+              "Bridge Clinic"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Usual Care",
+            "description": "Referral to an outpatient provider for addiction treatment.",
+            "armGroupLabels": [
+              "Usual Care"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Hospital Length of Stay",
+            "description": "Overall index hospital length of stay measured in days",
+            "timeFrame": "approximately 3 to 42 days"
+          },
+          "pred_item": {
+            "measure": "Hospital Length of Stay",
+            "description": "The overall index hospital admission length of stay measured in days. This metric was chosen as a proxy for improving outcomes that matter to both providers and patients in terms of advancing OUD recovery and providing value to the hospital system.",
+            "timeFrame": "Duration of index hospital admission, from admission to discharge (average expected 9 days based on blinded mid-study analysis)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 10,
+      "pred_count": 12,
+      "similarity_matrix": [
+        [
+          0.08,
+          0.2,
+          0.5,
+          0.18,
+          0.35,
+          0.18,
+          0.12,
+          0.1,
+          0.18,
+          0.1,
+          0.25,
+          0.93
+        ],
+        [
+          0.96,
+          0.72,
+          0.32,
+          0.18,
+          0.18,
+          0.12,
+          0.2,
+          0.07,
+          0.23,
+          0.18,
+          0.1,
+          0.18
+        ],
+        [
+          0.72,
+          0.96,
+          0.18,
+          0.2,
+          0.1,
+          0.1,
+          0.3,
+          0.18,
+          0.05,
+          0.78,
+          0.1,
+          0.2
+        ],
+        [
+          0.2,
+          0.2,
+          0.82,
+          0.8,
+          0.38,
+          0.64,
+          0.32,
+          0.18,
+          0.18,
+          0.4,
+          0.22,
+          0.55
+        ],
+        [
+          0.1,
+          0.2,
+          0.4,
+          0.62,
+          0.86,
+          0.86,
+          0.15,
+          0.18,
+          0.3,
+          0.42,
+          0.55,
+          0.38
+        ],
+        [
+          0.08,
+          0.1,
+          0.3,
+          0.2,
+          0.3,
+          0.2,
+          0.18,
+          0.25,
+          0.2,
+          0.4,
+          0.92,
+          0.25
+        ],
+        [
+          0.45,
+          0.35,
+          0.22,
+          0.28,
+          0.18,
+          0.25,
+          0.92,
+          0.22,
+          0.08,
+          0.42,
+          0.2,
+          0.25
+        ],
+        [
+          0.2,
+          0.3,
+          0.3,
+          0.3,
+          0.1,
+          0.3,
+          0.3,
+          0.22,
+          0.18,
+          0.94,
+          0.3,
+          0.18
+        ],
+        [
+          0.1,
+          0.12,
+          0.18,
+          0.08,
+          0.15,
+          0.12,
+          0.1,
+          0.96,
+          0.86,
+          0.08,
+          0.08,
+          0.18
+        ],
+        [
+          0.3,
+          0.42,
+          0.18,
+          0.18,
+          0.2,
+          0.2,
+          0.9,
+          0.15,
+          0.12,
+          0.68,
+          0.15,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 11,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Combined Cost of Index Admission and Subsequent Admissions During the Study Period",
+            "description": "Total costs, and costs for each admission and care resource used measured in dollars. This includes the cost of the index hospital admission along with any subsequent admissions during the 16-week follow up period.",
+            "timeFrame": "16 weeks post-randomization"
+          },
+          "pred_item": {
+            "measure": "Cost of care",
+            "description": "Total costs for each admission and care resources utilized, including costs associated with readmission, substance misuse in the hospital with reinfection, and patients leaving the hospital against medical advice. This is a measure of value provided by the intervention.",
+            "timeFrame": "16-week follow-up period after discharge"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Successful Care Linkage",
+            "description": "Dichotomous self-reported outcome of linkage to a MAT provider as defined by attending at least one visit with a MAT provider",
+            "timeFrame": "16 weeks post-randomization"
+          },
+          "pred_item": {
+            "measure": "Linkage to MOUD provider",
+            "description": "Attending at least one visit with a MOUD provider after discharge, based on self-report at 16-week follow-up call. This engagement is considered a process measure correlated with outcome measures related to abstinence at 6 months follow-up.",
+            "timeFrame": "16-week follow-up period after discharge"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of MAT Prescriptions Filled by Participant",
+            "description": "Reported buprenorphine-naloxone (or naltrexone) prescriptions filled",
+            "timeFrame": "16 weeks post-randomization"
+          },
+          "pred_item": {
+            "measure": "Self-reported buprenorphine-naloxone (or naltrexone) prescriptions filled",
+            "description": "Number of prescriptions for buprenorphine-naloxone or naltrexone that patients report filling during the follow-up period, as a process measure of engagement with MOUD treatment.",
+            "timeFrame": "16-week follow-up period after discharge"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Readmissions and Emergency Department (ED) Visits",
+            "description": "Composite number of ED visits and readmissions",
+            "timeFrame": "16 weeks post-randomization"
+          },
+          "pred_item": {
+            "measure": "Readmission rates",
+            "description": "Rate of hospital readmissions during the follow-up period.",
+            "timeFrame": "16-week follow-up period after discharge"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Hospital and ED Free Days",
+            "description": "Days alive out of the hospital and/or ED",
+            "timeFrame": "16 weeks post-randomization"
+          },
+          "pred_item": {
+            "measure": "Hospital-free days",
+            "description": "Number of days not spent in the hospital during the follow-up period.",
+            "timeFrame": "16-week follow-up period after discharge"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 10,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Mortality",
+            "description": "Death in hospital or documented at 16-week follow up or in the medical record.",
+            "timeFrame": "16 weeks post-randomization"
+          },
+          "pred_item": {
+            "measure": "Mortality",
+            "description": "Death from any cause during the follow-up period.",
+            "timeFrame": "16-week follow-up period after discharge"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 3,
+          "score": 0.28,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Recurrent Opioid Use",
+            "description": "The number of participants with recurrent opioid use.",
+            "timeFrame": "16 weeks post-randomization"
+          },
+          "pred_item": {
+            "measure": "Emergency Department (ED) visits",
+            "description": "Number of emergency department visits during the follow-up period.",
+            "timeFrame": "16-week follow-up period after discharge"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 9,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Overdose",
+            "description": "Any overdose self-reported at the 16-week follow up",
+            "timeFrame": "16 weeks post-randomization"
+          },
+          "pred_item": {
+            "measure": "Overdose",
+            "description": "Number of overdose events reported since discharge, assessed at follow-up.",
+            "timeFrame": "16-week follow-up period after discharge"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 7,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Quality of Life - Schwartz Outcome Scale-10 (SOS10).",
+            "description": "The Quality of Life - Schwartz Outcome Scale-10 (SOS10) survey has ten questions scored on a 0 (never) to 6 (all or nearly all of the time) scale that measures the broad domain of psychological well-being and quality of life. A total score is computed as the sum across the 10 questions. Therefore, the minimum total score is 0 (never) and the maximum score is 60 (all or nearly all of the time). Higher scores indicate greater well-being and psychological health. Therefore, higher scores are better.",
+            "timeFrame": "16 weeks post-randomization"
+          },
+          "pred_item": {
+            "measure": "Overall quality of life as measured by the Schwartz Outcome Scale-10 (SOS10)",
+            "description": "A measure of overall psychological well-being assessed using the SOS10 scale, capturing functional outcomes that matter to patients beyond abstinence from illicit substances.",
+            "timeFrame": "16-week follow-up after discharge"
+          }
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": 6,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Opioid Use Within 30 Days",
+            "description": "Opioid use within 30 days as self-reported and assessed during the 16-week follow up phone call.",
+            "timeFrame": "30 days"
+          },
+          "pred_item": {
+            "measure": "Recurrent opioid use",
+            "description": "Self-reported relapse to use of illicit opioids and frequency of use in preceding 30 days, assessed at follow-up.",
+            "timeFrame": "16-week follow-up period after discharge"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,320 @@
+{
+  "metadata": {
+    "case_id": 27,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:27:39.423883",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/27_NCT03052517.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/27_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.8,
+          0.6,
+          0.2
+        ],
+        [
+          0.3,
+          0.95,
+          0.1
+        ],
+        [
+          0.1,
+          0.05,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.8,
+          "status": "matched",
+          "ref_item": {
+            "label": "QAW039 150mg",
+            "type": "EXPERIMENTAL",
+            "description": "QAW039 Dose 1 once daily",
+            "interventionNames": [
+              "Drug: QAW039 150 mg"
+            ]
+          },
+          "pred_item": {
+            "label": "Fevipiprant 150 mg once daily",
+            "type": "EXPERIMENTAL",
+            "description": "Patients aged 12 years and older with inadequately controlled moderate-to-severe asthma (GINA Steps 3–5) receiving standard of care asthma therapy plus oral fevipiprant 150 mg once daily. Treatment was administered during a 52-week double-blind period followed by an optional 104-week single-blind extension.",
+            "interventionNames": [
+              "Fevipiprant 150 mg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "QAW039 450 mg",
+            "type": "EXPERIMENTAL",
+            "description": "QAW039 Dose 2 once daily",
+            "interventionNames": [
+              "Drug: QAW039 450 mg"
+            ]
+          },
+          "pred_item": {
+            "label": "Fevipiprant 450 mg once daily",
+            "type": "EXPERIMENTAL",
+            "description": "Patients aged 12 years and older with inadequately controlled moderate-to-severe asthma (GINA Steps 3–5) receiving standard of care asthma therapy plus oral fevipiprant 450 mg once daily. Treatment was administered during a 52-week double-blind period followed by an optional 104-week single-blind extension.",
+            "interventionNames": [
+              "Fevipiprant 450 mg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo once daily",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo once daily",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Patients aged 12 years and older with inadequately controlled moderate-to-severe asthma (GINA Steps 3–5) receiving standard of care asthma therapy plus matching oral placebo once daily. Treatment was administered during a 52-week double-blind period followed by an optional 104-week single-blind extension.",
+            "interventionNames": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.25,
+          0.55,
+          0.32
+        ],
+        [
+          0.4,
+          0.4,
+          0.2
+        ],
+        [
+          0.1,
+          0.1,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.55,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "QAW039 150 mg",
+            "description": "One tablet of QAW039 150 mg once daily",
+            "armGroupLabels": [
+              "QAW039 150mg"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Fevipiprant 450 mg",
+            "description": "Fevipiprant, an oral, non-steroidal, highly selective, reversible antagonist of the prostaglandin D2 receptor 2 (DP2). Administered as 450 mg once daily in addition to standard of care asthma therapy.",
+            "armGroupLabels": [
+              "Fevipiprant 450 mg once daily"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.4,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "QAW039 450 mg",
+            "description": "One tablet of QAW039 450 mg once daily",
+            "armGroupLabels": [
+              "QAW039 450 mg"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Fevipiprant 150 mg",
+            "description": "Fevipiprant, an oral, non-steroidal, highly selective, reversible antagonist of the prostaglandin D2 receptor 2 (DP2). Administered as 150 mg once daily in addition to standard of care asthma therapy.",
+            "armGroupLabels": [
+              "Fevipiprant 150 mg once daily"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "One tablet of Placebo once daily",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Matching oral placebo administered once daily in addition to standard of care asthma therapy, used as the control comparator.",
+            "armGroupLabels": [
+              "Placebo once daily"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 6,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.72,
+          0.62,
+          0.7
+        ],
+        [
+          0.7,
+          0.7,
+          0.7
+        ],
+        [
+          0.7,
+          0.78,
+          0.6
+        ],
+        [
+          0.6,
+          0.7,
+          0.55
+        ],
+        [
+          0.45,
+          0.55,
+          0.88
+        ],
+        [
+          0.65,
+          0.4,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.72,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Treatment Emergent Adverse Events (AEs) up to Week 52 - Cox Regression Model",
+            "description": "Adverse events starting on or after the day of the first intake of study drug in this study and until the day of last intake of study drug +7 days (30 days in the case of a serious AE) were classified as treatment emergent AEs. For this Outcome Measure, AE up to week 52 are reported.",
+            "timeFrame": "52 weeks"
+          },
+          "pred_item": {
+            "measure": "Time-to-first treatment-emergent adverse event",
+            "description": "Time from first intake of study drug to first treatment-emergent adverse event (including asthma exacerbations), defined as any adverse event starting on or after the first intake of study drug and up to the day after the last intake of study drug.",
+            "timeFrame": "From first dose of study drug until the day after last dose"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Treatment Emergent Adverse Events (AEs) up to Week 156 - Cox Regression Model",
+            "description": "Adverse events starting on or after the day of the first intake of study drug in this study and until the day of last intake of study drug +7 days (30 days in the case of a serious AE) were classified as treatment emergent AEs",
+            "timeFrame": "156 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Treatment Emergent Serious Adverse Events (SAEs) up to Week 52 - Cox Regression Model",
+            "description": "Serious Adverse events starting on or after the day of the first intake of study drug in this study and until the day of last intake of study drug +30 days were classified as treatment emergent SAEs. For this Outcome Measure, AE up to week 52 are reported.",
+            "timeFrame": "52 weeks"
+          },
+          "pred_item": {
+            "measure": "Time-to-first treatment-emergent serious adverse event",
+            "description": "Time from first intake of study drug to first treatment-emergent serious adverse event, where serious adverse events are those meeting standard seriousness criteria and starting on or after first intake of study drug and up to the day after the last intake of study drug.",
+            "timeFrame": "From first dose of study drug until the day after last dose"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Treatment Emergent Serious Adverse Events (SAEs) up to Week 156 - Cox Regression Model",
+            "description": "Serious Adverse events starting on or after the day of the first intake of study drug in this study and until the day of last intake of study drug +30 days were classified as treatment emergent SAEs.",
+            "timeFrame": "156 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Treatment Emergent AEs Leading to Discontinuation From Study Treatment up to Week 52 - Cox Regression Model",
+            "description": "Adverse events leading to study treatment discontinuation starting on or after the day of the first intake of study drug in this study and until the day of last intake of study drug +7 days (30 days in the case of a serious AE) were classified as treatment emergent AEs leading to study treatment discontinuation. For this Outcome Measure, AE up to week 52 are reported.",
+            "timeFrame": "52 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 2,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Treatment Emergent AEs Leading to Discontinuation From Study Treatment up to Week 156 - Cox Regression Model",
+            "description": "Adverse events leading to study treatment discontinuation starting on or after the day of the first intake of study drug in this study and until the day of last intake of study drug +7 days (30 days in the case of a serious AE) were classified as treatment emergent AEs leading to study treatment discontinuation",
+            "timeFrame": "156 weeks"
+          },
+          "pred_item": {
+            "measure": "Time-to-first treatment-emergent adverse event leading to study treatment discontinuation",
+            "description": "Time from first intake of study drug to first treatment-emergent adverse event that resulted in permanent discontinuation of study treatment.",
+            "timeFrame": "From first dose of study drug until treatment discontinuation or the day after last dose"
+          }
+        }
+      ]
+    }
+  ]
+}

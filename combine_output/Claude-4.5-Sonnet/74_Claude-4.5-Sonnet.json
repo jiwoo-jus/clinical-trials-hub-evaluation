@@ -1,0 +1,283 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03959423",
+      "orgStudyIdInfo": {
+        "id": "",
+        "type": "",
+        "link": ""
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "Medtronic",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Safety Evaluation of the Advanced Hybrid Closed Loop (AHCL) System in Type 1 Adult and Pediatric Subjects",
+      "officialTitle": "Safety Evaluation of the MiniMed AHCL System in Type 1 Adult and Pediatric Subjects",
+      "acronym": ""
+    },
+    "descriptionModule": {
+      "briefSummary": "This multicenter, single-arm study assessed the safety and effectiveness of an advanced hybrid closed-loop (AHCL) system with automated basal insulin delivery (Auto Basal) and automated bolus correction (Auto Correction) in 157 individuals with type 1 diabetes (T1D), including 39 adolescents (aged 14-21 years) and 118 adults (aged 22-75 years). After a run-in period using sensor-augmented pump therapy with or without predictive low glucose management or Auto Basal for approximately 14 days, participants used the AHCL system for approximately 90 days with glucose targets of 100 or 120 mg/dL. The study evaluated safety events and changes in A1C, time in range (TIR, 70-180 mg/dL), and time below range (TBR, <70 mg/dL).",
+      "detailedDescription": "This multicenter open-label single-arm trial enrolled adolescents (14-21 years) and adults (22-75 years) with type 1 diabetes to evaluate the MiniMed advanced hybrid closed-loop (AHCL) system. The study consisted of two phases: a baseline run-in period (Visits 1-4, approximately 14 days) and a study phase (Visits 5-18, approximately 90 days). During the run-in period, participants used sensor-augmented pump therapy with or without predictive low glucose management or automated basal insulin delivery (Auto Basal), but without automated bolus correction (Auto Correction). During the study phase, both Auto Basal and Auto Correction were enabled with glucose targets set at 100 or 120 mg/dL for approximately 45 days each. The AHCL system included the MiniMed 670G insulin pump (version 4.0 algorithm) with continuous glucose monitoring (Guardian Sensor [3] and Guardian Link [3] transmitter) and incorporated a meal detection module developed by DreaMed Diabetes. Primary endpoints included safety events and changes in A1C, time in range (TIR, 70-180 mg/dL), and time below range (TBR, <70 mg/dL) from the run-in period to the end of the study phase. Additional endpoints included sensor glucose metrics, coefficient of variation, time spent in hyperglycemic ranges (>180, 250, 300 mg/dL), time spent in hypoglycemic ranges (<50, 54, 70 mg/dL), total daily insulin dose, and basal and bolus insulin delivery. Analyses were performed on daytime (6 AM-12 AM) and nighttime (12 AM-6 AM) periods separately. Subgroup analyses examined the effects of glucose target settings, active insulin time (AIT) settings, and closed-loop exits. The intent-to-treat population included 157 participants who entered the study phase, with 152 completing the study. Over 20,229 days of system use during the study, the AHCL system demonstrated no device-related serious adverse events, no severe hypoglycemia, and no diabetic ketoacidosis during the study phase. Participants spent an average of 94.9% of time in closed loop with only 1.2 exits per week. Compared to the run-in period, A1C decreased from 7.5% to 7.0%, TIR increased from 68.8% to 74.5%, and TBR decreased from 3.3% to 2.3%. The 100 mg/dL glucose target and lower AIT setting (2 hours) further optimized glycemic outcomes without increasing hypoglycemia risk."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 1 Diabetes Mellitus",
+        "Diabetes Mellitus, Type 1"
+      ],
+      "keywords": [
+        "Advanced hybrid closed-loop system",
+        "Automated insulin delivery",
+        "Automated basal insulin",
+        "Automated bolus correction",
+        "Continuous glucose monitoring",
+        "Insulin pump therapy",
+        "Time in range",
+        "Hemoglobin A1C",
+        "Hypoglycemia",
+        "Hyperglycemia",
+        "Adolescents",
+        "Adults",
+        "MiniMed 670G",
+        "Sensor-augmented pump",
+        "Predictive low glucose management",
+        "Active insulin time",
+        "Glucose target"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "This multicenter open-label single-arm study enrolled adolescents (14–21 years of age) and adults (22–75 years of age) with type 1 diabetes. Participants underwent a baseline run-in period comprising Visits 1–4, followed by a study phase comprising Visits 5–18. During the run-in period, participants used the AHCL study device with SAP with or without PLGM or Auto Basal use for approximately 14 days. During the study phase, Auto Basal and Auto Correction were enabled for approximately 90 days, with glucose target set to 100 or 120 mg/dL for approximately 45 days each.",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "This was an open-label single-arm study with no masking.",
+          "whoMasked": []
+        }
+      },
+      "enrollmentInfo": {
+        "count": 180,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Baseline Run-in Period (Visits 1-4)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants used the MiniMed AHCL study device with sensor-augmented pump (SAP) with or without predictive low glucose management (PLGM) or automated basal (Auto Basal) for approximately 14 days. Auto Correction was not enabled during this period.",
+          "interventionNames": [
+            "DEVICE: MiniMed AHCL System - SAP/PLGM/Auto Basal"
+          ]
+        },
+        {
+          "label": "Study Phase - 100 mg/dL Target (Visits 5-11 or 12-18)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants used the MiniMed AHCL system with both Auto Basal and Auto Correction enabled with a glucose target of 100 mg/dL for approximately 45 days. This could be the first or second half of the study phase depending on randomization.",
+          "interventionNames": [
+            "DEVICE: MiniMed AHCL System - Auto Basal + Auto Correction (100 mg/dL)"
+          ]
+        },
+        {
+          "label": "Study Phase - 120 mg/dL Target (Visits 5-11 or 12-18)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants used the MiniMed AHCL system with both Auto Basal and Auto Correction enabled with a glucose target of 120 mg/dL for approximately 45 days. This could be the first or second half of the study phase depending on randomization.",
+          "interventionNames": [
+            "DEVICE: MiniMed AHCL System - Auto Basal + Auto Correction (120 mg/dL)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "MiniMed AHCL System - SAP/PLGM/Auto Basal",
+          "description": "The MiniMed 670G insulin pump (version 4.0 algorithm) with CGM system (Guardian Sensor [3] glucose sensor and Guardian Link [3] transmitter) used as sensor-augmented pump with or without predictive low glucose management or automated basal insulin delivery only. Auto Correction bolus was not enabled during this run-in period.",
+          "armGroupLabels": [
+            "Baseline Run-in Period (Visits 1-4)"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "MiniMed AHCL System - Auto Basal + Auto Correction (100 mg/dL)",
+          "description": "The MiniMed AHCL system with automated basal insulin delivery (Auto Basal) and automated bolus correction (Auto Correction) every 5 minutes, with glucose target set to 100 mg/dL. The system includes the MiniMed 670G insulin pump (version 4.0 algorithm) with CGM system and a meal detection module developed by DreaMed Diabetes.",
+          "armGroupLabels": [
+            "Study Phase - 100 mg/dL Target (Visits 5-11 or 12-18)"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "MiniMed AHCL System - Auto Basal + Auto Correction (120 mg/dL)",
+          "description": "The MiniMed AHCL system with automated basal insulin delivery (Auto Basal) and automated bolus correction (Auto Correction) every 5 minutes, with glucose target set to 120 mg/dL. The system includes the MiniMed 670G insulin pump (version 4.0 algorithm) with CGM system and a meal detection module developed by DreaMed Diabetes.",
+          "armGroupLabels": [
+            "Study Phase - 120 mg/dL Target (Visits 5-11 or 12-18)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in mean time in range (TIR, 70–180 mg/dL)",
+          "description": "Percentage of time spent in target glucose range of 70–180 mg/dL from the end of the run-in period to the end of the study phase, measured by continuous glucose monitoring (CGM)",
+          "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+        },
+        {
+          "measure": "Change in mean hemoglobin A1C",
+          "description": "Change in hemoglobin A1C (%) from the end of the run-in period to the end of the study phase",
+          "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in mean sensor glucose (SG)",
+          "description": "Mean sensor glucose level (mg/dL) measured via CGM from the end of the run-in period to the end of the study phase",
+          "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+        },
+        {
+          "measure": "Change in coefficient of variation (CV) of sensor glucose",
+          "description": "Glucose variability measured by coefficient of variation (%) of sensor glucose from the end of the run-in period to the end of the study phase",
+          "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+        },
+        {
+          "measure": "Change in time below range (TBR) at <70 mg/dL",
+          "description": "Percentage of time spent below glucose range at <70 mg/dL measured by CGM from the end of the run-in period to the end of the study phase",
+          "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+        },
+        {
+          "measure": "Change in time below range (TBR) at <54 mg/dL",
+          "description": "Percentage of time spent below glucose range at <54 mg/dL measured by CGM from the end of the run-in period to the end of the study phase",
+          "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+        },
+        {
+          "measure": "Change in time below range (TBR) at <50 mg/dL",
+          "description": "Percentage of time spent below glucose range at <50 mg/dL measured by CGM from the end of the run-in period to the end of the study phase",
+          "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+        },
+        {
+          "measure": "Change in time above range (TAR) at >180 mg/dL",
+          "description": "Percentage of time spent above glucose range at >180 mg/dL measured by CGM from the end of the run-in period to the end of the study phase",
+          "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+        },
+        {
+          "measure": "Change in time above range (TAR) at >250 mg/dL",
+          "description": "Percentage of time spent above glucose range at >250 mg/dL measured by CGM from the end of the run-in period to the end of the study phase",
+          "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+        },
+        {
+          "measure": "Change in time above range (TAR) at >300 mg/dL",
+          "description": "Percentage of time spent above glucose range at >300 mg/dL measured by CGM from the end of the run-in period to the end of the study phase",
+          "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+        },
+        {
+          "measure": "Total daily dose of insulin (TDD)",
+          "description": "Total insulin (in units) delivered per day or per period, including basal, bolus, and automated correction insulin",
+          "timeFrame": "During study phase (~90 days)"
+        },
+        {
+          "measure": "Total basal insulin delivered",
+          "description": "Total basal (basal + microbolus) insulin (in units) delivered per period",
+          "timeFrame": "During study phase (~90 days)"
+        },
+        {
+          "measure": "Total bolus insulin delivered",
+          "description": "Total bolus insulin (in units) delivered per period, including user-initiated and automated correction boluses",
+          "timeFrame": "During study phase (~90 days)"
+        },
+        {
+          "measure": "Automated correction insulin delivery",
+          "description": "Automated correction insulin (in units) delivered per period, also measured as a percentage of total bolus insulin",
+          "timeFrame": "During study phase (~90 days)"
+        },
+        {
+          "measure": "Percentage of time spent in closed loop",
+          "description": "Percentage of time the advanced hybrid closed-loop (AHCL) system was active in closed-loop mode during the study phase",
+          "timeFrame": "During study phase (~90 days)"
+        },
+        {
+          "measure": "Number of closed loop exits",
+          "description": "Number of unplanned exits from closed-loop mode per participant per week during the study phase",
+          "timeFrame": "During study phase (~90 days)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Safety events: Severe hypoglycemia",
+          "description": "Incidence of severe hypoglycemia during the run-in period and study phase",
+          "timeFrame": "From start of run-in period (~14 days) through end of study phase (~90 days)"
+        },
+        {
+          "measure": "Safety events: Diabetic ketoacidosis (DKA)",
+          "description": "Incidence of diabetic ketoacidosis (DKA) during the run-in period and study phase",
+          "timeFrame": "From start of run-in period (~14 days) through end of study phase (~90 days)"
+        },
+        {
+          "measure": "Safety events: Serious adverse events (SAEs)",
+          "description": "Incidence of serious adverse events during the run-in period and study phase",
+          "timeFrame": "From start of run-in period (~14 days) through end of study phase (~90 days)"
+        },
+        {
+          "measure": "Safety events: Serious adverse device effects (SADEs)",
+          "description": "Incidence of serious adverse device effects during the run-in period and study phase",
+          "timeFrame": "From start of run-in period (~14 days) through end of study phase (~90 days)"
+        },
+        {
+          "measure": "Safety events: Unanticipated adverse device effects",
+          "description": "Incidence of unanticipated adverse device effects during the run-in period and study phase",
+          "timeFrame": "From start of run-in period (~14 days) through end of study phase (~90 days)"
+        },
+        {
+          "measure": "Proportion of participants achieving A1C <7%",
+          "description": "Percentage of participants achieving the recommended hemoglobin A1C goal of <7% at the end of the study phase",
+          "timeFrame": "End of study phase (~90 days)"
+        },
+        {
+          "measure": "Proportion of participants achieving TIR >70%",
+          "description": "Percentage of participants achieving the recommended time in range (TIR) goal of >70% at the end of the study phase",
+          "timeFrame": "End of study phase (~90 days)"
+        },
+        {
+          "measure": "Composite outcome: TIR >70%, TBR <70 mg/dL <4%, and TBR <54 mg/dL <1%",
+          "description": "Percentage of participants achieving the composite of TIR >70%, TBR <70 mg/dL <4%, and TBR <54 mg/dL <1% at the end of the study phase",
+          "timeFrame": "End of study phase (~90 days)"
+        },
+        {
+          "measure": "Subgroup analysis by glucose target setting (100 mg/dL vs. 120 mg/dL)",
+          "description": "Effect of glucose target setting (100 mg/dL vs. 120 mg/dL) on glycemic outcomes (TIR, TBR, TAR, mean SG) during the study phase",
+          "timeFrame": "During study phase (~90 days, with ~45 days per target setting)"
+        },
+        {
+          "measure": "Subgroup analysis by active insulin time (AIT) setting",
+          "description": "Association between active insulin time (AIT) setting and glycemic outcomes (TIR, TBR) during the study phase",
+          "timeFrame": "During study phase (~90 days)"
+        },
+        {
+          "measure": "Daytime and nighttime glycemic outcomes",
+          "description": "Glycemic outcomes (TIR, TBR, TAR, mean SG, CV of SG) analyzed separately for daytime (6 AM–12 AM) and nighttime (12 AM–6 AM) periods",
+          "timeFrame": "From end of run-in period (~14 days) to end of study phase (~90 days)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "**Inclusion Criteria:**\n- Diagnosis of type 1 diabetes (T1D) at screening\n- Duration of T1D for at least 2 years\n- Minimum daily insulin requirement of at least 8 units\n- Hemoglobin A1C of <10% at screening\n- Use of pump therapy with or without CGM experience for >6 months before screening\n- Willingness to wear the system throughout the study and perform at least four daily self-monitoring of blood glucose measurements and required sensor calibrations\n- Ability to upload data from the study device to the CareLink™ clinical software\n- A caregiver available at night who resided (or lived) in the same building (or home), during the study\n\n**Exclusion Criteria:**\n- History of one or more episodes of severe hypoglycemia that resulted in a coma, seizure, or hospitalization during the 6 months before screening\n- Hospitalization or emergency room visit resulting in a primary diagnosis of uncontrolled diabetes in the 6 months before screening\n- Diabetic ketoacidosis (DKA) in the 6 months before screening\n- Hypoglycemia unawareness, as measured by the Gold questionnaire at screening\n- Inability to tolerate tape adhesive in the area of sensor placement or an unresolved adverse skin condition (e.g., psoriasis, dermatitis herpetiformis, rash, or staphylococcus infection) in the area of sensor placement",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "14 Years",
+      "maximumAge": "75 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

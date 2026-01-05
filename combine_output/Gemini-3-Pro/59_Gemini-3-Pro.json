@@ -1,0 +1,206 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03947983",
+      "organization": {
+        "fullName": "University of Texas at Austin",
+        "class": "OTHER"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R21NR018229",
+          "type": "NIH",
+          "domain": "National Institute of Nursing Research"
+        },
+        {
+          "id": "2017-12-0042",
+          "type": "OTHER",
+          "domain": "University of Texas at Austin Institutional Review Board"
+        }
+      ]
+    },
+    "descriptionModule": {
+      "briefSummary": "The aim of this study is to compare daily weight monitoring and physical activity behavior adherence by older adults using a sensor-controlled digital game (SCDG) intervention versus a sensors-only intervention in a feasibility randomized controlled trial. The innovative SCDG integrates data from sensors to trigger game rewards, progress, and feedback based on the real-time behaviors of individuals with heart failure (HF).",
+      "detailedDescription": "This prospective feasibility randomized controlled trial (1:1) involved two parallel groups: a sensors-only control group and a sensors plus SCDG app intervention group. The study recruited English-speaking adults with HF aged 55 years or older. Both groups utilized Withings Go activity trackers and Withings Body smart weighing scales to track behaviors for 12 weeks. The intervention group used an app called Heart Health Mountain, an SCDG guided by the Fogg behavioral model, where game rewards and feedback were triggered by real-time sensor data regarding weight monitoring and physical activity. The study assessed feasibility outcomes including recruitment, retention, engagement, and satisfaction. Additionally, it compared participants' knowledge, functional status (using the Kansas City Cardiomyopathy Questionnaire), quality of life, self-reported HF behaviors, motivation, and HF-related hospitalization between groups at baseline and at 6, 12, and 24 weeks."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Heart Failure"
+      ],
+      "keywords": [
+        "Heart Failure",
+        "Self-management",
+        "Digital Game",
+        "Gamification",
+        "mHealth",
+        "Sensors",
+        "Physical Activity",
+        "Weight Monitoring",
+        "Older Adults",
+        "Telemonitoring"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "We conducted a prospective feasibility randomized controlled trial (1:1) with 2 parallel groups (sensors only or sensors plus SCDG app).",
+        "primaryPurpose": "DEVICE_FEASIBILITY",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "maskingDescription": "To ensure blinding during assessment of the outcomes, the research assistant who delivered the intervention to the 2 groups was different from the research assistant who collected the baseline and follow-up surveys from the 2 groups. The researcher who performed the data analysis was blinded to the participant groups. Indication of participation in a digital health intervention study in the informed consent allowed us to blind all participants to their specific group assignment.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 38,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention Group (IG)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received sensors tracking weight monitoring and physical activity and played the SCDG app on a smartphone.",
+          "interventionNames": [
+            "Sensor-Controlled Digital Game (Heart Health Mountain)",
+            "Withings Sensors and Health Mate App"
+          ]
+        },
+        {
+          "label": "Control Group (CG)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received sensors tracking weight monitoring and physical activity only, plus standardized HF education in written format.",
+          "interventionNames": [
+            "Withings Sensors and Health Mate App",
+            "Standard HF Education (Written)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Sensor-Controlled Digital Game (Heart Health Mountain)",
+          "description": "A smartphone game app (Heart Health Mountain) that synchronizes with a Bluetooth-enabled weighing scale and activity tracker to activate game rewards, progress, and feedback based on real-time weight monitoring and exercise behaviors. It includes embedded standardized HF education.",
+          "armGroupLabels": [
+            "Intervention Group (IG)"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Withings Sensors and Health Mate App",
+          "description": "Participants were provided with a Withings Go activity tracker, a Withings Body smart weighing scale, and the Withings Health Mate app to record, store, and transmit daily weight and physical activity data.",
+          "armGroupLabels": [
+            "Intervention Group (IG)",
+            "Control Group (CG)"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Standard HF Education (Written)",
+          "description": "Participants received standardized heart failure self-management information (Living Well With Heart Failure booklet content) in a written format.",
+          "armGroupLabels": [
+            "Control Group (CG)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Feasibility: Recruitment",
+          "description": "Percentage of participants recruited from the total number of patients with heart failure who were approached to participate in the study.",
+          "timeFrame": "Through study completion (up to 24 weeks)"
+        },
+        {
+          "measure": "Feasibility: Retention",
+          "description": "Number (proportion) of participants in both groups who used the sensor devices to measure physical activity and weight monitoring for 12 weeks and completed follow-up assessments.",
+          "timeFrame": "At 12 weeks and 24 weeks"
+        },
+        {
+          "measure": "Feasibility: Engagement",
+          "description": "Assessed by the number of days the intervention group participants played the sensor-controlled digital game (SCDG) and adherence to physical activity and weight monitoring.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Feasibility: Satisfaction",
+          "description": "Assessed using a questionnaire based on the 4-item interest and enjoyment subscale of the Intrinsic Motivation Inventory (scored on a 4-point Likert scale) and open-ended questions.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Weight Monitoring Behavior",
+          "description": "Measured by the number of days with weight monitoring data collected from sensor logs within the Health Mate app, with each day of weighing measured dichotomously (yes or no).",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Physical Activity Behavior",
+          "description": "Derived from the Withings Go sensor logs within the Health Mate app by obtaining the cumulative steps for each day and averaging the steps for each participant.",
+          "timeFrame": "6 and 12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Heart Failure-Related Functional Status",
+          "description": "Measured using items 1-12 from the Kansas City Cardiomyopathy Questionnaire (KCCQ). Item scores are transformed to a range of 0 to 100, with higher scores indicating better functional status.",
+          "timeFrame": "Baseline, 6, 12, and 24 weeks"
+        },
+        {
+          "measure": "Quality of Life",
+          "description": "Measured with items 13-15 from the Kansas City Cardiomyopathy Questionnaire (KCCQ). Scores are transformed to a range of 0 to 100, with higher scores indicating better quality of life.",
+          "timeFrame": "Baseline, 6, 12, and 24 weeks"
+        },
+        {
+          "measure": "Heart Failure Self-management Knowledge",
+          "description": "Measured using the 30-item Atlanta Heart Failure Knowledge Test. Total scores range from 0 to 30, with higher scores indicating better heart failure knowledge.",
+          "timeFrame": "Baseline, 6, 12, and 24 weeks"
+        },
+        {
+          "measure": "Self-reported Heart Failure Self-care Behaviors",
+          "description": "Measured using the 9-item European Heart Failure Self-care Behavior Scale. Standardized scores range from 0 to 100, with higher scores indicating better self-care.",
+          "timeFrame": "Baseline, 6, 12, and 24 weeks"
+        },
+        {
+          "measure": "Heart Failure Self-efficacy",
+          "description": "Measured using the 6-item Section C (self-efficacy section) of the Self-Care of Heart Failure Index. Scores range from 0 to 100, with higher scores reflecting better self-efficacy.",
+          "timeFrame": "Baseline, 6, 12, and 24 weeks"
+        },
+        {
+          "measure": "Motivation for Heart Failure Self-management Behaviors",
+          "description": "Measured using the 19-item Treatment Self-Regulation Questionnaire adapted for heart failure, calculating the Relative Autonomy Index from autonomous and controlled regulation subscales.",
+          "timeFrame": "Baseline, 6, 12, and 24 weeks"
+        },
+        {
+          "measure": "Heart Failure Hospitalization",
+          "description": "Obtained through participants' self-report (yes or no) and confirmed with hospitalization discharge summaries or communication with health care providers.",
+          "timeFrame": "6, 12, and 24 weeks"
+        },
+        {
+          "measure": "Depressive Symptoms",
+          "description": "Measured using the 2-item Patient Health Questionnaire.",
+          "timeFrame": "Baseline, 6, 12, and 24 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Adults aged 55 years or older\n* English-speaking\n* Diagnosed with heart failure (HF)\n* Classified according to the New York Heart Association’s HF classification as class II or III\n* Smartphone ownership\n* Ability to independently walk without a walker or human assistance\n* Score of 4 or higher on the Mini-Cog cognitive screen\n\nExclusion Criteria:\n* Severe visual or tactile impairments (eg, legal blindness or severe arthritis) preventing smartphone use\n* End-stage renal failure or terminal illness (eg, cancer)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "55 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

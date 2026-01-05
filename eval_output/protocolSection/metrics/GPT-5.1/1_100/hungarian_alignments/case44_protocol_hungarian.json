@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "case_id": 44,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T16:17:23.916441",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/44_NCT04776161.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/44_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "id": "P30AG064199-01",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/P30AG064199-01"
+          },
+          "pred_item": {
+            "id": "P30AG064199",
+            "type": "NIH",
+            "domain": "National Institute on Aging of the National Institutes of Health",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.2,
+          0.15,
+          0.96
+        ],
+        [
+          0.9,
+          0.8,
+          0.2
+        ],
+        [
+          0.86,
+          0.92,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control",
+            "type": "NO_INTERVENTION",
+            "description": "Patients in the control arm will not receive any intervention (but will receive electronic pill bottles to monitor their adherence)."
+          },
+          "pred_item": {
+            "label": "Arm 3: Control",
+            "type": "NO_INTERVENTION",
+            "description": "Participants receive usual care with no cue-reward or text message intervention. They use electronic pill bottles for their urate-lowering therapy to monitor adherence over the full 18-week follow-up period.",
+            "interventionNames": [
+              "Electronic pill bottle adherence monitoring"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Cue-Reward Intervention",
+            "type": "EXPERIMENTAL",
+            "description": "Patients in this intervention arm will choose an event-based cue and receive reminder text messages reminding them of their cue. Additionally, a donation will be made to a local charity every time they take their medication.",
+            "interventionNames": [
+              "Behavioral: Cue-Reward Intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Arm 1: Non-adaptive cue-reward intervention",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive a fixed-intensity habit formation intervention over 12 weeks. They select a daily lifestyle activity as a cue to link to their medication-taking and choose a charity (local animal shelter, local food bank, or UNICEF). Every day they take their urate-lowering therapy as prescribed, US$0.50 is donated to their chosen charity. A sticker with the charity logo is placed under the pill bottle cap as a visual reminder. If adherence over the prior 4 days falls below 75%, they receive text messages reminding them of their chosen cue. Every 4 days, they receive a text summarising the amount donated and its impact. After the 12-week intervention period, they are observed for 6 weeks without intervention. Adherence is monitored via electronic pill bottles.",
+            "interventionNames": [
+              "Cue-reward habit formation intervention (non-adaptive)",
+              "Electronic pill bottle adherence monitoring"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Cue-Reward Intervention with possible intensification.",
+            "type": "EXPERIMENTAL",
+            "description": "Patients in this intervention arm will choose an event-based cue. Additionally, a donation will be made to a local charity every time they take their medication. Those who show no improvement in adherence after 6 weeks will start receiving reminder text messages reminding them of their cue.",
+            "interventionNames": [
+              "Behavioral: Cue-Reward Intervention with possible intensification"
+            ]
+          },
+          "pred_item": {
+            "label": "Arm 2: Adaptive cue-reward intervention",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive an initially lower-intensity habit formation intervention for the first 6 weeks. They select a daily lifestyle activity as a cue and choose a charity. Every adherent day during the initial 6 weeks, US$0.25 is donated to their chosen charity. They do not receive cue reminder texts during this initial period. At 6 weeks, participants classified as non-adherent (adherence <75%) are intensified: the charitable reward increases to US$0.50 per adherent day and they begin receiving cue reminder text messages similar to Arm 1 over the next 6 weeks. Participants adherent at 6 weeks remain on the initial lower-intensity structure. After the 12-week intervention period, participants are observed for 6 weeks without intervention. Adherence is monitored via electronic pill bottles.",
+            "interventionNames": [
+              "Cue-reward habit formation intervention (adaptive)",
+              "Electronic pill bottle adherence monitoring"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.82,
+          0.3
+        ],
+        [
+          0.9,
+          0.9,
+          0.15
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Cue-Reward Intervention",
+            "description": "Patients in the first intervention arm will participate in a goal-setting exercise during which they will identify which habit they want to link their medication-taking to. Patients will also receive text messages reminding them of the habit they decided to link to their medication-taking.\n\nFinally, patients will also select a charity to which a donation will be made every time the bottle is opened. The research team will donate $0.50 every day that the patient takes their medication as prescribed. A research assistant will place a sticker with the charity logo under the pill bottle cap so that the patient is reminded of the donation every time they take the medication. Additionally, the patient will receive texts every 4 days summarizing how much money was donated on their behalf.",
+            "armGroupLabels": [
+              "Cue-Reward Intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Cue-reward habit formation intervention (non-adaptive)",
+            "description": "A principle-driven habit formation intervention based on the repetition cue-reward model delivered over 12 weeks. Participants select a specific daily activity (e.g., brushing teeth) as a contextual cue to which they link their daily urate-lowering medication-taking. They also select one of three charities (local animal shelter, local food bank, UNICEF). Each day that medication is taken as prescribed, US$0.50 is donated to the chosen charity. A sticker with the charity logo is placed under the electronic pill bottle cap to provide a visual reminder of the reward. Adherence is assessed in rolling 4-day windows using electronic pill bottle openings (capped at one opening per 3 hours). If adherence over the prior 4 days is <75%, the participant receives a text message reminding them of their chosen cue. Every 4 days, they receive texts summarising cumulative donations and describing the potential impact (e.g., number of meals provided). After 12 weeks the behavioral components are stopped and participants are followed for 6 more weeks without intervention.",
+            "armGroupLabels": [
+              "Arm 1: Non-adaptive cue-reward intervention"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Cue-Reward Intervention with possible intensification",
+            "description": "Patients in the second intervention arm will participate in a goal-setting exercise during which they will identify which habit they want to link their medication-taking to. Finally, patients will also select a charity to which a donation will be made every time the bottle is opened. The research team will donate $0.50 every day that the patient takes their medication as prescribed. A research assistant will place a sticker with the charity logo under the pill bottle cap so that the patient is reminded of the donation every time they take the medication. Additionally, the patient will receive texts every 4 days summarizing how much money was donated on their behalf.\n\nAfter 6 weeks, patients who demonstrate an adherence under 80% to study medications (as measured by the electronic pill bottle) will begin receiving text messages reminding them of their selected cue.",
+            "armGroupLabels": [
+              "Cue-Reward Intervention with possible intensification."
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Cue-reward habit formation intervention (adaptive)",
+            "description": "An adaptive habit formation intervention using the repetition cue-reward model over 12 weeks. All participants select a daily contextual cue and a charity as in the non-adaptive arm. For the first 6 weeks, participants receive US$0.25 donated to their chosen charity for each adherent day (based on electronic pill bottle openings), without any cue reminder texts. At 6 weeks, adherence is evaluated. Participants with adherence <75% are intensified: they begin receiving cue reminder text messages when adherence is low (as in the non-adaptive arm), and the donation amount increases to US$0.50 per adherent day for the remaining 6 weeks. Participants meeting adherence thresholds may remain at the lower-intensity configuration. After 12 weeks, all behavioral components are discontinued and participants are observed for an additional 6 weeks without intervention.",
+            "armGroupLabels": [
+              "Arm 2: Adaptive cue-reward intervention"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Rate of Medication Adherence",
+            "description": "Medication adherence will be measured as the percentage of times a patient opened the electronic pill bottle out of the number of doses prescribed for each bottle in each day, averaged across the study medications and over follow-up.",
+            "timeFrame": "18 weeks"
+          },
+          "pred_item": {
+            "measure": "Adherence to gout medications",
+            "description": "Medication adherence will be measured as the proportion of times a participant opened the electronic pill bottle out of the number of doses prescribed for each bottle in each day, averaged across the study medications and over the follow-up period.",
+            "timeFrame": "Over the 18-week follow-up period after randomisation"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.2,
+          0.18,
+          0.35,
+          0.12
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.35,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Uric Acid Level From Baseline",
+            "description": "Change in uric acid level from baseline",
+            "timeFrame": "18 weeks"
+          },
+          "pred_item": {
+            "measure": "Change in intentions and perceptions regarding gout medications",
+            "description": "Change from baseline in intentions and perceptions of gout medications, assessed using a modified version of the HIV Intention and Knowledge scale.",
+            "timeFrame": "Baseline to end of 18-week follow-up"
+          }
+        }
+      ]
+    }
+  ]
+}

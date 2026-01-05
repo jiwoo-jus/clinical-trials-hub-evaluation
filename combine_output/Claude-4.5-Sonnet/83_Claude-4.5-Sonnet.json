@@ -1,0 +1,73 @@
+{
+  "protocolSection": {
+    "identificationModule": null,
+    "descriptionModule": null,
+    "conditionsModule": null,
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "A randomized double-blind parallel-group design was used in this placebo-controlled study. Participants were randomly assigned to receive either a single oral dose of placebo or immediate-release methylphenidate 20 mg according to a randomization schedule established by the National Institutes of Health pharmacy.",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Placebo and methylphenidate oral doses were presented in identical-appearing capsules. Both participants and investigators were blinded to drug assignment.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 50,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": null,
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Working memory performance accuracy",
+          "description": "Response accuracy on the N-Back working memory task (1-Back and 3-Back conditions) measured as percentage of correct responses",
+          "timeFrame": "During fMRI scanning session, approximately 90 minutes post drug administration"
+        },
+        {
+          "measure": "BOLD activation in fronto-parietal control network (FPCN)",
+          "description": "Blood-oxygen-level dependent (BOLD) signal changes in FPCN regions during working memory task (3-Back vs. 1-Back contrast), measured using functional MRI",
+          "timeFrame": "During fMRI scanning session, approximately 90 minutes post drug administration"
+        },
+        {
+          "measure": "BOLD activation in default mode network (DMN)",
+          "description": "Blood-oxygen-level dependent (BOLD) signal changes in DMN regions during working memory task (3-Back vs. 1-Back contrast), measured using functional MRI",
+          "timeFrame": "During fMRI scanning session, approximately 90 minutes post drug administration"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Working memory reaction time",
+          "description": "Response time in milliseconds on the N-Back working memory task (1-Back and 3-Back conditions)",
+          "timeFrame": "During fMRI scanning session, approximately 90 minutes post drug administration"
+        },
+        {
+          "measure": "State anxiety levels (STAI-s)",
+          "description": "State-Trait Anxiety Inventory state subscale scores assessed at three time points: immediately post drug administration (T1), 45 minutes post drug administration (T2), and immediately after scanner removal (T3)",
+          "timeFrame": "T1: immediately post drug administration; T2: 45 minutes post drug administration; T3: immediately after fMRI scanning (approximately 120 minutes post drug administration)"
+        },
+        {
+          "measure": "Subjective anxiety ratings during task",
+          "description": "Self-reported anxiety ratings during the N-Back task performance in safe and threat conditions",
+          "timeFrame": "During fMRI scanning session, approximately 90 minutes post drug administration"
+        }
+      ]
+    },
+    "eligibilityModule": null
+  }
+}

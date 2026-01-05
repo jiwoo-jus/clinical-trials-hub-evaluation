@@ -1,0 +1,249 @@
+{
+  "metadata": {
+    "case_id": 1,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-28T02:59:26.499626",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/1_NCT03899961.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/1_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.55
+        ],
+        [
+          0.7,
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "Oxytocin",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Oxytocin 2.5 U i.v.",
+            "interventionNames": [
+              "Drug: Oxytocin"
+            ]
+          },
+          "pred_item": {
+            "label": "Oxytocin 2.5 IU",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants receive a single dose of oxytocin 2.5 IU diluted to 5 mL using normal saline administered as a one-minute intravenous injection immediately after delivery of the baby's head and shoulders.",
+            "interventionNames": [
+              "Drug: Oxytocin 2.5 IU"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Carbetocin",
+            "type": "EXPERIMENTAL",
+            "description": "Carbetocin 100 µg i.v.",
+            "interventionNames": [
+              "Drug: Carbetocin"
+            ]
+          },
+          "pred_item": {
+            "label": "Carbetocin 100 µg",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive a single dose of carbetocin 100 µg diluted to 5 mL using normal saline administered as a one-minute intravenous injection immediately after delivery of the baby's head and shoulders.",
+            "interventionNames": [
+              "Drug: Carbetocin 100 µg"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.7
+        ],
+        [
+          0.78,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Oxytocin",
+            "description": "Oxytocin 2.5 U i.v.",
+            "armGroupLabels": [
+              "Oxytocin"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Oxytocin 2.5 IU",
+            "description": "Syntocinon®; administered as a one-minute IV injection immediately after delivery of the baby's head and shoulders.",
+            "armGroupLabels": [
+              "Oxytocin 2.5 IU"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Carbetocin",
+            "description": "Carbetocin 100 µg i.v.",
+            "armGroupLabels": [
+              "Carbetocin"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Carbetocin 100 µg",
+            "description": "Pabal®; administered as a one-minute IV injection immediately after delivery of the baby's head and shoulders.",
+            "armGroupLabels": [
+              "Carbetocin 100 µg"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Plasma Concentration Troponin I",
+            "description": "Group difference in Troponin I",
+            "timeFrame": "8 hours"
+          },
+          "pred_item": {
+            "measure": "Change in high-sensitive troponin I plasma concentrations",
+            "description": "Difference between treatment groups in change from baseline in high-sensitive troponin I plasma concentrations. Plasma concentrations will be measured using high-sensitive detection with a chemiluminiscent microparticle immunoassay.",
+            "timeFrame": "Baseline (prior to caesarean delivery) and 6–10 hours after study drug administration"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 6,
+      "similarity_matrix": [
+        [
+          0.05,
+          0.78,
+          0.4,
+          0.3,
+          0.1,
+          0.05
+        ],
+        [
+          0.96,
+          0.15,
+          0.4,
+          0.05,
+          0.2,
+          0.05
+        ],
+        [
+          0.1,
+          0.18,
+          0.1,
+          0.3,
+          0.18,
+          0.63
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Blood Loss",
+            "description": "Blood loss estimated by hemoglobin",
+            "timeFrame": "10 hours"
+          },
+          "pred_item": {
+            "measure": "Estimated blood loss",
+            "description": "Estimated by volume during the surgical procedure as well as calculating estimated blood loss based on haematocrit percentage, height, and weight.",
+            "timeFrame": "Intraoperative and within 24 hours after delivery"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Uterine Tone Grade",
+            "description": "Peroperative assessment of uterine tone grade 0-10 where 0 is no tonus, 10 is maximal tonus",
+            "timeFrame": "5 min"
+          },
+          "pred_item": {
+            "measure": "Uterine tone grade",
+            "description": "Assessed using a numerical rating scale 0–10, where 0 = no tonus and 10 = maximum tonus, and 7 = clinically satisfactory tonus.",
+            "timeFrame": "2.5 minutes and 5 minutes after study drug administration"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 5,
+          "score": 0.63,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Side Effects",
+            "description": "Perioperative side effects, such as palpitations",
+            "timeFrame": "10 min"
+          },
+          "pred_item": {
+            "measure": "Adverse events",
+            "description": "Recorded according to the Common Terminology Criteria for Adverse Events version 4.0 (CTCAE). Includes expected events like feeling of warmth, chest pain, shortness of breath, etc.",
+            "timeFrame": "Up to 48 hours after study drug administration"
+          }
+        }
+      ]
+    }
+  ]
+}

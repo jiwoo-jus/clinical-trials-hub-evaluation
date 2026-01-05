@@ -1,0 +1,1908 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pmc-articleset xmlns:ns0="http://www.w3.org/1999/xlink">
+  <article xml:lang="en" article-type="research-article" dtd-version="1.4">
+    <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+      <restricted-by>pmc</restricted-by>
+    </processing-meta>
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">JMIR Serious Games</journal-id>
+        <journal-id journal-id-type="iso-abbrev">JMIR Serious Games</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2668</journal-id>
+        <journal-id journal-id-type="pmc-domain">seriousgames</journal-id>
+        <journal-id journal-id-type="publisher-id">JSG</journal-id>
+        <journal-title-group>
+          <journal-title>JMIR Serious Games</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2291-9279</issn>
+        <publisher>
+          <publisher-name>JMIR Publications Inc.</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC8663490</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC8663490.1</article-id>
+        <article-id pub-id-type="pmcaid">8663490</article-id>
+        <article-id pub-id-type="pmcaiid">8663490</article-id>
+        <article-id pub-id-type="pmid">34747701</article-id>
+        <article-id pub-id-type="doi">10.2196/29044</article-id>
+        <article-id pub-id-type="publisher-id">v9i4e29044</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Original Paper</subject>
+          </subj-group>
+          <subj-group subj-group-type="article-type">
+            <subject>Original Paper</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Feasibility of a Sensor-Controlled Digital Game for Heart Failure Self-management: Randomized Controlled Trial</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="editor">
+            <name name-style="western">
+              <surname>Zary</surname>
+              <given-names initials="N">Nabil</given-names>
+            </name>
+          </contrib>
+        </contrib-group>
+        <contrib-group>
+          <contrib contrib-type="reviewer">
+            <name name-style="western">
+              <surname>Dinesen</surname>
+              <given-names initials="B">Birthe</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="reviewer">
+            <name name-style="western">
+              <surname>Krukowski</surname>
+              <given-names initials="R">Rebecca</given-names>
+            </name>
+          </contrib>
+          <contrib contrib-type="reviewer">
+            <name name-style="western">
+              <surname>Kamada</surname>
+              <given-names initials="M">Masamitsu</given-names>
+            </name>
+          </contrib>
+        </contrib-group>
+        <contrib-group>
+          <contrib id="contrib1" contrib-type="author" corresp="yes">
+            <name name-style="western">
+              <surname>Radhakrishnan</surname>
+              <given-names initials="K">Kavita</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1373-1633</contrib-id>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <address>
+              <institution>School of Nursing</institution>
+              <institution>The University of Texas Austin</institution>
+              <addr-line>1710 Red River St</addr-line>
+              <addr-line>Austin, TX, 78701</addr-line>
+              <country>United States</country>
+              <phone>1 512 471 7936</phone>
+              <email>Kradhakrishnan@mail.nur.utexas.edu</email>
+            </address>
+          </contrib>
+          <contrib id="contrib2" contrib-type="author">
+            <name name-style="western">
+              <surname>Julien</surname>
+              <given-names initials="C">Christine</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4131-4642</contrib-id>
+          </contrib>
+          <contrib id="contrib3" contrib-type="author">
+            <name name-style="western">
+              <surname>Baranowski</surname>
+              <given-names initials="T">Tom</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff3" ref-type="aff">3</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-0653-2222</contrib-id>
+          </contrib>
+          <contrib id="contrib4" contrib-type="author">
+            <name name-style="western">
+              <surname>O'Hair</surname>
+              <given-names initials="M">Matthew</given-names>
+            </name>
+            <degrees>MA</degrees>
+            <xref rid="aff4" ref-type="aff">4</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7528-1597</contrib-id>
+          </contrib>
+          <contrib id="contrib5" contrib-type="author">
+            <name name-style="western">
+              <surname>Lee</surname>
+              <given-names initials="G">Grace</given-names>
+            </name>
+            <degrees>MS</degrees>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-5701-5316</contrib-id>
+          </contrib>
+          <contrib id="contrib6" contrib-type="author">
+            <name name-style="western">
+              <surname>Sagna De Main</surname>
+              <given-names initials="A">Atami</given-names>
+            </name>
+            <degrees>MSN</degrees>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6405-9883</contrib-id>
+          </contrib>
+          <contrib id="contrib7" contrib-type="author">
+            <name name-style="western">
+              <surname>Allen</surname>
+              <given-names initials="C">Catherine</given-names>
+            </name>
+            <degrees>MPH</degrees>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-4340-1480</contrib-id>
+          </contrib>
+          <contrib id="contrib8" contrib-type="author">
+            <name name-style="western">
+              <surname>Viswanathan</surname>
+              <given-names initials="B">Bindu</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff5" ref-type="aff">5</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3452-3945</contrib-id>
+          </contrib>
+          <contrib id="contrib9" contrib-type="author">
+            <name name-style="western">
+              <surname>Thomaz</surname>
+              <given-names initials="E">Edison</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8188-0457</contrib-id>
+          </contrib>
+          <contrib id="contrib10" contrib-type="author">
+            <name name-style="western">
+              <surname>Kim</surname>
+              <given-names initials="M">Miyong</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4769-9387</contrib-id>
+          </contrib>
+        </contrib-group>
+        <aff id="aff1">
+          <label>1</label>
+          <institution>School of Nursing</institution>
+          <institution>The University of Texas Austin</institution>
+          <addr-line>Austin, TX</addr-line>
+          <country>United States</country>
+        </aff>
+        <aff id="aff2">
+          <label>2</label>
+          <institution>Department of Electrical and Computer Engineering</institution>
+          <institution>Cockrell School of Engineering</institution>
+          <institution>The University of Texas Austin</institution>
+          <addr-line>Austin, TX</addr-line>
+          <country>United States</country>
+        </aff>
+        <aff id="aff3">
+          <label>3</label>
+          <institution>Baylor College of Medicine</institution>
+          <addr-line>Houston, TX</addr-line>
+          <country>United States</country>
+        </aff>
+        <aff id="aff4">
+          <label>4</label>
+          <institution>Good Life Games, Inc</institution>
+          <addr-line>Austin, TX</addr-line>
+          <country>United States</country>
+        </aff>
+        <aff id="aff5">
+          <label>5</label>
+          <institution>Department of Statistics and Data Sciences</institution>
+          <institution>The University of Texas Austin</institution>
+          <addr-line>Austin, TX</addr-line>
+          <country>United States</country>
+        </aff>
+        <author-notes>
+          <corresp>Corresponding Author: Kavita Radhakrishnan <email>Kradhakrishnan@mail.nur.utexas.edu</email>
+          </corresp>
+        </author-notes>
+        <pub-date pub-type="collection">
+          <season>Oct-Dec</season>
+          <year>2021</year>
+        </pub-date>
+        <pub-date pub-type="epub">
+          <day>8</day>
+          <month>11</month>
+          <year>2021</year>
+        </pub-date>
+        <volume>9</volume>
+        <issue>4</issue>
+        <issue-id pub-id-type="pmc-issue-id">391771</issue-id>
+        <elocation-id>e29044</elocation-id>
+        <self-uri content-type="pmc-pdf" ns0:href="games_v9i4e29044.pdf" />
+        <self-uri ns0:href="https://games.jmir.org/2021/4/e29044" />
+        <abstract>
+          <sec sec-type="background">
+            <title>Background</title>
+            <p>Poor self-management of heart failure (HF) contributes to devastating health consequences. Our innovative sensor-controlled digital game (SCDG) integrates data from sensors to trigger game rewards, progress, and feedback based on the real-time behaviors of individuals with HF.</p>
+          </sec>
+          <sec sec-type="objective">
+            <title>Objective</title>
+            <p>The aim of this study is to compare daily weight monitoring and physical activity behavior adherence by older adults using an SCDG intervention versus a sensors-only intervention in a feasibility randomized controlled trial.</p>
+          </sec>
+          <sec sec-type="methods">
+            <title>Methods</title>
+            <p>English-speaking adults with HF aged 55 years or older who owned a smartphone and could walk unassisted were recruited from Texas and Oklahoma from November 2019 to August 2020. Both groups were given activity trackers and smart weighing scales to track behaviors for 12 weeks. The feasibility outcomes of recruitment, retention, intervention engagement, and satisfaction were assessed. In addition to daily weight monitoring and physical activity adherence, the participants’ knowledge, functional status, quality of life, self-reported HF behaviors, motivation to engage in behaviors, and HF-related hospitalization were also compared between the groups at baseline and at 6, 12, and 24 weeks.</p>
+          </sec>
+          <sec sec-type="results">
+            <title>Results</title>
+            <p>A total of 38 participants with HF—intervention group (IG; 19/38, 50%) and control group (CG; 19/38, 50%)—were enrolled in the study. Of the 38 participants, 18 (47%) were women, 18 (47%) were aged 65 years or older, 21 (55%) had been hospitalized with HF in the past 6 months, and 29 (76%) were White. Furthermore, of these 38 participants, 31 (82%)—IG (15/19, 79%) and CG (16/19, 84%)—had both weight monitoring and physical activity data at the end of 12 weeks, and 27 (71%)—IG (14/19, 74%) and CG (13/19, 68%)—participated in follow-up assessments at 24 weeks. For the IG participants who installed the SCDG app (15/19, 79%), the number of days each player opened the game app was strongly associated with the number of days the player engaged in weight monitoring (<italic toggle="yes">r</italic>=0.72; <italic toggle="yes">P=</italic>.04) and the number of days with physical activity step data (<italic toggle="yes">r</italic>=0.9; <italic toggle="yes">P</italic>&lt;.001). The IG participants who completed the satisfaction survey (13/19, 68%) reported that the SCDG was easy to use. Trends of improvement in daily weight monitoring and physical activity in the IG, as well as within-group improvements in HF functional status, quality of life, knowledge, self-efficacy, and HF hospitalization in both groups, were observed in this feasibility trial.</p>
+          </sec>
+          <sec sec-type="conclusions">
+            <title>Conclusions</title>
+            <p>Playing an SCDG on smartphones was feasible and acceptable for older adults with HF for motivating daily weight monitoring and physical activity. A larger efficacy trial of the SCDG intervention will be needed to validate trends of improvement in daily weight monitoring and physical activity behaviors.</p>
+          </sec>
+          <sec sec-type="Trial Registration">
+            <title>Trial Registration</title>
+            <p>ClinicalTrials.gov <ext-link ext-link-type="pmc:clinical-trial" ns0:href="NCT03947983">NCT03947983</ext-link>; https://clinicaltrials.gov/ct2/show/<ext-link ext-link-type="pmc:clinical-trial" ns0:href="NCT03947983">NCT03947983</ext-link>
+            </p>
+          </sec>
+        </abstract>
+        <kwd-group>
+          <kwd>heart failure</kwd>
+          <kwd>digital game</kwd>
+          <kwd>sensor</kwd>
+          <kwd>self-management</kwd>
+          <kwd>older adults</kwd>
+          <kwd>weight monitoring</kwd>
+          <kwd>physical activity</kwd>
+          <kwd>behaviors</kwd>
+          <kwd>mobile phone</kwd>
+        </kwd-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-license-ref</meta-name>
+            <meta-value>CC BY</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec sec-type="introduction">
+        <title>Introduction</title>
+        <sec>
+          <title>Need for Heart Failure Self-management Behaviors</title>
+          <p>Despite significant advances in treatment and management, heart failure (HF) continues to be the leading cause of hospitalization among older adults in the United States [<xref rid="ref1" ref-type="bibr">1</xref>,<xref rid="ref2" ref-type="bibr">2</xref>], with an estimated annual cost of US $32 billion [<xref rid="ref1" ref-type="bibr">1</xref>]. Improved self-management behaviors, defined as “behaviors that maintain physiological stability” and enable “response to symptoms when they occur,” can help reduce the adverse effects of an HF diagnosis [<xref rid="ref3" ref-type="bibr">3</xref>,<xref rid="ref4" ref-type="bibr">4</xref>]. Daily weight monitoring is such a behavior; weight gain is typically the first sign of volume overload in patients with HF, and if weight gain is treated promptly, clinically significant HF exacerbations can be avoided [<xref rid="ref5" ref-type="bibr">5</xref>,<xref rid="ref6" ref-type="bibr">6</xref>]. Similarly, physical activity improves myocardial function and functional capacity [<xref rid="ref7" ref-type="bibr">7</xref>] and reduces depressive symptoms [<xref rid="ref8" ref-type="bibr">8</xref>]. Engagement in these 2 critical HF self-management behaviors improves quality of life and reduces health care use [<xref rid="ref9" ref-type="bibr">9</xref>,<xref rid="ref10" ref-type="bibr">10</xref>]. Yet, weight monitoring and physical activity show significantly poorer adherence than other HF self-management behaviors [<xref rid="ref11" ref-type="bibr">11</xref>,<xref rid="ref12" ref-type="bibr">12</xref>] because of poor knowledge and lack of motivation [<xref rid="ref13" ref-type="bibr">13</xref>].</p>
+        </sec>
+        <sec>
+          <title>Role of Innovative Digital Health Interventions for Motivating HF Self-management Behaviors</title>
+          <p>Recent advances in wearable technology, digital sensor devices, and mobile health (mHealth) apps have allowed application of these technologies to observe and motivate health behaviors in real-world conditions. Yet, despite the advantages of portability and scalability offered by digital devices and apps, long-term adoption rates remain low. There have been many instances of abandonment of the use of activity trackers in prior research, with more than 50% of the activity tracker users stopping use within a period of 2 weeks to 6 months [<xref rid="ref14" ref-type="bibr">14</xref>,<xref rid="ref15" ref-type="bibr">15</xref>]. Long-term maintenance rates of such devices by patients with HF are yet to be explored.</p>
+          <p>Digital games that serve as affordable, portable, scalable tools while being enjoyable and easy to use can help contextualize health behaviors [<xref rid="ref16" ref-type="bibr">16</xref>] and motivate clinically significant behavior changes, thereby improving health outcomes [<xref rid="ref17" ref-type="bibr">17</xref>]. Digital games can combine appealing stories [<xref rid="ref18" ref-type="bibr">18</xref>] and interests and hobbies [<xref rid="ref19" ref-type="bibr">19</xref>] with active learning [<xref rid="ref20" ref-type="bibr">20</xref>], incentives [<xref rid="ref21" ref-type="bibr">21</xref>], and social connections [<xref rid="ref22" ref-type="bibr">22</xref>] to offer an accessible, engaging, and immersive habit-forming medium [<xref rid="ref23" ref-type="bibr">23</xref>] while objectively measuring these behaviors [<xref rid="ref24" ref-type="bibr">24</xref>,<xref rid="ref25" ref-type="bibr">25</xref>]. Well-designed digital games have significantly improved physical (eg, balance and mobility) and cognitive (eg, processing speed) health outcomes [<xref rid="ref26" ref-type="bibr">26</xref>] as well as behavioral outcomes for chronic diseases (eg, dietary changes for diabetes) [<xref rid="ref17" ref-type="bibr">17</xref>,<xref rid="ref27" ref-type="bibr">27</xref>]. Digital game-playing is increasing among older adults; the number of adults aged 50 years or older who enjoy video games in any format increased by 11 million from 2016 to 2019 [<xref rid="ref28" ref-type="bibr">28</xref>], suggesting a receptiveness to playing games for health.</p>
+          <p>Digital games incorporating gamification principles such as competition, leaderboards, and incentives have improved learning outcomes and have been highly acceptable among participants with HF [<xref rid="ref29" ref-type="bibr">29</xref>,<xref rid="ref30" ref-type="bibr">30</xref>], but these games do not involve data on real-time HF self-management behaviors. In a sensor-controlled digital game (SCDG), data on behaviors from sensors, including those in wearable devices, are synchronized with a mobile gaming app to trigger game progress, rewards, personalized and contextually relevant feedback (eg, reduce fluid intake or call physician for weight gain), and incentives based on participants’ real-time behaviors [<xref rid="ref24" ref-type="bibr">24</xref>]. Combining digital games and sensors thus offers a powerful way to improve behavior adherence and potentially make health care participatory, personalized, predictive, and preventive as defined by the Precision Medicine Initiative [<xref rid="ref31" ref-type="bibr">31</xref>].</p>
+          <p>Thus, the primary goals of this study are to obtain preliminary efficacy data on behavior adherence and undertake a comprehensive feasibility assessment of an SCDG intervention called Heart Health Mountain. This app synchronizes with a Bluetooth-enabled weighing scale and activity tracker to activate game rewards and feedback based on the real-time weight monitoring and exercise behaviors of older adult participants with HF.</p>
+        </sec>
+      </sec>
+      <sec sec-type="methods">
+        <title>Methods</title>
+        <sec>
+          <title>Study Design and Scope</title>
+          <p>We conducted a prospective feasibility randomized controlled trial (1:1) with 2 parallel groups (sensors only or sensors plus SCDG app) from November 2019 to January 2021 (ClinicalTrials.gov: <ext-link ext-link-type="pmc:clinical-trial" ns0:href="NCT03947983">NCT03947983</ext-link>). The results presented here are from the 12-week SCDG intervention measuring objective behaviors of daily weight monitoring and physical activity and the 24-week follow-up measuring quality of life, functional status, HF self-management efficacy, and HF hospitalizations.</p>
+        </sec>
+        <sec>
+          <title>Study Population and Recruitment</title>
+          <p>Before the COVID-19 outbreak, we identified potential participants through chart review at a cardiac rehabilitation center as well as through referrals by clinical case managers at an inpatient cardiac floor in central Texas. Research staff members provided information on the study to adults who were aged 55 years or older, English-speaking, diagnosed with HF, and classified according to the New York Heart Association’s HF classification as class II or III [<xref rid="ref32" ref-type="bibr">32</xref>] during their inpatient stay or outpatient visit to the cardiac center. Other eligibility criteria included smartphone ownership as a proxy measure to indicate prior familiarity with smartphone use, ability to independently walk without a walker or human assistance, and a score of 4 or higher on the Mini-Cog [<xref rid="ref33" ref-type="bibr">33</xref>] cognitive screen. The exclusion criteria included severe visual or tactile impairments (eg, legal blindness or severe arthritis), which would prevent the use of a smartphone, or end-stage renal failure or terminal illness (eg, cancer), both of which adversely affect HF prognosis [<xref rid="ref34" ref-type="bibr">34</xref>].</p>
+          <p>To continue the trial during the COVID-19 pandemic, all in-person interactions were converted to remote interactions. We used a secure, Health Insurance Portability and Accountability Act–compliant email system to continue receiving referrals from clinical case managers at the inpatient HF center. In addition, we contracted with the participant recruitment company Trialfacts [<xref rid="ref35" ref-type="bibr">35</xref>] to recruit participants on the web from the states of Texas and Oklahoma. The eligibility criteria remained the same, but the formal screening process then required a narrative description of HF history or confirmation from the potential participant’s health care provider to confirm the individual’s HF diagnosis.</p>
+        </sec>
+        <sec>
+          <title>Intervention</title>
+          <p>The description of the design, development, and usability assessment phase of the SCDG has been detailed elsewhere [<xref rid="ref25" ref-type="bibr">25</xref>]. Guided by the Fogg behavioral model [<xref rid="ref36" ref-type="bibr">36</xref>] and played on a smartphone, the <italic toggle="yes">Heart Health Mountain</italic> SCDG presented a narrative in which the older adult player helps an avatar to climb a mountain in a forested area, with the game’s goal being to avoid hospitalization. The SCDG motivates the player’s engagement in critical behaviors related to HF self-management, helping the avatar to climb the mountain. This is done by daily weight monitoring and attaining physical activity steps based on goal steps tailored to the individual player. The step goal in the SCDG ranged from 3000 to 15,000 steps.</p>
+          <p>According to the Fogg model [<xref rid="ref36" ref-type="bibr">36</xref>], for a person to perform a target health behavior, they must (1) be sufficiently <italic toggle="yes">motivated</italic>, (2) have the <italic toggle="yes">ability</italic> to perform the behavior, and (3) be <italic toggle="yes">triggered</italic> to perform the behavior. For example, based on the <italic toggle="yes">motivation</italic> concept of the Fogg model [<xref rid="ref36" ref-type="bibr">36</xref>], positive attitudes toward engaging in HF self-management and empathy with the game character will be aided by positive feedback, competition (eg, leaderboards), and game rewards (eg, coins to buy low-salt food items or accessories for the game character for engaging in real-time behaviors and in-game challenges). On the basis of the <italic toggle="yes">ability</italic> concept of the Fogg model [<xref rid="ref36" ref-type="bibr">36</xref>], knowledge about HF self-management within the SCDG was provided using language especially chosen for those with low literacy levels (from the <italic toggle="yes">Living Well With Heart Failure</italic> booklet) [<xref rid="ref37" ref-type="bibr">37</xref>,<xref rid="ref38" ref-type="bibr">38</xref>] in bite-sized chunks (<xref rid="figure1" ref-type="fig">Figure 1</xref>). Built-in quizzes tested content mastery, and problem-solving strategies provided opportunities for higher game rewards (<xref rid="figure2" ref-type="fig">Figure 2</xref>).</p>
+          <p>Finally, based on the <italic toggle="yes">trigger</italic> concept of the Fogg model [<xref rid="ref36" ref-type="bibr">36</xref>], game alerts, the avatar’s health status, messages (<xref rid="figure3" ref-type="fig">Figure 3</xref>), and incentives were tailored to the participant’s real-time HF self-management behaviors based on data from the behavior-tracking sensors (eg, climbing up the mountain by 2 steps if the physical activity goal was attained that day). HF game players are expected to make meaningful connections between game events and real-time HF self-management behaviors, increasing the likelihood that they retain and apply their newly acquired knowledge, skills, and habits for HF self-management behaviors outside the game’s world [<xref rid="ref39" ref-type="bibr">39</xref>] and improve their health outcomes.</p>
+          <fig position="float" id="figure1" orientation="portrait">
+            <label>Figure 1</label>
+            <caption>
+              <p>Knowledge embedded in the sensor-controlled digital game.</p>
+            </caption>
+            <graphic position="float" orientation="portrait" ns0:href="games_v9i4e29044_fig1.jpg" />
+          </fig>
+          <fig position="float" id="figure2" orientation="portrait">
+            <label>Figure 2</label>
+            <caption>
+              <p>Built-in quiz in the sensor-controlled digital game.</p>
+            </caption>
+            <graphic position="float" orientation="portrait" ns0:href="games_v9i4e29044_fig2.jpg" />
+          </fig>
+          <fig position="float" id="figure3" orientation="portrait">
+            <label>Figure 3</label>
+            <caption>
+              <p>Example of game alert messages based on real-time behavior.</p>
+            </caption>
+            <graphic position="float" orientation="portrait" ns0:href="games_v9i4e29044_fig3.jpg" />
+          </fig>
+        </sec>
+        <sec>
+          <title>Intervention Procedures</title>
+          <p>CONSORT (Consolidated Standards of Reporting Trials) guidelines [<xref rid="ref40" ref-type="bibr">40</xref>] informed this parallel-group randomized controlled trial and the reporting of outcomes (<xref rid="app1" ref-type="supplementary-material">Multimedia Appendix 1</xref>). The SCDG intervention group (IG) received sensors tracking weight monitoring and physical activity and played the SCDG app on a smartphone; the sensors-only control group (CG) received sensors tracking weight monitoring and physical activity only. Both IG and CG participants were given the Withings Go activity tracker (Withings) [<xref rid="ref41" ref-type="bibr">41</xref>], Withings Body smart weighing scale [<xref rid="ref42" ref-type="bibr">42</xref>], and Withings Health Mate app [<xref rid="ref43" ref-type="bibr">43</xref>] to record, store, and transmit daily weight and physical activity data, but the CG did not receive the SCDG app. The Withings Body smart weighing scales have been found to accurately measure body mass [<xref rid="ref44" ref-type="bibr">44</xref>]. We selected the Withings Go tracker because it has long battery life, is waterproof, is reasonably accurate in measuring activity levels of people with HF [<xref rid="ref45" ref-type="bibr">45</xref>,<xref rid="ref46" ref-type="bibr">46</xref>], and uses a clock schema, which is a familiar interface for most adults, to represent the user’s daily physical activity. The step goals for all participants were set based on their preferences as well as the nursing research assistant’s assessment of their physical health status.</p>
+          <p>Whereas the participants in the IG received standardized HF education [<xref rid="ref6" ref-type="bibr">6</xref>,<xref rid="ref38" ref-type="bibr">38</xref>] embedded within the SCDG, the participants in the CG received the same information in written format. Thus, the difference between the IG and the CG was the receipt of the SCDG gaming elements. The SCDG app transmitted the IG participants’ game-playing data, and the Health Mate app transmitted all participants’ sensor data to the research team through cellular data service or home Wi-Fi. An intervention nursing research assistant remotely tracked user engagement for participants in both groups during the first week and contacted participants by phone in the absence of any data to offer help with troubleshooting.</p>
+          <p>Before the COVID-19 outbreak, an intervention nursing research assistant installed the apps on all participants’ smartphones and trained the participants to use the sensor devices and apps at either their homes or at a location of their convenience. During the COVID-19 pandemic, in-person interactions were converted to remote interactions. Contactless delivery of study equipment, videoconferencing on smartphones, and printed pictorial and video instructions allowed remote support for installation, training, and troubleshooting of the devices and apps. The study team members’ experience with the devices and apps during in-person interactions with the older adults at their homes helped inform the training materials that were provided to the participants during the pandemic. Installation and training times by the research team member varied widely during the remote phase, from 0 minutes (participant self-installation) to 180 minutes compared with 45 to 120 minutes during the in-person phase.</p>
+        </sec>
+        <sec>
+          <title>Randomization</title>
+          <p>The participants were assigned to the IG or CG with a 1:1 randomization ratio such that the 2 groups were equivalent in terms of biological sex. The randomization was carried out after informed consent was obtained and the baseline survey completed. The allocation sequence list for block randomization was generated by an independent researcher at the Sealed Envelope Ltd website [<xref rid="ref47" ref-type="bibr">47</xref>] with random block sizes of 2 and 4 and concealed until the trial group was assigned. To ensure blinding during assessment of the outcomes, the research assistant who delivered the intervention to the 2 groups was different from the research assistant who collected the baseline and follow-up surveys from the 2 groups. The researcher who performed the data analysis was blinded to the participant groups. Indication of participation in a digital health intervention study in the informed consent allowed us to blind all participants to their specific group assignment.</p>
+        </sec>
+        <sec>
+          <title>Outcome Measures</title>
+          <sec>
+            <title>Feasibility Outcomes</title>
+            <p>To inform the development of a future large-scale randomized controlled clinical trial, we determined the feasibility, acceptability, and effectiveness of our SCDG in engaging older adults with HF by assessing recruitment (how many accepted the invitation to participate in the study), retention, engagement, and satisfaction. We considered the trial feasible if the enrollment rate was at least 20% of the patients with HF who were approached to participate in the study, if at least 50% of the IG and CG participants completed both the 12-week objective behavior assessment and the 24-week follow-up assessment (retention), and if at least 50% of the IG participants used the SCDG intervention for at least 50% of the days (engagement) and were satisfied with the SCDG intervention (satisfaction).</p>
+          </sec>
+          <sec>
+            <title>Retention</title>
+            <p>Retention was recorded as the number (proportion) of participants in both groups who used the sensor devices to measure physical activity and weight monitoring for 12 weeks and completed follow-up assessments at 24 weeks to assess maintenance of the SCDG intervention.</p>
+          </sec>
+          <sec>
+            <title>Engagement and Adherence</title>
+            <p>A Google Cloud console was created to store all participants’ deidentified physical activity and weight monitoring behavioral data obtained from the Withings Health Mate app as well as data used to assess the IG participants’ engagement with the SCDG and its features. The number of days of adherence to physical activity and weight monitoring as well as engagement with the SCDG were obtained from the Google Cloud console.</p>
+          </sec>
+          <sec>
+            <title>Satisfaction</title>
+            <p>We assessed the IG participants’ satisfaction with the SCDG using a questionnaire at the end of 12 weeks based on the 4-item interest and enjoyment subscale of the Intrinsic Motivation Inventory (α=.8) [<xref rid="ref48" ref-type="bibr">48</xref>], a multidimensional instrument intended to assess participants’ subjective experience related to a target activity. The interest and enjoyment subscale assesses an individual’s interest and inherent pleasure in performing a specific activity on a 4-point Likert scale (1=not satisfied, 4=very satisfied). In addition, the participants were asked open-ended questions about what they liked and disliked most about using the SCDG for HF self-management. A 4-point scale (1=strongly disagree, 4=strongly agree) was used to assess the key elements that might have helped the participants maintain their motivation to continue using the SCDG. Finally, the participants were asked whether they would recommend the SCDG to others with HF.</p>
+          </sec>
+        </sec>
+        <sec>
+          <title>Health and Behavior Outcomes</title>
+          <sec>
+            <title>Overview</title>
+            <p>All participants were asked to complete surveys at 6, 12, and 24 weeks after the baseline survey to assess the immediate effect of the intervention and maintenance of behavioral changes. Before the COVID-19 outbreak, the participants were asked to complete the surveys on the Qualtrics platform (Qualtrics XM) on a study iPad (Apple Inc). During the pandemic, the participants were emailed or texted links to the Qualtrics surveys. All participants completed a sociodemographic survey questionnaire at baseline. They also completed the 2-item Patient Health Questionnaire [<xref rid="ref49" ref-type="bibr">49</xref>] to report on depressive symptoms at baseline and at 6, 12, and 24 weeks.</p>
+          </sec>
+          <sec>
+            <title>Weight Monitoring Behavior</title>
+            <p>The primary outcome of the days of weight monitoring was measured by the number of days with weight monitoring data. This measure was collected from sensor logs within the Health Mate app [<xref rid="ref43" ref-type="bibr">43</xref>], with each day of weighing measured dichotomously (yes or no).</p>
+          </sec>
+          <sec>
+            <title>Physical Activity Behavior</title>
+            <p>Physical activity data were derived from the Withings Go sensor logs within the Health Mate app [<xref rid="ref43" ref-type="bibr">43</xref>] by obtaining the cumulative steps for each day and averaging the steps for each participant over 6 and 12 weeks.</p>
+          </sec>
+          <sec>
+            <title>HF-Related Functional Status</title>
+            <p>For this measure, we used items 1-12 from the Kansas City Cardiomyopathy Questionnaire (KCCQ) [<xref rid="ref50" ref-type="bibr">50</xref>]. The item scores are transformed to a range of 0 to 100 by subtracting the lowest possible scale score, dividing by the range of the scale, and multiplying by 100. The summary scores for the functional status thus range from 0 to 100, with higher scores indicating better functional status. The Cronbach α value for the KCCQ functional status is excellent at .93 [<xref rid="ref49" ref-type="bibr">49</xref>]. The scale has demonstrated criterion validity, with high correlation with the New York Heart Association HF classification and the 6-minute Walk Test [<xref rid="ref50" ref-type="bibr">50</xref>].</p>
+          </sec>
+          <sec>
+            <title>Quality of Life</title>
+            <p>Quality of life was measured with items 13-15 from the KCCQ [<xref rid="ref50" ref-type="bibr">50</xref>]. The item scores are transformed to a range of 0 to 100 by subtracting the lowest possible scale score, dividing by the range of the scale, and multiplying by 100. The summary values for the quality-of-life domain thus range from 0 to 100, with higher scores indicating better quality of life. The Cronbach α value was .78 in prior studies [<xref rid="ref50" ref-type="bibr">50</xref>]. In comparison with similar quality-of-life instruments, the KCCQ is sensitive to clinical changes in HF and has shown a significant and high correlation with the New York Heart Association HF classification [<xref rid="ref50" ref-type="bibr">50</xref>].</p>
+          </sec>
+          <sec>
+            <title>HF Self-management Knowledge</title>
+            <p>The instrument used was the 30-item Atlanta Heart Failure Knowledge Test [<xref rid="ref51" ref-type="bibr">51</xref>]. Each correct answer is scored as 1, with no additional weighting of items; the correct responses are then summed. Incorrect or skipped questions are scored as 0. The total scores range from 0 to 30, and higher scores indicate better HF knowledge. The content validity ratings for relevance and clarity ranged from 0.55 to 1.0, with 81% of the items rated 0.88 to 1.0. The Cronbach α value for reliability was .84 [<xref rid="ref51" ref-type="bibr">51</xref>]. Construct validity has been demonstrated by directly correlating knowledge with clinical and self-care outcomes, including dietary sodium consumption, medication adherence, and health care use [<xref rid="ref51" ref-type="bibr">51</xref>].</p>
+          </sec>
+          <sec>
+            <title>Self-reported HF Self-care Behaviors</title>
+            <p>The instrument used was the 9-item European Heart Failure Self-care Behavior Scale [<xref rid="ref52" ref-type="bibr">52</xref>]. The items were scored on a Likert scale of 1 to 5. For calculating the standardized score, each item was reverse coded and then computed using the following formula: (sum of all even-coded items minus 9) times 2.7777. The standardized scores range from 0 to 100; every item is given equal weight, with a higher score indicating better self-care. The coefficient α value was .80 for this instrument [<xref rid="ref52" ref-type="bibr">52</xref>].</p>
+          </sec>
+          <sec>
+            <title>HF Self-efficacy</title>
+            <p>The instrument used was the 6-item Section C (self-efficacy section) of the Self-Care of Heart Failure Index [<xref rid="ref53" ref-type="bibr">53</xref>]. The item scores were standardized using the following formula: (sum of Section C items minus 6) times 5.56. The scores on the self-efficacy scale range from 0 to 100, with higher scores reflecting better self-efficacy. The Cronbach α value was .88, with good evidence for construct validity and contrasting group validity [<xref rid="ref53" ref-type="bibr">53</xref>].</p>
+          </sec>
+          <sec>
+            <title>Motivation for HF Self-management Behaviors</title>
+            <p>The instrument used was the 19-item Treatment Self-Regulation Questionnaire [<xref rid="ref54" ref-type="bibr">54</xref>], adapted for HF. Each item was scored on a scale of 1 to 7. The scale has 2 subscales: autonomous regulation and controlled regulation. The score for each subscale was the average of the items in that subscale. The average for controlled regulation was subtracted from the average for autonomous regulation to calculate the Relative Autonomy Index. The Cronbach α value for chronic disease–related behaviors ranged from .83 to .87 [<xref rid="ref54" ref-type="bibr">54</xref>]. Construct and convergent validity have been confirmed using factor analysis and correlations with autonomy-related subscales of other behavior scales and health outcomes [<xref rid="ref55" ref-type="bibr">55</xref>].</p>
+          </sec>
+          <sec>
+            <title>HF Hospitalization</title>
+            <p>This measure was obtained through the participants’ self-report (yes or no) on the 6-, 12-, and 24-week surveys and was confirmed with hospitalization discharge summaries or communication with health care providers.</p>
+          </sec>
+        </sec>
+        <sec>
+          <title>Statistical Analysis</title>
+          <sec>
+            <title>Power</title>
+            <p>On the basis of 1:1 randomization with 80% power (α=5%), a sample size of 38 patients per group would have been required to detect a difference of 80% versus 50% in both groups of daily monitoring of weight monitoring and physical activity. We chose 80% as the cutoff for adequate weight monitoring at 12 weeks because patients with HF who completed <italic toggle="yes">at least</italic> 80% of the weight diaries (5.6/7 of the days per week) were found to have significantly reduced odds for HF-related hospitalizations in comparison with patients who completed less than 80% of the weight diaries [<xref rid="ref6" ref-type="bibr">6</xref>]. In addition, only 50% of the participants with HF in a remote monitoring sensor group recorded their weights more than 50% of the time [<xref rid="ref56" ref-type="bibr">56</xref>]. Allowing for 10% attrition, 49 patients per group (N=98) would have had to be recruited for a fully powered clinical trial of the SCDG intervention for HF behavior of weight monitoring. The power analysis was performed using G*Power (Heinrich Heine University) [<xref rid="ref57" ref-type="bibr">57</xref>]. With a sample of 38, our study was underpowered. However, this sample size was sufficient to conduct a feasibility study [<xref rid="ref58" ref-type="bibr">58</xref>], which can inform implementation of a fully powered study with fewer problems to test the SCDG’s effectiveness.</p>
+          </sec>
+          <sec>
+            <title>Data Analysis</title>
+            <p>Descriptive statistics for feasibility included (1) the percentage of participants recruited from the total who were approached, (2) the percentage of participants (among those recruited) who were retained in the study at the end of 24 weeks in each arm and overall, (3) the number of days the IG participants played the SCDG, and (4) average satisfaction with the SCDG. All open-ended questions were coded by 2 team members (CA and AS) and then analyzed using a general inductive thematic approach [<xref rid="ref59" ref-type="bibr">59</xref>].</p>
+            <p>The observed effect sizes (Cohen <italic toggle="yes">d</italic>) for the primary outcome of weight monitoring days at the end of 12 weeks was calculated using the following formula: mean of days in IG minus mean of days in CG divided by average SD of days in IG and days in CG. The potential clinical meaningfulness of the results (in addition to statistical significance) was based on the magnitude of the effects: small (Cohen <italic toggle="yes">d</italic>=0.20), medium (Cohen <italic toggle="yes">d</italic>=0.50), and large (Cohen <italic toggle="yes">d</italic>=0.80) [<xref rid="ref60" ref-type="bibr">60</xref>].</p>
+            <p>All statistical analyses were conducted using SPSS software (version 26.0; IBM Corp). Baseline characteristics of the participants in the IG and CG were compared using independent 2-tailed <italic toggle="yes">t</italic> tests for continuous variables and chi-square tests for categorical variables. Although this study was a feasibility trial, we assessed within-group trends in the IG and CG using paired-sample <italic toggle="yes">t</italic> tests (2-tailed) at baseline, 6 weeks, 12 weeks, and 24 weeks. Within-group changes were presented as absolute changes from baseline. All data were presented as means with SDs. Missing values were addressed using intent-to-treat principles with maximum likelihood estimations.</p>
+          </sec>
+        </sec>
+        <sec>
+          <title>Ethical Considerations</title>
+          <p>The institutional review board at the University of Texas at Austin approved this study on July 30, 2018 (number 2017-12-0042). Interested participants provided their phone numbers to be contacted by a nursing graduate research assistant for formal screening through phone. If potential participants were found eligible, the research assistant scheduled visits at their homes to complete the written informed consent.</p>
+          <p>During the COVID-19 pandemic, the eligible potential participants completed the verbal informed consent with the research assistant on the phone. The participants were also emailed a copy of the informed consent form. To protect the participants’ privacy, 6-digit unique ID numbers and dummy email addresses were generated for the profile information that was required by the Health Mate app [<xref rid="ref43" ref-type="bibr">43</xref>] and Google Cloud console so that no personal patient information was shared or processed through the app or the console. Participants who scored higher than 4 on the Patient Health Questionnaire (2 items) for depression [<xref rid="ref49" ref-type="bibr">49</xref>] were provided resources for local mental health services, including available mental health services at their HF clinical site. The eligible participants received US $75 as incentives spread over 4 time points for participating in the study. The participants who continued in the study during the COVID-19 pandemic were also allowed to keep the weighing scale and tracker to avoid reuse of the devices.</p>
+        </sec>
+      </sec>
+      <sec sec-type="results">
+        <title>Results</title>
+        <sec>
+          <title>Baseline Characteristics</title>
+          <p>The characteristics of the participants are presented in <xref rid="table1" ref-type="table">Table 1</xref>. There were no marked differences between the IG and the CG except for marital status, with significantly more IG participants being married or having a partner.</p>
+          <table-wrap position="float" id="table1" orientation="portrait">
+            <label>Table 1</label>
+            <caption>
+              <p>Baseline characteristics of the cohort (N=38).</p>
+            </caption>
+            <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+              <col width="30" span="1" />
+              <col width="260" span="1" />
+              <col width="240" span="1" />
+              <col width="240" span="1" />
+              <col width="140" span="1" />
+              <col width="0" span="1" />
+              <col width="90" span="1" />
+              <thead>
+                <tr valign="bottom">
+                  <td colspan="2" rowspan="1">Baseline characteristics</td>
+                  <td rowspan="1" colspan="1">SCDG<sup>a</sup> (IG<sup>b</sup>; n=19), n (%)</td>
+                  <td rowspan="1" colspan="1">Sensors only (CG<sup>c</sup>; n=19), n (%)</td>
+                  <td rowspan="1" colspan="1">Total, n (%)</td>
+                  <td colspan="2" rowspan="1">
+                    <italic toggle="yes">P</italic> value</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr valign="top">
+                  <td colspan="6" rowspan="1">
+                    <bold>Age (years)</bold>
+                  </td>
+                  <td rowspan="1" colspan="1">.20</td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">55-64</td>
+                  <td rowspan="1" colspan="1">11 (58)</td>
+                  <td rowspan="1" colspan="1">9 (47)</td>
+                  <td rowspan="1" colspan="1">20 (53)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">65-74</td>
+                  <td rowspan="1" colspan="1">7 (37)</td>
+                  <td rowspan="1" colspan="1">5 (26)</td>
+                  <td rowspan="1" colspan="1">12 (32)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">≥75</td>
+                  <td rowspan="1" colspan="1">1 (5)</td>
+                  <td rowspan="1" colspan="1">5 (26)</td>
+                  <td rowspan="1" colspan="1">6 (15)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td colspan="6" rowspan="1">
+                    <bold>Sex</bold>
+                  </td>
+                  <td rowspan="1" colspan="1">.99</td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Male</td>
+                  <td rowspan="1" colspan="1">10 (53)</td>
+                  <td rowspan="1" colspan="1">10 (53)</td>
+                  <td rowspan="1" colspan="1">20 (53)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Female</td>
+                  <td rowspan="1" colspan="1">9 (47)</td>
+                  <td rowspan="1" colspan="1">9 (47)</td>
+                  <td rowspan="1" colspan="1">18 (47)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td colspan="6" rowspan="1">
+                    <bold>Ethnicity</bold>
+                  </td>
+                  <td rowspan="1" colspan="1">.07</td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Hispanic or Latino</td>
+                  <td rowspan="1" colspan="1">3 (16)</td>
+                  <td rowspan="1" colspan="1">0 (0)</td>
+                  <td rowspan="1" colspan="1">3 (8)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Non-Hispanic or Latino</td>
+                  <td rowspan="1" colspan="1">16 (84)</td>
+                  <td rowspan="1" colspan="1">19 (100)</td>
+                  <td rowspan="1" colspan="1">35 (92)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td colspan="6" rowspan="1">
+                    <bold>Race</bold>
+                  </td>
+                  <td rowspan="1" colspan="1">.25</td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">White</td>
+                  <td rowspan="1" colspan="1">16 (84)</td>
+                  <td rowspan="1" colspan="1">13 (69)</td>
+                  <td rowspan="1" colspan="1">29 (76)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">African American</td>
+                  <td rowspan="1" colspan="1">2 (11)</td>
+                  <td rowspan="1" colspan="1">4 (21)</td>
+                  <td rowspan="1" colspan="1">6 (16)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Native American</td>
+                  <td rowspan="1" colspan="1">0 (0)</td>
+                  <td rowspan="1" colspan="1">1 (5)</td>
+                  <td rowspan="1" colspan="1">1 (3)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Other</td>
+                  <td rowspan="1" colspan="1">1 (5)</td>
+                  <td rowspan="1" colspan="1">1 (5)</td>
+                  <td rowspan="1" colspan="1">2 (5)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td colspan="6" rowspan="1">
+                    <bold>Highest level of education</bold>
+                  </td>
+                  <td rowspan="1" colspan="1">.90</td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">High school</td>
+                  <td rowspan="1" colspan="1">4 (21)</td>
+                  <td rowspan="1" colspan="1">3(16)</td>
+                  <td rowspan="1" colspan="1">7 (18)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">University education</td>
+                  <td rowspan="1" colspan="1">8 (42)</td>
+                  <td rowspan="1" colspan="1">8 (42)</td>
+                  <td rowspan="1" colspan="1">16 (42)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Technical diploma</td>
+                  <td rowspan="1" colspan="1">7 (37)</td>
+                  <td rowspan="1" colspan="1">8 (42)</td>
+                  <td rowspan="1" colspan="1">15 (40)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td colspan="6" rowspan="1">
+                    <bold>Marital status</bold>
+                  </td>
+                  <td rowspan="1" colspan="1">.05</td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Married or has a partner</td>
+                  <td rowspan="1" colspan="1">13 (68)</td>
+                  <td rowspan="1" colspan="1">7 (37)</td>
+                  <td rowspan="1" colspan="1">20 (53)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Divorced or widowed</td>
+                  <td rowspan="1" colspan="1">6 (32)</td>
+                  <td rowspan="1" colspan="1">12 (63)</td>
+                  <td rowspan="1" colspan="1">18 (47)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td colspan="6" rowspan="1">
+                    <bold>Living arrangement</bold>
+                  </td>
+                  <td rowspan="1" colspan="1">.35</td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Living alone</td>
+                  <td rowspan="1" colspan="1">5 (26)</td>
+                  <td rowspan="1" colspan="1">6 (32)</td>
+                  <td rowspan="1" colspan="1">11 (29)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Living with others</td>
+                  <td rowspan="1" colspan="1">12 (63)</td>
+                  <td rowspan="1" colspan="1">12 (68)</td>
+                  <td rowspan="1" colspan="1">24 (63)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Other</td>
+                  <td rowspan="1" colspan="1">2 (11)</td>
+                  <td rowspan="1" colspan="1">0 (0)</td>
+                  <td rowspan="1" colspan="1">2 (5)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td colspan="6" rowspan="1">
+                    <bold>Duration with HF<sup>d</sup> diagnosis</bold>
+                  </td>
+                  <td rowspan="1" colspan="1">.63</td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">&lt;6 months</td>
+                  <td rowspan="1" colspan="1">6 (32)</td>
+                  <td rowspan="1" colspan="1">5 (26)</td>
+                  <td rowspan="1" colspan="1">11 (29)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">7 months to 1 year</td>
+                  <td rowspan="1" colspan="1">2 (11)</td>
+                  <td rowspan="1" colspan="1">3 (16)</td>
+                  <td rowspan="1" colspan="1">5 (13)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">1-5 years</td>
+                  <td rowspan="1" colspan="1">7 (37)</td>
+                  <td rowspan="1" colspan="1">5 (26)</td>
+                  <td rowspan="1" colspan="1">12 (32)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">&gt;5 years</td>
+                  <td rowspan="1" colspan="1">4 (21)</td>
+                  <td rowspan="1" colspan="1">6 (32)</td>
+                  <td rowspan="1" colspan="1">10 (26)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td colspan="6" rowspan="1">
+                    <bold>Last</bold>
+                    <bold>HF</bold>
+                    <bold>hospitalization</bold>
+                  </td>
+                  <td rowspan="1" colspan="1">.51</td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">&lt;1 month</td>
+                  <td rowspan="1" colspan="1">5 (26)</td>
+                  <td rowspan="1" colspan="1">6 (32)</td>
+                  <td rowspan="1" colspan="1">11 (29)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">1-6 months</td>
+                  <td rowspan="1" colspan="1">7 (37)</td>
+                  <td rowspan="1" colspan="1">3 (16)</td>
+                  <td rowspan="1" colspan="1">10 (26)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">7 months to 1 year</td>
+                  <td rowspan="1" colspan="1">1 (5)</td>
+                  <td rowspan="1" colspan="1">2 (11)</td>
+                  <td rowspan="1" colspan="1">3 (8)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">&gt;1 year</td>
+                  <td rowspan="1" colspan="1">6 (32)</td>
+                  <td rowspan="1" colspan="1">8 (42)</td>
+                  <td rowspan="1" colspan="1">14 (37)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td colspan="6" rowspan="1">
+                    <bold>Prior digital game-playing</bold>
+                  </td>
+                  <td rowspan="1" colspan="1">.23</td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Yes</td>
+                  <td rowspan="1" colspan="1">17 (90)</td>
+                  <td rowspan="1" colspan="1">13 (68)</td>
+                  <td rowspan="1" colspan="1">30 (79)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">No</td>
+                  <td rowspan="1" colspan="1">2 (10)</td>
+                  <td rowspan="1" colspan="1">6 (32)</td>
+                  <td rowspan="1" colspan="1">8 (21)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td colspan="6" rowspan="1">
+                    <bold>Depression (&gt;2 on PHQ<sup>e</sup> -2)</bold>
+                  </td>
+                  <td rowspan="1" colspan="1">.99</td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">No</td>
+                  <td rowspan="1" colspan="1">14 (74)</td>
+                  <td rowspan="1" colspan="1">14 (74)</td>
+                  <td rowspan="1" colspan="1">28 (74)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Yes</td>
+                  <td rowspan="1" colspan="1">5 (26)</td>
+                  <td rowspan="1" colspan="1">5 (26)</td>
+                  <td rowspan="1" colspan="1">10 (26)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td colspan="6" rowspan="1">
+                    <bold>Number of comorbid conditions</bold>
+                  </td>
+                  <td rowspan="1" colspan="1">.62</td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">0-2</td>
+                  <td rowspan="1" colspan="1">12 (63)</td>
+                  <td rowspan="1" colspan="1">13 (68)</td>
+                  <td rowspan="1" colspan="1">25 (66)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">&gt;2</td>
+                  <td rowspan="1" colspan="1">8 (42)</td>
+                  <td rowspan="1" colspan="1">6 (32)</td>
+                  <td rowspan="1" colspan="1">14 (37)</td>
+                  <td colspan="2" rowspan="1">
+                    <break />
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td colspan="7" rowspan="1">
+                    <bold>Top 2 comorbid conditions</bold>
+                  </td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Hypertension</td>
+                  <td rowspan="1" colspan="1">10 (53)</td>
+                  <td rowspan="1" colspan="1">10 (53)</td>
+                  <td rowspan="1" colspan="1">20 (53)</td>
+                  <td colspan="2" rowspan="1">.99</td>
+                </tr>
+                <tr valign="top">
+                  <td rowspan="1" colspan="1">
+                    <break />
+                  </td>
+                  <td rowspan="1" colspan="1">Diabetes</td>
+                  <td rowspan="1" colspan="1">8 (42)</td>
+                  <td rowspan="1" colspan="1">5 (26)</td>
+                  <td rowspan="1" colspan="1">13 (34)</td>
+                  <td colspan="2" rowspan="1">.55</td>
+                </tr>
+              </tbody>
+            </table>
+            <table-wrap-foot>
+              <fn id="table1fn1">
+                <p>
+                  <sup>a</sup>SCDG: sensor-controlled digital game.</p>
+              </fn>
+              <fn id="table1fn2">
+                <p>
+                  <sup>b</sup>IG: intervention group.</p>
+              </fn>
+              <fn id="table1fn3">
+                <p>
+                  <sup>c</sup>CG: control group.</p>
+              </fn>
+              <fn id="table1fn4">
+                <p>
+                  <sup>d</sup>HF: heart failure.</p>
+              </fn>
+              <fn id="table1fn5">
+                <p>
+                  <sup>e</sup>PHQ: Patient Health Questionnaire.</p>
+              </fn>
+            </table-wrap-foot>
+          </table-wrap>
+        </sec>
+        <sec>
+          <title>Feasibility Outcomes</title>
+          <sec>
+            <title>Recruitment and Enrollment</title>
+            <p>Before the COVID-19 outbreak, 91 older adults with HF were approached at clinical centers (cardiac rehabilitation center, cardiac hospital unit, and senior centers), of whom 25 (27%) were found ineligible for the study. The reasons for exclusion were as follows: not owning smartphones (19/25, 76%), moderate cognitive impairment (2/25, 8%), moving to another state (pre–COVID-19; 2/25, 8%), or not fluent in English (2/25, 8%). Of the 66 eligible participants, 14 (21%) enrolled in the study.</p>
+            <p>During the COVID-19 pandemic, 50 patients with HF were approached, of whom 11 (22%) were ineligible. The reasons for exclusion were as follows: moving to a hospice (2/11, 18%), not having a confirmed diagnosis of HF (6/11, 55%), or using a wheelchair or walker to ambulate (3/11, 27%). Of the 39 participants found eligible—11 (28%) from clinical sites and 28 (72%) through web-based recruitment—24 (61%) agreed to enroll in the study: 6 (25%) from clinical sites and 18 (75%) through web-based recruitment (<xref rid="figure4" ref-type="fig">Figure 4</xref>). The average distance of the participants’ homes from the study team increased from 14 miles (range 2-52) during the pre–COVID-19 phase to 143 miles (range 11-465) during the COVID-19 phase.</p>
+            <fig position="float" id="figure4" orientation="portrait">
+              <label>Figure 4</label>
+              <caption>
+                <p>Diagram of participant flow. HF: heart failure; LTFU: lost to follow-up.</p>
+              </caption>
+              <graphic position="float" orientation="portrait" ns0:href="games_v9i4e29044_fig4.jpg" />
+            </fig>
+          </sec>
+          <sec>
+            <title>Retention</title>
+            <p>Of the 38 participants who enrolled in the study, 6 (16%) completed the baseline survey but dropped out before installation of the devices or apps. Of the 6 participants who dropped out, 4 (67%) were lost to follow-up, and 2 dropped out because of end-stage disease unrelated to HF. We obtained the 12-week objective behavior data assessments from 84% (32/38) and 79% (30/38) of the total enrolled participants for weight monitoring and physical activity, respectively. Although 100% (32/32) of the participants who installed the apps were able to transmit data on daily weight monitoring, 6% (2/32; 1 in the CG and 1 in the IG) experienced issues with synchronizing the tracker and were unable to transmit data on physical activity. As the tracker became an outdated version during the course of the study, the device company was unable to support troubleshooting for these 2 trackers. <xref rid="table2" ref-type="table">Table 2</xref> provides retention statistics on the survey data available to the study team at each data collection time point.</p>
+            <table-wrap position="float" id="table2" orientation="portrait">
+              <label>Table 2</label>
+              <caption>
+                <p>Retention of participants at each time point (N=38).</p>
+              </caption>
+              <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                <col width="590" span="1" />
+                <col width="410" span="1" />
+                <thead>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Data collection</td>
+                    <td rowspan="1" colspan="1">Participants, n (%)</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">12-week weight monitoring</td>
+                    <td rowspan="1" colspan="1">32 (84)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">12-week physical activity</td>
+                    <td rowspan="1" colspan="1">30 (79)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">6-week surveys</td>
+                    <td rowspan="1" colspan="1">30 (79)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">12-week surveys</td>
+                    <td rowspan="1" colspan="1">30 (79)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">24-week surveys</td>
+                    <td rowspan="1" colspan="1">27 (71)</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </sec>
+          <sec>
+            <title>Engagement</title>
+            <p>Installation and training for the devices and apps was completed with 100% (32/32) of the participants who progressed in the study. Of the 32 participants, 14 (44%) owned a smartphone with the Android platform, whereas the remaining 18 (56%) owned a smartphone with the iOS platform. Of the 15 remaining IG participants, 11 (71%) played the SCDG more than 50% of the days (range 7%-96%). Using the daily data of the 15 IG participants, the number of days each player opened the game app was strongly associated with the number of days each player engaged in weighing (<italic toggle="yes">r</italic>=0.72; <italic toggle="yes">P=</italic>.04) and the number of days with physical activity step data (<italic toggle="yes">r</italic>=0.9; <italic toggle="yes">P</italic>&lt;.001).</p>
+          </sec>
+          <sec>
+            <title>Satisfaction With the SCDG</title>
+            <p>At the end of 12 weeks of game-playing, of the 15 IG participants, 13 (87%) completed the survey regarding their satisfaction with the SCDG (<xref rid="table3" ref-type="table">Table 3</xref>).</p>
+            <table-wrap position="float" id="table3" orientation="portrait">
+              <label>Table 3</label>
+              <caption>
+                <p>Intervention group participants’ satisfaction with the sensor-controlled digital game (N=13).</p>
+              </caption>
+              <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                <col width="720" span="1" />
+                <col width="280" span="1" />
+                <thead>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Satisfaction parameters</td>
+                    <td rowspan="1" colspan="1">Participants, n (%)</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Interesting</td>
+                    <td rowspan="1" colspan="1">11 (85)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Easy</td>
+                    <td rowspan="1" colspan="1">13 (100)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Enjoyable</td>
+                    <td rowspan="1" colspan="1">11 (85)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Satisfying to play</td>
+                    <td rowspan="1" colspan="1">11 (85)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Satisfaction with the avatar’s look</td>
+                    <td rowspan="1" colspan="1">11 (85)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Satisfaction with sound in the game</td>
+                    <td rowspan="1" colspan="1">12 (92)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Satisfaction with graphics</td>
+                    <td rowspan="1" colspan="1">12 (92)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Satisfaction with using the sensor devices to progress in the game</td>
+                    <td rowspan="1" colspan="1">8 (62)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Satisfaction with the content or information</td>
+                    <td rowspan="1" colspan="1">13 (100)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Game motivated me to weigh myself daily</td>
+                    <td rowspan="1" colspan="1">12 (92)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Game motivated me to exercise more</td>
+                    <td rowspan="1" colspan="1">11 (85)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Will recommend this game to others with HF<sup>a</sup>
+                    </td>
+                    <td rowspan="1" colspan="1">11 (85)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">Prefer playing digital games over other ways to learn about managing HF</td>
+                    <td rowspan="1" colspan="1">10 (77)</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn id="table3fn1">
+                  <p>
+                    <sup>a</sup>HF: heart failure.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+            <p>The themes related to playing the SCDG included its competitive nature (2/13, 15%), motivation to attain health behavior goals (5/13, 38%), ease of the interface between the sensor devices and the game (2/13, 15%), opportunity to learn about managing HF (2/13, 15%), and access to behavior data (1/13, 8%). A participant said that the duration of the game play for 12 weeks was not long enough to develop healthy habits:</p>
+            <disp-quote>
+              <p>I was disappointed that it ended so soon. It was motivational for me to continue to pay attention to my heart failure regimen until it became more of a routine. I’m at a stage in my life where I can continue to strengthen my heart by adding more to my routine.</p>
+              <attrib>Participant</attrib>
+            </disp-quote>
+            <p>We faced challenges in syncing data from some of the trackers within the SCDG in real time because the device company discontinued support by the time the study was implemented. Therefore, a common theme among the barriers to playing the game included problems with syncing steps from the Withings Go activity tracker with the game (5/13, 38%). Other barriers included inaccuracies in tracking bicycle activity as steps and the lowest attainable step goal in the game being too high for a participant with HF:</p>
+            <disp-quote>
+              <p>Steps and physical activity at unrealistic start levels. I started out at 280 steps, got up to 550 steps a day.</p>
+              <attrib>Participant</attrib>
+            </disp-quote>
+            <p>Of the 13 participants who completed the survey, 2 (15%) found the game to be simplistic and said they would prefer more features. A participant stated as follows:</p>
+            <disp-quote>
+              <p>Needs more bells and whistles. More color and animations.</p>
+              <attrib>Participant</attrib>
+            </disp-quote>
+            <p>Finally, of the 13 participants who completed the survey, 3 (23%) stated that the use of digital games to motivate HF behaviors was not appealing. Of these 3 participants, 2 (67%) preferred reading to playing games, whereas 1 (33%) stated as follows:</p>
+            <disp-quote>
+              <p>If it would help people do daily weight/vital sign checks it would be worthwhile. I didn’t need motivation other than my cardiologist telling me to.</p>
+              <attrib>Participant</attrib>
+            </disp-quote>
+          </sec>
+        </sec>
+        <sec>
+          <title>Health and Behavior Outcomes</title>
+          <sec>
+            <title>Weight Monitoring</title>
+            <p>At the end of 12 weeks, in comparison with baseline self-reports of weighing behaviors, trends of increase by 40% in weighing 5 days or more in a week were observed in the IG. Trends of decrease by 6% were observed in the CG for weighing 5 days or more in a week (<xref rid="table4" ref-type="table">Table 4</xref>). An effect size of 0.53 for the SCDG intervention was obtained for the primary outcome of mean days with weight monitoring.</p>
+            <table-wrap position="float" id="table4" orientation="portrait">
+              <label>Table 4</label>
+              <caption>
+                <p>Behavior outcomes at baseline and at 6 and 12 weeks.</p>
+              </caption>
+              <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                <col width="30" span="1" />
+                <col width="170" span="1" />
+                <col width="0" span="1" />
+                <col width="170" span="1" />
+                <col width="0" span="1" />
+                <col width="210" span="1" />
+                <col width="0" span="1" />
+                <col width="210" span="1" />
+                <col width="0" span="1" />
+                <col width="210" span="1" />
+                <thead>
+                  <tr valign="top">
+                    <td colspan="3" rowspan="1">Outcome and group</td>
+                    <td colspan="2" rowspan="1">Baseline (self-report)</td>
+                    <td colspan="2" rowspan="1">1-6 weeks (sensor data)</td>
+                    <td colspan="2" rowspan="1">7-12 weeks (sensor data)</td>
+                    <td rowspan="1" colspan="1">1-12 weeks (sensor data)</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr valign="top">
+                    <td colspan="10" rowspan="1">
+                      <bold>Weighing 5 days or more in a week, n (%)</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">IG<sup>a</sup> (n=15)</td>
+                    <td colspan="2" rowspan="1">6 (40)</td>
+                    <td colspan="2" rowspan="1">13 (87)</td>
+                    <td colspan="2" rowspan="1">11 (73)</td>
+                    <td colspan="2" rowspan="1">12 (80)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">CG<sup>b</sup> (n=17)</td>
+                    <td colspan="2" rowspan="1">10 (53)</td>
+                    <td colspan="2" rowspan="1">12 (71)</td>
+                    <td colspan="2" rowspan="1">8 (47)</td>
+                    <td colspan="2" rowspan="1">8 (47)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">All (N=32)</td>
+                    <td colspan="2" rowspan="1">16 (50)</td>
+                    <td colspan="2" rowspan="1">25 (78)</td>
+                    <td colspan="2" rowspan="1">19 (5)</td>
+                    <td colspan="2" rowspan="1">20 (63)</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="10" rowspan="1">
+                      <bold>Days with weighing (maximum: 42 in 6 weeks; 84 in 12 weeks), mean (SD); median</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">IG (n=15)</td>
+                    <td colspan="2" rowspan="1">N/A<sup>c</sup>
+                    </td>
+                    <td colspan="2" rowspan="1">35.8 (6.0); 37</td>
+                    <td colspan="2" rowspan="1">32.9 (10.5); 35</td>
+                    <td colspan="2" rowspan="1">69.7 (16.1); 76</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">CG (n=17)</td>
+                    <td colspan="2" rowspan="1">N/A</td>
+                    <td colspan="2" rowspan="1">32.2 (10.2); 34</td>
+                    <td colspan="2" rowspan="1">28.0 (10.9); 30.4</td>
+                    <td colspan="2" rowspan="1">60.1 (18.7); 64</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">All (N=32)</td>
+                    <td colspan="2" rowspan="1">N/A</td>
+                    <td colspan="2" rowspan="1">34 (8.4); 37</td>
+                    <td colspan="2" rowspan="1">30 (10.9); 31</td>
+                    <td colspan="2" rowspan="1">64 (17.8); 64</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="10" rowspan="1">
+                      <bold>Physical activity steps, mean (SD); median</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">IG (n=15)</td>
+                    <td colspan="2" rowspan="1">N/A</td>
+                    <td colspan="2" rowspan="1">2742 (2499); 1986</td>
+                    <td colspan="2" rowspan="1">3365 (2821); 2281</td>
+                    <td colspan="2" rowspan="1">2887 (2821); 2133</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">CG (n=16)</td>
+                    <td colspan="2" rowspan="1">N/A</td>
+                    <td colspan="2" rowspan="1">2638 (1573); 2522</td>
+                    <td colspan="2" rowspan="1">2444 (1757); 2244</td>
+                    <td colspan="2" rowspan="1">2541 (1604); 2601</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">All (N=31)</td>
+                    <td colspan="2" rowspan="1">N/A</td>
+                    <td colspan="2" rowspan="1">2690 (2060); 2480</td>
+                    <td colspan="2" rowspan="1">2737 (2596); 2262</td>
+                    <td colspan="2" rowspan="1">2713 (2270); 2482</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn id="table4fn1">
+                  <p>
+                    <sup>a</sup>IG: intervention group.</p>
+                </fn>
+                <fn id="table4fn2">
+                  <p>
+                    <sup>b</sup>CG: control group.</p>
+                </fn>
+                <fn id="table4fn3">
+                  <p>
+                    <sup>c</sup>N/A: not applicable.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+            <p>Overall, across the 2 groups, the female participants had lower trends in weight monitoring than the male participants (60 vs 70 days, respectively, out of 84); however, both biological sex groups had higher trends in the IG (men, 80; women, 61) compared with the CG (men, 62; women, 57) for days with weight monitoring.</p>
+          </sec>
+          <sec>
+            <title>Physical Activity</title>
+            <p>Trends in average physical activity steps from the 6th <italic toggle="yes">week</italic> to the 12th week were seen with modest increases in the IG and modest decreases in the CG (<xref rid="table4" ref-type="table">Table 4</xref>).</p>
+          </sec>
+          <sec>
+            <title>Multiple Behavior Engagement</title>
+            <p>HF self-management requires simultaneous engagement in multiple behaviors over an extended duration. The IG participants showed higher correlation (<italic toggle="yes">r</italic>=0.78; <italic toggle="yes">P&lt;</italic>.001) between engaging in weight monitoring behaviors and engagement in physical activity behaviors from the 6th week to the 12th week than the CG participants (<italic toggle="yes">r</italic>=−0.01; <italic toggle="yes">P=</italic>.79; <xref rid="figure5" ref-type="fig">Figure 5</xref>).</p>
+            <fig position="float" id="figure5" orientation="portrait">
+              <label>Figure 5</label>
+              <caption>
+                <p>Engagement in dual behaviors of weight monitoring and physical activity. CG: control group; IG: intervention group.</p>
+              </caption>
+              <graphic position="float" orientation="portrait" ns0:href="games_v9i4e29044_fig5.jpg" />
+            </fig>
+          </sec>
+          <sec>
+            <title>HF Functional Status</title>
+            <p>At the end of 6 weeks, the IG demonstrated a clinically significant increase of 7 points on the KCCQ [<xref rid="ref50" ref-type="bibr">50</xref>,<xref rid="ref61" ref-type="bibr">61</xref>]. At the end of 24 weeks, both groups retained a clinically and statistically significant increase in functional status over baseline levels (<xref rid="table5" ref-type="table">Table 5</xref>).</p>
+          </sec>
+          <sec>
+            <title>Quality of Life</title>
+            <p>Both groups demonstrated a clinically [<xref rid="ref62" ref-type="bibr">62</xref>] and statistically significant within-group increase in quality of life at 6, 12, and 24 weeks compared with baseline on the KCCQ (<xref rid="table5" ref-type="table">Table 5</xref>).</p>
+          </sec>
+          <sec>
+            <title>HF Self-management Knowledge</title>
+            <p>Both groups demonstrated modest but statistically significant within-group improvement in knowledge at 6, 12, and 24 weeks compared with baseline (<xref rid="table5" ref-type="table">Table 5</xref>).</p>
+          </sec>
+          <sec>
+            <title>Self-reported HF Self-management Behaviors</title>
+            <p>The IG participants consistently demonstrated improvement in self-reported self-management behaviors compared with baseline and retained a statistically significant improvement at the end of 24 weeks. Self-reported behaviors in the CG participants changed minimally in comparison with baseline (<xref rid="table5" ref-type="table">Table 5</xref>).</p>
+          </sec>
+          <sec>
+            <title>HF Self-efficacy</title>
+            <p>Both groups demonstrated within-group improvement in self-efficacy across the different time points, although the CG participants demonstrated higher trends of improvement (<xref rid="table5" ref-type="table">Table 5</xref>).</p>
+          </sec>
+          <sec>
+            <title>Motivation for HF Self-management Behaviors</title>
+            <p>The changes in autonomous regulation of behaviors were nonsignificant in both the groups at 6, 12, and 24 weeks (<xref rid="table5" ref-type="table">Table 5</xref>).</p>
+          </sec>
+          <sec>
+            <title>HF Hospitalization</title>
+            <p>Decreases in 1-month and 6-month hospitalization rates were seen in both the IG and CG, albeit tempered by the worldwide COVID-19 effect of decrease in HF hospitalizations [<xref rid="ref63" ref-type="bibr">63</xref>,<xref rid="ref64" ref-type="bibr">64</xref>] (<xref rid="table5" ref-type="table">Table 5</xref>).</p>
+            <table-wrap position="float" id="table5" orientation="portrait">
+              <label>Table 5</label>
+              <caption>
+                <p>Survey outcomes at baseline and at 6, 12, and 24 weeks (N=38).</p>
+              </caption>
+              <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                <col width="30" span="1" />
+                <col width="0" span="1" />
+                <col width="0" span="1" />
+                <col width="30" span="1" />
+                <col width="160" span="1" />
+                <col width="0" span="1" />
+                <col width="120" span="1" />
+                <col width="0" span="1" />
+                <col width="0" span="1" />
+                <col width="0" span="1" />
+                <col width="0" span="1" />
+                <col width="130" span="1" />
+                <col width="0" span="1" />
+                <col width="0" span="1" />
+                <col width="100" span="1" />
+                <col width="0" span="1" />
+                <col width="0" span="1" />
+                <col width="0" span="1" />
+                <col width="0" span="1" />
+                <col width="130" span="1" />
+                <col width="0" span="1" />
+                <col width="0" span="1" />
+                <col width="100" span="1" />
+                <col width="0" span="1" />
+                <col width="0" span="1" />
+                <col width="130" span="1" />
+                <col width="0" span="1" />
+                <col width="0" span="1" />
+                <col width="70" span="1" />
+                <thead>
+                  <tr valign="top">
+                    <td colspan="6" rowspan="1">Paired outcome and group</td>
+                    <td colspan="3" rowspan="1">Baseline</td>
+                    <td colspan="8" rowspan="1">From baseline to 6 weeks</td>
+                    <td colspan="8" rowspan="1">From baseline to 12 weeks</td>
+                    <td colspan="4" rowspan="1">From baseline to 24 weeks</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="6" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">Value</td>
+                    <td colspan="4" rowspan="1">Value</td>
+                    <td colspan="3" rowspan="1">
+                      <italic toggle="yes">P</italic> value</td>
+                    <td colspan="5" rowspan="1">Value</td>
+                    <td colspan="3" rowspan="1">
+                      <italic toggle="yes">P</italic> value</td>
+                    <td colspan="3" rowspan="1">Value</td>
+                    <td colspan="2" rowspan="1">
+                      <italic toggle="yes">P</italic> value</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr valign="top">
+                    <td colspan="29" rowspan="1">
+                      <bold>HF<sup>a</sup>-related functional status</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="2" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">Population, n</td>
+                    <td colspan="3" rowspan="1">N/A<sup>b</sup>
+                    </td>
+                    <td colspan="4" rowspan="1">30</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="5" rowspan="1">30</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">26</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="2" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">IG<sup>c</sup>, mean (SD)</td>
+                    <td colspan="3" rowspan="1">66.6 (28.4)</td>
+                    <td colspan="4" rowspan="1">6.9 (14.1)</td>
+                    <td colspan="3" rowspan="1">.048<sup>c</sup>
+                    </td>
+                    <td colspan="5" rowspan="1">3.7 (14.1)</td>
+                    <td colspan="3" rowspan="1">.27</td>
+                    <td colspan="3" rowspan="1">7.4 (10.7)</td>
+                    <td colspan="3" rowspan="1">.07</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="2" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">CG<sup>d</sup>, mean (SD)</td>
+                    <td colspan="3" rowspan="1">69.2 (20.8) 72.9</td>
+                    <td colspan="4" rowspan="1">1.7 (11.8)</td>
+                    <td colspan="3" rowspan="1">.54</td>
+                    <td colspan="5" rowspan="1">4.1 (12.6)</td>
+                    <td colspan="3" rowspan="1">.18</td>
+                    <td colspan="3" rowspan="1">6.5 (11.7)</td>
+                    <td colspan="3" rowspan="1">.03<sup>e</sup>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="29" rowspan="1">
+                      <bold>Quality of life</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="5" rowspan="1">Population, n</td>
+                    <td colspan="4" rowspan="1">N/A</td>
+                    <td colspan="4" rowspan="1">30</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="5" rowspan="1">30</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">26</td>
+                    <td rowspan="1" colspan="1">N/A</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="5" rowspan="1">IG, mean (SD)</td>
+                    <td colspan="4" rowspan="1">62.03 (24.1)</td>
+                    <td colspan="4" rowspan="1">5.8 (13.1)</td>
+                    <td colspan="3" rowspan="1">.07</td>
+                    <td colspan="5" rowspan="1">8.2 (13.5)</td>
+                    <td colspan="3" rowspan="1">.02<sup>e</sup>
+                    </td>
+                    <td colspan="3" rowspan="1">10.8 (16.9)</td>
+                    <td rowspan="1" colspan="1">.01<sup>e</sup>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="5" rowspan="1">CG, mean (SD)</td>
+                    <td colspan="3" rowspan="1">60.2 (20.7)</td>
+                    <td colspan="4" rowspan="1">8.7 (15.3)</td>
+                    <td colspan="3" rowspan="1">.02<sup>e</sup>
+                    </td>
+                    <td colspan="5" rowspan="1">13.0 (19.3)</td>
+                    <td colspan="3" rowspan="1">.01<sup>e</sup>
+                    </td>
+                    <td colspan="3" rowspan="1">15.4 (19.6)</td>
+                    <td colspan="2" rowspan="1">.003<sup>e</sup>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="29" rowspan="1">
+                      <bold>HF</bold>
+                      <bold>self-management knowledge</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="5" rowspan="1">Population, n</td>
+                    <td colspan="5" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">30</td>
+                    <td colspan="4" rowspan="1">N/A</td>
+                    <td colspan="4" rowspan="1">30</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">26</td>
+                    <td rowspan="1" colspan="1">N/A</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="5" rowspan="1">IG, mean (SD)</td>
+                    <td colspan="5" rowspan="1">24.5 (2.6)</td>
+                    <td colspan="3" rowspan="1">1.9 (2.5)</td>
+                    <td colspan="4" rowspan="1">.003<sup>e</sup>
+                    </td>
+                    <td colspan="4" rowspan="1">1.4 (1.7)</td>
+                    <td colspan="3" rowspan="1">.002<sup>e</sup>
+                    </td>
+                    <td colspan="3" rowspan="1">1.1 (2.1)</td>
+                    <td rowspan="1" colspan="1">.03<sup>e</sup>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="5" rowspan="1">CG, mean (SD)</td>
+                    <td colspan="5" rowspan="1">25.0 (2.4)</td>
+                    <td colspan="3" rowspan="1">2.1 (2.5)</td>
+                    <td colspan="4" rowspan="1">.001<sup>e</sup>
+                    </td>
+                    <td colspan="4" rowspan="1">1.1 (1.5)</td>
+                    <td colspan="3" rowspan="1">.005<sup>e</sup>
+                    </td>
+                    <td colspan="3" rowspan="1">1.1 (1.7)</td>
+                    <td rowspan="1" colspan="1">.01<sup>e</sup>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="29" rowspan="1">
+                      <bold>Self-reported</bold>
+                      <bold>HF</bold>
+                      <bold>self-management behaviors</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="5" rowspan="1">Population, n</td>
+                    <td colspan="5" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">30</td>
+                    <td colspan="4" rowspan="1">N/A</td>
+                    <td colspan="4" rowspan="1">31</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">25</td>
+                    <td rowspan="1" colspan="1">N/A</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="5" rowspan="1">IG, mean (SD)</td>
+                    <td colspan="5" rowspan="1">74.1 (21.1)</td>
+                    <td colspan="3" rowspan="1">4.9 (20.4)</td>
+                    <td colspan="4" rowspan="1">.31</td>
+                    <td colspan="4" rowspan="1">9.3 (16.5)</td>
+                    <td colspan="3" rowspan="1">.02<sup>e</sup>
+                    </td>
+                    <td colspan="3" rowspan="1">10.2 (13.4)</td>
+                    <td rowspan="1" colspan="1">.004<sup>e</sup>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="5" rowspan="1">CG, mean (SD)</td>
+                    <td colspan="5" rowspan="1">81.7 (15.5)</td>
+                    <td colspan="3" rowspan="1">−2.7 (9.9)</td>
+                    <td colspan="4" rowspan="1">.26</td>
+                    <td colspan="4" rowspan="1">2.6 (12.4)</td>
+                    <td colspan="3" rowspan="1">.4</td>
+                    <td colspan="3" rowspan="1">0.5 (9.8)</td>
+                    <td rowspan="1" colspan="1">.8</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="29" rowspan="1">
+                      <bold>HF</bold>
+                      <bold>self-efficacy</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="3" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">Population, n</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="4" rowspan="1">30</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="5" rowspan="1">31</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">25</td>
+                    <td colspan="2" rowspan="1">N/A</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="3" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">IG, mean (SD)</td>
+                    <td colspan="3" rowspan="1">69.9 (20.7)</td>
+                    <td colspan="4" rowspan="1">2.2 (25.7)</td>
+                    <td colspan="3" rowspan="1">.7</td>
+                    <td colspan="5" rowspan="1">1.0 (20.5)</td>
+                    <td colspan="3" rowspan="1">.8</td>
+                    <td colspan="3" rowspan="1">3.0 (18.0)</td>
+                    <td colspan="2" rowspan="1">.5</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="3" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">CG, mean (SD)</td>
+                    <td colspan="3" rowspan="1">62.6 (18.4)</td>
+                    <td colspan="4" rowspan="1">6.9 (18.1)</td>
+                    <td colspan="3" rowspan="1">.11</td>
+                    <td colspan="5" rowspan="1">10.2 (12.3)</td>
+                    <td colspan="3" rowspan="1">.002<sup>b</sup>
+                    </td>
+                    <td colspan="3" rowspan="1">7.0 (16.5)</td>
+                    <td colspan="2" rowspan="1">.08</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="29" rowspan="1">
+                      <bold>Motivation for</bold>
+                      <bold>HF</bold>
+                      <bold>self-management behaviors</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="2" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">Population, n</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="4" rowspan="1">30</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="5" rowspan="1">30</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">25</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="2" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">IG, mean (SD)</td>
+                    <td colspan="3" rowspan="1">1.63 (2.2)</td>
+                    <td colspan="4" rowspan="1">−0.1 (1.2)</td>
+                    <td colspan="3" rowspan="1">.75</td>
+                    <td colspan="5" rowspan="1">0.1 (2.6)</td>
+                    <td colspan="3" rowspan="1">.9</td>
+                    <td colspan="3" rowspan="1">−0.6 (2.5)</td>
+                    <td colspan="3" rowspan="1">.4</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="2" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">CG, mean (SD)</td>
+                    <td colspan="3" rowspan="1">1.64 (1.6)</td>
+                    <td colspan="4" rowspan="1">−0.2 (2.2)</td>
+                    <td colspan="3" rowspan="1">.8</td>
+                    <td colspan="5" rowspan="1">–0.3 (3.0)</td>
+                    <td colspan="3" rowspan="1">.7</td>
+                    <td colspan="3" rowspan="1">−0.2 (2.7)</td>
+                    <td colspan="3" rowspan="1">.8</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="29" rowspan="1">
+                      <bold>HF</bold>
+                      <bold>hospitalization</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="28" rowspan="1">
+                      <bold>In the last month</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="2" rowspan="1">Population, n</td>
+                    <td rowspan="1" colspan="1">N/A</td>
+                    <td colspan="6" rowspan="1">31</td>
+                    <td colspan="6" rowspan="1">N/A</td>
+                    <td colspan="2" rowspan="1">31</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">26</td>
+                    <td colspan="2" rowspan="1">N/A</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="2" rowspan="1">IG, mean (SD)</td>
+                    <td rowspan="1" colspan="1">5 (26.3)</td>
+                    <td colspan="6" rowspan="1">1 (7)</td>
+                    <td colspan="6" rowspan="1">N/A</td>
+                    <td colspan="2" rowspan="1">0 (0)</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">1 (7)</td>
+                    <td colspan="2" rowspan="1">N/A</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="2" rowspan="1">CG, mean (SD)</td>
+                    <td rowspan="1" colspan="1">6 (31.6)</td>
+                    <td colspan="6" rowspan="1">1 (6)</td>
+                    <td colspan="6" rowspan="1">N/A</td>
+                    <td colspan="2" rowspan="1">1 (6)</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">0 (0)</td>
+                    <td colspan="2" rowspan="1">N/A</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="28" rowspan="1">
+                      <bold>In the past 6 months</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="2" rowspan="1">Population, n</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="4" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="5" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="2" rowspan="1">N/A</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="2" rowspan="1">IG, mean (SD)</td>
+                    <td colspan="3" rowspan="1">12 (63)</td>
+                    <td colspan="4" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="5" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">2 (15)</td>
+                    <td colspan="2" rowspan="1">N/A</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td colspan="3" rowspan="1">
+                      <break />
+                    </td>
+                    <td colspan="2" rowspan="1">CG, mean (SD)</td>
+                    <td colspan="3" rowspan="1">9 (47)</td>
+                    <td colspan="4" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="5" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">N/A</td>
+                    <td colspan="3" rowspan="1">2 (15)</td>
+                    <td colspan="2" rowspan="1">N/A</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn id="table5fn1">
+                  <p>
+                    <sup>a</sup>HF: heart failure.</p>
+                </fn>
+                <fn id="table5fn2">
+                  <p>
+                    <sup>b</sup>N/A: not applicable.</p>
+                </fn>
+                <fn id="table5fn3">
+                  <p>
+                    <sup>c</sup>IG: intervention group.</p>
+                </fn>
+                <fn id="table5fn4">
+                  <p>
+                    <sup>d</sup>CG: control group.</p>
+                </fn>
+                <fn id="table5fn5">
+                  <p>
+                    <sup>e</sup>Significant at <italic toggle="yes">P</italic>&lt;.05.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+          </sec>
+        </sec>
+      </sec>
+      <sec sec-type="discussion">
+        <title>Discussion</title>
+        <sec>
+          <title>Principal Findings</title>
+          <p>We have demonstrated the feasibility of conducting a randomized controlled trial to compare an SCDG intervention and a sensors-only intervention for improving older adults’ HF self-management behaviors of daily weight monitoring and physical activity and other health outcomes. Despite the constraints imposed by the COVID-19 pandemic, we successfully attained benchmark parameters for the feasibility outcomes of recruitment, retention, intervention engagement, and satisfaction with the intervention among older adults diagnosed with HF. The advantages of recruiting participants and conducting the trial remotely enabled us to increase access to our study from 2 counties to more than 18 counties, which included rural areas. The older adult participants in our study were able to use the digital game app and sensors regardless of their education level, familiarity with digital games, or smartphone platform (ie, iOS or Android).</p>
+          <p>Regarding the behavior outcomes, the IG demonstrated better trends in the primary outcome of weight monitoring behavior, with a higher average of weight monitoring days than the CG: 46% more IG participants than CG participants attained the clinically significant level of weighing 5 days or more in a week. Similarly, the IG participants demonstrated higher engagement in the dual behaviors of weight monitoring and physical activity than the CG participants. Moreover, the IG participants demonstrated significant within-group improvement in self-reported HF self-management behaviors (weight monitoring, exercise, salt restriction, medication adherence, crisis recognition, and related follow-up), which persisted at 24 weeks. This result is promising because improving overall HF outcomes depends on engagement in multiple HF self-management behaviors over long time intervals.</p>
+          <p>Ours is one of the few studies to capture daily physical activity steps of older adults with HF over 12 weeks. Although both IG and CG participants demonstrated an increase in average daily physical steps from the 6th week to the 12th week, the increase was still lower overall than recommended for physical activity steps [<xref rid="ref65" ref-type="bibr">65</xref>]. Given the technical issues with an outdated tracker, the SCDG may motivate higher increases in step levels with better trackers. Although typical recommended levels for cardiovascular health benefits have ranged from 10,000 [<xref rid="ref65" ref-type="bibr">65</xref>] to 15,000 [<xref rid="ref66" ref-type="bibr">66</xref>] steps a day, a study with 16,000 older women found that even an average of 4400 steps a day resulted in significantly lower mortality rates [<xref rid="ref67" ref-type="bibr">67</xref>]. However, older adults with HF often suffer from frailty and fatigue; therefore, it may be harder for them to reach the optimal step levels. In a recent study that examined the walking activity of adults with HF using a step counter over a year, younger age, higher ejection fraction, and lower HF classification were found to be significantly correlated with the number of daily steps [<xref rid="ref68" ref-type="bibr">68</xref>]. Whether modest increases in steps result in health benefits among older adults with HF remains to be seen and may signify a need for additional supportive or palliative interventions that relieve physical or mental symptom burden to ensure optimal quality of life among patients with HF [<xref rid="ref69" ref-type="bibr">69</xref>]. Nevertheless, studies like ours demonstrate actual physical activity engagement in real-world situations and examine the longitudinal relationship between clinically significant physical activity steps and optimal HF outcomes. A recent position paper on measuring physical activity by varied activity monitors for HF in real-world conditions has provided key criteria for the selection of activity monitors based on the aims of the research and observation metrics [<xref rid="ref70" ref-type="bibr">70</xref>]. On the basis of our participants’ experience with the SCDG, future iterations could include the ability to set realistic step goal levels for participants with HF that are lower than 3000 steps and game play duration that is longer than 12 weeks.</p>
+          <p>The within-group trends of improvement in functional status and quality of life in both the IG and CG that persisted until the end of the study demonstrate the potential of digital health interventions to improve outcomes among older adults with HF. Similarly, trends of improvement in HF self-efficacy were observed in both the IG and CG. Both groups were allowed to retain the sensor devices after 12 weeks of behavior data collection, which might have contributed to persistent improvement in perceived functional status, quality of life, and self-efficacy in comparison with baseline levels. The lack of perceptible changes in autonomous regulation of behaviors in either group could be explained by the participants’ perceiving the SCDG and the sensors-only interventions as expecting accountability of their behaviors, which may be analogous to controlled regulation of behavior. Future research can help explore the need and preferences for either kind of behavior regulation for sustaining HF self-management behaviors.</p>
+          <p>Improved HF management at the clinical level may have resulted in the baseline knowledge of HF self-management being already high in both groups. Still, both groups demonstrated trends of modest improvements in knowledge at 6 and 12 weeks that were maintained at 24 weeks.</p>
+          <p>Reduction in HF hospitalization is the desired distal outcome of improved self-management behaviors. Although both groups demonstrated reduction in hospitalization, it is unclear whether the reduction resulted from the interventions or from the worldwide reduction in cardiac-related hospitalizations due to the COVID-19 pandemic [<xref rid="ref62" ref-type="bibr">62</xref>,<xref rid="ref64" ref-type="bibr">64</xref>]. The reduction in hospitalizations by more than 30% in both the groups persisted until the end of the 24-week study period.</p>
+        </sec>
+        <sec>
+          <title>Comparison With Prior Work</title>
+          <p>Recent studies have explored the feasibility of presenting data from fitness tracker sensors or Bluetooth-enabled weighing scales to track behaviors and provide feedback to patients with HF through an mHealth app. In a single-group study with 20 individuals with HF who were followed over 6 months to track weight monitoring, physical activity, and medication adherence, 60% of the participants wore trackers and 45% used the weighing scale for more than 70% of the days [<xref rid="ref71" ref-type="bibr">71</xref>]. In our study, among the 32 participants who installed the SCDG app, 27 (80%) wore the trackers for more than 70% of the days and used the weighing scale for more than 80% of the days at the end of 12 weeks. In addition, the IG participants in our study experienced an increase in HF functional status and similar increases in knowledge in comparison with the IG participants in another recent study with an mHealth app intervention for HF that also employed a Bluetooth weighing scale [<xref rid="ref72" ref-type="bibr">72</xref>]. Although our study’s results with the SCDG app compare favorably with those of similar studies that have examined mHealth apps and sensor devices with patients with HF, given the small sample size in our feasibility trial, the results and findings from our trends analysis should be treated with caution.</p>
+        </sec>
+        <sec>
+          <title>Limitations</title>
+          <p>Digital literacy is often a concern when digital health interventions are implemented with older adults [<xref rid="ref73" ref-type="bibr">73</xref>]. Our study team’s prior experience in conducting usability assessments with older adults with HF as well as in installation of, and training for, devices and apps at the participants’ homes [<xref rid="ref25" ref-type="bibr">25</xref>] helped us to design the information and content to support the participants’ self-installation of the apps and use of the devices. Nevertheless, the study might have suffered from selection bias because participation was voluntary and participants already comfortable with using technology might have been especially motivated to participate. In addition, despite block randomization and stratification by biological sex, a higher proportion of participants in the IG were married or had a partner. Having a partner to support self-management efforts might have resulted in better trends of behavior outcomes in the IG.</p>
+          <p>Another limitation was the research team’s inability to intervene immediately in the event of missing behavioral data or unsafe weight changes throughout the 12-week game play duration. Our approach of using the Twilio app (Twilio Inc) [<xref rid="ref74" ref-type="bibr">74</xref>] for alerting the nursing research assistant to the absence of physical activity or weight monitoring data or to sudden weight changes became unmanageable because of the high volume of text messages. In future studies, developing a dashboard that will allow easier visualization of behavioral data from all participants will provide us with the opportunity to intervene immediately in the event of absent or unsafe levels of behavioral data.</p>
+        </sec>
+        <sec>
+          <title>Conclusions</title>
+          <p>This pilot randomized controlled trial indicates that playing an SCDG app on smartphones is feasible and acceptable for older adults with HF for motivating daily weight monitoring and physical activity. The participants who played the SCDG demonstrated positive trends in daily weight monitoring and physical activity behaviors and reduction in HF hospitalization compared with the sensors-only group. This study justifies fully powered efficacy trials with digital gaming solutions to motivate adherence to HF self-management behaviors and improve the health outcomes of older adults with HF.</p>
+        </sec>
+      </sec>
+    </body>
+  </article>
+</pmc-articleset>

@@ -1,0 +1,200 @@
+{
+  "metadata": {
+    "case_id": 37,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:56:39.154632",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/37_NCT04473326.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/37_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.8
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "id": "P30AG064199-01",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/P30AG064199-01"
+          },
+          "pred_item": {
+            "id": "P30AG064199",
+            "type": "NIH",
+            "domain": "National Institute on Aging of the National Institutes of Health",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.35
+        ],
+        [
+          0.32,
+          0.88
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Reinforcement Learning Intervention Arm",
+            "type": "EXPERIMENTAL",
+            "description": "Up to daily, tailored text messages.",
+            "interventionNames": [
+              "Behavioral: Reinforcement Learning"
+            ]
+          },
+          "pred_item": {
+            "label": "Reinforcement learning text messaging programme",
+            "type": "EXPERIMENTAL",
+            "description": "Patients receive electronic pill bottles for their eligible oral diabetes medications plus a reinforcement learning-based text messaging programme for 6 months. Beginning the morning after randomisation, up to one text message per day is sent that is tailored by a reinforcement learning algorithm using daily adherence data from the electronic pill bottles and baseline patient characteristics. Messages vary in framing, feedback, social reinforcement, content (reminder vs information), and reflection, and the algorithm can also decide to send no message on a given day. Participants also receive standard introductory, pill-bottle synchronisation reminder, and end-of-study text messages.",
+            "interventionNames": [
+              "Reinforcement learning-based text messaging program",
+              "Electronic pill bottle adherence monitoring"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control Arm",
+            "type": "NO_INTERVENTION",
+            "description": "Up to daily, untailored text messages."
+          },
+          "pred_item": {
+            "label": "Control",
+            "type": "NO_INTERVENTION",
+            "description": "Patients receive electronic pill bottles for their eligible oral diabetes medications but do not receive the reinforcement learning-based text messaging programme. They receive only simple standard text messages: an introductory text at randomisation, periodic reminders to synchronise disconnected pill bottles, and a final text with a link to the follow-up questionnaire. No tailored adherence or lifestyle text messages are sent.",
+            "interventionNames": [
+              "Electronic pill bottle adherence monitoring"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.42
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Reinforcement Learning",
+            "description": "Participants in the intervention arm will receive up to daily, tailored text messages based on their electronic pill bottle-measured adherence. Given the participants' baseline characteristics and time-varying responses to the messages, a reinforcement learning algorithm will deliver different text messages and adapt over time to determine which type of messaging works best for each individual participant.",
+            "armGroupLabels": [
+              "Reinforcement Learning Intervention Arm"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Reinforcement learning-based text messaging program",
+            "description": "A 6‑month behavioural intervention in which a reinforcement learning algorithm personalises daily SMS text messages to improve adherence to oral diabetes medications. The system uses daily adherence data from electronic pill bottles (Pillsy), along with baseline characteristics (age, sex, number of medications, baseline HbA1c, patient activation), to select message characteristics (framing: neutral/positive/negative; inclusion of observed adherence feedback; social reinforcement; reminder vs informational content; reflective questions). Adherence (0–1 per day) serves as the reward signal to iteratively optimise future messages. Messages are sent via Microsoft Dynamics 365 SMS, up to once per day, with ~10% of selections randomized to maintain exploration; the algorithm may choose to send no message on a given day.",
+            "armGroupLabels": [
+              "Reinforcement learning text messaging programme"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Medication Adherence",
+            "description": "Medication adherence to type 2 diabetes oral medications (averaged) as measured by the number of dates and times of pillbottle openings in the electronic pill bottles",
+            "timeFrame": "6 months"
+          },
+          "pred_item": {
+            "measure": "Medication adherence over 6-month follow-up",
+            "description": "Average medication adherence assessed by electronic pill bottles, calculated by averaging daily adherence (number of times a patient opened the pill bottle divided by the number of prescribed daily doses for each medication) across all eligible oral diabetes medications for each patient.",
+            "timeFrame": "From the day after randomisation until 183 days after randomisation (6-month follow-up)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Glycemic Control",
+            "description": "Change in glycated hemoglobin A1c from baseline to end of the 6-month follow-up",
+            "timeFrame": "6 months"
+          },
+          "pred_item": {
+            "measure": "Change in glycaemic control (HbA1c)",
+            "description": "Change in glycated haemoglobin A1c (HbA1c) from baseline to follow-up, using routine clinical HbA1c measurements extracted from the electronic health record; the value closest to the patient’s 6-month end of follow-up, up to 1 month after randomisation, will be used.",
+            "timeFrame": "Baseline to approximately 6 months after randomisation (using HbA1c value closest to 6 months, up to 1 month after randomisation)"
+          }
+        }
+      ]
+    }
+  ]
+}

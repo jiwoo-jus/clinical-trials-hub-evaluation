@@ -1,0 +1,226 @@
+{
+  "metadata": {
+    "case_id": 48,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T16:31:51.374762",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/48_NCT03634813.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/48_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.72,
+          0.93
+        ],
+        [
+          0.7,
+          0.28
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "High Blood Pressure Monitoring and Counseling",
+            "type": "EXPERIMENTAL",
+            "description": "Enrolled patients will be fitted with a HBPM device and instructed in its use. Patients will be asked to return the HBPM device on the morning of surgery. At the same time they receive the HBPM device, they will also be provided with the National Institutes of Health (NIH) booklet called \"Your guide on lowering blood pressure\", which has several guidelines regarding diet, exercise and lifestyle changes that can be implemented to improve blood pressure control.",
+            "interventionNames": [
+              "Device: High Blood Pressure Monitor"
+            ]
+          },
+          "pred_item": {
+            "label": "HBPM Group",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received the educational pamphlet and were fitted with a validated home blood pressure monitor (HBPM). They were instructed to conduct resting measurements morning and evening until surgery and received a summary report of their mean home blood pressure readings by mail.",
+            "interventionNames": [
+              "Device: Home Blood Pressure Monitor (HBPM)",
+              "Behavioral: Educational Pamphlet"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "label": "Usual Care",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "The usual care group will receive brief counseling after the PAT visit which will review their blood pressure readings taken at the clinic and how they compare with the American Heart Association (AHA) blood pressure guidelines. They will be offered the suggestion that they should follow up with their primary care doctor 2-4 weeks after their surgical episode is completed, or at their earliest convenience.",
+            "interventionNames": [
+              "Procedure: Usual Care"
+            ]
+          },
+          "pred_item": {
+            "label": "Counseling Group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received brief counseling regarding their apparent hypertension and the importance of blood pressure follow-up. They also received a follow-up letter and an educational pamphlet by mail.",
+            "interventionNames": [
+              "Behavioral: Brief Counseling",
+              "Behavioral: Educational Pamphlet"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.3,
+          0.35,
+          0.95
+        ],
+        [
+          0.3,
+          0.25,
+          0.15
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "High Blood Pressure Monitor",
+            "description": "High Blood Pressure Monitoring device (Omron MX3 model BP742, Omron, Shaumberg, IL)",
+            "armGroupLabels": [
+              "High Blood Pressure Monitoring and Counseling"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "Home Blood Pressure Monitor (HBPM)",
+            "description": "Validated Omron MX3 model BP742 home blood pressure monitor. Participants were instructed to use the device for resting measurements in the morning and evening until the day of surgery. Participants received a mailed summary report of their mean home blood pressure readings.",
+            "armGroupLabels": [
+              "HBPM Group"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.3,
+          "status": "matched",
+          "ref_item": {
+            "type": "PROCEDURE",
+            "name": "Usual Care",
+            "description": "Usual Care",
+            "armGroupLabels": [
+              "Usual Care"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Brief Counseling",
+            "description": "Brief counseling regarding apparent hypertension and the importance of blood pressure follow-up, followed by a mailed follow-up letter.",
+            "armGroupLabels": [
+              "Counseling Group"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.2,
+          0.7,
+          0.98,
+          0.3
+        ],
+        [
+          0.3,
+          0.28,
+          0.3,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Patients Reporting Primary Care Follow-up",
+            "description": "For the primary analysis, we will estimate the proportion of subjects that had a primary care follow-up visit within 60 days",
+            "timeFrame": "60 days"
+          },
+          "pred_item": {
+            "measure": "Primary Care Follow-up Rate",
+            "description": "The percentage of patients who visited their primary care physician (PCP) post-operatively.",
+            "timeFrame": "60 days post-surgery"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 3,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Patients Reporting New/Adjusted Hypertension Treatment.",
+            "description": "For the primary analysis, we will estimate the proportion reporting new/adjusted hypertension treatment within 60 days. The count of participants is the number of patients for whom it was determined that they had new or adjusted hypertension treatment.",
+            "timeFrame": "60 days"
+          },
+          "pred_item": {
+            "measure": "Modification of Hypertension Treatment",
+            "description": "The percentage of patients who received new or adjusted hypertension medications (dose increase, medication change, or new medication added).",
+            "timeFrame": "60 days post-surgery"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Patient Acceptance/Satisfaction With Blood Pressure Care",
+            "description": "Patient Acceptance/Satisfaction With Blood Pressure Care. A questionnaire was provided to all participants, these data were not intended to be compared between treatment arms. The count of participants is the number of participants that reported they were moderately to very satisfied with their care.",
+            "timeFrame": "60 days"
+          },
+          "pred_item": {
+            "measure": "Participant Satisfaction",
+            "description": "Participants rated their satisfaction with the study participation, the NIH brochure, and the follow-up call using 5-point Likert scales ranging from 1 (not at all) to 5 (very much).",
+            "timeFrame": "60 days post-surgery"
+          }
+        }
+      ]
+    }
+  ]
+}

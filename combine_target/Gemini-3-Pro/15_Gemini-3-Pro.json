@@ -1,0 +1,124 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03201419",
+      "organization": {
+        "fullName": "Ferring Pharmaceuticals A/S",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Psychometric evaluation of the Nocturia Impact (NI) Diary",
+      "acronym": "DAWN"
+    },
+    "descriptionModule": {
+      "briefSummary": "Waking up in the middle of the night to urinate is a condition called nocturia and can be very bothersome. To get an idea of how much of an impact this condition has on a person’s life, we tested a NI Diary where patients with this condition can answer a series of 12 questions pertaining to how this condition affects them. During a 12-week clinical trial in which participants received a novel drug candidate, participants were asked on five occasions to answer these questions every evening for three consecutive nights preceding the visit to the clinic. A number of measurement tests were conducted on the diary to ensure it reliably assesses the severity of nocturia and its impact on quality of life (QoL) in the patient population. In exit interviews, participants expressed support for the usefulness of this Diary to reflect their views. This Diary may become a valuable tool for use in clinical trials and real-world studies.",
+      "detailedDescription": "Psychometric evaluation of the Nocturia Impact (NI) Diary was conducted to support its use as a trial endpoint. As part of a randomized, controlled Phase 2 clinical trial investigating a novel drug candidate for nocturnal polyuria, adult nocturia patients completed the NI Diary and a voiding diary for three nights preceding their clinic visit at Baseline and Weeks 1, 4, 8, and 12 (end of treatment). Exit interviews were conducted to obtain patient impressions of the NI Diary. The current study extends earlier work, investigating the reliability, validity, and interpretability of the NI Diary in a larger sample, using a range of evaluations including confirmatory factor analysis (CFA), internal consistency, test–retest reliability, convergent validity, and known-groups validity. Anchor and distribution-based analyses were utilized to identify a meaningful change threshold."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Nocturia",
+        "Nocturnal Polyuria"
+      ],
+      "keywords": [
+        "Nocturia",
+        "Nocturnal polyuria",
+        "Psychometric evaluation",
+        "Patient-reported outcome",
+        "Quality of life",
+        "NI Diary"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized, double-blind, placebo-controlled, multicenter Phase 2 clinical trial",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 302,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Novel drug candidate",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received a novel drug candidate for nocturnal polyuria. The trial design included different dose–response scenarios.",
+          "interventionNames": [
+            "Novel drug candidate"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received a placebo control.",
+          "interventionNames": [
+            "Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Novel drug candidate",
+          "description": "A novel drug candidate investigated for the treatment of nocturnal polyuria.",
+          "armGroupLabels": [
+            "Novel drug candidate"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo comparator used in the double-blind study.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Reduction in nocturnal voids",
+          "description": "Assessed using the night-time voiding diary where participants recorded the time of sleep, any awakenings for voiding, and the number of voids. The number of voids recorded over the three nights before the clinic visit was averaged.",
+          "timeFrame": "Baseline and Weeks 1, 4, 8, and 12"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Nocturia Impact (NI) Diary",
+          "description": "A 12-item questionnaire with 11 core items and a single overall QoL impact question (Q12) that assesses the daily symptom impact of nocturia. Each item is rated on a 5-point response scale. The total score ranges from 0 (lowest severity) to 44 (greatest severity), transformed to a 0–100 scale.",
+          "timeFrame": "Baseline and Weeks 1, 4, 8, and 12"
+        },
+        {
+          "measure": "Patient Global Impression of Severity (PGI-S)",
+          "description": "Patient rating of their current severity of nocturia reported as none (1), mild (2), moderate (3), or severe (4).",
+          "timeFrame": "Baseline, Week 1, and Week 12"
+        },
+        {
+          "measure": "Patient Global Impression of Improvement (PGI-I)",
+          "description": "Patient-rated summary of change in nocturia since starting study treatment reported on a 7-point scale ranging from 'very much better' to 'very much worse'.",
+          "timeFrame": "Week 1 and Week 12"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

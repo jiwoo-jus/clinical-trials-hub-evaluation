@@ -1,0 +1,82 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT02981602,NCT02981602,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].link,EV,EV,,https://www.gsk-studyregister.com/en/trial-details/?id=205695,,,,SecondaryIdLink,protocolSection.identificationModule.secondaryIdInfos.link,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,"Safety, Tolerability, Pharmacokinetics and Antiviral Activity of IONIS-HBVRx in Treatment-Naïve Patients With Chronic HBV Infection",Safety and Activity of Bepirovirsen in Individuals with Chronic Hepatitis B,True,0.76,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,"A Phase 2, Double-Blinded, Randomized, Placebo-Controlled, Dose-Escalation Study to Examine the Safety, Tolerability, Pharmacokinetics and Antiviral Activity of ISIS 505358 in Treatment-Naïve Patients With Chronic HBV Infection",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,To examine the safety and tolerability of IONIS-HBVRx administration to treatment-naive patients with chronic hepatitis B virus infection,"This Phase 2 double-blinded, randomized, placebo-controlled trial evaluated the safety, tolerability, and antiviral activity of bepirovirsen, an antisense oligonucleotide targeting hepatitis B virus (HBV) RNA. The study involved individuals with chronic hepatitis B (CHB), including both treatment-naïve participants and those receiving stable nucleos(t)ide analog (NA) therapy. The primary objective was to assess the safety profile of bepirovirsen, while secondary objectives assessed antiviral activity, specifically the reduction of serum hepatitis B surface antigen (HBsAg) concentrations and HBV DNA.",True,0.82,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,FP,This study examines the effects of IONIS-HBVRx or placebo (3:1 randomization) administered subcutaneously to treatment-naïve patients who are chronically infected with HBV and the effects of subsequent nucleos(t)ide analogue treatment on these patients.,"Chronic HBV infection is associated with significant morbidity, including cirrhosis and hepatocellular carcinoma. Bepirovirsen is a 2′-O-methoxyethyl (2′-MOE) gapmer antisense oligonucleotide that targets all HBV messenger RNAs, aiming to reduce viral proteins and DNA. In this study (NCT02981602), participants with CHB infection were enrolled from centers in Hong Kong and the Republic of Korea. The trial included a dose-escalation design for treatment-naïve patients (randomized to placebo, bepirovirsen 150 mg, or bepirovirsen 300 mg) and an exploratory cohort for patients on stable NA therapy (randomized to placebo or bepirovirsen 300 mg). Study drug or placebo was administered via subcutaneous injection twice weekly for the first two weeks and once weekly for the subsequent two weeks (total of 4 weeks treatment), followed by a 26-week observation period. Key efficacy endpoints included changes from baseline to Day 29 in serum HBsAg and plasma HBV DNA levels. Safety assessments monitored treatment-emergent adverse events, including injection site reactions and alanine aminotransferase (ALT) flares.",False,0.38,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,"['Hepatitis B', 'Chronic Hepatitis B Atypical']","['Chronic Hepatitis B', 'Hepatitis B Virus Infection']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['Hepatitis', 'Chronic', 'HBV']","['Bepirovirsen', 'Antisense Oligonucleotide', 'HBsAg', 'HBV DNA', 'Nucleos(t)ide Analogs', 'Viral Hepatitis', 'Functional Cure']",False,0.0,disjoint,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Double-blinded, placebo-controlled, dose-escalation trial in treatment-naïve (cohorts 1–3) and stable NA therapy (cohort 4) patients. Participants were randomized 3:1 within each dose cohort to receive bepirovirsen or placebo.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,TRIPLE,DOUBLE,True,0.7,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"All participants, study monitors, study center personnel and contract research organization personnel were blinded to treatment assignment.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']",True,1.0,superset,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,31,31,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[3].label,EV,EV,,On-NA: Bepirovirsen 300 mg,,,,ArmGroupLabel,protocolSection.armsInterventionsModule.armGroups.label,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[4].label,EV,EV,,On-NA: Placebo,,,,ArmGroupLabel,protocolSection.armsInterventionsModule.armGroups.label,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[3].type,EV,EV,,EXPERIMENTAL,,,,ArmGroupType,protocolSection.armsInterventionsModule.armGroups.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[4].type,EV,EV,,PLACEBO_COMPARATOR,,,,ArmGroupType,protocolSection.armsInterventionsModule.armGroups.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[3].description,EV,EV,,"Participants receiving stable NA therapy (TDF or ETV) received bepirovirsen 300 mg via subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8 and 11) and once weekly during weeks 3 and 4 (days 15 and 22).",,,,ArmGroupDescription,protocolSection.armsInterventionsModule.armGroups.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[4].description,EV,EV,,"Participants receiving stable NA therapy (TDF or ETV) received placebo via subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8 and 11) and once weekly during weeks 3 and 4 (days 15 and 22).",,,,ArmGroupDescription,protocolSection.armsInterventionsModule.armGroups.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[3].interventionNames,EV,EV,,"['Drug: Bepirovirsen', 'Drug: Nucleos(t)ide analogs (NA)']",,,,ArmGroupInterventionName,protocolSection.armsInterventionsModule.armGroups.interventionNames,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.armGroups[4].interventionNames,EV,EV,,"['Drug: Placebo', 'Drug: Nucleos(t)ide analogs (NA)']",,,,ArmGroupInterventionName,protocolSection.armsInterventionsModule.armGroups.interventionNames,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[2].type,EV,EV,,DRUG,,,,InterventionType,protocolSection.armsInterventionsModule.interventions.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[2].name,EV,EV,,Nucleos(t)ide analogs (NA),,,,InterventionName,protocolSection.armsInterventionsModule.interventions.name,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[2].description,EV,EV,,Stable therapy with tenofovir disoproxil fumarate (TDF) or entecavir (ETV) maintained for at least 12 months prior to screening and continued throughout the study.,,,,InterventionDescription,protocolSection.armsInterventionsModule.interventions.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[2].armGroupLabels,EV,EV,,"['On-NA: Bepirovirsen 300 mg', 'On-NA: Placebo']",,,,InterventionArmGroupLabel,protocolSection.armsInterventionsModule.interventions.armGroupLabels,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Seroconversion to anti-HBs or anti-HBe antibody,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,Proportion of patients with antibody positivity.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,Day 29 and Week 31,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Age 18 to 70 years
+* Chronic HBV infection ≥6 months (e.g., positive for serum HBsAg ≥ 6 months)
+* Plasma HBV DNA ≥ 2 x 1000 IU/mL (HBV DNA adequately suppressed for exploratory nucleos(t)ide analogue experienced cohort)
+* Serum HBsAg ≥ 50 IU/mL
+* Exploratory nucleos(t)ide analogue experienced cohort only: currently taking and have been taking tenofovir or entecavir without changes in drug, dose level and/or frequency of administration for ≥ 12 months and expect to continue taking without change through to the end of their participation in this study
+
+Exclusion Criteria:
+
+* Current or prior receipt of anti-HBV nucleos(t)ide analogue therapy. Patients who have failed prior interferon treatment, greater than 6 months prior to Screening, may be evaluated for possible participation in the study (not applicable for exploratory nucleos(t)ide analogue experienced cohort)
+* History of liver cirrhosis and/or evidence of cirrhosis as determined by any of the following:
+
+  1. Liver biopsy (i.e., Metavir Score F4) within 2 years of Screening, or
+  2. Fibroscan \> 12 KPa, within 12 months of Screening, or
+  3. AST-to-Platelet Index (APRI) \> 2 and Fibrosure result \> 0.7 within 12 months of Screening For patients without a test for cirrhosis in the above timeframes, Fibroscan, or APRI and Fibrosure, may be performed during the screening period to rule out cirrhosis
+* History of liver failure as evidenced by ascites, hepatic encephalopathy, and/or gastric or esophageal varices
+* History of liver disease other than Hepatitis B
+* Co-infection with hepatitis C virus (HCV), human immunodeficiency virus (HIV), or hepatitis D virus (HDV)
+* BMI \> 35 kg/m2
+* History of, or suspected presence of vasculitis
+* Received solid organ or bone marrow transplant
+* Currently taking, or took within 3 months of Screening, any immunosuppressing drugs (e.g., prednisone)
+* Diagnosed hepatocellular carcinoma or suspected hepatocellular carcinoma as evidenced by screening alpha-fetoprotein ≥ 200 ng/mL. If the screening alpha-fetoprotein is ≥ 50 ng/mL and \< 200 ng/mL, the absence of liver mass must be documented by imaging within 6 months before randomization
+* Clinically-significant abnormalities aside from chronic HBV infection in medical history (e.g., previous acute coronary syndrome within 6 months of Screening, major surgery within 3 months of Screening, uncontrolled diabetes) or physical examination
+* History of bleeding diathesis or coagulopathy
+* History of extrahepatic disorders possibly related to HBV immune complexes (e.g., glomerulonephritis, polyarteritis nodosa)
+* History of excess alcohol consumption within 6 months of Screening
+* History of drug abuse or dependence, or recreational use of drugs: within 3 months of Screening for soft drugs (such as marijuana) and within 1-year of Screening for hard drugs (such as cocaine, phencyclidine \[PCP\])","Inclusion Criteria:
+* Chronic HBV infection ≥6 months and serum HBsAg ≥50 IU ml−1
+* Both HBeAg-positive and HBeAg-negative patients
+* Treatment-naïve patients: plasma HBV DNA ≥2 × 10^3 IU ml−1
+* On-NA patients: HBV DNA adequately suppressed (plasma or serum HBV DNA below LLOQ (20 IU ml−1)), taking stable TDF or ETV for ≥12 months and expected to continue taking stable TDF or ETV without change through to the end of participation
+
+Exclusion Criteria:
+* History of liver cirrhosis and/or evidence of cirrhosis, liver failure, liver disease other than hepatitis B
+* Gilbert’s syndrome or history of laboratory results consistent with Gilbert’s syndrome
+* Extrahepatic disorders possibly related to HBV immune complexes
+* Excess alcohol consumption
+* Co-infection with hepatitis C virus, hepatitis D virus or HIV
+* Screening laboratory values of ALT and AST >5× ULN
+* Treatment-naïve patients in current or prior receipt of anti-HBV NA therapy
+* Patients who had failed prior interferon treatment more than 6 months before screening may be evaluated for possible participation",True,0.9,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,FP,18 Years,N/A,False,0.0,success,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,FP,70 Years,N/A,False,0.0,success,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

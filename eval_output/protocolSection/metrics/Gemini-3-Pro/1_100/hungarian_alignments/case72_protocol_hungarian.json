@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "case_id": 72,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T18:27:14.221846",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/72_NCT00976573.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/72_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 6,
+      "similarity_matrix": [
+        [
+          0.3,
+          0.3,
+          0.4,
+          0.28,
+          0.32,
+          0.55
+        ],
+        [
+          0.28,
+          0.38,
+          0.42,
+          0.25,
+          0.35,
+          0.6
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.4,
+          "status": "matched",
+          "ref_item": {
+            "id": "NCI-2011-01968",
+            "type": "REGISTRY",
+            "domain": "CTRP (Clinical Trials Reporting System)"
+          },
+          "pred_item": {
+            "id": "CA025224",
+            "type": "NIH",
+            "domain": "National Cancer Institute"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 5,
+          "score": 0.6,
+          "status": "matched",
+          "ref_item": {
+            "id": "CDR0000654465",
+            "type": "REGISTRY",
+            "domain": "PDQ (Physician Data Query)"
+          },
+          "pred_item": {
+            "id": "UG1CA189863",
+            "type": "NIH",
+            "domain": "National Cancer Institute"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.82
+        ],
+        [
+          0.78,
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Arm I (bevacizumab, paclitaxel, and carboplatin)",
+            "type": "EXPERIMENTAL",
+            "description": "Patients receive bevacizumab IV over 30-90 minutes on days 1 and 15, paclitaxel IV over 60 minutes on days 1, 8, and 15, and carboplatin IV over 30 minutes on day 1. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.",
+            "interventionNames": [
+              "Biological: bevacizumab",
+              "Drug: carboplatin",
+              "Drug: paclitaxel"
+            ]
+          },
+          "pred_item": {
+            "label": "Carboplatin, Paclitaxel, and Bevacizumab",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients in this arm received the chemotherapy regimen of carboplatin, paclitaxel, and bevacizumab.",
+            "interventionNames": [
+              "Drug: Carboplatin",
+              "Drug: Paclitaxel",
+              "Drug: Bevacizumab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "label": "Arm II(bevacizumab, paclitaxel, carboplatin, and everolimus)",
+            "type": "EXPERIMENTAL",
+            "description": "Patients receive bevacizumab, paclitaxel, and carboplatin as in Arm I. Patients also receive everolimus PO QD on 3 days a week. Courses repeat every 28 days in the absence of disease progression or unacceptable toxicity.",
+            "interventionNames": [
+              "Biological: bevacizumab",
+              "Drug: carboplatin",
+              "Drug: everolimus",
+              "Drug: paclitaxel"
+            ]
+          },
+          "pred_item": {
+            "label": "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus",
+            "type": "EXPERIMENTAL",
+            "description": "Patients in this arm received the chemotherapy regimen of carboplatin, paclitaxel, and bevacizumab with the addition of everolimus.",
+            "interventionNames": [
+              "Drug: Carboplatin",
+              "Drug: Paclitaxel",
+              "Drug: Bevacizumab",
+              "Drug: Everolimus"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.6,
+          0.55,
+          0.94,
+          0.4
+        ],
+        [
+          0.98,
+          0.8,
+          0.7,
+          0.4
+        ],
+        [
+          0.4,
+          0.6,
+          0.7,
+          0.98
+        ],
+        [
+          0.82,
+          0.99,
+          0.7,
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "bevacizumab",
+            "description": "Given IV",
+            "armGroupLabels": [
+              "Arm I (bevacizumab, paclitaxel, and carboplatin)",
+              "Arm II(bevacizumab, paclitaxel, carboplatin, and everolimus)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Bevacizumab",
+            "description": "Anti-vascular endothelial growth factor agent included in the combination regimen.",
+            "armGroupLabels": [
+              "Carboplatin, Paclitaxel, and Bevacizumab",
+              "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "carboplatin",
+            "description": "Given IV",
+            "armGroupLabels": [
+              "Arm I (bevacizumab, paclitaxel, and carboplatin)",
+              "Arm II(bevacizumab, paclitaxel, carboplatin, and everolimus)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Carboplatin",
+            "description": "Chemotherapy agent included in the combination regimen.",
+            "armGroupLabels": [
+              "Carboplatin, Paclitaxel, and Bevacizumab",
+              "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 3,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "everolimus",
+            "description": "Given orally",
+            "armGroupLabels": [
+              "Arm II(bevacizumab, paclitaxel, carboplatin, and everolimus)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Everolimus",
+            "description": "Investigational agent added to the chemotherapy regimen in the experimental arm.",
+            "armGroupLabels": [
+              "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 1,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "paclitaxel",
+            "description": "Given IV",
+            "armGroupLabels": [
+              "Arm I (bevacizumab, paclitaxel, and carboplatin)",
+              "Arm II(bevacizumab, paclitaxel, carboplatin, and everolimus)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Paclitaxel",
+            "description": "Chemotherapy agent included in the combination regimen.",
+            "armGroupLabels": [
+              "Carboplatin, Paclitaxel, and Bevacizumab",
+              "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.25
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Progression-free Survival",
+            "description": "The primary endpoint is progression-free survival (PFS) defined as the time from randomization to documentation of disease progression or death without documentation of progression. The distribution of PFS times will be estimated using the Kaplan-Meier method. Progression is defined using the RECIST Criteria as at least a 20% increase in the sum of diameters of target lesions taking as reference the smallest sum of diameters recorded on study (this includes the baseline sum if that is the smallest on study) or the appearance of one or more new lesions. In addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm of target lesions, or the appearance of one or more new lesions, unequivocal progression of existing non-target lesions, although unequivocal progression should not normally trump target lesion status. It must be representative of overall disease status change, not a single lesion increase.",
+            "timeFrame": "Time from randomization to documentation of disease progression or death without documentation of progression;Up to 5 years"
+          },
+          "pred_item": {
+            "measure": "Progression-Free Survival (PFS)",
+            "description": "Assessed for patients with and without detectable BRAF mutation. Time-to-event end points were explored using the Kaplan-Meier method.",
+            "timeFrame": "Follow-up occurred over 43 months"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.02
+        ],
+        [
+          0.12
+        ],
+        [
+          0.08
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Toxicity",
+            "description": "For this secondary endpoint, toxicity is defined as a grade 3 or higher adverse events that is classified as either possibly, probably, or definitely related to study treatment. The assignment of attribution to study treatment and grade (or degree of severity) of the adverse event are classified using the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version 4.0. The percentage of participants reporting a grade 3 or higher toxicity is reported. For a list of all reported adverse events, please refer to the Adverse Events Section below.",
+            "timeFrame": "Up to 5 years"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.12,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Confirmed Tumor Response Rate (Complete Response [CR] or Partial Response [PR]) According to Response Evaluation Criteria in Solid Tumors (RECIST) Criteria",
+            "description": "Confirmed Tumor Response: A confirmed tumor response is defined to be a CR or PR (by the RECIST criteria) noted as the objective status on 2 consecutive evaluations at least 8 weeks apart. The proportion of tumor responses will be estimated by the number of confirmed tumor responses divided by the total number of evaluable patients. A ninety percent confidence interval for the true proportion of confirmed tumor responses will be calculated assuming that the number of confirmed tumor responses follows a binomial distribution.",
+            "timeFrame": "Up to 5 years"
+          },
+          "pred_item": {
+            "measure": "Diagnostic Performance of cfDNA Assay (Sensitivity and Specificity)",
+            "description": "Evaluation of the relationship between the BRAF mutation results obtained from plasma and tissue samples using descriptive statistics including sensitivity, specificity, positive predictive value, and negative predictive value.",
+            "timeFrame": "Baseline (at study enrollment)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Overall Survival Time",
+            "description": "Overall survival time is defined as the time from registration to death due to any cause. The distribution of survival times will be estimated using the method of Kaplan-Meier.",
+            "timeFrame": "up to 5 years"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

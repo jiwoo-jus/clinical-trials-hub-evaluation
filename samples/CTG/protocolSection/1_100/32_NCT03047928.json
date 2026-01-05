@@ -1,0 +1,122 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03047928",
+      "orgStudyIdInfo": {
+        "id": "MM1636"
+      },
+      "organization": {
+        "fullName": "Herlev Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Combination Therapy With Nivolumab and PD-L1/IDO Peptide Vaccine to Patients With Metastatic Melanoma",
+      "officialTitle": "Combination Therapy With Nivolumab and PD-L1/IDO Peptide Vaccine to Patients With Metastatic Melanoma"
+    },
+    "descriptionModule": {
+      "briefSummary": "Combination therapy is becoming more and more general in the treatment of oncological diseases. In this clinical trial combination the standard immunotherapeutic treatment; the programmed death 1 (PD-1) regulatory antibody Nivolumab and a peptide vaccine consisting of programmed death ligand 1 (PD-L1) and Indoleamine 2,3-dioxygenase (IDO) peptides will be tested in patients with metastatic melanoma. Patients will be treated with Nivolumab every second week as long as there is clinical benefit. The PD-L1/IDO peptide vaccine is given from start of Nivolumab and every second week for the first 6 vaccines and thereafter every fourth week up to 1 year.",
+      "detailedDescription": "Background:\n\nHuge advances have been made in the treatment of metastatic melanoma (MM) the past 5 years. Especially immunotherapy has shown promising results.\n\nCancer cells are naturally attacked by cells of the immune system, but can induce a state of tolerance whereby they escape from immune attack. This escape is brought about by many mechanisms. An important one is the programmed death pathway (PD-1/PD-L1). PD-L1 is commonly overexpressed on cancer cells. Interaction of PD-1 on activated T cells and PD-L1 on cancer cells lead to inhibition of the cytotoxic T cells. Another important mechanism is through overexpression of the metabolic enzyme IDO on cancer cells. Activation of IDO also inhibits cytotoxic T cells.\n\nInvestigators have recently identified spontaneous T cell reactivity against PD-L1 and IDO in the tumor microenvironment and in the peripheral blood of patients with MM and healthy donors. Both IDO and PD-L1 reactive CD8 T cells are cytotoxic and can kill cancer cells and immune regulatory cells in vitro.. Thus boosting specific T cells that recognize immune regulatory proteins such as IDO and PD-L1 may directly modulate immune regulation.\n\nDue to distinct mechanisms of action, the combination of treatment with a monoclonal antibody targeting PD-1 (Nivolumab) and a vaccine with peptides against PD-L1 and IDO may have a synergistic effect.\n\nInvestigators have previously reported a phase I trial where, the IDO peptide was tested in 15 patients with MM in combination with Ipilimumab, and no grade 3-4 toxicity was seen. The PD-L1 peptide is currently being tested in a first-in-man study in patients with multiple myeloma.\n\nMethods:\n\nA two-step clinical phase I/II trial design will be used, starting out with a pilot study including 6 patients with MM to test feasibility and tolerability. If the treatment is found feasible the study will be extended to a phase II study with 24 patients. The objective is to describe anti-tumor immune responses and objective responses using RECIST 1.1.\n\nPatients will be treated with Nivolumab in accordance with standard regimen, which involves outpatient IV infusions every second week as long as there is clinical benefit. The PD-L1/IDO peptide vaccine is given from start of Nivolumab and every second week for the first 6 vaccines and thereafter every fourth week up to 1 year. 15 vaccines will be administered in total.\n\nPatients will be followed with clinical controls and diagnostic imaging every 12 weeks. Patients who receive all vaccines will have follow up after 3 and 6 months in parallel with standard of care treatment for Nivolumab."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Melanoma"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 48,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Patient group",
+          "type": "EXPERIMENTAL",
+          "description": "All patients receive the same treatment. Patients included in the protocol are treated with Nivolumab according to usual guidelines, implying outpatient IV infusions of 3 mg/kg biweekly until progression.\n\nThe vaccine is administered on the same day as the administration start of Nivolumab. The vaccination is given biweekly for a total of 6 times, then every fourth week up to week 47, whereupon no additional vaccines will be given. In total, 15 vaccines will be administered. A vaccine consist of 100 μg IDO long peptide, 100 μg PD-L1 long1 peptide and 500 microliters Montanide as adjuvant.\n\nPatients who complete all vaccines will continue Nivolumab treatment after standard guidelines.",
+          "interventionNames": [
+            "Drug: Nivolumab",
+            "Biological: PD-L1/IDO peptide vaccine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Nivolumab",
+          "description": "Nivolumab 3 mg/kg is administered biweekly as long as there is clinical benefit.",
+          "armGroupLabels": [
+            "Patient group"
+          ],
+          "otherNames": [
+            "Opdivo"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "PD-L1/IDO peptide vaccine",
+          "description": "The vaccine is administered biweekly for a total of 6 times, then every fourth week up to 47 weeks, whereupon no additional vaccinations will be given. A total of 15 vaccines will be administered. A vaccine consists of 100 μg PD-L1 long1 peptide, 100 μg IDO long peptide and 500 μl Montande as adjuvant.",
+          "armGroupLabels": [
+            "Patient group"
+          ],
+          "otherNames": [
+            "IO102/IO103 peptide vaccine"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With Adverse Events",
+          "description": "Determine the safety of the combination therapy of Nivolumab and the PD-L1/IDO peptide vaccine for patients with metastatic melanoma by reporting adverse events according to CTCAE v. 4.0.",
+          "timeFrame": "0 - 75 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Objective Response Rate",
+          "description": "Clinical response will be evaluated by RECIST and PERCIST 1.1. Per Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0) for target lesions and assessed by PET-CT scans: Complete Response (CR), Disappearance of all target lesions; Partial Response (PR), \\>=30% decrease in the sum of the longest diameter of target lesions; Overall Response (OR) = CR + PR.",
+          "timeFrame": "The patients were evaluated every 12 weeks until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 58 months"
+        },
+        {
+          "measure": "Overall Survival",
+          "description": "Overall survival (OS) defined as the time from treatment until death or end of follow-up",
+          "timeFrame": "The patients were evaluated from the date of first study treatment until the date of death from any cause, assessed up to 58 months"
+        },
+        {
+          "measure": "Progression Free Survival",
+          "description": "Progression free survival (PFS) defined as the time from treatment initiation to disease progression, relapse or death due to any cause, which ever comes first.\n\nProgression is defined using Response Evaluation Criteria In Solid Tumors Criteria (RECIST v1.0), as a 20% increase in the sum of the longest diameter of target lesions, or a measurable increase in a non-target lesion, or the appearance of new lesions.",
+          "timeFrame": "The patients were evaluated from date of first study treatment until the date of first documented progression or date of death from any cause, whichever came first, assessed up to 58 months"
+        },
+        {
+          "measure": "Evaluation of Vaccine-specific Responses in Peripheral Blood Mononuclear Cells (PBMCs)",
+          "description": "Number of patients with a significant increase of vaccine-specific T cells in the blood during vaccination, assessed by the presence of vaccine-specific responses in peripheral blood mononuclear cells (PBMCs) before, on and after vaccination using a modified interferon (IFN)-γ enzyme-linked immune absorbent spot (ELISPOT) assay.",
+          "timeFrame": "At baseline and up to 24 months after inclusion"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age ≥ 18\n2. The patient has unrespectable or metastatic melanoma with progressive, persistent or recurrent disease on or following treatment with standard of care agents\n3. Patients belonging to one of the following patient groups will be enrolled:\n\n   Cohort A: Anti PD-1/PD-L1 naïve patients (30 patients). The patient is a candidate for Nivolumab monotherapy. Prior anti-PD-1/anti-PD-L1 antibody treatment is not allowed.\n\n   OR Cohort B: Extension cohort (10 patients). Progressive disease ON anti-PD-1 monotherapy.Subjects should not have experienced serious and/or life-threatening toxicity to antibody therapy.\n\n   OR Cohort C: Extension cohort (10 patients). Progressive disease during follow up OFF anti-PD-1 after clinical benefit (SD/PR/CR) on anti-PD-1 therapy. Subjects should not have discontinued antibody therapy due to serious and/or lifethreatening toxicity\n4. At least one measurable parameter according to RECIST 1.1.\n5. The patient has an ECOG performance status of 0 or 1\n6. The patient is a female of childbearing potential with negative pregnancy test\n7. For women: Agreement to use contraceptive methods with a failure rate of \\< 1 % per year during the treatment period and for at least 120 days after the treatment\n8. For men: Agreement to use contraceptive measures and agreement to refrain from donating sperm\n9. The patient has met the following hematological and biochemical criteria:\n\n   1. AST and ALT ≤2,5 X ULN or ≤5 X ULN with liver metastases\n   2. Serum total bilirubin ≤1,5 X ULN or direct bilirubin ≤ ULN for patient with total bilirubin level \\> 1,5 ULN\n   3. Serum creatinine ≤1,5 X ULN\n   4. ANC (Absolute Neutrophil Count) ≥1,000/mcL\n   5. Platelets ≥ 75,000 /mcL\n   6. Hemoglobin ≥ 9 g/dL eller ≥ 5.6 mmol/L\n10. Signed declaration of content after oral and written information about the protocol.\n\nExclusion Criteria:\n\n1. The patient has not recovered to grade 0-1 from adverse events due to prior chemotherapy, radioactive or biological cancer therapy\n2. The patient has not recovered from surgery or is less than 4 weeks from major surgery\n3. The patient has a history of life-threatening or severe immune related adverse events on treatment with another immunotherapy and is considered to be at risk of not recovering\n4. The patient is expected to require any other form of systemic antineoplastic therapy while receiving the treatment\n5. The patient has a history of severe clinical autoimmune disease\n6. The patient has a history of pneumonitis, organ transplant, human immunodeficiency virus positive, active hepatitis B or hepatitis C\n7. The patient requires systemic steroids for management of immune-related adverse events experienced on another immunotherapy\n8. The patient has active CNS metastases and/or carcinomatous meningitis. However, patients with subclinical brain metastases \\< 1 cm can be included (maximum of 4 metastases \\< 1 cm). (Patients with previously treated brain metastases may participate provided they are clinically stable. Patients with untreated brain metastasis will be excluded)\n9. The patient has any condition that will interfere with patient compliance or safety (including but not limited to psychiatric or substance abuse disorders)\n10. The patient is pregnant or breastfeeding\n11. The patient is unable to voluntarily agree to participate by signed informed consent or assent\n12. The patient has an active infection requiring systemic therapy\n13. The patient has received a live virus vaccine within 30 days of planned start of therapy\n14. Known side effects to Montanide ISA-51\n15. Significant medical disorder according to investigator; e.g. severe asthma or chronic obstructive lung disease, dysregulated heart disease or dysregulated diabetes mellitus\n16. Concurrent treatment with other experimental drugs\n17. Any active autoimmune diseases e.g. autoimmune neutropenia, thrombocytopenia or hemolytic anemia, systemic lupus erythematosus, scleroderma, myasthenia gravis, autoimmune glomerulonephritis, autoimmune adrenal deficiency, autoimmune thyroiditis etc.\n18. Severe allergy or anaphylactic reactions earlier in life",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

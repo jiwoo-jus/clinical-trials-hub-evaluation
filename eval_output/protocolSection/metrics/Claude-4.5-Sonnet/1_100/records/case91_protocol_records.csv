@@ -1,0 +1,68 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT01999868,NCT01999868,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.secondaryIdInfos[0].id,EV,EV,,UM1-AI-109565,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,U24-AI-118663,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.secondaryIdInfos[0].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,National Institute of Allergy and Infectious Diseases,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,National Institute of Allergy and Infectious Diseases,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,TP,Efficacy of Ustekinumab Followed by Abatacept for the Treatment of Psoriasis Vulgaris,Effect of Costimulatory Blockade With Abatacept After Ustekinumab Withdrawal in Patients With Moderate to Severe Plaque Psoriasis,True,0.86,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,TP,Efficacy of Ustekinumab (Anti-IL-12/23) Followed by Abatacept (CTLA4-Ig) for the Treatment of Psoriasis Vulgaris (ITN059AI),"Psoriasis Treatment with Abatacept and Ustekinumab: a Study of Efficacy (PAUSE) - A Randomized, Double-Blind, Placebo-Controlled Trial to Determine Whether Costimulatory Signaling Blockade With Abatacept Prevents Psoriasis Relapse After Ustekinumab Withdrawal",True,0.76,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,"The purpose of this study is to determine if the use of ustekinumab, followed by abatacept, will prevent relapse in people with moderate to severe plaque psoriasis.",,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.detailedDescription,FN,FN,"Psoriasis is a chronic immune disease of the skin and joints that affects about 2% of the population. The most common form of psoriasis is plaque psoriasis, also called psoriasis vulgaris. A variety of drugs, including biologics, are available for treatment of moderate to severe psoriasis. When biologic agents are stopped, psoriasis can return (relapse) and often requires the biologic to be restarted and continued. No treatment program has been identified to prevent relapse of psoriasis.
+
+The study design has a lead-in period of weight-based ustekinumab treatment, with all participants receiving either 45 mg ustekinumab (\<= 100 kg) or 90 mg ustekinumab (\> 100 kg) administered subcutaneously at weeks 0 and 4. At week 12, participants will be assessed for a Psoriasis Area and Severity Index (PASI) 75 response to ustekinumab. Participants who do not achieve a PASI 75 score will be discontinued from the investigation and permitted to seek standard therapy.",,False,0.0,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,['Psoriasis'],,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,FN,FN,"['psoriasis vulgaris', 'ustekinumab', 'abatacept']",,False,0.0,,Keyword,protocolSection.conditionsModule.keywords,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,FN,FN,INTERVENTIONAL,,False,0.0,,StudyType,protocolSection.designModule.studyType,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,FN,FN,['PHASE2'],,False,0.0,,Phase,protocolSection.designModule.phases,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,FN,FN,RANDOMIZED,,False,0.0,,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,FN,FN,PARALLEL,,False,0.0,,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,FN,FN,QUADRUPLE,,False,0.0,,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.whoMasked,FN,FN,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']",,False,0.0,,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,FN,FN,108,,False,0.0,,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,FN,FN,"Inclusion Criteria:
+
+* A diagnosis of plaque psoriasis for at least 6 months
+* Baseline Psoriasis Area and Severity Index (PASI) score \>= 12
+* \>=10% body surface area psoriasis involvement
+* Willingness to forgo other available psoriasis therapies, live vaccines, and pregnancy during the trial
+* Ability and willingness to provide informed consent and comply with study requirements
+
+Exclusion Criteria:
+
+* Non-plaque forms of psoriasis
+* Grade 2 or 3 moderate to severe psoriatic arthritis not adequately managed with non-steroidal anti-inflammatory drugs (NSAIDs)
+* Myocardial infarction, unstable angina, cerebrovascular accident, or other significant cardiovascular event within the previous one year
+* Chronic obstructive pulmonary disease (COPD)
+* Comorbid condition that requires regular systemic corticosteroid treatment
+* History of malignancy, except treated basal cell skin carcinoma
+* Treated basal cell skin carcinoma within the previous 5 years
+* Severe, progressive, or uncontrolled renal, hepatic, hematological, gastrointestinal, pulmonary, cardiac, or neurological disease, or any other medical condition that, in the investigator's opinion, places the participant at risk by participating in this study
+* History of recent or ongoing uncontrolled bacterial, viral, fungal, or other opportunistic infections
+* Evidence of infection with Hepatitis B Virus (HBV), Hepatitis C Virus (HCV), or Human Immunodeficiency Virus (HIV)
+* Positive QuantiFERON-TB Gold test. Purified Protein Derivative (PPD) tuberculin test may be substituted for QuantiFERON-TB Gold test.
+* Severe reaction or anaphylaxis to any human monoclonal antibody
+* Any previous treatment with agents targeting Interleukin (IL)-12 or IL-23, including ustekinumab
+* Any previous treatment with abatacept
+* Treatment with biologic agents within previous 3 months, including adalimumab, etanercept, and infliximab
+* Treatment with immunosuppressive medications, including methotrexate, cyclosporine, oral retinoids, prednisone, or phototherapy within previous 4 weeks
+* Topical psoriasis treatment within previous 2 weeks, including topical corticosteroids, vitamin D analogues, retinoids, calcineurin inhibitors, salicylic acid, and coal tar
+* Investigational study medication within previous 6 months
+* Liver function test (aspartate aminotransferase \[AST\], alanine aminotransferase \[ALT\], or alkaline phosphatase) results that are \>/= 2x the upper limit of normal (ULN).
+* Serum creatinine \>= 2x the ULN.
+* Any of the following hematologic abnormalities, confirmed by repeat test at least 1 week apart:
+
+  1. White blood count \<3,000/μL or \>14,000/μL;
+  2. Lymphocyte count \<1,000/μL;
+  3. Neutrophil count \<1,500/μL;
+  4. Platelet count \<150,000 /μL; or
+  5. Hemoglobin \<10 g/dL.
+* Females who are pregnant, lactating, planning on pregnancy during the study period, or unwilling to use FDA-approved method of birth control
+* Receipt of a live vaccine (e.g., varicella, measles, mumps, rubella, cold-attenuated intranasal influenza vaccine, and smallpox) in the 6 weeks before enrollment
+* BCG (Bacillus Calmette-Guérin) vaccine one year prior to enrollment",,False,0.0,,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,FN,FN,False,,False,0.0,,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,FN,FN,ALL,,False,0.0,,Sex,protocolSection.eligibilityModule.sex,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,FN,FN,18 Years,,False,0.0,,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,FN,FN,65 Years,,False,0.0,,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,FN,FN,"['ADULT', 'OLDER_ADULT']",,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

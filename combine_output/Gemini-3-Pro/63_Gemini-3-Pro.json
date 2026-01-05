@@ -1,0 +1,212 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04084392",
+      "secondaryIdInfos": [
+        {
+          "id": "UL1 TR002243",
+          "type": "NIH",
+          "domain": "National Center for Advancing Translational Sciences"
+        }
+      ],
+      "organization": {
+        "fullName": "Vanderbilt University Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Bridging Recovery Initiative Despite Gaps in Entry (BRIDGE)",
+      "officialTitle": "Bridging Recovery Initiative Despite Gaps in Entry (BRIDGE) trial",
+      "acronym": "BRIDGE"
+    },
+    "descriptionModule": {
+      "briefSummary": "The Bridging Recovery Initiative Despite Gaps in Entry (BRIDGE) trial is a pragmatic, single-center, randomized controlled trial designed to evaluate the effectiveness of a transitional 'bridge' clinic for hospitalized patients with opioid use disorder (OUD). The study compares outcomes between patients referred to a co-located, multidisciplinary bridge clinic and those receiving usual care (referral to community providers). The primary objective is to determine if the bridge clinic model reduces hospital length of stay, while secondary objectives include assessing readmission rates, linkage to care, and quality of life.",
+      "detailedDescription": "This study is a pragmatic, superiority, randomized controlled trial enrolling hospitalized patients aged 18 and older with active opioid use disorder (OUD) who are initiating medication for OUD (MOUD), such as buprenorphine-naloxone or naltrexone, in consultation with an addiction consult service. \n\nPatients are randomized 1:1 to either referral to a transitional, multidisciplinary bridge clinic or to usual care. The randomization process is leveraged by the fixed capacity of the bridge clinic. The intervention group receives wraparound services from a team comprising physicians (addiction psychiatry, internal medicine, infectious diseases, pain-anesthesia), nurse practitioners, social workers, case managers, and recovery coaches. This team facilitates the transition from the hospital to long-term outpatient care. The control group receives usual care, which involves standard discharge planning and referral to community MOUD providers by the primary medical team's social worker.\n\nThe primary endpoint is the index hospital length of stay (LOS). Secondary endpoints include 16-week follow-up measures such as linkage to MOUD providers, self-reported medication fills, readmission rates, emergency department visits, recurrent opioid use, overdose, mortality, costs of care, and quality of life measurements (Schwartz Outcome Scale-10 and EQ-5D-5L). For patients with infections suitable for outpatient management, additional outcomes include recurrent infection and completion of antibiotic therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Opioid Use Disorder",
+        "Substance Use Disorders",
+        "Injection Drug Use Related Infections"
+      ],
+      "keywords": [
+        "Opioid Use Disorder",
+        "MOUD",
+        "Bridge Clinic",
+        "Transitional Care",
+        "Addiction Consult Service",
+        "Buprenorphine",
+        "Naltrexone",
+        "Hospital Medicine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Pragmatic, single-center, superiority, randomized, controlled trial.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Given that all providers are aware of the trial itself and the randomization status of a given patient, it is possible that unconscious or conscious biases will lead to differential treatment of patients based on randomization condition."
+        }
+      },
+      "enrollmentInfo": {
+        "count": 336,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Bridge Clinic",
+          "type": "EXPERIMENTAL",
+          "description": "Patients are referred to a co-located, transitional, multidisciplinary bridge clinic for post-acute follow-up care.",
+          "interventionNames": [
+            "Other: Bridge Clinic Intervention"
+          ]
+        },
+        {
+          "label": "Usual Care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients receive traditional care provided by the inpatient medical team’s assigned social worker, with referral to community MOUD providers.",
+          "interventionNames": [
+            "Other: Usual Care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Bridge Clinic Intervention",
+          "description": "A multidisciplinary team (addiction psychiatry, internal medicine, infectious diseases, pain-anesthesia, social work, case management, recovery coaches) providing wraparound services, tailored case management, brief psychotherapeutic interventions, and medication management (MOUD) in a transitional clinic setting.",
+          "armGroupLabels": [
+            "Bridge Clinic"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Usual Care",
+          "description": "Standard of care involving assessment by the primary medical team social worker and referrals to outpatient resources for MOUD and recovery support appropriate to the individual patient’s transportation and insurance needs.",
+          "armGroupLabels": [
+            "Usual Care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Hospital length of stay (LOS)",
+          "description": "The overall index hospital admission length of stay.",
+          "timeFrame": "Index hospital admission"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Linkage to MOUD provider",
+          "description": "Defined as attending at least one visit with a MOUD provider after discharge, based on self-report.",
+          "timeFrame": "16-week follow-up period"
+        },
+        {
+          "measure": "Self-reported buprenorphine-naloxone (or naltrexone) prescriptions filled",
+          "description": "A related process measure of MOUD fill rates.",
+          "timeFrame": "16-week follow-up period"
+        },
+        {
+          "measure": "Readmission rates",
+          "description": "Rate of hospital readmission.",
+          "timeFrame": "16-week follow-up period"
+        },
+        {
+          "measure": "ED visits",
+          "description": "Number of emergency department visits.",
+          "timeFrame": "16-week follow-up period"
+        },
+        {
+          "measure": "Hospital-free days",
+          "description": "Number of days free from hospital admission.",
+          "timeFrame": "16-week follow-up period"
+        },
+        {
+          "measure": "ED-free days",
+          "description": "Number of days free from emergency department visits.",
+          "timeFrame": "16-week follow-up period"
+        },
+        {
+          "measure": "Recurrent opioid use",
+          "description": "Self-reported relapse to use of illicit opioids and frequency of use in preceding 30 days.",
+          "timeFrame": "16-week follow-up period"
+        },
+        {
+          "measure": "Overall quality of life",
+          "description": "Measured by the Schwartz Outcome Scale-10 (SOS10) and EQ-5D-5L.",
+          "timeFrame": "16-week follow-up period"
+        },
+        {
+          "measure": "Overdose",
+          "description": "Number of overdoses since discharge.",
+          "timeFrame": "16-week follow-up period"
+        },
+        {
+          "measure": "Mortality",
+          "description": "Death from any cause.",
+          "timeFrame": "16-week follow-up period"
+        },
+        {
+          "measure": "Cost of care",
+          "description": "Total costs for each admission and care resources utilized.",
+          "timeFrame": "16-week follow-up period"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "New, persistent, or recurrent infection",
+          "description": "Defined by a positive culture and/or change in antibiotic regimen (for patients with infection suitable for outpatient management).",
+          "timeFrame": "16-week follow-up period"
+        },
+        {
+          "measure": "Completion of antibiotic therapy",
+          "description": "Assessment of antibiotic therapy completion (for patients with infection suitable for outpatient management).",
+          "timeFrame": "16-week follow-up period"
+        },
+        {
+          "measure": "Days from negative blood culture to discharge",
+          "description": "The number of days from negative blood culture to first hospital discharge (for patients with infection suitable for outpatient management).",
+          "timeFrame": "Index hospital admission"
+        },
+        {
+          "measure": "Acceptance of referral",
+          "description": "Implementation measurement regarding acceptance of referral to bridge clinic.",
+          "timeFrame": "During hospital admission"
+        },
+        {
+          "measure": "Cross-over rates",
+          "description": "Cross-over from usual care to bridge clinic and vice versa.",
+          "timeFrame": "16-week follow-up period"
+        },
+        {
+          "measure": "Reasons for ineligibility",
+          "description": "Documented reasons why patients were not eligible for referral.",
+          "timeFrame": "Baseline"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion criteria:\n* Aged ≥ 18 years\n* Active OUD being considered for MOUD evidenced by accepting a transitional prescription for buprenorphine-naloxone or intramuscular naltrexone injection\n* Outpatient plans not fixed prior to admission, defined as a patient reporting a prior relationship with an MOUD provider that they intend to continue after discharge, including cash pay practices\n* Patient lives in one of the counties that comprise Middle Tennessee, shown in an additional file listing appropriate zip codes (see Additional file2), in order to ensure a reasonable chance of the patient having regular transportation to the clinic\n\nExclusion criteria:\n* Severe, active co-occurring psychiatric disorders that require a higher level of psychiatric care\n* Patients for whom methadone maintenance is deemed the best choice of MOUD\n* Patients previously randomized in this study\n* Patients who previously were referred to the bridge clinic prior to study initiation",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

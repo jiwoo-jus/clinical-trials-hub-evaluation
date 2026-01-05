@@ -1,0 +1,62 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04181307,NCT04181307,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,DERR1-10.2196/28723,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,REGISTRY,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,National Institute on Aging,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,International Registered Report Identifier (IRRID),,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,A Randomized Trial of a BE-EHR Module to Guide the Care of Older Adults With Diabetes,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,A Randomized Trial of a BE-EHR Module to Guide the Care of Older Adults With Diabetes,,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"This RCT will test a new electronic health record module to improve guideline-compliant care of older adults with diabetes. The module incorporates effective behavioral economics (BE) principles to improve the degree to which care of older adults is compliant with Choosing Wisely (CW) guidelines; this generally involves less aggressive targets for HbA1c, and reductions of medications other than metformin. The implementation of the module is triggered by patient scheduling and medication prescribing in EPIC. The BE principles include suggesting alternatives to medications, requiring justification, setting of appropriate default order sets, and incorporation of anchoring and checklists to guide behavior.","This paper presents the protocol for a study investigating the effectiveness of a Behavioral Economics-Electronic Health Record (BE-EHR) module intervention. The intervention leverages behavioral economics nudges within EHR technology and clinical decision support tools to reduce overtreatment of type 2 diabetes in adults aged 76 years and older, in accordance with the American Geriatrics Society Choosing Wisely (CW) guideline. The study is a pragmatic, investigator-blind, cluster randomized controlled trial comparing the BE-EHR module plus standard care against standard care alone.",True,0.93,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"A pragmatic, investigator-blind, cluster randomized controlled trial was designed to evaluate a 6-component BE-EHR module intervention. A total of 66 New York University Langone Health (NYULH) clinics were randomized 1:1 to receive for 18 months either (1) a 6-component BE-EHR module intervention plus standard care within the NYULH EHR, or (2) standard care only. The intervention is administered to clinicians during patient encounters (e.g., in person, telemedicine, medication refill). 
+
+The BE-EHR module consists of 6 components or ""nudges"" utilizing behavioral economics principles:
+1. Tailored Advisory: A noninterruptive alert describing appropriate treatment guidelines based on patient life expectancy.
+2. Refill Protocol: An alert suggesting metformin optimization or deprescribing during refill generation.
+3. Preference List: A system-level default list prioritizing metformin.
+4. Lab Result: An alert displaying guidelines when new HbA1c results are viewed.
+5. Peer Comparison: A monthly email comparing provider CW compliance rates.
+6. Campaign: A gamified educational email campaign regarding CW guidelines.
+
+The primary outcome is patient-level CW compliance. Secondary outcomes measure the frequency of intervention component firings and provider utilization/interaction with the module components. The study specifically targets older adults (aged 76+) to promote less aggressive glycemic targets and reduction in pharmacologic therapy.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,['Diabetes'],['Type 2 Diabetes Mellitus'],False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Behavioral Economics', 'Electronic Health Records', 'Clinical Decision Support', 'Choosing Wisely', 'Geriatrics', 'Deprescribing', 'Overtreatment', 'Cluster Randomized Controlled Trial']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"A pragmatic, investigator-blind, cluster randomized controlled trial where 66 NYULH clinics were randomized 1:1 to receive either a 6-component BE-EHR module intervention + standard care or standard care only.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,NONE,SINGLE,False,0.2,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"The study design is investigator-blind in that the principal investigators will be blinded to the assignment of clinics to either the intervention or control arm, and all interim analyses will be presented to the blinded study team labeled only as 'arm 1' and 'arm 2'. Only the study statistician and the Medical Center Information Technology Epic data management team will be unblinded, as will the clinicians receiving intervention-based alerts.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,EV,EV,,"['INVESTIGATOR', 'OUTCOMES_ASSESSOR']",,,,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,FN,FN,7630,,False,0.0,,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].measure,EV,EV,,Provider utilization and interaction with BE-EHR module components,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].measure,EV,EV,,Email read receipts,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].description,EV,EV,,Measured by frequency of clicks and workflow sequences with the BE-EHR module components within the NYULH EHR system.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].description,EV,EV,,Collection of read receipts from the peer comparison and campaign nudges sent via email.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].timeFrame,EV,EV,,Up to 18 months,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].timeFrame,EV,EV,,Up to 18 months,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,"Safety Information (Hospitalizations, ED visits, Deaths)",,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,"Frequency of in-patient hospitalizations, emergency department visits, and deaths across the control and intervention arms.",,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,Up to 18 months,,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,FP,"Inclusion Criteria:
+
+* Patient at NYULH primary care or endocrinology practice
+* Practices that have patients aged 75 or older
+* Practices that have a diagnosis of diabetes in the EHR chart
+
+Exclusion Criteria:
+
+• Under age 75","Inclusion Criteria:
+* Patients aged 76 years or older
+* Type 2 diabetes as defined on the patient's ""problem list"" or ""encounter diagnosis"" within the EHR
+
+Exclusion Criteria:
+* Not taking medication to treat diabetes
+* Allergy to the medication metformin
+* Estimated glomerular filtration rate of <30",False,0.68,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,75 Years,76 Years,True,0.95,success,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,['OLDER_ADULT'],['OLDER_ADULT'],True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

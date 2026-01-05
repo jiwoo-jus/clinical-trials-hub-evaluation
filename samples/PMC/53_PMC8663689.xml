@@ -1,0 +1,711 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pmc-articleset xmlns:ns0="http://www.w3.org/1999/xlink">
+  <article xml:lang="en" article-type="research-article" dtd-version="1.4">
+    <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+      <restricted-by>pmc</restricted-by>
+    </processing-meta>
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">JMIR Res Protoc</journal-id>
+        <journal-id journal-id-type="iso-abbrev">JMIR Res Protoc</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">2066</journal-id>
+        <journal-id journal-id-type="pmc-domain">resprot</journal-id>
+        <journal-id journal-id-type="publisher-id">ResProt</journal-id>
+        <journal-title-group>
+          <journal-title>JMIR Research Protocols</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">1929-0748</issn>
+        <publisher>
+          <publisher-name>JMIR Publications Inc.</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC8663689</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC8663689.1</article-id>
+        <article-id pub-id-type="pmcaid">8663689</article-id>
+        <article-id pub-id-type="pmcaiid">8663689</article-id>
+        <article-id pub-id-type="pmid">34783663</article-id>
+        <article-id pub-id-type="doi">10.2196/32521</article-id>
+        <article-id pub-id-type="publisher-id">v10i11e32521</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Protocol</subject>
+          </subj-group>
+          <subj-group subj-group-type="article-type">
+            <subject>Protocol</subject>
+          </subj-group>
+        </article-categories>
+        <title-group>
+          <article-title>Smartband-Based Automatic Smoking Detection and Real-time Mindfulness Intervention: Protocol for a Feasibility Trial</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib contrib-type="editor">
+            <name name-style="western">
+              <surname>Derrick</surname>
+              <given-names initials="T">Thomas</given-names>
+            </name>
+          </contrib>
+        </contrib-group>
+        <contrib-group>
+          <contrib id="contrib1" contrib-type="author">
+            <name name-style="western">
+              <surname>Horvath</surname>
+              <given-names initials="M">Mark</given-names>
+            </name>
+            <degrees>MA</degrees>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1570-9536</contrib-id>
+          </contrib>
+          <contrib id="contrib2" contrib-type="author">
+            <name name-style="western">
+              <surname>Grutman</surname>
+              <given-names initials="A">Aurora</given-names>
+            </name>
+            <xref rid="aff2" ref-type="aff">2</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8162-826X</contrib-id>
+          </contrib>
+          <contrib id="contrib3" contrib-type="author">
+            <name name-style="western">
+              <surname>O'Malley</surname>
+              <given-names initials="SS">Stephanie S</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1976-2369</contrib-id>
+          </contrib>
+          <contrib id="contrib4" contrib-type="author">
+            <name name-style="western">
+              <surname>Gueorguieva</surname>
+              <given-names initials="R">Ralitza</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-0944-5973</contrib-id>
+          </contrib>
+          <contrib id="contrib5" contrib-type="author">
+            <name name-style="western">
+              <surname>Khan</surname>
+              <given-names initials="N">Nashmia</given-names>
+            </name>
+            <degrees>BA</degrees>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3933-6292</contrib-id>
+          </contrib>
+          <contrib id="contrib6" contrib-type="author">
+            <name name-style="western">
+              <surname>Brewer</surname>
+              <given-names initials="JA">Judson A</given-names>
+            </name>
+            <degrees>MD, PhD</degrees>
+            <xref rid="aff3" ref-type="aff">3</xref>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-8984-6704</contrib-id>
+          </contrib>
+          <contrib id="contrib7" contrib-type="author" corresp="yes">
+            <name name-style="western">
+              <surname>Garrison</surname>
+              <given-names initials="KA">Kathleen A</given-names>
+            </name>
+            <degrees>PhD</degrees>
+            <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-7582-1351</contrib-id>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <address>
+              <institution>Department of Psychiatry</institution>
+              <institution>Yale School of Medicine</institution>
+              <addr-line>1 Church Street #730</addr-line>
+              <addr-line>New Haven, CT, 06510</addr-line>
+              <country>United States</country>
+              <phone>1 4152608618</phone>
+              <email>kathleen.garrison@yale.edu</email>
+            </address>
+          </contrib>
+        </contrib-group>
+        <aff id="aff1">
+          <label>1</label>
+          <institution>Department of Psychiatry</institution>
+          <institution>Yale School of Medicine</institution>
+          <addr-line>New Haven, CT</addr-line>
+          <country>United States</country>
+        </aff>
+        <aff id="aff2">
+          <label>2</label>
+          <institution>Yale University</institution>
+          <addr-line>New Haven, CT</addr-line>
+          <country>United States</country>
+        </aff>
+        <aff id="aff3">
+          <label>3</label>
+          <institution>Department of Behavior and Social Sciences</institution>
+          <institution>Brown University School of Public Health</institution>
+          <addr-line>Providence, RI</addr-line>
+          <country>United States</country>
+        </aff>
+        <author-notes>
+          <corresp>Corresponding Author: Kathleen A Garrison <email>kathleen.garrison@yale.edu</email>
+          </corresp>
+        </author-notes>
+        <pub-date pub-type="collection">
+          <month>11</month>
+          <year>2021</year>
+        </pub-date>
+        <pub-date pub-type="epub">
+          <day>16</day>
+          <month>11</month>
+          <year>2021</year>
+        </pub-date>
+        <volume>10</volume>
+        <issue>11</issue>
+        <issue-id pub-id-type="pmc-issue-id">393022</issue-id>
+        <elocation-id>e32521</elocation-id>
+        <self-uri content-type="pmc-pdf" ns0:href="resprot_v10i11e32521.pdf" />
+        <self-uri ns0:href="https://www.researchprotocols.org/2021/11/e32521" />
+        <abstract>
+          <sec sec-type="background">
+            <title>Background</title>
+            <p>Smoking is the leading cause of preventable death in the United States. Smoking cessation interventions delivered by smartphone apps are a promising tool for helping smokers quit. However, currently available smartphone apps for smoking cessation have not exploited their unique potential advantages to aid quitting. Notably, few to no available apps use wearable technologies, most apps require users to self-report their smoking, and few to no apps deliver treatment automatically contingent upon smoking.</p>
+          </sec>
+          <sec sec-type="objective">
+            <title>Objective</title>
+            <p>This pilot trial tests the feasibility of using a smartband and smartphone to monitor and detect smoking and deliver brief mindfulness interventions in real time to reduce smoking.</p>
+          </sec>
+          <sec sec-type="methods">
+            <title>Methods</title>
+            <p>Daily smokers (N=100, ≥5 cigarettes per day) wear a smartband for 60 days to monitor and detect smoking, notify them about their smoking events in real time, and deliver real-time brief mindfulness exercises triggered by detected smoking events or targeted at predicted smoking events. Smokers set a quit date at 30 days. A three-step intervention to reduce smoking is tested. First, participants wear a smartband to monitor and detect smoking, and notify them of smoking events in real time to bring awareness to smoking and triggers for 21 days. Next, a “mindful smoking” exercise is triggered by detected smoking events to bring a clear recognition of the actual effects of smoking for 7 days. Finally, after their quit date, a “RAIN” (recognize, allow, investigate, nonidentification) exercise is delivered to predicted smoking events (based on the initial 3 weeks of tracking smoking data) to help smokers learn to work mindfully with cravings rather than smoke for 30 days. The primary outcomes are feasibility measures of treatment fidelity, adherence, and acceptability. The secondary outcomes are smoking rates at end of treatment.</p>
+          </sec>
+          <sec sec-type="results">
+            <title>Results</title>
+            <p>Recruitment for this trial started in May 2021 and will continue until November 2021 or until enrollment is completed. Data monitoring and management are ongoing for enrolled participants. The final 60-day end of treatment data is anticipated in January 2022. We expect that all trial results will be available in April 2022.</p>
+          </sec>
+          <sec sec-type="conclusions">
+            <title>Conclusions</title>
+            <p>Findings will provide data and information on the feasibility of using a smartband and smartphone to monitor and detect smoking and deliver real-time brief mindfulness interventions, and whether the intervention warrants additional testing for smoking cessation.</p>
+          </sec>
+          <sec sec-type="trial registration">
+            <title>Trial Registration</title>
+            <p>ClinicalTrials.gov <ext-link ext-link-type="pmc:clinical-trial" ns0:href="NCT03995225">NCT03995225</ext-link>; https://clinicaltrials.gov/ct2/show/<ext-link ext-link-type="pmc:clinical-trial" ns0:href="NCT03995225">NCT03995225</ext-link>
+            </p>
+          </sec>
+          <sec sec-type="registered-report">
+            <title>International Registered Report Identifier (IRRID)</title>
+            <p>DERR1-10.2196/32521</p>
+          </sec>
+        </abstract>
+        <kwd-group>
+          <kwd>smartband</kwd>
+          <kwd>smartphone</kwd>
+          <kwd>smoking</kwd>
+          <kwd>mindfulness</kwd>
+          <kwd>craving</kwd>
+          <kwd>mHealth</kwd>
+        </kwd-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-license-ref</meta-name>
+            <meta-value>CC BY</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>ext-peer-rev</meta-name>
+            <meta-value> This paper was peer reviewed by the National Center for Complementary and Integrative Health (National Institutes of Health) - Special Emphasis Panel: Exploratory Clinical Trials of Mind and Body Interventions (MB). See the Multimedia Appendix for the peer-review report; </meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <sec sec-type="introduction">
+        <title>Introduction</title>
+        <p>Smoking is the leading cause of preventable disease, disability, and death in the United States [<xref rid="ref1" ref-type="bibr">1</xref>]. Despite large-scale efforts to reduce smoking, the efficacy of clinical interventions for smoking cessation remains low [<xref rid="ref2" ref-type="bibr">2</xref>]. Although 68% of smokers want to quit, only 7.4% achieve this annually [<xref rid="ref3" ref-type="bibr">3</xref>], demonstrating an urgent need for more effective treatments [<xref rid="ref2" ref-type="bibr">2</xref>]. A potentially impactful way to aid smoking cessation is by delivering interventions via mobile health (mHealth) technology such as smartphone apps, which may deliver scalable and effective treatments more efficiently [<xref rid="ref4" ref-type="bibr">4</xref>-<xref rid="ref9" ref-type="bibr">9</xref>]. Smartphone apps have numerous advantages for delivering evidence-based treatment for smoking; however, reviews of existing apps report that they have not yet used key potential features to aid smoking cessation [<xref rid="ref6" ref-type="bibr">6</xref>,<xref rid="ref7" ref-type="bibr">7</xref>]. In particular, few smoking cessation apps use wearable technologies, most apps require users to self-report smoking, and few apps deliver real-time interventions contingent upon smoking events.</p>
+        <p>One feature of mHealth technology not yet well-integrated into available smoking cessation apps is data from wearables. Many behavioral treatments for smoking teach smokers to self-monitor their smoking habits, including when, where, and how often they smoke, to learn to identify their smoking patterns and triggers. Wearable technologies such as smartbands are being developed to advance current tracking methods by automatically monitoring and detecting smoking and notifying smokers of smoking events in real time. This feature alone has been found to reduce smoking as compared to a control in a pilot trial [<xref rid="ref10" ref-type="bibr">10</xref>], a finding consistent with early studies indicating that self-monitoring of smoking behavior alone could reduce smoking [<xref rid="ref11" ref-type="bibr">11</xref>] particularly among smokers motivated to quit [<xref rid="ref12" ref-type="bibr">12</xref>]. The ability to accurately track smoking is a critical issue as smokers may underestimate or deny smoking [<xref rid="ref13" ref-type="bibr">13</xref>], and discordance between detected and self-reported smoking rates can negatively impact clinical trials and population studies that are used to allocate resources and set health priorities [<xref rid="ref14" ref-type="bibr">14</xref>]. Automatic monitoring and detection of smoking also enables triggering real-time interventions contingent upon detected smoking events. Furthermore, data from wearables can be used to identify individualized profiles of smoking behavior to deliver real-time interventions targeted to <italic toggle="yes">predicted</italic> smoking events. Individual differences in smoking behavior in daily smokers can be characterized by regular patterns of smoking frequency [<xref rid="ref15" ref-type="bibr">15</xref>], driven by nicotine dependence and other affective and situational factors [<xref rid="ref16" ref-type="bibr">16</xref>,<xref rid="ref17" ref-type="bibr">17</xref>]. Therefore, this study tests the feasibility of using a smartband [<xref rid="ref10" ref-type="bibr">10</xref>] to automatically monitor and detect smoking, deliver real-time interventions triggered by smoking events, and deliver real-time interventions targeted to predicted smoking events according to individualized smoking profiles.</p>
+        <p>This study uses smartband and smartphone technology to deliver brief mindfulness interventions for smoking cessation. Mindfulness has been defined as the awareness that arises when paying attention in the present moment, on purpose and nonjudgmentally [<xref rid="ref18" ref-type="bibr">18</xref>]. Mindfulness has been operationalized in research to include maintaining attention on one’s immediate experience and cultivating an attitude of acceptance or nonjudgement toward one’s experience [<xref rid="ref19" ref-type="bibr">19</xref>]. Mindfulness training typically involves the practice of attention regulation, body awareness, and emotion regulation [<xref rid="ref20" ref-type="bibr">20</xref>]. For smoking cessation, mindfulness training may help smokers learn to work mindfully with cues, cravings, and affective states that trigger smoking. Smokers may learn to become aware of cues and triggers, pay attention to cravings as they arise, and accept their experience and learn to ride out the cravings rather than to react by smoking [<xref rid="ref21" ref-type="bibr">21</xref>]. Previous studies indicate that mindfulness training may reduce cigarette craving and withdrawal [<xref rid="ref22" ref-type="bibr">22</xref>,<xref rid="ref23" ref-type="bibr">23</xref>], aid in smoking cessation [<xref rid="ref24" ref-type="bibr">24</xref>,<xref rid="ref25" ref-type="bibr">25</xref>], and support recovery from lapses following a quit attempt [<xref rid="ref26" ref-type="bibr">26</xref>]. Furthermore, mindfulness training for smoking cessation delivered by a smartphone app has been demonstrated to be feasible and found to lessen the association between craving and smoking across treatment versus a comparator app [<xref rid="ref27" ref-type="bibr">27</xref>] and to reduce the neural response to smoking cues and related cigarette consumption [<xref rid="ref28" ref-type="bibr">28</xref>]. The ability to deliver mindfulness interventions for smoking in context, at the critical moment when smoking or craving occurs, may boost efficacy. Furthermore, brief mindfulness practices may be efficient, accessible, and feasible to learn [<xref rid="ref29" ref-type="bibr">29</xref>]. Brief mindfulness interventions for smoking have been associated with significant reductions in negative affect, cravings, withdrawal symptoms, and smoking behavior [<xref rid="ref22" ref-type="bibr">22</xref>,<xref rid="ref30" ref-type="bibr">30</xref>,<xref rid="ref31" ref-type="bibr">31</xref>], and with significant increases in mindfulness [<xref rid="ref29" ref-type="bibr">29</xref>] and have been correlated with outcomes as a component of larger mindfulness training programs for smoking cessation [<xref rid="ref30" ref-type="bibr">30</xref>,<xref rid="ref32" ref-type="bibr">32</xref>].</p>
+        <p>Building upon the extant literature, this study tests the feasibility of using a smartphone and smartband to deliver brief mindfulness exercises to intervene with craving and smoking in real time. This trial tests a three-step intervention among daily smokers making a quit attempt. First, a smartband is used to monitor and detect smoking and notify smokers of smoking events in real time to bring awareness to their smoking behavior and triggers. Next, a “mindful smoking” exercise is triggered by detected smoking events to bring awareness to the present moment effects of smoking—the physical sensations, emotions, and thoughts that result from smoking [<xref rid="ref21" ref-type="bibr">21</xref>,<xref rid="ref33" ref-type="bibr">33</xref>]—to begin a process of disenchantment with smoking [<xref rid="ref21" ref-type="bibr">21</xref>,<xref rid="ref34" ref-type="bibr">34</xref>]. Last, a “RAIN” (recognize, allow, investigate, nonidentification [<xref rid="ref21" ref-type="bibr">21</xref>]) mindfulness exercise is targeted to predicted smoking events according to individualized smoking profiles to help smokers work mindfully with cravings rather than to react by smoking [<xref rid="ref27" ref-type="bibr">27</xref>,<xref rid="ref32" ref-type="bibr">32</xref>]. The goals of this feasibility trial are to establish that treatment can be delivered per protocol, participants will adhere to treatment, and treatment will be acceptable, prior to a larger clinical efficacy trial. This study will evaluate treatment fidelity, adherence, and acceptability, using outcomes consistent with guidelines and prior studies [<xref rid="ref35" ref-type="bibr">35</xref>,<xref rid="ref36" ref-type="bibr">36</xref>].</p>
+      </sec>
+      <sec sec-type="methods">
+        <title>Methods</title>
+        <sec>
+          <title>Overview</title>
+          <p>A feasibility clinical trial funded by the National Center for Complementary and Integrative Health will be conducted. Ethical approval for the procedures of this trial was obtained from the Yale University Institutional Review Board. All participants will provide online informed consent.</p>
+        </sec>
+        <sec>
+          <title>Setting</title>
+          <p>The study will be conducted by smartband and smartphone, and be online and optimized for mobile phones. Treatment delivery will be smartphone- and smartband-based.</p>
+        </sec>
+        <sec>
+          <title>Participants</title>
+          <p>Participants (N=100) will be eligible if they are 18 years or older, smoke at least 5 cigarettes per day (CPD) for at least 2 years, own an iPhone or Android, are fluent in English as intervention content was only available in English at study onset, and are motivated to quit as indicated by a score of at least 4 of 5 on one item of the Action subscale of the Readiness to Change Questionnaire, “I am trying to smoke less than I used to” from 1 (strongly disagree) to 5 (strongly agree) [<xref rid="ref37" ref-type="bibr">37</xref>].</p>
+        </sec>
+        <sec>
+          <title>Recruitment</title>
+          <p>Participants will be recruited using online advertising (eg, Facebook ads) and directed to a study website and online screening survey. This recruitment method has been used previously to enroll 505 participants and randomize 56 participants per month in a similar smartband-based clinical trial [<xref rid="ref27" ref-type="bibr">27</xref>]. This approach should have broad reach. The study website will link to a short screening survey on Yale Qualtrics Survey Tool. The survey will notify an individual if they are eligible or not eligible. If eligible, they will be asked for their contact information and directed to an online informed consent form. Those who provide contact information and online informed consent will receive an email with a copy of the consent form. Participants will then be asked to respond by text to confirm their interest in enrolling in the study and to schedule a short video call with a researcher for onboarding to the study technology. To finalize enrollment, participants must complete the onboarding session.</p>
+        </sec>
+        <sec>
+          <title>Smartband Technology</title>
+          <p>The smartband used in this study is developed by Somatix, Inc [<xref rid="ref10" ref-type="bibr">10</xref>] and uses a machine learning algorithm to identify the hand-to-mouth gestures that characterize smoking a cigarette and differentiate these from other similar hand gestures for a given individual. Briefly, raw data are collected from the accelerometer and gyroscope sensors, and following data stabilization and noise filtering, the algorithm determines which movements being performed by the individual signify smoking. Upon smoking detection (3-4 puffs) the user is asked to confirm or deny smoking on the associated smartphone app.</p>
+        </sec>
+        <sec>
+          <title>Onboarding</title>
+          <p>Upon SMS text message confirmation of interest in enrollment, participants will be shipped the study equipment (smartband, charger, brief instructions, prepaid return envelope). Upon receipt of study equipment, a researcher will conduct an onboarding session with the participant by video call. The onboarding session will walk the participant through using the smartband and smartphone app, including charging and setting up the smartband, pairing and using the smartband and app, and reviewing study instructions. At the end of the onboarding session, participants will be sent a reminder of the study instructions by email. That email will also include troubleshooting tips to use as needed during the trial. Additionally, the email will include a recommendation for quit smoking medications [<xref rid="ref6" ref-type="bibr">6</xref>]. After onboarding, participants will be SMS text messaged a link to the baseline survey to begin the study. Treatment starters will be defined as completing onboarding and wearing the smartband for 1 day.</p>
+        </sec>
+        <sec>
+          <title>Retention Strategies</title>
+          <p>Treatment retention will be defined as wearing the smartband on 75% (45/60) of treatment days. Retention rates will be ensured by emphasizing the importance of follow-up at study initiation, onboarding, and at each study survey; paying US $10 for onboarding, US $20 for the survey at 21 days, US $10 each for surveys at 28 and 60 days, and US $1 per day for wearing the smartband for 12 waking hours; paying for surveys immediately upon survey completion; and paying a US $50 completion bonus at the end of the study for completing all parts of the study.</p>
+        </sec>
+        <sec>
+          <title>Intervention</title>
+          <p>All participants will receive a smartband and smartphone app for the smartband (<xref rid="figure1" ref-type="fig">Figure 1</xref>) and take part in a 60-day intervention (<xref rid="figure2" ref-type="fig">Figure 2</xref>). For the first 21 days, the smartband will automatically monitor and detect smoking and notify the participant of smoking events in real time to bring awareness to smoking behavior and triggers. When smoking is detected, the smartband will vibrate and the participant will receive a notification on their smartphone app asking them to confirm or deny smoking. The notification will remain until they reply. Alternatively, if a participant smokes and it is not detected by the smartband, participants will be asked to manually report the smoking event on the smartphone app. They will be instructed to smoke as much or as little as they like [<xref rid="ref31" ref-type="bibr">31</xref>] but will be asked to set a quit date in 30 days. Participants will be instructed to wear the smartband for 12 waking hours per day. They will be automatically sent a reminder notification from the app if they wear the smartband for &lt;12 hours each day. Additional SMS text message reminders will be sent by the study team if they wear the smartband for &lt;12 hours per day for 48 and 72 hours. If they do not wear the smartband at all, they will receive an additional SMS text message, email, or phone call at 48 and 72 hours. Data from this initial 21 days of smoking monitoring and detection will be used to predict individual patterns of smoking for RAIN mindfulness exercise delivery later in the intervention.</p>
+          <fig position="float" id="figure1" orientation="portrait">
+            <label>Figure 1</label>
+            <caption>
+              <p>Smartband app smoking notification and tracking. Panel 1: Smoking is detected in real time and a notification is pushed to the user to confirm or deny smoking. Panel 2: Cigarettes smoked per day are displayed on the home page of the app. Panel 2-3: The user can report a smoking event manually if smoking is not detected by the smartband by pressing “+” on the home page and confirming smoking.</p>
+            </caption>
+            <graphic position="float" orientation="portrait" ns0:href="resprot_v10i11e32521_fig1.jpg" />
+          </fig>
+          <fig position="float" id="figure2" orientation="portrait">
+            <label>Figure 2</label>
+            <caption>
+              <p>Study timeline. RAIN: recognize, allow, investigate, nonidentification; S: survey; UEQ: User Experiences Questionnaire.</p>
+            </caption>
+            <graphic position="float" orientation="portrait" ns0:href="resprot_v10i11e32521_fig2.jpg" />
+          </fig>
+          <p>At 21 days, participants will be SMS text messaged a link to the 21-day survey. At the end of the survey, they will take part in a brief mindfulness training adapted from Craving to Quit, a smartphone app for mindfulness training for smoking cessation [<xref rid="ref27" ref-type="bibr">27</xref>,<xref rid="ref38" ref-type="bibr">38</xref>]. The mindfulness training uses videos and animation to introduce mindfulness, introduces habit formation using an animation, and provides a guided mindful smoking exercise, which helps participants bring awareness to the present moment effects of smoking to gain a clear recognition of the effects of smoking. After the mindfulness training, participants will be instructed that, for the next week, the smartband will continue to automatically monitor and detect smoking, notify them of smoking events in real time, and ask them to confirm or deny smoking. They should continue to manually report any smoking events that are not detected by the smartband. In addition, anytime smoking is detected by the smartband or manually reported, they will automatically receive an SMS text message with a link to the mindful smoking exercise. They can also access mindful smoking anytime by clicking the link in their text messages. They will be instructed to try to use the mindful smoking exercise any time they smoke. After the mindful smoking exercise, they will be asked to rate how helpful they found it. The link will direct the participant to a 2-minute audio-guided mindful smoking exercise with subtitles, followed by an ecological momentary assessment (EMA) rating, “How helpful did you find this exercise?” (visual analog scale [VAS]: “Not at all helpful” to “Very helpful”).</p>
+          <p>At 28 days, participants will be SMS text messaged a link to the 28-day survey. At the end of the survey, they will take part in another brief mindfulness training adapted from Craving to Quit. The mindfulness training uses videos and animation to introduce the concept of craving, including using an animation with the metaphor of craving as a tantrum toddler (ie, let the toddler cry it out, introduces the concept of urge surfing, and provides a guided mindfulness exercise, RAIN) [<xref rid="ref21" ref-type="bibr">21</xref>]. This exercise teaches smokers how to work mindfully with triggers to smoke using RAIN. Smokers learn to recognize cues, cravings, or affective states that trigger smoking; allow and accept their experience, however pleasant or unpleasant, without trying to change it; investigate what the experience feels like in the body, emotions, and thoughts; and nonidentification with what is happening from moment-to-moment (RAIN). By openly investigating one’s present moment experiences of craving in a nonjudgmental way, one may learn that cravings are physical sensations, thoughts, and emotions that will subside. After the mindfulness training, participants will be reminded of their quit date, and instructed that, for 30 days after their quit date, the RAIN exercise will be sent to them by SMS text message at the times they typically smoke. They can also access the RAIN exercise anytime by clicking the link in their SMS text messages. They will be instructed to try to use the RAIN exercise any time they have a craving to smoke. RAIN will be delivered according to individualized smoking profiles generated from smoking data from the first 21 days of the intervention. Briefly, a prediction algorithm is run every 5 minutes and if &gt;1 smoking event is detected within 15 minutes of the current time on any day in the 21 days, the answer is true. A text cooldown period is set at 45 minutes such that RAIN will not be sent twice within 45 minutes. These parameters were determined by an initial pilot study (n=8 completers) to provide support but minimize text burden. Before and after the RAIN exercise, they will be asked to rate their craving and affect [<xref rid="ref39" ref-type="bibr">39</xref>]. After the RAIN exercise, they will also be asked to rate how helpful and timely they found it. The link will direct participants to a 2-minute audio-guided RAIN exercise with subtitles, preceded by rating, “How much are you craving a cigarette right now?” (VAS: “Not at all” to “Very much”) and “How are you feeling right now?” (VAS: “Very bad” to “Very good”), and followed by the same ratings plus “How helpful did you find this exercise?” (VAS: “Not at all helpful” to “Very helpful”) and “How was the timing of this exercise?” (VAS: “Too early” to “Too late”). Additionally, participants will be instructed that the smartband will continue to automatically monitor and detect smoking, notify them of smoking events in real time, and ask them to confirm or deny smoking. They should continue to manually report any smoking events that are not detected by the smartband. Anytime smoking is detected by the smartband or manually reported, they will continue to automatically receive an SMS text message with a link to the mindful smoking exercise.</p>
+          <p>Throughout the intervention, participants can delay or skip mindfulness exercises by ignoring the SMS text message. They can also access the mindfulness exercises at any time by clicking the link in their SMS text messages. Completion of mindfulness exercises will be time-stamped including onset and offset times for the 2-minute guided audio. To encourage completion of mindfulness exercises, participants will be sent encouraging SMS text messages indicating the number of exercises they completed on the previous day with congratulations or a reminder to use the mindfulness exercises if none were completed. These texts will be sent daily for mindful smoking (week 4) and for the first week of RAIN (week 5), and weekly thereafter for RAIN (weeks 6-8).</p>
+          <p>At 60 days, participants will be SMS text messaged a link to the 60-day (end of treatment) survey. At the end of the survey, individuals who report 1-week point prevalence abstinence from smoking (up to n=30) will take part in carbon monoxide (CO) monitoring. CO levels will be measured using piCO+ Smokerlyzer breath CO monitors (Bedfont Scientific Ltd). Participants will be shipped the CO monitor, brief instructions, and a prepaid return envelope. They will set up a video call with a researcher (recorded), during which they will use the CO monitor and display the output [<xref rid="ref27" ref-type="bibr">27</xref>,<xref rid="ref40" ref-type="bibr">40</xref>,<xref rid="ref41" ref-type="bibr">41</xref>]. Once a participant has completed the 60-day survey and returned any study equipment, they will be paid their final study payment.</p>
+        </sec>
+        <sec>
+          <title>Measurements</title>
+          <sec>
+            <title>Primary Outcome Measures</title>
+            <p>The primary outcome measures for this feasibility clinical trial are treatment fidelity, adherence, and acceptability across the 60-day intervention.</p>
+            <sec>
+              <title>Treatment Fidelity</title>
+              <p>Treatment fidelity measures will include the following: <italic toggle="yes">whether we can accurately detect smoking events</italic> will be measured as the percent of smoking events detected and the rate of false alarms in the first 21 days of the study during which smokers are wearing the smartband to monitor and detect smoking, are notified of smoking events in real time, and are asked to confirm or deny smoking and to self-report any undetected smoking events. We expect to replicate previous findings of &gt;80% detection and negligible rate of false alarms [<xref rid="ref10" ref-type="bibr">10</xref>]. <italic toggle="yes">Whether we can deliver mindful smoking triggered by smoking events</italic> will be determined by the percent of mindful smoking exercises correctly triggered by smoking events and the rate of false alarms in the next 7 days (days 21-28) of the study during which any detected or reported smoking event triggers delivery of the mindful smoking exercise by SMS text message. Again, we expect to replicate previous findings of &gt;80% detection and a negligible rate of false alarms [<xref rid="ref10" ref-type="bibr">10</xref>]. <italic toggle="yes">Whether we can deliver RAIN to predicted smoking events</italic> will be measured as average timeliness ratings in the final 30 days (days 30-60) of the study during which RAIN is delivered to predicted smoking events, and the participant is asked to rate timeliness. Additionally, craving ratings obtained before participants complete RAIN will be used as a proxy for whether we have targeted moments of high craving. We expect on average high timeliness and craving ratings. Ratings will be evaluated as percent of participants and score range (very low, low, moderate, high, very high), with feasibility determined by 75% of participants rating an item as moderate or higher.</p>
+            </sec>
+            <sec>
+              <title>Adherence</title>
+              <p>Adherence will be measured as percent of days participants wear the smartband for 12 waking hours during the 60-day study, percent of smoking notifications answered (confirmed or denied) of those sent during the 60-day study, percent of mindful smoking exercises completed of those sent during the mindful smoking period (days 21-28) of the study, and percent of RAIN exercises completed of those sent during the RAIN period (days 30-60) of the study. Based on our pilot data, adherence cut-offs will be 80% of mindfulness exercises completed relative to the participant’s baseline CPD.</p>
+            </sec>
+            <sec>
+              <title>Acceptability</title>
+              <p>Acceptability will be measured as mean helpfulness ratings, separately for mindful smoking and RAIN exercises. Again, ratings will be evaluated as percent of participants and score range (very low, low, moderate, high, very high), with feasibility determined by 75% of participants rating an item as moderate or higher. Acceptability will additionally be evaluated from feedback on User Experiences Questionnaires administered as part of the surveys at each time point (21, 28, and 60 days), which ask about the acceptability of the technology (eg, was it easy/difficult to complete onboarding, get technical support, keep the smartband charged, or keep the smartband paired with the smartphone) and intervention (eg, helpfulness of mindfulness exercises; liking of mindfulness exercises; or effect of mindfulness exercises on awareness, craving, and smoking). Average responses for a given rating will be evaluated as percent of participants and score range (very low, low, moderate, high, very high), with feasibility determined by 75% of participants rating an item as moderate or higher. The User Experiences Questionnaire at 60 days also includes items adapted from standardized measures including the User Burden Scale [<xref rid="ref42" ref-type="bibr">42</xref>], System Usability Scale [<xref rid="ref43" ref-type="bibr">43</xref>], Mobile Application Rating Scale [<xref rid="ref44" ref-type="bibr">44</xref>], and the 4-item Acceptability of Intervention Measure [<xref rid="ref45" ref-type="bibr">45</xref>].</p>
+            </sec>
+          </sec>
+          <sec>
+            <title>Secondary Outcome Measures</title>
+            <p>The secondary outcome measures will be smoking and abstinence rates. CPD will be measured by self-report at each study survey (baseline, 21, 28, and 60 days) and detected by the smartband. Each study survey will also include the Timeline Followback [<xref rid="ref46" ref-type="bibr">46</xref>] for the previous study period (between surveys). Additionally, 1-week point prevalence abstinence rates at 60 days will be measured by self-report (60-day survey), detected by smartband (no smoking events for the past 7 days), and based on biochemical verification (&lt;6 parts per million CO; n=30). Continuous abstinence (&lt;5 cigarettes since quit date [<xref rid="ref47" ref-type="bibr">47</xref>]) will also be measured by self-report.</p>
+          </sec>
+          <sec>
+            <title>Exploratory Outcomes</title>
+            <p>Exploratory measures will include survey data collected at baseline, 21, 28, and 60 days (<xref rid="table1" ref-type="table">Table 1</xref>): demographics, smoking characteristics including the Fagerström Test for Nicotine Dependence [<xref rid="ref48" ref-type="bibr">48</xref>] and Minnesota Tobacco Withdrawal Scale [<xref rid="ref49" ref-type="bibr">49</xref>], and the Five Facet Mindfulness Questionnaire short form [<xref rid="ref50" ref-type="bibr">50</xref>,<xref rid="ref51" ref-type="bibr">51</xref>] as well as EMA ratings (craving, affect) collected throughout the intervention.</p>
+            <table-wrap position="float" id="table1" orientation="portrait">
+              <label>Table 1</label>
+              <caption>
+                <p>Study measures.</p>
+              </caption>
+              <table frame="hsides" rules="groups" width="1000" cellpadding="5" cellspacing="0" border="1">
+                <col width="30" span="1" />
+                <col width="470" span="1" />
+                <col width="100" span="1" />
+                <col width="100" span="1" />
+                <col width="100" span="1" />
+                <col width="100" span="1" />
+                <col width="100" span="1" />
+                <thead>
+                  <tr valign="top">
+                    <td colspan="2" rowspan="1">Domain and measures</td>
+                    <td rowspan="1" colspan="1">Screen</td>
+                    <td rowspan="1" colspan="1">Day 0</td>
+                    <td rowspan="1" colspan="1">Day 21</td>
+                    <td rowspan="1" colspan="1">Day 28</td>
+                    <td rowspan="1" colspan="1">Day 60</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr valign="top">
+                    <td colspan="7" rowspan="1">
+                      <bold>Demographics</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Demographics</td>
+                    <td rowspan="1" colspan="1">✓<sup>a</sup>
+                    </td>
+                    <td rowspan="1" colspan="1">—<sup>b</sup>
+                    </td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Socioeconomic status</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Language preference</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">PhenX Gender Identity [<xref rid="ref52" ref-type="bibr">52</xref>]</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">PhenX Educational Attainment [<xref rid="ref52" ref-type="bibr">52</xref>]</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="7" rowspan="1">
+                      <bold>Smoking</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Smoking Status [<xref rid="ref47" ref-type="bibr">47</xref>]</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Timeline Followback [<xref rid="ref53" ref-type="bibr">53</xref>]</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Biochemical verification of abstinence</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="7" rowspan="1">
+                      <bold>Nicotine dependence</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Fagerström Test for Nicotine Dependence [<xref rid="ref48" ref-type="bibr">48</xref>]</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Minnesota Nicotine Withdrawal Scale [<xref rid="ref49" ref-type="bibr">49</xref>]</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="7" rowspan="1">
+                      <bold>Other treatments</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Medication Use Questionnaire</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Current e-cigarette use</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="7" rowspan="1">
+                      <bold>Smoking self-efficacy</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Self-efficacy Questionnaire [<xref rid="ref54" ref-type="bibr">54</xref>]</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Readiness to change [<xref rid="ref37" ref-type="bibr">37</xref>]</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="7" rowspan="1">
+                      <bold>Mindfulness</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Five Facet Mindfulness Questionnaire [<xref rid="ref51" ref-type="bibr">51</xref>]</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="7" rowspan="1">
+                      <bold>User Experiences Questionnaire</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">User Experiences Questionnaire</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">User Burden Scale [<xref rid="ref42" ref-type="bibr">42</xref>]</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">System Usability Scale [<xref rid="ref43" ref-type="bibr">43</xref>]</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Mobile Application Rating Scale [<xref rid="ref44" ref-type="bibr">44</xref>]</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Acceptability of Intervention Measure [<xref rid="ref45" ref-type="bibr">45</xref>]</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">Feasibility of Intervention Measure [<xref rid="ref45" ref-type="bibr">45</xref>]</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                  </tr>
+                  <tr valign="top">
+                    <td colspan="7" rowspan="1">
+                      <bold>Other</bold>
+                    </td>
+                  </tr>
+                  <tr valign="top">
+                    <td rowspan="1" colspan="1">
+                      <break />
+                    </td>
+                    <td rowspan="1" colspan="1">eHealth literacy [<xref rid="ref55" ref-type="bibr">55</xref>]</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">✓</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                    <td rowspan="1" colspan="1">—</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table-wrap-foot>
+                <fn id="table1fn1">
+                  <p>
+                    <sup>a</sup>Indicates this item is included.</p>
+                </fn>
+                <fn id="table1fn2">
+                  <p>
+                    <sup>b</sup>Indicates this item is not included.</p>
+                </fn>
+              </table-wrap-foot>
+            </table-wrap>
+          </sec>
+        </sec>
+        <sec>
+          <title>Statistical Analysis</title>
+          <p>Descriptive statistics of primary and secondary outcome measures will be reported prior to statistical analysis. For treatment fidelity, adherence, and acceptability, we will estimate proportions with 95% CIs. Change in smoking will be assessed using mixed regression models to compare self-reported and smartband-detected CPD, using all available data with focused contrasts on changes from baseline to 60 days. Random effects or structured variance-covariance matrix of the errors will be used to take into account correlations of repeated measures within an individual, and the best-fitting model will be selected based on Bayesian information criterion. We will perform exploratory mediation analysis of the exploratory outcomes to test mechanistic hypotheses related to smoking, craving, affect and mindfulness, and other psychological variables.</p>
+        </sec>
+      </sec>
+      <sec sec-type="results">
+        <title>Results</title>
+        <p>The study was approved by the Yale University Institutional Review Board in March 2019 and funded in May 2019. The development and programming of the study intervention has been completed. All study methods and materials have been developed and manualized. An initial pilot study (n=30) was conducted between November 2020 and January 2021 to test and finalize the study intervention and procedures. Recruitment for the full feasibility trial began in May 2021 and will continue until November 2021 or until enrollment is complete. Data monitoring and management are ongoing for enrolled participants. The final 60-day end of treatment data is anticipated to be collected in January 2022. We expect that all trial results will be available in April 2022.</p>
+      </sec>
+      <sec sec-type="discussion">
+        <title>Discussion</title>
+        <sec>
+          <title>Principal Results</title>
+          <p>This trial is designed to test the feasibility of using a smartband and smartphone to automatically monitor and detect smoking, notify smokers of smoking events in real time, and deliver brief mindfulness interventions to help daily smokers in a smoking quit attempt. We anticipate collecting important data and information regarding innovative features of the intervention including using wearable technology (smartband) to monitor and detect (track) smoking, automatically detecting smoking rather than relying on self-report, using data from wearables to identify patterns of individual smoking behavior over time, delivering interventions contingent on smoking events and targeted to predicted smoking events, and combining novel mHealth technology with an evidence-based mindfulness intervention for smoking cessation.</p>
+        </sec>
+        <sec>
+          <title>Limitations</title>
+          <p>There are several potential limitations of this study. First, it is possible that data from the initial 21 days of tracking smoking by smartband may not be sufficient to obtain predictable individualized smoking profiles. This is an empirical question—the trial will provide useful data and information on our ability to predict smoking based on 21 days of smartband data. Second, smoking patterns may change over time in response to being monitored for smoking and other factors. Averaging smoking patterns for an individual across 21 days allows us to account for these changes but stay in line with clinical guidelines for setting a quit date at 30 days [<xref rid="ref56" ref-type="bibr">56</xref>]. Third, additional psychological mechanisms other than craving and affect may impact smoking. Once the feasibility of the approach is established, future studies can include additional EMA ratings to evaluate other key psychosocial factors (eg, anxiety, stress, or activity). Fourth, an alternative design would be to combine the smartband technology with another full-scale treatment for smoking such as the Craving to Quit app [<xref rid="ref27" ref-type="bibr">27</xref>]. However, it is a challenge in clinical trials of smartphone apps to determine efficacious components of multifeatured apps. This study takes a component approach by testing mindful smoking and RAIN exercises, which also builds upon prior work including our own demonstrating that brief mindfulness interventions can reduce craving and smoking. Last, individuals may use the technology inappropriately, such as wearing the smartband on the hand not used for smoking or not wearing the smartband upon waking up. Although we cannot completely control for missed cigarettes due to these or other factors, tracking smoking by smartband vastly improves smoking estimates beyond self-report, and this study will be one of the first to test how smartband-based smoking detection relates to self-reported CPD. These activities and other factors will also be queried on user experience questionnaires at each time point.</p>
+        </sec>
+        <sec>
+          <title>Conclusions</title>
+          <p>This study will provide data and information on whether smartphone- and smartband-based smoking monitoring and detection, notification, and delivery of brief mindfulness interventions aid daily smokers in a quit attempt. Feasibility outcomes will be used to inform future randomized clinical trials of the tested technology and intervention.</p>
+        </sec>
+      </sec>
+    </body>
+  </article>
+</pmc-articleset>

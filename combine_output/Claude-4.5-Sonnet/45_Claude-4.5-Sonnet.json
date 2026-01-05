@@ -1,0 +1,50 @@
+{
+  "protocolSection": {
+    "identificationModule": null,
+    "descriptionModule": null,
+    "conditionsModule": null,
+    "designModule": null,
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Sarilumab group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received usual care plus sarilumab 400 mg intravenously on day 1, with an optional additional 400 mg dose on day 3 if oxygen requirement had not decreased by more than 50%",
+          "interventionNames": [
+            "Drug: Sarilumab",
+            "Other: Usual care"
+          ]
+        },
+        {
+          "label": "Usual care group",
+          "type": "NO_INTERVENTION",
+          "description": "Patients received usual care alone (antibiotic agents, antiviral agents, corticosteroids, vasopressor support, anticoagulants) provided at the discretion of the clinicians",
+          "interventionNames": [
+            "Other: Usual care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Sarilumab",
+          "description": "400 mg administered intravenously on day 1, with possible additional 400 mg dose on day 3 based on clinical response (if oxygen requirement had not decreased by more than 50%)",
+          "armGroupLabels": [
+            "Sarilumab group"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Usual care",
+          "description": "Standard care including antibiotic agents, antiviral agents, corticosteroids, vasopressor support, and anticoagulants as determined by treating physicians",
+          "armGroupLabels": [
+            "Sarilumab group",
+            "Usual care group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": null,
+    "eligibilityModule": null
+  }
+}

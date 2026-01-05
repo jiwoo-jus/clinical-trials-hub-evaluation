@@ -1,0 +1,91 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT01999868,NCT01999868,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].id,EV,EV,,UM1-AI-109565,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,U24-AI-118663,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,National Institute of Allergy and Infectious Diseases (NIAID),,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,National Institute of Allergy and Infectious Diseases (NIAID),,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Efficacy of Ustekinumab Followed by Abatacept for the Treatment of Psoriasis Vulgaris,Psoriasis Treatment with Abatacept and Ustekinumab: a Study of Efficacy (PAUSE),True,0.88,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,Efficacy of Ustekinumab (Anti-IL-12/23) Followed by Abatacept (CTLA4-Ig) for the Treatment of Psoriasis Vulgaris (ITN059AI),Psoriasis Treatment with Abatacept and Ustekinumab: a Study of Efficacy,True,0.86,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"The purpose of this study is to determine if the use of ustekinumab, followed by abatacept, will prevent relapse in people with moderate to severe plaque psoriasis.","This parallel-design, double-blind randomized clinical trial, titled Psoriasis Treatment with Abatacept and Ustekinumab: a Study of Efficacy (PAUSE), evaluates whether abatacept could prevent psoriasis relapse after discontinuation of ustekinumab treatment in adults with plaque psoriasis. The study specifically questions whether blockade of CD28/B7 costimulatory signaling with abatacept suppresses the psoriasis molecular signature and prevents psoriasis relapse following ustekinumab withdrawal.",True,0.99,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"Psoriasis is a chronic immune disease of the skin and joints that affects about 2% of the population. The most common form of psoriasis is plaque psoriasis, also called psoriasis vulgaris. A variety of drugs, including biologics, are available for treatment of moderate to severe psoriasis. When biologic agents are stopped, psoriasis can return (relapse) and often requires the biologic to be restarted and continued. No treatment program has been identified to prevent relapse of psoriasis.
+
+The study design has a lead-in period of weight-based ustekinumab treatment, with all participants receiving either 45 mg ustekinumab (\<= 100 kg) or 90 mg ustekinumab (\> 100 kg) administered subcutaneously at weeks 0 and 4. At week 12, participants will be assessed for a Psoriasis Area and Severity Index (PASI) 75 response to ustekinumab. Participants who do not achieve a PASI 75 score will be discontinued from the investigation and permitted to seek standard therapy.","Psoriasis vulgaris is a systemic immune-mediated disease perpetuated by an IL-23–mediated psoriasis molecular signature and activated IL-17–producing T cells. While Ustekinumab targets the IL-12/IL-23 pathways, ongoing administration is required to prevent relapse. T-cell activation relies on costimulation by CD28 on ligation of CD80/CD86; abatacept (CTLA4-Ig) blocks this interaction, inhibiting T-cell activation. It was hypothesized that costimulatory blockade with abatacept could induce tolerance in pathogenic T cells in resolving lesions, leading to long-term remission.
+
+The PAUSE trial consisted of a lead-in phase (weeks 0 to 12), a randomized treatment phase (weeks 12 to 40), and an observation phase (weeks 40 to 88). During the lead-in phase, participants with moderate to severe psoriasis vulgaris received subcutaneous ustekinumab at weeks 0 and 4. Those who responded to ustekinumab at week 12 (achieving ≥75% improvement from baseline Psoriasis Area and Severity Index [PASI]) were randomized 1:1 to either the continued ustekinumab group or the switched to abatacept group.
+
+Participants randomized to the abatacept group received subcutaneous abatacept, 125 mg weekly, from weeks 12 to 39 and ustekinumab placebo at weeks 16 and 28. Participants randomized to the ustekinumab group received ustekinumab at weeks 16 and 28 and abatacept placebo weekly from weeks 12 to 39. Treatment was discontinued at week 39, and participants were followed up for psoriasis relapse until week 88.
+
+The primary end point was the proportion of participants with psoriasis relapse (defined as loss of ≥50% of the initial PASI improvement) between weeks 12 and 88. Secondary end points included time to psoriasis relapse, proportion of participants with psoriasis relapse between weeks 12 and 40, and adverse events. Additionally, the psoriasis transcriptome in lesional skin and serum cytokines were evaluated to identify mechanisms associated with treatment outcomes.",True,0.86,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,['Psoriasis'],"['Plaque Psoriasis', 'Psoriasis Vulgaris', 'Moderate to Severe Plaque Psoriasis']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['psoriasis vulgaris', 'ustekinumab', 'abatacept']","['Abatacept', 'Ustekinumab', 'CD28/B7 Costimulatory Signaling', 'Psoriasis Relapse', 'Psoriasis Molecular Signature', 'CTLA4-Ig', 'IL-12/IL-23 Pathways']",False,0.6666666666666666,partial,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,FP,['PHASE2'],['NA'],False,0.0,disjoint,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"The trial consisted of a lead-in phase (weeks 0 to 12), a randomized treatment phase (weeks 12 to 40), and an observation phase (weeks 40 to 88). Participants randomized to the abatacept group at week 12 received subcutaneous abatacept, 125 mg weekly, from weeks 12 to 39 and ustekinumab placebo at weeks 16 and 28. Participants randomized to the ustekinumab group received ustekinumab at weeks 16 and 28 and abatacept placebo weekly from weeks 12 to 39.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,QUADRUPLE,DOUBLE,False,0.4,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"Ustekinumab syringes and normal saline placebo syringes were prepared by unblinded site pharmacists and administered by blinded site personnel. Other biologic, immunosuppressive, and topical agents for psoriasis were prohibited.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR']",True,0.75,partial,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,108,108,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Psoriasis transcriptome,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].measure,EV,EV,,Serum cytokines,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,Evaluation of the disease transcriptome in lesional and nonlesional skin specimens using RNA sequencing to identify mechanisms associated with treatment outcomes.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].description,EV,EV,,"Quantification of cytokines (e.g., IL-17A, IL-22, IL-19) using an ultrasensitive immunoassay.",,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,"Weeks 0, 12, 24, 40, and final study visit",,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].timeFrame,EV,EV,,"Weeks 0, 12, 24, and 40",,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* A diagnosis of plaque psoriasis for at least 6 months
+* Baseline Psoriasis Area and Severity Index (PASI) score \>= 12
+* \>=10% body surface area psoriasis involvement
+* Willingness to forgo other available psoriasis therapies, live vaccines, and pregnancy during the trial
+* Ability and willingness to provide informed consent and comply with study requirements
+
+Exclusion Criteria:
+
+* Non-plaque forms of psoriasis
+* Grade 2 or 3 moderate to severe psoriatic arthritis not adequately managed with non-steroidal anti-inflammatory drugs (NSAIDs)
+* Myocardial infarction, unstable angina, cerebrovascular accident, or other significant cardiovascular event within the previous one year
+* Chronic obstructive pulmonary disease (COPD)
+* Comorbid condition that requires regular systemic corticosteroid treatment
+* History of malignancy, except treated basal cell skin carcinoma
+* Treated basal cell skin carcinoma within the previous 5 years
+* Severe, progressive, or uncontrolled renal, hepatic, hematological, gastrointestinal, pulmonary, cardiac, or neurological disease, or any other medical condition that, in the investigator's opinion, places the participant at risk by participating in this study
+* History of recent or ongoing uncontrolled bacterial, viral, fungal, or other opportunistic infections
+* Evidence of infection with Hepatitis B Virus (HBV), Hepatitis C Virus (HCV), or Human Immunodeficiency Virus (HIV)
+* Positive QuantiFERON-TB Gold test. Purified Protein Derivative (PPD) tuberculin test may be substituted for QuantiFERON-TB Gold test.
+* Severe reaction or anaphylaxis to any human monoclonal antibody
+* Any previous treatment with agents targeting Interleukin (IL)-12 or IL-23, including ustekinumab
+* Any previous treatment with abatacept
+* Treatment with biologic agents within previous 3 months, including adalimumab, etanercept, and infliximab
+* Treatment with immunosuppressive medications, including methotrexate, cyclosporine, oral retinoids, prednisone, or phototherapy within previous 4 weeks
+* Topical psoriasis treatment within previous 2 weeks, including topical corticosteroids, vitamin D analogues, retinoids, calcineurin inhibitors, salicylic acid, and coal tar
+* Investigational study medication within previous 6 months
+* Liver function test (aspartate aminotransferase \[AST\], alanine aminotransferase \[ALT\], or alkaline phosphatase) results that are \>/= 2x the upper limit of normal (ULN).
+* Serum creatinine \>= 2x the ULN.
+* Any of the following hematologic abnormalities, confirmed by repeat test at least 1 week apart:
+
+  1. White blood count \<3,000/μL or \>14,000/μL;
+  2. Lymphocyte count \<1,000/μL;
+  3. Neutrophil count \<1,500/μL;
+  4. Platelet count \<150,000 /μL; or
+  5. Hemoglobin \<10 g/dL.
+* Females who are pregnant, lactating, planning on pregnancy during the study period, or unwilling to use FDA-approved method of birth control
+* Receipt of a live vaccine (e.g., varicella, measles, mumps, rubella, cold-attenuated intranasal influenza vaccine, and smallpox) in the 6 weeks before enrollment
+* BCG (Bacillus Calmette-Guérin) vaccine one year prior to enrollment","Inclusion Criteria:
+- Diagnosis of moderate to severe plaque psoriasis
+- Psoriasis Area and Severity Index (PASI) of 12 or greater
+- 10% or more of body surface area affected by psoriasis
+
+Exclusion Criteria:
+- Previous treatment with ustekinumab or other agents that targeted IL-12 or IL-23
+- Moderate to severe psoriatic arthritis
+- Comorbid conditions that conferred an increased risk of study participation",True,0.83,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,65 Years,65 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

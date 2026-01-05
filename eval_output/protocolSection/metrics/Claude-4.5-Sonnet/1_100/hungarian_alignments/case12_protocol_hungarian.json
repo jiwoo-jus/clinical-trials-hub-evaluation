@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "case_id": 12,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-28T05:40:41.150749",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/12_NCT04501952.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/12_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          1.0
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "id": "2020-003510-12",
+            "type": "EUDRACT_NUMBER"
+          },
+          "pred_item": {
+            "id": "2020-003510-12",
+            "type": "EUDRACT_NUMBER",
+            "domain": null,
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.2
+        ],
+        [
+          0.4,
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Remdesivir (RDV)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants will receive a single dose of intravenous (IV) RDV 200 mg on Day 1 followed by IV RDV 100 mg on Days 2 and 3.",
+            "interventionNames": [
+              "Drug: RDV"
+            ]
+          },
+          "pred_item": {
+            "label": "Remdesivir",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received intravenous remdesivir 200 mg on day 1 followed by 100 mg on days 2 and 3 (3-day course)",
+            "interventionNames": [
+              "DRUG: Remdesivir"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants will receive IV placebo to match (PTM) RDV on Days 1 to 3.",
+            "interventionNames": [
+              "Drug: Placebo to Match RDV"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Patients received intravenous placebo on days 1, 2, and 3",
+            "interventionNames": [
+              "DRUG: Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.3
+        ],
+        [
+          0.2,
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "RDV",
+            "description": "Administered as an intravenous infusion",
+            "armGroupLabels": [
+              "Remdesivir (RDV)"
+            ],
+            "otherNames": [
+              "GS-5734™",
+              "Veklury®"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Remdesivir",
+            "description": "Intravenous remdesivir administered as 200 mg on day 1 and 100 mg on days 2 and 3. Remdesivir is a direct-acting nucleotide prodrug inhibitor of the SARS-CoV-2 RNA-dependent RNA polymerase.",
+            "armGroupLabels": [
+              "Remdesivir"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo to Match RDV",
+            "description": "Administered as an intravenous infusion",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Intravenous placebo administered on days 1, 2, and 3 matching the remdesivir administration schedule",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.99,
+          0.1
+        ],
+        [
+          0.08,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Coronavirus Disease 2019 (COVID-19) Related Hospitalization (Defined as at Least 24 Hours of Acute Care) or All-Cause Death by Day 28",
+            "description": "The composite outcome of COVID-19 related hospitalization (defined as at least 24 hours of acute care) or all-cause death by Day 28 was derived by combining the available all-cause death and COVID-19 related hospitalization reported by the site. The first COVID-19 related hospitalization was used for the percentage of COVID-19 related hospitalization or all-cause death. The percentage of the composite outcome was from the Kaplan-Meier estimate.",
+            "timeFrame": "Randomization up to Day 28"
+          },
+          "pred_item": {
+            "measure": "Covid-19-related hospitalization or death from any cause",
+            "description": "A composite of hospitalization related to Covid-19 (as determined by site investigators, who were unaware of trial-group assignments, and defined as ≥24 hours of acute care) or death from any cause",
+            "timeFrame": "By day 28"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants Who Experienced Treatment-Emergent Adverse Events (TEAEs)",
+            "description": "TEAEs were defined as any AEs with an onset date on or after the study drug start date and no later than 30 days after permanent discontinuation of study drug and/or any AEs leading to premature discontinuation of study drug.",
+            "timeFrame": "First dose date up to last dose date (maximum: 3 days) plus 30 days"
+          },
+          "pred_item": {
+            "measure": "Any adverse event",
+            "description": "The primary safety end point was any adverse event",
+            "timeFrame": "By day 28"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 9,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.55,
+          0.08,
+          0.18
+        ],
+        [
+          0.68,
+          0.2,
+          0.1,
+          0.09
+        ],
+        [
+          0.72,
+          0.9,
+          0.12,
+          0.28
+        ],
+        [
+          0.86,
+          0.78,
+          0.08,
+          0.22
+        ],
+        [
+          0.96,
+          0.4,
+          0.12,
+          0.2
+        ],
+        [
+          0.15,
+          0.15,
+          0.97,
+          0.32
+        ],
+        [
+          0.22,
+          0.15,
+          0.15,
+          0.99
+        ],
+        [
+          0.22,
+          0.2,
+          0.12,
+          0.55
+        ],
+        [
+          0.3,
+          0.55,
+          0.15,
+          0.25
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants With COVID-19 Related Medical Visits Attended in Person by the Participant and a Health Care Professional (MAVs) or All-Cause Death by Day 28",
+            "description": "The composite outcome of COVID-19 related MAVs or all-cause death by Day 28 was derived by combining the available all-cause death and COVID-19 related MAVs reported by the site. The percentage of the composite outcome was from the Kaplan-Meier estimate.",
+            "timeFrame": "Randomization up to Day 28"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants Who Died by Day 28",
+            "timeFrame": "Randomization up to Day 28"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With COVID-19 Related Hospitalization at Day 28",
+            "description": "COVID-19 related hospitalization is defined as at least 24 hours of acute care derived by COVID-19 related hospitalization reported by the site. The percentage of the outcome and the corresponding 95% confidence interval were from Kaplan-Meier estimate.",
+            "timeFrame": "Randomization up to Day 28"
+          },
+          "pred_item": {
+            "measure": "Covid-19-related hospitalization",
+            "description": "Covid-19-related hospitalization",
+            "timeFrame": "By days 14 and 28"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants With COVID-19 Related Hospitalization or All-Cause Death by Day 14",
+            "description": "The composite outcome of COVID-19 related hospitalization (defined as at least 24 hours of acute care) or all-cause death by Day 14 was derived by combining the available all-cause death and COVID-19 related hospitalization reported by the site. The first COVID-19 related hospitalization was used for the percentage of COVID-19 related hospitalization or all-cause death. The percentage of the composite outcome was from the Kaplan-Meier estimate.",
+            "timeFrame": "Randomization up to Day 14"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With COVID-19 Related MAVs or All-Cause Death by Day 14",
+            "description": "The composite outcome of COVID-19 related MAVs or all-cause death by Day 14 was derived by combining the available all-cause death and COVID-19 related MAVs reported by the site. The percentage of the composite outcome was from the Kaplan-Meier estimate.",
+            "timeFrame": "Randomization up to Day 14"
+          },
+          "pred_item": {
+            "measure": "Covid-19-related medically attended visits or death from any cause",
+            "description": "The composite of Covid-19-related medically attended visits or death from any cause",
+            "timeFrame": "By days 14 and 28"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 2,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time-Weighted Average Change in Severe Acute Respiratory Syndrome Coronavirus (SARS-CoV-2) Viral Load From Baseline to Day 7",
+            "description": "The time-weighted average change from baseline to study Day 7 (DAVG7) in SARS-CoV-2 viral load is defined as the time-weighted average between the first postbaseline value through the last available value up to Day 7 minus the baseline value in SARS-CoV-2 viral load (log10 copies/mL). DAVG7 is calculated using the trapezoidal rule and the area under the curve (AUC). For participants with data through days prior to Day 7, the time-weighted average change used data up to last available timepoint. If there was no postbaseline data, the participant was excluded from the analysis.",
+            "timeFrame": "Baseline up to Day 7"
+          },
+          "pred_item": {
+            "measure": "Time-weighted average change in nasopharyngeal SARS-CoV-2 viral load",
+            "description": "The time-weighted average change in nasopharyngeal SARS-CoV-2 viral load from baseline",
+            "timeFrame": "From baseline to day 7"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 3,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time to Alleviation (Mild or Absent) of Baseline COVID-19 Symptoms as Reported on the COVID-19-adapted Influenza Patient-Reported Outcome Plus Questionnaire (FLU-PRO Plus)",
+            "description": "The COVID-19-adapted FLU-PRO Plus is a questionnaire that assesses the severity of symptoms in participants with COVID-19 across six body systems: nose, throat, eyes, chest/respiratory, gastrointestinal, and body/systemic. Each domain scores range from 0 (symptom free) to 4 (very severe symptoms). A higher score indicates increased symptom severity. Alleviation is defined as symptom scores of 0 (absent) or 1 (mild). Time to alleviation of baseline COVID-19 symptoms is defined (in days) as: First Date of the two consecutive dates achieving alleviation - First dose Date + 1. If a participant had not achieved symptom alleviation at last FLU-PRO Plus assessment or early discontinuation of study, the participant was censored at last FLU-PRO Plus assessment date.",
+            "timeFrame": "First Dose Date up to Day 14"
+          },
+          "pred_item": {
+            "measure": "Time to alleviation of baseline Covid-19 symptoms",
+            "description": "The time to alleviation of baseline Covid-19 symptoms (with alleviation defined as mild or absent symptoms) as compared with those reported on the baseline FLU-PRO Plus questionnaire completed before the first infusion",
+            "timeFrame": "Through day 14"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants With Worsening After Alleviation of Baseline COVID-19 Symptoms as Reported on the COVID-19-adapted FLU-PRO Plus Questionnaire",
+            "description": "The worsening after alleviation of baseline COVID-19 symptoms is defined as for a participant who has achieved alleviation of baseline COVID-19 symptoms, if symptom scored as 2 or higher at baseline is scored as 2 or higher postbaseline after achieved alleviation, or symptoms scored as 1 at baseline are scored as 1 or higher postbaseline after achieved alleviation. The COVID-19-adapted FLU-PRO Plus was used. It is a questionnaire that assesses the severity of symptoms in participants with COVID-19 across six body systems: nose, throat, eyes, chest/respiratory, gastrointestinal, and body/systemic. Each domain scores range from 0 (symptom free) to 4 (very severe symptoms). A higher score indicates increased symptom severity. Alleviation is defined as symptom scores of 0 (absent) or 1 (mild).",
+            "timeFrame": "First dose date up to Day 28"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants Who Required Oxygen Supplementation by Day 28",
+            "timeFrame": "Randomization up to Day 28"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

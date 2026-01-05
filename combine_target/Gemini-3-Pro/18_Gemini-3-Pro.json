@@ -1,0 +1,167 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04916587",
+      "orgStudyIdInfo": {
+        "id": "UP-21-00009"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R21MH23835",
+          "type": "NIH",
+          "domain": "National Institute of Mental Health"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Southern California",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This study aims to test a multifaceted implementation strategy in partnership with a Federally Qualified Health Center (FQHC) system serving low-income families in Southern California to support the \"ACEs Aware\" policy. The policy promotes adverse childhood experiences (ACEs) screening for children. The study will use a hybrid type 2, stepped-wedge cluster randomized trial design with five primary care clinics to determine if the strategy improves fidelity to screening protocols, the proportion of eligible children screened, and child-level mental health referrals and outcomes.",
+      "detailedDescription": "Adverse childhood experiences (ACEs) are potentially traumatic events occurring before age 18. While California's \"ACEs Aware\" policy provides reimbursement for ACE screening, policy directives alone often do not translate into effective screening. This study addresses this gap by using Implementation Mapping and the EPIS framework to co-create and refine an implementation strategy.\n\nThe proposed strategy includes online training videos, a customized algorithm, technology to improve workflow efficiency, implementation training for internal FQHC personnel, clinic support/coaching, and written protocols. \n\nThe study has two main aims:\n1. Use a participatory approach to refine a multifaceted implementation strategy to support the ACE screening policy in community-based clinics.\n2. Pilot test the feasibility, acceptability, fidelity, and reach of the implementation strategy, and the impact of the ACE policy on child patient-level outcomes.\n\nThe design is a stepped-wedge cluster randomized trial (SW-CRT) involving five clinics serving 3000 children ages 0–5 years. It will test primary hypotheses regarding fidelity and reach, and secondary hypotheses regarding mental health referrals and symptom outcomes. Data collection involves mixed methods, utilizing electronic health records, surveys, and interviews with clinic personnel and caregivers."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Adverse Childhood Experiences",
+        "Toxic Stress",
+        "Trauma",
+        "Mental Health"
+      ],
+      "keywords": [
+        "Pediatric screening",
+        "Implementation Mapping",
+        "EPIS framework",
+        "FQHC",
+        "Medicaid",
+        "Policy implementation",
+        "Stepped-wedge cluster randomized trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "interventionModelDescription": "Hybrid effectiveness-implementation (type 2), stepped-wedge cluster randomized trial (SW-CRT) design without transition periods.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 900,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control Status (Standard Care)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Clinics use standard care to identify children’s mental health needs through developmental screenings, discussions with providers during wellness visits, and/or following the ACE state protocol.",
+          "interventionNames": [
+            "Procedure: Standard Care (ACEs Aware Policy)"
+          ]
+        },
+        {
+          "label": "Intervention Status (Implementation Strategy)",
+          "type": "EXPERIMENTAL",
+          "description": "Clinics implement standard care in addition to the multifaceted implementation strategy.",
+          "interventionNames": [
+            "Other: Multifaceted Implementation Strategy",
+            "Procedure: Standard Care (ACEs Aware Policy)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Multifaceted Implementation Strategy",
+          "description": "A comprehensive strategy comprised of online training videos, a customized algorithm and use of technology (tablets/REDCap) to improve workflow efficiency, implementation training to internal FQHC personnel, clinic support and coaching (technical implementation support), written implementation protocols, and use of the Pediatric Symptoms Checklist (PSC).",
+          "armGroupLabels": [
+            "Intervention Status (Implementation Strategy)"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Standard Care (ACEs Aware Policy)",
+          "description": "Adherence to the state-reimbursable ACE screening protocol, which requires clinics to: (a) complete a 2-h on-line provider training, (b) use the Pediatric ACEs and Related Life-events Screener (PEARLS) tool, (c) use an ACE-associated health conditions checklist, and (d) complete a wellness exam and provide follow-up education.",
+          "armGroupLabels": [
+            "Control Status (Standard Care)",
+            "Intervention Status (Implementation Strategy)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Reach of ACE screenings",
+          "description": "Proportion of eligible children participating in ACE screenings. The number of eligible children will be determined using the FQHC's EMR system.",
+          "timeFrame": "Week 10 of each 10-week time period"
+        },
+        {
+          "measure": "Mental health referral rates",
+          "description": "Number of mental health referrals (behavioral analysis, behavioral health, care coordinator, care management, child development center or social work) divided by the total # of eligible children. This applies to children deemed at high risk for toxic stress and/or mental health needs.",
+          "timeFrame": "Week 10 of each 10-week time period"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Implementation feasibility",
+          "description": "Self-reported 4-item survey evaluating feasibility of implementation efforts. 4-pt Likert scale; average score of 4+ shows ACE policy and implementation strategy perceived as feasible. Good internal consistency (alpha=0.89). Test-retest reliability r= 0.88.",
+          "timeFrame": "Week 10 of the intervention time period"
+        },
+        {
+          "measure": "Implementation acceptability",
+          "description": "Self-reported 4-item survey evaluating acceptability of ACE policy and implementation efforts. 4-pt Likert scale; average score of 4+ shows acceptability. Good internal consistency (alpha= 0.83). Test-retest reliability r= 0.83.",
+          "timeFrame": "Week 10 of the intervention time period"
+        },
+        {
+          "measure": "Fidelity",
+          "description": "Checklist assessing adherence to ACE screening protocols and competence of performance. Calculated as number of endorsed deviations divided by all items in the checklist.",
+          "timeFrame": "Weeks 5 and 10 of each 10-week time period"
+        },
+        {
+          "measure": "Changes in Pediatric Symptoms Checklist (PSC) scores",
+          "description": "Mean score differences from eligible screened children who were deemed at high or at intermediate risk. PSC is a caregiver-reported tool measuring children's psychosocial functioning.",
+          "timeFrame": "10 weeks after child's ACE screening"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Implementation leadership",
+          "description": "12-item survey comprised of four subscales measuring proactive leadership, knowledgeable leadership, supportive leadership, and perseverant leadership. 5-point Likert scale (not at all-very great extent). Subscale score is based on the mean score for the items; total score is the mean of the subscale scores.",
+          "timeFrame": "Week 7 (intervention period) and week 9 (every other time period)"
+        },
+        {
+          "measure": "Implementation climate",
+          "description": "6-item survey measuring the strategic climate for the implementation of interventions. Items are rated on a 5-item Likert scale (completely disagree-completely agree).",
+          "timeFrame": "Week 7 (intervention period) and week 9 (every other time period)"
+        },
+        {
+          "measure": "Child socio-demographic characteristics",
+          "description": "Variables include sex, self-identified race and ethnicity, age, language of preference for health care receipt, born in the USA obtained from the EMR system.",
+          "timeFrame": "Week 10 of each 10-week time period"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n*   **Caregiver:**\n    *   Primary related adult.\n    *   English and/or Spanish speaker.\n    *   Permission to make decisions for the child per clinic documentation.\n    *   Consented as part of the patient paperwork required for a wellness care visit.\n*   **Child:**\n    *   Ages 0-5 years old.\n    *   Eligible for ACE screening during a well-child visit.\n    *   Patient at one of the participating FQHC clinics.\n*   **FQHC Personnel:**\n    *   Involved in the implementation of the ACE screenings during the pilot trial (e.g., screeners, physicians, medical assistants, schedulers, clinic managers).\n\nExclusion Criteria:\n\n*   No specific exclusion criteria mentioned other than failing to meet the inclusion criteria (e.g., non-primary adults, languages other than English/Spanish).",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "0 Years",
+      "maximumAge": "5 Years",
+      "stdAges": [
+        "CHILD"
+      ],
+      "studyPopulation": "The study population consists of caregivers of children ages 0-5 receiving well-child visits at five specific clinics within a large Federally Qualified Health Center (FQHC) system in Southern California. The FQHC serves low-income families, often from racial and ethnic minority backgrounds, in diverse geographic settings (urban, suburban, rural, frontier). Additionally, FQHC personnel involved in ACE screening implementation are part of the study population.",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    }
+  }
+}

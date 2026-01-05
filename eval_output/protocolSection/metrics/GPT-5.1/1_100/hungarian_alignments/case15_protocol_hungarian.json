@@ -1,0 +1,367 @@
+{
+  "metadata": {
+    "case_id": 15,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-28T05:47:35.626747",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/15_NCT03201419.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/15_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 9,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.73,
+          0.35
+        ],
+        [
+          0.68,
+          0.4
+        ],
+        [
+          0.78,
+          0.12
+        ],
+        [
+          0.82,
+          0.33
+        ],
+        [
+          0.78,
+          0.12
+        ],
+        [
+          0.83,
+          0.48
+        ],
+        [
+          0.2,
+          0.78
+        ],
+        [
+          0.78,
+          0.3
+        ],
+        [
+          0.72,
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "FE 201836 500 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "FE 201836 500 μg oral solution and placebo orally disintegrating tablet (ODT), administered once daily",
+            "interventionNames": [
+              "Drug: FE 201836",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "FE 201836 350 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "FE 201836 350 μg oral solution and placebo ODT, administered once daily",
+            "interventionNames": [
+              "Drug: FE 201836",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "FE 201836 250 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "FE 201836 250 μg oral solution and placebo ODT, administered once daily",
+            "interventionNames": [
+              "Drug: FE 201836",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "FE 201836 150 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "FE 201836 150 μg oral solution and placebo ODT, administered once daily",
+            "interventionNames": [
+              "Drug: FE 201836",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "FE 201836 100 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "FE 201836 100 μg oral solution and placebo ODT, administered once daily",
+            "interventionNames": [
+              "Drug: FE 201836",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 0,
+          "score": 0.83,
+          "status": "matched",
+          "ref_item": {
+            "label": "FE 201836 50 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "FE 201836 50 μg oral solution and placebo ODT, administered once daily",
+            "interventionNames": [
+              "Drug: FE 201836",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": {
+            "label": "Novel drug for nocturnal polyuria",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received a novel investigational pharmacologic treatment for nocturnal polyuria as part of a randomized, double-blind, placebo-controlled, multicenter Phase 2 clinical trial. The NI Diary and nocturnal voiding diary were completed during treatment to assess impact on nocturia-related quality of life.",
+            "interventionNames": [
+              "Novel drug for nocturnal polyuria"
+            ]
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "Placebo oral solution and placebo ODT, administered once daily",
+            "interventionNames": [
+              "Drug: Placebo oral solution",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants received placebo in a randomized, double-blind, placebo-controlled, multicenter Phase 2 clinical trial of a novel drug for nocturnal polyuria. The NI Diary and nocturnal voiding diary were completed during treatment to assess impact on nocturia-related quality of life.",
+            "interventionNames": [
+              "Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Desmopressin 25 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "Desmopressin 25 μg ODT and placebo oral solution, administered once daily (female subjects)",
+            "interventionNames": [
+              "Drug: Desmopressin",
+              "Drug: Placebo oral solution"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Desmopressin 50 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "Desmopressin 50 μg ODT and placebo oral solution, administered once daily (male subjects)",
+            "interventionNames": [
+              "Drug: Desmopressin",
+              "Drug: Placebo oral solution"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.7,
+          0.2
+        ],
+        [
+          0.4,
+          0.5
+        ],
+        [
+          0.3,
+          0.93
+        ],
+        [
+          0.4,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "FE 201836",
+            "description": "Oral solution for daily intake",
+            "armGroupLabels": [
+              "FE 201836 100 μg (Randomized Treatment Period)",
+              "FE 201836 150 μg (Randomized Treatment Period)",
+              "FE 201836 250 μg (Randomized Treatment Period)",
+              "FE 201836 350 μg (Randomized Treatment Period)",
+              "FE 201836 50 μg (Randomized Treatment Period)",
+              "FE 201836 500 μg (Randomized Treatment Period)"
+            ],
+            "otherNames": [
+              "Velmupressin"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Novel drug for nocturnal polyuria",
+            "description": "An investigational pharmacologic agent evaluated in the DAWN Phase 2 randomized, double-blind, placebo-controlled trial for treatment of nocturnal polyuria and associated nocturia. Specific compound name, dose, and regimen are not provided in the text.",
+            "armGroupLabels": [
+              "Novel drug for nocturnal polyuria"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Desmopressin",
+            "description": "Desmopressin Orally Disintegrating Tablet (ODT)",
+            "armGroupLabels": [
+              "Desmopressin 25 μg (Randomized Treatment Period)",
+              "Desmopressin 50 μg (Randomized Treatment Period)"
+            ],
+            "otherNames": [
+              "NOCDURNA"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo oral solution",
+            "description": "Manufactured to mimic experimental drug",
+            "armGroupLabels": [
+              "Desmopressin 25 μg (Randomized Treatment Period)",
+              "Desmopressin 50 μg (Randomized Treatment Period)",
+              "Placebo (Randomized Treatment Period)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo comparator administered in the DAWN Phase 2 randomized, double-blind, placebo-controlled trial evaluating a novel drug for nocturnal polyuria.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo ODT",
+            "description": "Manufactured to mimic experimental drug",
+            "armGroupLabels": [
+              "FE 201836 100 μg (Randomized Treatment Period)",
+              "FE 201836 150 μg (Randomized Treatment Period)",
+              "FE 201836 250 μg (Randomized Treatment Period)",
+              "FE 201836 350 μg (Randomized Treatment Period)",
+              "FE 201836 50 μg (Randomized Treatment Period)",
+              "FE 201836 500 μg (Randomized Treatment Period)",
+              "Placebo (Randomized Treatment Period)"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Aggregated Mean Number of Nocturnal Voids During 12 Weeks of Treatment",
+            "description": "Nocturnal voids were defined as voids occuring from 5 minutes after bedtime until rising in the morning.\n\nThe number of nocturnal voids at each visit was calculated as the average over the 3 consecutive 24 hour periods just prior to the respective visit. The visit-specific means were aggregated into a mean of current and preceding visits.\n\nLevel estimated for baseline value of mean number of nocturnal voids equal to 2, and 95% credibility interval (2.5 and 97.5 percentiles of the posterior distribution) instead of confidence interval are presented in this endpoint.",
+            "timeFrame": "Baseline, during 12 weeks of treatment"
+          },
+          "pred_item": {
+            "measure": "Reduction in nocturnal voids",
+            "description": "Change in the average number of nocturnal voids per night, derived from the night-time voiding diary. This was the primary endpoint for the Phase 2 DAWN trial, used here as a clinical anchor in psychometric analyses.",
+            "timeFrame": "Baseline to Week 12 (average over the three nights preceding each clinic visit)"
+          }
+        }
+      ]
+    }
+  ]
+}

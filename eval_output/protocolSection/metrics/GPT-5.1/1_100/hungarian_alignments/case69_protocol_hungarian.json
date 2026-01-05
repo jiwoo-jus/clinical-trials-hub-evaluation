@@ -1,0 +1,291 @@
+{
+  "metadata": {
+    "case_id": 69,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T18:18:47.343370",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/69_NCT04098276.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/69_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.22,
+          0.42,
+          0.28
+        ],
+        [
+          0.42,
+          0.86,
+          0.29,
+          0.05
+        ],
+        [
+          0.72,
+          0.3,
+          0.88,
+          0.68
+        ],
+        [
+          0.62,
+          0.52,
+          0.78,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Personalized Online Intervention",
+            "type": "EXPERIMENTAL",
+            "description": "For first stage randomization, women in the personalized online intervention group receive the online safety planning intervention informed by culturally specific danger assessment (DA) tool.",
+            "interventionNames": [
+              "Behavioral: WeWomen Plus technology based intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Online/Web-based myPlan Intervention",
+            "type": "EXPERIMENTAL",
+            "description": "First-stage arm in which immigrant women experiencing IPV receive access to the culturally adapted, trauma-informed, web-based myPlan safety decision and planning application (weWomen Plus online component). Participants complete onboarding with safe technology guidance, a danger assessment, priority-setting, and receive a tailored safety plan with links to resources. Responders continue in this arm for follow-up assessments. Non-responders at 3 months (no meaningful improvement in safety and empowerment) are re-randomized to receive additional supportive text messaging alone or a combination of text messaging plus phone calls with trained advocates.",
+            "interventionNames": [
+              "Online/Web-based myPlan Safety Planning Intervention",
+              "Supportive Text Messaging",
+              "Supportive Text Messaging plus Phone Calls"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Online usual care or Standard Online Safety Information",
+            "type": "NO_INTERVENTION",
+            "description": "Women in the Standard Online Safety Information received the non-DA informed usual safety planning resources modeled on national and state domestic violence online resources, but not provided with immediate and visual feedback to their level of danger or a tailored safety planning."
+          },
+          "pred_item": {
+            "label": "Usual Care Control",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "First-stage control arm in which women receive usual safety planning resources modeled on national and state domestic violence online resources. They complete risk assessment questions based on formative work but do not receive the Danger Assessment or DA-informed tailored safety planning. Responders continue in this arm for follow-up assessments. Non-responders at 3 months are re-randomized to receive either supportive text messaging alone or a combination of text messaging plus phone calls with trained advocates.",
+            "interventionNames": [
+              "Usual Safety Planning Resources",
+              "Supportive Text Messaging",
+              "Supportive Text Messaging plus Phone Calls"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "label": "WeWomen Plus Text messaging only",
+            "type": "EXPERIMENTAL",
+            "description": "For second stage randomization, the text messaging intervention will follow-up with non-responder group of immigrant women (those who did not improve in intervention or control arms above) on their enactment of tailored (tailored to the DA Score and priorities) safety plan provided in the online weWomen intervention or non-tailored (standard list of resources) safety recommendations provided in the usual care control arm",
+            "interventionNames": [
+              "Behavioral: WeWomen Plus technology based intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Non-responders: Supportive Text Messaging",
+            "type": "EXPERIMENTAL",
+            "description": "Second-stage adaptive arm for women identified as non-responders at 3 months (no significant reduction in IPV and no significant improvement in empowerment) from either the online/web-based myPlan intervention arm or the usual care control arm. Participants receive a 4-week structured, trauma-informed, empowerment-based supportive text messaging intervention, with weekly tailored messages at participant-selected safe times. Messages focus on safety assessment and planning, readiness to change, barriers to safety behaviors, awareness of resources, self-care, and danger assessment as needed.",
+            "interventionNames": [
+              "Supportive Text Messaging"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "WeWomen Plus Text messaging and phone",
+            "type": "EXPERIMENTAL",
+            "description": "Second stage randomization will involve both text (described above) and phone calls for non-responder group of women in intervention or control arm. The phone calls will draw from motivational interviewing adapted for abused women, solution focused therapy and a strengths perspective to discuss women's safety concerns and other needs, and strategies to strengthen social support networks",
+            "interventionNames": [
+              "Behavioral: WeWomen Plus technology based intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Non-responders: Supportive Text Messaging plus Phone Calls",
+            "type": "EXPERIMENTAL",
+            "description": "Second-stage adaptive arm for women identified as non-responders at 3 months from either initial arm. Participants first receive the same 4-week structured supportive text messaging intervention, followed by two trauma-informed, empowerment-focused phone sessions with trained facilitators (one week after the end of texts and another one week later). Phone calls use strengths-based, motivational enhancement and solution-focused techniques to assess safety, build rapport, validate experiences, highlight strengths, set and review safety-related and empowerment goals, and identify personal and community resources.",
+            "interventionNames": [
+              "Supportive Text Messaging plus Phone Calls",
+              "Supportive Text Messaging"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.38,
+          0.83,
+          0.72
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "WeWomen Plus technology based intervention",
+            "description": "The WeWomen Plus intervention is a technology based (online, text and phone)culturally tailored intervention designed to reduce the risk of future intimate partner violence or a homicide, improve mental health and increase empowerment of abused immigrant women.",
+            "armGroupLabels": [
+              "Personalized Online Intervention",
+              "WeWomen Plus Text messaging and phone",
+              "WeWomen Plus Text messaging only"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Online/Web-based myPlan Safety Planning Intervention",
+            "description": "A trauma-informed, culturally adapted, web-based safety decision and planning tool (myPlan, as part of weWomen Plus) for immigrant women experiencing intimate partner violence. Delivered via secure web/app, it includes onboarding with guidance on safe technology use, creation of a secure PIN, immediate provision of a general safety plan, and three tailoring sections: (1) education about red flags of unhealthy relationships, (2) completion of the immigrant-adapted Danger Assessment to quantify risk of severe or lethal violence with immediate feedback, and (3) a priority-setting exercise regarding needs and values (e.g., children’s safety, resources). An evidence-based algorithm integrates user inputs to generate a tailored safety plan including links to local and national resources and services.",
+            "armGroupLabels": [
+              "Online/Web-based myPlan Intervention"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.15,
+          0.35
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Severity of Physical and Sexual Intimate Partner Violence as Assessed by the Revised Conflict Tactics Scale",
+            "description": "The adapted version of the Revised Conflict Tactics Scale (CTS2; Straus, 1996) was used to measure the severity and frequency of abusive or violent acts in intimate partner relationships. The CTS2 subscales included physical aggression, injury, psychological aggression, and sexual coercion. Response categories ranged from 0=never to 4=very frequently. Total scores ranged from 0-164, with higher scores indicating greater frequency and severity of intimate partner violence experiences. Items were scored using the severity-times-frequency weighted score method as recommended by Straus (1996). Change scores were calculated as the differences between baseline CTS-2 total scores and follow-up scores at each time point (3, 6, and 12 months).",
+            "timeFrame": "Baseline (1st month), 3 months, 6 months, 12 months"
+          },
+          "pred_item": {
+            "measure": "Severity and frequency of intimate partner violence (IPV) measured by adapted Revised Conflict Tactics Scale (CTS2)",
+            "description": "Severity-times-frequency weighted scores on CTS2 subscales (physical aggression, injury, psychological aggression, sexual coercion). Items scored 0=never to 6=more than 20 times in past 12 months; 7=not in referent period but happened before. Higher scores within past 12 months indicate more severe or frequent IPV.",
+            "timeFrame": "Baseline, 3 months, 6 months, and 12 months post-baseline; for early non-responders additionally at 6 and 12 months post re-randomization"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.42
+        ],
+        [
+          0.6,
+          0.98
+        ],
+        [
+          0.18,
+          0.18
+        ],
+        [
+          0.25,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Depressive Symptoms as Assessed by the Patient Health Questionnaire (PHQ-9)",
+            "description": "The Patient Health Questionnaire (PHQ-9) was used to assess depression symptoms over the past two weeks based on DSM-IV diagnostic criteria for major depressive disorder. Each of the 9 items was scored from 0 (not at all) to 3 (nearly every day). Total scores were computed by summing all items, ranging from 0-27. Higher scores indicated more severe depression symptoms (1-4=minimal, 5-9=mild, 10-14=moderate, 15-19=moderately severe, 20-27=severe depression). Change scores were calculated as the differences between baseline PHQ-9 total scores and follow-up scores at each time point (3, 6, and 12 months).",
+            "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+          },
+          "pred_item": {
+            "measure": "Depression symptoms measured by Patient Health Questionnaire-9 (PHQ-9)",
+            "description": "9-item measure of past 2-week depressive symptoms based on DSM-IV criteria for major depressive disorder. Each item scored 0=not at all to 3=nearly every day; items summed to total score, with higher scores indicating more severe depression.",
+            "timeFrame": "Baseline, 3 months, 6 months, and 12 months post-baseline; for early non-responders additionally at 6 and 12 months post re-randomization"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Symptoms of Post-traumatic Stress Disorder (PTSD) as Assessed by the Harvard Trauma Questionnaire",
+            "description": "Past week PTSD symptoms were measured using the Harvard Trauma Questionnaire, a 16-item scale with response options that ranged from 1 (not at all) to 5 (extremely). Mean scores across all 16 items were calculated for each participant. Higher scores indicated more severe PTSD symptoms, with scores greater than 2.5 indicating clinically significant PTSD symptoms. Change scores were calculated as the differences between baseline mean scores and the follow-up mean scores at each time point (3, 6, and 12 months).",
+            "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+          },
+          "pred_item": {
+            "measure": "Post-traumatic stress disorder (PTSD) symptoms measured by Harvard Trauma Questionnaire",
+            "description": "16-item scale of past week PTSD symptoms (intrusion/re-experiencing, avoidance/numbing, hypervigilance/arousal) derived from DSM-IIR/DSM-IV criteria. Items rated 1=Not at all to 4=Extremely; higher total scores indicate more severe PTSD symptoms.",
+            "timeFrame": "Baseline, 3 months, 6 months, and 12 months post-baseline; for early non-responders additionally at 6 and 12 months post re-randomization"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Overall Empowerment as Assessed by the Personal Progress Scale-Revised",
+            "description": "The Personal Progress Scale-Revised was used to measure empowerment across multiple domains including positive self-evaluation, self-esteem, emotional regulation, gender-role and cultural identity awareness, self-efficacy, self-care, problem-solving, and assertiveness skills. Participants rated 28 items on a 7-point scale from 1 (almost never) to 7 (almost always). Total scores were calculated by summing all items, ranging from 28-196, with higher scores indicating greater empowerment. Change scores were calculated as the differences between baseline total scores and follow-up scores at each time point (3, 6, and 12 months).",
+            "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Empowerment Related to Safety as Assessed by the Measure of Victim Empowerment Related to Safety (MOVERS) Scale",
+            "description": "The MOVERS scale was used to measure empowerment within the safety domain, including safety-related goal development, self-efficacy beliefs, and knowledge of support resources. Participants rated 13 items on a 5-point scale from 1 (never true) to 5 (always true). Mean scores across all 13 items were calculated for each participant. Higher scores indicated greater safety-related empowerment. Change scores were calculated as the differences between baseline mean scores and follow-up mean scores at each time point (3, 6, and 12 months).",
+            "timeFrame": "Baseline, 3 months, 6 months, 12 months"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT03547167,NCT03547167,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,EudraCT,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,TP,"A Study to Evaluate the Safety, Tolerability, and Immunogenicity of V114 Followed by PNEUMOVAX™23 in Adults at Increased Risk for Pneumococcal Disease (V114-017/PNEU-DAY)","Safety, Tolerability, and Immunogenicity of V114 in Immunocompetent Adults Aged 18-49 Years With or Without Risk Factors for Pneumococcal Disease",True,0.71,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,TP,"A Phase 3, Multicenter, Randomized, Double-blind, Active Comparator-controlled Study to Evaluate the Safety, Tolerability, and Immunogenicity of V114 Followed by Administration of PNEUMOVAX™23 Six Months Later in Immunocompetent Adults Between 18 and 49 Years of Age at Increased Risk for Pneumococcal Disease (PNEU - DAY)","A Phase 3, Multicenter, Randomized, Double-Blind, Active Comparator-Controlled Study to Evaluate the Safety, Tolerability, and Immunogenicity of V114 in Pneumococcal Vaccine-Naive Immunocompetent Adults Aged 18-49 Years With or Without Risk Factors for Pneumococcal Disease",True,0.88,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.acronym,EV,EV,,PNEU-DAY,,,,Acronym,protocolSection.identificationModule.acronym,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,TP,TP,"This study is designed to 1) describe the safety, tolerability, and immunogenicity of V114 and Prevnar 13™ in pneumococcal vaccine-naïve adults at increased risk for pneumococcal disease and to 2) describe the safety, tolerability, and immunogenicity of PNEUMOVAX™23 when administered 6 months after receipt of either V114 or Prevnar 13™. Increased risk for pneumococcal disease is defined as 1) an underlying medical condition, 2) behavioral habits such as smoking or alcohol use, or 3) living in a community/environment with increased risk of disease transmission.","This phase 3, multicenter, randomized, double-blind, active comparator-controlled study evaluated the safety, tolerability, and immunogenicity of V114 (a 15-valent pneumococcal conjugate vaccine containing serotypes 1, 3, 4, 5, 6A, 6B, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F, and 33F) compared to PCV13 (13-valent pneumococcal conjugate vaccine), followed by PPSV23 (23-valent pneumococcal polysaccharide vaccine) 6 months later, in immunocompetent adults aged 18-49 years with or without predefined risk factors for pneumococcal disease. Overall, 1515 participants were randomized 3:1 to receive either V114 or PCV13, followed by PPSV23. The study demonstrated that V114 administered alone or sequentially with PPSV23 is well tolerated and immunogenic for all 15 serotypes, including those not contained in PCV13, in this population.",True,0.9,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.detailedDescription,EV,EV,,"Adults with certain medical conditions (chronic heart, liver, and lung disease, diabetes mellitus) and behavioral factors (smoking, alcoholism) are at increased risk for pneumococcal disease (PD) regardless of age. Sequential vaccination with 13-valent pneumococcal conjugate vaccine (PCV13) followed by 23-valent pneumococcal polysaccharide vaccine (PPSV23) is recommended for at-risk adults in some countries to provide broader serotype coverage. V114 is a 15-valent pneumococcal conjugate vaccine that contains the 13 serotypes in PCV13 plus serotypes 22F and 33F, which have emerged as leading causes of invasive pneumococcal disease following the introduction of PCVs.
+
+This study was conducted from July 2018 through July 2020 at 79 sites worldwide. Participants were randomized 3:1 to receive a single dose of V114 or PCV13 on Day 1, followed by a single dose of PPSV23 at Month 6. The study enrolled immunocompetent adults aged 18-49 years who were pneumococcal vaccine-naive, with or without risk factors for PD. The Johns Hopkins Center for American Indian Health enrolled Native American adults with and without risk factors; non-CAIH sites enrolled participants with at least one risk factor for PD. Approximately 75% of participants had at least one risk factor for PD at screening.
+
+Safety assessments included solicited injection-site reactions and systemic adverse events, as well as serious adverse events. Immunogenicity was assessed by measuring serotype-specific opsonophagocytic activity (OPA) and immunoglobulin G (IgG) antibodies at baseline, 30 days post-PCV vaccination, pre-PPSV23 vaccination (Month 6), and 30 days post-PPSV23 vaccination (Month 7). The primary immunogenicity objective was to evaluate serotype-specific OPA geometric mean titers for the 15 serotypes included in V114 at Day 30.
+
+Results showed that V114 and PCV13 were well tolerated, with comparable safety profiles. The most common solicited adverse events were injection-site pain and fatigue. Both vaccines were immunogenic for all serotypes contained in each respective vaccine. V114 induced robust immune responses against its unique serotypes 22F and 33F. Sequential administration of PPSV23 6 months after V114 or PCV13 was also well tolerated and immunogenic for all 15 serotypes, including 22F and 33F, maintaining immune responses for shared serotypes.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,TP,TP,['Pneumococcal Infections'],"['Pneumococcal Disease', 'Pneumococcal Infections', 'Invasive Pneumococcal Disease']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,EV,EV,,"['Pneumococcal vaccine', 'Conjugate vaccine', 'Polysaccharide vaccine', 'V114', 'PCV13', 'PPSV23', '15-valent pneumococcal conjugate vaccine', '13-valent pneumococcal conjugate vaccine', '23-valent pneumococcal polysaccharide vaccine', 'Immunocompetent adults', 'Risk factors', 'Chronic disease', 'Diabetes mellitus', 'Chronic lung disease', 'Chronic heart disease', 'Chronic liver disease', 'Tobacco use', 'Alcohol use', 'Sequential vaccination', 'Immunogenicity', 'Safety', 'Serotype coverage', 'Streptococcus pneumoniae']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,TP,['PHASE3'],['PHASE3'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Participants were randomized in a 3:1 ratio to receive a single dose of V114 or PCV13 on Day 1, followed by a single dose of PPSV23 at Month 6. Randomization was stratified based on site (CAIH vs non-CAIH site) and type/number of predefined baseline risk factors as well as higher self-reported alcohol use at screening.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,DOUBLE,DOUBLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,V114 and PCV13 were administered in a blinded fashion and PPSV23 was administered open-label.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'INVESTIGATOR']","['PARTICIPANT', 'INVESTIGATOR']",True,1.0,exact,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,TP,1515,1515,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Native American participant enrolled from any of the clinical sites of the Johns Hopkins Center for American Indian Health (CAIH) without any of the pre-specified risk conditions for pneumococcal disease listed below, OR Native American participant enrolled from any of the CAIH sites or participant from a site other than CAIH with ≥1 of the following risk conditions for pneumococcal disease:
+
+  1. Diabetes mellitus Type 1 or Type 2 and with hemoglobin A1c (HgA1c) \<10%
+  2. Chronic liver disease with documented history of compensated cirrhosis (Child-Pugh Score A)
+  3. Confirmed diagnosis of Chronic Obstructive Pulmonary Disease (COPD) with spirometric Global Initiative for Chronic Obstructive Lung Disease Stage 1 to 3
+  4. Confirmed diagnosis of mild or moderate persistent asthma receiving guideline directed therapy
+  5. Confirmed diagnosis of chronic heart disease (New York Heart Association \[NYHA\] heart failure Class 1 to 3, receiving guideline-directed oral heart failure treatment) due to reduced or preserved ejection fraction or due to non-cyanotic congenital heart disease.
+  6. Current smoker
+* Female participant: not pregnant, not breastfeeding and 1) not of childbearing potential, or 2) of childbearing potential and agrees to practice contraception through 6 weeks after last administration of study vaccine.
+
+Exclusion Criteria:
+
+* History of active hepatitis within the prior 3 months
+* History of diabetic ketoacidosis, or \>1 episodes of severe, symptomatic hypoglycemia within the prior 3 months
+* Myocardial infarction, acute coronary syndrome, transient ischemic attack, and ischemic or hemorrhagic stroke within the prior 3 months
+* History of severe pulmonary hypertension or history of Eisenmenger syndrome
+* History of invasive pneumococcal disease (IPD) or known history of other culture-positive pneumococcal disease within the prior 3 years
+* Known hypersensitivity to any vaccine component, pneumococcal conjugate vaccine, or diphtheria toxoid-containing vaccine
+* Known or suspected impairment of immunological function (including human immunodeficiency virus (HIV) infection or autoimmune disease)
+* History of malignancy within the prior 5 years, except for adequately treated basal cell or squamous cell skin cancer or in situ cervical cancer
+* History of Stage 4 or 5 Chronic Kidney Disease or nephrotic syndrome
+* History of alcohol withdrawal or alcohol withdrawal seizure within the prior 12 months
+* History of coagulation disorder contraindicating intramuscular vaccination
+* History of hospitalization within the prior 3 months
+* Planned organ transplantation (heart, liver, lung, kidney, or pancreas) or other planned major surgery during the duration of this study.
+* Expected survival for less than 1 year according to the investigator's judgment.
+* Female participant: positive urine or serum pregnancy test
+* Prior administration of any pneumococcal vaccine
+* Received systemic corticosteroids (prednisone equivalent of ≥20 mg/day) for ≥14 consecutive days and has not completed within the prior 30 days
+* Received systemic corticosteroids exceeding physiologic replacement doses within 14 days before study vaccination
+* Receiving immunosuppressive or immunomodulatory therapy with a biological agent
+* Received any licensed, non-live vaccine within 14 days before receipt of study vaccine or is scheduled to receive any licensed, non-live vaccine within 30 days following receipt of study vaccine
+* Received any live vaccine within 30 days before receipt of any study vaccine or is scheduled to receive any live vaccine within 30 days following receipt of any study vaccine
+* Received a blood transfusion or blood products within the prior 6 months
+* Receiving chronic home oxygen therapy
+* Participated in another clinical study of an investigational product within the prior 2 months
+* Current user of recreational or illicit drugs or history of drug abuse or dependence
+* Diabetes mellitus with HgA1c ≥10%
+* Chronic liver disease with Child-Pugh Class B or C cirrhosis
+* Chronic lung disease with Chronic Obstructive Pulmonary Disease (COPD) GOLD Stage 4 or severe persistent asthma
+* Chronic heart disease with NYHA heart failure Class 4.","Inclusion Criteria:
+- Immunocompetent adults aged 18-49 years
+- With or without predefined risk factors for pneumococcal disease
+- Verified as pneumococcal vaccine naive by medical history and record review
+- For participants with risk factors, protocol-defined inclusion criteria had to be met for:
+  • Diabetes mellitus
+  • Chronic liver disease
+  • Chronic lung disease
+  • Chronic heart disease
+  • Current tobacco use
+- Higher self-reported alcohol use at screening (AUDIT-C score ≥5) was considered as a risk factor for stratification
+
+Exclusion Criteria:
+- Prior pneumococcal vaccination
+- Immunocompromised status
+- Other exclusion criteria not explicitly detailed in the abstract but implied by the study design requiring immunocompetent participants",True,0.86,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,TP,TP,49 Years,49 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,TP,TP,['ADULT'],['ADULT'],True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

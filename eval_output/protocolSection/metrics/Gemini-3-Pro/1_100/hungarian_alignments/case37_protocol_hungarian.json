@@ -1,0 +1,199 @@
+{
+  "metadata": {
+    "case_id": 37,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T15:57:04.477583",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/37_NCT04473326.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/37_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.85,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.85,
+          "status": "matched",
+          "ref_item": {
+            "id": "P30AG064199-01",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/P30AG064199-01"
+          },
+          "pred_item": {
+            "id": "P30AG064199",
+            "type": "NIH",
+            "domain": "National Institute on Aging"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.2
+        ],
+        [
+          0.2,
+          0.75
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Reinforcement Learning Intervention Arm",
+            "type": "EXPERIMENTAL",
+            "description": "Up to daily, tailored text messages.",
+            "interventionNames": [
+              "Behavioral: Reinforcement Learning"
+            ]
+          },
+          "pred_item": {
+            "label": "Intervention Arm",
+            "type": "EXPERIMENTAL",
+            "description": "Patients receive electronic pill bottles and up to daily text messages individually adapted using a reinforcement learning prediction algorithm based on daily adherence measurements.",
+            "interventionNames": [
+              "Reinforcement learning-based text messaging programme",
+              "Electronic pill bottles"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.75,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control Arm",
+            "type": "NO_INTERVENTION",
+            "description": "Up to daily, untailored text messages."
+          },
+          "pred_item": {
+            "label": "Control Arm",
+            "type": "OTHER",
+            "description": "Patients receive electronic pill bottles and standard administrative text messages (introductory, synchronization reminders, and end of study) but do not receive the reinforcement learning text messaging programme.",
+            "interventionNames": [
+              "Electronic pill bottles"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Reinforcement Learning",
+            "description": "Participants in the intervention arm will receive up to daily, tailored text messages based on their electronic pill bottle-measured adherence. Given the participants' baseline characteristics and time-varying responses to the messages, a reinforcement learning algorithm will deliver different text messages and adapt over time to determine which type of messaging works best for each individual participant.",
+            "armGroupLabels": [
+              "Reinforcement Learning Intervention Arm"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Reinforcement learning-based text messaging programme",
+            "description": "A programme that personalises daily text message outreach using a reinforcement learning algorithm. Messages are tailored based on five factors: framing (neutral, positive, negative), observed feedback, social reinforcement, nature of content, and reflection.",
+            "armGroupLabels": [
+              "Intervention Arm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Medication Adherence",
+            "description": "Medication adherence to type 2 diabetes oral medications (averaged) as measured by the number of dates and times of pillbottle openings in the electronic pill bottles",
+            "timeFrame": "6 months"
+          },
+          "pred_item": {
+            "measure": "Average medication adherence",
+            "description": "Medication adherence measured by averaging daily adherence (calculated by dividing the number of times a patient opened the electronic pill bottle by the number of doses prescribed) for each medication across each patient. Adherence values range from 0 to 1.",
+            "timeFrame": "From the day after randomization until 183 days after randomization (6 months)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Glycemic Control",
+            "description": "Change in glycated hemoglobin A1c from baseline to end of the 6-month follow-up",
+            "timeFrame": "6 months"
+          },
+          "pred_item": {
+            "measure": "Change in glycaemic control",
+            "description": "Measured by glycated haemoglobin A1c (HbA1c) levels collected from routine measurements recorded in the electronic health record (EHR) system.",
+            "timeFrame": "Baseline and 6-month follow-up"
+          }
+        }
+      ]
+    }
+  ]
+}

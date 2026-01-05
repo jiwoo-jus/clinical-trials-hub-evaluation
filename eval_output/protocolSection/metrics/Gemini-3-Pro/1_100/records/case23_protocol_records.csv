@@ -1,0 +1,78 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT02487654,NCT02487654,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Ectopy Triggering Ganglionated Plexus Ablation to Prevent Atrial Fibrillation,GANGLIA-AF: Ganglionated Plexus Ablation vs Pulmonary Vein Isolation,True,0.83,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,Ectopy Triggering Ganglionated Plexus Ablation to Prevent Atrial Fibrillation,"GANGLIA-AF: A Prospective, Randomized, Controlled Trial of Ganglionated Plexus Ablation vs Pulmonary Vein Isolation in Paroxysmal Atrial Fibrillation",True,0.76,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"Atrial fibrillation (AF) is a common heart rhythm disorder which can significantly affect a patient's quality of life and cause strokes. Abnormal electrical activity from the pulmonary veins are thought to be the most common cause of this condition. Current ablative strategy in drug refractory AF is pulmonary vein isolation (PVI), where the pulmonary veins are electrically isolated from the body of the left atrium. However, success rate of this procedure remain \~50-70% for a single procedure despite advances in mapping and ablation techniques.
+
+Ganglionated plexuses (GP) are dense clusters of nerves in the atria that are implicated in AF. Endocardial high frequency stimulation (HFS) delivered within the local atrial refractory period can trigger ectopy and AF from specific GP sites (ET-GP). The aim of this study was to understand the role of ET-GP ablation in the treatment of AF by comparing two different strategies:
+
+1. Pulmonary vein isolation alone
+2. GP ablation alone","The GANGLIA-AF trial hypothesized that ablating the ectopy-triggering ganglionated plexuses (ET-GPs) prevents atrial fibrillation (AF). This was a prospective, randomized, controlled, 3-center trial comparing GP ablation (GPA) without pulmonary vein isolation (PVI) against PVI in patients with paroxysmal AF. The primary endpoint was documented atrial arrhythmia lasting 30 seconds or more after a 3-month blanking period.",True,0.92,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"This is a prospective, multi-centre study recruiting patients with paroxysmal AF indicated for AF ablation.
+
+180 patients will be recruited. Patients are randomised to either GP ablation alone or to PVI. All antiarrhythmics are stopped for at least 48 hours prior to their procedures.
+
+All have general anaesthesia and CARTO system (Biosense Webster, inc.) are used for 3D electroanatomical mapping of the left atrium.
+
+Patients randomised to GP ablation will have high frequency mapping performed within the atrial refractory period to identify ectopy or AF triggering GP (ET-GP) sites in the left atrium. Patients in this group will only have GP ablation and will not have pulmonary veins isolated.
+
+The primary endpoint is any documented atrial arrhythmia 30 seconds or more after a 3 month blanking period. This will be assessed for up to 12 months post-procedure, using 48hr Holter monitors at 3, 6, 9 and 12 month intervals.
+
+Secondary endpoints include mortality, major complications and redo procedures.","Pulmonary vein isolation (PVI) is the standard ablation technique for atrial fibrillation (AF), but success rates vary. This study investigated the role of intrinsic cardiac autonomic system ganglionated plexuses (GPs) in AF. Specifically, it targeted ectopy-triggering GPs (ET-GPs) identified via high-frequency stimulation (HFS). 
+
+GANGLIA-AF (ClinicalTrials.gov identifier NCT02487654) was a prospective, multicenter, randomized, single-blinded clinical study. Patients with paroxysmal AF indicated for ablation were randomized to either PVI or GPA without PVI. In the GPA arm, ET-GPs were mapped using HFS delivered within the atrial refractory period and ablated until nonfunctional. If triggered AF became incessant, atrioventricular dissociating GPs (AVD-GPs) were also mapped and ablated. The PVI arm underwent standard wide antral circumferential ablation.
+
+Follow-up occurred for 12 months, including 3-monthly 48-hour Holter monitors. The primary endpoint was documented atrial arrhythmia (AF, atrial tachycardia, or atrial flutter) ≥30 seconds after a 3-month blanking period. Secondary endpoints included repeat ablation, mortality, complications, and reduction in antiarrhythmic drug usage.",True,0.98,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['Paroxysmal Atrial Fibrillation'],"['Atrial Fibrillation', 'Paroxysmal Atrial Fibrillation']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['Paroxysmal atrial fibrillation', 'Pulmonary vein isolation', 'Ganglionated plexus', 'Radiofrequency ablation', 'Pulmonary vein ectopy', 'High frequency stimulation', 'autonomic nervous system', 'Ganglionated plexi', 'atrial fibrillation']","['Ganglionated plexuses', 'Pulmonary vein isolation', 'Catheter ablation', 'Autonomic nervous system', 'High frequency stimulation']",False,0.3333333333333333,partial,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,DOUBLE,SINGLE,False,0.4,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"Patients and their cardiologists providing their usual care were blinded to their randomization. Operators on the day of ablation, the data collector, and the analyst were unblinded to randomization.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'CARE_PROVIDER']","['PARTICIPANT', 'CARE_PROVIDER']",True,1.0,exact,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,116,116,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].measure,EV,EV,,Mortality,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].measure,EV,EV,,Procedural complications,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].description,EV,EV,,Death from any cause.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].description,EV,EV,,"Any significant complications related to the procedure (bleeding, thrombosis, phrenic nerve palsy, and cardiac tamponade) requiring intervention.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].timeFrame,EV,EV,,12 months,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].timeFrame,EV,EV,,12 months,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Males or females eighteen (18) to eighty five (85) years old
+* Paroxysmal atrial fibrillation
+* Suitable candidate for catheter ablation
+* Signed informed consent
+
+Exclusion Criteria:
+
+* Contraindication to catheter ablation
+* Presence of a cardiac thrombus
+* valvular disease that is grade moderate or greater
+* Any form of cardiomyopathy
+* On amiodarone therapy
+* Severe cerebrovascular disease
+* Active gastrointestinal bleeding
+* Renal failure (on dialysis or at risk of requiring dialysis)
+* Active infection or fever
+* Life expectancy shorter than the duration of the trial
+* Allergy to contrast
+* Intractable heart failure (NYHA Class IV)
+* Bleeding or clotting disorders or inability to receive heparin
+* Serum Creatinine \>200umol/L
+* Uncontrolled diabetes (HbA1c ≥73mmol/mol or HbA1c ≤64mmol/mol and Fasting Blood Glucose ≥9.2mmol/L)
+* Malignancy needing therapy
+* Pregnancy or women of childbearing potential not using a highly effective method of contraception
+* Patients in current research or have recently been involved in any research prior to recruitment will not be included in the trial.","Inclusion Criteria:
+- Patients with symptomatic drug-refractory paroxysmal AF indicated for ablation
+
+Exclusion Criteria:
+- (Referenced in Online Supplemental Table 1 but not explicitly detailed in the main text)",True,0.72,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,FN,FN,85 Years,,False,0.0,,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

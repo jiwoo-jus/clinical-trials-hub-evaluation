@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "case_id": 56,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T17:10:46.669783",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/56_NCT03275350.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/56_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.2
+        ],
+        [
+          0.2,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "XR-NTX",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Extended-release naltrexone",
+            "interventionNames": [
+              "Drug: Naltrexone Injectable Suspension"
+            ]
+          },
+          "pred_item": {
+            "label": "HIV clinic-based extended-release naltrexone (XR-NTX)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants with HIV and moderate or severe opioid use disorder received extended-release naltrexone (XR-NTX), delivered via deep intramuscular injection approximately every 28 days, initiated only after achieving an opioid-free state for several days (often via medically managed withdrawal in inpatient, jail, or home settings with comfort medications).",
+            "interventionNames": [
+              "Extended-release naltrexone (XR-NTX)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "TAU",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Treatment as usual",
+            "interventionNames": [
+              "Other: Treatment as usual"
+            ]
+          },
+          "pred_item": {
+            "label": "Treatment-as-usual opioid agonist therapy (buprenorphine or methadone)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants with HIV and moderate or severe opioid use disorder received treatment-as-usual with opioid agonist or partial agonist medications for OUD, consisting of methadone or buprenorphine, generally provided in standard opioid treatment or HIV clinic settings and not requiring complete opioid abstinence before initiation.",
+            "interventionNames": [
+              "Buprenorphine",
+              "Methadone"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.32,
+          0.3
+        ],
+        [
+          0.2,
+          0.7,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Naltrexone Injectable Suspension",
+            "description": "Six monthly injections of extended-release naltrexone",
+            "armGroupLabels": [
+              "XR-NTX"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Extended-release naltrexone (XR-NTX)",
+            "description": "An opioid antagonist formulation of naltrexone administered as a deep intramuscular injection lasting approximately 28 days. Initiation (induction) requires that the patient be opioid-free for several days to avoid precipitated withdrawal.",
+            "armGroupLabels": [
+              "HIV clinic-based extended-release naltrexone (XR-NTX)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Treatment as usual",
+            "description": "Standard treatment for opioid use disorder provided at each HIV clinic",
+            "armGroupLabels": [
+              "TAU"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Buprenorphine",
+            "description": "A partial opioid agonist used as medication for opioid use disorder. Induction typically occurs 12–24 hours after last opioid use and does not require complete abstinence. Used as part of treatment-as-usual in the comparator arm.",
+            "armGroupLabels": [
+              "Treatment-as-usual opioid agonist therapy (buprenorphine or methadone)"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

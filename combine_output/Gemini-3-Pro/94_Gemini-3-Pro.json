@@ -1,0 +1,153 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03408730",
+      "orgStudyIdInfo": null,
+      "secondaryIdInfos": [
+        {
+          "id": "2017-001820-22",
+          "type": "EUDRACT_NUMBER",
+          "domain": "EU Clinical Trials"
+        }
+      ],
+      "organization": {
+        "fullName": "VBI Vaccines Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Immunogenicity and Safety of a 3-Antigen Hepatitis B Virus (HBV) vs a Single-Antigen HBV Vaccine Among Young Adults",
+      "officialTitle": "Phase 3, Double-Blinded, Randomized, Multicenter, Lot-to-Lot Consistency Study With 3 Parallel Groups of 3A-HBV and a Comparator Group of 1A-HBV",
+      "acronym": null
+    },
+    "descriptionModule": {
+      "briefSummary": "This phase 3 randomized clinical trial evaluates the manufacturing equivalence, immunogenicity, and safety of a 3-antigen hepatitis B virus (HBV) vaccine compared with a single-antigen HBV vaccine in healthy adults aged 18 to 45 years. The study tests the hypothesis that the 3-antigen vaccine demonstrates consistency across manufacturing lots and noninferior seroprotection rates compared to the standard single-antigen vaccine.",
+      "detailedDescription": "The study design was a phase 3, double-blinded, randomized, multicenter, lot-to-lot consistency study involving healthy adults aged 18 to 45 years. Participants were randomized (1:1:1:1) to receive one of three independent consecutive lots of the 3-antigen HBV (3A-HBV) vaccine or a comparator single-antigen (1A-HBV) vaccine. The 3A-HBV vaccine contains pre-S1, pre-S2, and S antigens produced in mammalian cells, whereas the comparator contains only the S antigen. Vaccines were administered intramuscularly on days 0, 28, and 168. The primary efficacy endpoint was the manufacturing equivalence of the three 3A-HBV lots, assessed by the geometric mean concentration (GMC) of anti-HBs antibodies 4 weeks after the third injection. Secondary endpoints included demonstrating that the seroprotection rate (SPR) of the pooled 3A-HBV vaccine was noninferior to that of the 1A-HBV vaccine at day 196, as well as comparing safety and reactogenicity profiles between the two vaccine types."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hepatitis B",
+        "Hepatitis B Virus Infection"
+      ],
+      "keywords": [
+        "Hepatitis B Vaccines",
+        "Immunogenicity",
+        "Safety",
+        "3-antigen HBV vaccine",
+        "Sci-B-Vac",
+        "Lot-to-lot consistency",
+        "Healthy Adults"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Phase 3, double-blinded, randomized, multicenter, lot-to-lot consistency study with 3 parallel groups of 3A-HBV and a comparator group of 1A-HBV.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "All study personnel providing clinical assessments and participants were blind to the vaccine allocation.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2838,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "3A-HBV Groups",
+          "type": "EXPERIMENTAL",
+          "description": "Participants were randomized to 1 of 3 independent consecutive lots (A, B, and C) of 3A-HBV. They received a 1-mL dose of 3A-HBV (10 μg) by intramuscular injection on study days 0, 28, and 168.",
+          "interventionNames": [
+            "3A-HBV"
+          ]
+        },
+        {
+          "label": "1A-HBV Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants were randomized to the control group receiving 1A-HBV. They received a 1-mL dose of 1A-HBV (20 μg) by intramuscular injection on study days 0, 28, and 168.",
+          "interventionNames": [
+            "1A-HBV"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "3A-HBV",
+          "description": "A 3-antigen hepatitis B virus (HBV) vaccine containing a virus-like particle (VLP) formed by the full set of the 3 HBV envelope proteins or surface antigens (HBsAg), ie, S, pre-S1, and pre-S2, manufactured in Chinese hamster ovary (CHO) mammalian cells. Each 1-mL adult dose is formulated to contain 10 μg of pre-S1/pre-S2/S VLP adsorbed on aluminum hydroxide.",
+          "armGroupLabels": [
+            "3A-HBV Groups"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "1A-HBV",
+          "description": "A single-antigen (1A) HBV vaccine provided as 1-mL vials containing 20 μg of HBsAg-S adsorbed onto 0.5 mg of Al3+ as aluminum hydroxide adjuvant, sourced commercially.",
+          "armGroupLabels": [
+            "1A-HBV Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Geometric Mean Concentration (GMC) of Anti-HBs (Manufacturing Equivalence)",
+          "description": "Assessment of manufacturing equivalence (lot-to-lot consistency) of 3 independent consecutive 3A-HBV lots. Consistency was demonstrated if the upper and lower bound of the 2-sided 95% CI of the GMC of anti-HBs ratios for all 3 pairwise comparisons were between 0.67 and 1.50.",
+          "timeFrame": "4 weeks after the third injection (Day 196)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Seroprotection Rate (SPR) Noninferiority",
+          "description": "The proportion of participants achieving seroprotection, defined as a hepatitis B surface antibody (anti-HBs) concentration of at least 10 mIU/mL. Noninferiority is demonstrated if the lower bound of the 2-sided 95% CI of the difference between the SPR for 3A-HBV and 1A-HBV is greater than -5%.",
+          "timeFrame": "4 weeks after the third injection (Day 196)"
+        },
+        {
+          "measure": "Safety and Reactogenicity",
+          "description": "Incidence of solicited local and systemic adverse events (AEs), unsolicited AEs, and serious adverse events (SAEs).",
+          "timeFrame": "Solicited AEs within 7 days of vaccination; Unsolicited AEs within 28 days of vaccination; SAEs throughout study period (Day 1 to Day 336)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Geometric Mean Concentration (GMC) of Anti-HBs",
+          "description": "Measurement of antibody response levels.",
+          "timeFrame": "Day 168 (after 2 vaccinations) and Day 336"
+        },
+        {
+          "measure": "Seroprotection Rate (SPR)",
+          "description": "Proportion of participants achieving anti-HBs concentrations of at least 10 mIU/mL.",
+          "timeFrame": "Day 168 (after 2 vaccinations) and Day 336"
+        },
+        {
+          "measure": "Proportion of Participants Achieving Anti-HBs Concentrations ≥ 100 mIU/mL",
+          "description": "Proportion of participants reaching antibody concentrations of at least 100 mIU/mL.",
+          "timeFrame": "Day 168, Day 196, and Day 336"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Healthy adults aged 18 to 45 years at the time of the first vaccination\n* In stable health\n* Provided written informed consent\n\nExclusion Criteria:\n* A complete list of exclusion criteria is presented in eMethods 1 in Supplement 2 (not provided in the article text)",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "45 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    }
+  }
+}

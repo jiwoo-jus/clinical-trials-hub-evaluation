@@ -1,0 +1,97 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03416920",
+      "orgStudyIdInfo": {
+        "id": "2017P002582"
+      },
+      "organization": {
+        "fullName": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "A Smartphone-based Application Post-myocardial Infarction to Manage Cardiovascular Disease Risk",
+      "officialTitle": "A Smartphone-based Application Post-myocardial Infarction to Manage Cardiovascular Disease Risk"
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators aim to evaluate Wellframe, a patient engagement platform that includes a mobile phone application for patients, for its impact on supporting patients who have undergone a percutaneous coronary intervention. The patient mobile app has articles about cardiovascular disease and other health related topics, patient-reported outcomes surveys, physical activity tracking, reminders for medications and upcoming appointments, and two-way communication with a Wellframe Health Advocate. The Wellframe Health Advocate encourages patients to achieve their health goals and stay engaged in their health. The feasibility of onboarding patients to the app and the clinical efficacy of the platform will be evaluated."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Percutaneous Coronary Intervention"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Enroll and onboard 150 patients with the Wellframe application",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 167,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Wellframe",
+          "type": "EXPERIMENTAL",
+          "description": "Subjects in this arm will use the Wellframe application for 90 days",
+          "interventionNames": [
+            "Other: Wellframe"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Wellframe",
+          "description": "Wellframe mobile phone app",
+          "armGroupLabels": [
+            "Wellframe"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With Readmission at 30 Days",
+          "description": "How many subjects were readmitted to the hospital",
+          "timeFrame": "30 Days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Participants With Readmission at 90 Days",
+          "description": "How many subjects were readmitted to the hospital",
+          "timeFrame": "90 Days"
+        },
+        {
+          "measure": "Number of Participants Enrolled in Clinic-based Cardiac Rehab at 90 Days",
+          "description": "Percent of patients discharged after intervention who attend at least one session of clinic-based cardiac rehab",
+          "timeFrame": "90 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nEnglish-speaking PCI: balloon angioplasty, bare-metal stent, or drug-eluting stent at MGH Smartphone or Tablet (iOS or Android)\n\nExclusion Criteria:\n\nRecent (within 1mo) illicit substance use or alcohol abuse In-hospital AMI Known pregnancy Dementia or cognitive disability Incarceration",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "85 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

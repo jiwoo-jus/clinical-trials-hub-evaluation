@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "case_id": 88,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T19:24:21.045200",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/88_NCT03416920.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/88_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Readmission at 30 Days",
+            "description": "How many subjects were readmitted to the hospital",
+            "timeFrame": "30 Days"
+          },
+          "pred_item": {
+            "measure": "30-day all-cause hospital readmission",
+            "description": "Safety of the app, as assessed by 30-day all-cause hospital readmission. Planned or unplanned hospitalization within an MGB hospital with documentation of date within 30 days was used for readmission rates.",
+            "timeFrame": "30 days post-PCI"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.2,
+          0.12,
+          0.7,
+          0.8,
+          0.11,
+          0.08
+        ],
+        [
+          0.18,
+          0.96,
+          0.15,
+          0.18,
+          0.32,
+          0.7,
+          0.12
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Readmission at 90 Days",
+            "description": "How many subjects were readmitted to the hospital",
+            "timeFrame": "90 Days"
+          },
+          "pred_item": {
+            "measure": "90-day all-cause hospital readmission",
+            "description": "All-cause hospital readmission within 90 days post-PCI. Planned or unplanned hospitalization within an MGB hospital with documentation of date within 90 days was used for readmission rates.",
+            "timeFrame": "90 days post-PCI"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Enrolled in Clinic-based Cardiac Rehab at 90 Days",
+            "description": "Percent of patients discharged after intervention who attend at least one session of clinic-based cardiac rehab",
+            "timeFrame": "90 days"
+          },
+          "pred_item": {
+            "measure": "Enrollment in cardiac rehabilitation (CR) within 90 days",
+            "description": "Enrollment in cardiac rehabilitation at an MGB site within 90 days of hospitalization.",
+            "timeFrame": "90 days post-PCI"
+          }
+        }
+      ]
+    }
+  ]
+}

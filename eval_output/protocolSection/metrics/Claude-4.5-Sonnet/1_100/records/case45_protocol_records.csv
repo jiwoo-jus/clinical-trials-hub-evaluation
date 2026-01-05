@@ -1,0 +1,55 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,FN,FN,NCT04324073,,False,0.0,,NCTId,protocolSection.identificationModule.nctId,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,FN,FN,Cohort Multiple Randomized Controlled Trials Open-label of Immune Modulatory Drugs and Other Treatments in COVID-19 Patients - Sarilumab Trial - CORIMUNO-19 - SARI,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,FN,FN,Cohort Multiple Randomized Controlled Trials Open-label of Immune Modulatory Drugs and Other Treatments in COVID-19 Patients - Sarilumab Trial - CORIMUNO-19 - SARI,,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,"The overall objective of the study is to determine the therapeutic effect and tolerance of Sarilumab in patients with moderate, severe pneumonia or critical pneumonia associated with Coronavirus disease 2019 (COVID-19). Sarilumab is a human IgG1 monoclonal antibody that binds specifically to both soluble and membrane-bound IL-6Rs (sIL-6Rα and mIL-6Rα) and has been shown to inhibit IL-6-mediated signaling through these receptors. The study has a cohort multiple Randomized Controlled Trials (cmRCT) design. Randomization will occur prior to offering Sarilumab administration to patients enrolled in the CORIMUNO-19 cohort. Sarilumab will be administered to consenting adult patients hospitalized with COVID-19 either diagnosed with moderate or severe pneumonia requiring no mechanical ventilation or critical pneumonia requiring mechanical ventilation. Patients who will chose not to receive Sarilumab will receive standard of care. Outcomes of Sarilumab-treated patients will be compared with outcomes of standard of care-treated patients as well as with outcomes of patients treated with other immune modulators.",,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,['Corona Virus Infection'],,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,FN,FN,INTERVENTIONAL,,False,0.0,,StudyType,protocolSection.designModule.studyType,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,FN,FN,"['PHASE2', 'PHASE3']",,False,0.0,,Phase,protocolSection.designModule.phases,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,FN,FN,RANDOMIZED,,False,0.0,,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,FN,FN,PARALLEL,,False,0.0,,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,FN,FN,NONE,,False,0.0,,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,FN,FN,239,,False,0.0,,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.armGroups[1].interventionNames,EV,EV,,['Other: Usual care'],,,,ArmGroupInterventionName,protocolSection.armsInterventionsModule.armGroups.interventionNames,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[1].type,EV,EV,,OTHER,,,,InterventionType,protocolSection.armsInterventionsModule.interventions.type,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[1].name,EV,EV,,Usual care,,,,InterventionName,protocolSection.armsInterventionsModule.interventions.name,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[1].description,EV,EV,,"Standard care including antibiotic agents, antiviral agents, corticosteroids, vasopressor support, and anticoagulants as determined by treating physicians",,,,InterventionDescription,protocolSection.armsInterventionsModule.interventions.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[1].armGroupLabels,EV,EV,,"['Sarilumab group', 'Usual care group']",,,,InterventionArmGroupLabel,protocolSection.armsInterventionsModule.interventions.armGroupLabels,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,FN,FN,"Inclusion Criteria:
+
+1. Patients included in the CORIMUNO-19 cohort
+2. Patients belonging to one of the 2 following groups:
+
+   * Group 1: patients not requiring Intensive Care Unit at admission with moderate and severe pneumopathy according to the OMS Criteria of severity of COVID pneumopathy.
+
+Moderate cases :
+
+Cases meeting all of the following criteria:
+
+* Showing fever and respiratory symptoms with radiological findings of pneumonia.
+* Requiring between 3L/min and 5L/min of oxygen to maintain SpO2 \>97% Severe cases
+
+Cases meeting any of the following criteria:
+
+* Respiratory distress (≧30 breaths/ min);
+* Oxygen saturation≤93% at rest in ambient air; or Oxygen saturation ≤97 % with O2 \> 5L/min.
+* PaO2/FiO2≦300mmHg
+* Group 2: patients requiring Intensive Care Unit based on Criteria of severity of COVID pneumopathy.
+* Respiratory failure and requiring mechanical ventilation
+* No do-not-resuscitate order (DNR order)
+
+Exclusion Criteria:
+
+* Patients with exclusion criteria to the CORIMUNO-19 cohort.
+* Known hypersensitivity to Sarilumab or to any of their excipients.
+* Pregnancy
+* Current documented bacterial infection
+* Patient with any of following laboratory results out of the ranges detailed below at screening should be discussed depending of the medication:
+* Absolute neutrophil count (ANC) ≤ 1.0 x 109/L
+* Haemoglobin level: no limitation
+* Platelets (PLT) \< 50 G /L
+* SGOT or SGPT \> 5N",,False,0.0,,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,FN,FN,False,,False,0.0,,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,FN,FN,ALL,,False,0.0,,Sex,protocolSection.eligibilityModule.sex,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,FN,FN,18 Years,,False,0.0,,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,FN,FN,"['ADULT', 'OLDER_ADULT']",,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

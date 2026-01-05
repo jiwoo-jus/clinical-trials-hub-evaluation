@@ -1,0 +1,573 @@
+{
+  "metadata": {
+    "case_id": 84,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T19:15:36.090262",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/84_NCT03170388.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/84_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.3,
+          0.7,
+          0.3,
+          0.25
+        ],
+        [
+          0.62,
+          0.3,
+          0.32,
+          0.2,
+          0.05
+        ],
+        [
+          0.7,
+          0.3,
+          0.3,
+          0.2,
+          0.12
+        ],
+        [
+          0.5,
+          0.3,
+          0.35,
+          0.3,
+          0.1
+        ],
+        [
+          0.7,
+          0.22,
+          0.3,
+          0.15,
+          0.83
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "label": "IDP-126 Gel",
+            "type": "EXPERIMENTAL",
+            "description": "Gel",
+            "interventionNames": [
+              "Drug: IDP-126 Gel"
+            ]
+          },
+          "pred_item": {
+            "label": "CLIN/BPO gel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Once-daily topical application of clindamycin phosphate 1.2%/benzoyl peroxide 3.1% gel to the face for 12 weeks. Formulated within the same vehicle as IDP-126.",
+            "interventionNames": [
+              "Clindamycin/Benzoyl Peroxide Gel",
+              "Standardized Skin Care (CeraVe cleanser, moisturizer, sunscreen)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.3,
+          "status": "matched",
+          "ref_item": {
+            "label": "IDP-126 Component A",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Component A",
+            "interventionNames": [
+              "Drug: IDP-126 Component A"
+            ]
+          },
+          "pred_item": {
+            "label": "BPO/ADAP gel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Once-daily topical application of benzoyl peroxide 3.1%/adapalene 0.15% gel to the face for 12 weeks. Formulated within the same vehicle as IDP-126.",
+            "interventionNames": [
+              "Benzoyl Peroxide/Adapalene Gel",
+              "Standardized Skin Care (CeraVe cleanser, moisturizer, sunscreen)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "label": "IDP-126 Component B",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Component B",
+            "interventionNames": [
+              "Drug: IDP-126 Component B"
+            ]
+          },
+          "pred_item": {
+            "label": "IDP-126 gel",
+            "type": "EXPERIMENTAL",
+            "description": "Once-daily topical application of clindamycin phosphate 1.2%/benzoyl peroxide 3.1%/adapalene 0.15% gel (IDP-126) to the face for 12 weeks.",
+            "interventionNames": [
+              "Clindamycin/Benzoyl Peroxide/Adapalene Gel (IDP-126)",
+              "Standardized Skin Care (CeraVe cleanser, moisturizer, sunscreen)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.3,
+          "status": "matched",
+          "ref_item": {
+            "label": "IDP-126 Component C",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Component C",
+            "interventionNames": [
+              "Drug: IDP-126 Component C"
+            ]
+          },
+          "pred_item": {
+            "label": "CLIN/ADAP gel",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Once-daily topical application of clindamycin phosphate 1.2%/adapalene 0.15% gel to the face for 12 weeks. Formulated within the same vehicle as IDP-126.",
+            "interventionNames": [
+              "Clindamycin/Adapalene Gel",
+              "Standardized Skin Care (CeraVe cleanser, moisturizer, sunscreen)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.83,
+          "status": "matched",
+          "ref_item": {
+            "label": "IDP-126 Vehicle Gel",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Vehicle Gel",
+            "interventionNames": [
+              "Drug: IDP-126 Vehicle Gel"
+            ]
+          },
+          "pred_item": {
+            "label": "Vehicle gel",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Once-daily topical application of vehicle gel (same gel formulation without active drugs) to the face for 12 weeks.",
+            "interventionNames": [
+              "Vehicle Gel",
+              "Standardized Skin Care (CeraVe cleanser, moisturizer, sunscreen)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 6,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.35,
+          0.3,
+          0.6,
+          0.3,
+          0.18
+        ],
+        [
+          0.74,
+          0.65,
+          0.2,
+          0.35,
+          0.3,
+          0.2
+        ],
+        [
+          0.7,
+          0.4,
+          0.38,
+          0.68,
+          0.3,
+          0.18
+        ],
+        [
+          0.78,
+          0.3,
+          0.4,
+          0.78,
+          0.18,
+          0.18
+        ],
+        [
+          0.72,
+          0.3,
+          0.2,
+          0.22,
+          0.97,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "IDP-126 Gel",
+            "description": "Gel",
+            "armGroupLabels": [
+              "IDP-126 Gel"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Clindamycin/Benzoyl Peroxide/Adapalene Gel (IDP-126)",
+            "description": "Topical aqueous polymeric gel containing clindamycin phosphate 1.2%, benzoyl peroxide 3.1% (micronized), and adapalene 0.15% (micronized), pH-balanced, alcohol-free, preservative-free, without occlusive agents or surfactants; applied once daily to the face for 12 weeks.",
+            "armGroupLabels": [
+              "IDP-126 gel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.65,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "IDP-126 Component A",
+            "description": "Component A",
+            "armGroupLabels": [
+              "IDP-126 Component A"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Benzoyl Peroxide/Adapalene Gel",
+            "description": "Topical gel containing benzoyl peroxide 3.1% (micronized) and adapalene 0.15% (micronized), formulated within the same vehicle as IDP-126; applied once daily to the face for 12 weeks.",
+            "armGroupLabels": [
+              "BPO/ADAP gel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.38,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "IDP-126 Component B",
+            "description": "Component B",
+            "armGroupLabels": [
+              "IDP-126 Component B"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Clindamycin/Benzoyl Peroxide Gel",
+            "description": "Topical gel containing clindamycin phosphate 1.2% and benzoyl peroxide 3.1% (micronized), formulated within the same vehicle as IDP-126; applied once daily to the face for 12 weeks.",
+            "armGroupLabels": [
+              "CLIN/BPO gel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "IDP-126 Component C",
+            "description": "Component C",
+            "armGroupLabels": [
+              "IDP-126 Component C"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Clindamycin/Adapalene Gel",
+            "description": "Topical gel containing clindamycin phosphate 1.2% and adapalene 0.15% (micronized), formulated within the same vehicle as IDP-126; applied once daily to the face for 12 weeks.",
+            "armGroupLabels": [
+              "CLIN/ADAP gel"
+            ]
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "IDP-126 Vehicle Gel",
+            "description": "Vehicle Gel",
+            "armGroupLabels": [
+              "IDP-126 Vehicle Gel"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Vehicle Gel",
+            "description": "Topical vehicle gel matching the IDP-126 formulation but without active drug components; applied once daily to the face for 12 weeks.",
+            "armGroupLabels": [
+              "Vehicle gel"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.3,
+          0.96,
+          0.6
+        ],
+        [
+          0.2,
+          0.6,
+          0.95
+        ],
+        [
+          0.99,
+          0.3,
+          0.25
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Inflammatory Lesion Counts",
+            "description": "Absolute change from Baseline to Week 12 in mean inflammatory lesion counts",
+            "timeFrame": "Baseline to Week 12"
+          },
+          "pred_item": {
+            "measure": "Absolute change from baseline in inflammatory lesion count",
+            "description": "Least-squares mean absolute change from baseline in the number of facial inflammatory lesions (pustules, papules, and nodules).",
+            "timeFrame": "Baseline to week 12"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Non-inflammatory Lesion Counts",
+            "description": "Absolute change from Baseline to Week 12 in mean non-inflammatory lesion counts",
+            "timeFrame": "Baseline to Week 12"
+          },
+          "pred_item": {
+            "measure": "Absolute change from baseline in noninflammatory lesion count",
+            "description": "Least-squares mean absolute change from baseline in the number of facial noninflammatory lesions (closed and open comedones).",
+            "timeFrame": "Baseline to week 12"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Success on the Evaluator's Global Severity Score",
+            "description": "Success was defined as at least a two grade reduction and clear or almost clear at Week 12. The Evaluator's Global Severity Score has grades for acne severity of 0 (Clear), 1 (Almost Clear), 2 (Mild), 3 (Moderate), and 4 (Severe), with higher scores indicating worse severity.",
+            "timeFrame": "Baseline to Week 12"
+          },
+          "pred_item": {
+            "measure": "Treatment success at week 12",
+            "description": "Proportion of participants achieving treatment success, defined as a ≥ 2‑grade reduction from baseline in Evaluator’s Global Severity Score (EGSS) and a score of 0 (clear) or 1 (almost clear).",
+            "timeFrame": "Week 12"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 6,
+      "pred_count": 8,
+      "similarity_matrix": [
+        [
+          0.4,
+          0.3,
+          0.84,
+          0.65,
+          0.1,
+          0.2,
+          0.2,
+          0.05
+        ],
+        [
+          0.3,
+          0.2,
+          0.4,
+          0.86,
+          0.3,
+          0.25,
+          0.2,
+          0.05
+        ],
+        [
+          0.4,
+          0.25,
+          0.93,
+          0.7,
+          0.25,
+          0.22,
+          0.2,
+          0.1
+        ],
+        [
+          0.2,
+          0.2,
+          0.7,
+          0.95,
+          0.22,
+          0.2,
+          0.25,
+          0.08
+        ],
+        [
+          0.94,
+          0.82,
+          0.25,
+          0.18,
+          0.35,
+          0.3,
+          0.2,
+          0.08
+        ],
+        [
+          0.9,
+          0.9,
+          0.35,
+          0.25,
+          0.35,
+          0.35,
+          0.3,
+          0.08
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 5,
+          "score": 0.2,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Inflammatory Lesion Count Changes at Week 2, 4, and 8",
+            "description": "Absolute change from Baseline to Week 2, 4, and 8 in mean inflammatory lesion counts",
+            "timeFrame": "Baseline to Week 2, 4, 8"
+          },
+          "pred_item": {
+            "measure": "Cutaneous safety assessments",
+            "description": "Investigator-assessed local cutaneous reactions including scaling, erythema, hypopigmentation, and hyperpigmentation, each scored on a 4-point scale (0 = none to 3 = severe).",
+            "timeFrame": "Baseline and weeks 2, 4, 8, and 12"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 4,
+          "score": 0.3,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Non-inflammatory Lesion Count Changes at Week 2, 4, and 8",
+            "description": "Absolute change from Baseline to Week 2, 4, and 8 in mean non-inflammatory lesion counts",
+            "timeFrame": "Baseline to Week 2, 4, 8"
+          },
+          "pred_item": {
+            "measure": "Acne-Specific Quality of Life (Acne-QoL) scores",
+            "description": "Change from baseline in Acne-QoL scores across four domains (self-perception, role-emotional, role-social, and acne symptoms); higher scores indicate improved health-related quality of life.",
+            "timeFrame": "Baseline to week 12"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Inflammatory Lesion Count Percentage Changes at Week 2, 4, and 8",
+            "description": "Percentage change from Baseline to Week 2, 4, and 8 in mean inflammatory lesion counts",
+            "timeFrame": "Baseline to Week 2, 4, 8"
+          },
+          "pred_item": {
+            "measure": "Percent change from baseline in inflammatory lesion count by study visit",
+            "description": "Least-squares mean percent change from baseline in facial inflammatory lesion counts at each visit.",
+            "timeFrame": "Baseline to weeks 2, 4, 8, and 12"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Non-inflammatory Lesion Count Percentage Changes at Week 2, 4, and 8",
+            "description": "Percentage change from Baseline to Week 2, 4, and 8 in mean non-inflammatory lesion counts",
+            "timeFrame": "Baseline to Week 2, 4, 8"
+          },
+          "pred_item": {
+            "measure": "Percent change from baseline in noninflammatory lesion count by study visit",
+            "description": "Least-squares mean percent change from baseline in facial noninflammatory lesion counts at each visit.",
+            "timeFrame": "Baseline to weeks 2, 4, 8, and 12"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Success on the Evaluator's Global Severity Score at Weeks 2, 4, and 8",
+            "description": "Success was defined as at least a two grade reduction and clear or almost clear at the visit. The Evaluator's Global Severity Score has grades for acne severity of 0 (Clear), 1 (Almost Clear), 2 (Mild), 3 (Moderate), and 4 (Severe), with higher scores indicating worse severity.",
+            "timeFrame": "Baseline to Week 2, 4, and 8"
+          },
+          "pred_item": {
+            "measure": "Treatment success by study visit",
+            "description": "Proportion of participants achieving treatment success (≥ 2‑grade reduction from baseline in EGSS and a score of 0 or 1) at each scheduled visit.",
+            "timeFrame": "Weeks 2, 4, 8, and 12"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Two Grade Success on the Evaluator's Global Severity Score - at Weeks 2, 4, and 8",
+            "description": "Two grade success was defined as at least a two grade reduction. The Evaluator's Global Severity Score has grades for acne severity of 0 (Clear), 1 (Almost Clear), 2 (Mild), 3 (Moderate), and 4 (Severe), with higher scores indicating worse severity.",
+            "timeFrame": "Baseline to Week 2, 4, and 8"
+          },
+          "pred_item": {
+            "measure": "≥ 2‑grade reduction in EGSS by study visit",
+            "description": "Proportion of participants achieving at least a 2‑grade reduction from baseline in EGSS, regardless of whether a score of 0 or 1 was reached, at each visit.",
+            "timeFrame": "Weeks 2, 4, 8, and 12"
+          }
+        }
+      ]
+    }
+  ]
+}

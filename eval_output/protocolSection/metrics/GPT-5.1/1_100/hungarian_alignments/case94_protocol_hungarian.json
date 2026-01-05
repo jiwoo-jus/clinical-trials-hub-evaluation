@@ -1,0 +1,283 @@
+{
+  "metadata": {
+    "case_id": 94,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T19:34:32.772147",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/94_NCT03408730.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/94_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          1.0
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "id": "2017-001820-22",
+            "type": "EUDRACT_NUMBER"
+          },
+          "pred_item": {
+            "id": "2017-001820-22",
+            "type": "EUDRACT_NUMBER",
+            "domain": "EU Clinical Trials Register",
+            "link": null
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.86,
+          0.92,
+          0.7
+        ],
+        [
+          0.84,
+          0.93,
+          0.82,
+          0.78
+        ],
+        [
+          0.92,
+          0.84,
+          0.94,
+          0.82
+        ],
+        [
+          0.4,
+          0.7,
+          0.5,
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Sci-B-Vac Lot A Hep B Vaccination",
+            "type": "EXPERIMENTAL",
+            "description": "Sci-B-Vac Lot A Hepatitis B Vaccination",
+            "interventionNames": [
+              "Biological: Hepatitis B Vaccination"
+            ]
+          },
+          "pred_item": {
+            "label": "3A-HBV Lot A",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received the 3-antigen hepatitis B virus vaccine (Sci-B-Vac) from manufacturing lot A. Each participant was administered a 1-mL intramuscular dose containing 10 μg of pre-S1/pre-S2/S virus-like particle adsorbed on aluminum hydroxide on days 0, 28, and 168.",
+            "interventionNames": [
+              "3-antigen hepatitis B virus vaccine (3A-HBV)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Sci-B-Vac Lot B Hep B Vaccination",
+            "type": "EXPERIMENTAL",
+            "description": "Sci-B-Vac Lot B Hepatitis B Vaccination",
+            "interventionNames": [
+              "Biological: Hepatitis B Vaccination"
+            ]
+          },
+          "pred_item": {
+            "label": "3A-HBV Lot B",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received the 3-antigen hepatitis B virus vaccine (Sci-B-Vac) from manufacturing lot B. Each participant was administered a 1-mL intramuscular dose containing 10 μg of pre-S1/pre-S2/S virus-like particle adsorbed on aluminum hydroxide on days 0, 28, and 168.",
+            "interventionNames": [
+              "3-antigen hepatitis B virus vaccine (3A-HBV)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Sci-B-Vac Lot C Hep B Vaccination",
+            "type": "EXPERIMENTAL",
+            "description": "Sci-B-Vac Lot C Hepatitis B Vaccination",
+            "interventionNames": [
+              "Biological: Hepatitis B Vaccination"
+            ]
+          },
+          "pred_item": {
+            "label": "3A-HBV Lot C",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received the 3-antigen hepatitis B virus vaccine (Sci-B-Vac) from manufacturing lot C. Each participant was administered a 1-mL intramuscular dose containing 10 μg of pre-S1/pre-S2/S virus-like particle adsorbed on aluminum hydroxide on days 0, 28, and 168.",
+            "interventionNames": [
+              "3-antigen hepatitis B virus vaccine (3A-HBV)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Comparator: ENGERIX-B Hep B Vaccination",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Active Comparator: ENGERIX-B Hepatitis B Vaccination",
+            "interventionNames": [
+              "Biological: Hepatitis B Vaccination"
+            ]
+          },
+          "pred_item": {
+            "label": "1A-HBV",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received the comparator single-antigen hepatitis B virus vaccine (Engerix-B or equivalent). Each participant was administered a 1-mL intramuscular dose containing 20 μg of HBsAg-S adsorbed onto 0.5 mg of aluminum hydroxide on days 0, 28, and 168.",
+            "interventionNames": [
+              "Single-antigen hepatitis B virus vaccine (1A-HBV)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Hepatitis B Vaccination",
+            "description": "Hepatitis B Vaccination",
+            "armGroupLabels": [
+              "Comparator: ENGERIX-B Hep B Vaccination",
+              "Sci-B-Vac Lot A Hep B Vaccination",
+              "Sci-B-Vac Lot B Hep B Vaccination",
+              "Sci-B-Vac Lot C Hep B Vaccination"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "Single-antigen hepatitis B virus vaccine (1A-HBV)",
+            "description": "Conventional yeast-derived hepatitis B vaccine (e.g., Engerix-B), provided as 1-mL vials containing 20 μg of HBsAg-S adsorbed onto 0.5 mg of Al3+ as aluminum hydroxide adjuvant. Administered intramuscularly on days 0, 28, and 168 as the active comparator.",
+            "armGroupLabels": [
+              "1A-HBV"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Geometric Mean Concentration (GMC) of Anti-HBs at Day 196 for Lot-to-Lot Consistency (Per Protocol Set 1)",
+            "description": "To demonstrate the manufacturing equivalence, in terms of immunogenicity, as measured by GMC of antibodies, of 3 independent consecutive lots of the Sci-B-Vac® 4 weeks after the third vaccination. Lot-to-lot manufacturing consistency of Sci-B-Vac® is demonstrated if the 95% CIs of the adjusted anti-HBs GMC ratios between lots are within the pre-specified range of \\[0.67, 1.5\\].",
+            "timeFrame": "4 weeks after third vaccination (Study Day 196)"
+          },
+          "pred_item": {
+            "measure": "Manufacturing equivalence of 3A-HBV vaccine lots based on geometric mean concentration of anti-HBs",
+            "description": "Lot-to-lot consistency (manufacturing equivalence) of three consecutively manufactured 3-antigen HBV (3A-HBV) vaccine lots, assessed by the geometric mean concentration (GMC) of serum hepatitis B surface antibodies (anti-HBs) and the pairwise GMC ratios between lots, with 95% confidence intervals required to fall within 0.67 to 1.50.",
+            "timeFrame": "Day 196 (4 weeks after the third vaccination)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.18
+        ],
+        [
+          0.1,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Seroprotection Rate (SPR) of Anti-HBs at Day 196 for Sci-B-Vac® Compared to Day 196 for Engerix-B® (Per Protocol Set 2)",
+            "description": "The difference in proportions \\[SPR(Sci-B-Vac®)-SPR(Engerix-B®)\\] and two-sided 95% CIs were summarized. If the lower bound of the 95% CI was \\> 5%, Sci-B-Vac® was to be declared non-inferior to Engerix-B®",
+            "timeFrame": "4 weeks after third vaccination (Study Day 196)"
+          },
+          "pred_item": {
+            "measure": "Seroprotection rate after 3-dose regimen of 3A-HBV vs 1A-HBV",
+            "description": "Noninferiority of seroprotection rate (SPR) of pooled 3A-HBV compared with single-antigen HBV (1A-HBV), where seroprotection is defined as an anti-HBs concentration of at least 10 mIU/mL in serum; noninferiority met if the lower bound of the 2-sided 95% confidence interval of (SPR 3A-HBV minus SPR 1A-HBV) is greater than −5%.",
+            "timeFrame": "Day 196 (4 weeks after the third vaccination)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Subject-reporting Solicited Local and Systemic Adverse Events (AEs)",
+            "description": "Analysis of local and systemic solicited adverse events with an interval of onset of Day 1 to Day 7 after any vaccination with either Sci-B-Vac® or Engerix-B®, in adults ≥18 years old.",
+            "timeFrame": "Day of vaccine administration and six subsequent days"
+          },
+          "pred_item": {
+            "measure": "Safety and reactogenicity of 3A-HBV compared with 1A-HBV",
+            "description": "Incidence, nature, severity, and duration of solicited local and systemic adverse events within 7 days after any vaccination; unsolicited adverse events within 28 days after any vaccination; serious adverse events and vaccine discontinuations due to adverse events over the entire study period, in participants who received at least one vaccine dose.",
+            "timeFrame": "From first vaccination (Day 0) through Day 336, with specified windows: solicited AEs Day 1–7 after each vaccination, unsolicited AEs Day 1–28 after each vaccination, SAEs Day 1–336"
+          }
+        }
+      ]
+    }
+  ]
+}

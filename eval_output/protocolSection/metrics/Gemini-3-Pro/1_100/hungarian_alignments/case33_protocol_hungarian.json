@@ -1,0 +1,292 @@
+{
+  "metadata": {
+    "case_id": 33,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T15:51:55.106166",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/33_NCT04279392.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/33_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.55
+        ],
+        [
+          0.4,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Active Infusion",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "At 6 weeks post surgery, 5 mg of zoledronic acid in 100 ml of saline will be infused intravenously over a 15 minute time period.",
+            "interventionNames": [
+              "Drug: Zoledronic Acid 5 mg/Bag 100 ml Inj"
+            ]
+          },
+          "pred_item": {
+            "label": "Zoledronic Acid",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive a one-time 100 mL infusion of 5 mg zoledronic acid 6–8 weeks following sleeve gastrectomy (SG).",
+            "interventionNames": [
+              "Drug: Zoledronic Acid"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Non-active Infusion",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "At 6 weeks post surgery, 100 ml of saline will be infused intravenously over a 15 minute time period.",
+            "interventionNames": [
+              "Drug: Placebos"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants receive a one-time 100 mL infusion of saline 6–8 weeks following sleeve gastrectomy (SG).",
+            "interventionNames": [
+              "Drug: Placebo (Saline)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.15
+        ],
+        [
+          0.1,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Zoledronic Acid 5 mg/Bag 100 ml Inj",
+            "description": "Zoledronic acid infusion",
+            "armGroupLabels": [
+              "Active Infusion"
+            ],
+            "otherNames": [
+              "Reclast"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Zoledronic Acid",
+            "description": "A one-time intravenous infusion of 5 mg zoledronic acid (100 mL) delivered over 30 minutes (200 mL/hour).",
+            "armGroupLabels": [
+              "Zoledronic Acid"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebos",
+            "description": "Saline infusion",
+            "armGroupLabels": [
+              "Non-active Infusion"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo (Saline)",
+            "description": "A one-time intravenous infusion of saline (100 mL) delivered over 30 minutes (200 mL/hour).",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Hip Bone Mineral Density (BMD)",
+            "description": "Change in hip bone mineral density (BMD) measured by dual-energy x-ray absorptiometry (DXA) - g/cm2",
+            "timeFrame": "baseline and 10 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in total hip areal bone mineral density (aBMD)",
+            "description": "Measured by dual energy X-ray absorptiometry (DXA).",
+            "timeFrame": "Baseline and 9 months"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 10,
+      "similarity_matrix": [
+        [
+          0.7,
+          0.9,
+          0.8,
+          0.78,
+          0.35,
+          0.42,
+          0.2,
+          0.25,
+          0.08,
+          0.08
+        ],
+        [
+          0.35,
+          0.4,
+          0.4,
+          0.32,
+          0.12,
+          0.2,
+          0.3,
+          0.6,
+          0.2,
+          0.11
+        ],
+        [
+          0.35,
+          0.35,
+          0.25,
+          0.15,
+          0.2,
+          0.25,
+          0.2,
+          0.2,
+          0.15,
+          0.12
+        ],
+        [
+          0.25,
+          0.2,
+          0.2,
+          0.25,
+          0.2,
+          0.18,
+          0.2,
+          0.35,
+          0.25,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Lumbar Spine Bone Mineral Density (BMD)",
+            "description": "Change in lumbar spine bone mineral density (BMD) measured by dual-energy x-ray absorptiometry (DXA)/cm2 of L1-L4 lumbar vertebrae",
+            "timeFrame": "baseline and 10 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in lumbar spine (L1-L4) areal bone mineral density (aBMD)",
+            "description": "Measured by dual energy X-ray absorptiometry (DXA).",
+            "timeFrame": "Baseline and 9 months"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 7,
+          "score": 0.6,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Trunk Lean Mass",
+            "description": "Change in trunk lean mass, measured in kg",
+            "timeFrame": "baseline and 9 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in static upper body extremity strength",
+            "description": "Measured by handgrip strength testing.",
+            "timeFrame": "Baseline and 9 months"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.35,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Trunk Fat Mass",
+            "description": "Change in Trunk fat mass, measured in kg",
+            "timeFrame": "baseline and 9 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in femoral neck areal bone mineral density (aBMD)",
+            "description": "Measured by dual energy X-ray absorptiometry (DXA).",
+            "timeFrame": "Baseline and 9 months"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.25,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Weight",
+            "description": "Change in weight, measured in kgs",
+            "timeFrame": "baseline and 9 months post-surgery"
+          },
+          "pred_item": {
+            "measure": "Change in bone strength at the lumbar spine",
+            "description": "Measured by finite element analysis using subject-specific models of the L2 vertebra derived from QCT scans.",
+            "timeFrame": "Baseline and 9 months"
+          }
+        }
+      ]
+    }
+  ]
+}

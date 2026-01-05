@@ -1,0 +1,214 @@
+{
+  "metadata": {
+    "case_id": 89,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T19:25:34.110095",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/89_NCT04864691.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/89_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.55
+        ],
+        [
+          0.45,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "endovascular recanalization plus standard medical treatment",
+            "type": "EXPERIMENTAL",
+            "description": "patients with symptomatic non-acute intracranial artery occlusion treated by endovascular recanalization and standard medical treatment after procedure",
+            "interventionNames": [
+              "Biological: endovascular recanalization"
+            ]
+          },
+          "pred_item": {
+            "label": "Endovascular Recanalization plus Standard Medical Therapy (ER plus SMT)",
+            "type": "EXPERIMENTAL",
+            "description": "Patients receive endovascular recanalization procedure plus standard medical therapy including dual antiplatelet therapy (aspirin 100 mg/day and clopidogrel 75 mg/day) for 90 days (or 3-6 months post-procedure) followed by lifelong aspirin or clopidogrel monotherapy, blood pressure control (systolic BP <140 mmHg or <130 mmHg in diabetics), LDL cholesterol control (<70 mg/dl with Atorvastatin), and lifestyle modification programs.",
+            "interventionNames": [
+              "PROCEDURE: Endovascular Recanalization",
+              "DRUG: Aspirin",
+              "DRUG: Clopidogrel",
+              "DRUG: Atorvastatin",
+              "DRUG: Heparin",
+              "BEHAVIORAL: Lifestyle Modification Program (INTERVENT)",
+              "OTHER: Blood Pressure Control",
+              "OTHER: LDL Cholesterol Control"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "label": "standard medical treatment",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients take aspirin 100 mg/day or clopidogrel 75mg/day for the entire follow-up period (EVR patients take aspirin 100 mg/day and clopidogrel 75mg/day for 30-90 days after procedure)",
+            "interventionNames": [
+              "Biological: endovascular recanalization"
+            ]
+          },
+          "pred_item": {
+            "label": "Standard Medical Therapy Alone (SMT)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients receive standard medical therapy including dual antiplatelet therapy (aspirin 100 mg/day and clopidogrel 75 mg/day) for 90 days followed by lifelong aspirin or clopidogrel monotherapy, blood pressure control (systolic BP <140 mmHg or <130 mmHg in diabetics), LDL cholesterol control (<70 mg/dl with Atorvastatin), and lifestyle modification programs.",
+            "interventionNames": [
+              "DRUG: Aspirin",
+              "DRUG: Clopidogrel",
+              "DRUG: Atorvastatin",
+              "BEHAVIORAL: Lifestyle Modification Program (INTERVENT)",
+              "OTHER: Blood Pressure Control",
+              "OTHER: LDL Cholesterol Control"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 8,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.32,
+          0.25,
+          0.18,
+          0.2,
+          0.15,
+          0.15,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "endovascular recanalization",
+            "description": "to recanalize the occlusion cerebral artery with intravascular intervention",
+            "armGroupLabels": [
+              "endovascular recanalization plus standard medical treatment",
+              "standard medical treatment"
+            ]
+          },
+          "pred_item": {
+            "type": "PROCEDURE",
+            "name": "Endovascular Recanalization",
+            "description": "Endovascular procedure performed under general anesthesia by experienced interventional neuroradiologist. Involves use of micro guidewire, microcatheter, balloon catheter to pass through and dilate occluded segment. Stents deployed if needed for residual severe stenosis, vascular dissection or failure to maintain forward flow. Successful revascularization defined as modified TICI grade 2b or 3 and residual stenosis <50%. Procedure performed using 6- or 8-French guiding catheter with heparin anticoagulation (coagulation time 200-300 seconds).",
+            "armGroupLabels": [
+              "Endovascular Recanalization plus Standard Medical Therapy (ER plus SMT)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Primary Outcome",
+            "description": "The primary outcome was a composite of any stroke or death within 30 days after enrollment or ischemic stroke in the territory of the qualifying artery from 30 days to 1 year after enrollment.",
+            "timeFrame": "One year"
+          },
+          "pred_item": {
+            "measure": "Any stroke",
+            "description": "Stroke defined as rapidly developing clinical signs of focal disturbance of cerebral function lasting more than 24 h with no apparent cause other than that of vascular origin according to WHO. Major stroke defined as NIHSS score ≥6 at least 30 days after stroke onset, mild stroke defined as deterioration in NIHSS score ≤4 points and bright spots on brain DWI or as determined by Stroke Adjudication Committee",
+            "timeFrame": "From enrollment to 2 years of follow-up"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.2,
+          0.25,
+          0.4,
+          0.1
+        ],
+        [
+          0.78,
+          0.86,
+          0.7,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.4,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Incidence of Stroke/ TIA Ipsilateral to the Target Vessel",
+            "description": "stroke/ TIA ipsilateral to the target vessel will be defined according to the World",
+            "timeFrame": "within 30 days and 90 days in both groups"
+          },
+          "pred_item": {
+            "measure": "National Institutes of Health Stroke Scale (NIHSS) score",
+            "description": "Neurological deficit assessment scale",
+            "timeFrame": "From enrollment to 30 days, 3 months, 8 months, 12 months, 18 months, and 2 years of follow-up"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "All-cause Mortality, mRS Score, NIHSS Score and Cognitive Function",
+            "description": "to evaluate the change in all-cause mortality, mRS score, NIHSS score and cognitive function in the two groups",
+            "timeFrame": "t 30 days, 90 days, 8 months, 12 months and 24 months for both groups"
+          },
+          "pred_item": {
+            "measure": "Modified Rankin Scale (mRS) score",
+            "description": "Functional disability scale ranging from 0 (no symptoms) to 6 (death)",
+            "timeFrame": "From enrollment to 30 days, 3 months, 8 months, 12 months, 18 months, and 2 years of follow-up"
+          }
+        }
+      ]
+    }
+  ]
+}

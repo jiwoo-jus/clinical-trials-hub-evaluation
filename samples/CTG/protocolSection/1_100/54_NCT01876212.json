@@ -1,0 +1,223 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01876212",
+      "orgStudyIdInfo": {
+        "id": "12-048"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R01CA169118",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/R01CA169118"
+        },
+        {
+          "id": "UPCI 12-048",
+          "type": "OTHER",
+          "domain": "University of Pittsburgh Cancer Institute"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Pittsburgh",
+        "class": "OTHER"
+      },
+      "briefTitle": "Dendritic Cell Vaccines + Dasatinib for Metastatic Melanoma",
+      "officialTitle": "A Randomized Phase 2 Pilot Study of Type I-Polarized Autologous Dendritic Cell Vaccines Incorporating Tumor Blood Vessel Antigen (TBVA)-Derived Peptides in Combination With Dasatinib in Patients With Metastatic Melanoma"
+    },
+    "descriptionModule": {
+      "briefSummary": "Current therapeutic approaches available for patients with advanced-stage melanoma remain inadequate, and existing approaches including those involving immunotherapy with cytokines and/or targeted strategies have resulted in disappointingly low rates of durable and complete responses. Correcting immune dysfunction in advanced-stage melanoma patients using tyrosine-kinase inhibitor (TKI) such as dasatinib is proposed to relicense the patient's immune system to respond optimally to specific immunization. The integration of antigens expressed by tumor-associated blood vessel cells provides a means to selectively target the genetically-/antigenically-heterogeneous population of tumor cells in the advanced-stage melanoma patient.\n\nThis is a single-center, prospective randomized Phase 2 trial evaluating the activity, safety and immune effects of dasatinib given in combination with an autologous type-1 polarized Dendritic Cell (αDC1) vaccine. The current trial represents a randomized Phase 2 study to determine the activity and safety of intradermal (id) administration of αDC1s loaded with a mixture of six TBVA-derived peptides at the time of, or immediately after, an initial therapy cycle with the TKI dasatinib.\n\nDasatinib will be administered at the standard dose and schedule recommended by the FDA (70 mg BID). The autologous type-I DC vaccine will be administered either prior to, or concomitant with, the initiation of dasatinib administration. All patients will receive dasatinib at a starting dose of 70 mg twice daily by mouth in the outpatient setting approximately every 12 hours, at the same time each day.\n\nThe DC vaccine will be administered by a single intradermal injection of approximately 10e7 cells, with all the DCs being administered on days 1 and 15 of every cycle on an outpatient basis in the University of Pittsburgh Clinical and Translational Research Center (UPCI-CTRC).\n\nPatients on Arm A will start dasatinib administration on cycle 2, day 1 (week 5), while those patients in Arm B will start dasatinib administration on cycle 1, day 1 (week 1).\n\nMen and women at least 18 years of age must be HLA-A2+ and have histologically confirmed melanoma that is metastatic (Stage IV) or unresectable Stage IIIB/C and for which standard curative or palliative measures do not exist or are no longer effective.\n\nNote: The outcome measures and time frames (previously) described in the PRS protocol record have been revised and articulated in the results section, to more accurately describe and represent the stated per-protocol investigations and endpoints, quantitatively."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Melanoma"
+      ],
+      "keywords": [
+        "melanoma",
+        "metastatic",
+        "vaccine",
+        "BRAF"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Vaccine + dasatinib",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will start vaccine on cycle 1, day 1 and dasatinib on cycle 2, day 1 (week 5).\n\nAll patients will receive dasatinib at a starting dose of 70 mg twice daily by mouth in the outpatient setting. Dasatinib will be supplied as 50 mg and 20 mg tablets. Patients will take 1 of the 50 mg tablets and 1 of the 20 mg tablets twice daily, approximately every 12 hours, at the same time each day.\n\nThe DC vaccine will be administered by a single intradermal injection of approximately 10e7 cells, with all the DCs being administered on days 1 and 15 of each cycle. The intradermal administration will be in the vicinity of the four nodal drainage groups of the four extremities.",
+          "interventionNames": [
+            "Biological: DC vaccine",
+            "Drug: Dasatinib"
+          ]
+        },
+        {
+          "label": "Vaccine + dasatinib from cycle 1",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will start vaccine on cycle 1, day 1 and dasatinib on cycle 1, day 1.\n\nAll patients will receive dasatinib at a starting dose of 70 mg twice daily by mouth in the outpatient setting. Dasatinib will be supplied as 50 mg and 20 mg tablets. Patients will take 1 of the 50 mg tablets and 1 of the 20 mg tablets twice daily, approximately every 12 hours, at the same time each day.\n\nThe DC vaccine will be administered by a single intradermal injection of approximately 10e7 cells, with all the DCs being administered on days 1 and 15 of each cycle. The intradermal administration will be in the vicinity of the four nodal drainage groups of the four extremities.",
+          "interventionNames": [
+            "Biological: DC vaccine",
+            "Drug: Dasatinib"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "DC vaccine",
+          "armGroupLabels": [
+            "Vaccine + dasatinib",
+            "Vaccine + dasatinib from cycle 1"
+          ],
+          "otherNames": [
+            "Type 1-polarized, autologous, DC vaccines incorporating tumor blood vessel antigen (TBVA)-derived peptides"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Dasatinib",
+          "armGroupLabels": [
+            "Vaccine + dasatinib",
+            "Vaccine + dasatinib from cycle 1"
+          ],
+          "otherNames": [
+            "BMS-354825",
+            "Sprycel"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Immune Response Rate",
+          "description": "Immune Response is defined as improved peripheral blood CD8+ T cell responses against 3 or more peptide epitopes after active vaccination with Type I-polarized autologous dendritic cell (αDC1) vaccine incorporating 6 tumor blood vessel-associated antigen (TBVA)-derived peptides.\n\nThe measure of Immune Response for this study is expressed as a proportion of responders: The number of HLA-A2+ melanoma patients with improved peripheral blood CD8+ T cell responses (responders) divided by the total number of evaluable patients.",
+          "timeFrame": "Up to 13 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Best Clinical Response",
+          "description": "The number of treated patients by best clinical response achieved (tumor measurements via radiologic evaluation) using RECIST 1.1. Complete Response (CR): Disappearance of all target lesions. Any pathological lymph nodes (target or non-target) with reduction in short axis to \\<10 mm. Partial Response (PR): ≥30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters. Stable Disease (SD): Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum diameters while on study. Progressive Disease (PD):≥20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study (this includes the baseline sum if that is the smallest on study). The sum must also demonstrate an absolute increase of ≥5 mm. The appearance ≥1 new lesion(s) is considered progression.",
+          "timeFrame": "Up to 13 months"
+        },
+        {
+          "measure": "Objective Response Rate (ORR)",
+          "description": "The proportion of evaluable patients that achieved either partial or complete responses. Calculation: The number of patients who experienced a Partial Response (PR) + the number of patients who experienced a Complete Response (CR) / total number of response-evaluable patients.\n\nPer RECIST v1.1, Complete Response (CR): Disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) must have reduction in short axis to \\<10 mm. Partial Response (PR): At least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters.",
+          "timeFrame": "Up to 13 months"
+        },
+        {
+          "measure": "Worst Grade of Any Toxicity",
+          "description": "Number of participants and severity grades for treatment-relatedness scores of possibly, probably, or definitely.",
+          "timeFrame": "Up to 2 years"
+        },
+        {
+          "measure": "Progression-free Survival (PFS)",
+          "description": "The length of time after study treatment that a patient lives with disease but the disease does not progress. Patients were followed for 1 year after removal from study treatment or until death, whichever occurs first. Per RECIST 1.1, Progressive Disease is defined as a ≥ 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study (this includes the baseline sum if that is the smallest on study). The sum must also demonstrate an absolute increase of ≥5 mm. The appearance ≥1 new lesion(s) is considered progression.",
+          "timeFrame": "Up to 15 months"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "The length of time from the start of study treatment, that patients remain alive.",
+          "timeFrame": "Up to 30 months"
+        },
+        {
+          "measure": "T Cell-recruiting Chemokine CXCL10/IP-10",
+          "description": "Circulating serum concentration (levels) of T cell-recruiting chemokine CXCL10/IP-10 analyzed via ELISA assay. Higher levels of T cell-recruiting chemokine CXCL10/IP-1 correlate with patients exhibiting objective clinical response immunotherapy.",
+          "timeFrame": "At baseline (prior to treatment)"
+        },
+        {
+          "measure": "T Cell-recruiting Chemokine CXCL10/IP-10",
+          "description": "Circulating serum concentration (levels) of T cell-recruiting chemokine CXCL10/IP-10 analyzed via ELISA assay. Higher levels of T cell-recruiting chemokine CXCL10/IP-1 correlate with patients exhibiting objective clinical response immunotherapy.",
+          "timeFrame": "At between 5 and 7 weeks, post treatment"
+        },
+        {
+          "measure": "Treg CD4FoxP3 Suppressor Cells",
+          "description": "Percentage of Treg CD4FoxP3 suppressor cells in patients' peripheral blood. The accumulation of Treg CD4FoxP3 suppressor cell populations correlates with tumor progression (disease progression) and negative prognosis.",
+          "timeFrame": "At baseline (prior to treatment)"
+        },
+        {
+          "measure": "Treg CD4FoxP3 Suppressor Cells",
+          "description": "Percentage of Treg CD4FoxP3 suppressor cells in patients' peripheral blood. The accumulation of Treg CD4FoxP3 suppressor cell populations correlates with tumor progression (disease progression) and negative prognosis.",
+          "timeFrame": "At between 4 and 6 weeks, post treatment"
+        },
+        {
+          "measure": "Treg CD4FoxP3 Suppressor Cells",
+          "description": "Percentage of Treg CD4FoxP3 suppressor cells in patients' peripheral blood. The accumulation of Treg CD4FoxP3 suppressor cell populations correlates with tumor progression (disease progression) and negative prognosis.",
+          "timeFrame": "At between 7 and 10 weeks, post treatment"
+        },
+        {
+          "measure": "Monocytic Myeloid Derived Suppressor Cells (M-MDSC)",
+          "description": "Percentage of Monocytic Myeloid Derived Suppressor Cells (M-MDSC) present in patients' peripheral blood. The accumulation of M-MDSC populations correlates with tumor progression (disease progression) and negative prognosis.",
+          "timeFrame": "At baseline (prior to treatment)"
+        },
+        {
+          "measure": "Monocytic Myeloid Derived Suppressor Cells (M-MDSC)",
+          "description": "Percentage of Monocytic Myeloid Derived Suppressor Cells (M-MDSC) present in patients' peripheral blood. The accumulation of M-MDSC populations correlates with tumor progression (disease progression) and negative prognosis.",
+          "timeFrame": "At between 4 and 6 weeks, post treatment"
+        },
+        {
+          "measure": "Monocytic Myeloid Derived Suppressor Cells (M-MDSC)",
+          "description": "Percentage of Monocytic Myeloid Derived Suppressor Cells (M-MDSC) present in patients' peripheral blood. The accumulation of M-MDSC populations correlates with tumor progression (disease progression) and negative prognosis.",
+          "timeFrame": "At between 7 and 10 weeks, post treatment"
+        },
+        {
+          "measure": "Polymorphonucler Myeloid-derived Suppressor Cells (PMN-MDSC)",
+          "description": "Percentage of Polymorphonucler myeloid-derived suppressor cells (PMN-MDSC) present in patients' peripheral blood. The accumulation/increase of M-MDSC populations correlates with tumor progression (disease progression) and negative prognosis.",
+          "timeFrame": "At baseline (prior to treatment)"
+        },
+        {
+          "measure": "Polymorphonucler Myeloid-derived Suppressor Cells (PMN-MDSC)",
+          "description": "Percentage of Polymorphonucler myeloid-derived suppressor cells (PMN-MDSC) present in patients' peripheral blood. The accumulation/increase of M-MDSC populations correlates with tumor progression (disease progression) and negative prognosis.",
+          "timeFrame": "At between 4 and 6 weeks, post treatment"
+        },
+        {
+          "measure": "Polymorphonucler Myeloid-derived Suppressor Cells (PMN-MDSC)",
+          "description": "Percentage of Polymorphonucler myeloid-derived suppressor cells (PMN-MDSC) present in patients' peripheral blood. The accumulation/increase of M-MDSC populations correlates with tumor progression (disease progression) and negative prognosis.",
+          "timeFrame": "At between 7 and 10 weeks, post treatment"
+        },
+        {
+          "measure": "EphA2 Protein Expression in Tumor Biopsies",
+          "description": "Level of EphA2 protein expression in tumor tissue biopsies.",
+          "timeFrame": "Up to 6 months"
+        },
+        {
+          "measure": "Suppressor Cell Populations and Blood Vessels in Melanoma Tumor Biopsies",
+          "description": "Percentage of suppressor cell populations and blood vessels in melanoma tumor biopsies.",
+          "timeFrame": "Up to 6 months"
+        },
+        {
+          "measure": "CD8+ T Cells Infiltration",
+          "description": "Percentage of CD8+ T cells infiltrating into melanoma lesions (tumor tissues).",
+          "timeFrame": "Up to 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients must be HLA-A2+ and have histologically confirmed melanoma that is metastatic (Stage IV) or unresectable Stage IIIB/C and for which standard curative or palliative measures do not exist or are no longer effective.\n* Patients must have measurable disease by RECIST 1.1, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded for non-nodal lesions and short axis for nodal lesions) as ≥ 20 mm with conventional techniques or as ≥ 10 mm with spiral CT scan, MRI, or calipers by clinical exam. See Section 11 for the evaluation of measurable disease.\n* Patients should have at least 2 subcutaneous, intracutaneous, and accessible tumor deposits, lymph node or other site available for biopsy purposes. Patients that have one biopsiable site that can be amenable to 2 biopsies (pre- and post-) will be considered eligible.\n* Prior chemotherapy, immunotherapy, or targeted therapy is allowed as long as it did not include dasatinib.\n* Age ≥ 18 years. Because no dosing or adverse event data are currently available on the use of dasatinib in patients \\< 18 years of age, children are excluded from this study, but will be eligible for future pediatric trials.\n* ECOG performance status ≤ 2 (Karnofsky ≥ 60%, see Appendix A).\n* Life expectancy of greater than 12 weeks.\n* Patients must have normal organ and marrow function as defined below:\n\n  * Leukocytes ≥ 3,000/µL\n  * absolute neutrophil count ≥ 1,500/µL\n  * absolute lymphocyte count ≥ 500/µL\n  * platelets ≥ 100,000/µL\n  * total bilirubin within normal institutional limits\n  * AST(SGOT)/ALT(SGPT) ≤ 2.5 X institutional upper limit of normal\n  * Creatinine ≤ 2.0 X institutional upper limit of normal\n* Serum magnesium, potassium and adjusted (or ionized) calcium ≥ the institutional lower limit of normal. (Supplementation of electrolytes prior to screening is allowed).\n* Sexually active women and men of childbearing potential must agree to use an effective method of birth control during the course of the study and for up to 3 months following the last dose of the study drug, in a manner such that risk of pregnancy is minimized. Surgical sterilization, intrauterine device or barrier method (e.g. condom and/or diaphragm with spermicidal agents) are acceptable forms of birth control. Women of childbearing potential must have a negative pregnancy test (serum) within 7 days prior to treatment. A pregnancy test is not required for registration. Women who have not menstruated for more than 2 years will be considered postmenopausal, thus not of childbearing potential.\n* Ability to understand and the willingness to sign a written informed consent document.\n\nExclusion Criteria:\n\n* Patients who have had chemotherapy or radiotherapy within 4 weeks (6 weeks for nitrosoureas or mitomycin C) prior to entering the study or those who have not recovered from adverse events due to agents administered more than 4 weeks earlier.\n* Patients with documented c-KIT mutations.\n* Patients who are receiving any other investigational agents.\n* Patients with known active brain metastases should be excluded. Patients with treated brain metastases with documented stability for 4 weeks are eligible.\n* History of allergic reactions attributed to compounds of similar chemical or biologic composition to dasatinib or any of the components of the vaccine being administered as part of this study.\n* Women who are pregnant or nursing/breastfeeding.\n* History of significant bleeding disorder unrelated to cancer, including:\n\n  * Diagnosed congenital bleeding disorders (e.g., von Willebrand's disease)\n  * Diagnosed acquired bleeding disorder within one year (e.g., acquired anti-factor VIII antibodies)\n* Patients currently taking medications that inhibit platelet function (i.e., aspirin, dipyridamole, epoprostenol, eptifibatide, clopidogrel, cilostazol, abciximab, ticlopidine, and any non-steroidal anti-inflammatory drug) because of a potential increased risk of bleeding from dasatinib.\n* Patients currently taking anticoagulants (warfarin, heparin/low molecular weight heparin \\[e.g., danaparoid, dalteparin, tinzaparin, enoxaparin\\]) because of a potential increased risk of bleeding from dasatinib.\n* Diagnosis of unstable angina or myocardial infarction within 6 months of study entry.\n* Patients currently taking one or more of the following drugs that are generally accepted to have a risk of causing Torsades de Pointes:\n\n  * quinidine, procainamide, disopyramide\n  * amiodarone, sotalol, ibutilide, dofetilide\n  * erythromycins, clarithromycin\n  * chlorpromazine, haloperidol, mesoridazine, thioridazine, pimozide\n  * cisapride, bepridil, droperidol, methadone, arsenic, chloroquine, domperidone, halofantrine, levomethadyl, pentamidine, sparfloxacin, lidoflazine.\n* Diagnosed or suspected congenital long QT syndrome.\n* Prolonged QTc interval on pre-entry electrocardiogram (\\> 450 msec) within 30 days prior to study registration.\n* Any history of clinically significant ventricular arrhythmias (such as ventricular tachycardia, ventricular fibrillation, or Torsades de pointes)\n* Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements.\n* HIV-positive patients on combination antiretroviral therapy are ineligible because of the potential for pharmacokinetic interactions with dasatinib. In addition, these patients are at increased risk of lethal infections when treated with marrow-suppressive therapy. Appropriate studies will be undertaken in patients receiving combination antiretroviral therapy when indicated.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

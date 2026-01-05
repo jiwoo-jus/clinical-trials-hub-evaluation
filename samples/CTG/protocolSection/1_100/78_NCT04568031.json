@@ -1,0 +1,166 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04568031",
+      "orgStudyIdInfo": {
+        "id": "D8111C00002"
+      },
+      "organization": {
+        "fullName": "AstraZeneca",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Study of AZD1222 for the Prevention of COVID-19 in Japan",
+      "officialTitle": "A Phase I/II Randomized, Double-blind, Placebo-controlled Multicentre Study in Participants Aged 18 Years or Older to Determine the Safety and Immunogenicity of AZD1222, a Non-replicating ChAdOx1 Vector Vaccine, for the Prevention of COVID-19"
+    },
+    "descriptionModule": {
+      "briefSummary": "The COVID-19 pandemic has caused major disruption to healthcare systems with significant socioeconomic impacts. Currently, there are no licensed preventions available against COVID-19 and accelerated vaccine development is urgently needed. A safe and effective vaccine for COVID 19 prevention would have significant global public health impact."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19"
+      ],
+      "keywords": [
+        "COVID-19 Vaccine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 256,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Part I",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Cohort C will include healthy participants aged 18 to 55 years. Cohort D will include healthy elderly participants aged ≥ 56 years. In Cohort D, the elderly population is further divided into 2 different age subgroups; aged 56 to 69 years (Subcohort D1) and aged ≥ 70 years (Subcohort D2). At least 30% of participants in Cohort D will be secured for participants with age ≥ 70 years.",
+          "interventionNames": [
+            "Drug: AZD1222"
+          ]
+        },
+        {
+          "label": "Part II",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Cohort C will include healthy participants aged 18 to 55 years. Cohort D will include healthy elderly participants aged ≥ 56 years. In Cohort D, the elderly population is further divided into 2 different age subgroups; aged 56 to 69 years (Subcohort D1) and aged ≥ 70 years (Subcohort D2). At least 30% of participants in Cohort D will be secured for participants with age ≥ 70 years.",
+          "interventionNames": [
+            "Drug: 0.9% (w/v) saline"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "AZD1222",
+          "description": "For subjects in part 1 will have that route of Administration as Intramuscular, 5 × 1010 vp (nominal, ± 1.5 × 1010 vp) on V2",
+          "armGroupLabels": [
+            "Part I"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "0.9% (w/v) saline",
+          "description": "For subjects in placebo will have that route of Administration as Intramuscular 0.9% (w/v) saline on V2 and V6.",
+          "armGroupLabels": [
+            "Part II"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With Seroresponse to the Spike (S) Antigen of AZD1222 as Measured by Meso Scale Discovery (MSD) Serology Assay",
+          "description": "Seroresponse is a binary outcome where a success is when the fold rise in titers compared with baseline is \\>= 4. The fold rise in titers was calculated as the ratio of the post-vaccination titer level to the baseline titer level. The percentage of participants with a post-vaccination seroresponse (\\>= 4-fold rise in titers from Day 1 baseline value to Day 57) to the S antigen of AZD1222 as measured by MSD serology assay is reported.",
+          "timeFrame": "Baseline (Day 1) and Day 57"
+        },
+        {
+          "measure": "Number of Participants With Local Solicited Adverse Events (AE)",
+          "description": "Solicited AEs are local or systemic predefined AEs for reactogenicity assessment. Participants were given an axillary thermometer, tape measure, and access to app for the solicited AE eDiary, with instructions on use, along with the emergency 24-hour telephone number to contact the on-call study physician if needed. Participants were instructed to record for 7 days following administration of each dose of AZD1222, the timing and severity of local and systemic solicited AEs, if applicable, and whether medication was taken to relieve the symptoms.",
+          "timeFrame": "From Day 1 up to 7 days post each dose of study vaccination, approximately 14 days"
+        },
+        {
+          "measure": "Number of Participants With Systemic Solicited AEs",
+          "description": "Solicited AEs are local or systemic predefined AEs for reactogenicity assessment. Participants were given an axillary thermometer, tape measure, and access to app for the solicited AE eDiary, with instructions on use, along with the emergency 24-hour telephone number to contact the on-call study physician if needed. Participants were instructed to record for 7 days following administration of each dose of AZD1222, the timing and severity of local and systemic solicited AEs, if applicable, and whether medication was taken to relieve the symptoms.",
+          "timeFrame": "From Day 1 up to 7 days post each dose of study vaccination, approximately 14 days"
+        },
+        {
+          "measure": "Number of Participants With AEs, Serious AEs (SAE) and Adverse Event of Special Interest (AESI) Occurring Post Each Dose of Study Vaccination",
+          "description": "An AE is the development of any untoward medical occurrence in a clinical study participant administered medicinal product and which does not necessarily have a causal relationship with this medicinal product. An AE can therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product. An SAE is an AE occurring during any study phase that fulfils one or more of the following criteria: death; immediately life-threatening; in-participant hospitalization or prolongation of existing hospitalization; persistent or significant disability or incapacity; congenital abnormality or birth defect; an important medical event. The AESIs were events of scientific and medical interest specific to the further understanding of the study vaccination safety profile and required close monitoring and rapid communication by the investigators to the sponsor.",
+          "timeFrame": "From Day 1 up to 28 days post each dose of study vaccination, approximately 57 days"
+        },
+        {
+          "measure": "Number of Participants With Clinically Significant Changes From Baseline in Clinical Laboratory Parameters",
+          "description": "Clinical laboratory values were evaluated for each laboratory parameter as applicable including hematology and clinical chemistry. The baseline was defined as the last non-missing measurement taken prior to the first dose of study vaccination (including unscheduled measurements, if any).",
+          "timeFrame": "From Day 1 up to 28 days post each dose of study vaccination, approximately 57 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With Seroresponse to the Receptor-Binding Domain (RBD) Antigen of AZD1222 as Measured by MSD Serology Assay",
+          "description": "Seroresponse is a binary outcome where a success is when the fold rise in titers compared with baseline is \\>= 4. The fold rise in titers was calculated as the ratio of the post-vaccination titer level to the baseline titer level. The percentage of participants with a post-vaccination seroresponse (\\>= 4-fold rise in titers from Day 1 baseline value to Day 57) to the RBD antigen of AZD1222 as measured by MSD serology assay is reported.",
+          "timeFrame": "Baseline (Day 1) and Day 57"
+        },
+        {
+          "measure": "Geometric Mean Titers (GMTs) for SARS-CoV-2 S and RBD Antibodies as Measured by MSD Serology Assay",
+          "description": "The GMT was calculated as the antilogarithm of Σ(log base 2 transformed titer/n), i.e. as the anti-logarithm transformation of the mean of the log-transformed titer, where 'n' is the number of participants with titer information.",
+          "timeFrame": "Baseline (Day 1) and Days 15, 29, 43, 57, 183, and 365"
+        },
+        {
+          "measure": "Geometric Mean Fold Rise (GMFR) for SARS-CoV-2 S and RBD Antibodies as Measured by MSD Serology Assay",
+          "description": "The fold rise was calculated as the ratio of the post-vaccination titer level to the baseline titer level, where baseline was defined as the last measurement taken before the first dose of study vaccination. The GMFR was calculated as anti-logarithm of Σ (log base 2 transformed (post-vaccination titer/ pre-vaccination titer)/n). Where 'n' is the number of participants with titer information.",
+          "timeFrame": "Baseline (Day 1) and Days 15, 29, 43, 57, 183, and 365"
+        },
+        {
+          "measure": "Percentage of Participants With Seroresponse to SARS-CoV-2 Neutralizing Antibodies (nAb) of AZD1222 as Measured by Pseudo-Neutralization Assay",
+          "description": "Seroresponse is a binary outcome where a success is when the fold rise in titers compared with baseline is \\>= 4. The fold rise in titers was calculated as the ratio of the post-vaccination titer level to the baseline titer level. The percentage of participants with a post-vaccination seroresponse (\\>= 4-fold rise in titers from Day 1 baseline value to Day 57) to SARS-CoV-2 nAb of AZD1222 as measured by pseudo-neutralization assay is reported.",
+          "timeFrame": "Baseline (Day 1) and Day 57"
+        },
+        {
+          "measure": "GMTs for SARS-CoV-2 nAb as Measured by Pseudo-Neutralization Assay",
+          "description": "The GMT was calculated as the antilogarithm of Σ(log base 2 transformed titer/n), i.e. as the anti-logarithm transformation of the mean of the log-transformed titer, where 'n' is the number of participants with titer information.",
+          "timeFrame": "Baseline (Day 1) and Days 29, 57, 183, and 365"
+        },
+        {
+          "measure": "GMFR for SARS-CoV-2 nAb as Measured by Pseudo-Neutralization Assay",
+          "description": "The fold rise was calculated as the ratio of the post-vaccination titer level to the baseline titer level, where baseline was defined as the last measurement taken before the first dose of study vaccination. The GMFR was calculated as anti-logarithm of Σ (log base 2 transformed (post-vaccination titer/ pre-vaccination titer)/n). Where 'n' is the number of participants with titer information.",
+          "timeFrame": "Baseline (Day 1) and Days 29, 57, 183, and 365"
+        },
+        {
+          "measure": "Number of Participants With SAEs and AESIs Occurring Throughout the Study",
+          "description": "An SAE is an AE occurring during any study phase that fulfils one or more of the following criteria: death; immediately life-threatening; in-participant hospitalization or prolongation of existing hospitalization; persistent or significant disability or incapacity; congenital abnormality or birth defect; an important medical event. The AESIs were events of scientific and medical interest specific to the further understanding of the study vaccination safety profile and required close monitoring and rapid communication by the investigators to the sponsor.",
+          "timeFrame": "From Day 1 up to final DCO of 17 January 2022, up to a maximum of 365 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants aged 18 to 55 years (Cohort A and C), aged 56 to 69 years (Subcohorts B1 and D1), or aged ≥ 70 years (Subcohorts B2 and D2)\n\nExclusion Criteria:\n\n1. Known past laboratory-confirmed SARS-CoV-2 infection\n2. Positive SARS-CoV-2 RT PCR test at screening\n3. Seropositivity to SARS-CoV-2 at screening.\n4. Significant infection or other illness, including fever \\> 37.8°C on the day prior to or day randomization\n5. History of Guillain-Barré syndrome\n6. Any confirmed or suspected immunosuppressive or immunodeficient state; asplenia; recurrent severe infections and use of immunosuppressant medication within the past 6 months, except topical steroids or short-term oral steroids (course lasting ≤ 14 days)\n7. History of allergy to any component of the vaccine\n8. Any history of angioedema\n9. Any history of anaphylaxis\n10. Current diagnosis of or treatment for cancer (except basal cell carcinoma of the skin and uterine cervical carcinoma in situ)\n11. History of serious psychiatric condition likely to affect participation in the study\n12. Bleeding disorder (eg, factor deficiency, coagulopathy or platelet disorder), or prior history of significant bleeding or bruising following IM injections or venepuncture\n13. Suspected or known current alcohol or drug dependency\n14. Any other significant disease, disorder or finding which may significantly increase the risk to the participant because of participation in the study, affect the ability of the participant to participate in the study or impair interpretation of the study data\n15. Severe and/or uncontrolled cardiovascular disease, respiratory disease, gastrointestinal disease, liver disease, renal disease, endocrine disorder and neurological illness (mild/moderate well controlled comorbidities are allowed)",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

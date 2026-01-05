@@ -1,0 +1,563 @@
+{
+  "metadata": {
+    "case_id": 30,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:39:48.395773",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/30_NCT02823652.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/30_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 11,
+      "similarity_matrix": [
+        [
+          0.68,
+          0.63,
+          0.32,
+          0.62,
+          0.4,
+          0.42,
+          0.78,
+          0.43,
+          0.7,
+          0.78,
+          0.7
+        ],
+        [
+          0.5,
+          0.74,
+          0.62,
+          0.6,
+          0.55,
+          0.56,
+          0.7,
+          0.73,
+          0.7,
+          0.82,
+          0.52
+        ],
+        [
+          0.7,
+          0.42,
+          0.5,
+          0.45,
+          0.38,
+          0.82,
+          0.6,
+          0.82,
+          0.7,
+          0.42,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 6,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "id": "NCI-2015-02253",
+            "type": "REGISTRY",
+            "domain": "CTRP (Clinical Trial Reporting Program)"
+          },
+          "pred_item": {
+            "id": "UG1CA190140",
+            "type": "NIH",
+            "domain": "National Cancer Institute",
+            "link": ""
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 9,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "id": "EAQ152",
+            "type": "OTHER",
+            "domain": "ECOG-ACRIN Cancer Research Group"
+          },
+          "pred_item": {
+            "id": "UG1CA189809",
+            "type": "NIH",
+            "domain": "National Cancer Institute",
+            "link": ""
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 5,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "id": "EAQ152",
+            "type": "OTHER",
+            "domain": "CTEP"
+          },
+          "pred_item": {
+            "id": "UG1CA189956",
+            "type": "NIH",
+            "domain": "National Cancer Institute",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.2
+        ],
+        [
+          0.42,
+          0.9
+        ],
+        [
+          0.52,
+          0.25
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "Arm A (Step 1: internet-based intervention)",
+            "type": "EXPERIMENTAL",
+            "description": "Patients receive web-based genetic education consisting of general information about testing tumors for genetic mutations.",
+            "interventionNames": [
+              "Other: Internet-Based Intervention",
+              "Other: Survey Administration"
+            ]
+          },
+          "pred_item": {
+            "label": "Web-based genetic education intervention",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with advanced cancer undergoing tumor-only genetic sequencing received access to the COMET web-based genetic education program before disclosure of tumor sequencing results. The intervention is a self-directed, mobile-ready eHealth educational tool based on the tiered-binned model, including 6 linear modules and 4 optional videos that explain genomics vs genetics, somatic vs germline changes, tumor genetic testing, possible results and their implications for treatment and family, and the benefits, risks, and limitations of tumor genetic testing. Participants could view modules as long and as many times as desired.",
+            "interventionNames": [
+              "COMET web-based genetic education"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Arm B (Step 1: usual care control)",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients receive standard genetic education consisting of conversations with the treating physicians, interaction with and information from the clinical staff, and information from usual resources about testing for genetic mutations.",
+            "interventionNames": [
+              "Other: standard genetic education",
+              "Other: Survey Administration"
+            ]
+          },
+          "pred_item": {
+            "label": "Usual care",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients with advanced cancer undergoing tumor-only genetic sequencing received usual care without the COMET web-based genetic education program. Usual care consisted of any pretest education or counseling provided in routine oncology practice and/or information patients sought through their usual resources (e.g., discussions with providers, institution or public websites). This arm served as a real-world comparison group prior to disclosure of tumor sequencing results.",
+            "interventionNames": [
+              "Usual-care education"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Step 2 - genetic counseling",
+            "type": "EXPERIMENTAL",
+            "description": "Patients who meet the criteria for the remote counseling substudy will receive genetic counseling over the telephone and undergo germline testing.",
+            "interventionNames": [
+              "Other: Genetic Counseling",
+              "Other: Genetic Testing",
+              "Other: Survey Administration"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.7,
+          0.86
+        ],
+        [
+          0.7,
+          0.2
+        ],
+        [
+          0.32,
+          0.15
+        ],
+        [
+          0.92,
+          0.2
+        ],
+        [
+          0.18,
+          0.15
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "standard genetic education",
+            "description": "Undergo usual care",
+            "armGroupLabels": [
+              "Arm B (Step 1: usual care control)"
+            ],
+            "otherNames": [
+              "counseling",
+              "Counseling Intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "OTHER",
+            "name": "Usual-care education",
+            "description": "Non-standardized education and information that patients receive as part of routine oncology practice prior to tumor genetic testing and results disclosure. This may include discussions with oncologists or other providers, written materials, or information patients seek on their own (e.g., websites), but does not include the COMET structured web-based intervention.",
+            "armGroupLabels": [
+              "Usual care"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Genetic Counseling",
+            "description": "Complete remote counseling",
+            "armGroupLabels": [
+              "Step 2 - genetic counseling"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Genetic Testing",
+            "description": "Undergo germline testing",
+            "armGroupLabels": [
+              "Step 2 - genetic counseling"
+            ],
+            "otherNames": [
+              "genetic analysis",
+              "Genetic Examination",
+              "Genetic Test"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Internet-Based Intervention",
+            "description": "Complete on-line genetic education",
+            "armGroupLabels": [
+              "Arm A (Step 1: internet-based intervention)"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "COMET web-based genetic education",
+            "description": "A theoretically informed, user-tested, self-directed, mobile-ready eHealth genetic education intervention for patients with advanced cancer undergoing tumor-only sequencing. Based on the tiered-binned model, it provides tier 1 'indispensable' information and tier 2 optional material covering: genomics vs genetics; DNA and tumor genetic changes; somatic vs germline genetics and their differences; what tumor genetic testing is and what might be learned; implications for treatment and family; types of genetic test results; benefits, risks, and limitations of tumor genetic testing; and a review of key concepts. It includes 6 modules plus 4 optional videos featuring a genetic counselor, with redundant content for different learning preferences, and links to external educational resources (e.g., NCI, Penn Medicine Diagnostics).",
+            "armGroupLabels": [
+              "Web-based genetic education intervention"
+            ]
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Survey Administration",
+            "description": "Ancillary studies",
+            "armGroupLabels": [
+              "Arm A (Step 1: internet-based intervention)",
+              "Arm B (Step 1: usual care control)",
+              "Step 2 - genetic counseling"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 6,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.15,
+          0.15,
+          0.18,
+          0.32
+        ],
+        [
+          0.25,
+          0.66,
+          0.95,
+          0.4,
+          0.6
+        ],
+        [
+          0.35,
+          0.96,
+          0.62,
+          0.8,
+          0.7
+        ],
+        [
+          0.2,
+          0.42,
+          0.25,
+          0.35,
+          0.95
+        ],
+        [
+          0.12,
+          0.07,
+          0.12,
+          0.1,
+          0.1
+        ],
+        [
+          0.2,
+          0.07,
+          0.05,
+          0.02,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Cancer Genetic Knowledge Scale From Baseline to Post-genetic Education",
+            "description": "There are 14 items in the questionnaire of Cancer Genetic Knowledge Scale. The total score ranges between 14 and 70. Higher scores indicate more/better knowledge. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and compared between the two arms (arms A and B) at Step 1.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": {
+            "measure": "Change in genetic knowledge",
+            "description": "Change in genetic knowledge related to tumor genetic testing, assessed with an adapted version of the ClinSeq knowledge scale modified for tumor genetic testing. Higher scores indicate greater knowledge.",
+            "timeFrame": "Baseline (T0) to posteducation (T1) and baseline (T0) to after result disclosure (T2)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Patient-Reported Outcomes Measurement Information System (PROMIS) - Depression From Baseline to Post-genetic Education",
+            "description": "There are 4 items in the PROMIS - Depression questionnaire. The total score ranges between 4 and 20. Higher scores indicate more depression. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and compared between the two arms (arms A and B) at Step 1.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": {
+            "measure": "Change in depression",
+            "description": "Change in depressive symptoms, assessed with a 4-item short form of the PROMIS depression scale. Lower scores indicate less depression.",
+            "timeFrame": "Baseline (T0) to posteducation (T1) and baseline (T0) to after result disclosure (T2)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Patient-Reported Outcomes Measurement Information System (PROMIS) - Anxiety From Baseline to Post-genetic Education",
+            "description": "There are 4 items in the PROMIS - Anxiety questionnaire. The total score ranges between 4 and 20. Higher scores indicate more anxiety. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and compared between the two arms (arms A and B) at Step 1.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": {
+            "measure": "Change in general anxiety",
+            "description": "Change in general anxiety symptoms, assessed with a 4-item short form of the PROMIS (Patient-Reported Outcomes Measurement Information System) anxiety scale. Lower scores indicate less anxiety.",
+            "timeFrame": "Baseline (T0) to posteducation (T1) and baseline (T0) to after result disclosure (T2)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 4,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Impact of Events Scale (IES) From Baseline to Post-genetic Education",
+            "description": "There are 14 items in the questionnaire of Impact of Events Scale (IES). The total score ranges between 0 and 70. Higher scores indicate more stress. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and compared between the two arms (arms A and B) at Step 1.",
+            "timeFrame": "Assessed at baseline and up to 14 days post-baseline"
+          },
+          "pred_item": {
+            "measure": "Change in cancer-specific distress",
+            "description": "Change in cancer-specific distress related to tumor genetic testing, measured with an adapted 14-item version of the Impact of Events Scale. Lower scores indicate less cancer-specific distress.",
+            "timeFrame": "Baseline (T0) to posteducation (T1) and baseline (T0) to after result disclosure (T2)"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 3,
+          "score": 0.1,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Participants Who Complete Remote Genetic Counseling in the Genetic Counseling Substudy (Step 2)",
+            "description": "Among participants who registered in the genetic counseling substudy (Step 2), the proportion of participants who completed remote genetic counseling will be reported. The proportion is defined as \"the number of participants who completed remote genetic counseling divided by the number of participants who agreed to participate in the genetic counseling study\".",
+            "timeFrame": "Assessed at baseline at Step 2"
+          },
+          "pred_item": {
+            "measure": "Change in state anxiety",
+            "description": "Change in state anxiety, assessed with 20 items from the State-Trait Anxiety Inventory. Lower scores indicate less state anxiety.",
+            "timeFrame": "Baseline (T0) to posteducation (T1) and baseline (T0) to after result disclosure (T2)"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Proportion of Participants Who Complete Germline Testing in the Genetic Counseling Substudy (Step 2)",
+            "description": "Among participants who registered in the genetic counseling substudy (Step 2), the proportion of participants who completed remote genetic counseling will be reported. The proportion is defined as \"the number of participants who completed remote genetic counseling divided by the number of participants who agreed to participate in the genetic counseling study\".",
+            "timeFrame": "Assessed at baseline at Step 2"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.55,
+          0.62,
+          0.19
+        ],
+        [
+          0.35,
+          0.15,
+          0.12
+        ],
+        [
+          0.35,
+          0.18,
+          0.18
+        ],
+        [
+          0.32,
+          0.12,
+          0.12
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.62,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Cancer Genetic Knowledge Scale From Baseline to Post-genetic Education by Arm and Sex",
+            "description": "There are 14 items in the questionnaire of Cancer Genetic Knowledge Scale. The total score ranges between 14 and 70. Higher scores indicate more/better knowledge. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and interaction between arm and sex was evaluated.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": {
+            "measure": "Change in perceived utility of tumor genetic testing",
+            "description": "Change in perceived utility of tumor genetic testing, assessed with 10 items evaluating patient perceptions of the usefulness of genetic information. Higher scores indicate greater perceived utility.",
+            "timeFrame": "Baseline (T0) to posteducation (T1) and baseline (T0) to after result disclosure (T2)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.35,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Patient-Reported Outcomes Measurement Information System (PROMIS) - Depression From Baseline to Post-genetic Education by Arm and Sex",
+            "description": "There are 4 items in the PROMIS - Depression questionnaire. The total score ranges between 4 and 20. Higher scores indicate more depression. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and interaction between arm and sex was evaluated.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": {
+            "measure": "Change in uncertainty about tumor genetic testing",
+            "description": "Change in perceived uncertainty regarding tumor genetic testing, assessed with a 3-item scale adapted from the uncertainty subscale of the Multi-Dimensional Impact of Cancer Risk Assessment questionnaire. Higher scores indicate greater uncertainty.",
+            "timeFrame": "Baseline (T0) to posteducation (T1) and baseline (T0) to after result disclosure (T2)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.18,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change of Scores on Patient-Reported Outcomes Measurement Information System (PROMIS) - Anxiety From Baseline to Post-genetic Education by Arm and Sex",
+            "description": "There are 4 items in the PROMIS - Anxiety questionnaire. The total score ranges between 4 and 20. Higher scores indicate more anxiety. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and interaction between arm and sex was evaluated.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": {
+            "measure": "Satisfaction with the disclosure of genetic results",
+            "description": "Satisfaction with how tumor genetic test results were disclosed, measured with an adapted 9-item satisfaction scale. Higher scores indicate greater satisfaction with result disclosure.",
+            "timeFrame": "After result disclosure (T2 only)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change of Scores on Impact of Events Scale (IES) From Baseline to Post-genetic Education by Arm and Sex",
+            "description": "There are 14 items in the questionnaire of Impact of Events Scale (IES). The total score ranges between 0 and 70. Higher scores indicate more stress. The questionnaire was administered at baseline and post-genetic education. The change of scores from baseline to post-genetic education were calculated and interaction between arm and sex was evaluated.",
+            "timeFrame": "Assessed at baseline and post-genetic education (about 1-2 weeks post-baseline)"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

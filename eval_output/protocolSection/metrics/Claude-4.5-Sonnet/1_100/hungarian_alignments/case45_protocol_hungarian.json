@@ -1,0 +1,146 @@
+{
+  "metadata": {
+    "case_id": 45,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T16:19:47.910710",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/45_NCT04324073.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/45_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.18
+        ],
+        [
+          0.32,
+          0.95
+        ],
+        [
+          0.88,
+          0.03
+        ],
+        [
+          0.3,
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "SARILUMAB -- Severe COVID population (WHO Clinical Progression Scale =5 at baseline)",
+            "type": "EXPERIMENTAL",
+            "description": "Sarilumab (an IV dose of 400 mg of sarilumab in a 1 hour-infusion at Day 1). Administration of Sarilumab fixed dose on day 3 was recommended and left to the treating physician",
+            "interventionNames": [
+              "Drug: Sarilumab"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "Standard of care -- Severe COVID population (WHO Clinical Progression Scale =5 at baseline)",
+            "type": "NO_INTERVENTION",
+            "description": "Usual care was provided at the discretion of the clinicians"
+          },
+          "pred_item": {
+            "label": "Usual care group",
+            "type": "NO_INTERVENTION",
+            "description": "Patients received usual care alone (antibiotic agents, antiviral agents, corticosteroids, vasopressor support, anticoagulants) provided at the discretion of the clinicians",
+            "interventionNames": [
+              "Other: Usual care"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "label": "SARILUMAB -- Critical COVID population (WHO Clinical Progression Scale >5 at baseline)",
+            "type": "EXPERIMENTAL",
+            "description": "Sarilumab (an IV dose of 400 mg of sarilumab in a 1 hour-infusion at Day 1). Administration of Sarilumab fixed dose on day 3 was recommended and left to the treating physician",
+            "interventionNames": [
+              "Drug: Sarilumab"
+            ]
+          },
+          "pred_item": {
+            "label": "Sarilumab group",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received usual care plus sarilumab 400 mg intravenously on day 1, with an optional additional 400 mg dose on day 3 if oxygen requirement had not decreased by more than 50%",
+            "interventionNames": [
+              "Drug: Sarilumab",
+              "Other: Usual care"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Standard of care -- Critical COVID population (WHO Clinical Progression Scale >5)",
+            "type": "NO_INTERVENTION",
+            "description": "Usual care was provided at the discretion of the clinicians"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Sarilumab",
+            "description": "(an IV dose of 400 mg of sarilumab in a 1 hour-infusion at D1",
+            "armGroupLabels": [
+              "SARILUMAB -- Critical COVID population (WHO Clinical Progression Scale >5 at baseline)",
+              "SARILUMAB -- Severe COVID population (WHO Clinical Progression Scale =5 at baseline)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Sarilumab",
+            "description": "400 mg administered intravenously on day 1, with possible additional 400 mg dose on day 3 based on clinical response (if oxygen requirement had not decreased by more than 50%)",
+            "armGroupLabels": [
+              "Sarilumab group"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

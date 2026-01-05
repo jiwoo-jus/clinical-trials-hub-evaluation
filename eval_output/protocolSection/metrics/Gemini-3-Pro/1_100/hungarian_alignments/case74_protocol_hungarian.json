@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "case_id": 74,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T18:31:27.636632",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/74_NCT03959423.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/74_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Subjects 7-75 years of age",
+            "type": "EXPERIMENTAL",
+            "description": "Subjects who have been diagnosed with type 1 diabetes",
+            "interventionNames": [
+              "Device: AHCL insulin pump system"
+            ]
+          },
+          "pred_item": {
+            "label": "MiniMed AHCL System Group",
+            "type": "EXPERIMENTAL",
+            "description": "Participants with Type 1 Diabetes (adolescents and adults) participating in a single-arm study. They utilized the MiniMed AHCL system through a baseline run-in period followed by a study phase with automated features enabled.",
+            "interventionNames": [
+              "Device: MiniMed AHCL System"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "AHCL insulin pump system",
+            "description": "670G 4.0 system with GS3; 780G system with G4S (continued access phase);",
+            "armGroupLabels": [
+              "Subjects 7-75 years of age"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "MiniMed AHCL System",
+            "description": "The system consisted of the MiniMed 670G insulin pump (version 4.0 algorithm) with the Guardian Sensor 3 glucose sensor and Guardian Link 3 transmitter. During the run-in period (~14 days), participants used the system as a sensor-augmented pump with or without predictive low glucose management or Auto Basal. During the study phase (~90 days), Auto Basal and automated bolus correction (Auto Correction) were enabled, with glucose targets set to 100 or 120 mg/dL for alternating periods.",
+            "armGroupLabels": [
+              "MiniMed AHCL System Group"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.4,
+          0.96,
+          0.15
+        ],
+        [
+          0.92,
+          0.4,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in HbA1c",
+            "description": "The overall mean difference of the change in HbA1c from baseline to end of 3-month Study Period.",
+            "timeFrame": "Baseline to End of 3-Month Study Period"
+          },
+          "pred_item": {
+            "measure": "Change in mean Hemoglobin A1C",
+            "description": "Overall change in the mean A1C",
+            "timeFrame": "From end of run-in period (approx. 14 days) to end of study phase (approx. 90 days)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Percentage of Euglycemia",
+            "description": "The overall mean change in % of time in euglycemia (70-180 mg/dL) from baseline to end of 3-month Study Period will be estimated.",
+            "timeFrame": "Baseline to End of 3-Month Study Period"
+          },
+          "pred_item": {
+            "measure": "Change in mean Time in Range (TIR)",
+            "description": "Overall change in the mean TIR (sensor glucose 70–180 mg/dL)",
+            "timeFrame": "From end of run-in period (approx. 14 days) to end of study phase (approx. 90 days)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.18,
+          0.2,
+          0.63,
+          0.18,
+          0.18
+        ],
+        [
+          0.08,
+          0.12,
+          0.2,
+          0.2,
+          0.08
+        ],
+        [
+          0.4,
+          0.3,
+          0.9,
+          0.4,
+          0.35
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.2,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Severe Hypoglycemic Event",
+            "description": "Number of severe hypoglycemic events occurred during 3-month Study Period",
+            "timeFrame": "3-month Study Period"
+          },
+          "pred_item": {
+            "measure": "Change in Coefficient of Variation (CV) of SG",
+            "description": "Change in glucose variability measured by CV of SG",
+            "timeFrame": "From end of run-in period to end of study phase"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 3,
+          "score": 0.2,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Diabetic Ketoacidosis (DKA) Event",
+            "description": "Number of Diabetic Ketoacidosis (DKA) event occurred during 3-month Study Period",
+            "timeFrame": "3-month Study Period"
+          },
+          "pred_item": {
+            "measure": "Time spent in hyperglycemic ranges",
+            "description": "Percentage of time spent at hyperglycemic ranges (>180, 250, and 300 mg/dL)",
+            "timeFrame": "From end of run-in period to end of study phase"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Percent of Time in Hypoglycemic Range (<70 mg/dL)",
+            "description": "The overall mean change in % of time in hypoglycemic range (\\<70 mg/dL) from baseline to end of 3-month Study Period will be estimated.",
+            "timeFrame": "Baseline to End of 3-Month Study Period"
+          },
+          "pred_item": {
+            "measure": "Time spent in hypoglycemic ranges",
+            "description": "Percentage of time spent at hypoglycemic ranges (<50, 54, and 70 mg/dL)",
+            "timeFrame": "From end of run-in period to end of study phase"
+          }
+        }
+      ]
+    }
+  ]
+}

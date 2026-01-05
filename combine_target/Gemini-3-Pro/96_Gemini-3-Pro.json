@@ -1,0 +1,152 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04013529",
+      "organization": {
+        "fullName": "Corporal Michael J. Crescenz VA Medical Center",
+        "class": "FED"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this study was to evaluate if a financial incentive combined with a loss aversion component—a \"regret lottery\" in which veterans could win money if they met a set goal or told how much they could have won had they met their goal—would increase physical activity levels among veterans with chronic pain. Behavioral economic strategies can improve physical activity levels but have been undertested in veterans with chronic pain, a population with high rates of daily opioid use.",
+      "detailedDescription": "A 12-week single-blinded randomized controlled trial was designed to assess the efficacy of a regret lottery intervention. Veterans with chronic pain (N = 40) receiving care at a specialty pain clinic were eligible for participation and were randomly assigned (1:1) to either (a) activity trackers and daily text message reminders to increase physical activity (\"control arm\"), or (b) the same plus a weekly regret lottery (\"intervention arm\"). For those in the intervention arm, participants who met their activity goal had a chance to win a small ($30) or large ($100) gift card incentive; those who did not meet their goals were informed of what they would have won had they met their goal. \n\nThe primary outcome, physical activity, was measured using self-reported physical activity (Stanford 7-Day Physical Activity Recall Questionnaire) and step counts using Fitbit activity trackers. Secondary outcomes included changes in physical function, chronic pain severity, depression (PHQ-9), and opioid use. The study aimed to determine if leveraging behavioral economic principles of immediate gratification and loss aversion could successfully promote physical activity in this population."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Pain",
+        "Opioid Use"
+      ],
+      "keywords": [
+        "Chronic Pain",
+        "Physical Activity",
+        "Veterans",
+        "Regret Lottery",
+        "Behavioral Economics",
+        "Opioid Use",
+        "Loss Aversion"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "A single-blind randomized controlled trial... although patients were not aware of their group assignment, the data collectors were.",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control arm",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received activity trackers and daily text message reminders to increase physical activity.",
+          "interventionNames": [
+            "Activity Tracker",
+            "Daily Text Message Reminders"
+          ]
+        },
+        {
+          "label": "Intervention arm",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received activity trackers and daily text message reminders plus a weekly regret lottery.",
+          "interventionNames": [
+            "Regret Lottery",
+            "Activity Tracker",
+            "Daily Text Message Reminders"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Regret Lottery",
+          "description": "Participants who met their activity goal had a chance to win a small ($30) or large ($100) gift card incentive; those who did not meet their goals were informed of what they would have won had they met their goal.",
+          "armGroupLabels": [
+            "Intervention arm"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Activity Tracker",
+          "description": "Fitbit activity tracker provided to measure step counts.",
+          "armGroupLabels": [
+            "Control arm",
+            "Intervention arm"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Daily Text Message Reminders",
+          "description": "Daily text messages reminding the subject to engage in physical activity and to achieve their weekly goals.",
+          "armGroupLabels": [
+            "Control arm",
+            "Intervention arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Physical Activity (Step Counts)",
+          "description": "Measured by the number of steps recorded using a Fitbit activity tracker.",
+          "timeFrame": "Baseline and 12 weeks"
+        },
+        {
+          "measure": "Physical Activity (Self-Reported)",
+          "description": "Measured using the Stanford 7-Day Physical Activity Recall Questionnaire (PAR), assessing time spent engaged in stretching/strengthening activities and aerobic activities.",
+          "timeFrame": "Baseline and 12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Pain-Related Physical Function",
+          "description": "Measured by the Pain Outcomes Questionnaire assessing interference with walking/ADLs, vitality, negative affect, and fears of injury on a scale of 0 (not at all) to 10 (all the time).",
+          "timeFrame": "Baseline and 12 weeks"
+        },
+        {
+          "measure": "Chronic Pain Severity",
+          "description": "Measured using the Pain Outcomes Questionnaire on a scale of 0 (no pain at all) to 10 (worst possible pain).",
+          "timeFrame": "Baseline and 12 weeks"
+        },
+        {
+          "measure": "Symptoms of Depression",
+          "description": "Measured by the Patient Health Questionnaire-9 (PHQ-9); total score ranges from 0 to 36.",
+          "timeFrame": "Baseline and 12 weeks"
+        },
+        {
+          "measure": "Opioid Analgesic Use",
+          "description": "Extracted from the electronic health record (formulation, dose, and quantity) for the previous 24-hours, calculated as daily buprenorphine dose or morphine milligram equivalents (MME) for other opioids.",
+          "timeFrame": "Baseline and 12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n*   Veterans with chronic non-malignant pain receiving care from a pain-focused primary aligned care team (“Pain PACT”) at the CMC VAMC\n*   Must have been a patient in Pain PACT within the past year\n*   Possess either an iPhone or Android cell phone\n\nExclusion Criteria:\n*   Visual impairments preventing the use of text messaging or the study’s activity tracker\n*   Physical disability precluding improvements in walking (e.g., wheelchair bound)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

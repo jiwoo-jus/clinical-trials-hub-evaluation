@@ -1,0 +1,322 @@
+{
+  "metadata": {
+    "case_id": 85,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T19:18:49.168284",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/85_NCT02740231.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/85_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.35,
+          0.32,
+          0.45,
+          0.94
+        ],
+        [
+          0.86,
+          0.86,
+          0.78,
+          0.62
+        ],
+        [
+          0.88,
+          0.83,
+          0.88,
+          0.82
+        ],
+        [
+          0.95,
+          0.86,
+          0.83,
+          0.6
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Reference product",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Hylan G-F 20",
+            "interventionNames": [
+              "Device: Reference product intra-articular injection"
+            ]
+          },
+          "pred_item": {
+            "label": "Reference hylan G-F 20",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Single intra-articular injection into the target knee of hylan G-F 20 (Synvisc-One) 48 mg sodium hyaluronate in a 6 mL ready-to-use sterile viscoelastic solution. Injection generally via lateral midpatellar or other standard knee portal after aspiration of effusion if present; local anesthesia allowed at investigator discretion.",
+            "interventionNames": [
+              "Hylan G-F 20 (Synvisc-One)",
+              "Intra-articular knee injection procedure"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "JTA-004 50 (2 ml)",
+            "type": "EXPERIMENTAL",
+            "description": "Sodium hyaluronate, plasma proteins and clonidine",
+            "interventionNames": [
+              "Drug: JTA-004 intra-articular injection"
+            ]
+          },
+          "pred_item": {
+            "label": "JTA-200/2",
+            "type": "EXPERIMENTAL",
+            "description": "Single intra-articular injection into the target knee of JTA-004 formulation containing 200 μg clonidine and 20 mg hyaluronic acid in a 2 mL volume. Product supplied as a freeze-dried powder for solution, reconstituted with sterile water immediately prior to injection. Injection generally via lateral midpatellar or other standard knee portal after aspiration of effusion if present; local anesthesia allowed at investigator discretion.",
+            "interventionNames": [
+              "JTA-004 (JTA-200/2)",
+              "Intra-articular knee injection procedure"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "label": "JTA-004 50 (4 ml)",
+            "type": "EXPERIMENTAL",
+            "description": "Sodium hyaluronate, plasma proteins and clonidine",
+            "interventionNames": [
+              "Drug: JTA-004 intra-articular injection"
+            ]
+          },
+          "pred_item": {
+            "label": "JTA-200/4",
+            "type": "EXPERIMENTAL",
+            "description": "Single intra-articular injection into the target knee of JTA-004 formulation containing 200 μg clonidine and 40 mg hyaluronic acid in a 4 mL volume. Product supplied as a freeze-dried powder for solution, reconstituted with sterile water immediately prior to injection. Injection generally via lateral midpatellar or other standard knee portal after aspiration of effusion if present; local anesthesia allowed at investigator discretion.",
+            "interventionNames": [
+              "JTA-004 (JTA-200/4)",
+              "Intra-articular knee injection procedure"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "JTA-004 100 (2 ml)",
+            "type": "EXPERIMENTAL",
+            "description": "Sodium hyaluronate, plasma proteins and clonidine",
+            "interventionNames": [
+              "Drug: JTA-004 intra-articular injection"
+            ]
+          },
+          "pred_item": {
+            "label": "JTA-100/2",
+            "type": "EXPERIMENTAL",
+            "description": "Single intra-articular injection into the target knee of JTA-004 formulation containing 100 μg clonidine and 20 mg hyaluronic acid in a 2 mL volume. Product supplied as a freeze-dried powder for solution, reconstituted with sterile water immediately prior to injection. Injection generally via lateral midpatellar or other standard knee portal after aspiration of effusion if present; local anesthesia allowed at investigator discretion.",
+            "interventionNames": [
+              "JTA-004 (JTA-100/2)",
+              "Intra-articular knee injection procedure"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.78,
+          0.87,
+          0.7,
+          0.68
+        ],
+        [
+          0.15,
+          0.2,
+          0.2,
+          0.82,
+          0.74
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "JTA-004 intra-articular injection",
+            "description": "Each patient will undergo a single injection of JTA-004 into the knee joint",
+            "armGroupLabels": [
+              "JTA-004 100 (2 ml)",
+              "JTA-004 50 (2 ml)",
+              "JTA-004 50 (4 ml)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "JTA-004 (JTA-100/2)",
+            "description": "Enhanced protein solution derived from human plasma, containing clonidine and hyaluronic acid obtained via bacterial fermentation. JTA-100/2 formulation: plasma protein solution 1.02 g/mL (total 2.04 g), clonidine 50 μg/mL (total 100 μg), hyaluronic acid 10 mg/mL (total 20 mg) in a 2 mL intra-articular injection, supplied as freeze-dried powder to be reconstituted with sterile water prior to use.",
+            "armGroupLabels": [
+              "JTA-100/2"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 3,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "Reference product intra-articular injection",
+            "description": "Each patient will undergo a single injection of Reference product into the knee joint",
+            "armGroupLabels": [
+              "Reference product"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Hylan G-F 20 (Synvisc-One)",
+            "description": "Reference hyaluronic acid treatment: hylan G-F 20 (Synvisc-One), a sterile viscoelastic solution containing 48 mg sodium hyaluronate in 6 mL, provided in a ready-to-use syringe for single intra-articular injection into the knee.",
+            "armGroupLabels": [
+              "Reference hylan G-F 20"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in WOMAC VA3.1 Pain Subscale Score at Month 6",
+            "description": "The primary endpoint is the Western Ontario McMaster universities (WOMAC®) VA3.1 Pain Subscale (subscale A): the individual changes in WOMAC® VA3.1 Pain Subscale Score between Baseline and Month 6 were calculated and compared by analysis of covariance (ANCOVA), adjusted for baseline value, to the Reference group.\n\nResults are expressed as \"adjusted mean\" based on the model used for group comparison.\n\nWOMAC Osteoarthritis Index is a tri-dimensional, self-administered, patient-centred health status questionnaire for knee disease severity ans osteonecrosis symptoms. The WOMAC® Index Pain Subscale (VAS format) was used. The VAS score was determined by measuring in millimetres from the left-hand end of the line to the point that the patient marks (0-100 mm) for 5 questions. Results are summed and normalized on a 100 mm scale: 0 represents no knee pain and 100 extreme knee pain.",
+            "timeFrame": "Baseline and 6 months"
+          },
+          "pred_item": {
+            "measure": "WOMAC Pain Subscale Score – Stage 2 superiority assessment",
+            "description": "Difference between the selected JTA-004 formulation (JTA-200/2) and the reference hylan G-F 20 group in adjusted mean change from baseline in WOMAC VA3.1 Pain Subscale Score; JTA-004 considered superior if the upper bound of the 95% confidence interval of this difference is < 0.",
+            "timeFrame": "Month 6 after injection (second study stage, final analysis)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.6,
+          0.94
+        ],
+        [
+          0.9,
+          0.68
+        ],
+        [
+          0.96,
+          0.78
+        ],
+        [
+          0.9,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "WOMAC® Pain Subscale at Month 3",
+            "description": "The primary endpoint is the Western Ontario McMaster universities (WOMAC®) VA3.1 Pain Subscale (subscale A): the individual changes in WOMAC® VA3.1 Pain Subscale Score between Baseline and Month 3 were calculated and compared by analysis of covariance (ANCOVA), adjusted for baseline value, to the Reference group.\n\nResults are expressed as \"adjusted mean\" based on the model used for group comparison.\n\nWOMAC Osteoarthritis Index is a tri-dimensional, self-administered, patient-centred health status questionnaire for knee disease severity ans osteonecrosis symptoms. The WOMAC® Index Pain Subscale (VAS format) was used. The VAS score was determined by measuring in millimetres from the left-hand end of the line to the point that the patient marks (0-100 mm) for 5 questions. Results are summed and normalized on a 100 mm scale: 0 represents no knee pain and 100 extreme knee pain.",
+            "timeFrame": "Baseline and 3 months"
+          },
+          "pred_item": {
+            "measure": "WOMAC Pain Subscale Score at Month 3 (Stage 2)",
+            "description": "Difference between the selected JTA-004 formulation (JTA-200/2) and the reference hylan G-F 20 group in adjusted mean change from baseline in WOMAC VA3.1 Pain Subscale Score.",
+            "timeFrame": "Month 3 after injection"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "WOMAC® Total Score Over Time",
+            "description": "The Western Ontario McMaster universities (WOMAC®) VA3.1 Total Score was used: the individual changes in WOMAC VA3.1 Total Score between Baseline and 2 weeks were calculated and compared by Mixed-Effect Model for Repeated Measurements, adjusted for baseline value, to the Reference group.\n\nResults are expressed as \"adjusted mean\" based on the model used for group comparison.\n\nWOMAC Osteoarthritis Index is a tri-dimensional, self-administered, patient-centred health status questionnaire for knee disease severity and osteonecrosis symptoms. The Total score (VAS format) was determined by measuring in millimetres from the left hand end of the line to the point that the patient marks (0-100 mm) for the pain (5 questions), stiffness (2 questions), and physical function (17 questions). Results are normalized on a 0-100 mm scale format. A higher score represents a higher degree of k",
+            "timeFrame": "Baseline and 2 weeks"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "WOMAC® Total Score Over Time",
+            "description": "The Western Ontario McMaster universities (WOMAC®) VA3.1 Total Score was used: the individual changes in WOMAC VA3.1 Total Score between Baseline and Month 3 were calculated and compared by Mixed-Effect Model for Repeated Measurements, adjusted for baseline value, to the Reference group.\n\nResults are expressed as \"adjusted mean\" based on the model used for group comparison.\n\nWOMAC Osteoarthritis Index is a tri-dimensional, self-administered, patient-centred health status questionnaire for knee disease severity ans osteonecrosis symptoms. The Total score (VAS format) was determined by measuring in millimetres from the left hand end of the line to the point that the patient marks (0-100 mm) for the pain (5 questions), stiffness (2 questions), and physical function (17 questions). Results are normalized on a 0-100 mm scale format. A higher score represents a higher degree of knee disease severity.",
+            "timeFrame": "Baseline and 3 months"
+          },
+          "pred_item": {
+            "measure": "WOMAC Total Score over time",
+            "description": "Difference between the selected JTA-004 formulation (JTA-200/2) and the reference hylan G-F 20 group in adjusted mean change from baseline in WOMAC VA3.1 Total Score, analysed over the follow-up period.",
+            "timeFrame": "Approximately 2 weeks, Month 3, and Month 6 after injection"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "WOMAC® Total Score Over Time",
+            "description": "The Western Ontario McMaster universities (WOMAC®) VA3.1 Total Score was used: the individual changes in WOMAC VA3.1 Total Score between Baseline and Month 6 were calculated and compared by Mixed-Effect Model for Repeated Measurements, adjusted for baseline value, to the Reference group.\n\nResults are expressed as \"adjusted mean\" based on the model used for group comparison.\n\nWOMAC Osteoarthritis Index is a tri-dimensional, self-administered, patient-centred health status questionnaire for knee disease severity ans osteonecrosis symptoms.The Total score (VAS format) was determined by measuring in millimetres from the left hand end of the line to the point that the patient marks (0-100 mm) for the pain (5 questions), stiffness (2 questions), and physical function (17 questions). Results are normalized on a 0-100 mm scale format. A higher score represents a higher degree of knee disease severity.",
+            "timeFrame": "Baseline and 6 months"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

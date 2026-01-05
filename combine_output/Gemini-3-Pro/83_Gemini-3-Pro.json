@@ -1,0 +1,157 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02153944",
+      "orgStudyIdInfo": {
+        "id": "14-M-0114",
+        "type": "NIH"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "ZIAMH002798-14",
+          "type": "NIH",
+          "domain": "National Institute of Mental Health"
+        }
+      ],
+      "organization": {
+        "fullName": "National Institute of Mental Health",
+        "class": "NIH"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This study explores the neural mechanisms underlying the interaction between anxiety and cognition. While anxiety typically impairs cognition, engaging in demanding tasks can reduce anxiety. The researchers investigated whether pharmacologically improving attentional processes using methylphenidate (a cognitive enhancer) influences the interplay between neural networks engaged during anxiety and cognitive performance. The study hypothesizes that enhancing cognitive resources may allow for better integration of anxiety-provoking stimuli and top-down regulation to protect against the negative effects of anxiety.",
+      "detailedDescription": "Using a double-blind, between-subject design, this study pharmacologically manipulated working memory (WM) using a single oral dose of 20 mg methylphenidate (MPH) or placebo. Fifty healthy adults (25 per group) performed two runs of an N-back WM task in a 3 T magnetic resonance imaging (fMRI) scanner. The task included low (1-Back) and high (3-Back) WM loads and was performed in two contexts: safety or threat of unpredictable electrical shocks (induced-anxiety). \n\nThe study aimed to test three potential neural mechanisms regarding the relationship between cognitive enhancement and anxiety reduction: (A) Increased dissociation between the fronto-parietal control network (FPCN) and the default mode network (DMN); (B) Redistribution of cognitive resources characterized by lower FPCN resource allocation and increased DMN engagement; or (C) Expansion of overall neural resources reflected by stronger activation of both the FPCN and the DMN. Behavioral measures included response accuracy and reaction time, alongside subjective anxiety ratings collected via the State-Trait Anxiety Inventory (STAI-s)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Anxiety",
+        "Healthy Volunteers"
+      ],
+      "keywords": [
+        "Methylphenidate",
+        "Working Memory",
+        "fMRI",
+        "Fronto-parietal control network",
+        "Default mode network",
+        "Induced anxiety",
+        "Cognitive enhancement"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "A randomized double-blind parallel-group design was used in this PLA-controlled study.",
+        "primaryPurpose": "BASIC_SCIENCE",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "PLA and MPH oral doses were presented in identical-appearing capsules.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 70,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Methylphenidate (MPH)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants in this group received a single oral dose of immediate-release MPH 20 mg (Ritalin) 90 minutes prior to the experimental task.",
+          "interventionNames": [
+            "Methylphenidate"
+          ]
+        },
+        {
+          "label": "Placebo (PLA)",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants in this group received a single oral dose of placebo in an identical-appearing capsule 90 minutes prior to the experimental task.",
+          "interventionNames": [
+            "Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Methylphenidate",
+          "description": "20 mg immediate-release methylphenidate (Ritalin, Novartis), acting as a cognitive enhancer.",
+          "armGroupLabels": [
+            "Methylphenidate (MPH)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Identical-appearing capsule containing an inert substance.",
+          "armGroupLabels": [
+            "Placebo (PLA)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Neural activation (BOLD signal)",
+          "description": "Blood-oxygen-level dependent (BOLD) responses assessed via fMRI, specifically focusing on the recruitment of the fronto-parietal control network (FPCN) and the default mode network (DMN). Comparisons were made between drug groups (MPH vs. Placebo) during the N-Back task (3-Back vs. 1-Back) under conditions of safety and threat.",
+          "timeFrame": "During the fMRI scanning session, starting 90 minutes post-drug administration"
+        },
+        {
+          "measure": "Working Memory Accuracy",
+          "description": "Behavioral performance on the N-Back Working Memory task, measured by response accuracy (percentage of correct responses) across different loads (1-Back, 3-Back) and contexts (Safety, Threat).",
+          "timeFrame": "During the fMRI scanning session, starting 90 minutes post-drug administration"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Working Memory Reaction Time (RT)",
+          "description": "Speed of response measured in milliseconds during the N-Back Working Memory task across different loads and contexts.",
+          "timeFrame": "During the fMRI scanning session, starting 90 minutes post-drug administration"
+        },
+        {
+          "measure": "General State Anxiety (STAI-s)",
+          "description": "Subjective ratings of general anxiety state assessed using the State-Trait Anxiety Inventory (STAI-s).",
+          "timeFrame": "Time 1 (right after drug administration), Time 2 (45 min post administration), and Time 3 (immediately after scanner)"
+        },
+        {
+          "measure": "Subjective Anxiety during fMRI",
+          "description": "Self-reported ratings of anxiety specifically linked to task performance within the scanner.",
+          "timeFrame": "During the fMRI scanning session"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Adverse Events",
+          "description": "Potential side effects and adverse reactions monitored using a clinician-administered 34-item Adverse Events Checklist.",
+          "timeFrame": "During the study visit"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n*   Age between 18 and 50 years\n*   No past or current Axis I psychiatric disorders\n*   No family history of psychiatric disorder in first-degree relatives\n*   No significant medical or neurological conditions that might interfere with participation in the study\n*   No use of psychotropic medications, tobacco, or illicit drugs (urine screen)\n*   No contraindications to magnetic resonance imaging (MRI)\n\nExclusion Criteria:\n*   Prior chronic use of MPH such as Ritalin\n*   Intelligence quotient (IQ) <80 as assessed using the vocabulary and matrix reasoning subscales of the Wechsler Abbreviated Scale of Intelligence\n*   Pregnancy or a positive pregnancy test",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "50 Years",
+      "stdAges": [
+        "ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

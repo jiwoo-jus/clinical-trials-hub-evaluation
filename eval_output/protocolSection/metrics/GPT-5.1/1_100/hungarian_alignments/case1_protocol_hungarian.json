@@ -1,0 +1,168 @@
+{
+  "metadata": {
+    "case_id": 1,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-28T01:02:55.204097",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/1_NCT03899961.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/1_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.78
+        ],
+        [
+          0.72,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 6,
+      "similarity_matrix": [
+        [
+          0.99,
+          0.7,
+          0.78,
+          0.4,
+          0.4,
+          0.4
+        ],
+        [
+          0.4,
+          0.98,
+          0.6,
+          0.4,
+          0.4,
+          0.32
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 11,
+      "similarity_matrix": [
+        [
+          0.1,
+          0.1,
+          0.78,
+          0.86,
+          0.78,
+          0.3,
+          0.08,
+          0.3,
+          0.1,
+          0.3,
+          0.1
+        ],
+        [
+          0.9,
+          0.98,
+          0.2,
+          0.1,
+          0.2,
+          0.4,
+          0.05,
+          0.18,
+          0.2,
+          0.1,
+          0.08
+        ],
+        [
+          0.1,
+          0.1,
+          0.1,
+          0.08,
+          0.1,
+          0.08,
+          0.82,
+          0.2,
+          0.15,
+          0.3,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.86,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 6,
+          "score": 0.82,
+          "status": "matched"
+        }
+      ]
+    }
+  ]
+}

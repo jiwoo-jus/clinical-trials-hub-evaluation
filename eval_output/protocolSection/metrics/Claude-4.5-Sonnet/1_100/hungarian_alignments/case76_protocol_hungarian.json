@@ -1,0 +1,261 @@
+{
+  "metadata": {
+    "case_id": 76,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T18:34:55.823880",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/76_NCT03310775.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/76_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.2
+        ],
+        [
+          0.5,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "case group",
+            "type": "EXPERIMENTAL",
+            "description": "Behavioral: parent-assisted social skills training program for young adults with autism spectrum disorder The subjects will participate in the treatment program weekly for a total of 14 weeks. The final visit will be made at the point three months after the completion of treatment to see mid- and long-term effects.",
+            "interventionNames": [
+              "Behavioral: Parent-assisted social skills training program for young adult with ASD"
+            ]
+          },
+          "pred_item": {
+            "label": "Treatment Group (TG)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received the Korean version of the Program for the Education and Enrichment of Relational Skills for Young Adults (PEERS®-YA-K) immediately after randomization. The intervention consisted of 16 weekly 90-minute sessions conducted concurrently for young adults with ASD and their social coaches in separate rooms.",
+            "interventionNames": [
+              "BEHAVIORAL: PEERS®-YA-K (Program for the Education and Enrichment of Relational Skills for Young Adults - Korean Version)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "waitlist control group",
+            "type": "EXPERIMENTAL",
+            "description": "For this group, same intervention with the Experimental group will be provided after waiting for 16 weeks.\n\nBehavioral: Delayed intervention Intervention is provided to Waitlist Control Group after waiting for 16 weeks",
+            "interventionNames": [
+              "Behavioral: Parent-assisted social skills training program for young adult with ASD"
+            ]
+          },
+          "pred_item": {
+            "label": "Delayed Treatment Group (DTG)",
+            "type": "NO_INTERVENTION",
+            "description": "Participants served as a waitlist control group and did not receive the PEERS®-YA-K intervention during the initial study period. Formal social skills training, social skills group therapy, and starting new therapy were prohibited during the waiting period, but individual counseling, general follow-up visits, and pharmacotherapy were allowed. After the waiting period, this group received the PEERS®-YA-K intervention.",
+            "interventionNames": []
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Parent-assisted social skills training program for young adult with ASD",
+            "description": "The subjects will participate in the treatment program weekly for a total of 16 weeks. The final visit will be made at the point four months after the completion of treatment to see long-term effects.",
+            "armGroupLabels": [
+              "case group",
+              "waitlist control group"
+            ],
+            "otherNames": [
+              "PEERS"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "PEERS®-YA-K (Program for the Education and Enrichment of Relational Skills for Young Adults - Korean Version)",
+            "description": "The PEERS®-YA-K is a manualized, evidence-based social skills training intervention culturally adapted for young adults with ASD in Korea. The program consists of 16 weekly 90-minute group sessions. The intervention focuses on teaching social skills necessary for developing and maintaining friendships, romantic relationships, and managing peer conflict and rejection. Topics include conversational skills, electronic forms of communication, developing friendship networks, appropriate use of humor, peer entry and exiting strategies, organizing get-togethers, handling teasing and bullying, managing peer pressure, conflict resolution, dating etiquette, showing romantic interest, asking someone on a date, going on dates, and general dating guidelines. Social coaches (e.g., parents, siblings, friends, mentors) attend concurrent sessions to learn how to support the young adults through continuous practice and reinforcement. The Korean version was modified to be culturally sensitive, particularly regarding dating etiquette and social activities, based on intensive interviews with typically developing Korean young adults.",
+            "armGroupLabels": [
+              "Treatment Group (TG)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.4,
+          0.42,
+          0.82
+        ],
+        [
+          0.45,
+          0.9,
+          0.78,
+          0.72
+        ],
+        [
+          0.4,
+          0.74,
+          0.82,
+          0.78
+        ],
+        [
+          0.7,
+          0.78,
+          0.78,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Autism Diagnostic Observation Schedule(ADOS) at 4 Month",
+            "description": "The ADOS is a play-based, semistructured, standardized assessment of communication, social interaction, and play (i.e. imaginative use of materials) for individuals with a suspected diagnosis of autism or ASD. The ADOS consists of four modules, each of which can be selected on the basis of the participant's expressive language skills and hronological age. Module 4 of the ADOS is designed for adolescents and adults with fluent speech, and includes 10 essential and 5 optional activities. The scores from each activity are coded as well as those for five subdomains: language and communication, reciprocal social interaction, imagination, stereotyped behaviors and restricted interests, and other abnormal behaviors.\n\nminimum 0, maximum 18, higherscores mean a worse outcome.",
+            "timeFrame": "baseline, after the completion of the treatment, 4 month"
+          },
+          "pred_item": {
+            "measure": "Autism Diagnostic Observation Schedule, Second Edition (ADOS-2) Module 4",
+            "description": "The ADOS-2 is a standardized test designed to diagnose ASD by observing communication and social behaviors during semi-structured play and/or an interview. Module 4 is used for verbally fluent adolescents and adults. It is scored on five domains: language and communication, reciprocal social interaction, imagination, stereotyped behaviors, restricted interests, and other abnormal behaviors. Internal consistency: Cronbach's alpha = 0.752.",
+            "timeFrame": "Baseline (test 1), post-intervention (test 2), and 4-month follow-up (test 3)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Test of Young Adult Social Skills Knowledge(TYASSK) at 4 Month",
+            "description": "The TYASSK is a 22-item criterion-referenced test developed for this study to assess the teen's knowledge about the specific social skills taught during the intervention. Two items were derived from key elements of each of the 11 didactic lessons. Teens were presented with sentence stems and asked to choose the best option from two possible answers. Scores range from 0 to 22, with higher scores reflecting greater knowledge of teen social skills.",
+            "timeFrame": "baseline, 4 month"
+          },
+          "pred_item": {
+            "measure": "Test of Young Adult Social Skills Knowledge (TYASSK)",
+            "description": "The TYASSK evaluates the change in young adults' knowledge of specific social skills taught during the intervention with two items derived from each lesson. Scores range from 0 to 30, with higher scores reflecting more knowledge of social skills. Cronbach's alpha = 0.403.",
+            "timeFrame": "Baseline (test 1), post-intervention (test 2), and 4-month follow-up (test 3)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Korean Version of the Social Skills Rating System (K-SSRS) at 4 Month",
+            "description": "The SSRS consists of 38-items and took approximately 10 min to complete. Questionnaires were completed independently by the teen's parent and teacher. For example, items included ''Starts conversations rather than waiting for someone to talk first.'' The items were rated as either ''Never,'' ''Sometimes,'' or ''Very Often.'' The Social Skills and Problem Behaviors scales were derived from factor analysis.\n\nminimum 50 and maximum 163, and higherscores mean a better outcome",
+            "timeFrame": "baseline,4 month"
+          },
+          "pred_item": {
+            "measure": "Korean Version of the Social Skills Rating System (K-SSRS)",
+            "description": "The SSRS is a multi-rater feedback questionnaire to assess social skills, problematic behaviors, and academic competence. The K-SSRS consists of 27 items rated on a Likert scale from 1 ('not at all') to 7 ('almost always'). Cronbach's alpha: self-report = 0.910, parent-report = 0.920.",
+            "timeFrame": "Baseline (test 1), post-intervention (test 2), and 4-month follow-up (test 3)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Social Responsiveness Scale-2 (SRS-2) at 4 Month",
+            "description": "The SRS is a 65-item questionnaire that assesses the various dimensions of interpersonal behavior, communication, and repetitive/stereotypic behavior that are characteristics of ASD.\n\nminimum 92, maximum 200, higherscores mean a worse outcome",
+            "timeFrame": "baseline,4 month"
+          },
+          "pred_item": {
+            "measure": "Social Responsiveness Scale-2 (SRS-2)",
+            "description": "The SRS-2 screens children at risk of ASD and measures social interactions, communication, and stereotyped behaviors. Items are rated on a Likert scale from 1 ('not at all') to 4 ('almost always'). A score >75 indicates high risk of ASD. Cronbach's alpha: self-report = 0.946, parent-report = 0.921.",
+            "timeFrame": "Baseline (test 1), post-intervention (test 2), and 4-month follow-up (test 3)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.05
+        ],
+        [
+          0.1,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Korean Version of the Vineland Adaptive Behavior Scale, Second Edition",
+            "description": "The K-VABS is an interviewed survey and measures adaptive behaviors of individuals such as personal and social skills, used for everyday living from birth to age 90. These are based on the reports of primary caregivers and teachers. The K-VABS contains 5 domains each with 2-3 subdomains. The main domains are: Communication, Daily Living Skills, Socialization, Motor Skills, and Maladaptive Behavior (optional). Behaviors are rated on a 0 (a skill that is not used by the individual) - 2 (a skill used most of the time) rating scale. The current study used only the communication, daily living skills, and socialization domains.\n\nminimum 25, maximum 108, higherscores mean a better outcome.",
+            "timeFrame": "baseline,4 month"
+          },
+          "pred_item": {
+            "measure": "Korean Version of the Vineland Adaptive Behavior Scale, Second Edition (K-VABS)",
+            "description": "The K-VABS is an interview survey measuring adaptive behaviors such as personal and social skills used for everyday living. It contains five domains: communication, daily living skills, socialization, motor skills, and maladaptive behavior. Behaviors are rated on a 0 to 2 rating scale. The current study used only the communication, daily living skills, and socialization domains. Cronbach's alpha = 0.812.",
+            "timeFrame": "Baseline (test 1), post-intervention (test 2), and 4-month follow-up (test 3)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Beck Depression Inventory (BDI) at 4month",
+            "description": "The BDI consists of 21 items measuring the severity of subjective symptoms of depression, with emotional, cognitive, motivational, and physiological symptom profiles for adults. Each question has four possible answer choices, scored from 0 (no symptoms) to 3 (the most severe symptoms).\n\nminimum 1, maximum 45, higherscores mean a worse outcome",
+            "timeFrame": "baseline,4 month"
+          },
+          "pred_item": {
+            "measure": "Beck Depression Inventory (BDI)",
+            "description": "The BDI is a 21-question self-report inventory assessing the intensity of 21 depression-related symptoms and attitudes. Items are rated from 0 to 3 in terms of intensity. The maximum score is 63 points, with suggested interpretation: minimal = 0–13, mild = 14–19, moderate = 20–28, severe = 29–63. Cronbach's alpha = 0.942.",
+            "timeFrame": "Baseline (test 1), post-intervention (test 2), and 4-month follow-up (test 3)"
+          }
+        }
+      ]
+    }
+  ]
+}

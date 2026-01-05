@@ -1,0 +1,64 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT02951156,NCT02951156,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,"Avelumab In Combination Regimens That Include An Immune Agonist, Epigenetic Modulator, CD20 Antagonist and/or Conventional Chemotherapy in Patients With Relapsed or Refractory Diffuse Large B-cell Lymphoma (R/R DLBCL)",JAVELIN DLBCL Study,True,0.86,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,"PHASE 1B/PHASE 3 MULTICENTER STUDY OF AVELUMAB (MSB0010718C) IN COMBINATION REGIMENS THAT INCLUDE AN IMMUNE AGONIST, EPIGENETIC MODULATOR, CD20 ANTAGONIST AND/OR CONVENTIONAL CHEMOTHERAPY IN PATIENTS WITH RELAPSED OR REFRACTORY DIFFUSE LARGE B-CELL LYMPHOMA (DLBCL) JAVELIN DLBCL","Phase Ib JAVELIN DLBCL trial of avelumab in combination with utomilumab and rituximab, in combination with utomilumab and azacitidine, and in combination with bendamustine and rituximab in patients with R/R DLBCL",True,0.94,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"Study B9991011 is a multi-center, international, randomized, open label, 2 component (Phase 1b followed by Phase 3), parallel-arm study of avelumab in combination with various agents for the treatment of Relapsed/Refractory (R/R) Diffuse Large B-Cell Lymphoma (DLBCL).","The JAVELIN DLBCL study was conducted to assess whether a combination of agents could augment and sustain the antitumor immunity of avelumab, an anti-PD-L1 antibody, in patients with relapsed/refractory (R/R) diffuse large B-cell lymphoma (DLBCL). This was a multicenter, randomized, open-label, parallel-arm study comprising a phase Ib and a planned phase III component.",True,0.95,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"The target study population of this Phase 1b/3 registrational study is patients with R/R DLBCL who have completed at least 2 (but not more than 4) lines of prior rituximab-containing multi-agent chemotherapy, and/or in whom autologous stem cell transplant (ASCT) has failed, or who are not candidates for ASCT or who are not eligible for intensive chemotherapy. Patients who are ineligible for intensive second line chemotherapy must have received at least one prior rituximab-containing combination chemotherapy regimen. The study will assess the safety, efficacy, pharmacokinetics (PK), immunogenicity of the 3 avelumab-based combination regimens tested, and collect patient reported outcome (PRO) data.","The JAVELIN DLBCL study (NCT02951156) investigated the safety and efficacy of avelumab in combination with various agents hypothesized to augment antitumor immunity in patients with R/R DLBCL. In the phase Ib component reported here, 29 adult patients were randomized 1:1:1 to three treatment arms: avelumab in combination with utomilumab (an immunoglobulin G2 4-1BB agonist) and rituximab (arm A); avelumab in combination with utomilumab and azacitidine (arm B); or avelumab in combination with bendamustine and rituximab (arm C). 
+
+Avelumab 10 mg/kg was administered intravenously every 2 weeks. Doses for combination agents were selected based on previous safety results. The primary endpoints were dose-limiting toxicities (DLTs) and objective response (OR) as assessed by the investigator per Lugano Response Classification criteria. Secondary endpoints included PD-L1 expression levels, minimal residual disease (MRD), duration of response (DR), time to tumor response (TTR), disease control (DC), progression-free survival (PFS), overall survival (OS), and safety. 
+
+The study was discontinued before the initiation of the phase III component due to insufficient antitumor activity observed in arms A and B, and the infeasibility of expanding arm C due to recruitment difficulties.",True,0.78,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,['Diffuse Large B-Cell Lymphoma'],"['Relapsed Diffuse Large B-Cell Lymphoma', 'Refractory Diffuse Large B-Cell Lymphoma']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Avelumab', 'Utomilumab', 'Rituximab', 'Azacitidine', 'Bendamustine', 'PD-L1 inhibitor', '4-1BB agonist', 'Immunotherapy']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE3'],"['PHASE1', 'PHASE3']",True,1.0,superset,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,Seamless two-component (phase Ib planned to be followed by phase III) study.,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,29,29,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Pharmacokinetic endpoints,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].measure,EV,EV,,Cell of origin (COO),,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,Summarized descriptively.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[1].description,EV,EV,,Assessed centrally using the HTG EdgeSeq DLBCL Cell of Origin Research Use Only Assay.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Key Inclusion Criteria:
+
+-Any of the following as defined by the WHO, 2016 lymphoid neoplasm classifications and histologically confirmed:
+
+* Diffuse large B-cell lymphoma (DLBCL), Not Otherwise Specified (NOS): Germinal center B-cell type (GCB), Activated B-cell type (ABC)
+* High-grade B-cell lymphoma (HGBCL) NOS
+* HGBCL with MYC and BCL2 and/or BCL6 rearrangements
+* T-cell histocyte-rich large B-cell lymphoma
+* EBV+ DLBCL, NOS
+* HHV8+ DLBCL, NOS
+
+Relapsed or refractory disease following at least 2 lines (and a maximum of 4 lines) of prior rituximab containing multi-agent chemotherapy which may include an autologous stem cell transplantation unless patients are not considered suitable for intensive second-line chemotherapy or autologous stem cell transplantation. Patients who are ineligible for intensive second line chemotherapy,must have received at least one prior rituximab-containing combination chemotherapy regimen. Patients who are ineligible for intensive second line chemotherapy, must have received at least one prior rituximab-containing combination chemotherapy regimen.
+
+* Baseline measurable disease with at least 1 bi dimensional lesion with longest diameter (LDi) \>1.5cm on CT scan which is FDG avid on PET scan.
+* A biopsy (archived or Screening/recent) will be collected at Screening.
+* At least 18years of age (or ≥20 years in Japan).
+* Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) 0 or 1.
+
+Key Exclusion Criteria:
+
+* Active central nervous system (CNS) lymphoma.
+* Prior organ transplantation including prior allogeneic SCT.
+* Prior therapy with an anti PD 1, anti PD L1, anti PD L2, anti CD137, or anti cytotoxic T lymphocyte associated antigen 4 (CTLA 4) antibody (including ipilimumab, tremelimumab or any other antibody, or drug specifically targeting T cell co stimulatory or immune checkpoint pathways).","Inclusion Criteria:
+- Histologically confirmed DLBCL
+- Patients who were at least 18 years of age
+- Relapsed/refractory disease following two or more and up to four lines of rituximab-based multiagent chemotherapy
+- Patients who were ineligible for intensive second-line chemotherapy must have received at least one prior rituximab-containing combination chemotherapy regimen
+- Patients previously treated with bendamustine must have experienced a response duration of ≥ 6 months
+- Documentation of baseline measurable disease with at least one bidimensional lesion with the longest diameter > 1.5 cm on a computerized tomography scan, which was fluorodeoxyglucose avid on positron emission tomography scan
+
+Exclusion Criteria:
+- Active central nervous system lymphoma
+- Prior organ transplant including prior allogeneic stem cell transplant
+- Prior therapy with an anti-PD-1, anti-PD-L1, anti-PD-L2, anti-4-1BB (anti-CD137), or anti-CTLA-4 antibody (including ipilimumab and tremelimumab or any other antibody or drug specifically targeting T-cell costimulatory or immune checkpoint pathways)
+- The use of any standard or experimental anticancer therapy within 2 weeks prior to the first dose of study treatment, including cytoreductive therapy and radiotherapy, immunotherapy, or cytokine therapy (except for erythropoietin)
+- The use of any nondrug anticancer therapy (including CAR T-cell therapy)",True,0.9,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

@@ -1,0 +1,174 @@
+{
+  "metadata": {
+    "case_id": 88,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T19:24:03.959464",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/88_NCT03416920.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/88_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.25
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Wellframe",
+            "type": "EXPERIMENTAL",
+            "description": "Subjects in this arm will use the Wellframe application for 90 days",
+            "interventionNames": [
+              "Other: Wellframe"
+            ]
+          },
+          "pred_item": {
+            "label": "Smartphone App Intervention",
+            "type": "EXPERIMENTAL",
+            "description": "Single-arm intervention group consisting of patients aged 21–85 years undergoing percutaneous coronary intervention (PCI) for symptomatic coronary artery disease or acute myocardial infarction at two academic centers, who owned a smartphone or tablet and were onboarded to a customized mobile health platform within 48 hours of hospital discharge. Participants used a patient-facing smartphone/tablet app for 90 days post-discharge, which provided a personalized daily health checklist including education, medication and step/physical activity tracking, reminders, interactive surveys and articles, and two-way messaging with non-clinician live health coaches. Engagement and clinical outcomes (readmissions, cardiac rehabilitation enrollment, and cardiology follow-up) were assessed.",
+            "interventionNames": [
+              "Post-PCI Smartphone App with Live Health Coaching"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Wellframe",
+            "description": "Wellframe mobile phone app",
+            "armGroupLabels": [
+              "Wellframe"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Post-PCI Smartphone App with Live Health Coaching",
+            "description": "A customized digital health platform (Wellframe, Boston, MA) deployed to patients after percutaneous coronary intervention. The intervention includes: (1) a patient-facing mobile application for smartphones/tablets with a personalized adaptive daily health checklist; (2) educational content about coronary artery disease, medications, and lifestyle; (3) medication reminder setup and adherence tracking; (4) physical activity/step tracking and goal reporting; (5) interactive surveys and articles; and (6) bidirectional messaging with non-clinician live health coaches who provide personalized feedback and encouragement. The app is installed during or shortly after hospitalization and accounts remain active for 90 days post-discharge.",
+            "armGroupLabels": [
+              "Smartphone App Intervention"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Readmission at 30 Days",
+            "description": "How many subjects were readmitted to the hospital",
+            "timeFrame": "30 Days"
+          },
+          "pred_item": {
+            "measure": "30-day all-cause hospital readmission",
+            "description": "Proportion of participants with at least one unplanned hospitalization for any cause at a Mass General Brigham hospital within 30 days after PCI, ascertained by manual chart review and analyzed using Cox proportional hazards models.",
+            "timeFrame": "Within 30 days after PCI"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.7,
+          0.94,
+          0.4,
+          0.12,
+          0.2,
+          0.3
+        ],
+        [
+          0.25,
+          0.3,
+          0.42,
+          0.94,
+          0.55,
+          0.4,
+          0.35
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Readmission at 90 Days",
+            "description": "How many subjects were readmitted to the hospital",
+            "timeFrame": "90 Days"
+          },
+          "pred_item": {
+            "measure": "90-day all-cause hospital readmission",
+            "description": "Proportion of participants with at least one hospitalization for any cause at a Mass General Brigham hospital within 90 days after PCI, based on electronic health record review and analyzed using Cox proportional hazards models.",
+            "timeFrame": "Within 90 days after PCI"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 3,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Enrolled in Clinic-based Cardiac Rehab at 90 Days",
+            "description": "Percent of patients discharged after intervention who attend at least one session of clinic-based cardiac rehab",
+            "timeFrame": "90 days"
+          },
+          "pred_item": {
+            "measure": "Cardiac rehabilitation enrollment within 90 days",
+            "description": "Enrollment in cardiac rehabilitation at a Mass General Brigham site as documented in the health system, evaluated with Cox proportional hazards models to compare intervention and historical control groups.",
+            "timeFrame": "Within 90 days after PCI"
+          }
+        }
+      ]
+    }
+  ]
+}

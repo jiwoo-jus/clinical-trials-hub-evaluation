@@ -1,0 +1,182 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00976573",
+      "orgStudyIdInfo": {
+        "id": "N0879"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "U10CA180821",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "U10CA180882",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "CA025224",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "U10CA180790",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "UG1CA189825",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        },
+        {
+          "id": "UG1CA189863",
+          "type": "NIH",
+          "domain": "National Cancer Institute"
+        }
+      ],
+      "organization": {
+        "fullName": "Alliance for Clinical Trials in Oncology",
+        "class": "NETWORK"
+      },
+      "briefTitle": "NCCTG N0879 Randomized Phase 2 Clinical Trial",
+      "officialTitle": "North Central Cancer Treatment Group/Alliance N0879 Randomized Phase 2 Clinical Trial"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluated the prognostic significance of detectable circulating cell-free DNA (cfDNA) BRAFV600E/K mutations in patients with advanced melanoma. Utilizing samples from the North Central Cancer Treatment Group/Alliance N0879 randomized phase 2 clinical trial, researchers compared BRAF mutation status in archived tissue against pretreatment stored plasma. The study aimed to determine if the presence of detectable cfDNA mutations correlates with Progression-Free Survival (PFS) and Overall Survival (OS) in a population receiving chemotherapy without BRAF-targeted therapy.",
+      "detailedDescription": "The study population consisted of 149 patients with unresectable stage IV melanoma enrolled in the NCCTG N0879 trial between May 2010 and May 2014. The original trial assessed a regimen of carboplatin, paclitaxel, and bevacizumab with or without everolimus. In this retrospective analysis, BRAFV600E/K mutation status was established using archived formalin-fixed paraffin-embedded (FFPE) tumor tissue via a 50-gene hotspot PCR-based MiSeq panel. This was compared to cfDNA extracted from stored frozen plasma samples using a validated digital droplet PCR (ddPCR) assay on the RainDrop Digital PCR System.\n\nThe analysis focused on the concordance between tissue and plasma results, reporting sensitivity, specificity, positive predictive value, and negative predictive value. Furthermore, the study assessed the prognostic implications of cfDNA status by analyzing Progression-Free Survival (PFS) and Overall Survival (OS) using the Kaplan-Meier method. The study specifically investigated whether detectable cfDNA BRAFV600E/K mutations in patients with tissue-diagnosed mutant BRAF were associated with poorer clinical outcomes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Advanced Melanoma",
+        "Unresectable Stage IV Melanoma",
+        "Metastatic Melanoma"
+      ],
+      "keywords": [
+        "Cell-free DNA",
+        "cfDNA",
+        "BRAFV600E/K mutations",
+        "Digital droplet PCR",
+        "ddPCR",
+        "Prognosis",
+        "Liquid biopsy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "2-arm randomized trial of patients with stage IV melanoma that assessed the chemotherapy regimen of carboplatin, paclitaxel, and bevacizumab with or without everolimus.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Baseline blood samples were obtained for cfDNA and analyzed for BRAF mutations in a blinded fashion. Individuals performing the laboratory work and analyzing experimental data were blinded to all clinical variables.",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 149,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Carboplatin, Paclitaxel, and Bevacizumab",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients in this arm received the chemotherapy regimen of carboplatin, paclitaxel, and bevacizumab.",
+          "interventionNames": [
+            "Drug: Carboplatin",
+            "Drug: Paclitaxel",
+            "Drug: Bevacizumab"
+          ]
+        },
+        {
+          "label": "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus",
+          "type": "EXPERIMENTAL",
+          "description": "Patients in this arm received the chemotherapy regimen of carboplatin, paclitaxel, and bevacizumab with the addition of everolimus.",
+          "interventionNames": [
+            "Drug: Carboplatin",
+            "Drug: Paclitaxel",
+            "Drug: Bevacizumab",
+            "Drug: Everolimus"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Carboplatin",
+          "description": "Chemotherapy agent included in the combination regimen.",
+          "armGroupLabels": [
+            "Carboplatin, Paclitaxel, and Bevacizumab",
+            "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "Chemotherapy agent included in the combination regimen.",
+          "armGroupLabels": [
+            "Carboplatin, Paclitaxel, and Bevacizumab",
+            "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Bevacizumab",
+          "description": "Anti-vascular endothelial growth factor agent included in the combination regimen.",
+          "armGroupLabels": [
+            "Carboplatin, Paclitaxel, and Bevacizumab",
+            "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Everolimus",
+          "description": "Investigational agent added to the chemotherapy regimen in the experimental arm.",
+          "armGroupLabels": [
+            "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Progression-Free Survival (PFS)",
+          "description": "Assessed for patients with and without detectable BRAF mutation. Time-to-event end points were explored using the Kaplan-Meier method.",
+          "timeFrame": "Follow-up occurred over 43 months"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Assessed for patients with and without detectable BRAF mutation. Time-to-event end points were explored using the Kaplan-Meier method.",
+          "timeFrame": "Follow-up occurred over 43 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Diagnostic Performance of cfDNA Assay (Sensitivity and Specificity)",
+          "description": "Evaluation of the relationship between the BRAF mutation results obtained from plasma and tissue samples using descriptive statistics including sensitivity, specificity, positive predictive value, and negative predictive value.",
+          "timeFrame": "Baseline (at study enrollment)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Histologic proof of stage IV melanoma\n* 1 or fewer prior chemotherapy regimen\n\nExclusion Criteria:\n* Prior treatment with taxane-based chemotherapy or anti–vascular endothelial growth factor agents\n* Brain metastases before study enrollment\n* Other significant medical comorbid conditions or malignancies",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A"
+    }
+  }
+}

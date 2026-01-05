@@ -1,0 +1,175 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03047928",
+      "orgStudyIdInfo": {
+        "id": "MM1636"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2016-0004527-23",
+          "type": "EUDRACT_NUMBER",
+          "domain": "EudraCT"
+        },
+        {
+          "id": "H-17000988",
+          "type": "OTHER",
+          "domain": "Ethical committee of the Capital region of Denmark"
+        },
+        {
+          "id": "2017011073",
+          "type": "OTHER",
+          "domain": "Danish Medical Agencies"
+        },
+        {
+          "id": "P-2019-172",
+          "type": "OTHER",
+          "domain": "Capital Region of Denmark Data Unit"
+        }
+      ],
+      "organization": {
+        "fullName": "Herlev and Gentofte Hospital, University of Copenhagen",
+        "class": "OTHER"
+      },
+      "officialTitle": "A first-in-class immune-modulating IDO/PD-L1-targeting vaccine combined with nivolumab in a phase 1/2 trial achieved very promising clinical activity and long-lasting immune responses in patients with advanced melanoma",
+      "acronym": "MM1636"
+    },
+    "descriptionModule": {
+      "briefSummary": "This phase 1/2 clinical trial (MM1636) investigated the safety, feasibility, and efficacy of a first-in-class immune-modulatory vaccine (IO102/IO103) targeting indoleamine 2,3-dioxygenase (IDO) and PD ligand 1 (PD-L1) combined with the anti-PD-1 antibody nivolumab. The study enrolled patients with metastatic melanoma, specifically focusing on anti-PD-1 therapy-naive patients in the reported cohort. The treatment aimed to activate specific T cells against immunosuppressive and tumor cells expressing IDO and/or PD-L1 to modulate the tumor microenvironment.",
+      "detailedDescription": "Despite advances with immune checkpoint inhibitors (ICIs), resistance to monotherapy remains a challenge in metastatic melanoma. This study evaluates a combination strategy using an immune-modulatory vaccine targeting tumoral immune escape mechanisms alongside nivolumab. The vaccine consists of IO102, a 21-amino-acid peptide from IDO, and IO103, a 19-amino-acid peptide from the signal peptide of PD-L1, combined with the adjuvant Montanide ISA-51. \n\nThe mechanism relies on the hypothesis that IDO/PD-L1-specific T cells can recognize and kill tumor cells and non-malignant cells expressing these targets within the tumor microenvironment (TME), thereby reverting the TME from an immune-hostile to an immune-friendly environment and potentially upregulating PD-L1 expression to sensitize tumors to anti-PD-1 therapy.\n\nIn this non-randomized, open-label, single-center phase 1/2 study, patients received the vaccine subcutaneously biweekly for the first six administrations and thereafter every 4 weeks (up to 15 vaccines). Nivolumab was administered in parallel (intravenously) for up to 2 years. The study included three cohorts: aPD1 therapy-naive patients (Cohort A), aPD1 therapy-refractory patients (Cohort B), and patients with acquired resistance (Cohort C). Primary endpoints included safety and feasibility, while secondary endpoints assessed immunogenicity (vaccine-specific T cell responses) and clinical efficacy (ORR, PFS, OS) according to RECIST 1.1."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Metastatic Melanoma",
+        "Advanced Melanoma"
+      ],
+      "keywords": [
+        "Peptide vaccine",
+        "IO102",
+        "IO103",
+        "Nivolumab",
+        "IDO",
+        "PD-L1",
+        "Immunotherapy",
+        "Anti-PD-1"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Patients were included in three cohorts: 30 aPD1 therapy-naive patients (cohort A), ten aPD1 therapy-refractory patients (cohort B, de novo resistance) and ten patients who progressed after aPD1 therapy (cohort C, acquired resistance). This article reports results from cohort A.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Open-label"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Cohort A",
+          "type": "EXPERIMENTAL",
+          "description": "30 aPD1 therapy-naive patients with metastatic melanoma (MM). The first six patients were treated as for phase 1, evaluating for safety and tolerability before the remaining 24 patients were included in phase 2.",
+          "interventionNames": [
+            "IO102/IO103 vaccine",
+            "Nivolumab"
+          ]
+        },
+        {
+          "label": "Cohort B",
+          "type": "EXPERIMENTAL",
+          "description": "10 aPD1 therapy-refractory patients (de novo resistance).",
+          "interventionNames": [
+            "IO102/IO103 vaccine",
+            "Nivolumab"
+          ]
+        },
+        {
+          "label": "Cohort C",
+          "type": "EXPERIMENTAL",
+          "description": "10 patients who progressed after aPD1 therapy (acquired resistance).",
+          "interventionNames": [
+            "IO102/IO103 vaccine",
+            "Nivolumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "IO102/IO103 vaccine",
+          "description": "First-in-class immune-modulatory vaccine composed of 100 µg IO102 (IDO peptide) and 100 µg IO103 (PD-L1 peptide) mixed with 500 µl Montanide ISA-51 adjuvant. Administered subcutaneously biweekly for the first 10 weeks (6 administrations) and thereafter every 4 weeks for approximately 9 months (maximum 15 vaccines).",
+          "armGroupLabels": [
+            "Cohort A",
+            "Cohort B",
+            "Cohort C"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Nivolumab",
+          "description": "Anti-PD1 antibody administered intravenously biweekly (3 mg per kg) or every 4th week (6 mg per kg) for up to 2 years. Administered in parallel with the vaccine.",
+          "armGroupLabels": [
+            "Cohort A",
+            "Cohort B",
+            "Cohort C"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and Feasibility",
+          "description": "Safety and tolerability evaluated based on changes in clinical laboratory analyses and reported adverse events. Adverse events were assessed according to Common Terminology Criteria for Adverse Events (version 5.0) and graded from 1 to 5.",
+          "timeFrame": "From baseline up to 6 months after the last dose of the IDO/PD-L1 vaccine"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Clinical Efficacy: Objective Response Rate (ORR)",
+          "description": "Assessed using FDG PET–CT scans. Objective responses were categorized into complete response (CR), partial response (PR), stable disease, or progressive disease (PD) according to RECIST version 1.1.",
+          "timeFrame": "Before treatment and every 3 months until progression"
+        },
+        {
+          "measure": "Immunogenicity",
+          "description": "Assessment of vaccine-specific responses in peripheral blood mononuclear cells (PBMCs) using IFN-gamma ELISPOT assays and flow cytometry; and evaluation of skin-infiltrating lymphocytes (SKILs) via delayed-type hypersensitivity (DTH) tests.",
+          "timeFrame": "Baseline, before cycle 3, after cycles 6, 12, 18, and 24, and 3 and 6 months after the last vaccine"
+        },
+        {
+          "measure": "Progression-Free Survival (PFS)",
+          "description": "Calculated from the first day of treatment to death or progression.",
+          "timeFrame": "Through study completion, an average of 22.9 months (up to 35 months)"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Calculated from the first day of treatment to death or to the date of the last follow-up.",
+          "timeFrame": "Through study completion, an average of 22.9 months (up to 35 months)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Patients above 18 years of age\n- Locally advanced or stage 4 melanoma according to the AJCC (seventh edition)\n- At least one measurable lesion according to RECIST 1.1\n- ECOG PS of 0–1\n\nExclusion Criteria:\n- Prior treatment with aPD1 therapy\n- CNS metastases >1 cm\n- Severe comorbidities\n- Active autoimmune disease",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

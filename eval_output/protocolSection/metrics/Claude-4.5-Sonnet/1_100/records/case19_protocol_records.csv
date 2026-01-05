@@ -1,0 +1,59 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,FN,FN,NCT02679807,,False,0.0,,NCTId,protocolSection.identificationModule.nctId,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,FN,FN,Effect of Probiotic on Rhinovirus Induced Colds,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,FN,FN,Effect of Probiotic on Rhinovirus Induced Colds,,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,"This is a randomized, double-blind placebo controlled trial to evaluate the effect of a probiotic (Bl-04) on the occurrence of rhinovirus-associated common cold illness in the experimental rhinovirus challenge model. A previous study documented that Bl-04 has significant effects on the innate immune response in the nose and this study will be powered to assess whether these effects translate into a demonstrable clinical benefit. Volunteers will be given Bl-04 or placebo for 28 days then challenged with rhinovirus. The primary analysis will be on the proportion of volunteers who develop a rhinovirus associated illness in the two treatment groups.",,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,['Common Cold'],,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,FP,['NA'],['PHASE2'],False,0.0,disjoint,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Healthy volunteers were randomized 1:1 using a computer generated code to ingest either Bl-04 (n=165) or placebo (n=169) for 28 days and were then challenged with RV-A39, and followed for 14 days.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,TRIPLE,DOUBLE,True,0.7,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"The study was randomized, double-blinded. All study personnel involved in the conduct and analysis of the study were blinded to the randomization scheme until the study database was locked. The placebo was provided as a sachet containing 1g of sucrose that was identical to the study product in appearance, smell, and taste.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,FP,"['PARTICIPANT', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'INVESTIGATOR']",False,0.6666666666666666,partial,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,FP,380,334,False,0.6,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,FN,FN,"Inclusion Criteria:
+
+INCLUSION CRITERIA AT ENROLLMENT:
+
+* Subject must be 18-60 years of age.
+* Subject must read and sign a copy of the approved Consent Form
+* Subject must have a serum neutralizing antibody titer of less than or equal to 1:4 to rhinovirus type 39
+
+INCLUSION CRITERIA AT DAY -28
+
+• Female subjects must be using an effective birth control method.
+
+INCLUSION CRITERIA AT CHALLENGE:
+
+* Female subjects must be using an effective birth control method.
+
+Exclusion Criteria:
+
+* Antibiotic use within 3 months prior to day -28
+
+  * Female subjects with a positive urine pregnancy screen
+  * History of use of probiotics in the preceding two weeks
+  * Current cancer diagnosis or immunosuppressive therapy in the last 6 months
+  * Any clinically significant abnormalities of the upper respiratory tract
+  * Any clinically significant acute or chronic respiratory illness
+  * Any clinically significant bleeding tendency by history
+  * Hypertension that requires treatment with antihypertensive medications
+  * History of angina or other clinically significant cardiac disease
+  * Any medical condition that in the opinion of the Principal Investigator is cause for exclusion from the study
+  * History of regular use (more than 3 days in 7) of tobacco products within the preceding two weeks
+  * History of drug or alcohol abuse in the 6 months preceding the study
+
+EXCLUSION CRITERIA AT CHALLENGE:
+
+* Any upper respiratory infection or allergic rhinitis in the two weeks prior to the challenge
+* Female subjects with positive pregnancy screen prior to challenge
+* Any medical condition that in the opinion of the Principal Investigator is cause for exclusion from the study
+* Use of any anti-inflammatory (steroids or NSAIDs) or cough/cold or allergy preparation in the two weeks prior to the challenge",,False,0.0,,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,FN,FN,True,,False,0.0,,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,FN,FN,ALL,,False,0.0,,Sex,protocolSection.eligibilityModule.sex,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,FN,FN,18 Years,,False,0.0,,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,FN,FN,60 Years,,False,0.0,,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,FN,FN,['ADULT'],,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

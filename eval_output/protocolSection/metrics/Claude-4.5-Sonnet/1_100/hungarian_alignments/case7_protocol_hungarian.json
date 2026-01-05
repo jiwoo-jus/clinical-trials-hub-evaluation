@@ -1,0 +1,597 @@
+{
+  "metadata": {
+    "case_id": 7,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-28T05:19:21.594773",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/7_NCT03544229.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/7_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 6,
+      "similarity_matrix": [
+        [
+          0.15,
+          0.86,
+          0.15,
+          0.88,
+          0.2,
+          0.86
+        ],
+        [
+          0.5,
+          0.05,
+          0.78,
+          0.18,
+          0.5,
+          0.1
+        ],
+        [
+          0.6,
+          0.09,
+          0.6,
+          0.1,
+          0.65,
+          0.18
+        ],
+        [
+          0.65,
+          0.13,
+          0.68,
+          0.08,
+          0.45,
+          0.13
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "TAK-906 maleate placebo-matching capsules, orally, twice daily (BID) for up to 12 weeks.",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Cohort 2: Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "2 participants received placebo as a single dose on day 1, followed by twice daily dosing on days 3 through 7 (no evening dose on day 7)",
+            "interventionNames": [
+              "DRUG: Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "TAK-906 Maleate 5 mg",
+            "type": "EXPERIMENTAL",
+            "description": "TAK-906 maleate 5 mg, capsules, orally, BID for up to 12 weeks.",
+            "interventionNames": [
+              "Drug: TAK-906 Maleate"
+            ]
+          },
+          "pred_item": {
+            "label": "Cohort 2: Trazpiroben 100 mg",
+            "type": "EXPERIMENTAL",
+            "description": "6 participants received trazpiroben 100 mg as a single dose on day 1, followed by twice daily dosing on days 3 through 7 (no evening dose on day 7). Dose escalation to 100 mg was based on blinded review of safety and tolerability data from the 50 mg dose.",
+            "interventionNames": [
+              "DRUG: Trazpiroben 100 mg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 4,
+          "score": 0.65,
+          "status": "matched",
+          "ref_item": {
+            "label": "TAK-906 Maleate 25 mg",
+            "type": "EXPERIMENTAL",
+            "description": "TAK-906 maleate 25 mg, capsules, orally, BID for up to 12 weeks.",
+            "interventionNames": [
+              "Drug: TAK-906 Maleate"
+            ]
+          },
+          "pred_item": {
+            "label": "Cohort 3: Trazpiroben 10 mg",
+            "type": "EXPERIMENTAL",
+            "description": "6 participants received trazpiroben 10 mg as a single dose on day 1, followed by twice daily dosing on days 3 through 7 (no evening dose on day 7). This cohort was conducted in parallel with cohorts 1 and 2.",
+            "interventionNames": [
+              "DRUG: Trazpiroben 10 mg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 0,
+          "score": 0.65,
+          "status": "matched",
+          "ref_item": {
+            "label": "TAK-906 Maleate 50 mg",
+            "type": "EXPERIMENTAL",
+            "description": "TAK-906 maleate 50 mg, capsules, orally, BID for up to 12 weeks.",
+            "interventionNames": [
+              "Drug: TAK-906 Maleate"
+            ]
+          },
+          "pred_item": {
+            "label": "Cohort 1: Trazpiroben 50 mg",
+            "type": "EXPERIMENTAL",
+            "description": "6 participants received trazpiroben 50 mg as a single dose on day 1, followed by twice daily dosing on days 3 through 7 (no evening dose on day 7)",
+            "interventionNames": [
+              "DRUG: Trazpiroben 50 mg"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.82,
+          0.8,
+          0.3
+        ],
+        [
+          0.3,
+          0.3,
+          0.25,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "TAK-906 Maleate",
+            "description": "TAK-906 maleate capsules.",
+            "armGroupLabels": [
+              "TAK-906 Maleate 25 mg",
+              "TAK-906 Maleate 5 mg",
+              "TAK-906 Maleate 50 mg"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Trazpiroben 50 mg",
+            "description": "Trazpiroben (TAK-906) 50 mg administered orally. Single dose on day 1 after at least 10-hour fast, then twice daily (morning and evening) on days 3-7, with morning doses after at least 10-hour fast and evening doses 12 hours after morning dose and at least 2 hours after evening meal. No evening dose on day 7.",
+            "armGroupLabels": [
+              "Cohort 1: Trazpiroben 50 mg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 3,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "TAK-906 maleate placebo-matching capsules.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo administered orally. Single dose on day 1 after at least 10-hour fast, then twice daily (morning and evening) on days 3-7, with morning doses after at least 10-hour fast and evening doses 12 hours after morning dose and at least 2 hours after evening meal. No evening dose on day 7.",
+            "armGroupLabels": [
+              "Cohort 1: Placebo",
+              "Cohort 2: Placebo",
+              "Cohort 3: Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.04,
+          0.05,
+          0.05,
+          0.08
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.08,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the American Neurogastroenterology and Motility Society Gastroparesis Cardinal Symptom Index-Daily Diary (ANMS GCSI-DD) Composite Score at Week 12 of the Treatment Period",
+            "description": "ANMS GCSI-DD is a patient-reported outcome instrument for a symptom-based clinical trial endpoint in gastroparesis. The ANMS GCSI-DD composite score included score of nausea, early satiety, upper abdominal pain, and postprandial fullness. The severity scores of these symptoms range from 0 (none) to 4 (very severe). The daily composite score was calculated by summing the scores on the 4 symptom items (nausea, early satiety, postprandial fullness, and upper abdominal pain) and then dividing by 4, that is the number of items within the composite score. Thus, the maximum daily composite score was (4 symptoms × maximum score 4 divided by 4) = 16/4 = 4. The ANMS GCSI-DD daily composite score ranged from 0 to 4 with higher scores reflecting greater symptom severity. The negative change from baseline indicates improvement. Mixed-effects Model for Repeated Measures (MMRM) was used for the analysis.",
+            "timeFrame": "Baseline and Week 12"
+          },
+          "pred_item": {
+            "measure": "Safety and tolerability: Electrocardiogram (ECG) parameters",
+            "description": "Changes from baseline in 12-lead ECG parameters including QTc interval, QRS duration, and other cardiac measurements",
+            "timeFrame": "From baseline through follow-up (Day 14)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 11,
+      "pred_count": 13,
+      "similarity_matrix": [
+        [
+          0.05,
+          0.05,
+          0.02,
+          0.02,
+          0.08,
+          0.07,
+          0.05,
+          0.08,
+          0.05,
+          0.05,
+          0.08,
+          0.02,
+          0.03
+        ],
+        [
+          0.05,
+          0.05,
+          0.07,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.08,
+          0.05,
+          0.03
+        ],
+        [
+          0.05,
+          0.05,
+          0.05,
+          0.04,
+          0.02,
+          0.05,
+          0.05,
+          0.05,
+          0.02,
+          0.07,
+          0.08,
+          0.12,
+          0.05
+        ],
+        [
+          0.06,
+          0.02,
+          0.02,
+          0.05,
+          0.08,
+          0.05,
+          0.03,
+          0.03,
+          0.05,
+          0.08,
+          0.11,
+          0.02,
+          0.05
+        ],
+        [
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.07,
+          0.02,
+          0.05,
+          0.02,
+          0.12,
+          0.07,
+          0.06,
+          0.05
+        ],
+        [
+          0.03,
+          0.02,
+          0.05,
+          0.02,
+          0.01,
+          0.05,
+          0.03,
+          0.05,
+          0.03,
+          0.08,
+          0.05,
+          0.02,
+          0.08
+        ],
+        [
+          0.08,
+          0.04,
+          0.05,
+          0.07,
+          0.05,
+          0.05,
+          0.02,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.05
+        ],
+        [
+          0.02,
+          0.02,
+          0.06,
+          0.03,
+          0.02,
+          0.08,
+          0.01,
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.04,
+          0.03
+        ],
+        [
+          0.02,
+          0.04,
+          0.05,
+          0.07,
+          0.08,
+          0.05,
+          0.04,
+          0.05,
+          0.05,
+          0.02,
+          0.08,
+          0.0,
+          0.05
+        ],
+        [
+          0.05,
+          0.05,
+          0.05,
+          0.05,
+          0.02,
+          0.05,
+          0.05,
+          0.05,
+          0.08,
+          0.08,
+          0.05,
+          0.02,
+          0.05
+        ],
+        [
+          0.05,
+          0.05,
+          0.05,
+          0.03,
+          0.05,
+          0.05,
+          0.05,
+          0.04,
+          0.06,
+          0.08,
+          0.08,
+          0.09,
+          0.07
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 7,
+          "score": 0.08,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With at Least 50% Reduction From Baseline in ANMS GCSI-DD Composite Score at Week 12",
+            "description": "ANMS GCSI-DD is a patient-reported outcome instrument for a symptom-based clinical trial endpoint in gastroparesis . The ANMS GCSI-DD composite score included score of nausea, early satiety, upper abdominal pain and postprandial fullness. The severity scores of these symptoms range from 0 (none) to 4 (very severe). The daily composite score was calculated by summing the scores on the 4 symptom items (nausea, early satiety, postprandial fullness, and upper abdominal pain) and then dividing by 4, that is the number of items within the composite score. Thus, the maximum daily composite score was (4 symptoms × maximum score 4 divided by 4) = 16/4 = 4. The ANMS GCSI-DD daily composite score ranged from 0 to 4 with higher scores reflecting greater symptom severity.",
+            "timeFrame": "Baseline and Week 12"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetics: Dose proportionality of trazpiroben",
+            "description": "Assessment of dose-proportional increases in Cmax and AUC across dose levels (10, 50, 100 mg)",
+            "timeFrame": "Day 1 (single dose) and Day 7 (multiple dose)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.07,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the ANMS GCSI-DD Nausea Symptom Score at Week 12 of the Treatment Period",
+            "description": "ANMS GCSI-DD is a patient-reported outcome instrument for a symptom-based clinical trial endpoint in gastroparesis. The ANMS GCSI-DD assesses nausea, early satiety, postprandial fullness, and upper abdominal pain on a severity score calculated from a 5-point Likert scale. The ANMS GCSI-DD nausea symptom score ranged from 0 to 4 with higher scores reflecting greater symptom severity. The negative change from baseline indicates improvement. MMRM was used for analysis.",
+            "timeFrame": "Baseline and Week 12"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetics: Time to maximum concentration (tmax) of trazpiroben",
+            "description": "Time to reach peak plasma concentration of trazpiroben following single and multiple dose administration",
+            "timeFrame": "Day 1 (single dose): predose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 16, 24 hours post-dose; Days 3-6: predose; Day 7 (multiple dose): predose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12 hours post-dose; Day 8: 16, 24 hours post-dose"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 11,
+          "score": 0.12,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the ANMS GCSI-DD Early Satiety Symptom Score at Week 12 of the Treatment Period",
+            "description": "ANMS GCSI-DD is a patient-reported outcome instrument for a symptom-based clinical trial endpoint in gastroparesis. The ANMS GCSI-DD assesses nausea, early satiety, postprandial fullness, and upper abdominal pain on a severity score calculated from a 5-point Likert scale. The ANMS GCSI-DD early satiety symptom score ranged from 0 to 4 with higher scores reflecting greater symptom severity. The negative change from Baseline indicated improvement. MMRM was used for the analysis.",
+            "timeFrame": "Baseline and Week 12"
+          },
+          "pred_item": {
+            "measure": "Pharmacodynamics: Time to maximum serum prolactin concentration (tmax)",
+            "description": "Time to reach maximum serum prolactin concentration following single and multiple dose administration",
+            "timeFrame": "Days 1, 2, 7, 8: predose and 1, 2, 4, 6, 24 hours post-dose; Days 3-6: predose; Day 14: follow-up"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 10,
+          "score": 0.11,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the ANMS GCSI-DD Postprandial Fullness Symptom Score at Week 12 of the Treatment Period",
+            "description": "ANMS GCSI-DD is a patient-reported outcome instrument for a symptom-based clinical trial endpoint in gastroparesis. The ANMS GCSI-DD assesses nausea, early satiety, postprandial fullness, and upper abdominal pain on a severity score calculated from a 5-point Likert scale. The ANMS GCSI-DD postprandial fullness symptom score ranged from 0 to 4 with higher scores reflecting greater symptom severity. The negative change from baseline indicates improvement. MMRM was used for the analysis.",
+            "timeFrame": "Baseline and Week 12"
+          },
+          "pred_item": {
+            "measure": "Pharmacodynamics: Serum prolactin AUC",
+            "description": "Area under the serum prolactin concentration-time curve as a biomarker for dopamine D2 receptor antagonism following single and multiple dose administration",
+            "timeFrame": "Days 1, 2, 7, 8: predose and 1, 2, 4, 6, 24 hours post-dose; Days 3-6: predose; Day 14: follow-up"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 9,
+          "score": 0.12,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the ANMS GCSI-DD Upper Abdominal Pain Symptom Score at Week 12 of the Treatment Period",
+            "description": "ANMS GCSI-DD is a patient-reported outcome instrument for a symptom-based clinical trial endpoint in gastroparesis. The ANMS GCSI-DD assesses nausea, early satiety, postprandial fullness, and upper abdominal pain on a severity score calculated from a 5-point Likert scale. The ANMS GCSI-DD upper abdominal pain symptom score ranged from 0 to 4 with higher scores reflecting greater symptom severity. The negative change from baseline indicates improvement. MMRM was used for the analysis.",
+            "timeFrame": "Baseline and Week 12"
+          },
+          "pred_item": {
+            "measure": "Pharmacodynamics: Serum prolactin concentration (Cmax)",
+            "description": "Maximum serum prolactin concentration as a biomarker for dopamine D2 receptor antagonism following single and multiple dose administration",
+            "timeFrame": "Days 1, 2, 7, 8: predose and 1, 2, 4, 6, 24 hours post-dose; Days 3-6: predose; Day 14: follow-up"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 12,
+          "score": 0.08,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the ANMS GCSI-DD Recorded Vomiting Frequency at Week 12 of the Treatment Period",
+            "description": "Vomiting frequency was collected as the number of times a participant vomited in a 24-hour period i.e., vomiting episodes using the ANMS GCSI-DD. The daily score was averaged over 7 days. Higher scores indicate more severe symptoms. MMRM was used for the analysis.",
+            "timeFrame": "Baseline and Week 12"
+          },
+          "pred_item": {
+            "measure": "Pharmacodynamics: Serum prolactin elimination half-life (t1/2z)",
+            "description": "Terminal elimination half-life of serum prolactin following single and multiple dose administration",
+            "timeFrame": "Days 1, 2, 7, 8: predose and 1, 2, 4, 6, 24 hours post-dose; Days 3-6: predose; Day 14: follow-up"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 0,
+          "score": 0.08,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the ANMS GCSI-DD Overall Severity of Gastroparesis Symptoms Score at Week 12 of the Treatment Period",
+            "description": "The overall severity of gastroparesis symptoms is the participant report of the overall severity rating of their symptoms as entered daily in the ANMS GCSI-DD and at time of visit. Severity was rated on a 0 (none) to 4 (very severe) scale. Higher score values indicated more severe symptoms. MMRM was used for the analysis.",
+            "timeFrame": "Baseline and Week 12"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetics: Maximum plasma concentration (Cmax) of trazpiroben",
+            "description": "Peak plasma concentration of trazpiroben following single and multiple dose administration",
+            "timeFrame": "Day 1 (single dose): predose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 16, 24 hours post-dose; Days 3-6: predose; Day 7 (multiple dose): predose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12 hours post-dose; Day 8: 16, 24 hours post-dose"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 5,
+          "score": 0.08,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the ANMS GCI-DD Bloating Severity Scale Score at Week 12 of the Treatment Period",
+            "description": "The bloating severity scale was scored from 0 to 4 (where 0 = no symptom and 4 = severe symptom). The daily total score can range from 0 to 4 with higher scores reflecting greater symptom severity. The negative change from baseline indicates improvement. MMRM was used for analysis.",
+            "timeFrame": "Baseline and Week 12"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetics: Plasma concentrations of metabolite M23",
+            "description": "Plasma PK parameters of metabolite M23 including Cmax, AUC, tmax, and t1/2z following single and multiple dose administration of trazpiroben",
+            "timeFrame": "Day 1 (single dose): predose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 16, 24 hours post-dose; Days 3-6: predose; Day 7 (multiple dose): predose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12 hours post-dose; Day 8: 16, 24 hours post-dose"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 4,
+          "score": 0.08,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the ANMS GCSI-DD Total Score at Week 12 of the Treatment Period",
+            "description": "Daily total score was calculated by summing scores on each of the 5 symptom items in ANMS GCSI-DD (nausea, early satiety, postprandial fullness, upper abdominal pain and vomiting) plus the bloating severity item and then dividing by 6. When calculating total score, vomiting frequency was scored from 0 to 4 (where 0=no vomiting and 4=four or more episodes of vomiting). The daily total score can range from 0 to 4 with higher scores reflecting greater symptom severity. MMRM was used for analyses.",
+            "timeFrame": "Baseline and Week 12"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetics: Clearance (CL/F) of trazpiroben",
+            "description": "Apparent oral clearance of trazpiroben following single and multiple dose administration",
+            "timeFrame": "Day 1 (single dose): predose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12, 16, 24 hours post-dose; Days 3-6: predose; Day 7 (multiple dose): predose and 0.5, 1, 1.5, 2, 3, 4, 6, 8, 12 hours post-dose; Day 8: 16, 24 hours post-dose"
+          }
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": 8,
+          "score": 0.08,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Symptomatic Weeks",
+            "description": "Symptomatic weeks are weeks with average composite symptom score assessed as \\>mild \\[ANMS GCSI-DD score ≥2\\] during 12 weeks of treatment. Analysis of variance (ANOVA) was used for the analysis.",
+            "timeFrame": "Up to 12 weeks"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetics: Accumulation ratio of trazpiroben",
+            "description": "Accumulation ratio calculated from AUCτ,ss and AUCT, and from Cmax,ss and Cmax following multiple doses",
+            "timeFrame": "Day 1 (single dose) and Day 7 (multiple dose)"
+          }
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": 6,
+          "score": 0.05,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the Patient Assessment of Upper Gastrointestinal Disorders-Symptom Severity Index (PAGI-SYM) Total Score at Week 12 of the Treatment Period",
+            "description": "The PAGI-SYM total score is defined as the mean of 6 PAGI-SYM subscale scores from 20 items. A 6-point Likert response scale, ranging from 0 (none) to 5 (very severe), is used to measure symptom severity in participants with upper GI disorders. The negative change from baseline indicates improvement. MMRM was used for analysis.",
+            "timeFrame": "Baseline and Week 12"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetics: Urine PK parameters of trazpiroben and M23",
+            "description": "Total amount excreted, fraction of administered drug excreted in urine, and renal clearance of trazpiroben and M23",
+            "timeFrame": "Days 1-2: 0-6, 6-12, 12-24 hours post-dose; Day 7: 0-6, 6-12 hours post-dose"
+          }
+        }
+      ]
+    }
+  ]
+}

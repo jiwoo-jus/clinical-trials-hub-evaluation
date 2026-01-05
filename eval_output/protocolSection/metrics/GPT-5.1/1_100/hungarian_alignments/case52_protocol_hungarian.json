@@ -1,0 +1,549 @@
+{
+  "metadata": {
+    "case_id": 52,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T16:43:44.704005",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/52_NCT03587207.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/52_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.99,
+          0.6,
+          0.6,
+          0.78,
+          0.65
+        ],
+        [
+          0.78,
+          0.98,
+          0.94,
+          0.72,
+          0.68
+        ],
+        [
+          0.86,
+          0.82,
+          0.94,
+          0.82,
+          0.74
+        ],
+        [
+          0.82,
+          0.78,
+          0.72,
+          0.9,
+          0.5
+        ],
+        [
+          0.6,
+          0.68,
+          0.78,
+          0.65,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "label": "MenABCWY Group",
+            "type": "EXPERIMENTAL",
+            "description": "Healthy subjects between, and including, 10 to 25 years of age at the time of the first vaccination (equally distributed across the 2 age strata of 10 to 17 years and 18 to 25 years) received one dose of MenABCWY twice, 2 months apart (Day 1 and Day 61).",
+            "interventionNames": [
+              "Biological: MenABCWY vaccine"
+            ]
+          },
+          "pred_item": {
+            "label": "MenABCWY",
+            "type": "EXPERIMENTAL",
+            "description": "Participants 10 to 25 years of age received two doses of the investigational MenABCWY vaccine administered intramuscularly into the deltoid muscle on study days 1 and 61.",
+            "interventionNames": [
+              "MenABCWY vaccine"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "rMenBOMV+ACWY_S Group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Healthy subjects between, and including, 10 to 25 years of age at the time of the first vaccination (equally distributed across the 2 age strata of 10 to 17 years and 18 to 25 years) concomitantly received one dose of rMenB+OMV NZ (Bexsero) and one dose of MenACWY (Menveo) in the same arm twice, 2 months apart (Day 1 and Day 61).",
+            "interventionNames": [
+              "Biological: rMenB+OMV NZ (Bexsero) vaccine",
+              "Biological: MenACWY (Menveo) vaccine"
+            ]
+          },
+          "pred_item": {
+            "label": "4CMenB+ACWY/S",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants 10 to 25 years of age received two doses of licensed 4CMenB and MenACWY vaccines administered concomitantly in the same arm (4CMenB injected in the upper deltoid and MenACWY in the lower deltoid of the nondominant arm) on study days 1 and 61.",
+            "interventionNames": [
+              "4CMenB vaccine",
+              "MenACWY-CRM vaccine"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "rMenBOMV+ACWY_D Group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Healthy subjects between, and including, 10 to 25 years of age at the time of the first vaccination (equally distributed across the 2 age strata of 10 to 17 years and 18 to 25 years) concomitantly received one dose of rMenB+OMV NZ (Bexsero) and one dose of MenACWY (Menveo) in 2 different arms twice, 2 months apart (Day 1 and Day 61).",
+            "interventionNames": [
+              "Biological: rMenB+OMV NZ (Bexsero) vaccine",
+              "Biological: MenACWY (Menveo) vaccine"
+            ]
+          },
+          "pred_item": {
+            "label": "4CMenB+ACWY/D",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants 10 to 25 years of age received two doses of licensed 4CMenB and MenACWY vaccines administered concomitantly in different arms (4CMenB in the nondominant arm and MenACWY in the dominant arm) on study days 1 and 61.",
+            "interventionNames": [
+              "4CMenB vaccine",
+              "MenACWY-CRM vaccine"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "rMenBOMV Group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Healthy subjects between, and including, 10 to 25 years of age at the time of the first vaccination (equally distributed across the 2 age strata of 10 to 17 years and 18 to 25 years) received one dose of rMenB+OMV NZ (Bexsero) twice, 2 months apart (Day 1 and Day 61).",
+            "interventionNames": [
+              "Biological: rMenB+OMV NZ (Bexsero) vaccine"
+            ]
+          },
+          "pred_item": {
+            "label": "4CMenB",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants 10 to 25 years of age received two doses of licensed 4CMenB vaccine administered intramuscularly into the deltoid muscle on study days 1 and 61.",
+            "interventionNames": [
+              "4CMenB vaccine"
+            ]
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "MenACWY Group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Healthy subjects between, and including, 10 to 25 years of age at the time of the first vaccination (equally distributed across the 2 age strata of 10 to 17 years and 18 to 25 years) received one dose of MenACWY (Menveo) once at Day 1, which was the first and last vaccination for MenACWY group.",
+            "interventionNames": [
+              "Biological: MenACWY (Menveo) vaccine"
+            ]
+          },
+          "pred_item": {
+            "label": "MenACWY",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants 10 to 25 years of age received a single dose of licensed MenACWY-CRM vaccine administered intramuscularly into the deltoid muscle on study day 1.",
+            "interventionNames": [
+              "MenACWY-CRM vaccine"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.68,
+          0.7
+        ],
+        [
+          0.74,
+          0.98,
+          0.42
+        ],
+        [
+          0.82,
+          0.68,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "MenABCWY vaccine",
+            "description": "Two doses administered intramuscularly in the deltoid region of the non-dominant arm.",
+            "armGroupLabels": [
+              "MenABCWY Group"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "MenABCWY vaccine",
+            "description": "Investigational combined meningococcal ABCWY vaccine prepared by reconstituting lyophilized powder containing CRM197-conjugated oligosaccharides of meningococcal serogroups A, C, W, and Y with a liquid suspension containing purified recombinant proteins from meningococcal serogroup B (NadA, fHbp, and NHBA) and outer membrane vesicle components from serogroup B strain NZ98/254. Each 0.5 mL dose contained 10 μg MenA-CRM197, 5 μg each of MenC-CRM197, MenW-CRM197, and MenY-CRM197, 50 μg of each recombinant MenB protein, 1.5 mg aluminum hydroxide, and 25 μg OMV, administered intramuscularly into the deltoid.",
+            "armGroupLabels": [
+              "MenABCWY"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "rMenB+OMV NZ (Bexsero) vaccine",
+            "description": "Two doses administered 2 months apart intramuscularly in the deltoid region of the non-dominant arm to subjects randomised to the rMenBOMV+ACWY\\_S Group, rMenBOMV+ACWY\\_D Group and rMenBOMV Group",
+            "armGroupLabels": [
+              "rMenBOMV Group",
+              "rMenBOMV+ACWY_D Group",
+              "rMenBOMV+ACWY_S Group"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "4CMenB vaccine",
+            "description": "Licensed four-component meningococcal serogroup B vaccine (Bexsero). A liquid suspension in a prefilled syringe containing 50 μg of each recombinant MenB protein (including NadA, fHbp, NHBA) with 1.5 mg aluminum hydroxide and 25 μg OMV per 0.5 mL dose, administered intramuscularly into the deltoid muscle.",
+            "armGroupLabels": [
+              "4CMenB+ACWY/S",
+              "4CMenB+ACWY/D",
+              "4CMenB"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "MenACWY (Menveo) vaccine",
+            "description": "Two doses administered intramuscularly in the deltoid region of the dominant/non-dominant arm to subjects randomised to the rMenBOMV+ACWY\\_S Group and rMenBOMV+ACWY\\_D Group and one dose administered intramuscularly in the deltoid region of the dominant/non-dominant arm to subjects randomised to the MenACWY Group",
+            "armGroupLabels": [
+              "MenACWY Group",
+              "rMenBOMV+ACWY_D Group",
+              "rMenBOMV+ACWY_S Group"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "MenACWY-CRM vaccine",
+            "description": "Licensed quadrivalent meningococcal conjugate vaccine MenACWY-CRM (Menveo) using CRM197 as carrier protein. Prepared by mixing lyophilized MenA-CRM197 with liquid MenCWY-CRM197 immediately before injection; each 0.5 mL dose contained 10 μg MenA-CRM197 and 5 μg each of MenC-CRM197, MenW-CRM197, and MenY-CRM197, administered intramuscularly into the deltoid muscle.",
+            "armGroupLabels": [
+              "4CMenB+ACWY/S",
+              "4CMenB+ACWY/D",
+              "MenACWY"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ],
+        [
+          0.95
+        ],
+        [
+          0.95
+        ],
+        [
+          0.92
+        ],
+        [
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Human Serum Bactericidal Activity (hSBA) Adjusted Geometric Mean Titers (GMTs) Against All of N. Meningitidis Serogroup B Test Strains (Pooled), One Month After Last Vaccination.",
+            "description": "hSBA titers against all of N. meningitidis serogroup B test strains were calculated in terms of GMTs. Serogroup B strains tested were M14459 (factor H binding protein; fHbp), 96217 (Neisserial adhesin A; NadA), NZ98/254 (PorA), and M070241084 (Neisseria heparin binding antigen; NHBA). The serogroup B strains were grouped together to perform a pooled analysis. Adjusted means were obtained from ANCOVA model fitted to all of the Serogroup B test strains, study group, test strain and center as fixed effects; zero-centered pre-vaccination log-transformed titer was included as a continuous covariate.",
+            "timeFrame": "1 month after last vaccination i.e.: at Day 91 for all groups except for the MenACWY Group"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "hSBA Adjusted GMTs Against Each of the N. Meningitidis Serogroup B Test Strains and N. Meningitidis Serogroups A, C, W-135, and Y, One Month After Last Vaccination.",
+            "description": "hSBA titers against each of the N. meningitidis serogroup B test strains and N. meningitidis serogroups A, C, W-135, and Y were calculated in terms of GMTs. Serogroup B strains tested were M14459 (factor H binding protein; fHbp), 96217 (Neisserial adhesin A; NadA), NZ98/254 (PorA), and M070241084 (Neisseria heparin binding antigen; NHBA). Adjusted means were obtained from ANCOVA model fitted to each Serogroup (Strain) individually, study group and center as fixed effects and zero-centered pre-vaccination log-transformed titer as a continuous covariate.",
+            "timeFrame": "1 month after last vaccination i.e.: at Day 91 for all groups except the MenACWY Group, and at Day 31 for the MenACWY Group."
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Subjects With hSBA Titers Greater Than or Equal to(≥) the Lower Limit of Quantitation (LLOQ) Against Each of the N. Meningitidis Serogroup B Test Strains and Serogroups A, C, W-135 and Y,One Month After Last Vaccination.",
+            "description": "Immune responses against N. meningitidis serogroup B test strains and N. meningitidis serogroups A, C, W-135, and Y, were calculated in terms of percentage of subjects with hSBA titers ≥ LLOQ. Serogroup B strains tested were M14459 (factor H binding protein; fHbp), 96217 (Neisserial adhesin A; NadA), NZ98/254 (PorA), and M070241084 (Neisseria heparin binding antigen; NHBA).",
+            "timeFrame": "1 month after last vaccination i.e.: at Day 91 for all groups except the MenACWY Group, and at Day 31 for the MenACWY Group."
+          },
+          "pred_item": {
+            "measure": "Immune response to pooled serogroup B test strains and serogroups A, C, W, and Y",
+            "description": "Immunogenicity assessed by serum bactericidal assay using human complement (hSBA), including geometric mean titers (GMTs) against pooled serogroup B test strains (fHbp, NadA, PorA, NHBA) and serogroups A, C, W, and Y, the percentage of participants with hSBA titers ≥ lower limit of quantitation (LLOQ), the percentage with a 4-fold increase in hSBA titers from baseline, and geometric mean ratios (GMRs) of postvaccination to baseline GMTs; the study was specifically powered to assess immunological interference on pooled serogroup B test strains 1 month after the last vaccination.",
+            "timeFrame": "1 month after the last vaccination (day 91 for 2‑dose groups; day 31 for the single‑dose MenACWY group)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Subjects With a 4-fold Increase in hSBA Titers Against Each of the N. Meningitidis Serogroup B Test Strains and Against N. Meningitidis Serogroups A, C, W-135 and Y, One Month After Last Vaccination.",
+            "description": "Immune responses against N. meningitidis serogroup B test strains and N. meningitidis serogroups A, C, W-135, and Y, were calculated in terms of percentage of subjects with a 4-fold increase in hSBA titers. A 4-fold rise was defined as: a) for individuals whose pre-vaccination titers were less than (\\<) the limit of detection (LOD), the post-vaccination titers must have been ≥4-fold the LOD or ≥ the LLOQ, whichever was greater; b) for individuals whose pre-vaccination titers were ≥ the LOD and less than (\\<) the LLOQ, the post-vaccination titers must have been at least 4 times the LLOQ; and c) for individuals whose pre-vaccination titers were ≥ the LLOQ, the post-vaccination titers must have been at least 4 times the pre-vaccination titer. Serogroup B strains tested were M14459 (factor H binding protein; fHbp), 96217 (Neisserial adhesin A; NadA), NZ98/254 (PorA), and M070241084 (Neisseria heparin binding antigen; NHBA).",
+            "timeFrame": "1 month after last vaccination versus baseline (i.e.: at Day 91 versus Day 1 for all groups except the MenACWY Group, and at Day 31 versus Day 1 for the MenACWY Group)."
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "hSBA Adjusted Geometric Mean Ratios (GMRs) Against Each of the N. Meningitidis Serogroup B Test Strains and Against N. Meningitidis Serogroups A, C, W-135 and Y, One Month After Last Vaccination.",
+            "description": "hSBA mean ratios at 1 month after the last vaccination versus baseline were calculated in terms of GMRs i.e. as the anti-logarithm of the mean of the change from baseline of log-transformed titer values at 1 month after last vaccination and Baseline. Serogroup B strains tested were M14459 (factor H binding protein; fHbp), 96217 (Neisserial adhesin A; NadA), NZ98/254 (PorA), and M070241084 (Neisseria heparin binding antigen; NHBA). Adjusted means were obtained from ANCOVA model fitted to each Serogroup (Strain) individually, study group and center as fixed effects and zero-centered pre-vaccination log-transformed titer as a continuous covariate.",
+            "timeFrame": "1 month after last vaccination versus baseline (i.e.: at Day 91 versus Day 1 for all groups except the MenACWY Group, and at Day 31 versus Day 1 for the MenACWY Group)."
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 9,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.08,
+          0.05,
+          0.02
+        ],
+        [
+          0.95,
+          0.1,
+          0.05,
+          0.02
+        ],
+        [
+          0.94,
+          0.15,
+          0.02,
+          0.02
+        ],
+        [
+          0.93,
+          0.05,
+          0.05,
+          0.02
+        ],
+        [
+          0.95,
+          0.05,
+          0.05,
+          0.05
+        ],
+        [
+          0.05,
+          0.9,
+          0.62,
+          0.68
+        ],
+        [
+          0.1,
+          0.86,
+          0.3,
+          0.6
+        ],
+        [
+          0.08,
+          0.72,
+          0.98,
+          0.72
+        ],
+        [
+          0.05,
+          0.4,
+          0.72,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "hSBA Adjusted GMTs Against All of N. Meningitidis Serogroup B Test Strains (Pooled), One Month After First Vaccination",
+            "description": "hSBA titers against all of N. meningitidis serogroup B test strains were calculated in terms of GMTs. Serogroup B strains tested were M14459 (factor H binding protein; fHbp), 96217 (Neisserial adhesin A; NadA), NZ98/254 (PorA), and M070241084 (Neisseria heparin binding antigen; NHBA). The serogroup B strains were grouped together to perform a pooled analysis. Adjusted means were obtained from ANCOVA model fitted to all of the Serogroup B test strains, study group, test strain and center as fixed effects; zero-centered pre-vaccination log-transformed titer was included as a continuous covariate.",
+            "timeFrame": "1 month after first vaccination i.e.: at Day 31 for all groups except for the MenACWY Group"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "hSBA Adjusted GMTs Against Each of the N. Meningitidis Serogroup B Test Strains and N. Meningitidis Serogroups A, C, W-135 and Y, One Month After First Vaccination.",
+            "description": "hSBA titers against each of the N. meningitidis serogroup B test strains and N. meningitidis serogroups A, C, W-135, and Y were calculated in terms of GMTs. Serogroup B strains tested were M14459 (factor H binding protein; fHbp), 96217 (Neisserial adhesin A; NadA), NZ98/254 (PorA), and M070241084 (Neisseria heparin binding antigen; NHBA). Adjusted means were obtained from ANCOVA model fitted to each Serogroup (Strain) individually, study group and center as fixed effects and zero-centered pre-vaccination log-transformed titer as a continuous covariate.",
+            "timeFrame": "1 month after first vaccination i.e.: at Day 31 for all groups except for the MenACWY Group."
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Subjects With hSBA Titers Greater Than or Equal to (≥) the LLOQ Against Each of the N. Meningitidis Serogroup B Test Strains and Against Serogroups A, C, W-135, and Y, One Month After First Vaccination",
+            "description": "Immune responses against N. meningitidis serogroup B test strains and N. meningitidis serogroups A, C, W-135, and Y, were calculated in terms of percentage of subjects with hSBA titers ≥ LLOQ. Serogroup B strains tested were M14459 (factor H binding protein; fHbp), 96217 (Neisserial adhesin A; NadA), NZ98/254 (PorA), and M070241084 (Neisseria heparin binding antigen; NHBA).",
+            "timeFrame": "1 month after first vaccination i.e.: at Day 31 for all groups except for the MenACWY Group"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Subjects With a 4-fold Increase in hSBA Titers Against Each of the N. Meningitidis Serogroup B Test Strains and Against N. Meningitidis Serogroups A, C, W-135, and Y, One Month After First Vaccination",
+            "description": "Immune responses against N. meningitidis serogroup B test strains and N. meningitidis serogroups A, C, W-135, and Y, were calculated in terms of percentage of subjects with a 4-fold increase in hSBA titers. A 4-fold rise is defined as: a) for individuals whose pre-vaccination titers were less than (\\<) the limit of detection (LOD), the post-vaccination titers must have been ≥4-fold the LOD or ≥ the LLOQ, whichever was greater; b) for individuals whose pre-vaccination titers were ≥ the LOD and less than (\\<) the LLOQ, the post-vaccination titers must have been at least 4 times the LLOQ; and c) for individuals whose pre-vaccination titers were ≥ the LLOQ, the post-vaccination titers must have been at least 4 times the pre-vaccination titer. Serogroup B strains tested were M14459 (factor H binding protein; fHbp), 96217 (Neisserial adhesin A; NadA), NZ98/254 (PorA), and M070241084 (Neisseria heparin binding antigen; NHBA).",
+            "timeFrame": "1 month after first vaccination versus baseline (i.e.: at Day 31 versus Day 1 for all groups except for the MenACWY Group)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "hSBA Adjusted GMRs Against Each of the N. Meningitidis Serogroup B Test Strains and Against N. Meningitidis Serogroups A, C, W-135, and Y, One Month After First Vaccination",
+            "description": "hSBA mean ratios at 1 month after the first vaccination versus baseline were calculated in terms of GMRs. i.e. as the anti-logarithm of the mean of the change from baseline of log-transformed titer values at 1 month after first vaccination and Baseline. Serogroup B strains tested were M14459 (factor H binding protein; fHbp), 96217 (Neisserial adhesin A; NadA), NZ98/254 (PorA), and M070241084 (Neisseria heparin binding antigen; NHBA). Adjusted mean were obtained from ANCOVA model fitted to each Serogroup (Strain) individually, study group and center as fixed effects and zero-centered pre-vaccination log-transformed titer as a continuous covariate.",
+            "timeFrame": "1 month after first vaccination versus baseline (i.e.: at Day 31 versus Day 1 for all groups except for the MenACWY Group)"
+          },
+          "pred_item": {
+            "measure": "Immune response 1 month after the first vaccine dose",
+            "description": "Immunogenicity 1 month post-first dose assessed by hSBA GMTs, the percentage of participants with hSBA titers ≥ LLOQ, the percentage with a 4-fold increase in hSBA titers from baseline, and GMRs of postvaccination to baseline GMTs against pooled and individual serogroup B test strains and serogroups A, C, W, and Y.",
+            "timeFrame": "1 month after the first vaccination (day 31)"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Subjects With Any Solicited Local Adverse Events (AEs)",
+            "description": "Assessed local AEs were erythema, swelling, induration and pain. Any erythema, swelling and induration is defined as a symptom with a surface diameter equal to or greater than 25 millimeters.",
+            "timeFrame": "During the 7 days (including the day of vaccination) after each vaccination i.e after Dose 1 administered at Day 1 (for all groups) and after Dose 2 administered at Day 61 (for all groups except for MenACWY Group)"
+          },
+          "pred_item": {
+            "measure": "Reactogenicity following each vaccine dose",
+            "description": "Solicited local adverse events (erythema, swelling, induration, pain at injection site) and solicited systemic adverse events (arthralgia, fatigue, nausea, headache, myalgia, fever) recorded by participants on diary cards, including incidence and severity (mild, moderate, severe) within 7 days after each vaccine dose.",
+            "timeFrame": "Within 7 days after each vaccination"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Subjects With Any Solicited Systemic AEs",
+            "description": "Assessed systemic AEs were arthralgia, fatigue, nausea, headache, myalgia and fever. Any fever is defined as body temperature equal or greater than 38 degrees Celsius.",
+            "timeFrame": "During the 7 days (including the day of vaccination) after each vaccination i.e after Dose 1 administered at Day 1 (for all groups) and after Dose 2 administered at Day 61 (for all groups except for MenACWY Group)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 2,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Subjects With Unsolicited AEs",
+            "description": "An AE is any untoward medical occurrence in a clinical investigation subject, temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding), symptom, or disease (new or exacerbated) temporally associated with the use of a medicinal product. For marketed medicinal products, this also includes failure to produce expected benefits (i.e. lack of efficacy), abuse or misuse. An unsolicited AE is an AE that was not solicited using a Subject Diary and that was spontaneously communicated by a subjects/parent(s)/ Legally Acceptable Representative who has signed the informed consent or a solicited local or systemic adverse event that continues beyond the solicited period at day 7 after vaccination.",
+            "timeFrame": "During the 30 days (including the day of vaccination) after each vaccination i.e after Dose 1 administered at Day 1 (for all groups) and after Dose 2 administered at Day 61 (for all groups except for MenACWY Group)"
+          },
+          "pred_item": {
+            "measure": "Unsolicited adverse events",
+            "description": "Incidence of unsolicited adverse events of any cause, including medically attended events, recorded after each dose.",
+            "timeFrame": "Within 30 days after each vaccination"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 3,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Subjects With Serious Adverse Events (SAEs), Medically Attended AEs (MAEs), AEs Leading to Withdrawal, and Adverse Events of Special Interest (AESIs)",
+            "description": "SAE is defined as any untoward medical occurrence that resulted in death, was life-threatening, required hospitalization or prolongation of existing hospitalization, resulted in disability or incapacity or was a congenital anomaly/birth defect in the offspring of a study subject. Medically attended AEs are defined as symptoms or illnesses requiring hospitalization, or emergency room visit, or visit to/by a health care provider. AESIs are predefined (serious or non-serious) adverse events of scientific and medical concern specific to the product or program, for which ongoing monitoring and rapid communication by the investigator to the sponsor can be appropriate, because such an event might warrant further investigation in order to characterize and understand it.",
+            "timeFrame": "During the whole study period i.e from Day 1 to Day 91"
+          },
+          "pred_item": {
+            "measure": "Serious adverse events, adverse events leading to withdrawal, and deaths",
+            "description": "Incidence, nature, and investigator-assessed relationship to vaccination of serious adverse events (SAEs), medically attended adverse events, adverse events leading to withdrawal from the study, and deaths.",
+            "timeFrame": "From first vaccination through the end of study follow-up"
+          }
+        }
+      ]
+    }
+  ]
+}

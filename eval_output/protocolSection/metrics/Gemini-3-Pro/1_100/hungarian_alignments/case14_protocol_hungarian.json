@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "case_id": 14,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-28T05:46:48.682890",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/14_NCT04973488.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/14_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.1
+        ],
+        [
+          0.4,
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Treatment arm",
+            "type": "EXPERIMENTAL",
+            "description": "In the treatment arm, Therapeutic plasma exchange will be conducted in the first 24 hours after being admitted into the intensive care unit, after which convalescent plasma from donors that have had COVID-19 will be transfused",
+            "interventionNames": [
+              "Other: Therapeutic plasma exchange"
+            ]
+          },
+          "pred_item": {
+            "label": "Treatment Group",
+            "type": "EXPERIMENTAL",
+            "description": "Patients administered sequential therapeutic plasma exchange (TPE) and convalescent plasma (CVP) transfusion in addition to the standard treatment for COVID-19.",
+            "interventionNames": [
+              "Procedure: Therapeutic Plasma Exchange (TPE)",
+              "Biological: Convalescent Plasma (CVP)",
+              "Drug: Standard Treatment"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control arm",
+            "type": "NO_INTERVENTION",
+            "description": "In the control arm, patients will receive standard COVID-19 treatment"
+          },
+          "pred_item": {
+            "label": "Control Group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients administered only standard treatment for COVID-19 according to hospital protocols.",
+            "interventionNames": [
+              "Drug: Standard Treatment"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.85,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.85,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Therapeutic plasma exchange",
+            "description": "The intervention is a combination between the procedure of Therapeutic plasma exchange and biological transfusion of convalescent plasma from donors that have have COVID-19",
+            "armGroupLabels": [
+              "Treatment arm"
+            ],
+            "otherNames": [
+              "Transfusion of convalescent plasma"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "Convalescent Plasma (CVP)",
+            "description": "Transfusion of 500 ml of ABO compatible CVP immediately following the TPE session.",
+            "armGroupLabels": [
+              "Treatment Group"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Survival",
+            "description": "Number of Participants who Survived",
+            "timeFrame": "30 day period"
+          },
+          "pred_item": {
+            "measure": "Survival",
+            "description": "Survival rate of patients in the treatment and control groups.",
+            "timeFrame": "30 days"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.35,
+          0.35,
+          0.2
+        ],
+        [
+          0.25,
+          0.9,
+          0.78,
+          0.83
+        ],
+        [
+          0.4,
+          0.4,
+          0.89,
+          0.4
+        ],
+        [
+          0.2,
+          0.5,
+          0.7,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "P/F Ratio",
+            "description": "Average Partial pressure of arterial oxygen (PaO2) to fractional inspired oxygen (FiO2) ratio - P/F ratio calculated between the values from day 1 and day 7",
+            "timeFrame": "7 day period"
+          },
+          "pred_item": {
+            "measure": "Partial pressure of arterial oxygen to fractional inspired oxygen (P/F) ratio",
+            "description": "Assessment of the evolution of oxygenation.",
+            "timeFrame": "7-day follow-up"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "C Reactive Protein (CRP)",
+            "description": "Average value of CRP calculated using the values from day 1 and day 7",
+            "timeFrame": "7 day period"
+          },
+          "pred_item": {
+            "measure": "C reactive protein (CRP) levels",
+            "description": "Assessment of the evolution of inflammatory biomarkers.",
+            "timeFrame": "7-day follow-up"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.89,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Lactate Dehydrogenase (LDH)",
+            "description": "Average value of LDH calculated using the values from day 1 and day 7",
+            "timeFrame": "7 day period"
+          },
+          "pred_item": {
+            "measure": "Lactate dehydrogenase (LDH) levels",
+            "description": "Assessment of the evolution of inflammatory biomarkers.",
+            "timeFrame": "7-day follow-up"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Ferritin",
+            "description": "Average value of ferritin calculated using the values from day 1 and day 7",
+            "timeFrame": "7 day period"
+          },
+          "pred_item": {
+            "measure": "Ferritin levels",
+            "description": "Assessment of the evolution of inflammatory biomarkers.",
+            "timeFrame": "7-day follow-up"
+          }
+        }
+      ]
+    }
+  ]
+}

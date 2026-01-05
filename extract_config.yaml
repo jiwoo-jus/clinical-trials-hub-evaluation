@@ -1,0 +1,33 @@
+# Configuration for Module Extraction Script
+
+# LiteLLM API Configuration
+litellm_api:
+  base_url: {YOURS}
+  api_key: {YOURS}
+  model: {YOURS}
+  timeout: 120
+  max_retries: 1
+
+# Input/Output Paths
+paths:
+  input_csv: "/{YOURPATH}/extract_target/Claude-4.5-Sonnet.csv"
+  output_csv: "/{YOURPATH}/extract_output/Claude-4.5-Sonnet.csv"
+  pmc_dir: "/{YOURPATH}/samples/PMC"
+  prompts_dir: "/{YOURPATH}/prompts"
+
+# Module to Prompt Mapping
+# Key: column name in CSV, Value: path to prompt file relative to prompts_dir
+module_prompt_mapping:
+  identificationModule: "1_protocol_section/1_identification.md"
+  descriptionModule: "1_protocol_section/2_description_and_conditions.md"
+  conditionsModule: "1_protocol_section/2_description_and_conditions.md"
+  designModule: "1_protocol_section/3_design.md"
+  armsInterventionsModule: "1_protocol_section/4_arms_interventions.md"
+  outcomesModule: "1_protocol_section/5_outcomes.md"
+  eligibilityModule: "1_protocol_section/6_eligibility.md"
+
+# Processing Options
+processing:
+  max_pmc_length: 1000000  # Maximum PMC text length to send to LLM
+  skip_existing: false  # Skip processing if output already exists
+  verbose: true

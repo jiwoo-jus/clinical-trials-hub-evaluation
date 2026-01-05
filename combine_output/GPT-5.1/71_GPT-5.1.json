@@ -1,0 +1,171 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04181307",
+      "orgStudyIdInfo": {
+        "id": null,
+        "type": null,
+        "link": null
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "R21/R33 AG057382",
+          "type": "NIH",
+          "domain": "National Institutes of Health – National Institute on Aging",
+          "link": null
+        }
+      ],
+      "organization": {
+        "fullName": "New York University Langone Health",
+        "class": "OTHER"
+      },
+      "briefTitle": "Behavioral Economics–Electronic Health Record (BE-EHR) Module to Reduce Overtreatment of Type 2 Diabetes in Older Adults",
+      "officialTitle": "Pragmatic Cluster Randomized Controlled Trial of a Behavioral Economics–Electronic Health Record (BE-EHR) Module Using Clinical Decision Support Tools to Promote Choosing Wisely Guideline Adherence and Reduce Overtreatment of Type 2 Diabetes in Adults Aged 76 Years and Older",
+      "acronym": "BE-EHR"
+    },
+    "descriptionModule": {
+      "briefSummary": "This pragmatic, cluster randomized controlled trial tests a behavioral economics–electronic health record (BE-EHR) module designed to reduce overtreatment of type 2 diabetes in adults aged 76 years and older. The intervention embeds six behavioral economics–based nudges into the Epic electronic health record and related communication tools to encourage clinicians to follow the American Geriatrics Society Choosing Wisely guideline, which recommends less aggressive blood sugar targets and deprescribing of diabetes medications in older adults based on life expectancy and comorbidities. Sixty-six New York University Langone Health primary care and endocrinology clinics are randomized to receive either the BE-EHR module plus standard care or standard care alone for 18 months. The main outcome is patient-level adherence to Choosing Wisely–concordant glycemic control, with secondary outcomes describing how often the nudges fire and how clinicians interact with them.",
+      "detailedDescription": "This study evaluates the effectiveness of a behavioral economics–electronic health record (BE-EHR) intervention aimed at improving guideline-concordant diabetes care and reducing overtreatment in older adults with type 2 diabetes mellitus. The trial targets patients aged 76 years or older with type 2 diabetes, who are receiving pharmacologic therapy and are seen within the New York University Langone Health (NYULH) system. The focus is on adherence to the American Geriatrics Society Choosing Wisely guideline that recommends less aggressive hemoglobin A1c (HbA1c) targets and reduction in diabetes medications among older adults, tailored by life expectancy.\n\nDesign and Setting:\nA pragmatic, investigator-blind, cluster randomized controlled trial is conducted across 66 NYULH primary care and endocrinology clinics (including sites in the New York City area and two in Florida). Clinics, rather than individual patients, are randomized 1:1 to either (1) a 6-component BE-EHR module plus standard care or (2) standard care only. Eligible clinics must be active Epic users and have at least one prior patient encounter meeting the study’s patient-level eligibility criteria. Randomization is stratified by practice size (≤57 vs >57 eligible patients in 2019) and location (Manhattan/Brooklyn vs other locations) to balance clinic characteristics.\n\nParticipants:\nPatients are automatically included based on EHR data and a waiver of informed consent. Inclusion criteria are: age ≥76 years and a diagnosis of type 2 diabetes recorded on the EHR problem list or encounter diagnosis. Exclusion criteria include not taking any diabetes medication, allergy to metformin, or an estimated glomerular filtration rate <30 mL/min/1.73 m².\n\nIntervention:\nClinicians at intervention clinics receive a toolbox of six behavioral economics–based nudges integrated into the Epic EHR and email communications. These components are:\n1. **Tailored Advisory**: A noninterruptive alert within the EHR for patients who are noncompliant with Choosing Wisely glycemic targets, providing life-expectancy–tailored treatment recommendations. Clinicians can agree and indicate action taken, or document that recommendations are clinically inappropriate, with optional free-text justification. They can suppress the alert for that patient for about six months.\n2. **Refill Protocol**: An alert in the medication refill workflow for older adults on diabetes therapy, prompting clinicians to consider metformin as a first-line agent if not already used, or to consider dose reduction or discontinuation of metformin where appropriate. Comments are optional.\n3. **Preference List**: A system-level default ordering list that displays metformin at the top of the “First-line Type 2 Diabetes” medication list, without restricting access to other therapies.\n4. **Lab Result Nudge**: An alert in the lab results section when a new HbA1c value is available for a patient who is out of the Choosing Wisely–recommended range for their life expectancy category. The alert displays guideline-based ranges using prominent formatting and remains active for seven days after result posting.\n5. **Peer Comparison Email**: Monthly secure emails sent outside the EHR that compare each clinician’s Choosing Wisely compliance to their practice and to the overall NYULH system, presenting individualized, site-level, and system-level compliance graphics. The message text is framed positively or negatively depending on whether the clinician is above or below their practice average.\n6. **Campaign Materials**: Monthly game show–themed educational materials (e.g., animations modeled on The Price is Right, Jeopardy, and Who Wants to Be a Millionaire, plus flashcards) sent outside the EHR to increase awareness of the Choosing Wisely guideline, with versions tailored by life expectancy category.\n\nAll components were developed using user-centered design methods, including interviews, design workshops, and in-clinic observations, and they draw on behavioral economics principles such as defaults, framing, social norming, peer comparison, suggestion of alternatives, affirmation, emotional appeal, accountable justification, gamification, and competition.\n\nLife Expectancy Algorithm and Glycemic Targets:\nTo operationalize the Choosing Wisely guideline, a life expectancy algorithm is implemented in the EHR, using age, gender, and a weighted count of chronic conditions with reference to Medicare-based life expectancy tables. Each patient is categorized into one of three life expectancy groups:\n- High life expectancy (>10 years): HbA1c target 7.0–7.5%\n- Medium life expectancy (3–10 years): HbA1c target 7.5–8.0%\n- Low life expectancy (≤3 years): HbA1c target 8.0–9.0%\n\nWithin each category, patients are classified as Choosing Wisely–compliant or noncompliant based on whether their measured HbA1c falls within the recommended range.\n\nOutcomes and Data Collection:\nThe primary outcome is patient-level Choosing Wisely compliance (binary), assessed longitudinally. Compliance is defined relative to life-expectancy–specific HbA1c ranges. Secondary outcomes include:\n- Frequency of activation of each BE-EHR nudge (e.g., tailored advisory firings, refill prompts, lab result alerts).\n- Measures of provider interaction with each component (e.g., alert acknowledgments, clicks, workflow patterns within Epic, free-text comments in accountable justification fields).\n- Email engagement metrics for the peer comparison and campaign nudges (e.g., read receipts).\n- Safety outcomes: rates of inpatient hospitalizations, emergency department visits, and deaths in intervention versus control arms.\n\nStatistical Analysis and Power:\nThe primary analysis uses a three-level logistic mixed-effects model with patient-level Choosing Wisely compliance as the dependent variable. Fixed effects include treatment group, time (4-week intervals), and their interaction. Random effects at the patient, provider, and practice levels account for clustering and repeated measures. Exploratory adjustment for covariates such as gender, age, life expectancy category, and number of visits (to assess dose-response to the intervention) will be considered.\n\nPower calculations, informed by a prior pilot study that showed a 5.1% increase in Choosing Wisely compliance and an intraclass correlation coefficient of 0.01, indicate that 66 practices (33 per arm), with an assumed average of 10 providers per site, provide approximately 93% power (two-sided α=0.05) to detect an effect size of 0.1 (about a 5 percentage point reduction in noncompliance). The trial is powered to evaluate the combined six-component module, not individual nudges, due to complexity and sample size limitations.\n\nImplementation and Timeline:\nAll six BE-EHR components were activated in the NYULH Epic EHR on December 7, 2020, and the intervention is planned to run for 18 months, with possible extension if clinic visit activity is substantially affected by the COVID-19 pandemic. The principal investigators remain blinded to group assignment; only the statistician, Epic data team, and clinicians receiving alerts (by necessity) are unblinded.\n\nThe study aims to provide evidence on whether a toolbox of behavioral economics–based nudges embedded in EHR and clinical decision support tools can promote appropriate deprescribing and less aggressive glycemic control in older adults with type 2 diabetes, and to generate detailed information on clinician workflows and interactions with digital nudges to inform optimization and future applications in other chronic disease contexts."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Type 2 Diabetes Mellitus",
+        "Diabetes Mellitus, Type 2",
+        "Hyperglycemia",
+        "Overtreatment",
+        "Deprescriptions",
+        "Aged, 80 and over",
+        "Aged"
+      ],
+      "keywords": [
+        "Type 2 Diabetes Mellitus",
+        "Diabetes Mellitus, Type 2",
+        "Hyperglycemia",
+        "Glycemic Control",
+        "Hemoglobin A, Glycosylated",
+        "Aged",
+        "Aged, 80 and over",
+        "Chronic Disease",
+        "Deprescriptions",
+        "Drug Therapy",
+        "Primary Health Care",
+        "Endocrinology",
+        "Electronic Health Records",
+        "Clinical Decision Support Systems",
+        "Behavioral Economics",
+        "Nudge Theory",
+        "Choosing Wisely",
+        "Practice Guidelines as Topic",
+        "Pragmatic Clinical Trial",
+        "Cluster Analysis",
+        "Physician-Patient Relations",
+        "Medication Overuse"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Pragmatic, investigator-blind, cluster randomized controlled trial in which 66 clinics are randomized 1:1 to receive either a 6-component BE-EHR module plus standard care or standard care only for 18 months.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Investigator-blind design: principal investigators and most of the study team are blinded to clinic assignment, while the study statistician, Epic data management team, clinicians receiving alerts, and the Data and Safety Monitoring Board are unblinded.",
+          "whoMasked": [
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": null,
+        "type": null
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "BE-EHR module + standard care",
+          "type": "EXPERIMENTAL",
+          "description": "Clinicians at these 33 NYULH primary care and endocrinology clinics receive a 6-component Behavioral Economics–Electronic Health Record (BE-EHR) module in addition to usual care. The module consists of multiple EHR-embedded clinical decision support nudges and two email-based nudges, all designed to promote American Geriatrics Society Choosing Wisely guideline adherence and reduce overtreatment of type 2 diabetes in adults aged 76 years and older.",
+          "interventionNames": [
+            "BE-EHR module"
+          ]
+        },
+        {
+          "label": "Standard care only",
+          "type": "NO_INTERVENTION",
+          "description": "Clinicians at these 33 NYULH primary care and endocrinology clinics provide usual care within the Epic EHR without access to the BE-EHR module nudges aimed at Choosing Wisely guideline adherence. No additional behavioral or CDS intervention is applied beyond standard practice.",
+          "interventionNames": []
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "BE-EHR module",
+          "description": "A 6-component Behavioral Economics–Electronic Health Record (BE-EHR) intervention delivered primarily through the Epic EHR as clinical decision support (CDS) tools to clinicians caring for adults aged ≥76 years with type 2 diabetes. It is designed to reduce overtreatment and promote Choosing Wisely guideline adherence by tailoring recommendations based on a life-expectancy algorithm. Components:\n\n1) Tailored Advisory: A noninterruptive in-encounter alert for Choosing Wisely–noncompliant patients that describes appropriate glycemic targets by life-expectancy category and suggests treatment changes. Clinicians may acknowledge by agreeing with the recommendation or indicating clinical inappropriateness with free-text justification, and can suppress future alerts for 182.5 days.\n\n2) Refill Protocol: An alert in the medication refills section whenever a diabetes medication refill is generated for eligible older adults. It suggests initiating metformin for those not on it or lowering/stopping refills for those already on metformin, with optional comments.\n\n3) Preference List: A system-level default medication order set in Epic where metformin is placed at the top of the \"First-line Type 2 Diabetes\" medication list, while preserving the ability to order other agents without restriction.\n\n4) Lab Result Nudge: An alert in the lab results section that appears when a new HbA1c result is available for a Choosing Wisely–noncompliant patient, showing appropriate treatment guidelines and highlighting out-of-range values. The alert remains active for 7 days after the result posts.\n\n5) Peer Comparison Email: A monthly secure email from the practice director’s account showing graphical peer-comparison feedback: the individual clinician’s Choosing Wisely compliance, their site’s compliance, and overall NYULH compliance. The message text is framed positively or negatively depending on whether the clinician’s performance is above or below their practice average.\n\n6) Campaign Email Toolkit: A monthly gamified educational campaign delivered outside the EHR (e.g., game-show–themed animations modeled on The Price is Right, Jeopardy, and Who Wants to Be a Millionaire, plus flashcards) that quizzes clinicians on Choosing Wisely best practices, tailored by life-expectancy category.",
+          "armGroupLabels": [
+            "BE-EHR module + standard care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Patient-level Choosing Wisely (CW) compliance",
+          "description": "Binary indicator of whether a patient’s HbA1c is within the CW-recommended target range for their life expectancy category (high, medium, or low), as defined by age, comorbidities, and gender-based life expectancy tables. CW compliance is modeled as the ratio of eligible patients whose HbA1c values fall within the specified range for their category.",
+          "timeFrame": "Over the 18-month intervention period, assessed longitudinally in 4-week intervals following activation of the BE-EHR module"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Frequency of activation of BE-EHR module components",
+          "description": "Counts of how often each of the 6 BE-EHR nudge components (tailored advisory, refill protocol, preference list, lab result, peer comparison, and campaign) is triggered within the NYULH EHR system.",
+          "timeFrame": "Throughout the 18-month intervention period"
+        },
+        {
+          "measure": "Provider interaction with BE-EHR module components",
+          "description": "Frequency and patterns of clinician interactions with each BE-EHR nudge, including clicks, acknowledgments, workflow sequences in Epic, and accountable justification free-text entries for the tailored advisory and refill protocol alerts.",
+          "timeFrame": "Throughout the 18-month intervention period"
+        },
+        {
+          "measure": "Email engagement with peer comparison and campaign nudges",
+          "description": "Email read receipts and related engagement metrics for monthly peer comparison reports and campaign materials sent to clinicians outside the Epic system.",
+          "timeFrame": "Monthly over the 18-month intervention period"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Healthcare utilization and safety outcomes",
+          "description": "Frequency of in-patient hospitalizations, emergency department visits, and deaths among patients in the intervention versus control arms, to assess potential safety implications of the deprescribing-focused intervention.",
+          "timeFrame": "Over the 18-month intervention period"
+        },
+        {
+          "measure": "Choosing Wisely compliance by exposure to specific nudge combinations",
+          "description": "CW compliance rates among patients whose providers received only a single BE-EHR nudge or particular combinations of nudges, used exploratorily to identify potentially more or less effective components.",
+          "timeFrame": "Over the 18-month intervention period"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "- Inclusion Criteria:\n  - Patients aged \u00163 years with type 2 diabetes as defined on the patient\u0019s \u001cproblem list\u001d or \u001cencounter diagnosis\u001d within the electronic health record (EHR).\n\n- Exclusion Criteria:\n  - Not taking medication to treat diabetes.\n  - An allergy to the medication metformin.\n  - An estimated glomerular filtration rate (eGFR) of <30.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "76 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "",
+      "samplingMethod": ""
+    }
+  }
+}

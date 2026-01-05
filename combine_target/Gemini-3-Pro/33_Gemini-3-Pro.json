@@ -1,0 +1,171 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04279392",
+      "organization": {
+        "fullName": "University of Nebraska Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Healthy body, healthy bones"
+    },
+    "descriptionModule": {
+      "briefSummary": "Sleeve gastrectomy (SG) is an effective treatment for obesity but is associated with rapid weight loss that adversely affects bone metabolism, predisposing patients to skeletal fragility. This study is a 9-month, pilot randomized controlled trial (RCT) investigating the efficacy of a one-time infusion of zoledronic acid compared to placebo in combating SG-associated bone loss. Thirty adult SG patients will be randomized to receive either 5 mg of zoledronic acid or placebo 6 weeks following surgery, with the primary goal of assessing changes in areal bone mineral density (aBMD) at the total hip.",
+      "detailedDescription": "This research protocol outlines a comprehensive, quadruple-blinded, randomized controlled trial designed to evaluate the use of zoledronic acid to prevent bone loss following sleeve gastrectomy (SG). The study aims to determine efficacy and evaluate feasibility. Thirty adult participants meeting eligibility criteria (including weight <350 lbs, adequate baseline calcium/vitamin D, and absence of bone-impacting pathologies) will be enrolled. Participants will be randomized 1:1 to receive a one-time 100 mL infusion of 5 mg zoledronic acid or saline placebo 6–8 weeks post-surgery. \n\nSpecific Aim 1 focuses on efficacy. The primary outcome is the change in areal bone mineral density (aBMD) at the total hip measured by dual-energy X-ray absorptiometry (DXA) at 9 months compared to baseline. Secondary outcomes include change in aBMD of the femoral neck and lumbar spine, change in volumetric BMD and bone strength at the lumbar spine measured by quantitative CT (QCT) and finite element analysis, and changes in serum bone turnover markers (P1NP and NTX). \n\nSpecific Aim 2 assesses feasibility by documenting adverse events, side effects, and compliance rates. All participants will receive standardized nutritional supplementation (1200 mg calcium daily and vitamin D based on serum levels) throughout the study. Assessments include physical function testing, body composition analysis, and validated surveys."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Obesity",
+        "Bone Loss",
+        "Skeletal Fragility"
+      ],
+      "keywords": [
+        "Sleeve Gastrectomy",
+        "Zoledronic Acid",
+        "Bisphosphonates",
+        "Bone Mineral Density",
+        "Bariatric Surgery",
+        "Osteoporosis Prevention"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants assigned (via computer-generated 1:1 block randomisation, with stratification by sex) to receive a one-time 100 mL infusion of 5 mg zoledronic acid or placebo.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "Quadruple-blinded (participant, care provider, investigator and outcomes assessor are blinded to the treatment group).",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 30,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Zoledronic Acid",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receive a one-time 100 mL infusion of 5 mg zoledronic acid 6–8 weeks following sleeve gastrectomy (SG).",
+          "interventionNames": [
+            "Drug: Zoledronic Acid"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants receive a one-time 100 mL infusion of saline 6–8 weeks following sleeve gastrectomy (SG).",
+          "interventionNames": [
+            "Drug: Placebo (Saline)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Zoledronic Acid",
+          "description": "A one-time intravenous infusion of 5 mg zoledronic acid (100 mL) delivered over 30 minutes (200 mL/hour).",
+          "armGroupLabels": [
+            "Zoledronic Acid"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo (Saline)",
+          "description": "A one-time intravenous infusion of saline (100 mL) delivered over 30 minutes (200 mL/hour).",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in total hip areal bone mineral density (aBMD)",
+          "description": "Measured by dual energy X-ray absorptiometry (DXA).",
+          "timeFrame": "Baseline and 9 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in femoral neck areal bone mineral density (aBMD)",
+          "description": "Measured by dual energy X-ray absorptiometry (DXA).",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "measure": "Change in lumbar spine (L1-L4) areal bone mineral density (aBMD)",
+          "description": "Measured by dual energy X-ray absorptiometry (DXA).",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "measure": "Change in volumetric BMD (vBMD) at the lumbar spine",
+          "description": "Measured by quantitative CT (QCT) of the L1-L5 vertebrae.",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "measure": "Change in bone strength at the lumbar spine",
+          "description": "Measured by finite element analysis using subject-specific models of the L2 vertebra derived from QCT scans.",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "measure": "Change in serum type 1 procollagen N-terminal (P1NP)",
+          "description": "Serum bone formation marker assessed via ELISA.",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "measure": "Change in urinary collagen type 1 cross-linked N-telopeptide (NTX)",
+          "description": "Urinary bone resorption marker assessed via ELISA.",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "measure": "Change in lower extremity strength and function",
+          "description": "Measured by the 5 Times Sit to Stand test.",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "measure": "Change in static upper body extremity strength",
+          "description": "Measured by handgrip strength testing.",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "measure": "Change in functional mobility, gait, and vestibular function",
+          "description": "Measured by the 4-metre walk test.",
+          "timeFrame": "Baseline and 9 months"
+        },
+        {
+          "measure": "Feasibility",
+          "description": "Assessed by documenting adverse events, side effects, and compliance rates.",
+          "timeFrame": "At each study time point through 9 months"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Subjects planning a sleeve gastrectomy procedure at the study bariatric surgery centre.\n* Agreement to all study procedures and assessments.\n* Women must be postmenopausal (Follicle-stimulating hormone blood level >30 mIU/m), or incapable of childbearing (non-hormonal long-term birth control).\n\nExclusion Criteria:\n* Prior bariatric surgery.\n* <19 years of age.\n* Weight >=350 lbs.\n* Liver or renal disease.\n* Hypercalcaemia, hypocalcaemia or hypomagnesaemia.\n* Serum 25-OH vitamin D <20 ng/mL.\n* History of bone-modifying disorders.\n* Use of bone-active medications.\n* Known sensitivity to bisphosphonates.\n* Extensive dental work involving extraction or dental implant within the past 2 months or planned in the upcoming 6 months.\n* Current diagnosis of type 1 diabetes.\n* Current malignancy.\n* Autoimmune disease impacting bone (eg, rheumatoid arthritis).",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "19 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

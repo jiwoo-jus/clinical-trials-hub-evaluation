@@ -1,0 +1,558 @@
+{
+  "metadata": {
+    "case_id": 50,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T16:37:42.365309",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/50_NCT04150250.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/50_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.78
+        ],
+        [
+          0.82,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "iOWH032",
+            "type": "EXPERIMENTAL",
+            "description": "On Day 1, participants were challenged with 10\\^6 colony-forming units (CFU) of freshly-harvested wild-type V. cholerae. At the onset of diarrhea, or at 48 hours after challenge, whichever occurred first, participants received oral iOWH032 500 mg tablets every 8 hours for 3 days. Participants received a 3-day course of antibiotics starting 4 days post-challenge, or sooner if the participant met the criterion for severe cholera diarrhea.",
+            "interventionNames": [
+              "Drug: iOWH032",
+              "Other: V. cholerae Challenge",
+              "Drug: Antibiotics"
+            ]
+          },
+          "pred_item": {
+            "label": "iOWH032 Treatment Group",
+            "type": "EXPERIMENTAL",
+            "description": "Participants experimentally infected with Vibrio cholerae El Tor Inaba strain N16961 who received 500 mg iOWH032 (two 250 mg immediate-release tablets) orally approximately every 8 hours for 3 consecutive days. Treatment started at the onset of diarrhea symptoms or 48 hours after cholera challenge, whichever came first. All participants also received a 3-day course of ciprofloxacin starting at 4 days post challenge, or when the participant met the criterion for severe cholera diarrhea (>5 L of cumulative diarrheal stool), or at an earlier time at the discretion of the investigator.",
+            "interventionNames": [
+              "Drug: iOWH032",
+              "Drug: Ciprofloxacin",
+              "Biological: Vibrio cholerae challenge"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "On Day 1, participants were challenged with 10\\^6 CFU of freshly-harvested wild-type V. cholerae. At the onset of diarrhea, or at 48 hours after challenge, whichever occurred first, participants received oral matching iOWH032 placebo tablets every 8 hours for 3 days. Participants received a 3-day course of antibiotics starting 4 days post-challenge, or sooner if the participant met the criterion for severe cholera diarrhea.",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Other: V. cholerae Challenge",
+              "Drug: Antibiotics"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo Group",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants experimentally infected with Vibrio cholerae El Tor Inaba strain N16961 who received two matching placebo tablets orally approximately every 8 hours for 3 consecutive days. Treatment started at the onset of diarrhea symptoms or 48 hours after cholera challenge, whichever came first. All participants also received a 3-day course of ciprofloxacin starting at 4 days post challenge, or when the participant met the criterion for severe cholera diarrhea (>5 L of cumulative diarrheal stool), or at an earlier time at the discretion of the investigator.",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Drug: Ciprofloxacin",
+              "Biological: Vibrio cholerae challenge"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.25,
+          0.2,
+          0.2
+        ],
+        [
+          0.25,
+          0.98,
+          0.2,
+          0.35
+        ],
+        [
+          0.1,
+          0.05,
+          0.1,
+          0.98
+        ],
+        [
+          0.2,
+          0.05,
+          0.82,
+          0.15
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "iOWH032",
+            "description": "Anti-secretory synthetically manufactured small molecule designed to inhibit the cystic fibrosis transmembrane conductance regulator chloride channel.",
+            "armGroupLabels": [
+              "iOWH032"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "iOWH032",
+            "description": "iOWH032 is a synthetic small molecule inhibitor of the cystic fibrosis transmembrane conductance regulator (CFTR) chloride channel. The drug product is a chemically and physically stable immediate-release oral 250 mg tablet containing 40% iOWH032 (w/w) and 60% excipients (w/w), including Pearlitol 160 C, Avicel PH-102, Kollidon CL-F, Kollidon 30, Aerosil 200 Pharma, and magnesium stearate. Dose: 500 mg (two 250 mg tablets) orally every 8 hours for 3 days.",
+            "armGroupLabels": [
+              "iOWH032 Treatment Group"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Oral tablets matching iOWH032 on taste, appearance, dissolution time with the same excipients but no active ingredients.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Matching placebo tablets containing the same excipients as iOWH032 tablets but not the active drug substance. The excipients include Pearlitol 160 C, Avicel PH-102, Kollidon CL-F, Kollidon 30, Aerosil 200 Pharma, and magnesium stearate. Dose: Two tablets orally every 8 hours for 3 days.",
+            "armGroupLabels": [
+              "Placebo Group"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 3,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "V. cholerae Challenge",
+            "description": "Freshly-harvested, wild-type Vibrio (V.) cholerae El Tor Inaba strain N16961,10\\^6 cfu suspended in 30 mL of sodium bicarbonate solution ingested orally.",
+            "armGroupLabels": [
+              "Placebo",
+              "iOWH032"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "Vibrio cholerae challenge",
+            "description": "Participants drank 120 mL sodium bicarbonate solution (approximately 1.3% NaHCO3) and then 1 minute later were challenged with 10^6 colony-forming units of freshly harvested wild-type Vibrio cholerae El Tor Inaba strain N16961 suspended in 30 mL of sodium bicarbonate solution (approximately 1.3% NaHCO3). This dose has been shown to consistently elicit acute watery diarrhea within 18 to 48 hours of ingestion. Participants fasted for 90 minutes before and after ingestion of the challenge inoculum.",
+            "armGroupLabels": [
+              "iOWH032 Treatment Group",
+              "Placebo Group"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Antibiotics",
+            "description": "Antibiotic therapy may include:\n\n* Ciprofloxacin 500 mg, twice daily;\n* Azithromycin 500 mg, once daily (for those persons who are allergic to fluoroquinolones);\n* Doxycycline 300 mg, once daily (for those persons who are allergic to fluoroquinolones)",
+            "armGroupLabels": [
+              "Placebo",
+              "iOWH032"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Ciprofloxacin",
+            "description": "Ciprofloxacin 500 mg orally twice daily for 3 days. All participants received antibiotic therapy starting at 4 days post cholera challenge, or when the participant met the criterion for severe cholera diarrhea (>5 L of cumulative diarrheal stool), or at an earlier time at the discretion of the investigator. For participants who remained asymptomatic, the first dose of antimicrobial therapy was administered within 1 to 2 hours after the preceding dose of study drug (iOWH032 or placebo).",
+            "armGroupLabels": [
+              "iOWH032 Treatment Group",
+              "Placebo Group"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ],
+        [
+          0.9
+        ],
+        [
+          0.12
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Diarrheal Stool Output Rate",
+            "description": "Diarrheal stool output rate is defined as the total volume of diarrheal stools (in mL, Grade 3 and above) divided by the number of hours between initiation of study drug (iOWH032 or placebo) and initiation of antibiotic therapy.\n\nStools were graded based on consistency as follows:\n\n* Grade 1 - well formed (normal stool, does not take the shape of the container)\n* Grade 2 - soft (normal stool, does not take the shape of the container)\n* Grade 3 - thick liquid (diarrhea, takes the shape of the container readily)\n* Grade 4 - opaque watery diarrhea\n* Grade 5 - rice water diarrhea (clear watery)\n\nThe definition of diarrhea is a grade 3 or higher stool.",
+            "timeFrame": "Day 1 - Day 5 (up to first dose of antibiotic therapy)"
+          },
+          "pred_item": {
+            "measure": "Diarrheal stool output rate",
+            "description": "Total volume of diarrheal stools (mL, grade 3 and higher) divided by the number of hours between initiation of study product dosing and initiation of antimicrobial therapy",
+            "timeFrame": "From start of study drug administration until initiation of antimicrobial therapy (approximately 4 days post challenge)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Diarrheal Stool Output Rate Including Participants With Symptom Onset After 48 Hours",
+            "description": "Stools were graded based on consistency as follows:\n\n* Grade 1 - well formed (normal stool, does not take the shape of the container)\n* Grade 2 - soft (normal stool, does not take the shape of the container)\n* Grade 3 - thick liquid (diarrhea, takes the shape of the container readily)\n* Grade 4 - opaque watery diarrhea\n* Grade 5 - rice water diarrhea (clear watery)\n\nThe definition of diarrhea is a grade 3 or higher stool. For participants with symptom onset within 48 hours of challenge diarrheal stool output rate is defined as the total volume of diarrheal stools (mL, Grade 3 and above) divided by the number of hours between initiation of study product dosing and initiation of antibiotic therapy.\n\nFor participants with symptom onset after 48 hours diarrheal stool output rate is defined as the total volume of diarrheal stools (mL, Grade 3 and above) divided by the number of hours between onset of symptoms and initiation of antibiotic therapy.",
+            "timeFrame": "Day 1 - Day 5 (up to first dose of antibiotic therapy)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Treatment-emergent Serious Adverse Events",
+            "description": "A serious adverse event (SAE) is any adverse event that resulted in any of the following outcomes:\n\n1. Death\n2. A life-threatening event.\n3. Required inpatient hospitalization or prolongation of existing hospitalization\n4. Resulted in persistent or significant incapacity or substantial disruption of the ability to conduct normal life functions\n5. Congenital abnormality or birth defect\n6. Important medical event that may not result in one of the above outcomes but may jeopardize the health of the study participant and/or requires medical or surgical intervention to prevent one of the outcomes listed in the above definition of serious adverse event.",
+            "timeFrame": "Day 1 - Day 180"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 10,
+      "pred_count": 10,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.42,
+          0.3,
+          0.78,
+          0.3,
+          0.35,
+          0.55,
+          0.25,
+          0.2,
+          0.35
+        ],
+        [
+          0.78,
+          0.4,
+          0.3,
+          0.7,
+          0.2,
+          0.32,
+          0.35,
+          0.3,
+          0.4,
+          0.35
+        ],
+        [
+          0.42,
+          0.96,
+          0.2,
+          0.65,
+          0.15,
+          0.25,
+          0.4,
+          0.4,
+          0.78,
+          0.32
+        ],
+        [
+          0.18,
+          0.2,
+          0.25,
+          0.25,
+          0.18,
+          0.05,
+          0.2,
+          0.42,
+          0.7,
+          0.95
+        ],
+        [
+          0.42,
+          0.6,
+          0.82,
+          0.4,
+          0.2,
+          0.3,
+          0.5,
+          0.6,
+          0.3,
+          0.2
+        ],
+        [
+          0.7,
+          0.7,
+          0.4,
+          0.9,
+          0.1,
+          0.3,
+          0.6,
+          0.35,
+          0.35,
+          0.4
+        ],
+        [
+          0.25,
+          0.12,
+          0.22,
+          0.2,
+          0.88,
+          0.3,
+          0.18,
+          0.2,
+          0.25,
+          0.1
+        ],
+        [
+          0.3,
+          0.15,
+          0.12,
+          0.35,
+          0.3,
+          0.86,
+          0.3,
+          0.18,
+          0.15,
+          0.15
+        ],
+        [
+          0.32,
+          0.05,
+          0.08,
+          0.32,
+          0.28,
+          0.4,
+          0.18,
+          0.02,
+          0.12,
+          0.05
+        ],
+        [
+          0.28,
+          0.05,
+          0.05,
+          0.12,
+          0.22,
+          0.27,
+          0.18,
+          0.06,
+          0.05,
+          0.08
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 6,
+          "score": 0.55,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Moderate to Severe Diarrhea With Onset Within 48 Hours Following Cholera Challenge",
+            "description": "The percentage of participants with moderate to severe diarrhea with onset within 48 hours following cholera challenge.\n\nDiarrhea was defined as a grade 3 or higher stool based on the following scale:\n\n* Grade 1 - well formed (normal stool, does not take the shape of the container)\n* Grade 2 - soft (normal stool, does not take the shape of the container)\n* Grade 3 - thick liquid (diarrhea, takes the shape of the container readily)\n* Grade 4 - opaque watery diarrhea\n* Grade 5 - rice water diarrhea (clear watery)\n\nDiarrheal stools (Grade 3-5) were graded for severity according to the following: Mild: ≤ 3 liters loose stools; Moderate: \\> 3 liters loose stools; Severe: \\> 5 liters loose stools.",
+            "timeFrame": "Day 1 - Day 5 (up to first dose of antibiotic therapy)"
+          },
+          "pred_item": {
+            "measure": "Need for oral rehydration solution and/or intravenous fluid replacement therapy",
+            "description": "Requirement for fluid replacement due to dehydration from diarrhea",
+            "timeFrame": "From cholera challenge through discharge (approximately 10 days)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Attack Rate of Any Diarrhea Following Cholera Challenge",
+            "description": "Attack rate of any diarrhea following cholera challenge is defined as the number of participants with 2 or more loose stools (Grade 3-5) totaling \\> 200 mL or 1 loose (Grade 3-5) stool \\> 300 mL, respectively, with onset within 48 hours of cholera challenge.",
+            "timeFrame": "Day 1 - Day 5 (up to first dose of antibiotic therapy)"
+          },
+          "pred_item": {
+            "measure": "Proportion of participants with moderate or severe diarrhea",
+            "description": "Moderate diarrhea defined as 3 to 5 L cumulative diarrheal stool output; severe diarrhea defined as >5 L cumulative diarrheal stool output",
+            "timeFrame": "From cholera challenge through 7 days post challenge"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Area Under the Curve (AUC) of Diarrheal Stool Volume Between Challenge Dose and Initiation of Antibiotics",
+            "description": "The AUC of diarrheal stool volume and cholera organisms was computed via the trapezoidal rule.",
+            "timeFrame": "Day 1 to Day 5 (prior to first dose of antibiotic)"
+          },
+          "pred_item": {
+            "measure": "Area under the curve of diarrheal stool volume",
+            "description": "Cumulative measure of diarrheal stool volume over time",
+            "timeFrame": "From start of study drug administration until initiation of antimicrobial therapy (approximately 4 days post challenge)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 9,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Peak Shedding of Cholera Organisms",
+            "description": "Quantitative cultures were performed on the first two stool samples of each 24-hour period prior to the initiation of antibiotics to determine the number of cholera organisms per gram of stool. Peak shedding represents the highest colony-forming unit (CFU) counts observed for each participant.",
+            "timeFrame": "Day 1 to Day 5 (prior to first dose of antibiotic)"
+          },
+          "pred_item": {
+            "measure": "Peak shedding of cholera organisms",
+            "description": "Maximum concentration of Vibrio cholerae colony-forming units detected in stool specimens",
+            "timeFrame": "From cholera challenge through initiation of antimicrobial therapy"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 2,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Duration of Diarrheal Episodes",
+            "description": "Duration of diarrheal episodes was calculated using Kaplan-Meier methods as the time from cholera challenge to the time of the first formed stool (Grade 1), after which all following stools were also formed.",
+            "timeFrame": "Day 1 to Day 5 (prior to first dose of antibiotics)"
+          },
+          "pred_item": {
+            "measure": "Time to first formed stool",
+            "description": "Time elapsed from cholera challenge to first formed stool",
+            "timeFrame": "From cholera challenge through 7 days post challenge"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 3,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Total Number of Loose (Grade 3-5) Stools",
+            "description": "Total number of loose stools (Grade 3 and above) per participant during the interval immediately following challenge and prior to initiation of antibiotic therapy.",
+            "timeFrame": "Day 1 to Day 5 (prior to first dose of antibiotic therapy)"
+          },
+          "pred_item": {
+            "measure": "Number of loose stools",
+            "description": "Total number of diarrheal stools (grades 3 through 5)",
+            "timeFrame": "From cholera challenge through 7 days post challenge"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 4,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Fever Following Cholera Challenge",
+            "description": "The presence of fever was defined as a body temperature of ≥ 39°C (102.1°F).",
+            "timeFrame": "Day 1 to Day 5, prior to first dose of antibiotics"
+          },
+          "pred_item": {
+            "measure": "Occurrence of fever",
+            "description": "Presence of elevated body temperature following cholera challenge",
+            "timeFrame": "From cholera challenge through 7 days post challenge"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 5,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Vomiting Following Cholera Challenge",
+            "timeFrame": "Day 1 to Day 5, prior to first dose of antibiotics"
+          },
+          "pred_item": {
+            "measure": "Occurrence of vomiting",
+            "description": "Presence of vomiting episodes following cholera challenge",
+            "timeFrame": "From cholera challenge through 7 days post challenge"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 8,
+          "score": 0.12,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Solicited Adverse Effects",
+            "description": "Solicited adverse events (AEs) include nausea, abdominal discomfort and pain, abdominal cramps, headache, malaise, anorexia, pollakiuria, micturition urgency, sinus tachycardia, increased alertness, and were collected by interview through 7 days post-challenge (Days 1-8)",
+            "timeFrame": "Day 1 - Day 8"
+          },
+          "pred_item": {
+            "measure": "Area under the curve of cholera organism shedding",
+            "description": "Cumulative measure of Vibrio cholerae colony-forming units in stool over time",
+            "timeFrame": "From cholera challenge through initiation of antimicrobial therapy"
+          }
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": 7,
+          "score": 0.06,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Unsolicited Treatment-emergent Adverse Events (TEAE)",
+            "description": "Unsolicited AEs include any AEs reported spontaneously by the participant, observed by the study personnel during study visits or those identified during review of medical records or source documents. Investigators assigned causality of unsolicited AEs to either the study drug, cholera infection, or an alternate etiology.",
+            "timeFrame": "From first dose of study drug up to Day 29"
+          },
+          "pred_item": {
+            "measure": "Time to cessation of detectable cholera organisms in stool",
+            "description": "Time elapsed from cholera challenge until Vibrio cholerae is no longer detectable in stool specimens",
+            "timeFrame": "From cholera challenge through initiation of antimicrobial therapy"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "case_id": 28,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T15:29:39.799997",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/28_NCT02864381.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/28_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Objective Response Rate (ORR)",
+            "description": "ORR was defined as the percentage of participants with confirmed overall best response of complete response (CR) or partial response (PR) after starting study drug but before starting any new chemotherapy or radiotherapy as assessed by the investigator according to Response Criteria in Solid Tumors (RECIST) version 1.1. CR was defined as the disappearance of all target lesions and disappearance of all non-target lesions and normalization of tumor marker level. PR was defined as at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters.",
+            "timeFrame": "Up to 41 weeks"
+          },
+          "pred_item": {
+            "measure": "Objective Response Rate (ORR)",
+            "description": "Proportion of patients with best overall response of complete response (CR) or partial response (PR) after starting study drug and before starting any new anticancer therapy, defined by Response Evaluation Criteria in Solid Tumors (RECIST) V.1.1 as assessed by investigator",
+            "timeFrame": "From randomization until disease progression, unacceptable toxicity, or consent withdrawal, up to 2 years"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.42,
+          0.94,
+          0.7,
+          0.1
+        ],
+        [
+          0.9,
+          0.78,
+          0.4,
+          0.05
+        ],
+        [
+          0.3,
+          0.68,
+          0.9,
+          0.11
+        ],
+        [
+          0.05,
+          0.12,
+          0.05,
+          0.92
+        ],
+        [
+          0.02,
+          0.1,
+          0.05,
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Progression Free Survival (PFS)",
+            "description": "PFS was defined as the interval in months from the date of randomization to the earlier of the first documentation of definitive disease progression or death from any cause. The first definitive progressive disease (PD) was defined as the first radiation therapy, the first clinical PD, and the first confirmed imaging PD, whichever came first. Participants without PD or death and participants with PD after starting new anti-cancer therapy are censored at the last tumor assessment date.",
+            "timeFrame": "Andecaliximab + Nivolumab median follow-up time: 7.0 months; Nivolumab median follow-up time: 7.1 months"
+          },
+          "pred_item": {
+            "measure": "Progression-Free Survival (PFS)",
+            "description": "Interval from the date of randomization to death (any cause) or the first definitive progressive disease (PD). Definitive PD was either clinical PD, imaging PD, or radiation therapy",
+            "timeFrame": "From randomization until disease progression or death, assessed up to approximately 5 years"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Overall Survival (OS)",
+            "description": "OS was defined as the interval from the date of randomization to death from any cause. Surviving participants are censored at the last date known alive.",
+            "timeFrame": "Andecaliximab + Nivolumab median follow-up time: 7.0 months; Nivolumab median follow-up time: 7.0 months"
+          },
+          "pred_item": {
+            "measure": "Overall Survival (OS)",
+            "description": "Interval from the date of randomization to death from any cause",
+            "timeFrame": "From randomization until death, assessed up to approximately 5 years"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Duration of Response (DOR)",
+            "description": "DOR was defined as the interval from the date of the first response (complete or partial response) was achieved to the earlier of the first documentation of definitive disease progression or death from any cause.",
+            "timeFrame": "Andecaliximab + Nivolumab median follow-up time: 7.0 months; Nivolumab median follow-up time: 7.1 months"
+          },
+          "pred_item": {
+            "measure": "Duration of Response",
+            "description": "Time from first documented response (CR or PR) to disease progression or death",
+            "timeFrame": "From first response until disease progression or death, assessed up to approximately 5 years"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants Who Experienced Treatment-emergent Adverse Events (TEAEs)",
+            "description": "An adverse event (AE) is any untoward medical occurrence in a clinical study participants administered a medicinal product, which does not necessarily have a causal relationship with the treatment. TEAEs are events that are defined as AEs with onset dates on or after the first dose of andecaliximab/nivolumab and up to 30 days after permanent discontinuation of andecaliximab or 5 months after permanent discontinuation of nivolumab, or led to premature discontinuation of andecaliximab or nivolumab.",
+            "timeFrame": "Andecaliximab: First dose date up to last dose (maximum: 101 weeks) + 30 days; Nivolumab: First dose date up to last dose (maximum: 101 weeks) + 5 months"
+          },
+          "pred_item": {
+            "measure": "Adverse Events (AEs) and Laboratory Abnormalities",
+            "description": "Occurrence of adverse events and laboratory abnormalities during treatment, graded according to National Cancer Institute Common Terminology Criteria for Adverse Events V.4",
+            "timeFrame": "From first dose until 30 days after last dose of ADX and 5 months after last dose of NIVO"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants Who Experienced Treatment-emergent Laboratory Abnormalities",
+            "description": "Treatment-emergent (Chemistry, Hematology, Coagulation, and Urinalysis) laboratory abnormalities were graded per Common Terminology Criteria for Adverse Events (CTCAE), Version 4.03 where: 0=None, 1=Mild, 2=Moderate, 3=Severe, 4=Potentially Life Threatening. Treatment-emergent laboratory abnormalities are defined as values that increase at least 1 toxicity grade from baseline at any postbaseline time point, up to and including the date of the last dose of andecaliximab plus 30 days or nivolumab plus 5 months. If the relevant baseline laboratory value is missing, any abnormality of at least Grade 1 observed within the time frame specified above will be considered treatment-emergent. Percentage of participants with any postbaseline Grade 1 or higher laboratory abnormality is reported.",
+            "timeFrame": "Andecaliximab: First dose date up to last dose (maximum: 101 weeks) + 30 days; Nivolumab: First dose date up to last dose (maximum: 101 weeks) + 5 months"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

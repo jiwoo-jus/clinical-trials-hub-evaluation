@@ -1,0 +1,116 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03697161",
+      "orgStudyIdInfo": {
+        "id": "OV101-17-001"
+      },
+      "organization": {
+        "fullName": "Healx AI",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study of OV101 in Individuals With Fragile X Syndrome",
+      "officialTitle": "A Phase 2, Randomized, Double-Blind, Parallel-Group Study Evaluating the Safety, Tolerability, and Efficacy of OV101 in Fragile X Syndrome",
+      "acronym": "ROCKET"
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to assess the safety, tolerability and efficacy of oral OV101 (gaboxadol) in subjects with Fragile X syndrome."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Fragile X Syndrome (FXS)"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 36,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "OV101 (gaboxadol) Regimen 1",
+          "type": "EXPERIMENTAL",
+          "description": "Once Daily",
+          "interventionNames": [
+            "Drug: OV101 (gaboxadol)"
+          ]
+        },
+        {
+          "label": "OV101 (gaboxadol) Regimen 2",
+          "type": "EXPERIMENTAL",
+          "description": "Twice Daily",
+          "interventionNames": [
+            "Drug: OV101 (gaboxadol)"
+          ]
+        },
+        {
+          "label": "OV101 (gaboxadol) Regimen 3",
+          "type": "EXPERIMENTAL",
+          "description": "Three Times Daily",
+          "interventionNames": [
+            "Drug: OV101 (gaboxadol)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "OV101 (gaboxadol)",
+          "description": "OV101 (gaboxadol)",
+          "armGroupLabels": [
+            "OV101 (gaboxadol) Regimen 1",
+            "OV101 (gaboxadol) Regimen 2",
+            "OV101 (gaboxadol) Regimen 3"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants With Treatment Emergent Adverse Events (TEAE)",
+          "description": "Number of Participants with Treatment Emergent Adverse Events",
+          "timeFrame": "Week 12"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Clinical Global Impressions- Improvement (CGI-I)",
+          "timeFrame": "Week 12"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Is male and 13 to 22 years old (inclusive) at the time of informed consent.\n* Has a diagnosis of FXS with a confirmed FMR1 full mutation (≥200 CGG repeats).\n\nExclusion Criteria:\n\n* Concomitant disease or condition that are clinically significant and would limit study participation\n* Clinically significant lab abnormalities or vital signs at the time of screening\n* History of uncontrollable seizure disorder or seizure episodes within 6 months of screening or change in the anticonvulsant pharmacotherapy in the past 3 months.\n* Unable or does not have a caregiver able to comply with study requirements.\n* Enrolled in any clinical trial within the 30 days before screening.",
+      "healthyVolunteers": false,
+      "sex": "MALE",
+      "genderBased": true,
+      "minimumAge": "13 Years",
+      "maximumAge": "22 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    }
+  }
+}

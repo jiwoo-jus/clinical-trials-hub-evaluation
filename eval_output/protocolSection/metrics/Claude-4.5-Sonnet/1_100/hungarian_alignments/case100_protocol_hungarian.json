@@ -1,0 +1,216 @@
+{
+  "metadata": {
+    "case_id": 100,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T20:01:22.622401",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/100_NCT02341625.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/100_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.82,
+          0.82,
+          0.58,
+          0.68
+        ],
+        [
+          0.74,
+          0.68,
+          0.9,
+          0.68,
+          0.78
+        ],
+        [
+          0.7,
+          0.6,
+          0.6,
+          0.86,
+          0.84
+        ],
+        [
+          0.65,
+          0.52,
+          0.75,
+          0.78,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Part 1: Ascending dose of BMS-986148",
+            "type": "EXPERIMENTAL",
+            "description": "BMS-986148 Intravenous injection at increasing doses on specific days until the maximum tolerated dose is reached. Five cancers will be studied in this part: mesothelioma, pancreatic, ovarian, gastric, and non-small cell lung cancer. Alternate dose and schedules may be explored.",
+            "interventionNames": [
+              "Drug: BMS-986148"
+            ]
+          },
+          "pred_item": {
+            "label": "BMS-986148 monotherapy every 3 weeks (dose escalation)",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received BMS-986148 at doses of 0.1, 0.2, 0.4, 0.8, 1.2, or 1.6 mg/kg intravenously every 3 weeks (21-day cycle) during the dose-escalation phase (part 1A).",
+            "interventionNames": [
+              "Drug: BMS-986148"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Part 2: Expansion dose of BMS-986148",
+            "type": "EXPERIMENTAL",
+            "description": "BMS-986148 Intravenous injection of Maximum tolerated dose (MTD) on specific days. Five cancers will be studied in this part: mesothelioma, pancreatic, ovarian, gastric, and non-small cell lung cancer.",
+            "interventionNames": [
+              "Drug: BMS-986148"
+            ]
+          },
+          "pred_item": {
+            "label": "BMS-986148 monotherapy every 3 weeks (dose expansion)",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with mesothelioma, NSCLC, pancreatic, ovarian, or gastric cancer and tumor mesothelin expression (H-score ≥100) received BMS-986148 at 1.2 mg/kg intravenously every 3 weeks during the dose-expansion phase (part 2).",
+            "interventionNames": [
+              "Drug: BMS-986148"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 3,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Part 3A: Ascending dose of BMS-986148",
+            "type": "EXPERIMENTAL",
+            "description": "Set dose of nivolumab and BMS-986148 intravenous injection at increasing doses on specific days until the maximum tolerated dose is reached. Five cancers will be studied in this part: mesothelioma, pancreatic, ovarian, gastric, and non-small cell lung cancer.",
+            "interventionNames": [
+              "Drug: BMS-986148",
+              "Biological: Nivolumab"
+            ]
+          },
+          "pred_item": {
+            "label": "BMS-986148 + nivolumab every 3 weeks (dose escalation)",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received BMS-986148 at 0.8 mg/kg intravenously every 3 weeks plus nivolumab at 360 mg intravenously every 3 weeks during the dose-escalation phase (part 3A).",
+            "interventionNames": [
+              "Drug: BMS-986148",
+              "Drug: Nivolumab"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 4,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Part 3B: Expansion dose of BMS-986148",
+            "type": "EXPERIMENTAL",
+            "description": "Set dose of nivolumab and BMS-986148 intravenous injection at or below maximum tolerated dose on specific days. Five cancers will be studied in this part: mesothelioma, pancreatic, ovarian, gastric, and non-small cell lung cancer.",
+            "interventionNames": [
+              "Drug: BMS-986148",
+              "Biological: Nivolumab"
+            ]
+          },
+          "pred_item": {
+            "label": "BMS-986148 + nivolumab every 3 weeks (dose expansion)",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with mesothelioma, NSCLC, pancreatic, ovarian, or gastric cancer and tumor mesothelin expression (H-score ≥100) received BMS-986148 at 0.8 mg/kg intravenously every 3 weeks plus nivolumab at 360 mg intravenously every 3 weeks during the dose-expansion phase (part 3B).",
+            "interventionNames": [
+              "Drug: BMS-986148",
+              "Drug: Nivolumab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.3
+        ],
+        [
+          0.3,
+          0.73
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "BMS-986148",
+            "armGroupLabels": [
+              "Part 1: Ascending dose of BMS-986148",
+              "Part 2: Expansion dose of BMS-986148",
+              "Part 3A: Ascending dose of BMS-986148",
+              "Part 3B: Expansion dose of BMS-986148"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "BMS-986148",
+            "description": "BMS-986148 is a mesothelin-directed antibody-drug conjugate (ADC) containing a fully human IgG1 anti-mesothelin monoclonal antibody conjugated to tubulysin (a cytotoxic compound that disrupts microtubule assembly) via a valine-citrulline linker. It was administered intravenously at various doses and schedules depending on the study arm.",
+            "armGroupLabels": [
+              "BMS-986148 monotherapy every 3 weeks (dose escalation)",
+              "BMS-986148 monotherapy once weekly (dose escalation)",
+              "BMS-986148 monotherapy every 3 weeks (dose expansion)",
+              "BMS-986148 + nivolumab every 3 weeks (dose escalation)",
+              "BMS-986148 + nivolumab every 3 weeks (dose expansion)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.73,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Nivolumab",
+            "armGroupLabels": [
+              "Part 3A: Ascending dose of BMS-986148",
+              "Part 3B: Expansion dose of BMS-986148"
+            ],
+            "otherNames": [
+              "Opdivo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Nivolumab",
+            "description": "Nivolumab is an anti-programmed death-1 (PD-1) monoclonal antibody that blocks the PD-1 pathway to restore and enhance antitumor T-cell function. It was administered intravenously at 360 mg every 3 weeks in combination with BMS-986148.",
+            "armGroupLabels": [
+              "BMS-986148 + nivolumab every 3 weeks (dose escalation)",
+              "BMS-986148 + nivolumab every 3 weeks (dose expansion)"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

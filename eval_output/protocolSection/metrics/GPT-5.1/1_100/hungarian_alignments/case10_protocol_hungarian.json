@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "case_id": 10,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-28T05:34:42.425273",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/10_NCT02427958.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/10_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "label": "Leuprorelin",
+            "type": "EXPERIMENTAL",
+            "description": "Participants with body weight greater than or equal to (\\>=) 20 kilogram (kg) will receive the recommended dose of leuprorelin 3.75 milligram (mg), injection, subcutaneously, once every 4 weeks for 96 weeks. Participants with body weight less than (\\<) 20 kg will receive leuprorelin 1.88 mg, injection, subcutaneously, once every 4 weeks for 96 weeks.",
+            "interventionNames": [
+              "Drug: Leuprorelin"
+            ]
+          },
+          "pred_item": {
+            "label": "Leuprorelin 1.88–3.75 mg every 4 weeks",
+            "type": "EXPERIMENTAL",
+            "description": "Single-arm, open-label treatment of children with central precocious puberty with subcutaneous leuprorelin for 96 weeks. Patients weighing ≥20 kg received 3.75 mg subcutaneously every 4 weeks; patients weighing <20 kg received 1.88 mg subcutaneously every 4 weeks. The dose (corresponding to approximately 30–180 μg/kg body mass) could be adjusted based on patient condition and investigator judgment.",
+            "interventionNames": [
+              "Leuprorelin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Leuprorelin",
+            "description": "Suspension for injection.",
+            "armGroupLabels": [
+              "Leuprorelin"
+            ],
+            "otherNames": [
+              "Enantone"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Leuprorelin",
+            "description": "Gonadotropin-releasing hormone analog administered subcutaneously once every 4 weeks for 96 weeks in children with central precocious puberty. Patients with body mass ≥20 kg received 3.75 mg per dose; patients with body mass <20 kg received 1.88 mg per dose. Dosing corresponded to approximately 30–180 μg/kg of body mass and could be adjusted according to clinical response and investigator judgment.",
+            "armGroupLabels": [
+              "Leuprorelin 1.88–3.75 mg every 4 weeks"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Reporting One or More Treatment-emergent Adverse Events (TEAEs)",
+            "timeFrame": "Day 1 up to Week 100"
+          },
+          "pred_item": {
+            "measure": "Incidence of treatment-emergent adverse events (TEAEs)",
+            "description": "Rate of occurrence of treatment-emergent adverse events and drug-related treatment-emergent adverse events, including severity and seriousness, in patients receiving leuprorelin.",
+            "timeFrame": "From first administration through 96-week treatment period plus 4-week safety follow-up (approximately 100 weeks)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 8,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.42,
+          0.58,
+          0.73,
+          0.2,
+          0.25,
+          0.15,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Regression or no Progression in Tanner Staging at Week 96",
+            "description": "Tanner assessment score was used to document the stage of development of puberty through the assessment of secondary sexual characteristics. Female pubertal development staged by pubic hair development and breast size; male pubertal development staged by size of the genitalia and development of pubic hair. Rated in 5 stages: stage 1 (no development) to 5 (adult-like development in quantity and size). Regression or no progression was defined as negative change (improvement) or no change in Tanner score at Week 96 compared to baseline.",
+            "timeFrame": "Week 96"
+          },
+          "pred_item": {
+            "measure": "Change in Tanner stage",
+            "description": "Percentage of patients with regression or no progression in Tanner stage for breast/genital or pubic hair at week 96 compared with baseline; progression defined as an increase in Tanner stage score.",
+            "timeFrame": "Baseline and week 96"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT01068210,NCT01068210,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].id,EV,EV,,R01-CA138624,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,P30 CA008748,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,National Cancer Institute,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,Memorial Sloan-Kettering Cancer Center Support Grant,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Lung Cancer Exercise Training Study,Effects and tolerability of exercise therapy modality on cardiorespiratory fitness in lung cancer: a randomized controlled trial,True,0.9,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,"Lung Cancer Exercise Training Study: A Randomized Trial of Aerobic Training, Resistance Training, or Both in Lung Cancer Patients",Effects and tolerability of exercise therapy modality on cardiorespiratory fitness in lung cancer: a randomized controlled trial,True,0.9,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"The purpose of the study is look at the effects of different types of exercise training with a stretching group and its effect on lung cancer patients. Subjects will take part in a 16 week training intervention that can consist of aerobic, resistance, aerobic \& resistance, or a control group. Pre and Post testing will include stress tests, echos, blood, and urine samples.","This randomized controlled trial evaluated the effects of three different exercise regimens relative to an attention control group in post-treatment lung cancer survivors with poor cardiorespiratory fitness (CRF). The study aimed to determine the most effective exercise modality—aerobic training, resistance training, or a combination of both—for improving peak oxygen consumption (VO2peak) over a 16-week intervention period.",True,0.9,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"Using a parallel-group, factorial randomized controlled trial design, lung cancer survivors with poor CRF (defined as VO2peak below age–sex sedentary values) were randomly allocated to one of four groups for 16 weeks (48 supervised sessions, thrice weekly). The interventions included: (i) Aerobic Training (AT): cycle ergometry at intensities ranging from 55% to >95% of VO2peak; (ii) Resistance Training (RT): lower and upper extremity exercises at 50–85% of maximal strength; (iii) Combination Training (CT): a mix of AT and RT; and (iv) Attention Control (AC): a stretching program. The primary endpoint was the change in CRF measured by VO2peak (mL O2·kg−1·min−1). Secondary endpoints assessed body composition, maximal muscle strength, patient-reported outcomes (quality of life, fatigue, pain, sleep quality), and tolerability metrics such as relative dose intensity and safety.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['Lung Cancer'],"['Lung Cancer', 'Poor Cardiorespiratory Fitness', 'Cachexia', 'Sarcopenia']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['Exercise Intervention', 'Lung Cancer', '15-215']","['Lung Cancer Survivors', 'Exercise Therapy', 'Aerobic Training', 'Resistance Training', 'Combination Training', 'VO2peak', 'Cardiopulmonary Exercise Test', 'Quality of Life']",False,0.0,disjoint,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,FP,PARALLEL,FACTORIAL,False,0.5,success,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Parallel-group, factorial randomized controlled trial evaluating aerobic training (AT), resistance training (RT), or both (CT), relative to attention control (AC).",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,NONE,SINGLE,False,0.1,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Group allocation was concealed until treatment intervention was assigned. Neither patients nor exercise physiologists were blinded to group allocation. Participants and study investigators were blinded to results at pre-randomization and post-intervention. Study investigators were blinded to treatment allocation.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,EV,EV,,['INVESTIGATOR'],,,,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,110,90,True,0.8,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[0].measure,EV,EV,,Maximal Muscular Strength,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].measure,EV,EV,,Body Composition,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].measure,EV,EV,,Patient-Reported Outcomes (PROs),,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].measure,EV,EV,,Tolerability,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].measure,EV,EV,,Safety,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].measure,EV,EV,,Other CPET variables,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[0].description,EV,EV,,Assessed by one-repetition maximum (1-RM) of chest press and seated row for upper body extremity and leg press for lower body extremity.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].description,EV,EV,,Weight (kg) and percentage of lean and fat mass assessed via a dual-energy X-ray absorptiometry (DXA) or air displacement plethysmography.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].description,EV,EV,,"Evaluated using Functional Assessment of Cancer Therapy—Lung (FACT-L), Functional Assessment of Chronic Illness Therapy—Fatigue Scale (FACIT-Fatigue), pain via Brief Pain Inventory (BPI), and sleep quality via Pittsburgh Sleep Quality Index (PSQI).",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].description,EV,EV,,"Assessed by Relative Dose Intensity (RDI), lost to follow-up (LTF), attendance, permanent discontinuation, treatment interruption, dose modification, pretreatment dose modification, and early session termination.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].description,EV,EV,,"Evaluated by the type and prevalence of serious (i.e. life-threatening, hospitalization, significant incapacity, and important medical events) and non-serious (e.g. knee and back pain) adverse events during CPET and exercise sessions.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].description,EV,EV,,"Other variables derived from the cardiopulmonary exercise test, including ventilation and peak heart rate.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[0].timeFrame,EV,EV,,Baseline to Week 17,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].timeFrame,EV,EV,,Baseline to Week 17,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].timeFrame,EV,EV,,Baseline to Week 17,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].timeFrame,EV,EV,,Through 16 weeks of intervention,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].timeFrame,EV,EV,,Through 16 weeks of intervention,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].timeFrame,EV,EV,,Baseline to Week 17,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Signed informed consent prior to initiation of study-related procedures
+* Age 21 - 80 years
+* Weight \< 205 kgs
+* ECOG ≤ 1
+* Diagnosed with histologically confirmed lung cancer, regardless of disease stage and receiving any prior line of any therapy in the context of metastatic disease
+* An interval of at least three months following the completion of primary resection, if appropriate
+* An interval of no longer than ten years following completion of primary therapy, if appropriate
+* Life expectancy ≥ 4 months
+* Performing less than 150 minutes of structured moderate-intensity or strenuous-intensity exercise per week
+* Exercise intolerance (i.e., patients must have a VO2peak below that predicted for active age and sex-matched individuals)
+* Willing to be randomized to one of the study arms
+* Willing to commit to the study program and comply with all related protocol procedures
+* Able to achieve an acceptable peak baseline CPET, as defined by any of the following criteria:
+
+  * achieving a plateau in oxygen consumption, concurrent with an increase in power output;
+  * a respiratory exchange ratio ≥ 1.10;
+  * attainment of maximal predicted heart rate (HRmax) (i.e., within 10 bpm of age-predicted HRmax \[HRmax = 220-Age\[years\]);
+  * volitional exhaustion, as measured by a rating of perceived exertion (RPE) ≥ 18 on the BORG scale.
+* Able to complete an acceptable baseline CPET in the absence of high risk ECG findings or other inappropriate response to exercise as determined by the PI.
+* Ability to achieve and complete an acceptable baseline one-repetition maximum muscular strength test as defined by the effective execution of protocol-specific joint and muscle ranges of motion without remarkable signs or symptoms of pain, discomfort or distress.
+
+Exclusion Criteria:
+
+* Presence of a concurrent, actively treated other malignancy, or history of other malignancy treated within the past 3 years (other than non-melanoma skin cancer);
+* Room air desaturation at rest ≤ 85%;
+* Mental impairment leading to inability to cooperate.
+* Any of the following absolute contraindications to cardiopulmonary exercise testing:
+
+  * Acute myocardial infarction (within 3-5 days of any planned study procedures);
+  * Unstable angina;
+  * Uncontrolled arrhythmia causing symptoms or hemodynamic compromise;
+  * Recurrent syncope;
+  * Active endocarditis;
+  * Acute myocarditis or pericarditis;
+  * Symptomatic severe aortic stenosis;
+  * Uncontrolled heart failure;
+  * Acute (within 3 months) pulmonary embolus or pulmonary infarction;
+  * Thrombosis of lower extremities;
+  * Suspected dissecting aneurysm;
+  * Uncontrolled asthma;
+  * Pulmonary edema;
+  * Respiratory failure;
+  * Acute non-cardiopulmonary disorders that may affect exercise performance or be aggravated by exercise (i.e., infection, renal failure, thyrotoxicosis)","Inclusion Criteria:
+*   ≥1 to <10 years after completion of all definitive therapy (i.e. surgery and adjuvant radiation or chemotherapy, as applicable)
+*   Age 21–80
+*   Eastern Cooperative Oncology Group ≤1
+*   Life expectancy ≥4 months
+*   Performing less than 150 min of structured moderate-intensity exercise per week
+*   Able to complete an acceptable cardiopulmonary exercise test (CPET) and one-repetition maximum muscular strength test
+*   Confirmed poor CRF—that is, peak oxygen consumption (VO2peak) below age–sex-matched inactive levels
+
+Exclusion Criteria:
+*   Concurrent malignancy or history of other malignancy treated within the past 3 years
+*   Room air desaturation at rest ≤85%
+*   Any absolute contraindication to CPET per guidelines",True,0.93,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,21 Years,21 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,80 Years,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

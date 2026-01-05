@@ -1,0 +1,173 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03337724",
+      "orgStudyIdInfo": null,
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "Genentech/Roche",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "IPATunity130",
+      "officialTitle": null,
+      "acronym": "IPATunity130"
+    },
+    "descriptionModule": {
+      "briefSummary": "IPATunity130 Cohort B is a randomized, double-blind, placebo-controlled, phase 3 clinical trial investigating the efficacy and safety of ipatasertib combined with paclitaxel compared to placebo plus paclitaxel. The study specifically targets patients with PIK3CA/AKT1/PTEN-altered, hormone receptor-positive (HR+), HER2-negative unresectable locally advanced or metastatic breast cancer who are candidates for taxane monotherapy.",
+      "detailedDescription": "The study evaluates the addition of ipatasertib, a selective AKT inhibitor, to standard paclitaxel chemotherapy in patients with advanced breast cancer exhibiting PI3K/AKT pathway alterations. Patients were randomized 2:1 to receive oral ipatasertib (400 mg on days 1–21) or placebo, combined with intravenous paclitaxel (80 mg/m2 on days 1, 8, and 15) every 28 days until disease progression or unacceptable toxicity. Eligible participants had HR+/HER2-negative disease with documented PIK3CA, AKT1, or PTEN alterations and were considered inappropriate for endocrine-based therapy. The primary endpoint was investigator-assessed progression-free survival (PFS), with secondary endpoints including overall survival (OS), objective response rate (ORR), and safety outcomes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer",
+        "Metastatic Breast Cancer",
+        "Locally Advanced Breast Cancer",
+        "Hormone Receptor-Positive Breast Cancer",
+        "HER2-Negative Breast Cancer"
+      ],
+      "keywords": [
+        "Ipatasertib",
+        "Paclitaxel",
+        "PI3K/AKT pathway",
+        "PIK3CA",
+        "AKT1",
+        "PTEN",
+        "Endocrine resistance",
+        "Targeted therapy",
+        "Phase 3"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 222,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ipatasertib + Paclitaxel",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received oral ipatasertib (400 mg daily on days 1–21) plus intravenous paclitaxel (80 mg/m2 on days 1, 8 and 15) of a 28-day cycle. Treatment continued until disease progression or unacceptable toxicity.",
+          "interventionNames": [
+            "Drug: Ipatasertib",
+            "Drug: Paclitaxel"
+          ]
+        },
+        {
+          "label": "Placebo + Paclitaxel",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients received placebo matching ipatasertib plus intravenous paclitaxel (80 mg/m2 on days 1, 8 and 15) of a 28-day cycle. Treatment continued until disease progression or unacceptable toxicity.",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Drug: Paclitaxel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ipatasertib",
+          "description": "Highly selective oral ATP-competitive small-molecule inhibitor of all three AKT isoforms. Administered at 400 mg daily on days 1–21 of a 28-day cycle.",
+          "armGroupLabels": [
+            "Ipatasertib + Paclitaxel"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "Chemotherapy agent administered intravenously at 80 mg/m2 on days 1, 8 and 15 of a 28-day cycle.",
+          "armGroupLabels": [
+            "Ipatasertib + Paclitaxel",
+            "Placebo + Paclitaxel"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo matching ipatasertib, administered orally daily on days 1–21 of a 28-day cycle.",
+          "armGroupLabels": [
+            "Placebo + Paclitaxel"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Investigator-assessed Progression-Free Survival (PFS)",
+          "description": "Defined as the interval between randomization and the first occurrence of disease progression, as determined by the investigator according to RECIST (version 1.1), or death from any cause, whichever occurred first.",
+          "timeFrame": "Assessed every 8 weeks until disease progression or death"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Defined as the interval between randomization and death from any cause.",
+          "timeFrame": "From randomization until death"
+        },
+        {
+          "measure": "Confirmed Objective Response Rate",
+          "description": "Investigator assessed per RECIST (version 1.1) in patients with measurable disease.",
+          "timeFrame": "Assessed every 8 weeks"
+        },
+        {
+          "measure": "Duration of Response",
+          "description": "Assessed in responding patients.",
+          "timeFrame": "From first documentation of response until disease progression or death"
+        },
+        {
+          "measure": "Clinical Benefit Rate",
+          "description": "Defined as complete or partial response, or stable disease sustained for ≥ 24 weeks in patients with measurable disease at baseline.",
+          "timeFrame": "At least 24 weeks"
+        },
+        {
+          "measure": "Patient-Reported Outcomes (PROs)",
+          "description": "Assessed using selected scales of the European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire Core 30 (EORTC QLQ-C30) including Global Health Status/Quality of Life and pain scales.",
+          "timeFrame": "Baseline, day 1 of each subsequent cycle (28 days), and at treatment discontinuation"
+        },
+        {
+          "measure": "Safety (Adverse Events)",
+          "description": "Adverse events (AEs) assessed and graded according to Common Terminology Criteria for Adverse Events (version 4.0).",
+          "timeFrame": "Through study completion"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Independent Review Committee (IRC)-assessed PFS",
+          "description": "Sensitivity analysis of PFS according to independent review committee (IRC) assessment.",
+          "timeFrame": "Assessed every 8 weeks until disease progression or death"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- HR+ (≥ 1% staining) HER2–PIK3CA/AKT1/PTEN-altered measurable aBC according to Response Evaluation Criteria in Solid Tumors (RECIST; version 1.1)\n- Tumor PIK3CA/AKT1/PTEN alteration status determined from the most recently available tumor tissue sample using the Foundation Medicine Inc next-generation sequencing Clinical Trial Assay (CTA)\n- Inappropriate for endocrine-based therapy (i.e., demonstrated insensitivity to endocrine therapy or visceral crisis)\n- Candidate for taxane monotherapy\n- Eastern Cooperative Oncology Group performance status 0 or 1\n\nExclusion Criteria:\n- Prior chemotherapy for aBC or diagnosis of aBC < 1 year since last (neo)adjuvant chemotherapy\n- History of or known presence of brain or spinal cord metastases",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

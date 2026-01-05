@@ -1,0 +1,56 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04568031,NCT04568031,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,Study of AZD1222 for the Prevention of COVID-19 in Japan,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,"A Phase I/II Randomized, Double-blind, Placebo-controlled Multicentre Study in Participants Aged 18 Years or Older to Determine the Safety and Immunogenicity of AZD1222, a Non-replicating ChAdOx1 Vector Vaccine, for the Prevention of COVID-19",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,FP,"The COVID-19 pandemic has caused major disruption to healthcare systems with significant socioeconomic impacts. Currently, there are no licensed preventions available against COVID-19 and accelerated vaccine development is urgently needed. A safe and effective vaccine for COVID 19 prevention would have significant global public health impact.","This ongoing phase 1/2, randomized, double-blind, parallel-group, placebo-controlled, multi-centre trial evaluated the immunogenicity and safety of the AZD1222 (ChAdOx1 nCoV-19) vaccine in Japanese adults. Participants aged 18 years and older, stratified into cohorts including elderly individuals (≥70 years), were randomized to receive two intramuscular doses of AZD1222 or placebo administered 4 weeks apart. The study reports on immunogenicity responses and safety data collected up to Day 57.",False,0.4,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"The study enrolled 256 adults seronegative for SARS-CoV-2, stratified by age into 18–55 (n=128), 56–69 (n=86), and ≥70-year-old cohorts (n=42). Participants were randomized in a 3:1 ratio to receive either AZD1222 (5 × 10^10 viral particles/dose) or saline placebo on Days 1 and 29. Coprimary endpoints included immunogenicity, measured by anti-SARS-CoV-2 spike seroresponse (≥4-fold rise in titre from baseline) at Day 57, and safety, measured by solicited local and systemic adverse events (AEs) for 6 days post-dose and unsolicited AEs for 28 days post-dose. Secondary endpoints included seroresponse for the receptor-binding domain (RBD) antigen and SARS-CoV-2 neutralizing antibody (nAb) titres. The trial aimed to assess the vaccine's profile in the Japanese population, particularly in older age groups at higher risk for severe COVID-19.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['COVID-19'],"['COVID-19', 'SARS-CoV-2 Infection']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,TP,['COVID-19 Vaccine'],"['AZD1222', 'ChAdOx1 nCoV-19', 'COVID-19 Vaccine', 'Immunogenicity', 'Safety', 'Japanese adults', 'Elderly', 'Randomized Controlled Trial']",True,1.0,superset,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,"['PHASE1', 'PHASE2']","['PHASE1', 'PHASE2']",True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Participants were stratified by age into 18–55-, 56–69- and ≥70-year-old cohorts, and randomized 3:1 to receive AZD1222 or placebo (two intramuscular injections 4 weeks apart).",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,QUADRUPLE,DOUBLE,True,0.7,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"AZD1222 and placebo were prepared by an unblinded pharmacist. Participants, clinical investigators and sponsor staff were blinded to the study vaccination received until completion of safety data lock at Day 57.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'INVESTIGATOR', 'CARE_PROVIDER']",True,0.75,partial,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,256,256,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Participants aged 18 to 55 years (Cohort A and C), aged 56 to 69 years (Subcohorts B1 and D1), or aged ≥ 70 years (Subcohorts B2 and D2)
+
+Exclusion Criteria:
+
+1. Known past laboratory-confirmed SARS-CoV-2 infection
+2. Positive SARS-CoV-2 RT PCR test at screening
+3. Seropositivity to SARS-CoV-2 at screening.
+4. Significant infection or other illness, including fever \> 37.8°C on the day prior to or day randomization
+5. History of Guillain-Barré syndrome
+6. Any confirmed or suspected immunosuppressive or immunodeficient state; asplenia; recurrent severe infections and use of immunosuppressant medication within the past 6 months, except topical steroids or short-term oral steroids (course lasting ≤ 14 days)
+7. History of allergy to any component of the vaccine
+8. Any history of angioedema
+9. Any history of anaphylaxis
+10. Current diagnosis of or treatment for cancer (except basal cell carcinoma of the skin and uterine cervical carcinoma in situ)
+11. History of serious psychiatric condition likely to affect participation in the study
+12. Bleeding disorder (eg, factor deficiency, coagulopathy or platelet disorder), or prior history of significant bleeding or bruising following IM injections or venepuncture
+13. Suspected or known current alcohol or drug dependency
+14. Any other significant disease, disorder or finding which may significantly increase the risk to the participant because of participation in the study, affect the ability of the participant to participate in the study or impair interpretation of the study data
+15. Severe and/or uncontrolled cardiovascular disease, respiratory disease, gastrointestinal disease, liver disease, renal disease, endocrine disorder and neurological illness (mild/moderate well controlled comorbidities are allowed)","Inclusion Criteria:
+* Adults aged ≥18 years
+* Seronegative for SARS-CoV-2 at screening
+* Negative reverse-transcriptase polymerase chain reaction test for SARS-CoV-2
+
+Exclusion Criteria:
+* History of laboratory-confirmed SARS-CoV-2 infection
+* Pregnant women
+* New onset of fever
+* Any confirmed or suspected immunodeficient state
+* Receipt of any vaccine within 30 days before or after each study dose
+* Prior or planned receipt of an investigational or licensed vaccine or product that may impact interpretation of trial data (e.g. adenovirus-vectored vaccines or coronavirus vaccines)
+* Severe and/or uncontrolled cardiovascular, respiratory, gastrointestinal, hepatic or renal disease, endocrine disorder or neurologic illness",True,0.78,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

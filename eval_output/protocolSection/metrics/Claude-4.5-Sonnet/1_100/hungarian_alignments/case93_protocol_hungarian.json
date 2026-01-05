@@ -1,0 +1,151 @@
+{
+  "metadata": {
+    "case_id": 93,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T19:33:40.523166",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/93_NCT02313272.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/93_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "HFSRT with Pembrolizumab and Bevacizumab",
+            "type": "EXPERIMENTAL",
+            "description": "Hypofractionated Stereotactic Irradiation (HFSRT). Pembrolizumab intravenous (IV) infusion every 3 weeks. Bevacizumab administered intravenously every 2 weeks.",
+            "interventionNames": [
+              "Radiation: Hypofractionated Stereotactic Irradiation (HFSRT)",
+              "Drug: Pembrolizumab",
+              "Drug: Bevacizumab"
+            ]
+          },
+          "pred_item": {
+            "label": "Recurrent High-Grade Glioma Patients",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with recurrent high-grade glioma (rHGG) treated with hypofractionated stereotactic radiotherapy (HFSRT) at 6 Gy × 5 fractions delivered consecutively over 1 week, combined with bevacizumab and pembrolizumab.",
+            "interventionNames": [
+              "RADIATION: Hypofractionated Stereotactic Radiotherapy (HFSRT)",
+              "DRUG: Bevacizumab",
+              "DRUG: Pembrolizumab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.2,
+          0.2
+        ],
+        [
+          0.15,
+          0.2,
+          0.86
+        ],
+        [
+          0.22,
+          0.92,
+          0.35
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "RADIATION",
+            "name": "Hypofractionated Stereotactic Irradiation (HFSRT)",
+            "description": "Radiation therapy treatment (FSRT) which will be given to participants over 5 days.",
+            "armGroupLabels": [
+              "HFSRT with Pembrolizumab and Bevacizumab"
+            ]
+          },
+          "pred_item": {
+            "type": "RADIATION",
+            "name": "Hypofractionated Stereotactic Radiotherapy (HFSRT)",
+            "description": "30-35 Gy to planning target volume (PTV) with simultaneously integrated boost to gross tumor volume (GTV) of D95% = 30-40 Gy, delivered as 6 Gy × 5 fractions in consecutive daily treatments. Treatment plans calculated using iPlan (Version 1.1, Brainlab) and delivered as intensity modulated radiotherapy using volumetric modulated arc therapy with image guidance.",
+            "armGroupLabels": [
+              "Recurrent High-Grade Glioma Patients"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Pembrolizumab",
+            "description": "Dose Escalation: The dose of pembrolizumab will be escalated per schema in a 3+3 fashion. The starting dose (i.e., dose level 1) will be 100 mg.\n\nDose Expansion: The pembrolizumab dose used in the dose expansion cohort will be maximum tolerated dose (MTD) determined from the dose escalation phase.",
+            "armGroupLabels": [
+              "HFSRT with Pembrolizumab and Bevacizumab"
+            ],
+            "otherNames": [
+              "Keytruda®",
+              "MK-3475"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Pembrolizumab",
+            "description": "Anti-PD1 antibody administered intravenously at 100 mg or 200 mg every 3 weeks until progression",
+            "armGroupLabels": [
+              "Recurrent High-Grade Glioma Patients"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Bevacizumab",
+            "description": "Initial cycle of bevacizumab must start within 10 days of registering to the trial. It will be given concurrent with radiation therapy. Bevacizumab will be administered intravenously at a dose of 10 mg/kg every 2 weeks. Doses will be adjusted if there is a \\> 10% change in weight.",
+            "armGroupLabels": [
+              "HFSRT with Pembrolizumab and Bevacizumab"
+            ],
+            "otherNames": [
+              "Avastin®"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Bevacizumab",
+            "description": "VEGF inhibitor administered intravenously at 10 mg/kg every 2 weeks",
+            "armGroupLabels": [
+              "Recurrent High-Grade Glioma Patients"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

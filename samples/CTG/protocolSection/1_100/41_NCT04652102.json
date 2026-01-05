@@ -1,0 +1,260 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04652102",
+      "orgStudyIdInfo": {
+        "id": "CV-NCOV-004"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2020-003998-22",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "CureVac",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Phase 2b/3, Randomized, Observer-Blinded, Placebo-Controlled, Multicenter Clinical Study Evaluating the Efficacy and Safety of Investigational SARS-CoV-2 mRNA Vaccine CVnCoV in Adults 18 Years of Age and Older",
+      "officialTitle": "COVID-19: A Phase 2b/3, Randomized, Observer-Blinded, Placebo-Controlled, Multicenter Clinical Study Evaluating the Efficacy and Safety of Investigational SARS-CoV-2 mRNA Vaccine CVnCoV in Adults 18 Years of Age and Older"
+    },
+    "descriptionModule": {
+      "briefSummary": "The primary objective of the randomized observer-blinded phase 2b/3 part of this trial is to demonstrate the efficacy of a 2-dose schedule of CVnCoV in the prevention of first episodes of virologically-confirmed cases of COVID-19 of any severity in SARS-CoV-2 naïve participants.",
+      "detailedDescription": "This clinical trial information was submitted voluntarily under the applicable law and, therefore, certain submission deadlines may not apply. (That is, clinical trial information for this applicable clinical trial was submitted under section 402(j)(4)(A) of the Public Health Service Act and 42 CFR 11.60 and is not subject to the deadlines established by sections 402(j)(2) and (3) of the Public Health Service Act or 42 CFR 11.24 and 11.44.)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Covid19",
+        "SARS-CoV-2"
+      ],
+      "keywords": [
+        "Vaccine"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "The randomized observer-blinded phases of this study are participant and investigator blinded. This is followed by an open-label phase.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 39680,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Randomized Observer-blinded Phase 2b: CVnCoV vaccine",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be vaccinated with CVnCoV 12 µg vaccine on Day 1 and Day 29 in the deltoid area, preferably in the non-dominant arm.",
+          "interventionNames": [
+            "Biological: CVnCoV"
+          ]
+        },
+        {
+          "label": "Randomized Observer-blinded Phase 2b: Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will be administered the matching placebo on Day 1 and Day 29 in the deltoid area, preferably in the non-dominant arm.",
+          "interventionNames": [
+            "Biological: Placebo"
+          ]
+        },
+        {
+          "label": "Randomized Observer-blinded Phase 3: CVnCoV vaccine",
+          "type": "EXPERIMENTAL",
+          "description": "Participants will be vaccinated with CVnCoV 12 µg vaccine on Day 1 and Day 29 in the deltoid area, preferably in the non-dominant arm.",
+          "interventionNames": [
+            "Biological: CVnCoV"
+          ]
+        },
+        {
+          "label": "Randomized Observer-blinded Phase 3: Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants will be administered the matching placebo on Day 1 and Day 29 in the deltoid area, preferably in the non-dominant arm.",
+          "interventionNames": [
+            "Biological: Placebo"
+          ]
+        },
+        {
+          "label": "Open-label Phase",
+          "type": "EXPERIMENTAL",
+          "description": "After unblinding, the trial will shift from a randomized observer-blinded to an open-label design, and the following cohorts will be defined:\n\nCohort A: participants who received at least 1 dose of CVnCoV in the randomized observer-blinded phases and choose to receive an authorized/licensed vaccine for preventing COVID-19 (AV) as standard of care through their national vaccination program.\n\nCohort B: participants who received at least 1 dose of CVnCoV in the randomized observer-blinded phases and choose to remain in the trial without receiving any AV.\n\nParticipants on the placebo arm will be withdrawn.",
+          "interventionNames": [
+            "Biological: Authorized/licensed vaccines for preventing COVID-19 (AV) as standard of care through their national vaccination program"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "CVnCoV",
+          "description": "Intramuscular (IM) injection.",
+          "armGroupLabels": [
+            "Randomized Observer-blinded Phase 2b: CVnCoV vaccine",
+            "Randomized Observer-blinded Phase 3: CVnCoV vaccine"
+          ],
+          "otherNames": [
+            "CV07050101"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Placebo",
+          "description": "Intramuscular (IM) injection.",
+          "armGroupLabels": [
+            "Randomized Observer-blinded Phase 2b: Placebo",
+            "Randomized Observer-blinded Phase 3: Placebo"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Authorized/licensed vaccines for preventing COVID-19 (AV) as standard of care through their national vaccination program",
+          "description": "Intramuscular (IM) injection will be received as standard of care (SoC) outside the study.",
+          "armGroupLabels": [
+            "Open-label Phase"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Number of Participants Who Experienced a First Episode of Virologically-confirmed {Reverse Transcription Polymerase Chain Reaction (RT-PCR) Positive} Case of COVID-19 of Any Severity",
+          "description": "A case of COVID-19 meeting the definition for primary efficacy analysis was defined as follows:\n\n* Virologically-confirmed case of COVID-19 (of any severity) defined as a positive SARS-CoV-2 specific RT-PCR test in a person with clinically symptomatic COVID-19.\n* Symptom onset ≥ 15 days after second trial vaccination.\n* First episode of virologically-confirmed COVID-19, i.e. the participant must not have had a history of virologically-confirmed COVID-19 illness at enrollment or have had developed a case of virologically-confirmed COVID-19 before 15 days after the second trial vaccination.\n* Participant was SARS-CoV-2 naïve at baseline and Day 43 (defined as seronegative to N protein in the blood samples collected at baseline and Day 43).\n* Primary efficacy cases were confirmed by an Adjudication Committee.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Day 44 to Day 393"
+        },
+        {
+          "measure": "Number of Participants Who Experienced One or More Medically-attended Adverse Events (AE)",
+          "description": "Medically-attended AEs were defined as AEs with medically-attended visits that were not routine visits for physical examination or vaccination, such as visits for hospitalization, an emergency room visit, or an otherwise unscheduled visit to or from medical personnel (medical doctor) for any reason. Clinic visits for COVID-19 testing resulting in negative test results were not considered as medically attended visits, if there is no confirmed diagnosis and no prescribed concomitant medication.\n\nThe Investigator assessed the relationship between trial vaccine and occurrence of each AE.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Day 1 to Day 211"
+        },
+        {
+          "measure": "Number of Participants Who Experienced One or More Serious AE (SAE)",
+          "description": "An SAE was defined as any untoward medical occurrence that, at any dose:\n\n* Resulted in death.\n* Was life-threatening.\n* Required inpatient hospitalization or prolongation of existing hospitalization.\n* Resulted in persistent disability/incapacity.\n* Was a congenital anomaly/birth defect in the offspring of the participant.\n* Was an important medical event.\n\nThe Investigator assessed the relationship between trial vaccine and occurrence of each SAE.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Day 1 to Day 393"
+        },
+        {
+          "measure": "Intensity of SAEs as Per Investigator Assessment",
+          "description": "An SAE was defined as any untoward medical occurrence that, at any dose:\n\n* Resulted in death.\n* Was life-threatening.\n* Required inpatient hospitalization or prolongation of existing hospitalization.\n* Resulted in persistent disability/incapacity.\n* Was a congenital anomaly/birth defect in the offspring of the participant.\n* Was an important medical event.\n\nThe Investigator made an assessment of intensity of each SAE reported during the trial. Each SAE was graded from Mild (Grade 1) to Severe (Grade 3), where higher grades indicated a worse outcome.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Day 1 to Day 393"
+        },
+        {
+          "measure": "Number of Participants Who Experienced One or More Adverse Event of Special Interest (AESI)",
+          "description": "AESIs included:\n\n* AEs with a suspected immune-medicated etiology.\n* Other AEs relevant to SARS-CoV-2 vaccine development or the target disease.\n\nThe Investigator assessed the relationship between trial vaccine and occurrence of each AESI.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Day 1 to Day 393"
+        },
+        {
+          "measure": "Number of Participants Who Experienced a Fatal SAE",
+          "description": "A fatal SAE was defined as an SAE that resulted in death.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Day 1 to Day 393"
+        },
+        {
+          "measure": "Phase 2b Participants Only: Number of Participants Who Experienced One or More Solicited AE",
+          "description": "Solicited local AEs (injection site pain, redness, swelling, and itching) and solicited systemic AEs (fever, headache, fatigue, chills, myalgia, arthralgia, nausea/vomiting, and diarrhea) were recorded on the day of vaccination and the following 7 days using an eDiary.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Up to 7 days after vaccination (Days 1 to 7 and Days 29 to 36)"
+        },
+        {
+          "measure": "Phase 2b Participants Only: Intensity of Solicited AEs as Per Investigator Assessment",
+          "description": "Solicited local AEs (injection site pain, redness, swelling, and itching) and solicited systemic AEs (fever, headache, fatigue, chills, myalgia, arthralgia, nausea/vomiting, and diarrhea) were recorded on the day of vaccination and the following 7 days using an eDiary.\n\nThe Investigator made an assessment of intensity of each solicited AE reported during the trial. Each solicited AE was graded from Mild (Grade 1) to Severe (Grade 3), where higher grades indicated a worse outcome.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Up to 7 days after vaccination (Days 1 to 7 and Days 29 to 36)"
+        },
+        {
+          "measure": "Phase 2b Participants Only: Duration of Solicited AEs",
+          "description": "Solicited local AEs (injection site pain, redness, swelling, and itching) and solicited systemic AEs (fever, headache, fatigue, chills, myalgia, arthralgia, nausea/vomiting, and diarrhea) were recorded on the day of vaccination and the following 7 days using an eDiary. Duration is calculated as consecutive days with a respective solicited AE regardless of the grade of the AE. AEs ongoing after Day 8 are included. In each case only the longest consecutive duration is displayed.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Up to 7 days after vaccination (Days 1 to 7 and Days 29 to 36)"
+        },
+        {
+          "measure": "Phase 2b Participants Only: Number of Participants Who Experienced One or More Unsolicited AE",
+          "description": "eDiaries were used for collection of unsolicited AEs on each vaccination day and the following 28 days. In addition, participants received a prompt (by e.g., a phone call or text message) to verify whether the participants had any health concerns since the last visit. The Investigator assessed the relationship between trial vaccine and each occurrence of each AE.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Up to 28 days after vaccination (Days 1 to 29 and Days 29 to 57)"
+        },
+        {
+          "measure": "Phase 2b Participants Only: Intensity of Unsolicited AEs as Per Investigator Assessment",
+          "description": "eDiaries were used for collection of unsolicited AEs on each vaccination day and the following 28 days. In addition, participants received a prompt (by e.g., a phone call or text message) to verify whether the participants had any health concerns since the last visit.\n\nThe Investigator made an assessment of intensity of each unsolicited AE reported during the trial. Each unsolicited AE was graded from Mild (Grade 1) to Severe (Grade 3), where higher grades indicated a worse outcome.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Up to 28 days after vaccination (Days 1 to 29 and Days 29 to 57)"
+        },
+        {
+          "measure": "Number of Participants Who Experienced One or More AEs Leading to Vaccine Withdrawal or Trial Discontinuation",
+          "description": "Participants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Day 1 to Day 393"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Participants Who Experienced a First Episode of Virologically-confirmed (RT-PCR Positive) Moderate to Severe Case of COVID-19",
+          "description": "Moderate cases defined by any 1 of the following:\n\n* Shortness of breath/difficulty breathing\n* Respiratory rate ≥20 to \\<30 breaths per min\n* Abnormal SpO2 but still \\>93% on room air at sea level\n* Clinical/radiographic evidence of lower respiratory tract disease\n* Radiologic evidence of DVT\n\nSevere cases defined by any 1 of the following:\n\n* Clinical signs at rest indicative of severe systemic illness (respiratory rate ≥ 30breaths per minute, heart rate ≥125 per minute, SpO2 ≤93% on room air at sea level or PaO2/FIO2 \\<300 mm Hg)\n* Respiratory failure (defined as needing high flow-oxygen, noninvasive ventilation, mechanical ventilation or ECMO)\n* Evidence of shock (SBP \\<90mm Hg, DBP \\<60 mmHg or requiring vasopressors)\n* Significant renal, hepatic, or neurologic dysfunction\n* Admission to ICU\n* Death\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Day 44 to Day 393"
+        },
+        {
+          "measure": "Number of Participants Who Experienced a First Episode of Virologically-confirmed (RT-PCR Positive) Severe Case of COVID-19",
+          "description": "Severe COVID-19 cases were defined by any one of the following:\n\n* Clinical signs at rest indicative of severe systemic illness (respiratory rate ≥ 30 breaths per minute, heart rate ≥ 125 per minute, SpO2 ≤ 93% on room air at sea level or PaO2/FIO2 \\< 300 mm Hg).\n* Respiratory failure (defined as needing high flow-oxygen, noninvasive ventilation, mechanical ventilation or ECMO).\n* Evidence of shock (SBP \\< 90mm Hg, DBP \\< 60 mmHg, or requiring vasopressors).\n* Significant renal, hepatic, or neurologic dysfunction\n* Admission to intensive care unit (ICU).\n* Death.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Day 44 to Day 393"
+        },
+        {
+          "measure": "Number of Participants Who Experienced a First Episode of Virologically-confirmed (RT-PCR Positive) Case of COVID-19 of Any Severity Due to Infection With \"Wild Type\" and \"Alpha\" SARS-CoV-2 Strains in SARS-CoV-2 Naïve Participants",
+          "description": "The characterization of SARS-CoV-2 variants were implemented by viral whole genome sequencing of nasopharyngeal swab samples of participants followed by comparison with previously sequenced and typified genomes. The following phylogenetic clustering was applied:\n\n1. \"Wild type\" virus: WT/D614G, lineages A.1/B.1 without the variant of concerns (VOCs) (i.e., without B.1.1.7 \\[Alpha\\], B.1.351 \\[Beta\\], B.1.429 \\[Epsilon\\]).\n2. \"UK\" VOC: B.1.1.7 (Alpha).\n\nA case of COVID-19 was defined as follows:\n\n* Virologically-confirmed case of COVID-19 defined as a positive SARS-CoV-2 specific RT-PCR test in a person with clinically symptomatic COVID-19.\n* Symptom onset ≥ 15 days after second vaccination.\n* First episode of virologically-confirmed COVID-19.\n* Participant was SARS-CoV-2 naïve at baseline and Day 43.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Day 44 to Day 393"
+        },
+        {
+          "measure": "Number of Participants Aged ≥ 61 Who Experienced a First Episode of Virologically-confirmed (RT-PCR Positive) Case of COVID-19 of Any Severity",
+          "description": "A case of COVID-19 was defined as follows:\n\n* Virologically-confirmed case of COVID-19 (of any severity) defined as a positive SARS-CoV-2 specific RT-PCR test in a person with clinically symptomatic COVID-19.\n* Symptom onset ≥ 15 days after second trial vaccination.\n* First episode of virologically-confirmed COVID-19, i.e. the participant must not have had a history of virologically-confirmed COVID-19 illness at enrollment or have had developed a case of virologically-confirmed COVID-19 before 15 days after the second trial vaccination.\n* Participant was SARS-CoV-2 naïve at baseline and Day 43 (defined as seronegative to N protein in the blood samples collected at baseline and Day 43).\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Day 44 to Day 393"
+        },
+        {
+          "measure": "Burden of Disease (BoD) Score #1 Based on First Episodes of Virologically-confirmed (RT-PCR Positive) Cases of COVID-19",
+          "description": "Score #1 was defined as no disease (not infected or asymptomatic infection) = 0; mild or moderate disease = 1; severe disease = 2.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Day 44 to Day 393"
+        },
+        {
+          "measure": "BoD Score #2 Based on First Episodes of Virologically-confirmed (RT-PCR Positive) Cases of COVID-19",
+          "description": "Score #2 was defined as no disease (not infected or asymptomatic infection) = 0; disease without hospitalization = 1; disease with hospitalization = 2; death = 3.\n\nParticipants were censored at the first day after unblinding or at the day after receiving the authorized/licensed vaccine, whichever was earlier.",
+          "timeFrame": "Day 44 to Day 393"
+        },
+        {
+          "measure": "SARS-CoV-2 Receptor Binding Domain (RBD) of Spike (S) Protein Antibody Levels on Days 1, 29, 43, 120 and 211",
+          "description": "Titers of IgG antibodies directed against the SARS-CoV-2 RBD of Spike Protein antigen were measured by enzyme- linked immunosorbent assay (ELISA) and expressed as geometric mean of titers (GMT) with 95% confidence interval (CI), by group. Individual values below the lower limit of quantification (LLOQ) were set to half of the LLOQ. Only participants seronegative at baseline with evaluable samples at each visit are included. Participants who tested positive for SARS-CoV-2 via PCR or N-protein antibodies had their data included up to the point of positive test result or symptom onset.\n\nParticipants who received a licensed/authorized vaccine were censored at the day after receiving the licensed/authorized vaccine.",
+          "timeFrame": "Days 1 (baseline), 29, 43, 120 and 211"
+        },
+        {
+          "measure": "Percentage of Participants Seroconverting to SARS-CoV-2 RBD of S Protein Antibodies on Days 29, 43, 120 and 211",
+          "description": "Titers of IgG antibodies directed against the SARS-CoV-2 RBD of Spike Protein antigen were measured by ELISA. Percentage with 95% CI of participants for whom a seroconversion was observed is presented by group. In participants who tested seronegative to the N protein for SARS-CoV-2 at baseline, seroconversion was defined as a fold increase above 1 in antibody titer against SARS-CoV-2 RBD of S protein. Only participants seronegative at baseline with evaluable samples at each visit are included. Participants who tested positive for SARS-CoV-2 via PCR or N-protein antibodies had their data included up to the point of positive test result or symptom onset. Participants who received a licensed/authorized vaccine were censored at the day after receiving the licensed/authorized vaccine.",
+          "timeFrame": "Baseline and Days 29, 43, 120 and 211"
+        },
+        {
+          "measure": "SARS-CoV-2 Viral Neutralizing Antibody Levels on Days 1, 29, 43, 120 and 211",
+          "description": "Titers of viral neutralizing antibodies were determined by an activity assay and expressed as GMT with 95% CI, by group. Individual values below the LLOQ were set to half of the LLOQ. Only participants seronegative at baseline with evaluable samples at each visit are included. Participants who have tested positive for SARS-CoV-2 via PCR or N-protein antibodies have their data included up to the point of positive test result or symptom onset. Participants who received a licensed/authorized vaccine were censored at the day after receiving the licensed/authorized vaccine.",
+          "timeFrame": "Days 1 (baseline), 29, 43, 120 and 211"
+        },
+        {
+          "measure": "Percentage of Participants Seroconverting to SARS-CoV-2 Viral Neutralizing Antibodies on Days 29, 43, 120 and 211",
+          "description": "Titers of viral neutralizing antibodies were determined by an activity assay. Percentage with 95% CI of participants for whom a seroconversion was observed is presented by group. In participants who tested seronegative to the N protein for SARS-CoV-2 at baseline, seroconversion was defined as a fold increase above 1 in antibody titer against SARS-CoV-2 neutralizing antibody titer. Only participants seronegative at baseline with evaluable samples at each visit are included. Participants who have tested positive for SARS-CoV-2 via PCR or N-protein antibodies have their data included up to the point of positive test result or symptom onset. Participants who received a licensed/authorized vaccine were censored at the day after receiving the licensed/authorized vaccine.",
+          "timeFrame": "Baseline and Days 29, 43, 120 and 211"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female participants 18 years of age or older.\n* Be willing and able to provide written informed consent prior to initiation of any trial procedures.\n* Expected compliance with protocol procedures and availability for clinical follow-up through the last planned visit.\n* Females of non-childbearing potential defined as follows: surgically sterile (history of bilateral tubal ligation/occlusion, bilateral oophorectomy or hysterectomy) or postmenopausal {defined as amenorrhea for ≥12 consecutive months prior to screening (Day 1) without an alternative medical cause}. A follicle-stimulating hormone (FSH) level may be measured at the discretion of the Investigator to confirm postmenopausal status.\n* Females of childbearing potential: negative pregnancy test (human chorionic gonadotropin \\[hCG\\]) within 24 hours prior to each trial vaccination on Day 1 and Day 29.\n* Females of childbearing potential must use highly effective methods of birth control from 2 weeks before the first administration of the trial vaccine until 3 months following the last administration. The following methods of birth control are considered highly effective when used consistently and correctly:\n\n  * Combined (estrogen and progestogen containing) hormonal contraception associated with inhibition of ovulation (oral, intravaginal or transdermal);\n  * Progestogen-only hormonal contraception associated with inhibition of ovulation (oral, injectable or implantable);\n  * Intrauterine devices;\n  * Intrauterine hormone-releasing systems;\n  * Bilateral tubal ligation;\n  * Vasectomized or infertile partner;\n  * Sexual abstinence {periodic abstinence (e.g., calendar, ovulation, symptothermal and post-ovulation methods) and withdrawal are not acceptable}.\n\nExclusion Criteria:\n\n* History of virologically-confirmed COVID-19 illness.\n* For females: pregnancy or lactation.\n* Use of any investigational or non-registered product (vaccine or drug) within 28 days preceding the administration of trial vaccine or planned use during the trial.\n* Receipt of any licensed vaccines within 28 days (for live vaccines) or 14 days (for inactivated or any other vaccines) prior to administration of the first trial vaccine.\n* Prior administration of any investigational SARS-CoV-2 vaccine or another coronavirus (SARS-CoV, Middle East Respiratory Syndrome-CoV) vaccine or planned used during the trial.\n* Any treatment with immunosuppressants or other immune-modifying drugs (including but not limited to anabolic steroids, corticosteroids, biologicals and methotrexate) for \\> 14 days total within 6 months preceding the administration of trial vaccine or planned use during the trial. For corticosteroid use, this means prednisone or equivalent, 0.5 mg/kg/day for 14 days or more. The use of inhaled, topical, or localized injections of corticosteroids (e.g., for joint pain/inflammation) is permitted.\n* Any medically diagnosed or suspected immunosuppressive or immunodeficient condition based on medical history and physical examination including known infection with human immunodeficiency virus (HIV), hepatitis B virus (HBV) or hepatitis C virus (HCV); current diagnosis of or treatment for cancer including leukemia, lymphoma, Hodgkin disease, multiple myeloma or generalized malignancy; chronic renal failure or nephrotic syndrome; and receipt of an organ or bone marrow transplant.\n* History of angioedema (hereditary or idiopathic) or history of any anaphylactic reaction.\n* History of potential immune-mediated disease (pIMD).\n* History of allergy to any component of CVnCoV.\n* Administration of immunoglobulins or any blood products within 3 months prior to the administration of trial vaccine or planned receipt during the trial.\n* Participants with a significant acute or chronic medical or psychiatric illness that, in the opinion of the Investigator, precludes trial participation (e.g., may increase the risk of trial participation, render the participant unable to meet the requirements of the trial, or may interfere with the participant's trial evaluations). These include severe and/or uncontrolled cardiovascular disease, gastrointestinal disease, liver disease, renal disease, respiratory disease, endocrine disorder, and neurological and psychiatric illnesses. However, those with controlled and stable cases can be included in the trial.\n* Participants with impaired coagulation or any bleeding disorder in whom an IM injection or a blood draw is contraindicated.\n* Foreseeable non-compliance with the trial procedure as judged by the Investigator.\n\nRoll-over Criteria for the Open-label Phase:\n\n* Participants must have received at least 1 dose of CVnCoV during the randomized observer blinded phase.\n* Participants must provide additional written informed consent to be eligible for the open label phase.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

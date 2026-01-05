@@ -1,0 +1,305 @@
+{
+  "metadata": {
+    "case_id": 2,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-28T02:25:10.899248",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/2_NCT03378635.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/2_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.4,
+          0.6
+        ],
+        [
+          0.35,
+          0.96,
+          0.15
+        ],
+        [
+          0.6,
+          0.4,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.3,
+          0.65
+        ],
+        [
+          0.78,
+          0.3,
+          0.88
+        ],
+        [
+          0.3,
+          0.98,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.88,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched"
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 11,
+      "pred_count": 8,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.95,
+          0.95,
+          0.96,
+          0.72,
+          0.78,
+          0.78,
+          0.72
+        ],
+        [
+          0.82,
+          0.72,
+          0.74,
+          0.7,
+          0.9,
+          0.9,
+          0.9,
+          0.88
+        ],
+        [
+          0.4,
+          0.5,
+          0.68,
+          0.6,
+          0.3,
+          0.15,
+          0.2,
+          0.35
+        ],
+        [
+          0.45,
+          0.3,
+          0.6,
+          0.6,
+          0.6,
+          0.55,
+          0.65,
+          0.7
+        ],
+        [
+          0.08,
+          0.08,
+          0.12,
+          0.08,
+          0.18,
+          0.18,
+          0.25,
+          0.35
+        ],
+        [
+          0.08,
+          0.08,
+          0.1,
+          0.08,
+          0.2,
+          0.15,
+          0.2,
+          0.35
+        ],
+        [
+          0.08,
+          0.08,
+          0.08,
+          0.08,
+          0.3,
+          0.35,
+          0.32,
+          0.35
+        ],
+        [
+          0.2,
+          0.09,
+          0.28,
+          0.2,
+          0.2,
+          0.25,
+          0.22,
+          0.2
+        ],
+        [
+          0.05,
+          0.08,
+          0.08,
+          0.08,
+          0.12,
+          0.1,
+          0.1,
+          0.08
+        ],
+        [
+          0.2,
+          0.15,
+          0.35,
+          0.4,
+          0.25,
+          0.28,
+          0.36,
+          0.3
+        ],
+        [
+          0.35,
+          0.25,
+          0.35,
+          0.2,
+          0.35,
+          0.28,
+          0.2,
+          0.32
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 4,
+          "score": 0.9,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.68,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 6,
+          "score": 0.65,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 7,
+          "score": 0.35,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 5,
+          "score": 0.35,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded"
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": 3,
+          "score": 0.4,
+          "status": "matched"
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": 0,
+          "score": 0.35,
+          "status": "matched"
+        }
+      ]
+    }
+  ]
+}

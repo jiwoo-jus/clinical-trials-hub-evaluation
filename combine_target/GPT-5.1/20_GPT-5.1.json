@@ -1,0 +1,178 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01302379",
+      "orgStudyIdInfo": {
+        "id": null,
+        "type": null,
+        "link": null
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "University of California San Diego",
+        "class": "OTHER"
+      },
+      "briefTitle": "Metformin and weight loss relationships with epigenetic age measures in overweight/obese postmenopausal breast cancer survivors",
+      "officialTitle": null,
+      "acronym": null
+    },
+    "descriptionModule": {
+      "briefSummary": "This post-hoc analysis used data from a 6‑month randomized controlled trial with a 2×2 factorial design in overweight or obese postmenopausal breast cancer survivors. Participants were assigned to metformin, placebo, weight loss plus metformin, or weight loss plus placebo. The study evaluated whether metformin therapy and/or a behavioral weight loss intervention could slow biological aging, as measured by nine DNA methylation-based epigenetic age biomarkers in blood. Although these biomarkers correlated well with chronological age, no significant differences in epigenetic age measures were found between intervention arms over 6 months.",
+      "detailedDescription": "This study is a post-hoc analysis of a previously conducted randomized controlled trial (clinicaltrials.gov identifier NCT01302379) that employed a 2×2 factorial design in overweight or obese postmenopausal breast cancer survivors. In the parent trial, 333 participants were randomized to one of four 6‑month interventions: daily metformin, placebo, a weight loss program with metformin, or a weight loss program with placebo. The weight loss intervention included a calorie goal and a moderate-intensity physical activity goal of 300 minutes per week delivered via a phone-based program.\n\nFor this epigenetic aging analysis, DNA methylation data were generated for 192 randomly selected participants using buffy coat DNA from fasting blood samples collected at baseline and at the 6‑month visit. DNA was processed with bisulfite conversion and profiled on the Illumina Infinium MethylationEPIC BeadChip. After quality control and probe filtering, 818,493 CpG probes remained for analysis. Beta values were normalized using functional normalization in the Bioconductor package \"minfi.\" Nine epigenetic aging (EA) measures were computed: DNAmAge Hannum, DNAmAge Horvath, DNAm SkinBloodClock, DNAm PhenoAge, DNAm GrimAge, DNA methylation-based telomere length (DNAm TL), EpiTOC, EpiTOC2, and MiAge. EpiTOC/EpiTOC2 and MiAge were calculated using published R code, and the remaining clocks were computed via a public online calculator.\n\nThe primary objective was to examine whether 6 months of metformin therapy and/or weight loss would decelerate epigenetic aging, as reflected by age-adjusted epigenetic age acceleration (EAA) measures in leukocytes, compared with placebo. Unadjusted and adjusted linear mixed-effects models with a random intercept for participant were used to assess baseline-to-end-of-study changes in each EAA marker, comparing the three active intervention arms (weight loss only, metformin only, and weight loss plus metformin) versus placebo. Adjusted models included covariates for days from randomization to the final visit and DNA methylation-derived leukocyte composition. Sensitivity analyses restricted to participants with high adherence (≥5% weight loss and/or ≥80% pill adherence) were also conducted.\n\nAll epigenetic age measures showed significant correlations with chronological age, with correlation coefficients ranging from 0.20 to 0.86. DNAm SkinBloodClock and DNAm GrimAge displayed the strongest positive correlations with age, while DNAm TL was negatively correlated, as expected for a telomere length proxy. Despite this, no intervention arm showed statistically significant differences or consistent trends in any epigenetic aging biomarker compared with placebo in either intent-to-treat or adherence-based analyses. A nominal association between high-adherence weight loss and accelerated epigenetic aging was observed for some measures (e.g., PhenoAge, DNAm TL), but these findings were opposite to the hypothesized direction and unlikely to remain significant after correction for multiple comparisons.\n\nThe investigators interpret the lack of significant effects as possibly reflecting insufficient intervention duration, tissue specificity of epigenetic clocks (leukocytes vs. other tissues such as liver), the relatively large measurement error of current clocks (often exceeding one year), and limited statistical power for detecting short-term changes. They also speculate that in older, overweight/obese cancer survivors, weight loss might worsen sarcopenia and muscle-fat imbalance, potentially contributing to increased biological aging in some contexts.\n\nThe study concludes that in this population of postmenopausal breast cancer survivors, six months of metformin and/or behavioral weight loss did not produce detectable changes in leukocyte epigenetic aging. The authors emphasize the need for longer-duration trials, better tissue targeting for epigenetic measurements, and consideration of body composition (muscle vs. fat) when designing interventions aimed at modifying biological aging as measured by DNA methylation-based clocks."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Neoplasms",
+        "Overweight",
+        "Obesity",
+        "Aging",
+        "Epigenesis, Genetic"
+      ],
+      "keywords": [
+        "breast cancer survivors",
+        "postmenopausal",
+        "metformin",
+        "weight loss",
+        "obesity",
+        "overweight",
+        "epigenetic aging",
+        "epigenetic clocks",
+        "DNA methylation",
+        "biological aging",
+        "Hannum epigenetic clock",
+        "Horvath epigenetic clock",
+        "SkinBloodClock",
+        "PhenoAge",
+        "GrimAge",
+        "DNA methylation-based telomere length",
+        "DNAm TL",
+        "EpiTOC",
+        "EpiTOC2",
+        "MiAge",
+        "mitotic age",
+        "telomere length",
+        "leukocytes",
+        "randomized controlled trial"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "interventionModelDescription": "Randomized controlled trial with a 2×2 factorial design assigning overweight/obese postmenopausal breast cancer survivors to metformin, placebo, weight loss with metformin, or weight loss with placebo for 6 months.",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Metformin versus placebo was conducted in a blinded fashion; participants and care providers were masked to metformin vs placebo assignment. Weight loss counseling vs no weight loss counseling was necessarily unblinded.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 333,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Metformin Only",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received daily metformin therapy for 6 months without a structured weight loss behavioral program.",
+          "interventionNames": [
+            "Metformin",
+            "Weight Loss Program"
+          ]
+        },
+        {
+          "label": "Placebo Only",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received a daily placebo for 6 months without a structured weight loss behavioral program.",
+          "interventionNames": [
+            "Placebo",
+            "Weight Loss Program"
+          ]
+        },
+        {
+          "label": "Weight Loss plus Metformin",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received daily metformin therapy combined with a weight loss intervention program for 6 months. The phone-based program included a calorie intake goal and a moderate-intensity physical activity goal of 300 minutes per week.",
+          "interventionNames": [
+            "Metformin",
+            "Weight Loss Program"
+          ]
+        },
+        {
+          "label": "Weight Loss plus Placebo",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received a daily placebo combined with a weight loss intervention program for 6 months. The phone-based program included a calorie intake goal and a moderate-intensity physical activity goal of 300 minutes per week.",
+          "interventionNames": [
+            "Placebo",
+            "Weight Loss Program"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Metformin",
+          "description": "Oral metformin administered daily for 6 months; used as an insulin-sensitizing agent and investigated here for potential effects on biological aging. Dose and exact schedule are not specified in the provided text but are described as similarly dosed to prior metformin trials.",
+          "armGroupLabels": [
+            "Metformin Only",
+            "Weight Loss plus Metformin"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Oral placebo tablets administered daily for 6 months, matching metformin in appearance and schedule.",
+          "armGroupLabels": [
+            "Placebo Only",
+            "Weight Loss plus Placebo"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Weight Loss Program",
+          "description": "A 6‑month, phone-based behavioral weight loss intervention that included a calorie intake goal and a moderate-intensity physical activity goal of 300 minutes per week, targeting overweight/obese postmenopausal breast cancer survivors.",
+          "armGroupLabels": [
+            "Metformin Only",
+            "Placebo Only",
+            "Weight Loss plus Metformin",
+            "Weight Loss plus Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Epigenetic age acceleration biomarkers",
+          "description": "Change from baseline to 6 months in nine leukocyte DNA methylation-based epigenetic age acceleration measures (residuals of epigenetic age regressed on chronological age): DNAmAge Hannum, DNAmAge Horvath, DNAmAge SkinBloodClock, DNAm PhenoAge, DNAm GrimAge, DNAm telomere length (age-adjusted), EpiTOC intrinsic rate, EpiTOC2 intrinsic rate, and MiAge intrinsic rate.",
+          "timeFrame": "Baseline and 6 months after randomization"
+        }
+      ],
+      "secondaryOutcomes": [],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "- Not reported in the provided article excerpt.",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A",
+      "stdAges": [],
+      "studyPopulation": "",
+      "samplingMethod": ""
+    }
+  }
+}

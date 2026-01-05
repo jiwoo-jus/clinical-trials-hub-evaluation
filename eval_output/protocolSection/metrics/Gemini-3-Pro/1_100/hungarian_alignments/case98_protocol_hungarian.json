@@ -1,0 +1,898 @@
+{
+  "metadata": {
+    "case_id": 98,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T19:58:32.083283",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/98_NCT02910583.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/98_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.15,
+          0.35,
+          0.52,
+          0.82
+        ],
+        [
+          0.6,
+          0.9,
+          0.78,
+          0.6
+        ],
+        [
+          0.92,
+          0.68,
+          0.68,
+          0.62
+        ],
+        [
+          0.22,
+          0.72,
+          0.74,
+          0.78
+        ],
+        [
+          0.32,
+          0.62,
+          0.76,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Fixed Duration (FD) Cohort: Open Label Ibrutinib + Venetoclax",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive 420 mg of single-agent ibrutinib for first 3 cycles followed by ibrutinib plus venetoclax combination treatment (ibrutinib 420 mg and venetoclax 400 mg orally once daily on a continuous schedule) for 12 cycles (a cycle is defined by 28 days) or until disease progression or unacceptable toxicity.",
+            "interventionNames": [
+              "Drug: ibrutinib",
+              "Drug: venetoclax"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "MRD Cohort/Confirmed Undetectable MRD (uMRD): Randomized to Ibrutinib (Blinded)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive 420 mg of single-agent ibrutinib for the first 3 cycles followed by ibrutinib plus venetoclax combination treatment for at least 12 cycles (a cycle is defined as 28 days) prior to randomization (pre-randomization phase).\n\nParticipants with confirmed uMRD are randomized to receive ibrutinib 420 mg orally once daily on a continuous schedule until MRD-positive relapse, disease progression (PD), or unacceptable toxicity.\n\nAfter MRD-positive relapse or disease progression (PD) by iwCLL criteria, participants can reintroduce 400 mg venetoclax with a 5-week ramp up. If venetoclax is to be reintroduced, venetoclax treatment is to continue at the dose of 400 mg/day for up to approximately 2 years (cumulative) until PD or unacceptable toxicity.",
+            "interventionNames": [
+              "Drug: ibrutinib",
+              "Drug: venetoclax"
+            ]
+          },
+          "pred_item": {
+            "label": "Confirmed uMRD: Ibrutinib",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients with Confirmed undetectable minimal residual disease (uMRD) after 12 cycles of combined ibrutinib plus venetoclax were randomly assigned to receive double-blind ibrutinib.",
+            "interventionNames": [
+              "Drug: Ibrutinib"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "MRD Cohort/Confirmed uMRD: Randomized Placebo (Blinded)",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants receive 420 mg of single-agent ibrutinib for the first 3 cycles followed by ibrutinib plus venetoclax combination treatment for at least 12 cycles (a cycle is defined as 28 days) prior to randomization (pre-randomization phase).\n\nParticipants with confirmed uMRD are randomized to receive placebo orally once daily on a continuous schedule until MRD-positive relapse, PD or unacceptable toxicity.\n\nIf MRD-positive relapse or PD is confirmed after restaging per iwCLL criteria, participants can first reintroduce oral daily ibrutinib with the option of subsequently reintroducing 400 mg venetoclax with a 5-week ramp up, if subsequent disease relapse per iwCLL criteria occurs after ibrutinib reintroduction. If venetoclax is to be reintroduced, venetoclax treatment is to continue at the dose of 400 mg/day for up to approximately 2 years (cumulative) until PD or unacceptable toxicity.",
+            "interventionNames": [
+              "Drug: ibrutinib",
+              "Drug: venetoclax",
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Confirmed uMRD: Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Patients with Confirmed undetectable minimal residual disease (uMRD) after 12 cycles of combined ibrutinib plus venetoclax were randomly assigned to receive double-blind placebo.",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.74,
+          "status": "matched",
+          "ref_item": {
+            "label": "MRD Cohort/uMRD Not Confirmed: Randomized to Ibrutinib (Open-Label)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive 420 mg of single-agent ibrutinib for the first 3 cycles followed by ibrutinib plus venetoclax combination treatment for at least 12 cycles (a cycle is defined as 28 days) prior to randomization (pre randomization phase).\n\nParticipants with uMRD not confirmed are randomized to receive open-label ibrutinib 420 mg orally once daily on a continuous schedule until PD or unacceptable toxicity.\n\nIn case of confirmed PD after restaging per iwCLL criteria, participants can continue ibrutinib and reintroduce venetoclax treatment. If venetoclax is to be reintroduced, venetoclax treatment is to continue at the dose of 400 mg/day for up to approximately 2 years (cumulative) until PD or unacceptable toxicity.",
+            "interventionNames": [
+              "Drug: ibrutinib",
+              "Drug: venetoclax"
+            ]
+          },
+          "pred_item": {
+            "label": "uMRD Not Confirmed: Ibrutinib",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients without Confirmed uMRD (uMRD Not Confirmed) after 12 cycles of combined ibrutinib plus venetoclax were randomly assigned to receive open-label ibrutinib.",
+            "interventionNames": [
+              "Drug: Ibrutinib"
+            ]
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 3,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "MRD Cohort/uMRD Not Confirmed: Randomized Ibrutinib + Venetoclax (Open-Label)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants receive 420 mg of single-agent ibrutinib for the first 3 cycles followed by ibrutinib plus venetoclax combination treatment for at least 12 cycles (a cycle is defined as 28 days) prior to randomization (pre randomization phase).\n\nParticipants with uMRD not confirmed are randomized to receive open-label ibrutinib 420 mg and venetoclax 400 mg orally once daily on a continuous schedule until PD or unacceptable toxicity. Venetoclax was allowed for administration up to 2 years cumulatively from first dose started in the pre-randomization phase to last dose in the randomization phase.",
+            "interventionNames": [
+              "Drug: ibrutinib",
+              "Drug: venetoclax"
+            ]
+          },
+          "pred_item": {
+            "label": "uMRD Not Confirmed: Ibrutinib + Venetoclax",
+            "type": "EXPERIMENTAL",
+            "description": "Patients without Confirmed uMRD (uMRD Not Confirmed) after 12 cycles of combined ibrutinib plus venetoclax were randomly assigned to receive open-label ibrutinib plus venetoclax.",
+            "interventionNames": [
+              "Drug: Ibrutinib",
+              "Drug: Venetoclax"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.4,
+          0.3
+        ],
+        [
+          0.75,
+          0.96,
+          0.1
+        ],
+        [
+          0.4,
+          0.2,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "ibrutinib",
+            "description": "ibrutinib administered orally once daily (three 140 mg capsules)",
+            "armGroupLabels": [
+              "Fixed Duration (FD) Cohort: Open Label Ibrutinib + Venetoclax",
+              "MRD Cohort/Confirmed Undetectable MRD (uMRD): Randomized to Ibrutinib (Blinded)",
+              "MRD Cohort/Confirmed uMRD: Randomized Placebo (Blinded)",
+              "MRD Cohort/uMRD Not Confirmed: Randomized Ibrutinib + Venetoclax (Open-Label)",
+              "MRD Cohort/uMRD Not Confirmed: Randomized to Ibrutinib (Open-Label)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Ibrutinib",
+            "description": "Administered orally, 420 mg once daily.",
+            "armGroupLabels": [
+              "Confirmed uMRD: Ibrutinib",
+              "uMRD Not Confirmed: Ibrutinib",
+              "uMRD Not Confirmed: Ibrutinib + Venetoclax"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "venetoclax",
+            "description": "venetoclax tablets will be administered orally once daily starting with a 5 week ramp up of 20 mg, 50 mg, 100 mg, 200 mg and 400 mg. After ramp up, venetoclax will be administered at 400 mg.",
+            "armGroupLabels": [
+              "Fixed Duration (FD) Cohort: Open Label Ibrutinib + Venetoclax",
+              "MRD Cohort/Confirmed Undetectable MRD (uMRD): Randomized to Ibrutinib (Blinded)",
+              "MRD Cohort/Confirmed uMRD: Randomized Placebo (Blinded)",
+              "MRD Cohort/uMRD Not Confirmed: Randomized Ibrutinib + Venetoclax (Open-Label)",
+              "MRD Cohort/uMRD Not Confirmed: Randomized to Ibrutinib (Open-Label)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Venetoclax",
+            "description": "Administered orally, target dose 400 mg once daily.",
+            "armGroupLabels": [
+              "uMRD Not Confirmed: Ibrutinib + Venetoclax"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "placebo capsules to match ibrutinib administered orally once daily",
+            "armGroupLabels": [
+              "MRD Cohort/Confirmed uMRD: Randomized Placebo (Blinded)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Double-blind placebo matching ibrutinib.",
+            "armGroupLabels": [
+              "Confirmed uMRD: Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.97
+        ],
+        [
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "MRD Cohort: 1-Year Disease-Free Survival (DFS) Rate in Confirmed uMRD Randomized Participants",
+            "description": "DFS is defined as time from randomization date to MRD-positive relapse, or disease progression per investigator assessment (per 2008 International Workshop for Chronic Lymphocytic Leukemia \\[IWCLL\\] criteria \\[Halleck et al\\]) or death from any cause, whichever occurred first. 1-year DFS estimated using Kaplan-Meier method at 12 months landmark time.",
+            "timeFrame": "1 year after randomization"
+          },
+          "pred_item": {
+            "measure": "1-year Disease-Free Survival (DFS) Rate",
+            "description": "DFS rate with placebo versus ibrutinib in the Confirmed uMRD population. One-year DFS was defined as absence of MRD relapse, progression, or death.",
+            "timeFrame": "1 year after random assignment"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "FD Cohort: Complete Response Rate (CRR; Complete Response/Complete Response With Incomplete Blood Count Recovery [CR/CRi]) Rate",
+            "description": "CR/CRi rate is defined as the percentage of participants achieving a best overall response of complete response (CR), CR with incomplete blood count recovery (CRi) per 2008 IWCLL criteria (halleck et al.) on or prior to initiation of subsequent antineoplastic therapy or, if applicable, reintroduction of study treatment, whichever occurred earlier.",
+            "timeFrame": "From the first dose of ibrutinib to the first confirmed PD, for a median follow-up of 69.0 months."
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 24,
+      "pred_count": 9,
+      "similarity_matrix": [
+        [
+          0.4,
+          0.7,
+          0.86,
+          0.3,
+          0.08,
+          0.18,
+          0.1,
+          0.05,
+          0.05
+        ],
+        [
+          0.35,
+          0.86,
+          0.38,
+          0.2,
+          0.08,
+          0.15,
+          0.08,
+          0.08,
+          0.12
+        ],
+        [
+          0.32,
+          0.5,
+          0.28,
+          0.9,
+          0.11,
+          0.4,
+          0.25,
+          0.08,
+          0.08
+        ],
+        [
+          0.86,
+          0.4,
+          0.18,
+          0.1,
+          0.2,
+          0.25,
+          0.08,
+          0.08,
+          0.12
+        ],
+        [
+          0.08,
+          0.18,
+          0.08,
+          0.08,
+          0.9,
+          0.08,
+          0.05,
+          0.1,
+          0.12
+        ],
+        [
+          0.4,
+          0.35,
+          0.08,
+          0.55,
+          0.05,
+          0.92,
+          0.35,
+          0.06,
+          0.08
+        ],
+        [
+          0.4,
+          0.18,
+          0.08,
+          0.2,
+          0.12,
+          0.35,
+          0.9,
+          0.05,
+          0.05
+        ],
+        [
+          0.18,
+          0.12,
+          0.12,
+          0.08,
+          0.15,
+          0.08,
+          0.08,
+          0.08,
+          0.93
+        ],
+        [
+          0.1,
+          0.82,
+          0.6,
+          0.12,
+          0.1,
+          0.18,
+          0.08,
+          0.08,
+          0.08
+        ],
+        [
+          0.09,
+          0.62,
+          0.32,
+          0.9,
+          0.1,
+          0.38,
+          0.29,
+          0.03,
+          0.02
+        ],
+        [
+          0.96,
+          0.32,
+          0.2,
+          0.05,
+          0.1,
+          0.18,
+          0.09,
+          0.1,
+          0.05
+        ],
+        [
+          0.08,
+          0.28,
+          0.1,
+          0.6,
+          0.08,
+          0.9,
+          0.35,
+          0.08,
+          0.05
+        ],
+        [
+          0.05,
+          0.18,
+          0.08,
+          0.4,
+          0.08,
+          0.45,
+          0.82,
+          0.05,
+          0.05
+        ],
+        [
+          0.07,
+          0.18,
+          0.08,
+          0.1,
+          0.94,
+          0.08,
+          0.05,
+          0.18,
+          0.12
+        ],
+        [
+          0.05,
+          0.08,
+          0.08,
+          0.05,
+          0.08,
+          0.08,
+          0.05,
+          0.08,
+          0.9
+        ],
+        [
+          0.2,
+          0.07,
+          0.05,
+          0.05,
+          0.08,
+          0.07,
+          0.07,
+          0.84,
+          0.05
+        ],
+        [
+          0.15,
+          0.08,
+          0.05,
+          0.05,
+          0.18,
+          0.08,
+          0.05,
+          0.9,
+          0.1
+        ],
+        [
+          0.12,
+          0.05,
+          0.03,
+          0.02,
+          0.19,
+          0.05,
+          0.05,
+          0.93,
+          0.05
+        ],
+        [
+          0.15,
+          0.08,
+          0.08,
+          0.12,
+          0.1,
+          0.08,
+          0.05,
+          0.86,
+          0.05
+        ],
+        [
+          0.13,
+          0.08,
+          0.05,
+          0.05,
+          0.1,
+          0.03,
+          0.05,
+          0.9,
+          0.1
+        ],
+        [
+          0.18,
+          0.07,
+          0.05,
+          0.05,
+          0.12,
+          0.08,
+          0.08,
+          0.88,
+          0.08
+        ],
+        [
+          0.17,
+          0.08,
+          0.04,
+          0.09,
+          0.12,
+          0.08,
+          0.05,
+          0.86,
+          0.1
+        ],
+        [
+          0.2,
+          0.12,
+          0.05,
+          0.08,
+          0.14,
+          0.03,
+          0.07,
+          0.9,
+          0.08
+        ],
+        [
+          0.2,
+          0.05,
+          0.1,
+          0.08,
+          0.15,
+          0.05,
+          0.05,
+          0.88,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "MRD Cohort: CRR (CR/CRi Rate)",
+            "description": "CR/CRi rate is defined as the percentage of participants achieving a best overall response of CR or CRi per 2008 IWCLL criteria (Halleck et al.) on or prior to initiation of subsequent antineoplastic therapy or, if applicable, reintroduction of study treatment, whichever occurred earlier.\n\nMedian follow up duration for the individual MRD Cohort treatment arms: Confirmed uMRD Ibrutinib arm 69.1 months; Confirmed uMRD Placebo arm 67.4 months; uMRD Not Confirmed Ibrutinib arm 47.9 months; uMRD Not Confirmed Ibrutinib + Venetoclax arm 47.9 months.",
+            "timeFrame": "From the first dose of ibrutinib to the first confirmed PD, for an overall median follow-up of 67.0 months. (Median follow up duration for the individual MRD Cohort treatment arms listed above.)"
+          },
+          "pred_item": {
+            "measure": "Complete Response (CR) Rate",
+            "description": "Includes CR with incomplete BM recovery (CRi).",
+            "timeFrame": "Throughout study"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "MRD Cohort: Overall Response Rate (ORR)",
+            "description": "ORR, defined as the percentage of participants achieving a best overall response of protocol-specified complete response (CR), CR with incomplete blood count recovery (CRi), nodular partial response (nPR), partial response (PR), or PR with lymphocytosis (PRL) evaluated in accordance with the 2008 IWCLL criteria (Halleck et al). Participants who did not have any postbaseline response assessment were considered as non-responders. This table is based on response assessments performed on or prior to initiation of subsequent antineoplastic therapy or, if applicable, reintroduction of study treatment, whichever occurs earlier. Kaplan-Meier estimate.\n\nMedian follow up duration for the individual MRD Cohort treatment arms: Confirmed uMRD Ibrutinib arm 69.1 months; Confirmed uMRD Placebo arm 67.4 months; uMRD Not Confirmed Ibrutinib arm 47.9 months; uMRD Not Confirmed Ibrutinib + Venetoclax arm 47.9 months.",
+            "timeFrame": "From the first dose of ibrutinib to the first confirmed PD, for an overall median follow-up of 67.0 months. (Median follow up duration for the individual MRD Cohort treatment arms listed above.)"
+          },
+          "pred_item": {
+            "measure": "Overall Response Rate",
+            "description": "Assessed per investigator assessment using 2008 iwCLL criteria.",
+            "timeFrame": "Throughout study"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "MRD Cohort: Duration of Response (DOR) at 42 Months Landmark Time",
+            "description": "Duration of response was calculated for participants achieving a response (CR, CRi, nPR, PR) based on 2008 IWCLL response criteria (Halleck et al.) and defined as the interval between the date of initial documentation of a response including PR with lymphocytosis, until disease progression (PD) or death from any cause, whichever occurred first. As the median DOR was not reached as of 67.0 months study follow-up, the Kaplan-Meier estimate of DOR at 42 months landmark time was presented.\n\nMedian follow up duration for the individual MRD Cohort treatment arms: Confirmed uMRD Ibrutinib arm 69.1 months; Confirmed uMRD Placebo arm 67.4 months; uMRD Not Confirmed Ibrutinib arm 47.9 months; uMRD Not Confirmed Ibrutinib + Venetoclax arm 47.9 months.",
+            "timeFrame": "From initial documentation of a response until PD or death from any cause, whichever occurs first, for an overall median follow-up of 67.0 months. (Median follow up duration for the individual MRD Cohort treatment arms listed above.)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "MRD Cohort: MRD-Negativity Rate",
+            "description": "MRD negativity rate is defined as the percentage of participants achieving MRD negativity, which is defined as \\<1 CLL cell per 10,000 leukocytes (\\<1 x 10\\^-4) as assessed by flow cytometry of a peripheral blood (PB) or bone marrow (BM) aspirate sample per central laboratory on or prior to initiation of subsequent antineoplastic therapy or, if applicable, reintroduction of study treatment, whichever occurs earlier.\n\nMedian follow up duration for the individual MRD Cohort treatment arms: Confirmed uMRD Ibrutinib arm 69.1 months; Confirmed uMRD Placebo arm 67.4 months; uMRD Not Confirmed Ibrutinib arm 47.9 months; uMRD Not Confirmed Ibrutinib + Venetoclax arm 47.9 months.",
+            "timeFrame": "From randomization date until before any subsequent antineoplastic therapy, for an overall median follow-up of 67.0 months. (Median follow up duration for the individual MRD Cohort treatment arms listed above.)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "MRD Cohort: Tumor Lysis Syndrome (TLS) Risk Reduction Rate With 3-Cycle Ibrutinib Lead-In (Percentage of Participants No Longer High Risk After 3-cycle Lead-in)",
+            "description": "TLS risk reduction was summarized by the percentage of participants with TLS risk reduced from high at baseline to medium or low after ibrutinib lead-in. A reduction in TLS risk from high risk to medium or low risk is clinically meaningful because there is a reduction in the extent of TLS monitoring and risk of hospitalization. TLS risk category is defined as the tumor burden category, where: Low=All lymph nodes (LN) \\< 5 cm AND absolute lymphocyte count (ALC) \\< 25 x 10\\^9/L; Medium=Any LN 5 cm to \\< 10 cm OR ALC ≥ 25 x 10\\^9/L; High=Any LN ≥ 10 cm OR ALC ≥ 25 x10\\^9/L AND any LN ≥ 5 cm.",
+            "timeFrame": "Baseline, and last post-baseline value on or prior to venetoclax first dose date (cycle 4 day 1) or, for participants who never received venetoclax, the post-baseline value closest to cycle 4 day 1 (i.e. 84 days after the first dose date of ibrutinib)."
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 5,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "MRD Cohort: Kaplan-Meier Estimate of Progression Free Survival (PFS) Rate at 48 Months Landmark Time",
+            "description": "PFS was defined as time from the first dose date of study treatment until disease progression (PD) or death from any cause, whichever occurs first. Assessment of PD was conducted in accordance with the 2008 IWCLL criteria (Halleck et al). As the median PFS was not reached as of the overall median 67.0 months study follow-up, the Kaplan-Meier estimate of PFS rate at 48 months landmark time was presented.\n\nMedian follow up duration for the individual MRD Cohort treatment arms: Confirmed uMRD Ibrutinib arm 69.1 months; Confirmed uMRD Placebo arm 67.4 months; uMRD Not Confirmed Ibrutinib arm 47.9 months; uMRD Not Confirmed Ibrutinib + Venetoclax arm 47.9 months.",
+            "timeFrame": "From the first dose of ibrutinib to the first confirmed PD or death, for an overall median follow-up of 67.0 months. (Median follow up duration for the individual MRD Cohort treatment arms listed above.)"
+          },
+          "pred_item": {
+            "measure": "Progression-Free Survival (PFS)",
+            "description": "Time from random assignment to disease progression or death.",
+            "timeFrame": "Throughout study (median follow-up 31.3 months)"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 6,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "MRD Cohort: Kaplan-Meier Estimate of Overall Survival (OS) Rate at 48 Months Landmark Time",
+            "description": "OS is defined as the time from the first dose date of study treatment until date of death due to any cause. As the median OS was not reached as of the overall median 67.0 months study follow-up, the Kaplan-Meier estimate of OS rate at 48 months landmark time was presented.\n\nMedian follow up duration for the individual MRD Cohort treatment arms: Confirmed uMRD: Randomized to Ibrutinib=69.1 months; Confirmed uMRD: Randomized to Placebo=67.4 months; uMRD Not Confirmed: Randomized to Open-Label Ibrutinib=47.9 months; uMRD Not Confirmed: Randomized to Open-Label Ibrutinib + Venetoclax=47.9 months.",
+            "timeFrame": "From the first dose of ibrutinib to time of death, for an overall median follow-up of 67.0 months. (Median follow up duration for the individual MRD Cohort treatment arms listed above.)"
+          },
+          "pred_item": {
+            "measure": "Overall Survival (OS)",
+            "description": "Time from random assignment to death from any cause.",
+            "timeFrame": "Throughout study"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 8,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "MRD Cohort: Percentage of Participants With Treatment-Emergent Adverse Events (TEAEs), Treatment-Emergent Serious Adverse Events (SAEs), and Discontinuations Due to TEAEs",
+            "description": "An adverse event (AE) is any untoward medical occurrence, which does not necessarily have a causal relationship with this treatment. A serious adverse event (SAE) is any untoward medical occurrence that at any dose: results in death; is life-threatening; requires unplanned in-patient hospitalization \\>24 hours or prolongation of existing hospitalization; results in persistent or significant disability/incapacity; is a congenital anomaly/birth defect; is an important medical event. Severity of events were graded according to the Common Terminology Criteria for Adverse Events version 4.03: mild=grade1, moderate=grade 2, severe=grade 3, life-threatening=grade 4, death=grade 5. Causal relation of study drug and event was assessed as not related, unlikely, possibly or probably related to the study drug.",
+            "timeFrame": "From first dose until 30 days following last dose of study drug. Overall median treatment duration for the MRD cohort was 45.1 months."
+          },
+          "pred_item": {
+            "measure": "Safety and Tolerability",
+            "description": "Assessment of adverse events.",
+            "timeFrame": "Evaluated at every visit throughout the study"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "FD Cohort: ORR",
+            "description": "ORR is defined as the percentage of participants who achieve a best overall response CR, CRi, nPR, PR, or PRL as evaluated by investigator using 2008 IWCLL criteria (Halleck et al.). Participants who did not have any postbaseline response assessment were considered as non-responders. This table is based on response assessments performed on or prior to initiation of subsequent antineoplastic therapy or, if applicable, reintroduction of study treatment, whichever occurs earlier. Kaplan-Meier estimate.",
+            "timeFrame": "From the first dose of ibrutinib to the first confirmed PD, for a median follow-up of 69.0 months."
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": 3,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "FD Cohort: DOR at 60 Months Landmark Time",
+            "description": "Duration of response was calculated for participants achieving a response (CR, CRi, nPR, PR) based on 2008 IWCLL response criteria (Halleck et al.) and defined as the interval between the date of initial documentation of a response including PR with lymphocytosis, until disease progression (PD) or death from any cause, whichever occurred first. As the median DOR was not reached as of the median 27.9 months study follow-up, the Kaplan-Meier estimate of DOR at 60 months landmark time was presented.",
+            "timeFrame": "From initial documentation of a response until PD or death from any cause, whichever occurs first, for a median follow-up of 69.0 months."
+          },
+          "pred_item": {
+            "measure": "Duration of Response",
+            "description": "Time from documentation of tumor response to disease progression or death.",
+            "timeFrame": "Throughout study"
+          }
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "FD Cohort: MRD Negativity Rate",
+            "description": "MRD negativity rate is defined as the percentage of participants achieving MRD negativity, which is defined as \\<1 CLL cell per 10,000 leukocytes (\\<1 x 10\\^-4) as assessed by flow cytometry of a peripheral blood (PB) or bone marrow (BM) aspirate sample per central laboratory on or prior to initiation of subsequent antineoplastic therapy or, if applicable, reintroduction of study treatment, whichever occurs earlier.",
+            "timeFrame": "From randomization date until before any subsequent antineoplastic therapy, for a median follow-up of 69.0 months."
+          },
+          "pred_item": {
+            "measure": "Undetectable Minimal Residual Disease (uMRD) Rates",
+            "description": "uMRD rates assessed in peripheral blood (PB) and bone marrow (BM).",
+            "timeFrame": "Throughout study"
+          }
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "FD Cohort: Kaplan-Meier Estimate of PFS Rate at 66 Months Landmark Time",
+            "description": "PFS was defined as time from the first dose date of study treatment until disease progression (PD) or death from any cause, whichever occurs first. Assessment of PD was conducted in accordance with the 2008 IWCLL criteria (Halleck et al). As the median PFS was not reached as of the median 69.0 months study follow-up, the Kaplan-Meier estimate of PFS rate at 66 months landmark time was presented.",
+            "timeFrame": "From the first dose of ibrutinib to the first confirmed PD or death, for an median follow-up of 69.0 months."
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "FD Cohort: Kaplan-Meier Estimate of OS Rate at 66 Months Landmark Time",
+            "description": "OS is defined as the time from the first dose date of study treatment until date of death due to any cause. As the median OS was not reached as of the median 69.0 months study follow-up, the Kaplan-Meier estimate of OS rate at 66 months landmark time was presented.",
+            "timeFrame": "From the first dose of ibrutinib to time of death, for a median follow-up of 69.0 months."
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": 4,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "FD Cohort: TLS Risk Reduction Rate With 3-Cycle Ibrutinib Lead-In (Percentage of Participants No Longer High Risk After 3-cycle Lead-in)",
+            "description": "TLS risk reduction was summarized by the percentage of participants with TLS risk reduced from high at baseline to medium or low after ibrutinib lead-in. A reduction in TLS risk from high risk to medium or low risk is clinically meaningful because there is a reduction in the extent of TLS monitoring and risk of hospitalization. TLS risk category is defined as the tumor burden category, where: Low=All lymph nodes (LN) \\< 5 cm AND absolute lymphocyte count (ALC) \\< 25 x 10\\^9/L; Medium=Any LN 5 cm to \\< 10 cm OR ALC ≥ 25 x 10\\^9/L; High=Any LN ≥ 10 cm OR ALC ≥ 25 x10\\^9/L AND any LN ≥ 5 cm.",
+            "timeFrame": "Baseline, and last post-baseline value on or prior to venetoclax first dose date (cycle 4 day 1) or, for participants who never received venetoclax, the post-baseline value closest to cycle 4 day 1 (i.e. 84 days after the first dose date of ibrutinib)."
+          },
+          "pred_item": {
+            "measure": "Tumor Lysis Syndrome (TLS) Risk Category Reduction",
+            "description": "Proportion of patients at high risk for TLS after ibrutinib lead-in versus baseline.",
+            "timeFrame": "Baseline and after 3 cycles of ibrutinib lead-in"
+          }
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "FD Cohort: Percentage of Participants With TEAEs, Treatment-Emergent SAEs, and Discontinuations Due to TEAEs",
+            "description": "An AE is any untoward medical occurrence, which does not necessarily have a causal relationship with this treatment. An SAE is any untoward medical occurrence that at any dose: results in death; is life-threatening; requires unplanned in-patient hospitalization \\>24 hours or prolongation of existing hospitalization; results in persistent or significant disability/incapacity; is a congenital anomaly/birth defect; is an important medical event. Severity of events were graded according to the Common Terminology Criteria for Adverse Events version 4.03: mild=grade1, moderate=grade 2, severe=grade 3, life-threatening=grade 4, death=grade 5. Causal relation of study drug and event was assessed as not related, unlikely, possibly or probably related to the study drug.",
+            "timeFrame": "From first dose until 30 days following last dose of study drug. Overall median treatment duration for the FD cohort was 13.8 months."
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "MRD Cohort: Pharmacokinetics (PK) of Ibrutinib When Dosed in Combination With Venetoclax: Observed Maximum Concentration (Cmax)",
+            "timeFrame": "Cycle 6 Day 1: predose, at dose, 1 h (±15 min), 2 h (±15 min), 4 h (±15 min), 6 h (±15 min), 8 h (±15 min)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "MRD Cohort: PK of Ibrutinib When Dosed in Combination With Venetoclax: Time to Cmax (Tmax); Time of Last Measurable Concentration (Tlast); Terminal Elimination Half-Life (t1/2,Term)",
+            "timeFrame": "Cycle 6 Day 1: predose, at dose, 1 h (±15 min), 2 h (±15 min), 4 h (±15 min), 6 h (±15 min), 8 h (±15 min)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": 7,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "MRD Cohort: PK of Ibrutinib When Dosed in Combination With Venetoclax: Area Under the Plasma Concentration-Time Curve (AUC) Over the Last 24-hour Dosing Interval (AUC0-24h); AUC From Time Zero to the Time of Last Quantifiable Concentration (AUClast)",
+            "timeFrame": "Cycle 6 Day 1: predose, at dose, 1 h (±15 min), 2 h (±15 min), 4 h (±15 min), 6 h (±15 min), 8 h (±15 min)"
+          },
+          "pred_item": {
+            "measure": "Pharmacokinetics of Ibrutinib and Venetoclax",
+            "description": "Pharmacokinetic sampling of ibrutinib and venetoclax in combination.",
+            "timeFrame": "During combination treatment"
+          }
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "MRD Cohort: PK of Ibrutinib When Dosed in Combination With Venetoclax: Terminal Elimination Rate Constant (λz)",
+            "timeFrame": "Cycle 6 Day 1: predose, at dose, 1 h (±15 min), 2 h (±15 min), 4 h (±15 min), 6 h (±15 min), 8 h (±15 min)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 19,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "MRD Cohort: PK of Ibrutinib When Dosed in Combination With Venetoclax: Apparent Total Clearance at Steady-State (CLss/F)",
+            "timeFrame": "Cycle 6 Day 1: predose, at dose, 1 h (±15 min), 2 h (±15 min), 4 h (±15 min), 6 h (±15 min), 8 h (±15 min)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 20,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "MRD Cohort: PK of Venetoclax When Dosed in Combination With Ibrutinib: Cmax",
+            "timeFrame": "Cycle 6 Day 1: predose, at dose, 1 h (±15 min), 2 h (±15 min), 4 h (±15 min), 6 h (±15 min), 8 h (±15 min)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 21,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "MRD Cohort: PK of Venetoclax When Dosed in Combination With Ibrutinib: Tmax",
+            "timeFrame": "Cycle 6 Day 1: predose, at dose, 1 h (±15 min), 2 h (±15 min), 4 h (±15 min), 6 h (±15 min), 8 h (±15 min)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 22,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "MRD Cohort: PK of Venetoclax When Dosed in Combination With Ibrutinib: AUC0-24h",
+            "timeFrame": "Cycle 6 Day 1: predose, at dose, 1 h (±15 min), 2 h (±15 min), 4 h (±15 min), 6 h (±15 min), 8 h (±15 min)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 23,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "MRD Cohort: PK of Venetoclax When Dosed in Combination With Ibrutinib: CLss/F",
+            "timeFrame": "Cycle 6 Day 1: predose, at dose, 1 h (±15 min), 2 h (±15 min), 4 h (±15 min), 6 h (±15 min), 8 h (±15 min)"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

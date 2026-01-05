@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "case_id": 18,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T15:06:29.360855",
+    "total_alignments": 1,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/18_NCT04916587.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/18_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "id": "R21MH123835",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/R21MH123835"
+          },
+          "pred_item": {
+            "id": "R21MH123835",
+            "type": "NIH",
+            "domain": "National Institute of Mental Health",
+            "link": null
+          }
+        }
+      ]
+    }
+  ]
+}

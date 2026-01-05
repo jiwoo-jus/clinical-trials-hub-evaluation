@@ -1,0 +1,183 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02542410",
+      "secondaryIdInfos": [
+        {
+          "id": "132882",
+          "type": "FDA",
+          "domain": "Food and Drug Administration"
+        }
+      ],
+      "organization": {
+        "fullName": "Boston Children’s Hospital",
+        "class": "OTHER"
+      },
+      "officialTitle": "Efficacy and safety of a novel nonhormonal therapeutic agent, cabergoline, compared with that of the standard clinical therapy, norethindrone acetate (NETA), for the treatment of endometriosis-associated pain in young women with endometriosis"
+    },
+    "descriptionModule": {
+      "briefSummary": "This randomized, double-blind, placebo-controlled pilot study aims to estimate the efficacy and safety of cabergoline, a novel nonhormonal therapeutic agent, compared with the standard clinical therapy, norethindrone acetate (NETA), for the treatment of endometriosis-associated pain in young women. The study hypothesizes that cabergoline will inhibit endometriosis-mediated neuroangiogenesis, leading to decreased pain measures, improved functional disability scores, and decreased circulating angiogenic and inflammatory biomarkers.",
+      "detailedDescription": "Endometriosis is a chronic condition where the growth of lesions requires angiogenesis. While hormonal therapies like NETA are standard, they often have limitations regarding side effects and recurrence. This study investigates cabergoline, a dopamine receptor 2 (DRD2) agonist, which functions as an inhibitor of the vascular endothelial growth factor (VEGF) pathway, offering a potential nonhormonal treatment option.\n\nParticipants included premenopausal women aged 15–40 years with surgically confirmed endometriosis and reported pelvic pain. They were randomized to receive either oral NETA (5 mg/day) combined with a placebo twice weekly, or oral cabergoline (0.5 mg) twice weekly combined with a placebo daily for a duration of 6 months.\n\nThe primary outcome measure was the assessment of pain using the Brief Pain Inventory (BPI) interference scale and a Visual Analog Scale (VAS) for pain intensity. Secondary measures included the Beck Depression Inventory-II for emotional functioning, the Functional Disability Inventory, and the patient global impression of change. Additionally, serum samples were analyzed for angiogenic and inflammatory biomarkers, including VEGF-R1, TNF-alpha, and IL-8. Safety was monitored through adverse event reporting and laboratory parameters such as liver function tests and lipid panels."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis",
+        "Chronic Pelvic Pain",
+        "Endometriosis-associated Pain"
+      ],
+      "keywords": [
+        "Cabergoline",
+        "Norethindrone Acetate",
+        "NETA",
+        "Angiogenesis",
+        "VEGF Pathway Inhibitor",
+        "Dopamine Receptor 2 Agonist",
+        "Nonhormonal Therapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "All the medications were dispensed by the research pharmacy in a gelatin capsule and were identical in appearance. The principal investigator, study staff, and participants remained blinded to the treatment assignment throughout the 6-month study.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 9,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "NETA Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received 5 mg of oral NETA (Aygestin) daily + placebo tablet twice weekly for 6 months.",
+          "interventionNames": [
+            "Drug: Norethindrone acetate (NETA)",
+            "Drug: Placebo (twice weekly)"
+          ]
+        },
+        {
+          "label": "Cabergoline Group",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received oral 0.5 mg of cabergoline twice weekly + placebo tablet daily for 6 months.",
+          "interventionNames": [
+            "Drug: Cabergoline",
+            "Drug: Placebo (daily)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Norethindrone acetate (NETA)",
+          "description": "5 mg/day orally.",
+          "armGroupLabels": [
+            "NETA Group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Cabergoline",
+          "description": "0.5 mg orally twice weekly.",
+          "armGroupLabels": [
+            "Cabergoline Group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo (twice weekly)",
+          "description": "Placebo tablet taken twice weekly to match the Cabergoline dosing schedule.",
+          "armGroupLabels": [
+            "NETA Group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo (daily)",
+          "description": "Placebo tablet taken daily to match the NETA dosing schedule.",
+          "armGroupLabels": [
+            "Cabergoline Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Brief Pain Inventory (BPI) interference scale",
+          "description": "A 7-item, self-reported measure designed to assess the extent to which pain interferes with various components of functioning, including physical and emotional functioning and sleep.",
+          "timeFrame": "Baseline, 3 months, and 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Pain Intensity (Visual Analog Scale)",
+          "description": "Pain intensity rated on a 0–10 numerical rating scale (VAS). Scores were categorized as none or mild (0–3), moderate (4–6), and severe (7–10) pain.",
+          "timeFrame": "Baseline, 3 months, and 6 months"
+        },
+        {
+          "measure": "Emotional Functioning (Beck Depression Inventory-II)",
+          "description": "Measured using the Beck Depression Inventory-II, with scores categorized as follows: <10, minimal or no depression; 10–18, mild to moderate; 19–29, moderate to severe; and 30–63, severe depression.",
+          "timeFrame": "Baseline, 3 months, and 6 months"
+        },
+        {
+          "measure": "Patient Global Impression of Change Scale",
+          "description": "A 7-point rating scale asking: 'Since beginning this study, how would you describe the change (if any) in activity limitations, symptoms, emotions, and overall quality of life?' Scores categorized as: 1–3 (no/minimal change), 4–5 (moderate improvement), and 6–7 (definite/considerable improvement).",
+          "timeFrame": "Baseline, 3 months, and 6 months"
+        },
+        {
+          "measure": "Functional Disability Inventory Scale",
+          "description": "Used to measure the impact of physical health on the performance of regular daily activities; scores ranged from 0 to 60, with a higher score indicating more impairment.",
+          "timeFrame": "Baseline, 3 months, and 6 months"
+        },
+        {
+          "measure": "Serum Angiogenic and Inflammatory Biomarkers",
+          "description": "Measurement of inflammation and angiogenic pathway markers including VEGF, TNF-α, placental growth factor, intercellular adhesion molecule-1, vascular cell adhesion molecule-1, VEGF receptor 1 (VEGF-R1), monocyte chemotactic protein-1, interleukin 8 (IL-8), E-selectin, and IL-1β.",
+          "timeFrame": "Baseline, 3 months, and 6 months"
+        },
+        {
+          "measure": "Urinary Marker of Oxidative Stress",
+          "description": "Assessment of 8-oxo-7,8-dihydro-2’-deoxyguanosine (8-oxodG) in urine samples.",
+          "timeFrame": "Baseline, 3 months, and 6 months"
+        },
+        {
+          "measure": "Adverse Events",
+          "description": "Adverse effects experienced during treatment, graded using the Common Terminology Criteria for Adverse Events (CTCAE, v5.8).",
+          "timeFrame": "Up to 6 months"
+        },
+        {
+          "measure": "Safety Laboratory Parameters",
+          "description": "Measurement of serum hemoglobin A1c levels, erythrocyte sedimentation rate, serum creatinine levels, lipid panels, and liver function tests (aspartate transaminase, alanine aminotransferase, total bilirubin).",
+          "timeFrame": "Baseline, 3 months, and 6 months"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Aged 15–40 years\n* Premenopausal\n* Surgically confirmed endometriosis, determined using laparoscopy within 2 years prior to study baseline\n* Experiencing pelvic pain over the last month, as determined using a visual analog scale (VAS) score of ≥3\n\nExclusion Criteria:\n* Using other hormonal medications (such as combined oral contraceptive pills)\n* Thrombotic disease\n* Contraindications to the study medications (impaired liver function, breast cancer, cardiac valvular disorders, etc.)",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "15 Years",
+      "maximumAge": "40 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    }
+  }
+}

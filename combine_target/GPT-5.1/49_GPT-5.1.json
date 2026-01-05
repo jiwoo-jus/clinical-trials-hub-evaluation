@@ -1,0 +1,187 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03388164",
+      "orgStudyIdInfo": {
+        "id": null,
+        "type": null,
+        "link": null
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "U01DA041089",
+          "type": "NIH",
+          "domain": "National Institute on Drug Abuse",
+          "link": null
+        },
+        {
+          "id": "1P20GM121312",
+          "type": "NIH",
+          "domain": "National Institute of General Medical Sciences",
+          "link": null
+        }
+      ],
+      "organization": {
+        "fullName": "Laureate Institute for Brain Research",
+        "class": "OTHER"
+      },
+      "briefTitle": "Methylphenidate Augmentation to Improve Adherence to Escitalopram in Moderate to Severe Depression",
+      "officialTitle": null,
+      "acronym": null
+    },
+    "descriptionModule": {
+      "briefSummary": "This phase 2a randomized, double-blind, placebo-controlled clinical trial investigated whether adding low-dose methylphenidate (MPH) to the antidepressant escitalopram improves medication adherence in adults with moderate to severe major depressive disorder. Twenty participants were randomized 1:1 to receive either 5 mg MPH + 10 mg escitalopram or placebo + 10 mg escitalopram for 8 weeks, with an optional increase of escitalopram to 20 mg at week 4. The main hypothesis was that pairing an acutely reinforcing dopaminergic/noradrenergic agent (MPH) with escitalopram would enhance formation of a medication-taking habit and increase adherence, measured by pill counts and electronic monitoring. Bayesian mixed-effects models showed no evidence that MPH improved adherence; if anything, adherence was slightly higher in the placebo group. Both groups showed clinically meaningful improvements in depressive symptoms, and attitudes toward medication and sociodemographic factors did not significantly affect adherence. The study concluded that low-dose MPH does not improve adherence to antidepressant medication in this population.",
+      "detailedDescription": "This study addressed the problem of poor adherence to antidepressant pharmacotherapy in individuals with moderate to severe depression. Non-adherence is common in mental health care and is associated with worse clinical outcomes and higher health care costs. The trial was based on the premise that building a robust habit of daily medication-taking may be facilitated by pairing a standard antidepressant with an agent that provides an acute positive reinforcing effect via dopaminergic and noradrenergic mechanisms. Methylphenidate (MPH), a monoamine reuptake inhibitor that increases synaptic dopamine and norepinephrine and is widely used in attention-deficit/hyperactivity disorder, was selected as the augmentation agent.\n\nThis was a phase 2a, randomized, placebo-controlled, double-blind study with two parallel arms. Adults aged 18–65 years with non-remitted major depressive disorder and baseline QIDS-SR scores ≥14 (moderate to severe depression) were enrolled. Key exclusions included major medical contraindications to MPH (e.g., serious cardiac disease, uncontrolled hypertension, glaucoma), bipolar or psychotic disorders, current alcohol or substance use disorders (except nicotine), prior intolerance to study medications, and current psychiatric medication use.\n\nParticipants (n=20) were randomized 1:1 using block randomization to receive: (1) Study Drug A: placebo 5 mg + escitalopram 10 mg, or (2) Study Drug B: MPH 5 mg + escitalopram 10 mg. Study drugs were compounded into identical capsules and dispensed in Medication Electronic Monitoring System (MEMS) bottles. At week 4, the treating psychiatrist could increase escitalopram to 20 mg (with either placebo or MPH maintained at 5 mg) in cases of insufficient clinical improvement. Medication was prescribed for 8 weeks, with in-person visits at weeks 0, 2, 4, and 8 and telephone contacts at weeks 1, 3, and 6. Usual care could continue, but new treatments were not permitted during the trial.\n\nThe primary endpoint was adherence assessed by pill count, defined as percent of prescribed doses taken over the interval between visits: 100 × (pills dispensed − pills remaining) / days between dispensing and return. The secondary endpoint was adherence measured using the MEMS caps, defined (per the STAR*D protocol) as the percentage of doses taken within ±25% of the expected dosing interval, operationalized as ±6 hours around an individualized expected time derived from participants’ dosing patterns. Exploratory endpoints included depressive symptom severity on the Quick Inventory of Depressive Symptomatology – Self-Report (QIDS-SR), remission (QIDS-SR ≤5), response (≥50% symptom reduction), and attitudinal measures from the Beliefs About Medicines Questionnaire (BMQ), examining whether medication beliefs influenced adherence.\n\nA Bayesian linear mixed-effects modeling framework was used for analysis. Fixed effects included treatment (MPH vs placebo), visit, and treatment-by-visit interaction, with random intercepts for participants. For adherence outcomes, visits at weeks 2, 4, and 8 were modeled; the contrast of interest was the between-group difference at week 8. For QIDS-SR, visits at weeks 0, 1, 2, 3, 4, 6, and 8 were modeled, and the main contrast was the difference between treatments in change from baseline to week 8. Analyses were performed with weakly informative default priors (rstanarm package) and, for adherence outcomes, also with informative priors encoding a prior belief that MPH would outperform placebo. Posterior distributions, credible intervals, and posterior probabilities that MPH adherence exceeded placebo adherence were estimated. Participants who withdrew or were lost to follow-up were retained in intention-to-treat analyses and coded as non-adherent for subsequent scheduled observations.\n\nAll 20 randomized participants (10 per arm) received the allocated treatment and were included in the primary and secondary endpoint analyses. Four participants discontinued early (three due to medication side effects—two in the MPH arm, one in the placebo arm—and one MPH participant due to missed appointments). No serious adverse events were reported. Baseline demographics and clinical characteristics, including QIDS-SR scores, did not differ significantly between groups.\n\nAdherence by pill count was high in both arms (overall averages approximately 89% for placebo and 76% for MPH across visits). Due to skewed distributions, adherence percentages were analyzed on a logit scale. The estimated marginal means showed slightly lower adherence for the MPH group over time. Posterior contrasts indicated that at week 8 the probability that MPH would produce higher adherence than placebo was below 15% with weakly informative priors and about 25% with informative priors, providing no evidence that MPH improved adherence. Placebo adherence was, on average, about 7–8 percentage points higher than MPH on the primary outcome.\n\nMEMS-based adherence results were consistent with the pill-count findings. Estimated trajectories showed similar adherence between groups at weeks 2 and 4, with slightly lower adherence in the MPH group at week 8. The posterior probability that MPH yielded higher MEMS adherence than placebo at week 8 was under 21% with default priors and approximately 36% with informative priors, again failing to support superiority of MPH.\n\nRegarding depressive symptoms, both treatment arms exhibited substantial QIDS-SR score reductions over the 8-week period, with a median decrease of approximately 8.6 points across groups. The Bayesian model suggested that the change in QIDS-SR from baseline to week 8 in the MPH group was on average 1.2 points lower than in the placebo group, but the 95% credible interval ranged from MPH being modestly worse to modestly better (approximately +2.1 to −4.5 points), indicating no clear between-group difference in antidepressant response. Thus, the lack of an adherence benefit with MPH did not appear to be due to inadequate antidepressant efficacy overall.\n\nExploratory analyses examined whether participants’ beliefs about medicines (BMQ general harm and overuse subscales), age, or sex explained variability in adherence. These covariates did not meaningfully alter the primary or secondary outcome conclusions, and BMQ measures showed negligible associations with adherence in this small sample, despite prior literature indicating that necessity-concerns beliefs often predict adherence in larger cohorts.\n\nThe study was originally designed as a two-stage program (pilot stage 1 with 20 participants, followed by stage 2 with an additional 80 participants) with group sequential monitoring and pre-specified stopping rules. After completion of stage 1, Bayesian results indicated that the observed adherence patterns were opposite to the primary hypothesis and that the posterior probability of clinically meaningful superiority of MPH over placebo was low. On this basis, the trial was terminated after the pilot phase, and stage 2 was not initiated.\n\nThe investigators concluded that low-dose MPH augmentation of escitalopram does not improve short-term medication adherence in adults with moderate to severe major depressive disorder and that the probability of benefit is low enough to discourage a larger confirmatory trial under the same conditions. The authors discussed potential explanations, including the already high adherence rates in this controlled research setting, the relatively low MPH dose, and the limited 8-week follow-up, as well as the broader difficulty of designing effective adherence-enhancing interventions. They emphasized that, while dopamine-mediated reinforcement mechanisms are theoretically relevant to habit formation, this specific pharmacologic strategy did not yield practical gains in adherence in the studied population."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Major Depressive Disorder",
+        "Depressive Disorder",
+        "Medication Adherence"
+      ],
+      "keywords": [
+        "Major Depressive Disorder",
+        "Depression",
+        "Escitalopram",
+        "Methylphenidate",
+        "Medication Adherence",
+        "Treatment Adherence and Compliance",
+        "Habit Formation",
+        "Dopamine",
+        "Norepinephrine",
+        "Antidepressive Agents",
+        "Randomized Controlled Trial",
+        "Bayesian Analysis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Two-arm, parallel-group trial randomizing participants 1:1 to escitalopram plus methylphenidate versus escitalopram plus placebo, with optional escitalopram dose increase at week 4.",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Participants and all study physicians, nurses, and research assistants who worked directly with participants were blinded to treatment allocation; only the study statistician and one staff member coordinating with the pharmacy were unblinded.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 20,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Placebo + Escitalopram",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received a compound capsule containing placebo 5 mg plus escitalopram 10 mg daily for 8 weeks, with an option at week 4 to increase escitalopram to 20 mg (still combined with placebo). Study Drug A (and C after dose increase) bottles were equipped with a MEMS tracking cap.",
+          "interventionNames": [
+            "Escitalopram",
+            "Placebo capsule"
+          ]
+        },
+        {
+          "label": "Methylphenidate + Escitalopram",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received a compound capsule containing methylphenidate 5 mg plus escitalopram 10 mg daily for 8 weeks, with an option at week 4 to increase escitalopram to 20 mg (still combined with methylphenidate 5 mg). Study Drug B (and D after dose increase) bottles were equipped with a MEMS tracking cap.",
+          "interventionNames": [
+            "Methylphenidate",
+            "Escitalopram"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Escitalopram",
+          "description": "First-line antidepressant administered orally in compounded capsules at an initial dose of 10 mg once daily for 8 weeks, with an option at week 4 to increase the escitalopram dose to 20 mg once daily based on lack of clinical improvement, in combination with either placebo or 5 mg methylphenidate.",
+          "armGroupLabels": [
+            "Placebo + Escitalopram",
+            "Methylphenidate + Escitalopram"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Methylphenidate",
+          "description": "Methylphenidate 5 mg administered orally once daily in compounded capsules together with escitalopram (10 mg or 20 mg) for 8 weeks as a dopaminergic/noradrenergic augmenting agent to potentially enhance antidepressant adherence.",
+          "armGroupLabels": [
+            "Methylphenidate + Escitalopram"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo capsule",
+          "description": "Inert placebo 5 mg capsule compounded together with escitalopram (10 mg or 20 mg) and administered orally once daily for 8 weeks, matching the appearance of methylphenidate-containing capsules.",
+          "armGroupLabels": [
+            "Placebo + Escitalopram"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "% adherence based on pill count",
+          "description": "Percent pill count defined as 100 * [number of prescribed pills – number of pills remaining] / [number of days between dispensing date and return date]; analyzed on logit scale with linear mixed-effects models and contrast of MPH vs placebo at Week 8.",
+          "timeFrame": "Weeks 2, 4, and 8 of the 8-week treatment period, with primary contrast at Week 8"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "% adherence based on Medication Electronic Monitoring System (MEMS)",
+          "description": "Percent of doses taken on schedule within 25% of the expected time interval (±6 hours from when the participant usually took the medication), calculated using MEMS caps and estimated dosing-time line; analyzed on logit scale with linear mixed-effects models and contrast of MPH vs placebo at Week 8.",
+          "timeFrame": "Weeks 2, 4, and 8 of the 8-week treatment period, with primary contrast at Week 8"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Change in depression severity (QIDS-SR score)",
+          "description": "Quick Inventory of Depressive Symptomatology – Self-Report (QIDS-SR) total score; exploratory analysis of treatment effect and between-group differences in change from baseline using linear mixed-effects models.",
+          "timeFrame": "Baseline (Week 0) and Weeks 1, 2, 3, 4, 6, and 8"
+        },
+        {
+          "measure": "Depression remission rate",
+          "description": "Proportion of participants achieving remission defined as a QIDS-SR score of 5 or less.",
+          "timeFrame": "Up to Week 8 of treatment"
+        },
+        {
+          "measure": "Depression response rate",
+          "description": "Proportion of participants achieving response defined as at least a 50% reduction in QIDS-SR total score from baseline.",
+          "timeFrame": "Up to Week 8 of treatment"
+        },
+        {
+          "measure": "Beliefs About Medicines Questionnaire (BMQ) categories",
+          "description": "Beliefs About Medicines Questionnaire classified participants as accepting/ambivalent vs indifferent/skeptical; explored as covariates for their influence on primary and secondary adherence outcomes.",
+          "timeFrame": "Baseline assessment, evaluated in relation to adherence over Weeks 2, 4, and 8"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Baseline QIDS-SR ≥ 14 (moderate depression)\n- Age 18–65 years\n- Ability to give written informed consent\n- Major Depressive Disorder (MDD) single-episode or recurrent, not in remission\n\nExclusion Criteria:\n- Methylphenidate (MPH)-related exclusions (i.e., uncontrolled hyperthyroidism, glaucoma, motor tics, monoamine oxidase inhibitor treatment, serious coronary artery disease, cardiomyopathy, serious cardiac arrhythmias, uncontrolled hypertension, peripheral vasculopathy, pregnancy)\n- Diagnosis of bipolar disorder\n- Diagnosis of psychotic disorder\n- Current substance use disorder (other than nicotine)\n- Current alcohol use disorder\n- History of intolerability of study medications\n- Currently taking psychiatric medications",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": "",
+      "samplingMethod": ""
+    }
+  }
+}

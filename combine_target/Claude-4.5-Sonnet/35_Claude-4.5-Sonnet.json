@@ -1,0 +1,87 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03019588",
+      "orgStudyIdInfo": {
+        "id": "KEYNOTE-063",
+        "type": null,
+        "link": null
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "Merck Sharp & Dohme Corp.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Pembrolizumab versus paclitaxel for previously treated advanced gastric or gastroesophageal junction cancer in Asian patients",
+      "officialTitle": "Pembrolizumab versus paclitaxel for previously treated advanced gastric or gastroesophageal junction cancer (KEYNOTE-063): A randomized, open-label, phase 3 trial in Asian patients",
+      "acronym": "KEYNOTE-063"
+    },
+    "descriptionModule": null,
+    "conditionsModule": null,
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Patients were randomly assigned 1:1 to receive 200 mg of pembrolizumab intravenously every 3 weeks or 80 mg/m² of paclitaxel intravenously on days 1, 8, and 15 of each 4-week cycle. Patients were stratified by time to progression on first-line therapy (<6 vs ≥6 months) and ECOG PS (0 vs 1).",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "This was a randomized, open-label, phase 3 study.",
+          "whoMasked": []
+        }
+      },
+      "enrollmentInfo": {
+        "count": 94,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Pembrolizumab",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received 200 mg of pembrolizumab intravenously every 3 weeks for up to 35 cycles (approximately 2 years) or until disease progression, intolerable toxicity, investigator decision, or patient withdrawal of consent.",
+          "interventionNames": [
+            "DRUG: Pembrolizumab"
+          ]
+        },
+        {
+          "label": "Paclitaxel",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients received 80 mg/m² of paclitaxel intravenously on days 1, 8, and 15 of each 4-week cycle until disease progression, intolerable toxicity, investigator decision, or patient withdrawal of consent.",
+          "interventionNames": [
+            "DRUG: Paclitaxel"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Pembrolizumab",
+          "description": "200 mg administered intravenously every 3 weeks for up to 35 cycles (approximately 2 years)",
+          "armGroupLabels": [
+            "Pembrolizumab"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "80 mg/m² administered intravenously on days 1, 8, and 15 of each 4-week cycle",
+          "armGroupLabels": [
+            "Paclitaxel"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": null,
+    "eligibilityModule": null
+  }
+}

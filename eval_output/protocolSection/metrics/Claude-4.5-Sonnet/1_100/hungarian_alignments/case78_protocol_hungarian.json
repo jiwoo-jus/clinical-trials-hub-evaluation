@@ -1,0 +1,304 @@
+{
+  "metadata": {
+    "case_id": 78,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T18:39:41.959392",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/78_NCT04568031.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/78_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.12,
+          0.05,
+          0.05
+        ],
+        [
+          0.05,
+          0.9,
+          0.4,
+          0.3
+        ],
+        [
+          0.12,
+          0.84,
+          0.6,
+          0.25
+        ],
+        [
+          0.05,
+          0.72,
+          0.99,
+          0.42
+        ],
+        [
+          0.08,
+          0.35,
+          0.45,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Seroresponse to the Spike (S) Antigen of AZD1222 as Measured by Meso Scale Discovery (MSD) Serology Assay",
+            "description": "Seroresponse is a binary outcome where a success is when the fold rise in titers compared with baseline is \\>= 4. The fold rise in titers was calculated as the ratio of the post-vaccination titer level to the baseline titer level. The percentage of participants with a post-vaccination seroresponse (\\>= 4-fold rise in titers from Day 1 baseline value to Day 57) to the S antigen of AZD1222 as measured by MSD serology assay is reported.",
+            "timeFrame": "Baseline (Day 1) and Day 57"
+          },
+          "pred_item": {
+            "measure": "Immunogenicity measured by anti-SARS-CoV-2 spike seroresponse",
+            "description": "Anti-SARS-CoV-2 spike seroresponse defined as ≥4-fold rise in titre from Day 1 baseline value at Day 57 following vaccination with AZD1222",
+            "timeFrame": "Day 57 (28 days after second dose)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Local Solicited Adverse Events (AE)",
+            "description": "Solicited AEs are local or systemic predefined AEs for reactogenicity assessment. Participants were given an axillary thermometer, tape measure, and access to app for the solicited AE eDiary, with instructions on use, along with the emergency 24-hour telephone number to contact the on-call study physician if needed. Participants were instructed to record for 7 days following administration of each dose of AZD1222, the timing and severity of local and systemic solicited AEs, if applicable, and whether medication was taken to relieve the symptoms.",
+            "timeFrame": "From Day 1 up to 7 days post each dose of study vaccination, approximately 14 days"
+          },
+          "pred_item": {
+            "measure": "Safety measured by occurrence of solicited local and systemic reactogenicity signs/symptoms",
+            "description": "Occurrence of solicited local (pain, tenderness, redness, swelling, induration at injection site) and systemic (fever, chills, muscle pain, fatigue, headache, malaise, nausea, vomiting) reactogenicity signs/symptoms",
+            "timeFrame": "6 days after each dose (Days 1-7 and Days 29-35)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Systemic Solicited AEs",
+            "description": "Solicited AEs are local or systemic predefined AEs for reactogenicity assessment. Participants were given an axillary thermometer, tape measure, and access to app for the solicited AE eDiary, with instructions on use, along with the emergency 24-hour telephone number to contact the on-call study physician if needed. Participants were instructed to record for 7 days following administration of each dose of AZD1222, the timing and severity of local and systemic solicited AEs, if applicable, and whether medication was taken to relieve the symptoms.",
+            "timeFrame": "From Day 1 up to 7 days post each dose of study vaccination, approximately 14 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With AEs, Serious AEs (SAE) and Adverse Event of Special Interest (AESI) Occurring Post Each Dose of Study Vaccination",
+            "description": "An AE is the development of any untoward medical occurrence in a clinical study participant administered medicinal product and which does not necessarily have a causal relationship with this medicinal product. An AE can therefore be any unfavorable and unintended sign, symptom, or disease temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product. An SAE is an AE occurring during any study phase that fulfils one or more of the following criteria: death; immediately life-threatening; in-participant hospitalization or prolongation of existing hospitalization; persistent or significant disability or incapacity; congenital abnormality or birth defect; an important medical event. The AESIs were events of scientific and medical interest specific to the further understanding of the study vaccination safety profile and required close monitoring and rapid communication by the investigators to the sponsor.",
+            "timeFrame": "From Day 1 up to 28 days post each dose of study vaccination, approximately 57 days"
+          },
+          "pred_item": {
+            "measure": "Safety measured by occurrence of unsolicited adverse events",
+            "description": "Occurrence of unsolicited adverse events (AEs), serious adverse events (SAEs), and adverse events of special interest (AESIs)",
+            "timeFrame": "28 days after each dose (Days 1-29 and Days 29-57)"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 3,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Clinically Significant Changes From Baseline in Clinical Laboratory Parameters",
+            "description": "Clinical laboratory values were evaluated for each laboratory parameter as applicable including hematology and clinical chemistry. The baseline was defined as the last non-missing measurement taken prior to the first dose of study vaccination (including unscheduled measurements, if any).",
+            "timeFrame": "From Day 1 up to 28 days post each dose of study vaccination, approximately 57 days"
+          },
+          "pred_item": {
+            "measure": "Safety measured by change from baseline in safety laboratory measures",
+            "description": "Change from baseline in safety laboratory measures including haemoglobin concentration, leukocyte count, platelet count and clinical chemistry parameters",
+            "timeFrame": "Days 1, 8, 29, 36 and 57"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 7,
+      "pred_count": 6,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.9,
+          0.72,
+          0.78,
+          0.74,
+          0.07
+        ],
+        [
+          0.7,
+          0.72,
+          0.86,
+          0.94,
+          0.83,
+          0.05
+        ],
+        [
+          0.68,
+          0.68,
+          0.92,
+          0.86,
+          0.82,
+          0.05
+        ],
+        [
+          0.86,
+          0.97,
+          0.72,
+          0.72,
+          0.78,
+          0.08
+        ],
+        [
+          0.35,
+          0.7,
+          0.78,
+          0.86,
+          0.96,
+          0.05
+        ],
+        [
+          0.35,
+          0.7,
+          0.78,
+          0.82,
+          0.86,
+          0.05
+        ],
+        [
+          0.05,
+          0.08,
+          0.07,
+          0.05,
+          0.08,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Seroresponse to the Receptor-Binding Domain (RBD) Antigen of AZD1222 as Measured by MSD Serology Assay",
+            "description": "Seroresponse is a binary outcome where a success is when the fold rise in titers compared with baseline is \\>= 4. The fold rise in titers was calculated as the ratio of the post-vaccination titer level to the baseline titer level. The percentage of participants with a post-vaccination seroresponse (\\>= 4-fold rise in titers from Day 1 baseline value to Day 57) to the RBD antigen of AZD1222 as measured by MSD serology assay is reported.",
+            "timeFrame": "Baseline (Day 1) and Day 57"
+          },
+          "pred_item": {
+            "measure": "Proportion of participants with seroresponse for RBD antigen",
+            "description": "Proportion of participants with a seroresponse (≥4-fold rise in titre from Day 1 baseline value) for the receptor-binding domain (RBD) antigen",
+            "timeFrame": "Day 57 (28 days after second dose)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 3,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Geometric Mean Titers (GMTs) for SARS-CoV-2 S and RBD Antibodies as Measured by MSD Serology Assay",
+            "description": "The GMT was calculated as the antilogarithm of Σ(log base 2 transformed titer/n), i.e. as the anti-logarithm transformation of the mean of the log-transformed titer, where 'n' is the number of participants with titer information.",
+            "timeFrame": "Baseline (Day 1) and Days 15, 29, 43, 57, 183, and 365"
+          },
+          "pred_item": {
+            "measure": "Geometric mean titre (GMT) of immunogenicity against SARS-CoV-2 RBD antigen",
+            "description": "GMT and geometric mean fold rise of immunogenicity against SARS-CoV-2 RBD antigen at each time point",
+            "timeFrame": "Up to Day 365"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Geometric Mean Fold Rise (GMFR) for SARS-CoV-2 S and RBD Antibodies as Measured by MSD Serology Assay",
+            "description": "The fold rise was calculated as the ratio of the post-vaccination titer level to the baseline titer level, where baseline was defined as the last measurement taken before the first dose of study vaccination. The GMFR was calculated as anti-logarithm of Σ (log base 2 transformed (post-vaccination titer/ pre-vaccination titer)/n). Where 'n' is the number of participants with titer information.",
+            "timeFrame": "Baseline (Day 1) and Days 15, 29, 43, 57, 183, and 365"
+          },
+          "pred_item": {
+            "measure": "Geometric mean titre (GMT) of immunogenicity against SARS-CoV-2 spike antigen",
+            "description": "GMT and geometric mean fold rise of immunogenicity against SARS-CoV-2 spike antigen at each time point",
+            "timeFrame": "Up to Day 365"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Seroresponse to SARS-CoV-2 Neutralizing Antibodies (nAb) of AZD1222 as Measured by Pseudo-Neutralization Assay",
+            "description": "Seroresponse is a binary outcome where a success is when the fold rise in titers compared with baseline is \\>= 4. The fold rise in titers was calculated as the ratio of the post-vaccination titer level to the baseline titer level. The percentage of participants with a post-vaccination seroresponse (\\>= 4-fold rise in titers from Day 1 baseline value to Day 57) to SARS-CoV-2 nAb of AZD1222 as measured by pseudo-neutralization assay is reported.",
+            "timeFrame": "Baseline (Day 1) and Day 57"
+          },
+          "pred_item": {
+            "measure": "Proportion of participants with SARS-CoV-2 neutralizing antibody seroresponse",
+            "description": "Proportion of participants with a seroresponse (≥4-fold rise in titre from Day 1 baseline value) for SARS-CoV-2 neutralizing antibodies",
+            "timeFrame": "Day 57 (28 days after second dose)"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "GMTs for SARS-CoV-2 nAb as Measured by Pseudo-Neutralization Assay",
+            "description": "The GMT was calculated as the antilogarithm of Σ(log base 2 transformed titer/n), i.e. as the anti-logarithm transformation of the mean of the log-transformed titer, where 'n' is the number of participants with titer information.",
+            "timeFrame": "Baseline (Day 1) and Days 29, 57, 183, and 365"
+          },
+          "pred_item": {
+            "measure": "Geometric mean titre (GMT) of SARS-CoV-2 neutralizing antibodies",
+            "description": "GMT and geometric mean fold rise of SARS-CoV-2 neutralizing antibodies at each time point",
+            "timeFrame": "Up to Day 365"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "GMFR for SARS-CoV-2 nAb as Measured by Pseudo-Neutralization Assay",
+            "description": "The fold rise was calculated as the ratio of the post-vaccination titer level to the baseline titer level, where baseline was defined as the last measurement taken before the first dose of study vaccination. The GMFR was calculated as anti-logarithm of Σ (log base 2 transformed (post-vaccination titer/ pre-vaccination titer)/n). Where 'n' is the number of participants with titer information.",
+            "timeFrame": "Baseline (Day 1) and Days 29, 57, 183, and 365"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 5,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With SAEs and AESIs Occurring Throughout the Study",
+            "description": "An SAE is an AE occurring during any study phase that fulfils one or more of the following criteria: death; immediately life-threatening; in-participant hospitalization or prolongation of existing hospitalization; persistent or significant disability or incapacity; congenital abnormality or birth defect; an important medical event. The AESIs were events of scientific and medical interest specific to the further understanding of the study vaccination safety profile and required close monitoring and rapid communication by the investigators to the sponsor.",
+            "timeFrame": "From Day 1 up to final DCO of 17 January 2022, up to a maximum of 365 days"
+          },
+          "pred_item": {
+            "measure": "Long-term safety: occurrence of serious adverse events",
+            "description": "Occurrence of serious adverse events (SAEs) and adverse events of special interest (AESIs)",
+            "timeFrame": "Up to Day 365"
+          }
+        }
+      ]
+    }
+  ]
+}

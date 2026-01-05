@@ -1,0 +1,240 @@
+{
+  "metadata": {
+    "case_id": 26,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:25:32.539810",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/26_NCT02252588.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/26_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.7
+        ],
+        [
+          0.4,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Chlorhexidine",
+            "type": "EXPERIMENTAL",
+            "description": "Oral Rinse",
+            "interventionNames": [
+              "Drug: Chlorhexidine",
+              "Other: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Chlorhexidine oral rinse",
+            "type": "EXPERIMENTAL",
+            "description": "Participants with COPD were randomized to receive 15 mL of 0.12% chlorhexidine gluconate oral rinse (PerioGard) twice daily for 8 weeks. Participants completed daily symptom diaries and had St. George’s Respiratory Questionnaire, blood tests, oral rinse, and induced sputum samples collected at baseline and at the final 8-week visit.",
+            "interventionNames": [
+              "Chlorhexidine 0.12% oral rinse"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Oral Rinse",
+            "interventionNames": [
+              "Drug: Chlorhexidine",
+              "Other: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo oral rinse",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants with COPD were randomized to receive 15 mL of a matched placebo mouth rinse twice daily for 8 weeks. Participants completed daily symptom diaries and had St. George’s Respiratory Questionnaire, blood tests, oral rinse, and induced sputum samples collected at baseline and at the final 8-week visit.",
+            "interventionNames": [
+              "Placebo mouth rinse"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.7
+        ],
+        [
+          0.4,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Chlorhexidine",
+            "description": "Oral Rinse",
+            "armGroupLabels": [
+              "Chlorhexidine",
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Chlorhexidine 0.12% oral rinse",
+            "description": "Oral antiseptic rinse containing 0.12% chlorhexidine gluconate (PerioGard); administered as 15 mL oral rinse, twice daily, for 8 weeks to participants with COPD.",
+            "armGroupLabels": [
+              "Chlorhexidine oral rinse"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Placebo",
+            "description": "Oral Rinse",
+            "armGroupLabels": [
+              "Chlorhexidine",
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo mouth rinse",
+            "description": "Matched placebo oral rinse without active chlorhexidine; administered as 15 mL oral rinse, twice daily, for 8 weeks to participants with COPD.",
+            "armGroupLabels": [
+              "Placebo oral rinse"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.83,
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Sputum Bacteria Biomass",
+            "description": "Samples underwent DNA extraction and 16S rRNA quantification and 16S rRNA V4 MiSeq sequencing was performed at the University of Minnesota Genomics Center. The biomass was the number of bacteria as measured by 16S rRNA copy number. To adjust biomass for the size of the sputum sample, raw counts were normalized by dividing by the sample volume or mass.",
+            "timeFrame": "Baseline, 8 weeks"
+          },
+          "pred_item": {
+            "measure": "Change in sputum microbiota biomass",
+            "description": "Change in sputum microbiota biomass from baseline to 8 weeks, assessed by 16S rRNA quantification (log10-transformed copy numbers normalized to sputum sample mass) comparing chlorhexidine versus placebo.",
+            "timeFrame": "Baseline and 8 weeks after randomisation"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 11,
+      "similarity_matrix": [
+        [
+          0.05,
+          0.08,
+          0.05,
+          0.18,
+          0.08,
+          0.08,
+          0.12,
+          0.84,
+          0.6,
+          0.55,
+          0.08
+        ],
+        [
+          0.05,
+          0.12,
+          0.12,
+          0.08,
+          0.18,
+          0.12,
+          0.2,
+          0.72,
+          0.96,
+          0.92,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 7,
+          "score": 0.84,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Breathlessness, Cough, and Sputum Scale (BCSS)",
+            "description": "The Breathlessness, Cough, and Sputum Scale (BCSS) is a brief, three-item, patient-reported outcome measure in which each of the three symptoms assessed by the measure is represented by a single item. Patients are asked to evaluate each symptom/item on a 5-point Likert-type scale, ranging from 0 to 4. Total scores range from 0 to 12 with higher scores indicating a more severe manifestation of the symptom.",
+            "timeFrame": "Baseline, 8 weeks"
+          },
+          "pred_item": {
+            "measure": "Change in Breathlessness, Cough and Sputum Scale (BCSS) score",
+            "description": "Change in daily respiratory symptom score on the BCSS, analysed as 8-week change adjusted for baseline value.",
+            "timeFrame": "Baseline to 8 weeks after randomisation"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 8,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in St George Respiratory Quotient (SGRQ)",
+            "description": "The St George Respiratory Quotient (SGRQ) contains 50 items measuring symptoms of and activities affected by obstructive airway disease. Total score is a sum of item scores and ranges from 0 to 100, with higher scores indicating more limitations. The minimally significant difference is 4.",
+            "timeFrame": "baseline, 8 weeks"
+          },
+          "pred_item": {
+            "measure": "Change in St. George’s Respiratory Questionnaire (SGRQ) total score",
+            "description": "Change in respiratory health-related quality of life as measured by the SGRQ total score, analysed as 8-week change adjusted for baseline value.",
+            "timeFrame": "Baseline and 8 weeks after randomisation"
+          }
+        }
+      ]
+    }
+  ]
+}

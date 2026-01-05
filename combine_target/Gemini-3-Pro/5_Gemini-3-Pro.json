@@ -1,0 +1,196 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03547167",
+      "secondaryIdInfos": [
+        {
+          "id": "2017-004915-38",
+          "type": "EUDRACT_NUMBER"
+        },
+        {
+          "id": "V114-017",
+          "type": "OTHER",
+          "domain": "Merck Sharp & Dohme Corp"
+        }
+      ],
+      "organization": {
+        "fullName": "Merck Sharp & Dohme Corp",
+        "class": "INDUSTRY"
+      },
+      "officialTitle": "Phase 3, Multicenter, Randomized, Double-Blind, Active Comparator-Controlled Study to Evaluate the Safety, Tolerability, and Immunogenicity of V114 in Pneumococcal Vaccine-Naive Immunocompetent Adults Aged 18–49 Years With or Without Risk Factors for PD",
+      "acronym": "PNEU-DAY"
+    },
+    "descriptionModule": {
+      "briefSummary": "This phase 3 trial evaluated the safety, tolerability, and immunogenicity of sequential administration of either V114 (a 15-valent pneumococcal conjugate vaccine) or PCV13, followed 6 months later by PPSV23, in immunocompetent adults aged 18–49 years with or without predefined risk factors for pneumococcal disease. Overall, 1515 participants were randomized 3:1 to receive either V114 or PCV13, followed by PPSV23.",
+      "detailedDescription": "This was a phase 3, multicenter, randomized, double-blind, active comparator-controlled study (protocol V114-017) conducted at 79 sites worldwide. The study aimed to evaluate the safety, tolerability, and immunogenicity of V114 in pneumococcal vaccine-naive immunocompetent adults aged 18–49 years with or without risk factors for pneumococcal disease (PD). Participants were randomized in a 3:1 ratio to receive a single dose of V114 or PCV13 on Day 1, followed by a single dose of PPSV23 at Month 6. V114 contains pneumococcal capsular polysaccharide from serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 23F, 22F, and 33F, and serotype 6B. PCV13 contains serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, and 23F, and serotype 6B. PPSV23 contains 23 serotypes. Safety endpoints included solicited injection-site and systemic adverse events (AEs) and serious adverse events (SAEs). Immunogenicity was assessed by measuring serotype-specific opsonophagocytic activity (OPA) geometric mean titers (GMTs) and immunoglobulin G (IgG) geometric mean concentrations (GMCs) at Day 30, Month 6, and Month 7."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Pneumococcal Infections",
+        "Pneumococcal Disease"
+      ],
+      "keywords": [
+        "Pneumococcal Vaccines",
+        "V114",
+        "PCV13",
+        "PPSV23",
+        "Immunogenicity",
+        "Safety",
+        "Adults",
+        "Risk Factors"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants were randomized 3:1 to receive either V114 or PCV13, followed by PPSV23.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "V114 and PCV13 were administered in a blinded fashion and PPSV23 was administered open-label.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 1515,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "V114 Group",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received a single dose of V114 on Day 1, followed by a single dose of PPSV23 at Month 6.",
+          "interventionNames": [
+            "V114",
+            "PPSV23"
+          ]
+        },
+        {
+          "label": "PCV13 Group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received a single dose of PCV13 on Day 1, followed by a single dose of PPSV23 at Month 6.",
+          "interventionNames": [
+            "PCV13",
+            "PPSV23"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "V114",
+          "description": "15-valent pneumococcal conjugate vaccine (VAXNEUVANCE). Each 0.5-mL dose contains 2 µg of pneumococcal capsular polysaccharide from serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 23F, 22F, and 33F, and 4 µg of serotype 6B, conjugated to CRM197 carrier protein and adjuvanted with aluminum phosphate. Administered intramuscularly.",
+          "armGroupLabels": [
+            "V114 Group"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "PCV13",
+          "description": "13-valent pneumococcal conjugate vaccine (Prevnar 13). Each 0.5-mL dose contains 2.2 µg of pneumococcal capsular polysaccharide from serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, and 23F, and 4.4 µg of serotype 6B, conjugated to CRM197 carrier protein and adjuvanted with aluminum phosphate. Administered intramuscularly.",
+          "armGroupLabels": [
+            "PCV13 Group"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "PPSV23",
+          "description": "23-valent pneumococcal polysaccharide vaccine (PNEUMOVAX 23). Each dose contains 25 µg of pneumococcal capsular polysaccharide from 23 serotypes. Administered intramuscularly.",
+          "armGroupLabels": [
+            "V114 Group",
+            "PCV13 Group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of participants with solicited injection-site adverse events (AEs)",
+          "description": "Assessed following administration of V114 or PCV13. Injection-site reactions included erythema, swelling, and pain.",
+          "timeFrame": "Days 1–5 postvaccination"
+        },
+        {
+          "measure": "Proportion of participants with solicited systemic adverse events (AEs)",
+          "description": "Assessed following administration of V114 or PCV13. Systemic AEs included muscle pain/myalgia, joint pain/arthralgia, headache, and fatigue.",
+          "timeFrame": "Days 1–14 postvaccination"
+        },
+        {
+          "measure": "Proportion of participants with any AE or serious adverse event (SAE)",
+          "description": "Assessed following administration of V114 or PCV13, including vaccine-related SAEs.",
+          "timeFrame": "Day 1 through Month 6"
+        },
+        {
+          "measure": "Serotype-specific opsonophagocytic activity (OPA) geometric mean titers (GMTs)",
+          "description": "Evaluated for the 15 serotypes included in V114.",
+          "timeFrame": "Day 30"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportion of participants with solicited injection-site adverse events (AEs) following PPSV23",
+          "description": "Assessed following administration of PPSV23.",
+          "timeFrame": "Days 1–5 post-PPSV23 vaccination"
+        },
+        {
+          "measure": "Proportion of participants with solicited systemic adverse events (AEs) following PPSV23",
+          "description": "Assessed following administration of PPSV23.",
+          "timeFrame": "Days 1–14 post-PPSV23 vaccination"
+        },
+        {
+          "measure": "Proportion of participants with any AE or SAE following PPSV23",
+          "description": "Assessed following administration of PPSV23.",
+          "timeFrame": "Month 6 through Month 7"
+        },
+        {
+          "measure": "Serotype-specific IgG geometric mean concentrations (GMCs)",
+          "description": "Observed serotype-specific IgG GMCs.",
+          "timeFrame": "Day 30"
+        },
+        {
+          "measure": "OPA GMTs and IgG GMCs",
+          "description": "Evaluated for serotypes included in the vaccine.",
+          "timeFrame": "Month 6 and Month 7"
+        },
+        {
+          "measure": "Geometric mean fold rises (GMFRs) in OPA and IgG responses",
+          "description": "Fold rise from baseline (Day 1 or Month 6) to post-vaccination.",
+          "timeFrame": "Day 30 and Month 7"
+        },
+        {
+          "measure": "Proportions of participants with a ≥4-fold rise in OPA and IgG responses",
+          "description": "Rise from baseline (Day 1 or Month 6) to post-vaccination.",
+          "timeFrame": "Day 30 and Month 7"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Ratio of OPA GMTs and IgG GMCs between vaccination groups",
+          "description": "Exploratory analyses comparing immune responses between groups using serotype-specific constrained longitudinal data analysis (cLDA) models.",
+          "timeFrame": "Day 30, Month 6, and Month 7"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Immunocompetent adults aged 18–49 years.\n- Verified as pneumococcal vaccine naive by medical history and record review.\n- Participants with or without risk factors for pneumococcal disease (PD).\n- Native American adults with and without risk factors for PD enrolled at The Johns Hopkins Center for American Indian Health (CAIH) sites.\n- Participants with ≥1 risk factor for PD enrolled at non-CAIH sites.\n- Protocol-defined inclusion criteria met for risk factors: diabetes mellitus, chronic liver disease, chronic lung disease, chronic heart disease, and current tobacco use.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "49 Years",
+      "stdAges": [
+        "ADULT"
+      ]
+    }
+  }
+}

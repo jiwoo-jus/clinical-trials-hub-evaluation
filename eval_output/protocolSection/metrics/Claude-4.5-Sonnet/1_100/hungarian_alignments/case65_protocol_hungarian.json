@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "case_id": 65,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T18:00:49.378669",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/65_NCT03988335.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/65_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          1.0,
+          0.2
+        ],
+        [
+          0.7,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "label": "RIST4721",
+            "type": "EXPERIMENTAL",
+            "description": "RIST4721 as once-daily 300mg oral solution for 28 days.",
+            "interventionNames": [
+              "Drug: RIST4721"
+            ]
+          },
+          "pred_item": {
+            "label": "RIST4721",
+            "type": "EXPERIMENTAL",
+            "description": "Subjects received RIST4721 300 mg oral solution once daily for 28 days",
+            "interventionNames": [
+              "Drug: RIST4721"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo as once-daily 300mg oral solution for 28 days.",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Subjects received placebo oral solution once daily for 28 days",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          1.0,
+          0.4
+        ],
+        [
+          0.15,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "RIST4721",
+            "description": "RIST4721 oral solution",
+            "armGroupLabels": [
+              "RIST4721"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "RIST4721",
+            "description": "RIST4721 300 mg oral solution administered once daily for 28 days. RIST4721 is a small molecule CXCR2 antagonist with high selectivity for CXCR2 over CXCR1 and CCR2b, designed to block neutrophil migration to sites of inflammation.",
+            "armGroupLabels": [
+              "RIST4721"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo oral solution",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo oral solution administered once daily for 28 days, matched to RIST4721 in appearance",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.78
+        ],
+        [
+          0.82,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Log Transformed Ratio of Postbaseline Fresh Pustule Count at Day 28 to Baseline",
+            "description": "Relative change from baseline in fresh pustule count at Day 28",
+            "timeFrame": "Baseline to Day 28"
+          },
+          "pred_item": {
+            "measure": "Relative change from baseline in fresh pustule count",
+            "description": "Relative change from baseline in fresh pustule count at day 28. Fresh pustules were defined as macroscopically visible pustules that were white/yellow in color with no brown color, with or without crust, and present on the glabrous skin of the palms and/or soles.",
+            "timeFrame": "Day 28"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Log Transformed Ratio of Postbaseline Total Pustule Count at Day 28 to Baseline",
+            "description": "Relative change from baseline in total pustule count at Day 28",
+            "timeFrame": "Baseline to Day 28"
+          },
+          "pred_item": {
+            "measure": "Relative change from baseline in total pustule count",
+            "description": "Relative change from baseline in total pustule count at day 28. Total pustule count included all pustules present on the palms and/or soles.",
+            "timeFrame": "Day 28"
+          }
+        }
+      ]
+    }
+  ]
+}

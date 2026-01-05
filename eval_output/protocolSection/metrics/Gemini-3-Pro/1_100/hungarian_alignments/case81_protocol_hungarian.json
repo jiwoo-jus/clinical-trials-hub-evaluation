@@ -1,0 +1,1157 @@
+{
+  "metadata": {
+    "case_id": 81,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T19:08:50.252401",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/81_NCT01954082.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/81_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 19,
+      "pred_count": 26,
+      "similarity_matrix": [
+        [
+          0.72,
+          0.75,
+          0.85,
+          0.7,
+          0.7,
+          0.7,
+          0.78,
+          0.7,
+          0.78,
+          0.7,
+          0.7,
+          0.7,
+          0.83,
+          0.7,
+          0.76,
+          0.75,
+          0.7,
+          0.78,
+          0.78,
+          0.5,
+          0.65,
+          0.7,
+          0.6,
+          0.5,
+          0.7,
+          0.6
+        ],
+        [
+          0.82,
+          0.78,
+          0.78,
+          0.82,
+          0.78,
+          0.78,
+          0.75,
+          0.66,
+          0.88,
+          0.78,
+          0.7,
+          0.7,
+          0.82,
+          0.55,
+          0.6,
+          0.7,
+          0.68,
+          0.88,
+          0.7,
+          0.65,
+          0.6,
+          0.6,
+          0.6,
+          0.7,
+          0.6,
+          0.7
+        ],
+        [
+          0.8,
+          0.75,
+          0.5,
+          0.8,
+          0.65,
+          0.6,
+          0.7,
+          0.75,
+          0.8,
+          0.65,
+          0.78,
+          0.6,
+          0.7,
+          0.7,
+          0.65,
+          0.7,
+          0.55,
+          0.7,
+          0.87,
+          0.7,
+          0.6,
+          0.6,
+          0.7,
+          0.6,
+          0.7,
+          0.6
+        ],
+        [
+          0.9,
+          0.78,
+          0.6,
+          0.7,
+          0.74,
+          0.78,
+          0.92,
+          0.82,
+          0.78,
+          0.7,
+          0.78,
+          0.7,
+          0.82,
+          0.7,
+          0.7,
+          0.73,
+          0.72,
+          0.72,
+          0.72,
+          0.55,
+          0.6,
+          0.7,
+          0.7,
+          0.7,
+          0.6,
+          0.7
+        ],
+        [
+          0.83,
+          0.72,
+          0.5,
+          0.83,
+          0.9,
+          0.7,
+          0.88,
+          0.78,
+          0.7,
+          0.7,
+          0.8,
+          0.7,
+          0.78,
+          0.78,
+          0.62,
+          0.7,
+          0.7,
+          0.8,
+          0.82,
+          0.5,
+          0.7,
+          0.6,
+          0.7,
+          0.6,
+          0.7,
+          0.4
+        ],
+        [
+          0.83,
+          0.82,
+          0.78,
+          0.82,
+          0.82,
+          0.7,
+          0.78,
+          0.93,
+          0.85,
+          0.86,
+          0.78,
+          0.7,
+          0.85,
+          0.75,
+          0.7,
+          0.8,
+          0.75,
+          0.78,
+          0.7,
+          0.7,
+          0.6,
+          0.6,
+          0.7,
+          0.7,
+          0.7,
+          0.4
+        ],
+        [
+          0.83,
+          0.9,
+          0.7,
+          0.78,
+          0.7,
+          0.82,
+          0.7,
+          0.83,
+          0.8,
+          0.7,
+          0.82,
+          0.7,
+          0.74,
+          0.6,
+          0.6,
+          0.84,
+          0.7,
+          0.78,
+          0.82,
+          0.65,
+          0.6,
+          0.85,
+          0.6,
+          0.7,
+          0.72,
+          0.6
+        ],
+        [
+          0.82,
+          0.77,
+          0.72,
+          0.72,
+          0.72,
+          0.7,
+          0.85,
+          0.74,
+          0.82,
+          0.78,
+          0.9,
+          0.65,
+          0.78,
+          0.75,
+          0.7,
+          0.63,
+          0.7,
+          0.82,
+          0.72,
+          0.6,
+          0.5,
+          0.7,
+          0.7,
+          0.6,
+          0.6,
+          0.7
+        ],
+        [
+          0.82,
+          0.6,
+          0.7,
+          0.74,
+          0.68,
+          0.7,
+          0.75,
+          0.6,
+          0.74,
+          0.72,
+          0.7,
+          0.86,
+          0.82,
+          0.6,
+          0.8,
+          0.82,
+          0.7,
+          0.72,
+          0.7,
+          0.3,
+          0.6,
+          0.6,
+          0.7,
+          0.4,
+          0.7,
+          0.7
+        ],
+        [
+          0.7,
+          0.78,
+          0.7,
+          0.82,
+          0.78,
+          0.7,
+          0.65,
+          0.7,
+          0.7,
+          0.6,
+          0.6,
+          0.5,
+          0.65,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.65,
+          0.5,
+          0.5,
+          0.7,
+          0.7,
+          0.7,
+          0.4
+        ],
+        [
+          0.78,
+          0.75,
+          0.78,
+          0.76,
+          0.62,
+          0.82,
+          0.82,
+          0.7,
+          0.69,
+          0.78,
+          0.87,
+          0.85,
+          0.75,
+          0.7,
+          0.7,
+          0.7,
+          0.62,
+          0.69,
+          0.72,
+          0.7,
+          0.55,
+          0.7,
+          0.7,
+          0.7,
+          0.52,
+          0.7
+        ],
+        [
+          0.8,
+          0.86,
+          0.78,
+          0.8,
+          0.7,
+          0.82,
+          0.8,
+          0.7,
+          0.65,
+          0.73,
+          0.86,
+          0.78,
+          0.72,
+          0.86,
+          0.8,
+          0.7,
+          0.7,
+          0.7,
+          0.76,
+          0.6,
+          0.7,
+          0.7,
+          0.6,
+          0.7,
+          0.75,
+          0.7
+        ],
+        [
+          0.82,
+          0.72,
+          0.9,
+          0.7,
+          0.78,
+          0.7,
+          0.7,
+          0.7,
+          0.74,
+          0.87,
+          0.85,
+          0.72,
+          0.9,
+          0.78,
+          0.86,
+          0.7,
+          0.82,
+          0.72,
+          0.7,
+          0.6,
+          0.7,
+          0.6,
+          0.6,
+          0.4,
+          0.7,
+          0.6
+        ],
+        [
+          0.8,
+          0.7,
+          0.75,
+          0.86,
+          0.78,
+          0.68,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.68,
+          0.6,
+          0.7,
+          0.75,
+          0.9,
+          0.78,
+          0.6,
+          0.73,
+          0.7,
+          0.6,
+          0.6,
+          0.5,
+          0.7,
+          0.7,
+          0.6
+        ],
+        [
+          0.83,
+          0.82,
+          0.82,
+          0.8,
+          0.85,
+          0.7,
+          0.8,
+          0.7,
+          0.75,
+          0.8,
+          0.7,
+          0.7,
+          0.7,
+          0.82,
+          0.7,
+          0.78,
+          0.85,
+          0.62,
+          0.72,
+          0.7,
+          0.6,
+          0.7,
+          0.6,
+          0.6,
+          0.7,
+          0.7
+        ],
+        [
+          0.78,
+          0.82,
+          0.6,
+          0.82,
+          0.8,
+          0.9,
+          0.55,
+          0.84,
+          0.8,
+          0.7,
+          0.65,
+          0.6,
+          0.92,
+          0.76,
+          0.7,
+          0.62,
+          0.65,
+          0.7,
+          0.7,
+          0.65,
+          0.65,
+          0.75,
+          0.52,
+          0.4,
+          0.7,
+          0.6
+        ],
+        [
+          0.7,
+          0.78,
+          0.7,
+          0.85,
+          0.8,
+          0.8,
+          0.8,
+          0.7,
+          0.6,
+          0.82,
+          0.7,
+          0.65,
+          0.8,
+          0.7,
+          0.83,
+          0.6,
+          0.6,
+          0.6,
+          0.8,
+          0.87,
+          0.6,
+          0.7,
+          0.7,
+          0.7,
+          0.6,
+          0.6
+        ],
+        [
+          0.82,
+          0.75,
+          0.7,
+          0.9,
+          0.6,
+          0.72,
+          0.7,
+          0.7,
+          0.6,
+          0.86,
+          0.85,
+          0.6,
+          0.7,
+          0.8,
+          0.65,
+          0.8,
+          0.7,
+          0.82,
+          0.7,
+          0.8,
+          0.6,
+          0.7,
+          0.6,
+          0.65,
+          0.6,
+          0.8
+        ],
+        [
+          0.94,
+          0.76,
+          0.7,
+          0.7,
+          0.7,
+          0.75,
+          0.8,
+          0.5,
+          0.7,
+          0.8,
+          0.82,
+          0.7,
+          0.7,
+          0.72,
+          0.7,
+          0.82,
+          0.68,
+          0.7,
+          0.7,
+          0.6,
+          0.6,
+          0.7,
+          0.7,
+          0.7,
+          0.7,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.85,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD021364",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD021364"
+          },
+          "pred_item": {
+            "id": "UG1 HD21364",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 8,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD040689",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD040689"
+          },
+          "pred_item": {
+            "id": "UG1 HD87229",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 18,
+          "score": 0.87,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD021385",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD021385"
+          },
+          "pred_item": {
+            "id": "UG1 HD21385",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 6,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD027851",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD027851"
+          },
+          "pred_item": {
+            "id": "UG1 HD27851",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD027853",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD027853"
+          },
+          "pred_item": {
+            "id": "UG1 HD27853",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 7,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD027856",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD027856"
+          },
+          "pred_item": {
+            "id": "UG1 HD27856",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD027904",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD027904"
+          },
+          "pred_item": {
+            "id": "UG1 HD27904",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 10,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD027880",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD027880"
+          },
+          "pred_item": {
+            "id": "UG1 HD27880",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 11,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD034216",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD034216"
+          },
+          "pred_item": {
+            "id": "UG1 HD34216",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": 3,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD021373",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD021373"
+          },
+          "pred_item": {
+            "id": "UG1 HD68284",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": 5,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD040492",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD040492"
+          },
+          "pred_item": {
+            "id": "UG1 HD40492",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": 13,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD053109",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD053109"
+          },
+          "pred_item": {
+            "id": "UG1 HD53109",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": 14,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD053089",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD053089"
+          },
+          "pred_item": {
+            "id": "UG1 HD53089",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": 15,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD068244",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD068244"
+          },
+          "pred_item": {
+            "id": "UG1 HD68244",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": 16,
+          "score": 0.85,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD068263",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD068263"
+          },
+          "pred_item": {
+            "id": "UG1 HD68263",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": 12,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD068270",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD068270"
+          },
+          "pred_item": {
+            "id": "UG1 HD68270",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": 19,
+          "score": 0.87,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD068278",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD068278"
+          },
+          "pred_item": {
+            "id": "UL1 TR41",
+            "type": "NIH",
+            "domain": "National Center for Advancing Translational Sciences"
+          }
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": 9,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD068284",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD068284"
+          },
+          "pred_item": {
+            "id": "UG1 HD68278",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "id": "U10HD036790",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/U10HD036790"
+          },
+          "pred_item": {
+            "id": "U10 HD36790",
+            "type": "NIH",
+            "domain": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.02,
+          0.02,
+          0.05
+        ],
+        [
+          0.02,
+          0.05,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.05,
+          "status": "matched",
+          "ref_item": {
+            "label": "myo-Inositol 5% Injection",
+            "type": "EXPERIMENTAL",
+            "description": "Within 12-72 hours of birth, infants will receive 80 mg myo-inositol 5% Injection per kilogram per day, administered in divided doses every 12 hours (40 mg/kg/dose). Study drug will be administered daily and continued until the earliest of 34 completed weeks PMA, 10 weeks (70 days) chronologic age, or the time of discharge. myo-Inositol 5% Injection will be administered IV until enteral feedings are established, at which time the same dose and formulation will be administered enterally every 12 hours.",
+            "interventionNames": [
+              "Drug: myo-Inositol 5% Injection"
+            ]
+          },
+          "pred_item": {
+            "label": "Children with history of ROP with ophthalmologic intervention (group 3)",
+            "type": "OTHER",
+            "description": "Children with history of ROP who received ophthalmologic intervention. Ophthalmologic intervention for ROP included retinal ablation, scleral buckling, vitrectomy, or anti-VEGF therapy.",
+            "interventionNames": [
+              "Retinal ablation",
+              "Scleral buckling",
+              "Vitrectomy",
+              "Anti-VEGF therapy"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.05,
+          "status": "matched",
+          "ref_item": {
+            "label": "5% glucose(dextrose)",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Within 12-72 hours of birth, infants will receive 80 mg 5% glucose(dextrose) USP for intravenous infusion per kilogram per day, administered in divided doses every 12 hours (40 mg/kg/dose). Study drug will be administered daily and continued until the earliest of 34 completed weeks PMA, 10 weeks (70 days) chronologic age, or the time of discharge. myo-Inositol 5% Injection will be administered IV until enteral feedings are established, at which time the same dose and formulation will be administered enterally every 12 hours.",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Children with history of ROP stage ≤3 without ophthalmologic intervention (group 2)",
+            "type": "NO_INTERVENTION",
+            "description": "Children with history of ROP stage ≤3 who did not receive ophthalmologic intervention.",
+            "interventionNames": []
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.05,
+          0.03,
+          0.05,
+          0.15
+        ],
+        [
+          0.1,
+          0.05,
+          0.1,
+          0.15
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.15,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "myo-Inositol 5% Injection",
+            "description": "Abbott Nutrition Division, Abbott Laboratories is supplying myo-Inositol 5% Injection to the clinical centers for the duration of the trial.\n\nInositol: myo-Inositol 5% Injection is an isotonic, preservative-free, sterile 5% solution of myo-inositol in water containing 0.5 gm sodium chloride per liter (8.55mM), pH 6.5-7.5. It is administered via IV infusion using syringe pump over 15-30 minutes twice per day at 12-hour intervals at a dose of 80 mg inositol/kg/day (40 mg inositol/kg/dose), which is equivalent to 1.6 mL/kg/day (0.80 mL/kg/dose).",
+            "armGroupLabels": [
+              "myo-Inositol 5% Injection"
+            ],
+            "otherNames": [
+              "Inositol"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Anti-VEGF therapy",
+            "description": "Ophthalmologic intervention for ROP involving anti-vascular endothelial growth factor administration.",
+            "armGroupLabels": [
+              "Children with history of ROP with ophthalmologic intervention (group 3)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.1,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "% glucose(dextrose)",
+            "armGroupLabels": [
+              "5% glucose(dextrose)"
+            ]
+          },
+          "pred_item": {
+            "type": "PROCEDURE",
+            "name": "Vitrectomy",
+            "description": "Ophthalmologic intervention for ROP.",
+            "armGroupLabels": [
+              "Children with history of ROP with ophthalmologic intervention (group 3)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.05,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Unfavorable Outcome, Defined as Severe Retinopathy of Prematurity (ROP) or Death Prior to Reaching Acute/Final ROP Status",
+            "description": "Death is defined as from any cause before Acute/Final ROP status is determined. ROP was identified by routine ophthalmologic examinations beginning at the latter of 31 weeks PMA or 4-6 weeks chronologic age. The favorable ROP endpoint requires that no ROP, or only mild ROP has occurred in both eyes and the eyes have matured beyond the risk of developing Type 1 ROP (severity meeting criteria for surgical intervention). The unfavorable ROP endpoint requires that one or both eyes reach Type 1 ROP. When ROP did not resolve by the time of discharge, participants were followed as outpatients until reaching an ROP endpoint, up to 55 weeks PMA. Since incomplete follow up is more likely among participants with mild or no ROP than for those with aggressive ROP, an independent adjudication process assigned an ROP endpoint of 'most likely never had Type 1 ROP', or 'most likely developed Type 1 ROP' based on clinical and ROP data review to reduce possible missing data bias.",
+            "timeFrame": "by 55 weeks PMA"
+          },
+          "pred_item": {
+            "measure": "Bayley Scales of Infant and Toddler Development, 3rd Edition (Bayley-III) composite scores",
+            "description": "Composite motor, cognitive, and language scores. Mean score of 100 and a standard deviation (SD) of 15. Children untestable due to severe developmental delay were assigned a cognitive score of 54, composite language score of 46, and composite motor score of 46.",
+            "timeFrame": "22-26 months’ corrected age"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 6,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.05,
+          0.08,
+          0.15,
+          0.08
+        ],
+        [
+          0.05,
+          0.05,
+          0.05,
+          0.0
+        ],
+        [
+          0.02,
+          0.2,
+          0.07,
+          0.05
+        ],
+        [
+          0.05,
+          0.2,
+          0.05,
+          0.08
+        ],
+        [
+          0.05,
+          0.2,
+          0.08,
+          0.05
+        ],
+        [
+          0.12,
+          0.18,
+          0.3,
+          0.08
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.05,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Bronchopulmonary Dysplasia (BPD)",
+            "description": "BPD is defined as supplemental oxygen required to maintain an oxygenation saturation of \\>90% at 36 weeks postmenstrual age (PMA) (NICHD physiologic definition).",
+            "timeFrame": "36 weeks PMA"
+          },
+          "pred_item": {
+            "measure": "Child Behavior Checklist (CBCL) T-scores",
+            "description": "Behavioral difficulties assessed using T-scores for syndrome scales, problem scales (internalizing, externalizing, and total), and DSM-oriented scales. T-scores <65 classified as normal, 65-69 as borderline, and ≥70 classified as clinically significant.",
+            "timeFrame": "22-26 months’ corrected age"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Bronchopulmonary Dysplasia (BPD) or Death From BPD",
+            "description": "BPD is defined as supplemental oxygen required to maintain an oxygenation saturation of \\>90% at 36 weeks PMA (NICHD physiologic definition). Death from BPD prior to 37 weeks postmenstrual age (PMA) is defined when the cause of death is certified by the Center PI as BPD being the primary cause, or a significant co-contributing cause of death.",
+            "timeFrame": "prior to 37 weeks PMA"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.2,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With All Cause Death Before Retinopathy of Prematurity (ROP) Endpoint",
+            "description": "Defined as death from any cause following randomization through primary study follow-up (up to 55 weeks postmenstrual age (PMA))",
+            "timeFrame": "by 55 weeks PMA age"
+          },
+          "pred_item": {
+            "measure": "Non-ROP ophthalmologic outcomes",
+            "description": "Outcomes assessed by medical history and neurological examination, including assessment for strabismus, nystagmus, roving eye movements, ability to track 180 degrees, eye surgery for non-ROP indication, and prescription of corrective lenses.",
+            "timeFrame": "22-26 months’ corrected age"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.08,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Any Retinopathy of Prematurity (ROP)",
+            "description": "ROP was identified by routine ophthalmologic examinations beginning at the latter of 31 weeks PMA or 4-6 weeks chronologic age. Any ROP is defined as ROP of any severity that is observed on at least 2 independent examinations in either eye through the time that Acute/Final ROP status is reached (up to 55 weeks postmenstrual age (PMA)).",
+            "timeFrame": "by 55 weeks PMA"
+          },
+          "pred_item": {
+            "measure": "Diagnosis or suspicion of Autism Spectrum Disorder (ASD)",
+            "description": "Assessed via medical history.",
+            "timeFrame": "22-26 months’ corrected age"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Type 2 or More Severe Retinopathy of Prematurity (ROP)",
+            "description": "Defined as one or both eyes reaching Type 2 ROP (ETROP 2003) or the more severe Type 1 ROP (as defined previously) through the time that Acute/Final ROP status is reached (up to 55 weeks postmenstrual age (PMA)). Type 2 ROP is defined as (ETROP 2003): Stage 3 ROP without Plus Disease (i.e. Zone II) or Stage 1 or 2 ROP without Plus Disease (i.e. Zone I).",
+            "timeFrame": "by 55 weeks PMA"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 2,
+          "score": 0.3,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Severe Intraventricular Hemorrhage (IVH)",
+            "description": "Severe IVH is defined as IVH Grades 3 or 4 on either side of the brain. The evaluation for IVH occurs early (within 28 days from birth) via a cranial sonogram and is classified as described by Papile.",
+            "timeFrame": "by 28 days PMA"
+          },
+          "pred_item": {
+            "measure": "Gross Motor Function Classification System (GMFCS) level",
+            "description": "Classification of cerebral palsy (CP) severity: no or mild CP refers to level ≤1, moderate CP refers to levels 2 or 3, and severe CP refers to levels 4 or 5.",
+            "timeFrame": "22-26 months’ corrected age"
+          }
+        }
+      ]
+    }
+  ]
+}

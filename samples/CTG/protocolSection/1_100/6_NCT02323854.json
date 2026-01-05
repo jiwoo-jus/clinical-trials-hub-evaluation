@@ -1,0 +1,109 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02323854",
+      "orgStudyIdInfo": {
+        "id": "COVEMPR0437"
+      },
+      "organization": {
+        "fullName": "Medtronic - MITG",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "The EMPrint™ Ablate and RESect Study in Patients With Metastatic Lung Tumors (EMPRESS)",
+      "officialTitle": "The EMPrint™ Ablate and RESect Study in Patients With Metastatic Lung Tumors (EMPRESS)",
+      "acronym": "EMPRESS"
+    },
+    "descriptionModule": {
+      "briefSummary": "Post market prospective, non-randomized, single-arm, multicenter study, designed to demonstrate dose response of an ablation system using a percutaneous approach in patients with primary, metastatic, or recurrent primary lung tumors.",
+      "detailedDescription": "Primary Endpoint: Dose response as indicated by CT imaging, measurement of maximum diameter and volume.\n\nSecondary Endpoint: Assessment of complete tumor ablation immediately post-procedure."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Lung Cancer"
+      ],
+      "keywords": [
+        "primary, recurrent, metastatic lung tumor, ablation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 15,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ablation and Surgical Resection",
+          "type": "OTHER",
+          "description": "Ablation of lung tumor; followed by surgical resection of the ablation zone.",
+          "interventionNames": [
+            "Device: Ablation",
+            "Procedure: Surgical Resection"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Ablation",
+          "description": "Percutaneous antenna will be placed into the target tumor under CT image guidance. Target tumor will be ablated and the antenna will be removed.",
+          "armGroupLabels": [
+            "Ablation and Surgical Resection"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Surgical Resection",
+          "description": "The planned surgical resection of the lung tumor will be conducted as scheduled post ablation procedure.",
+          "armGroupLabels": [
+            "Ablation and Surgical Resection"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Dose Response",
+          "description": "Dose response was assessed by comparing actual ablation zone size and volume to predicted ablation zone size and volume prescribed by the physician using the Emprint™ Procedure Planning Application. Dose response was measured for each ablation zone using CT imaging immediately post ablation and prior to the surgical resection.",
+          "timeFrame": "1 Day"
+        },
+        {
+          "measure": "Ablation Zone Shape",
+          "description": "Ablation width (X) / height (Y), ratio of 1 indicates spherical ablation zone shape",
+          "timeFrame": "Same day"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Participants With Complete or Incomplete Tumor Ablation",
+          "description": "The secondary endpoint was complete tumor ablation immediately post-procedure for each target tumor using histologic analysis. Complete ablation was defined as 100% nonviable tumor cells.",
+          "timeFrame": "Same Day"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subject or authorized representative has provided informed consent.\n* Subject is ≥18 years of age.\n* At least one pulmonary metastasis ≤ 3.0 cm in maximum diameter resulting from distant primary cancers or at least one recurrence of primary lung cancer ≤ 3.0 cm in maximum diameter.\n* Subject has been confirmed by a thoracic surgeon to be a surgical candidate for resection of the tumor targeted for ablation.\n* Subject is willing and able to comply with all aspects of the treatment and evaluation schedule.\n* ≥1 cm of tumor-free lung parenchyma between target tumor and pleura or fissure.\n\nExclusion Criteria:\n\n* Pre-procedure Exclusion Criteria\n* Contraindicated for surgery.\n* Prolonged chest infection, defined as lung consolidation that requires hospitalization and greater than 10 days of antibiotics 30 days prior to surgery.\n* Tumor abutting main stem bronchus, main pulmonary artery branches, esophagus and/or trachea.\n* Tumor with pleural contact.\n* Tumors located \\< 3 cm of staple lines or other metal objects.\n* Patients diagnosed with GOLD Stage IV Emphysema.\n* Uncontrollable coagulopathy\n* Patients unable to tolerate discontinued use of anti-coagulants prior to and during the ablation procedure.\n* Subject is pregnant (documented by a positive pregnancy test according to hospital standard practices) or is actively breast-feeding.\n* Subject has participated in an investigational drug or device research study within 30 days of enrollment that would interfere with this study.\n* The investigator determines that participation in the study may jeopardize the safety or welfare of the subject.\n* Patients with implantable pacemakers and other electronic implants, in accordance with Instructions for Use (IFU).\n\nIntraprocedural Exclusion Criteria\n\n\\*Incidental intraprocedural finding that the subject no longer meets the study eligibility criteria.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

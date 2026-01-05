@@ -1,0 +1,407 @@
+{
+  "metadata": {
+    "case_id": 61,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T17:43:49.796326",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/61_NCT04435795.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/61_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.4
+        ],
+        [
+          0.15,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Ciclesonide inhaled and nasal",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Intranasal ciclesonide BID 50mcg BID to each nostril and inhaled ciclesonide 600mcg BID x 14 days",
+            "interventionNames": [
+              "Drug: Ciclesonide",
+              "Drug: Ciclesonide nasal"
+            ]
+          },
+          "pred_item": {
+            "label": "Inhaled and Intranasal Ciclesonide",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received inhaled ciclesonide 600 μg twice daily (total 1200 μg/day) via metered dose inhaler plus intranasal ciclesonide 200 μg once daily for 14 days.",
+            "interventionNames": [
+              "Inhaled ciclesonide",
+              "Intranasal ciclesonide"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Normal Saline intranasal BID and Placebo 3 puff MDI inhaled BID",
+            "interventionNames": [
+              "Drug: Normal Saline intranasal and placebo inhaler"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo Metered Dose Inhaler and Nasal Saline",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants received placebo metered dose inhaler (saline) plus intranasal saline, matching the appearance and dosing schedule of the active ciclesonide regimen, for 14 days.",
+            "interventionNames": [
+              "Placebo inhaler",
+              "Intranasal saline"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.1,
+          0.4,
+          0.9,
+          0.9
+        ],
+        [
+          0.98,
+          0.92,
+          0.2,
+          0.2
+        ],
+        [
+          0.82,
+          0.97,
+          0.4,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Normal Saline intranasal and placebo inhaler",
+            "description": "Normal Saline intranasal BID and Placebo 3 puff MDI inhaled BID",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo inhaler",
+            "description": "Saline placebo delivered via metered dose inhaler, matched in appearance and dosing schedule (twice daily) to the active inhaled ciclesonide for 14 days.",
+            "armGroupLabels": [
+              "Placebo Metered Dose Inhaler and Nasal Saline"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Ciclesonide",
+            "description": "Ciclesonide 600mcg BID inhaled with aero chamber",
+            "armGroupLabels": [
+              "Ciclesonide inhaled and nasal"
+            ],
+            "otherNames": [
+              "Alvesco"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Inhaled ciclesonide",
+            "description": "Ciclesonide administered by inhalation at a dose of 600 μg twice daily (total 1200 μg/day) via metered dose inhaler for 14 days to treat early COVID-19 respiratory symptoms.",
+            "armGroupLabels": [
+              "Inhaled and Intranasal Ciclesonide"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Ciclesonide nasal",
+            "description": "intranasal ciclesonide 200 mcg DIE",
+            "armGroupLabels": [
+              "Ciclesonide inhaled and nasal"
+            ],
+            "otherNames": [
+              "Omnaris"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Intranasal ciclesonide",
+            "description": "Ciclesonide nasal spray administered at a dose of 200 μg once daily for 14 days to treat early COVID-19 respiratory symptoms.",
+            "armGroupLabels": [
+              "Inhaled and Intranasal Ciclesonide"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Participants With no Symptoms of Cough, Fever or Dyspnea",
+            "description": "Proportion of participants with no symptoms of cough, fever or dyspnea at day 7",
+            "timeFrame": "day 7"
+          },
+          "pred_item": {
+            "measure": "Resolution of fever and all respiratory symptoms",
+            "description": "Proportion of participants with self-reported resolution of fever and all respiratory symptoms (cough, wet or dry, and dyspnoea, including shortness of breath, chest tightness, or chest congestion) compared with baseline.",
+            "timeFrame": "Day 7 after treatment initiation"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 7,
+      "pred_count": 9,
+      "similarity_matrix": [
+        [
+          0.2,
+          0.93,
+          0.32,
+          0.72,
+          0.6,
+          0.4,
+          0.12,
+          0.15,
+          0.18
+        ],
+        [
+          0.22,
+          0.58,
+          0.9,
+          0.4,
+          0.4,
+          0.42,
+          0.2,
+          0.6,
+          0.2
+        ],
+        [
+          0.2,
+          0.6,
+          0.92,
+          0.4,
+          0.35,
+          0.3,
+          0.25,
+          0.62,
+          0.18
+        ],
+        [
+          0.08,
+          0.68,
+          0.4,
+          0.94,
+          0.4,
+          0.8,
+          0.08,
+          0.08,
+          0.1
+        ],
+        [
+          0.08,
+          0.45,
+          0.32,
+          0.2,
+          0.9,
+          0.32,
+          0.08,
+          0.25,
+          0.12
+        ],
+        [
+          0.86,
+          0.2,
+          0.05,
+          0.18,
+          0.05,
+          0.12,
+          0.05,
+          0.08,
+          0.2
+        ],
+        [
+          0.78,
+          0.12,
+          0.05,
+          0.05,
+          0.08,
+          0.12,
+          0.03,
+          0.05,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Participants With no Symptoms of Cough, Fever or Dyspnea",
+            "description": "Proportion of participants with no symptoms of cough, fever or dyspnea at Day 14",
+            "timeFrame": "Day 14"
+          },
+          "pred_item": {
+            "measure": "Resolution of fever and all respiratory symptoms at Day 14",
+            "description": "Proportion of participants with self-reported resolution of fever and all respiratory symptoms (cough, wet or dry, and dyspnoea, including shortness of breath, chest tightness, or chest congestion) compared with baseline.",
+            "timeFrame": "Day 14 after treatment initiation"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Overall Feeling: Proportion Who Are Reporting That They Are \"Very Much Improved\" or \"Much Improved\" at Day 7",
+            "description": "Proportion who are reporting that they are \"very much improved\" or \"much improved\"",
+            "timeFrame": "Day 7"
+          },
+          "pred_item": {
+            "measure": "Improvement in overall feeling",
+            "description": "Self-reported global improvement in overall feeling, defined as participants reporting feeling much or very much better compared with baseline.",
+            "timeFrame": "Days 7 and 14 after treatment initiation"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 7,
+          "score": 0.62,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Overall Feeling: Proportion Who Are Reporting That They Are \"Very Much Improved\" or \"Much Improved\" at Day 14",
+            "description": "Proportion who are reporting that they are \"very much improved\" or \"much improved\"",
+            "timeFrame": "Day 14"
+          },
+          "pred_item": {
+            "measure": "Change in PROMIS emotional distress anxiety score (7a)",
+            "description": "Change in anxiety as measured by the PROMIS emotional distress anxiety score 7a; meaningful improvement was prespecified as a decrease of at least 3 points in the T score.",
+            "timeFrame": "Baseline to Days 7 and 14 after treatment initiation"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Improvement in Dyspnea: Resolution of Dyspnea at Day 7",
+            "description": "Dyspnea was defined as reporting \"shortness of breath\" or \"chest congestion\" or \"chest tightness\". In those who reported dyspnea at baseline, resolution will be defined as having no symptoms in these three areas.",
+            "timeFrame": "day 7"
+          },
+          "pred_item": {
+            "measure": "Resolution of dyspnoea",
+            "description": "Resolution of dyspnoea among participants who reported dyspnoea at baseline, defined as absence of shortness of breath, chest tightness, or chest congestion.",
+            "timeFrame": "Days 7 and 14 after treatment initiation"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Improvement in Cough at Day 7: Proportion of Patient With a Reduction of Cough Symptoms at Day 7",
+            "description": "Improvement of wet or dry cough. Analysis limited to patients who reported cough at baseline. Defined as a 2 point decrease, or a decrease to 0 on a visual analogue scale that ranged from 0 for no symptoms to 10 for severe symptoms",
+            "timeFrame": "day 7"
+          },
+          "pred_item": {
+            "measure": "Improvement in cough severity",
+            "description": "Improvement in cough among participants who reported cough at baseline, defined as at least a 2-point decrease from baseline or a decrease to 0 on a 0–10 visual analogue scale (0 = no symptoms, 10 = severe symptoms).",
+            "timeFrame": "Days 7 and 14 after treatment initiation"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Proportion of Participants Hospitalized for SARS-CoV-2",
+            "description": "Hospitalization for SARS-CoV-2 related illness",
+            "timeFrame": "day 14"
+          },
+          "pred_item": {
+            "measure": "Hospital admission or death",
+            "description": "Occurrence of hospital admission or death related to covid-19 among trial participants.",
+            "timeFrame": "Up to Day 29 after enrolment"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 8,
+          "score": 0.2,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Mortality",
+            "description": "All cause mortality",
+            "timeFrame": "day 29"
+          },
+          "pred_item": {
+            "measure": "Occurrence of adverse events and side effects",
+            "description": "Frequency and type of adverse events and side effects, collected via free-text reports and specific questions on thrush, throat irritation, voice change, wheeze, nausea, and headache.",
+            "timeFrame": "From treatment initiation through Day 14 after enrolment"
+          }
+        }
+      ]
+    }
+  ]
+}

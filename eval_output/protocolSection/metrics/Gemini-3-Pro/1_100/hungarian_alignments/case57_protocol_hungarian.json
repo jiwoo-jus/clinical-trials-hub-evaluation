@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "case_id": 57,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T17:13:24.769865",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/57_NCT01781637.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/57_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.72,
+          0.15
+        ],
+        [
+          0.05,
+          0.6
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.72,
+          "status": "matched",
+          "ref_item": {
+            "label": "omalizumab group",
+            "type": "EXPERIMENTAL",
+            "description": "Patients will receive omalizumab.",
+            "interventionNames": [
+              "Drug: Omalizumab"
+            ]
+          },
+          "pred_item": {
+            "label": "Omalizumab + Peanut OIT",
+            "type": "EXPERIMENTAL",
+            "description": "Subjects received omalizumab for 12 weeks followed by rapid escalation of peanut protein (OIT) to 250 mg on the first day of desensitization, then weekly up-dosing to 2000 mg. Omalizumab was continued for a total of 19 weeks, then discontinued while OIT continued.",
+            "interventionNames": [
+              "Biological: Omalizumab",
+              "Biological: Peanut Oral Immunotherapy (OIT)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.6,
+          "status": "matched",
+          "ref_item": {
+            "label": "placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Patients will receive placebo.",
+            "interventionNames": [
+              "Drug: placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo + Peanut OIT",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Subjects received placebo for 12 weeks followed by rapid escalation of peanut protein (OIT) to 250 mg on the first day of desensitization, then weekly up-dosing to 2000 mg. Placebo was continued for a total of 19 weeks. Subjects failing to reach the 250 mg dose were given the option to switch to open-label omalizumab.",
+            "interventionNames": [
+              "Other: Placebo",
+              "Biological: Peanut Oral Immunotherapy (OIT)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.2,
+          0.3
+        ],
+        [
+          0.2,
+          0.78,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Omalizumab",
+            "description": "subcutaneous injection",
+            "armGroupLabels": [
+              "omalizumab group"
+            ],
+            "otherNames": [
+              "Xolair"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "Omalizumab",
+            "description": "Anti-IgE antibody administered for 12 weeks prior to desensitization and continued for a total of 19 weeks.",
+            "armGroupLabels": [
+              "Omalizumab + Peanut OIT"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "placebo",
+            "description": "subcutaneous injection",
+            "armGroupLabels": [
+              "placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "OTHER",
+            "name": "Placebo",
+            "description": "Placebo matching omalizumab administered for 12 weeks prior to desensitization and continued for a total of 19 weeks.",
+            "armGroupLabels": [
+              "Placebo + Peanut OIT"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.2,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Tolerance of 2000 mg 6 Weeks After Last Dose of Omalizumab/Placebo",
+            "timeFrame": "6 weeks after last dose of omalizumab/placebo"
+          },
+          "pred_item": {
+            "measure": "Peanut-specific IgE and IgG epitope binding profiles",
+            "description": "Profiling of antibody responses to peanut peptides using AllerScan (phage immunoprecipitation sequencing). Enrichment of peptides is quantified as Z-scores based on sequencing read counts compared to mock immunoprecipitation controls.",
+            "timeFrame": "Week 0 and Week 52"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.1,
+          0.04
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.1,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Pass 4000 mg OFC 12 Weeks After Last Dose of Omalizumab/Placebo",
+            "timeFrame": "12 weeks after last dose of omalizumab/placebo"
+          },
+          "pred_item": {
+            "measure": "Antibody repertoire breadth",
+            "description": "The number of wild-type peanut peptides recognized by IgE and IgG antibodies per individual, used to evaluate the diversity of the antibody response.",
+            "timeFrame": "Week 0 and Week 52"
+          }
+        }
+      ]
+    }
+  ]
+}

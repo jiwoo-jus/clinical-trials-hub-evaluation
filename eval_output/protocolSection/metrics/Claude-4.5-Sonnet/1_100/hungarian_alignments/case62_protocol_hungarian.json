@@ -1,0 +1,343 @@
+{
+  "metadata": {
+    "case_id": 62,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T17:49:04.302353",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/62_NCT02628093.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/62_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.7
+        ],
+        [
+          0.78,
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "THUNDERBEAT",
+            "type": "OTHER",
+            "description": "THUNDERBEAT energy device ( Olympus) will be used for dissection of tissue and ligation of vessels",
+            "interventionNames": [
+              "Device: THUNDERBEAT"
+            ]
+          },
+          "pred_item": {
+            "label": "Group 1: THUNDERBEAT",
+            "type": "EXPERIMENTAL",
+            "description": "Patients undergoing laparoscopic left colectomy using the THUNDERBEAT energy device (Olympus, Japan). THUNDERBEAT is a multi-functional energy device which delivers both ultrasonic and bipolar energy, capable of coagulating blood vessels up to 7 mm, cutting and dissecting tissue.",
+            "interventionNames": [
+              "Device: THUNDERBEAT 5 mm to 35 cm (Olympus, Japan)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "LIGASURE",
+            "type": "OTHER",
+            "description": "LIGASURE energy device will be used for dissection of tissue and ligation of vessels",
+            "interventionNames": [
+              "Device: LIGASURE"
+            ]
+          },
+          "pred_item": {
+            "label": "Group 2: LigaSure",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients undergoing laparoscopic left colectomy using the Maryland LigaSure energy device (Medtronic, USA). Maryland LigaSure is a bipolar electrosurgical device used for tissue dissection and vessel ligation.",
+            "interventionNames": [
+              "Device: Maryland LigaSure 5 mm to 37 cm (Medtronic, USA)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.82
+        ],
+        [
+          0.72,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "THUNDERBEAT",
+            "description": "Tissue dissection and vessels ligation",
+            "armGroupLabels": [
+              "THUNDERBEAT"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "THUNDERBEAT 5 mm to 35 cm (Olympus, Japan)",
+            "description": "A multi-functional energy device which delivers both ultrasonic and bipolar energy simultaneously. Used for coagulating blood vessels up to 7 mm, cutting and dissecting omental and mesentery tissue during laparoscopic left colectomy. The device is provided sterile and intended for single use only. Generator settings were the same for all cases.",
+            "armGroupLabels": [
+              "Group 1: THUNDERBEAT"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "LIGASURE",
+            "description": "Tissue dissection and vessels ligation",
+            "armGroupLabels": [
+              "LIGASURE"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "Maryland LigaSure 5 mm to 37 cm (Medtronic, USA)",
+            "description": "A bipolar electrosurgical device used for tissue dissection and vessel ligation during laparoscopic left colectomy. The device consists of the LigaSure device and Generator-Force Triad. The device is provided sterile and intended for single use only.",
+            "armGroupLabels": [
+              "Group 2: LigaSure"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.18
+        ],
+        [
+          0.08,
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Overall Time for Dissection of the Soft Tissues",
+            "description": "from the start of colon mobilization to specimen removal from the abdominal cavity",
+            "timeFrame": "Day 0 Surgical procedure"
+          },
+          "pred_item": {
+            "measure": "Dissection time to specimen removal (DTSR)",
+            "description": "Time to specimen removal measured in minutes from the start of colon mobilization to specimen removal from the abdominal cavity.",
+            "timeFrame": "During surgery (operative period)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Versatility Score",
+            "description": "Total/Composite score (composite of 5 variables:hemostasis;sealing;cutting;dissection;and tissue manipulation) was measured by a score system from 1 to 5 (1 being worst and 5 best) for each of the 5 variables,weighted by Coefficient of Importance with weight distribution as follow: hemostasis 0.275, sealing 0.275, cutting 0.2, dissection 0.15, and tissue Manipulation 0.1.). The final reported score is a weighted average.",
+            "timeFrame": "Day 0 Surgical procedure"
+          },
+          "pred_item": {
+            "measure": "Versatility score",
+            "description": "Composite of five variables (hemostasis, sealing, cutting, dissection, tissue manipulation) measured by a score system from 1 to 5 (1 worst, 5 best) for each of six specific surgical segments, adjusted/weighted by coefficient of importance (hemostasis 0.275, sealing 0.275, cutting 0.2, dissection 0.15, tissue manipulation 0.1). Mean score of 3.5 and above considered high versatility, below 3.5 considered low versatility.",
+            "timeFrame": "During surgery (operative period)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 11,
+      "similarity_matrix": [
+        [
+          0.05,
+          0.09,
+          0.05,
+          0.05,
+          0.08,
+          0.1,
+          0.2,
+          0.2,
+          0.3,
+          0.99,
+          0.25
+        ],
+        [
+          0.97,
+          0.21,
+          0.6,
+          0.3,
+          0.32,
+          0.2,
+          0.18,
+          0.2,
+          0.05,
+          0.05,
+          0.05
+        ],
+        [
+          0.3,
+          0.15,
+          0.86,
+          0.95,
+          0.62,
+          0.2,
+          0.62,
+          0.2,
+          0.1,
+          0.05,
+          0.1
+        ],
+        [
+          0.1,
+          0.18,
+          0.2,
+          0.55,
+          0.3,
+          0.2,
+          0.95,
+          0.58,
+          0.22,
+          0.1,
+          0.35
+        ],
+        [
+          0.2,
+          0.18,
+          0.2,
+          0.2,
+          0.18,
+          0.12,
+          0.1,
+          0.15,
+          0.12,
+          0.2,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 9,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Length of Post Surgical Stay in the Hospital",
+            "description": "Length of post surgical stay in the hospital measured in days",
+            "timeFrame": "from Surgery date to the discharge date from the hospital up to 30 days"
+          },
+          "pred_item": {
+            "measure": "Length of hospital stay",
+            "description": "Length of hospital stay from admission to discharge measured in days.",
+            "timeFrame": "30 days post-surgery"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Dryness of the Surgical Field Average Score Mean/sd",
+            "description": "Measured by score from 1 to 5 where 1 means Heavy bleeding , hemostasis achieved with the instrument with more than 2 attempts, and 5 means No oozing at vessel or tissue site in entire surgical field .",
+            "timeFrame": "Day 0 Surgical Procedure"
+          },
+          "pred_item": {
+            "measure": "Dryness of surgical field",
+            "description": "Evaluation of the entire surgical field for overall oozing of blood or any other body fluids using a scoring system from 1 to 5 (5 = no oozing at vessel or tissue site, 1 = heavy bleeding requiring immediate intervention).",
+            "timeFrame": "During surgery (operative period)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 3,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Intraoperative Complication Related to the Energy Devices",
+            "description": "Intraoperative adverse event occurrences during surgery due to the energy devices (THUNDERBEAT and LigaSure) measured as categorical variable \"Yes\" or \"No\"",
+            "timeFrame": "Day 0 Surgical procedure"
+          },
+          "pred_item": {
+            "measure": "Complications related to use of the instrument",
+            "description": "Number and type of intraoperative complications related to use of the energy device.",
+            "timeFrame": "During surgery (operative period)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 6,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Delayed Thermal Injuries Related to Energy Devices",
+            "description": "Delayed thermal injuries related to Energy devices that occur after surgery within 30 days of the surgical date, measured as categorical variables \"Yes\" or \"No\".",
+            "timeFrame": "DAY 1 to DAY 30 Postsurgery"
+          },
+          "pred_item": {
+            "measure": "Thermal injuries manifestation after surgery",
+            "description": "Number of patients with thermal injuries related to energy devices manifesting after surgery.",
+            "timeFrame": "30 days post-surgery"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 2,
+          "score": 0.2,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Operative Procedure Time",
+            "description": "operative procedure time measured in minutes from the start of the incision to the last stitch in the closure of the surgical incision",
+            "timeFrame": "Day 0 Surgical Procedure"
+          },
+          "pred_item": {
+            "measure": "Failure of energy instruments to control bleeding",
+            "description": "Number of failures of the energy instruments to control bleeding during surgery.",
+            "timeFrame": "During surgery (operative period)"
+          }
+        }
+      ]
+    }
+  ]
+}

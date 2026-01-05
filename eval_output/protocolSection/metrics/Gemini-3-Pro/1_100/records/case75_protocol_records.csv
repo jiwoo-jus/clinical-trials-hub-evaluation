@@ -1,0 +1,153 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04456634,NCT04456634,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,"Assess Safety, Tolerability, Pharmacokinetic and Pharmacodynamic Profile of Ruxolitinib With Artemether-lumefantrine",,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,"A Randomised, Single Blind, Placebo Controlled, Phase 1 Trial to Evaluate the Safety, Tolerability, Pharmacokinetic and Pharmacodynamic Activity of Ruxolitinib When Co-administered With Artemether-lumefantrine in Healthy Participants","Safety, Tolerability, and Pharmacokinetics of the Janus Kinase Inhibitor Ruxolitinib in Combination with Artemether-Lumefantrine in Healthy Adults: A Phase 1 Study",True,0.93,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,FP,"Phase 1, single -center study in 2 parts. The study designs for each part are well established for first-in-human studies and are appropriate to assess safety, tolerability and preliminary pharmacokinetics\& pharmacodynamics.","This study evaluated the safety, tolerability, and pharmacokinetic/pharmacodynamic profile of combining the Janus kinase (JAK1/2) inhibitor ruxolitinib with the approved antimalarial artemether-lumefantrine in healthy volunteers. The underlying hypothesis is that ruxolitinib could potentially disrupt parasite-induced dysfunctional immune responses in malaria when administered alongside antimalarial therapy. Eight healthy participants were randomized to receive either ruxolitinib or placebo 2 hours after artemether-lumefantrine twice daily for 3 days. The results indicated that the combination was well tolerated with no clinically relevant adverse events, and ruxolitinib demonstrated a predictable pharmacodynamic effect by significantly inhibiting pSTAT3 activity.",False,0.64,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"This is a randomised, single-blinded, placebo-controlled, single centre, phase 1 trial.
+
+Eight healthy males or females, aged between 18-55 years old, who meet all of the inclusion criteria and none of the exclusion criteria, will be enrolled.
+
+The study will be composed of 2 groups to be enrolled sequentially.
+
+• Group 1a (sentinel group): two participants will be randomised single-blinded such that one participant will receive AL+Rux and the other participant will receive AL+placebo.
+
+After review of the safety and tolerability data up to and including Day 8 from Group 1a by the Safety Review Committee (SRC), a decision to proceed with Group 1b will be made.
+
+• Group 1b will be composed of 6 participants, to be randomised single-blinded such that five participants will receive AL+Rux, and one participant will receive AL+placebo.","Malaria remains a significant global health challenge, partly due to poor host immunity against Plasmodium species and parasite-induced immunoregulatory mechanisms that lead to recurrent infections. Type I interferons (IFNs) are implicated in suppressing antiparasitic immune responses and promoting the expansion of regulatory T cells. Ruxolitinib, a JAK1/2 inhibitor, can block Type I IFN signaling and is proposed as a potential adjunct therapy to disrupt these dysfunctional immune responses.
+
+This randomized, single-blind, placebo-controlled, single-center phase 1 trial investigated the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of ruxolitinib coadministered with artemether-lumefantrine. The study aimed to facilitate future research on the immune-enhancing potential of this combination in uncomplicated Plasmodium falciparum malaria.
+
+Eight healthy male and female participants (ages 18-55) were randomized to receive either ruxolitinib (20 mg) or placebo, administered 2 hours after artemether-lumefantrine (80/480 mg) twice daily for 3 days. Safety endpoints included adverse events, vital signs, ECG, and laboratory assessments. PK profiles for artemether, dihydroartemisinin, lumefantrine, and ruxolitinib were characterized using noncompartmental methods. PD activity was assessed by measuring the inhibition of phosphorylation of signal transducer and activator of transcription 3 (pSTAT3) ex vivo after IL-6 stimulation.
+
+The study found that adverse events were mild and similar between groups, with no serious adverse events reported. PK analysis showed that ruxolitinib did not affect the exposure of artemether, dihydroartemisinin, or lumefantrine, although artemether Cmax was lower on day 3 in the ruxolitinib group compared to placebo. Ruxolitinib coadministration resulted in a 3-fold greater pSTAT3 inhibition compared to placebo, with a direct relationship between ruxolitinib plasma concentrations and effect. These findings support further investigation of this drug combination in malaria-infected individuals.",True,0.86,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['Malaria'],"['Malaria', 'Plasmodium falciparum Infection']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['Saftey', 'Tolerability']","['Ruxolitinib', 'Artemether-lumefantrine', 'Pharmacokinetics', 'Pharmacodynamics', 'Safety', 'Drug Interaction', 'Janus Kinase Inhibitor', 'pSTAT3 Inhibition', 'Host-Directed Therapy']",False,0.0,disjoint,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE1'],['PHASE1'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,FP,SEQUENTIAL,PARALLEL,False,0.4,success,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,SINGLE,SINGLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,['PARTICIPANT'],['PARTICIPANT'],True,1.0,exact,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,8,8,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].measure,EV,EV,,Pharmacokinetic profile of artemether: Cmax,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].measure,EV,EV,,Pharmacokinetic profile of artemether: Tmax,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].measure,EV,EV,,Pharmacokinetic profile of artemether: AUC,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].measure,EV,EV,,"Pharmacokinetic profile of dihydroartemisinin: Cmax, Tmax, AUC",,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].measure,EV,EV,,"Pharmacokinetic profile of lumefantrine: Cmax, Tmax, AUC, t1/2",,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[6].measure,EV,EV,,"Pharmacokinetic profile of ruxolitinib: Cmax, Tmax, AUC",,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].description,EV,EV,,Maximum observed plasma concentration for artemether.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].description,EV,EV,,Time to maximum observed plasma concentration for artemether.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].description,EV,EV,,"Area under the concentration-time curve (AUC0-t, AUC0-inf) for artemether.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].description,EV,EV,,"Pharmacokinetic parameters (Cmax, Tmax, AUC) for the metabolite dihydroartemisinin.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].description,EV,EV,,"Pharmacokinetic parameters (Cmax, Tmax, AUC, terminal half-life) for lumefantrine.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[6].description,EV,EV,,"Pharmacokinetic parameters (Cmax, Tmax, AUC) for ruxolitinib.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[1].timeFrame,EV,EV,,Day 1 and Day 3 (up to 78 hours post-dose),,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].timeFrame,EV,EV,,Day 1 and Day 3 (up to 78 hours post-dose),,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[3].timeFrame,EV,EV,,Day 1 and Day 3 (up to 78 hours post-dose),,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[4].timeFrame,EV,EV,,Day 1 and Day 3 (up to 78 hours post-dose),,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[5].timeFrame,EV,EV,,Up to Day 29 (672 hours post-dose),,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[6].timeFrame,EV,EV,,Day 1 and Day 3 (up to 78 hours post-dose),,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+1. Male or female (non-pregnant, non-lactating) aged 18 to 55 years inclusive.
+2. Contactable and available for the duration of the trial and for up to two weeks following the EOS visit.
+3. Total body weight greater than or equal to 50 kg, and a body mass index (BMI) within the range of 18 to 32 kg/m2 (inclusive) at Screening and Day -1. BMI is an estimate of body weight adjusted for height. It is calculated by dividing the weight in kilograms by the square of the height in metres.
+
+   Health status
+4. Certified as healthy by a comprehensive clinical assessment (detailed medical history, full physical examination and special investigations).
+5. Vital signs measured after 5 min in the supine position:
+
+   * Systolic blood pressure (SBP) - 90-140 mmHg,
+   * Diastolic blood pressure (DBP) - 40-90 mmHg,
+   * Heart rate (HR) 40-100 bpm.
+6. ECG parameters for both males and females: QT ≤ 500 msec, QTcF ≤450 msec, QTcB ≤450 msec; PR interval ≤210 msec.
+7. Heterosexual female participants of childbearing potential who have, or may have, male sexual partners during the course of the study should be using an insertable (implant or IUD), injectable, transdermal or combination oral contraceptive approved by the TGA combined with a barrier contraceptive from the time of informed consent until EOS. Abstinent female participants must agree to start a double method if they start a sexual relationship with a male during the trial. Female participants must not be planning in vitro fertilisation within the required contraception period.
+
+   Women of non-childbearing potential who will not require contraception during the trial are defined as: surgically sterile (tubal ligation is not considered surgically sterile), post-menopausal (spontaneous amenorrhoea for ≥12 months, or spontaneous amenorrhoea for 6-12 months and follicle-stimulating hormone (FSH) ≥40 IU/mL; either should be together with the absence of oral contraceptive use for \>12 months).
+
+   Male participants who have, or may have female sexual partners during the course of the study must agree to use a double method of contraception including condom plus diaphragm, or condom plus stable insertable (implant or IUD), injectable, transdermal or combination oral contraceptive by the female partner, from the time of informed consent through to EOS. Abstinent male participants must agree to start a double method if they begin a sexual relationship with a female during the trial, and through to EOS. Male participants with female partners that are surgically sterile or post-menopausal, or male participants who have undergone sterilisation and have had testing to confirm the success of the sterilisation, may also be included and will not be required to use above described methods of contraception.
+
+   Regulations
+8. Completion of the written informed consent process prior to undertaking any trial-related procedure.
+9. Must be willing and able to communicate and participate in the whole trial.
+10. Agree to adhere to Lifestyle Considerations (see Section 4.3.3) throughout trial duration and be willing to consume 250 mL full-fat milk with each dose of AL.
+
+Exclusion Criteria:
+
+Medical history and clinical status
+
+1. Known hypersensitivity to ruxolitinib, artesunate or any of its excipients, artemether, lumefantrine or other artemisinin derivatives, proguanil/atovaquone, primaquine, or 4-aminoquinolines.
+2. Haematology, biochemistry or urinalysis results that are abnormal/outside of the laboratory normal reference ranges AND are either:
+
+   * Considered clinically signficant by the Principal Investigator or delegate; OR
+   * Considered not clinically significant by the Principal Investigator or delegate BUT ARE ALSO outside of Sponsor-approved clinically acceptable laboratory ranges in Appendix 1.
+
+   NOTE: Participants are not excluded if abnormal/out of laboratory normal reference range results are considered not clinically significant by the Principal Investigator or delegate AND are within the ranges specified in Appendix 1.
+3. Platelets \< 200x109/L at Screening or prior to IMP administration is exclusionary. One re-test is permitted if original test result does not reflect the assumed medical status of the individual.
+4. Participation in any other investigational product trial within 5 half-lives or 12 weeks preceding IMP administration, whichever is longer, or in the exclusion period of a previous trial according to applicable regulations.
+5. Symptomatic postural hypotension at screening and pre-first dose of IMP on Day 1 (confirmed on two consecutive readings), irrespective of the decrease in blood pressure, or asymptomatic postural hypotension defined as a decrease in systolic blood pressure ≥20 mmHg within 2-3 min when changing from supine to standing position.
+6. History or presence of diagnosed (by an allergist/immunologist) or treated (by a physician) food or known drug allergies, or any history of anaphylaxis or other severe allergic reactions including face, mouth, or throat swelling or any difficulty breathing. Participants with seasonal allergies/hay fever or allergy to animals or house dust mite that are untreated and asymptomatic at the time of dosing can be enrolled in the trial.
+7. History of convulsion (including drug or vaccine-induced episodes). A medical history of a single febrile convulsion during childhood is not an exclusion criterion.
+8. Presence of current or suspected serious chronic diseases such as cardiac or autoimmune disease (HIV or other immuno-deficiencies), insulin-dependent and non-insulin-dependent diabetes, progressive neurological disease, severe malnutrition, acute or progressive hepatic disease, acute or progressive renal disease, porphyria, psoriasis, rheumatoid arthritis, asthma (excluding childhood asthma), epilepsy, or obsessive-compulsive disorder.
+9. History of malignancy of any organ system (other than localised and considered cured basal cell carcinoma of the skin or in situ cervical cancer), treated or untreated, within five years of screening, regardless of whether there is no evidence of local recurrence or metastases.
+10. Individuals with history of schizophrenia, bipolar disorder psychoses, disorders requiring lithium, attempted or planned suicide, or any other severe (disabling) chronic psychiatric diagnosis including generalised anxiety disorder.
+11. Individuals who have been hospitalised within five years prior to enrolment for either a psychiatric illness or due to danger to self or others.
+12. History of an episode of mild/moderate depression lasting more than 6 months that required pharmacological therapy and/or psychotherapy within the last 5 years; or any episode of major depression. The Beck Depression Inventory (BDI-II) will be used as a validated tool for the assessment of depression at screening. In addition to the conditions listed above, individuals with a score of 20 or more on the BDI-II and/or a response of 1, 2 or 3 for item 9 of this inventory (related to suicidal ideation) will not be eligible for participation. These individuals will be referred to a general practitioner or medical specialist as appropriate. Individuals with a BDI-II score of 17 to 19 may be enrolled at the discretion of an Investigator if they do not have a history of the psychiatric conditions mentioned in this criterion and their mental state is not considered to pose additional risk to the health of the individual or to the execution of the trial and interpretation of the data gathered.
+13. History of recurrent headache (e.g. tension-type, cluster, or migraine) with a frequency of ≥2 episodes per month on average and severe enough to require medical therapy, during the 2 years preceding screening.
+14. Acute illness within the 4 weeks prior to screening and prior to IMP administration.
+15. Significant inter-current disease of any type, in particular liver, renal, cardiac, pulmonary, neurologic, rheumatologic, or autoimmune disease by history, physical examination, and/or laboratory studies including urinalysis.
+16. Individual has a clinically significant disease or any condition or disease that might affect drug absorption, distribution or excretion (e.g. gastrectomy, cholecystectomy, diarrhoea) or known lactose/dairy intolerance.
+17. Participation in any research trial involving blood sampling (more than 300 mL/unit of blood) within one month prior to IMP administration, or blood donation to Australian Red Cross Blood Service (Blood Service) or other blood bank during the 8 weeks prior to IMP administration.
+18. Medical requirement for intravenous immunoglobulin or blood transfusions.
+19. History or presence of alcohol abuse (alcohol consumption more than 40 g/4 units/4 standard drinks per day), or drug habituation, or any prior intravenous usage of an illicit substance.
+20. Any individual who has ever smoked \>1 pack of cigarettes per day for \>10 years, or who currently (within 14 days prior to Screening or prior to IMP administration smokes \>5 cigarettes/day.
+21. Female who is breastfeeding.
+22. Any vaccination within the last 28 days prior to screening or prior to IMP administration.
+23. Prior to screening or IMP administration: any systemic or inhaled corticosteroids, anti-inflammatory drugs (excluding commonly used over-the-counter anti-inflammatory drugs such as ibuprofen, acetylsalicylic acid, diclofenac), immunomodulators or anticoagulants within the past three months. Any topical, nasal or ophthalmic corticosteroids within the past 2 weeks. Any individual currently receiving or having previously received immunosuppressive therapy (including systemic steroids, adrenocorticotrophic hormone or inhaled steroids) at a dose or duration potentially associated with hypothalamic-pituitary-adrenal axis suppression within the past year.
+24. Use of antidepressant medication in the past 12 months prior to screening or prior to IMP administration.
+25. Use of any other medication except contraceptives (including herbal, vitamin supplement, OTC or prescription) within 14 days or five half-lives (whichever is longest) prior to IMP administration. Participants areCONFIDENTIAL Page 7 of 78 requested to refrain from taking non-approved concomitant medications from recruitment until the conclusion of the trial.
+26. Cardiac/QT risk:
+
+    * Family history of sudden death or of congenital prolongation of the QTc interval or known congenital prolongation of the QTc interval or any clinical condition known to prolong the QTc interval.
+    * History of symptomatic cardiac arrhythmias or with clinically relevant bradycardia.
+    * Electrolyte disturbances, particularly hypokalaemia, hypocalcaemia, or hypomagnesaemia.
+    * ECG abnormalities in the standard 12-lead ECG (at screening or prior to IMP administration) which in the opinion of an Investigator is clinically relevant or will interfere with the ECG analyses.
+
+    General conditions
+27. Any individual who, in the judgement of an Investigator, is likely to be non-compliant during the trial, or is unable to cooperate because of a language problem or poor mental development.
+28. Any individual for whom study participation would pose an additional safety risk as assessed by the Principal Investigator.
+29. Any individual who is an Investigator, research assistant, pharmacist, trial coordinator, or other staff thereof, directly involved in conducting the trial.
+30. Any individual without good peripheral venous access. Biological status
+31. Positive result on any of the following tests: hepatitis B surface antigen (HBs Ag), anti-hepatitis B core antibodies (anti-HBc Ab), anti-hepatitis C virus (anti-HCV) antibodies, anti-human immunodeficiency virus 1 and 2 antibodies (anti-HIV1 and anti-HIV2 Ab).
+32. Recent herpes zoster infection (within the previous 6 months) as determined by clinical history.
+33. Positive result for M. tuberculosis infection by QuantiFERON-TB Gold assay.
+34. Positive urine drug test for any drug listed in Section 7.4.5. Any individual testing positive for acetaminophen (paracetamol) at screening and/or pre-dose may still be eligible for trial participation at the discretion of the Principal Investigator or delegate.
+35. Positive alcohol breath test.","Inclusion Criteria:
+*   Male or female healthy volunteers
+*   Aged 18 to 55 years inclusive
+*   Weighing at least 50 kg
+*   Body mass index (BMI) in the range of 18 to 32 kg/m2
+*   Certified as healthy by a comprehensive clinical assessment (normal vital signs, ECG, and laboratory assessments: hematology, clinical chemistry, and urinalysis)
+*   Women of childbearing potential and males with female partners of childbearing potential had to agree to reliable contraception
+
+Exclusion Criteria:
+*   Pregnant and lactating women
+*   Known hypersensitivity to study drugs, food/drug allergies or anaphylaxis
+*   History of additional cardiac risk factors, convulsions, cancer, psychiatric illness, recurrent headache, or drug or alcohol abuse
+*   Received any investigational drug within five half-lives or 12 weeks of the study start (whichever was longer)
+*   Immunosuppressive therapy within the last year
+*   Use of systemic anti-inflammatory drugs within the past 3 months (2 weeks for nasal/ophthalmic or topical corticosteroids)
+*   Antidepressant medication within the last 12 months
+*   Any concomitant medication (except contraceptives) within 14 days or five half-lives prior to study drug administration (whichever longer)
+*   Blood sampling or donation within 8 weeks prior to study drug administration
+*   Currently smoking >5 cigarettes/day
+*   Any current chronic disease
+*   Any condition that might affect drug absorption
+*   Acute illness within 4 weeks prior to screening
+*   Positive tests for pregnancy, hepatitis B, hepatitis C, human immunodeficiency virus, Mycobacterium tuberculosis infection, and drugs of abuse and alcohol",True,0.9,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,55 Years,55 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,['ADULT'],['ADULT'],True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

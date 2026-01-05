@@ -1,0 +1,344 @@
+{
+  "metadata": {
+    "case_id": 31,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T15:46:23.949277",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/31_NCT04358549.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/31_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.6
+        ],
+        [
+          0.35,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Favipiravir Treatment Arm",
+            "type": "EXPERIMENTAL",
+            "description": "Day 1: favipiravir 1800 mg BID plus Standard of Care (SOC) Days 2-14: 1000 mg BID plus SOC. For subjects with Child-Pugh A liver impairment: Days 2-14: 800 mg BID plus SOC",
+            "interventionNames": [
+              "Drug: Favipiravir"
+            ]
+          },
+          "pred_item": {
+            "label": "Favipiravir Group",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received 1800 mg of favipiravir per os b.i.d. on day 1, followed by 1000 mg b.i.d. (800 mg b.i.d. for patients with Child-Pugh A liver disease) for 13 days, in addition to Standard of Care (SOC).",
+            "interventionNames": [
+              "Favipiravir",
+              "Standard of Care (SOC)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Standard of Care Arm",
+            "type": "OTHER",
+            "description": "Standard of Care for 14 days",
+            "interventionNames": [
+              "Other: Standard of Care"
+            ]
+          },
+          "pred_item": {
+            "label": "Standard of Care (SOC) Group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients received Standard of Care (SOC) alone.",
+            "interventionNames": [
+              "Standard of Care (SOC)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.2
+        ],
+        [
+          0.12,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Favipiravir",
+            "description": "Favipiravir to be administered as an oral tablet or made into a slurry for subjects who cannot swallow tablets",
+            "armGroupLabels": [
+              "Favipiravir Treatment Arm"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Favipiravir",
+            "description": "Administered orally. 1800 mg twice a day (b.i.d.) on Day 1, followed by 1000 mg b.i.d. (or 800 mg b.i.d. for Child-Pugh A liver disease) for Days 2 through 14. For patients unable to swallow, pills were provided as a slurry in a nasogastric tube.",
+            "armGroupLabels": [
+              "Favipiravir Group"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Standard of Care",
+            "description": "Standard of Care for individual study site as determined by each hospital's protocol",
+            "armGroupLabels": [
+              "Standard of Care Arm"
+            ]
+          },
+          "pred_item": {
+            "type": "OTHER",
+            "name": "Standard of Care (SOC)",
+            "description": "Standard medical management for hospitalized patients with COVID-19. Could include oxygen supplementation, noninvasive ventilation, and dexamethasone (permitted later in the study).",
+            "armGroupLabels": [
+              "Favipiravir Group",
+              "Standard of Care (SOC) Group"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time to Viral Clearance",
+            "description": "To determine the effect of favipiravir + SOC v. SOC on viral clearance of COVID-19 as measured by nasopharyngeal and oropharyngeal sampling",
+            "timeFrame": "Day 29"
+          },
+          "pred_item": {
+            "measure": "Time to viral clearance",
+            "description": "Defined as the time (in days) when negative (or below the lower limit of detection) PCR results for SARS-CoV-2 were obtained from scheduled nasopharyngeal and oropharyngeal swabs.",
+            "timeFrame": "Day 1 up to Day 29"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 15,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.62,
+          0.6,
+          0.08,
+          0.4,
+          0.3,
+          0.19,
+          0.3,
+          0.25,
+          0.2,
+          0.15,
+          0.15,
+          0.25,
+          0.18,
+          0.08
+        ],
+        [
+          0.6,
+          0.86,
+          0.78,
+          0.18,
+          0.32,
+          0.25,
+          0.12,
+          0.2,
+          0.32,
+          0.18,
+          0.18,
+          0.08,
+          0.1,
+          0.18,
+          0.05
+        ],
+        [
+          0.1,
+          0.12,
+          0.2,
+          0.05,
+          0.07,
+          0.1,
+          0.1,
+          0.05,
+          0.08,
+          0.1,
+          0.15,
+          0.05,
+          0.2,
+          0.2,
+          0.86
+        ],
+        [
+          0.05,
+          0.08,
+          0.15,
+          0.05,
+          0.05,
+          0.15,
+          0.08,
+          0.02,
+          0.08,
+          0.12,
+          0.15,
+          0.08,
+          0.2,
+          0.25,
+          0.86
+        ],
+        [
+          0.08,
+          0.1,
+          0.05,
+          0.02,
+          0.08,
+          0.07,
+          0.02,
+          0.05,
+          0.12,
+          0.08,
+          0.55,
+          0.05,
+          0.2,
+          0.1,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Status of Clinical Recovery as Measured by the Study-specific 6-point Ordinal Scale",
+            "description": "To determine the clinical benefit of administering favipiravir plus SOC compared to SOC alone, clinical benefit will be measured using a study-specified ordinal scale on Day 15 in adult patients hospitalized with COVID-19.",
+            "timeFrame": "on Day 15"
+          },
+          "pred_item": {
+            "measure": "Status of clinical recovery",
+            "description": "Measured by the study-specific 6-point ordinal scale.",
+            "timeFrame": "Day 15"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time to the National Early Warning Score 2 (NEWS2) of 2 or Less, or Hospital Discharge",
+            "description": "The NEWS2 is based on a simple aggregate scoring system in which a score is allocated to physiological measurements, already recorded in routine practice, when patients present to, or are being monitored in hospital. Six simple physiological parameters form the basis of the scoring system: respiration rate, oxygen saturation, systolic blood pressure, pulse rate, level of consciousness or new confusion, temperature. The time to aggregate NEWS2 score of ≤ 2 (sustained for at least 72 hours) or hospital discharge is analyzed.",
+            "timeFrame": "through Day 29"
+          },
+          "pred_item": {
+            "measure": "Time to clinical recovery",
+            "description": "Defined as (a) time (hours) from initiation of study treatment until normalization of fever, respiratory rate, and oxygen saturation, and alleviation of cough, sustained for at least 72 hours; or discharge; and (b) normalization and alleviation criteria.",
+            "timeFrame": "Up to 29 days"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 14,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Characterize the Pharmacokinetics (PK) of Favipiravir in Plasma: Cmax",
+            "description": "Measurement of maximum plasma concentration",
+            "timeFrame": "through Day 14"
+          },
+          "pred_item": {
+            "measure": "Population PK analysis of favipiravir",
+            "description": "Assessment of maximum plasma concentration (Cmax), minimum plasma concentration (Cmin), and AUC(0-24h).",
+            "timeFrame": "Days 1, 2, 8, and 14"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 13,
+          "score": 0.25,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Characterized the Pharmacokinetics (PK) of Favipiravir in Plasma: Cmin",
+            "description": "Measurement of minimum plasma concentration",
+            "timeFrame": "through Day 14"
+          },
+          "pred_item": {
+            "measure": "C-reactive protein",
+            "description": "Measurement of C-reactive protein levels.",
+            "timeFrame": "Over time (up to Day 29)"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 10,
+          "score": 0.55,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Characterized the Pharmacokinetics (PK) of Favipiravir in Plasma: Area Under Curve (AUC 0-24)",
+            "description": "Measurement of the area under the curve of plasma concentration versus time profile",
+            "timeFrame": "through Day 14"
+          },
+          "pred_item": {
+            "measure": "Change in SARS-CoV-2 viral load in upper respiratory tract specimen",
+            "description": "Assessed by area under viral load curve.",
+            "timeFrame": "Up to Day 29"
+          }
+        }
+      ]
+    }
+  ]
+}

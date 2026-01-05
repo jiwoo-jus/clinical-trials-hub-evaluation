@@ -1,0 +1,217 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00976573",
+      "orgStudyIdInfo": {
+        "id": "NCCTG N0879",
+        "type": null,
+        "link": null
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "U10CA180821",
+          "type": "NIH",
+          "domain": "National Cancer Institute",
+          "link": null
+        },
+        {
+          "id": "U10CA180882",
+          "type": "NIH",
+          "domain": "Alliance for Clinical Trials in Oncology",
+          "link": null
+        },
+        {
+          "id": "CA025224",
+          "type": "NIH",
+          "domain": "National Cancer Institute",
+          "link": null
+        },
+        {
+          "id": "U10CA180790",
+          "type": "NIH",
+          "domain": "National Cancer Institute",
+          "link": null
+        },
+        {
+          "id": "UG1CA189825",
+          "type": "NIH",
+          "domain": "National Cancer Institute",
+          "link": null
+        },
+        {
+          "id": "UG1CA189863",
+          "type": "NIH",
+          "domain": "National Cancer Institute",
+          "link": null
+        }
+      ],
+      "organization": {
+        "fullName": "Alliance for Clinical Trials in Oncology",
+        "class": "NETWORK"
+      },
+      "briefTitle": "Cell-free DNA BRAFV600E/K Mutation Detection in Patients With Advanced Melanoma",
+      "officialTitle": "Prognostic Significance of Detectable Circulating Cell-Free DNA BRAFV600E/K Mutations in Patients With Advanced Melanoma: Plasma-Based Molecular Diagnostics in a Randomized Phase 2 Clinical Trial",
+      "acronym": null
+    },
+    "descriptionModule": {
+      "briefSummary": "This study evaluated the prognostic significance of detectable circulating cell-free DNA (cfDNA) BRAF V600E/K mutations in patients with advanced melanoma enrolled in a clinical trial without BRAF-targeted therapy. The hypothesis was that detectable cfDNA BRAF mutations may correlate with clinical outcomes, including progression-free survival (PFS) and overall survival (OS), in patients with stage IV melanoma. The study analyzed stored plasma samples and archived tissue from 149 patients to determine BRAF mutation status and assess its relationship to prognosis.",
+      "detailedDescription": "NCCTG (North Central Cancer Treatment Group) N0879 was a randomized phase 2 clinical trial evaluating patients with unresectable stage IV melanoma treated with carboplatin, paclitaxel, and bevacizumab with or without everolimus. The trial enrolled 149 patients between May 5, 2010 and May 2, 2014. BRAF V600E/K mutation status was determined on archived formalin-fixed paraffin-embedded (FFPE) tumor tissue and pretreatment stored frozen plasma samples. Tissue DNA was analyzed using a clinical 50-gene hotspot PCR-based next-generation sequencing panel. Circulating cell-free DNA (cfDNA) was extracted from plasma and analyzed for BRAF V600E/K mutations using a validated digital droplet polymerase chain reaction (ddPCR) assay. Results were reported as the presence or absence of cfDNA BRAF V600E/K detection compared to tissue. The study assessed progression-free survival (PFS) and overall survival (OS) for patients with and without detectable BRAF mutations in cfDNA. Of 63 patients with both tissue and blood samples available, 20 (31.7%) had tissue-diagnosed mutant BRAF, and of these, 11 (55.0%) had detectable plasma cfDNA BRAF. The assay demonstrated sensitivity of 55%, specificity of 97.7%, positive predictive value of 91.7%, and negative predictive value of 82.4%. Among patients with tissue-mutant BRAF V600E/K, PFS and OS were shorter for those with corresponding cfDNA mutations (PFS: 5.8 vs 12.0 months, P=0.051; OS: 9.2 vs 27.1 months, P=0.054). Multivariate analysis showed that elevated LDH levels at baseline were associated with increased risk for disease progression and death. The study concluded that detectable cfDNA BRAF V600E/K mutation appears to confer a poorer prognosis when detectable and may serve as a tool to risk-stratify patients with metastatic melanoma in practice or clinical trials."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Melanoma",
+        "Stage IV Melanoma",
+        "Unresectable Melanoma",
+        "Metastatic Melanoma",
+        "Advanced Melanoma"
+      ],
+      "keywords": [
+        "BRAF V600E mutation",
+        "BRAF V600K mutation",
+        "Circulating cell-free DNA",
+        "cfDNA",
+        "Digital droplet polymerase chain reaction",
+        "ddPCR",
+        "Prognosis",
+        "Biomarker",
+        "Liquid biopsy",
+        "Progression-free survival",
+        "Overall survival",
+        "Clinical trial",
+        "Carboplatin",
+        "Paclitaxel",
+        "Bevacizumab",
+        "Everolimus"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Randomized phase 2 trial of carboplatin, paclitaxel, and bevacizumab with or without everolimus",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 149,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Carboplatin, Paclitaxel, Bevacizumab",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients with stage IV melanoma received carboplatin, paclitaxel, and bevacizumab without everolimus",
+          "interventionNames": [
+            "Drug: Carboplatin",
+            "Drug: Paclitaxel",
+            "Drug: Bevacizumab"
+          ]
+        },
+        {
+          "label": "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus",
+          "type": "EXPERIMENTAL",
+          "description": "Patients with stage IV melanoma received carboplatin, paclitaxel, bevacizumab, and everolimus",
+          "interventionNames": [
+            "Drug: Carboplatin",
+            "Drug: Paclitaxel",
+            "Drug: Bevacizumab",
+            "Drug: Everolimus"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Carboplatin",
+          "description": "Chemotherapy agent administered to patients with stage IV melanoma",
+          "armGroupLabels": [
+            "Carboplatin, Paclitaxel, Bevacizumab",
+            "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "Chemotherapy agent administered to patients with stage IV melanoma",
+          "armGroupLabels": [
+            "Carboplatin, Paclitaxel, Bevacizumab",
+            "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Bevacizumab",
+          "description": "Anti-vascular endothelial growth factor agent administered to patients with stage IV melanoma",
+          "armGroupLabels": [
+            "Carboplatin, Paclitaxel, Bevacizumab",
+            "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Everolimus",
+          "description": "mTOR inhibitor administered to patients with stage IV melanoma in the experimental arm",
+          "armGroupLabels": [
+            "Carboplatin, Paclitaxel, Bevacizumab, and Everolimus"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Progression-free survival (PFS)",
+          "description": "Time from enrollment to disease progression or death from any cause, compared between patients with detectable circulating cell-free DNA (cfDNA) BRAF V600E/K mutations and those without detectable mutations.",
+          "timeFrame": "From enrollment until disease progression or death, assessed up to 43 months"
+        },
+        {
+          "measure": "Overall survival (OS)",
+          "description": "Time from enrollment to death from any cause, compared between patients with detectable circulating cell-free DNA (cfDNA) BRAF V600E/K mutations and those without detectable mutations.",
+          "timeFrame": "From enrollment until death from any cause, assessed up to 43 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Sensitivity of cfDNA BRAF V600E/K detection assay",
+          "description": "Proportion of patients with tissue-diagnosed mutant BRAF who also have detectable cfDNA BRAF V600E/K mutations in plasma.",
+          "timeFrame": "At baseline (pretreatment)"
+        },
+        {
+          "measure": "Specificity of cfDNA BRAF V600E/K detection assay",
+          "description": "Proportion of patients with tissue-diagnosed wild-type BRAF who do not have detectable cfDNA BRAF V600E/K mutations in plasma.",
+          "timeFrame": "At baseline (pretreatment)"
+        },
+        {
+          "measure": "Positive predictive value (PPV) of cfDNA BRAF V600E/K detection assay",
+          "description": "Proportion of patients with detectable cfDNA BRAF V600E/K mutations who also have tissue-diagnosed mutant BRAF.",
+          "timeFrame": "At baseline (pretreatment)"
+        },
+        {
+          "measure": "Negative predictive value (NPV) of cfDNA BRAF V600E/K detection assay",
+          "description": "Proportion of patients without detectable cfDNA BRAF V600E/K mutations who also have tissue-diagnosed wild-type BRAF.",
+          "timeFrame": "At baseline (pretreatment)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Histologic proof of stage IV melanoma\n- Unresectable stage IV melanoma\n- One or fewer prior chemotherapy regimen\n\nExclusion Criteria:\n- Prior treatment with taxane-based chemotherapy\n- Prior treatment with anti-vascular endothelial growth factor agents\n- Brain metastases before study enrollment\n- Other significant medical comorbid conditions\n- Other malignancies",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

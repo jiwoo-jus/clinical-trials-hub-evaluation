@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "case_id": 19,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T15:07:41.959044",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/19_NCT02679807.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/19_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.95,
+          0.3
+        ],
+        [
+          0.35,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "label": "Bifidobacterium lactis Bl-04",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "2\\*109 cfus of probiotic Bifidobacterium lactis Bl-04 (DuPont Nutrition and Health) mixed with 1g of sucrose as a carrier",
+            "interventionNames": [
+              "Biological: Bifidobacterium animalis subsp. lactis Bl-04"
+            ]
+          },
+          "pred_item": {
+            "label": "Bl-04 Probiotic",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received oral Bifidobacterium animalis subsp. lactis Bl-04 daily for 28 days prior to and through 14 days after experimental rhinovirus A39 challenge. The probiotic was provided in single-use sachets containing at least 2 × 10^9 CFU of Bl-04 mixed with 1 g sucrose as a carrier.",
+            "interventionNames": [
+              "Bifidobacterium animalis subsp. lactis Bl-04",
+              "Rhinovirus A39 challenge"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "sucrose",
+            "interventionNames": [
+              "Other: sucrose"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants received an oral placebo daily for 28 days prior to and through 14 days after experimental rhinovirus A39 challenge. The placebo was provided in single-use sachets containing 1 g sucrose, identical in appearance, smell, and taste to the probiotic sachets but without Bl-04.",
+            "interventionNames": [
+              "Placebo sachet (sucrose)",
+              "Rhinovirus A39 challenge"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.2,
+          0.18
+        ],
+        [
+          0.2,
+          0.9,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Bifidobacterium animalis subsp. lactis Bl-04",
+            "armGroupLabels": [
+              "Bifidobacterium lactis Bl-04"
+            ]
+          },
+          "pred_item": {
+            "type": "DIETARY_SUPPLEMENT",
+            "name": "Bifidobacterium animalis subsp. lactis Bl-04",
+            "description": "Oral probiotic supplement containing a minimum of 2 × 10^9 colony forming units of Bifidobacterium animalis subsp. lactis Bl-04 mixed with 1 g sucrose as a carrier, administered once daily in sachet form from day -28 to day 14 relative to viral challenge.",
+            "armGroupLabels": [
+              "Bl-04 Probiotic"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "sucrose",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DIETARY_SUPPLEMENT",
+            "name": "Placebo sachet (sucrose)",
+            "description": "Oral placebo supplement consisting of a sachet containing 1 g sucrose, identical in appearance, smell, and taste to the active Bl-04 product but without probiotic bacteria, administered once daily from day -28 to day 14 relative to viral challenge.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Rhinovirus-associated Illness Episodes",
+            "description": "Rhinovirus-associated illness episodes: Volunteers who have both a rhinovirus infection and a symptomatic illness will be defined as having a rhinovirus-associated common cold illness.",
+            "timeFrame": "5 days"
+          },
+          "pred_item": {
+            "measure": "Incidence of rhinovirus-associated illness",
+            "description": "Proportion of participants who develop a protocol-defined rhinovirus-associated illness, defined as meeting the study criteria for symptomatic illness (total modified Jackson symptom score ≥6 plus either three days of rhinorrhea or the subjective impression of having had a common cold) in volunteers who are infected with RV-A39 (virus isolated from at least one post-challenge specimen or ≥4-fold rise in serum neutralizing antibody titer).",
+            "timeFrame": "From rhinovirus challenge (day 0) through 14 days post-challenge"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04323800",
+      "orgStudyIdInfo": {
+        "id": "IRB00245634"
+      },
+      "organization": {
+        "fullName": "Johns Hopkins University",
+        "class": "OTHER"
+      },
+      "briefTitle": "Convalescent Plasma to Stem Coronavirus (CSSC-001)",
+      "officialTitle": "Convalescent Plasma to Stem Coronavirus: A Randomized, Blinded Phase 2 Study Comparing the Efficacy and Safety Human Coronavirus Immune Plasma (HCIP) vs. Control (SARS-CoV-2 Non-immune Plasma) Among Adults Exposed to COVID-19",
+      "acronym": "CSSC-001"
+    },
+    "descriptionModule": {
+      "briefSummary": "Evaluate the efficacy of treatment with high-titer Anti- SARS-CoV-2 plasma versus control (SARS-CoV-2 non-immune plasma) in subjects exposed to Coronavirus disease (COVID-19) at day 28.",
+      "detailedDescription": "This randomized, controlled, double-blinded phase 2 trial will assess the efficacy and safety of Anti- SARS-CoV-2 convalescent plasma as prophylaxis following exposure to COVID-19 (as defined in the inclusion criteria). Adults 18 years of age and older with high risk exposure as defined by CDC may participate. A total of 500 eligible subjects will be randomized in a 1:1 ratio to receive either high titer anti-SARS-CoV-2 plasma or control (SARS-CoV-2 non-immune plasma)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Coronavirus",
+        "Convalescence"
+      ],
+      "keywords": [
+        "COVID-19"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "1:1 ratio",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 180,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "High titer anti-SARS-CoV-2 plasma",
+          "type": "EXPERIMENTAL",
+          "description": "Participants with High titer anti-SARS-CoV-2 plasma.",
+          "interventionNames": [
+            "Biological: Anti- SARS-CoV-2 Plasma"
+          ]
+        },
+        {
+          "label": "SARS-CoV-2 non-immune plasma",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants with SARS-CoV-2 non-immune plasma.",
+          "interventionNames": [
+            "Biological: SARS-CoV-2 non-immune Plasma"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Anti- SARS-CoV-2 Plasma",
+          "description": "SARS-CoV-2 convalescent plasma (1 unit; \\~200-250 mL collected by pheresis from a volunteer who recovered from COVID-19 disease and has SARS-CoV-2 antibody titers ≥ 1:320",
+          "armGroupLabels": [
+            "High titer anti-SARS-CoV-2 plasma"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "SARS-CoV-2 non-immune Plasma",
+          "description": "Normal human plasma collected prior to December 2019",
+          "armGroupLabels": [
+            "SARS-CoV-2 non-immune plasma"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Efficacy of Treatment at Day 28 as Assessed by Number of Participants Who Develop SARS-Cov-2 Infection",
+          "description": "Comparison of proportions of cumulative incidence of development of SARS-Cov-2 infection (symptoms compatible with infection and/or + molecular testing) regardless of disease severity, following high-titer Anti- SARS-CoV-2 plasma versus control (SARS-CoV-2 non-immune plasma) in subjects exposed to COVID-19.",
+          "timeFrame": "Day 28"
+        },
+        {
+          "measure": "Safety of Treatment With High-titer Anti- SARS-CoV-2 Plasma Versus Control as Assessed by Number of Participants With \"Serious Adverse Events\"",
+          "description": "Number of participants with serious adverse events categorized as either severe infusion reactions or Acute Respiratory Distress Syndrome during the study period.",
+          "timeFrame": "Up to Day 28"
+        },
+        {
+          "measure": "Safety of Treatment With High-titer Anti- SARS-CoV-2 Plasma Versus Control as Assessed by Cumulative Incidence of Grade 3 and 4 Adverse Events",
+          "description": "Cumulative incidence of grade 3 and 4 adverse events during the study period evaluated as events per 100 person-years will be used to assess safety of the intervention.",
+          "timeFrame": "Up to Day 28"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Number of Participants With Severe Disease",
+          "description": "Number of participants with severe disease between the anti-SARS-CoV-2 convalescent plasma and control groups. Severity of disease will be measured using the number of participants with any of the disease severity categories below:\n\n1. Death\n2. Requiring mechanical ventilation and/or in ICU\n3. non-ICU hospitalization, requiring supplemental oxygen\n4. non-ICU hospitalization, not requiring supplemental oxygen",
+          "timeFrame": "Up to 28 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria\n\n1. Subjects must be 18 years of age or older\n2. Close contact exposure (as defined by CDC guidelines) to person with COVID-19 within 96 hours of randomization (and 120 hours of receipt of plasma)\n\nExclusion Criteria\n\n1. Receipt of any blood product in past 120 days.\n2. Medical, psychiatric,cognitive illness or recreational drug/alcohol use that in the opinion of the principal investigator, would affect subject safety and/or compliance.\n3. Symptoms consistent with COVID-19 infection (fevers, acute onset cough, shortness of breath) at time of screening.\n4. Laboratory evidence of COVID-19 infection at time of screening.\n5. History or known laboratory evidence of previous COVID-19 infection.\n6. History of prior reactions to transfusion blood products.\n7. Inability to complete therapy with the study product within 24 hours after randomization.",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

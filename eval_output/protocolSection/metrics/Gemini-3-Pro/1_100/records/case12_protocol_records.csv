@@ -1,0 +1,56 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04501952,NCT04501952,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,FP,Study to Evaluate the Efficacy and Safety of Remdesivir (GS-5734™) Treatment of Coronavirus Disease 2019 (COVID-19) in an Outpatient Setting,PINETREE,False,0.1,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,"A Phase 3 Randomized, Double-Blind Placebo-Controlled Trial to Evaluate the Efficacy and Safety of Remdesivir (GS-5734™) Treatment of COVID-19 in an Outpatient Setting","Efficacy and safety of a 3-day course of remdesivir in high-risk, nonhospitalized patients with Covid-19",True,0.86,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.acronym,EV,EV,,PINETREE,,,,Acronym,protocolSection.identificationModule.acronym,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,The primary objectives of this study are to evaluate the efficacy of remdesivir (RDV) in reducing the rate of of coronavirus disease 2019 (COVID-19) related hospitalization or all-cause death in non-hospitalized participants with early stage COVID-19 and to evaluate the safety of RDV administered in an outpatient setting.,"This randomized, double-blind, placebo-controlled trial evaluated the efficacy and safety of a 3-day course of remdesivir in high-risk, nonhospitalized patients with Covid-19. The investigators hypothesized that earlier initiation of a short course of remdesivir treatment in outpatient settings would reduce hospitalizations and mortality compared to placebo.",True,0.96,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"The study enrolled patients 12 years of age or older who had at least one preexisting risk factor for progression to severe Covid-19 (including age ≥60 years, obesity, diabetes mellitus, hypertension, cardiovascular or cerebrovascular disease, immune compromise, chronic kidney/liver/lung disease, cancer, or sickle cell disease). Eligible patients had at least one ongoing symptom consistent with Covid-19, with onset within 7 days before randomization, and confirmed SARS-CoV-2 infection.
+
+Participants were randomly assigned in a 1:1 ratio to receive intravenous remdesivir (200 mg on day 1 followed by 100 mg on days 2 and 3) or placebo. Randomization was stratified by residence in a skilled nursing facility, age (<60 years or ≥60 years), and country. The primary efficacy end point was a composite of Covid-19–related hospitalization (defined as ≥24 hours of acute care) or death from any cause by day 28. Secondary end points included a composite of Covid-19–related medically attended visits or death by days 14 and 28, viral load changes, and time to symptom alleviation assessed via the FLU-PRO Plus questionnaire.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['COVID-19'],"['Covid-19', 'SARS-CoV-2 Infection']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Remdesivir', 'Nonhospitalized patients', 'High-risk', 'Antiviral therapy', 'SARS-CoV-2', 'Outpatient treatment']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE3'],['PHASE3'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,Patients were randomly assigned in a 1:1 ratio to receive intravenous remdesivir (200 mg on day 1 followed by 100 mg on days 2 and 3) or placebo.,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,DOUBLE,DOUBLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,All patients and trial personnel were unaware of the trial-group assignments. Double blinding was maintained until finalization of the data.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'INVESTIGATOR']","['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR']",True,1.0,superset,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,584,562,True,0.9,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Key Inclusion Criteria:
+
+* Willing and able to provide written informed consent, (individuals ≥ 18 years of age) or assent (individuals ≥ 12 and \< 18 years of age) prior to performing study procedures. Individuals age ≥ 18 years may be enrolled with the consent of a legal representative where permitted according to local law and approved nationally and by the relevant institutional review board (IRB) or independent ethics committee (IEC). For individuals ≥ 12 and \< 18 years of age, a parent or legal guardian must be willing and able to provide written informed consent prior to performing study procedures
+* Either:
+
+  * Age ≥ 18 years (at all sites) or aged ≥ 12 and \< 18 years of age weighing ≥ 40 kg (where permitted according to local law and approved nationally and by the relevant IRB or IEC with at least 1 pre-existing risk factor for progression to hospitalization (chronic lung disease, hypertension, cardiovascular or cerebrovascular disease, diabetes, obesity (body mass index ≥ 30), immunocompromised, chronic mild or moderate kidney disease, chronic liver disease, current cancer, or sickle cell disease)
+  * Or aged ≥ 60 years
+* Severe acute respiratory syndrome (SARS)-coronavirus (CoV)-2 infection confirmed by molecular diagnosis (nucleic acid (polymerase chain reaction (PCR) or antigen testing) ≤ 4 days prior to screening
+* Presence of ≥ 1 symptom(s) consistent with COVID-19 for ≤ 7 days prior to randomization
+* Not currently requiring hospitalization (hospitalization defined as ≥ 24 hours of acute care)
+
+Key Exclusion Criteria:
+
+* Participation in any other clinical trial of an experimental treatment and prevention for COVID-19
+* Prior hospitalization for COVID-19
+* Treatment with other agents with actual or possible direct antiviral activity against SARS-CoV-2 or administration of any SARS-CoV-2 (or COVID-19) vaccine
+* Requiring oxygen supplementation
+
+Note: Other protocol defined Inclusion/Exclusion criteria may apply.","Inclusion Criteria:
+- 12 years of age or older
+- Had at least one preexisting risk factor for progression to severe Covid-19 or were 60 years of age or older, regardless of whether they had other risk factors
+- Risk factors included hypertension, cardiovascular or cerebrovascular disease, diabetes mellitus, obesity (BMI ≥30), immune compromise, chronic mild or moderate kidney disease, chronic liver disease, chronic lung disease, current cancer, or sickle cell disease
+- Had at least one ongoing symptom consistent with Covid-19, with onset of the first symptom within 7 days before randomization
+- SARS-CoV-2 infection confirmed by a molecular diagnostic assay within 4 days before screening
+
+Exclusion Criteria:
+- Receiving or expected to receive supplemental oxygen or hospital care at the time of screening
+- Previous hospitalization for Covid-19
+- Previously received treatment for Covid-19 (including investigational agents)
+- Received a SARS-CoV-2 vaccine",True,0.98,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,12 Years,12 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['CHILD', 'ADULT', 'OLDER_ADULT']","['CHILD', 'ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

@@ -1,0 +1,54 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT03408730,NCT03408730,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,EU Clinical Trials Register,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,FP,Lot-to-lot Consistency of Sci-B-Vac™ in Adults,Immunogenicity and Safety of a 3-Antigen Hepatitis B Vaccine vs a Single-Antigen Hepatitis B Vaccine,False,0.65,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,FP,A Double-blind Randomized Controlled Trial to Assess the Lot-to-lot Consistency of Sci-B-Vac™ in Adults (CONSTANT),Immunogenicity and Safety of a 3-Antigen Hepatitis B Vaccine vs a Single-Antigen Hepatitis B Vaccine: A Phase 3 Randomized Clinical Trial,False,0.68,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.acronym,EV,EV,,CONSTANT,,,,Acronym,protocolSection.identificationModule.acronym,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,A Controlled Trial to Assess the Lot-to-lot Consistency of Sci-B-Vac™ in Adults,,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.detailedDescription,FN,FN,The primary objective of the study is to verify that the manufacturing equivalence of Sci-B-Vac™ is consistent and to compare the immunogenicity and safety of a three-dose regimen of Sci-B-Vac™ to a three-dose regimen of Engerix-B® in adults.,,False,0.0,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,['Hepatitis B Vaccines'],,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,FN,FN,['Hepatitis B Vaccines'],,False,0.0,,Keyword,protocolSection.conditionsModule.keywords,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,FN,FN,INTERVENTIONAL,,False,0.0,,StudyType,protocolSection.designModule.studyType,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,FN,FN,['PHASE3'],,False,0.0,,Phase,protocolSection.designModule.phases,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,FN,FN,RANDOMIZED,,False,0.0,,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,FN,FN,PARALLEL,,False,0.0,,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,FN,FN,TRIPLE,,False,0.0,,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.whoMasked,FN,FN,"['PARTICIPANT', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']",,False,0.0,,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,FN,FN,2838,,False,0.0,,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,FN,FN,"Inclusion Criteria:
+
+* Any gender
+* Age 18-45 years
+* Healthy, as determined by a physical examination and values of laboratory tests
+* If female, either is not of childbearing potential, defined as postmenopausal for at least 1 year or surgically sterile (bilateral tubal ligation, bilateral oophorectomy or hysterectomy), is of childbearing potential and must agree to use an adequate birth control method
+* Able and willing to give informed consent
+
+Exclusion Criteria:
+
+* Previous vaccination with any Hep B vaccine (HBV) (licensed or experimental)
+* Treatment by immunosuppressant within 30 days of enrollment
+* History of immunological function impairment
+* Pregnancy or breastfeeding
+* Immunization with attenuated vaccines (e.g. MMR) within 4 weeks prior to enrollment
+* Immunization with inactivated vaccines (e.g. influenza) within 2 week prior to enrolment
+* Has received blood products or immunoglobulin within 90 days of enrollment or is likely to require blood products during the study period
+* Subject in another clinical trial with an investigational drug or a biologic within 30 days of enrollment
+* Has received granulocyte-macrophage colony stimulating factor (G/GM-CSF) or erythropoietin (EPO) within 30 days of enrollment or likely to require GM-CSF or erythropoietin during the study period
+* Any history of cancer requiring chemotherapy or radiation within 5 years of randomization or current disease.
+* Any skin abnormality or tattoo that would limit post-vaccination injection site assessment
+* History of allergic reactions or anaphylactic reaction to any vaccine component
+* Unwilling, or unable in the opinion of the investigator, to comply with study requirements
+* Immediate family members of study center staff
+* Current or past hepatitis B infection or prior vaccination as evidenced by HBV markers
+* Known hepatitis C infection or positive Hepatitis C serology at screening, unless treated and cured
+* Known human immunodeficiency virus (HIV) infection or positive HIV serology at screening
+* Renal impairment with Glomerular Filtration Rate (GFR) \<90 mL/min/ 1.73 m2 at screening
+* BMI ≥ 35
+* Uncontrolled hypertension
+* Diagnosis of Type 1 or Type 2 diabetes or HbA1C ≥ 6.5% at screening
+* Any laboratory test abnormality that would be considered of Grade 1 severity or above as per FDA guidelines for grading clinical laboratory abnormalities and is considered as clinically significant by the investigator.",,False,0.0,,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,FN,FN,True,,False,0.0,,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,FN,FN,ALL,,False,0.0,,Sex,protocolSection.eligibilityModule.sex,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,FN,FN,18 Years,,False,0.0,,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,FN,FN,45 Years,,False,0.0,,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,FN,FN,['ADULT'],,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

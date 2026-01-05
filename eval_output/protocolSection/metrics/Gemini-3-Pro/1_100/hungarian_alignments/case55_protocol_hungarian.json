@@ -1,0 +1,1552 @@
+{
+  "metadata": {
+    "case_id": 55,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T17:10:23.645187",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/55_NCT03426995.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/55_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 8,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.05
+        ],
+        [
+          0.84,
+          0.08
+        ],
+        [
+          0.3,
+          0.73
+        ],
+        [
+          0.35,
+          0.84
+        ],
+        [
+          0.68,
+          0.13
+        ],
+        [
+          0.86,
+          0.22
+        ],
+        [
+          0.62,
+          0.25
+        ],
+        [
+          0.22,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "GSK3358699, Part A, Cohort 1",
+            "type": "EXPERIMENTAL",
+            "description": "Part A will comprise of 4 TPs. The subjects in this cohort will receive GSK3358699, as single escalation dose, during TP (1 to 3) with planned escalated doses as 1 mg, 10 mg and 35 mg. Dose of 1 mg will be given as solution and doses of 10 mg and 35 mg, will be given as a capsule. Each TP will be of 1 day and separated by a washout Period of 14-days. Post completion of the dose-escalation TPs, an additional dosing TP 4 will be included where the subjects from each TP (1 to 3), will receive control blisters induced on forearm (0.2 % cantharidin) at Day -10. The subjects in cohort 1 will receive GSK3358699 at a dose level already given in TP 1-3, and will then receive an intravenous in vivo LPS challenge at a dose not exceeding 0.75 nanogram per kilogram post administration of GSK3358699. The subjects will then have blisters induced on the forearm approximately 20 minutes after the challenge. LPS dose will be based on data of study 207654 (NCT03306589).",
+            "interventionNames": [
+              "Drug: GSK3358699",
+              "Biological: LPS",
+              "Other: Cantharidin"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "GSK3358699, Part A, Cohort 2",
+            "type": "EXPERIMENTAL",
+            "description": "Part A will comprise of 4 TPs. The subjects in this cohort will receive GSK3358699, as single escalation dose during TP (1 to 3) with planned escalated doses as 3 mg, 20 mg and 45 mg. Dose of 3 mg will be given as solution and that of 20 and 45 mg, as capsule. Each TP will be of 1 day and separated by a washout Period of 14-days. Post completion of the dose-escalation TPs, an additional dosing TP 4 will be included where the subjects from each TP (1 to 3), will receive control blisters induced on forearm (0.2 % cantharidin) at Day -10. The subjects in cohort 2 will receive GSK3358699 at a dose level already given in TP 1-3, and will then receive 60 microgram per meter\\^2 of in vivo GM CSF challenge as an intravenous infusion during TP 4, post administration of GSK3358699. The subjects will then have blisters induced on the forearm approximately 20 minutes after the challenge GM-CSF infusion. GM-CSF dose will be based on data of study 207654 (NCT03306589).",
+            "interventionNames": [
+              "Drug: GSK3358699",
+              "Biological: GM-CSF",
+              "Other: Cantharidin"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Placebo, Part A, Cohort 1",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Part A will comprise of 4 TPs. The subjects in this cohort will receive matching Placebo solution to the study drug GSK3358699 solution for 1 mg and a matching placebo capsule to the study drug GSK3358699, 10 mg and 35 mg capsule, during TP (1 to 3). Each TP will be of 1 day and separated by a washout Period of 14-days. Post completion of the dose-escalation TPs, an additional dosing TP 4 will be included where the subjects from each TP (1 to 3), will receive control blisters induced on forearm (0.2 % cantharidin) at Day -10. The subjects in cohort 1 will receive Placebo at a dose level already given in TP 1-3, and will then receive an intravenous in vivo LPS challenge at a dose not exceeding 0.75 nanogram per kilogram post administration of Placebo. The subjects will then have blisters induced on the forearm approximately 20 minutes after the challenge. LPS dose will be based on data of study 207654 (NCT03306589).",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Biological: LPS",
+              "Other: Cantharidin"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 1,
+          "score": 0.84,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo, Part A, Cohort 2",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Part A will comprise of 4 TPs. The subjects in this cohort will receive matching Placebo solution to the study drug GSK3358699 solution for 3 mg and a matching placebo capsule to the study drug GSK3358699, for 20 and 45 mg capsule, during TP (1 to 3). Each TP will be of 1 day and separated by a washout Period of 14-days. Post completion of the dose-escalation TPs, an additional dosing TP 4 will be included where the subjects from each TP (1 to 3), will receive control blisters induced on forearm (0.2 % cantharidin) at Day -10. The subjects in cohort 2 will receive Placebo at a dose level already given in TP 1-3, and will then receive 60 microgram per meter\\^2 of in vivo GM CSF challenge as an intravenous infusion during TP 4, post administration of Placebo. The subjects will then have blisters induced on the forearm approximately 20 minutes after the challenge GM-CSF infusion. GM-CSF dose will be based on data of study 207654 (NCT03306589).",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Biological: GM-CSF",
+              "Other: Cantharidin"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants received matching placebo administered as single doses in the crossover periods of Part A and as daily doses for up to 14 days in Part C.",
+            "interventionNames": [
+              "Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Part B, GSK3358699 under Fasted followed by Fed conditions",
+            "type": "EXPERIMENTAL",
+            "description": "The subjects in this arm will receive single oral dose of GSK3358699, at a dose level evaluated in Part A, under fasted condition in TP1 followed by fed condition in TP2. This cohort intended to evaluate the effect of food.",
+            "interventionNames": [
+              "Drug: GSK3358699"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Part B, GSK3358699 under Fed followed by Fasted conditions",
+            "type": "EXPERIMENTAL",
+            "description": "The subjects in this arm will receive single oral dose of GSK3358699, at a dose level evaluated in Part A, under fed condition in TP1 followed by fasted condition in TP2. This cohort intended to evaluate the effect of food.",
+            "interventionNames": [
+              "Drug: GSK3358699"
+            ]
+          },
+          "pred_item": {
+            "label": "GSK3358699",
+            "type": "EXPERIMENTAL",
+            "description": "In Part A, participants received single ascending oral doses of GSK3358699 ranging from 1 to 40 mg (specific doses: 1, 3, 10, 20, 30, 40 mg) and a 25 mg dose during an optional period. In Part C, participants received repeat doses of 10 mg GSK3358699 daily for up to 14 days.",
+            "interventionNames": [
+              "GSK3358699"
+            ]
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "GSK3358699, Part C",
+            "type": "EXPERIMENTAL",
+            "description": "The dose level for the first cohort in Part C will be decided following completion of Part A of the study for GSK3358699. The subjects in this arm will constitute 3 cohorts each (cohort 4 to 6), where the subjects will receive GSK3358699, as one repeat dose treatment once daily for 14-consecutive days. Subjects will have control blisters induced on the forearm (0.2% cantharidin) on Day -10. On the Day 14 of each cohort, each subject will receive an intravenous in vivo LPS challenge at a dose not exceeding 0.75 nanogram per kilogram or an intravenous infusion of GM-CSF, in vivo as 60 microgram per meter\\^2. The administration of LPS or GM CSF will be followed by blister induction on forearm (0.2 % cantharidin).",
+            "interventionNames": [
+              "Drug: GSK3358699",
+              "Biological: GM-CSF",
+              "Biological: LPS",
+              "Other: Cantharidin"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Placebo, Part C",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "The subjects in this cohort will receive a matching placebo to GSK3358699, Part C, as a single oral dose once daily for 14 consecutive days. The subjects in this arm will constitute 3 cohorts each (cohort 4 to 6), where the subjects will receive placebo, as one repeat dose treatment once daily for 14-consecutive days. Subjects will have control blisters induced on the forearm (0.2% cantharidin) on Day -10. On the Day 14 of each cohort, each subject will receive an intravenous in vivo LPS challenge at a dose not exceeding 0.75 nanogram per kilogram or an intravenous infusion of GM-CSF, in vivo as 60 microgram per meter\\^2. The administration of LPS or GM CSF will be followed by blister induction on forearm (0.2 % cantharidin).",
+            "interventionNames": [
+              "Drug: Placebo",
+              "Biological: GM-CSF",
+              "Biological: LPS",
+              "Other: Cantharidin"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.2,
+          0.96
+        ],
+        [
+          0.95,
+          0.35
+        ],
+        [
+          0.18,
+          0.18
+        ],
+        [
+          0.1,
+          0.1
+        ],
+        [
+          0.07,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo will be administered as a matching oral solution or matching capsule to study drug GSK3358699, during Part A and C once daily",
+            "armGroupLabels": [
+              "Placebo, Part A, Cohort 1",
+              "Placebo, Part A, Cohort 2",
+              "Placebo, Part C"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Matching placebo to GSK3358699 administered orally.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "GSK3358699",
+            "description": "GSK3358699, will be administered from 1 mg to 45 mg as an oral solution (1 to 10 mg) or as a capsule (3 to 45 mg), in Part A, B and Part C once daily.",
+            "armGroupLabels": [
+              "GSK3358699, Part A, Cohort 1",
+              "GSK3358699, Part A, Cohort 2",
+              "GSK3358699, Part C",
+              "Part B, GSK3358699 under Fasted followed by Fed conditions",
+              "Part B, GSK3358699 under Fed followed by Fasted conditions"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "GSK3358699",
+            "description": "A mononuclear myeloid-targeted bromodomain and extra-terminal domain (BET) family inhibitor administered orally.",
+            "armGroupLabels": [
+              "GSK3358699"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "GM-CSF",
+            "description": "The GM-CSF will be administered as an intravenous infusion to subjects as 60 microgram per meter\\^2 in Part A (Day 1) and Part C (Day 14).This will be administered for 2 hours approximately, no later than 24 hours post -dose of the GSK3358699 or placebo in Part C",
+            "armGroupLabels": [
+              "GSK3358699, Part A, Cohort 2",
+              "GSK3358699, Part C",
+              "Placebo, Part A, Cohort 2",
+              "Placebo, Part C"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "LPS",
+            "description": "LPS will be administered as an intravenous injection to subjects not exceeding 0.75 nanogram per kilogram in Part A (Day 1) and Part C (Day 14). This will be administered no later than 24 hours post -dose of the GSK3358699 or placebo in Part C.",
+            "armGroupLabels": [
+              "GSK3358699, Part A, Cohort 1",
+              "GSK3358699, Part C",
+              "Placebo, Part A, Cohort 1",
+              "Placebo, Part C"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Cantharidin",
+            "description": "This will be applied as a topical application with 0.7% cantharidin liquid which will be diluted with acetone to 0.2%.",
+            "armGroupLabels": [
+              "GSK3358699, Part A, Cohort 1",
+              "GSK3358699, Part A, Cohort 2",
+              "GSK3358699, Part C",
+              "Placebo, Part A, Cohort 1",
+              "Placebo, Part A, Cohort 2",
+              "Placebo, Part C"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 24,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.78
+        ],
+        [
+          0.78
+        ],
+        [
+          0.86
+        ],
+        [
+          0.62
+        ],
+        [
+          0.78
+        ],
+        [
+          0.68
+        ],
+        [
+          0.6
+        ],
+        [
+          0.5
+        ],
+        [
+          0.78
+        ],
+        [
+          0.7
+        ],
+        [
+          0.56
+        ],
+        [
+          0.4
+        ],
+        [
+          0.55
+        ],
+        [
+          0.63
+        ],
+        [
+          0.78
+        ],
+        [
+          0.65
+        ],
+        [
+          0.4
+        ],
+        [
+          0.72
+        ],
+        [
+          0.4
+        ],
+        [
+          0.42
+        ],
+        [
+          0.55
+        ],
+        [
+          0.68
+        ],
+        [
+          0.73
+        ],
+        [
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Number of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+            "description": "An adverse event (AE) is any untoward medical occurrence in a participant or clinical investigation participant, temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product. SAE is defined as any untoward medical occurrence that, at any dose results in death, is life-threatening, requires hospitalization or prolongation of existing hospitalization, results in disability/incapacity, is a congenital anomaly/birth defect, important medical events that may jeopardize the participant or require medical or surgical intervention to prevent one of the outcomes listed before. Safety Population consisted of all randomized participants who took at least 1 dose of study treatment.",
+            "timeFrame": "Up to Day 193"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Number of Participants With AEs and SAEs",
+            "description": "An AE is any untoward medical occurrence in a participant or clinical investigation participant, temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product. SAE is defined as any untoward medical occurrence that, at any dose results in death, is life-threatening, requires hospitalization or prolongation of existing hospitalization, results in disability/incapacity, is a congenital anomaly/birth defect, important medical events that may jeopardize the participant or require medical or surgical intervention to prevent one of the outcomes listed before.",
+            "timeFrame": "Up to Day 30"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With AEs and SAEs",
+            "description": "An AE is any untoward medical occurrence in a participant or clinical investigation participant, temporally associated with the use of a medicinal product, whether or not considered related to the medicinal product. SAE is defined as any untoward medical occurrence that, at any dose results in death, is life-threatening, requires hospitalization or prolongation of existing hospitalization, results in disability/incapacity, is a congenital anomaly/birth defect, important medical events that may jeopardize the participant or require medical or surgical intervention to prevent one of the outcomes listed before.",
+            "timeFrame": "Up to Day 49"
+          },
+          "pred_item": {
+            "measure": "Safety and tolerability",
+            "description": "Evaluation of adverse events (AEs), laboratory safety data (clinical chemistry, haematology, urinalysis), vital signs, cardiac telemetry, and 12‐lead ECGs.",
+            "timeFrame": "Part A: Single ascending doses; Part C: Daily dosing for 14 days. Telemetry from 1 hour pre-dose until 24 hours post-dose."
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Number of Participants With Worst Case Chemistry Results by Potential Clinical Importance (PCI) Criteria Post-Baseline Relative to Baseline",
+            "description": "Blood samples were collected for analysis of clinical chemistry parameters. PCI ranges were \\<30 grams per liter (g/L) (albumin), \\<2 or \\>2.75 millimoles/L (mmol/L) (calcium), \\>1.3\\* upper limit of normal (ULN) mmol/L (creatinine), \\<3 or \\>9 mmol/L (glucose), \\<3 or \\>5.5 mmol/L (potassium), and \\<130 or \\>150 mmol/L (sodium). Participants were counted in worst case category that their value changes to (low, within range or no change or high), unless there is no change in their category. Participants whose laboratory value category was unchanged (e.g., High to High), or whose value became within range, were recorded in To within Range or No Change (NC) category. Participants were counted twice if participant had values that changed To Low and To High, so the percentages may not add to 100%.",
+            "timeFrame": "Up to Day 193"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Number of Participants With Worst Case Chemistry Results Relative to Normal Range Post-Baseline Relative to Baseline",
+            "description": "Clinical chemistry parameters assessed were alanine aminotransferase(ALT)(\\<10 or \\>50 international units per liter\\[IU/L\\]),alkaline phosphatase(ALP)(\\<40 or \\>129 IU/L),aspartate aminotransferase(AST)(\\<0 or \\>37 IU/L),cholesterol(\\<2.3 or \\>4.9 mmol/L),direct bilirubin(DB)(\\<0 or \\>5 micromoles\\[mcmol\\]/L),high density lipoprotein (DL)(\\<0.9 or \\>1.5 mmol/L),C-reactive protein(CRP)(\\<0.0 or \\>5.0mg/liter),low DL(\\<0 or \\>3.0 mmol/L), total bilirubin (\\<0 or \\>20 mcmol/L),total protein(\\<63 or \\>83 grams/L),triglycerides(\\<0 or \\>2.3 mmol/L) and blood urea nitrogen(BUN)(\\<4.76 or \\>23.24 mg/deciliter).Participants were counted in worst case category that their value changes to (low, normal or high), unless there is NC in their category.Participants whose laboratory value category was unchanged(e.g.,High to High) or whose value became normal, are recorded in \"To Normal or NC\" category.Participants were counted twice if participant had values that changed To Low and To High, so percentages may not add to 100%.",
+            "timeFrame": "Up to Day 193"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Number of Participants With Worst Case Chemistry Results by PCI Criteria Post-Baseline Relative to Baseline",
+            "description": "Blood samples were planned to be collected to analyze the chemistry parameters.",
+            "timeFrame": "Up to Day 30"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Number of Participants With Worst Case Chemistry Results Relative to Normal Range Post-Baseline Relative to Baseline",
+            "description": "Blood samples were planned to be collected to analyze the chemistry parameters.",
+            "timeFrame": "Up to Day 30"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With Worst Case Chemistry Results by PCI Criteria Post-Baseline Relative to Baseline",
+            "description": "Blood samples were collected for analysis of chemistry parameters. PCI ranges were \\<30 g/L (albumin), \\<2 or \\>2.75 mmol/L (calcium), \\>1.3\\* ULN mmol/L (creatinine), \\<3 or \\>9 mmol/L (glucose), \\<3 or \\>5.5 mmol/L (potassium), and \\<130 or \\>150 mmol/L (sodium). Participants were counted in worst case category that their value changes to (low, within range or no change or high), unless there is no change in their category. Participants whose laboratory value category was unchanged (e.g., High to High), or whose value became within range, were recorded in To within Range or No Change category. Participants were counted twice if participant had values that changed To Low and To High, so the percentages may not add to 100%.",
+            "timeFrame": "Up to Day 28"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With Worst Case Chemistry Results Relative to Normal Range Post-Baseline Relative to Baseline",
+            "description": "Clinical chemistry parameters assessed were ALT (\\<10 or \\>50 IU/L), ALP (\\<40 or \\>129 IU/L), AST (\\<0 or \\>37 IU/L), cholesterol (\\<2.3 or \\>4.9 mmol/L), DB (\\<0 or \\>5 mcmol/L), high DL (\\<0.9 or \\>1.5 mmol/L), CRP (\\<0.0 or \\>5.0 mg/liter), low DL (\\<0 or \\>3.0 mmol/L), total bilirubin (\\<0 or \\>20 mcmol/L), total protein (\\<63 or \\>83 grams/L), triglycerides (\\<0 or \\>2.3 mmol/L) and BUN (\\<4.76 or \\>23.24 mg/deciliter). Participants were counted in worst case category that their value changes to (low, normal or high), unless there is NC in their category. Participants whose laboratory value category was unchanged (e.g., High to High) or whose value became normal, are recorded in \"To Normal or NC\" category. Participants were counted twice if participant had values that changed To Low and To High, so percentages may not add to 100%.",
+            "timeFrame": "Up to Day 28"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Number of Participants With Worst Case Hematology Results by PCI Criteria Post-Baseline Relative to Baseline",
+            "description": "Blood samples collected for analysis of hematology parameters. PCI ranges were \\>0.54 proportion of red blood cells in blood (hematocrit), \\>180 grams/liter (hemoglobin), \\<0.8 \\*10\\^9 cells/L (lymphocyte count), \\<1.5 \\*10\\^9 cells/L (total absolute neutrophil count \\[ANC\\]), \\<100 or \\>550 \\*10\\^9 cells/L (platelet count), and \\<3 or \\>20\\*10\\^9 cells/L (white blood cell \\[WBC\\] count). Participants were counted in worst case category that their value changes to (low, within range or no change or high), unless there is no change in their category. Participants whose laboratory value category was unchanged (e.g., High to High), or whose value became within range, were recorded in To within Range or No Change category. Participants were counted twice if the participant had values that changed To Low and To High, so the percentages may not add to 100%.",
+            "timeFrame": "Up to Day 193"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Number of Participants With Worst Case Hematology Results Relative to Normal Range Post-Baseline Relative to Baseline",
+            "description": "Hematology parameters assessed were activated partial thromboplastin time (APTT) (\\<25 or \\>37 seconds), basophil count (\\<0.0 or \\>0.1\\*10\\^9 cells/L), eosinophil count (\\<0.0 or \\>0.4\\*10\\^9 cells/L), fibrinogen (\\<1.5 or \\>4.0 g/L), mean corpuscle hemoglobin (MCH) (\\<26.0 or \\>33.5 picogram), mean corpuscle volume (MCV) (\\<80 or \\>99 femtoliter), monocyte count (\\<0.2 or \\>1.0\\*10\\^9 cells/L), prothrombin time (PT) (\\<10 or \\>12 seconds), red blood cell (RBC) count (\\<4.4 or \\>5.8\\*10\\^12 cells/L) and reticulocyte count (\\<0.38 or \\>2.64 percentage of reticulocytes). Participants were counted in worst case category that their value changes to (low, normal or high), unless there is NC in their category. Participants whose laboratory value category was unchanged (e.g., High to High) or whose value became normal, are recorded in \"To Normal or NC\" category. Participants were counted twice if participant had values that changed To Low and To High, so percentages may not add to 100%.",
+            "timeFrame": "Up to Day 193"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Number of Participants With Worst Case Hematology Results by PCI Criteria Post-Baseline Relative to Baseline",
+            "description": "Blood samples were planned to be collected to analyze hematology parameters.",
+            "timeFrame": "Up to Day 30"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Number of Participants With Worst Case Hematology Results Relative to Normal Range Post-Baseline Relative to Baseline",
+            "description": "Blood samples were planned to be collected to analyze hematology parameters.",
+            "timeFrame": "Up to Day 30"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With Worst Case Hematology Results by PCI Criteria Post-Baseline Relative to Baseline",
+            "description": "Blood samples were collected for analysis of hematology parameters. PCI ranges were \\>0.54 proportion of red blood cells in blood (hematocrit), \\>180 grams/liter (hemoglobin), \\<0.8\\*10\\^9 cells/L (lymphocyte count), \\<1.5\\*10\\^9 cells/L (total ANC), \\<100 or \\>550\\*10\\^9 cells/L (platelet count), and \\<3 or \\>20\\*10\\^9 cells/L (WBC count). Participants were counted in worst case category that their value changes to (low, within range or no change or high), unless there is no change in their category. Participants whose laboratory value category was unchanged (e.g., High to High), or whose value became within range, were recorded in To within Range or No Change category. Participants were counted twice if the participant had values that changed To Low and To High, so the percentages may not add to 100%.",
+            "timeFrame": "Up to Day 28"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With Worst Case Hematology Results Relative to Normal Range Post-Baseline Relative to Baseline",
+            "description": "Hematology parameters assessed were APTT (\\<25 or \\>37 seconds), basophil count (\\<0.0 or \\>0.1\\*10\\^9 cells/L), eosinophil count (\\<0.0 or \\>0.4\\*10\\^9 cells/L), fibrinogen (\\<1.5 or \\>4.0 g/L), MCH (\\<26.0 or \\>33.5 picogram), MCV (\\<80 or \\>99 femtoliter), monocyte count (\\<0.2 or \\>1.0\\*10\\^9 cells/L), PT (\\<10 or \\>12 seconds), RBC count (\\<4.4 or \\>5.8\\*10\\^12 cells/L) and reticulocyte count (\\<0.38 or \\>2.64 percentage of reticulocytes). Participants were counted in worst case category that their value changes to (low, normal or high), unless there is NC in their category. Participants whose laboratory value category was unchanged (e.g., High to High) or whose value became normal, are recorded in \"To Normal or NC\" category. Participants were counted twice if participant had values that changed To Low and To High, so percentages may not add to 100%.",
+            "timeFrame": "Up to Day 28"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Number of Participants With Abnormal Urinalysis Parameters",
+            "description": "Urine samples were collected from participants for analyzing the following urine parameters: potential of hydrogen (pH) and glucose, protein, blood, ketones, bilirubin, urobilinogen, nitrite, leukocytes levels by dipstick. Urine samples showing any abnormality were sent for microscopic examination to detect the presence of RBC, WBC, cellular casts, granular casts, hyaline casts, and were counted as cells per high-power field (cells/HPF). Number of participants with abnormal urinalysis result by microscopic examination have been presented.",
+            "timeFrame": "Up to Day 193"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Number of Participants With Abnormal Urinalysis Parameters",
+            "description": "Urine samples were planned to be collected to analyze urine parameters.",
+            "timeFrame": "Up to Day 30"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With Abnormal Urinalysis Parameters",
+            "description": "Urine samples were collected from participants for analyzing the following urine parameters: pH and glucose, protein, blood, ketones, bilirubin, urobilinogen, nitrite, leukocytes levels by dipstick. Urine samples showing any abnormality were sent for microscopic examination to detect the presence of RBC, WBC, cellular casts, granular casts, hyaline casts, and were counted as cells/HPF. Number of participants with abnormal urinalysis result by microscopic examination have been presented.",
+            "timeFrame": "Up to Day 28"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Number of Participants With Worst Case Vital Sign Results by PCI Criteria Post-Baseline Relative to Baseline",
+            "description": "Vital signs included systolic blood pressure(SBP), diastolic blood pressure(DBP), heart rate, respiratory rate and body temperature and were measured in a semi-supine position after 5 minutes rest. PCI ranges were, SBP (millimeters of mercury \\[mmHg\\]): \\<85 (low) or \\>160 (high), DBP (mmHg): \\<45 (low) or \\>100 (high), heart rate (beats per minute): \\<40 (low) or \\>110 (high), respiration rate (breaths per minute): \\<11(low) or \\>20(high) and body temperature (degrees Celsius) \\<35.5 (low) or \\>38.0 (high). Participants were counted in the worst case category that their value changes to (low, within range or no change, or high), unless there is no change in their category. Participants whose vital signs value category was unchanged (e.g., High to High), or whose value became within range, were recorded in the \"To within Range or No Change\" category. Participants were counted twice if the participant had values that changed \"To Low\" and \"To High\", so the percentages may not add to 100%.",
+            "timeFrame": "Up to Day 193"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 19,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Number of Participants With Worst Case Vital Sign Results by PCI Criteria Post-Baseline Relative to Baseline",
+            "description": "Vital signs were planned to be measured in a semi-supine position after 5 minutes of rest.",
+            "timeFrame": "Up to Day 30"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 20,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With Worst Case Vital Sign Results by PCI Criteria Post-Baseline Relative to Baseline",
+            "description": "Vital signs included SBP, DBP, heart rate, respiratory rate and body temperature and were measured in a semi-supine position after 5 minutes rest. PCI ranges were, SBP (mmHg): \\<85 (low) or \\>160 (high), DBP (mmHg): \\<45 (low) or \\>100 (high), heart rate (beats per minute): \\<40 (low) or \\>110 (high), respiration rate (breaths per minute): \\<11 (low) or \\>20 (high) and body temperature (degrees Celsius) \\<35.5 (low) or \\>38.0 (high). Participants were counted in the worst case category that their value changes to (low, within range or no change, or high), unless there is no change in their category. Participants whose vital signs value category was unchanged (e.g., High to High), or whose value became within range, were recorded in the \"To within Range or No Change\" category. Participants were counted twice if the participant had values that changed \"To Low\" and \"To High\", so the percentages may not add to 100%.",
+            "timeFrame": "Up to Day 49"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 21,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Number of Participants With Worst Case Post-Baseline Abnormal Electrocardiogram (ECG) Findings",
+            "description": "Twelve lead ECGs were obtained using an ECG machine that automatically calculated the heart rate and measured PR, QRS, QT, and QT interval corrected using the Fridericia's formula (QTcF) intervals. Abnormal findings were categorized as clinically significant (CS) and not clinically significant (NCS). Clinically significant abnormal findings are those which are not associated with the underlying disease, unless judged by the investigator to be more severe than expected for the participant's condition. Data for number of participants with worst case post-Baseline abnormal ECG findings have been presented.",
+            "timeFrame": "Up to Day 193"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 22,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Number of Participants With Worst Case Post-Baseline Abnormal ECG Findings",
+            "description": "Twelve lead ECGs were planned to be performed to measure PR interval, QRS duration, QT interval and QTcF.",
+            "timeFrame": "Up to Day 30"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 23,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Number of Participants With Worst Case Post-Baseline Abnormal ECG Findings",
+            "description": "Twelve lead ECGs were obtained using an ECG machine that automatically calculated the heart rate and measured PR, QRS, QT, and QTcF intervals. Abnormal findings were categorized as clinically significant and not clinically significant. Clinically significant abnormal findings are those which are not associated with the underlying disease, unless judged by the investigator to be more severe than expected for the participant's condition. Data for number of participants with worst case post-Baseline abnormal ECG findings have been presented.",
+            "timeFrame": "Up to Day 28"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 48,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.62,
+          0.2
+        ],
+        [
+          0.82,
+          0.78,
+          0.2
+        ],
+        [
+          0.82,
+          0.62,
+          0.5
+        ],
+        [
+          0.78,
+          0.62,
+          0.32
+        ],
+        [
+          0.82,
+          0.68,
+          0.25
+        ],
+        [
+          0.78,
+          0.58,
+          0.35
+        ],
+        [
+          0.78,
+          0.72,
+          0.28
+        ],
+        [
+          0.8,
+          0.68,
+          0.25
+        ],
+        [
+          0.82,
+          0.42,
+          0.25
+        ],
+        [
+          0.78,
+          0.62,
+          0.28
+        ],
+        [
+          0.73,
+          0.7,
+          0.22
+        ],
+        [
+          0.84,
+          0.52,
+          0.2
+        ],
+        [
+          0.72,
+          0.38,
+          0.4
+        ],
+        [
+          0.78,
+          0.62,
+          0.2
+        ],
+        [
+          0.78,
+          0.62,
+          0.28
+        ],
+        [
+          0.82,
+          0.65,
+          0.15
+        ],
+        [
+          0.78,
+          0.45,
+          0.15
+        ],
+        [
+          0.73,
+          0.65,
+          0.32
+        ],
+        [
+          0.82,
+          0.55,
+          0.25
+        ],
+        [
+          0.68,
+          0.7,
+          0.25
+        ],
+        [
+          0.8,
+          0.6,
+          0.25
+        ],
+        [
+          0.82,
+          0.7,
+          0.3
+        ],
+        [
+          0.78,
+          0.78,
+          0.3
+        ],
+        [
+          0.82,
+          0.72,
+          0.3
+        ],
+        [
+          0.82,
+          0.7,
+          0.3
+        ],
+        [
+          0.82,
+          0.78,
+          0.1
+        ],
+        [
+          0.86,
+          0.7,
+          0.25
+        ],
+        [
+          0.86,
+          0.7,
+          0.25
+        ],
+        [
+          0.78,
+          0.66,
+          0.18
+        ],
+        [
+          0.82,
+          0.65,
+          0.25
+        ],
+        [
+          0.72,
+          0.7,
+          0.4
+        ],
+        [
+          0.82,
+          0.7,
+          0.2
+        ],
+        [
+          0.84,
+          0.72,
+          0.2
+        ],
+        [
+          0.86,
+          0.72,
+          0.32
+        ],
+        [
+          0.82,
+          0.7,
+          0.22
+        ],
+        [
+          0.8,
+          0.7,
+          0.2
+        ],
+        [
+          0.78,
+          0.72,
+          0.2
+        ],
+        [
+          0.78,
+          0.68,
+          0.22
+        ],
+        [
+          0.82,
+          0.62,
+          0.2
+        ],
+        [
+          0.72,
+          0.72,
+          0.22
+        ],
+        [
+          0.7,
+          0.82,
+          0.18
+        ],
+        [
+          0.78,
+          0.78,
+          0.2
+        ],
+        [
+          0.48,
+          0.93,
+          0.68
+        ],
+        [
+          0.6,
+          0.96,
+          0.45
+        ],
+        [
+          0.58,
+          0.9,
+          0.6
+        ],
+        [
+          0.2,
+          0.25,
+          0.96
+        ],
+        [
+          0.15,
+          0.2,
+          0.9
+        ],
+        [
+          0.05,
+          0.4,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Plasma Concentrations of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. Pharmacokinetic (PK) parameters were calculated using standard non-compartmental analysis. PK Population consisted of all participants in the Safety Population who received an active dose and for whom a PK sample was obtained and analyzed.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Plasma Concentrations of GSK3358699",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Plasma Concentrations of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. PK parameters were calculated using standard non-compartmental analysis.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours; Days 4, 8 and 12: Pre-dose; Day 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Area Under the Plasma Concentration Curve From Time Zero to Last Time of Quantifiable Concentration (AUC[0-t]) of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. PK parameters were calculated using standard non-compartmental analysis.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: AUC(0-t) of GSK3358699",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: AUC(0-t) of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. PK parameters were calculated using standard non-compartmental analysis.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours; Day 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Area Under the Plasma Concentration Curve From Time Zero to Infinity (AUC[0-infinity]) of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. PK parameters were calculated using standard non-compartmental analysis.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: AUC(0-infinity) of GSK3358699",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: AUC(0-infinity) of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. PK parameters were calculated using standard non-compartmental analysis.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours; Day 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Area Under the Plasma Concentration Curve From Time Zero to 24 Hours (AUC[0-24]) of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. PK parameters were calculated using standard non-compartmental analysis.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: AUC(0-24) of GSK3358699",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: AUC(0-24) of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. PK parameters were calculated using standard non-compartmental analysis.",
+            "timeFrame": "Days 1 and 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, and 24 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Maximum Plasma Concentration (Cmax) of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. PK parameters were calculated using standard non-compartmental analysis.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Cmax of GSK3358699",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Cmax of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. PK parameters were calculated using standard non-compartmental analysis.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours; Day 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Time to Cmax (Tmax) of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. PK parameters were calculated using standard non-compartmental analysis.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Tmax of GSK3358699",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Tmax of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. PK parameters were calculated using standard non-compartmental analysis.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours; Day 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Apparent Terminal Phase Half-life (t1/2) of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. PK parameters were calculated using standard non-compartmental analysis.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 19,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: t1/2 of GSK3358699",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 20,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: t1/2 of GSK3358699",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3358699. PK parameters were calculated using standard non-compartmental analysis.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours; Day 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 21,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Plasma Concentrations of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 22,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Plasma Concentrations of GSK3206944",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3206944. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 23,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Plasma Concentrations of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours; Days 4, 8 and 12: Pre-dose; Day 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 24,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: AUC(0-t) of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 25,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: AUC(0-t) of GSK3206944",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3206944. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 26,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part C: AUC(0-t) of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours; Day 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose"
+          },
+          "pred_item": {
+            "measure": "Systemic pharmacokinetic profile of GSK3358699 and metabolite GSK3206944",
+            "description": "Plasma pharmacokinetic parameters including AUC(0‐t), AUC(0‐∞), AUC(0‐24), AUC(0‐tau), Cmax, Tmax, t1/2terminal, t1/2initial, accumulation ratio (R0) and steady state ratio (RS).",
+            "timeFrame": "Part A: Day 1 (pre-dose to 48h); Part C: Days 1 and 14 (pre-dose to 48h), pre-dose on Days 4, 8, 12."
+          }
+        },
+        {
+          "ref_idx": 27,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: AUC(0-infinity) of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 28,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: AUC(0-infinity) of GSK3206944",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3206944. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 29,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: AUC(0-infinity) of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours; Day 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 30,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: AUC(0-24) of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 31,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: AUC(0-24) of GSK3206944",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3206944. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 32,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: AUC(0-24) of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Days 1 and 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, and 24 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 33,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Cmax of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 34,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Cmax of GSK3206944",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3206944. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 35,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Cmax of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours; Day 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 36,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Tmax of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 37,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Tmax of GSK3206944",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3206944. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 38,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Tmax of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours; Day 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 39,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: t1/2 of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 40,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: t1/2 of GSK3206944",
+            "description": "Blood samples were planned to be collected at indicated time points for pharmacokinetic analysis of GSK3206944. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 41,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: t1/2 of GSK3206944",
+            "description": "Blood samples were collected at indicated time points for pharmacokinetic analysis of GSK3206944. PK parameters were calculated using standard non-compartmental analysis. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12 and 24 hours; Day 14: Pre-dose, 15 minutes, 30 minutes, 1, 2, 4, 6, 8, 12, 24 and 48 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 42,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part A: Monocyte Intracellular Concentration of GSK3206944",
+            "description": "Blood samples were collected into sodium heparin tubes for the isolation of monocytes and for measurement of GSK3206944 concentrations in monocytes. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: 1, 4, 8, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 43,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part B: Monocyte Intracellular Concentration of GSK3206944",
+            "description": "Blood samples were planned to be collected into sodium heparin tubes for the isolation of monocytes and for measurement of GSK3206944 concentrations in monocytes. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Day 1: 1, 4, 8, 24 and 48 hours post-dose in each treatment period"
+          },
+          "pred_item": {
+            "measure": "Intracellular pharmacokinetic profile of GSK3206944 in monocytes",
+            "description": "Intracellular concentrations and pharmacokinetic parameters of GSK3206944 in monocytes isolated from blood samples.",
+            "timeFrame": "Part A: Day 1 (1, 4, 8, 24, 48h post-dose); Part C: Days 1 and 14 (1, 4, 8, 24, 48h post-dose), pre-dose on Days 4, 8, 12."
+          }
+        },
+        {
+          "ref_idx": 44,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Monocyte Intracellular Concentration of GSK3206944",
+            "description": "Blood samples were collected into sodium heparin tubes for the isolation of monocytes and for measurement of GSK3206944 concentrations in monocytes. GSK3206944 is a metabolite of GSK3358699.",
+            "timeFrame": "Days 1 and 13: 1, 4 and 8 hour; Days 4, 8 and 12: Pre-dose; Day 14: 1, 4, 8, 24 and 48 hours post-dose"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 45,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part A: Absolute Values of Monocyte Chemotactic Protein (MCP)-1, Interleukin (IL)6, Tumor Necrosis Factor (TNF) Alpha in Blood After Ex-vivo Lipopolysaccharide (LPS) Activation",
+            "description": "Whole blood samples of 1 milliliter (mL) were collected in TruCulture tubes, containing LPS and incubated for 24 hours, post which the inflammatory mediators (MCP-1, IL-6 and TNF alpha) were analyzed.",
+            "timeFrame": "Day 1: 1, 4, 8, 12, 24 and 48 hours"
+          },
+          "pred_item": {
+            "measure": "Pharmacodynamic profile",
+            "description": "Extent of target engagement measured by inhibition of cytokine production (monocyte chemoattractant protein [MCP]‐1, interleukin [IL]‐6, and tumour necrosis factor [TNF]‐α) in blood after ex vivo LPS treatment.",
+            "timeFrame": "Part A: Day 1 (pre-dose to 48h); Part C: Days 1 and 14 (pre-dose to 48h), pre-dose on Days 2, 4, 8, 12."
+          }
+        },
+        {
+          "ref_idx": 46,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part B: Absolute Values of MCP-1, IL6, TNF Alpha in Blood After Ex-vivo LPS Activation",
+            "description": "Whole blood samples were planned to be collected in TruCulture tubes, containing LPS and incubated for 24 hours, post which the inflammatory mediators (MCP-1, IL6 and TNF alpha) were planned to be analyzed.",
+            "timeFrame": "Day 1: 1, 4, 8, 12, 24 and 48 hours"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 47,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Part C: Absolute Values of MCP-1, IL6, TNF Alpha in Blood After Ex-vivo LPS Activation",
+            "description": "Whole blood samples of 1 mL were collected in TruCulture tubes, containing LPS and incubated for 24 hours, post which the inflammatory mediators (MCP-1, IL-6 and TNF alpha) were analyzed.",
+            "timeFrame": "Day 1: 1, 4 and 8 hours; Days 2, 4, 8 and 12: Pre-dose; Day 13: Pre-dose, 1, 4 and 8 hours; Day 14: Pre-dose, Pre-LPS challenge, 1, 4, 8, 24 and 48 hours"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

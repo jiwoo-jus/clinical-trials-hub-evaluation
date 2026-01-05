@@ -1,0 +1,138 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02487654",
+      "organization": {
+        "fullName": "Imperial College Healthcare NHS Trust",
+        "class": "OTHER_GOV"
+      },
+      "briefTitle": "GANGLIA-AF: Ganglionated Plexus Ablation vs Pulmonary Vein Isolation",
+      "officialTitle": "GANGLIA-AF: A Prospective, Randomized, Controlled Trial of Ganglionated Plexus Ablation vs Pulmonary Vein Isolation in Paroxysmal Atrial Fibrillation",
+      "acronym": "GANGLIA-AF"
+    },
+    "descriptionModule": {
+      "briefSummary": "The GANGLIA-AF trial hypothesized that ablating the ectopy-triggering ganglionated plexuses (ET-GPs) prevents atrial fibrillation (AF). This was a prospective, randomized, controlled, 3-center trial comparing GP ablation (GPA) without pulmonary vein isolation (PVI) against PVI in patients with paroxysmal AF. The primary endpoint was documented atrial arrhythmia lasting 30 seconds or more after a 3-month blanking period.",
+      "detailedDescription": "Pulmonary vein isolation (PVI) is the standard ablation technique for atrial fibrillation (AF), but success rates vary. This study investigated the role of intrinsic cardiac autonomic system ganglionated plexuses (GPs) in AF. Specifically, it targeted ectopy-triggering GPs (ET-GPs) identified via high-frequency stimulation (HFS). \n\nGANGLIA-AF (ClinicalTrials.gov identifier NCT02487654) was a prospective, multicenter, randomized, single-blinded clinical study. Patients with paroxysmal AF indicated for ablation were randomized to either PVI or GPA without PVI. In the GPA arm, ET-GPs were mapped using HFS delivered within the atrial refractory period and ablated until nonfunctional. If triggered AF became incessant, atrioventricular dissociating GPs (AVD-GPs) were also mapped and ablated. The PVI arm underwent standard wide antral circumferential ablation.\n\nFollow-up occurred for 12 months, including 3-monthly 48-hour Holter monitors. The primary endpoint was documented atrial arrhythmia (AF, atrial tachycardia, or atrial flutter) ≥30 seconds after a 3-month blanking period. Secondary endpoints included repeat ablation, mortality, complications, and reduction in antiarrhythmic drug usage."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Atrial Fibrillation",
+        "Paroxysmal Atrial Fibrillation"
+      ],
+      "keywords": [
+        "Ganglionated plexuses",
+        "Pulmonary vein isolation",
+        "Catheter ablation",
+        "Autonomic nervous system",
+        "High frequency stimulation"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Patients and their cardiologists providing their usual care were blinded to their randomization. Operators on the day of ablation, the data collector, and the analyst were unblinded to randomization.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 116,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ganglionated Plexus Ablation (GPA)",
+          "type": "EXPERIMENTAL",
+          "description": "Patients randomized to this arm underwent mapping and ablation of ectopy-triggering ganglionated plexuses (ET-GPs) without pulmonary vein isolation (PVI). If triggered AF became incessant, atrioventricular dissociating GPs were also ablated.",
+          "interventionNames": [
+            "Ganglionated Plexus Ablation (GPA)"
+          ]
+        },
+        {
+          "label": "Pulmonary Vein Isolation (PVI)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients randomized to this arm underwent standard pulmonary vein isolation using wide antral circumferential ablation around the pulmonary veins.",
+          "interventionNames": [
+            "Pulmonary Vein Isolation (PVI)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "PROCEDURE",
+          "name": "Ganglionated Plexus Ablation (GPA)",
+          "description": "High frequency stimulation (HFS) was used to map GPs. ET-GPs were ablated using radiofrequency energy until nonfunctional. If incessant AF occurred, AVD-GPs were also targeted. This was performed without PVI.",
+          "armGroupLabels": [
+            "Ganglionated Plexus Ablation (GPA)"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "Pulmonary Vein Isolation (PVI)",
+          "description": "Wide antral circumferential ablation performed around the pulmonary veins using contiguous point-by-point radiofrequency ablation lesions to achieve electrical isolation (entry and exit block).",
+          "armGroupLabels": [
+            "Pulmonary Vein Isolation (PVI)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Atrial arrhythmia recurrence",
+          "description": "Any documented atrial arrhythmia (atrial fibrillation, atrial tachycardia, or atrial flutter) lasting for ≥30 seconds consecutively recorded on the Holter monitor, 12-lead ECG, pacemaker, loop recorder, and AliveCor Kardia recorded ECG.",
+          "timeFrame": "At 12 months (after a 90-day blanking period)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Repeat ablation",
+          "description": "Repeat ablation for atrial fibrillation (AF), atrial tachycardia (AT), or atrial flutter.",
+          "timeFrame": "At 12 months (after a 90-day blanking period)"
+        },
+        {
+          "measure": "Mortality",
+          "description": "Death from any cause.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Procedural complications",
+          "description": "Any significant complications related to the procedure (bleeding, thrombosis, phrenic nerve palsy, and cardiac tamponade) requiring intervention.",
+          "timeFrame": "12 months"
+        },
+        {
+          "measure": "Antiarrhythmic drug usage",
+          "description": "Reduction in the usage of antiarrhythmic drugs (AADs) postablation compared to baseline.",
+          "timeFrame": "12 months"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Patients with symptomatic drug-refractory paroxysmal AF indicated for ablation\n\nExclusion Criteria:\n- (Referenced in Online Supplemental Table 1 but not explicitly detailed in the main text)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": null,
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

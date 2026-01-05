@@ -1,0 +1,497 @@
+{
+  "metadata": {
+    "case_id": 8,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-28T05:27:33.800582",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/8_NCT04598165.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/8_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.3,
+          0.2,
+          0.3,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "id": "1R01HD098105-01",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/1R01HD098105-01"
+          },
+          "pred_item": {
+            "id": "K18MH122978",
+            "type": "NIH",
+            "domain": "National Institute of Mental Health",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.93,
+          0.18
+        ],
+        [
+          0.08,
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Interactive two-way SMS dialogue",
+            "type": "EXPERIMENTAL",
+            "description": "Participants will receive automated SMS messages with prompts to reply. They will have the ability to both respond to and initiate SMS dialogue. Trained Study Nurses will monitor and respond to participant messages.",
+            "interventionNames": [
+              "Behavioral: Interactive two-way SMS dialogue"
+            ]
+          },
+          "pred_item": {
+            "label": "Mobile WACh NEO SMS Intervention",
+            "type": "EXPERIMENTAL",
+            "description": "Participants randomised to the two-way SMS arm receive a series of automated SMS messages during pregnancy (from 28-36 weeks gestation) and until 6 weeks post partum. Messages are sent in English, Dholuo or Kiswahili based on participant preference. From enrolment until 38 weeks gestation, automated SMS are delivered weekly. From 38 weeks gestation until delivery, women receive daily messages. From delivery to 2 weeks post partum, mothers receive two messages per day. From 2 to 6 weeks post partum, SMS are delivered every other day. Messages focus on essential newborn care (ENC), identification of neonatal danger signs, care-seeking, and maternal psychosocial support. Participants can send SMS messages to study nurses at any time and receive responses within one business day during business hours. All SMS are at no cost to participants. High-risk groups receive additional tailored messages.",
+            "interventionNames": [
+              "BEHAVIORAL: Interactive Two-Way SMS Messaging (Mobile WACh NEO)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "label": "No SMS Control",
+            "type": "NO_INTERVENTION",
+            "description": "Control receiving standard of care."
+          },
+          "pred_item": {
+            "label": "Control (No SMS)",
+            "type": "NO_INTERVENTION",
+            "description": "Participants randomised to the control arm do not receive SMS messages from Mobile WACh NEO. Participants in the control arm receive standard antenatal care (ANC) and maternal and child health (MCH) clinical services through Ministry of Health (MOH) clinics with minimal in-person interactions with study personnel.",
+            "interventionNames": []
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "BEHAVIORAL",
+            "name": "Interactive two-way SMS dialogue",
+            "description": "We will utilize Mobile WACh, a human-computer hybrid system that enables seamless two-way SMS communication and patient tracking, to provide consistent support to women and their infants during the peripartum period and 6 weeks into the baby's life. Women will receive automated theoretically grounded SMS messages targeting the appropriate peripartum period and will have the capability to respond and spontaneously message a nurse based at the clinic. During pregnancy, automated SMS will be delivered weekly. Two weeks prior to the participant's estimated due date (EDD), daily messaging will begin, and will continue for two weeks after delivery is ascertained. Thereafter, SMS will be delivered every other day for the remaining four weeks. Women who experience pregnancy or infant loss will be enrolled into an infant loss track where they will receive messages of support.",
+            "armGroupLabels": [
+              "Interactive two-way SMS dialogue"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Interactive Two-Way SMS Messaging (Mobile WACh NEO)",
+            "description": "The Mobile WACh NEO intervention is an interactive (two-way) SMS communication system that sends automated tailored SMS messages to mothers during pregnancy and up to 6 weeks post partum. Messages employ the Information-Motivation-Behaviour Skills (IMB) framework to promote: (1) maternal implementation of essential newborn care (ENC, including early exclusive breast feeding, cord care and thermal care), (2) maternal identification of neonatal danger signs and care-seeking, and (3) maternal social support and self-efficacy. The intervention uses a custom human-computer hybrid software system to manage incoming and outgoing SMS. Participants can send SMS to study nurses enabling on-demand remote support. Study nurses respond to participant messages during business hours within one business day, with urgent responses for danger signs or serious adverse events. Messages are delivered at prespecified day, time and language based on participant preferences. Additional messaging tracks are provided for high-risk groups including first-time mothers, mothers ≤19 years, women with elevated depression symptoms, and mothers of premature or low birth weight infants.",
+            "armGroupLabels": [
+              "Mobile WACh NEO SMS Intervention"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Neonatal Mortality",
+            "description": "Death during 1st 28 days of life",
+            "timeFrame": "28 days postpartum"
+          },
+          "pred_item": {
+            "measure": "Neonatal mortality",
+            "description": "Death within the first 28 days after live birth as reported in clinic records or maternal report",
+            "timeFrame": "Within 28 days of life"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 11,
+      "pred_count": 11,
+      "similarity_matrix": [
+        [
+          1.0,
+          0.15,
+          0.15,
+          0.1,
+          0.1,
+          0.1,
+          0.2,
+          0.1,
+          0.08,
+          0.1,
+          0.12
+        ],
+        [
+          0.19,
+          0.96,
+          0.3,
+          0.18,
+          0.1,
+          0.5,
+          0.18,
+          0.15,
+          0.1,
+          0.18,
+          0.12
+        ],
+        [
+          0.1,
+          0.6,
+          0.15,
+          0.25,
+          0.62,
+          0.5,
+          0.3,
+          0.08,
+          0.07,
+          0.15,
+          0.15
+        ],
+        [
+          0.1,
+          0.32,
+          0.92,
+          0.32,
+          0.1,
+          0.32,
+          0.2,
+          0.05,
+          0.08,
+          0.08,
+          0.3
+        ],
+        [
+          0.2,
+          0.1,
+          0.18,
+          0.95,
+          0.1,
+          0.3,
+          0.3,
+          0.05,
+          0.08,
+          0.08,
+          0.18
+        ],
+        [
+          0.1,
+          0.25,
+          0.18,
+          0.18,
+          0.1,
+          0.82,
+          0.18,
+          0.1,
+          0.08,
+          0.15,
+          0.28
+        ],
+        [
+          0.08,
+          0.1,
+          0.1,
+          0.3,
+          0.08,
+          0.3,
+          0.96,
+          0.25,
+          0.3,
+          0.3,
+          0.4
+        ],
+        [
+          0.05,
+          0.18,
+          0.12,
+          0.18,
+          0.08,
+          0.25,
+          0.2,
+          0.1,
+          0.08,
+          0.1,
+          0.78
+        ],
+        [
+          0.02,
+          0.03,
+          0.05,
+          0.08,
+          0.05,
+          0.08,
+          0.18,
+          0.96,
+          0.3,
+          0.35,
+          0.15
+        ],
+        [
+          0.01,
+          0.12,
+          0.05,
+          0.1,
+          0.07,
+          0.3,
+          0.1,
+          0.3,
+          0.96,
+          0.35,
+          0.18
+        ],
+        [
+          0.08,
+          0.08,
+          0.1,
+          0.12,
+          0.2,
+          0.25,
+          0.22,
+          0.25,
+          0.4,
+          0.98,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Early Neonatal Mortality",
+            "description": "Death during 1st 7 days of life",
+            "timeFrame": "7 days postpartum"
+          },
+          "pred_item": {
+            "measure": "Early neonatal mortality",
+            "description": "Death within the first 7 days of life",
+            "timeFrame": "Within 7 days of life"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Initiation of Early Breastfeeding",
+            "description": "Number of participants initiating breastfeeding in 1st hour of life",
+            "timeFrame": "1 hour postpartum"
+          },
+          "pred_item": {
+            "measure": "Early initiation of exclusive breastfeeding",
+            "description": "Proportion of mothers who initiate exclusive breastfeeding in the first hour of life",
+            "timeFrame": "Within 1 hour of birth"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 4,
+          "score": 0.62,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Exclusive Breastfeeding",
+            "description": "Exclusive breastfeeding at 6-week visit",
+            "timeFrame": "6-weeks postpartum"
+          },
+          "pred_item": {
+            "measure": "Time to cessation of breastfeeding",
+            "description": "Time from birth to cessation of breastfeeding",
+            "timeFrame": "Up to 6 weeks post partum"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Thermal Care",
+            "description": "Number of participants not giving infant a bath in 1st 24 hours of life",
+            "timeFrame": "24 hours postpartum"
+          },
+          "pred_item": {
+            "measure": "Delayed bathing",
+            "description": "Proportion of mothers who delay bathing for at least 24 hours after birth",
+            "timeFrame": "At least 24 hours after birth"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 3,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Cord Care",
+            "description": "Number of participants with no application of substances to cord",
+            "timeFrame": "2-weeks postpartum"
+          },
+          "pred_item": {
+            "measure": "Clean cord care",
+            "description": "Proportion of mothers who apply no substances to the umbilical cord",
+            "timeFrame": "Up to 6 weeks post partum"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 5,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Home Provision of Kangaroo Mother Care",
+            "description": "Number of participants providing any duration of skin-to-skin care on ≥10 of the first 14 days at home, among low birthweight or preterm infants",
+            "timeFrame": "14 days at home postpartum"
+          },
+          "pred_item": {
+            "measure": "Kangaroo Mother Care (KMC) provision",
+            "description": "Proportion of mothers of preterm or low birth weight neonates who provide KMC",
+            "timeFrame": "Up to 6 weeks post partum"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 6,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Maternal Knowledge of Neonatal Danger Signs",
+            "description": "Number of danger signs or symptoms successfully named",
+            "timeFrame": "Up to 6-weeks postpartum"
+          },
+          "pred_item": {
+            "measure": "Knowledge of neonatal danger signs",
+            "description": "Number of neonatal danger signs successfully named by the mother",
+            "timeFrame": "At 2 weeks and 6 weeks post partum"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 10,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Appropriate Care-seeking",
+            "description": "Proportion of illness episodes with danger signs in which the clinic was attended and/or where the infant was hospitalized irrespective of danger signs reported in 1st 18 weeks of life (study follow-up period).",
+            "timeFrame": "18 weeks postpartum"
+          },
+          "pred_item": {
+            "measure": "Care-seeking behavior",
+            "description": "Appropriate care seeking for any instances of infant or maternal illness",
+            "timeFrame": "At 2 weeks and 6 weeks post partum"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 7,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Elevated Depressive Symptoms",
+            "description": "Score above diagnostic threshold (\\>=13) for Edinburgh Postnatal Depression Scale. Possible scores are 0-30, with a higher score indicating a higher likelihood of possible depressive illness.",
+            "timeFrame": "Enrollment through 6-weeks postpartum"
+          },
+          "pred_item": {
+            "measure": "Maternal depression",
+            "description": "Proportion of women with elevated depression symptoms by Edinburgh Postnatal Depression Scale (score ≥13)",
+            "timeFrame": "At enrollment (28-36 weeks gestation), 2 weeks post partum, and 6 weeks post partum"
+          }
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": 8,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Social Support",
+            "description": "Score using Medical Outcomes Study (MOS) Social Support Survey. Possible scores are 0-100, with a higher score indicating higher levels of social support.",
+            "timeFrame": "Enrollment through 6-weeks postpartum"
+          },
+          "pred_item": {
+            "measure": "Social support",
+            "description": "Social support score measured by the MOS Social Support Scale",
+            "timeFrame": "At enrollment (28-36 weeks gestation), 2 weeks post partum, and 6 weeks post partum"
+          }
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": 9,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Self-efficacy",
+            "description": "Score using the Karitane Parenting Confidence Scale. Possible scores are 0-45, with higher scores indicating higher levels of parenting confidence.",
+            "timeFrame": "Enrollment through 6-weeks postpartum"
+          },
+          "pred_item": {
+            "measure": "Parental self-efficacy",
+            "description": "Self-efficacy score measured by the Karitane Parenting Confidence Scale",
+            "timeFrame": "At enrollment (28-36 weeks gestation), 2 weeks post partum, and 6 weeks post partum"
+          }
+        }
+      ]
+    }
+  ]
+}

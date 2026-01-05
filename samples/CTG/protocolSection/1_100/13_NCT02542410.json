@@ -1,0 +1,117 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02542410",
+      "orgStudyIdInfo": {
+        "id": "P00018628"
+      },
+      "organization": {
+        "fullName": "Boston Children's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Dopamine Receptor Agonist Therapy for Pain Relief in Women Suffering From Endometriosis: A Pilot Study",
+      "officialTitle": "Dopamine Receptor Agonist Therapy for Pain Relief in Women Suffering From Endometriosis: A Pilot Study"
+    },
+    "descriptionModule": {
+      "briefSummary": "The proposed pilot study will estimate the efficacy and safety of a novel therapeutic agent, cabergoline, with a clinical standard therapy, norethindrone acetate, for the treatment of endometriosis-associated pain in young women with endometriosis."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Endometriosis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 10,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Norethindrone acetate 5 mg po daily x 6 months",
+          "interventionNames": [
+            "Drug: Norethindrone acetate"
+          ]
+        },
+        {
+          "label": "Experimental",
+          "type": "EXPERIMENTAL",
+          "description": "cabergoline 0.5 mg PO twice weekly x 6 months",
+          "interventionNames": [
+            "Drug: Cabergoline"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Cabergoline",
+          "armGroupLabels": [
+            "Experimental"
+          ],
+          "otherNames": [
+            "Dostinex"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Norethindrone acetate",
+          "armGroupLabels": [
+            "Control"
+          ],
+          "otherNames": [
+            "Aygestin"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Score in Worst Pain Over the Last Month",
+          "description": "visual analog scale, minimum=0 and maximum=10 Higher numbers are a worse outcome\n\nOutcome measures is calculated as the value at 6 months minus value at baseline.",
+          "timeFrame": "Baseline, 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Changes in Pain Interference Scores",
+          "description": "Brief Pain Inventory Interference subscale is a 7-item self-report measure, designed to assess the extent to which pain interferes with various components of functioning, including physical and emotional functioning and sleep.The items in this scale can be grouped into those that assess physical functioning (general activity; walking ability; normal work, including both work outside the home and housework), those that assess emotional functioning (mood; relations with people; enjoyment of life), and a single item that assess the extent to which pain interferes with sleep. The arithmetic mean of the seven interference items is used as a measure of pain interference (i.e., how much a participant's pain interferes with her ability to complete activities of daily living and functioning). The score on the pain interference subscale ranges from 0-70. Higher scores are worse outcomes.\n\nOutcome measure calculated as the value at 6 months minus the value at baseline",
+          "timeFrame": "Baseline, 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Surgically confirmed endometriosis\n* Age between 15-40 y, and premenopausal\n* Pelvic pain score ≥3 on a Visual Analog Scaleover the last month\n\nExclusion Criteria:\n\n* Use of other concurrent hormone medications (such as birth control pills)\n* Impaired liver function (ALT \\> 2x normal) or liver disease (cirrhosis, hepatitis)\n* Pregnancy\n* Breast cancer\n* Active thromboembolic disease\n* Uncontrolled hypertension, history of cardiac valve disorder, history of fibrotic disorders",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "minimumAge": "15 Years",
+      "maximumAge": "40 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    }
+  }
+}

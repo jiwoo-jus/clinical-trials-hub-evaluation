@@ -1,0 +1,120 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+GPT-5.1,protocolSection.identificationModule.nctId,TP,TP,NCT04358549,NCT04358549,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.orgStudyIdInfo.type,EV,EV,,OTHER,,,,OrgStudyIdType,protocolSection.identificationModule.orgStudyIdInfo.type,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.orgStudyIdInfo.link,EV,EV,,,,,,OrgStudyIdLink,protocolSection.identificationModule.orgStudyIdInfo.link,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[0].id,EV,EV,,USAMRDC,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[0].type,EV,EV,,OTHER_GRANT,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,US Army Medical Research and Development Command,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[0].link,EV,EV,,,,,,SecondaryIdLink,protocolSection.identificationModule.secondaryIdInfos.link,True,False,True,True,False,False
+GPT-5.1,protocolSection.identificationModule.briefTitle,TP,TP,Study of the Use of Favipiravir in Hospitalized Subjects With COVID-19,Phase 2 Proof-of-Concept Trial of Favipiravir in Hospitalized Adult Patients With COVID-19,True,0.93,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.officialTitle,TP,FP,"Open Label, Randomized, Controlled Phase 2 Proof-of-Concept Study of the Use of Favipiravir Compared to Standard of Care in Hospitalized Subjects With COVID-19",,False,0.0,empty,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.acronym,EV,EV,,US201,,,,Acronym,protocolSection.identificationModule.acronym,True,False,True,False,False,False
+GPT-5.1,protocolSection.descriptionModule.briefSummary,TP,TP,To determine the effect of favipiravir + SOC v. SOC on COVID-19 viral clearance.,"This was a phase 2, randomized, open-label, multicenter proof‑of‑concept trial evaluating whether the antiviral drug favipiravir, added to standard of care, can safely speed up clearance of SARS‑CoV‑2 in adults hospitalized with PCR‑confirmed COVID‑19. Patients were randomized to receive either favipiravir plus standard care or standard care alone, and the main outcome was how long it took for their respiratory samples to become PCR‑negative for the virus. The study also explored effects on clinical recovery, need for respiratory support, and safety.",True,0.94,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+GPT-5.1,protocolSection.descriptionModule.detailedDescription,TP,TP,"This is an open label, randomized, controlled, multicenter Phase 2 proof-of-concept study of favipiravir in hospitalized subjects with Corona Virus Disease (COVID) -19. Subjects will be randomized within their study site and stratified by the severity of their disease to receive either favipiravir + standard of care (SOC) or SOC alone.
+
+The dose regimen will be 1800 mg favipiravir bis in die (BID) plus SOC or SOC alone on Day 1 followed by 1000 mg BID favipiravir (800 mg BID for subjects with Child-Pugh A liver impairment) plus SOC or SOC for the next 13 days.
+
+The study will have 14 days of treatment and 46 days of follow-up.
+
+Approximately 50 patients are planned to be enrolled in the trial at approximately 8 study sites in the US.","This phase 2, randomized, open-label, multicenter trial (NCT04358549) was conducted at 7 US academic medical centers from April through October 2020 to assess the safety and antiviral activity of favipiravir in adults hospitalized with coronavirus disease 2019 (COVID‑19). Eligible participants were 18–80 years old, hospitalized with a nasopharyngeal or oropharyngeal PCR‑positive test for severe acute respiratory syndrome coronavirus 2 (SARS‑CoV‑2) within 72 hours of hospitalization and within 7 days of their first positive PCR (later restricted to symptom onset within 10 days). Patients were randomized within 72 hours of hospitalization to receive either favipiravir plus standard of care (SOC) or SOC alone, and were stratified by disease severity (critical, severe, or mild to moderate).
+
+Favipiravir, an oral nucleoside analog with broad‑spectrum activity against RNA viruses and licensed in Japan for refractory influenza, was dosed at 1800 mg twice daily on day 1, followed by 1000 mg twice daily for 13 days (800 mg twice daily in patients with Child‑Pugh A liver disease). Treatment was planned for 14 days and continued after discharge, with a total follow‑up of 46 days after the active treatment phase. Concomitant use of other antivirals, immunomodulators, and most systemic steroids was initially excluded, though dexamethasone 6 mg daily was permitted after publication of the RECOVERY trial.
+
+The primary endpoint was time to viral clearance by day 29, defined as time from randomization to the first SARS‑CoV‑2 PCR result that was negative or below the lower limit of quantification, without subsequent positives, based on scheduled nasopharyngeal and oropharyngeal swabs. Key secondary endpoints included clinical recovery assessed by a study‑specific 6‑point ordinal scale, time to clinical recovery (normalization of fever, respiratory rate, oxygen saturation, and improvement of cough), changes in National Early Warning Score 2 (NEWS2), need for supplemental oxygen or ventilatory support, all‑cause mortality, duration of hospitalization, time to defervescence, changes in SARS‑CoV‑2 viral load (including time to RT‑PCR negativity and area under the viral load curve), requirement for mechanical ventilation, C‑reactive protein over time, and a population pharmacokinetic analysis of favipiravir and its metabolite.
+
+Fifty patients were enrolled (25 per arm). Baseline characteristics differed slightly: the SOC group was older with more patients ≥65 years, while the favipiravir group had more severe illness at entry, including critical disease and greater need for noninvasive ventilation. Nineteen patients were censored from the primary endpoint because they were PCR‑negative at the research lab on day 1, remained PCR‑positive at day 29, or were lost to follow‑up (including some censored at day 29 due to clinical worsening).
+
+Among the 50 randomized patients (intention‑to‑treat analysis), the median time to viral clearance was 16.0 days (90% CI, 12.0–29.0) in the favipiravir group versus 30.0 days (90% CI, 12.0–31.0) in the SOC group, with a statistically significant difference by log‑rank test (P = .0415), indicating enhanced viral clearance with favipiravir. Clinical outcomes, including time to clinical recovery, NEWS2 improvement, and duration of hospitalization, did not show significant differences between groups, though trends included a numerically shorter time to NEWS2 ≤2 or discharge with favipiravir and a longer mean hospitalization driven largely by one favipiravir‑treated patient with multiple comorbidities and a prolonged complicated hospital stay.
+
+Safety analyses showed that favipiravir was generally well tolerated. Treatment‑emergent adverse events occurred with similar frequency in both arms. The most common events with favipiravir were elevated gamma‑glutamyltransferase and acute kidney injury; in the SOC group, increases in inflammatory markers and respiratory failure were more frequent. There were more serious adverse events in the SOC arm numerically, but the single death occurred in a favipiravir‑treated patient after discharge due to a cerebral bleed judged unrelated to study drug or COVID‑19.
+
+Pharmacokinetic data demonstrated that oral favipiravir achieved and maintained plasma concentrations above the in vitro EC50 for SARS‑CoV‑2 throughout the 14‑day course, with mean postdose levels ranging from approximately 22 to 42 µg/mL and substantial exposure (AUC0–24h) on days 1, 8, and 14. Levels of the metabolite T‑705 M1 were also quantified.
+
+Post hoc analyses explored factors influencing antiviral response. In patients who were neutralizing antibody‑negative (at or below the assay lower limit of quantification) at baseline, favipiravir was associated with a more pronounced acceleration of viral clearance compared with SOC, whereas no clear benefit was observed in those who already had higher neutralizing antibody titers at randomization. Similarly, when patients were stratified by time from symptom onset to randomization, an apparent antiviral benefit of favipiravir was seen primarily among those treated within 7 days of symptom onset; patients randomized after 8 or more days showed no clear advantage.
+
+Overall, this proof‑of‑concept trial demonstrates that favipiravir can be safely administered to hospitalized adults with COVID‑19 and can shorten the duration of SARS‑CoV‑2 RNA shedding as measured by PCR, particularly when given before substantial antibody development and earlier in the disease course. The findings support further evaluation of favipiravir, especially as an early oral treatment or prophylactic option for individuals at high risk of severe COVID‑19, including potential use in outpatient or post‑exposure settings.",True,0.96,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+GPT-5.1,protocolSection.conditionsModule.conditions,TP,TP,['COVID-19'],"['COVID-19', 'Coronavirus Infections', 'Severe Acute Respiratory Syndrome Coronavirus 2 Infection', 'Pneumonia, Viral']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+GPT-5.1,protocolSection.conditionsModule.keywords,EV,EV,,"['Favipiravir', 'COVID-19', 'SARS-CoV-2', 'Coronavirus Infections', 'Antiviral Agents', 'RNA-Dependent RNA Polymerase Inhibitors', 'Viral Clearance', 'Hospitalization', 'Neutralizing Antibodies', 'Phase II Clinical Trial']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Open-label trial with no blinding; both participants and investigators were aware of treatment assignment.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.enrollmentInfo.count,TP,TP,50,50,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[11].measure,EV,EV,,Frequency of requirement for mechanical ventilation,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[13].measure,EV,EV,,C-reactive protein over time,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[5].measure,EV,EV,,Time to defervescence,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[6].measure,EV,EV,,Time to cough reported as mild or absent,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[7].measure,EV,EV,,Time to dyspnea reported as mild or absent,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[8].measure,EV,EV,,Frequency of requirement for supplemental oxygen or noninvasive ventilation,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[9].measure,EV,EV,,Time to SARS-CoV-2 RT-PCR negativity,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[11].description,EV,EV,,Proportion of patients requiring mechanical ventilation.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[13].description,EV,EV,,Change in serum C-reactive protein levels over time.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[5].description,EV,EV,,"Time to resolution of fever in those with fever at enrollment, according to study-defined temperature criteria.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[6].description,EV,EV,,"Time until cough is reported as mild or absent on a patient-reported scale (severe, moderate, mild, absent) among those with severe or moderate cough at enrollment.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[7].description,EV,EV,,"Time until dyspnea is reported as mild or absent on a scale of severe, moderate, mild, or absent among those with severe or moderate dyspnea at enrollment.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[8].description,EV,EV,,Proportion of patients requiring supplemental oxygen or noninvasive ventilation.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[9].description,EV,EV,,Time to first RT-PCR-negative result for SARS-CoV-2 in upper respiratory tract specimens.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[11].timeFrame,EV,EV,,Daily up to day 29 and on day 60 when possible,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[13].timeFrame,EV,EV,,Daily up to day 29 and on day 60 when possible,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[5].timeFrame,EV,EV,,Daily up to day 29 and on day 60 when possible,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[6].timeFrame,EV,EV,,Daily up to day 29 and on day 60 when possible,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[7].timeFrame,EV,EV,,Daily up to day 29 and on day 60 when possible,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[8].timeFrame,EV,EV,,Daily up to day 29 and on day 60 when possible,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.outcomesModule.secondaryOutcomes[9].timeFrame,EV,EV,,Up to day 29,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+1\) Adults (18 to 80 years old):
+
+1. within 72 hours of their hospitalization for infection with Severe Acute Respiratory Syndrome - Corona Virus - 2 (SARS-CoV-2), AND,
+2. within 72 hours of the latest Polymerase Chain Reaction (PCR) positive result and within 7 days of the 1st PCR positive result for SARS-CoV-2. (The latest PCR could be the only PCR result.), AND,
+3. within 10 days of onset of any COVID-19 symptoms.
+
+Exclusion Criteria:
+
+1. Subject has a concomitant bacterial respiratory infection unless cleared by the Sponsor
+2. Subject has a history of abnormalities of uric acid metabolism unless cleared by the Sponsor.
+3. Subject has a history of hypersensitivity to an anti-viral nucleoside analog drug targeting a viral RNA polymerase
+4. Subject is using adrenocorticosteroids (except topical or inhaled preparations or oral preparations equivalent to or less than 10 mg of oral prednisone) or immunosuppressive or immunomodulatory drugs (e.g., immunosuppressants, anticancer drugs, interleukins, interleukin antagonists or interleukin receptor blockers). Dexamethasone 6 mg daily (PO or IV) for 10 days is permitted.
+5. Subject has a serious chronic disease (e.g., human immunodeficiency virus (HIV), cancer requiring chemotherapy within the preceding 6 months, moderate or severe hepatic insufficiency and/or unstable renal, cardiac, pulmonary, neurologic, vascular, or endocrinologic disease states requiring medication dose adjustments within the last 30 days).
+6. Has previously received favipiravir within the past 30 days
+7. Has renal insufficiency requiring hemodialysis or continuous ambulatory peritoneal dialysis (CAPD) or glomerular filtration rate of less than 20 mL/min.
+8. Has liver impairment greater than Child-Pugh A.
+9. Has a history of alcohol or drug abuse in the previous 6 months.
+10. Has a psychiatric disease that is not well controlled where controlled is defined as: stable on a regimen for more than one year.
+11. Has taken another investigational drug within the past 30 days.
+12. Is on another antiviral or is participating in another clinical trial for the treatment of COVID-19
+13. Subject is on a ventilator at the time of study entry
+14. Is deemed by the Investigator to be ineligible for any reason.","- Inclusion Criteria:
+  - Hospitalized adults (age 18–80 years)
+  - SARS-CoV-2 PCR-positive nasopharyngeal or oropharyngeal test within 72 hours of hospitalization
+  - SARS-CoV-2 PCR-positive within 7 days of the first positive PCR for SARS-CoV-2
+  - (Later protocol addition) Symptom onset within 10 days of presentation
+  - Eligible for randomization to favipiravir plus standard of care (SOC) or SOC alone
+
+- Exclusion Criteria:
+  - Taking other antivirals, including remdesivir
+  - Taking steroids, except for:
+    - Topical or inhaled preparations, or
+    - The equivalent of >10 mg of prednisone
+  - Receiving immune plasma
+  - Taking immunosuppressive or immunomodulatory drugs, including:
+    - Anticancer drugs
+    - Interleukins
+    - Interleukin antagonists
+    - Interleukin receptor blockers
+  - Serious chronic diseases, including moderate or severe hepatic disease, and/or unstable renal, cardiac, pulmonary, neurologic, vascular, or endocrinologic diseases requiring medication dose changes within the last 30 days
+  - Glomerular filtration rate >20 mL/min or requiring hemodialysis/continuous ambulatory peritoneal dialysis (as reported)
+  - Liver impairment greater than Child-Pugh A
+  - Uncontrolled psychiatric disease
+  - History of alcohol or drug abuse in the previous 6 months
+  - Requirement for mechanical ventilator support at study entry",True,0.93,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+GPT-5.1,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.maximumAge,TP,TP,80 Years,80 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False
+GPT-5.1,protocolSection.eligibilityModule.studyPopulation,EV,EV,,,,,,StudyPopulation,protocolSection.eligibilityModule.studyPopulation,True,False,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.samplingMethod,EV,EV,,,,,,SamplingMethod,protocolSection.eligibilityModule.samplingMethod,True,False,True,False,False,False

@@ -1,0 +1,76 @@
+paths:
+  # Path to sample_ids.txt
+  sample_ids: /{YOURPATH}/samples/sample_ids.txt
+  # Output root directory
+  out_root: /{YOURPATH}/samples
+  # Log file, progress file, and failed downloads report
+  log_file: /{YOURPATH}/samples/download_log.txt
+  progress_file: /{YOURPATH}/samples/progress.json
+  failed_report: /{YOURPATH}/samples/failed_downloads.txt
+
+# API configuration (no .env dependency)
+api:
+  ncbi:
+    tool_name: ClinicalTrialSampleCollector
+    email: {YOURS}
+    api_key: {YOURS}
+
+# Runtime options (previously CLI arguments)
+runtime:
+  # Resume from previous progress
+  resume: false
+  # Skip files that already exist
+  skip_existing: true
+  # Filter: start from this year (null means no filter)
+  start_year: null
+  # Filter: start from this case index (null means no filter)
+  start_index: null
+
+download:
+  # Bucket size (folders: 1_100, 101_200, ...)
+  bucket_size: 100
+  # Number of parallel workers (default, can be overridden by CLI --workers)
+  workers: 24
+  # Request retries, timeout, and rate limits
+  max_retries: 3
+  request_timeout: 30
+  # Recommended: 2 without NCBI API key, 5+ with API key
+  ncbi_rate_limit: 9
+  ctg_rate_limit: 9
+  # Which data types to download (on/off)
+  types:
+    pm: false
+    pmc: false
+    ctg: true
+  # Which groups to process (on/off)
+  groups:
+    withResults: false
+    withoutResults: true
+
+logging:
+  level: INFO
+
+# Multi-variant mode: specify fields for each variant
+# Output path: ctg/{variant}/{bucket}/{index}_{NCT}.json
+ctg:
+  protocolSection:
+    fields: "IdentificationModule,DescriptionModule,ConditionsModule,DesignModule,ArmsInterventionsModule,OutcomesModule,EligibilityModule"
+# PMC XML pruning options (optional)
+# If enabled, removes unnecessary sections/tags before saving PMC XML to reduce file size
+pmc_prune:
+  enabled: true
+  # Optional: Title patterns (regex). Removes sections with matching <sec><title>
+  title_patterns:
+    - "^acknowledg(e)?ments?$"
+    - "^references$"
+    - "^funding$"
+    - "^supplementary material(s)?$"
+    - "^appendix$"
+  # Optional: List of tags to remove (local tag names)
+  remove_tags:
+    - ref-list
+    - ack
+    - fn-group
+    - permissions
+    - history
+    - pub-history

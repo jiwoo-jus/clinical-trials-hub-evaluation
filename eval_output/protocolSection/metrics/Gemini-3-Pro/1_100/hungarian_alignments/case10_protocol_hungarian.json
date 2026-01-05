@@ -1,0 +1,150 @@
+{
+  "metadata": {
+    "case_id": 10,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-28T05:35:32.584266",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/10_NCT02427958.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/10_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "label": "Leuprorelin",
+            "type": "EXPERIMENTAL",
+            "description": "Participants with body weight greater than or equal to (\\>=) 20 kilogram (kg) will receive the recommended dose of leuprorelin 3.75 milligram (mg), injection, subcutaneously, once every 4 weeks for 96 weeks. Participants with body weight less than (\\<) 20 kg will receive leuprorelin 1.88 mg, injection, subcutaneously, once every 4 weeks for 96 weeks.",
+            "interventionNames": [
+              "Drug: Leuprorelin"
+            ]
+          },
+          "pred_item": {
+            "label": "Leuprorelin",
+            "type": "EXPERIMENTAL",
+            "description": "Patients diagnosed with central precocious puberty (CPP) treated with leuprorelin subcutaneously once every 4 weeks for a total of 96 weeks. Eligible CPP patients whose body mass was ≥20 kg received a dose of 3.75 mg. Eligible CPP patients with body mass <20 kg received a dose of 1.88 mg.",
+            "interventionNames": [
+              "Drug: Leuprorelin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Leuprorelin",
+            "description": "Suspension for injection.",
+            "armGroupLabels": [
+              "Leuprorelin"
+            ],
+            "otherNames": [
+              "Enantone"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Leuprorelin",
+            "description": "Administered subcutaneously once every 4 weeks. Dosage: 3.75 mg for patients with body mass ≥20 kg; 1.88 mg for patients with body mass <20 kg. The dose was adjusted based on the condition of the patient and the investigator judgment.",
+            "armGroupLabels": [
+              "Leuprorelin"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Reporting One or More Treatment-emergent Adverse Events (TEAEs)",
+            "timeFrame": "Day 1 up to Week 100"
+          },
+          "pred_item": {
+            "measure": "Rate of occurrence of Treatment-Emergent Adverse Events (TEAEs)",
+            "description": "The primary safety endpoint was the rate of occurrence of adverse events (AEs) emerging during treatment. Safety assessment mainly involved monitoring of adverse events.",
+            "timeFrame": "From baseline up to Week 100 (96 weeks of treatment plus 4 weeks safety follow-up)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.4,
+          0.38,
+          0.32,
+          0.62,
+          0.08,
+          0.05
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Regression or no Progression in Tanner Staging at Week 96",
+            "description": "Tanner assessment score was used to document the stage of development of puberty through the assessment of secondary sexual characteristics. Female pubertal development staged by pubic hair development and breast size; male pubertal development staged by size of the genitalia and development of pubic hair. Rated in 5 stages: stage 1 (no development) to 5 (adult-like development in quantity and size). Regression or no progression was defined as negative change (improvement) or no change in Tanner score at Week 96 compared to baseline.",
+            "timeFrame": "Week 96"
+          },
+          "pred_item": {
+            "measure": "Percentage of patients with regression or no progression in the Tanner stage",
+            "description": "The main secondary endpoint comparing Tanner stage at week 96 with baseline. Progression was defined as an increase in the Tanner stage score for breast/genital or pubic hair; otherwise, it was assessed as regressive or non-progressive.",
+            "timeFrame": "Week 96"
+          }
+        }
+      ]
+    }
+  ]
+}

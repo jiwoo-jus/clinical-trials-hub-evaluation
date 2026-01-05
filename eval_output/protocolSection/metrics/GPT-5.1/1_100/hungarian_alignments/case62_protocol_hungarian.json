@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "case_id": 62,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T17:47:42.996894",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/62_NCT02628093.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/62_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.8
+        ],
+        [
+          0.82,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "THUNDERBEAT",
+            "type": "OTHER",
+            "description": "THUNDERBEAT energy device ( Olympus) will be used for dissection of tissue and ligation of vessels",
+            "interventionNames": [
+              "Device: THUNDERBEAT"
+            ]
+          },
+          "pred_item": {
+            "label": "THUNDERBEAT",
+            "type": "EXPERIMENTAL",
+            "description": "Patients undergoing elective laparoscopic left colectomy for neoplasm or diverticulitis in whom the THUNDERBEAT 5 mm energy device was used for soft tissue dissection and division/sealing of mesenteric and other blood vessels. All surgeries followed standard laparoscopic left colectomy technique, differing only in the energy device used.",
+            "interventionNames": [
+              "THUNDERBEAT energy device",
+              "Laparoscopic left colectomy"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "LIGASURE",
+            "type": "OTHER",
+            "description": "LIGASURE energy device will be used for dissection of tissue and ligation of vessels",
+            "interventionNames": [
+              "Device: LIGASURE"
+            ]
+          },
+          "pred_item": {
+            "label": "LigaSure",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients undergoing elective laparoscopic left colectomy for neoplasm or diverticulitis in whom the Maryland LigaSure 5 mm energy device was used for soft tissue dissection and division/sealing of mesenteric and other blood vessels. All surgeries followed standard laparoscopic left colectomy technique, differing only in the energy device used.",
+            "interventionNames": [
+              "Maryland LigaSure energy device",
+              "Laparoscopic left colectomy"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          1.0,
+          0.74,
+          0.7
+        ],
+        [
+          0.9,
+          0.96,
+          0.35
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "THUNDERBEAT",
+            "description": "Tissue dissection and vessels ligation",
+            "armGroupLabels": [
+              "THUNDERBEAT"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "THUNDERBEAT energy device",
+            "description": "THUNDERBEAT 5 mm × 35 cm (Olympus, Japan), a multifunctional laparoscopic energy device delivering simultaneous ultrasonic and bipolar energy, used to seal and divide blood vessels up to 7 mm in diameter and to cut and dissect omental and mesenteric tissue during laparoscopic left colectomy. Device provided sterile, single use, used with a THUNDERBEAT generator with preset mode identical for all cases.",
+            "armGroupLabels": [
+              "THUNDERBEAT"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DEVICE",
+            "name": "LIGASURE",
+            "description": "Tissue dissection and vessels ligation",
+            "armGroupLabels": [
+              "LIGASURE"
+            ]
+          },
+          "pred_item": {
+            "type": "DEVICE",
+            "name": "Maryland LigaSure energy device",
+            "description": "Maryland LigaSure 5 mm × 37 cm (Medtronic, USA), an FDA‑approved bipolar vessel sealing and tissue dissection device, used for hemostasis, vessel ligation, and soft tissue dissection during laparoscopic left colectomy. Device provided sterile, single use, used with the ForceTriad generator with preset mode identical for all cases.",
+            "armGroupLabels": [
+              "LigaSure"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.25
+        ],
+        [
+          0.22,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Overall Time for Dissection of the Soft Tissues",
+            "description": "from the start of colon mobilization to specimen removal from the abdominal cavity",
+            "timeFrame": "Day 0 Surgical procedure"
+          },
+          "pred_item": {
+            "measure": "Dissection time to specimen removal (DTSR)",
+            "description": "Time from the start of colon mobilization to removal of the specimen from the abdominal cavity, measured in minutes, comparing THUNDERBEAT vs. LigaSure during laparoscopic left colectomy.",
+            "timeFrame": "Intraoperative (from start of colon mobilization to specimen removal during index surgery)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Versatility Score",
+            "description": "Total/Composite score (composite of 5 variables:hemostasis;sealing;cutting;dissection;and tissue manipulation) was measured by a score system from 1 to 5 (1 being worst and 5 best) for each of the 5 variables,weighted by Coefficient of Importance with weight distribution as follow: hemostasis 0.275, sealing 0.275, cutting 0.2, dissection 0.15, and tissue Manipulation 0.1.). The final reported score is a weighted average.",
+            "timeFrame": "Day 0 Surgical procedure"
+          },
+          "pred_item": {
+            "measure": "Versatility score",
+            "description": "Composite score (1=worst to 5=best) based on five weighted variables—hemostasis (0.275), sealing (0.275), cutting (0.2), dissection (0.15), and tissue manipulation (0.1)—evaluated in six predefined surgical segments; overall versatility is the average of segment scores. A mean score ≥3.5 is considered high versatility.",
+            "timeFrame": "Intraoperative (assessed for each of six surgical segments during index surgery)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 5,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.05,
+          0.12
+        ],
+        [
+          0.98,
+          0.25
+        ],
+        [
+          0.2,
+          0.25
+        ],
+        [
+          0.18,
+          0.2
+        ],
+        [
+          0.18,
+          0.12
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Length of Post Surgical Stay in the Hospital",
+            "description": "Length of post surgical stay in the hospital measured in days",
+            "timeFrame": "from Surgery date to the discharge date from the hospital up to 30 days"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Dryness of the Surgical Field Average Score Mean/sd",
+            "description": "Measured by score from 1 to 5 where 1 means Heavy bleeding , hemostasis achieved with the instrument with more than 2 attempts, and 5 means No oozing at vessel or tissue site in entire surgical field .",
+            "timeFrame": "Day 0 Surgical Procedure"
+          },
+          "pred_item": {
+            "measure": "Dryness of the surgical field",
+            "description": "Surgeon-rated assessment of overall oozing of blood or other body fluids in the entire surgical field using a 1–5 scale (5=no oozing; 1=heavy bleeding with hemostasis achieved only after more than two attempts with the instrument).",
+            "timeFrame": "Intraoperative (during mesenteric and vessel dissection and lysis of adhesions in index surgery)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.25,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Intraoperative Complication Related to the Energy Devices",
+            "description": "Intraoperative adverse event occurrences during surgery due to the energy devices (THUNDERBEAT and LigaSure) measured as categorical variable \"Yes\" or \"No\"",
+            "timeFrame": "Day 0 Surgical procedure"
+          },
+          "pred_item": {
+            "measure": "Surgeon instrument handling and satisfaction survey",
+            "description": "Surgeon-reported evaluation of the device immediately after surgery using 8 questions scored from 1 (worst) to 10 (best) covering ease of opening/closing handle, ease to maneuver, weight balance, fatigue/pain from handle use, ease of pushing seal and cut buttons, ease of turning rotor knob, confidence in sealing large vessels (>5 mm), and overall satisfaction.",
+            "timeFrame": "Immediately postoperatively after completion of index surgery"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Delayed Thermal Injuries Related to Energy Devices",
+            "description": "Delayed thermal injuries related to Energy devices that occur after surgery within 30 days of the surgical date, measured as categorical variables \"Yes\" or \"No\".",
+            "timeFrame": "DAY 1 to DAY 30 Postsurgery"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Operative Procedure Time",
+            "description": "operative procedure time measured in minutes from the start of the incision to the last stitch in the closure of the surgical incision",
+            "timeFrame": "Day 0 Surgical Procedure"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

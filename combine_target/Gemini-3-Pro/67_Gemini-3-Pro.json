@@ -1,0 +1,198 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03261401",
+      "secondaryIdInfos": [
+        {
+          "id": "203481/Z/16/Z",
+          "type": "OTHER_GRANT",
+          "domain": "Wellcome Trust"
+        }
+      ],
+      "organization": {
+        "fullName": "Merck KGaA, Darmstadt, Germany",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Safety, Pharmacokinetics, and Antimalarial Activity of M5717 in Healthy Volunteers",
+      "officialTitle": "First-in-Human Clinical Trial to Characterise the Safety, Tolerability, Pharmacokinetics, and Antimalarial Activity of M5717 in Healthy Volunteers"
+    },
+    "descriptionModule": {
+      "briefSummary": "This first-in-human clinical trial investigates M5717, a novel plasmodium translation elongation factor 2 inhibitor, as a potential antimalarial treatment. The study aims to characterize the safety, pharmacokinetics, and antimalarial activity of M5717 in healthy volunteers. The trial consists of two parts: a randomized, placebo-controlled single ascending dose study to assess safety across escalating doses, and a volunteer infection study using the Plasmodium falciparum induced blood-stage malaria model to evaluate the drug's efficacy in clearing parasites.",
+      "detailedDescription": "The study was designed as a two-part, single-center clinical trial. Part one was a double-blind, randomized, placebo-controlled, single ascending dose (SAD) study. Participants were enrolled into one of nine dose cohorts (50, 100, 200, 400, 600, 1000, 1250, 1800, or 2100 mg) and randomly assigned (3:1) to receive a single oral dose of M5717 or placebo. A sentinel dosing strategy was utilized for each cohort. Part two was an open-label, non-randomized volunteer infection study (VIS) utilizing the Plasmodium falciparum induced blood-stage malaria model. Healthy, malaria-naive participants were inoculated intravenously with P. falciparum-infected erythrocytes. Upon developing parasitaemia, participants were enrolled into three dose cohorts (150, 400, and 800 mg) to receive M5717. Primary outcomes included safety and tolerability (frequency and severity of adverse events) for the SAD study, and pharmacokinetic profiles and parasite clearance kinetics (parasite reduction ratio and clearance half-life) for the VIS. Secondary outcomes included the incidence of recrudescence and exploratory analysis of genetic mutations in recrudescent parasites."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Malaria",
+        "Plasmodium falciparum Infection"
+      ],
+      "keywords": [
+        "M5717",
+        "Antimalarial",
+        "Plasmodium translation elongation factor 2 inhibitor",
+        "Single Ascending Dose",
+        "Volunteer Infection Study",
+        "Pharmacokinetics",
+        "Safety",
+        "Plasmodium falciparum"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "interventionModelDescription": "This first-in-human study was a two-part clinical trial. Part one was a double-blind, randomised, placebo-controlled, single ascending dose study. Part two was an open-label, non-randomised volunteer infection study using the Plasmodium falciparum induced blood-stage malaria model.",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "In the single ascending dose study, participants and investigators were masked to the identity of the treatment from the time of randomisation until database lock. Treatment identity was concealed by the identical packaging, appearance, odour, and taste of M5717 and placebo. Part two was open-label.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 88,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Part 1: M5717 Single Ascending Dose (SAD)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants enrolled into one of nine dose cohorts (50, 100, 200, 400, 600, 1000, 1250, 1800, or 2100 mg) receiving a single oral dose of M5717.",
+          "interventionNames": [
+            "Drug: M5717"
+          ]
+        },
+        {
+          "label": "Part 1: Placebo (SAD)",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants enrolled into one of nine dose cohorts receiving a single oral dose of matching placebo.",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "Part 2: M5717 Volunteer Infection Study (VIS)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants inoculated with P. falciparum and subsequently enrolled into three dose cohorts (150, 400, or 800 mg) receiving a single oral dose of M5717.",
+          "interventionNames": [
+            "Drug: M5717",
+            "Biological: P. falciparum induced blood-stage malaria model",
+            "Drug: Artemether-lumefantrine"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Drug: M5717",
+          "description": "Single oral dose capsules administered with 250 mL of water after fasting. SAD doses: 50, 100, 200, 400, 600, 1000, 1250, 1800, or 2100 mg. VIS doses: 150, 400, or 800 mg.",
+          "armGroupLabels": [
+            "Part 1: M5717 Single Ascending Dose (SAD)",
+            "Part 2: M5717 Volunteer Infection Study (VIS)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Drug: Placebo",
+          "description": "Matching placebo capsules with identical packaging, appearance, odour, and taste.",
+          "armGroupLabels": [
+            "Part 1: Placebo (SAD)"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Biological: P. falciparum induced blood-stage malaria model",
+          "description": "Intravenous inoculation with P. falciparum-infected erythrocytes (containing approximately 2800 viable parasites) on day -8.",
+          "armGroupLabels": [
+            "Part 2: M5717 Volunteer Infection Study (VIS)"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Drug: Artemether-lumefantrine",
+          "description": "Rescue treatment. Standard curative course (six oral doses taken over 60 h; total dose of 480 mg artemether and 2.88 g lumefantrine) administered upon recrudescence or on day 21 if recrudescence had not occurred.",
+          "armGroupLabels": [
+            "Part 2: M5717 Volunteer Infection Study (VIS)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and Tolerability (Single Ascending Dose Study)",
+          "description": "Assessed by the nature, incidence, and severity of adverse events, as well as the incidence of clinically significant changes and abnormalities in safety laboratory parameters (haematology, coagulation, biochemistry, and urinalysis), vital signs (body temperature, blood pressure, heart rate, and respiratory rate), and 12-lead ECGs.",
+          "timeFrame": "Up to Day 44"
+        },
+        {
+          "measure": "Pharmacokinetic Profile (Volunteer Infection Study)",
+          "description": "Parameters included maximum observed concentration (Cmax); time to reach Cmax (tmax); area under the concentration–time curve (AUC) from time 0 h to the last sampling time (AUC0–t); AUC from time 0 h extrapolated to infinity (AUC0–∞); AUC from time 0 h to 144 h after dosing (AUC0–144h); apparent terminal half-life (t1/2); apparent total clearance (CL/F); apparent volume of distribution (Vz/F); time at or above the minimum inhibitory concentration (t≥3 ng/mL); and time at or above the minimum parasiticidal concentration (t≥10 ng/mL).",
+          "timeFrame": "Up to Day 44"
+        },
+        {
+          "measure": "Parasite Clearance Kinetics (Volunteer Infection Study)",
+          "description": "Assessed by the parasite reduction ratio (PRR, expressed as the ratio of the parasite density decrease over a 48 h time period following dosing [PRR48]) and the corresponding parasite clearance half-life.",
+          "timeFrame": "Up to Day 44"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Safety and Tolerability (Volunteer Infection Study)",
+          "description": "Assessed by frequency and severity of adverse events, safety laboratory parameters, vital signs, and 12-lead ECGs.",
+          "timeFrame": "Up to Day 44"
+        },
+        {
+          "measure": "Pharmacokinetic Profile (Single Ascending Dose Study)",
+          "description": "Parameters included Cmax, tmax, AUC0–t, AUC0–∞, AUC0–144h, t1/2, CL/F, Vz/F, time at or above the MIC (3 ng/mL), and time at or above the minimum parasiticidal concentration (10 ng/mL).",
+          "timeFrame": "Up to Day 44"
+        },
+        {
+          "measure": "Incidence of Recrudescence (Volunteer Infection Study)",
+          "description": "The occurrence of recurrent parasitaemia following initial clearance.",
+          "timeFrame": "Up to Day 28"
+        },
+        {
+          "measure": "Malaria Clinical Score (Volunteer Infection Study)",
+          "description": "Assessment of clinical symptoms associated with malaria.",
+          "timeFrame": "Up to Day 44"
+        },
+        {
+          "measure": "Additional Pharmacokinetic–Pharmacodynamic Parameters",
+          "description": "Minimum inhibitory concentration (MIC), minimum parasiticidal concentration, parasite clearance time, and lag phase calculated using pharmacokinetic–pharmacodynamic modelling.",
+          "timeFrame": "Up to Day 44"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Genetic Mutations (Exploratory)",
+          "description": "Recrudescent parasites were tested for genetic mutations (specifically DNA sequence analysis of the P. falciparum eEF2 gene).",
+          "timeFrame": "Up to Day 44"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Healthy men and women of non-childbearing potential\n* Aged 18–55 years\n* Individuals in the volunteer infection study were required to be malaria naive\n\nExclusion Criteria:\n* Women of childbearing potential",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "55 Years",
+      "stdAges": [
+        "ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

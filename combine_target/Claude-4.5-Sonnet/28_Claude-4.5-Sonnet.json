@@ -1,0 +1,87 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02864381",
+      "orgStudyIdInfo": {
+        "id": "GS-US-296-2013",
+        "type": null,
+        "link": null
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "Gilead Sciences, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Randomized, open-label, phase 2 study of andecaliximab plus nivolumab versus nivolumab alone in advanced gastric cancer",
+      "officialTitle": "Randomized, open-label, phase 2 study of andecaliximab plus nivolumab versus nivolumab alone in advanced gastric cancer identifies biomarkers associated with survival",
+      "acronym": null
+    },
+    "descriptionModule": null,
+    "conditionsModule": null,
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Patients were randomized 1:1 (stratified by PD-L1 status (≥1% vs <1% TC staining)) to ADX+NIVO or NIVO alone",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "This was an open-label study",
+          "whoMasked": []
+        }
+      },
+      "enrollmentInfo": {
+        "count": 144,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": null,
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Objective Response Rate (ORR)",
+          "description": "Proportion of patients with best overall response of complete response (CR) or partial response (PR) after starting study drug and before starting any new anticancer therapy, defined by Response Evaluation Criteria in Solid Tumors (RECIST) V.1.1 as assessed by investigator",
+          "timeFrame": "From randomization until disease progression, unacceptable toxicity, or consent withdrawal, up to 2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Interval from the date of randomization to death from any cause",
+          "timeFrame": "From randomization until death, assessed up to approximately 5 years"
+        },
+        {
+          "measure": "Progression-Free Survival (PFS)",
+          "description": "Interval from the date of randomization to death (any cause) or the first definitive progressive disease (PD). Definitive PD was either clinical PD, imaging PD, or radiation therapy",
+          "timeFrame": "From randomization until disease progression or death, assessed up to approximately 5 years"
+        },
+        {
+          "measure": "Duration of Response",
+          "description": "Time from first documented response (CR or PR) to disease progression or death",
+          "timeFrame": "From first response until disease progression or death, assessed up to approximately 5 years"
+        },
+        {
+          "measure": "Adverse Events (AEs) and Laboratory Abnormalities",
+          "description": "Occurrence of adverse events and laboratory abnormalities during treatment, graded according to National Cancer Institute Common Terminology Criteria for Adverse Events V.4",
+          "timeFrame": "From first dose until 30 days after last dose of ADX and 5 months after last dose of NIVO"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Blood-based and Tissue-based Biomarkers",
+          "description": "Exploratory assessment of baseline and change from baseline values of biomarkers including PD-L1 expression, CD8+ cell density, gene expression signatures (IFN-γ, T-effector, activated T cells, TGF-β fibrosis, EMT), tumor mutation burden (TMB), mismatch repair deficiency (dMMR), HER2 status, and chromosome instability signatures",
+          "timeFrame": "Baseline and on-treatment biopsies obtained between weeks 5 and 9 of treatment"
+        }
+      ]
+    },
+    "eligibilityModule": null
+  }
+}

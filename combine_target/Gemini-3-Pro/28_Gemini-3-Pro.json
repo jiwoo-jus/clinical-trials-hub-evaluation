@@ -1,0 +1,154 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02864381",
+      "orgStudyIdInfo": {
+        "id": "GS-US-296-2013"
+      },
+      "organization": {
+        "fullName": "Gilead Sciences, Inc.",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Andecaliximab in Combination With Nivolumab for the Treatment of Advanced Gastric Cancer",
+      "officialTitle": "Phase 2, Open-Label, Randomized Multicenter Study Evaluating the Efficacy, Safety, and Pharmacodynamics of ADX+NIVO Versus NIVO in Patients With Pretreated Metastatic Gastric or Gastroesophageal Junction (GEJ) Adenocarcinoma"
+    },
+    "descriptionModule": {
+      "briefSummary": "This Phase 2 study evaluated the efficacy, safety, and pharmacodynamics of andecaliximab (ADX), an inhibitor of matrix metalloproteinase-9 (MMP9), in combination with nivolumab (NIVO) versus nivolumab alone. The study targeted patients with pretreated metastatic gastric or gastroesophageal junction (GEJ) adenocarcinoma. The primary hypothesis was that targeting MMP9 in combination with an immune checkpoint inhibitor could lead to an improved antitumor immune response.",
+      "detailedDescription": "This was a phase 2, open-label, randomized multicenter study conducted at 34 sites across the USA, Europe, and Australia. The study compared ADX combined with nivolumab (NIVO) versus NIVO alone in patients with recurrent gastric or GEJ adenocarcinoma.\n\nEligible patients were randomized 1:1 via an interactive web response system to ADX+NIVO or NIVO alone. Stratification was based on PD-L1 status (≥1% vs <1% tumor cell staining). Patients randomized to NIVO alone received 3 mg/kg NIVO via intravenous infusion every 2 weeks. Patients randomized to ADX+NIVO received 800 mg ADX every 2 weeks administered prior to NIVO (3 mg/kg). Treatment continued for up to 2 years until disease progression, unacceptable toxicity, or consent withdrawal.\n\nThe primary endpoint was overall response rate (ORR) by investigator assessment according to RECIST v1.1. Secondary endpoints included overall survival (OS), progression-free survival (PFS), duration of response, and the occurrence of adverse events. The study also conducted exploratory analyses on blood-based and tissue-based biomarkers, including PD-L1 expression, mismatch repair deficiency (dMMR), intratumoral CD8+ cell density, gene signatures (such as TGF-β fibrosis and EMT), and tumor mutation burden (TMB), to assess their association with treatment response and survival."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Advanced Gastric Cancer",
+        "Metastatic Gastric Adenocarcinoma",
+        "Gastroesophageal Junction Adenocarcinoma",
+        "Recurrent Gastric Adenocarcinoma"
+      ],
+      "keywords": [
+        "Andecaliximab",
+        "Nivolumab",
+        "MMP9 inhibitor",
+        "PD-L1",
+        "Immunotherapy",
+        "Tumor Mutation Burden",
+        "HER2",
+        "TGF-beta"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": null,
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": null,
+          "whoMasked": null
+        }
+      },
+      "enrollmentInfo": {
+        "count": 144,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "ADX + NIVO",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received 800 mg andecaliximab (ADX) on day 1 (and every 2 weeks thereafter) administered via intravenous infusion over approximately 30 min, given prior to nivolumab (NIVO) (3 mg/kg) administered via intravenous infusion over approximately 60 min.",
+          "interventionNames": [
+            "Andecaliximab",
+            "Nivolumab"
+          ]
+        },
+        {
+          "label": "NIVO alone",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients received 3 mg/kg nivolumab (NIVO) via intravenous infusion over approximately 60 min on day 1, and every 2 weeks thereafter.",
+          "interventionNames": [
+            "Nivolumab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Andecaliximab",
+          "description": "A recombinant monoclonal antibody that targets the zinc-dependent matrix metalloproteinase-9 (MMP9). Administered intravenously.",
+          "armGroupLabels": [
+            "ADX + NIVO"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Nivolumab",
+          "description": "An anti-PD-1 immune checkpoint inhibitor antibody. Administered intravenously.",
+          "armGroupLabels": [
+            "ADX + NIVO",
+            "NIVO alone"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Overall Response Rate (ORR)",
+          "description": "Investigator assessment defined by Response Evaluation Criteria in Solid Tumors (RECIST) V.1.1 as the proportion of patients with best overall response of complete response (CR) or partial response (PR) after starting study drug and before starting any new anticancer therapy.",
+          "timeFrame": "From start of study drug until start of new anticancer therapy, assessed every 8 weeks up to approximately 2 years"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "Defined as the interval from the date of randomization to death from any cause.",
+          "timeFrame": "From randomization to death, assessed every 3 months for up to 5 years"
+        },
+        {
+          "measure": "Progression-Free Survival (PFS)",
+          "description": "Defined as the interval from the date of randomization to death (any cause) or the first definitive progressive disease (PD) (clinical PD, imaging PD, or radiation therapy).",
+          "timeFrame": "From randomization to progression or death, assessed every 8 weeks during the study up to 5 years"
+        },
+        {
+          "measure": "Duration of Response",
+          "description": "Evaluated as a secondary efficacy endpoint.",
+          "timeFrame": "From date of first response until disease progression or death, up to 5 years"
+        },
+        {
+          "measure": "Occurrence of Adverse Events (AEs) and Laboratory Abnormalities",
+          "description": "Assessment of safety and tolerability.",
+          "timeFrame": "From first dose through 30 days after last ADX dose and 5 months after last NIVO dose (Treatment up to 2 years)"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Exploratory Biomarkers",
+          "description": "Blood-based and tissue-based biomarkers (including PD-L1, Mismatch repair deficiency, Intratumoral CD8+ cell density, gene signatures, and Tumor mutation burden) assessed to evaluate association with response.",
+          "timeFrame": "Baseline and on-treatment (weeks 5 to 9)"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Age ≥18 years\n- Adequate hematological and hepatic function\n- Creatinine clearance ≥60 mL/min\n- Histologically confirmed inoperable locally advanced or metastatic stomach or GEJ adenocarcinoma\n- Progressed on ≥1 prior systemic therapies or lines of treatment for unresectable/metastatic disease\n- Eastern Cooperative Oncology Group (ECOG) performance status ≤1\n- All toxicities attributed to prior anticancer therapy (other than alopecia and fatigue) must have resolved to baseline or grade 1\n- Measurable disease according to RECIST V.1.1\n- Tumor sites accessible for repeat biopsies\n- Adequate archival tumor tissue available for the central pathology PD-L1 stratification test\n\nExclusion Criteria:\n- Previously received only neoadjuvant or adjuvant therapy for gastric adenocarcinoma\n- Received radiotherapy within 28 days of randomization; exceptions allowed if recovered from acute effects and radiated sites not used for response evaluation\n- Uncontrolled intercurrent illness (including active uncontrolled infection, active gastrointestinal bleeding, or uncontrolled cardiac arrhythmia)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

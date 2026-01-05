@@ -1,0 +1,153 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04501952",
+      "orgStudyIdInfo": {
+        "id": "GS-US-540-9012"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2020-003510-12",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Gilead Sciences",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "PINETREE",
+      "officialTitle": "Efficacy and safety of a 3-day course of remdesivir in high-risk, nonhospitalized patients with Covid-19",
+      "acronym": "PINETREE"
+    },
+    "descriptionModule": {
+      "briefSummary": "This randomized, double-blind, placebo-controlled trial evaluated the efficacy and safety of a 3-day course of remdesivir in high-risk, nonhospitalized patients with Covid-19. The investigators hypothesized that earlier initiation of a short course of remdesivir treatment in outpatient settings would reduce hospitalizations and mortality compared to placebo.",
+      "detailedDescription": "The study enrolled patients 12 years of age or older who had at least one preexisting risk factor for progression to severe Covid-19 (including age ≥60 years, obesity, diabetes mellitus, hypertension, cardiovascular or cerebrovascular disease, immune compromise, chronic kidney/liver/lung disease, cancer, or sickle cell disease). Eligible patients had at least one ongoing symptom consistent with Covid-19, with onset within 7 days before randomization, and confirmed SARS-CoV-2 infection.\n\nParticipants were randomly assigned in a 1:1 ratio to receive intravenous remdesivir (200 mg on day 1 followed by 100 mg on days 2 and 3) or placebo. Randomization was stratified by residence in a skilled nursing facility, age (<60 years or ≥60 years), and country. The primary efficacy end point was a composite of Covid-19–related hospitalization (defined as ≥24 hours of acute care) or death from any cause by day 28. Secondary end points included a composite of Covid-19–related medically attended visits or death by days 14 and 28, viral load changes, and time to symptom alleviation assessed via the FLU-PRO Plus questionnaire."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Covid-19",
+        "SARS-CoV-2 Infection"
+      ],
+      "keywords": [
+        "Remdesivir",
+        "Nonhospitalized patients",
+        "High-risk",
+        "Antiviral therapy",
+        "SARS-CoV-2",
+        "Outpatient treatment"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Patients were randomly assigned in a 1:1 ratio to receive intravenous remdesivir (200 mg on day 1 followed by 100 mg on days 2 and 3) or placebo.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "All patients and trial personnel were unaware of the trial-group assignments. Double blinding was maintained until finalization of the data.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 562,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Remdesivir",
+          "type": "EXPERIMENTAL",
+          "description": "Patients received intravenous remdesivir (200 mg on day 1 followed by 100 mg on days 2 and 3).",
+          "interventionNames": [
+            "Remdesivir"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients received matching placebo intravenously.",
+          "interventionNames": [
+            "Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Remdesivir",
+          "description": "Intravenous remdesivir administered as 200 mg on day 1 followed by 100 mg on days 2 and 3.",
+          "armGroupLabels": [
+            "Remdesivir"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo administered intravenously.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Composite of Covid-19–related hospitalization or death from any cause",
+          "description": "Hospitalization related to Covid-19 was determined by site investigators and defined as ≥24 hours of acute care.",
+          "timeFrame": "Day 28"
+        },
+        {
+          "measure": "Any adverse event",
+          "description": "The primary safety end point assessing the incidence of any adverse event.",
+          "timeFrame": "Day 28"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Composite of Covid-19–related medically attended visits or death from any cause",
+          "description": "Incidence of Covid-19–related medically attended visits or death from any cause.",
+          "timeFrame": "Days 14 and 28"
+        },
+        {
+          "measure": "Covid-19–related hospitalization",
+          "description": "Incidence of hospitalization related to Covid-19.",
+          "timeFrame": "Days 14 and 28"
+        },
+        {
+          "measure": "Time-weighted average change in nasopharyngeal SARS-CoV-2 viral load",
+          "description": "Change in viral load measured by RT-PCR.",
+          "timeFrame": "Baseline to Day 7"
+        },
+        {
+          "measure": "Time to alleviation of baseline Covid-19 symptoms",
+          "description": "Alleviation defined as mild or absent symptoms as compared with those reported on the baseline FLU-PRO Plus questionnaire completed before the first infusion.",
+          "timeFrame": "Up to Day 14"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- 12 years of age or older\n- Had at least one preexisting risk factor for progression to severe Covid-19 or were 60 years of age or older, regardless of whether they had other risk factors\n- Risk factors included hypertension, cardiovascular or cerebrovascular disease, diabetes mellitus, obesity (BMI ≥30), immune compromise, chronic mild or moderate kidney disease, chronic liver disease, chronic lung disease, current cancer, or sickle cell disease\n- Had at least one ongoing symptom consistent with Covid-19, with onset of the first symptom within 7 days before randomization\n- SARS-CoV-2 infection confirmed by a molecular diagnostic assay within 4 days before screening\n\nExclusion Criteria:\n- Receiving or expected to receive supplemental oxygen or hospital care at the time of screening\n- Previous hospitalization for Covid-19\n- Previously received treatment for Covid-19 (including investigational agents)\n- Received a SARS-CoV-2 vaccine",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "12 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

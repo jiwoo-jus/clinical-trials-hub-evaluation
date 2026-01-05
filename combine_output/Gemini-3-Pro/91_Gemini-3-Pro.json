@@ -1,0 +1,181 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01999868",
+      "secondaryIdInfos": [
+        {
+          "id": "UM1-AI-109565",
+          "type": "NIH",
+          "domain": "National Institute of Allergy and Infectious Diseases (NIAID)"
+        },
+        {
+          "id": "U24-AI-118663",
+          "type": "NIH",
+          "domain": "National Institute of Allergy and Infectious Diseases (NIAID)"
+        }
+      ],
+      "organization": {
+        "fullName": "Immune Tolerance Network",
+        "class": "NETWORK"
+      },
+      "briefTitle": "Psoriasis Treatment with Abatacept and Ustekinumab: a Study of Efficacy (PAUSE)",
+      "officialTitle": "Psoriasis Treatment with Abatacept and Ustekinumab: a Study of Efficacy",
+      "acronym": "PAUSE"
+    },
+    "descriptionModule": {
+      "briefSummary": "This parallel-design, double-blind randomized clinical trial, titled Psoriasis Treatment with Abatacept and Ustekinumab: a Study of Efficacy (PAUSE), evaluates whether abatacept could prevent psoriasis relapse after discontinuation of ustekinumab treatment in adults with plaque psoriasis. The study specifically questions whether blockade of CD28/B7 costimulatory signaling with abatacept suppresses the psoriasis molecular signature and prevents psoriasis relapse following ustekinumab withdrawal.",
+      "detailedDescription": "Psoriasis vulgaris is a systemic immune-mediated disease perpetuated by an IL-23–mediated psoriasis molecular signature and activated IL-17–producing T cells. While Ustekinumab targets the IL-12/IL-23 pathways, ongoing administration is required to prevent relapse. T-cell activation relies on costimulation by CD28 on ligation of CD80/CD86; abatacept (CTLA4-Ig) blocks this interaction, inhibiting T-cell activation. It was hypothesized that costimulatory blockade with abatacept could induce tolerance in pathogenic T cells in resolving lesions, leading to long-term remission.\n\nThe PAUSE trial consisted of a lead-in phase (weeks 0 to 12), a randomized treatment phase (weeks 12 to 40), and an observation phase (weeks 40 to 88). During the lead-in phase, participants with moderate to severe psoriasis vulgaris received subcutaneous ustekinumab at weeks 0 and 4. Those who responded to ustekinumab at week 12 (achieving ≥75% improvement from baseline Psoriasis Area and Severity Index [PASI]) were randomized 1:1 to either the continued ustekinumab group or the switched to abatacept group.\n\nParticipants randomized to the abatacept group received subcutaneous abatacept, 125 mg weekly, from weeks 12 to 39 and ustekinumab placebo at weeks 16 and 28. Participants randomized to the ustekinumab group received ustekinumab at weeks 16 and 28 and abatacept placebo weekly from weeks 12 to 39. Treatment was discontinued at week 39, and participants were followed up for psoriasis relapse until week 88.\n\nThe primary end point was the proportion of participants with psoriasis relapse (defined as loss of ≥50% of the initial PASI improvement) between weeks 12 and 88. Secondary end points included time to psoriasis relapse, proportion of participants with psoriasis relapse between weeks 12 and 40, and adverse events. Additionally, the psoriasis transcriptome in lesional skin and serum cytokines were evaluated to identify mechanisms associated with treatment outcomes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Plaque Psoriasis",
+        "Psoriasis Vulgaris",
+        "Moderate to Severe Plaque Psoriasis"
+      ],
+      "keywords": [
+        "Abatacept",
+        "Ustekinumab",
+        "CD28/B7 Costimulatory Signaling",
+        "Psoriasis Relapse",
+        "Psoriasis Molecular Signature",
+        "CTLA4-Ig",
+        "IL-12/IL-23 Pathways"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "The trial consisted of a lead-in phase (weeks 0 to 12), a randomized treatment phase (weeks 12 to 40), and an observation phase (weeks 40 to 88). Participants randomized to the abatacept group at week 12 received subcutaneous abatacept, 125 mg weekly, from weeks 12 to 39 and ustekinumab placebo at weeks 16 and 28. Participants randomized to the ustekinumab group received ustekinumab at weeks 16 and 28 and abatacept placebo weekly from weeks 12 to 39.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Ustekinumab syringes and normal saline placebo syringes were prepared by unblinded site pharmacists and administered by blinded site personnel. Other biologic, immunosuppressive, and topical agents for psoriasis were prohibited.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 108,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Abatacept group",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received ustekinumab in a lead-in phase. Those randomized to this group switched to abatacept treatment.",
+          "interventionNames": [
+            "Abatacept",
+            "Ustekinumab",
+            "Ustekinumab placebo"
+          ]
+        },
+        {
+          "label": "Ustekinumab group",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received ustekinumab in a lead-in phase. Those randomized to this group continued with ustekinumab treatment.",
+          "interventionNames": [
+            "Ustekinumab",
+            "Abatacept placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "Abatacept",
+          "description": "Subcutaneous abatacept, 125 mg weekly, from weeks 12 to 39.",
+          "armGroupLabels": [
+            "Abatacept group"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "Ustekinumab",
+          "description": "Subcutaneous ustekinumab administered at weeks 0 and 4 (lead-in phase) for all participants (45 mg per dose for those <=100 kg; 90 mg per dose for those >100 kg). For the Ustekinumab group, it was continued at weeks 16 and 28.",
+          "armGroupLabels": [
+            "Abatacept group",
+            "Ustekinumab group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ustekinumab placebo",
+          "description": "Administered at weeks 16 and 28.",
+          "armGroupLabels": [
+            "Abatacept group"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Abatacept placebo",
+          "description": "Administered weekly from weeks 12 to 39.",
+          "armGroupLabels": [
+            "Ustekinumab group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of participants with psoriasis relapse",
+          "description": "Psoriasis relapse was defined as loss of 50% or more of the initial Psoriasis Area and Severity Index (PASI) improvement at week 12 compared with baseline scores.",
+          "timeFrame": "Between weeks 12 and 88"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Time to psoriasis relapse",
+          "description": "Evaluated using nonparametric estimates of the survival function for interval-censored data.",
+          "timeFrame": "From week 12 to week 88"
+        },
+        {
+          "measure": "Proportion of participants with psoriasis relapse",
+          "description": "Psoriasis relapse defined as loss of 50% or more of the initial PASI improvement.",
+          "timeFrame": "Between weeks 12 and 40"
+        },
+        {
+          "measure": "Adverse events",
+          "description": "Frequency and severity of adverse events.",
+          "timeFrame": "From week 0 to week 88"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Psoriasis transcriptome",
+          "description": "Evaluation of the disease transcriptome in lesional and nonlesional skin specimens using RNA sequencing to identify mechanisms associated with treatment outcomes.",
+          "timeFrame": "Weeks 0, 12, 24, 40, and final study visit"
+        },
+        {
+          "measure": "Serum cytokines",
+          "description": "Quantification of cytokines (e.g., IL-17A, IL-22, IL-19) using an ultrasensitive immunoassay.",
+          "timeFrame": "Weeks 0, 12, 24, and 40"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Diagnosis of moderate to severe plaque psoriasis\n- Psoriasis Area and Severity Index (PASI) of 12 or greater\n- 10% or more of body surface area affected by psoriasis\n\nExclusion Criteria:\n- Previous treatment with ustekinumab or other agents that targeted IL-12 or IL-23\n- Moderate to severe psoriatic arthritis\n- Comorbid conditions that conferred an increased risk of study participation",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

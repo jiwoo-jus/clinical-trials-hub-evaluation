@@ -1,0 +1,137 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02137499",
+      "orgStudyIdInfo": {
+        "id": "13/WM/0027"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "CR02072",
+          "type": "OTHER",
+          "domain": "Imperial College London"
+        }
+      ],
+      "organization": {
+        "fullName": "Imperial College London",
+        "class": "OTHER"
+      },
+      "briefTitle": "Venous Insufficiency and Neuromuscular Stimulation",
+      "officialTitle": "Venous Insufficiency and Neuromuscular Stimulation",
+      "acronym": "VeINS"
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators will be evaluating the immediate and longer term effect of treatment with a medical device on the symptoms of chronic venous disease.",
+      "detailedDescription": "STUDY AIMS\n\n1. To obtain ultrasound blood flow and velocity measurements in the leg to compare the hemodynamic profiles obtained using a neuromuscular stimulation device with those obtained at rest.\n2. To ascertain if a 6 week protocol of electrical neurostimulation of the muscle pumps in the leg and foot can reduce clinical symptoms and improve quality of life.\n\nMETHODS Controlled interventional trial. Group 1 (10 subjects) will be healthy subjects with no clinical venous disease. Subjects with venous incompetence to be recruited into one of three groups. Group 2 (10 subjects) will have superficial venous incompetence; Group 3 (10 subjects) will have deep venous incompetence; Group 4 (10 subjects) will have deep vein occlusion. These will be clinical diagnoses confirmed with duplex ultrasound.\n\nThe device used in this study will be the geko™ T-1 device (Firstkind Ltd, UK). A geko™ device will be fitted to each leg. The device stimulation level is set to the minimum level that can achieve the desired response (outward and upward twitching of the foot when raised from the ground).\n\nENDPOINTS Primary end-point\n\n* Increase in venous flow Secondary end points\n* Improvement in clinical symptoms at 6 weeks, as judged by questionnaire\n* Reduction in absolute leg diameter and volume at 6 weeks"
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Venous Disease",
+        "Venous Insufficiency",
+        "Deep Venous Obstruction"
+      ],
+      "keywords": [
+        "Deep venous obstruction",
+        "Venous insufficiency"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NON_RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Healthy subjects",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Healthy subjects, free from vascular disease",
+          "interventionNames": [
+            "Device: geko device"
+          ]
+        },
+        {
+          "label": "Superficial venous insufficiency",
+          "type": "EXPERIMENTAL",
+          "description": "Clinically symptomatic and ultrasound evidence of superficial venous insufficiency",
+          "interventionNames": [
+            "Device: geko device"
+          ]
+        },
+        {
+          "label": "Deep venous insufficiency",
+          "type": "EXPERIMENTAL",
+          "description": "Clinically symptomatic and ultrasound evidence of deep venous insufficiency",
+          "interventionNames": [
+            "Device: geko device"
+          ]
+        },
+        {
+          "label": "Deep venous obstruction",
+          "type": "EXPERIMENTAL",
+          "description": "Clinically symptomatic and ultrasound evidence of deep venous obstruction",
+          "interventionNames": [
+            "Device: geko device"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "geko device",
+          "description": "Small transcutaneous electrical stimulator. Manufactured in UK by Firstkind UK Ltd, and licensed for use in humans",
+          "armGroupLabels": [
+            "Deep venous insufficiency",
+            "Deep venous obstruction",
+            "Healthy subjects",
+            "Superficial venous insufficiency"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage Change of Haemodynamic Flow",
+          "description": "Doppler ultrasound measurements of femoral venous blood flow. The volume flow rate in blood vessel can be calculated by multiplying the cross-sectional area of the blood vessel by the mean velocity of the blood within it.",
+          "timeFrame": "baseline, 20 minutes"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Improvement in Venous Symptoms",
+          "description": "Clinical symptoms will be measured using questionnaires (AVVQ, VCSS)",
+          "timeFrame": "6 weeks"
+        },
+        {
+          "measure": "Leg Volume",
+          "description": "Measured using ankle and calf circumference, and multiplying using \"inverted cone\" method",
+          "timeFrame": "6 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Group 1\n\n* Inclusion criteria - 18+ years old, 17\\<BMI\\<30\n* Exclusion criteria - Heart/lung/kidney failure, pregnancy, diagnosis of peripheral vascular disease, previous VTE, ABPI\\<0.9, active infection, previous leg fracture or metal implant in leg\n\nGroup 2\n\n* Inclusion criteria - 18+ years old, 17\\<BMI\\<30, clinical diagnosis of superficial venous insufficiency (CEAP C2-6) confirmed with duplex US\n* Exclusion criteria - Heart/lung/kidney failure, pregnancy, ABPI\\<0.9, active infection, previous leg fracture or metal implant in leg\n\nGroup 3\n\n* Inclusion criteria - 18+ years old, 17\\<BMI\\<30, clinical diagnosis of deep venous insufficiency (CEAP C2-6) confirmed with duplex US\n* Exclusion criteria - Heart/lung/kidney failure, pregnancy, ABPI\\<0.9, active infection, previous leg fracture or metal implant in leg\n\nGroup 4\n\n* Inclusion criteria - 18+ years old, 17\\<BMI\\<30, clinical diagnosis of deep venous obstruction confirmed with duplex US\n* Exclusion criteria - Heart/lung/kidney failure, pregnancy, ABPI\\<0.9, active infection, previous leg fracture or metal implant in leg",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

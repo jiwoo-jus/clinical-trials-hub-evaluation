@@ -1,0 +1,182 @@
+{
+  "metadata": {
+    "case_id": 73,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T18:28:22.520963",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/73_NCT03228836.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/73_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Sintilimab (IBI308)",
+            "type": "EXPERIMENTAL",
+            "interventionNames": [
+              "Drug: Sintilimab"
+            ]
+          },
+          "pred_item": {
+            "label": "Sintilimab 200 mg",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with relapsed/refractory extranodal NK/T cell lymphoma who failed at least one asparaginase-based regimen received sintilimab 200 mg intravenously every 3 weeks for up to 24 months until disease progression, death, intolerable toxicity, or withdrawal of informed consent.",
+            "interventionNames": [
+              "Drug: Sintilimab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Sintilimab",
+            "description": "Sintilimab (IBI308) 200mg IV Q3W",
+            "armGroupLabels": [
+              "Sintilimab (IBI308)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Sintilimab",
+            "description": "Sintilimab is a recombinant humanized anti-PD-1 monoclonal antibody that binds to human PD-1. It was administered at a fixed dose of 200 mg intravenously every 3 weeks. Treatment could continue beyond progression at the investigator's discretion.",
+            "armGroupLabels": [
+              "Sintilimab 200 mg"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Objective Response Rate (ORR) Before First PD",
+            "description": "The tumor assessment is according to Lugano 2014 Criteria and then International Working Group (IWG) 2007 Criteria after 24 weeks. Objective response is defined as best overall response (CR or PR) across all assessment time points during the period from enrollment to termination of trial treatment (per Lugano 2014 criteria during intial 24 weeks, per IWG 2007 criteria after 24 weeks). The primary efficacy endpoint is ORR evaluated using the 2014 Lugano Criteria before first progression disease (PD).",
+            "timeFrame": "Up to ~30 months (through database cut-off date of 28-February-2020)"
+          },
+          "pred_item": {
+            "measure": "Objective Response Rate (ORR)",
+            "description": "ORR defined as the proportion of patients achieving complete response (CR) or partial response (PR) based on Lugano 2014 criteria. Response assessed by investigators using 18FDG-PET and contrast-enhanced computed tomography. Best overall response recorded from start of study until progression or relapse.",
+            "timeFrame": "Assessed at baseline, weeks 6, 15, 24, 36, 48, and every 24 weeks thereafter, up to 24 months or until disease progression"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 12,
+      "similarity_matrix": [
+        [
+          0.32,
+          0.35,
+          0.55,
+          0.2,
+          0.5,
+          0.18,
+          0.2,
+          0.35,
+          0.08,
+          0.05,
+          0.08,
+          0.06
+        ],
+        [
+          0.45,
+          0.3,
+          0.4,
+          0.65,
+          0.94,
+          0.23,
+          0.2,
+          0.4,
+          0.08,
+          0.05,
+          0.03,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 2,
+          "score": 0.55,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Progression Free Survival (PFS)",
+            "description": "PFS was defined as the time from the first dose to the first documented progressive disease (PD) per Lugano 2014 or death due to any cause, whichever occurred first. Participates who neither progress nor die were censored at the date of their last tumor imaging evaluation. Participates who did not have any tumor imaging evaluation after baseline were censored on the date of enrollment.",
+            "timeFrame": "Up to ~30 months (through database cut-off date of 28-February-2020)"
+          },
+          "pred_item": {
+            "measure": "Disease Control Rate (DCR)",
+            "description": "Proportion of patients achieving complete response, partial response, or stable disease (CR + PR + SD) per Lugano 2014 criteria",
+            "timeFrame": "Assessed at baseline, weeks 6, 15, 24, 36, 48, and every 24 weeks thereafter, up to 24 months or until disease progression"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 4,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Duration of Response (DOR)",
+            "description": "DOR was defined as the time from first date of response to first PD per Lugano 2014 or death. Subjects who neither progress nor die were censored at the date of their last tumor imaging evaluation.",
+            "timeFrame": "Up to ~30 months (through database cut-off date of 28-February-2020)"
+          },
+          "pred_item": {
+            "measure": "Duration of Response (DOR)",
+            "description": "Time from first documented objective response to disease progression or relapse",
+            "timeFrame": "From first response up to 24 months or until disease progression"
+          }
+        }
+      ]
+    }
+  ]
+}

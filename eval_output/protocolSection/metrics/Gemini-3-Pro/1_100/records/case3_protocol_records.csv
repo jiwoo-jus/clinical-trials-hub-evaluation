@@ -1,0 +1,61 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04468321,NCT04468321,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Heart Watch Study: a Pragmatic Randomized Controlled Trial,Heart Watch Study,True,0.95,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,Heart Watch Study: a Pragmatic Randomized Controlled Trial,,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.acronym,EV,EV,,Heart Watch,,,,Acronym,protocolSection.identificationModule.acronym,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"This will be a prospective multi-center, randomized, controlled trial of 150 patients conducted to assess the impact of individual use of the Apple Watch compared to the Withings Move on patient-reported and clinical outcomes at 6 months and up to 1 year.","The Heart Watch Study is a prospective, open-label multicentre pragmatic randomised clinical trial designed to evaluate the impact of the Apple Watch and its accompanying health features (heart rate measurement, irregular rhythm notification, and ECG) on patient-reported outcomes and healthcare utilisation. The study focuses on patients with a history of atrial fibrillation and/or atrial flutter who are scheduled for cardioversion. A total of 150 participants are randomised 1:1 to receive either the Apple Watch Series 6 or the Withings Move. The primary outcome is the difference in the Atrial Fibrillation Effect on QualiTy-of-life (AFEQT) global score at 6 months postcardioversion.",True,0.86,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,TP,"This is a a randomized, controlled trial to determine the impact of the Apple Watch Series 6 compared to the Withings Move on both patient-reported outcomes and clinical utilization over 6 months and up to 1 year. Our research method will employ a patient-centered health data sharing platform (called Hugo) for real-world surveillance of outcomes in 150 total patients after they receive elective direct current cardioversion (DCCV) or catheter ablation for treatment of atrial fibrillation or atrial flutter. Patients will be enrolled at each of 3 clinical sites: Yale-New Haven Hospital, the Mayo Clinic, and Duke Health. Half of the patients will be randomized to receive the Apple Watch Series 6, while half will receive a control device (Withings Move). Patients will then be queried about specific symptoms related to atrial fibrillation and medication adherence monthly. This project will provide novel and needed post-market data about the Apple Watch Series 6 ECG and irregular rhythm detection notification features and, on a larger scale, help delineate the impact of an innovative digital health technology on real-world patient outcomes.
+
+Specific Aim 1: To assess the impact of using the Apple Watch ECG and irregular rhythm notification features on patient-reported outcomes and clinical utilization after patients receive cardioversion or catheter ablation for atrial fibrillation or atrial flutter.
+
+Specific Aim 2: To determine the accuracy of the Apple Watch ECG compared to physician interpretation of 12-lead ECGs obtained in routine clinical care.","Despite the widespread use of personal digital devices with cardiopulmonary tracking features, data regarding their impact on patient-reported outcomes and healthcare utilisation remain sparse. This study aims to address this gap by leveraging a unique patient-centred health data sharing platform, Hugo, for enrolment and follow-up. The platform aggregates electronic health data from hospitals, physicians' offices, and personal digital devices.
+
+Participants are recruited from three academic health systems: Yale New Haven Health, Mayo Clinic, and Duke Health. Eligible patients are those aged >22 years, undergoing cardioversion for atrial fibrillation or atrial flutter, and possessing a compatible iPhone. Patients are randomised to receive either an Apple Watch Series 6 (intervention arm) or a Withings Move (control arm). The Apple Watch allows for heart rate monitoring, irregular rhythm notifications, single-lead ECG, and pulse oximetry, whereas the Withings Move tracks activity and sleep but lacks ECG and irregular rhythm notification capabilities.
+
+The primary endpoint is the change in quality of life as measured by the AFEQT global score at 6 months. Secondary outcomes include healthcare utilisation (inpatient and outpatient), anticoagulation persistence, patient anxiety or reassurance, and the accuracy of the Apple Watch ECG and pulse oximeter features compared to gold-standard clinical data. The study seeks to inform policymakers, clinicians, and patients about the clinical utility and impact of these widely used consumer technologies.",True,0.94,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,"['Cardioversion', 'Atrial Fibrillation']","['Atrial Fibrillation', 'Atrial Flutter']",False,0.5,partial,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Digital health', 'Wearable devices', 'Apple Watch', 'Smartwatch', 'Quality of Life', 'Healthcare utilization', 'Cardioversion', 'Electrocardiography', 'Patient-reported outcomes', 'Pragmatic clinical trial']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Patients are randomised 1:1 to receive the Apple Watch Series 6 or the Withings Move, stratified by site.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"This is an open-label study. However, data analysts will be blinded to treatment assignment.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,105,150,True,0.7,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Age \>22
+* English-speaking
+* Planned for direct current cardioversion or catheter ablation for atrial fibrillation or atrial flutter, as noted by referring clinical staff or on chart review
+* Participant is willing and able to read and sign consent and participate in study
+* Participant lives independently and does not require continuous care
+* Participant has an email account (or is willing to create one)
+* Participant has a compatible smartphone (iPhone 6s or later)
+* Participant is willing to wear only the device they are randomized to receive for the study period for as many hours during the day as they are able, except for time spent charging the device or in environments that may be suboptimal for the device
+* Participant is willing to use the Hugo mobile health platform and Apple Watch Series 6 or Withings Move
+* Participant has cardiology care at YNHH, Duke Health, or Mayo Clinic
+
+Exclusion Criteria:
+
+* No exclusion criteria","Inclusion criteria
+* Age >22 years at the time of enrolment
+* English-speaking
+* Planned for direct current cardioversion for atrial fibrillation or atrial flutter
+* Lives independently and does not require continuous care
+* Has an email account (or is willing to create one)
+* Has a compatible smartphone (iPhone 6s or later)
+* Willing to wear only the device to which they are randomised to receive for the study period for as many hours during the day as able, except for time spent charging the device or in environments that may be suboptimal for the device
+* Willing to use the Hugo Health platform
+* Receives cardiology care at one of the study centres
+* Receives primary care at a health system that can be linked to the Hugo Health platform
+
+Exclusion criteria
+* Not able to independently adhere to study protocol, including read and sign consent
+* Enrolment in another study protocol",True,0.95,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,22 Years,22 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

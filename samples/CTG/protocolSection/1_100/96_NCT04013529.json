@@ -1,0 +1,128 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04013529",
+      "orgStudyIdInfo": {
+        "id": "01758"
+      },
+      "organization": {
+        "fullName": "University of Pennsylvania",
+        "class": "OTHER"
+      },
+      "briefTitle": "Connected Health to Decrease Opioid Use in Patients With Chronic Pain",
+      "officialTitle": "Connected Health to Decrease Opioid Use in Patients With Chronic Pain"
+    },
+    "descriptionModule": {
+      "briefSummary": "The objective of this pilot study to evaluate if behavioral incentives applied at the VA Medical Center can appreciably increase participation in activities that promote mobility, and subsequently reduce pain severity and opioid use.",
+      "detailedDescription": "Chronic pain is a highly prevalent and costly condition in the US. An estimated 88.5 million adults suffer from daily pain, resulting in estimated cost of $500- 635 biJlion due to lost productivity, and $261-300 billion in health care expenditures. To manage their chronic pain, 5 to 8 million Americans take an opioid medication daily. Yet , the risks associated with ongoing opioid prescription , including overdose, abuse and diversion, temper their analgesic effects.\n\nOpioids are not more effective in the treatment of chronic pain compared with non-opioid approaches. Current guidelines have adapted to the evidence, recommending opioid-sparing approaches for treating patients with chronic pain, and tapering for those on higher doses to safer levels of use. Tapering opioids, however, requires replacing them with effective non-opioid strategies. Improving mobility has been shown to improve pain and decrease medication use among patients chronically prescribed opiates. Concurrently, financial incentives and the use of behavioral incentives have been shown to promote mobility.\n\nAppreciating the gains in health outcomes that can be made with \"connected health\" approaches, we propose a novel pilot study designed to evaluate if technology enabled care (TEC) strategies and financial incentives can improve patient mobility in our chronic pain population, reduce pain and decrease opioid use . Our primary aim is to determine if chronic pain patients who receive TEC-enhanced treatment with financial incentives demonstrate increased participation in activities that promote mobility (physical therapy, yoga, tai chi) in comparison to patients receiving usual care. Secondary outcomes will include whether increased activity participation also reduces pain severity and opioid use, and improves function and increases the number of daily steps taken. The results of this pilot will enable us to determine what strategies are effective at increasing mobility and if these gains translate into reduced pain and decreased opioid use."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Pain"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "PARTICIPANT"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 40,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participate in technology-enabled care without regret lottery",
+          "interventionNames": [
+            "Behavioral: Way to Health technology enhanced care"
+          ]
+        },
+        {
+          "label": "Experimental",
+          "type": "EXPERIMENTAL",
+          "description": "Participate in technology-enabled care with regret lottery",
+          "interventionNames": [
+            "Behavioral: Regret lottery",
+            "Behavioral: Way to Health technology enhanced care"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Regret lottery",
+          "description": "Subjects who achieve step goals are entered into a lottery in which they can win a financial incentive of $30 or $100.",
+          "armGroupLabels": [
+            "Experimental"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Way to Health technology enhanced care",
+          "description": "Subjects receive text reminders to reach activity goals.",
+          "armGroupLabels": [
+            "Control",
+            "Experimental"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Activity Participation",
+          "description": "Stanford Exercise Questionnaire; min score = 0, max score = 180; higher scores = better outcome",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Increased Mobility",
+          "description": "steps per day measured by wearable step tracker at 12 weeks",
+          "timeFrame": "12 weeks"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Daily Opioid Use",
+          "description": "measured by opioid morphine mg equivalents used each day (MED)",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Physical Function",
+          "description": "measured by interference with walking on PROMIS (Patient-reported Outcomes Measurement Information System) pain interference tool, which is a 6-item self-report survey; each item is scored from 1 (not at all) to 5 (very much), thus scores ranged from 6 to 30, with higher score indicating more pain interference.",
+          "timeFrame": "12 weeks"
+        },
+        {
+          "measure": "Pain Severity",
+          "description": "measured by pain severity on PROMIS (Patient-reported Outcomes Measurement Information System) pain severity tool, which is a 3-item self-report survey; each item is scored from 1 (no pain at all) to 5 (very severity), thus scores ranged from 3 to 15, with higher score indicating more severe pain.",
+          "timeFrame": "12 weeks"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Chronic non-malignant pain\n* High dose opioid therapy\n* Possession of activated cell phone with text messaging capabilities\n* Willingness to comply with study requirements\n\nExclusion Criteria:\n\n* Pain of malignant origin\n* Sensory impairments precluding use of text messaging and activity tracker\n* Physical disability precluding improvements in physical activity",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "70 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

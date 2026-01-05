@@ -1,0 +1,76 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT03547167,NCT03547167,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,"A Study to Evaluate the Safety, Tolerability, and Immunogenicity of V114 Followed by PNEUMOVAX™23 in Adults at Increased Risk for Pneumococcal Disease (V114-017/PNEU-DAY)",,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,"A Phase 3, Multicenter, Randomized, Double-blind, Active Comparator-controlled Study to Evaluate the Safety, Tolerability, and Immunogenicity of V114 Followed by Administration of PNEUMOVAX™23 Six Months Later in Immunocompetent Adults Between 18 and 49 Years of Age at Increased Risk for Pneumococcal Disease (PNEU - DAY)","Phase 3, Multicenter, Randomized, Double-Blind, Active Comparator-Controlled Study to Evaluate the Safety, Tolerability, and Immunogenicity of V114 in Pneumococcal Vaccine-Naive Immunocompetent Adults Aged 18–49 Years With or Without Risk Factors for PD",True,0.86,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.acronym,EV,EV,,PNEU-DAY,,,,Acronym,protocolSection.identificationModule.acronym,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"This study is designed to 1) describe the safety, tolerability, and immunogenicity of V114 and Prevnar 13™ in pneumococcal vaccine-naïve adults at increased risk for pneumococcal disease and to 2) describe the safety, tolerability, and immunogenicity of PNEUMOVAX™23 when administered 6 months after receipt of either V114 or Prevnar 13™. Increased risk for pneumococcal disease is defined as 1) an underlying medical condition, 2) behavioral habits such as smoking or alcohol use, or 3) living in a community/environment with increased risk of disease transmission.","This phase 3 trial evaluated the safety, tolerability, and immunogenicity of sequential administration of either V114 (a 15-valent pneumococcal conjugate vaccine) or PCV13, followed 6 months later by PPSV23, in immunocompetent adults aged 18–49 years with or without predefined risk factors for pneumococcal disease. Overall, 1515 participants were randomized 3:1 to receive either V114 or PCV13, followed by PPSV23.",True,0.96,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"This was a phase 3, multicenter, randomized, double-blind, active comparator-controlled study (protocol V114-017) conducted at 79 sites worldwide. The study aimed to evaluate the safety, tolerability, and immunogenicity of V114 in pneumococcal vaccine-naive immunocompetent adults aged 18–49 years with or without risk factors for pneumococcal disease (PD). Participants were randomized in a 3:1 ratio to receive a single dose of V114 or PCV13 on Day 1, followed by a single dose of PPSV23 at Month 6. V114 contains pneumococcal capsular polysaccharide from serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 23F, 22F, and 33F, and serotype 6B. PCV13 contains serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, and 23F, and serotype 6B. PPSV23 contains 23 serotypes. Safety endpoints included solicited injection-site and systemic adverse events (AEs) and serious adverse events (SAEs). Immunogenicity was assessed by measuring serotype-specific opsonophagocytic activity (OPA) geometric mean titers (GMTs) and immunoglobulin G (IgG) geometric mean concentrations (GMCs) at Day 30, Month 6, and Month 7.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,TP,['Pneumococcal Infections'],"['Pneumococcal Infections', 'Pneumococcal Disease']",True,1.0,superset,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Pneumococcal Vaccines', 'V114', 'PCV13', 'PPSV23', 'Immunogenicity', 'Safety', 'Adults', 'Risk Factors']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE3'],['PHASE3'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Participants were randomized 3:1 to receive either V114 or PCV13, followed by PPSV23.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,DOUBLE,DOUBLE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,V114 and PCV13 were administered in a blinded fashion and PPSV23 was administered open-label.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,TP,"['PARTICIPANT', 'INVESTIGATOR']","['PARTICIPANT', 'INVESTIGATOR']",True,1.0,exact,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,1515,1515,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].measure,EV,EV,,Ratio of OPA GMTs and IgG GMCs between vaccination groups,,,,OtherOutcomeMeasure,protocolSection.outcomesModule.otherOutcomes.measure,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].description,EV,EV,,Exploratory analyses comparing immune responses between groups using serotype-specific constrained longitudinal data analysis (cLDA) models.,,,,OtherOutcomeDescription,protocolSection.outcomesModule.otherOutcomes.description,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.otherOutcomes[0].timeFrame,EV,EV,,"Day 30, Month 6, and Month 7",,,,OtherOutcomeTimeFrame,protocolSection.outcomesModule.otherOutcomes.timeFrame,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Native American participant enrolled from any of the clinical sites of the Johns Hopkins Center for American Indian Health (CAIH) without any of the pre-specified risk conditions for pneumococcal disease listed below, OR Native American participant enrolled from any of the CAIH sites or participant from a site other than CAIH with ≥1 of the following risk conditions for pneumococcal disease:
+
+  1. Diabetes mellitus Type 1 or Type 2 and with hemoglobin A1c (HgA1c) \<10%
+  2. Chronic liver disease with documented history of compensated cirrhosis (Child-Pugh Score A)
+  3. Confirmed diagnosis of Chronic Obstructive Pulmonary Disease (COPD) with spirometric Global Initiative for Chronic Obstructive Lung Disease Stage 1 to 3
+  4. Confirmed diagnosis of mild or moderate persistent asthma receiving guideline directed therapy
+  5. Confirmed diagnosis of chronic heart disease (New York Heart Association \[NYHA\] heart failure Class 1 to 3, receiving guideline-directed oral heart failure treatment) due to reduced or preserved ejection fraction or due to non-cyanotic congenital heart disease.
+  6. Current smoker
+* Female participant: not pregnant, not breastfeeding and 1) not of childbearing potential, or 2) of childbearing potential and agrees to practice contraception through 6 weeks after last administration of study vaccine.
+
+Exclusion Criteria:
+
+* History of active hepatitis within the prior 3 months
+* History of diabetic ketoacidosis, or \>1 episodes of severe, symptomatic hypoglycemia within the prior 3 months
+* Myocardial infarction, acute coronary syndrome, transient ischemic attack, and ischemic or hemorrhagic stroke within the prior 3 months
+* History of severe pulmonary hypertension or history of Eisenmenger syndrome
+* History of invasive pneumococcal disease (IPD) or known history of other culture-positive pneumococcal disease within the prior 3 years
+* Known hypersensitivity to any vaccine component, pneumococcal conjugate vaccine, or diphtheria toxoid-containing vaccine
+* Known or suspected impairment of immunological function (including human immunodeficiency virus (HIV) infection or autoimmune disease)
+* History of malignancy within the prior 5 years, except for adequately treated basal cell or squamous cell skin cancer or in situ cervical cancer
+* History of Stage 4 or 5 Chronic Kidney Disease or nephrotic syndrome
+* History of alcohol withdrawal or alcohol withdrawal seizure within the prior 12 months
+* History of coagulation disorder contraindicating intramuscular vaccination
+* History of hospitalization within the prior 3 months
+* Planned organ transplantation (heart, liver, lung, kidney, or pancreas) or other planned major surgery during the duration of this study.
+* Expected survival for less than 1 year according to the investigator's judgment.
+* Female participant: positive urine or serum pregnancy test
+* Prior administration of any pneumococcal vaccine
+* Received systemic corticosteroids (prednisone equivalent of ≥20 mg/day) for ≥14 consecutive days and has not completed within the prior 30 days
+* Received systemic corticosteroids exceeding physiologic replacement doses within 14 days before study vaccination
+* Receiving immunosuppressive or immunomodulatory therapy with a biological agent
+* Received any licensed, non-live vaccine within 14 days before receipt of study vaccine or is scheduled to receive any licensed, non-live vaccine within 30 days following receipt of study vaccine
+* Received any live vaccine within 30 days before receipt of any study vaccine or is scheduled to receive any live vaccine within 30 days following receipt of any study vaccine
+* Received a blood transfusion or blood products within the prior 6 months
+* Receiving chronic home oxygen therapy
+* Participated in another clinical study of an investigational product within the prior 2 months
+* Current user of recreational or illicit drugs or history of drug abuse or dependence
+* Diabetes mellitus with HgA1c ≥10%
+* Chronic liver disease with Child-Pugh Class B or C cirrhosis
+* Chronic lung disease with Chronic Obstructive Pulmonary Disease (COPD) GOLD Stage 4 or severe persistent asthma
+* Chronic heart disease with NYHA heart failure Class 4.","Inclusion Criteria:
+- Immunocompetent adults aged 18–49 years.
+- Verified as pneumococcal vaccine naive by medical history and record review.
+- Participants with or without risk factors for pneumococcal disease (PD).
+- Native American adults with and without risk factors for PD enrolled at The Johns Hopkins Center for American Indian Health (CAIH) sites.
+- Participants with ≥1 risk factor for PD enrolled at non-CAIH sites.
+- Protocol-defined inclusion criteria met for risk factors: diabetes mellitus, chronic liver disease, chronic lung disease, chronic heart disease, and current tobacco use.",True,0.82,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,True,True,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,49 Years,49 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,['ADULT'],['ADULT'],True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

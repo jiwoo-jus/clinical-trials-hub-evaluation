@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "case_id": 19,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T15:08:09.499904",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/19_NCT02679807.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/19_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.86,
+          0.2
+        ],
+        [
+          0.1,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Bifidobacterium lactis Bl-04",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "2\\*109 cfus of probiotic Bifidobacterium lactis Bl-04 (DuPont Nutrition and Health) mixed with 1g of sucrose as a carrier",
+            "interventionNames": [
+              "Biological: Bifidobacterium animalis subsp. lactis Bl-04"
+            ]
+          },
+          "pred_item": {
+            "label": "Active (Probiotic)",
+            "type": "EXPERIMENTAL",
+            "description": "Participants ingested Bifidobacterium animalis ssp. lactis Bl-04 daily for 28 days and were then challenged with rhinovirus.",
+            "interventionNames": [
+              "Dietary Supplement: Bifidobacterium animalis ssp. lactis Bl-04"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "sucrose",
+            "interventionNames": [
+              "Other: sucrose"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants ingested a placebo daily for 28 days and were then challenged with rhinovirus.",
+            "interventionNames": [
+              "Dietary Supplement: Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.08
+        ],
+        [
+          0.3,
+          0.78
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Bifidobacterium animalis subsp. lactis Bl-04",
+            "armGroupLabels": [
+              "Bifidobacterium lactis Bl-04"
+            ]
+          },
+          "pred_item": {
+            "type": "DIETARY_SUPPLEMENT",
+            "name": "Bifidobacterium animalis ssp. lactis Bl-04",
+            "description": "The daily dose of probiotic was provided in a sachet containing a minimum of 2 x 10^9 colony forming units of Bl-04 mixed with 1g of sucrose as a carrier.",
+            "armGroupLabels": [
+              "Active (Probiotic)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "sucrose",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DIETARY_SUPPLEMENT",
+            "name": "Placebo",
+            "description": "The placebo was provided as a sachet containing 1g of sucrose that was identical to the study product in appearance, smell, and taste.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Rhinovirus-associated Illness Episodes",
+            "description": "Rhinovirus-associated illness episodes: Volunteers who have both a rhinovirus infection and a symptomatic illness will be defined as having a rhinovirus-associated common cold illness.",
+            "timeFrame": "5 days"
+          },
+          "pred_item": {
+            "measure": "Incidence of rhinovirus-associated illness",
+            "description": "Illness that met the study criteria for illness in a volunteer who also met the definition for RV infection. Symptomatic illness defined as total symptom score of at least 6 and either three days of rhinorrhea or the subjective impression of a common cold illness.",
+            "timeFrame": "Through study day 14"
+          }
+        }
+      ]
+    }
+  ]
+}

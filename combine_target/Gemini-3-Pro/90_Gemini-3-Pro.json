@@ -1,0 +1,146 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04560075",
+      "secondaryIdInfos": [
+        {
+          "id": "1P50MH115838",
+          "type": "NIH",
+          "domain": "National Institutes of Health"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Pittsburgh",
+        "class": "OTHER"
+      },
+      "briefTitle": "Acceptability and Effects of an Automated Digital Mobile Support Tool for Mental Health (MoST-MH)",
+      "acronym": "MoST-MH"
+    },
+    "descriptionModule": {
+      "briefSummary": "This pilot randomized trial aimed to test the acceptability and effects of an automated digital Mobile Support Tool for Mental Health (MoST-MH) for young adults transitioning to college. The researchers hypothesized that youth would engage with MoST-MH at high rates over the first 3 months of college and report high levels of usability. Additionally, it was hypothesized that youth receiving MoST-MH, compared to those receiving enhanced usual care (eUC), would report greater mental health self-efficacy, lower symptom severity, and higher rates of follow-through with mental health care at 3 months.",
+      "detailedDescription": "Participants aged 18 years and older with a current mental health diagnosis preparing to transition to college were recruited from primary care and mental health clinics. They were randomized in a 2:1 ratio to either receive MoST-MH or enhanced Usual Care (eUC). \n\nMoST-MH is an ecological momentary intervention designed to provide support independent of mental health diagnosis type. It included periodic text message and web-based check-ins regarding emotional health, stressors, negative impacts, and self-efficacy. These inputs informed tailored self-care support messages and triggered links to psychoeducational videos. The intervention used a stepwise algorithm to adapt the frequency of interaction based on the needs of the youth. \n\nBoth eUC and MoST-MH participants received links to a library of psychoeducational videos. Participants were asked to complete web-based versions of the Mental Health Self-Efficacy Scale (MHSES), College Counseling Center Assessment of Psychological Symptoms (CCAPS), and Client Service Receipt Inventory for Mental Health (C-SRI) monthly for 3 months. The Post-Study System Usability Scale (PSSUQ) was administered at the 3-month mark to evaluate the tool's usability."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Mental Health Disorders",
+        "Depression",
+        "Anxiety"
+      ],
+      "keywords": [
+        "Digital Mental Health",
+        "College Students",
+        "Young Adults",
+        "Mobile Health",
+        "Text Messaging Intervention",
+        "Transitional Care",
+        "MoST-MH"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Participants were randomized 2:1 to either receive MoST-MH (n=34) or enhanced Usual Care (eUC; n=18).",
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "Study investigators and outcome assessors were blinded to allocation to treatment arms.",
+          "whoMasked": [
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 52,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "MoST-MH",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received the automated digital Mobile Support Tool for Mental Health (MoST-MH), which included periodic text message and web-based check-ins of emotional health, stressors, negative impacts, and self-efficacy that informed tailored self-care support messages. They also received links to a library of psychoeducational videos.",
+          "interventionNames": [
+            "Mobile Support Tool for Mental Health (MoST-MH)",
+            "Psychoeducational Videos"
+          ]
+        },
+        {
+          "label": "Enhanced Usual Care (eUC)",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants received links to a library of psychoeducational videos (the same as the MoST-MH group) but received no text message or web-based mental health check-ins.",
+          "interventionNames": [
+            "Psychoeducational Videos"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Mobile Support Tool for Mental Health (MoST-MH)",
+          "description": "An automated digital ecological momentary intervention that uses periodic text message and web-based check-ins to assess mental health status, stressors, and self-efficacy, providing tailored feedback and evidence-based strategies (positive psychology, CBT, DBT).",
+          "armGroupLabels": [
+            "MoST-MH"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Psychoeducational Videos",
+          "description": "A library of brief (2-minute) videos providing psychoeducation about mental health self-care during college.",
+          "armGroupLabels": [
+            "MoST-MH",
+            "Enhanced Usual Care (eUC)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Intervention Engagement",
+          "description": "Assessed using text messaging and web-based responses. Calculated by text message and web check-in completions within and between individuals (response rates).",
+          "timeFrame": "Over the 3-month study period"
+        },
+        {
+          "measure": "Intervention Usability",
+          "description": "Measured via the Post-Study System Usability Scale (PSSUQ). The PSSUQ includes 19 items, each rated on a 7-point Likert-type scale ranging from 1 (strongly agree) to 7 (strongly disagree). The lower the score, the higher the perceived usability.",
+          "timeFrame": "At 3 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Mental Health Self-Efficacy",
+          "description": "Measured using the 6-item self-report Mental Health Self-Efficacy Scale (MHSES), which asks participants to rate statements on a 10-point Likert scale ranging from 1 (not at all confident) to 10 (totally confident). Higher scores indicate higher self-efficacy.",
+          "timeFrame": "Monthly for 3 months"
+        },
+        {
+          "measure": "Mental Health Symptom Severity",
+          "description": "Measured using the College Counseling Center Assessment of Psychological Symptoms (CCAPS) which has 62 items with 8 distinct subscales. Items are scored on a 5-point Likert scale from 0 (not at all like me) to 4 (extremely like me), whereby higher scores indicate higher symptom severity.",
+          "timeFrame": "Monthly for 3 months"
+        },
+        {
+          "measure": "Mental Health Treatment Use",
+          "description": "Measured using the brief self-report Client Service Receipt Inventory for Mental Health (C-SRI) including outpatient, inpatient, and medication management services.",
+          "timeFrame": "Monthly for 3 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Age 18 years or older\n- Current mental health diagnosis documented in their electronic medical record or received mental health services within 3 months per self-, parent-, or clinician-report\n- Graduated high school\n- Plan to attend college or higher education within 6 weeks\n- Own a personal mobile phone with text messaging\n\nExclusion Criteria:\n- Non-English–speaking individuals",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT"
+      ]
+    }
+  }
+}

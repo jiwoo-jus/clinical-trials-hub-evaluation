@@ -1,0 +1,140 @@
+{
+  "metadata": {
+    "case_id": 96,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T19:37:51.535052",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/96_NCT04013529.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/96_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.63,
+          0.94
+        ],
+        [
+          0.86,
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Activity Participation",
+            "description": "Stanford Exercise Questionnaire; min score = 0, max score = 180; higher scores = better outcome",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Physical activity measured by Stanford 7-Day Physical Activity Recall Questionnaire (PAR)",
+            "description": "Self-reported time spent engaged in stretching/strengthening activities and aerobic activities, assessed using the Stanford 7-Day Physical Activity Recall Questionnaire. Scores range from 0-180 for stretching/strengthening and 0-180 for aerobic activity.",
+            "timeFrame": "Weekly over 12 weeks"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Increased Mobility",
+            "description": "steps per day measured by wearable step tracker at 12 weeks",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Physical activity measured by number of steps recorded using Fitbit activity tracker",
+            "description": "Weekly step count recorded by Fitbit activity tracker worn by participants throughout the 12-week study period",
+            "timeFrame": "Weekly over 12 weeks"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.22,
+          0.25,
+          0.05,
+          0.92
+        ],
+        [
+          0.9,
+          0.45,
+          0.05,
+          0.1
+        ],
+        [
+          0.68,
+          0.86,
+          0.18,
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Daily Opioid Use",
+            "description": "measured by opioid morphine mg equivalents used each day (MED)",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Opioid analgesic use",
+            "description": "Opioid prescriptions extracted from electronic health record (formulation, dose, and quantity) for the previous 24 hours. Measured in morphine milligram equivalents (MME) for opioids and milligrams (mg) for buprenorphine.",
+            "timeFrame": "Baseline and 12 weeks"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Physical Function",
+            "description": "measured by interference with walking on PROMIS (Patient-reported Outcomes Measurement Information System) pain interference tool, which is a 6-item self-report survey; each item is scored from 1 (not at all) to 5 (very much), thus scores ranged from 6 to 30, with higher score indicating more pain interference.",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Pain-related physical function measured by Pain Outcomes Questionnaire",
+            "description": "Degree to which chronic pain interfered with walking and completing activities of daily living, affected feelings of vitality, contributed to negative affect, and elicited fears of injury or re-injury. Each domain measured on a scale of 0 (not at all) to 10 (all the time).",
+            "timeFrame": "Baseline and 12 weeks"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Pain Severity",
+            "description": "measured by pain severity on PROMIS (Patient-reported Outcomes Measurement Information System) pain severity tool, which is a 3-item self-report survey; each item is scored from 1 (no pain at all) to 5 (very severity), thus scores ranged from 3 to 15, with higher score indicating more severe pain.",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Chronic pain severity measured by Pain Outcomes Questionnaire",
+            "description": "Participants rated the severity of their chronic pain on a scale of 0 (no pain at all) to 10 (worst possible pain)",
+            "timeFrame": "Baseline and 12 weeks"
+          }
+        }
+      ]
+    }
+  ]
+}

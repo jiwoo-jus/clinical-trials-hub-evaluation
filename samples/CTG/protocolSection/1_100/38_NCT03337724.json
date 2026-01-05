@@ -1,0 +1,230 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03337724",
+      "orgStudyIdInfo": {
+        "id": "CO40016"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "2017-001548-36",
+          "type": "EUDRACT_NUMBER"
+        }
+      ],
+      "organization": {
+        "fullName": "Hoffmann-La Roche",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "A Study of Ipatasertib in Combination With Paclitaxel as a Treatment for Participants With PIK3CA/AKT1/PTEN-Altered, Locally Advanced or Metastatic, Triple-Negative Breast Cancer or Hormone Receptor-Positive, HER2-Negative Breast Cancer",
+      "officialTitle": "A Double-Blind, Placebo-Controlled, Randomized Phase III Study of Ipatasertib in Combination With Paclitaxel as a Treatment for Patients With PIK3CA/AKT1/PTEN-Altered, Locally Advanced or Metastatic, Triple-Negative Breast Cancer or Hormone Receptor-Positive, HER2-Negative Breast Cancer",
+      "acronym": "IPATunity130"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study will evaluate the efficacy of ipatasertib + paclitaxel versus placebo + paclitaxel in participants with histologically confirmed, locally advanced or metastatic triple-negative breast cancer (TNBC) and in participants with locally advanced or metastatic hormone receptor positive (HR+)/ human epidermal growth factor receptor 2 negative (HER2-) breast adenocarcinoma who are not suitable for endocrine therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Cancer"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 579,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ipatasertib + Paclitaxel",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Ipatasertib",
+            "Drug: Paclitaxel"
+          ]
+        },
+        {
+          "label": "Placebo + Paclitaxel",
+          "type": "EXPERIMENTAL",
+          "interventionNames": [
+            "Drug: Paclitaxel",
+            "Drug: Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Ipatasertib",
+          "description": "Ipatasertib, 400 milligrams (mg), administered orally once a day (QD) on Days 1-21 of each 28-day cycle until disease progression, intolerable toxicity, elective withdrawal from the study, or study completion or termination.",
+          "armGroupLabels": [
+            "Ipatasertib + Paclitaxel"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Paclitaxel",
+          "description": "Paclitaxel, 80 mg/square meter (m\\^2), administered intravenously (IV) on Days 1, 8, and 15 of each 28-day cycle until disease progression, intolerable toxicity, elective withdrawal from the study, or study completion or termination.",
+          "armGroupLabels": [
+            "Ipatasertib + Paclitaxel",
+            "Placebo + Paclitaxel"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matching placebo, administered orally QD on Days 1-21 of each 28-day cycle until disease progression, intolerable toxicity, elective withdrawal from the study, or study completion or termination.",
+          "armGroupLabels": [
+            "Placebo + Paclitaxel"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Cohort A: Progression-Free Survival (PFS)",
+          "description": "PFS was defined as the time from randomization to the first occurrence of disease progression, as determined locally by the investigator through the use of Response Evaluation Criteria in Solid Tumors version 1.1 (RECIST v.1.1), or death from any cause, whichever occurred first, assessed up to 27 months for this outcome measure. Progressive disease (PD) was defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study, including baseline, in addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 millimeter (mm). The appearance of one or more new lesions was also considered progression.",
+          "timeFrame": "From randomization up to 27 months"
+        },
+        {
+          "measure": "Cohort B: PFS",
+          "description": "PFS was defined as the time from randomization to the first occurrence of disease progression, as determined locally by the investigator through the use of RECIST v.1.1, or death from any cause, whichever occurred first, assessed up to 24.4 months for this outcome measure. PD was defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study, including baseline, in addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm. The appearance of one or more new lesions was also considered progression. Abbreviation used in statistical analysis: PI3K=phosphoinositide 3-kinase and mTOR=mammalian target of rapamycin inhibitor.",
+          "timeFrame": "From randomization up to 24.4 months"
+        },
+        {
+          "measure": "Cohort C: PFS",
+          "description": "PFS for Cohort C was defined as the time from enrollment to the first occurrence of disease progression, as determined locally by the investigator through the use of RECIST v.1.1, or death from any cause, whichever occurred first, assessed up to 31 months for this outcome measure. PD was defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study, including baseline, in addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm. The appearance of one or more new lesions was also considered progression.",
+          "timeFrame": "From enrollment up to 31 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Cohort A and B: Objective Response Rate (ORR)",
+          "description": "ORR was defined as percentage of participants with partial response (PR) or complete response (CR) on 2 consecutive occasions ≥4 weeks apart as determined by the investigator using RECIST v.1.1, assessed up to 27 months for Cohort A and up to 24.4 months for Cohort B, for this outcome measure. CR was defined as the disappearance of all target lesions or any pathological lymph nodes (whether target or non-target) having a reduction in short axis to \\<10 mm. PR was defined as at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum of diameters. Percentages are rounded off to the nearest decimal point.",
+          "timeFrame": "From randomization up to 27 months for Cohort A and up to 24.4 months for Cohort B"
+        },
+        {
+          "measure": "Cohort C: ORR",
+          "description": "ORR was defined as percentage of participants with PR or CR on 2 consecutive occasions ≥4 weeks apart as determined by the investigator using RECIST v.1.1, assessed up to 31 months for this outcome measure. CR was defined as the disappearance of all target lesions or any pathological lymph nodes (whether target or non-target) having a reduction in short axis to \\<10 mm. PR was defined as at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum of diameters. Percentages are rounded off to the nearest decimal point.",
+          "timeFrame": "From enrollment up to 31 months"
+        },
+        {
+          "measure": "Cohort A and B: Duration of Response (DOR)",
+          "description": "DOR was defined as the time from the first occurrence of a documented OR (CR or PR) to PD, as determined locally by the investigator through the use of RECIST v1.1, or death from any cause, whichever occurred first assessed up to 27 months for Cohort A and up to 24.4 months for Cohort B, for this outcome measure. CR was defined as the disappearance of all target lesions or any pathological lymph nodes (whether target or non-target) having a reduction in short axis to \\<10 mm. PR was defined as at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum of diameters. PD was defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study, including baseline, in addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm. The appearance of one or more new lesions was also considered progression.",
+          "timeFrame": "From randomization up to 27 months for Cohort A and up to 24.4 months for Cohort B"
+        },
+        {
+          "measure": "Cohort C: DOR",
+          "description": "DOR was defined as the time from the first occurrence of a documented OR (CR or PR) to PD, as determined locally by the investigator through the use of RECIST v1.1, or death from any cause, whichever occurred first, assessed up to 31 months for this outcome measure. CR was defined as the disappearance of all target lesions or any pathological lymph nodes (whether target or non-target) having a reduction in short axis to \\<10 mm. PR was defined as at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum of diameters. PD was defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study, including baseline, in addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm. The appearance of one or more new lesions was also considered progression.",
+          "timeFrame": "From enrollment up to 31 months"
+        },
+        {
+          "measure": "Cohort A and B: Clinical Benefit Rate (CBR)",
+          "description": "CBR was defined as percentage of participants with an objective response (CR or PR), or stable disease (SD) for at least 24 weeks, as determined by the investigator through the use of RECIST v.1.1. assessed up to From randomization up to 27 months for Cohort A and up to 24.4 months for Cohort B for this outcome measure. CR was defined as the disappearance of all target lesions or any pathological lymph nodes (whether target or non-target) having a reduction in short axis to \\<10 mm. PR was defined as at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum of diameters. SD was defined as neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD. Percentages are rounded off to the nearest decimal point.",
+          "timeFrame": "From randomization up to 27 months for Cohort A and up to 24.4 months for Cohort B"
+        },
+        {
+          "measure": "Cohort C: CBR",
+          "description": "CBR was defined as percentage of participants with an objective response (CR or PR), or SD for at least 24 weeks, as determined by the investigator through the use of RECIST v.1.1 assessed up to 31 months for this outcome measure. CR was defined as the disappearance of all target lesions or any pathological lymph nodes (whether target or non-target) having a reduction in short axis to \\<10 mm. PR was defined as at least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum of diameters. SD was defined as neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD. Percentages are rounded off to the nearest decimal point.",
+          "timeFrame": "From enrollment up to 31 months"
+        },
+        {
+          "measure": "Overall Survival (OS)",
+          "description": "OS was defined as the time from randomization to death from any cause.",
+          "timeFrame": "From randomization/ enrollment (Cohort C) up to death from any cause, up to 45 months for Cohort A, up to 46 months for Cohort B and up to 31 months for Cohort C"
+        },
+        {
+          "measure": "Cohort A and B: Change From Baseline in Global Health Status (GHS)/Health-Related Quality of Life (HRQoL) Score Measured by GHS/HRQoL Scale (Questions 29 and 30) of the EORTC QLQ-C30",
+          "description": "European Organisation for Research and Treatment of Cancer Quality of Life Questionnaire Core 30 (EORTC QLQ-C30) is a cancer-specific instrument with 30 questions covering symptoms, functioning, and health-related quality of life (HRQoL). The participant's assessment of overall HRQoL is assessed by using the last 2 questions (29 and 30) of the instrument, with each of these items based on a 7-point scale (1=very poor to 7=excellent), which are then combined into the GHS/QoL multi-item scale. The scores obtained for each question were averaged into a raw score for the scale, and this raw score for the scale was then subsequently linearly transformed to a scale score of 0 to 100, with a high score indicating better GHS/QoL. Negative change from Baseline values in the GHS/QoL change from baseline analysis indicated deterioration in HRQoL and positive values indicated improvement.",
+          "timeFrame": "Baseline, Day 1 of Cycles 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 and 24 (cycle length=28 days)"
+        },
+        {
+          "measure": "Cohort C: Change From Baseline in GHS/HRQoL Score Measured by GHS/HRQoL Scale (Questions 29 and 30) of the EORTC QLQ-C30",
+          "description": "EORTC QLQ-C30 is a cancer-specific instrument with 30 questions covering symptoms, functioning, and health-related quality of life (HRQoL). The participant's assessment of overall HRQoL is assessed by using the last 2 questions (29 and 30) of the instrument, with each of these items based on a 7-point scale (1=very poor to 7=excellent), which are then combined into the GHS/QoL multi-item scale. The scores obtained for each question were averaged into a raw score for the scale, and this raw score for the scale was then subsequently linearly transformed to a scale score of 0 to 100, with a high score indicating better GHS/QoL. Negative change from Baseline values in the GHS/QoL change from baseline analysis indicated deterioration in HRQoL and positive values indicated improvement.",
+          "timeFrame": "Baseline, Day 1 of Cycles 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, and 44 (cycle length=28 days)"
+        },
+        {
+          "measure": "Cohort B: Time to Deterioration (TTD) in Pain",
+          "description": "Time to deterioration in GHS/HRQoL was defined as the time from randomization to first observed ≥ 11-point increase from Baseline in pain scale score (Question 9 and 19) in EORTC QLQ-C30 linearly transformed GHS/HRQoL scale score, assessed up 24.4 months for this outcome measure. TTD was planned to be assessed only in cohort with HR+/HER2 - breast cancer participants (Cohort B). Questions 9 and 19 that assessed pain, used 4-point scale (1=not at all, 2=a little, 3=quite a bit, 4=very much). The scores were linearly transformed on a scale of 0 to 100, with higher scores indicating increased severity in symptoms.",
+          "timeFrame": "Baseline up to 24.4 months"
+        },
+        {
+          "measure": "Number of Participants With Adverse Events (AEs)",
+          "description": "An AE is any untoward medical occurrence in a participant administered a pharmaceutical product, regardless of causal attribution. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding, for example), symptom, or disease temporally associated with the use of a pharmaceutical product, whether or not considered related to the pharmaceutical product. Preexisting conditions which worsen during a study are also considered as adverse events. AEs were reported based on the National Cancer Institute Common Terminology Criteria for Adverse Events (NCI CTCAE), Version 4.0.",
+          "timeFrame": "Up to 58.9 months for Cohort A, up to 59.9 months for Cohort B and up to 45.5 months for Cohort C"
+        },
+        {
+          "measure": "Number of Participants With at Least One Adverse Events of Special Interest (AESI)",
+          "description": "An AE is any untoward medical occurrence in a participant administered a pharmaceutical product, regardless of causal attribution. An AE can therefore be any unfavorable and unintended sign (including an abnormal laboratory finding, for example), symptom, or disease temporally associated with the use of a pharmaceutical product, whether or not considered related to the pharmaceutical product. Preexisting conditions which worsen during a study are also considered as adverse events. AEs were reported based on the NCI CTCAE, Version 4.0. AESI include cases of potential drug-induced liver injury that include an elevated alanine aminotransferase (ALT) or aspartate aminotransferase (AST) in combination with either an elevated bilirubin or clinical jaundice, as defined by Hy's Law. Suspected transmission of an infectious agent by the study drug, Grade \\>= 3 fasting hyperglycemia, hepatotoxicity, diarrhea, rash, ALT/AST elevations. Grade \\>= 2 colitis/enterocolitis.",
+          "timeFrame": "Up to 58.9 months for Cohort A, up to 59.9 months for Cohort B and up to 45.5 months for Cohort C"
+        },
+        {
+          "measure": "Cohorts A and B:Plasma Concentration of Ipatasertib",
+          "timeFrame": "Days 1 and 15 of Cycle 1: 1 to 3 hours post dose, and on Day 15 of Cycle 3: 2 to 4 hours post dose (cycle length= 28 days)"
+        },
+        {
+          "measure": "Cohort C: Plasma Concentration of Ipatasertib",
+          "timeFrame": "Days 1 and 15 of Cycle 1: 1 to 3 hours post dose, and on Day 15 of Cycle 3: 2 to 4 hours post dose (cycle length= 28 days)"
+        },
+        {
+          "measure": "Cohorts A and B: Plasma Concentration of G-037720",
+          "description": "G-037720 was a metabolite of ipatasertib.",
+          "timeFrame": "Days 1 and 15 of Cycle 1: 1 to 3 hours post dose, and on Day 15 of Cycle 3: 2 to 4 hours post dose (cycle length= 28 days )"
+        },
+        {
+          "measure": "Cohort C: Plasma Concentration of G-037720",
+          "description": "G-037720 was a metabolite of ipatasertib.",
+          "timeFrame": "Days 1 and 15 of Cycle 1: 1 to 3 hours post dose, and on Day 15 of Cycle 3: 2 to 4 hours post dose (cycle length= 28 days )"
+        },
+        {
+          "measure": "Cohort C: 1-year Event-free PFS Rate",
+          "description": "PFS was defined as the time from enrollment to the first occurrence of disease progression, as determined locally by the investigator through the use of RECIST v.1.1, or death from any cause, whichever occurred first. Event-free PFS rate was defined as percentage of participants who did not experience any event and survived at 1 year after enrollment. PD was defined as at least a 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study, including baseline, in addition to the relative increase of 20%, the sum must also demonstrate an absolute increase of at least 5 mm. The appearance of one or more new lesions was also considered progression. Percentages are rounded off to the nearest decimal point. As prespecified in the protocol, this outcome measure was applicable only to Cohort C.",
+          "timeFrame": "From enrollment until the occurrence of disease progression or death from any cause, whichever occurred earlier, up to 1 year"
+        },
+        {
+          "measure": "Cohort C: 1-year Event-free OS Rate",
+          "description": "OS was defined as the time from enrollment to death from any cause. Event-free OS rate was defined as percentage of participants who did not experience any event and survived at 1 year after enrollment. As prespecified in the protocol, this outcome measure was applicable only to Cohort C. Percentages were rounded off to the nearest decimal.",
+          "timeFrame": "From enrollment up to death from any cause, up to 1 year"
+        },
+        {
+          "measure": "Cohort C: Serum Concentration of Atezolizumab",
+          "description": "As prespecified in the protocol, this outcome measure was applicable only to Cohort C.",
+          "timeFrame": "Day 1 of Cycle 1: 30 minutes post dose, predose on Day 15 of Cycle 1 and predose on Day 1 of Cycles 2, 3, 4, 8, 12 and 16 (cycle length=28 days)"
+        },
+        {
+          "measure": "Cohort C: Number of Participants With Anti-Drug Antibodies (ADAs) to Atezolizumab",
+          "description": "The numbers of ADA-positive participants after drug administration were summarized for participants exposed to atezolizumab. As prespecified in the protocol, this outcome measure was applicable only to Cohort C.",
+          "timeFrame": "Up to 45.5 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Women or men aged =\\>18 years with histologically documented triple-negative breast cancer (TNBC) or HR+/HER2- adenocarcinoma of the breast that is locally advanced or metastatic and is not amenable to resection with curative intent\n* Eastern Cooperative Oncology Group (ECOG) Performance Status of 0 or 1\n* Adequate hematologic and organ function within 14 days prior to treatment initiation\n* Histologically documented TNBC or HR+/HER2- adenocarcinoma of the breast that is locally advanced or metastatic and is not amenable to resection with curative intent\n* Measurable disease according to Response Evaluation Criteria in Solid Tumors (RECIST) v1.1\n* Eligible for taxane monotherapy, as per local investigator assessment (e.g., absence of rapid clinical progression, life-threatening visceral metastases, or the need for rapid symptom and/or disease control which may require combination chemotherapy)\n* HR+/HER2- breast cancer that is not considered appropriate for endocrine-based therapy and meets one of the following: patient has recurrent disease \\<=5 years of being on adjuvant endocrine therapy or if patient with de novo metastatic disease have progressed within 6 months of being on first line endocrine therapy.\n* Consent to submit a formalin-fixed, paraffin-embedded tumor (FFPE) tissue block or freshly cut unstained, serial tumor slides from the most recently collected tumor tissue for central molecular analysis\n* Confirmation of biomarker eligibility using an appropriately validated molecular assay at a diagnostic laboratory, Clinically Laboratory Improvement Amendments (CLIA) or equivalently accredited i.e., valid results from either central testing or local testing of tumor tissue or blood demonstrating PIK3CA/AKT1/PTEN-altered status\n* For women of childbearing potential: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraception and agreement to refrain from donating eggs\n* For men: agreement to remain abstinent (refrain from heterosexual intercourse) or use contraceptive methods and agreement to refrain from donating sperm\n\nExclusion Criteria:\n\n* Treatment with approved or investigational cancer therapy within 14 days prior to treatment initiation\n* Any previous chemotherapy for inoperable locally advanced or metastatic TNBC or HR+/HER2- adenocarcinoma of the breast (patients receiving neo/adjuvant chemotherapy eligible provided they have at least a 12 month disease-free interval)\n* History of or known presence of brain or spinal cord metastases\n* Malignancies other than breast cancer within 5 years prior to treatment initiation (except for appropriately treated carcinoma in situ of the cervix, non-melanoma skin carcinoma, or Stage I uterine cancer)\n* Prior treatment with an Akt inhibitor (prior PI3K or mTOR inhibitors are allowed)\n* History of malabsorption syndrome or other condition that would interfere with enteral absorption or results in the inability or unwillingness to swallow pills\n* Active infection requiring systemic anti-microbial treatment (including antibiotics, anti-fungals, and anti-viral agents)\n* Known human immunodeficiency virus (HIV) infection\n* Known clinically significant history of liver disease consistent with Child-Pugh Class B or C, including active viral or other hepatitis, current drug or alcohol abuse, or cirrhosis\n* Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to initiation of treatment (or anticipated need during study)\n* Pregnant or breastfeeding, or intending to become pregnant during the study\n* Clinically significant cardiac dysfunction (including NYHA Class II/III/IV heart failure, left ventricular ejection fraction \\[LVEF\\] \\<50%, active ventricular arrhythmia requiring medication, history of myocardial infarction within 6 months of treatment initiation, clinically significant electrocardiogram \\[ECG\\] abnormalities).\n* Need for chronic corticosteroid therapy of \\>=10 mg of prednisone per day or an equivalent dose of other anti-inflammatory corticosteroids or immunosuppressants for a chronic disease\n* Unresolved, clinically significant toxicity from prior therapy, except for alopecia and Grade 1 peripheral neuropathy\n* Uncontrolled clinical symptoms including pleural effusion, pericardial effusion, or ascites, tumor-related pain, hypercalcemia (or symptomatic hypercalcemia requiring continued use of bisphosphonate therapy)\n* History of Type I or Type II diabetes mellitus requiring insulin\n* Grade \\>=2 uncontrolled or untreated hypercholesterolemia or hypertriglyceridemia\n* History of or active inflammatory bowel disease or active bowel inflammation\n* Clinically significant lung disease (including pneumonitis, interstitial lung disease, idiopathic pulmonary fibrosis, cystic fibrosis, active infection/ history of opportunistic infections)\n* Treatment with strong CYP3A inhibitors or strong CYP3A inducers within 2 weeks or 5 drug-elimination half-lives, whichever is longer, prior to initiation of treatment\n* Grade \\>=2 peripheral neuropathy",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

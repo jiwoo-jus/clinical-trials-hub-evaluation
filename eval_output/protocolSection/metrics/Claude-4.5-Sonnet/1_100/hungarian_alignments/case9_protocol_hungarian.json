@@ -1,0 +1,292 @@
+{
+  "metadata": {
+    "case_id": 9,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-28T05:33:05.388441",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/9_NCT04041414.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/9_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.08
+        ],
+        [
+          0.25,
+          0.7
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Intervention schools",
+            "type": "EXPERIMENTAL",
+            "description": "Schools will be assigned to either intervention or control schools. Students in intervention schools will receive the intervention in semester 1.",
+            "interventionNames": [
+              "Other: Proud & Empowered!"
+            ]
+          },
+          "pred_item": {
+            "label": "Intervention Condition",
+            "type": "EXPERIMENTAL",
+            "description": "Participants in the intervention condition participated in the 10-week Proud & Empowered (P&E) program during one class period per week. The program consisted of 10 sessions, each lasting approximately 45 minutes, covering different domains of minority stress. Sessions included psychoeducation, didactic discussion, and interactive activities (e.g., role-play). Groups were led by a project coordinator and a trained school staff member.",
+            "interventionNames": [
+              "BEHAVIORAL: Proud & Empowered (P&E)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.7,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control schools",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Students in control schools will receive no intervention",
+            "interventionNames": [
+              "Other: Proud & Empowered!"
+            ]
+          },
+          "pred_item": {
+            "label": "Control Condition",
+            "type": "NO_INTERVENTION",
+            "description": "Participants in the control condition attended school as usual during the same time period as the intervention group. They did not participate in any unique activities related to the study but completed surveys on the same timeline and with the same incentive procedures as the intervention group.",
+            "interventionNames": []
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Proud & Empowered!",
+            "description": "Proud \\& Empowered! is a school-based intervention to decrease sexual minority stress and improve coping among LGBTQ students. It is administered by school counselors and trained social workers.",
+            "armGroupLabels": [
+              "Control schools",
+              "Intervention schools"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Proud & Empowered (P&E)",
+            "description": "A 10-session small group intervention for sexual and gender minority adolescents (SGMA) designed to address minority stress. Each session lasts approximately 45 minutes and covers a different domain of minority stress identified through the Sexual Minority Adolescent Stress Inventory (SMASI). Content includes: (a) stress and coping; (b) disclosure decision-making; (c) family; (d) school-related stress and resilience; (e) peers and friendship; (f) safety in relationships; (g) spirituality, faith, and religion; (h) race, ethnicity, and social justice; (i) the LGBT community and history; and (j) intersections of health, substance use, HIV, and the medical system. Sessions use a mix of psychoeducation, didactic discussion, and interactive activities. A facilitator manual guides the curriculum and is used to monitor fidelity.",
+            "armGroupLabels": [
+              "Intervention Condition"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 6,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.2,
+          0.28,
+          0.25,
+          0.3
+        ],
+        [
+          0.2,
+          0.94,
+          0.55,
+          0.4,
+          0.2
+        ],
+        [
+          0.2,
+          0.4,
+          0.3,
+          0.98,
+          0.45
+        ],
+        [
+          0.18,
+          0.42,
+          0.96,
+          0.4,
+          0.3
+        ],
+        [
+          0.3,
+          0.3,
+          0.35,
+          0.25,
+          0.18
+        ],
+        [
+          0.15,
+          0.12,
+          0.25,
+          0.2,
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Sexual Minority Adolescent Stress Inventory (SMASI)",
+            "description": "54-item survey across 10 domains of minority stress. Assesses experiences of minority stress among adolescents. Each statement reflects past-30-day thoughts, feelings, and situations a person may have experienced, with response options of 1 = yes and 0 = no. A total score was calculated by summing the 54 items. The total score ranged from 0-54. Higher values correspond to a worse outcome, meaning the individual in question has had more stressful experiences.",
+            "timeFrame": "Change between baseline and post-intervention/follow-up (12 weeks)."
+          },
+          "pred_item": {
+            "measure": "Minority Stress",
+            "description": "Measured using the Sexual Minority Adolescent Stress Inventory (SMASI), a 54-item measure across 10 domains assessing past-30-day thoughts, feelings, and situations. Response options are yes (1) or no (0). Total score calculated by summing all 54 items, with higher scores indicating greater minority stress experiences.",
+            "timeFrame": "Pretest (1 week prior to first intervention session) and Posttest (1 week after last intervention session, approximately 11 weeks from baseline)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Beck Anxiety Inventory (BAI)",
+            "description": "21-item self-report assessment of anxiety symptoms. The total score is calculated by taking the sum of the 21 items. There are five responses an individual can choose from for each item, these being \"Not at all\" which is scored as a 1, \"Mildly, but it didn't bother me much\" which is scored as a 2, \"Moderately -- It wasn't pleasant at times\" which is scored as a 3, \"Severely -- It bothered me a lot\" which is scored as a 4, and \"Decline to answer\" which is scored as a 5. The total score ranges from 0-63. Higher values indicate higher self-reported anxiety: Score of 0-21 indicates low anxiety, Score of 22-35 indicates moderate anxiety, Scores of 36+ indicates potentially concerning levels of anxiety. Subscales are calculated through summation.",
+            "timeFrame": "Change between baseline and post-intervention/follow-up (12 weeks)."
+          },
+          "pred_item": {
+            "measure": "Anxiety Symptoms",
+            "description": "Measured using the 21-item Beck Anxiety Inventory assessing past-month symptoms. Response options range from 0 (not at all) to 3 (severely). Sum score ranges from 0 to 63, with higher scores indicating higher levels of anxiety.",
+            "timeFrame": "Pretest (1 week prior to first intervention session) and Posttest (1 week after last intervention session, approximately 11 weeks from baseline)"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 3,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "PTSD Checklist for DSM-5 (PCL-5)",
+            "description": "20-item self-report assessment of post-traumatic stress disorder (PTSD) symptoms which addresses all 20 DSM-5 symptoms of PTSD. A total symptom severity score can be calculated by summing the scores for each of the 20 items. Each item has five possible responses including \"Not at all\" which is scored as a 0, \"A little bit\" which is scored as a 1, \"Moderately\" which is scored as 2, \"Quite a bit\" which is scored as a 3, and \"Extremely\" which is scored as a 4. The potential range of scores is 0-80. Higher scores indicate a worse outcome where the individual has higher severity of PTSD symptoms.",
+            "timeFrame": "Change between baseline and post-intervention/follow-up (12 weeks)."
+          },
+          "pred_item": {
+            "measure": "PTSD Symptoms",
+            "description": "Measured using the PTSD Checklist for DSM-5, a 20-item measure assessing past-month experiences. Response options range from 0 (not at all) to 4 (extremely). Sum score ranges from 0 to 80, with higher scores indicating higher levels of PTSD symptoms.",
+            "timeFrame": "Pretest (1 week prior to first intervention session) and Posttest (1 week after last intervention session, approximately 11 weeks from baseline)"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Beck Depression Inventory",
+            "description": "21-item self-report assessment of depression symptoms and severity of depression. The items are rated on a 4-point scale ranging from 0-3 based on the severity of each item (e.g., 0=I do not feel sad, 1=I feel sad much of the time, 2=I am sad all the time, and 3=I am so sad or unhappy that I can't stand it). The total range of scores is from 0-63. Higher values indicate a worse outcome and indicates a greater severity of depression. Scores of 0-13 indicates minimal depression, scores of 14-19 indicates mild depression, scores of 20-28 indicates moderate depression, scores of 29-63 indicates severe depression. Subscale values are achieved through summation.",
+            "timeFrame": "Change between baseline and post-intervention/follow-up (12 weeks)."
+          },
+          "pred_item": {
+            "measure": "Depressive Symptoms",
+            "description": "Measured using the Beck Depression Inventory II, a 21-item measure assessing feelings during the past 2 weeks. Response options range from 0 to 3. Sum score ranges from 0 to 63, with higher scores indicating higher levels of depression.",
+            "timeFrame": "Pretest (1 week prior to first intervention session) and Posttest (1 week after last intervention session, approximately 11 weeks from baseline)"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Coping Strategies Inventory",
+            "description": "16-item assessment measuring specific coping strategies people use in response to stressful events. Individuals respond to 16 items, with each item assessing components of Problem Solving, Cognitive Restructuring, Social Support, Express Emotions, Problem Avoidance, Wishful Thinking, and Social Withdrawal. Individuals can respond in 5 different ways, these being \"Never\", \"Seldom\", \"Sometimes\", \"Often\", or \"Almost Always\". These responses are scored from 1-5 with \"Never\" being a 1 and \"Almost Always\" being a 5. The total score is a summation of item scores with a range from 16-80. Higher scores in a particular primary scale indicates that the individual implements that form of coping strategy more often.",
+            "timeFrame": "Change between baseline and post-intervention/follow-up (12 weeks)."
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 4,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Adapted CSSRS Suicide Questions (Columbia Suicide Severity Rating Scale)",
+            "description": "Six items assessing current suicidality that were adapted from the longer, treatment-based Columbia Suicide Severity Rating Scale. The first two items ask about passive ideation and active ideation, and affirmative responses link to follow-up questions about methods, intent, plans, and attempts. The scale is scored as follows: 0 = no to passive ideation and no to active ideation\n\n1. = yes to passive ideation (but no to active ideation)\n2. = yes to active ideation (but no method, intent, plan)\n3. = yes to method (but no intent or plan)\n4. = yes to intent (but no plan)\n5. = yes to plan Attempts can be scored on its own or added to the overall scale for a risk score of 6 if participant has a recent suicide attempt.",
+            "timeFrame": "Change between baseline and post-intervention/follow-up (12 weeks)."
+          },
+          "pred_item": {
+            "measure": "Suicidality",
+            "description": "Measured using the adapted Columbia-Suicide Severity Rating Scale with 5 yes-or-no questions about the past 30 days. Worst-point severity scoring used, with range from 0 (no endorsed items) to 5 (endorsed most severe question about specific plan to kill oneself).",
+            "timeFrame": "Pretest (1 week prior to first intervention session) and Posttest (1 week after last intervention session, approximately 11 weeks from baseline)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 10,
+      "similarity_matrix": [
+        [
+          0.18,
+          0.12,
+          0.18,
+          0.08,
+          0.06,
+          0.18,
+          0.08,
+          0.15,
+          0.08,
+          0.08
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.18,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Youth Risk Behavior Survey Substance Use Questions",
+            "description": "Measures individual's usage of various substances in their lifetime and within the past 30 days as well as the ways in which individuals have used marijuana, tobacco, or nicotine in the past 30 days. Each substance is individually analyzed for both lifetime usage and past 30 day usage. Individuals can answer Yes or No for both lifetime usage and past 30 day usage. Each substance can range from 0 to the maximum number of survey responses. In addition, for marijuana, students can specify the way in which they used it with response options of smoking, vaping, edible or beverage form, or other. For nicotine and tobacco, students can specify the way in which they used it with the response options of smoking, vaping, or other. \"Yes\" responses indicate a worse outcome indicating that individuals have used or are currently using the substance in question.",
+            "timeFrame": "Change between baseline and post-intervention/follow-up (12 weeks)."
+          },
+          "pred_item": {
+            "measure": "SMASI Subscale: Identity Management",
+            "description": "Subscale of the Sexual Minority Adolescent Stress Inventory measuring identity management stress. Scored as percentage of endorsed items (yes responses divided by total items responded to, multiplied by 100).",
+            "timeFrame": "Pretest (1 week prior to first intervention session) and Posttest (1 week after last intervention session, approximately 11 weeks from baseline)"
+          }
+        }
+      ]
+    }
+  ]
+}

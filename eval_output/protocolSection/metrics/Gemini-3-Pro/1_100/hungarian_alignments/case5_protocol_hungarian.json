@@ -1,0 +1,741 @@
+{
+  "metadata": {
+    "case_id": 5,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-28T03:49:37.865950",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/5_NCT03547167.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/5_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          1.0,
+          0.1
+        ],
+        [
+          0.4,
+          0.85
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "id": "2017-004915-38",
+            "type": "EUDRACT_NUMBER"
+          },
+          "pred_item": {
+            "id": "2017-004915-38",
+            "type": "EUDRACT_NUMBER"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.85,
+          "status": "matched",
+          "ref_item": {
+            "id": "V114-017",
+            "type": "OTHER",
+            "domain": "Merck Protocol Number"
+          },
+          "pred_item": {
+            "id": "V114-017",
+            "type": "OTHER",
+            "domain": "Merck Sharp & Dohme Corp"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.82
+        ],
+        [
+          0.7,
+          0.97
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "V114",
+            "type": "EXPERIMENTAL",
+            "description": "Participants will receive a single 0.5 mL intramuscular (IM) injection of V114 on Day 1 (Vaccination 1) and a single 0.5 mL IM injection of PNEUMOVAX™23 at Month 6 (Vaccination 2)",
+            "interventionNames": [
+              "Biological: V114",
+              "Biological: PNEUMOVAX™23"
+            ]
+          },
+          "pred_item": {
+            "label": "V114 Group",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received a single dose of V114 on Day 1, followed by a single dose of PPSV23 at Month 6.",
+            "interventionNames": [
+              "V114",
+              "PPSV23"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "label": "Prevnar 13™",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants will receive a single 0.5 mL IM injection of Prevnar 13™ on Day 1 (Vaccination 1) and a single 0.5 mL IM injection of PNEUMOVAX™23 at Month 6 (Vaccination 2)",
+            "interventionNames": [
+              "Biological: Prevnar 13™",
+              "Biological: PNEUMOVAX™23"
+            ]
+          },
+          "pred_item": {
+            "label": "PCV13 Group",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received a single dose of PCV13 on Day 1, followed by a single dose of PPSV23 at Month 6.",
+            "interventionNames": [
+              "PCV13",
+              "PPSV23"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.99,
+          0.9,
+          0.7
+        ],
+        [
+          0.8,
+          1.0,
+          0.7
+        ],
+        [
+          0.7,
+          0.72,
+          0.99
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "V114",
+            "description": "15-valent pneumococcal conjugate vaccine with serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 22F, 23F, 33F (2 mcg each), serotype 6B (4 mcg) and Merck Aluminum Phosphate Adjuvant (125 mcg) in each 0.5 mL dose",
+            "armGroupLabels": [
+              "V114"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "V114",
+            "description": "15-valent pneumococcal conjugate vaccine (VAXNEUVANCE). Each 0.5-mL dose contains 2 µg of pneumococcal capsular polysaccharide from serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 23F, 22F, and 33F, and 4 µg of serotype 6B, conjugated to CRM197 carrier protein and adjuvanted with aluminum phosphate. Administered intramuscularly.",
+            "armGroupLabels": [
+              "V114 Group"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "Prevnar 13™",
+            "description": "13-valent pneumococcal conjugate vaccine with serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, 23F (2.2 mcg) and 6B (4.4 mcg), and aluminum phosphate adjuvant (125 mcg aluminum) in each 0.5 ml dose",
+            "armGroupLabels": [
+              "Prevnar 13™"
+            ],
+            "otherNames": [
+              "PCV13"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "PCV13",
+            "description": "13-valent pneumococcal conjugate vaccine (Prevnar 13). Each 0.5-mL dose contains 2.2 µg of pneumococcal capsular polysaccharide from serotypes 1, 3, 4, 5, 6A, 7F, 9V, 14, 18C, 19A, 19F, and 23F, and 4.4 µg of serotype 6B, conjugated to CRM197 carrier protein and adjuvanted with aluminum phosphate. Administered intramuscularly.",
+            "armGroupLabels": [
+              "PCV13 Group"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "PNEUMOVAX™23",
+            "description": "23-valent pneumococcal polysaccharide vaccine with serotypes 1, 2, 3, 4, 5, 6B, 7F, 8, 9N, 9V, 10A, 11A, 12F, 14, 15B, 17F, 18C, 19A, 19F, 20, 22F, 23F, 33F (25 mcg each) in each 0.5 mL dose",
+            "armGroupLabels": [
+              "Prevnar 13™",
+              "V114"
+            ],
+            "otherNames": [
+              "PPV23"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "PPSV23",
+            "description": "23-valent pneumococcal polysaccharide vaccine (PNEUMOVAX 23). Each dose contains 25 µg of pneumococcal capsular polysaccharide from 23 serotypes. Administered intramuscularly.",
+            "armGroupLabels": [
+              "V114 Group",
+              "PCV13 Group"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.99,
+          0.46,
+          0.78,
+          0.12
+        ],
+        [
+          0.68,
+          0.98,
+          0.78,
+          0.08
+        ],
+        [
+          0.32,
+          0.62,
+          0.82,
+          0.12
+        ],
+        [
+          0.18,
+          0.15,
+          0.11,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.99,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Solicited Injection-site Adverse Events Following V114 or Prevnar 13™",
+            "description": "An adverse event (AE) is any untoward medical occurrence in a patient or clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention. Following Vaccination 1 with either V114 or Prevnar 13™, the percentage of participants with solicited injection-site AEs was assessed. The solicited injection-site AEs assessed were redness/erythema, swelling, and tenderness/pain. Estimated confidence intervals (CIs) are calculated based on the exact binomial method proposed by Clopper and Pearson.",
+            "timeFrame": "Up to 5 days after Vaccination 1"
+          },
+          "pred_item": {
+            "measure": "Proportion of participants with solicited injection-site adverse events (AEs)",
+            "description": "Assessed following administration of V114 or PCV13. Injection-site reactions included erythema, swelling, and pain.",
+            "timeFrame": "Days 1–5 postvaccination"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Solicited Systemic Adverse Events Following V114 or Prevnar 13™",
+            "description": "An adverse event (AE) is any untoward medical occurrence in a patient or clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention. Following vaccination with V114 or Prevnar 13™, the percentage of participants with solicited systemic AEs was assessed. The solicited systemic AEs assessed were muscle pain/myalgia, joint pain/arthralgia, headache, and tiredness/fatigue. Estimated CIs are calculated based on the exact binomial method proposed by Clopper and Pearson.",
+            "timeFrame": "Up to 14 days after Vaccination 1"
+          },
+          "pred_item": {
+            "measure": "Proportion of participants with solicited systemic adverse events (AEs)",
+            "description": "Assessed following administration of V114 or PCV13. Systemic AEs included muscle pain/myalgia, joint pain/arthralgia, headache, and fatigue.",
+            "timeFrame": "Days 1–14 postvaccination"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With a Vaccine-related Serious Adverse Event Following V114 or Prevnar 13™",
+            "description": "A serious adverse event (SAE) is an AE that is life-threatening, requires or prolongs an existing hospitalization, results in persistent or significant disability or incapacity, is a congenital anomaly or birth defect, or is another important medical event deemed such by medical or scientific judgment. Relatedness of an SAE to the study vaccine was determined by the investigator. Following vaccination with V114 or Prevnar 13™, the percentage of serious adverse events of V114 compared with Prevnar 13™ was assessed. Estimated CIs are calculated based on the exact binomial method proposed by Clopper and Pearson.",
+            "timeFrame": "Up to Month 6 (before Vaccination 2)"
+          },
+          "pred_item": {
+            "measure": "Proportion of participants with any AE or serious adverse event (SAE)",
+            "description": "Assessed following administration of V114 or PCV13, including vaccine-related SAEs.",
+            "timeFrame": "Day 1 through Month 6"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Geometric Mean Titer of Serotype-specific Opsonophagocytic Activity Day 30 Following V114 or Prevnar 13™",
+            "description": "The geometric mean titer (GMT) of serotype-specific opsonophagocytic activity (OPA) for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using a multiplex opsonophagocytic assay. The within-group 95% CIs are obtained by exponentiating the CIs of the mean of the natural log values based on the t-distribution.",
+            "timeFrame": "Day 30"
+          },
+          "pred_item": {
+            "measure": "Serotype-specific opsonophagocytic activity (OPA) geometric mean titers (GMTs)",
+            "description": "Evaluated for the 15 serotypes included in V114.",
+            "timeFrame": "Day 30"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 18,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.65,
+          0.82,
+          0.12,
+          0.08,
+          0.05,
+          0.12
+        ],
+        [
+          0.7,
+          0.95,
+          0.78,
+          0.07,
+          0.08,
+          0.12,
+          0.12
+        ],
+        [
+          0.32,
+          0.62,
+          0.83,
+          0.07,
+          0.18,
+          0.12,
+          0.12
+        ],
+        [
+          0.08,
+          0.1,
+          0.18,
+          0.98,
+          0.82,
+          0.68,
+          0.7
+        ],
+        [
+          0.15,
+          0.08,
+          0.1,
+          0.78,
+          0.82,
+          0.93,
+          0.78
+        ],
+        [
+          0.08,
+          0.08,
+          0.1,
+          0.72,
+          0.78,
+          0.94,
+          0.86
+        ],
+        [
+          0.12,
+          0.18,
+          0.18,
+          0.6,
+          0.7,
+          0.82,
+          0.83
+        ],
+        [
+          0.21,
+          0.25,
+          0.1,
+          0.72,
+          0.7,
+          0.72,
+          0.92
+        ],
+        [
+          0.08,
+          0.1,
+          0.18,
+          0.4,
+          0.88,
+          0.72,
+          0.72
+        ],
+        [
+          0.19,
+          0.1,
+          0.18,
+          0.82,
+          0.82,
+          0.72,
+          0.68
+        ],
+        [
+          0.05,
+          0.08,
+          0.22,
+          0.65,
+          0.74,
+          0.96,
+          0.82
+        ],
+        [
+          0.15,
+          0.12,
+          0.2,
+          0.7,
+          0.83,
+          0.9,
+          0.82
+        ],
+        [
+          0.18,
+          0.15,
+          0.1,
+          0.3,
+          0.78,
+          0.82,
+          0.93
+        ],
+        [
+          0.12,
+          0.18,
+          0.12,
+          0.6,
+          0.78,
+          0.76,
+          0.86
+        ],
+        [
+          0.05,
+          0.05,
+          0.18,
+          0.32,
+          0.86,
+          0.93,
+          0.78
+        ],
+        [
+          0.05,
+          0.05,
+          0.32,
+          0.7,
+          0.86,
+          0.9,
+          0.82
+        ],
+        [
+          0.08,
+          0.18,
+          0.15,
+          0.42,
+          0.82,
+          0.83,
+          0.92
+        ],
+        [
+          0.12,
+          0.08,
+          0.2,
+          0.68,
+          0.82,
+          0.82,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Solicited Injection-site Adverse Events Following PNEUMOVAX™23",
+            "description": "An adverse event (AE) is any untoward medical occurrence in a patient or clinical study participant, temporally associated with the use of study treatment, whether or not considered related to the study treatment. Following Vaccination 2 with PNEUMOVAX™23, the percentage of participants with solicited injection-site AEs was assessed. The solicited injection-site AEs assessed were redness/erythema, swelling, and tenderness/pain. Estimated CIs are calculated based on the exact binomial method proposed by Clopper and Pearson and are provided in accordance with the statistical analysis plan.",
+            "timeFrame": "Up to 5 days after Vaccination 2 (Month 6)"
+          },
+          "pred_item": {
+            "measure": "Proportion of participants with solicited injection-site adverse events (AEs) following PPSV23",
+            "description": "Assessed following administration of PPSV23.",
+            "timeFrame": "Days 1–5 post-PPSV23 vaccination"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Solicited Systemic Adverse Events Following PNEUMOVAX™23",
+            "description": "An adverse event (AE) is any untoward medical occurrence in a patient or clinical study participant, temporally associated with the use of study intervention, whether or not considered related to the study intervention. Following Vaccination 2 with PNEUMOVAX™23, the percentage of participants with solicited systemic AEs was assessed. The solicited systemic AEs assessed were muscle pain/myalgia, joint pain/arthralgia, headache, and tiredness/fatigue. Estimated CIs are calculated based on the exact binomial method proposed by Clopper and Pearson.",
+            "timeFrame": "Up to 14 days after Vaccination 2 (Month 6)"
+          },
+          "pred_item": {
+            "measure": "Proportion of participants with solicited systemic adverse events (AEs) following PPSV23",
+            "description": "Assessed following administration of PPSV23.",
+            "timeFrame": "Days 1–14 post-PPSV23 vaccination"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.83,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With a Vaccine-related Serious Adverse Event Following PNEUMOVAX™23",
+            "description": "A serious adverse event (SAE) is an AE that is life-threatening, requires or prolongs an existing hospitalization, results in persistent or significant disability or incapacity, is a congenital anomaly or birth defect, or is another important medical event deemed such by medical or scientific judgment. Relatedness of an SAE to the study vaccine was determined by the investigator. Following vaccination with PNEUMOVAX™23, the percentage of serious adverse events of V114 compared with Prevnar 13™ was assessed. Estimated CIs are calculated based on the exact binomial method proposed by Clopper and Pearson.",
+            "timeFrame": "From Month 6 (before Vaccination 2) to Month 7"
+          },
+          "pred_item": {
+            "measure": "Proportion of participants with any AE or SAE following PPSV23",
+            "description": "Assessed following administration of PPSV23.",
+            "timeFrame": "Month 6 through Month 7"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Geometric Mean Concentration of Serotype-specific Immunoglobulin G at Day 30",
+            "description": "The geometric mean concentration (GMC) of serotype-specific immunoglobulin G (IgG) for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using an electrochemiluminescence assay. The within-group 95% CIs are obtained by exponentiating the CIs of the mean of the natural log values based on the t-distribution.",
+            "timeFrame": "Day 30"
+          },
+          "pred_item": {
+            "measure": "Serotype-specific IgG geometric mean concentrations (GMCs)",
+            "description": "Observed serotype-specific IgG GMCs.",
+            "timeFrame": "Day 30"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Geometric Mean Fold Rise in Serotype-specific OPA Day 1 to Day 30",
+            "description": "Activity for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using a Multiplex Opsonophagocytic Assay. Geometric mean fold rise (GMFR) is the geometric mean of fold rise from baseline to postvaccination.",
+            "timeFrame": "Day 1 (Baseline) and Day 30"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "GMFR in Serotype-specific IgG Day 1 to Day 30",
+            "description": "IgG for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using an electrochemiluminescence assay. GMFR is the geometric mean of fold rise from baseline to postvaccination.",
+            "timeFrame": "Day 1 (Baseline) and Day 30"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants With ≥4-Fold Rise in Serotype-specific OPA Day 1 to Day 30",
+            "description": "Activity for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using a Multiplexed Opsonophagocytic Assay. The percentage of participants who had ≥4-fold rise in OPA titers were calculated from baseline to postvaccination.",
+            "timeFrame": "Day 1 (Baseline) and Day 30"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants With ≥4-Fold Rise in Serotype-specific IgG Day 1 to Day 30",
+            "description": "IgG for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using an electrochemiluminescence assay. The percentage of participants who had ≥ 4-fold rise in IgG concentration are calculated from baseline to postvaccination.",
+            "timeFrame": "Day 1 (Baseline) and Day 30"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 4,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Geometric Mean Titer of Serotype-specific OPA at Month 7",
+            "description": "The geometric mean titer (GMT) of serotype-specific OPA for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using a multiplex opsonophagocytic assay. The within-group 95% CIs are obtained by exponentiating the CIs of the mean of the natural log values based on the t-distribution.",
+            "timeFrame": "Month 7"
+          },
+          "pred_item": {
+            "measure": "OPA GMTs and IgG GMCs",
+            "description": "Evaluated for serotypes included in the vaccine.",
+            "timeFrame": "Month 6 and Month 7"
+          }
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Geometric Mean Concentration of Serotype-specific IgG at Month 7",
+            "description": "The geometric mean concentration (GMC) of serotype-specific immunoglobulin G (IgG) for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using an electrochemiluminescence assay.",
+            "timeFrame": "Month 7"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": 5,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "GMFR in Serotype-specific OPA Day 1 to Month 7",
+            "description": "Activity for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using a Multiplexed Opsonophagocytic Assay. Geometric mean fold rise (GMFR) is the geometric mean of fold rise from baseline to postvaccination.",
+            "timeFrame": "Day 1 (Baseline) and Month 7"
+          },
+          "pred_item": {
+            "measure": "Geometric mean fold rises (GMFRs) in OPA and IgG responses",
+            "description": "Fold rise from baseline (Day 1 or Month 6) to post-vaccination.",
+            "timeFrame": "Day 30 and Month 7"
+          }
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "GMFR in Serotype-specific IgG Day 1 to Month 7",
+            "description": "IgG for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using an electrochemiluminescence assay. GMFR is the geometric mean of fold rise from baseline to postvaccination.",
+            "timeFrame": "Day 1 (Baseline) and Month 7"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": 6,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With ≥4-Fold Rise in Serotype-specific OPA Day 1 to Month 7",
+            "description": "Activity for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using a Multiplexed Opsonophagocytic Assay. The percentage of participants who had ≥4-fold rise in OPA titers were calculated from baseline to postvaccination.",
+            "timeFrame": "Day 1 (Baseline) and Month 7"
+          },
+          "pred_item": {
+            "measure": "Proportions of participants with a ≥4-fold rise in OPA and IgG responses",
+            "description": "Rise from baseline (Day 1 or Month 6) to post-vaccination.",
+            "timeFrame": "Day 30 and Month 7"
+          }
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants With ≥4-Fold Rise in Serotype-specific IgG Day 1 to Month 7",
+            "description": "IgG for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using an electrochemiluminescence assay. The percentage of participants who had ≥ 4-fold rise in IgG concentration are calculated from baseline to postvaccination.",
+            "timeFrame": "Day 1 (Baseline) and Month 7"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "GMFR in Serotype-specific OPA Month 6 to Month 7",
+            "description": "Activity for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using the Multiplexed Opsonophagocytic Assay. Geometric mean fold rise (GMFR) is the geometric mean of fold rise from baseline to postvaccination.",
+            "timeFrame": "Month 6 (Baseline before Vaccination 2) and Month 7"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "GMFR in Serotype-specific IgG Month 6 to Month 7",
+            "description": "IgG for the serotypes contained in Prevnar 13™ and V114 and (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using an electrochemiluminescence assay. GMFR is the geometric mean of fold rise from baseline to postvaccination.",
+            "timeFrame": "Month 6 (Baseline before Vaccination 2) and Month 7"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants With ≥4-Fold Rise in Serotype-specific OPA Month 6 to Month 7",
+            "description": "Activity for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using a Multiplexed Opsonophagocytic Assay. The percentage of participants who had ≥4-fold rise in OPA titers were calculated from baseline to postvaccination.",
+            "timeFrame": "Month 6 (Baseline before Vaccination 2) and Month 7"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants With ≥4-Fold Rise in Serotype-specific IgG Month 6 to Month 7",
+            "description": "IgG for the serotypes contained in Prevnar 13™ and V114 (13 serotypes shared with Prevnar 13™ and 2 serotypes unique to V114) was determined using an electrochemiluminescence assay. The percentage of participants who had ≥ 4-fold rise in IgG concentration are calculated from baseline to postvaccination.",
+            "timeFrame": "Month 6 (Baseline before Vaccination 2) and Month 7"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

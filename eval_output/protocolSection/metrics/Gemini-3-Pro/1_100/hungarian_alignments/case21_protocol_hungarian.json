@@ -1,0 +1,167 @@
+{
+  "metadata": {
+    "case_id": 21,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T15:10:29.577290",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/21_NCT02555254.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/21_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.6
+        ],
+        [
+          0.55,
+          0.45
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "Low speed of rewarming",
+            "type": "EXPERIMENTAL",
+            "description": "Patients will be placed in targeted temperature controlled at 33°C for 24 hours. Then, intervention will be proceeded after randomization: slowly rewarmed (0.25°C/h) to targeted temperature controlled at 37°C for 24 hours.",
+            "interventionNames": [
+              "Procedure: Low Speed of Rewarming"
+            ]
+          },
+          "pred_item": {
+            "label": "Intervention group: 0.25 °C/h rewarming rate",
+            "type": "EXPERIMENTAL",
+            "description": "Patients in this group received rewarming at a rate of 0.25 °C/h after targeted temperature management at 33 °C.",
+            "interventionNames": [
+              "Procedure: Slower Rewarming (0.25 °C/h)"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.45,
+          "status": "matched",
+          "ref_item": {
+            "label": "Fast speed of rewarming",
+            "type": "EXPERIMENTAL",
+            "description": "Patients will be placed in targeted temperature controlled at 33°C for 24 hours. hen, intervention will be proceeded after randomization: fastly rewarmed (0.50°C/h) for targeted temperature controlled at 37°C for 24 hours.",
+            "interventionNames": [
+              "Procedure: High Speed of Rewarming"
+            ]
+          },
+          "pred_item": {
+            "label": "Control group: 0.50 °C/h rewarming rate",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients in this group received rewarming at a rate of 0.50 °C/h after targeted temperature management at 33 °C.",
+            "interventionNames": [
+              "Procedure: Standard Rewarming (0.50 °C/h)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.7
+        ],
+        [
+          0.78,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "PROCEDURE",
+            "name": "Low Speed of Rewarming",
+            "description": "Speed of rewarming will be at 0.25°C/h with specific temperature controlled external device",
+            "armGroupLabels": [
+              "Low speed of rewarming"
+            ]
+          },
+          "pred_item": {
+            "type": "PROCEDURE",
+            "name": "Slower Rewarming (0.25 °C/h)",
+            "description": "The rewarming rate on the closed-loop cooling device (Artic Sun) was set at 0.25 °C/h followed by maintenance at 37 °C for 24 h.",
+            "armGroupLabels": [
+              "Intervention group: 0.25 °C/h rewarming rate"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "PROCEDURE",
+            "name": "High Speed of Rewarming",
+            "description": "Speed of rewarming will be at 0.50°C/h with specific temperature controlled external device",
+            "armGroupLabels": [
+              "Fast speed of rewarming"
+            ]
+          },
+          "pred_item": {
+            "type": "PROCEDURE",
+            "name": "Standard Rewarming (0.50 °C/h)",
+            "description": "The rewarming rate on the closed-loop cooling device (Artic Sun) was set at 0.50 °C/h followed by maintenance at 37 °C for 24 h.",
+            "armGroupLabels": [
+              "Control group: 0.50 °C/h rewarming rate"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Changes in Serum Il6 Levels Over the 48 Hours Following Achievement of the Thermal Target",
+            "description": "Median AUC for serum IL6 levels over time",
+            "timeFrame": "48 hours"
+          },
+          "pred_item": {
+            "measure": "Serum IL6 level",
+            "description": "Area under the curve (AUC) of serum interleukin-6 (IL6) levels.",
+            "timeFrame": "24–48 hours after reaching 33 °C"
+          }
+        }
+      ]
+    }
+  ]
+}

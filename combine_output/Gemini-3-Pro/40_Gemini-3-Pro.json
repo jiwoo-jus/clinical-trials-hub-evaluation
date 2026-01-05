@@ -1,0 +1,178 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04356963",
+      "orgStudyIdInfo": {
+        "id": "HP-00090603"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "1UL1TR003098",
+          "type": "NIH",
+          "domain": "National Center for Advancing Translational Sciences"
+        }
+      ],
+      "organization": {
+        "fullName": "University of Maryland, Baltimore",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "This randomized within-subjects clinical study aims to establish the safety and efficacy of virtual reality (VR) therapy as a pain management intervention for patients with acute traumatic injuries, including traumatic brain injury (TBI). The study compares immersive VR therapy against two control conditions (a non-immersive tablet display and a blank VR headset) to evaluate reductions in pain intensity, as well as changes in affective and physiological measures, thereby assessing VR's potential as a non-pharmacological analgesic to reduce opioid reliance.",
+      "detailedDescription": "This study utilizes a randomized, within-subject, crossover design to evaluate the use of immersive VR in an inpatient trauma setting. Sixty participants with traumatic injuries, including mild TBI, will be recruited at the R. Adams Cowley Shock Trauma Center. Participants will undergo three 20-minute sessions in a randomized order, separated by at least 4 hours: 1) Immersive VR experience using 'theBlu' on an Oculus Rift; 2) Non-immersive two-dimensional mimic displaying the same content on a tablet; and 3) VR sensory deprivation using a content-less headset.\n\nThe primary outcome is the reduction in pain severity measured by pre- and post-session numerical rating scales. Exploratory secondary outcomes include opioid usage, pain durability, affective measures (such as anxiety via STAI, depression via HADS, and pain catastrophizing), and autonomic measures (heart rate, heart rate variability, and pupillometry). The study also aims to validate the safety and feasibility of VR in TBI patients by monitoring for adverse events like seizures or motion sickness. Furthermore, it seeks to identify patient characteristics—such as gaming engagement, boredom, and suggestibility—that may predict a favorable response to VR therapy."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Traumatic Injury",
+        "Traumatic Brain Injury",
+        "Acute Pain"
+      ],
+      "keywords": [
+        "Virtual Reality",
+        "Pain Management",
+        "Non-pharmacological Analgesics",
+        "Opioid Sparing",
+        "Inpatient Care",
+        "Digital Therapeutics"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "CROSSOVER",
+        "interventionModelDescription": "Participants will complete three interventional sessions in a randomised order: immersive VR environment, non-immersive tablet-based form (2-D mimic), and VR sensory deprivation (blank headset).",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "maskingDescription": "The research team is blinded to the session order.",
+          "whoMasked": [
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 60,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Immersive VR",
+          "type": "EXPERIMENTAL",
+          "description": "Participants undergo a 20-minute session using the Oculus Rift headset to view 'theBlu', a simulation of a naturally relaxing and dynamic coral reef environment.",
+          "interventionNames": [
+            "Device: Immersive VR (theBlu)"
+          ]
+        },
+        {
+          "label": "Non-immersive 2D mimic",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants undergo a 20-minute session viewing a recording of 'theBlu' experience delivered via video on a non-immersive 2-D Asus tablet.",
+          "interventionNames": [
+            "Device: Non-immersive 2-D Tablet"
+          ]
+        },
+        {
+          "label": "VR sensory deprivation",
+          "type": "SHAM_COMPARATOR",
+          "description": "Participants undergo a 20-minute session wearing a blank (content-less) Oculus Rift headset to control for external sensory deprivation.",
+          "interventionNames": [
+            "Device: Blank VR Headset"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "Immersive VR (theBlu)",
+          "description": "Immersive VR experience 'theBlu' (WEVR, Inc, Venice, California, USA) delivered via Oculus Rift headset.",
+          "armGroupLabels": [
+            "Immersive VR"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Non-immersive 2-D Tablet",
+          "description": "Recording of theBlu experience delivered via video on a non-immersive 2-D Asus (ASUS, Taipei, Taiwan) tablet.",
+          "armGroupLabels": [
+            "Non-immersive 2D mimic"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Blank VR Headset",
+          "description": "VR sensory deprivation delivered via a blank (i.e., content-less) Oculus Rift headset.",
+          "armGroupLabels": [
+            "VR sensory deprivation"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Reduction in pain severity",
+          "description": "Change in pain intensity measured by the pre-session and post-session numerical rating scale for VR sessions compared with controls.",
+          "timeFrame": "Pre-session and post-session of each 20-minute intervention"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Pain assessment (Trauma Function and Comfort Assessment)",
+          "description": "Pain assessment measured per the Trauma Function and Comfort Assessment.",
+          "timeFrame": "During the study"
+        },
+        {
+          "measure": "Opioid usage",
+          "description": "Participant opioid dosage and times obtained via chart review to control for coincidence with study procedures.",
+          "timeFrame": "Throughout the duration of the study"
+        },
+        {
+          "measure": "Pain durability",
+          "description": "Assessment of pain durability post-session.",
+          "timeFrame": "Post-session"
+        },
+        {
+          "measure": "Affective measures (Anxiety)",
+          "description": "Anxiety levels measured using the Spielberger State-Trait Anxiety Inventory (STAI).",
+          "timeFrame": "Pre-session and post-session"
+        },
+        {
+          "measure": "Autonomic measures",
+          "description": "Physiological measures including pupillary maximum constriction velocity, relative constriction amplitude, heart rate variability, heart rate, blood pressure, and respiratory rate.",
+          "timeFrame": "Pre-session, post-session, and continuous monitoring during each session"
+        },
+        {
+          "measure": "Subjective experience measures",
+          "description": "Measures of immersion, flow, and absorption assessed using the Brockmyer Gaming Engagement Questionnaire.",
+          "timeFrame": "Post-session"
+        },
+        {
+          "measure": "Safety and Feasibility",
+          "description": "Incidence of seizure, increased dizziness (self-reported), nausea levels, or patients being unable to tolerate sessions.",
+          "timeFrame": "During and after each session"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Diagnosis of traumatic injury\n- At least 18 years of age\n- Glasgow Coma Score of 15\n- Report a numerical pain score of at least 3/10 within 24 hours of enrolment\n- Expected to remain hospitalised for at least 12 hours after enrolment to complete the study protocol\n\nExclusion Criteria:\n- Cannot consent for themselves\n- Medical history of seizure or a known intolerance of VR\n- Pregnant\n- Non-English-speaking\n- Past acute stress disorder or seizure secondary to immersive VR",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

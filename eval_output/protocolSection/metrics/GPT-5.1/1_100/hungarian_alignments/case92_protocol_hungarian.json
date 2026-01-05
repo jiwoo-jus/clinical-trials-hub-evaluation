@@ -1,0 +1,778 @@
+{
+  "metadata": {
+    "case_id": 92,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T19:31:26.776306",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/92_NCT02981602.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/92_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "id": "ISIS 505358-CS3",
+            "type": "OTHER",
+            "domain": "Ionis Pharmaceuticals, Inc."
+          },
+          "pred_item": {
+            "id": "ISIS 505358-CS3",
+            "type": "OTHER_GRANT",
+            "domain": "Ionis Pharmaceuticals, Inc.",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.4,
+          0.7,
+          0.25,
+          0.78,
+          0.32
+        ],
+        [
+          0.25,
+          0.1,
+          0.73,
+          0.15,
+          0.62
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "IONIS-HBVRx",
+            "type": "EXPERIMENTAL",
+            "description": "Ascending multiple doses of IONIS-HBVRx by subcutaneous (SC) injection",
+            "interventionNames": [
+              "Drug: IONIS-HBVRx"
+            ]
+          },
+          "pred_item": {
+            "label": "On-NA bepirovirsen 300 mg add-on",
+            "type": "EXPERIMENTAL",
+            "description": "Patients with chronic hepatitis B already receiving a stable nucleos(t)ide analog regimen (tenofovir disoproxil fumarate or entecavir) with suppressed HBV DNA, randomized to receive add-on bepirovirsen 300 mg via subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8, 11) and once weekly during weeks 3 and 4 (days 15, 22), while continuing their background NA therapy throughout the study.",
+            "interventionNames": [
+              "Bepirovirsen 300 mg",
+              "Background nucleos(t)ide analog therapy"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.73,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Sterile Normal Saline (0.9% NaCl) calculated volume to match active comparator",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Treatment-naïve placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Treatment-naïve patients with chronic hepatitis B randomized to receive placebo via subcutaneous injection on the same schedule as bepirovirsen (twice weekly during weeks 1 and 2 and once weekly during weeks 3 and 4), followed by initiation of nucleos(t)ide analog therapy (tenofovir disoproxil fumarate or entecavir) starting on day 29 and continued to day 211.",
+            "interventionNames": [
+              "Placebo",
+              "Nucleos(t)ide analog therapy (post-bepirovirsen)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 5,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.9,
+          0.18,
+          0.18,
+          0.3
+        ],
+        [
+          0.0,
+          0.2,
+          0.9,
+          0.3,
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "IONIS-HBVRx",
+            "description": "Ascending multiple doses of IONIS-HBVRx by subcutaneous (SC) injection",
+            "armGroupLabels": [
+              "IONIS-HBVRx"
+            ],
+            "otherNames": [
+              "ISIS 505358"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Bepirovirsen 150 mg",
+            "description": "Bepirovirsen (ISIS 505358; GSK3228836), a 2′-O-methoxyethyl gapmer antisense oligonucleotide targeting all HBV mRNAs, administered as 150 mg subcutaneous injections twice weekly during weeks 1 and 2 (days 1, 4, 8, 11) and once weekly during weeks 3 and 4 (days 15, 22).",
+            "armGroupLabels": [
+              "Treatment-naïve bepirovirsen 150 mg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo control administered via subcutaneous injection on the same schedule as bepirovirsen (twice weekly during weeks 1 and 2 and once weekly during weeks 3 and 4). The formulation is not specified, but it is matched to bepirovirsen for blinding purposes.",
+            "armGroupLabels": [
+              "Treatment-naïve placebo",
+              "On-NA placebo add-on"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 26,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.93
+        ],
+        [
+          0.7
+        ],
+        [
+          0.42
+        ],
+        [
+          0.45
+        ],
+        [
+          0.58
+        ],
+        [
+          0.35
+        ],
+        [
+          0.25
+        ],
+        [
+          0.15
+        ],
+        [
+          0.18
+        ],
+        [
+          0.02
+        ],
+        [
+          0.15
+        ],
+        [
+          0.2
+        ],
+        [
+          0.18
+        ],
+        [
+          0.15
+        ],
+        [
+          0.15
+        ],
+        [
+          0.1
+        ],
+        [
+          0.2
+        ],
+        [
+          0.2
+        ],
+        [
+          0.25
+        ],
+        [
+          0.05
+        ],
+        [
+          0.1
+        ],
+        [
+          0.08
+        ],
+        [
+          0.68
+        ],
+        [
+          0.72
+        ],
+        [
+          0.18
+        ],
+        [
+          0.35
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Serious Adverse Events (SAEs) and Non-Serious Adverse Events (Non-SAEs >=5%)",
+            "description": "An adverse event is any unfavorable and unintended sign (including a clinically-significant abnormal laboratory finding, for example), symptom, or disease temporally associated with the study or use of investigational drug product, whether or not the AE is considered related to the investigational drug product. Any adverse event resulting in death, life threatening, requires hospitalization or prolongation of existing hospitalization, results in disability/incapacity, congenital anomaly/birth defect or any important medical event according to medical judgment were categorized as SAE.",
+            "timeFrame": "Up to Day 211"
+          },
+          "pred_item": {
+            "measure": "Safety and tolerability of bepirovirsen",
+            "description": "Incidence, nature, and severity of adverse events and clinically significant changes in safety assessments, including clinical laboratory tests (e.g., liver enzymes), vital signs and body weight, physical examination findings, electrocardiogram parameters, and concomitant medication usage in participants with chronic hepatitis B receiving bepirovirsen.",
+            "timeFrame": "From first dose (day 1) through end of study (day 211, week 31)."
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Clinical Chemistry Parameters: Alanine Aminotransferase (ALT), Alkaline Phosphatase (ALP), Aspartate Amino Transferase (AST), Creatine Kinase (CK), Gamma-glutamyl Transferase (GGT) and Lactate Dehydrogenase (LDH) Over Time",
+            "description": "Blood samples were collected for the analysis of clinical parameters including ALT, ALP, CK, GGT, LDH and AST. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Clinical Chemistry Parameters : Albumin and Total Protein Over Time",
+            "description": "Blood samples were collected for the analysis of clinical chemistry parameter-albumin and total protein. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline Values in Clinical Chemistry Parameters: Sodium, Potassium, Chloride, Bicarbonate, Calcium, Magnesium, Phosphate, Glucose, Blood Urea Nitrogen, Cholesterol and Urate",
+            "description": "Blood samples were collected for the analysis of clinical parameters including sodium, potassium, chloride, bicarbonate, calcium, magnesium, phosphate, glucose, blood urea nitrogen (BUN), cholesterol and urate. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Outcome Measure Timeframe: Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline Values in Clinical Chemistry Parameters: Total Bilirubin, Direct Bilirubin, Indirect Bilirubin, and Creatinine",
+            "description": "Blood samples were collected for the analysis of clinical chemistry parameters: direct bilirubin, total bilirubin, indirect bilirubin and creatinine. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline for Hematology Parameters: Basophils, Eosinophils, White Blood Cells (WBC), Lymphocytes, Neutrophils, Monocytes, and Platelets",
+            "description": "Blood samples were collected for the analysis of hematology parameters including basophil, eosinophils, WBC, lymphocytes, neutrophils, monocytes, and platelets at indicated timepoints. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline for Hematology Parameters: Hemoglobin",
+            "description": "Blood samples were collected for the analysis of hematology parameters including hemoglobin at indicated timepoints. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline for Hematology Parameter: Hematocrit",
+            "description": "Blood samples were collected for the analysis of hematology parameter including hematocrit at indicated timepoints. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline Values in Urine Specific Gravity",
+            "description": "Urine samples were collected for the analysis of urine specific gravity. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value. Urine specific gravity is measured as the ratio of urine density compared with water density.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline Values in Urine Albumin/Creatinine Ratio and Urine Protein/Creatinine Ratio",
+            "description": "Urine samples were collected for the analysis of urine albumin/creatinine ratio and urine protein/creatinine ratio. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline Values in Urine Protein",
+            "description": "Urine samples were collected for the analysis of urine protein. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline Values in Blood Coagulation Factors: Activated Partial Thromboplastin Time and Prothrombin Time",
+            "description": "Blood samples were collected for the analysis of blood coagulation factors:activated partial thromboplastin time (aPTT) and Prothrombin Time (PT). Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 23, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline Values in Blood Coagulation Factor: Prothrombin International Normalized Ratio",
+            "description": "Blood samples were collected for the analysis of blood coagulation factor: Prothrombin International normalized ratio. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 23, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Complement C3 Level at Worst Case Post Baseline Relative to Baseline",
+            "description": "Blood samples were collected from participants to evaluate change in complement C3 level at worst case post Baseline relative to Baseline. Worst case post Baseline in Complement C3 was the minimum post-Baseline level. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and up to Day 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Complement C5a Level at Worst Case Post Baseline Relative to Baseline",
+            "description": "Blood samples were collected from participants to evaluate change in complement C5a level at worst case post Baseline relative to Baseline. Worst case post Baseline in Complement C5a was the maximum post-Baseline level. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and up to Day 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change in Complement Bb Level at Worst Case Post Baseline Relative to Baseline",
+            "description": "Blood samples were collected from participants to evaluate change in complement Bb level at worst case post Baseline relative to Baseline. Worst case post Baseline in Complement Bb was the maximum post-Baseline level. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and up to Day 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Reported Pregnancy",
+            "description": "Female participants who were not surgically sterile or post-menopausal, underwent urine beta Human chorionic gonadotropin (Beta-HCG) pregnancy test.",
+            "timeFrame": "Up to Day 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Body Temperature",
+            "description": "Body temperature was measured at indicated timepoints. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Body Weight",
+            "description": "Body weight was measured at indicated time points. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 19,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Diastolic Blood Pressure and Systolic Blood Pressure",
+            "description": "Diastolic Blood Pressure (DBP) and Systolic Blood Pressure (SBP) was measured at indicated timepoints. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 20,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Respiratory Rate",
+            "description": "Respiratory Rate was measured at indicated timepoints. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 21,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Pulse Rate",
+            "description": "Pulse Rate was measured at indicated timepoints. Baseline value is defined as last non-missing measurement prior to the first dose of study drug. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Days 29, 57, 85, 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 22,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants With Abnormal Findings in Physical Examination",
+            "description": "Physical examinations included assessment of the dermatologic, cardiovascular, respiratory, gastrointestinal, and neurological systems.",
+            "timeFrame": "Up to Day 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 23,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Number of Participants Who Received Atleast One Concomitant Medication",
+            "description": "A concomitant medication is defined as any medication initiated after the first dose of study, or initiated prior to the first dose of study drug and continued after the first dose of study drug.",
+            "timeFrame": "Up to Day 211"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 24,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Electrocardiogram Mean Ventricular Rate",
+            "description": "Triplicate 12-lead Electrocardiograms (ECGs) were recorded at indicated timepoints. At each time point, ECG machine automatically measured mean ventricular rate (VR). Baseline ECG was the average of the triplicate taken on Day 1 Pre-dose, if only 1 or 2 assessments were available, the single assessment or average of the 2 assessments was used. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose); Day1: 3 hours post-dose, 5 hours post-dose; Day 2; Day 22:pre-dose, 3 hours postdose, 5 hours post-dose; Days 23, 29 and 113"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 25,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in PR Interval, QRS Duration, Uncorrected QT Interval, QT Corrected Interval-Fredericia Interval and QTc Corrected by Bazett's Formula",
+            "description": "Triplicate 12-lead Electrocardiograms (ECGs) were recorded at indicated timepoints. At each time point, ECG machine automatically measured QRS duration, uncorrected QT interval, QT corrected interval-Fredericia \\[QTcF\\] interval and QTc corrected by Bazett's formula (QTcB). Baseline ECG was the average of the triplicate taken on Day 1 Pre-dose, if only 1 or 2 assessments were available, the single assessment or average of the 2 assessments was used. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose); Day1: 3 hours post-dose, 5 hours post-dose; Day 2; Day 22:pre-dose, 3 hours postdose, 5 hours post-dose; Days 23, 29 and 113"
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 9,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.65,
+          0.96,
+          0.4,
+          0.1
+        ],
+        [
+          0.62,
+          0.96,
+          0.62,
+          0.2
+        ],
+        [
+          0.96,
+          0.72,
+          0.62,
+          0.05
+        ],
+        [
+          0.97,
+          0.7,
+          0.72,
+          0.2
+        ],
+        [
+          0.86,
+          0.35,
+          0.6,
+          0.18
+        ],
+        [
+          0.5,
+          0.3,
+          0.9,
+          0.2
+        ],
+        [
+          0.65,
+          0.3,
+          0.92,
+          0.08
+        ],
+        [
+          0.72,
+          0.38,
+          0.94,
+          0.12
+        ],
+        [
+          0.22,
+          0.32,
+          0.2,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Hepatitis B Virus (HBV) Deoxyribonucleic Acid (DNA) Viral Load in Plasma at Day 29",
+            "description": "Blood samples were collected from participants to assess HBV DNA viral load. Baseline is the last non-missing measurement prior to the first dose of study drug. The concentrations were logarithmic transformed with base 10 in this analysis. Change from Baseline is defined as post-dose visit value minus Baseline value. The last observation carried forward (LOCF) method was used to impute missing values at Day 29 in this analysis.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Day 29"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Hepatitis B Virus (HBV) Deoxyribonucleic Acid (DNA) Viral Load in Plasma at Week 31",
+            "description": "Blood samples were collected from participants to assess HBV DNA viral load. Baseline is the last non-missing measurement prior to the first dose of study drug. The concentrations were logarithmic transformed with base 10 in this analysis. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Week 31"
+          },
+          "pred_item": {
+            "measure": "Change in plasma HBV DNA concentration",
+            "description": "Change from baseline in quantitative plasma HBV DNA levels, and proportion of participants achieving specified log10 reductions in HBV DNA.",
+            "timeFrame": "Baseline to day 29 and to week 31 (day 211)."
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in HBV Surface Antigen (HBsAg) Level in Serum at Day 29",
+            "description": "Blood samples were collected from participants to assess HBsAg level. Baseline is the last non-missing measurement prior to the first dose of study drug. The concentrations were logarithmic transformed with base 10 in this analysis. Change from Baseline is defined as post-dose visit value minus Baseline value. The LOCF method was used to impute missing values at Day 29 in this analysis.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Day 29"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in HBsAg Level in Serum at Week 31",
+            "description": "Blood samples were collected from participants to assess HBsAg level. Baseline is the last non-missing measurement prior to the first dose of study drug. The concentrations were logarithmic transformed with base 10 in this analysis. Change from Baseline is defined as post-dose visit value minus Baseline value.",
+            "timeFrame": "Baseline (Day 1 pre-dose) and Week 31"
+          },
+          "pred_item": {
+            "measure": "Change in serum HBsAg concentration",
+            "description": "Change from baseline in quantitative serum hepatitis B surface antigen (HBsAg) levels, and proportion of participants achieving HBsAg loss (HBsAg below the lower limit of quantitation).",
+            "timeFrame": "Baseline to day 29 and to week 31 (day 211)."
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants Who Achieved HBsAg Loss at Day 29 and Week 31",
+            "description": "Blood samples were collected to evaluate the percentage of participants with HBsAg loss at Day 29 and Week 31. A 'Loss' of HBsAg means antigen is negative. HBsAg Loss percentage is defined as number of participants with HBsAg loss divided by total number of participants assessed multiplied by 100. Baseline is the last non-missing measurement prior to the first dose of study drug.",
+            "timeFrame": "At Day 29 and Week 31"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Participants Who Achieved HBV e Antigen (HBeAg) Loss at Day 29 and Week 31 Who Were HBeAg Positive at Baseline",
+            "description": "Blood samples were collected to evaluate the percentage of participants with HBeAg loss at Day 29 and Week 31. A 'Loss' of HBeAg means antigen is negative. HBeAg Loss percentage is defined as number of participants with HBeAg loss divided by number of participants with positive HBeAg at Baseline multiplied by 100. Baseline is the last non-missing measurement prior to the first dose of study drug. Participants was considered HBeAg positive at Baseline if the Baseline value\\> 0.09 U/mL.",
+            "timeFrame": "Baseline (Day 1, Pre dose) and at Day 29 and Week 31"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Serum HBeAg Concentration at Day 29 in Participants Who Were HBeAg Positive at Baseline",
+            "description": "Blood samples were collected from participants to assess HBeAg level. Baseline is the last non-missing measurement prior to the first dose of study drug. The concentrations were logarithmic transformed with base 10 in this analysis. Change from Baseline is defined as post-dose visit value minus Baseline value. Participant was considered HBeAg positive at Baseline if the Baseline value\\> 0.09 International Units/milliliter (IU/mL).",
+            "timeFrame": "Baseline (Day 1, Pre dose) and at Day 29"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 2,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Serum HBeAg Concentration at Week 31 in Participants Who Were HBeAg Positive at Baseline",
+            "description": "Blood samples were collected from participants to assess HBeAg level. Baseline is the last non-missing measurement prior to the first dose of study drug. The concentrations were logarithmic transformed with base 10 in this analysis. Change from Baseline is defined as post-dose visit value minus Baseline value. Participant was considered HBeAg positive at Baseline if the Baseline value\\> 0.09 U/mL.",
+            "timeFrame": "Baseline (Day 1, Pre dose) and Week 31"
+          },
+          "pred_item": {
+            "measure": "Change in serum HBeAg concentration in HBeAg-positive participants",
+            "description": "Change from baseline in quantitative serum hepatitis B e antigen (HBeAg) levels and proportion of HBeAg-positive participants achieving HBeAg loss.",
+            "timeFrame": "Baseline to day 29 and to week 31 (day 211)."
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 3,
+          "score": 0.2,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Plasma Concentrations of GSK3228836 in Participants With Chronic HBV Infection",
+            "description": "Plasma samples were collected from participants with chronic HBV infection at indicated time points for pharmacokinetic analysis of GSK3228836.",
+            "timeFrame": "Day 1:pre-dose, 0.5, 1, 1.5, 2, 3, 4, 5, and 6 hours post-dose, Days 2 and 23: 24 hours post-dose, Day 4: 72 hours post-dose, Days 8 and 15: pre-dose, Day 22: pre-dose, 0.5, 1, 1.5, 2, 3, 4, 5, and 6 hours post-dose, and Days 29, 36, 57, 85, 113, and 211"
+          },
+          "pred_item": {
+            "measure": "Safety and tolerability of tenofovir disoproxil fumarate (and entecavir if administered) following bepirovirsen",
+            "description": "Incidence, nature, and severity of adverse events occurring after initiation of nucleos(t)ide analog therapy (tenofovir disoproxil fumarate or entecavir) following completion of bepirovirsen or placebo administration.",
+            "timeFrame": "From day 29 (start of NA therapy) to end of study (day 211, week 31)."
+          }
+        }
+      ]
+    }
+  ]
+}

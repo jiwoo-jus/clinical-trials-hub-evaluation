@@ -1,0 +1,203 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02981602",
+      "secondaryIdInfos": [
+        {
+          "id": "205695",
+          "type": "OTHER",
+          "domain": "GlaxoSmithKline",
+          "link": "https://www.gsk-studyregister.com/en/trial-details/?id=205695"
+        },
+        {
+          "id": "ISIS 505358-CS3",
+          "type": "OTHER",
+          "domain": "Ionis Pharmaceuticals, Inc."
+        }
+      ],
+      "organization": {
+        "fullName": "GlaxoSmithKline",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "Safety and Activity of Bepirovirsen in Individuals with Chronic Hepatitis B"
+    },
+    "descriptionModule": {
+      "briefSummary": "This Phase 2 double-blinded, randomized, placebo-controlled trial evaluated the safety, tolerability, and antiviral activity of bepirovirsen, an antisense oligonucleotide targeting hepatitis B virus (HBV) RNA. The study involved individuals with chronic hepatitis B (CHB), including both treatment-naïve participants and those receiving stable nucleos(t)ide analog (NA) therapy. The primary objective was to assess the safety profile of bepirovirsen, while secondary objectives assessed antiviral activity, specifically the reduction of serum hepatitis B surface antigen (HBsAg) concentrations and HBV DNA.",
+      "detailedDescription": "Chronic HBV infection is associated with significant morbidity, including cirrhosis and hepatocellular carcinoma. Bepirovirsen is a 2′-O-methoxyethyl (2′-MOE) gapmer antisense oligonucleotide that targets all HBV messenger RNAs, aiming to reduce viral proteins and DNA. In this study (NCT02981602), participants with CHB infection were enrolled from centers in Hong Kong and the Republic of Korea. The trial included a dose-escalation design for treatment-naïve patients (randomized to placebo, bepirovirsen 150 mg, or bepirovirsen 300 mg) and an exploratory cohort for patients on stable NA therapy (randomized to placebo or bepirovirsen 300 mg). Study drug or placebo was administered via subcutaneous injection twice weekly for the first two weeks and once weekly for the subsequent two weeks (total of 4 weeks treatment), followed by a 26-week observation period. Key efficacy endpoints included changes from baseline to Day 29 in serum HBsAg and plasma HBV DNA levels. Safety assessments monitored treatment-emergent adverse events, including injection site reactions and alanine aminotransferase (ALT) flares."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Hepatitis B",
+        "Hepatitis B Virus Infection"
+      ],
+      "keywords": [
+        "Bepirovirsen",
+        "Antisense Oligonucleotide",
+        "HBsAg",
+        "HBV DNA",
+        "Nucleos(t)ide Analogs",
+        "Viral Hepatitis",
+        "Functional Cure"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Double-blinded, placebo-controlled, dose-escalation trial in treatment-naïve (cohorts 1–3) and stable NA therapy (cohort 4) patients. Participants were randomized 3:1 within each dose cohort to receive bepirovirsen or placebo.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "All participants, study monitors, study center personnel and contract research organization personnel were blinded to treatment assignment.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 31,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Treatment-naïve: Bepirovirsen 150 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Participants not receiving NA therapy received bepirovirsen 150 mg via subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8 and 11) and once weekly during weeks 3 and 4 (days 15 and 22).",
+          "interventionNames": [
+            "Drug: Bepirovirsen"
+          ]
+        },
+        {
+          "label": "Treatment-naïve: Bepirovirsen 300 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Participants not receiving NA therapy received bepirovirsen 300 mg via subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8 and 11) and once weekly during weeks 3 and 4 (days 15 and 22).",
+          "interventionNames": [
+            "Drug: Bepirovirsen"
+          ]
+        },
+        {
+          "label": "Treatment-naïve: Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants not receiving NA therapy received placebo via subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8 and 11) and once weekly during weeks 3 and 4 (days 15 and 22).",
+          "interventionNames": [
+            "Drug: Placebo"
+          ]
+        },
+        {
+          "label": "On-NA: Bepirovirsen 300 mg",
+          "type": "EXPERIMENTAL",
+          "description": "Participants receiving stable NA therapy (TDF or ETV) received bepirovirsen 300 mg via subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8 and 11) and once weekly during weeks 3 and 4 (days 15 and 22).",
+          "interventionNames": [
+            "Drug: Bepirovirsen",
+            "Drug: Nucleos(t)ide analogs (NA)"
+          ]
+        },
+        {
+          "label": "On-NA: Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants receiving stable NA therapy (TDF or ETV) received placebo via subcutaneous injection twice weekly during weeks 1 and 2 (days 1, 4, 8 and 11) and once weekly during weeks 3 and 4 (days 15 and 22).",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Drug: Nucleos(t)ide analogs (NA)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Bepirovirsen",
+          "description": "Antisense oligonucleotide (ASO) targeting all HBV messenger RNAs administered via subcutaneous injection.",
+          "armGroupLabels": [
+            "Treatment-naïve: Bepirovirsen 150 mg",
+            "Treatment-naïve: Bepirovirsen 300 mg",
+            "On-NA: Bepirovirsen 300 mg"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Placebo matching bepirovirsen administered via subcutaneous injection.",
+          "armGroupLabels": [
+            "Treatment-naïve: Placebo",
+            "On-NA: Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Nucleos(t)ide analogs (NA)",
+          "description": "Stable therapy with tenofovir disoproxil fumarate (TDF) or entecavir (ETV) maintained for at least 12 months prior to screening and continued throughout the study.",
+          "armGroupLabels": [
+            "On-NA: Bepirovirsen 300 mg",
+            "On-NA: Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and tolerability",
+          "description": "Adverse events (AEs), clinical laboratory tests, vital signs and body weight, physical examination, electrocardiogram, and concomitant medication usage.",
+          "timeFrame": "Throughout the study"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Plasma HBV DNA concentration",
+          "description": "Change from baseline in plasma HBV DNA concentration.",
+          "timeFrame": "Day 29 and Week 31"
+        },
+        {
+          "measure": "Serum HBsAg concentration",
+          "description": "Change from baseline in serum HBsAg concentration; proportion of participants with HBsAg loss.",
+          "timeFrame": "Day 29 and Week 31"
+        },
+        {
+          "measure": "Serum HBeAg concentration",
+          "description": "Change from baseline in serum HBeAg concentration; proportion of participants with HBeAg loss (in patients who were HBeAg positive at baseline).",
+          "timeFrame": "Day 29 and Week 31"
+        },
+        {
+          "measure": "Plasma pharmacokinetics of bepirovirsen",
+          "description": "Assessment of plasma pharmacokinetics in patients with chronic HBV infection.",
+          "timeFrame": "During the treatment period"
+        },
+        {
+          "measure": "Safety and tolerability of TDF (and ETV if administered)",
+          "description": "Adverse events related to tenofovir disoproxil fumarate (and entecavir if administered) therapy.",
+          "timeFrame": "After Day 29"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Seroconversion to anti-HBs or anti-HBe antibody",
+          "description": "Proportion of patients with antibody positivity.",
+          "timeFrame": "Day 29 and Week 31"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Chronic HBV infection ≥6 months and serum HBsAg ≥50 IU ml−1\n* Both HBeAg-positive and HBeAg-negative patients\n* Treatment-naïve patients: plasma HBV DNA ≥2 × 10^3 IU ml−1\n* On-NA patients: HBV DNA adequately suppressed (plasma or serum HBV DNA below LLOQ (20 IU ml−1)), taking stable TDF or ETV for ≥12 months and expected to continue taking stable TDF or ETV without change through to the end of participation\n\nExclusion Criteria:\n* History of liver cirrhosis and/or evidence of cirrhosis, liver failure, liver disease other than hepatitis B\n* Gilbert’s syndrome or history of laboratory results consistent with Gilbert’s syndrome\n* Extrahepatic disorders possibly related to HBV immune complexes\n* Excess alcohol consumption\n* Co-infection with hepatitis C virus, hepatitis D virus or HIV\n* Screening laboratory values of ALT and AST >5× ULN\n* Treatment-naïve patients in current or prior receipt of anti-HBV NA therapy\n* Patients who had failed prior interferon treatment more than 6 months before screening may be evaluated for possible participation",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

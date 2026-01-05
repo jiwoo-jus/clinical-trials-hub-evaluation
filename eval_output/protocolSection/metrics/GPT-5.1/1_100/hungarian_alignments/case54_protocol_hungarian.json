@@ -1,0 +1,671 @@
+{
+  "metadata": {
+    "case_id": 54,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T16:55:04.962317",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/54_NCT01876212.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/54_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.87,
+          0.8
+        ],
+        [
+          0.28,
+          0.3,
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "id": "R01CA169118",
+            "type": "NIH",
+            "link": "https://reporter.nih.gov/quickSearch/R01CA169118"
+          },
+          "pred_item": {
+            "id": "R01 CA169118",
+            "type": "NIH",
+            "domain": "National Institutes of Health (NIH)",
+            "link": ""
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.4,
+          "status": "matched",
+          "ref_item": {
+            "id": "UPCI 12-048",
+            "type": "OTHER",
+            "domain": "University of Pittsburgh Cancer Institute"
+          },
+          "pred_item": {
+            "id": "P01 CA234212",
+            "type": "NIH",
+            "domain": "National Institutes of Health (NIH)",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.9
+        ],
+        [
+          0.9,
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Vaccine + dasatinib",
+            "type": "EXPERIMENTAL",
+            "description": "Patients will start vaccine on cycle 1, day 1 and dasatinib on cycle 2, day 1 (week 5).\n\nAll patients will receive dasatinib at a starting dose of 70 mg twice daily by mouth in the outpatient setting. Dasatinib will be supplied as 50 mg and 20 mg tablets. Patients will take 1 of the 50 mg tablets and 1 of the 20 mg tablets twice daily, approximately every 12 hours, at the same time each day.\n\nThe DC vaccine will be administered by a single intradermal injection of approximately 10e7 cells, with all the DCs being administered on days 1 and 15 of each cycle. The intradermal administration will be in the vicinity of the four nodal drainage groups of the four extremities.",
+            "interventionNames": [
+              "Biological: DC vaccine",
+              "Drug: Dasatinib"
+            ]
+          },
+          "pred_item": {
+            "label": "Arm A: Vaccine + Delayed Dasatinib",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received autologous type-1-polarized dendritic cell (αDC1) vaccine loaded with six HLA-A2-presented tumor blood vessel antigen peptides (DLK1, EphA2, HBB, NRP1, RGS5, TEM1) administered as a single intradermal injection of approximately 10^7 cells on days 1 and 15 of each 28-day cycle. Oral dasatinib 70 mg twice daily was started at cycle 2, day 1 (week 5) and continued with vaccination for at least six cycles or until disease progression or unacceptable toxicity.",
+            "interventionNames": [
+              "Autologous αDC1/TBVA Peptide Vaccine",
+              "Dasatinib"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Vaccine + dasatinib from cycle 1",
+            "type": "EXPERIMENTAL",
+            "description": "Patients will start vaccine on cycle 1, day 1 and dasatinib on cycle 1, day 1.\n\nAll patients will receive dasatinib at a starting dose of 70 mg twice daily by mouth in the outpatient setting. Dasatinib will be supplied as 50 mg and 20 mg tablets. Patients will take 1 of the 50 mg tablets and 1 of the 20 mg tablets twice daily, approximately every 12 hours, at the same time each day.\n\nThe DC vaccine will be administered by a single intradermal injection of approximately 10e7 cells, with all the DCs being administered on days 1 and 15 of each cycle. The intradermal administration will be in the vicinity of the four nodal drainage groups of the four extremities.",
+            "interventionNames": [
+              "Biological: DC vaccine",
+              "Drug: Dasatinib"
+            ]
+          },
+          "pred_item": {
+            "label": "Arm B: Vaccine + Immediate Dasatinib",
+            "type": "EXPERIMENTAL",
+            "description": "Patients received autologous type-1-polarized dendritic cell (αDC1) vaccine loaded with six HLA-A2-presented tumor blood vessel antigen peptides (DLK1, EphA2, HBB, NRP1, RGS5, TEM1) administered as a single intradermal injection of approximately 10^7 cells on days 1 and 15 of each 28-day cycle. Oral dasatinib 70 mg twice daily was started on cycle 1, day 1 (week 1) and continued with vaccination for at least six cycles or until disease progression or unacceptable toxicity.",
+            "interventionNames": [
+              "Autologous αDC1/TBVA Peptide Vaccine",
+              "Dasatinib"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.72
+        ],
+        [
+          0.3,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "BIOLOGICAL",
+            "name": "DC vaccine",
+            "armGroupLabels": [
+              "Vaccine + dasatinib",
+              "Vaccine + dasatinib from cycle 1"
+            ],
+            "otherNames": [
+              "Type 1-polarized, autologous, DC vaccines incorporating tumor blood vessel antigen (TBVA)-derived peptides"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "Autologous αDC1/TBVA Peptide Vaccine",
+            "description": "An autologous monocyte-derived type-1-polarized dendritic cell (αDC1) vaccine generated from patient apheresis products. Cells are loaded ex vivo with six HLA-A2-presented peptides derived from tumor blood vessel antigens DLK1, EphA2, HBB, NRP1, RGS5, and TEM1, then cryopreserved and administered intradermally at a dose of approximately 10^7 cells per injection on days 1 and 15 of each 28-day treatment cycle into the nodal drainage regions of the four extremities.",
+            "armGroupLabels": [
+              "Arm A: Vaccine + Delayed Dasatinib",
+              "Arm B: Vaccine + Immediate Dasatinib"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Dasatinib",
+            "armGroupLabels": [
+              "Vaccine + dasatinib",
+              "Vaccine + dasatinib from cycle 1"
+            ],
+            "otherNames": [
+              "BMS-354825",
+              "Sprycel"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Dasatinib",
+            "description": "Oral tyrosine kinase inhibitor administered at 70 mg twice daily. In Arm A, dasatinib was initiated at cycle 2, day 1 (week 5). In Arm B, dasatinib was initiated at cycle 1, day 1 (week 1). Treatment was continued with concurrent αDC1/TBVA vaccination for at least six cycles or until disease progression, intercurrent illness, unacceptable adverse events, or unacceptable changes in the patient’s condition.",
+            "armGroupLabels": [
+              "Arm A: Vaccine + Delayed Dasatinib",
+              "Arm B: Vaccine + Immediate Dasatinib"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Immune Response Rate",
+            "description": "Immune Response is defined as improved peripheral blood CD8+ T cell responses against 3 or more peptide epitopes after active vaccination with Type I-polarized autologous dendritic cell (αDC1) vaccine incorporating 6 tumor blood vessel-associated antigen (TBVA)-derived peptides.\n\nThe measure of Immune Response for this study is expressed as a proportion of responders: The number of HLA-A2+ melanoma patients with improved peripheral blood CD8+ T cell responses (responders) divided by the total number of evaluable patients.",
+            "timeFrame": "Up to 13 months"
+          },
+          "pred_item": {
+            "measure": "Peripheral blood T cell response to vaccine peptides",
+            "description": "Proportion of patients who develop a positive CD8+ T cell response against at least three HLA-A2-presented TBVA peptides in the vaccine formulation, as measured by IFN-γ ELISPOT (greater than twofold increase over baseline and at least 10 specific spots per 1×10^5 immune cells, after background subtraction).",
+            "timeFrame": "Baseline and every 2 weeks on treatment, with primary assessment around week 5 and throughout study treatment"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 19,
+      "pred_count": 7,
+      "similarity_matrix": [
+        [
+          0.18,
+          0.92,
+          0.62,
+          0.1,
+          0.08,
+          0.08,
+          0.05
+        ],
+        [
+          0.08,
+          0.82,
+          0.3,
+          0.15,
+          0.08,
+          0.08,
+          0.05
+        ],
+        [
+          0.88,
+          0.15,
+          0.12,
+          0.1,
+          0.1,
+          0.05,
+          0.04
+        ],
+        [
+          0.1,
+          0.4,
+          0.98,
+          0.45,
+          0.05,
+          0.09,
+          0.07
+        ],
+        [
+          0.18,
+          0.2,
+          0.65,
+          0.94,
+          0.1,
+          0.1,
+          0.05
+        ],
+        [
+          0.2,
+          0.18,
+          0.08,
+          0.05,
+          0.45,
+          0.25,
+          0.9
+        ],
+        [
+          0.18,
+          0.17,
+          0.05,
+          0.05,
+          0.52,
+          0.25,
+          0.94
+        ],
+        [
+          0.18,
+          0.08,
+          0.12,
+          0.08,
+          0.72,
+          0.15,
+          0.2
+        ],
+        [
+          0.18,
+          0.18,
+          0.15,
+          0.18,
+          0.78,
+          0.15,
+          0.3
+        ],
+        [
+          0.15,
+          0.15,
+          0.15,
+          0.08,
+          0.82,
+          0.08,
+          0.25
+        ],
+        [
+          0.2,
+          0.1,
+          0.18,
+          0.1,
+          0.78,
+          0.22,
+          0.2
+        ],
+        [
+          0.2,
+          0.18,
+          0.2,
+          0.1,
+          0.78,
+          0.18,
+          0.35
+        ],
+        [
+          0.22,
+          0.18,
+          0.32,
+          0.1,
+          0.84,
+          0.15,
+          0.18
+        ],
+        [
+          0.08,
+          0.18,
+          0.12,
+          0.12,
+          0.72,
+          0.18,
+          0.23
+        ],
+        [
+          0.18,
+          0.08,
+          0.18,
+          0.18,
+          0.7,
+          0.25,
+          0.12
+        ],
+        [
+          0.22,
+          0.08,
+          0.18,
+          0.18,
+          0.7,
+          0.2,
+          0.18
+        ],
+        [
+          0.15,
+          0.18,
+          0.2,
+          0.08,
+          0.1,
+          0.4,
+          0.08
+        ],
+        [
+          0.2,
+          0.18,
+          0.12,
+          0.15,
+          0.62,
+          0.62,
+          0.2
+        ],
+        [
+          0.25,
+          0.18,
+          0.12,
+          0.18,
+          0.4,
+          0.42,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Best Clinical Response",
+            "description": "The number of treated patients by best clinical response achieved (tumor measurements via radiologic evaluation) using RECIST 1.1. Complete Response (CR): Disappearance of all target lesions. Any pathological lymph nodes (target or non-target) with reduction in short axis to \\<10 mm. Partial Response (PR): ≥30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters. Stable Disease (SD): Neither sufficient shrinkage to qualify for PR nor sufficient increase to qualify for PD, taking as reference the smallest sum diameters while on study. Progressive Disease (PD):≥20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study (this includes the baseline sum if that is the smallest on study). The sum must also demonstrate an absolute increase of ≥5 mm. The appearance ≥1 new lesion(s) is considered progression.",
+            "timeFrame": "Up to 13 months"
+          },
+          "pred_item": {
+            "measure": "Objective clinical response and objective response rate",
+            "description": "Objective clinical response (complete response, partial response, stable disease, progressive disease) and objective response rate (proportion of patients achieving complete or partial response) assessed by RECIST v1.1.",
+            "timeFrame": "Baseline imaging and approximately every 8–9 weeks until disease progression or end of study"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Objective Response Rate (ORR)",
+            "description": "The proportion of evaluable patients that achieved either partial or complete responses. Calculation: The number of patients who experienced a Partial Response (PR) + the number of patients who experienced a Complete Response (CR) / total number of response-evaluable patients.\n\nPer RECIST v1.1, Complete Response (CR): Disappearance of all target lesions. Any pathological lymph nodes (whether target or non-target) must have reduction in short axis to \\<10 mm. Partial Response (PR): At least a 30% decrease in the sum of diameters of target lesions, taking as reference the baseline sum diameters.",
+            "timeFrame": "Up to 13 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 0,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Worst Grade of Any Toxicity",
+            "description": "Number of participants and severity grades for treatment-relatedness scores of possibly, probably, or definitely.",
+            "timeFrame": "Up to 2 years"
+          },
+          "pred_item": {
+            "measure": "Safety and tolerability",
+            "description": "Incidence, type, and severity of adverse events graded by NCI CTCAE v4.0 in patients receiving autologous αDC1/TBVA peptide vaccines plus dasatinib.",
+            "timeFrame": "From first study treatment through end of study treatment and up to 1 year follow-up or death"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Progression-free Survival (PFS)",
+            "description": "The length of time after study treatment that a patient lives with disease but the disease does not progress. Patients were followed for 1 year after removal from study treatment or until death, whichever occurs first. Per RECIST 1.1, Progressive Disease is defined as a ≥ 20% increase in the sum of diameters of target lesions, taking as reference the smallest sum on study (this includes the baseline sum if that is the smallest on study). The sum must also demonstrate an absolute increase of ≥5 mm. The appearance ≥1 new lesion(s) is considered progression.",
+            "timeFrame": "Up to 15 months"
+          },
+          "pred_item": {
+            "measure": "Progression-free survival",
+            "description": "Time from start of study treatment to disease progression or death from any cause, whichever occurs first, based on RECIST v1.1 assessments.",
+            "timeFrame": "From treatment initiation until documented progression, death, or end of follow-up (up to 1 year after treatment discontinuation)"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 3,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Overall Survival (OS)",
+            "description": "The length of time from the start of study treatment, that patients remain alive.",
+            "timeFrame": "Up to 30 months"
+          },
+          "pred_item": {
+            "measure": "Overall survival",
+            "description": "Time from start of study treatment to death from any cause.",
+            "timeFrame": "From treatment initiation until death or end of follow-up (up to 1 year after treatment discontinuation)"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "T Cell-recruiting Chemokine CXCL10/IP-10",
+            "description": "Circulating serum concentration (levels) of T cell-recruiting chemokine CXCL10/IP-10 analyzed via ELISA assay. Higher levels of T cell-recruiting chemokine CXCL10/IP-1 correlate with patients exhibiting objective clinical response immunotherapy.",
+            "timeFrame": "At baseline (prior to treatment)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 6,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "T Cell-recruiting Chemokine CXCL10/IP-10",
+            "description": "Circulating serum concentration (levels) of T cell-recruiting chemokine CXCL10/IP-10 analyzed via ELISA assay. Higher levels of T cell-recruiting chemokine CXCL10/IP-1 correlate with patients exhibiting objective clinical response immunotherapy.",
+            "timeFrame": "At between 5 and 7 weeks, post treatment"
+          },
+          "pred_item": {
+            "measure": "Serum CXCL10 levels",
+            "description": "Changes in concentration of the pro-inflammatory chemokine CXCL10 in serum.",
+            "timeFrame": "Baseline and week 5 on treatment"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Treg CD4FoxP3 Suppressor Cells",
+            "description": "Percentage of Treg CD4FoxP3 suppressor cells in patients' peripheral blood. The accumulation of Treg CD4FoxP3 suppressor cell populations correlates with tumor progression (disease progression) and negative prognosis.",
+            "timeFrame": "At baseline (prior to treatment)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Treg CD4FoxP3 Suppressor Cells",
+            "description": "Percentage of Treg CD4FoxP3 suppressor cells in patients' peripheral blood. The accumulation of Treg CD4FoxP3 suppressor cell populations correlates with tumor progression (disease progression) and negative prognosis.",
+            "timeFrame": "At between 4 and 6 weeks, post treatment"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Treg CD4FoxP3 Suppressor Cells",
+            "description": "Percentage of Treg CD4FoxP3 suppressor cells in patients' peripheral blood. The accumulation of Treg CD4FoxP3 suppressor cell populations correlates with tumor progression (disease progression) and negative prognosis.",
+            "timeFrame": "At between 7 and 10 weeks, post treatment"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Monocytic Myeloid Derived Suppressor Cells (M-MDSC)",
+            "description": "Percentage of Monocytic Myeloid Derived Suppressor Cells (M-MDSC) present in patients' peripheral blood. The accumulation of M-MDSC populations correlates with tumor progression (disease progression) and negative prognosis.",
+            "timeFrame": "At baseline (prior to treatment)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Monocytic Myeloid Derived Suppressor Cells (M-MDSC)",
+            "description": "Percentage of Monocytic Myeloid Derived Suppressor Cells (M-MDSC) present in patients' peripheral blood. The accumulation of M-MDSC populations correlates with tumor progression (disease progression) and negative prognosis.",
+            "timeFrame": "At between 4 and 6 weeks, post treatment"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": 4,
+          "score": 0.84,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Monocytic Myeloid Derived Suppressor Cells (M-MDSC)",
+            "description": "Percentage of Monocytic Myeloid Derived Suppressor Cells (M-MDSC) present in patients' peripheral blood. The accumulation of M-MDSC populations correlates with tumor progression (disease progression) and negative prognosis.",
+            "timeFrame": "At between 7 and 10 weeks, post treatment"
+          },
+          "pred_item": {
+            "measure": "Changes in regulatory T cells and myeloid-derived suppressor cells in blood",
+            "description": "Changes in frequencies of CD4+Foxp3+ regulatory T cells, monocytic MDSC (HLA-DRnegCD3negCD11b+CD14+CD15negCD19negCD33+) and polymorphonuclear MDSC (HLA-DRnegCD3negCD11b+CD14negCD15+CD19negCD33+) in peripheral blood, measured by flow cytometry.",
+            "timeFrame": "Baseline and week 5 on treatment; additional time points every 2 weeks while on study when samples available"
+          }
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Polymorphonucler Myeloid-derived Suppressor Cells (PMN-MDSC)",
+            "description": "Percentage of Polymorphonucler myeloid-derived suppressor cells (PMN-MDSC) present in patients' peripheral blood. The accumulation/increase of M-MDSC populations correlates with tumor progression (disease progression) and negative prognosis.",
+            "timeFrame": "At baseline (prior to treatment)"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Polymorphonucler Myeloid-derived Suppressor Cells (PMN-MDSC)",
+            "description": "Percentage of Polymorphonucler myeloid-derived suppressor cells (PMN-MDSC) present in patients' peripheral blood. The accumulation/increase of M-MDSC populations correlates with tumor progression (disease progression) and negative prognosis.",
+            "timeFrame": "At between 4 and 6 weeks, post treatment"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Polymorphonucler Myeloid-derived Suppressor Cells (PMN-MDSC)",
+            "description": "Percentage of Polymorphonucler myeloid-derived suppressor cells (PMN-MDSC) present in patients' peripheral blood. The accumulation/increase of M-MDSC populations correlates with tumor progression (disease progression) and negative prognosis.",
+            "timeFrame": "At between 7 and 10 weeks, post treatment"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "EphA2 Protein Expression in Tumor Biopsies",
+            "description": "Level of EphA2 protein expression in tumor tissue biopsies.",
+            "timeFrame": "Up to 6 months"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": 5,
+          "score": 0.62,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Suppressor Cell Populations and Blood Vessels in Melanoma Tumor Biopsies",
+            "description": "Percentage of suppressor cell populations and blood vessels in melanoma tumor biopsies.",
+            "timeFrame": "Up to 6 months"
+          },
+          "pred_item": {
+            "measure": "Changes in vascular structure-related markers in tumor tissue",
+            "description": "Treatment-associated changes in tumor transcriptional profiles related to vascular structure, hypoxia, acidosis, and glycolysis, assessed by qRT-PCR and targeted gene expression panels (including OIRRA).",
+            "timeFrame": "Baseline tumor biopsy and on-treatment biopsy at week 5"
+          }
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "CD8+ T Cells Infiltration",
+            "description": "Percentage of CD8+ T cells infiltrating into melanoma lesions (tumor tissues).",
+            "timeFrame": "Up to 6 months"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

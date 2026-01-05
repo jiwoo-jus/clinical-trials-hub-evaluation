@@ -1,0 +1,330 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00195091",
+      "orgStudyIdInfo": {
+        "id": "0309006307",
+        "type": "<UNKNOWN>",
+        "link": ""
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "0611008853",
+          "type": "OTHER",
+          "domain": "Weill Cornell Medicine",
+          "link": ""
+        },
+        {
+          "id": "18-023",
+          "type": "OTHER",
+          "domain": "Memorial Sloan Kettering Cancer Center",
+          "link": ""
+        }
+      ],
+      "organization": {
+        "fullName": "Weill Cornell Medicine",
+        "class": "OTHER"
+      },
+      "briefTitle": "Phase II clinical trial of tetrathiomolybdate (TM) in high-risk breast cancer patients",
+      "officialTitle": "Phase II clinical trial of tetrathiomolybdate (TM) in high-risk breast cancer patients",
+      "acronym": ""
+    },
+    "descriptionModule": {
+      "briefSummary": "This study investigates the mechanisms by which copper depletion impacts metastasis in triple-negative breast cancer (TNBC). The orally bioavailable copper chelating agent tetrathiomolybdate (TM) has shown significant survival benefits in high-risk TNBC patients. Using two independent TNBC models, the researchers identified a discrete subpopulation of highly metastatic SOX2/OCT4+ cells within primary tumors that exhibit elevated intracellular copper levels and marked sensitivity to TM. Global proteomic and metabolomic profiling revealed that TM-mediated inactivation of mitochondrial Complex IV is the primary metabolic defect in the SOX2/OCT4+ cell population. The study also identifies the AMPK/mTORC1 energy sensor pathway as an important downstream mediator, and shows that AMPK inhibition rescues TM-mediated loss of invasion. Loss of the mitochondria-specific copper chaperone COX17 restricts copper deficiency to mitochondria and phenocopies TM-mediated alterations. These findings identify a copper-metabolism-metastasis axis with potential to enrich patient populations in next-generation therapeutic trials.",
+      "detailedDescription": "Triple-negative breast cancer (TNBC) is characterized by the absence of estrogen receptor (ER−), progesterone receptor (PR−), and HER2 overexpression (HER2−). TNBC accounts for 10-15% of all breast cancers and is associated with poor outcomes due to lack of response to current targeted therapies and higher rates of metastasis. Copper serves as a cofactor for metalloenzymes that contribute to malignant progression. The copper chelating agent tetrathiomolybdate (TM) has been associated with significant survival benefit in high-risk TNBC patients. A phase II clinical trial (NCT00195091) showed that TM was safe and well-tolerated, with event-free survival (EFS) of 72% and overall survival (OS) of 84% at median follow-up of 6.3 years. The TNBC cohort with stage 4 disease showed EFS of 69% after 2 years, a striking finding compared to median EFS and OS of less than 8 months and 12 months, respectively, in other trials.\n\nThis study uses in vivo lineage tracing of the metastatic compartment in primary breast tumors, together with proteomic and metabolomic profiling, to provide a direct link between copper-mediated metabolic reprogramming and metastasis in TNBC. Using the SOX2/OCT4-GFP promoter reporter system, the researchers lineage traced a subpopulation of SOX2+OCT4+ cancer cells within the primary tumor that exhibit stem cell phenotypes and enhanced potential for metastasis. These cells showed higher basal intracellular copper levels compared to reporter-negative cells and exhibited marked sensitivity to TM-mediated copper depletion.\n\nQuantitative protein abundance profiling using liquid chromatography-mass spectrometry (LC-MS) identified multiple subunits of mitochondrial Complex IV that were specifically downregulated after TM treatment in reporter-positive cells. Gene ontology analysis revealed enrichment of pathways involved in the mitochondrial electron transport chain (ETC). TM-mediated copper depletion led to degradation of Complex IV subunits and resulted in significant reduction (>60%) in oxidation of cytochrome c. Extracellular flux analysis showed that reporter-positive cells exhibited higher rates of oxygen consumption compared to reporter-negative cells, and TM treatment resulted in dramatic reduction in basal respiration and ATP-linked respiration in reporter-positive cells.\n\nTo confirm that mitochondrial copper depletion was responsible for the observed phenotypes, the researchers targeted COX17, a mitochondria-specific copper chaperone that transports copper to Complex IV. COX17 knockdown reduced oxygen consumption, ATP-linked respiration, invasion, and lung metastases, phenocopying TM-mediated alterations. TM-mediated reduction in oxidative phosphorylation (OXPHOS) decreased ATP production and triggered activation of the AMPK-mTORC1 pathway. AMPK inhibition rescued TM-mediated loss of invasion, demonstrating that AMPK is a downstream mediator of TM-mediated invasion defects.\n\nThese findings identify a copper-metabolism-metastasis axis and highlight its potential to be developed as a next-generation therapeutic approach for high-risk TNBC patients. The study provides mechanistic insights that may facilitate patient selection for future TM trials and advance TM into larger randomized phase II trials."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Triple Negative Breast Cancer",
+        "Metastatic Breast Cancer",
+        "Breast Neoplasms"
+      ],
+      "keywords": [
+        "Copper depletion",
+        "Tetrathiomolybdate",
+        "Triple negative breast cancer",
+        "Metastasis",
+        "Mitochondrial metabolism",
+        "Oxidative phosphorylation",
+        "Complex IV",
+        "SOX2",
+        "OCT4",
+        "Cancer stem cells",
+        "AMPK",
+        "mTORC1",
+        "COX17",
+        "Copper chelation",
+        "Metabolic reprogramming"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Phase II clinical trial of tetrathiomolybdate (TM) in high-risk breast cancer patients. The study evaluated TM as a copper chelating agent administered orally through drinking water.",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": null,
+          "whoMasked": []
+        }
+      },
+      "enrollmentInfo": {
+        "count": 75,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Control",
+          "type": "NO_INTERVENTION",
+          "description": "Mice or cells treated with vehicle (water for in vivo studies, or water/DMSO for in vitro studies) without tetrathiomolybdate (TM) or other copper chelating agents",
+          "interventionNames": []
+        },
+        {
+          "label": "Tetrathiomolybdate (TM) Treatment",
+          "type": "EXPERIMENTAL",
+          "description": "Mice treated with oral TM administered through drinking water (0.7 mg/day) or cells treated with TM (0.1-0.5 µM) to deplete copper",
+          "interventionNames": [
+            "Drug: Tetrathiomolybdate (TM)"
+          ]
+        },
+        {
+          "label": "Trientine Treatment",
+          "type": "EXPERIMENTAL",
+          "description": "Cells treated with trientine (50 µM), an independent copper chelator, to validate TM-mediated metabolic phenotypes",
+          "interventionNames": [
+            "Drug: Trientine"
+          ]
+        },
+        {
+          "label": "CTR1 Knockout",
+          "type": "EXPERIMENTAL",
+          "description": "Cells with CRISPR/Cas9-mediated knockout of copper transporter receptor 1 (CTR1) to achieve genetic model of global copper depletion",
+          "interventionNames": [
+            "Genetic: CTR1 Knockout"
+          ]
+        },
+        {
+          "label": "COX17 Knockdown",
+          "type": "EXPERIMENTAL",
+          "description": "Cells with shRNA-mediated knockdown of COX17 (mitochondrial copper chaperone) to restrict copper deficiency to mitochondria",
+          "interventionNames": [
+            "Genetic: COX17 Knockdown"
+          ]
+        },
+        {
+          "label": "COX20 Knockdown",
+          "type": "EXPERIMENTAL",
+          "description": "Cells with shRNA-mediated knockdown of COX20 (Complex IV assembly factor) to directly perturb Complex IV function",
+          "interventionNames": [
+            "Genetic: COX20 Knockdown"
+          ]
+        },
+        {
+          "label": "AMPK Activation",
+          "type": "EXPERIMENTAL",
+          "description": "Cells treated with pharmacological AMPK activators: AICAR (1.25 mM) or A-769662 (12.5 µM) to determine role of AMPK in invasion",
+          "interventionNames": [
+            "Drug: AICAR",
+            "Drug: A-769662"
+          ]
+        },
+        {
+          "label": "AMPK Inhibition",
+          "type": "EXPERIMENTAL",
+          "description": "Cells transfected with siRNA against AMPK to determine if AMPK inhibition rescues TM-mediated loss of invasion",
+          "interventionNames": [
+            "Genetic: siRNA AMPK"
+          ]
+        },
+        {
+          "label": "Copper Add-back",
+          "type": "EXPERIMENTAL",
+          "description": "Cells treated with TM plus copper supplementation (0.5 µM CuCl2) to rescue TM-mediated phenotypes",
+          "interventionNames": [
+            "Drug: Tetrathiomolybdate (TM)",
+            "Dietary Supplement: Copper Chloride (CuCl2)"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Tetrathiomolybdate (TM)",
+          "description": "Orally bioavailable copper chelating agent administered at 0.7 mg/day in drinking water for mice or 0.1-0.5 µM for cell culture to deplete intracellular copper to approximately 30% baseline levels",
+          "armGroupLabels": [
+            "Tetrathiomolybdate (TM) Treatment",
+            "Copper Add-back"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Trientine",
+          "description": "Independent copper chelator used at 50 µM in cell culture to validate TM-mediated metabolic phenotypes",
+          "armGroupLabels": [
+            "Trientine Treatment"
+          ]
+        },
+        {
+          "type": "GENETIC",
+          "name": "CTR1 Knockout",
+          "description": "CRISPR/Cas9-mediated knockout of copper transporter receptor 1 (CTR1) using guide sequence TTGGTGATCAATACAGCTGG to create genetic model of global copper depletion",
+          "armGroupLabels": [
+            "CTR1 Knockout"
+          ]
+        },
+        {
+          "type": "GENETIC",
+          "name": "COX17 Knockdown",
+          "description": "Lentiviral shRNA-mediated knockdown of cytochrome c oxidase 17 (COX17) using hairpins TRCN0000046062 and TRCN0000046060 to restrict copper delivery to mitochondria",
+          "armGroupLabels": [
+            "COX17 Knockdown"
+          ]
+        },
+        {
+          "type": "GENETIC",
+          "name": "COX20 Knockdown",
+          "description": "Lentiviral shRNA-mediated knockdown of COX20 (TRCN0000339218), a Complex IV assembly factor, to directly perturb Complex IV function",
+          "armGroupLabels": [
+            "COX20 Knockdown"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "AICAR",
+          "description": "Pharmacological AMPK activator (adenosine analogue 5-aminoimidazole-4-carboxamide riboside) used at 1.25 mM to activate AMPK and assess impact on invasion",
+          "armGroupLabels": [
+            "AMPK Activation"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "A-769662",
+          "description": "Pharmacological AMPK activator used at 12.5 µM to activate AMPK and assess impact on invasion",
+          "armGroupLabels": [
+            "AMPK Activation"
+          ]
+        },
+        {
+          "type": "GENETIC",
+          "name": "siRNA AMPK",
+          "description": "siRNA-mediated knockdown of AMPK (10 nM) to determine if AMPK inhibition rescues TM-mediated loss of invasion phenotype",
+          "armGroupLabels": [
+            "AMPK Inhibition"
+          ]
+        },
+        {
+          "type": "DIETARY_SUPPLEMENT",
+          "name": "Copper Chloride (CuCl2)",
+          "description": "Copper supplementation at 0.5 µM added to TM-treated cells to rescue copper depletion-mediated phenotypes including invasion and oxygen consumption",
+          "armGroupLabels": [
+            "Copper Add-back"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Event-free survival (EFS) in triple negative breast cancer (TNBC) patients",
+          "description": "EFS was measured as the time from treatment initiation to disease relapse or death. The study reported EFS of 59.3% for stage 4 NED TNBC patients at median follow-up of 9.4 years.",
+          "timeFrame": "Median follow-up of 9.4 years"
+        },
+        {
+          "measure": "Lung metastatic burden in preclinical models",
+          "description": "Metastatic burden was assessed by bioluminescence imaging (BLI) of lungs 2 weeks after primary tumor resection in orthotopic mouse models (LM2 and ML1).",
+          "timeFrame": "2 weeks after primary tumor resection"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Overall survival (OS) in breast cancer patients",
+          "description": "OS was measured from treatment initiation to death from any cause. The phase II trial reported OS of 84% at median follow-up of 6.3 years.",
+          "timeFrame": "Median follow-up of 6.3 years"
+        },
+        {
+          "measure": "Primary tumor growth",
+          "description": "Primary tumor volume was measured using calipers in orthotopic mouse models to assess the effect of TM on tumor growth.",
+          "timeFrame": "Up to 4 weeks or until tumors reached 1 cm³"
+        },
+        {
+          "measure": "Cell invasion capacity",
+          "description": "Invasion was assessed using Matrigel-coated transwell assays, measuring the number of cells that migrated through the matrix over 24 hours.",
+          "timeFrame": "24 hours after plating on transwell inserts"
+        },
+        {
+          "measure": "Intracellular copper levels",
+          "description": "Copper content was measured using graphite furnace atomic absorption spectrometry (GFAAS) to assess copper depletion following TM treatment.",
+          "timeFrame": "24-72 hours after TM treatment"
+        },
+        {
+          "measure": "Ceruloplasmin levels",
+          "description": "Serum ceruloplasmin, a copper-carrying protein, was measured to confirm systemic copper depletion in TM-treated mice.",
+          "timeFrame": "2 weeks after TM administration"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Mitochondrial Complex IV activity",
+          "description": "Complex IV enzyme activity was measured using a cytochrome c oxidase activity assay to assess the impact of copper depletion on mitochondrial function.",
+          "timeFrame": "72 hours after TM treatment"
+        },
+        {
+          "measure": "Oxygen consumption rate (OCR)",
+          "description": "OCR was measured using Seahorse XF bioanalyzer to assess mitochondrial respiration, including basal respiration and ATP-linked respiration.",
+          "timeFrame": "48-72 hours after TM treatment"
+        },
+        {
+          "measure": "SOX2/OCT4+ cell population frequency",
+          "description": "The percentage of SOX2/OCT4+ GFP+ cells in primary tumors was quantified by flow cytometry to assess the effect of TM on metastatic cell populations.",
+          "timeFrame": "At primary tumor harvest (4-6 weeks after tumor implantation)"
+        },
+        {
+          "measure": "AMPK activation",
+          "description": "Phosphorylation of AMPK at Thr172 was assessed by Western blot to determine activation of the AMPK energy sensor pathway following TM treatment.",
+          "timeFrame": "48-72 hours after TM treatment"
+        },
+        {
+          "measure": "Disseminated tumor cells in lungs",
+          "description": "The number of mCherry+ tumor cells in early lungs (without overt metastatic outgrowth) was quantified by flow cytometry to assess early dissemination.",
+          "timeFrame": "At the time of primary tumor resection"
+        },
+        {
+          "measure": "Mitochondrial cristae morphology",
+          "description": "Cristae structure was assessed by transmission electron microscopy, quantifying the number of perturbed cristae per mitochondrial area.",
+          "timeFrame": "72 hours after TM treatment"
+        },
+        {
+          "measure": "Glucose consumption and lactate production",
+          "description": "Glucose and lactate levels in cell culture supernatants were measured to assess metabolic reprogramming following TM treatment.",
+          "timeFrame": "72 hours after TM treatment"
+        },
+        {
+          "measure": "Mitochondrial ATP production rate",
+          "description": "The ratio of mitochondrial to glycolytic ATP production was measured using Seahorse ATP production rate assay.",
+          "timeFrame": "48-72 hours after TM treatment"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Not explicitly provided in the paper content. The paper describes preclinical research using cell lines and mouse models, not a clinical trial with human participant eligibility criteria.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A",
+      "stdAges": [],
+      "studyPopulation": "Not applicable - this is a preclinical study using cell lines (MDA-MB-231-LM2, EO771.ML1) and mouse models (C57Bl/6j mice, SCID mice)",
+      "samplingMethod": "NON_PROBABILITY_SAMPLE"
+    }
+  }
+}

@@ -1,0 +1,1154 @@
+{
+  "metadata": {
+    "case_id": 15,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-28T05:59:32.657205",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/15_NCT03201419.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/15_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 9,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.32
+        ],
+        [
+          0.78,
+          0.32
+        ],
+        [
+          0.72,
+          0.42
+        ],
+        [
+          0.7,
+          0.3
+        ],
+        [
+          0.7,
+          0.32
+        ],
+        [
+          0.6,
+          0.31
+        ],
+        [
+          0.2,
+          0.78
+        ],
+        [
+          0.6,
+          0.3
+        ],
+        [
+          0.52,
+          0.55
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "FE 201836 500 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "FE 201836 500 μg oral solution and placebo orally disintegrating tablet (ODT), administered once daily",
+            "interventionNames": [
+              "Drug: FE 201836",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": {
+            "label": "Novel drug candidate",
+            "type": "EXPERIMENTAL",
+            "description": "Participants received a novel drug candidate for nocturnal polyuria. The trial design included different dose–response scenarios.",
+            "interventionNames": [
+              "Novel drug candidate"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "FE 201836 350 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "FE 201836 350 μg oral solution and placebo ODT, administered once daily",
+            "interventionNames": [
+              "Drug: FE 201836",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "FE 201836 250 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "FE 201836 250 μg oral solution and placebo ODT, administered once daily",
+            "interventionNames": [
+              "Drug: FE 201836",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "FE 201836 150 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "FE 201836 150 μg oral solution and placebo ODT, administered once daily",
+            "interventionNames": [
+              "Drug: FE 201836",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "FE 201836 100 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "FE 201836 100 μg oral solution and placebo ODT, administered once daily",
+            "interventionNames": [
+              "Drug: FE 201836",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "FE 201836 50 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "FE 201836 50 μg oral solution and placebo ODT, administered once daily",
+            "interventionNames": [
+              "Drug: FE 201836",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "Placebo oral solution and placebo ODT, administered once daily",
+            "interventionNames": [
+              "Drug: Placebo oral solution",
+              "Drug: Placebo ODT"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Participants received a placebo control.",
+            "interventionNames": [
+              "Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Desmopressin 25 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "Desmopressin 25 μg ODT and placebo oral solution, administered once daily (female subjects)",
+            "interventionNames": [
+              "Drug: Desmopressin",
+              "Drug: Placebo oral solution"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Desmopressin 50 μg (Randomized Treatment Period)",
+            "type": "EXPERIMENTAL",
+            "description": "Desmopressin 50 μg ODT and placebo oral solution, administered once daily (male subjects)",
+            "interventionNames": [
+              "Drug: Desmopressin",
+              "Drug: Placebo oral solution"
+            ]
+          },
+          "pred_item": null
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.2
+        ],
+        [
+          0.6,
+          0.35
+        ],
+        [
+          0.4,
+          0.86
+        ],
+        [
+          0.3,
+          0.88
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "FE 201836",
+            "description": "Oral solution for daily intake",
+            "armGroupLabels": [
+              "FE 201836 100 μg (Randomized Treatment Period)",
+              "FE 201836 150 μg (Randomized Treatment Period)",
+              "FE 201836 250 μg (Randomized Treatment Period)",
+              "FE 201836 350 μg (Randomized Treatment Period)",
+              "FE 201836 50 μg (Randomized Treatment Period)",
+              "FE 201836 500 μg (Randomized Treatment Period)"
+            ],
+            "otherNames": [
+              "Velmupressin"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Novel drug candidate",
+            "description": "A novel drug candidate investigated for the treatment of nocturnal polyuria.",
+            "armGroupLabels": [
+              "Novel drug candidate"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Desmopressin",
+            "description": "Desmopressin Orally Disintegrating Tablet (ODT)",
+            "armGroupLabels": [
+              "Desmopressin 25 μg (Randomized Treatment Period)",
+              "Desmopressin 50 μg (Randomized Treatment Period)"
+            ],
+            "otherNames": [
+              "NOCDURNA"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo oral solution",
+            "description": "Manufactured to mimic experimental drug",
+            "armGroupLabels": [
+              "Desmopressin 25 μg (Randomized Treatment Period)",
+              "Desmopressin 50 μg (Randomized Treatment Period)",
+              "Placebo (Randomized Treatment Period)"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 1,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo ODT",
+            "description": "Manufactured to mimic experimental drug",
+            "armGroupLabels": [
+              "FE 201836 100 μg (Randomized Treatment Period)",
+              "FE 201836 150 μg (Randomized Treatment Period)",
+              "FE 201836 250 μg (Randomized Treatment Period)",
+              "FE 201836 350 μg (Randomized Treatment Period)",
+              "FE 201836 50 μg (Randomized Treatment Period)",
+              "FE 201836 500 μg (Randomized Treatment Period)",
+              "Placebo (Randomized Treatment Period)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo comparator used in the double-blind study.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Aggregated Mean Number of Nocturnal Voids During 12 Weeks of Treatment",
+            "description": "Nocturnal voids were defined as voids occuring from 5 minutes after bedtime until rising in the morning.\n\nThe number of nocturnal voids at each visit was calculated as the average over the 3 consecutive 24 hour periods just prior to the respective visit. The visit-specific means were aggregated into a mean of current and preceding visits.\n\nLevel estimated for baseline value of mean number of nocturnal voids equal to 2, and 95% credibility interval (2.5 and 97.5 percentiles of the posterior distribution) instead of confidence interval are presented in this endpoint.",
+            "timeFrame": "Baseline, during 12 weeks of treatment"
+          },
+          "pred_item": {
+            "measure": "Reduction in nocturnal voids",
+            "description": "Assessed using the night-time voiding diary where participants recorded the time of sleep, any awakenings for voiding, and the number of voids. The number of voids recorded over the three nights before the clinic visit was averaged.",
+            "timeFrame": "Baseline and Weeks 1, 4, 8, and 12"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 45,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.35,
+          0.32,
+          0.42
+        ],
+        [
+          0.32,
+          0.18,
+          0.3
+        ],
+        [
+          0.4,
+          0.28,
+          0.38
+        ],
+        [
+          0.55,
+          0.3,
+          0.35
+        ],
+        [
+          0.4,
+          0.32,
+          0.52
+        ],
+        [
+          0.7,
+          0.18,
+          0.32
+        ],
+        [
+          0.4,
+          0.32,
+          0.32
+        ],
+        [
+          0.4,
+          0.18,
+          0.28
+        ],
+        [
+          0.38,
+          0.2,
+          0.32
+        ],
+        [
+          0.86,
+          0.55,
+          0.48
+        ],
+        [
+          0.9,
+          0.32,
+          0.42
+        ],
+        [
+          0.9,
+          0.32,
+          0.42
+        ],
+        [
+          0.85,
+          0.32,
+          0.45
+        ],
+        [
+          0.95,
+          0.35,
+          0.42
+        ],
+        [
+          0.7,
+          0.33,
+          0.35
+        ],
+        [
+          0.55,
+          0.35,
+          0.32
+        ],
+        [
+          0.86,
+          0.7,
+          0.62
+        ],
+        [
+          0.78,
+          0.5,
+          0.62
+        ],
+        [
+          0.9,
+          0.42,
+          0.42
+        ],
+        [
+          0.86,
+          0.6,
+          0.68
+        ],
+        [
+          0.86,
+          0.35,
+          0.63
+        ],
+        [
+          0.4,
+          0.65,
+          0.86
+        ],
+        [
+          0.55,
+          0.6,
+          0.9
+        ],
+        [
+          0.4,
+          0.6,
+          0.93
+        ],
+        [
+          0.4,
+          0.42,
+          0.95
+        ],
+        [
+          0.32,
+          0.9,
+          0.6
+        ],
+        [
+          0.35,
+          0.82,
+          0.62
+        ],
+        [
+          0.45,
+          0.92,
+          0.55
+        ],
+        [
+          0.3,
+          0.9,
+          0.32
+        ],
+        [
+          0.76,
+          0.62,
+          0.62
+        ],
+        [
+          0.78,
+          0.7,
+          0.68
+        ],
+        [
+          0.74,
+          0.78,
+          0.72
+        ],
+        [
+          0.8,
+          0.6,
+          0.62
+        ],
+        [
+          0.38,
+          0.25,
+          0.32
+        ],
+        [
+          0.35,
+          0.18,
+          0.32
+        ],
+        [
+          0.4,
+          0.2,
+          0.32
+        ],
+        [
+          0.2,
+          0.18,
+          0.32
+        ],
+        [
+          0.3,
+          0.15,
+          0.28
+        ],
+        [
+          0.32,
+          0.18,
+          0.18
+        ],
+        [
+          0.42,
+          0.12,
+          0.35
+        ],
+        [
+          0.35,
+          0.1,
+          0.2
+        ],
+        [
+          0.38,
+          0.18,
+          0.42
+        ],
+        [
+          0.4,
+          0.25,
+          0.32
+        ],
+        [
+          0.3,
+          0.12,
+          0.22
+        ],
+        [
+          0.42,
+          0.18,
+          0.32
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean Number of Nocturnal Voids at Week 1",
+            "description": "Nocturnal voids were defined as voids occuring from 5 minutes after bedtime until rising in the morning.\n\nThe number of nocturnal voids at each visit was calculated as the average over the 3 consecutive 24 hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in nocturnal voids are estimated using a baseline value of 2.\n\nMMRM=Mixed Model for Repeated Measurements.\n\nFor all visit-specific results, the tables present the number of subjects with an observation of the endpoints in question at the specific visit. All secondary analyses are performed using the observed-case approach based on repeated measurements for all subjects in the ITT-RT population. That is, these secondary analyses are based on all subjects with at least one non-missing post-baseline observation (with a baseline value if relevant).",
+            "timeFrame": "Baseline, Week 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean Number of Nocturnal Voids at Week 4",
+            "description": "Nocturnal voids were defined as voids occuring from 5 minutes after bedtime until rising in the morning.\n\nThe number of nocturnal voids at each visit was calculated as the average over the 3 consecutive 24 hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in nocturnal voids are estimated using a baseline value of 2.",
+            "timeFrame": "Baseline, Week 4"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean Number of Nocturnal Voids at Week 8",
+            "description": "Nocturnal voids were defined as voids occuring from 5 minutes after bedtime until rising in the morning.\n\nThe number of nocturnal voids at each visit was calculated as the average over the 3 consecutive 24 hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in nocturnal voids are estimated using a baseline value of 2.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean Number of Nocturnal Voids at Week 12",
+            "description": "Nocturnal voids were defined as voids occuring from 5 minutes after bedtime until rising in the morning.\n\nThe number of nocturnal voids at each visit was calculated as the average over the 3 consecutive 24 hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in nocturnal voids are estimated using a baseline value of 2.",
+            "timeFrame": "Baseline, Week 12"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Responder Rate in Nocturnal Voids at Week 1",
+            "description": "Defined as 50% reduction in nocturnal voids from baseline.\n\nAdjusted visit-specific estimated odds of at least 50% in the reduction mean number of nocturnal voids are estimated using a baseline value of 2.\n\nThe estimated odd equals the probability of response divided by the probability of non-response; these odds may vary between 0 and infinity. For example, if the probability of responding is 80%, the odd of responding is 4, as it is 4 times more likely to respond (80%) then it is not to respond (20%).",
+            "timeFrame": "Week 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Responder Rate in Nocturnal Voids at Week 4",
+            "description": "Defined as 50% reduction in nocturnal voids from baseline.\n\nAdjusted visit-specific estimated odds of at least 50% reduction in the mean number of nocturnal voids are estimated using a baseline value of 2.\n\nThe estimated odd equals the probability of response divided by the probability of non-response; these odds may vary between 0 and infinity. For example, if the probability of responding is 80%, the odd of responding is 4, as it is 4 times more likely to respond (80%) then it is not to respond (20%).",
+            "timeFrame": "Week 4"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Responder Rate in Nocturnal Voids at Week 8",
+            "description": "Defined as 50% reduction in nocturnal voids from baseline.\n\nAdjusted visit-specific estimated odds of at least 50% reduction in the mean number of nocturnal voids are estimated using a baseline value of 2.\n\nThe estimated odd equals the probability of response divided by the probability of non-response; these odds may vary between 0 and infinity. For example, if the probability of responding is 80%, the odd of responding is 4, as it is 4 times more likely to respond (80%) then it is not to respond (20%).",
+            "timeFrame": "Week 8"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Responder Rate in Nocturnal Voids at Week 12",
+            "description": "Defined as 50% reduction in nocturnal voids from baseline.\n\nAdjusted visit-specific estimated odds of at least 50% reduction in the mean number of nocturnal voids are estimated using a baseline value of 2.\n\nThe estimated odd equals the probability of response divided by the probability of non-response; these odds may vary between 0 and infinity. For example, if the probability of responding is 80%, the odd of responding is 4, as it is 4 times more likely to respond (80%) then it is not to respond (20%).",
+            "timeFrame": "Week 12"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Responder Rate in Nocturnal Voids During 12 Weeks of Treatment",
+            "description": "Defined as 50% reduction in nocturnal voids from baseline.\n\nEstimated odds of at least 50% reduction in the aggregated mean number of nocturnal voids for a subject with 2 nocturnal voids at baseline are presented in this endpoint.\n\nThe 95% credibility interval (2.5 and 97.5 percentiles of the posterior distribution) instead of confidence interval is presented for this endpoint.\n\nThe estimated odd equals the probability of response divided by the probability of non-response; these odds may vary between 0 and infinity. For example, if the probability of responding is 80%, the odd of responding is 4, as it is 4 times more likely to respond (80%) then it is not to respond (20%).",
+            "timeFrame": "During 12 weeks of treatment"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean NI Diary Total Score at Week 1",
+            "description": "The NI Diary is a 12-item questionnaire with 11 core items (Q1-Q11) and an overall quality of life (QoL) impact question (Q12). The NI Diary Total Scores are calculated by summing the 11 core items.Responses are scored from 0 to 4 (lowest t o highest impact). The NI Diary Total is standardized from 0 to 100 (lowest to highest impact).\n\nThe score at each visit was calculated as the average over the three consecutive 24 hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in NI Diary Total Score are estimated using a baseline value of 40.",
+            "timeFrame": "Baseline, Week 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean NI Diary Total Score at Week 4",
+            "description": "The NI Diary is a 12-item questionnaire with 11 core items (Q1-Q11) and an overall QoL impact question (Q12). The NI Diary Total Scores are calculated by summing the 11 core items. Responses are scored from 0 to 4 (lowest to highest impact). The NI Diary Total is standardized from 0 to 100 (lowest to highest impact).\n\nThe score at each visit was calculated as the average over the three consecutive 24 hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in NI Diary Total Score are estimated using a baseline value of 40.",
+            "timeFrame": "Baseline, Week 4"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 11,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean NI Diary Total Score at Week 8",
+            "description": "The NI Diary is a 12-item questionnaire with 11 core items (Q1-Q11) and an overall QoL impact question (Q12). The NI Diary Total Scores are calculated by summing the 11 core items. Responses are scored from 0 to 4 (lowest to highest impact). The NI Diary Total is standardized from 0 to 100 (lowest to highest impact).\n\nThe score at each visit was calculated as the average over the three consecutive 24 hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in NI Diary Total Score are estimated using a baseline value of 40.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 12,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean NI Diary Total Score at Week 12",
+            "description": "The NI Diary is a 12-item questionnaire with 11 core items (Q1-Q11) and an overall QoL impact question (Q12). The NI Diary Total Scores are calculated by summing the 11 core items. Responses are scored from 0 to 4 (lowest to highest impact). The NI Diary Total is standardized from 0 to 100 (lowest to highest impact).\n\nThe score at each visit was calculated as the average over the three consecutive 24 hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in NI Diary Total Score are estimated using a baseline value of 40.",
+            "timeFrame": "Baseline, Week 12"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 13,
+          "pred_idx": 0,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Aggregated Mean NI Diary Total Score During 12 Weeks of Treatment",
+            "description": "The NI Diary is a 12-item questionnaire with 11 core items (Q1-Q11) and an overall QoL impact question (Q12). The NI Diary Total Scores are calculated by summing the 11 core items. Responses are scored from 0 to 4 (lowest to highest impact). The NI Diary Total is standardized from 0 to 100 (lowest to highest impact).\n\nThe score at each visit was calculated as the mean over the three consecutive 24 hour periods just prior to the respective visit. The visit-specific means were aggregated into a mean of current and preceding visits.\n\nLevel estimated for baseline value of mean NI Diary Total Score equal to 40 is presented in this endpoint.\n\nThe 95% credibility interval (2.5 and 97.5 percentiles of the posterior distribution) instead of confidence interval is presented for this endpoint.",
+            "timeFrame": "Baseline, during 12 weeks of treatment"
+          },
+          "pred_item": {
+            "measure": "Nocturia Impact (NI) Diary",
+            "description": "A 12-item questionnaire with 11 core items and a single overall QoL impact question (Q12) that assesses the daily symptom impact of nocturia. Each item is rated on a 5-point response scale. The total score ranges from 0 (lowest severity) to 44 (greatest severity), transformed to a 0–100 scale.",
+            "timeFrame": "Baseline and Weeks 1, 4, 8, and 12"
+          }
+        },
+        {
+          "ref_idx": 14,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Nights With at Most One Nocturnal Void During 12 Weeks of Treatment",
+            "description": "The percentages of nights during the treatment period with at most one nocturnal void are presented in this endpoint.\n\nLevel estimated for baseline value of mean number of nocturnal voids equal to 2 is presented in this endpoint.",
+            "timeFrame": "During 12 weeks of treatment"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 15,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Percentage of Nights With No Nocturnal Voids During 12 Weeks of Treatment",
+            "description": "The percentages of nights during the treatment period with complete response, i.e. no nocturnal voids are presented in this endpoint.\n\nLevel estimated for baseline value of mean number of nocturnal voids equal to 2 is presented in this endpoint.",
+            "timeFrame": "During 12 weeks of treatment"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 16,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean NI Diary Overall Impact Score at Week 1",
+            "description": "The NI Diary is a 12-item questionnaire with 11 core items (Q1-Q11) and an overall QoL impact question (Q12). For the overall impact question (Q12), response options range from 0 (not at all) to 4 (a great deal). The NI Diary Overall Impact Scores are standardized from 0 to 100 (lowest to highest impact).\n\nThe score at each visit was calculated as the average over the three consecutive 24 hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in NI Diary Overall Impact Score are estimated using a baseline value of 40.",
+            "timeFrame": "Baseline, Week 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 17,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean NI Diary Overall Impact Score at Week 4",
+            "description": "The NI Diary is a 12-item questionnaire with 11 core items (Q1-Q11) and an overall QoL impact question (Q12). For the overall impact question (Q12), response options range from 0 (not at all) to 4 (a great deal). The NI Diary Overall Impact Scores are standardized from 0 to 100 (lowest to highest impact).\n\nThe score at each visit was calculated as the average over the three consecutive 24 hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in NI Diary Overall Impact Score are estimated using a baseline value of 40.",
+            "timeFrame": "Baseline, Week 4"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 18,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean NI Diary Overall Impact Score at Week 8",
+            "description": "The NI Diary is a 12-item questionnaire with 11 core items (Q1-Q11) and an overall QoL impact question (Q12). For the overall impact question (Q12), response options range from 0 (not at all) to 4 (a great deal). The NI Diary Overall Impact Scores are standardized from 0 to 100 (lowest to highest impact).\n\nThe score at each visit was calculated as the average over the three consecutive 24 hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in NI Diary Overall Impact Score are estimated using a baseline value of 40.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 19,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean NI Diary Overall Impact Score at Week 12",
+            "description": "The NI Diary is a 12-item questionnaire with 11 core items (Q1-Q11) and an overall QoL impact question (Q12). For the overall impact question (Q12), response options range from 0 (not at all) to 4 (a great deal). The NI Diary Overall Impact Scores are standardized from 0 to 100 (lowest to highest impact).\n\nThe score at each visit was calculated as the average over the three consecutive 24 hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in NI Diary Overall Impact Score are estimated using a baseline value of 40.",
+            "timeFrame": "Baseline, Week 12"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 20,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Aggregated Mean NI Diary Overall Impact Score During 12 Weeks of Treatment",
+            "description": "The NI Diary is a 12-item questionnaire with 11 core items (Q1-Q11) and an overall QoL impact question (Q12). For the overall impact question (Q12), response options range from 0 (not at all) to 4 (a great deal). The NI Diary Overall Impact Scores are standardized from 0 to 100 (lowest to highest impact).\n\nThe score at each visit was calculated as the average over the three consecutive 24 hour periods just prior to the respective visit. The visit-specific means were aggregated into a mean of current and preceding visits.\n\nLevel estimated for baseline value of mean NI Diary Overall Impact Score equal to 40 is presented in this endpoint.\n\nThe 95% credibility interval (2.5 and 97.5 percentiles of the posterior distribution) instead of confidence interval is presented for this endpoint.",
+            "timeFrame": "Baseline, during 12 weeks of treatment"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 21,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Patient Global Impression of Improvement (PGI-I) Urinary Symptoms Scores at Week 1",
+            "description": "The PGI-I is a 1-item questionnaire designed to assess the patient's impression of changes in urinary symptoms. The PGI-I was scored from 1 (very much better) to 7 (very much worse).\n\nVisit-specific PGI-I in urinary symptoms is presented in this endpoint.",
+            "timeFrame": "Week 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 22,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Patient Global Impression of Improvement (PGI-I) Urinary Symptoms Scores at Week 4",
+            "description": "The PGI-I is a 1-item questionnaire designed to assess the patient's impression of changes in urinary symptoms. The PGI-I was scored from 1 (very much better) to 7 (very much worse).\n\nVisit-specific PGI-I in urinary symptoms is presented in this endpoint.",
+            "timeFrame": "Week 4"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 23,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Patient Global Impression of Improvement (PGI-I) Urinary Symptoms Scores at Week 8",
+            "description": "The PGI-I is a 1-item questionnaire designed to assess the patient's impression of changes in urinary symptoms. The PGI-I was scored from 1 (very much better) to 7 (very much worse).\n\nVisit-specific PGI-I in urinary symptoms is presented in this endpoint.",
+            "timeFrame": "Week 8"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 24,
+          "pred_idx": 2,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Patient Global Impression of Improvement (PGI-I) Urinary Symptoms Scores at Week 12",
+            "description": "The PGI-I is a 1-item questionnaire designed to assess the patient's impression of changes in urinary symptoms. The PGI-I was scored from 1 (very much better) to 7 (very much worse).\n\nVisit-specific PGI-I in urinary symptoms is presented in this endpoint.",
+            "timeFrame": "Week 12"
+          },
+          "pred_item": {
+            "measure": "Patient Global Impression of Improvement (PGI-I)",
+            "description": "Patient-rated summary of change in nocturia since starting study treatment reported on a 7-point scale ranging from 'very much better' to 'very much worse'.",
+            "timeFrame": "Week 1 and Week 12"
+          }
+        },
+        {
+          "ref_idx": 25,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Patient Global Impression of Severity (PGI-S) Scores at Week 1",
+            "description": "The PGI-S is a 1-item questionnaire designed to assess patient's impression of disease severity. The PGI-S was scored from 1 (none) to 4 (severe).\n\nChange from baseline in visit-specific PGI-S is presented in this endpoint.\n\nLevel estimated for baseline value of PGI-S equal to 3 is presented in this endpoint.",
+            "timeFrame": "Baseline, Week 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 26,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in PGI-S Scores at Week 4",
+            "description": "The PGI-S is a 1-item questionnaire designed to assess patient's impression of disease severity. The PGI-S was scored from 1 (none) to 4 (severe).\n\nChange from baseline in visit-specific PGI-S is presented in this endpoint.\n\nLevel estimated for baseline value of PGI-S equal to 3 is presented in this endpoint.",
+            "timeFrame": "Baseline, Week 4"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 27,
+          "pred_idx": 1,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in PGI-S Scores at Week 8",
+            "description": "The PGI-S is a 1-item questionnaire designed to assess patient's impression of disease severity. The PGI-S was scored from 1 (none) to 4 (severe).\n\nChange from baseline in visit-specific PGI-S is presented in this endpoint.\n\nLevel estimated for baseline value of PGI-S equal to 3 is presented in this endpoint.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": {
+            "measure": "Patient Global Impression of Severity (PGI-S)",
+            "description": "Patient rating of their current severity of nocturia reported as none (1), mild (2), moderate (3), or severe (4).",
+            "timeFrame": "Baseline, Week 1, and Week 12"
+          }
+        },
+        {
+          "ref_idx": 28,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in PGI-S Scores at Week 12",
+            "description": "The PGI-S is a 1-item questionnaire designed to assess patient's impression of disease severity. The PGI-S was scored from 1 (none) to 4 (severe).\n\nChange from baseline in visit-specific PGI-S is presented in this endpoint.\n\nLevel estimated for baseline value of PGI-S equal to 3 is presented in this endpoint.",
+            "timeFrame": "Baseline, Week 12"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 29,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Hsu 5-point Likert Bother Scale at Week 1",
+            "description": "The Hsu 5-point Likert Bother scale is a questionnaire designed to assess the subjective bothersomeness and functional disruptiveness of nocturia. The Hsu 5 point Likert Bother Scale was scored from 0 (not at all) to 4 (extremely).\n\nChange from baseline in visit-specific Hsu Bother is presented in this endpoint.\n\nLevel estimated for baseline value of Hsu Bother equal to 3 is presented in this endpoint.",
+            "timeFrame": "Baseline, Week 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 30,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Hsu 5-point Likert Bother Scale at Week 4",
+            "description": "The Hsu 5-point Likert Bother scale is a questionnaire designed to assess the subjective bothersomeness and functional disruptiveness of nocturia. The Hsu 5 point Likert Bother Scale was scored from 0 (not at all) to 4 (extremely).\n\nChange from baseline in visit-specific Hsu Bother is presented in this endpoint.\n\nLevel estimated for baseline value of Hsu Bother equal to 3 is presented in this endpoint.",
+            "timeFrame": "Baseline, Week 4"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 31,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Hsu 5-point Likert Bother Scale at Week 8",
+            "description": "The Hsu 5-point Likert Bother scale is a questionnaire designed to assess the subjective bothersomeness and functional disruptiveness of nocturia. The Hsu 5 point Likert Bother Scale was scored from 0 (not at all) to 4 (extremely).\n\nChange from baseline in visit-specific Hsu Bother is presented in this endpoint.\n\nLevel estimated for baseline value of Hsu Bother equal to 3 is presented in this endpoint.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 32,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Hsu 5-point Likert Bother Scale at Week 12",
+            "description": "The Hsu 5-point Likert Bother scale is a questionnaire designed to assess the subjective bothersomeness and functional disruptiveness of nocturia. The Hsu 5 point Likert Bother Scale was scored from 0 (not at all) to 4 (extremely).\n\nChange from baseline in visit-specific Hsu Bother is presented in this endpoint.\n\nLevel estimated for baseline value of Hsu Bother equal to 3 is presented in this endpoint.",
+            "timeFrame": "Baseline, Week 12"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 33,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in ISI at Week 4",
+            "description": "The ISI is a 7-item questionnaire which comprises of four 'sleep-related' items and three 'wake-related' items. Each item is rated on a 0-4 scale and the total score ranges from 0 to 28 (higher score suggests more severe insomnia).\n\nChange from baseline in visit-specific ISI is presented in this endpoint.\n\nLevel estimated for baseline value of ISI equal to 15 is presented in this endpoint.",
+            "timeFrame": "Baseline, Week 4"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 34,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in ISI at Week 8",
+            "description": "The ISI is a 7-item questionnaire which comprises of four 'sleep-related' items and three 'wake-related' items. Each item is rated on a 0-4 scale and the total score ranges from 0 to 28 (higher score suggests more severe insomnia).\n\nChange from baseline in visit-specific ISI is presented in this endpoint.\n\nLevel estimated for baseline value of ISI equal to 15 is presented in this endpoint.",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 35,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in ISI at Week 12",
+            "description": "The ISI is a 7-item questionnaire which comprises of four 'sleep-related' items and three 'wake-related' items. Each item is rated on a 0-4 scale and the total score ranges from 0 to 28 (higher score suggests more severe insomnia).\n\nChange from baseline in visit-specific ISI is presented in this endpoint.\n\nLevel estimated for baseline value of ISI equal to 15 is presented in this endpoint.",
+            "timeFrame": "Baseline, Week 12"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 36,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean Duration of First Undisturbed Sleep Period (FUSP) at Week 1",
+            "description": "The FUSP is defined as the time in minutes from the time of going to bed to the time of first nocturnal void, or time of awakening if no void occured.\n\nThe duration of FUSP at each visit was calculated as the average over the 3 consecutive 24-hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in FUSP are estimated using a baseline value of 180 (min).",
+            "timeFrame": "Baseline, Week 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 37,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean Duration of FUSP at Week 4",
+            "description": "The FUSP is defined as the time in minutes from the time of going to bed to the time of first nocturnal void, or time of awakening if no void occurred.\n\nThe duration of FUSP at each visit was calculated as the average over the 3 consecutive 24-hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in FUSP are estimated using a baseline value of 180 (min).",
+            "timeFrame": "Baseline, Week 4"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 38,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean Duration of FUSP at Week 8",
+            "description": "The FUSP is defined as the time in minutes from the time of going to bed to the time of first nocturnal void, or time of awakening if no void occurred.\n\nThe duration of FUSP at each visit was calculated as the average over the 3 consecutive 24-hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in FUSP are estimated using a baseline value of 180 (min).",
+            "timeFrame": "Baseline, Week 8"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 39,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean Duration of FUSP at Week 12",
+            "description": "The FUSP is defined as the time in minutes from the time of going to bed to the time of first nocturnal void, or time of awakening if no void occurred.\n\nThe duration of FUSP at each visit was calculated as the average over the 3 consecutive 24-hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in FUSP are estimated using a baseline value of 180 (min).",
+            "timeFrame": "Baseline, Week 12"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 40,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Aggregated Mean Duration of FUSP During 12 Weeks of Treatment",
+            "description": "The FUSP is defined as the time in minutes from the time of going to bed to the time of first nocturnal void, or time of awakening if no void occurred.\n\nThe visit-specific means were aggregated into a mean of current and preceding visits.\n\nLevel estimated for baseline value of mean duration of FUSP (minutes) equal to 180 is presented in this endpoint.\n\nThe 95% credibility interval (2.5 and 97.5 percentiles of the posterior distribution) instead of confidence interval is presented for this endpoint.",
+            "timeFrame": "Baseline, During 12 Weeks of Treatment"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 41,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Nocturnal Diuresis Rate Profiles at Week 1",
+            "description": "The nocturnal diuresis rate (mL/min) is calculated as the mean of the nocturnal diuresis for each of the three nights, with the single-night nocturnal diuresis calculated as the ratio of NUV to total time in bed.\n\nChange from baseline in visit-specific mean nocturnal diuresis (mL/min) is presented.\n\nLevel estimated for baseline value of mean nocturnal diuresis (mL/min) equal to 1.3 is presented in this endpoint.",
+            "timeFrame": "Baseline, Week 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 42,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Nocturnal Diuresis Rate Profiles at Week 12",
+            "description": "The nocturnal diuresis rate (mL/min) is calculated as the mean of the nocturnal diuresis for each of the three nights, with the single-night nocturnal diuresis calculated as the ratio of NUV to total time in bed.\n\nChange from baseline in visit-specific mean nocturnal diuresis (mL/min) is presented.\n\nLevel estimated for baseline value of mean nocturnal diuresis (mL/min) equal to 1.3 is presented in this endpoint.",
+            "timeFrame": "Baseline, Week 12"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 43,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean NUV in Week 1",
+            "description": "The NUV is defined as the total urine volume from 5 minutes after bedtime with the intention to sleep including the first void within 30 minutes of rising in the morning.\n\nThe NUV at each visit was calculated as the average over the 3 consecutive 24-hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in NUV are estimated using a baseline value of 750 (mL).",
+            "timeFrame": "Baseline, Week 1"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 44,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "measure": "Change From Baseline in Mean NUV at Week 12",
+            "description": "The NUV is defined as the total urine volume from 5 minutes after bedtime with the intention to sleep including the first void within 30 minutes of rising in the morning.\n\nThe NUV at each visit was calculated as the average over the 3 consecutive 24-hour periods just prior to the respective visit. Adjusted visit-specific mean changes from baseline in NUV are estimated using a baseline value of 750 (mL).",
+            "timeFrame": "Baseline, Week 12"
+          },
+          "pred_item": null
+        }
+      ]
+    }
+  ]
+}

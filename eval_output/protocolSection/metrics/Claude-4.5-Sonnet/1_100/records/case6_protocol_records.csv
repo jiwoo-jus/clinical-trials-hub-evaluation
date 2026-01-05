@@ -1,0 +1,94 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,TP,TP,NCT02323854,NCT02323854,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,TP,The EMPrint™ Ablate and RESect Study in Patients With Metastatic Lung Tumors (EMPRESS),EMPrint™ Ablate and RESect Study in Patients with Metastatic Lung Tumors,True,0.98,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,FP,The EMPrint™ Ablate and RESect Study in Patients With Metastatic Lung Tumors (EMPRESS),"A prospective, non-randomized, single-arm, multicenter study to evaluate the technical performance of the Emprint™ system in predicting the size of ablation zones",False,0.62,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,TP,TP,"Post market prospective, non-randomized, single-arm, multicenter study, designed to demonstrate dose response of an ablation system using a percutaneous approach in patients with primary, metastatic, or recurrent primary lung tumors.","This was a prospective, non-randomized, single-arm, multicenter study to evaluate the Emprint™ ablation system for percutaneous microwave ablation in patients with metastatic or primary lung tumors. Subjects scheduled for resection of lung nodules underwent preoperative percutaneous microwave ablation. The primary objective was to evaluate the technical performance of the Emprint™ system in predicting the size of ablation zones by comparing predicted ablation zones (as prescribed by the investigational system software) versus actual ablation zones measured via CT imaging immediately following ablation and before surgical resection. The secondary endpoint was complete ablation defined as 100% non-viable tumor cells based on NADH staining. Safety endpoints included type, incidence, and severity of adverse events.",True,0.82,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.detailedDescription,TP,TP,"Primary Endpoint: Dose response as indicated by CT imaging, measurement of maximum diameter and volume.
+
+Secondary Endpoint: Assessment of complete tumor ablation immediately post-procedure.","This prospective, non-randomized, single-arm, multicenter study (ClinicalTrials.gov ID: NCT02323854) was conducted by Medtronic from January 2015 to March 2017 to evaluate the Emprint™ ablation system via a percutaneous approach in patients with metastatic or primary lung tumors. Fifteen patients (mean age 58.9 years; 67% male; 33% female) were enrolled, with 33.3% having previous thoracic surgery, 73% with metastatic tumors, and 27% with primary lung tumors.
+
+The Emprint™ Procedure Planning Application, a commercially available software (Medtronic, Boulder, CO, USA), was used as an adjunct to assist with planning for the ablation procedure. The software utilizes pre-procedural CT images to visualize predicted ablation zones based on time, energy, and target tissue type. The predicted ablation zone displayed in the software is derived from lung-specific in vivo data collected in porcine models during product development.
+
+All subjects underwent percutaneous microwave ablation using a single placed probe followed by surgical resection the same day. CT imaging was performed immediately after ablation with the antenna still in position. Time from antenna placement to removal was 23.7±13.1 minutes (median: 21.0; range: 6.0 to 48.0). CT assessment of the ablation was based on ground glass opacity and reviewed by a minimum of three board-certified radiologists in a blinded manner.
+
+The primary endpoint was dose response, assessed by comparing predicted ablation zone size (from the Emprint™ procedure planning application) versus actual ablation zone size (observed on immediate post-ablation CT). Measurements included ablation zone width (X), height (Y), depth (Z), volume, and shape. The secondary endpoint was complete ablation for each target tumor, defined as 100% non-viable tumor cells on NADH viability staining. Histology was evaluated at a single center (National Jewish Health, Denver, CO, USA) by blinded pathologists. Safety endpoints included type, incidence, and severity of adverse events.
+
+Results showed that ablation zone volume was overestimated by the software in all patients. The percent difference in ablation zone volume (actual vs. predicted) was -63.5±26.3% (median: -67.3%; range: -94.9% to -5.5%). Complete ablation was detected in 54.5% (6/11) of subjects, incomplete ablation in 36.4% (4/11), and delayed necrosis in 9.1% (1/11). There were no device-related adverse events. Twenty-one adverse events were reported for 11 subjects, with 5 serious adverse events occurring in 3 subjects (20%), all either not related or unlikely to be related to the ablation procedure.
+
+The study concluded that histologically complete ablation was observed in 55% of subjects. CT scanning less than an hour after ablation and tissue shrinkage (which can be as high as 75% by volume in lung tissue) may account for the smaller zone of ablation observed compared to that predicted by the investigational system software. The study confirmed the viability of an ablate and resect approach in the study of percutaneous ablation, but highlighted the need for future studies to account for tissue shrinkage when evaluating the accuracy of pre-procedure planning software.",True,0.86,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,TP,FP,['Lung Cancer'],"['Lung Neoplasms', 'Lung Metastases', 'Primary Lung Cancer', 'Metastatic Lung Tumors']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,TP,FP,"['primary, recurrent, metastatic lung tumor, ablation']","['Microwave ablation', 'Percutaneous ablation', 'Thermal ablation', 'Image-guided ablation', 'Lung tumors', 'Lung nodules', 'Ablation zone prediction', 'Emprint ablation system', 'Procedure planning software', 'NADH staining', 'Complete ablation', 'Dose response']",False,0.0,disjoint,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,TP,TP,['NA'],['NA'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,TP,TP,NA,NA,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,TP,TP,SINGLE_GROUP,SINGLE_GROUP,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"This was a prospective, non-randomized, single-arm, multicenter study. Subjects scheduled for resection of metastatic or primary lung nodules underwent preoperative percutaneous microwave ablation followed by surgical resection the same day.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"This was a single-arm study with no masking. However, during image processing, all images were blinded so that radiologists did not have access to any patient confidential information and local site assessments. Cases were reviewed by two independent radiologists.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,TP,TP,15,19,True,0.7,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[3].type,EV,EV,,DIAGNOSTIC_TEST,,,,InterventionType,protocolSection.armsInterventionsModule.interventions.type,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[3].name,EV,EV,,Post-ablation CT Imaging,,,,InterventionName,protocolSection.armsInterventionsModule.interventions.name,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[3].description,EV,EV,,CT imaging was performed immediately following ablation while the antenna was still in position to assess ablation zone size. This imaging occurred after the ablation was finished but before antenna removal and surgical resection. A minimum of three board-certified radiologists reviewed the blinded images. Ablation zone assessment was based on ground glass opacity. A final CT image was also acquired after antenna removal to assess for any adverse events.,,,,InterventionDescription,protocolSection.armsInterventionsModule.interventions.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.armsInterventionsModule.interventions[3].armGroupLabels,EV,EV,,['Percutaneous Microwave Ablation followed by Surgical Resection'],,,,InterventionArmGroupLabel,protocolSection.armsInterventionsModule.interventions.armGroupLabels,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[1].measure,EV,EV,,"Safety Endpoints: Type, Incidence, and Severity of Adverse Events",,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[1].description,EV,EV,,"Safety endpoints included type, incidence, and severity of adverse events. Adverse event data were collected starting from the initial administration of anesthesia until conclusion of the first post-operative follow-up visit.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.outcomesModule.secondaryOutcomes[1].timeFrame,EV,EV,,From initial administration of anesthesia until conclusion of the first post-operative follow-up visit,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Subject or authorized representative has provided informed consent.
+* Subject is ≥18 years of age.
+* At least one pulmonary metastasis ≤ 3.0 cm in maximum diameter resulting from distant primary cancers or at least one recurrence of primary lung cancer ≤ 3.0 cm in maximum diameter.
+* Subject has been confirmed by a thoracic surgeon to be a surgical candidate for resection of the tumor targeted for ablation.
+* Subject is willing and able to comply with all aspects of the treatment and evaluation schedule.
+* ≥1 cm of tumor-free lung parenchyma between target tumor and pleura or fissure.
+
+Exclusion Criteria:
+
+* Pre-procedure Exclusion Criteria
+* Contraindicated for surgery.
+* Prolonged chest infection, defined as lung consolidation that requires hospitalization and greater than 10 days of antibiotics 30 days prior to surgery.
+* Tumor abutting main stem bronchus, main pulmonary artery branches, esophagus and/or trachea.
+* Tumor with pleural contact.
+* Tumors located \< 3 cm of staple lines or other metal objects.
+* Patients diagnosed with GOLD Stage IV Emphysema.
+* Uncontrollable coagulopathy
+* Patients unable to tolerate discontinued use of anti-coagulants prior to and during the ablation procedure.
+* Subject is pregnant (documented by a positive pregnancy test according to hospital standard practices) or is actively breast-feeding.
+* Subject has participated in an investigational drug or device research study within 30 days of enrollment that would interfere with this study.
+* The investigator determines that participation in the study may jeopardize the safety or welfare of the subject.
+* Patients with implantable pacemakers and other electronic implants, in accordance with Instructions for Use (IFU).
+
+Intraprocedural Exclusion Criteria
+
+\*Incidental intraprocedural finding that the subject no longer meets the study eligibility criteria.","Inclusion Criteria:
+- Informed consent given by subject or authorized representative
+- Subject ≥18 years of age
+- At least one pulmonary metastasis ≤3.0 cm in maximum diameter from a distant primary cancer or one primary lung cancer ≤3.0 cm in maximum diameter
+- A thoracic surgeon determined the subject is a candidate for resection of the tumor targeted for ablation
+- Subject is willing and able to comply with all aspects of the treatment and evaluation schedule
+- ≥1 cm of tumor-free lung parenchyma between target tumor and pleura or fissure
+
+Exclusion Criteria:
+
+Pre-procedure exclusion criteria:
+- Contraindicated for surgery
+- Prolonged infection of the chest, with the definition of this being lung consolidation that requires hospitalization and greater than 10 days of antibiotics 30 days prior to surgery
+- Tumor abutting mainstem bronchus, main pulmonary artery branches, esophagus and/or trachea
+- Tumor with pleural contact
+- Tumors located <3 cm from the staple lines/metal objects
+- Subjects with stage IV emphysema per GOLD criteria
+- Uncontrollable coagulopathy
+- Inability to tolerate discontinuation of anti-coagulants prior to and during the ablation
+- Pregnancy documented by a positive pregnancy test according to hospital standard practices or actively breast-feeding
+- Participation in an investigational drug or device research study within 30 days of enrollment that interferes with this protocol
+- The safety or welfare of the subject may be compromised by participation as determined by the investigator
+- Subjects with implantable pacemakers/other electronic implants
+
+Intra-procedural exclusion criteria:
+- An incidental finding that the subject no longer meets the study eligibility criteria",True,0.99,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

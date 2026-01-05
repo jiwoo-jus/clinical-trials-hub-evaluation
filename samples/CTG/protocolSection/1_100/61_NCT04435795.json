@@ -1,0 +1,158 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04435795",
+      "orgStudyIdInfo": {
+        "id": "2021-6696"
+      },
+      "organization": {
+        "fullName": "McGill University Health Centre/Research Institute of the McGill University Health Centre",
+        "class": "OTHER"
+      },
+      "briefTitle": "Inhaled Ciclesonide for Outpatients With COVID19",
+      "officialTitle": "Ciclesonide Clinical Trial for COVID-19 Treatment",
+      "acronym": "CONTAIN"
+    },
+    "descriptionModule": {
+      "briefSummary": "The CONTAIN (CiclesOnide cliNical TriAl covId-19 treatmeNt) is a randomized control study of ciclesonide vs placebo for mild covid-19 disease. The need for potential therapy for COVID-19 patients is urgent. Ciclesonide has shown encouraging in vitro results, is easy to be used and is readily available. It has a low rate of side effects and few interactions with other drugs. It is unusual to use an inhaled steroid drug for COVID-19 but there has been new data suggesting steroids may have an antiviral effect in addition to an anti-inflammatory effect. Investigators propose to use inhaled and nasal ciclesonide to stop viral replication in the nose and airways. Investigators hope this will accelerate recovery from COVID-19 illness in individuals who are not admitted to hospital at time of diagnosis of COVID-19."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID 19"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "TRIPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 215,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Ciclesonide inhaled and nasal",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Intranasal ciclesonide BID 50mcg BID to each nostril and inhaled ciclesonide 600mcg BID x 14 days",
+          "interventionNames": [
+            "Drug: Ciclesonide",
+            "Drug: Ciclesonide nasal"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Normal Saline intranasal BID and Placebo 3 puff MDI inhaled BID",
+          "interventionNames": [
+            "Drug: Normal Saline intranasal and placebo inhaler"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Normal Saline intranasal and placebo inhaler",
+          "description": "Normal Saline intranasal BID and Placebo 3 puff MDI inhaled BID",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ciclesonide",
+          "description": "Ciclesonide 600mcg BID inhaled with aero chamber",
+          "armGroupLabels": [
+            "Ciclesonide inhaled and nasal"
+          ],
+          "otherNames": [
+            "Alvesco"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Ciclesonide nasal",
+          "description": "intranasal ciclesonide 200 mcg DIE",
+          "armGroupLabels": [
+            "Ciclesonide inhaled and nasal"
+          ],
+          "otherNames": [
+            "Omnaris"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Proportion of Participants With no Symptoms of Cough, Fever or Dyspnea",
+          "description": "Proportion of participants with no symptoms of cough, fever or dyspnea at day 7",
+          "timeFrame": "day 7"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Proportion of Participants With no Symptoms of Cough, Fever or Dyspnea",
+          "description": "Proportion of participants with no symptoms of cough, fever or dyspnea at Day 14",
+          "timeFrame": "Day 14"
+        },
+        {
+          "measure": "Overall Feeling: Proportion Who Are Reporting That They Are \"Very Much Improved\" or \"Much Improved\" at Day 7",
+          "description": "Proportion who are reporting that they are \"very much improved\" or \"much improved\"",
+          "timeFrame": "Day 7"
+        },
+        {
+          "measure": "Overall Feeling: Proportion Who Are Reporting That They Are \"Very Much Improved\" or \"Much Improved\" at Day 14",
+          "description": "Proportion who are reporting that they are \"very much improved\" or \"much improved\"",
+          "timeFrame": "Day 14"
+        },
+        {
+          "measure": "Improvement in Dyspnea: Resolution of Dyspnea at Day 7",
+          "description": "Dyspnea was defined as reporting \"shortness of breath\" or \"chest congestion\" or \"chest tightness\". In those who reported dyspnea at baseline, resolution will be defined as having no symptoms in these three areas.",
+          "timeFrame": "day 7"
+        },
+        {
+          "measure": "Improvement in Cough at Day 7: Proportion of Patient With a Reduction of Cough Symptoms at Day 7",
+          "description": "Improvement of wet or dry cough. Analysis limited to patients who reported cough at baseline. Defined as a 2 point decrease, or a decrease to 0 on a visual analogue scale that ranged from 0 for no symptoms to 10 for severe symptoms",
+          "timeFrame": "day 7"
+        },
+        {
+          "measure": "Proportion of Participants Hospitalized for SARS-CoV-2",
+          "description": "Hospitalization for SARS-CoV-2 related illness",
+          "timeFrame": "day 14"
+        },
+        {
+          "measure": "Mortality",
+          "description": "All cause mortality",
+          "timeFrame": "day 29"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\nSymptomatic adult patients positive by PCR for COVID-19 within 5 days of enrollment with fever, cough, or shortness of breath. Provision of Informed Consent\n\nAt day 0, patients should be at home\n\nExclusion Criteria:\n\n* Already on inhaled corticosteroid medication\n* Currently using systemic steroids (oral or intravenous or intramuscular such as Prednisone) or use of steroids 7 days prior to enrolment\n* Severely ill patients at enrollment (i.e., admitted to ICU at admission)\n* Unable to self-administer the inhaler\n* Known or suspected pregnancy and breastfeeding\n* Known allergy to study medication or its components (non-medicinal ingredients; including lactose allergy (type I))\n* Patients with untreated fungal, bacterial, or tubercular infections of the respiratory tract\n* Current hospitalization\n* Current use of oxygen at home or in the hospital",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

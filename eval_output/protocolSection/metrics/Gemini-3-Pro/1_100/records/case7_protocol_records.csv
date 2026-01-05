@@ -1,0 +1,102 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,FN,FN,NCT03544229,,False,0.0,,NCTId,protocolSection.identificationModule.nctId,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,FN,FN,A Study to Evaluate the Efficacy and Safety of TAK-906 in Adult Participants With Symptomatic Idiopathic or Diabetic Gastroparesis,,False,0.0,,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,FP,"A Multicenter, Randomized, Double-Blind, Placebo-Controlled, Parallel-Group, Phase 2b Study to Evaluate the Efficacy and Safety of Twice-Daily Oral Administration of a Peripherally Acting Dopamine Receptor D2/D3 Antagonist, TAK-906 for the Treatment of Adult Subjects With Symptomatic Idiopathic or Diabetic Gastroparesis","Phase I, randomized, double-blind, placebo-controlled, single- and multiple-ascending dose, parallel-group study evaluated the safety, tolerability, pharmacokinetics, and pharmacodynamics of trazpiroben in healthy Japanese men",False,0.68,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,The purpose of this study is to assess the efficacy and safety of treatment with 2 dose levels of TAK-906 in adult participants with gastroparesis compared with placebo during 12 weeks of treatment.,"This Phase I, randomized, double-blind, placebo-controlled study evaluated the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of trazpiroben (TAK-906) in healthy Japanese men. Trazpiroben is a peripherally selective dopamine D2/D3 receptor antagonist being developed for the treatment of chronic gastroparesis. The study assessed single and multiple oral doses of the drug compared to placebo. Findings were compared with those from a prior US trial in healthy individuals to evaluate potential ethnic differences in the drug's disposition and safety profile.",True,0.7,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,TP,FP,"The drug being tested in this study is called TAK-906. TAK-906 is being tested to treat people who have symptomatic idiopathic or diabetic gastroparesis.
+
+The study will enroll approximately 205 patients. Participants will be randomly assigned (by chance, like flipping a coin) to one of the three treatment groups (in 1:1:1:1 ratio) which will remain undisclosed to the patient and study doctor during the study (unless there is an urgent medical need):
+
+* TAK-906 Maleate 5 mg (After implementation of Amendment 8, participants will not be further randomized to this arm)
+* TAK-906 Maleate 25 mg
+* TAK-906 Maleate 50 mg Placebo (dummy inactive pill) - this is a capsule that looks like the study drug but has no active ingredient
+
+Prior to Amendment 8, participants were randomized to receive TAK-906 5 mg. After implementation of Amendment 8, participants will not be further randomized to this dose arm. All participants will be asked to take one capsule twice daily, at approximately the same time each day throughout the study.
+
+This multi-center trial will be conducted worldwide. The overall study duration is approximately 17 weeks. Participants will make multiple visits to the clinic, and will be contacted by telephone 30 days after receiving their last dose of study drug for a follow-up assessment.","This study was designed as a phase I, randomized, double-blind, placebo-controlled, single- and multiple-ascending dose, parallel-group analysis. The primary objective was to assess the safety, tolerability, pharmacokinetics (PK), and pharmacodynamics (PD) of trazpiroben administered as single and multiple doses in healthy male Japanese participants. The study design was consistent with a prior US study (AT-01C) to allow for informal comparison between the two populations.
+
+A total of 24 participants were enrolled and divided into three cohorts (n = 8 per cohort). In each cohort, 6 participants received trazpiroben and 2 received placebo. The dosing regimen was as follows:
+- Cohort 1: 50 mg
+- Cohort 2: 100 mg
+- Cohort 3: 10 mg
+
+Participants received a single dose of the blinded study drug on Day 1 (single-dose phase). This was followed by multiple doses administered twice daily for 5 days from Day 3 through Day 7 (multiple-dose phase), with no evening dose on Day 7. Follow-up assessments occurred on Day 14.
+
+Safety evaluations included monitoring of adverse events (AEs), physical examinations, vital signs, and standard 12-lead ECG parameters. PK analysis involved the collection of blood and urine samples to quantify trazpiroben and its metabolite, M23, using LC-MS/MS methods. Parameters assessed included AUC, Cmax, tmax, and elimination half-life. PD analysis utilized serum prolactin concentrations as a biomarker for dopamine D2 receptor antagonism, measuring AUC and Cmax of prolactin levels.",False,0.32,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,"['Diabetic Gastroparesis', 'Idiopathic Gastroparesis']",['Gastroparesis'],False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,['Drug Therapy'],"['Trazpiroben', 'TAK-906', 'Dopamine D2/D3 receptor antagonist', 'Pharmacokinetics', 'Pharmacodynamics', 'Safety', 'Healthy Japanese men']",False,0.0,disjoint,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,FP,['PHASE2'],['PHASE1'],False,0.0,disjoint,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,Single- and multiple-ascending dose study.,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,QUADRUPLE,DOUBLE,False,0.6,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"Double-blind, placebo-controlled study. Dose escalation was based on a full blinded review of safety and tolerability data.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,FP,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'INVESTIGATOR']",False,0.5,partial,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,242,24,True,0.9,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[2].measure,EV,EV,,Electrocardiogram (ECG) Parameters,,,,PrimaryOutcomeMeasure,protocolSection.outcomesModule.primaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[3].measure,EV,EV,,Clinical Laboratory Evaluations,,,,PrimaryOutcomeMeasure,protocolSection.outcomesModule.primaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[2].description,EV,EV,,Assessment of standard 12-lead ECG parameters (including QTc interval).,,,,PrimaryOutcomeDescription,protocolSection.outcomesModule.primaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[3].description,EV,EV,,"Evaluation of laboratory values including transaminase, bilirubin, and creatinine.",,,,PrimaryOutcomeDescription,protocolSection.outcomesModule.primaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[2].timeFrame,EV,EV,,"Days 1, 2, 7, and 8 (pre-dose and 1, 2, 4, 6, 24 hours post-dose); Day 5 (pre-dose and 1, 2 hours post-dose)",,,,PrimaryOutcomeTimeFrame,protocolSection.outcomesModule.primaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[3].timeFrame,EV,EV,,Screening through Day 14,,,,PrimaryOutcomeTimeFrame,protocolSection.outcomesModule.primaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,FP,"Inclusion Criteria:
+
+1. Should have experienced symptoms of gastroparesis (e.g., postprandial fullness, nausea, vomiting, upper abdominal pain, and early satiety for at least 3 months before screening as assessed by a physician.
+2. Must have confirmed delayed gastric emptying by meeting 1 of the following criteria:
+
+   1. Confirmed by an accepted diagnostic testing method (Gastric Emptying Breath Test \[GEBT\], scintigraphy, or wireless motility capsule) that is documented in the participant's medical records prior to screening; OR
+   2. Participants without previous confirmation of delayed gastric emptying prior to screening will undergo a GEBT after they have stopped taking prohibited medications.
+3. Must have an average composite ANMS GCSI-DD symptom score ≥2 during the 7 days before randomization. The predominant symptom experienced by participants must not be abdominal pain.
+4. Must experience nausea: nausea subscale (of ANMS GCSI-DD) symptom score ≥2 at least 4 of 7 days or an average nausea subscale symptom score ≥2 during the 7 days before randomization. Nausea symptoms must not be attributable to a central disorder (e.g. motion sickness, glaucoma, menstrual cycles, migraine headache).
+5. Has a body mass index (BMI) of ≥18 to ≤40 kg/m\^2 inclusive.
+6. Participant with diabetes mellitus must have glycosylated hemoglobin (HbA1c) ≤11% at screening and before randomization.
+7. Absence of gastric outlet obstruction confirmed by upper GI, computed tomography or endoscopy.
+
+Exclusion Criteria:
+
+1. Known secondary causes of gastroparesis including but not limited to Parkinson disease, cancer, viral illness, or connective tissue diseases.
+2. Predominant gastroparetic symptom is epigastric pain, diffuse abdominal pain, or pain associated with bowel movement.
+3. Is taking medications that affect gastric emptying including opioids, glucagon-like peptide-1 analogs (e.g., exenatide, liraglutide), amylin analogs (e.g., pramlintide), and cannabinoids.
+4. Prior history of gastric surgery, including but not limited to gastrectomy, gastric bypass, gastric banding, bariatric surgery, pyloroplasty, vagotomy, or fundoplication, which has manipulated the natural anatomy of the stomach.
+5. History of intra-pyloric botulinum toxin injection within 3 months of Screening or currently has functioning implantable electric stimulator.
+6. Nasogastric, percutaneous endoscopic gastrostomy, or percutaneous endoscopic jejunostomy feeding tube or inpatient hospitalization for gastroparesis within 2 weeks before the Screening Visit.
+7. Required parenteral nutrition for treatment of gastroparesis within 2 months before the Screening Visit.
+8. Previous diagnosis of gastric bezoar (the presence of retained liquid, bile, or small amounts of poorly organized food residue is permitted).
+9. Poor control of diabetes within 30 days prior to randomization, including diabetic ketoacidosis, hypoglycemia requiring medical intervention, admission for control of diabetes or diabetic complications.
+10. Elevated serum prolactin (\>upper limit of normal \[ULN\]) at Screening.
+11. Has concurrent hypogonadism, current clinically significant menstrual abnormalities, such as amenorrhea or oligomenorrhea, or other clinical features of hyperprolactinemia such as galactorrhea or gynecomastia.
+12. Has acute or chronic liver disease meeting any of the criteria described below:
+
+    * Has an alanine aminotransferase (ALT), aspartate aminotransferase (AST) or total bilirubin \>2.0 times the ULN.
+    * Has pre-existing liver cirrhosis that meets Child-Pugh Class B (moderate; total score 7 to 9 points) or C (severe; total score 10 to 15 points) (see Appendix B).
+    * Has acute or chronic hepatitis B or C virus infection, manifesting as one of the following at screening:
+    * Positive hepatitis B surface antigen (HBsAg) or hepatitis B core antibody (HBcAb). NOTE: if a participants tests negative for HBsAg, but positive for HBcAb, the participant would be eligible if the Investigator has documentation of other test results showing that the participant does not have active hepatitis B infection.
+    * Participants with positive hepatitis C antibody (HCV IgG) and quantitative HCV polymerase chain reaction (PCR). HCV PCR is performed only if HCV IgG is positive.
+13. Has renal impairment, defined as a lower limit of (estimated glomerular filtration rate \[eGFR\]) \<30 mL/min at screening visit.
+14. Has active neoplastic disease or history of neoplastic disease within 5 years of screening visit (except for basal or squamous cell carcinoma of the skin or carcinoma in situ of the uterine cervix that has been definitively treated with standard of care approaches).
+15. Uncontrolled or poorly controlled medical or psychiatric comorbidities which might affect their ability to participate in the study.
+16. Has known COVID-19 infection, or suspected COVID-19 infection (as assessed by the investigator).
+17. Signs/symptoms or history of extrapyramidal system disease and other clinically relevant CNS or neuropsychiatric disease including but not limited to tardive dyskinesia, neuroleptic malignant syndrome, acute dystonia, parkinsonian like symptoms, severe mental depression, and history of suicide attempt.","Inclusion Criteria:
+- Healthy Japanese men
+- Aged 20 to 60 years inclusive
+- Body weight of 50 kg or higher
+- Body mass index (BMI) of 18.5 to 25 kg/m2
+
+Exclusion Criteria:
+- History of seizure or tardive dyskinesia
+- Hyperprolactinemia
+- Pituitary adenoma
+- Hypothyroidism
+- Any gastrointestinal disease that would be expected to influence the absorption of drugs
+- Family history of prolonged QT interval
+- QTc using Fridericia's formula >450 milliseconds
+- Previous gastric bypass surgery or current gastric band fitted
+- Abnormal laboratory values of transaminase, bilirubin, or creatinine
+- Abnormal ECGs at screening or baseline before administration of the study drug",False,0.46,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,FP,False,True,False,0.0,success,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,FP,ALL,MALE,False,0.5,success,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,20 Years,True,0.8,success,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,85 Years,60 Years,True,0.85,success,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,FP,"['ADULT', 'OLDER_ADULT']",['ADULT'],False,0.5,partial,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

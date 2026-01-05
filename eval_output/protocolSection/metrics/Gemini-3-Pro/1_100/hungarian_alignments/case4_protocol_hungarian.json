@@ -1,0 +1,183 @@
+{
+  "metadata": {
+    "case_id": 4,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-28T03:46:18.927800",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/4_NCT03781726.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/4_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.78,
+          0.19
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "Treatment with glecaprevir/pibrentasvir Fixed Dose Combination",
+            "type": "EXPERIMENTAL",
+            "description": "8 weeks of HCV treatment with combination tablet of glecaprevir and pibrentasvir",
+            "interventionNames": [
+              "Drug: glecaprevir/pibrentasvir treatment"
+            ]
+          },
+          "pred_item": {
+            "label": "HCV D-RNA-positive/R-negative KT recipients",
+            "type": "EXPERIMENTAL",
+            "description": "Patients who underwent HCV D-RNA-positive/R-negative kidney transplantation (KT) and began 8 weeks of oral glecaprevir/pibrentasvir (G/P) between days 2 and 5 post-KT.",
+            "interventionNames": [
+              "Glecaprevir/pibrentasvir",
+              "HCV-viremic Kidney Transplantation"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.18
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "glecaprevir/pibrentasvir treatment",
+            "description": "combination treatment with glecaprevir and pibrentasvir fixed dose tablet.",
+            "armGroupLabels": [
+              "Treatment with glecaprevir/pibrentasvir Fixed Dose Combination"
+            ],
+            "otherNames": [
+              "Mavyret treatment"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Glecaprevir/pibrentasvir",
+            "description": "8 weeks of oral glecaprevir/pibrentasvir (G/P) initiated 2 to 5 days post-KT.",
+            "armGroupLabels": [
+              "HCV D-RNA-positive/R-negative KT recipients"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Undetectable HCV",
+            "description": "HCV RNA \\< LLOQ 12 weeks after the last actual dose of G/P",
+            "timeFrame": "12 weeks post treatment"
+          },
+          "pred_item": {
+            "measure": "HCV cure (Sustained Virologic Response at 12 weeks)",
+            "description": "Defined as undetectable plasma HCV RNA.",
+            "timeFrame": "12 weeks after completion of glecaprevir/pibrentasvir (G/P)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 9,
+      "similarity_matrix": [
+        [
+          0.05,
+          0.12,
+          0.07,
+          0.08,
+          0.1,
+          0.0,
+          0.3,
+          0.2,
+          0.1
+        ],
+        [
+          0.05,
+          0.1,
+          0.1,
+          0.05,
+          0.08,
+          0.05,
+          0.68,
+          0.4,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 7,
+          "score": 0.2,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Subjects With On-treatment Virologic Failure",
+            "description": "HCV RNA \\> LLOQ during G/P treatment",
+            "timeFrame": "During 8 week treatment course"
+          },
+          "pred_item": {
+            "measure": "HCV antibody status",
+            "description": "Assessment of the presence of HCV antibodies.",
+            "timeFrame": "1 year post-transplant"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 6,
+          "score": 0.68,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Subjects With Post-treatment Virologic Relapse",
+            "description": "HCV RNA \\> LLOQ after completion of G/P treatment and prior HCV RNA \\< LLOQ while on treatment",
+            "timeFrame": "During 12 week post treatment follow-up"
+          },
+          "pred_item": {
+            "measure": "HCV RNA level",
+            "description": "Measurement of Hepatitis C virus RNA levels.",
+            "timeFrame": "24 weeks after G/P completion"
+          }
+        }
+      ]
+    }
+  ]
+}

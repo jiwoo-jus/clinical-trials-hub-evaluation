@@ -1,0 +1,626 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pmc-articleset xmlns:ns0="http://www.w3.org/1999/xlink">
+  <article xml:lang="en" article-type="other" dtd-version="1.4">
+    <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+      <restricted-by>pmc</restricted-by>
+    </processing-meta>
+    <front>
+      <journal-meta>
+        <journal-id journal-id-type="nlm-ta">BMJ Open</journal-id>
+        <journal-id journal-id-type="iso-abbrev">BMJ Open</journal-id>
+        <journal-id journal-id-type="pmc-domain-id">1609</journal-id>
+        <journal-id journal-id-type="pmc-domain">bmjo</journal-id>
+        <journal-id journal-id-type="publisher-id">bmjopen</journal-id>
+        <journal-title-group>
+          <journal-title>BMJ Open</journal-title>
+        </journal-title-group>
+        <issn pub-type="epub">2044-6055</issn>
+        <publisher>
+          <publisher-name>BMJ Publishing Group</publisher-name>
+        </publisher>
+      </journal-meta>
+      <article-meta>
+        <article-id pub-id-type="pmcid">PMC8647547</article-id>
+        <article-id pub-id-type="pmcid-ver">PMC8647547.1</article-id>
+        <article-id pub-id-type="pmcaid">8647547</article-id>
+        <article-id pub-id-type="pmcaiid">8647547</article-id>
+        <article-id pub-id-type="pmid">34862289</article-id>
+        <article-id pub-id-type="doi">10.1136/bmjopen-2021-052091</article-id>
+        <article-id pub-id-type="publisher-id">bmjopen-2021-052091</article-id>
+        <article-version article-version-type="pmc-version">1</article-version>
+        <article-categories>
+          <subj-group subj-group-type="heading">
+            <subject>Public Health</subject>
+          </subj-group>
+          <subj-group subj-group-type="hwp-journal-coll">
+            <subject>1506</subject>
+            <subject>1724</subject>
+          </subj-group>
+          <series-title>Protocol</series-title>
+        </article-categories>
+        <title-group>
+          <article-title>REinforcement learning to improve non-adherence for diabetes treatments by Optimising Response and Customising Engagement (REINFORCE): study protocol of a pragmatic randomised trial</article-title>
+        </title-group>
+        <contrib-group>
+          <contrib id="author-46918393" contrib-type="author" corresp="yes">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-4940-4140</contrib-id>
+            <name name-style="western">
+              <surname>Lauffenburger</surname>
+              <given-names initials="JC">Julie C</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib id="author-48342386" contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-2380-4584</contrib-id>
+            <name name-style="western">
+              <surname>Yom-Tov</surname>
+              <given-names initials="E">Elad</given-names>
+            </name>
+            <xref rid="aff3" ref-type="aff">3</xref>
+          </contrib>
+          <contrib id="author-87701952" contrib-type="author">
+            <name name-style="western">
+              <surname>Keller</surname>
+              <given-names initials="PA">Punam A</given-names>
+            </name>
+            <xref rid="aff4" ref-type="aff">4</xref>
+          </contrib>
+          <contrib id="author-58917723" contrib-type="author">
+            <name name-style="western">
+              <surname>McDonnell</surname>
+              <given-names initials="ME">Marie E</given-names>
+            </name>
+            <xref rid="aff5" ref-type="aff">5</xref>
+          </contrib>
+          <contrib id="author-67780786" contrib-type="author">
+            <name name-style="western">
+              <surname>Bessette</surname>
+              <given-names initials="LG">Lily G</given-names>
+            </name>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib id="author-87701955" contrib-type="author">
+            <contrib-id contrib-id-type="orcid" authenticated="false">http://orcid.org/0000-0002-8253-1598</contrib-id>
+            <name name-style="western">
+              <surname>Fontanet</surname>
+              <given-names initials="CP">Constance P</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib id="author-87701956" contrib-type="author">
+            <name name-style="western">
+              <surname>Sears</surname>
+              <given-names initials="ES">Ellen S</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib id="author-87701957" contrib-type="author">
+            <name name-style="western">
+              <surname>Kim</surname>
+              <given-names initials="E">Erin</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib id="author-87701958" contrib-type="author">
+            <name name-style="western">
+              <surname>Hanken</surname>
+              <given-names initials="K">Kaitlin</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib id="author-87701959" contrib-type="author">
+            <name name-style="western">
+              <surname>Buckley</surname>
+              <given-names initials="JJ">J Joseph</given-names>
+            </name>
+            <xref rid="aff6" ref-type="aff">6</xref>
+          </contrib>
+          <contrib id="author-87701960" contrib-type="author">
+            <name name-style="western">
+              <surname>Barlev</surname>
+              <given-names initials="RA">Renee A</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib id="author-76906825" contrib-type="author">
+            <name name-style="western">
+              <surname>Haff</surname>
+              <given-names initials="N">Nancy</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+          <contrib id="author-53345401" contrib-type="author">
+            <name name-style="western">
+              <surname>Choudhry</surname>
+              <given-names initials="NK">Niteesh K</given-names>
+            </name>
+            <xref rid="aff1" ref-type="aff">1</xref>
+            <xref rid="aff2" ref-type="aff">2</xref>
+          </contrib>
+        </contrib-group>
+        <aff id="aff1">
+          <label>1</label>
+          <institution content-type="department">Center for Healthcare Delivery Sciences, Department of Medicine</institution>, <institution>Brigham and Women's Hospital and Harvard Medical School</institution>, <addr-line content-type="city">Boston</addr-line>, <addr-line content-type="state">MA</addr-line>, <country>USA</country>
+        </aff>
+        <aff id="aff2">
+          <label>2</label>
+          <institution content-type="department">Division of Pharmacoepidemiology and Pharmacoeconomics, Department of Medicine</institution>, <institution>Brigham and Women's Hospital and Harvard Medical School</institution>, <addr-line content-type="city">Boston</addr-line>, <addr-line content-type="state">MA</addr-line>, <country>USA</country>
+        </aff>
+        <aff id="aff3">
+          <label>3</label>
+          <institution content-type="department">Microsoft Research</institution>, <institution>Microsoft</institution>, <addr-line content-type="city">Herzeliya</addr-line>, <country>Israel</country>
+        </aff>
+        <aff id="aff4">
+          <label>4</label>
+          <institution content-type="department">Tuck School of Business</institution>, <institution>Dartmouth College</institution>, <addr-line content-type="city">Hanover</addr-line>, <addr-line content-type="state">NH</addr-line>, <country>USA</country>
+        </aff>
+        <aff id="aff5">
+          <label>5</label>
+          <institution content-type="department">Endocrinology, Diabetes and Hypertension, Department of Medicine</institution>, <institution>Brigham and Women's Hospital and Harvard Medical School</institution>, <addr-line content-type="city">Boston</addr-line>, <addr-line content-type="state">MA</addr-line>, <country>USA</country>
+        </aff>
+        <aff id="aff6">
+          <label>6</label>
+          <institution content-type="department">Division of Sleep Medicine, Department of Medicine</institution>, <institution>Brigham and Women's Hospital and Harvard Medical School</institution>, <addr-line content-type="city">Boston</addr-line>, <addr-line content-type="state">MA</addr-line>, <country>USA</country>
+        </aff>
+        <author-notes>
+          <corresp>
+            <label>Correspondence to</label> Dr Julie C Lauffenburger; <email>jlauffenburger@bwh.harvard.edu</email>
+          </corresp>
+        </author-notes>
+        <pub-date pub-type="collection">
+          <year>2021</year>
+        </pub-date>
+        <pub-date pub-type="epub">
+          <day>3</day>
+          <month>12</month>
+          <year>2021</year>
+        </pub-date>
+        <volume>11</volume>
+        <issue>12</issue>
+        <issue-id pub-id-type="pmc-issue-id">394849</issue-id>
+        <elocation-id>e052091</elocation-id>
+        <self-uri content-type="pmc-pdf" ns0:href="bmjopen-2021-052091.pdf" />
+        <self-uri ns0:title="pdf" ns0:href="bmjopen-2021-052091.pdf" />
+        <self-uri content-type="reviewers-comments-pdf" ns0:href="bmjopen-2021-052091.reviewer_comments.pdf" />
+        <self-uri content-type="draft-revisions-pdf" ns0:href="bmjopen-2021-052091.draft_revisions.pdf" />
+        <abstract>
+          <sec>
+            <title>Introduction</title>
+            <p>Achieving optimal diabetes control requires several daily self-management behaviours, especially adherence to medication. Evidence supports the use of text messages to support adherence, but there remains much opportunity to improve their effectiveness. One key limitation is that message content has been generic. By contrast, reinforcement learning is a machine learning method that can be used to identify individuals’ patterns of responsiveness by observing their response to cues and then optimising them accordingly. Despite its demonstrated benefits outside of healthcare, its application to tailoring communication for patients has received limited attention. The objective of this trial is to test the impact of a reinforcement learning-based text messaging programme on adherence to medication for patients with type 2 diabetes.</p>
+          </sec>
+          <sec>
+            <title>Methods and analysis</title>
+            <p>In the REinforcement learning to Improve Non-adherence For diabetes treatments by Optimising Response and Customising Engagement (REINFORCE) trial, we are randomising 60 patients with suboptimal diabetes control treated with oral diabetes medications to receive a reinforcement learning intervention or control. Subjects in both arms will receive electronic pill bottles to use, and those in the intervention arm will receive up to daily text messages. The messages will be individually adapted using a reinforcement learning prediction algorithm based on daily adherence measurements from the pill bottles. The trial’s primary outcome is average adherence to medication over the 6-month follow-up period. Secondary outcomes include diabetes control, measured by glycated haemoglobin A1c, and self-reported adherence. In sum, the REINFORCE trial will evaluate the effect of personalising the framing of text messages for patients to support medication adherence and provide insight into how this could be adapted at scale to improve other self-management interventions.</p>
+          </sec>
+          <sec>
+            <title>Ethics and dissemination</title>
+            <p>This study was approved by the Mass General Brigham Institutional Review Board (IRB) (USA). Findings will be disseminated through peer-reviewed journals, clinicaltrials.gov reporting and conferences.</p>
+          </sec>
+          <sec>
+            <title>Trial registration number</title>
+            <p>Clinicaltrials.gov (<ext-link ns0:href="NCT04473326" ext-link-type="uri">NCT04473326</ext-link>).</p>
+          </sec>
+        </abstract>
+        <kwd-group>
+          <kwd>diabetes &amp; endocrinology</kwd>
+          <kwd>clinical trials</kwd>
+          <kwd>public health</kwd>
+        </kwd-group>
+        <funding-group specific-use="FundRef">
+          <award-group id="funding-1">
+            <funding-source>
+              <institution-wrap>
+                <institution>National Institute on Aging of the National Institutes of Health</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>P30AG064199</award-id>
+          </award-group>
+          <award-group id="funding-2">
+            <funding-source>
+              <institution-wrap>
+                <institution>NIH</institution>
+              </institution-wrap>
+            </funding-source>
+            <award-id>K01HL141538</award-id>
+          </award-group>
+        </funding-group>
+        <custom-meta-group>
+          <custom-meta>
+            <meta-name>pmc-status-qastatus</meta-name>
+            <meta-value>0</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-live</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-embargo</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-status-released</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-open-access</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-olf</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-manuscript</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-legally-suppressed</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-pdf</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-has-supplement</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-pdf-only</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-suppress-copyright</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-real-version</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-is-scanned-article</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-preprint</meta-name>
+            <meta-value>no</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-prop-in-epmc</meta-name>
+            <meta-value>yes</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>pmc-license-ref</meta-name>
+            <meta-value>CC BY-NC</meta-value>
+          </custom-meta>
+          <custom-meta>
+            <meta-name>special-feature</meta-name>
+            <meta-value>unlocked</meta-value>
+          </custom-meta>
+        </custom-meta-group>
+      </article-meta>
+    </front>
+    <body>
+      <boxed-text id="BX1" position="float" orientation="portrait">
+        <caption>
+          <title>Strengths and limitations of this study</title>
+        </caption>
+        <list list-type="bullet">
+          <list-item>
+            <p>REinforcement learning to Improve Non-adherence For diabetes treatments by Optimising Response and Customising Engagement is a two-arm pragmatic randomised trial of patients with suboptimally controlled diabetes that is testing a highly scalable strategy to personalise communication using reinforcement learning to improve adherence to medication and diabetes control.</p>
+          </list-item>
+          <list-item>
+            <p>The trial is designed to maximise both internal validity and generalisability and uses routinely-collected data to evaluate outcomes.</p>
+          </list-item>
+          <list-item>
+            <p>By using a 6-month follow-up to evaluate adherence outcomes, the trial will examine both long-term medication-taking and clinical outcomes (eg, glycaemic control).</p>
+          </list-item>
+          <list-item>
+            <p>While electronic pill bottles are highly accurate at measuring actual pill consumption, monitoring could theoretically influence adherence, but these observer effects typically decrease over time and would be similar in the control and intervention arms.</p>
+          </list-item>
+          <list-item>
+            <p>Secondary outcomes, including glycated haemoglobin A1c and self-reported adherence, may be susceptible to missing data due to the nature of the pragmatic data collection, but we are using imputation methods to overcome this issue.</p>
+          </list-item>
+        </list>
+      </boxed-text>
+      <sec sec-type="intro" id="s1">
+        <title>Introduction</title>
+        <p>Type 2 diabetes affects more than 34 million Americans and annually costs the US healthcare system an estimated US$237 billion.<xref rid="R1" ref-type="bibr">1</xref> Achieving optimal diabetes control requires a variety of daily self-management behaviours, such as physical activity and maintaining a healthy weight.<xref rid="R2" ref-type="bibr">2 3</xref> Among these, adherence to medication is central.<xref rid="R4" ref-type="bibr">4–6</xref> Many strategies to improve adherence have been developed and tested.<xref rid="R7" ref-type="bibr">7–10</xref> A growing body of evidence supports the use of text messages to improve health behaviours by offering reminders, providing education and enhancing motivation.<xref rid="R11" ref-type="bibr">11–16</xref> In the case of diabetes, text messaging has been shown to improve adherence compared with usual care.<xref rid="R17" ref-type="bibr">17</xref>
+        </p>
+        <p>Despite this evidence, there remains much opportunity to optimise the effectiveness of text messaging-based interventions.<xref rid="R17" ref-type="bibr">17</xref> One key limitation of these prior interventions is that the message content has been largely generic. Evidence from behavioural sciences indicates that personalisation of communication is an extremely important principle for changing behaviours.<xref rid="R18" ref-type="bibr">18–20</xref> In contrast to customisation, which involves manually changing content, personalisation tailors content for individuals based on their actual, observed prior behaviours, which can result in greater behaviour change.<xref rid="R21" ref-type="bibr">21</xref> However, doing so at a population scale is difficult, especially in a way that is integrated with patients’ regular care.</p>
+        <p>One approach to achieve both precision and scalability is with the use of reinforcement learning, a machine learning method that can be used to observe individual behaviours in response to cues and implement a personalised strategy to further optimise behaviours in response to these cues.<xref rid="R21" ref-type="bibr">21–25</xref> Through an iterative and systematic trial-and-error feedback loop, reinforcement learning algorithms can identify which outreach, in what order, and what delivery frequency, maximises each patient’s response. In contrast to other approaches, reinforcement learning algorithms learn in real-time, do not rely on historical data from other subjects, and tailor interventions for individual patients.<xref rid="R26" ref-type="bibr">26</xref>
+        </p>
+        <p>In healthcare, reinforcement learning has been used to improve targeting of interventions for patients with mild depression,<xref rid="R27" ref-type="bibr">27</xref> titrate antiepilepsy drugs<xref rid="R28" ref-type="bibr">28</xref> and identify the best way for clinicians to manage sepsis.<xref rid="R27" ref-type="bibr">27 29 30</xref> In the case of patient-facing healthcare, a reinforcement learning-based text message intervention improved physical activity and glycaemic control in patients with type 2 diabetes.<xref rid="R24" ref-type="bibr">24 25</xref> Such an approach could also personalise text message outreach for medication adherence about adherence and lifestyle but has not been evaluated for this purpose.</p>
+      </sec>
+      <sec sec-type="methods" id="s2">
+        <title>Methods and analysis</title>
+        <sec id="s2-1">
+          <title>Overall study design</title>
+          <p>REinforcement learning to Improve Non-adherence For diabetes treatments by Optimising Response and Customising Engagement (REINFORCE) is a two-arm pragmatic randomised controlled trial designed to evaluate the impact of a text messaging programme tailored using reinforcement learning on medication adherence for patients with type 2 diabetes (<xref rid="F1" ref-type="fig">figure 1</xref>). The trial began enrolment on 4 February 2021.</p>
+          <fig position="float" id="F1" orientation="portrait">
+            <label>Figure 1</label>
+            <caption>
+              <p>Overall trial design. HbA1c, haemoglobin A1c.</p>
+            </caption>
+            <graphic position="float" orientation="portrait" ns0:href="bmjopen-2021-052091f01.jpg" />
+          </fig>
+        </sec>
+        <sec id="s2-2">
+          <title>Study setting and subjects</title>
+          <p>The study is being conducted at Brigham and Women’s Hospital (BWH), an academic medical centre in Boston, Massachusetts, USA, part of Mass General Brigham. Potentially-eligible subjects are individuals 18–84 years of age diagnosed with type 2 diabetes who are prescribed 1–3 daily oral diabetes medications, with their most recent glycated haemoglobin A1c (HbA1c) level ≥7.5% (ie, above guideline-based treatment targets).<xref rid="R2" ref-type="bibr">2</xref> These criteria are being assessed using the BWH electronic health record (EHR).</p>
+          <p>Eligible patients must also have a smartphone with a data plan or Wi-Fi at home with ability to receive text messages regularly (ie, expected gaps in communication ≤3 days in a row), have a basic working knowledge of English, not be actively enrolled in another diabetes trial at Mass General Brigham, currently not using a pillbox or being willing and able to use electronic pill bottles for their diabetes medications for the duration of the study, and be independently responsible for taking their medications on a daily basis (ie, do not have daily assistance with medication-taking at home).</p>
+          <p>Patients using insulin are eligible to participate, and participants are not required to have prior evidence of non-adherence, as self-reported adherence is known to be strongly overestimated.<xref rid="R31" ref-type="bibr">31</xref> These criteria were chosen because smartphone connectivity and willingness to use electronic pill bottles are essential for the daily measurement of adherence from the electronic pill bottles, and prior literature suggests wide adoption of smartphones, even among patients from socioeconomically disadvantaged backgrounds.<xref rid="R32" ref-type="bibr">32–34</xref> The text messages are only presently available in the English language.</p>
+        </sec>
+        <sec id="s2-3">
+          <title>Study procedures and randomisation</title>
+          <p>The timeline of study procedures is shown in <xref rid="F2" ref-type="fig">figure 2</xref>. Potentially eligible subjects with recent or upcoming virtual or in-person appointments at one of the BWH diabetes clinics are identified using a biweekly EHR screen. Patients’ endocrinologists are then provided with a list of their potentially eligible patients via email and asked to opt-out any patients they do not wish to be approached for participation.</p>
+          <fig position="float" id="F2" orientation="portrait">
+            <label>Figure 2</label>
+            <caption>
+              <p>Timeline of study procedures.</p>
+            </caption>
+            <graphic position="float" orientation="portrait" ns0:href="bmjopen-2021-052091f02.jpg" />
+          </fig>
+          <p>Patients approved for enrolment are sent a mailed or electronic patient portal letter on their endocrinologist’s behalf inviting them to participate in the study and providing them with a contact number to enrol directly. Patients are then contacted by phone. Those subjects who provide consent to participate are sent a baseline questionnaire administered and collected through REDCap electronic data capture tools housed at BWH (<xref rid="SP1" ref-type="supplementary-material">online supplemental appendix table 1</xref>; written consent form) and mailed Pillsy electronic pill bottles for their medications. REDCap is a secure, web-based software platform that supports data capture for research studies.<xref rid="R35" ref-type="bibr">35 36</xref> Electronic pill bottles have been widely used in prior research on adherence and have shown high concordance with other adherence measurement methods.<xref rid="R37" ref-type="bibr">37 38</xref> Subjects are asked to use these devices in place of regular pill bottles or pillboxes for their eligible oral diabetes medications. Data from the bottles are transmitted through the patients’ smartphones via a latent downloaded app that has no features enabled (Android or iOS) and is used only for measurement purposes.</p>
+          <supplementary-material id="SP1" position="float" content-type="local-data" orientation="portrait">
+            <object-id pub-id-type="doi">10.1136/bmjopen-2021-052091.supp1</object-id>
+            <label>Supplementary data</label>
+            <p>
+              <inline-supplementary-material id="SS1" ns0:href="bmjopen-2021-052091supp001.pdf" content-type="local-data" />
+            </p>
+          </supplementary-material>
+          <p>After receiving the pill bottles, patients are randomised in a 1:1 ratio to intervention or control arm using a simple random number generator. In order to improve baseline participant balance between the two treatment arms, randomisation is block-randomised based on (1) baseline level of self-reported adherence, specifically &lt;1 dose or ≥1 doses missed in the last 30 days,<xref rid="R31" ref-type="bibr">31</xref> and (2) baseline HbA1c of &lt;9.0% or ≥9.0%. These adherence and HbA1c cutpoints are based on prior literature and clinically relevant thresholds and are used to create four total blocks.<xref rid="R31" ref-type="bibr">31 39</xref>
+          </p>
+          <p>At the end of the 6-month follow-up, patients are contacted by text message (and then by phone if non-responsive) to complete a follow-up questionnaire (<xref rid="SP1" ref-type="supplementary-material">online supplemental table 2</xref>) and ensure the complete synchronisation of their electronic pill bottles. The follow-up questionnaire includes items about self-reported adherence,<xref rid="R31" ref-type="bibr">31</xref> number of diabetes medications, diabetes-related hospitalisations and satisfaction with the text messaging programme. Patients in both arms receive a US$50 gift card for participation at the end of the study.</p>
+        </sec>
+        <sec id="s2-4">
+          <title>Intervention</title>
+          <sec id="s2-4-1">
+            <title>Overview</title>
+            <p>The core component of the intervention is a reinforcement learning programme that personalises daily text message outreach based on data from the electronic pill bottles (<xref rid="F3" ref-type="fig">figure 3</xref>). Beginning the morning after randomisation, the programme predicts which text message will be most likely to cause a patient to take their medications; the corresponding text message is then sent. The effectiveness of each message is assessed the next morning based on whether the medication doses were actually taken. The control arm receives no text messaging programme.</p>
+            <fig position="float" id="F3" orientation="portrait">
+              <label>Figure 3</label>
+              <caption>
+                <p>Reinforcement learning platform.</p>
+              </caption>
+              <graphic position="float" orientation="portrait" ns0:href="bmjopen-2021-052091f03.jpg" />
+            </fig>
+          </sec>
+          <sec id="s2-4-2">
+            <title>Text messages and classification scheme</title>
+            <p>The text messages that are delivered to patients are based on existing behavioural science principles of how message content that influences patient behaviour and improves patient self-efficacy.<xref rid="R40" ref-type="bibr">40–42</xref> Based on feedback from qualitative interviews with patients,<xref rid="R43" ref-type="bibr">43</xref> we selected five factors to incorporate into the messages: (1) framing, classified as neutral, positive or negative, (2) observed feedback, whereby the text message included the number of days in the previous week that patients had evidence of medication-taking (ie, 0–7), (3) social reinforcement (ie, mentioning loved ones in the text), (4) the nature of content, either providing a medication reminder or information about medications or lifestyle and (5) reflection, where the texts were designed to invoke introspection, such as including a reflective question.<xref rid="R7" ref-type="bibr">7 18 19 25 44 45</xref>
+            </p>
+            <p>Informed by prior trials led by the study team, evidence-based texts in publicly-available materials, and the patient qualitative interviews, we designed text messages incorporating varying components of the five selected factors (<xref rid="T1" ref-type="table">table 1</xref>).<xref rid="R25" ref-type="bibr">25 46–48</xref> For instance, a text message containing positive framing, observed feedback, social reinforcement, reminder content and without reflection would comprise one set of factors (eg, <xref rid="T1" ref-type="table">table 1</xref>, text 8). Each factor set in the trial had at least two text messages that corresponded with that set. Altogether, we developed and included 128 messages containing 47 unique combinations of factors.</p>
+            <table-wrap position="float" id="T1" orientation="portrait">
+              <label>Table 1</label>
+              <caption>
+                <p>Example text messages and factor classifications</p>
+              </caption>
+              <table frame="hsides" rules="groups">
+                <thead>
+                  <tr>
+                    <td align="left" valign="bottom" rowspan="1" colspan="1">No.</td>
+                    <td align="left" valign="bottom" rowspan="1" colspan="1">Text message</td>
+                    <td align="left" valign="bottom" rowspan="1" colspan="1">Framing (neutral=0; positive=1; negative=2)</td>
+                    <td align="left" valign="bottom" rowspan="1" colspan="1">Observed feedback (yes=1; no=0)</td>
+                    <td align="left" valign="bottom" rowspan="1" colspan="1">Social (yes=1; no=0)</td>
+                    <td align="left" valign="bottom" rowspan="1" colspan="1">Content (information=1; reminder=0)</td>
+                    <td align="left" valign="bottom" rowspan="1" colspan="1">Reflection (yes=1; no=0)</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Did you remember to take your medicine at your usual time today? If not, please take it now.</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                  </tr>
+                  <tr>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">2</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Following a healthy lifestyle can help you live your life the way you want to. The American Diabetes Association has some great tips at <ext-link ns0:href="https://bitly/3nRQtuE" ext-link-type="uri">https://bitly/3nRQtuE</ext-link>.</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                  </tr>
+                  <tr>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">3</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Your loved ones are counting on you to take your medicine—here is a reminder to take your medicine.</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                  </tr>
+                  <tr>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">4</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">You took your medicine prescribed by your doctor X of the last 7 days. Are you on track for today?</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                  </tr>
+                  <tr>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">5</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Managing your health can be difficult—exercising three times a week for 30 min and taking your medicine can make you feel good. Stick to it!</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                  </tr>
+                  <tr>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">6</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Do you want to get the most out of quality time with your loved ones? Taking your medicine daily can help you feel better.</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                  </tr>
+                  <tr>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">7</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">You took your medicine X out of the last 7 days. It’s important that you take your medicines as prescribed. Doing so might help you live longer.</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                  </tr>
+                  <tr>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">8</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">In the last week, you took your medicine X days. Please remember to take your medicine to feel good and get more quality time with loved ones! You got this!</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                  </tr>
+                  <tr>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">9</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">When you get busy, do you forget to take your medicine? Missing doses can make you feel worse, so remember to take it today.</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">2</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                  </tr>
+                  <tr>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">10</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Taking your medicine prescribed by your doctor can keep you from feeling unwell when you're with your loved ones.</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">2</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                  </tr>
+                  <tr>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">11</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">You took your medicine X days in the last week. Taking medicine gets easier with time and could help keep your health costs from going up—don't forget today.</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">2</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                  </tr>
+                  <tr>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">12</td>
+                    <td align="left" valign="top" rowspan="1" colspan="1">Please take your medicine, you took it X days out of the last 7. Taking it can be hard but you're not alone. It can keep you from feeling bad over the long run.</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">2</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">1</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                    <td align="char" char="." valign="top" rowspan="1" colspan="1">0</td>
+                  </tr>
+                </tbody>
+              </table>
+            </table-wrap>
+          </sec>
+          <sec id="s2-4-3">
+            <title>Reinforcement learning text messaging program</title>
+            <p>The reinforcement learning algorithm is hosted on a Health Insurance Portability and Accountability Act (HIPAA)-compliant Microsoft Azure server and integrates three components: (1) electronic pill bottle data obtained on a daily basis from the Pillsy server, (2) patient data from REDCap updated on a daily basis, including age, sex, number of medications, baseline HbA1c and patient activation, used as fixed predictors in the algorithm and (3) the reinforcement learning prediction model algorithm itself housed by Microsoft Personaliser, a publicly-available platform.<xref rid="R49" ref-type="bibr">49</xref> Even though they are ‘fixed predictors’, the patient data are updated on a daily basis to incorporate new patients as they are enrolled and to update the number of medications for the adherence calculations, for example, if a diabetes medication for which a given patient is using an electronic pill bottle is discontinued or a new one is added.</p>
+            <p>Each day, adherence from the prior day is calculated by dividing the number of times a patient opened the pill bottle by the number of doses prescribed (ie, once or two times per day as assessed during REDCap data collection at baseline). Adherence values, ranging from 0 to 1, are the ‘reward’ events sent to Microsoft Personaliser that train the algorithm to achieve the highest possible sum of these adherence rewards over time. For patients on more than one medication, the values for each are averaged. To avoid erroneously classifying repeated bottle openings for a single dose as representing multiple doses, we only count a maximum of 1 opening event per ~3 hour period. To reduce the chance of training the model on incorrect data, reward events for the prior day are not sent to Personaliser if the electronic pill bottles appear to be disconnected that day. Once the pill bottles are reconnected, the feedback loop is complete, and the model is updated. If no reward value is sent to Personaliser after 2 days, a default reward value of 0 is assigned to that training event.</p>
+            <p>The reinforcement learning initially suggests random text message factors and observes individual feedback and subsequent adherence to medication.<xref rid="R29" ref-type="bibr">29</xref> Over time, the algorithm begins to predict which factors should be included in the message that a patient receives. In addition to the adherence reward, the algorithm also incorporates other predictors including baseline characteristics, the number of days since each factor of text message was sent (to avoid sending similar messages many times in a row), and an indicator of whether a patient took their medication ‘early’ (ie, in the same calendar day but prior to the text message prediction of that morning). The most appropriate message for each day is determined by computing the predicted responses and Boltzmann sampling,<xref rid="R50" ref-type="bibr">50</xref> sometimes referred to as a ‘contextual bandit’ method.<xref rid="R26" ref-type="bibr">26 51 52</xref> When no adherence reward is received (because no data have been received from a patient’s pill bottle), text messages are predicted and based on adherence rewards available to date. Throughout the trial, 10% of the daily predictions are randomly chosen in order to continue to train the model. As in prior work, the algorithm can decide that no text message be sent to a specific patient on a given day.<xref rid="R25" ref-type="bibr">25</xref>
+            </p>
+            <p>The text messages are sent up to daily using Microsoft Dynamics 365 SMS Texting, a HIPAA-compliant third-party platform managed through BWH. While the platform allows for two-way communication for patients in the intervention arm to stop the daily text message reminders, patients are not specifically encouraged to respond in order to enhance the potential for scalability to other settings. The overall programme was pilot tested among non-participant volunteers for 3 weeks before the start of the study in order to address operational issues; these data were not used to train the algorithm.</p>
+            <p>In addition to the reinforcement learning specified messages, intervention subjects also receive an introductory text on the day of randomisation, a simple reminder text to synchronise their electronic pill bottles if they have not been connected for more than seven days (sent every 3 days until connected or until 30 days has elapsed), and a final text at the end of follow-up with a link to the final questionnaire (Appendix Table 2). If the pill bottles have still not been synchronised for &gt;14 days and &gt;28 days, subjects will also receive one call from study staff on these days to inquire about any synching issues.</p>
+          </sec>
+        </sec>
+        <sec id="s2-5">
+          <title>Control arm</title>
+          <p>The control arm receives the same simple introductory, synchronisation and end of study text messages as sent to the intervention arm in the same sequence (Appendix Table 3). As in the intervention arm, if the pill bottles have still not been synced for &gt;14 days and &gt;28 days, subjects will receive one call from study staff on these days to inquire about any synching issues. Patients in the control arm do not receive any other intervention.</p>
+        </sec>
+        <sec id="s2-6">
+          <title>Outcomes</title>
+          <p>The trial’s primary outcome is medication adherence assessed in the 6 months after randomisation (<xref rid="T2" ref-type="table">table 2</xref>). Medication adherence will be measured by averaging daily adherence (as described above) for each medication across each patient beginning the day after randomisation until 183 days after randomisation.</p>
+          <table-wrap position="float" id="T2" orientation="portrait">
+            <label>Table 2</label>
+            <caption>
+              <p>Study outcomes</p>
+            </caption>
+            <table frame="hsides" rules="groups">
+              <thead>
+                <tr>
+                  <td align="left" valign="bottom" rowspan="1" colspan="1">Outcome</td>
+                  <td align="left" valign="bottom" rowspan="1" colspan="1">Measurement</td>
+                  <td align="left" valign="bottom" rowspan="1" colspan="1">Assessment</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" valign="top" rowspan="1" colspan="1">Primary</td>
+                  <td align="left" valign="top" rowspan="1" colspan="1">Medication adherence: mean proportion of days covered</td>
+                  <td align="left" valign="top" rowspan="1" colspan="1">Proportion of days the electronic pill bottle was opened in the 6-month follow-up period, averaged across study medications<xref rid="R69" ref-type="bibr">69</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" valign="top" rowspan="1" colspan="1">Secondary</td>
+                  <td align="left" valign="top" rowspan="1" colspan="1">Glycaemic control: HbA1c in follow-up</td>
+                  <td align="left" valign="top" rowspan="1" colspan="1">Value closest to 6-month visit, supplemented by laboratory values in the EHR</td>
+                </tr>
+                <tr>
+                  <td align="left" valign="top" rowspan="1" colspan="1">Secondary</td>
+                  <td align="left" valign="top" rowspan="1" colspan="1">Self-reported adherence</td>
+                  <td align="left" valign="top" rowspan="1" colspan="1">12-month visit, using validated adherence score by Wilson <italic toggle="yes">et al</italic>
+                    <xref rid="R70" ref-type="bibr">70</xref>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" valign="top" rowspan="1" colspan="1">Secondary</td>
+                  <td align="left" valign="top" rowspan="1" colspan="1">Glycaemic control: change in HbA1c from baseline to follow-up</td>
+                  <td align="left" valign="top" rowspan="1" colspan="1">Change between Baseline and 6-month visit, in values collected by EHR</td>
+                </tr>
+              </tbody>
+            </table>
+            <table-wrap-foot>
+              <fn id="T2_FN1">
+                <p>EHR, electronic health record; HbA1c, haemoglobin A1c.</p>
+              </fn>
+            </table-wrap-foot>
+          </table-wrap>
+          <p>Secondary outcomes include change in glycaemic control as assessed using HbA1c, and self-reported adherence at the end of follow-up. HbA1c values will be collected from routine measurements recorded in the EHR system; we will use the value closest to each patient’s 6-month end of follow-up, up to 1 month after randomisation. In routine care, HbA1cs are measured approximately every 3–6 months, so we expect only modest missingness, as we have observed also in prior work.<xref rid="R46" ref-type="bibr">46</xref>
+          </p>
+          <p>Self-reported adherence will be assessed as the proportion of patients who are adherent according to a validated three-item self-report measure and prior literature from the follow-up questionnaire.<xref rid="R31" ref-type="bibr">31</xref> We will also descriptively measure implementation outcomes informed by the Reach, Effectiveness, Adoption, Implementation, Maintenance (RE-AIM) framework,<xref rid="R53" ref-type="bibr">53</xref> including representativeness of patients in the study, text messaging opt-out rates, any feedback from patients and rates of pill bottle disconnectedness, which will inform considerations for how to scale the intervention to other settings.</p>
+        </sec>
+        <sec id="s2-7">
+          <title>Analytic plan and sample size</title>
+          <p>We will report means and frequencies of prerandomisation variables separately by intervention and control arm, comparing these values using absolute standardised differences. The outcomes will be evaluated using intention-to-treat principles among all randomised participants.</p>
+          <p>In the primary analysis, we will evaluate adherence and glycaemic control using generalised estimating equations with an identity link function and normally distributed errors. We will also adjust for the block randomised design. We do not expect any missing data for the primary outcome, but may have up to 25% missingness for the glycaemic control outcome.<xref rid="R46" ref-type="bibr">46 54</xref> If &gt;10% of participants have missing HbA1c data, we will repeat our analyses using multiple imputation.<xref rid="R54" ref-type="bibr">54 55</xref> A similar approach will be taken for self-reported adherence, except using a log link function and Poisson distributed errors to generate relative risks of the proportion of adherent patients in the intervention versus control arms.<xref rid="R56" ref-type="bibr">56</xref> In secondary analyses, we will control for any differences in baseline variables between the arms despite randomisation.</p>
+          <p>As a sensitivity analysis, we will censor patients in the analysis when they have stopped using the electronic pill bottle for &gt;30 days. We will also evaluate the change in HbA1c from baseline until the end of follow-up and differences in self-reported adherence separately for the three items that make up the self-reported scale we are using. For glycaemic control (HbA1c) and self-reported adherence, we will also conduct complete case analyses. Similarly, subgroup analyses will include stratification by age, sex, race/ethnicity, baseline HbA1c, baseline self-reported adherence and number of study medications.</p>
+          <p>Our study should be sufficiently powered to detect clinically meaningful differences in the primary outcome. With 60 subjects, we estimated that we would have the power to detect a 10% difference in average adherence over the 6-month follow-up period between the two arms, assuming an SD=12.5%, power=0.8 and α=0.05. With this sample size, we would also be able to detect an HbA1c difference of 1.0% between arms (assuming SD=1.3) and 50% relative difference in self-reported adherence.<xref rid="R54" ref-type="bibr">54</xref>
+          </p>
+          <p>On trial completion, we will cluster intervention patients by their response to different text message factors and evaluate the ability to predict these cluster phenotypes using baseline information before randomization. Based on prior work and the general 1:10 rule of thumb for predictor parameters, we expect to elucidate at least two unique patient characteristics for the clusters.<xref rid="R25" ref-type="bibr">25 57</xref> We have further classified each text message as quantitative (ie, containing numbers), social reinforcement with specific reference to their doctor, or containing lifestyle information, which we will also incorporate as post-hoc prediction factors to evaluate responsiveness to individual texts; in total, there will be at least 5000 individual text messages sent. This exploratory prediction modelling on trial completion could provide a more accurate ‘starting point’ on which future programmes could begin to adapt to further personalise message content.</p>
+        </sec>
+        <sec id="s2-8">
+          <title>Patient and public involvement</title>
+          <p>We conducted 20 qualitative interviews with patients with type 2 diabetes at the outset of designing the trial.<xref rid="R43" ref-type="bibr">43</xref> These experiences and their preferences were used to help design and inform the text messaging programme, refine the research question and outcome measures, and recruitment mechanisms. We also plan to involve patients in the dissemination plans and distribute the study results to participants in the study.</p>
+        </sec>
+      </sec>
+      <sec sec-type="discussion" id="s3">
+        <title>Discussion</title>
+        <p>Interventions for health behaviour change appear to be most effective when tailored to the needs and behavioural tendencies of individuals. Reinforcement learning is a machine learning method that can be used to discover individuals’ patterns of responsiveness and then personalising cues accordingly. Despite its promise for improving the tailoring of communication, reinforcement learning has not yet been used to support medication-taking behaviours. Accordingly, we launched the REINFORCE trial to test the impact of a reinforcement learning-based text messaging programme on medication adherence for patients with type 2 diabetes.</p>
+        <p>Prior work using reinforcement learning indicates its early promise to improve health outcomes. For instance, in a three-arm trial testing the impact on exercise of different text messaging approaches for individuals with type 2 diabetes, reinforcement learning resulted in significantly larger improvements in daily activity and glycaemic control than non-personalised weekly or daily texting strategies. Other trials of reinforcement learning-based interventions have shown similar successes, increasing, for example, physical activity by more than 20% versus non-adaptive approaches (p&lt;0.001).<xref rid="R58" ref-type="bibr">58 59</xref> We hypothesise that ‘reinforcement learning’ has transdiagnostic implications and thus could apply to other health behaviours, such as weight loss, diet, exercise, self-monitoring and medication use for patients with diabetes, the latter of which we are testing here.</p>
+        <p>Randomised trials have demonstrated the effectiveness of text messaging to support adherence to medication.<xref rid="R11" ref-type="bibr">11 12 14 15 60–66</xref> However, these approaches have only been modestly successful, possibly because they have not personalised the content and presentation (ie, framing) of the messages that patients receive.<xref rid="R60" ref-type="bibr">60</xref> Text messages can be delivered at low cost and are widely available—even for patients who have difficulty accessing care—adding to their promise for improving population health, particularly if sufficiently optimised.<xref rid="R12" ref-type="bibr">12</xref>
+        </p>
+        <p>There are several limitations to this study that should be acknowledged. First, while electronic pill bottles allow for a highly accurate measure of actual pill consumption,<xref rid="R38" ref-type="bibr">38 67</xref> monitoring could theoretically influence adherence. While these observer effects decrease over time,<xref rid="R37" ref-type="bibr">37 68</xref> to further minimise this bias, we are using electronic pill bottles in both arms. Patients may also not have an HbA1c lab value during follow-up for the secondary outcome, but we are using commonly used multiple imputation methods to address this. These findings may also not generalise to patients with prediabetes or gestational diabetes or to those without reliable access to a smartphone and/or wireless internet. The post-hoc prediction analyses may also be limited by small sample size and are exploratory. Finally, this trial does not include a ‘generic’ text messaging arm. Within pragmatic funding constraints, this design choice was motivated by our goal of testing the potential efficacy of a reinforcement learning text messaging intervention. If our trial were to find no beneficial effect compared with control, then it is highly unlikely that there would be benefit compared with generic text messaging either. Conversely, if the intervention is shown to be successful, a large trial would be required for validation, and this study would include other types of text messaging programmes.</p>
+        <p>In conclusion, the REINFORCE trial will evaluate the effect of personalising text message content to support medication adherence in type 2 diabetes using a machine learning method for patients. If the intervention is effective, this approach is expected to be tested and reproducible in other clinical environments and for a broader set of health behaviours. Regardless of outcome, the trial will also provide insight into how reinforcement learning could be adapted at scale to improve other self-management interventions.</p>
+      </sec>
+      <sec id="s4">
+        <title>Ethics and dissemination</title>
+        <p>The trial is approved by the institutional review board of Mass General Brigham and registered with clinicaltrials.gov (<ext-link ext-link-type="pmc:clinical-trial" ns0:href="NCT04473326">NCT04473326</ext-link>) (see Trial Protocol attachment). The authors will be responsible for performing the study analyses, writing the first draft of the manuscript, substantive edits and submitting its final contents for publication. Data analysts at the end of the study will be blinded to arm assignment; patients are not blinded due to the nature of the interventions. No data monitoring committee was deemed necessary by the human subjects’ oversight boards. Findings will be disseminated through peer-reviewed journals, reports to the funding organisation and clinicaltrials.gov and scientific conferences. Study data will be made available pending appropriate agreements given the nature of the human subjects’ data.</p>
+      </sec>
+    </body>
+  </article>
+</pmc-articleset>

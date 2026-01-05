@@ -1,0 +1,149 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03679247",
+      "secondaryIdInfos": [
+        {
+          "id": "5R01DK116898-03",
+          "type": "NIH",
+          "domain": "National Institutes of Health"
+        }
+      ],
+      "organization": {
+        "fullName": "Brigham and Women’s Hospital",
+        "class": "OTHER"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "The purpose of this study is to incorporate behavioural economic principles and user-centred design principles into a multicomponent intervention for the management of uncontrolled hypertension (HTN) in chronic kidney disease (CKD) in primary care. This is a multicentre, pragmatic, controlled trial cluster-randomised at the clinician level. The intervention consists of a clinical decision support system that synthesises existing data, increases recognition of CKD and uncontrolled HTN, and delivers evidence-based management recommendations. The primary endpoint is the change in mean systolic blood pressure between baseline and 6 months compared across arms.",
+      "detailedDescription": "This pragmatic clinical trial evaluates a multicomponent intervention incorporating clinical decision support (CDS), computable phenotypes, user-centred design principles, and behavioural economic theories to improve hypertension management in chronic kidney disease (CKD) patients. The study is set within the Brigham and Women’s Primary Care Practice-Based Research Network and utilizes a matched-pair cluster randomised design at the clinician level. The intervention includes Epic Best Practices Advisories (BPAs) based on five computable phenotypes regarding ACE inhibitor and ARB prescription or dosage optimization. It also involves a precommitment email to primary care physicians (PCPs) and accountability mechanisms within the CDS. The study utilizes the Reach Effectiveness Adoption Implementation Maintenance (RE-AIM) framework to conduct the evaluation. The primary outcome is the change in mean systolic blood pressure (SBP) from baseline to 6 months. Secondary outcomes include HTN-specific process measures, CKD quality of care measures, adverse drug events, hypotension, and assessment of implementation success."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Chronic Kidney Disease",
+        "Hypertension",
+        "Uncontrolled Hypertension"
+      ],
+      "keywords": [
+        "Clinical Decision Support",
+        "Behavioral Economics",
+        "User-Centred Design",
+        "Primary Care",
+        "Pragmatic Clinical Trial",
+        "Electronic Health Records",
+        "RE-AIM Framework"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Matched-pair cluster randomised design with the intervention on the cluster level. Clusters were made up of either one PCP with their own panel of patients, or two PCPs who share a panel. We will match pairs of clusters with a similar number of patients and prior year mean blood pressure of patients in the cluster. One cluster in each pair will be randomised to the intervention and the other to usual care.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 2349,
+        "type": "ESTIMATED"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Intervention Arm",
+          "type": "EXPERIMENTAL",
+          "description": "Primary Care Physicians (PCPs) in this cluster receive the multicomponent intervention including the active Clinical Decision Support (CDS) system.",
+          "interventionNames": [
+            "Other: Multicomponent Clinical Decision Support System"
+          ]
+        },
+        {
+          "label": "Control Arm",
+          "type": "NO_INTERVENTION",
+          "description": "PCPs in this cluster provide usual care. The CDS runs in 'silent mode' where it records when it would fire but is not displayed to the user.",
+          "interventionNames": []
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Multicomponent Clinical Decision Support System",
+          "description": "A clinical decision support (CDS) system integrated into the Epic EHR as Best Practices Advisories (BPAs). It utilizes computable phenotypes to identify patients with CKD and uncontrolled hypertension. The intervention incorporates behavioral economic principles, including a precommitment pledge email sent to PCPs and an accountable justification requirement (asking PCPs to explicitly justify dismissing the advice). It synthesizes laboratory tests, medication orders, and vital signs to recommend evidence-based management (e.g., prescribing ACEis, ARBs, or diuretics).",
+          "armGroupLabels": [
+            "Intervention Arm"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in mean systolic blood pressure (SBP)",
+          "description": "The difference in mean systolic blood pressure compared across arms.",
+          "timeFrame": "Between baseline and 6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "HTN-specific process measures",
+          "description": "Includes percentage of patients with controlled blood pressure (<140/90 mm Hg) and percentage of patients with intensification of antihypertensive medication.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Process measures for CKD quality of care",
+          "description": "Includes percentage of patients with annual urine albumin test, percentage of patients with annual serum creatinine test, and percentage of patients with ACEi/ARB prescription.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Adverse drug events",
+          "description": "Incidence of adverse events such as hyperkalemia and acute kidney injury.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Hypotension",
+          "description": "Incidence of hypotension.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Reach",
+          "description": "The overall use of the CKD CDS, including the number of PCPs and patients for whom it fires, and statistics on the quantity and types of firings.",
+          "timeFrame": "Through study completion"
+        },
+        {
+          "measure": "Adoption",
+          "description": "The percentage and types of settings and staff that embrace the innovation, analyzed by how PCPs accept, reject, and interact with the BPA (including acknowledge reasons and follow-up actions).",
+          "timeFrame": "Through study completion"
+        },
+        {
+          "measure": "Implementation",
+          "description": "Consistency of CDS use, support resources used, barriers/enablers identified, workarounds, changes from pre-intervention, and unintended consequences to safety or workflows.",
+          "timeFrame": "Through study completion"
+        },
+        {
+          "measure": "Maintenance",
+          "description": "Sustainability of innovation components and effects, recorded by qualitative descriptions of system performance longitudinally, emerging workflow changes, and long-term unintended consequences.",
+          "timeFrame": "Through study completion"
+        }
+      ],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Patients: All patients over the age of 18 who have a visit with a PCP at one of the intervention practices during the 2 years preceding the visit date.\n- CKD, defined as two prior eGFRs 16–59 mL/min/1.73 m2 separated by 90 days, as calculated by CKD-EPI, or two prior UACR >30 mg/g separated by 90 days.\n- Uncontrolled HTN, defined as at least one SBP >140 mm Hg within the 2 years preceding the enrolment visit, as well as SBP >140 mm Hg at the enrolment visit.\n- Clinicians: PCPs who have a consistent panel of primary care patients.\n\nExclusion Criteria:\n- Patients with a most recent eGFR <=20 or two previous eGFRs within 2 years separated by at least 90 days <=15.\n- Clinicians who only see urgent care and walk-in patients.\n- Residents in training.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

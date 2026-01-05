@@ -1,0 +1,109 @@
+{
+  "case_id": 91,
+  "shard_range": "1_100",
+  "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/91_NCT01999868.json",
+  "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/91_Claude-4.5-Sonnet.json",
+  "model": "Claude-4.5-Sonnet",
+  "target_section": "protocolSection",
+  "target_pieces_count": 21,
+  "target_fields_count": 21,
+  "response_metadata": {
+    "prompt_tokens": 404,
+    "completion_tokens": 65,
+    "total_tokens": 469,
+    "model": "gpt-5.1-2025-11-13"
+  },
+  "total": 26,
+  "key_precision": 1.0,
+  "key_recall": 0.15,
+  "key_f1": 0.2608695652173913,
+  "value_precision": 1.0,
+  "value_recall": 0.15,
+  "value_f1": 0.2608695652173913,
+  "key_counts": {
+    "TP": 3,
+    "FP": 0,
+    "FN": 17,
+    "TN": 0,
+    "EV": 6,
+    "NA": 0
+  },
+  "value_counts": {
+    "TP": 3,
+    "FP": 0,
+    "FN": 17,
+    "TN": 0,
+    "EV": 6,
+    "NA": 0
+  },
+  "key_EV_fields": [
+    "protocolSection.identificationModule.secondaryIdInfos.id",
+    "protocolSection.identificationModule.secondaryIdInfos.id",
+    "protocolSection.identificationModule.secondaryIdInfos.type",
+    "protocolSection.identificationModule.secondaryIdInfos.type",
+    "protocolSection.identificationModule.secondaryIdInfos.domain",
+    "protocolSection.identificationModule.secondaryIdInfos.domain"
+  ],
+  "key_FN_fields": [
+    "protocolSection.descriptionModule.briefSummary",
+    "protocolSection.descriptionModule.detailedDescription",
+    "protocolSection.conditionsModule.conditions",
+    "protocolSection.conditionsModule.keywords",
+    "protocolSection.designModule.studyType",
+    "protocolSection.designModule.phases",
+    "protocolSection.designModule.designInfo.allocation",
+    "protocolSection.designModule.designInfo.interventionModel",
+    "protocolSection.designModule.designInfo.maskingInfo.masking",
+    "protocolSection.designModule.designInfo.maskingInfo.whoMasked",
+    "protocolSection.designModule.enrollmentInfo.count",
+    "protocolSection.eligibilityModule.eligibilityCriteria",
+    "protocolSection.eligibilityModule.healthyVolunteers",
+    "protocolSection.eligibilityModule.sex",
+    "protocolSection.eligibilityModule.minimumAge",
+    "protocolSection.eligibilityModule.maximumAge",
+    "protocolSection.eligibilityModule.stdAges"
+  ],
+  "key_FP_fields": [],
+  "key_TP_fields": [
+    "protocolSection.identificationModule.nctId",
+    "protocolSection.identificationModule.briefTitle",
+    "protocolSection.identificationModule.officialTitle"
+  ],
+  "key_TN_fields": [],
+  "key_NA_fields": [],
+  "val_EV_fields": [
+    "protocolSection.identificationModule.secondaryIdInfos.id",
+    "protocolSection.identificationModule.secondaryIdInfos.id",
+    "protocolSection.identificationModule.secondaryIdInfos.type",
+    "protocolSection.identificationModule.secondaryIdInfos.type",
+    "protocolSection.identificationModule.secondaryIdInfos.domain",
+    "protocolSection.identificationModule.secondaryIdInfos.domain"
+  ],
+  "val_FN_fields": [
+    "protocolSection.descriptionModule.briefSummary",
+    "protocolSection.descriptionModule.detailedDescription",
+    "protocolSection.conditionsModule.conditions",
+    "protocolSection.conditionsModule.keywords",
+    "protocolSection.designModule.studyType",
+    "protocolSection.designModule.phases",
+    "protocolSection.designModule.designInfo.allocation",
+    "protocolSection.designModule.designInfo.interventionModel",
+    "protocolSection.designModule.designInfo.maskingInfo.masking",
+    "protocolSection.designModule.designInfo.maskingInfo.whoMasked",
+    "protocolSection.designModule.enrollmentInfo.count",
+    "protocolSection.eligibilityModule.eligibilityCriteria",
+    "protocolSection.eligibilityModule.healthyVolunteers",
+    "protocolSection.eligibilityModule.sex",
+    "protocolSection.eligibilityModule.minimumAge",
+    "protocolSection.eligibilityModule.maximumAge",
+    "protocolSection.eligibilityModule.stdAges"
+  ],
+  "val_FP_fields": [],
+  "val_TP_fields": [
+    "protocolSection.identificationModule.nctId",
+    "protocolSection.identificationModule.briefTitle",
+    "protocolSection.identificationModule.officialTitle"
+  ],
+  "val_TN_fields": [],
+  "val_NA_fields": []
+}

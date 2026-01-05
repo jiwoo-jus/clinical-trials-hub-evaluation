@@ -1,0 +1,80 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT02132247,NCT02132247,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Safety Study of Flector Patch in Children With Minor Soft Tissue Injuries,Safety and Efficacy of the FLECTOR (Diclofenac Epolamine) Topical System in Children,True,0.86,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,FN,FN,"An Open-label, Prospective, Uncontrolled Study of the Safety and Local Tolerability of the Diclofenac Epolamine Patch (Flector Patch) in Pediatric Patients With Minor Soft Tissue Injuries",,False,0.0,,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,False,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"The primary purpose of this study is to determine whether Flector Patch is safe for use in children. The secondary purpose is to assess blood levels of diclofenac, the active ingredient in Flector Patch.","This open-label, single-arm, Phase IV study assessed the safety and efficacy of the FLECTOR diclofenac epolamine topical system (FDETS) in a pediatric population (aged 6–16 years) with clinically significant minor soft tissue injuries. The study aimed to confirm the safety profile, local tolerability, and analgesic efficacy of this topical nonsteroidal anti-inflammatory drug (NSAID) formulation in children, comparing the results with previous data obtained in adults. The primary focus was on local tolerability and systemic safety, with secondary assessments on pharmacokinetics and pain reduction.",True,0.78,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"The study was conducted at ten family medicine or pediatric practices in the USA involving children aged 6–16 years who sustained a clinically significant minor soft tissue injury within the preceding 96 hours and exhibited at least moderate spontaneous pain (score of >= 3 on the Wong-Baker FACES Pain Rating Scale). This was an open-label, single-arm, non-randomized trial designed to meet FDA requirements for pediatric safety and efficacy confirmation.
+
+Participants applied the FLECTOR topical system, containing 180 mg of diclofenac epolamine, to the injury site twice daily until pain resolution or for a maximum of 14 days. The primary endpoint was local tolerability and systemic safety. Local tolerability was evaluated using a seven-item scale ranging from no skin changes to redness with extension beyond the contact site. Adverse events were categorized using MedDRA codes.
+
+Key secondary endpoints included diclofenac plasma concentrations and analgesic efficacy. Blood samples were collected 24 hours after the first application and at the final visit to assess pharmacokinetics using high-performance liquid chromatography (HPLC) with tandem mass spectrometry detection. Analgesic efficacy was self-assessed by patients using the Wong-Baker FACES Pain Rating Scale in daily diaries and during clinic visits on Days 2, 4, 7, and 14. Investigators also assessed the global response to therapy. Data were stratified by age group (6–11 years and 12–16 years) and compared with historical data from adult studies.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,['Athletic Injuries'],"['Minor Soft Tissue Injuries', 'Acute Pain', 'Sprains', 'Strains', 'Contusions']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,TP,FP,"['Minor athletic injuries', 'Pain', 'Diclofenac', 'Topical']","['Diclofenac epolamine', 'FDETS', 'Topical NSAID', 'Pediatrics', 'Pharmacokinetics', 'Analgesia', 'FLECTOR']",False,0.0,disjoint,Keyword,protocolSection.conditionsModule.keywords,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE4'],['PHASE4'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,NA,NA,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,SINGLE_GROUP,SINGLE_GROUP,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"This was an open-label, single-arm, phase IV non-randomized study.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,Open-label design; absence of blinding.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,104,104,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.armsInterventionsModule.interventions[0].description,EV,EV,,A topical patch (10 × 14 cm) containing 1.3% (180 mg) of diclofenac epolamine (equivalent to 140 mg diclofenac sodium). The patch is applied to the injury site twice daily (every 12 hours) until pain resolution or for up to 14 days.,,,,InterventionDescription,protocolSection.armsInterventionsModule.interventions.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[1].measure,EV,EV,,Systemic Safety,,,,PrimaryOutcomeMeasure,protocolSection.outcomesModule.primaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[1].description,EV,EV,,Incidence and severity of adverse events categorized using Medical Dictionary for Regulatory Activities (MedDRA) codes.,,,,PrimaryOutcomeDescription,protocolSection.outcomesModule.primaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.primaryOutcomes[1].timeFrame,EV,EV,,From baseline up to Day 14,,,,PrimaryOutcomeTimeFrame,protocolSection.outcomesModule.primaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[2].description,EV,EV,,Concentration of diclofenac in plasma determined by high performance liquid chromatography (HPLC) with tandem mass spectrometry detection (MS-MS).,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Age 6 to 16 years, either gender
+* Informed consent: 6-9 year olds must have their parent/legally authorized representative complete a Parental Permission Form; 10-16 year olds must complete a Children's Assent Form and have their parent/legally authorized representative complete a Parental Permission Form
+* Minor soft tissue injury within 96 hours of study entry
+* Spontaneous pain of at least moderate intensity (i.e. pain of at least 3 on the 6-point Wong- Baker Faces scale for pain severity assessment by patient)
+* Injury must be considered by the Investigator to be clinically significant
+* Negative urine pregnancy test at screening for female subjects of childbearing potential (started the menstrual cycle)
+* Able to read and speak English
+* Available with their parents for the immediate two week period following study enrollment
+
+Exclusion Criteria:
+
+* Major soft tissue injury (Fractures are only exclusionary if the injury is stabilized with a device, e.g. a hard cast, that cannot be removed to allow a patch to be applied to the site of injury)
+* Open skin lesion or any dermatological condition (e.g. skin infection, eczema) within the injured area
+* Injury is midline or involves the spine, digits or hands
+* Prior injury to the same site within the past 3 months
+* Three or more other prior injuries (minor or major) to the region in the past
+* Injury occurred more than 96 hours prior to study entry
+* Prior use of topical medication to involved area within 48 hours of study entry
+* Allergic disorders, including asthma or urticaria, but only if associated with exposure to aspirin or an NSAID
+* Coagulation defects
+* Prior use of over-the-counter (OTC) analgesics or short-acting non-steroidal anti-inflammatory drugs (NSAIDs \[ibuprofen, ketoprofen\]) within 6 hours of study entry (acetaminophen permitted up until the time of study entry)
+* Prior use of narcotic analgesics within 7 days of study entry
+* Prior use of systemic anti-inflammatory steroidal drugs within 60 days of study entry
+* Prior use of long-acting NSAIDs such as piroxicam or naproxen since injury
+* Concomitant use of drugs which may be susceptible to interactions with diclofenac, or affect safety if used concomitantly (serotonin-selective reuptake inhibitors (SSRI), lithium, digoxin, anticoagulants, antidiabetic agents, cyclosporin, methotrexate, quinolone antimicrobials, other NSAIDs, steroids and diuretics)
+* Subjects suffering from psychiatric disorders (including depression)
+* Handicapped patients, but only if the handicap prevents them from either assessing their pain or safely using the patch (e.g., pervasive developmental disorders such as autism, Asperger syndrome, Rett syndrome, Heller's syndrome, severe attention deficit hyperactivity disorders (ADHD), other severe mental retardation of traumatic, congenital or other origin)
+* History of current alcohol or drug abuse dated \< 1 year
+* Severe cardiac, renal or hepatic impairment
+* Severe systemic diseases (e.g. cancer, severe acute infection)
+* Any underlying disease or medication that severely compromise the patient's immune system
+* Prior history of any chronic pain disorder
+* Prior history of GI bleeds/ulcers, liver or kidney disease
+* Hypersensitivity to diclofenac or other NSAID drugs (including aspirin)
+* Females who are pregnant or breast feeding
+* Patients participating or having been involved in other clinical investigations during the three months preceding the entry of this study","Inclusion Criteria:
+- Children aged 6–16 years
+- Clinically significant minor soft tissue injury sustained within the preceding 96 h
+- Spontaneous pain of at least moderate severity, defined as a score of ≥ 3 on the 6-point Wong-Baker FACES® Pain Rating Scale
+- Post-menarche girls were required to have a negative pregnancy test
+
+Exclusion Criteria:
+- Injury was midline or major, involved the spine, digits, or hands
+- Open skin lesions within the injured area
+- Severe cardiac, renal, or hepatic impairment
+- Use of a long-acting NSAID since sustaining the injury
+- Topical medication within the past 48 h",True,0.86,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,6 Years,6 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,16 Years,16 Years,True,1.0,exact,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,['CHILD'],['CHILD'],True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

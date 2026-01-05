@@ -1,0 +1,157 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT00195091",
+      "orgStudyIdInfo": {
+        "id": "0309006307",
+        "type": "NIH",
+        "link": ""
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "0611008853",
+          "type": "NIH",
+          "domain": "Weill Cornell Medicine",
+          "link": ""
+        },
+        {
+          "id": "18-023",
+          "type": "NIH",
+          "domain": "Memorial Sloan Kettering Cancer Center",
+          "link": ""
+        },
+        {
+          "id": "PXD027089",
+          "type": "REGISTRY",
+          "domain": "ProteomeXchange",
+          "link": "https://www.proteomexchange.org"
+        },
+        {
+          "id": "EGAS00001001753",
+          "type": "REGISTRY",
+          "domain": "METABRIC via cBioPortal",
+          "link": "https://www.cbioportal.org/study/summary?id=brca_metabric"
+        }
+      ],
+      "organization": {
+        "fullName": "Weill Cornell Medicine",
+        "class": "OTHER"
+      },
+      "briefTitle": "Phase II Trial of Tetrathiomolybdate in High-Risk Breast Cancer Patients",
+      "officialTitle": "Phase II Clinical Trial of Copper Chelation With Tetrathiomolybdate in High-Risk Breast Cancer Patients",
+      "acronym": "TM"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study investigates how depleting copper with the oral chelating drug tetrathiomolybdate (TM) affects metastasis in triple-negative breast cancer (TNBC). Prior phase II clinical data suggested that copper depletion improves event-free and overall survival in high-risk breast cancer patients, including those with TNBC, without significantly affecting primary tumor growth. Using human and mouse TNBC models, the researchers show that TM selectively targets a small, highly metastatic subpopulation of SOX2/OCT4-positive cells that have elevated intracellular copper and rely heavily on mitochondrial oxidative phosphorylation (OXPHOS). Copper depletion destabilizes mitochondrial Complex IV, disrupts respiration, activates the AMPK–mTORC1 energy-sensing pathway, and reduces invasion and lung metastasis while sparing overall cell viability and primary tumor growth.",
+      "detailedDescription": "The study explores a mechanistic link between copper metabolism, mitochondrial bioenergetics, and metastatic progression in triple-negative breast cancer (TNBC). Clinically, high expression of the copper transporter CTR1 (SLC31A1) in breast tumors correlates with poorer overall survival, higher stage, and more aggressive subtypes such as TNBC and HER2-positive disease. A previously conducted phase II clinical trial of tetrathiomolybdate (TM), a first-in-class oral copper chelator originally developed for Wilson’s disease, showed that sustained copper depletion was safe, well-tolerated, and associated with unexpectedly high event-free survival in high-risk breast cancer patients, including those with stage 4 TNBC without evidence of disease.\n\nTo understand how copper depletion limits metastasis, the authors use two TNBC models: a human lung-tropic variant of MDA-MB-231 (LM2) and a syngeneic murine model EO771.ML1 (ML1). In these models, TM is administered orally at doses that reduce systemic and intracellular copper to about 30% of baseline levels, mimicking the levels achieved in the clinical trial. At these doses, TM does not significantly affect in vitro cell viability, proliferation, or primary tumor growth in vivo, but it markedly reduces invasion through extracellular matrix in transwell assays and decreases lung metastatic burden after resection of primary tumors.\n\nUsing a SOX2/OCT4-GFP promoter-reporter system, the study identifies a discrete subpopulation of SOX2/OCT4-positive cancer cells within primary TNBC tumors. These cells exhibit stem-like traits, enhanced invasive and metastatic potential, higher basal oxygen consumption, and elevated intracellular copper compared with SOX2/OCT4-negative cells. TM preferentially reduces invasion and respiratory capacity in this GFP-positive subpopulation. Global, multiplexed tandem mass tag (TMT) proteomics in sorted GFP-positive versus GFP-negative cells reveals that TM treatment specifically downregulates multiple subunits of mitochondrial Complex IV (cytochrome c oxidase) and enriches for gene ontology pathways related to the mitochondrial electron transport chain in the GFP-positive cells.\n\nFunctional assays confirm that TM selectively destabilizes Complex IV protein subunits without altering their mRNA levels, reduces cytochrome c oxidase activity, and perturbs mitochondrial cristae structure, while leaving mitochondrial DNA content and overall mitochondrial mass largely unchanged. Seahorse extracellular flux analyses demonstrate that SOX2/OCT4-positive cells are more OXPHOS-dependent than reporter-negative cells and are more strongly affected by TM, with dramatic reductions in basal and ATP-linked respiration and in the ratio of mitochondrial to glycolytic ATP production. These respiratory defects are reversible upon TM withdrawal or copper repletion and can be reproduced using another copper chelator (trientine) or by CRISPR/Cas9 knockout of the copper transporter CTR1.\n\nTo dissect the specific contribution of mitochondrial copper, the authors knock down the mitochondria-specific copper chaperone COX17, which delivers copper to Complex IV. COX17 knockdown reduces oxygen consumption, ATP-linked respiration, and invasion in vitro and decreases lung metastases in vivo, without global copper depletion. Similarly, knockdown of COX20, a Complex IV assembly factor, reduces oxygen consumption and invasion. These manipulations phenocopy TM’s effects, indicating that Complex IV dysfunction and mitochondrial copper restriction are central to the observed anti-metastatic phenotype.\n\nMetabolomic profiling reveals that TM treatment increases glucose consumption, lactate production, and levels of nucleotide precursors, including AMP, reflecting a shift toward glycolysis and altered nucleotide metabolism. TM markedly reduces mitochondrial ATP production while sparing glycolytic ATP production. The resulting rise in AMP and energy stress leads to activation of AMP-activated protein kinase (AMPK), evidenced by increased phosphorylation of AMPK (Thr172) and its downstream target acetyl-CoA carboxylase (ACC, Ser79). COX17 knockdown similarly reduces mitochondrial ATP and activates AMPK.\n\nDownstream, AMPK activation suppresses mammalian target of rapamycin complex 1 (mTORC1) signaling, as shown by increased phosphorylation of raptor (Ser792) and reduced phosphorylation of the mTORC1 substrate p70S6K (Thr389); 4E-BP1 phosphorylation is also modulated. Pharmacologic activation of AMPK with AICAR or A-769662 independently reduces invasion, whereas siRNA-mediated AMPK knockdown rescues the TM-induced loss of invasion. These findings position AMPK activation as a key mediator of the anti-invasive effect of copper depletion.\n\nThe study also acknowledges other copper-dependent processes relevant to metastasis, such as lysyl oxidase and LOXL2-mediated extracellular matrix remodeling and pre-metastatic niche formation, which had been previously linked to TM in TNBC models and patients. Nevertheless, the present work provides direct evidence that a copper–metabolism–metastasis axis operates through mitochondrial Complex IV, OXPHOS dependence of SOX2/OCT4-positive metastatic cells, and AMPK–mTORC1 signaling.\n\nOverall, this research connects clinical observations of improved outcomes with TM in high-risk breast cancer to mechanistic data in TNBC models. It suggests that copper chelation at physiologically tolerable levels selectively targets an OXPHOS-dependent, copper-enriched metastatic subpopulation within TNBC, disrupts mitochondrial respiration, activates AMPK, suppresses mTORC1, and impairs invasion and lung metastasis. These insights could inform biomarker-based patient selection (e.g., CTR1 expression, OXPHOS reliance, SOX2/OCT4-positive populations) and rational design of future randomized phase II trials of copper depletion therapy in TNBC and other aggressive breast cancer subtypes."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Triple Negative Breast Neoplasms",
+        "Breast Neoplasms",
+        "Neoplasm Metastasis"
+      ],
+      "keywords": [
+        "Triple-negative breast cancer",
+        "TNBC",
+        "Breast cancer",
+        "Metastasis",
+        "Lung metastasis",
+        "Copper",
+        "Copper chelators",
+        "Tetrathiomolybdate",
+        "TM",
+        "Trientine",
+        "Copper transporter 1",
+        "CTR1",
+        "SLC31A1",
+        "Cytochrome c oxidase",
+        "Complex IV",
+        "Mitochondrial respiration",
+        "Oxidative phosphorylation",
+        "OXPHOS",
+        "Mitochondrial electron transport chain",
+        "SOX2",
+        "OCT4",
+        "Cancer stem cells",
+        "AMP-activated protein kinase",
+        "AMPK",
+        "mTORC1",
+        "P70S6K",
+        "COX17",
+        "COX20",
+        "Lysyl oxidase",
+        "LOXL2",
+        "Invasion",
+        "Pre-metastatic niche"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Single-arm phase II trial of oral tetrathiomolybdate (TM) in high-risk breast cancer patients who were stage 4 with no evidence of disease (NED), with long-term follow-up for event-free and overall survival.",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": "OTHER",
+        "timePerspective": "OTHER",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "No blinding or masking was described; TM was administered openly as a copper-chelating treatment.",
+          "whoMasked": []
+        }
+      },
+      "enrollmentInfo": {
+        "count": 75,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Tetrathiomolybdate",
+          "type": "EXPERIMENTAL",
+          "description": "Breast cancer patients at high risk for relapse (including stage 4 no evidence of disease) received oral copper chelation therapy with tetrathiomolybdate (TM). In the preclinical mouse models described, TM was administered in drinking water at a dose of 0.7 mg/day, starting one week prior to orthotopic tumor implantation and continued through primary tumor growth and into the post-resection period.",
+          "interventionNames": [
+            "Tetrathiomolybdate"
+          ]
+        },
+        {
+          "label": "Control (no copper chelation)",
+          "type": "NO_INTERVENTION",
+          "description": "Control arm/group without copper chelation. Patients or animals received standard care or vehicle only and did not receive tetrathiomolybdate. In the mouse models this corresponds to tumor-bearing mice given normal drinking water without TM.",
+          "interventionNames": []
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Tetrathiomolybdate",
+          "description": "First-in-class oral copper chelating drug used to deplete systemic and intracellular copper. In this work, TM was used as an anti-metastatic agent in high-risk breast cancer. In mouse models it was administered via drinking water at 0.7 mg/day; in vitro it was used at low micromolar or nanomolar concentrations (e.g., 0.5 μM) that deplete copper without affecting viability. In the referenced phase II clinical trial (NCT00195091), TM was given orally in repeated 4‑week cycles with dose titrated to reduce ceruloplasmin and maintain copper at ~30% of baseline.",
+          "armGroupLabels": [
+            "Tetrathiomolybdate"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [],
+      "secondaryOutcomes": [],
+      "otherOutcomes": []
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": null,
+      "healthyVolunteers": null,
+      "sex": null,
+      "minimumAge": null,
+      "maximumAge": null,
+      "stdAges": null,
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

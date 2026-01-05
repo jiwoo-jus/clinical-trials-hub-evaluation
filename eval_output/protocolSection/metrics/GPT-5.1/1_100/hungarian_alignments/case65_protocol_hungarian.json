@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "case_id": 65,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T18:00:28.674141",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/65_NCT03988335.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/65_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.97,
+          0.4
+        ],
+        [
+          0.2,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "label": "RIST4721",
+            "type": "EXPERIMENTAL",
+            "description": "RIST4721 as once-daily 300mg oral solution for 28 days.",
+            "interventionNames": [
+              "Drug: RIST4721"
+            ]
+          },
+          "pred_item": {
+            "label": "RIST4721 300 mg once daily",
+            "type": "EXPERIMENTAL",
+            "description": "Adult subjects with moderate to severe palmoplantar pustulosis received oral RIST4721 300 mg solution once daily for 28 days.",
+            "interventionNames": [
+              "RIST4721 oral solution 300 mg"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Placebo as once-daily 300mg oral solution for 28 days.",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo once daily",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Adult subjects with moderate to severe palmoplantar pustulosis received matching oral placebo solution once daily for 28 days.",
+            "interventionNames": [
+              "Placebo oral solution"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.18
+        ],
+        [
+          0.25,
+          0.95
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "RIST4721",
+            "description": "RIST4721 oral solution",
+            "armGroupLabels": [
+              "RIST4721"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "RIST4721 oral solution 300 mg",
+            "description": "RIST4721, a small molecule CXCR2 antagonist, administered as a 300 mg oral solution once daily for 28 days to treat moderate to severe palmoplantar pustulosis.",
+            "armGroupLabels": [
+              "RIST4721 300 mg once daily"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo oral solution",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo oral solution",
+            "description": "Matching placebo oral solution administered once daily for 28 days, used as a comparator to RIST4721 in subjects with moderate to severe palmoplantar pustulosis.",
+            "armGroupLabels": [
+              "Placebo once daily"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.78
+        ],
+        [
+          0.8,
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Log Transformed Ratio of Postbaseline Fresh Pustule Count at Day 28 to Baseline",
+            "description": "Relative change from baseline in fresh pustule count at Day 28",
+            "timeFrame": "Baseline to Day 28"
+          },
+          "pred_item": {
+            "measure": "Relative change from baseline in fresh pustule count",
+            "description": "Relative change from baseline in the number of fresh pustules on the palms and/or soles, where fresh pustules are defined as macroscopically visible pustules that are white/yellow in color with no brown color, with or without crust, present on the glabrous skin of the palms and/or soles.",
+            "timeFrame": "Day 28"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Log Transformed Ratio of Postbaseline Total Pustule Count at Day 28 to Baseline",
+            "description": "Relative change from baseline in total pustule count at Day 28",
+            "timeFrame": "Baseline to Day 28"
+          },
+          "pred_item": {
+            "measure": "Relative change from baseline in total pustule count",
+            "description": "Relative change from baseline in the total number of pustules (fresh plus non-fresh) on the palms and/or soles.",
+            "timeFrame": "Day 28"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02951156",
+      "organization": {
+        "fullName": "Pfizer",
+        "class": "INDUSTRY"
+      },
+      "briefTitle": "JAVELIN DLBCL Study",
+      "officialTitle": "Phase Ib JAVELIN DLBCL trial of avelumab in combination with utomilumab and rituximab, in combination with utomilumab and azacitidine, and in combination with bendamustine and rituximab in patients with R/R DLBCL",
+      "acronym": "JAVELIN DLBCL"
+    },
+    "descriptionModule": {
+      "briefSummary": "The JAVELIN DLBCL study was conducted to assess whether a combination of agents could augment and sustain the antitumor immunity of avelumab, an anti-PD-L1 antibody, in patients with relapsed/refractory (R/R) diffuse large B-cell lymphoma (DLBCL). This was a multicenter, randomized, open-label, parallel-arm study comprising a phase Ib and a planned phase III component.",
+      "detailedDescription": "The JAVELIN DLBCL study (NCT02951156) investigated the safety and efficacy of avelumab in combination with various agents hypothesized to augment antitumor immunity in patients with R/R DLBCL. In the phase Ib component reported here, 29 adult patients were randomized 1:1:1 to three treatment arms: avelumab in combination with utomilumab (an immunoglobulin G2 4-1BB agonist) and rituximab (arm A); avelumab in combination with utomilumab and azacitidine (arm B); or avelumab in combination with bendamustine and rituximab (arm C). \n\nAvelumab 10 mg/kg was administered intravenously every 2 weeks. Doses for combination agents were selected based on previous safety results. The primary endpoints were dose-limiting toxicities (DLTs) and objective response (OR) as assessed by the investigator per Lugano Response Classification criteria. Secondary endpoints included PD-L1 expression levels, minimal residual disease (MRD), duration of response (DR), time to tumor response (TTR), disease control (DC), progression-free survival (PFS), overall survival (OS), and safety. \n\nThe study was discontinued before the initiation of the phase III component due to insufficient antitumor activity observed in arms A and B, and the infeasibility of expanding arm C due to recruitment difficulties."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Relapsed Diffuse Large B-Cell Lymphoma",
+        "Refractory Diffuse Large B-Cell Lymphoma"
+      ],
+      "keywords": [
+        "Avelumab",
+        "Utomilumab",
+        "Rituximab",
+        "Azacitidine",
+        "Bendamustine",
+        "PD-L1 inhibitor",
+        "4-1BB agonist",
+        "Immunotherapy"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "PHASE1",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Seamless two-component (phase Ib planned to be followed by phase III) study.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 29,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Arm A",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive avelumab in combination with utomilumab and rituximab.",
+          "interventionNames": [
+            "Avelumab",
+            "Utomilumab",
+            "Rituximab"
+          ]
+        },
+        {
+          "label": "Arm B",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive avelumab in combination with utomilumab and azacitidine.",
+          "interventionNames": [
+            "Avelumab",
+            "Utomilumab",
+            "Azacitidine"
+          ]
+        },
+        {
+          "label": "Arm C",
+          "type": "EXPERIMENTAL",
+          "description": "Patients receive avelumab in combination with bendamustine and rituximab.",
+          "interventionNames": [
+            "Avelumab",
+            "Bendamustine",
+            "Rituximab"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Avelumab",
+          "description": "10 mg/kg administered as a 1-h intravenous infusion every 2 weeks.",
+          "armGroupLabels": [
+            "Arm A",
+            "Arm B",
+            "Arm C"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Utomilumab",
+          "description": "Intravenous 100 mg fixed dose administered on day 2 of each cycle in cycles 1 and 2 (or on day 1 in cycle 3 and subsequent cycles).",
+          "armGroupLabels": [
+            "Arm A",
+            "Arm B"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Rituximab",
+          "description": "Intravenous 375 mg/m2 administered on day 1 of each cycle for a maximum of 8 cycles.",
+          "armGroupLabels": [
+            "Arm A",
+            "Arm C"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Azacitidine",
+          "description": "40 mg/m2 administered subcutaneously on days 1 to 5 of each cycle.",
+          "armGroupLabels": [
+            "Arm B"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Bendamustine",
+          "description": "Intravenous 90 mg/m2 administered on days 2 and 3 of cycles 1 and 2 (or day 1 and day 2 in subsequent cycles), for a maximum of 6 cycles.",
+          "armGroupLabels": [
+            "Arm C"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Dose-limiting toxicities (DLTs)",
+          "description": "Graded according to the National Cancer Institute Common Terminology Criteria for Adverse Events (CTCAE) version 4.03.",
+          "timeFrame": null
+        },
+        {
+          "measure": "Objective response (OR)",
+          "description": "Assessed by the investigator per Lugano Response Classification criteria.",
+          "timeFrame": null
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "PD-L1 expression levels",
+          "description": "Expression levels in tumor cells and cells of the tumor microenvironment.",
+          "timeFrame": "At baseline"
+        },
+        {
+          "measure": "Minimal residual disease (MRD)",
+          "description": "Assessed using serial blood samples to determine DLBCL clonotypes.",
+          "timeFrame": "Serial blood samples"
+        },
+        {
+          "measure": "Duration of response (DR)",
+          "description": "Analyzed using the Kaplan–Meier method.",
+          "timeFrame": null
+        },
+        {
+          "measure": "Time to tumor response (TTR)",
+          "description": "Summarized using descriptive statistics.",
+          "timeFrame": null
+        },
+        {
+          "measure": "Disease control (DC)",
+          "description": "Defined as the sum of complete response [CR] + partial response [PR] + stable disease [SD].",
+          "timeFrame": null
+        },
+        {
+          "measure": "Progression-free survival (PFS)",
+          "description": "Assessed by the investigator per Lugano Response Classification criteria.",
+          "timeFrame": null
+        },
+        {
+          "measure": "Overall survival (OS)",
+          "description": "Analyzed using the Kaplan–Meier method.",
+          "timeFrame": null
+        },
+        {
+          "measure": "Safety",
+          "description": "Assessment of adverse events and treatment-related adverse events.",
+          "timeFrame": null
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Pharmacokinetic endpoints",
+          "description": "Summarized descriptively.",
+          "timeFrame": null
+        },
+        {
+          "measure": "Cell of origin (COO)",
+          "description": "Assessed centrally using the HTG EdgeSeq DLBCL Cell of Origin Research Use Only Assay.",
+          "timeFrame": null
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Histologically confirmed DLBCL\n- Patients who were at least 18 years of age\n- Relapsed/refractory disease following two or more and up to four lines of rituximab-based multiagent chemotherapy\n- Patients who were ineligible for intensive second-line chemotherapy must have received at least one prior rituximab-containing combination chemotherapy regimen\n- Patients previously treated with bendamustine must have experienced a response duration of ≥ 6 months\n- Documentation of baseline measurable disease with at least one bidimensional lesion with the longest diameter > 1.5 cm on a computerized tomography scan, which was fluorodeoxyglucose avid on positron emission tomography scan\n\nExclusion Criteria:\n- Active central nervous system lymphoma\n- Prior organ transplant including prior allogeneic stem cell transplant\n- Prior therapy with an anti-PD-1, anti-PD-L1, anti-PD-L2, anti-4-1BB (anti-CD137), or anti-CTLA-4 antibody (including ipilimumab and tremelimumab or any other antibody or drug specifically targeting T-cell costimulatory or immune checkpoint pathways)\n- The use of any standard or experimental anticancer therapy within 2 weeks prior to the first dose of study treatment, including cytoreductive therapy and radiotherapy, immunotherapy, or cytokine therapy (except for erythropoietin)\n- The use of any nondrug anticancer therapy (including CAR T-cell therapy)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01302379",
+      "orgStudyIdInfo": {
+        "id": "U54 CA155435-01 Project 3"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "U54CA155435-01",
+          "type": "NIH",
+          "link": "https://reporter.nih.gov/quickSearch/U54CA155435-01"
+        }
+      ],
+      "organization": {
+        "fullName": "University of California, San Diego",
+        "class": "OTHER"
+      },
+      "briefTitle": "Reach for Health Study: Obesity-related Mechanisms and Mortality in Breast Cancer Survivors",
+      "officialTitle": "Obesity-related Mechanisms and Mortality in Breast Cancer Survivors"
+    },
+    "descriptionModule": {
+      "briefSummary": "This objective of this randomized controlled trial is to conduct a 2x2 test of a lifestyle intervention and metformin (a drug used to treat diabetes) to investigate how these treatments, alone or in combination, affect biomarkers associated with breast cancer survival. The Reach for Health Study will enroll 340 overweight/obese, postmenopausal breast cancer survivors. After completing the screening process and baseline measures, participants will be randomized in equal numbers to: (1) placebo, (2) metformin, (3) lifestyle intervention and placebo, or (4) lifestyle intervention and metformin. The intervention was powered on the main effects and the planned analyses are to compare: Metformin to Placebo and a separate comparison of Lifestyle intervention to control. The interventions will last for 6 months. Concentrations of circulating biomarkers will be assessed at baseline and 6 months."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Breast Neoplasms"
+      ],
+      "keywords": [
+        "Obesity",
+        "Survival",
+        "Weight loss",
+        "Metformin",
+        "Biological markers"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "FACTORIAL",
+        "interventionModelDescription": "Main effects of the factorial design were the planned primary analysis and what the study was powered on.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 333,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Metformin + lifestyle intervention",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Metformin",
+            "Behavioral: Lifestyle intervention"
+          ]
+        },
+        {
+          "label": "Placebo + lifestyle intervention",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Behavioral: Lifestyle intervention"
+          ]
+        },
+        {
+          "label": "Metformin + standard dietary guidelines",
+          "type": "ACTIVE_COMPARATOR",
+          "interventionNames": [
+            "Drug: Metformin",
+            "Behavioral: Standard printed dietary guidelines"
+          ]
+        },
+        {
+          "label": "Placebo + standard dietary guidelines",
+          "type": "PLACEBO_COMPARATOR",
+          "interventionNames": [
+            "Drug: Placebo",
+            "Behavioral: Standard printed dietary guidelines"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Metformin",
+          "description": "Week 1: 500 mg at dinner time Weeks 2-4: 1000 mg at dinner time Weeks 5+: 500 mg in morning; 1000 mg at dinner time",
+          "armGroupLabels": [
+            "Metformin + lifestyle intervention",
+            "Metformin + standard dietary guidelines"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Week 1: 1 pill at dinner time Weeks 2-4: 2 pills at dinner time Weeks 5+: 1 pill in morning; 2 pills at dinner time",
+          "armGroupLabels": [
+            "Placebo + lifestyle intervention",
+            "Placebo + standard dietary guidelines"
+          ],
+          "otherNames": [
+            "Sugar pill"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Lifestyle intervention",
+          "description": "Telephone-based lifestyle intervention (dietary change and physical activity) for weight loss.",
+          "armGroupLabels": [
+            "Metformin + lifestyle intervention",
+            "Placebo + lifestyle intervention"
+          ]
+        },
+        {
+          "type": "BEHAVIORAL",
+          "name": "Standard printed dietary guidelines",
+          "description": "Set of standard health education materials provided to participants at single time point (immediately after randomization)",
+          "armGroupLabels": [
+            "Metformin + standard dietary guidelines",
+            "Placebo + standard dietary guidelines"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Insulin",
+          "description": "Insulin measured as percent change from baseline",
+          "timeFrame": "change from baseline to 6 months"
+        },
+        {
+          "measure": "Glucose",
+          "description": "Glucose measured as percent change from baseline",
+          "timeFrame": "change from baseline to 6 months"
+        },
+        {
+          "measure": "C-reactive Protein",
+          "description": "C-reactive protein measured as percent change from baseline",
+          "timeFrame": "change from baseline to 6 months"
+        },
+        {
+          "measure": "Bioavailable Testosterone",
+          "description": "Bioavailable testosterone measured as percent change from baseline",
+          "timeFrame": "change from baseline to 6 months"
+        },
+        {
+          "measure": "Serum Hormone Binding Globulin",
+          "description": "Serum hormone binding globulin measured as percent change from baseline",
+          "timeFrame": "change from baseline to 6 months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* BMI at least 25.0 kg/m2\n* Diagnosed with Stage I, II, or III breast cancer within past 5 years\n* Treatment with total mastectomy or breast-sparing surgical removal of cancer with clear macroscopic margins, and axillary dissection, followed by adjuvant breast radiation\n* Not scheduled for or currently undergoing chemotherapy\n* Accessible geographically and by telephone\n* Able to communicate dietary and physical activity data via telephone\n* If taking statins, tamoxifen, or aromatase inhibitors; able and willing to remain on treatment for 6-month study period\n* Post-menopausal at diagnosis\n\nExclusion Criteria:\n\n* Preliminary bloodwork outside of specified ranges\n* Evidence of renal insufficiency, liver disease, or congestive heart failure\n* Currently taking corticosteroid pills or steroid hormone therapy (including vaginal estrogen creams)\n* Recent initiation (\\< 3 months ago) of thiazides or β-blockers\n* Taking insulin or other antidiabetic drug\n* Other primary or recurrent invasive cancer in past 10 years\n* Unable to commit to study requirements",
+      "healthyVolunteers": false,
+      "sex": "FEMALE",
+      "stdAges": [
+        "CHILD",
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

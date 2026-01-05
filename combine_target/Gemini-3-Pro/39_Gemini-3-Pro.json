@@ -1,0 +1,150 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03970590",
+      "orgStudyIdInfo": {
+        "id": "IIR 17-185",
+        "type": "VA"
+      },
+      "secondaryIdInfos": [
+        {
+          "id": "CDA14-156",
+          "type": "VA",
+          "domain": "VA HSR&D Career Development award"
+        },
+        {
+          "id": "DERR1-10.2196/29423",
+          "type": "REGISTRY",
+          "domain": "International Registered Report Identifier (IRRID)"
+        }
+      ],
+      "organization": {
+        "fullName": "Department of Veterans Affairs",
+        "class": "FED"
+      },
+      "briefTitle": null,
+      "officialTitle": null,
+      "acronym": null
+    },
+    "descriptionModule": {
+      "briefSummary": "Uncontrolled hypertension is prevalent among African Americans, often leading to significant health disparities. While peer narratives (storytelling) effectively engage patients, one-time interventions may not sustain blood pressure improvements. This study describes the development of a culturally sensitive text-messaging protocol designed to provide longitudinal support for hypertension self-management among African American Veterans. Utilizing the Veterans Affairs 'Annie' texting system, the researchers integrated narrative content from Veteran stories into a 6-month intervention. The protocol aims to support behavior change and improve blood pressure control, with a randomized trial underway to test its efficacy.",
+      "detailedDescription": "The study focuses on the multistep process of developing a text-messaging intervention for African American Veterans with hypertension. The intervention builds upon previous work involving video-recorded stories of Veterans sharing their strategies for managing hypertension. The text messages were designed for the 'Annie' platform, a Veterans Affairs (VA) SMS system. \n\nThe development process included: \n1. Reviewing story transcripts to identify key self-management concepts (e.g., salt reduction, medication adherence, physical activity, stress management, alcohol and tobacco use).\n2. Transforming excerpts from five Veteran storytellers into 160-character narrative texts that preserve the storyteller's voice.\n3. creating non-narrative educational messages based on guidelines from the American Heart Association and CDC.\n4. Developing interactive 2-way messages to assess self-efficacy and behavior, informed by Social Cognitive Theory.\n\nA multidisciplinary team, including sociolinguists, behavior specialists, and African American Veteran consultants, refined the content to ensure cultural sensitivity and authenticity. The result is five distinct 6-month protocols, each corresponding to a specific Veteran storyteller, allowing participants to choose the narrative that resonates most with them. The protocols consist of 2-week blocks covering specific content areas, combining narrative, educational, and interactive messages."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Hypertension",
+        "Uncontrolled Hypertension"
+      ],
+      "keywords": [
+        "African American Veterans",
+        "Text messaging",
+        "mHealth",
+        "Peer narratives",
+        "Storytelling",
+        "Self-management",
+        "Behavior change",
+        "Mobile health",
+        "Social Cognitive Theory"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": null,
+        "interventionModelDescription": null,
+        "primaryPurpose": "SUPPORTIVE_CARE",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": null
+      },
+      "enrollmentInfo": {
+        "count": null,
+        "type": null
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Text-messaging intervention group",
+          "type": "EXPERIMENTAL",
+          "description": "African American Veterans with hypertension who watch 5 storyteller videos, select a preferred storyteller, and participate in the 6-month text-messaging protocol.",
+          "interventionNames": [
+            "Continuing the Conversation text-messaging protocol"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BEHAVIORAL",
+          "name": "Continuing the Conversation text-messaging protocol",
+          "description": "A 6-month culturally sensitive text-messaging protocol delivered via the VA Annie system. The intervention consists of watching video-recorded stories from African American Veterans about hypertension self-management, followed by a texting protocol corresponding to a selected storyteller. The protocol includes cycles of three text message types: narrative messages (quotes/microstories from the veteran), nonnarrative educational messages, and 2-way interactive messages assessing self-efficacy and behavior.",
+          "armGroupLabels": [
+            "Text-messaging intervention group"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Blood pressure",
+          "description": "Impact on blood pressure control.",
+          "timeFrame": "6 months"
+        },
+        {
+          "measure": "Lifestyle changes",
+          "description": "Hypertension self-management behaviors and lifestyle changes.",
+          "timeFrame": "6 months"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Self-efficacy",
+          "description": "Participants' confidence in their own ability to carry out a hypertension self-management task, assessed via interactive 2-way text messages (e.g., asking 'How confident are you...').",
+          "timeFrame": "Throughout the 6-month protocol"
+        },
+        {
+          "measure": "Hypertension self-management behavior",
+          "description": "Participants' actions toward effective self-management, assessed via interactive 2-way text messages asking about behavior frequency (e.g., 'How many days this week have you...').",
+          "timeFrame": "Throughout the 6-month protocol"
+        },
+        {
+          "measure": "Sustenance of self-management behaviors",
+          "description": "Assessed during check-in weeks (every 8 weeks) using interactive texts to invite reflection on performance of behaviors.",
+          "timeFrame": "Every 8 weeks during the 6-month protocol"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Acceptability",
+          "description": "Acceptability of using the default timing for text messages.",
+          "timeFrame": "During pilot testing"
+        },
+        {
+          "measure": "Usability",
+          "description": "Usability of the interactive components of the texting protocol.",
+          "timeFrame": "During pilot testing"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- African American Veterans\n- Diagnosis of uncontrolled hypertension\n- Enrolled in VA health care\n- Difficulty controlling blood pressure\n- Unable to come in-person to the clinic (for the pilot implementation described)",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "N/A",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

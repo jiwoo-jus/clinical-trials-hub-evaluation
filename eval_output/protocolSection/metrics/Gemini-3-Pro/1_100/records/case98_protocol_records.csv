@@ -1,0 +1,45 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT02910583,NCT02910583,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Ibrutinib Plus Venetoclax in Subjects With Treatment-naive Chronic Lymphocytic Leukemia /Small Lymphocytic Lymphoma (CLL/SLL),Ibrutinib Plus Venetoclax for First-Line Treatment of Chronic Lymphocytic Leukemia,True,0.97,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,Phase 2 Study of the Combination of Ibrutinib Plus Venetoclax in Subjects With Treatment-naïve Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma,Ibrutinib Plus Venetoclax for First-Line Treatment of Chronic Lymphocytic Leukemia: Primary Analysis Results From the Minimal Residual Disease Cohort of the Randomized Phase II CAPTIVATE Study,True,0.95,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"This is a multicenter, 2-cohort Phase 2 study assessing both minimal residual disease (MRD)-guided discontinuation and fixed duration therapy with the combination of ibrutinib + venetoclax in subjects with treatment-naïve CLL or SLL.","CAPTIVATE (NCT02910583) is a randomized phase II study evaluating minimal residual disease (MRD)-guided treatment discontinuation following completion of first-line ibrutinib plus venetoclax treatment in patients with chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL). The study investigates whether fixed-duration treatment with this all-oral, chemotherapy-free regimen is feasible based on deep remission status.",True,0.96,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"Eligible patients aged < 70 years with previously untreated CLL or SLL received three cycles of single-agent ibrutinib lead-in followed by 12 cycles of combined ibrutinib plus venetoclax. Following this treatment phase, patients in the MRD cohort were assessed for Confirmed undetectable MRD (uMRD). Patients meeting the stringent criteria for Confirmed uMRD were randomly assigned 1:1 to double-blind treatment with placebo or ibrutinib. Patients who did not meet Confirmed uMRD criteria (uMRD Not Confirmed) were randomly assigned 1:1 to open-label treatment with single-agent ibrutinib or continued ibrutinib plus venetoclax. The primary endpoint was the 1-year disease-free survival (DFS) rate with placebo versus ibrutinib in the Confirmed uMRD population. Secondary endpoints included undetectable MRD rates in peripheral blood and bone marrow, overall response rates, progression-free survival, overall survival, and safety.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,"['Leukemia', 'Chronic Lymphocytic Leukemia', 'Small Lymphocytic Lymphoma']","['Chronic Lymphocytic Leukemia', 'Small Lymphocytic Lymphoma']",False,0.6666666666666666,partial,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Ibrutinib', 'Venetoclax', 'Minimal Residual Disease', 'First-line treatment', 'MRD-guided treatment', 'Fixed-duration treatment', 'BCL-2 inhibitor', 'BTK inhibitor']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,TP,PARALLEL,PARALLEL,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,Patients received 3 cycles of ibrutinib lead-in followed by 12 cycles of combined ibrutinib plus venetoclax. Patients with Confirmed uMRD were randomly assigned 1:1 to double-blind placebo or ibrutinib; patients without Confirmed uMRD were randomly assigned 1:1 to open-label ibrutinib or ibrutinib plus venetoclax.,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,FP,TRIPLE,DOUBLE,False,0.6,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,FP,"['PARTICIPANT', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']","['PARTICIPANT', 'INVESTIGATOR']",False,0.6666666666666666,partial,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,FP,323,164,False,0.2,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[17].description,EV,EV,,Pharmacokinetic sampling of ibrutinib and venetoclax in combination.,,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+* Diagnosis of CLL/SLL that meets 2008 International Workshop on Chronic Lymphocytic Leukemia (IWCLL) diagnostic criteria (Hallek et al), with active disease meeting at least 1 IWCLL criteria for requiring treatment.
+* Measurable nodal disease by computed tomography (CT)
+* Adequate hepatic, and renal function
+* Adequate hematologic function
+* absolute neutrophil count \>750/µL
+* platelet count \>30,000 /μL
+* hemoglobin \>8.0 g/dL
+
+Exclusion Criteria:
+
+* Any prior therapy used for treatment of CLL/SLL
+* Known allergy to xanthine oxidase inhibitors and/or rasburicase for subjects at risk for tumor lysis syndrome (TLS)","Inclusion Criteria:
+- Age ≥ 18 to < 70 years
+- Previously untreated chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL) requiring treatment per iwCLL criteria
+- Measurable nodal disease by computed tomography
+- Eastern Cooperative Oncology Group performance status 0-1
+- Adequate hepatic, renal, and hematologic function
+
+Exclusion Criteria:
+- Known allergy to xanthine oxidase inhibitors and/or rasburicase",True,0.9,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,TP,TP,70 Years,69 Years,True,0.95,success,MaximumAge,protocolSection.eligibilityModule.maximumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False

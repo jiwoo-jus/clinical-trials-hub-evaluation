@@ -1,0 +1,66 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Claude-4.5-Sonnet,protocolSection.identificationModule.nctId,FN,FN,NCT01068210,,False,0.0,,NCTId,protocolSection.identificationModule.nctId,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.orgStudyIdInfo.type,EV,EV,,NIH,,,,OrgStudyIdType,protocolSection.identificationModule.orgStudyIdInfo.type,True,False,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.secondaryIdInfos[0].id,EV,EV,,P30 CA008748,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.secondaryIdInfos[0].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,Memorial Sloan-Kettering Cancer Center,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.briefTitle,TP,TP,Lung Cancer Exercise Training Study,Effects and tolerability of exercise therapy modality on cardiorespiratory fitness in lung cancer: a randomized controlled trial,True,0.88,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.identificationModule.officialTitle,TP,TP,"Lung Cancer Exercise Training Study: A Randomized Trial of Aerobic Training, Resistance Training, or Both in Lung Cancer Patients",Effects and tolerability of exercise therapy modality on cardiorespiratory fitness in lung cancer: a randomized controlled trial,True,0.87,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Claude-4.5-Sonnet,protocolSection.descriptionModule.briefSummary,FN,FN,"The purpose of the study is look at the effects of different types of exercise training with a stretching group and its effect on lung cancer patients. Subjects will take part in a 16 week training intervention that can consist of aerobic, resistance, aerobic \& resistance, or a control group. Pre and Post testing will include stress tests, echos, blood, and urine samples.",,False,0.0,,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.conditions,FN,FN,['Lung Cancer'],,False,0.0,,Condition,protocolSection.conditionsModule.conditions,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.conditionsModule.keywords,FN,FN,"['Exercise Intervention', 'Lung Cancer', '15-215']",,False,0.0,,Keyword,protocolSection.conditionsModule.keywords,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.studyType,FN,FN,INTERVENTIONAL,,False,0.0,,StudyType,protocolSection.designModule.studyType,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.phases,FN,FN,['NA'],,False,0.0,,Phase,protocolSection.designModule.phases,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.allocation,FN,FN,RANDOMIZED,,False,0.0,,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.interventionModel,FN,FN,PARALLEL,,False,0.0,,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.designInfo.maskingInfo.masking,FN,FN,NONE,,False,0.0,,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.designModule.enrollmentInfo.count,FN,FN,110,,False,0.0,,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.eligibilityCriteria,FN,FN,"Inclusion Criteria:
+
+* Signed informed consent prior to initiation of study-related procedures
+* Age 21 - 80 years
+* Weight \< 205 kgs
+* ECOG ≤ 1
+* Diagnosed with histologically confirmed lung cancer, regardless of disease stage and receiving any prior line of any therapy in the context of metastatic disease
+* An interval of at least three months following the completion of primary resection, if appropriate
+* An interval of no longer than ten years following completion of primary therapy, if appropriate
+* Life expectancy ≥ 4 months
+* Performing less than 150 minutes of structured moderate-intensity or strenuous-intensity exercise per week
+* Exercise intolerance (i.e., patients must have a VO2peak below that predicted for active age and sex-matched individuals)
+* Willing to be randomized to one of the study arms
+* Willing to commit to the study program and comply with all related protocol procedures
+* Able to achieve an acceptable peak baseline CPET, as defined by any of the following criteria:
+
+  * achieving a plateau in oxygen consumption, concurrent with an increase in power output;
+  * a respiratory exchange ratio ≥ 1.10;
+  * attainment of maximal predicted heart rate (HRmax) (i.e., within 10 bpm of age-predicted HRmax \[HRmax = 220-Age\[years\]);
+  * volitional exhaustion, as measured by a rating of perceived exertion (RPE) ≥ 18 on the BORG scale.
+* Able to complete an acceptable baseline CPET in the absence of high risk ECG findings or other inappropriate response to exercise as determined by the PI.
+* Ability to achieve and complete an acceptable baseline one-repetition maximum muscular strength test as defined by the effective execution of protocol-specific joint and muscle ranges of motion without remarkable signs or symptoms of pain, discomfort or distress.
+
+Exclusion Criteria:
+
+* Presence of a concurrent, actively treated other malignancy, or history of other malignancy treated within the past 3 years (other than non-melanoma skin cancer);
+* Room air desaturation at rest ≤ 85%;
+* Mental impairment leading to inability to cooperate.
+* Any of the following absolute contraindications to cardiopulmonary exercise testing:
+
+  * Acute myocardial infarction (within 3-5 days of any planned study procedures);
+  * Unstable angina;
+  * Uncontrolled arrhythmia causing symptoms or hemodynamic compromise;
+  * Recurrent syncope;
+  * Active endocarditis;
+  * Acute myocarditis or pericarditis;
+  * Symptomatic severe aortic stenosis;
+  * Uncontrolled heart failure;
+  * Acute (within 3 months) pulmonary embolus or pulmonary infarction;
+  * Thrombosis of lower extremities;
+  * Suspected dissecting aneurysm;
+  * Uncontrolled asthma;
+  * Pulmonary edema;
+  * Respiratory failure;
+  * Acute non-cardiopulmonary disorders that may affect exercise performance or be aggravated by exercise (i.e., infection, renal failure, thyrotoxicosis)",,False,0.0,,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.healthyVolunteers,FN,FN,False,,False,0.0,,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.sex,FN,FN,ALL,,False,0.0,,Sex,protocolSection.eligibilityModule.sex,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.minimumAge,FN,FN,21 Years,,False,0.0,,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,False,False,False,False
+Claude-4.5-Sonnet,protocolSection.eligibilityModule.stdAges,FN,FN,"['ADULT', 'OLDER_ADULT']",,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

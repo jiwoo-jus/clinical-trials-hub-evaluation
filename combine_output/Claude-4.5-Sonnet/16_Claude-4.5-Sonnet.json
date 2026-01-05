@@ -1,0 +1,152 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": null,
+      "orgStudyIdInfo": {
+        "id": null,
+        "type": null,
+        "link": null
+      },
+      "secondaryIdInfos": [],
+      "organization": {
+        "fullName": "Johns Hopkins University School of Medicine",
+        "class": "OTHER"
+      },
+      "briefTitle": "Randomized controlled trial transfusing convalescent plasma as post-exposure prophylaxis against SARS-CoV-2 infection",
+      "officialTitle": "Transfusing convalescent plasma as post-exposure prophylaxis against SARS-CoV-2 infection: a double-blinded, phase 2 randomized, controlled trial",
+      "acronym": null
+    },
+    "descriptionModule": {
+      "briefSummary": "This double-blinded, phase 2 randomized, controlled trial compared the efficacy and safety of prophylactic high titer (≥1:320) SARS-CoV-2 convalescent plasma (CCP) with standard plasma for preventing infection in exposed, uninfected individuals. Asymptomatic participants aged ≥18 years with close contact exposure to a person with confirmed COVID-19 in the previous 120 hours and negative SARS-CoV-2 test within 24 hours before transfusion were eligible. The study hypothesized that CCP might prevent infection when administered before symptoms or laboratory evidence of infection. The primary outcome was development of SARS-CoV-2 infection.",
+      "detailedDescription": "This randomized, double-blind, placebo-controlled clinical trial was conducted at 19 United States centers from June 2020 to March 2021 to compare the safety and efficacy of transfusion of CCP (intervention) with SARS-CoV-2 non-immune control plasma. A total of 180 participants were enrolled; 87 were assigned to CCP and 93 to control plasma, and 170 were transfused. Two were excluded for SARS-CoV-2 RT-PCR positivity at screening.\n\nEligible subjects were randomized 1:1 to receive 1 unit of CCP or 1 unit of control plasma. CCP donors had a history of positive molecular assay test for SARS-CoV-2 infection and had SARS-CoV-2 antibody levels ≥1:320 titer by Euroimmun ELISA at screening. Control was standard SARS-CoV-2 non-immune plasma collected before January 1, 2020, or seronegative for SARS-CoV-2.\n\nThe primary efficacy outcome was incident SARS-CoV-2 infection by study day 28 by positive RT-PCR testing. Individuals were followed for 90 days with visits at days 0 (transfusion), 1, 3, 7, 14, 28, 60, and 90. Nasal swabs were collected at screening and at days 1, 7, 14, and 28. Secondary efficacy outcomes included disease severity measured to day 28 using a clinical event scale and efficacy examined based on donor antibody titer. Safety assessments included serious adverse events and transfusion reactions.\n\nOf the 168 participants in the modified intention to treat analyses, 12/81 (14.8%) CCP and 13/87 (14.9%) control recipients developed SARS-CoV-2 infection; 6 (7.4%) CCP and 7 (8%) control recipients developed COVID-19 (infection with symptoms). There were no COVID-19-related hospitalizations in CCP and 2 in control recipients. There were 28 adverse events in CCP and 58 in control recipients. The restricted mean infection free time by 28 days for all SARS-CoV-2 infections (25.3 vs. 25.2 days; p=0.49) and COVID-19 (26.3 vs. 25.9 days; p=0.35) were similar for both groups. High titer CCP as post-exposure prophylaxis appeared safe, but did not prevent SARS-CoV-2 infection."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "COVID-19",
+        "SARS-CoV-2 infection",
+        "Coronavirus Disease 2019"
+      ],
+      "keywords": [
+        "SARS-CoV-2",
+        "COVID-19",
+        "Convalescent plasma",
+        "Post-exposure prophylaxis",
+        "Passive immunotherapy",
+        "High titer plasma",
+        "Prevention",
+        "Close contact exposure",
+        "Prophylaxis"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Eligible subjects were randomized 1:1 to receive 1 unit of CCP or 1 unit of control plasma using interactive web-based systems.",
+        "primaryPurpose": "PREVENTION",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "CCP and control plasma were in standard plasma bags, with identical labels. An independent safety monitor, masked to randomized assignment, reviewed all AEs, SAEs and changes in baseline safety laboratory values.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 180,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Convalescent Plasma (CCP)",
+          "type": "EXPERIMENTAL",
+          "description": "Participants received 1 unit of high-titer SARS-CoV-2 convalescent plasma (≥1:320 titer by Euroimmun ELISA). CCP donors had a history of positive molecular assay test for SARS-CoV-2 infection, met standard criteria for blood donation, and had SARS-CoV-2 antibody levels ≥1:320 titer at screening. Subsequent to FDA Emergency Use Authorization (February 4, 2021), CCP was only used if it met the 1:320 dilutional titer criterion and an Arbitrary Unit of 3.5 at a 1:101 dilution by Euroimmun IgG ELISA.",
+          "interventionNames": [
+            "BIOLOGICAL: High-titer SARS-CoV-2 Convalescent Plasma"
+          ]
+        },
+        {
+          "label": "Control Plasma",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received 1 unit of standard SARS-CoV-2 non-immune control plasma. Control plasma was standard plasma collected before January 1, 2020, or seronegative for SARS-CoV-2.",
+          "interventionNames": [
+            "BIOLOGICAL: SARS-CoV-2 Non-immune Control Plasma"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "BIOLOGICAL",
+          "name": "High-titer SARS-CoV-2 Convalescent Plasma",
+          "description": "One unit of convalescent plasma from donors with confirmed prior SARS-CoV-2 infection and high antibody titers (≥1:320 by Euroimmun ELISA, and ≥3.5 Arbitrary Units at 1:101 dilution after February 4, 2021). Anti-S IgG inverse endpoint titers were >1,000 except for a single unit at 540. Virus neutralizing antibody titers ranged from 1:20 to 1:640 and were present in 94% of 50 tested donors.",
+          "armGroupLabels": [
+            "Convalescent Plasma (CCP)"
+          ]
+        },
+        {
+          "type": "BIOLOGICAL",
+          "name": "SARS-CoV-2 Non-immune Control Plasma",
+          "description": "One unit of standard plasma collected before January 1, 2020, or confirmed seronegative for SARS-CoV-2 antibodies. Used as placebo control.",
+          "armGroupLabels": [
+            "Control Plasma"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Incident SARS-CoV-2 infection",
+          "description": "Development of SARS-CoV-2 infection by study day 28, determined by positive RT-PCR testing conducted on collected nasal swabs or by clinical RT-PCR testing conducted outside the study",
+          "timeFrame": "By day 28 post-transfusion"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Disease severity",
+          "description": "Disease severity measured using a clinical event scale ranging from no infection to death. The most severe status by the day 28 visit was ascertained using a TMLE estimator for ordinal outcomes. The scale included: hospitalization, no hospitalization with COVID-19, no hospitalization with asymptomatic infection, and no infection.",
+          "timeFrame": "By day 28 post-transfusion"
+        },
+        {
+          "measure": "COVID-19 (symptomatic infection)",
+          "description": "Development of symptomatic SARS-CoV-2 infection (COVID-19) assessed at screening, transfusion (day 0), and days 1, 3, 7, 14, 28, and 60",
+          "timeFrame": "By day 28 post-transfusion"
+        },
+        {
+          "measure": "Relationship between donor antibody titer and infection",
+          "description": "Efficacy for preventing SARS-CoV-2 infection and COVID-19 examined based on donor antibody titer through characterization of donor IgG, including end point titers and area under the curve (AUC) using a standardized ELISA to measure IgG against the spike and receptor binding proteins and anti-SARS-CoV-2 IgG against recombinant S1 domain of the SARS-CoV-2 spike protein",
+          "timeFrame": "By day 28 post-transfusion"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Safety assessments - Adverse events",
+          "description": "Reportable adverse events (AEs) including serious AEs (SAEs) and transfusion reactions. Rates of severe transfusion reactions, AEs, grade 3 or 4 AEs, and death were evaluated by treatment arm.",
+          "timeFrame": "Through 90 days post-transfusion"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Asymptomatic participants\n- Aged ≥18 years\n- Close contact exposure to a person with confirmed COVID-19 in the previous 120 hours\n- Negative SARS-CoV-2 test within 24 hours before transfusion\n- Met standard criteria for blood donation (for CCP donors)\n\nExclusion Criteria:\n- SARS-CoV-2 vaccination\n- Past or active SARS-CoV-2 infection\n- SARS-CoV-2 RT-PCR positivity at screening\n- Symptomatic at time of enrollment",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

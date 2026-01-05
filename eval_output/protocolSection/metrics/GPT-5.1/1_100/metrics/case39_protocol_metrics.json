@@ -1,0 +1,112 @@
+{
+  "case_id": 39,
+  "shard_range": "1_100",
+  "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/39_NCT03970590.json",
+  "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/39_GPT-5.1.json",
+  "model": "GPT-5.1",
+  "target_section": "protocolSection",
+  "target_pieces_count": 21,
+  "target_fields_count": 21,
+  "response_metadata": {
+    "prompt_tokens": 5459,
+    "completion_tokens": 282,
+    "total_tokens": 5741,
+    "model": "gpt-5.1-2025-11-13"
+  },
+  "total": 27,
+  "key_precision": 1.0,
+  "key_recall": 0.8421052631578947,
+  "key_f1": 0.9142857142857143,
+  "value_precision": 0.625,
+  "value_recall": 0.7692307692307693,
+  "value_f1": 0.6896551724137931,
+  "key_counts": {
+    "TP": 16,
+    "FP": 0,
+    "FN": 3,
+    "TN": 0,
+    "EV": 8,
+    "NA": 0
+  },
+  "value_counts": {
+    "TP": 10,
+    "FP": 6,
+    "FN": 3,
+    "TN": 0,
+    "EV": 8,
+    "NA": 0
+  },
+  "key_EV_fields": [
+    "protocolSection.identificationModule.orgStudyIdInfo.type",
+    "protocolSection.identificationModule.orgStudyIdInfo.link",
+    "protocolSection.identificationModule.acronym",
+    "protocolSection.designModule.patientRegistry",
+    "protocolSection.designModule.designInfo.maskingInfo.maskingDescription",
+    "protocolSection.eligibilityModule.maximumAge",
+    "protocolSection.eligibilityModule.studyPopulation",
+    "protocolSection.eligibilityModule.samplingMethod"
+  ],
+  "key_FN_fields": [
+    "protocolSection.designModule.designInfo.maskingInfo.whoMasked",
+    "protocolSection.designModule.enrollmentInfo.count",
+    "protocolSection.eligibilityModule.stdAges"
+  ],
+  "key_FP_fields": [],
+  "key_TP_fields": [
+    "protocolSection.identificationModule.nctId",
+    "protocolSection.identificationModule.briefTitle",
+    "protocolSection.identificationModule.officialTitle",
+    "protocolSection.descriptionModule.briefSummary",
+    "protocolSection.descriptionModule.detailedDescription",
+    "protocolSection.conditionsModule.conditions",
+    "protocolSection.conditionsModule.keywords",
+    "protocolSection.designModule.studyType",
+    "protocolSection.designModule.phases",
+    "protocolSection.designModule.designInfo.allocation",
+    "protocolSection.designModule.designInfo.interventionModel",
+    "protocolSection.designModule.designInfo.maskingInfo.masking",
+    "protocolSection.eligibilityModule.eligibilityCriteria",
+    "protocolSection.eligibilityModule.healthyVolunteers",
+    "protocolSection.eligibilityModule.sex",
+    "protocolSection.eligibilityModule.minimumAge"
+  ],
+  "key_TN_fields": [],
+  "key_NA_fields": [],
+  "val_EV_fields": [
+    "protocolSection.identificationModule.orgStudyIdInfo.type",
+    "protocolSection.identificationModule.orgStudyIdInfo.link",
+    "protocolSection.identificationModule.acronym",
+    "protocolSection.designModule.patientRegistry",
+    "protocolSection.designModule.designInfo.maskingInfo.maskingDescription",
+    "protocolSection.eligibilityModule.maximumAge",
+    "protocolSection.eligibilityModule.studyPopulation",
+    "protocolSection.eligibilityModule.samplingMethod"
+  ],
+  "val_FN_fields": [
+    "protocolSection.designModule.designInfo.maskingInfo.whoMasked",
+    "protocolSection.designModule.enrollmentInfo.count",
+    "protocolSection.eligibilityModule.stdAges"
+  ],
+  "val_FP_fields": [
+    "protocolSection.identificationModule.officialTitle",
+    "protocolSection.conditionsModule.keywords",
+    "protocolSection.designModule.designInfo.maskingInfo.masking",
+    "protocolSection.eligibilityModule.eligibilityCriteria",
+    "protocolSection.eligibilityModule.healthyVolunteers",
+    "protocolSection.eligibilityModule.minimumAge"
+  ],
+  "val_TP_fields": [
+    "protocolSection.identificationModule.nctId",
+    "protocolSection.identificationModule.briefTitle",
+    "protocolSection.descriptionModule.briefSummary",
+    "protocolSection.descriptionModule.detailedDescription",
+    "protocolSection.conditionsModule.conditions",
+    "protocolSection.designModule.studyType",
+    "protocolSection.designModule.phases",
+    "protocolSection.designModule.designInfo.allocation",
+    "protocolSection.designModule.designInfo.interventionModel",
+    "protocolSection.eligibilityModule.sex"
+  ],
+  "val_TN_fields": [],
+  "val_NA_fields": []
+}

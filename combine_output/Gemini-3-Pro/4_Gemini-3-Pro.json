@@ -1,0 +1,182 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03781726",
+      "secondaryIdInfos": [
+        {
+          "id": "K23 DK117014",
+          "type": "NIH",
+          "domain": "National Institutes of Health"
+        },
+        {
+          "id": "K24 DK078772",
+          "type": "NIH",
+          "domain": "National Institutes of Health"
+        },
+        {
+          "id": "R01 DK070869",
+          "type": "NIH",
+          "domain": "National Institutes of Health"
+        },
+        {
+          "id": "HHSH250-2019-00001C",
+          "type": "OTHER_GRANT",
+          "domain": "Health Resources and Services Administration"
+        }
+      ],
+      "organization": {
+        "fullName": "Massachusetts General Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "The Multicenter Study to Transplant Hepatitis C-Infected Kidneys",
+      "officialTitle": "The Multicenter Study to Transplant Hepatitis C-Infected Kidneys",
+      "acronym": "MYTHIC"
+    },
+    "descriptionModule": {
+      "briefSummary": "The Multicenter Study to Transplant Hepatitis C-Infected Kidneys (MYTHIC) is a multicenter trial evaluating the safety and efficacy of transplanting kidneys from Hepatitis C virus (HCV) viremic donors into HCV-negative patients. The study protocol involves administering an 8-week course of the direct-acting antiviral therapy glecaprevir/pibrentasvir, initiated 2 to 5 days after transplantation. The study compares the probability of receiving a kidney transplant for participants versus matched waitlist comparators and assesses 1-year outcomes, including HCV cure rates, allograft function, and patient survival.",
+      "detailedDescription": "MYTHIC (NCT03781726) is an open-label, multicenter clinical trial designed to assess the outcomes of HCV D-RNA-positive/R-negative kidney transplantation (KT). The study enrolled candidates aged 21 to 65 years who were on dialysis or had an estimated glomerular filtration rate <15 ml/min per 1.73 m2, excluding those with HIV, Hepatitis B, or significant liver fibrosis (liver stiffness >8 kPa). A total of 30 patients underwent HCV D-RNA-positive/R-negative KT and received 8 weeks of oral glecaprevir/pibrentasvir (G/P) initiated between days 2 and 5 post-KT.\n\nThe primary outcome was HCV cure, defined as a sustained virologic response (undetectable plasma HCV RNA) 12 weeks after the completion of G/P therapy. The study also conducted a matched cohort analysis to compare the 1-year cumulative probability of transplantation between MYTHIC enrollees and matched United Network for Organ Sharing (UNOS) comparators who did not opt-in for HCV-viremic donor kidneys. \n\nAdditional 1-year endpoints included patient survival, allograft survival and function (measured by serum creatinine and eGFR), rejection rates, liver function, and the incidence of infectious complications such as Cytomegalovirus (CMV) and BK virus (BKV). The study utilized expert adjudication for CMV cases to distinguish between viremia and clinical disease. Results demonstrated a significantly higher probability of transplantation for MYTHIC participants, 100% HCV cure rates among recipients of viremic kidneys, and excellent graft function at 1 year."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "End Stage Renal Disease",
+        "Hepatitis C",
+        "Kidney Transplantation"
+      ],
+      "keywords": [
+        "Hepatitis C virus",
+        "Direct-acting antivirals",
+        "Glecaprevir/pibrentasvir",
+        "Kidney transplantation",
+        "Viremic donors",
+        "Allograft function",
+        "Cytomegalovirus",
+        "BK virus"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "NA",
+        "interventionModel": "SINGLE_GROUP",
+        "interventionModelDescription": "Multicenter trial of HCV D-RNA-positive/R-negative kidney transplantation (KT) followed by 8 weeks of glecaprevir/pibrentasvir (G/P). Comparisons were made against matched waitlist comparators from the UNOS registry.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": "Open-label clinical trial"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 63,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "HCV D-RNA-positive/R-negative KT recipients",
+          "type": "EXPERIMENTAL",
+          "description": "Patients who underwent HCV D-RNA-positive/R-negative kidney transplantation (KT) and began 8 weeks of oral glecaprevir/pibrentasvir (G/P) between days 2 and 5 post-KT.",
+          "interventionNames": [
+            "Glecaprevir/pibrentasvir",
+            "HCV-viremic Kidney Transplantation"
+          ]
+        },
+        {
+          "label": "Standard of Care / Waitlist",
+          "type": "NO_INTERVENTION",
+          "description": "Enrolled patients who either received a KT from an HCV antibody-positive/RNA-negative donor, received a transplant per usual care, or remained on the waitlist.",
+          "interventionNames": []
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Glecaprevir/pibrentasvir",
+          "description": "8 weeks of oral glecaprevir/pibrentasvir (G/P) initiated 2 to 5 days post-KT.",
+          "armGroupLabels": [
+            "HCV D-RNA-positive/R-negative KT recipients"
+          ]
+        },
+        {
+          "type": "PROCEDURE",
+          "name": "HCV-viremic Kidney Transplantation",
+          "description": "Transplanting kidneys from hepatitis C virus (HCV) viremic donors into HCV-negative patients.",
+          "armGroupLabels": [
+            "HCV D-RNA-positive/R-negative KT recipients"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "HCV cure (Sustained Virologic Response at 12 weeks)",
+          "description": "Defined as undetectable plasma HCV RNA.",
+          "timeFrame": "12 weeks after completion of glecaprevir/pibrentasvir (G/P)"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Probability of kidney transplantation",
+          "description": "Comparison of the probability of transplant for participants enrolled in the MYTHIC trial versus matched waitlist comparators.",
+          "timeFrame": "1 year"
+        },
+        {
+          "measure": "Severe adverse events",
+          "description": "Assessment of safety outcomes including treatment-related adverse events.",
+          "timeFrame": "1 year post-transplant"
+        },
+        {
+          "measure": "Liver function",
+          "description": "Assessment of liver biochemistry tests.",
+          "timeFrame": "1 year post-transplant"
+        },
+        {
+          "measure": "BKV and CMV viremia and clinical disease",
+          "description": "Screening for BK virus (BKV) and testing for Cytomegalovirus (CMV); adjudication of CMV disease cases.",
+          "timeFrame": "1 year post-transplant"
+        },
+        {
+          "measure": "Allograft rejection",
+          "description": "Incidence of biopsy-confirmed acute rejection.",
+          "timeFrame": "1 year post-transplant"
+        },
+        {
+          "measure": "Allograft function",
+          "description": "Measured by estimated glomerular filtration rate (eGFR) and proteinuria.",
+          "timeFrame": "1 year post-transplant"
+        },
+        {
+          "measure": "HCV RNA level",
+          "description": "Measurement of Hepatitis C virus RNA levels.",
+          "timeFrame": "24 weeks after G/P completion"
+        },
+        {
+          "measure": "HCV antibody status",
+          "description": "Assessment of the presence of HCV antibodies.",
+          "timeFrame": "1 year post-transplant"
+        },
+        {
+          "measure": "Patient survival",
+          "description": "Assessment of participant survival rates.",
+          "timeFrame": "1 year post-transplant"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n* Aged 21 to 65 years\n* On dialysis or had an estimated glomerular filtration rate <15 ml/min per 1.73 m2\n\nExclusion Criteria:\n* Positive test results for HIV\n* Positive test results for hepatitis B virus\n* Known liver disease\n* Liver stiffness >8 kPa by Fibroscan",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "21 Years",
+      "maximumAge": "65 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

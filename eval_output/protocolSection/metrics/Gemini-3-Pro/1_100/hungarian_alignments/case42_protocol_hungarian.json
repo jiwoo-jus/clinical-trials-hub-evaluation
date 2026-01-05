@@ -1,0 +1,188 @@
+{
+  "metadata": {
+    "case_id": 42,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T16:12:45.892725",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/42_NCT02132247.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/42_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.82
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.82,
+          "status": "matched",
+          "ref_item": {
+            "label": "Flector Patch",
+            "type": "EXPERIMENTAL",
+            "description": "Flector Patch is a transdermal delivery system containing 180 mg of diclofenac hydroxyethylpyrrolidine. The patch will be used twice-a-day for up to two weeks, or until pain resolution, whichever comes first.",
+            "interventionNames": [
+              "Drug: Diclofenac hydroxyethylpyrrolidine"
+            ]
+          },
+          "pred_item": {
+            "label": "FLECTOR diclofenac epolamine topical system (FDETS)",
+            "type": "EXPERIMENTAL",
+            "description": "Pediatric patients (aged 6–16 years) with clinically significant minor soft tissue injuries sustained within the preceding 96 hours.",
+            "interventionNames": [
+              "FLECTOR diclofenac epolamine topical system (FDETS)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.9
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Diclofenac hydroxyethylpyrrolidine",
+            "armGroupLabels": [
+              "Flector Patch"
+            ],
+            "otherNames": [
+              "Flector Patch"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "FLECTOR diclofenac epolamine topical system (FDETS)",
+            "description": "A topical patch (10 × 14 cm) containing 1.3% (180 mg) of diclofenac epolamine (equivalent to 140 mg diclofenac sodium). The patch is applied to the injury site twice daily (every 12 hours) until pain resolution or for up to 14 days.",
+            "armGroupLabels": [
+              "FLECTOR diclofenac epolamine topical system (FDETS)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.2
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Dermatologic Assessment at the Patch Application Site",
+            "description": "None - 0; Faint redness - 1; Moderate redness - 2; Intense redness - 3; Redness with edema or papules - 4; Redness with weeping vesicles, blisters or bullae - 5; Redness with extension of effect beyond margin of contact site - 6.",
+            "timeFrame": "Up to 2 weeks, depending upon pain resolution"
+          },
+          "pred_item": {
+            "measure": "Local Tolerability",
+            "description": "Assessed using a seven-item scale where 0 = no skin changes; 1 = faint redness; 2 = moderate redness; 3 = intense redness; 4 = redness with edema and papules; 5 = redness with weeping vesicles, blisters, or bullae; and 6 = redness with an extension of effect beyond the margin of the contact site.",
+            "timeFrame": "From baseline up to Day 14 (assessed at Days 1, 2, 4, 7, and 14)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.7,
+          0.98,
+          0.08
+        ],
+        [
+          0.98,
+          0.72,
+          0.08
+        ],
+        [
+          0.08,
+          0.05,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Investigator Assessment of the Global Response to Therapy on a 5-point Scale",
+            "description": "5-point scale: No clinical improvement in pain intensity and/or functional performance - 1; Slight clinical improvement in pain intensity and/or functional performance - 2; Moderate clinical improvement in pain intensity and/or functional performance - 3; Marked clinical improvement in pain intensity and/or functional performance - 4; Restoration of normal functional performance in the absence of any pain - 5.",
+            "timeFrame": "Up to 2 weeks, depending upon pain resolution"
+          },
+          "pred_item": {
+            "measure": "Global Response to Therapy",
+            "description": "Investigator assessment on a 5-point scale ranging from 1 = no clinical improvement in pain intensity and/or functional performance to 5 = restoration of normal functional performance in the absence of any pain.",
+            "timeFrame": "Final visit (Day 14 or upon pain resolution)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Patient Assessment of Pain on a 6-point Scale",
+            "description": "Wong-Baker FACES Scale 6-point scale:\n\nNo Hurt - 0; Hurts Little Bit - 1; Hurts Little More - 2; Hurts Even More - 3; Hurts Whole Lot - 4; Hurts Worst - 5.",
+            "timeFrame": "Up to 2 weeks, depending upon pain resolution"
+          },
+          "pred_item": {
+            "measure": "Analgesic Efficacy (Patient Self-Assessment)",
+            "description": "Pain severity assessed using the Wong-Baker FACES® Pain Rating Scale (ordinal scale from 0 = No hurt to 5 = Hurts worst).",
+            "timeFrame": "Daily (morning and evening) up to Day 14"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Plasma Concentration of Diclofenac",
+            "timeFrame": "Day 2 and either Day 4, 7 or 14, depending upon pain resolution"
+          },
+          "pred_item": {
+            "measure": "Diclofenac Plasma Concentrations",
+            "description": "Concentration of diclofenac in plasma determined by high performance liquid chromatography (HPLC) with tandem mass spectrometry detection (MS-MS).",
+            "timeFrame": "Day 2 (24 hours after first application) and Final Visit (Day 14 or upon pain resolution)"
+          }
+        }
+      ]
+    }
+  ]
+}

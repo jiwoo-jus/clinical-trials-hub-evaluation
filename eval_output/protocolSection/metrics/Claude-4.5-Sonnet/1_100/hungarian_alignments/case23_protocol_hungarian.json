@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "case_id": 23,
+    "model": "Claude-4.5-Sonnet",
+    "timestamp": "2025-11-29T15:20:17.799182",
+    "total_alignments": 2,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/23_NCT02487654.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Claude-4.5-Sonnet/23_Claude-4.5-Sonnet.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Patients With no Evidence of >30s Recurrent Atrial Arrhythmia Post-index Procedure",
+            "description": "That is documented recurrent atrial arrhythmia lasting 30 seconds or more after a blanking period of 3 months; the outcome measure will be assessed up to 12 months of follow-up with 48hr halter monitors arranged every 3 months to investigate Arrhythmia recurrence .",
+            "timeFrame": "3 to 12 months post-ablation."
+          },
+          "pred_item": {
+            "measure": "Freedom from atrial arrhythmia lasting ≥30 seconds",
+            "description": "Any documented atrial arrhythmia (AF, AT, or atrial flutter) lasting for ≥30 seconds consecutively recorded on the Holter monitor, 12-lead ECG, pacemaker, loop recorder, and AliveCor Kardia recorded ECG after a 90-day blanking period.",
+            "timeFrame": "12 months after a 90-day blanking period"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.25,
+          0.2,
+          0.18,
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 3,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants Presenting a Reduction in the Usage of Antiarrhythmics Post-ablation",
+            "description": "The reduction was defined as either a decrease of dose or a cessation of a drug over a 12 month follow-up period post ablation.",
+            "timeFrame": "3 to 12 months post-ablation."
+          },
+          "pred_item": {
+            "measure": "Reduction in antiarrhythmic drug usage",
+            "description": "Change in the proportion of patients using antiarrhythmic drugs postablation compared to baseline",
+            "timeFrame": "12 months after a 90-day blanking period"
+          }
+        }
+      ]
+    }
+  ]
+}

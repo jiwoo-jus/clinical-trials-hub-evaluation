@@ -1,0 +1,374 @@
+{
+  "metadata": {
+    "case_id": 17,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-28T06:03:19.155537",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/17_NCT03036293.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/17_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 4,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.7,
+          0.24
+        ],
+        [
+          0.6,
+          0.2,
+          0.84
+        ],
+        [
+          0.75,
+          0.98,
+          0.32
+        ],
+        [
+          0.35,
+          0.4,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Tenoten, 2 tablets twice daily (4 tablets/day)",
+            "type": "EXPERIMENTAL",
+            "description": "Tablet for oral use. Dose per administration: 2 tablets. 2 tablets twice daily (4 tablets/day). The tablets should be held in the mouth until dissolution, without meal.",
+            "interventionNames": [
+              "Drug: Tenoten"
+            ]
+          },
+          "pred_item": {
+            "label": "Tenoten 4 tablets/day",
+            "type": "EXPERIMENTAL",
+            "description": "Adults with somatoform dysfunction, reaction to severe stress, adjustment disorders, or other neurotic disorders received Tenoten at a total daily dose of 4 tablets, administered as 2 tablets twice daily for 12 weeks.",
+            "interventionNames": [
+              "Tenoten 4 tablets/day"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "label": "Placebo, 2 tablets twice daily (4 tablets/day)",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Tablet for oral use. Dose per administration: 2 tablets. 2 tablets twice daily (4 tablets/day). The tablets should be held in the mouth until dissolution, without meal.",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "label": "Tenoten, 2 tablets 4 times daily (8 tablets/day)",
+            "type": "EXPERIMENTAL",
+            "description": "Tablet for oral use. Dose per administration: 2 tablets. 2 tablets 4 times daily (8 tablets/days). The tablets should be held in the mouth until dissolution, without meal.",
+            "interventionNames": [
+              "Drug: Tenoten"
+            ]
+          },
+          "pred_item": {
+            "label": "Tenoten 8 tablets/day",
+            "type": "EXPERIMENTAL",
+            "description": "Adults with somatoform dysfunction, reaction to severe stress, adjustment disorders, or other neurotic disorders received Tenoten at a total daily dose of 8 tablets, administered as 2 tablets four times daily for 12 weeks.",
+            "interventionNames": [
+              "Tenoten 8 tablets/day"
+            ]
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Placebo, 2 tablets 4 times daily (8 tablets/day)",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Tablet for oral use. Dose per administration: 2 tablets. 2 tablets 4 times daily (8 tablets/days). The tablets should be held in the mouth until dissolution, without meal.",
+            "interventionNames": [
+              "Drug: Placebo"
+            ]
+          },
+          "pred_item": {
+            "label": "Placebo",
+            "type": "PLACEBO_COMPARATOR",
+            "description": "Adults with somatoform dysfunction, reaction to severe stress, adjustment disorders, or other neurotic disorders received placebo tablets matching Tenoten in appearance and organoleptic properties, at dosing regimens mirroring the Tenoten groups (either 2 tablets twice daily or 2 tablets four times daily) for 12 weeks.",
+            "interventionNames": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.86,
+          0.35
+        ],
+        [
+          0.2,
+          0.18,
+          0.92
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Tenoten",
+            "description": "Tablet for oral use.",
+            "armGroupLabels": [
+              "Tenoten, 2 tablets 4 times daily (8 tablets/day)",
+              "Tenoten, 2 tablets twice daily (4 tablets/day)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Tenoten 4 tablets/day",
+            "description": "Tenoten, an anxiolytic drug containing highly diluted antibodies to S100 protein, administered orally as 2 tablets twice daily (total 4 tablets per day) for 12 weeks.",
+            "armGroupLabels": [
+              "Tenoten 4 tablets/day"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Tablet for oral use.",
+            "armGroupLabels": [
+              "Placebo, 2 tablets 4 times daily (8 tablets/day)",
+              "Placebo, 2 tablets twice daily (4 tablets/day)"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Placebo",
+            "description": "Placebo tablets matching Tenoten in appearance and organoleptic properties, administered orally in regimens corresponding to either 4 or 8 tablets per day (2 tablets twice daily or 2 tablets four times daily) for 12 weeks.",
+            "armGroupLabels": [
+              "Placebo"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the Mean HAM-A Score at 12 Weeks of Treatment: 1. Group 1 (Tenoten®, 4 Tablets a Day); 2. Group 3 (Tenoten®, 8 Tablets a Day).",
+            "description": "The Hamilton Anxiety Rating Scale (HAM-A). Personality questionnaire designed to identify constitutive anxiety and situational anxiety. The scale consists of 14 items and measures both psychic anxiety and somatic anxiety. Total score is in range 0-56. Includes the symptoms of anxious mood, phobic, emotional, sleep disorders, depressive mood, somatic symptoms - muscular (pain, convulsions, etc.), sensory (e.g. tinnitus), cardiovascular, respiratory, gastrointestinal, genitourinary, neurovegetative. Major role belongs to behaviour during this interview.\n\nAnxiety scoring:\n\n≤13 - no anxiety; 14-17 - mild anxiety disorder; 18-24 - moderate anxiety disorder;\n\n≥25 - severe anxiety.\n\nHigher values represent a worse outcome",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Change from baseline in Hamilton Anxiety Rating Scale (HAM-A) score",
+            "description": "Alterations from baseline in the mean HAM-A score in Tenoten group 1 (4 tablets/day) and Tenoten group 3 (8 tablets/day), used to assess the efficacy of Tenoten versus placebo in reducing anxiety severity.",
+            "timeFrame": "After 12 weeks of treatment"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 6,
+      "pred_count": 6,
+      "similarity_matrix": [
+        [
+          0.82,
+          0.78,
+          0.82,
+          0.25,
+          0.22,
+          0.07
+        ],
+        [
+          0.84,
+          0.7,
+          0.78,
+          0.3,
+          0.15,
+          0.05
+        ],
+        [
+          0.7,
+          0.96,
+          0.78,
+          0.24,
+          0.38,
+          0.05
+        ],
+        [
+          0.64,
+          0.72,
+          0.95,
+          0.32,
+          0.28,
+          0.03
+        ],
+        [
+          0.25,
+          0.25,
+          0.32,
+          0.97,
+          0.25,
+          0.05
+        ],
+        [
+          0.32,
+          0.4,
+          0.22,
+          0.32,
+          0.86,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 5,
+          "score": 0.07,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the Mean HAM-A Score at 4 Weeks of Treatment: 1.1. Group 1 (Tenoten®, 4 Tablets a Day); 1.2. Group 3 (Tenoten®, 8 Tablets a Day).",
+            "description": "The Hamilton Anxiety Rating Scale (HAM-A). Personality questionnaire designed to identify constitutive anxiety and situational anxiety. The scale consists of 14 items and measures both psychic anxiety and somatic anxiety. Total score is in range 0-56. Includes the symptoms of anxious mood, phobic, emotional, sleep disorders, depressive mood, somatic symptoms - muscular (pain, convulsions, etc.), sensory (e.g. tinnitus), cardiovascular, respiratory, gastrointestinal, genitourinary, neurovegetative. Major role belongs to behaviour during this interview.\n\nAnxiety scoring:\n\n≤13 - no anxiety; 14-17 - mild anxiety disorder; 18-24 - moderate anxiety disorder;\n\n≥25 - severe anxiety.\n\nHigher values represent a worse outcome",
+            "timeFrame": "4 weeks"
+          },
+          "pred_item": {
+            "measure": "Safety: incidence and severity of adverse events",
+            "description": "Number, severity (mild, moderate, serious), and relationship to study drug of all adverse events reported in each group to assess tolerability and safety.",
+            "timeFrame": "Throughout the 12-week treatment period"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 0.84,
+          "status": "matched",
+          "ref_item": {
+            "measure": "The Mean HAM-A Score at 8 Weeks of Treatment: 2.1. Group 1 (Tenoten®, 4 Tablets a Day); 2.2. Group 3 (Tenoten®, 8 Tablets a Day).",
+            "description": "The Hamilton Anxiety Rating Scale (HAM-A). Personality questionnaire designed to identify constitutive anxiety and situational anxiety. The scale consists of 14 items and measures both psychic anxiety and somatic anxiety. Total score is in range 0-56. Includes the symptoms of anxious mood, phobic, emotional, sleep disorders, depressive mood, somatic symptoms - muscular (pain, convulsions, etc.), sensory (e.g. tinnitus), cardiovascular, respiratory, gastrointestinal, genitourinary, neurovegetative. Major role belongs to behaviour during this interview.\n\nAnxiety scoring:\n\n≤13 - no anxiety; 14-17 - mild anxiety disorder; 18-24 - moderate anxiety disorder;\n\n≥25 - severe anxiety.\n\nHigher values represent a worse outcome",
+            "timeFrame": "8 weeks"
+          },
+          "pred_item": {
+            "measure": "Change from baseline in HAM-A score at interim visits",
+            "description": "Changes from baseline in the mean HAM-A score in all groups to evaluate early and intermediate treatment effects.",
+            "timeFrame": "After 4 and 8 weeks of treatment"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Patients Had at Least a 50% Improvement in the HAM-A Score: 3.1. Group 1 (Tenoten® 4 Tablets a Day): After 4, 8 and 12 Weeks; 3.2. Group 3 (Tenoten® 8 Tablets a Day): After 4, 8 and 12 Weeks.",
+            "description": "The Hamilton Anxiety Rating Scale (HAM-A). Personality questionnaire designed to identify constitutive anxiety and situational anxiety. The scale consists of 14 items and measures both psychic anxiety and somatic anxiety. Total score is in range 0-56. Includes the symptoms of anxious mood, phobic, emotional, sleep disorders, depressive mood, somatic symptoms - muscular (pain, convulsions, etc.), sensory (e.g. tinnitus), cardiovascular, respiratory, gastrointestinal, genitourinary, neurovegetative. Major role belongs to behaviour during this interview.\n\nAnxiety scoring:\n\n≤13 - no anxiety; 14-17 - mild anxiety disorder; 18-24 - moderate anxiety disorder;\n\n≥25 - severe anxiety.\n\nHigher values represent a worse outcome",
+            "timeFrame": "4,8,12 weeks"
+          },
+          "pred_item": {
+            "measure": "Treatment response on HAM-A",
+            "description": "Percentage of patients who responded to treatment, defined as a ≥50% reduction in HAM-A total score from baseline.",
+            "timeFrame": "After 4, 8, and 12 weeks of treatment"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 2,
+          "score": 0.95,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Patients With no Anxiety (HAM-A Score <14) in: 4.1. Group 1 (Tenoten®, 4 Tablets a Day); After 4, 8 and 12 Weeks; 4.3. Group 3 (Tenoten®, 4 Tablets a Day); After 4, 8 and 12 Weeks.",
+            "description": "The Hamilton Anxiety Rating Scale (HAM-A). Personality questionnaire designed to identify constitutive anxiety and situational anxiety. The scale consists of 14 items and measures both psychic anxiety and somatic anxiety. Total score is in range 0-56. Includes the symptoms of anxious mood, phobic, emotional, sleep disorders, depressive mood, somatic symptoms - muscular (pain, convulsions, etc.), sensory (e.g. tinnitus), cardiovascular, respiratory, gastrointestinal, genitourinary, neurovegetative. Major role belongs to behaviour during this interview.\n\nAnxiety scoring:\n\n≤13 - no anxiety; 14-17 - mild anxiety disorder; 18-24 - moderate anxiety disorder;\n\n≥25 - severe anxiety.\n\nHigher values represent a worse outcome",
+            "timeFrame": "4,8,12 weeks"
+          },
+          "pred_item": {
+            "measure": "Anxiety remission on HAM-A",
+            "description": "Percentage of patients without anxiety, defined as HAM-A total score <14.",
+            "timeFrame": "After 4, 8, and 12 weeks of treatment"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 3,
+          "score": 0.97,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in the Total EQ-5D-3L Score at 12 Weeks of Treatment in Patients From: 5.1. Group 1 (Tenoten®, 4 Tablets a Day); 5.2. Group 3 (Tenoten®, 8 Tablets a Day).",
+            "description": "European Quality of Life Instrument questionnaire (EQ-5D-3L) is designed for the evaluation of the quality of life.The score ranges between 5-15. Higher values represent a worse outcome.",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Change from baseline in EQ-5D-3L score",
+            "description": "Changes from baseline in the European Quality of Life Instrument (EQ-5D-3L) total score assessing health-related quality of life (mobility, self-care, usual activities, pain/discomfort, anxiety/depression).",
+            "timeFrame": "After 12 weeks of treatment"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 4,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Total CGI Scores in Patients From: 6.1. Group 1 (Tenoten®, 4 Tablets a Day); 6.2. Group 3 (Tenoten®, 8 Tablets a Day).",
+            "description": "Clinical Global Impession (CGI) provides a brief assessment of the clinician's view of the patient's global functioning prior to and after initiating a study medication. Total range 0-16. Higher values represent a worse outcome",
+            "timeFrame": "12 weeks"
+          },
+          "pred_item": {
+            "measure": "Clinical Global Impression – Efficacy Index (CGI-EI)",
+            "description": "CGI-EI score assessing the ratio between therapeutic effects and side effects of the medication, ranging from marked improvement and no side effects to unchanged/worse with side effects outweighing therapeutic effects.",
+            "timeFrame": "After 12 weeks of treatment"
+          }
+        }
+      ]
+    }
+  ]
+}

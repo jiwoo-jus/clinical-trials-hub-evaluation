@@ -1,0 +1,109 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+GPT-5.1,protocolSection.identificationModule.nctId,TP,TP,NCT00195091,NCT00195091,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.orgStudyIdInfo.type,EV,EV,,NIH,,,,OrgStudyIdType,protocolSection.identificationModule.orgStudyIdInfo.type,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.orgStudyIdInfo.link,EV,EV,,,,,,OrgStudyIdLink,protocolSection.identificationModule.orgStudyIdInfo.link,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,18-023,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[2].id,EV,EV,,PXD027089,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[3].id,EV,EV,,EGAS00001001753,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,NIH,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[2].type,EV,EV,,REGISTRY,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[3].type,EV,EV,,REGISTRY,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,Memorial Sloan Kettering Cancer Center,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[2].domain,EV,EV,,ProteomeXchange,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[3].domain,EV,EV,,METABRIC via cBioPortal,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[0].link,EV,EV,,,,,,SecondaryIdLink,protocolSection.identificationModule.secondaryIdInfos.link,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[1].link,EV,EV,,,,,,SecondaryIdLink,protocolSection.identificationModule.secondaryIdInfos.link,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[2].link,EV,EV,,https://www.proteomexchange.org,,,,SecondaryIdLink,protocolSection.identificationModule.secondaryIdInfos.link,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.secondaryIdInfos[3].link,EV,EV,,https://www.cbioportal.org/study/summary?id=brca_metabric,,,,SecondaryIdLink,protocolSection.identificationModule.secondaryIdInfos.link,True,False,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.briefTitle,TP,TP,Phase II Study of Tetrathiomolybdate (TM) in Patients With Breast Cancer,Phase II Trial of Tetrathiomolybdate in High-Risk Breast Cancer Patients,True,0.95,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.officialTitle,TP,TP,A Phase II Study of Tetrathiomolybdate (TM) in Patients With Breast Cancer at Moderate to High Risk of Recurrence,Phase II Clinical Trial of Copper Chelation With Tetrathiomolybdate in High-Risk Breast Cancer Patients,True,0.94,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+GPT-5.1,protocolSection.identificationModule.acronym,EV,EV,,TM,,,,Acronym,protocolSection.identificationModule.acronym,True,False,True,False,False,False
+GPT-5.1,protocolSection.descriptionModule.briefSummary,TP,TP,"Patients with moderate to high risk primary breast cancer (Stage II with more than 4 lymph nodes involved with cancer) III or Stage IV (without evidence of disease) will take tetrathiomolybdate (TM) pills for two years.
+
+The objectives of the study are to:
+
+* Assess the safety and tolerability of tetrathiomolybdate in patients with breast cancer at high risk of tumor recurrence.
+* Observe the disease-free survival of patients in this trial.
+* Conduct background scientific experiments on tumor tissue and blood of patients in this study","This study investigates how depleting copper with the oral chelating drug tetrathiomolybdate (TM) affects metastasis in triple-negative breast cancer (TNBC). Prior phase II clinical data suggested that copper depletion improves event-free and overall survival in high-risk breast cancer patients, including those with TNBC, without significantly affecting primary tumor growth. Using human and mouse TNBC models, the researchers show that TM selectively targets a small, highly metastatic subpopulation of SOX2/OCT4-positive cells that have elevated intracellular copper and rely heavily on mitochondrial oxidative phosphorylation (OXPHOS). Copper depletion destabilizes mitochondrial Complex IV, disrupts respiration, activates the AMPK–mTORC1 energy-sensing pathway, and reduces invasion and lung metastasis while sparing overall cell viability and primary tumor growth.",True,0.73,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+GPT-5.1,protocolSection.descriptionModule.detailedDescription,TP,FP,"Patients with moderate to high risk primary breast cancer -Stage III, Triple negative (T= 4 cm N0, any N+), Stage IV (without evidence of disease) will take tetrathiomolydbate (TM) pills for two years.
+
+Extension study 1 - If patients are shown to be copper depleted, they are given the option to continue to receive TM for an additional 2 years.
+
+Extension study 2 - Open to patients who are stage 4 NED, 10 involved lymph nodes or triple negative molecular subtype and candidates will continue for months 49-72.
+
+Extension study 3 - Open to patients who are stage 4 NED receiving a benefit from TM. These subjects can continue receiving TM for 73-96 months.
+
+Extension study 4 - Open to patients who are stage 4 NED receiving a benefit from TM. These subject can continue receiving TM for 97-120 months.","The study explores a mechanistic link between copper metabolism, mitochondrial bioenergetics, and metastatic progression in triple-negative breast cancer (TNBC). Clinically, high expression of the copper transporter CTR1 (SLC31A1) in breast tumors correlates with poorer overall survival, higher stage, and more aggressive subtypes such as TNBC and HER2-positive disease. A previously conducted phase II clinical trial of tetrathiomolybdate (TM), a first-in-class oral copper chelator originally developed for Wilson’s disease, showed that sustained copper depletion was safe, well-tolerated, and associated with unexpectedly high event-free survival in high-risk breast cancer patients, including those with stage 4 TNBC without evidence of disease.
+
+To understand how copper depletion limits metastasis, the authors use two TNBC models: a human lung-tropic variant of MDA-MB-231 (LM2) and a syngeneic murine model EO771.ML1 (ML1). In these models, TM is administered orally at doses that reduce systemic and intracellular copper to about 30% of baseline levels, mimicking the levels achieved in the clinical trial. At these doses, TM does not significantly affect in vitro cell viability, proliferation, or primary tumor growth in vivo, but it markedly reduces invasion through extracellular matrix in transwell assays and decreases lung metastatic burden after resection of primary tumors.
+
+Using a SOX2/OCT4-GFP promoter-reporter system, the study identifies a discrete subpopulation of SOX2/OCT4-positive cancer cells within primary TNBC tumors. These cells exhibit stem-like traits, enhanced invasive and metastatic potential, higher basal oxygen consumption, and elevated intracellular copper compared with SOX2/OCT4-negative cells. TM preferentially reduces invasion and respiratory capacity in this GFP-positive subpopulation. Global, multiplexed tandem mass tag (TMT) proteomics in sorted GFP-positive versus GFP-negative cells reveals that TM treatment specifically downregulates multiple subunits of mitochondrial Complex IV (cytochrome c oxidase) and enriches for gene ontology pathways related to the mitochondrial electron transport chain in the GFP-positive cells.
+
+Functional assays confirm that TM selectively destabilizes Complex IV protein subunits without altering their mRNA levels, reduces cytochrome c oxidase activity, and perturbs mitochondrial cristae structure, while leaving mitochondrial DNA content and overall mitochondrial mass largely unchanged. Seahorse extracellular flux analyses demonstrate that SOX2/OCT4-positive cells are more OXPHOS-dependent than reporter-negative cells and are more strongly affected by TM, with dramatic reductions in basal and ATP-linked respiration and in the ratio of mitochondrial to glycolytic ATP production. These respiratory defects are reversible upon TM withdrawal or copper repletion and can be reproduced using another copper chelator (trientine) or by CRISPR/Cas9 knockout of the copper transporter CTR1.
+
+To dissect the specific contribution of mitochondrial copper, the authors knock down the mitochondria-specific copper chaperone COX17, which delivers copper to Complex IV. COX17 knockdown reduces oxygen consumption, ATP-linked respiration, and invasion in vitro and decreases lung metastases in vivo, without global copper depletion. Similarly, knockdown of COX20, a Complex IV assembly factor, reduces oxygen consumption and invasion. These manipulations phenocopy TM’s effects, indicating that Complex IV dysfunction and mitochondrial copper restriction are central to the observed anti-metastatic phenotype.
+
+Metabolomic profiling reveals that TM treatment increases glucose consumption, lactate production, and levels of nucleotide precursors, including AMP, reflecting a shift toward glycolysis and altered nucleotide metabolism. TM markedly reduces mitochondrial ATP production while sparing glycolytic ATP production. The resulting rise in AMP and energy stress leads to activation of AMP-activated protein kinase (AMPK), evidenced by increased phosphorylation of AMPK (Thr172) and its downstream target acetyl-CoA carboxylase (ACC, Ser79). COX17 knockdown similarly reduces mitochondrial ATP and activates AMPK.
+
+Downstream, AMPK activation suppresses mammalian target of rapamycin complex 1 (mTORC1) signaling, as shown by increased phosphorylation of raptor (Ser792) and reduced phosphorylation of the mTORC1 substrate p70S6K (Thr389); 4E-BP1 phosphorylation is also modulated. Pharmacologic activation of AMPK with AICAR or A-769662 independently reduces invasion, whereas siRNA-mediated AMPK knockdown rescues the TM-induced loss of invasion. These findings position AMPK activation as a key mediator of the anti-invasive effect of copper depletion.
+
+The study also acknowledges other copper-dependent processes relevant to metastasis, such as lysyl oxidase and LOXL2-mediated extracellular matrix remodeling and pre-metastatic niche formation, which had been previously linked to TM in TNBC models and patients. Nevertheless, the present work provides direct evidence that a copper–metabolism–metastasis axis operates through mitochondrial Complex IV, OXPHOS dependence of SOX2/OCT4-positive metastatic cells, and AMPK–mTORC1 signaling.
+
+Overall, this research connects clinical observations of improved outcomes with TM in high-risk breast cancer to mechanistic data in TNBC models. It suggests that copper chelation at physiologically tolerable levels selectively targets an OXPHOS-dependent, copper-enriched metastatic subpopulation within TNBC, disrupts mitochondrial respiration, activates AMPK, suppresses mTORC1, and impairs invasion and lung metastasis. These insights could inform biomarker-based patient selection (e.g., CTR1 expression, OXPHOS reliance, SOX2/OCT4-positive populations) and rational design of future randomized phase II trials of copper depletion therapy in TNBC and other aggressive breast cancer subtypes.",False,0.42,success,DetailedDescription,protocolSection.descriptionModule.detailedDescription,False,True,True,False,False,False
+GPT-5.1,protocolSection.conditionsModule.conditions,TP,FP,['Breast Cancer'],"['Triple Negative Breast Neoplasms', 'Breast Neoplasms', 'Neoplasm Metastasis']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+GPT-5.1,protocolSection.conditionsModule.keywords,EV,EV,,"['Triple-negative breast cancer', 'TNBC', 'Breast cancer', 'Metastasis', 'Lung metastasis', 'Copper', 'Copper chelators', 'Tetrathiomolybdate', 'TM', 'Trientine', 'Copper transporter 1', 'CTR1', 'SLC31A1', 'Cytochrome c oxidase', 'Complex IV', 'Mitochondrial respiration', 'Oxidative phosphorylation', 'OXPHOS', 'Mitochondrial electron transport chain', 'SOX2', 'OCT4', 'Cancer stem cells', 'AMP-activated protein kinase', 'AMPK', 'mTORC1', 'P70S6K', 'COX17', 'COX20', 'Lysyl oxidase', 'LOXL2', 'Invasion', 'Pre-metastatic niche']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.phases,TP,TP,['PHASE2'],['PHASE2'],True,1.0,exact,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.allocation,TP,TP,NA,NA,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.interventionModel,TP,TP,SINGLE_GROUP,SINGLE_GROUP,True,1.0,exact,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,"Single-arm phase II trial of oral tetrathiomolybdate (TM) in high-risk breast cancer patients who were stage 4 with no evidence of disease (NED), with long-term follow-up for event-free and overall survival.",,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.observationalModel,EV,EV,,OTHER,,,,DesignObservationalModel,protocolSection.designModule.designInfo.observationalModel,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.timePerspective,EV,EV,,OTHER,,,,DesignTimePerspective,protocolSection.designModule.designInfo.timePerspective,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,NONE,NONE,True,1.0,exact,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+GPT-5.1,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,No blinding or masking was described; TM was administered openly as a copper-chelating treatment.,,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+GPT-5.1,protocolSection.designModule.enrollmentInfo.count,TP,FP,16,75,False,0.1,success,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+GPT-5.1,protocolSection.armsInterventionsModule.armGroups[1].label,EV,EV,,Control (no copper chelation),,,,ArmGroupLabel,protocolSection.armsInterventionsModule.armGroups.label,True,False,True,False,False,False
+GPT-5.1,protocolSection.armsInterventionsModule.armGroups[1].type,EV,EV,,NO_INTERVENTION,,,,ArmGroupType,protocolSection.armsInterventionsModule.armGroups.type,True,False,True,False,False,False
+GPT-5.1,protocolSection.armsInterventionsModule.armGroups[1].description,EV,EV,,Control arm/group without copper chelation. Patients or animals received standard care or vehicle only and did not receive tetrathiomolybdate. In the mouse models this corresponds to tumor-bearing mice given normal drinking water without TM.,,,,ArmGroupDescription,protocolSection.armsInterventionsModule.armGroups.description,True,False,True,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.eligibilityCriteria,FN,FN,"Inclusion Criteria:
+
+1. Patients must have histologically confirmed breast malignancy that is:
+
+   * High risk stage II breast cancer (≥4 positive lymph nodes),
+   * Stage III breast cancer, including inflammatory breast cancer
+   * Stage IV breast cancer in a complete remission (bone only not allowed unless the bone scan is normal).
+2. The patient must have had what is considered standard adjuvant systemic therapy that may include chemotherapy, hormonal therapy and radiation therapy. They may have undergone high dose chemotherapy with stem cell support as part of their therapy in the adjuvant or metastatic setting. The patient is allowed to continue to take adjuvant hormonal therapy (for high risk adjuvant patients) and may be allowed to be on hormonal consolidation post transplant if they are without evidence of disease after a transplant for metastatic breast cancer. The patient cannot be actively receiving chemotherapy or any biologic agent to treat their breast cancer.
+3. Six weeks must elapse from last chemotherapy or radiation therapy.
+4. The patient must have had definitive surgical therapy for their breast cancer. This includes lumpectomy and axillary dissection or mastectomy.
+5. No clinical or radiologic evidence of disease after surgery and/or systemic treatment (by CT scan of chest, abdomen and pelvis and bone scan or PET scan prior to enrollment)
+6. Because no dosing or adverse event data are currently available on the use of TM in patients \< 18 years of age, children are excluded from this study.
+7. ECOG performance status \< 1
+8. Life expectancy of greater than 3 months.
+9. Patients must have normal organ and marrow function as defined below:
+
+   * hemoglobin \>10mg/dL
+   * absolute neutrophil count \>1,500/mL
+   * platelets \>100,000/mL
+   * total bilirubin \< 1.5 x normal institutional limits
+   * AST(SGOT)/ALT(SGPT) \<1.5 X institutional upper limit of normal
+10. Erythropoietin alpha is allowed, as indicated.
+11. Bisphosphonates may be administered if they were started prior to starting this therapy.
+12. Patients must be on stable medical therapy for at least 2 weeks if they are being treated medically for their peripheral neuropathy.
+13. Concurrent herceptin is not allowed.
+14. The effects of TM on the developing human fetus are unknown. For this reason, women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately.
+15. Ability to understand and the willingness to sign a written informed consent document.
+
+Exclusion Criteria:
+
+1. Patients who have had chemotherapy or radiotherapy within 6 weeks prior to entering the study.
+2. Objective evidence of breast cancer.
+3. Carcinomatous meningitis or history of neoplastic parenchymal brain disease.
+4. Serum creatinine \>1.5 x normal.
+5. History of allergic reactions attributed to compounds of similar chemical or biologic composition to TM.
+6. Pregnant women are excluded from this study because TM has the potential to have teratogenic or abortifacient effects. Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with TM, breastfeeding should be discontinued if the mother is treated with TM.
+7. Because patients with immune deficiency are at increased risk of lethal infections when treated with marrow-suppressive therapy, HIV-positive patients receiving combination anti-retroviral therapy are excluded from the study because of possible pharmacokinetic interactions with TM.",,False,0.0,,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,False,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.healthyVolunteers,FN,FN,False,,False,0.0,,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,False,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.sex,FN,FN,FEMALE,,False,0.0,,Sex,protocolSection.eligibilityModule.sex,False,True,False,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.minimumAge,FN,FN,18 Years,,False,0.0,,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,False,False,False,False
+GPT-5.1,protocolSection.eligibilityModule.stdAges,FN,FN,"['ADULT', 'OLDER_ADULT']",,False,0.0,,StdAge,protocolSection.eligibilityModule.stdAges,False,True,False,False,False,False

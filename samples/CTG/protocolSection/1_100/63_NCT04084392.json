@@ -1,0 +1,156 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04084392",
+      "orgStudyIdInfo": {
+        "id": "191269"
+      },
+      "organization": {
+        "fullName": "Vanderbilt University Medical Center",
+        "class": "OTHER"
+      },
+      "briefTitle": "Evaluating the Impact of the Bridge Clinic in Patients With Opioid Use Disorder",
+      "officialTitle": "Evaluating the Impact of the Bridge Clinic in Patients With Opioid Use Disorder"
+    },
+    "descriptionModule": {
+      "briefSummary": "This study aims to determine whether referral to the Bridge Clinic reduces overall index hospital length of stay when compared to direct referral to a long-term outpatient addiction provider for patients with active opioid use disorder (OUD) being considered for medications-for-addiction treatment (MAT)."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Opioid Use",
+        "Opioid-use Disorder"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Programmatic evaluation - eligible participants will be individually randomized to either direct referral to a long-term outpatient addiction provider or referral to the Bridge Clinic while long-term outpatient addiction provider is located/identified.",
+        "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+        "maskingInfo": {
+          "masking": "SINGLE",
+          "whoMasked": [
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 335,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Usual Care",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants randomized to this arm will receive care as usual.",
+          "interventionNames": [
+            "Other: Usual Care"
+          ]
+        },
+        {
+          "label": "Bridge Clinic",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Participants randomized to this arm will be referred to the Bridge Clinic to facilitate identification and referral to an outpatient provider for addiction treatment.",
+          "interventionNames": [
+            "Other: Bridge Clinic"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "OTHER",
+          "name": "Bridge Clinic",
+          "description": "Referral to the Bridge Clinic for temporary outpatient addiction treatment while the bridge clinic identifies an outpatient addiction treatment provider to accept the patient for long term treatment.",
+          "armGroupLabels": [
+            "Bridge Clinic"
+          ]
+        },
+        {
+          "type": "OTHER",
+          "name": "Usual Care",
+          "description": "Referral to an outpatient provider for addiction treatment.",
+          "armGroupLabels": [
+            "Usual Care"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Hospital Length of Stay",
+          "description": "Overall index hospital length of stay measured in days",
+          "timeFrame": "approximately 3 to 42 days"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Combined Cost of Index Admission and Subsequent Admissions During the Study Period",
+          "description": "Total costs, and costs for each admission and care resource used measured in dollars. This includes the cost of the index hospital admission along with any subsequent admissions during the 16-week follow up period.",
+          "timeFrame": "16 weeks post-randomization"
+        },
+        {
+          "measure": "Number of Participants With Successful Care Linkage",
+          "description": "Dichotomous self-reported outcome of linkage to a MAT provider as defined by attending at least one visit with a MAT provider",
+          "timeFrame": "16 weeks post-randomization"
+        },
+        {
+          "measure": "Number of MAT Prescriptions Filled by Participant",
+          "description": "Reported buprenorphine-naloxone (or naltrexone) prescriptions filled",
+          "timeFrame": "16 weeks post-randomization"
+        },
+        {
+          "measure": "Readmissions and Emergency Department (ED) Visits",
+          "description": "Composite number of ED visits and readmissions",
+          "timeFrame": "16 weeks post-randomization"
+        },
+        {
+          "measure": "Hospital and ED Free Days",
+          "description": "Days alive out of the hospital and/or ED",
+          "timeFrame": "16 weeks post-randomization"
+        },
+        {
+          "measure": "Mortality",
+          "description": "Death in hospital or documented at 16-week follow up or in the medical record.",
+          "timeFrame": "16 weeks post-randomization"
+        },
+        {
+          "measure": "Recurrent Opioid Use",
+          "description": "The number of participants with recurrent opioid use.",
+          "timeFrame": "16 weeks post-randomization"
+        },
+        {
+          "measure": "Overdose",
+          "description": "Any overdose self-reported at the 16-week follow up",
+          "timeFrame": "16 weeks post-randomization"
+        },
+        {
+          "measure": "Quality of Life - Schwartz Outcome Scale-10 (SOS10).",
+          "description": "The Quality of Life - Schwartz Outcome Scale-10 (SOS10) survey has ten questions scored on a 0 (never) to 6 (all or nearly all of the time) scale that measures the broad domain of psychological well-being and quality of life. A total score is computed as the sum across the 10 questions. Therefore, the minimum total score is 0 (never) and the maximum score is 60 (all or nearly all of the time). Higher scores indicate greater well-being and psychological health. Therefore, higher scores are better.",
+          "timeFrame": "16 weeks post-randomization"
+        },
+        {
+          "measure": "Opioid Use Within 30 Days",
+          "description": "Opioid use within 30 days as self-reported and assessed during the 16-week follow up phone call.",
+          "timeFrame": "30 days"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Inpatients at VUH with active OUD being considered for MAT.\n* Patient accepting a transitional prescription for buprenorphine-naloxone or IM naltrexone whose outpatient plans are not fixed\n\nExclusion Criteria:\n\n* Deemed ineligible for referral to outpatient Bridge Clinic by the Addiction Consult Team (examples include but are not limited to patients with severe, active co-occurring psychiatric disorders requiring a higher level of psychiatric care or patients for whom methadone maintenance is deemed the best choice of MAT).\n* Patients previously randomized in this study.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

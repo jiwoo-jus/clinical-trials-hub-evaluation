@@ -1,0 +1,148 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04279392",
+      "orgStudyIdInfo": {
+        "id": "0820-19-FB"
+      },
+      "organization": {
+        "fullName": "University of Nebraska",
+        "class": "OTHER"
+      },
+      "briefTitle": "Healthy Body, Healthy Bones After Bariatric Surgery Trial",
+      "officialTitle": "Feasibility of Bisphosphonate Use on Sleeve Gastrectomy Associated Bone Loss: Healthy Body, Healthy Bones Trial"
+    },
+    "descriptionModule": {
+      "briefSummary": "One in three adults in the United States suffers from obesity. Bariatric surgery is an increasingly utilized and effective treatment for obesity and obesity-related comorbidities, however, the massive weight loss associated with bariatric surgery adversely affects bone leads to an increased risk of fracture. Bisphosphonate medications, such as zoledronic acid, are used to treat bone loss in patients with osteoporosis, and this study investigates whether this medication can prevent bone loss associated with surgical weight loss procedures.",
+      "detailedDescription": "One in three adults in the United States suffers from obesity. Bariatric surgery is an increasingly utilized and effective treatment for obesity and obesity-related comorbidities, however, the massive weight loss associated with bariatric surgery adversely affects bone metabolism. Significant decreases in bone mineral density lead to an increased risk of fracture and subsequent reduction in physical function among bariatric surgery patients. Bisphosphonate medications, such as zoledronic acid, have been evaluated for safety and efficacy in combating bone loss in patients with osteoporosis, but their use in bariatric surgery-induced bone loss has not been explored. The primary goal of this study is to investigate whether bisphosphonate therapies are able to combat bone loss associated with surgical weight loss procedures. This research proposal is a 1-year, pilot randomized controlled trial (RCT) involving 30 adult sleeve gastrectomy patients randomized to receive either a one-time zoledronic acid infusion or placebo (n=15 per group). The investigators hypothesize that zoledronic acid, a standard treatment for low bone density, will be an effective intervention to reduce sleeve gastrectomy-induced bone loss. Bone loss is an unintended consequence of an otherwise life-saving procedure, with declining bone health potentially contributing to major morbidity in those undergoing a bariatric procedure. Identifying effective interventions to minimize bone loss is crucial for comprehensive treatment of patients who undergo bariatric surgery. Specific Aim 1: To determine the efficacy of zoledronic acid in preventing bone loss associated with sleeve gastrectomy (SG). Bone mineral density (BMD) and bone turnover markers will be measured at baseline and 9 months. The primary outcome is change in BMD as measured by Dual-energy x-ray absorptiometry (DXA). Secondary outcomes are change in BMD as measured by Quantitative Computed Tomography (QCT) and change in the serum bone turnover markers, urinary collagen type 1 cross-linked N-telopeptide (CTX; bone formation marker), serum type 1 procollagen N-terminal (P1NP; bone resorption marker), sclerostin, and osteocalcin. Specific Aim 2: To evaluate the feasibility of this trial in those who have undergone SG surgery. The feasibility will be assessed by documenting adverse events and compliance rates of the intervention at each study time point."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Bariatric Surgery Candidate",
+        "Bone Loss",
+        "Bone Resorption"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "In this randomized controlled trial each subject will be randomized (1:1, block randomization with a block size of 10) to one treatment group (Active or Inactive treatment) and will be considered part of the intent-to-treat (ITT) cohort. The research pharmacist will be responsible for completing the randomization process, and will hold the group assignment data. All other study personnel will be blinded to group assignment.",
+        "primaryPurpose": "PREVENTION",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "maskingDescription": "The research pharmacist will deliver the drug pr placebo to the treatment nurse in an unlabeled 100 ml saline bag for infusion.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 10,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Active Infusion",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "At 6 weeks post surgery, 5 mg of zoledronic acid in 100 ml of saline will be infused intravenously over a 15 minute time period.",
+          "interventionNames": [
+            "Drug: Zoledronic Acid 5 mg/Bag 100 ml Inj"
+          ]
+        },
+        {
+          "label": "Non-active Infusion",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "At 6 weeks post surgery, 100 ml of saline will be infused intravenously over a 15 minute time period.",
+          "interventionNames": [
+            "Drug: Placebos"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Zoledronic Acid 5 mg/Bag 100 ml Inj",
+          "description": "Zoledronic acid infusion",
+          "armGroupLabels": [
+            "Active Infusion"
+          ],
+          "otherNames": [
+            "Reclast"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebos",
+          "description": "Saline infusion",
+          "armGroupLabels": [
+            "Non-active Infusion"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Change in Hip Bone Mineral Density (BMD)",
+          "description": "Change in hip bone mineral density (BMD) measured by dual-energy x-ray absorptiometry (DXA) - g/cm2",
+          "timeFrame": "baseline and 10 months post-surgery"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Change in Lumbar Spine Bone Mineral Density (BMD)",
+          "description": "Change in lumbar spine bone mineral density (BMD) measured by dual-energy x-ray absorptiometry (DXA)/cm2 of L1-L4 lumbar vertebrae",
+          "timeFrame": "baseline and 10 months post-surgery"
+        },
+        {
+          "measure": "Change in Trunk Lean Mass",
+          "description": "Change in trunk lean mass, measured in kg",
+          "timeFrame": "baseline and 9 months post-surgery"
+        },
+        {
+          "measure": "Change in Trunk Fat Mass",
+          "description": "Change in Trunk fat mass, measured in kg",
+          "timeFrame": "baseline and 9 months post-surgery"
+        },
+        {
+          "measure": "Change in Weight",
+          "description": "Change in weight, measured in kgs",
+          "timeFrame": "baseline and 9 months post-surgery"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Proportion of Participants Completing 9 Month Study Visit Requirements",
+          "description": "Feasibility assessment: proportion of participants completing 9 Month study visit requirements",
+          "timeFrame": "9 Months"
+        },
+        {
+          "measure": "Tolerance: Total Number of Adverse Events Reported by Participants in the Active and In-active Arms",
+          "description": "Comparison of the total number of adverse events reported by participants in the active and in-active arms",
+          "timeFrame": "9 Months"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects planning a sleeve gastrectomy procedure at the University of Nebraska Medical Center (UNMC) Bariatric Center\n* Agreement to all study procedures and assessments\n* Women must be postmenopausal (FSH blood level \\> 30 mIU/m), or incapable of child-bearing\n\nExclusion Criteria:\n\n* Prior bariatric surgery\n* \\< 19 years of age\n* Weight ≥ 350lbs\n* Liver or renal disease\n* Hypercalcemia, hypocalcemia, or hypomagnesemia\n* Serum 25-OH vitamin D \\< 20 ng/mL\n* History of bone-modifying disorders\n* Use of bone-active medications\n* Known sensitivity to bisphosphonates\n* Extensive dental work involving extraction or dental implant within the past 2 months or planned in the upcoming 6 months\n* Current diagnosis of type 1 diabetes\n* Current malignancy\n* Autoimmune disease impacting bone (ex: Rheumatoid Arthritis)",
+      "healthyVolunteers": true,
+      "sex": "ALL",
+      "minimumAge": "19 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

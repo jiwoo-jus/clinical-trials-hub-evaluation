@@ -1,0 +1,652 @@
+{
+  "metadata": {
+    "case_id": 97,
+    "model": "Gemini-3-Pro",
+    "timestamp": "2025-11-29T19:47:51.199730",
+    "total_alignments": 5,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/97_NCT04088409.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/Gemini-3-Pro/97_Gemini-3-Pro.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.identificationModule.secondaryIdInfos",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.55
+        ],
+        [
+          1.0
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": null,
+          "score": null,
+          "status": "padded",
+          "ref_item": {
+            "id": "I4V-MC-JAHW",
+            "type": "OTHER",
+            "domain": "Eli Lilly and Company"
+          },
+          "pred_item": null
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 0,
+          "score": 1.0,
+          "status": "matched",
+          "ref_item": {
+            "id": "2019-000119-10",
+            "type": "EUDRACT_NUMBER"
+          },
+          "pred_item": {
+            "id": "2019-000119-10",
+            "type": "EUDRACT_NUMBER",
+            "link": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=2019-000119-10"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.68
+        ],
+        [
+          0.3,
+          0.93
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Baricitinib",
+            "type": "EXPERIMENTAL",
+            "description": "Participants ≥9 to \\<18 years of age were administered 4 milligrams (mg) baricitinib once daily (QD). Participants \\<9 years of age were administered 2 mg baricitinib QD.\n\nParticipants \\<6 years of age received an oral suspension. Participants ≥6 to \\<12 years of age had the option of receiving an oral suspension. Participants \\>12 years of age were supplied tablets.",
+            "interventionNames": [
+              "Drug: Baricitinib"
+            ]
+          },
+          "pred_item": {
+            "label": "Baricitinib",
+            "type": "EXPERIMENTAL",
+            "description": "Patients aged 2 to <18 years treated with once daily oral baricitinib. The arm includes patients randomized (1:1) from the MTX-IR population and patients from the bDMARD-IR population.",
+            "interventionNames": [
+              "Baricitinib"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "label": "Adalimumab",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Participants received adalimumab administered subcutaneously (SC) once every 2 weeks. The dose was based on body weight: 20 mg every 2 weeks for participants weighing \\<30 kilograms (kg), or 40 mg every 2 weeks for participants weighing ≥30 kg.",
+            "interventionNames": [
+              "Drug: Adalimumab"
+            ]
+          },
+          "pred_item": {
+            "label": "Adalimumab",
+            "type": "ACTIVE_COMPARATOR",
+            "description": "Patients aged 2 to <18 years treated with adalimumab as a subcutaneous injection every 2 weeks. This arm serves as the active-control reference arm for randomized MTX-IR patients.",
+            "interventionNames": [
+              "Adalimumab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.96,
+          0.2
+        ],
+        [
+          0.2,
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Baricitinib",
+            "description": "Administered orally",
+            "armGroupLabels": [
+              "Baricitinib"
+            ],
+            "otherNames": [
+              "LY3009104"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Baricitinib",
+            "description": "Administered orally once daily (QD) as tablets or oral suspension. Dosing is fixed by age group: 4 mg for patients aged ≥6 to <18 years and 2 mg for patients <6 years.",
+            "armGroupLabels": [
+              "Baricitinib"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "Adalimumab",
+            "description": "Administered SC",
+            "armGroupLabels": [
+              "Adalimumab"
+            ]
+          },
+          "pred_item": {
+            "type": "BIOLOGICAL",
+            "name": "Adalimumab",
+            "description": "Administered as a subcutaneous injection every 2 weeks. Dosing is fixed by weight: 20 mg for patients weighing <30 kg and 40 mg for patients weighing ≥30 kg.",
+            "armGroupLabels": [
+              "Adalimumab"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.98
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Part A: Percentage of Responders for Baricitinib at Week 24",
+            "description": "Response was defined according to the Standardization of Uveitis Nomenclature (SUN) criteria as a 2-step decrease in the level of inflammation (anterior chamber cells) or decrease to zero through week 24, in the eye most severely affected at baseline.",
+            "timeFrame": "Week 24"
+          },
+          "pred_item": {
+            "measure": "Proportion of patients with response",
+            "description": "Response is defined according to the Standardization of Uveitis Nomenclature (SUN) criteria as a 2-step decrease in the level of inflammation (anterior chamber cells) or decrease to zero in the eye most severely affected at baseline.",
+            "timeFrame": "Week 24"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.secondaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 11,
+      "pred_count": 21,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.82,
+          0.78,
+          0.18,
+          0.3,
+          0.65,
+          0.78,
+          0.62,
+          0.2,
+          0.25,
+          0.78,
+          0.68,
+          0.7,
+          0.55,
+          0.05,
+          0.7,
+          0.3,
+          0.3,
+          0.08,
+          0.06,
+          0.1
+        ],
+        [
+          0.82,
+          0.96,
+          0.7,
+          0.18,
+          0.3,
+          0.68,
+          0.72,
+          0.7,
+          0.18,
+          0.38,
+          0.7,
+          0.48,
+          0.7,
+          0.42,
+          0.08,
+          0.68,
+          0.2,
+          0.18,
+          0.08,
+          0.09,
+          0.07
+        ],
+        [
+          0.78,
+          0.7,
+          0.94,
+          0.18,
+          0.3,
+          0.65,
+          0.7,
+          0.68,
+          0.42,
+          0.42,
+          0.52,
+          0.72,
+          0.76,
+          0.32,
+          0.22,
+          0.68,
+          0.82,
+          0.62,
+          0.05,
+          0.08,
+          0.05
+        ],
+        [
+          0.32,
+          0.4,
+          0.35,
+          0.92,
+          0.55,
+          0.25,
+          0.3,
+          0.4,
+          0.2,
+          0.3,
+          0.4,
+          0.4,
+          0.2,
+          0.15,
+          0.08,
+          0.3,
+          0.25,
+          0.3,
+          0.08,
+          0.08,
+          0.05
+        ],
+        [
+          0.55,
+          0.45,
+          0.35,
+          0.3,
+          0.92,
+          0.6,
+          0.64,
+          0.52,
+          0.2,
+          0.25,
+          0.7,
+          0.7,
+          0.25,
+          0.18,
+          0.1,
+          0.35,
+          0.3,
+          0.25,
+          0.05,
+          0.07,
+          0.08
+        ],
+        [
+          0.86,
+          0.78,
+          0.65,
+          0.2,
+          0.6,
+          0.9,
+          0.63,
+          0.62,
+          0.3,
+          0.12,
+          0.72,
+          0.7,
+          0.68,
+          0.28,
+          0.12,
+          0.4,
+          0.52,
+          0.4,
+          0.05,
+          0.05,
+          0.08
+        ],
+        [
+          0.78,
+          0.65,
+          0.86,
+          0.2,
+          0.25,
+          0.38,
+          0.77,
+          0.6,
+          0.22,
+          0.3,
+          0.82,
+          0.6,
+          0.96,
+          0.82,
+          0.18,
+          0.55,
+          0.6,
+          0.4,
+          0.05,
+          0.08,
+          0.08
+        ],
+        [
+          0.42,
+          0.6,
+          0.6,
+          0.2,
+          0.2,
+          0.62,
+          0.64,
+          0.55,
+          0.4,
+          0.3,
+          0.62,
+          0.72,
+          0.78,
+          0.9,
+          0.2,
+          0.78,
+          0.3,
+          0.35,
+          0.08,
+          0.07,
+          0.08
+        ],
+        [
+          0.35,
+          0.25,
+          0.35,
+          0.1,
+          0.2,
+          0.18,
+          0.4,
+          0.3,
+          0.3,
+          0.25,
+          0.5,
+          0.4,
+          0.4,
+          0.2,
+          0.93,
+          0.3,
+          0.35,
+          0.3,
+          0.08,
+          0.1,
+          0.08
+        ],
+        [
+          0.15,
+          0.22,
+          0.4,
+          0.2,
+          0.15,
+          0.25,
+          0.4,
+          0.4,
+          0.7,
+          0.62,
+          0.35,
+          0.4,
+          0.4,
+          0.2,
+          0.2,
+          0.42,
+          0.5,
+          0.83,
+          0.08,
+          0.12,
+          0.15
+        ],
+        [
+          0.3,
+          0.25,
+          0.45,
+          0.2,
+          0.2,
+          0.3,
+          0.9,
+          0.9,
+          0.7,
+          0.78,
+          0.88,
+          0.82,
+          0.18,
+          0.3,
+          0.09,
+          0.32,
+          0.15,
+          0.32,
+          0.1,
+          0.08,
+          0.1
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in SUN Grade of Cells in the Anterior Chamber in the Most Severely Affected Eye",
+            "description": "Change from Baseline in SUN Grade of Cells in the Anterior Chamber in the Most Severely Affected Eye. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline, Week 24"
+          },
+          "pred_item": {
+            "measure": "Change in SUN grade of cells in the anterior chamber in the most severely affected eye",
+            "description": "Assessment of inflammation level in the anterior chamber of the most severely affected eye.",
+            "timeFrame": "Through Week 24 (Part A) and through Week 284 (Part B)"
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in SUN Grade of Cells in the Anterior Chamber in the Less Severely Affected Eye (If Applicable)",
+            "description": "Change from Baseline in SUN Grade of Cells in the Anterior Chamber in the Less Severely Affected Eye (If Applicable). Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline, Week 24"
+          },
+          "pred_item": {
+            "measure": "Change in SUN grade of cells in the anterior chamber in the less severely affected eye",
+            "description": "Assessment of inflammation level in the anterior chamber of the less severely affected eye (if applicable).",
+            "timeFrame": "Through Week 24 and Week 284"
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Responders in Participants With Bilateral Uveitis Disease at Baseline",
+            "description": "Response is defined according to the SUN criteria as a 2-step decrease in the level of anterior chamber cells in the most severely affected eye at baseline (or both eyes if the inflammation grade is the same in both eyes) and a 1-step decrease in the level of anterior chamber cells in the less severely affected eye at baseline. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Week 24"
+          },
+          "pred_item": {
+            "measure": "Proportion of responders in patients with bilateral uveitis disease at baseline",
+            "description": "Defined according to the SUN criteria as a 2-step decrease in the level of anterior chamber cells in the most severely affected eye at baseline (or both eyes if the inflammation grade is the same in both eyes) and a 1-step decrease in the level of anterior chamber cells in the less severely affected eye at baseline.",
+            "timeFrame": "Week 24 and Week 284"
+          }
+        },
+        {
+          "ref_idx": 3,
+          "pred_idx": 3,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Visual Acuity Measured by Age-Appropriate Logarithm of the Minimum Angle of Resolution (LogMAR) Test",
+            "description": "Change from Baseline in Visual Acuity Measured by Age-Appropriate LogMAR Test. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline, Week 24"
+          },
+          "pred_item": {
+            "measure": "Change in visual acuity",
+            "description": "Measured by age-appropriate logarithm of the minimum angle of resolution (LogMAR) test.",
+            "timeFrame": "Through Week 24"
+          }
+        },
+        {
+          "ref_idx": 4,
+          "pred_idx": 4,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Vitreous Haze",
+            "description": "Change from Baseline in Vitreous Haze. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline, Week 24"
+          },
+          "pred_item": {
+            "measure": "Change in vitreous haze",
+            "description": "Measured in each affected eye.",
+            "timeFrame": "Through Week 24"
+          }
+        },
+        {
+          "ref_idx": 5,
+          "pred_idx": 5,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Grade of Flare in the Anterior Chamber",
+            "description": "Change from Baseline in Grade of Flare in the Anterior Chamber. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline, Week 24"
+          },
+          "pred_item": {
+            "measure": "Change in grade of flare in the anterior chamber",
+            "description": "Measured in each affected eye.",
+            "timeFrame": "Through Week 24 and Week 284"
+          }
+        },
+        {
+          "ref_idx": 6,
+          "pred_idx": 12,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants With Inactive Anterior Uveitis (Using SUN Definition)",
+            "description": "Percentage of Participants with Inactive Anterior Uveitis (using SUN Definition). Outcome data will be provided after the study is completed.",
+            "timeFrame": "Week 24"
+          },
+          "pred_item": {
+            "measure": "Proportion of patients with inactive anterior uveitis",
+            "description": "Defined using SUN definition in each affected eye.",
+            "timeFrame": "Through Week 24 and Week 284"
+          }
+        },
+        {
+          "ref_idx": 7,
+          "pred_idx": 13,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Time to Inactive Anterior Uveitis Disease (Using SUN Definition)",
+            "description": "Time to Inactive Anterior Uveitis Disease (Using SUN Definition). Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline through Week 24"
+          },
+          "pred_item": {
+            "measure": "Time to inactive anterior uveitis disease",
+            "description": "Defined using SUN definition in each affected eye.",
+            "timeFrame": "Through Week 284"
+          }
+        },
+        {
+          "ref_idx": 8,
+          "pred_idx": 14,
+          "score": 0.93,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Percentage of Participants Who Are Able to Taper Concomitant Topical Corticosteroids to <2 Drops Per Day",
+            "description": "Percentage of Participants who are Able to Taper Concomitant Topical Corticosteroids to \\<2 Drops Per Day. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Week 24"
+          },
+          "pred_item": {
+            "measure": "Proportion of patients who are able to taper concomitant corticosteroids",
+            "description": "Assessment of corticosteroid reduction.",
+            "timeFrame": "Through Week 284"
+          }
+        },
+        {
+          "ref_idx": 9,
+          "pred_idx": 17,
+          "score": 0.83,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Pediatric American College of Rheumatology (PediACR30) Response Rate (For Participants With JIA-U)",
+            "description": "PediACR30 Response Rate (For Participants with JIA-U). Outcome data will be provided after the study is completed.",
+            "timeFrame": "Week 24"
+          },
+          "pred_item": {
+            "measure": "Pediatric American College of Rheumatology (PediACR) response rates",
+            "description": "PediACR 30/50/70/90/100 response rates for patients with JIA-uveitis.",
+            "timeFrame": "Through Week 284"
+          }
+        },
+        {
+          "ref_idx": 10,
+          "pred_idx": 6,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change From Baseline in Overall Uveitis-Related Disability",
+            "description": "Change from Baseline in Overall Uveitis-Related Disability. Outcome data will be provided after the study is completed.",
+            "timeFrame": "Baseline, Week 24"
+          },
+          "pred_item": {
+            "measure": "Change in Patient Uveitis-related Disease Activity",
+            "description": "Measure of overall uveitis-related disability.",
+            "timeFrame": "Through Week 24"
+          }
+        }
+      ]
+    }
+  ]
+}

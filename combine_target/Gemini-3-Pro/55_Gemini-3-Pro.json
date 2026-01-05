@@ -1,0 +1,131 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT03426995",
+      "organization": {
+        "fullName": "GlaxoSmithKline",
+        "class": "INDUSTRY"
+      },
+      "officialTitle": "A randomized study of the safety and pharmacokinetics of GSK3358699, a mononuclear myeloid-targeted bromodomain and extra-terminal domain inhibitor"
+    },
+    "descriptionModule": {
+      "briefSummary": "This first-in-human, randomized, Phase 1 study evaluated the safety, pharmacokinetics, and pharmacodynamics of GSK3358699 in healthy male participants. GSK3358699 is a mononuclear myeloid-targeted bromodomain and extra-terminal domain (BET) family inhibitor designed to minimize toxicities associated with pan-BET inhibitors. The study assessed single ascending doses and repeat doses to determine tolerability and the drug's ability to target specific immune cells.",
+      "detailedDescription": "The study was conducted as a Phase 1, randomized, double-blind trial divided into parts to assess GSK3358699 in healthy males. Part A utilized a single ascending-dose crossover design involving three dose-escalating periods with doses ranging from 1 to 40 mg. Part C was a repeat-dose design where participants received 10 mg of GSK3358699 or placebo daily for up to 14 days. A planned Part B to evaluate food effects was not conducted.\n\nThe primary objective was to assess safety and tolerability, including adverse events, laboratory safety data, vital signs, cardiac telemetry, and ECGs. Secondary objectives included evaluating the systemic pharmacokinetic profile of GSK3358699 and its metabolite GSK3206944, the intracellular pharmacokinetic profile in monocytes, and pharmacodynamics as measured by the inhibition of cytokine production (MCP-1, IL-6, TNF) in blood following ex vivo lipopolysaccharide (LPS) stimulation. The study utilized an esterase-sensitive motif (ESM) approach intended to deliver the active metabolite preferentially to mononuclear-myeloid cells expressing human carboxyesterase-1 (CES-1). The study was terminated early due to cardiac-related adverse events observed during the repeat-dosing phase."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Healthy Volunteers"
+      ],
+      "keywords": [
+        "GSK3358699",
+        "BET inhibitor",
+        "Pharmacokinetics",
+        "Pharmacodynamics",
+        "Safety",
+        "Mononuclear myeloid-targeted",
+        "Bromodomain and extra-terminal domain inhibitor"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "SEQUENTIAL",
+        "interventionModelDescription": "Part A was a single ascending-dose crossover design in two interlocking cohorts. Part C was planned as a repeat-dose design in sequential cohorts.",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "DOUBLE",
+          "maskingDescription": "Double-blind (sponsor open). Participants and study site staff were blinded to the allocation of GSK3358699 or matching placebo.",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 48,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "GSK3358699",
+          "type": "EXPERIMENTAL",
+          "description": "In Part A, participants received single ascending oral doses of GSK3358699 ranging from 1 to 40 mg (specific doses: 1, 3, 10, 20, 30, 40 mg) and a 25 mg dose during an optional period. In Part C, participants received repeat doses of 10 mg GSK3358699 daily for up to 14 days.",
+          "interventionNames": [
+            "GSK3358699"
+          ]
+        },
+        {
+          "label": "Placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Participants received matching placebo administered as single doses in the crossover periods of Part A and as daily doses for up to 14 days in Part C.",
+          "interventionNames": [
+            "Placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "GSK3358699",
+          "description": "A mononuclear myeloid-targeted bromodomain and extra-terminal domain (BET) family inhibitor administered orally.",
+          "armGroupLabels": [
+            "GSK3358699"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "Placebo",
+          "description": "Matching placebo to GSK3358699 administered orally.",
+          "armGroupLabels": [
+            "Placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Safety and tolerability",
+          "description": "Evaluation of adverse events (AEs), laboratory safety data (clinical chemistry, haematology, urinalysis), vital signs, cardiac telemetry, and 12‐lead ECGs.",
+          "timeFrame": "Part A: Single ascending doses; Part C: Daily dosing for 14 days. Telemetry from 1 hour pre-dose until 24 hours post-dose."
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Systemic pharmacokinetic profile of GSK3358699 and metabolite GSK3206944",
+          "description": "Plasma pharmacokinetic parameters including AUC(0‐t), AUC(0‐∞), AUC(0‐24), AUC(0‐tau), Cmax, Tmax, t1/2terminal, t1/2initial, accumulation ratio (R0) and steady state ratio (RS).",
+          "timeFrame": "Part A: Day 1 (pre-dose to 48h); Part C: Days 1 and 14 (pre-dose to 48h), pre-dose on Days 4, 8, 12."
+        },
+        {
+          "measure": "Intracellular pharmacokinetic profile of GSK3206944 in monocytes",
+          "description": "Intracellular concentrations and pharmacokinetic parameters of GSK3206944 in monocytes isolated from blood samples.",
+          "timeFrame": "Part A: Day 1 (1, 4, 8, 24, 48h post-dose); Part C: Days 1 and 14 (1, 4, 8, 24, 48h post-dose), pre-dose on Days 4, 8, 12."
+        },
+        {
+          "measure": "Pharmacodynamic profile",
+          "description": "Extent of target engagement measured by inhibition of cytokine production (monocyte chemoattractant protein [MCP]‐1, interleukin [IL]‐6, and tumour necrosis factor [TNF]‐α) in blood after ex vivo LPS treatment.",
+          "timeFrame": "Part A: Day 1 (pre-dose to 48h); Part C: Days 1 and 14 (pre-dose to 48h), pre-dose on Days 2, 4, 8, 12."
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n*   Healthy males aged 18‐56 years.\n*   Body weight >= 50 kg.\n*   Body mass index (BMI) within the range of 18.5‐35.0 kg/m2.\n\nExclusion Criteria:\n*   Chronic history of pancreatitis, diabetes mellitus/glucose intolerance, cardiac disease, gastrointestinal disease, liver disease, clinically significant renal disease, or clinically significant respiratory disease.\n*   Electrocardiogram (ECG) QT interval corrected for heart rate using Fridericia's formula (QTcF) of >450 milliseconds (ms) based on triplicate ECGs.\n*   Family history of premature cardiovascular disease.\n*   Nonsustained ventricular tachycardia (NSVT) and any clinically relevant abnormality on the screening ECG (added after temporary halt during cohort 4).",
+      "healthyVolunteers": true,
+      "sex": "MALE",
+      "minimumAge": "18 Years",
+      "maximumAge": "56 Years",
+      "stdAges": [
+        "ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

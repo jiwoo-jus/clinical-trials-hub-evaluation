@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "case_id": 77,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-29T18:36:10.438448",
+    "total_alignments": 4,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/77_NCT03697161.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/77_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 3,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.92,
+          0.35,
+          0.7
+        ],
+        [
+          0.7,
+          0.78,
+          0.7
+        ],
+        [
+          0.6,
+          0.84,
+          0.94
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.92,
+          "status": "matched",
+          "ref_item": {
+            "label": "OV101 (gaboxadol) Regimen 1",
+            "type": "EXPERIMENTAL",
+            "description": "Once Daily",
+            "interventionNames": [
+              "Drug: OV101 (gaboxadol)"
+            ]
+          },
+          "pred_item": {
+            "label": "OV101 5 mg Once Daily (QD)",
+            "type": "EXPERIMENTAL",
+            "description": "Adolescent and adult males with fragile X syndrome received gaboxadol (OV101) 5 mg once daily in the morning plus matching placebo capsules in the afternoon and evening for 12 weeks.",
+            "interventionNames": [
+              "Gaboxadol (OV101)",
+              "Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.78,
+          "status": "matched",
+          "ref_item": {
+            "label": "OV101 (gaboxadol) Regimen 2",
+            "type": "EXPERIMENTAL",
+            "description": "Twice Daily",
+            "interventionNames": [
+              "Drug: OV101 (gaboxadol)"
+            ]
+          },
+          "pred_item": {
+            "label": "OV101 5 mg Twice Daily (BID)",
+            "type": "EXPERIMENTAL",
+            "description": "Adolescent and adult males with fragile X syndrome received gaboxadol (OV101) 5 mg twice daily (morning and either afternoon or evening per protocol) plus matching placebo capsule for the remaining daily time point so that medication was taken three times per day for 12 weeks.",
+            "interventionNames": [
+              "Gaboxadol (OV101)",
+              "Placebo"
+            ]
+          }
+        },
+        {
+          "ref_idx": 2,
+          "pred_idx": 2,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "label": "OV101 (gaboxadol) Regimen 3",
+            "type": "EXPERIMENTAL",
+            "description": "Three Times Daily",
+            "interventionNames": [
+              "Drug: OV101 (gaboxadol)"
+            ]
+          },
+          "pred_item": {
+            "label": "OV101 5 mg Three Times Daily (TID)",
+            "type": "EXPERIMENTAL",
+            "description": "Adolescent and adult males with fragile X syndrome received gaboxadol (OV101) 5 mg three times daily (morning, afternoon, and evening) for 12 weeks.",
+            "interventionNames": [
+              "Gaboxadol (OV101)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.98,
+          0.3
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.98,
+          "status": "matched",
+          "ref_item": {
+            "type": "DRUG",
+            "name": "OV101 (gaboxadol)",
+            "description": "OV101 (gaboxadol)",
+            "armGroupLabels": [
+              "OV101 (gaboxadol) Regimen 1",
+              "OV101 (gaboxadol) Regimen 2",
+              "OV101 (gaboxadol) Regimen 3"
+            ]
+          },
+          "pred_item": {
+            "type": "DRUG",
+            "name": "Gaboxadol (OV101)",
+            "description": "Gaboxadol (OV101) is a δ-subunit–selective, extrasynaptic GABAA receptor agonist. In this study it was administered orally at a dose of 5 mg per administration for 12 weeks in three dosing regimens: once daily (morning only), twice daily (morning and one additional daily dose), or three times daily (morning, afternoon, and evening). All participants took study medication three times per day, with afternoon and/or evening doses being either OV101 or matching placebo depending on assigned regimen.",
+            "armGroupLabels": [
+              "OV101 5 mg Once Daily (QD)",
+              "OV101 5 mg Twice Daily (BID)",
+              "OV101 5 mg Three Times Daily (TID)"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Number of Participants With Treatment Emergent Adverse Events (TEAE)",
+            "description": "Number of Participants with Treatment Emergent Adverse Events",
+            "timeFrame": "Week 12"
+          },
+          "pred_item": {
+            "measure": "Safety and tolerability of OV101",
+            "description": "Assessment of safety and tolerability of OV101 during the 12-week treatment period, including treatment-emergent adverse events (TEAEs), treatment-related adverse events, TEAEs leading to study discontinuation, and serious adverse events (SAEs).",
+            "timeFrame": "Baseline through Week 12 (end of treatment), with follow-up at Weeks 16–18 (end of study)"
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.otherOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 4,
+      "similarity_matrix": [
+        [
+          0.7,
+          0.88,
+          0.42,
+          0.42
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 1,
+          "score": 0.88,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Clinical Global Impressions- Improvement (CGI-I)",
+            "timeFrame": "Week 12"
+          },
+          "pred_item": {
+            "measure": "Parent Global Impressions–Improvement (PGI-I) score",
+            "description": "Caregiver-rated global impression of improvement, with improvement defined as a PGI-I score ≤3 (modest improvement or better).",
+            "timeFrame": "Baseline to Week 12"
+          }
+        }
+      ]
+    }
+  ]
+}

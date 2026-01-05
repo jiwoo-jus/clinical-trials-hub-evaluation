@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "case_id": 11,
+    "model": "GPT-5.1",
+    "timestamp": "2025-11-28T05:36:05.399793",
+    "total_alignments": 3,
+    "target_section": "protocolSection",
+    "ground_truth_path": "/{YOURPATH}/samples/CTG/protocolSection/1_100/11_NCT03679247.json",
+    "prediction_path": "/{YOURPATH}/restructured_outputs_protocol/GPT-5.1/11_GPT-5.1.json",
+    "shard_range": "1_100"
+  },
+  "alignments": [
+    {
+      "field_path": "protocolSection.armsInterventionsModule.armGroups",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 2,
+      "similarity_matrix": [
+        [
+          0.9,
+          0.25
+        ],
+        [
+          0.1,
+          0.86
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.9,
+          "status": "matched",
+          "ref_item": {
+            "label": "Intervention",
+            "type": "EXPERIMENTAL",
+            "description": "Providers overseeing patients in the intervention arm will receive guidance within electronic health record from clinical decision support system.",
+            "interventionNames": [
+              "Other: Intervention"
+            ]
+          },
+          "pred_item": {
+            "label": "Intervention Arm",
+            "type": "EXPERIMENTAL",
+            "description": "Primary care clinicians randomized to the intervention receive a multicomponent, clinician-level clinical decision support (CDS) package within the Epic electronic health record for patients with chronic kidney disease and uncontrolled hypertension. The intervention includes Epic Best Practice Advisories (BPAs) that fire at chart opening when computable phenotype rules are met, provide patient-specific data explaining why the alert fired, offer evidence-based medication and monitoring recommendations (e.g., start or titrate ACE inhibitor or ARB, add diuretic, order basic metabolic panel, urine albumin), require or invite accountable justification if recommendations are not followed, and include hyperlinks to supporting clinical guidelines. Clinicians also receive a precommitment email asking them to pledge to follow blood pressure management recommendations. The CDS typically fires at the initial enrollment visit, with optional deferral to the next visit, and is suppressed when blood pressure is controlled or recommended therapies are already in place.",
+            "interventionNames": [
+              "Behavioral Economics–Informed Clinical Decision Support for CKD and Uncontrolled Hypertension",
+              "Epic Best Practice Advisories for CKD and Uncontrolled Hypertension",
+              "Clinician Precommitment Pledge Email"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 1,
+          "score": 0.86,
+          "status": "matched",
+          "ref_item": {
+            "label": "Control",
+            "type": "EXPERIMENTAL",
+            "description": "Providers overseeing patients in the control arm will continue to provide usual care.",
+            "interventionNames": [
+              "Other: Control"
+            ]
+          },
+          "pred_item": {
+            "label": "Control Arm (Usual Care with Silent CDS)",
+            "type": "NO_INTERVENTION",
+            "description": "Primary care clinicians randomized to the control arm provide usual care for patients with chronic kidney disease and uncontrolled hypertension. The same computable phenotype rules are applied in the background to identify eligible patients in real time, but the Epic Best Practice Advisories (CDS alerts) run in 'silent mode' and are not displayed to clinicians. Clinicians do not receive the behavioral economics–informed decision support interface or the precommitment pledge email and manage hypertension and CKD according to their usual practice without visible CDS prompts.",
+            "interventionNames": []
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.armsInterventionsModule.interventions",
+      "algorithm": "hungarian",
+      "ref_count": 2,
+      "pred_count": 3,
+      "similarity_matrix": [
+        [
+          0.94,
+          0.9,
+          0.78
+        ],
+        [
+          0.2,
+          0.3,
+          0.4
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.94,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Intervention",
+            "description": "The intervention will be a clinical decision support (CDS) system that contains three main features: 1) methods to synthesize electronic health record (EHR) data in order to identify under-diagnosed chronic conditions (synthesize existing medical data to increase recognition of CKD and uncontrolled HTN in CKD patients and deliver management recommendations based on this evidence), 2) improve the design and content of the CDS using human factors methods, specifically usability testing, and 3) the use of two behavioral \"nudges\" (pre-checked default orders and an email to obtain commitment from PCPs to obtain their commitment to follow the CDS recommendations).",
+            "armGroupLabels": [
+              "Intervention"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Behavioral Economics–Informed Clinical Decision Support for CKD and Uncontrolled Hypertension",
+            "description": "A multicomponent clinical decision support intervention implemented in the Epic electronic health record for management of uncontrolled hypertension in chronic kidney disease. It is based on behavioral economics (defaults, accountability, precommitment) and user-centred design. Using computable phenotypes, it identifies five patient types: (1) CKD with uncontrolled systolic blood pressure who are candidates to start an ACE inhibitor; (2) CKD with uncontrolled systolic blood pressure who are candidates to start an ARB; (3) CKD patients on an ACE inhibitor at a suboptimal dose; (4) CKD patients on an ARB at a suboptimal dose; and (5) CKD patients maximized on ACEi/ARB but not on a diuretic. For eligible encounters, a Best Practice Advisory appears at chart opening, displaying patient-specific data (labs, vitals, medications), explaining why the alert fired, suggesting evidence-based actions (e.g., start or uptitrate ACEi/ARB, add diuretic, order labs), and offering options to accept recommendations, defer to next visit, or document accountable justification when not following them. Hyperlinks to relevant hypertension and CKD guidelines are provided.",
+            "armGroupLabels": [
+              "Intervention Arm"
+            ]
+          }
+        },
+        {
+          "ref_idx": 1,
+          "pred_idx": 2,
+          "score": 0.4,
+          "status": "matched",
+          "ref_item": {
+            "type": "OTHER",
+            "name": "Control",
+            "description": "Usual Care, PCP will receive an email with general information about CKD guidelines",
+            "armGroupLabels": [
+              "Control"
+            ]
+          },
+          "pred_item": {
+            "type": "BEHAVIORAL",
+            "name": "Clinician Precommitment Pledge Email",
+            "description": "An email sent to participating primary care clinicians in the intervention arm asking them to publicly or explicitly pledge to follow recommended blood pressure management guidelines for patients with chronic kidney disease and uncontrolled hypertension. The pledge is designed using behavioral economics principles of precommitment and accountability to increase adherence to CDS recommendations and to encourage clinicians to either follow the suggested actions or provide accountable justification when they choose alternative management.",
+            "armGroupLabels": [
+              "Intervention Arm"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "field_path": "protocolSection.outcomesModule.primaryOutcomes",
+      "algorithm": "hungarian",
+      "ref_count": 1,
+      "pred_count": 1,
+      "similarity_matrix": [
+        [
+          0.96
+        ]
+      ],
+      "matched_pairs": [
+        {
+          "ref_idx": 0,
+          "pred_idx": 0,
+          "score": 0.96,
+          "status": "matched",
+          "ref_item": {
+            "measure": "Change in Systolic Blood Pressure (SBP) From Baseline to 180 Days",
+            "description": "Difference in SBP from baseline to 180 days",
+            "timeFrame": "180 days"
+          },
+          "pred_item": {
+            "measure": "Change in mean systolic blood pressure",
+            "description": "Change in mean systolic blood pressure between baseline and follow-up, compared across intervention and control arms.",
+            "timeFrame": "Baseline to 6 months (primary analysis at 180 days ±60 days)"
+          }
+        }
+      ]
+    }
+  ]
+}

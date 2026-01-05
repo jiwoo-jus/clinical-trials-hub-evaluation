@@ -1,0 +1,124 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT01781637",
+      "orgStudyIdInfo": {
+        "id": "Peanut 002"
+      },
+      "organization": {
+        "fullName": "Boston Children's Hospital",
+        "class": "OTHER"
+      },
+      "briefTitle": "Peanut Reactivity Reduced by Oral Tolerance in an Anti-IgE Clinical Trial",
+      "officialTitle": "Phase 2 Study of Omalizumab in Oral Peanut Desensitization",
+      "acronym": "PRROTECT"
+    },
+    "descriptionModule": {
+      "briefSummary": "The investigators will perform a double blind, placebo controlled clinical trial with Xolair (omalizumab) at four centers to safely and rapidly desensitize patients with severe peanut allergy. The investigators will determine if pretreatment with anti-IgE mAb (Xolair/omalizumab) can greatly reduce allergic reactions and allow for faster and safer desensitization.",
+      "detailedDescription": "36 subjects will receive Xolair, and 8 subjects will receive placebo. The study will occur at 4 sites: Boston Children's Hospital, Children's Hospital of Philadelphia, Stanford University and Lurie Children's Hospital.\n\nPatients will be pre-treated with Xolair or placebo before rapid oral peanut desensitization. Patients will continue to receive Xolair during the 8 subsequent weeks of desensitization, receiving their final dose of Xolair one week after reaching the highest tolerated dose of peanut."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Peanut Allergy",
+        "Food Allergy"
+      ],
+      "keywords": [
+        "Xolair",
+        "omalizumab",
+        "peanut",
+        "oral desensitization"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE1",
+        "PHASE2"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "QUADRUPLE",
+          "whoMasked": [
+            "PARTICIPANT",
+            "CARE_PROVIDER",
+            "INVESTIGATOR",
+            "OUTCOMES_ASSESSOR"
+          ]
+        }
+      },
+      "enrollmentInfo": {
+        "count": 36,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "omalizumab group",
+          "type": "EXPERIMENTAL",
+          "description": "Patients will receive omalizumab.",
+          "interventionNames": [
+            "Drug: Omalizumab"
+          ]
+        },
+        {
+          "label": "placebo",
+          "type": "PLACEBO_COMPARATOR",
+          "description": "Patients will receive placebo.",
+          "interventionNames": [
+            "Drug: placebo"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Omalizumab",
+          "description": "subcutaneous injection",
+          "armGroupLabels": [
+            "omalizumab group"
+          ],
+          "otherNames": [
+            "Xolair"
+          ]
+        },
+        {
+          "type": "DRUG",
+          "name": "placebo",
+          "description": "subcutaneous injection",
+          "armGroupLabels": [
+            "placebo"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Tolerance of 2000 mg 6 Weeks After Last Dose of Omalizumab/Placebo",
+          "timeFrame": "6 weeks after last dose of omalizumab/placebo"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Pass 4000 mg OFC 12 Weeks After Last Dose of Omalizumab/Placebo",
+          "timeFrame": "12 weeks after last dose of omalizumab/placebo"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n* Moderate to severe peanut allergy-sensitive subjects between the ages of 7 to 25 years old.\n* Sensitivity to peanut allergen will be documented by a positive skin prick test result (6 mm diameter wheal or greater)\n* ImmunoCAP IgE level to peanut \\> 10 kU/L.\n* Sensitivity to peanut allergen based on a double-blind placebo-controlled oral food challenge (DBPCFC) at maximum of cumulative 175 mg of peanut protein dose.\n\nExclusion Criteria:\n\n* Subjects with a total IgE at screening of \\< 50 kU/L \\> 2,000 kU/L.\n* Positive reaction to the placebo on DBPCFC.\n* Previous reaction to omalizumab.\n* Subjects having a history of severe anaphylaxis to peanut requiring intubation or admission to an ICU, frequent allergic or non-allergic urticaria, or history consistent with poorly controlled persistent asthma, or gastrointestinal or gastroesophageal disease.",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "7 Years",
+      "maximumAge": "25 Years",
+      "stdAges": [
+        "CHILD",
+        "ADULT"
+      ]
+    }
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT02628093",
+      "organization": {
+        "fullName": "Olympus",
+        "class": "INDUSTRY"
+      }
+    },
+    "descriptionModule": {
+      "briefSummary": "The THUNDERBEAT is a multi-functional energy device which delivers both ultrasonic and bipolar energy. The aim of this prospective randomized trial was to compare the clinical performance of the THUNDERBEAT energy device to the Maryland LigaSure device in patients undergoing left laparoscopic colectomy. The study evaluates dissection time to specimen removal, device versatility, and safety outcomes in patients with cancer or diverticulitis.",
+      "detailedDescription": "This study was designed as a pilot prospective randomized trial in a single academic institution involving 60 patients undergoing elective left laparoscopic colectomy for neoplasm or diverticulitis. Subjects were randomized 1:1 into two groups: Group 1 using THUNDERBEAT and Group 2 using Maryland LigaSure. \n\nThe primary outcomes were dissection time to specimen removal (DTSR), defined as the time in minutes from the start of colon mobilization to specimen removal, and a versatility score. The versatility score was a weighted composite of five variables (hemostasis, sealing, cutting, dissection, and tissue manipulation) evaluated across six specific surgical segments. Secondary outcomes included the dryness of the surgical field, surgeon evaluation surveys regarding device handling and satisfaction, and intraoperative and postoperative complications such as bleeding, thermal spread, and recovery parameters. Patients were followed up for 30 days post-surgery."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Colorectal Neoplasms",
+        "Diverticulitis"
+      ],
+      "keywords": [
+        "Laparoscopic Colectomy",
+        "THUNDERBEAT",
+        "LigaSure",
+        "Energy Devices",
+        "Dissection Time",
+        "Versatility Score",
+        "Colorectal Surgery"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "patientRegistry": false,
+      "targetDuration": null,
+      "phases": [
+        "NA"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Group 1 THUNDERBEAT and Group 2 LigaSure",
+        "primaryPurpose": "TREATMENT",
+        "observationalModel": null,
+        "timePerspective": null,
+        "maskingInfo": {
+          "masking": "NONE",
+          "maskingDescription": null,
+          "whoMasked": null
+        }
+      },
+      "enrollmentInfo": {
+        "count": 73,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "Group 1: THUNDERBEAT",
+          "type": "EXPERIMENTAL",
+          "description": "Patients undergoing left laparoscopic colectomy assigned to the group where the THUNDERBEAT energy device is used for dissection and vessel sealing.",
+          "interventionNames": [
+            "THUNDERBEAT"
+          ]
+        },
+        {
+          "label": "Group 2: LigaSure",
+          "type": "ACTIVE_COMPARATOR",
+          "description": "Patients undergoing left laparoscopic colectomy assigned to the group where the Maryland LigaSure energy device is used for dissection and vessel sealing.",
+          "interventionNames": [
+            "Maryland LigaSure"
+          ]
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DEVICE",
+          "name": "THUNDERBEAT",
+          "description": "A multi-functional energy device (5 mm to 35 cm; Olympus, Japan) which delivers simultaneously ultrasonic and bipolar energy. It allows surgeons to seal and safely divide blood vessels up to 7 mm, cut, and dissect omental and mesentery tissue.",
+          "armGroupLabels": [
+            "Group 1: THUNDERBEAT"
+          ]
+        },
+        {
+          "type": "DEVICE",
+          "name": "Maryland LigaSure",
+          "description": "An FDA-approved bipolar electrosurgical device (5 mm to 37 cm; Medtronic, USA) used for tissue dissection and vessel ligation. It consists of the LigaSure device and Generator-Force Triad.",
+          "armGroupLabels": [
+            "Group 2: LigaSure"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Dissection time to specimen removal (DTSR)",
+          "description": "Time measured in minutes from the start of colon mobilization to specimen removal from the abdominal cavity.",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "Versatility score",
+          "description": "Composite of five variables (hemostasis, sealing, cutting, dissection, and tissue manipulation) measured by a score system from 1 to 5 (1 being worst and 5 the best) for each of six specific segments, adjusted/weighted by coefficient of importance.",
+          "timeFrame": "Intraoperative"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Surgeon's instrument evaluation (Ease of use)",
+          "description": "Survey evaluating the surgeon’s opinion on the instrument consisting of 8 questions on a scale from 1 to 10, where a score of 1 is worst and 10 is the best.",
+          "timeFrame": "Immediately after surgery"
+        },
+        {
+          "measure": "Drier surgical field",
+          "description": "Evaluation of the entire surgical field for overall oozing of blood or any other body fluids using a scoring system from 1 to 5.",
+          "timeFrame": "Intraoperative"
+        }
+      ],
+      "otherOutcomes": [
+        {
+          "measure": "Intraoperative complications and instrument performance",
+          "description": "Failure of the energy instruments to control bleeding, complications related to use of the instrument, visible thermal spread.",
+          "timeFrame": "Intraoperative"
+        },
+        {
+          "measure": "Postoperative complications",
+          "description": "Postoperative bleeding requiring intervention, thermal injuries manifestation after surgery, reoperation, readmission.",
+          "timeFrame": "Up to 30 days following surgery"
+        },
+        {
+          "measure": "Length of hospital stay",
+          "description": "Duration of hospital stay from admission to discharge.",
+          "timeFrame": "Through hospital discharge, typically up to 30 days"
+        },
+        {
+          "measure": "Mortality",
+          "description": "Death from any cause.",
+          "timeFrame": "Up to 30 days following surgery"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n- Male and female\n- Age 18 years and above\n- American Society of Anesthesiologists (ASA) class between 1 and 3\n- Undergoing elective left laparoscopic colectomy for neoplasm or diverticulitis\n- Provided research informed consent\n\nExclusion Criteria:\n- Morbid obesity (body mass index, BMI > 35)\n- Multiple previous abdominal surgeries\n- On anticoagulants prior to surgery\n- Coagulopathy disorders\n- Pregnant women\n- Those to whom electrosurgery is contraindicated",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "maximumAge": "N/A",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ],
+      "studyPopulation": null,
+      "samplingMethod": null
+    }
+  }
+}

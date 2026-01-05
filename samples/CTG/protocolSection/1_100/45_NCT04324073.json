@@ -1,0 +1,157 @@
+{
+  "protocolSection": {
+    "identificationModule": {
+      "nctId": "NCT04324073",
+      "orgStudyIdInfo": {
+        "id": "APHP200375-2"
+      },
+      "organization": {
+        "fullName": "Assistance Publique - Hôpitaux de Paris",
+        "class": "OTHER"
+      },
+      "briefTitle": "Cohort Multiple Randomized Controlled Trials Open-label of Immune Modulatory Drugs and Other Treatments in COVID-19 Patients - Sarilumab Trial - CORIMUNO-19 - SARI",
+      "officialTitle": "Cohort Multiple Randomized Controlled Trials Open-label of Immune Modulatory Drugs and Other Treatments in COVID-19 Patients - Sarilumab Trial - CORIMUNO-19 - SARI",
+      "acronym": "CORIMUNO-SARI"
+    },
+    "descriptionModule": {
+      "briefSummary": "The overall objective of the study is to determine the therapeutic effect and tolerance of Sarilumab in patients with moderate, severe pneumonia or critical pneumonia associated with Coronavirus disease 2019 (COVID-19). Sarilumab is a human IgG1 monoclonal antibody that binds specifically to both soluble and membrane-bound IL-6Rs (sIL-6Rα and mIL-6Rα) and has been shown to inhibit IL-6-mediated signaling through these receptors. The study has a cohort multiple Randomized Controlled Trials (cmRCT) design. Randomization will occur prior to offering Sarilumab administration to patients enrolled in the CORIMUNO-19 cohort. Sarilumab will be administered to consenting adult patients hospitalized with COVID-19 either diagnosed with moderate or severe pneumonia requiring no mechanical ventilation or critical pneumonia requiring mechanical ventilation. Patients who will chose not to receive Sarilumab will receive standard of care. Outcomes of Sarilumab-treated patients will be compared with outcomes of standard of care-treated patients as well as with outcomes of patients treated with other immune modulators."
+    },
+    "conditionsModule": {
+      "conditions": [
+        "Corona Virus Infection"
+      ]
+    },
+    "designModule": {
+      "studyType": "INTERVENTIONAL",
+      "phases": [
+        "PHASE2",
+        "PHASE3"
+      ],
+      "designInfo": {
+        "allocation": "RANDOMIZED",
+        "interventionModel": "PARALLEL",
+        "interventionModelDescription": "Bayesian open labelled randomized clinical trial",
+        "primaryPurpose": "TREATMENT",
+        "maskingInfo": {
+          "masking": "NONE"
+        }
+      },
+      "enrollmentInfo": {
+        "count": 239,
+        "type": "ACTUAL"
+      }
+    },
+    "armsInterventionsModule": {
+      "armGroups": [
+        {
+          "label": "SARILUMAB -- Severe COVID population (WHO Clinical Progression Scale =5 at baseline)",
+          "type": "EXPERIMENTAL",
+          "description": "Sarilumab (an IV dose of 400 mg of sarilumab in a 1 hour-infusion at Day 1). Administration of Sarilumab fixed dose on day 3 was recommended and left to the treating physician",
+          "interventionNames": [
+            "Drug: Sarilumab"
+          ]
+        },
+        {
+          "label": "Standard of care -- Severe COVID population (WHO Clinical Progression Scale =5 at baseline)",
+          "type": "NO_INTERVENTION",
+          "description": "Usual care was provided at the discretion of the clinicians"
+        },
+        {
+          "label": "SARILUMAB -- Critical COVID population (WHO Clinical Progression Scale >5 at baseline)",
+          "type": "EXPERIMENTAL",
+          "description": "Sarilumab (an IV dose of 400 mg of sarilumab in a 1 hour-infusion at Day 1). Administration of Sarilumab fixed dose on day 3 was recommended and left to the treating physician",
+          "interventionNames": [
+            "Drug: Sarilumab"
+          ]
+        },
+        {
+          "label": "Standard of care -- Critical COVID population (WHO Clinical Progression Scale >5)",
+          "type": "NO_INTERVENTION",
+          "description": "Usual care was provided at the discretion of the clinicians"
+        }
+      ],
+      "interventions": [
+        {
+          "type": "DRUG",
+          "name": "Sarilumab",
+          "description": "(an IV dose of 400 mg of sarilumab in a 1 hour-infusion at D1",
+          "armGroupLabels": [
+            "SARILUMAB -- Critical COVID population (WHO Clinical Progression Scale >5 at baseline)",
+            "SARILUMAB -- Severe COVID population (WHO Clinical Progression Scale =5 at baseline)"
+          ]
+        }
+      ]
+    },
+    "outcomesModule": {
+      "primaryOutcomes": [
+        {
+          "measure": "Percentage of Participants With WHO Clinical Progression Scale > 5 at Day 4 -- Severe COVID Population (WHO Clinical Progression Scale =5 at Baseline)",
+          "description": "Percentage of participants who has died or needed non-invasive or mechanical ventilation by day 4 (WHO clinical progression scale \\> 5). A patient with new do-not-resuscitate order at day 4 will be considered as with a score \\> 5.\n\nWHO progression scale:\n\nUninfected; non viral RNA detected: 0 Asymptomatic; viral RNA detected: 1 Symptomatic; Independent: 2 Symptomatic; Assistance needed: 3 Hospitalized; No oxygen therapy: 4 Hospitalized; oxygen by mask or nasal prongs: 5 Hospitalized; oxygen by NIV or High flow: 6 Intubation and Mechanical ventilation, pO2/FIO2\\>=150 OR SpO2/FIO2\\>=200: 7 Mechanical ventilation, (pO2/FIO2\\<150 OR SpO2/FIO2\\<200) OR vasopressors (norepinephrine \\>0.3 microg/kg/min): 8 Mechanical ventilation, pO2/FIO2\\<150 AND vasopressors (norepinephrine \\>0.3 microg/kg/min), OR Dialysis OR ECMO: 9 Dead: 10",
+          "timeFrame": "4 days"
+        },
+        {
+          "measure": "Percentage of Participants With Non-invasive Ventilation, Mechanical Ventilation or Death at Day 14 (WHO Clinical Progression Scale =5 at Baseline)",
+          "description": "Survival without needs of ventilator utilization (including non invasive ventilation and high flow) at day 14. Percentage of non-invasive ventilation, mechanical ventilation or death. Thus, events considered are needing ventilator utilization (mechanical or non-invasive ventilation including high flow oxygen), or death. New do-not-resuscitate (DNR) order (if given after the inclusion of the patient) will be considered as an event at the date of the DNR.",
+          "timeFrame": "Day 1 to Day 14"
+        },
+        {
+          "measure": "Percentage of Participants With no Improvement in WHO Clinical Progression Scale at Day 4 -- Critical COVID Population ( WHO Clinical Progression Scale >5 at Baseline)",
+          "description": "Results are presented as the percentage not improved, so that an effective treatment would be associated with a decrease in percentage\n\nScale:\n\nUninfected; non viral RNA detected: 0 Asymptomatic; viral RNA detected: 1 Symptomatic; Independent: 2 Symptomatic; Assistance needed: 3 Hospitalized; No oxygen therapy: 4 Hospitalized; oxygen by mask or nasal prongs: 5 Hospitalized; oxygen by NIV or High flow: 6 Intubation and Mechanical ventilation, pO2/FIO2\\>=150 OR SpO2/FIO2\\>=200: 7 Mechanical ventilation, (pO2/FIO2\\<150 OR SpO2/FIO2\\<200) OR vasopressors (norepinephrine \\>0.3 microg/kg/min): 8 Mechanical ventilation, pO2/FIO2\\<150 AND vasopressors (norepinephrine \\>0.3 microg/kg/min), OR Dialysis OR ECMO: 9",
+          "timeFrame": "4 days"
+        },
+        {
+          "measure": "Cumulative Incidence (Percentage of Participants) With Successful Tracheal Extubation at Day 14 -- Critical COVID Population (WHO Clinical Progression Scale >5 at Baseline)",
+          "description": "Cumulative incidence of successful tracheal extubation (defined as duration extubation \\> 48h) at day 14 if patients have been intubated before day 14 ; or removal of Non Invasive Ventilation or high flow (for \\> 48h) if they were included under oxygen by Non Invasive Ventilation or High flow (score 6) and remained without intubation. Death or new do-not-resuscitate order (if given after the inclusion of the patient) will be considered as a competing event.",
+          "timeFrame": "Day 1 to Day 14"
+        }
+      ],
+      "secondaryOutcomes": [
+        {
+          "measure": "Percentage of Participants Surviving (Overall Survival)",
+          "description": "Percentage of participants surviving at 14, 28 and 90 days",
+          "timeFrame": "14, 28 and 90 days"
+        },
+        {
+          "measure": "WHO Progression Scale",
+          "description": "WHO progression scale:\n\nUninfected; non viral RNA detected: 0 Asymptomatic; viral RNA detected: 1 Symptomatic; Independent: 2 Symptomatic; Assistance needed: 3 Hospitalized; No oxygen therapy: 4 Hospitalized; oxygen by mask or nasal prongs: 5 Hospitalized; oxygen by NIV or High flow: 6 Intubation and Mechanical ventilation, pO2/FIO2\\>=150 OR SpO2/FIO2\\>=200: 7 Mechanical ventilation, (pO2/FIO2\\<150 OR SpO2/FIO2\\<200) OR vasopressors (norepinephrine \\>0.3 microg/kg/min): 8 Mechanical ventilation, pO2/FIO2\\<150 AND vasopressors (norepinephrine \\>0.3 microg/kg/min), OR Dialysis OR ECMO: 9 Dead: 10",
+          "timeFrame": "4, 7 and 14 days"
+        },
+        {
+          "measure": "Mean of Ventilator Free-days at Day 28 -- Critical COVID Population (WHO-clinical Progression Scale >5 at Baseline)",
+          "description": "28-day ventilator free-days",
+          "timeFrame": "28 days"
+        },
+        {
+          "measure": "Cumulative Incidence (Percentage of Participants) of Oxygen Supply Independency",
+          "description": "Time to oxygen supply independency",
+          "timeFrame": "28, 90 days"
+        },
+        {
+          "measure": "Cumulative Incidence (Percentage of Participants) of Discharge From Hospital",
+          "description": "Time to discharge from hospital",
+          "timeFrame": "28, 90 days"
+        },
+        {
+          "measure": "Cumulative Incidence (Percentage of Participants) of Intensive Care Unit Discharge -- Critical COVID Population (WHO Clinical Progression Scale >5 at Baseline)",
+          "description": "Time to discharge from Intensive Care Unit",
+          "timeFrame": "28, 90 days"
+        },
+        {
+          "measure": "PaO2/FiO2 Ratio -- Critical COVID Population (WHO-CPS >5)",
+          "description": "evolution of PaO2/FiO2 ratio PaO2 is partial pressure of arterial oxygen expressed in mmHg. FiO2 is fraction of inspired oxygen (for instance, 0.33 for 33% oxygen) with no units.\n\nPaO2/FiO2 ratio is expressed in mmHg.",
+          "timeFrame": "day 1 to day 14"
+        }
+      ]
+    },
+    "eligibilityModule": {
+      "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients included in the CORIMUNO-19 cohort\n2. Patients belonging to one of the 2 following groups:\n\n   * Group 1: patients not requiring Intensive Care Unit at admission with moderate and severe pneumopathy according to the OMS Criteria of severity of COVID pneumopathy.\n\nModerate cases :\n\nCases meeting all of the following criteria:\n\n* Showing fever and respiratory symptoms with radiological findings of pneumonia.\n* Requiring between 3L/min and 5L/min of oxygen to maintain SpO2 \\>97% Severe cases\n\nCases meeting any of the following criteria:\n\n* Respiratory distress (≧30 breaths/ min);\n* Oxygen saturation≤93% at rest in ambient air; or Oxygen saturation ≤97 % with O2 \\> 5L/min.\n* PaO2/FiO2≦300mmHg\n* Group 2: patients requiring Intensive Care Unit based on Criteria of severity of COVID pneumopathy.\n* Respiratory failure and requiring mechanical ventilation\n* No do-not-resuscitate order (DNR order)\n\nExclusion Criteria:\n\n* Patients with exclusion criteria to the CORIMUNO-19 cohort.\n* Known hypersensitivity to Sarilumab or to any of their excipients.\n* Pregnancy\n* Current documented bacterial infection\n* Patient with any of following laboratory results out of the ranges detailed below at screening should be discussed depending of the medication:\n* Absolute neutrophil count (ANC) ≤ 1.0 x 109/L\n* Haemoglobin level: no limitation\n* Platelets (PLT) \\< 50 G /L\n* SGOT or SGPT \\> 5N",
+      "healthyVolunteers": false,
+      "sex": "ALL",
+      "minimumAge": "18 Years",
+      "stdAges": [
+        "ADULT",
+        "OLDER_ADULT"
+      ]
+    }
+  }
+}

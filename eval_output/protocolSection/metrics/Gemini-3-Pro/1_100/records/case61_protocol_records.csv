@@ -1,0 +1,61 @@
+model,flat_path,key_cat,val_cat,ref_val,pred_val,val_match,sim,score_status,piece,norm_path,from_pred,in_ref,in_pred,type_mismatch,is_enum,sim_failed
+Gemini-3-Pro,protocolSection.identificationModule.nctId,TP,TP,NCT04435795,NCT04435795,True,1.0,exact,NCTId,protocolSection.identificationModule.nctId,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].id,EV,EV,,239123,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].id,EV,EV,,2021-6696,,,,SecondaryId,protocolSection.identificationModule.secondaryIdInfos.id,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].type,EV,EV,,OTHER,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].type,EV,EV,,OTHER,,,,SecondaryIdType,protocolSection.identificationModule.secondaryIdInfos.type,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[0].domain,EV,EV,,Health Canada,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.secondaryIdInfos[1].domain,EV,EV,,McGill University Health Centre,,,,SecondaryIdDomain,protocolSection.identificationModule.secondaryIdInfos.domain,True,False,True,True,False,False
+Gemini-3-Pro,protocolSection.identificationModule.briefTitle,TP,TP,Inhaled Ciclesonide for Outpatients With COVID19,Inhaled Ciclesonide for the Treatment of COVID-19 in Nonhospitalized Adults,True,0.96,success,BriefTitle,protocolSection.identificationModule.briefTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.identificationModule.officialTitle,TP,TP,Ciclesonide Clinical Trial for COVID-19 Treatment,Inhaled and Intranasal Ciclesonide for the Treatment of COVID-19 in Nonhospitalized Adults (CONTAIN),True,0.9,success,OfficialTitle,protocolSection.identificationModule.officialTitle,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.briefSummary,TP,TP,"The CONTAIN (CiclesOnide cliNical TriAl covId-19 treatmeNt) is a randomized control study of ciclesonide vs placebo for mild covid-19 disease. The need for potential therapy for COVID-19 patients is urgent. Ciclesonide has shown encouraging in vitro results, is easy to be used and is readily available. It has a low rate of side effects and few interactions with other drugs. It is unusual to use an inhaled steroid drug for COVID-19 but there has been new data suggesting steroids may have an antiviral effect in addition to an anti-inflammatory effect. Investigators propose to use inhaled and nasal ciclesonide to stop viral replication in the nose and airways. Investigators hope this will accelerate recovery from COVID-19 illness in individuals who are not admitted to hospital at time of diagnosis of COVID-19.","The objective of this study was to determine if inhaled and intranasal ciclesonide are superior to placebo at decreasing respiratory symptoms in adult outpatients with COVID-19. Based on in vitro data showing antiviral activity against SARS-CoV-2 and the known anti-inflammatory effect of ciclesonide, the investigators hypothesized that ciclesonide administered early in the course of COVID-19 could decrease symptom burden in adults presenting with prominent respiratory symptoms.",True,0.94,success,BriefSummary,protocolSection.descriptionModule.briefSummary,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.descriptionModule.detailedDescription,EV,EV,,"This randomized, double-blind, placebo-controlled trial (CONTAIN) enrolled adults aged 18 years and older with polymerase chain reaction confirmed COVID-19, presenting with fever, cough, or dyspnoea. Participants were recruited from Quebec, Ontario, and British Columbia. Participants were randomized in a 1:1 ratio to receive either inhaled ciclesonide (600 μg twice daily) and intranasal ciclesonide (200 μg daily) or metered dose inhaler and nasal saline placebos for 14 days. 
+
+The primary outcome measure was symptom resolution at day 7. Key secondary outcomes included hospital admission or death with COVID-19, symptom resolution at day 14, and improvement in overall feeling. Analyses were conducted on the modified intention-to-treat population (participants who took at least one dose of study drug and completed one follow-up survey) and adjusted for stratified randomization by sex. The trial was stopped early due to expected futility to meet total enrollment targets amidst rising vaccination rates and declining case numbers.",,,,DetailedDescription,protocolSection.descriptionModule.detailedDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.conditions,TP,FP,['COVID 19'],"['COVID-19', 'SARS-CoV-2 Infection']",False,0.0,disjoint,Condition,protocolSection.conditionsModule.conditions,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.conditionsModule.keywords,EV,EV,,"['Ciclesonide', 'Inhaled Corticosteroids', 'Intranasal Corticosteroids', 'Respiratory Symptoms', 'Outpatients', 'Fever', 'Cough', 'Dyspnoea']",,,,Keyword,protocolSection.conditionsModule.keywords,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.studyType,TP,TP,INTERVENTIONAL,INTERVENTIONAL,True,1.0,exact,StudyType,protocolSection.designModule.studyType,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.patientRegistry,EV,EV,,False,,,,PatientRegistry,protocolSection.designModule.patientRegistry,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.phases,TP,FP,"['PHASE2', 'PHASE3']",['NA'],False,0.0,disjoint,Phase,protocolSection.designModule.phases,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.allocation,TP,TP,RANDOMIZED,RANDOMIZED,True,1.0,exact,DesignAllocation,protocolSection.designModule.designInfo.allocation,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModel,TP,FP,FACTORIAL,PARALLEL,False,0.3,success,DesignInterventionModel,protocolSection.designModule.designInfo.interventionModel,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.interventionModelDescription,EV,EV,,Participants were randomly assigned in a 1:1 ratio to receive either inhaled and intranasal ciclesonide or inhaled and intranasal placebo.,,,,DesignInterventionModelDescription,protocolSection.designModule.designInfo.interventionModelDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.masking,TP,TP,TRIPLE,QUADRUPLE,True,0.7,success,DesignMasking,protocolSection.designModule.designInfo.maskingInfo.masking,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,EV,EV,,"Investigators, participants, and statisticians were blinded to treatment allocation.",,,,DesignMaskingDescription,protocolSection.designModule.designInfo.maskingInfo.maskingDescription,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.designModule.designInfo.maskingInfo.whoMasked,TP,FP,"['PARTICIPANT', 'CARE_PROVIDER', 'INVESTIGATOR']","['PARTICIPANT', 'INVESTIGATOR', 'OUTCOMES_ASSESSOR']",False,0.6666666666666666,partial,DesignWhoMasked,protocolSection.designModule.designInfo.maskingInfo.whoMasked,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.designModule.enrollmentInfo.count,TP,TP,215,215,True,1.0,exact,EnrollmentCount,protocolSection.designModule.enrollmentInfo.count,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[8].measure,EV,EV,,Adverse events,,,,SecondaryOutcomeMeasure,protocolSection.outcomesModule.secondaryOutcomes.measure,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[8].description,EV,EV,,"Collection of open ended free text questions about perceived side effects as well as specific questions about the presence of thrush, throat irritation, voice change, wheeze, nausea, and headache.",,,,SecondaryOutcomeDescription,protocolSection.outcomesModule.secondaryOutcomes.description,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.outcomesModule.secondaryOutcomes[8].timeFrame,EV,EV,,Up to Day 14,,,,SecondaryOutcomeTimeFrame,protocolSection.outcomesModule.secondaryOutcomes.timeFrame,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.eligibilityCriteria,TP,TP,"Inclusion Criteria:
+
+Symptomatic adult patients positive by PCR for COVID-19 within 5 days of enrollment with fever, cough, or shortness of breath. Provision of Informed Consent
+
+At day 0, patients should be at home
+
+Exclusion Criteria:
+
+* Already on inhaled corticosteroid medication
+* Currently using systemic steroids (oral or intravenous or intramuscular such as Prednisone) or use of steroids 7 days prior to enrolment
+* Severely ill patients at enrollment (i.e., admitted to ICU at admission)
+* Unable to self-administer the inhaler
+* Known or suspected pregnancy and breastfeeding
+* Known allergy to study medication or its components (non-medicinal ingredients; including lactose allergy (type I))
+* Patients with untreated fungal, bacterial, or tubercular infections of the respiratory tract
+* Current hospitalization
+* Current use of oxygen at home or in the hospital","Inclusion Criteria:
+- Adults aged 18 years and older
+- Polymerase chain reaction confirmed covid-19 at enrolment
+- Presenting with at least one of the symptoms of fever, cough (wet or dry), or shortness of breath (including dyspnoea, chest congestion, or chest tightness as synonyms)
+- Symptom duration within five to six days
+
+Exclusion Criteria:
+- Admitted to hospital
+- Had only non-respiratory symptoms (eg, nasal congestion, myalgias, or gastrointestinal symptoms)
+- Had already been prescribed an inhaled steroid
+- Vaccinated participants (excluded after 28 January 2021)",True,0.86,success,EligibilityCriteria,protocolSection.eligibilityModule.eligibilityCriteria,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.healthyVolunteers,TP,TP,False,False,True,1.0,exact,HealthyVolunteers,protocolSection.eligibilityModule.healthyVolunteers,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.sex,TP,TP,ALL,ALL,True,1.0,exact,Sex,protocolSection.eligibilityModule.sex,False,True,True,False,True,False
+Gemini-3-Pro,protocolSection.eligibilityModule.minimumAge,TP,TP,18 Years,18 Years,True,1.0,exact,MinimumAge,protocolSection.eligibilityModule.minimumAge,False,True,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.maximumAge,EV,EV,,N/A,,,,MaximumAge,protocolSection.eligibilityModule.maximumAge,True,False,True,False,False,False
+Gemini-3-Pro,protocolSection.eligibilityModule.stdAges,TP,TP,"['ADULT', 'OLDER_ADULT']","['ADULT', 'OLDER_ADULT']",True,1.0,exact,StdAge,protocolSection.eligibilityModule.stdAges,False,True,True,False,True,False
