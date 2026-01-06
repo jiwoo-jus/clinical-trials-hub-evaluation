@@ -2,6 +2,9 @@
 
 This repository contains a complete pipeline for extracting structured information from PubMed Central (PMC) full-text articles and evaluating the extraction against ClinicalTrials.gov ground truth data. The pipeline extracts clinical trial information following the ClinicalTrials.gov schema using large language models (LLMs).
 
+> **Note:** The main Clinical Trials Hub system implementation is maintained separately at  
+> https://github.com/jiwoo-jus/clinical-trials-hub
+
 ## Overview
 
 The pipeline consists of six sequential stages:
